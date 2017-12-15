@@ -92,7 +92,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
 		"PU" = character(0),
 		"PY" = character(0),
 		"RI" = character(0),  # NEW field code for Thomson-Reuters ResearcherID
-	  "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID Older searchers will have RID, not RI
+	  "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
 	  "OI"= character(0),   # New field code for ORCID ID (added EB Jan 2017)
 	  "PM"= character(0),   # Pubmed ID Number (added by EB 3 dec 2017)
 	  "RP" = character(0),
@@ -499,27 +499,27 @@ read_authors <- function(references, filename_root="") {
 				authors[i,"OI"] <- oid_match
 			}
 			
-			
-			# Copied the above for RID (by EB)
-			
-			if (!is.na(RID[1])) {
-			  Similarity <- 0
-			  oid_match <- ""
-			  
-			  for (oid in 1:length(RID)) {
-			    ##	More sophisticated similarity measures could be devised here
-			    ##		but we'll use a canned distance composite from the 
-			    ##		RecordLinkage package:
-			    newSimilarity <- jarowinkler(RID[oid], authors[i,"AF"])
-			    
-			    if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
-			      Similarity <- newSimilarity
-			      oid_match <- RID[oid]
-			    }
-			  }
-			  authors[i,"RID"] <- oid_match
-			}
-			
+			# 
+			# # Copied the above for RID (by EB) BUT COMMENTED OUT LATER L:OOKS LIKE UNECESSARY
+			# 
+			# if (!is.na(RID[1])) {
+			#   Similarity <- 0
+			#   oid_match <- ""
+			#   
+			#   for (oid in 1:length(RID)) {
+			#     ##	More sophisticated similarity measures could be devised here
+			#     ##		but we'll use a canned distance composite from the 
+			#     ##		RecordLinkage package:
+			#     newSimilarity <- jarowinkler(RID[oid], authors[i,"AF"])
+			#     
+			#     if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
+			#       Similarity <- newSimilarity
+			#       oid_match <- RID[oid]
+			#     }
+			#   }
+			#   authors[i,"RID"] <- oid_match
+			# }
+			# 
 			##	Country is no longer stored with an author, we'll pull it during
 			##		analyses from any existing addresses attached to the author
 			##		record for with he authors__references link:
