@@ -1,0 +1,10 @@
+Package: refnet
+Type: Package
+Title: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools
+Version: 0.6
+Date: 2012-10-24
+Author: Forrest R. Stevens (University of Florida)
+Maintainer: Forrest R. Stevens <forrest@ufl.edu>
+Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
+License: GPL-3
+Depends: maptools, maps, rworldmap, RecordLinkage, Matrix, plyr, igraph, network, sna, Hmisc, reshape2, ggplot2
