@@ -26,10 +26,11 @@ library(stringr)
 # This installs the package from the "proposed-updates" branch 
 # Trying to figure out the correct syntax for dfoing this:
 # devtools::install_github("embruna/refnet/pkg@proposed-updates") # OR can do like this
-devtools::install_github("embruna/refnet2", subdir = "refnet")  ###I THINK THIS IS CORRECT, YES?
 
+# how to install 'refnet' 
+#devtools::install_github("embruna/refnet2", subdir = "refnet")  ###I THINK THIS IS CORRECT, YES?
+library(refnet)
 
-require(refnet)
 # to check can run read_references
 # uncomment the following line to see what code is being read in.
 # read_references 

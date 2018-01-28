@@ -654,13 +654,10 @@ remove_duplicates <- function(authors, authors__references,
 
 	##	Next we will iterate over the unique values of the AU_ID_Dupe field and create a single record for each set of duplicates:
 	
-	i <- 1
-
 uni_AU_ID_Dupe <- na.omit(unique(authors[,"AU_ID_Dupe"]))
 	
 	for (i in 1:length(uni_AU_ID_Dupe)) {
 AU_ID_Dupe <- uni_AU_ID_Dupe[i]
-	  
 		##	Also have to check here to pull all tagged with the same AU_ID_Dupe
 		##		and the original AU_ID matching it!
 		authors_dupes <- authors[ (!is.na(authors$AU_ID_Dupe) &
@@ -676,22 +673,23 @@ AU_ID_Dupe <- uni_AU_ID_Dupe[i]
 		RP <- character(0)
 
 		for (j in 1:length(authors_dupes$AU_ID)) {
+		  for(k in 1:length(authors_removed$AU_ID)){
 			##	Take the longest author name with first name:
 			if (nchar(authors_dupes[j, "AF"]) > 
-			    nchar(authors_removed[i, "AF"])) {
-				authors_removed[i, "AF"] <- authors_dupes[j, "AF"]
+			    nchar(authors_removed[k, "AF"])) {
+				authors_removed[k, "AF"] <- authors_dupes[j, "AF"]
 			} # if statement
 
 			##	Take the longest author name with initials:
 			if (nchar(authors_dupes[j, "AU"]) > 
-			    nchar(authors_removed[i, "AU"])) {
-				authors_removed[i, "AU"] <- authors_dupes[j, "AU"]
+			    nchar(authors_removed[k, "AU"])) {
+				authors_removed[k, "AU"] <- authors_dupes[j, "AU"]
 			} # if statement
 			
 			##	Take the longest Researcher ID:
 			if (nchar(authors_dupes[j, "RI"]) > 
-			    nchar(authors_removed[i, "RI"])) {
-				authors_removed[i, "RI"] <- authors_dupes[j, "RI"]
+			    nchar(authors_removed[k, "RI"])) {
+				authors_removed[k, "RI"] <- authors_dupes[j, "RI"]
 			} # if statement
 
 			##	Append all addresses together and we'll check for and remove
@@ -720,16 +718,22 @@ AU_ID_Dupe <- uni_AU_ID_Dupe[i]
 				              authors_dupes[j, "AU_ID"]), 
 				           "AU_ID"] <- AU_ID_Dupe
 			}# if statement
-		} # j for loop
+			
+			
+			authors_removed[k,"EM"] <- paste0(EM, collapse="\n")
+			authors_removed[k,"C1"] <- paste0(C1, collapse="\n")
+			authors_removed[k,"RP"] <- paste0(RP, collapse="\n")
+			
+			
+		  } # k for loop
+			} # j for loop
 
 		##	Remove any duplicates from EM, C1 and RP records:
 		EM <- unique(EM)
 		C1 <- unique(C1)
 		RP <- unique(RP)
 
-		authors_removed[i,"EM"] <- paste0(EM, collapse="\n")
-		authors_removed[i,"C1"] <- paste0(C1, collapse="\n")
-		authors_removed[i,"RP"] <- paste0(RP, collapse="\n")
+
 	} # AU_ID_Dupe for loop 
 	
 	
@@ -766,7 +770,15 @@ AU_ID_Dupe <- uni_AU_ID_Dupe[i]
 #' @param filename_root the filename root, can include relative or absolute
 #'   path and will be appended to output file names function will be saved
 
-merge_records <- function(references, authors, authors__references, addresses="", references_merge, authors_merge, authors__references_merge, addresses_merge="", filename_root = "") {
+merge_records <- function(references, 
+                          authors, 
+                          authors__references, 
+                          addresses="", 
+                          references_merge, 
+                          authors_merge, 
+                          authors__references_merge, 
+                          addresses_merge="", 
+                          filename_root = "") {
 	##	For testing:
 	#references <- brazil_references
 	#authors <- brazil_authors
