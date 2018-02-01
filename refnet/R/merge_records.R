@@ -8,31 +8,31 @@
 #' 
 #' @param references references data.frame to merge to
 #' @param authors authors data.frame to merge to
-#' @param authors__references authors__references data.frame to merge to
+#' @param authors_references authors_references data.frame to merge to
 #' @param addresses optional addresses data.frame to merge to, if you only have addresses from the second set then they will be retained
 #' @param references_merge references data.frame to merge with references argument
 #' @param authors_merge authors data.frame to merge with authors argument
-#' @param authors__references_merge authors__references data.frame to merge with 
+#' @param authors_references_merge authors_references data.frame to merge with 
 #' @param addresses_merge optional addresses data.frame to merge with
 #' @param filename_root the filename root, can include relative or absolute
 #'   path and will be appended to output file names function will be saved
 
 merge_records <- function(references, 
                           authors, 
-                          authors__references, 
+                          authors_references, 
                           addresses="", 
                           references_merge, 
                           authors_merge, 
-                          authors__references_merge, 
+                          authors_references_merge, 
                           addresses_merge="", 
                           filename_root = "") {
   ##	For testing:
   #references <- brazil_references
   #authors <- brazil_authors
-  #authors__references <- brazil_authors__references
+  #authors_references <- brazil_authors_references
   #references_merge <- ecuador_references
   #authors_merge <- ecuador_authors
-  #authors__references_merge <- ecuador_authors__references
+  #authors_references_merge <- ecuador_authors_references
   
   ##	First we merge references lists, making sure that we have no duplicates
   ##		to mess with:
@@ -48,17 +48,32 @@ merge_records <- function(references,
     references_merge <- references_merge[!remove_indices,]
     
     ##	Remove the links matching those references that were removed:
-    authors__references_merge <- authors__references_merge[!(authors__references_merge$UT %in% UT),]
+#    authors_references_merge <- authors_references_merge[!(authors_references_merge$UT %in% UT),]
+    
+    authors_references_merge <- authors_references_merge %>% 
+                                    filter(!(UT %in% UT))
     
     ##	Remove any authors from this list that no longer have records in
     ##		the link table:
-    linked <- merge(x=authors_merge, y=authors__references_merge, by.x="AU_ID", by.y="AU_ID", all.x=TRUE, all.y=FALSE)
+    linked <- full_join(authors_merge, 
+                        authors_references_merge, 
+                        by="AU_ID")
     
-    remove_ids <- linked$AU_ID[ is.na(linked$UT) ]
-    authors_merge <- authors_merge[ authors_merge$AU_ID %in% remove_ids, ]
+#    remove_ids <- linked$AU_ID[ is.na(linked$UT) ]
+    remove_ids <- linked %>%
+                      filter(is.na(UT)) %>%
+                      select(AU_ID)
     
+#    authors_merge <- authors_merge[ authors_merge$AU_ID %in% 
+                                      remove_ids, ]
+      authors_merge <- authors_merge %>%
+                          filter(AU_ID %in% remove_ids)
+      
     if (addresses_merge != "") {
-      addresses_merge <- addresses_merge[ addresses_merge$AU_ID %in% remove_ids, ]
+#      addresses_merge <- addresses_merge[ addresses_merge$AU_ID %in% 
+#                                            remove_ids, ]
+      addresses_merge <- addresses_merge %>%
+                            filter(AU_ID %in% remove_ids)
     }
   }
   
@@ -67,24 +82,42 @@ merge_records <- function(references,
   for (aut in 1:length(authors_merge$AU_ID)) {
     while (sum(authors_merge[aut, "AU_ID"] %in% authors$AU_ID) > 0) {
       AU_ID_old <- authors_merge[aut, "AU_ID"]
-      ID_num <- gsub(".*_([0-9]+)$", "\\1", AU_ID_old)
+      
+      ID_num <- gsub(".*_([0-9]+)$", 
+                     "\\1", AU_ID_old)
+      
       ID_num <- as.numeric(ID_num) + 1
-      AU_ID_new <- gsub("(.*_)[0-9]+$", paste("\\1", ID_num, sep=""), AU_ID_old)
+      
+      AU_ID_new <- gsub("(.*_)[0-9]+$", 
+                        paste("\\1", ID_num, sep=""),
+                        AU_ID_old)
       ##	Now check to make sure we aren't overwriting an existing AU_ID
       ##		in the authors_merge table:
       while (sum(authors_merge$AU_ID == AU_ID_new) > 0) {
-        ID_num <- gsub(".*_([0-9]+)$", "\\1", AU_ID_new)
+        ID_num <- gsub(".*_([0-9]+)$", 
+                       "\\1", AU_ID_new)
+        
         ID_num <- as.numeric(ID_num) + 1
-        AU_ID_new <- gsub("(.*_)[0-9]+$", paste("\\1", ID_num, sep=""), AU_ID_new)
+        
+        AU_ID_new <- gsub("(.*_)[0-9]+$", 
+                          paste("\\1", ID_num, sep=""),
+                          AU_ID_new)
       }
       
       authors_merge[aut, "AU_ID"] <- AU_ID_new
-      authors__references_merge[ authors__references_merge$AU_ID == AU_ID_old, "AU_ID"] <- AU_ID_new
+#      authors_references_merge[ authors_references_merge$AU_ID==AU_ID_old,
+#                                "AU_ID"] <- AU_ID_new
+      authors_references_merge <- authors_references_merge %>%
+                                  mutate(AU_ID = ifelse(AU_ID==AU_ID_old),
+                                        AU_ID_new, AU_ID)
       
       ##	And if we have addresses replaced old AU_ID values with the new:
       if (addresses_merge != "") {
-        addresses_merge[ addresses_merge$AU_ID == AU_ID_old, "AU_ID"] <- AU_ID_new
-      }
+#        addresses_merge[ addresses_merge$AU_ID == AU_ID_old, "AU_ID"] <- AU_ID_new
+        addresses_merge <- addresses_merge %>%
+                            mutate(AU_ID = ifelse(AU_ID==AU_ID_old,
+                                                  AU_ID_new, AU_ID))
+              }
       
       ##	Return to the top to check to see if we've found a unique AU_ID
       ##		with the authors table...
@@ -92,14 +125,17 @@ merge_records <- function(references,
   }
   
   ##	Now we can merge all of the tables:
-  references <- rbind(references, references_merge)
-  authors <- rbind(authors, authors_merge)
-  authors__references <- rbind(authors__references, authors__references_merge)
+  references <- bind_rows(references, references_merge)
+  
+  authors <- bind_rows(authors, authors_merge)
+  
+  authors_references <- bind_rows(authors_references, 
+                                  authors_references_merge)
   if (addresses_merge != "") {
     if (addresses == "") {
       addresses <- addresses_merge
     } else {
-      addresses <- rbind(addresses, addresses_merge)
+      addresses <- bind_rows(addresses, addresses_merge)
     }
     
   }
@@ -137,12 +173,22 @@ merge_records <- function(references,
   
   
   if(filename_root != "") {
-    write.csv(references, file=paste(filename_root, "_references.csv", sep=""), row.names=FALSE)
-    write.csv(authors, file=paste(filename_root, "_authors.csv", sep=""), row.names=FALSE)
-    write.csv(authors__references, file=paste(filename_root, "_authors__references.csv", sep=""), row.names=FALSE)
+    write.csv(references, 
+              file=paste(filename_root, "_references.csv", sep=""), 
+              row.names=FALSE)
+    
+    write.csv(authors, 
+              file=paste(filename_root, "_authors.csv", sep=""), 
+              row.names=FALSE)
+    
+    write.csv(authors_references, 
+              file=paste(filename_root, "_authors_references.csv", sep=""),
+              row.names=FALSE)
   }            
   
-  return(list("references"=references, "authors"=authors, "authors__references"=authors__references))
+  return(list("references"=references, 
+              "authors"=authors, 
+              "authors_references"=authors_references))
 }
 
 ##	END: merge_records():

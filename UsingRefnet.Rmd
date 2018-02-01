@@ -3,7 +3,7 @@ title: "UsingRefnet"
 output: html_document
 ---
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 library(devtools)
 library(tidyverse)
 library(stringr)
@@ -36,7 +36,7 @@ devtools::install_github("embruna/refnet2", subdir = "refnet")
 
 You only need to run the above code one time, then the package is installed and can be loaded like below. 
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(refnet)
 ```
 
@@ -68,12 +68,8 @@ ecuador_references <- read_references("./data/Ecuador.txt",
                                       dir=FALSE, 
                                       filename_root="./output/ecuador")
 
-output <- read_authors(ecuador_references, 
+ecuador <- read_authors(ecuador_references, 
                        filename_root="./output/ecuador")
-
-ecuador_authors <- output$authors
-
-ecuador_authors__references <- output$authors__references
 ```
 
 ```{r ecuador2read}
@@ -81,12 +77,8 @@ ecuador2_references <- read_references("./data/Ecuador_0114.txt",
                                        dir=FALSE, 
                                        filename_root="./output/ecuador2")
 
-output <- read_authors(ecuador2_references, 
+ecuador2 <- read_authors(ecuador2_references, 
                        filename_root="./output/ecuador2")
-
-ecuador2_authors <- output$authors
-
-ecuador2_authors__references <- output$authors__references
 ```
 
 ```{r eb_referencesread}
@@ -94,12 +86,8 @@ eb_references <- read_references("./data/EBpubs.txt",
                                  dir=FALSE, 
                                  filename_root="./output/eb")
 
-output <- read_authors(eb_references,
+eb <- read_authors(eb_references,
                        filename_root="./output/eb")
-
-eb_authors <- output$authors
-
-eb_authors__references <- output$authors__references
 ```
 
 ```{r peru_referencesread}
@@ -107,12 +95,8 @@ peru_references <- read_references("./data/Peru.txt",
                                    dir=FALSE, 
                                    filename_root="./output/peru")
 
-output <- read_authors(peru_references, 
+peru <- read_authors(peru_references, 
                        filename_root="./output/peru")
-
-peru_authors <- output$authors
-
-peru_authors__references <- output$authors__references
 ```
 
 ```{r ecology_referencesread}
@@ -120,12 +104,9 @@ ecology_references <- read_references("./data/Ecology.txt",
                                       dir=FALSE, 
                                       filename_root="./output/ecology")
 
-output <- read_authors(ecology_references, 
+ecology <- read_authors(ecology_references, 
                        filename_root="./output/ecology")
 
-ecology_authors <- output$authors
-
-ecology_authors__references <- output$authors__references
 ```
 
  
@@ -177,18 +158,6 @@ After doing so you can read these back into R using the following, or if you're 
 
 Can be read back in without importing from the following three commands:
 
-```{r}
-eb_references <- read.csv("output/eb_references.csv", 
-                          as.is=TRUE)
-
-eb_authors <- read.csv("output/eb_authors.csv", 
-                       as.is=TRUE)
-
-eb_authors__references <- read.csv("output/eb_authors__references.csv", 
-                                   as.is=TRUE)
-```
-
-
 ##	Calculate the percentage of author records without contact information:
 
 ```{r}
@@ -208,56 +177,38 @@ sum(eb_authors$C1 == "" | is.na(eb_authors$C1))/
 Let's remove duplicates from our presumably updated and corrected author lists:
 
 ```{r}
-output <- remove_duplicates(authors=ecuador_authors,
-            authors__references=ecuador_authors__references,
+ecuador_no_dupes <- remove_duplicates(authors=ecuador_authors,
+            authors_references=ecuador_authors_references,
             filename_root="output/ecuador_nodupe")
 ```
 
 ```{r}
-ecuador_authors <- output$authors
-
-ecuador_authors__references <- output$authors__references
-```
-
-```{r}
-output <- remove_duplicates(authors=ecuador2_authors,
-                            authors__references=ecuador2_authors__references,
+ecuador2_no_dupes <- remove_duplicates(authors=ecuador2_authors,
+                            authors_references=ecuador2_authors_references,
                             filename_root="output/ecuador2_nodupe")
-
-ecuador2_authors <- output$authors
-
-ecuador2_authors__references <- output$authors__references
 ```
 
 ```{r}
-output <- remove_duplicates(authors=peru_authors,
-                            authors__references=peru_authors__references,
+peru <- remove_duplicates(authors=peru$authors,
+                            authors_references=peru$authors_references,
                             filename_root="output/peru_nodupe")
-
-peru_authors <- output$authors
-
-peru_authors__references <- output$authors__references
 ```
 
 ```{r}
-output <- remove_duplicates(authors=eb_authors, 
-                            authors__references=eb_authors__references,
+eb <- remove_duplicates(authors=eb$authors, 
+                            authors_references=eb$authors_references,
                             filename_root="output/eb_nodupe")
-
-eb_authors <- output$authors
-
-eb_authors__references <- output$authors__references
 ```
 
 Now let's merge references, authors, and authors__references:
 ```{r}
 output <- merge_records(
-	references=ecuador_references, 
-	authors=ecuador_authors, 
-	authors__references=ecuador_authors__references, 
-	references_merge=ecuador2_references, 
-	authors_merge=ecuador2_authors, 
-	authors__references_merge=ecuador2_authors__references,
+	references=ecuador_no_dupes$references, 
+	authors=ecuador_no_dupes$authors, 
+	authors__references=ecuador_authors_references, 
+	references_merge=ecuador2_no_dupes$references, 
+	authors_merge=ecuador2_no_dupes$authors, 
+	authors__references_merge=ecuador2_no_dupes$authors_references,
 	#references_merge=peru_references, 
 	#authors_merge=peru_authors, 
 	#authors__references_merge=peru_authors__references,
@@ -299,36 +250,56 @@ authors_working <- merged_authors
 Process a single address at a time:
 
 ```{r}
-refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], "type"="RP", "address"=authors_working$RP[1], stringsAsFactors=FALSE))
-refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[2], "type"="RP", "address"=authors_working$RP[2], stringsAsFactors=FALSE), verbose=TRUE)
+refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], 
+                          "type"="RP", 
+                          "address"=authors_working$RP[1],
+                          stringsAsFactors=FALSE))
+
+refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[2], 
+                          "type"="RP", 
+                          "address"=authors_working$RP[2],
+                          stringsAsFactors=FALSE), verbose=TRUE)
 ```
 
 Process a group of addresses:
 
 ```{r}
-read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10], "type"="RP", "address"=authors_working$RP[1:10], stringsAsFactors=FALSE), verbose=TRUE)
+read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10],
+                          "type"="RP", 
+                          "address"=authors_working$RP[1:10],
+                          stringsAsFactors=FALSE), verbose=TRUE)
 ```
 
 Sample using the first C1 address listed for the first 1000 authors, keyed by author so we can join it back:
 NOTE:  The string "NA" does get translated to a point so we'll remove it before passing it along:
 
 ```{r}
-address_list_working <- sapply(strsplit(authors_working$C1[1:1000], "\n"), FUN=function(x) { return(x[1]) })
-address_list_working_au_id <- authors_working$AU_ID[1:1000][!is.na(address_list_working)]
-address_list_working <- address_list_working[!is.na(address_list_working)]
+address_list_working <- sapply(strsplit(authors_working$C1,
+                                        "\n"),
+                               FUN=function(x) { return(x[1]) })
+
+address_list_working_au_id <- authors_working$AU_ID
 ```
 
 Let's try to strip off any institutional references which may complicate geocoding:
 
 ```{r}
-address_list_working <- gsub("^.* (.*,.*,.*)$", "\\1", address_list_working)
-address_list_working <- gsub("[. ]*$", "", address_list_working)
+address_list_working <- gsub("^.* (.*,.*,.*)$", "\\1", 
+                             address_list_working)
+
+address_list_working <- gsub("[. ]*$", "", 
+                             address_list_working)
 ```
 
 Use the full list to create addresses from the C1 records:
 
 ```{r}
-addresses_working <- read_addresses(data.frame("id"=address_list_working_au_id, "type"="C1", "address"=address_list_working, stringsAsFactors=FALSE), filename_root="output/merged_nodupe_addresses_C1_first1000")
+addresses_working <- read_addresses(
+  data.frame("id"=address_list_working_au_id,
+           "type"="C1",
+           "address"=address_list_working,
+           stringsAsFactors=FALSE),
+  filename_root="output/merged_nodupe_addresses_C1_first1000")
 #addresses_working <- read.csv("output/merged_nodupe_addresses_C1_first1000_addresses.csv")
 ```
 

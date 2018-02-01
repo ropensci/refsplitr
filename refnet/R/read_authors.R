@@ -30,7 +30,7 @@ read_authors <- function(references, filename_root="") {
     stringsAsFactors=FALSE
   )
   
-  authors__references <- data.frame(
+  authors_references <- data.frame(
     "AU_ID" = character(0),
     "UT" = character(0),
     "C1" = character(0),
@@ -64,17 +64,21 @@ read_authors <- function(references, filename_root="") {
     ##		breaks and is "; " delimited.  So we have to clean the line
     ##		a bit to start:
     references[ref,]$EM <- gsub(" ", "", references[ref,]$EM)
+    
     references[ref,]$EM <- gsub(";", "\n", references[ref,]$EM)
+    
     authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
     
     ##	Process contact addresses, the first will be the C1 value
     ##		itself, the second is the address without the names, stripped:
     C1 <- unlist(strsplit(references[ref,]$C1, "\n")) 
+    
     C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)  #This remives the [author 1, author 2, author 3] and leaves just the address.
     
     ##	Process reprint author address, the first will be the RP value
     ##		itself, the second is the address without the name, stripped:
     RP <- unlist(strsplit(references[ref,]$RP, "\n"))
+    
     RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
     
     ##	Process author Researcher ID fields:
@@ -85,9 +89,13 @@ read_authors <- function(references, filename_root="") {
     # for processing that field to get the spacing along which to split the string right.
     
     references[ref,]$RI <- gsub(" ", "", references[ref,]$RI, fixed=TRUE)
+    
     references[ref,]$RI <- gsub("\n"," ", references[ref,]$RI, fixed=TRUE)
+    
     references[ref,]$RI <- gsub("; ", ";", references[ref,]$RI, fixed=TRUE)
+    
     references[ref,]$RI <- trimws(references[ref,]$RI,which = "both")
+    
     RI <- unlist(strsplit(references[ref,]$RI, ";"))  
     
     ## Process author ORCID ID fields to add to the *_authors.csv file (Added by EMB 2 dec 2017)
@@ -97,14 +105,15 @@ read_authors <- function(references, filename_root="") {
     # for processing that field to get the spacing along which to split the string right.
     #
     references[ref,]$OI <- gsub(" ", "", references[ref,]$OI, fixed=TRUE)
+    
     references[ref,]$OI <- gsub("\n"," ", references[ref,]$OI, fixed=TRUE)
+    
     references[ref,]$OI <- gsub("; ", ";", references[ref,]$OI, fixed=TRUE)
+    
     references[ref,]$OI <- trimws(references[ref,]$OI,which = "both")
+    
     OI <- unlist(strsplit(references[ref,]$OI, ";"))  
     ########################################################
-    
-    
-    
     
     ##	Now add all authors to our author_list and author_refdata_link 
     ##		tables:
@@ -118,9 +127,11 @@ read_authors <- function(references, filename_root="") {
       ##	Eventually, we probably want to use a numeric primary key for
       ##		both AU_ID and for the reference (instead of UT), but for
       ##		now let's keep it this way:
-      authors[i,"AU_ID"] <- paste(authors_AU[aut], "_", (ID_sum + 1), sep="")
+      authors[i,"AU_ID"] <- paste(authors_AU[aut], "_", 
+                                  (ID_sum + 1), sep="")
       
       authors[i,"AU"] <- authors_AU[aut]
+      
       authors[i,"AF"] <- authors_AF[aut]
       
       authors[i,"EM"] <- ""
@@ -129,55 +140,72 @@ read_authors <- function(references, filename_root="") {
       ##		individual authors, there is not a one-to-one relationship:
       if (!is.na(authors_EM[1])) {
         Similarity <- 0
+        
         em_match <- ""
         
         for (emid in 1:length(authors_EM)) {
           ##	More sophisticated similarity measures could be devised here
           ##		but we'll use a canned distance composite from the 
           ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(authors_EM[emid], authors[i,"AU"])
+          newSimilarity <- jarowinkler(authors_EM[emid], 
+                                       authors[i,"AU"])
           
-          if ( (newSimilarity > 0.6) & (newSimilarity > Similarity) ) {
+          if ( (newSimilarity > 0.6) & 
+               (newSimilarity > Similarity) ) {
             Similarity <- newSimilarity
+            
             em_match <- authors_EM[emid]
           }
         }
         authors[i,"EM"] <- em_match
       }
       
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ], collapse="\n")
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ], collapse="\n")
+      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+                                collapse="\n")
+      
+      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+                                collapse="\n")
       ##	For first authors, and the case where names are not listed with 
       ##		multiple C1 addresses, pull the first one:
-      if (authors[i,"C1"] == "" & (length(C1_address) == 1 | aut == 1)) {
+      if (authors[i,"C1"] == "" & 
+          (length(C1_address) == 1 | aut == 1)) {
+        
         authors[i,"C1"] <- C1_address[1]
+        
       }
       
-      authors[i,"RP"] <- paste0(RP_address[ grep(authors_AU[aut], RP) ], collapse="\n")
+      authors[i,"RP"] <- paste0(RP_address[grep(authors_AU[aut], RP) ],
+                                collapse="\n")
       
       authors[i,"RID"] <- ""# Added EB
-      authors[i,"RI"] <- ""
-      authors[i,"OI"] <- "" # Added EB
       
+      authors[i,"RI"] <- ""
+      
+      authors[i,"OI"] <- "" # Added EB
       
       ##	If we have Researcher ID information, we'll try to match it to
       ##		individual authors:
-      
       
       ##	If we have Researcher ID information, we'll try to match it to
       ##		individual authors:
       if (!is.na(RI[1])) {
+        
         Similarity <- 0
+        
         rid_match <- ""
         
         for (rid in 1:length(RI)) {
           ##	More sophisticated similarity measures could be devised here
           ##		but we'll use a canned distance composite from the 
           ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(RI[rid], authors[i,"AF"])
+          newSimilarity <- jarowinkler(RI[rid], 
+                                       authors[i,"AF"])
           
-          if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
+          if ( (newSimilarity > 0.8) & 
+               (newSimilarity > Similarity) ) {
+            
             Similarity <- newSimilarity
+            
             rid_match <- RI[rid]
           }
         }
@@ -195,91 +223,37 @@ read_authors <- function(references, filename_root="") {
           ##	More sophisticated similarity measures could be devised here
           ##		but we'll use a canned distance composite from the 
           ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(OI[oid], authors[i,"AF"])
+          newSimilarity <- jarowinkler(OI[oid], 
+                                       authors[i,"AF"])
           
-          if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
+          if ( (newSimilarity > 0.8) & 
+               (newSimilarity > Similarity) ) {
+            
             Similarity <- newSimilarity
+            
             oid_match <- OI[oid]
           }
         }
         authors[i,"OI"] <- oid_match
       }
       
-      # 
-      # # Copied the above for RID (by EB) BUT COMMENTED OUT LATER L:OOKS LIKE UNECESSARY
-      # 
-      # if (!is.na(RID[1])) {
-      #   Similarity <- 0
-      #   oid_match <- ""
-      #   
-      #   for (oid in 1:length(RID)) {
-      #     ##	More sophisticated similarity measures could be devised here
-      #     ##		but we'll use a canned distance composite from the 
-      #     ##		RecordLinkage package:
-      #     newSimilarity <- jarowinkler(RID[oid], authors[i,"AF"])
-      #     
-      #     if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
-      #       Similarity <- newSimilarity
-      #       oid_match <- RID[oid]
-      #     }
-      #   }
-      #   authors[i,"RID"] <- oid_match
-      # }
-      # 
-      ##	Country is no longer stored with an author, we'll pull it during
-      ##		analyses from any existing addresses attached to the author
-      ##		record for with he authors__references link:
+      authors_references[i,"AU_ID"] <- authors[i,"AU_ID"]
       
-      ###	To set the country for the author we'll first pull the reprint
-      ###		address country and if it's blank then pull the address from the
-      ###		C1 address listed:
-      #country <- gsub("^.* ([A-z]*)\\.*$", "\\1", authors[i, "RP"], perl=TRUE)
-      #if (country == "") {
-      #	##	Have to jump through some hoops to pull the first of the possibly
-      #	##		multiple addresses stored in C1 for each:
-      #	country <- gsub("^.* ([A-z]*)\\.*$", "\\1", unlist(strsplit(authors[i, "C1"], "\n"))[1], perl=TRUE)
-      #}
-      #authors[i,"Country"] <- country
+      authors_references[i,"UT"] <- references[ref,"UT"]
       
+      authors_references[i,"C1"] <- authors[i,"C1"]
       
-      authors__references[i,"AU_ID"] <- authors[i,"AU_ID"]
-      authors__references[i,"UT"] <- references[ref,"UT"]
-      authors__references[i,"C1"] <- authors[i,"C1"]
-      authors__references[i,"RP"] <- authors[i,"RP"]
-      authors__references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      authors__references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      authors__references[i,"OI"] <- authors[i,"OI"]
-      authors__references[i,"Author_Order"] <- aut
+      authors_references[i,"RP"] <- authors[i,"RP"]
       
+      authors_references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      
+      authors_references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      
+      authors_references[i,"OI"] <- authors[i,"OI"]
+      
+      authors_references[i,"Author_Order"] <- aut
     }
   }
-  
-  
-  ##	See note above about not storing Country within author
-  ##		records.  Authors can belong to more than one country so
-  ##		we'll parse these during analyses:
-  
-  ###	Fix country names to match country names in rworldmap:
-  #indices <- authors$Country == "USA"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United States"
-  
-  #indices <- authors$Country == "England"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  
-  #indices <- authors$Country == "Scotland"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  
-  #indices <- authors$Country == "Wales"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  #
-  #indices <- authors$Country == "Zealand"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "New Zealand"
-  
   
   ##	Calculate the maximum similarity for any subsets of AU that match
   ##		across authors.  Note that we sort by country in decreasing order
@@ -295,17 +269,25 @@ read_authors <- function(references, filename_root="") {
   ##		similar.  These records will then be cleaned, merged into single
   ##		author records by the remove_duplicates() function:
   for (aut in 1:length(authors[,"AU"])) {
-    indices <- grepl(authors[aut,"AU"], authors[,"AU"])
+    
+    indices <- grepl(authors[aut,"AU"], 
+                     authors[,"AU"])
+    
     if (sum(indices) > 1) {
+      
       similar <- authors[indices,]
+      
       AU_ID_Dupe <- NA 
+      
       Similarity <- 0
+      
       for (i in length(similar$AF)) {
         
         ##	More sophisticated similarity measures could be devised here
         ##		but we'll use a canned distance composite from the 
         ##		RecordLinkage package:
-        newSimilarity <- jarowinkler(authors[aut,"AF"], similar[i,"AF"])
+        newSimilarity <- jarowinkler(authors[aut,"AF"], 
+                                     similar[i,"AF"])
         
         ##	See note above about not including country directly in the
         ##		author record:
@@ -314,25 +296,34 @@ read_authors <- function(references, filename_root="") {
         #}
         
         if (newSimilarity > Similarity) {
+          
           Similarity <- newSimilarity
+          
           AU_ID_Dupe <- similar[i,"AU_ID"]
         }
       }
+      
       authors[aut,"AU_ID_Dupe"] <- AU_ID_Dupe
+      
       authors[aut,"Similarity"] <- Similarity
     }
   }
   
   
   if(filename_root != "") {
-    write.csv(authors, file=paste(filename_root, "_authors.csv", sep=""), row.names=FALSE)
-    write.csv(authors__references, file=paste(filename_root, "_authors__references.csv", sep=""), row.names=FALSE)
+    write.csv(authors, 
+              file=paste(filename_root, "_authors.csv", sep=""), 
+              row.names=FALSE)
+    
+    write.csv(authors_references, 
+              file=paste(filename_root, "_authors_references.csv", sep=""), 
+              row.names=FALSE)
   }            
   
-  return(list("authors"=authors, "authors__references"=authors__references))
+  return(list("authors"=authors, 
+              "authors_references"=authors_references))
 }
 
 ##	END: read_authors():
 #############################################
 #############################################
-

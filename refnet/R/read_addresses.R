@@ -13,34 +13,50 @@
 #' @param verbose=FALSE argument that when set to TRUE will output search strings and output from the Google Maps API call as it proceeds, useful for troubleshooting long-running calls to the function
 
 read_addresses <- function(x, filename_root="", key="", verbose=FALSE) {
-  columns <- c("AU_ID", "type", "search_string", "status_code", "accuracy", "address", "country_name_code", "country_name", "administrative_area", "locality", "postal_code", "latitude", "longitude", "box_north", "box_south", "box_east", "box_west")
+  columns <- c("AU_ID", "type", "search_string", "status_code", 
+               "accuracy", "address", "country_name_code", 
+               "country_name", "administrative_area", "locality", 
+               "postal_code", "latitude", "longitude", "box_north", 
+               "box_south", "box_east", "box_west")
   
   y <- data.frame(t(rep("", length(columns))), stringsAsFactors=FALSE)
+  
   y <- y[-1, ]
+  
   colnames(y) <- columns
   
   for (i in 1:nrow(x)) {
     input <- x[i, ]
-    output <- refnet_geocode(input, key=key, verbose=verbose)
+    
+    output <- refnet_geocode(input, 
+                             key=key, 
+                             verbose=verbose)
     
     counter <- 0
     
-    while ((length(grep("^[ \\n]*$", output$search_string)) == 0) & is.na(output["latitude"]) & counter < 5) {
+    while ((length(grep("^[ \\n]*$", 
+                        output$search_string)) == 0) & 
+              is.na(output["latitude"]) & counter < 5) {
       ##	Something potentially went wrong so we'll try 5 more times
       ##		before giving up:
       if (verbose) {
         print(output)
+        
         flush.console()
       }
       Sys.sleep(0.5)
+      
       counter <- counter + 1
+      
       output <- refnet_geocode(input, key=key, verbose=verbose)
     }
     
     ##	If it's still a fail, let's try stripping the city, or the first
     ##		item before a comma from the address:
     counter <- 2
-    while ((length(grep("^[ \\n]*$", output$search_string)) == 0) & is.na(output["latitude"]) & counter >= 0) {
+    while ((length(grep("^[ \\n]*$", 
+                        output$search_string)) == 0) & 
+              is.na(output["latitude"]) & counter >= 0) {
       ##	Something potentially went wrong so we'll try 3 more times
       ##		stripping an item each time:
       input$address <- gsub("^[^,]*, (.*)$", "\\1", input$address)
@@ -59,7 +75,9 @@ read_addresses <- function(x, filename_root="", key="", verbose=FALSE) {
   }
   
   if(filename_root != "") {
-    write.csv(y, file=paste(filename_root, "_addresses.csv", sep=""), row.names=FALSE)
+    write.csv(y, 
+              file=paste(filename_root, "_addresses.csv", sep=""), 
+              row.names=FALSE)
   }
   
   return(y)
@@ -68,4 +86,3 @@ read_addresses <- function(x, filename_root="", key="", verbose=FALSE) {
 ##	END: read_addresses():
 ########################################
 ########################################
-
