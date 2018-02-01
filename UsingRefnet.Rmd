@@ -81,23 +81,9 @@ ecuador2 <- read_authors(ecuador2_references,
                        filename_root="./output/ecuador2")
 ```
 
-```{r eb_referencesread}
-eb_references <- read_references("./data/EBpubs.txt", 
-                                 dir=FALSE, 
-                                 filename_root="./output/eb")
 
-eb <- read_authors(eb_references,
-                       filename_root="./output/eb")
-```
 
-```{r peru_referencesread}
-peru_references <- read_references("./data/Peru.txt", 
-                                   dir=FALSE, 
-                                   filename_root="./output/peru")
 
-peru <- read_authors(peru_references, 
-                       filename_root="./output/peru")
-```
 
 ```{r ecology_referencesread}
 ecology_references <- read_references("./data/Ecology.txt", 
@@ -167,11 +153,6 @@ sum(ecuador_authors$C1 == "" | is.na(ecuador_authors$C1))/
 sum(ecuador2_authors$C1 == "" | is.na(ecuador2_authors$C1))/
   length(ecuador2_authors$C1)*100
 
-sum(peru_authors$C1 == "" | is.na(peru_authors$C1))/
-  length(peru_authors$C1)*100
-
-sum(eb_authors$C1 == "" | is.na(eb_authors$C1))/
-  length(eb_authors$C1)*100
 ```
 
 Let's remove duplicates from our presumably updated and corrected author lists:
@@ -186,18 +167,6 @@ ecuador_no_dupes <- remove_duplicates(authors=ecuador$authors,
 ecuador2_no_dupes <- remove_duplicates(authors=ecuador2$authors,
                             authors_references=ecuador2$authors_references,
                             filename_root="output/ecuador2_nodupe")
-```
-
-```{r}
-peru <- remove_duplicates(authors=peru$authors,
-                            authors_references=peru$authors_references,
-                            filename_root="output/peru_nodupe")
-```
-
-```{r}
-eb <- remove_duplicates(authors=eb$authors, 
-                            authors_references=eb$authors_references,
-                            filename_root="output/eb_nodupe")
 ```
 
 Now let's merge references, authors, and authors__references:
@@ -237,7 +206,7 @@ And finally after scrolling through and hand-correcting any authors from the mer
 #merged_authors <- read.csv("./output/merged_authors.csv", as.is=TRUE)
 
 output <- remove_duplicates(authors=merged_authors,
-              authors__references=merged_authors__references,
+              authors_references=merged_authors_references,
               filename_root="output/merged_nodupe")
 
 merged_authors <- output$authors
