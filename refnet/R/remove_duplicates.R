@@ -85,7 +85,7 @@ remove_duplicates <- function(authors, authors_references,
           RP <- append(RP, unlist(strsplit(authors_dupes[j, "RP"], "\n")))
         } # if statement
         
-        ##	Finally, update the authors__references AU_ID to reflect the newly merged
+        ##	Finally, update the authors_references AU_ID to reflect the newly merged
         ##		records:
         authors_references[(authors_references$AU_ID ==
                         authors_dupes[j, "AU_ID"]),"AU_ID"] <- AU_ID_Dupe
@@ -132,7 +132,7 @@ remove_duplicates <- function(authors, authors_references,
   }            
   
   return(list("authors"=authors_removed, 
-              "authors__references"=authors_references))
+              "authors_references"=authors_references))
 }
 
 ##	END: remove_duplicates():

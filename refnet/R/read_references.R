@@ -245,6 +245,11 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         # output[i, field] <- paste(output[i, field], line_text, sep=" ")
       }
       
+      if(length(output$PN>4)){
+        
+        output$PN <- str_sub(output$PN, start=-3)
+      }
+      
       
       ##	If this is the end of a record then add any per-record items and
       ##		advance our row:
@@ -267,9 +272,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   }
   
   if(filename_root != "") {
-    write.csv(output, file=paste(filename_root, 
-                                 "_references.csv", sep=""), 
-              row.names=FALSE)
+    write.csv(output, file=paste(filename_root,"_references.csv", sep=""),    row.names=FALSE)
   }
   
   return(output)

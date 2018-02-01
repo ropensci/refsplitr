@@ -66,7 +66,7 @@ The first argument of "read_references" should point to the folder where your da
 ```{r ecuador1read}
 ecuador_references <- read_references("./data/Ecuador.txt", 
                                       dir=FALSE, 
-                                      filename_root="./output/ecuador")
+   filename_root="./output/ecuador")
 
 ecuador <- read_authors(ecuador_references, 
                        filename_root="./output/ecuador")
@@ -75,7 +75,7 @@ ecuador <- read_authors(ecuador_references,
 ```{r ecuador2read}
 ecuador2_references <- read_references("./data/Ecuador_0114.txt", 
                                        dir=FALSE, 
-                                       filename_root="./output/ecuador2")
+                                       filename_root="./output/test2")
 
 ecuador2 <- read_authors(ecuador2_references, 
                        filename_root="./output/ecuador2")
@@ -102,7 +102,7 @@ peru <- read_authors(peru_references,
 ```{r ecology_referencesread}
 ecology_references <- read_references("./data/Ecology.txt", 
                                       dir=FALSE, 
-                                      filename_root="./output/ecology")
+                                    filename_root="./output/ecology")
 
 ecology <- read_authors(ecology_references, 
                        filename_root="./output/ecology")
@@ -177,14 +177,14 @@ sum(eb_authors$C1 == "" | is.na(eb_authors$C1))/
 Let's remove duplicates from our presumably updated and corrected author lists:
 
 ```{r}
-ecuador_no_dupes <- remove_duplicates(authors=ecuador_authors,
-            authors_references=ecuador_authors_references,
+ecuador_no_dupes <- remove_duplicates(authors=ecuador$authors,
+            authors_references=ecuador$authors_references,
             filename_root="output/ecuador_nodupe")
 ```
 
 ```{r}
-ecuador2_no_dupes <- remove_duplicates(authors=ecuador2_authors,
-                            authors_references=ecuador2_authors_references,
+ecuador2_no_dupes <- remove_duplicates(authors=ecuador2$authors,
+                            authors_references=ecuador2$authors_references,
                             filename_root="output/ecuador2_nodupe")
 ```
 
@@ -205,16 +205,10 @@ Now let's merge references, authors, and authors__references:
 output <- merge_records(
 	references=ecuador_no_dupes$references, 
 	authors=ecuador_no_dupes$authors, 
-	authors__references=ecuador_authors_references, 
+	authors_references=ecuador_no_dupes$authors_references, 
 	references_merge=ecuador2_no_dupes$references, 
 	authors_merge=ecuador2_no_dupes$authors, 
-	authors__references_merge=ecuador2_no_dupes$authors_references,
-	#references_merge=peru_references, 
-	#authors_merge=peru_authors, 
-	#authors__references_merge=peru_authors__references,
-	#references_merge=eb_references, 
-	#authors_merge=eb_authors, 
-	#authors__references_merge=eb_authors__references,
+	authors_references_merge=ecuador2_no_dupes$authors_references,
 	filename_root = "output/merged"
 )
 ```
