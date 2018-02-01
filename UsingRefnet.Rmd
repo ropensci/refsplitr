@@ -203,14 +203,24 @@ eb <- remove_duplicates(authors=eb$authors,
 Now let's merge references, authors, and authors__references:
 ```{r}
 output <- merge_records(
-	references=ecuador_no_dupes$references, 
-	authors=ecuador_no_dupes$authors, 
-	authors_references=ecuador_no_dupes$authors_references, 
-	references_merge=ecuador2_no_dupes$references, 
-	authors_merge=ecuador2_no_dupes$authors, 
-	authors_references_merge=ecuador2_no_dupes$authors_references,
-	filename_root = "output/merged"
-)
+    references=ecuador_references,
+    authors=ecuador_authors,
+    authors_references=ecuador_author_references,
+    references_merge=ecuador2_references,
+    authors_merge=ecuador2_authors,
+    authors_references_merge=ecuador2_authors_references,
+    filename_root = "output/merged"
+  )
+
+# output <- merge_records(
+# 	references=ecuador_no_dupes$references, 
+# 	authors=ecuador_no_dupes$authors, 
+# 	authors_references=ecuador_no_dupes$authors_references, 
+# 	references_merge=ecuador2_no_dupes$references, 
+# 	authors_merge=ecuador2_no_dupes$authors, 
+# 	authors_references_merge=ecuador2_no_dupes$authors_references,
+# 	filename_root = "output/merged"
+# )
 ```
 
 ```{r}

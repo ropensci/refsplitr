@@ -147,12 +147,14 @@ merge_records <- function(references,
   }
   
   ##	Now we can merge all of the tables:
-  references <- bind_rows(references, references_merge)
+  suppressWarnings(  references <- bind_rows(references, references_merge))
   
-  authors <- bind_rows(authors, authors_merge)
+suppressWarnings(authors <- bind_rows(authors, authors_merge))
   
-  authors_references <- bind_rows(authors_references, 
-                                  authors_references_merge)
+suppressWarnings(authors_references <- bind_rows(
+                  authors_references, 
+                  authors_references_merge))
+
   if (addresses_merge != "") {
     if (addresses == "") {
       addresses <- addresses_merge

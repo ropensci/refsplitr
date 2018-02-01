@@ -250,6 +250,9 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         output$PN <- str_sub(output$PN, start=-3)
       }
       
+      output <- output %>%
+                  mutate(VR= as.character(ifelse(VR=="NA\n",NA,VR)))
+      
       
       ##	If this is the end of a record then add any per-record items and
       ##		advance our row:
