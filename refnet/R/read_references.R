@@ -150,22 +150,31 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
       
       if (pre_text != "FN") {
         close(in_file)
-        stop("ERROR:  The file ", filename, " doesn't appear to be a valid ISI or Thomson Reuters reference library file!\n\nThe first line is:\n", pre_text," ",line_text)
+        
+        stop("ERROR:  The file ", filename, " doesn't appear to be a valid ISI or Thomson Reuters reference library file!\n\nThe first line is:\n", 
+             pre_text," ",line_text)
+        
       }
       
       ##	Check to see if this is a "ISI Export Format" file, in which
       ##		case we need to parse out the first line into three fields:
       if ( substr(line_text, 1, 3) == "ISI" ) {
+        
         field <- pre_text
         
         ##	Pull apart the FN, VR and PT fields all contained on the first
         ##		line of the ISI file format:
-        matches <- regexec("^(.*) VR (.*) PT (.*)", line_text)
-        match_strings <- regmatches(line_text, matches)
+        matches <- regexec("^(.*) VR (.*) PT (.*)", 
+                           line_text)
+        
+        match_strings <- regmatches(line_text, 
+                                    matches)
         
         ##	Store those fields:
         output[i, "FN"] <- paste(match_strings[[1]][2], "\n", sep="")
+        
         output[i, "VR"] <- paste(match_strings[[1]][3], "\n", sep="")
+        
         output[i, "PT"] <- paste(match_strings[[1]][4], "\n", sep="")
       } else {
         
@@ -173,14 +182,18 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         ##		line normally into the FN field:
         field <- pre_text
         if (field %in% names(output)) {
+          
           output[i, field] <- ""
-          output[i, field] <- paste(output[i, field], line_text, "\n", sep="")
+          
+          output[i, field] <- paste(output[i, field], 
+                                    line_text, "\n", sep="")
         }
       }
       
       
     } else {
       print("WARNING:  Nothing contained in the specified file!")
+      
       flush.console()
       break
     }
@@ -191,6 +204,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     while ( length( read_line <- readLines(in_file, n=1, warn=FALSE)) > 0 ) {
       ##	Strip the first three characters from the text line:
       pre_text <- substr(read_line, 1, 2)
+      
       line_text <- substr(read_line, 4, nchar(read_line))
       
       
@@ -204,8 +218,6 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         }
         
       }
-      
-      
       # --------------
       # EMB 2 December 2017: THE FOLLOWING ISSUES WERE RESOLVED BY EMB. 
       #   OI See notes below in the section on reading in OI
@@ -228,7 +240,8 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
       ##	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
         ##	... if it is then append this line's data to the field in our output:
-        output[i, field] <- paste(output[i, field], line_text, "\n", sep="")
+        output[i, field] <- paste(output[i, field], 
+                                  line_text, "\n", sep="")
         # output[i, field] <- paste(output[i, field], line_text, sep=" ")
       }
       
@@ -241,6 +254,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         ##	These fields are not repeated for every record, so we set them
         ##		from the first record where they were recorded:
         output[i, "FN"] <- output[1, "FN"]
+        
         output[i, "VR"] <- output[1, "VR"]
         
         i <- i + 1
@@ -253,7 +267,9 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   }
   
   if(filename_root != "") {
-    write.csv(output, file=paste(filename_root, "_references.csv", sep=""), row.names=FALSE)
+    write.csv(output, file=paste(filename_root, 
+                                 "_references.csv", sep=""), 
+              row.names=FALSE)
   }
   
   return(output)

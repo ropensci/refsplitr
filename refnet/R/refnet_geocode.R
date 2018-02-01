@@ -15,79 +15,112 @@ refnet_geocode <- function (x, key="", verbose=FALSE) {
   ##		being a descriptive code (e.g. C1, RP, etc.) and the third being the
   ##		search_string:
   
-  columns <- c("AU_ID", "type", "search_string", "status_code", "accuracy", "address", "country_name_code", "country_name", "administrative_area", "locality", "postal_code", "latitude", "longitude", "box_north", "box_south", "box_east", "box_west")
+  columns <- c("AU_ID", "type", "search_string", "status_code",
+               "accuracy", "address", "country_name_code", 
+               "country_name", "administrative_area", "locality",
+               "postal_code", "latitude", "longitude", 
+               "box_north", "box_south", "box_east", "box_west")
   
-  y <- data.frame(t(rep("", length(columns))), stringsAsFactors=FALSE)
+  y <- data.frame(t(rep("", length(columns))), 
+                  stringsAsFactors=FALSE)
   y <- y[-1, ]
   colnames(y) <- columns
   
   ##	Pull address info from the x data.frame argument:
   y[1, "AU_ID"] <- x[1]
   y[1, "type"] <- x[2]
-  temp00 <- data.frame(lapply(x[3], as.character), stringsAsFactors = FALSE)
-  
-  ##	This is the old Google Geocoding API format:
-  #temp01 <- paste("http://maps.google.com/maps/geo?q=", gsub(" ", "+", temp00), "&output=xml&key=", key, sep = "", collapse = NULL)
+  temp00 <- data.frame(lapply(x[3], as.character), 
+                       stringsAsFactors = FALSE)
   
   ##	We're replacing it with the new Geocoding API format:
   if (key == "") {
-    temp01 <- paste("https://maps.googleapis.com/maps/api/geocode/xml?address=", gsub(" ", "+", temp00), "&sensor=false", sep = "", collapse = NULL)
+    temp01 <- paste("https://maps.googleapis.com/maps/api/geocode/xml?address=", 
+                    gsub(" ", "+", temp00), 
+                    "&sensor=false", sep = "", 
+                    collapse = NULL)
   } else {
-    temp01 <- paste("https://maps.googleapis.com/maps/api/geocode/xml?address=", gsub(" ", "+", temp00), "&sensor=false&key=", key, sep = "", collapse = NULL)
+    temp01 <- paste("https://maps.googleapis.com/maps/api/geocode/xml?address=", 
+                    gsub(" ", "+", temp00), 
+                    "&sensor=false&key=", key, 
+                    sep = "", 
+                    collapse = NULL)
   }
   
   if (verbose) {
     print(temp01)
+    
     flush.console()
   }
   
-  y[1, "search_string"] <- paste(temp00, collapse = " ")
+  y[1, "search_string"] <- paste(temp00, 
+                                 collapse = " ")
   
   ##	Check to see if the search_string is all spaces, and if not then 
   ##		do the search:
   if (length(grep("^[ \\n]*$", y[1, "search_string"])) == 0) {
+    
     temp02 <- readLines(temp01)
     
     temp03 <- grep("<location>", temp02)[1]
+    
     temp04 <- gsub("^.*<lat>(.*)</lat>.*$", "\\1", temp02[temp03+1])
     
     if (!is.na(temp04[1])) {
+      
       temp05 <- gsub("^.*<lng>(.*)</lng>.*$", "\\1", temp02[temp03+2])
+      
     }	else {
+      
       temp05 <- temp04
+      
     }
     
     y[1, "latitude"] <- temp04
+    
     y[1, "longitude"] <- temp05
     
-    
     search_string <- grep("<status>.*</status>", temp02)
+    
     if (length(search_string) > 1) search_string <- min(search_string)
+    
     if (length(search_string) == 1) y[1, "status_code"] <- gsub("^.*<status>(.*)</status>.*$", "\\1", temp02[search_string])
     
     search_string <- grep("<partial_match>.*</partial_match>", temp02)
+    
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "accuracy"] <- gsub("^.*<partial_match>(.*)</partial_match>.*$", "\\1", temp02[search_string])
     
-    search_string <- grep("<formatted_address>.*</formatted_address>", temp02)
+    search_string <- grep("<formatted_address>.*</formatted_address>",
+                          temp02)
+    
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "address"] <- gsub("^.*<formatted_address>(.*)</formatted_address>.*$", "\\1", temp02[search_string])
     
     search_string <- grep("<type>country</type>", temp02)
+    
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "country_name_code"] <- gsub("^.*<short_name>(.*)</short_name>.*$", "\\1", temp02[search_string-1])
+    
     if (length(search_string) == 1) y[1, "country_name"] <- gsub("^.*<long_name>(.*)</long_name>.*$", "\\1", temp02[search_string-2])
     
     search_string <- grep("<type>administrative_area_level_1</type>", temp02)
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "administrative_area"] <- gsub("^.*<long_name>(.*)</long_name>.*$", "\\1", temp02[search_string-2])
     
     search_string <- grep("<type>locality</type>", temp02)
+    
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "locality"] <- gsub("^.*<long_name>(.*)</long_name>.*$", "\\1", temp02[search_string-2])
     
     search_string <- grep("<type>postal_code</type>", temp02)
+    
     if (length(search_string) > 1) search_string <- max(search_string)
+    
     if (length(search_string) == 1) y[1, "postal_code"] <- gsub("^.*<long_name>(.*)</long_name>.*$", "\\1", temp02[search_string-2])
     
     ##	NOTE: I stripped out the code that saves off the viewport and/or 
