@@ -12,7 +12,7 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path and will be appended to output file names function will be saved
 
-remove_duplicates <- function(authors, authors__references, 
+remove_duplicates <- function(authors, authors_references, 
                               addresses="", filename_root = "") {
   ##	First we will create a new author list with all of those authors removed that have not been tagged as a duplicate:
   authors_removed <- authors[ (is.na(authors$AU_ID_Dupe) & 
@@ -75,7 +75,7 @@ remove_duplicates <- function(authors, authors__references,
         
         ##	Finally, update the authors__references AU_ID to reflect the newly merged
         ##		records:
-        authors__references[(authors__references$AU_ID ==
+        authors_references[(authors_references$AU_ID ==
                                authors_dupes[j, "AU_ID"]),"AU_ID"] <- AU_ID_Dupe
         
         ##	If addresses were supplied, update them:
@@ -105,10 +105,10 @@ remove_duplicates <- function(authors, authors__references,
   
   if(filename_root != "") {
     write.csv(authors_removed, file=paste(filename_root, "_authors.csv", sep=""), row.names=FALSE)
-    write.csv(authors__references, file=paste(filename_root, "_authors__references.csv", sep=""), row.names=FALSE)
+    write.csv(authors_references, file=paste(filename_root, "_authors_references.csv", sep=""), row.names=FALSE)
   }            
   
-  return(list("authors"=authors_removed, "authors__references"=authors__references))
+  return(list("authors"=authors_removed, "authors__references"=authors_references))
 }
 
 ##	END: remove_duplicates():
