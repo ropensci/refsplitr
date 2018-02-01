@@ -30,7 +30,7 @@ read_authors <- function(references, filename_root="") {
     stringsAsFactors=FALSE
   )
   
-  authors__references <- data.frame(
+  authors_references <- data.frame(
     "AU_ID" = character(0),
     "UT" = character(0),
     "C1" = character(0),
@@ -205,81 +205,17 @@ read_authors <- function(references, filename_root="") {
         authors[i,"OI"] <- oid_match
       }
       
-      # 
-      # # Copied the above for RID (by EB) BUT COMMENTED OUT LATER L:OOKS LIKE UNECESSARY
-      # 
-      # if (!is.na(RID[1])) {
-      #   Similarity <- 0
-      #   oid_match <- ""
-      #   
-      #   for (oid in 1:length(RID)) {
-      #     ##	More sophisticated similarity measures could be devised here
-      #     ##		but we'll use a canned distance composite from the 
-      #     ##		RecordLinkage package:
-      #     newSimilarity <- jarowinkler(RID[oid], authors[i,"AF"])
-      #     
-      #     if ( (newSimilarity > 0.8) & (newSimilarity > Similarity) ) {
-      #       Similarity <- newSimilarity
-      #       oid_match <- RID[oid]
-      #     }
-      #   }
-      #   authors[i,"RID"] <- oid_match
-      # }
-      # 
-      ##	Country is no longer stored with an author, we'll pull it during
-      ##		analyses from any existing addresses attached to the author
-      ##		record for with he authors__references link:
-      
-      ###	To set the country for the author we'll first pull the reprint
-      ###		address country and if it's blank then pull the address from the
-      ###		C1 address listed:
-      #country <- gsub("^.* ([A-z]*)\\.*$", "\\1", authors[i, "RP"], perl=TRUE)
-      #if (country == "") {
-      #	##	Have to jump through some hoops to pull the first of the possibly
-      #	##		multiple addresses stored in C1 for each:
-      #	country <- gsub("^.* ([A-z]*)\\.*$", "\\1", unlist(strsplit(authors[i, "C1"], "\n"))[1], perl=TRUE)
-      #}
-      #authors[i,"Country"] <- country
-      
-      
-      authors__references[i,"AU_ID"] <- authors[i,"AU_ID"]
-      authors__references[i,"UT"] <- references[ref,"UT"]
-      authors__references[i,"C1"] <- authors[i,"C1"]
-      authors__references[i,"RP"] <- authors[i,"RP"]
-      authors__references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      authors__references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      authors__references[i,"OI"] <- authors[i,"OI"]
-      authors__references[i,"Author_Order"] <- aut
+      authors_references[i,"AU_ID"] <- authors[i,"AU_ID"]
+      authors_references[i,"UT"] <- references[ref,"UT"]
+      authors_references[i,"C1"] <- authors[i,"C1"]
+      authors_references[i,"RP"] <- authors[i,"RP"]
+      authors_references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      authors_references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      authors_references[i,"OI"] <- authors[i,"OI"]
+      authors_references[i,"Author_Order"] <- aut
       
     }
   }
-  
-  
-  ##	See note above about not storing Country within author
-  ##		records.  Authors can belong to more than one country so
-  ##		we'll parse these during analyses:
-  
-  ###	Fix country names to match country names in rworldmap:
-  #indices <- authors$Country == "USA"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United States"
-  
-  #indices <- authors$Country == "England"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  
-  #indices <- authors$Country == "Scotland"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  
-  #indices <- authors$Country == "Wales"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "United Kingdom"
-  #
-  #indices <- authors$Country == "Zealand"
-  #indices[is.na(indices)] <- FALSE
-  #authors[indices, "Country"] <- "New Zealand"
-  
   
   ##	Calculate the maximum similarity for any subsets of AU that match
   ##		across authors.  Note that we sort by country in decreasing order
@@ -326,13 +262,12 @@ read_authors <- function(references, filename_root="") {
   
   if(filename_root != "") {
     write.csv(authors, file=paste(filename_root, "_authors.csv", sep=""), row.names=FALSE)
-    write.csv(authors__references, file=paste(filename_root, "_authors__references.csv", sep=""), row.names=FALSE)
+    write.csv(authors_references, file=paste(filename_root, "_authors_references.csv", sep=""), row.names=FALSE)
   }            
   
-  return(list("authors"=authors, "authors__references"=authors__references))
+  return(list("authors"=authors, "authors_references"=authors_references))
 }
 
 ##	END: read_authors():
 #############################################
 #############################################
-
