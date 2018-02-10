@@ -67,7 +67,8 @@ read_authors <- function(references, filename_root="") {
     
     ##	Process contact addresses, the first will be the C1 value
     ##		itself, the second is the address without the names, stripped:
-    C1 <- unlist(strsplit(references[ref,]$C1, "\n")) 
+    #C1 <- unlist(strsplit(references[ref,]$C1, "\n")) 
+    C1 <- unlist(strsplit(references$C1, "\n")) 
     
     C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)  #This removes the [author 1, author 2, author 3] and leaves just the address.
     
