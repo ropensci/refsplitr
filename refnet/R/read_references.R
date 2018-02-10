@@ -143,22 +143,19 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
       ##		eliminating the preceding non-capital letters:
       read_line <- gsub("^[^A-Z]*([A-Z]+)(.*)$", "\\1\\2", read_line)
       
-      
       ##	Strip the first two characters from the text line, skip the third (should be a space) and store the rest:
       pre_text <- substr(read_line, 1, 2)
       line_text <- substr(read_line, 4, nchar(read_line))
       
-      if (pre_text != "FN") {
+      if (pre_text != "FN") { 
         close(in_file)
         
         stop("ERROR:  The file ", filename, " doesn't appear to be a valid ISI or Thomson Reuters reference library file!\n\nThe first line is:\n", 
              pre_text," ",line_text)
-        
       }
-      
       ##	Check to see if this is a "ISI Export Format" file, in which
       ##		case we need to parse out the first line into three fields:
-      if ( substr(line_text, 1, 3) == "ISI" ) {
+      if (substr(line_text, 1, 3) == "ISI" ) {
         
         field <- pre_text
         
@@ -189,24 +186,18 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
                                     line_text, "\n", sep="")
         }
       }
-      
-      
     } else {
       print("WARNING:  Nothing contained in the specified file!")
       
       flush.console()
       break
     }
-    
-    
-    ##	Process the remaining lines in the file (see the note above about
-    ##		the encoding= flag and necessity for it, but why we didn't use it:
+
     while ( length( read_line <- readLines(in_file, n=1, warn=FALSE)) > 0 ) {
       ##	Strip the first three characters from the text line:
       pre_text <- substr(read_line, 1, 2)
       
       line_text <- substr(read_line, 4, nchar(read_line))
-      
       
       ##	Check to see if this is a new field:
       if (pre_text != "  ") {
@@ -218,24 +209,6 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         }
         
       }
-      # --------------
-      # EMB 2 December 2017: THE FOLLOWING ISSUES WERE RESOLVED BY EMB. 
-      #   OI See notes below in the section on reading in OI
-      #   Names: See the solution in this section
-      #
-      #     EMB 14 jan 2017: RI and OI fields aren't being read in properly because the text files include extra spaces 
-      #     after they carriage return the longer records to the next line. In ebpubs record WOS: "WOS:000269700500018
-      #     OI should be Dattilo, Wesley/0000-0002-4758-4379; Bruna, Emilio/0000-0003-3381-8477; Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787
-      #   
-      #     The same is true of names - only first one was being read in.
-      #     I somehow got it to read all the names and orcids in by replacing this line below:
-      #     output[i, field] <- paste(output[i, field], line_text, "\n", sep="")
-      #     with this line: 
-      #     output[i, field] <- paste(output[i, field], line_text, "\\s+", sep="")
-      #     but this left \s+ in between. After reading and experimenting I just deleted the "\n"
-      #     or "\\s+" completeley...and...voila!
-      #     Then realized wasn't being read into *_authors, so added a space as seperator after ;
-      # --------------
       
       ##	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
@@ -252,8 +225,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
       
       output <- output %>%
                   mutate(VR= as.character(ifelse(VR=="NA\n",NA,VR)))
-      
-      
+
       ##	If this is the end of a record then add any per-record items and
       ##		advance our row:
       if (field == "ER") {
@@ -282,5 +254,3 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
 }	
 
 ##	END: read_references():
-##################################################
-##################################################

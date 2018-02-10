@@ -12,9 +12,6 @@
 #'   function will be saved
 
 read_authors <- function(references, filename_root="") {
-  ##	NOTE: The fields stored in our output table are a combination of the
-  ##		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
-  ##		Format" both of which are version 1.0:
   authors <- data.frame(
     "AU" = character(0),
     "AU_ID" = character(0),
@@ -46,6 +43,12 @@ read_authors <- function(references, filename_root="") {
   ##		record we advance through:
   i <- 0
   
+  ##	The email list is interesting because it seems it has line
+  ##		breaks and is "; " delimited.  So we have to clean the line
+  ##		a bit to start:
+  references$EM <- gsub(" ", "", references$EM)
+  references$EM <- gsub(";", "\n", references$EM)
+  
   ##	Iterate through each reference record:
   for (ref in 1:length(references$UT)) {
     authors_AU <- unlist(strsplit(references[ref,]$AU, "\n"))
@@ -60,20 +63,13 @@ read_authors <- function(references, filename_root="") {
       }
     }
     
-    ##	The email list is interesting because it seems it has line
-    ##		breaks and is "; " delimited.  So we have to clean the line
-    ##		a bit to start:
-    references[ref,]$EM <- gsub(" ", "", references[ref,]$EM)
-    
-    references[ref,]$EM <- gsub(";", "\n", references[ref,]$EM)
-    
     authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
     
     ##	Process contact addresses, the first will be the C1 value
     ##		itself, the second is the address without the names, stripped:
     C1 <- unlist(strsplit(references[ref,]$C1, "\n")) 
     
-    C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)  #This remives the [author 1, author 2, author 3] and leaves just the address.
+    C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)  #This removes the [author 1, author 2, author 3] and leaves just the address.
     
     ##	Process reprint author address, the first will be the RP value
     ##		itself, the second is the address without the name, stripped:
