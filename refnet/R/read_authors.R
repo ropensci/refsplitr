@@ -51,18 +51,18 @@ read_authors <- function(references, filename_root="") {
   
   ##	Iterate through each reference record:
   for (ref in 1:length(references$UT)) {
-    authors_AU <- unlist(strsplit(references[ref,]$AU, "\n"))
-    authors_AF <- unlist(strsplit(references[ref,]$AF, "\n"))
+    authors_AU <- unlist(strsplit(references$AU, "\n"))
+    authors_AF <- unlist(strsplit(references$AF, "\n"))
     
     ##	The new CIW format does not actually fill the AF field, instead
     ##		using the AU field for the full name.  Therefore we'll check it
     ##		and fill AF from AU if it's all NA:
-    if (length(authors_AF)==1) {
-      if (is.na(authors_AF)) {
-        authors_AF <- authors_AU
-      }
-    }
     
+    fill_af_from_au <- which(nchar(authors_AF)==1|is.na(authors_AF))
+    
+    authors_AF[fill_af_from_au] <- authors_AU[fill_af_from_au]
+    
+
     authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
     
     ##	Process contact addresses, the first will be the C1 value
