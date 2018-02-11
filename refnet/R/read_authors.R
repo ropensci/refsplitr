@@ -50,7 +50,7 @@ read_authors <- function(references, filename_root="") {
   references$EM <- gsub(";", "\n", references$EM)
   
   ##	Iterate through each reference record:
-  for (ref in 1:length(references$UT)) {
+
     authors_AU <- unlist(strsplit(references$AU, "\n"))
     authors_AF <- unlist(strsplit(references$AF, "\n"))
     
@@ -62,8 +62,7 @@ read_authors <- function(references, filename_root="") {
     
     authors_AF[fill_af_from_au] <- authors_AU[fill_af_from_au]
     
-
-    authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
+    authors_EM <- unlist(strsplit(references$EM, "\n"))
     
     ##	Process contact addresses, the first will be the C1 value
     ##		itself, the second is the address without the names, stripped:
@@ -74,7 +73,7 @@ read_authors <- function(references, filename_root="") {
     
     ##	Process reprint author address, the first will be the RP value
     ##		itself, the second is the address without the name, stripped:
-    RP <- unlist(strsplit(references[ref,]$RP, "\n"))
+    RP <- unlist(strsplit(references$RP, "\n"))
     
     RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
     
@@ -85,15 +84,15 @@ read_authors <- function(references, filename_root="") {
     # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
     # for processing that field to get the spacing along which to split the string right.
     
-    references[ref,]$RI <- gsub(" ", "", references[ref,]$RI, fixed=TRUE)
+    references$RI <- gsub(" ", "", references$RI, fixed=TRUE)
     
-    references[ref,]$RI <- gsub("\n"," ", references[ref,]$RI, fixed=TRUE)
+    references$RI <- gsub("\n"," ", references$RI, fixed=TRUE)
     
-    references[ref,]$RI <- gsub("; ", ";", references[ref,]$RI, fixed=TRUE)
+    references$RI <- gsub("; ", ";", references$RI, fixed=TRUE)
     
-    references[ref,]$RI <- trimws(references[ref,]$RI,which = "both")
+    references$RI <- trimws(references$RI,which = "both")
     
-    RI <- unlist(strsplit(references[ref,]$RI, ";"))  
+    RI <- unlist(strsplit(references$RI, ";"))  
     
     ## Process author ORCID ID fields to add to the *_authors.csv file (Added by EMB 2 dec 2017)
     
@@ -101,21 +100,25 @@ read_authors <- function(references, filename_root="") {
     # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
     # for processing that field to get the spacing along which to split the string right.
     #
-    references[ref,]$OI <- gsub(" ", "", references[ref,]$OI, fixed=TRUE)
+    references$OI <- gsub(" ", "", references$OI, fixed=TRUE)
     
-    references[ref,]$OI <- gsub("\n"," ", references[ref,]$OI, fixed=TRUE)
+    references$OI <- gsub("\n"," ", references$OI, fixed=TRUE)
     
-    references[ref,]$OI <- gsub("; ", ";", references[ref,]$OI, fixed=TRUE)
+    references$OI <- gsub("; ", ";", references$OI, fixed=TRUE)
     
-    references[ref,]$OI <- trimws(references[ref,]$OI,which = "both")
+    references$OI <- trimws(references$OI,which = "both")
     
-    OI <- unlist(strsplit(references[ref,]$OI, ";"))  
-    ########################################################
+    OI <- unlist(strsplit(references$OI, ";"))  
+
     
+    
+    
+    
+       ########################################################
+    for (ref in 1:length(references$UT)) {    
     ##	Now add all authors to our author_list and author_refdata_link 
     ##		tables:
     for (aut in 1:length(authors_AU)) {
-      i <- i + 1
       
       ##	Check to see how many identical AU records we have and add
       ##		one to the iterator for the ID:
@@ -124,14 +127,14 @@ read_authors <- function(references, filename_root="") {
       ##	Eventually, we probably want to use a numeric primary key for
       ##		both AU_ID and for the reference (instead of UT), but for
       ##		now let's keep it this way:
-      authors[i,"AU_ID"] <- paste(authors_AU[aut], "_", 
+      authors[aut,"AU_ID"] <- paste(authors_AU[aut], "_", 
                                   (ID_sum + 1), sep="")
       
-      authors[i,"AU"] <- authors_AU[aut]
+      authors[aut,"AU"] <- authors_AU[aut]
       
-      authors[i,"AF"] <- authors_AF[aut]
+      authors[aut,"AF"] <- authors_AF[aut]
       
-      authors[i,"EM"] <- ""
+      authors[aut,"EM"] <- ""
       
       ##	If we have email addresses, we'll try to match it to
       ##		individual authors, there is not a one-to-one relationship:
@@ -154,31 +157,31 @@ read_authors <- function(references, filename_root="") {
             em_match <- authors_EM[emid]
           }
         }
-        authors[i,"EM"] <- em_match
-      }
+        authors[aut,"EM"] <- em_match
+      } # emid loop
       
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+      authors[aut,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
                                 collapse="\n")
       
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+      authors[aut,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
                                 collapse="\n")
       ##	For first authors, and the case where names are not listed with 
       ##		multiple C1 addresses, pull the first one:
-      if (authors[i,"C1"] == "" & 
+      if (authors[aut,"C1"] == "" & 
           (length(C1_address) == 1 | aut == 1)) {
         
-        authors[i,"C1"] <- C1_address[1]
+        authors[aut,"C1"] <- C1_address[1]
         
       }
       
-      authors[i,"RP"] <- paste0(RP_address[grep(authors_AU[aut], RP) ],
+      authors[aut,"RP"] <- paste0(RP_address[grep(authors_AU[aut], RP) ],
                                 collapse="\n")
       
-      authors[i,"RID"] <- ""# Added EB
+      authors[aut,"RID"] <- ""# Added EB
       
-      authors[i,"RI"] <- ""
+      authors[aut,"RI"] <- ""
       
-      authors[i,"OI"] <- "" # Added EB
+      authors[aut,"OI"] <- "" # Added EB
       
       ##	If we have Researcher ID information, we'll try to match it to
       ##		individual authors:
@@ -196,7 +199,7 @@ read_authors <- function(references, filename_root="") {
           ##		but we'll use a canned distance composite from the 
           ##		RecordLinkage package:
           newSimilarity <- jarowinkler(RI[rid], 
-                                       authors[i,"AF"])
+                                       authors[aut,"AF"])
           
           if ( (newSimilarity > 0.8) & 
                (newSimilarity > Similarity) ) {
@@ -206,7 +209,7 @@ read_authors <- function(references, filename_root="") {
             rid_match <- RI[rid]
           }
         }
-        authors[i,"RI"] <- rid_match
+        authors[aut,"RI"] <- rid_match
       }
       
       
@@ -231,14 +234,14 @@ read_authors <- function(references, filename_root="") {
             oid_match <- OI[oid]
           }
         }
-        authors[i,"OI"] <- oid_match
+        authors[aut,"OI"] <- oid_match
       }
       
-      authors_references[i,"AU_ID"] <- authors[i,"AU_ID"]
+      authors_references[aut,"AU_ID"] <- authors[aut,"AU_ID"]
       
-      authors_references[i,"UT"] <- references[ref,"UT"]
+      authors_references[aut,"UT"] <- references[ref,"UT"]
       
-      authors_references[i,"C1"] <- authors[i,"C1"]
+      authors_references[aut,"C1"] <- authors[aut,"C1"]
       
       authors_references[i,"RP"] <- authors[i,"RP"]
       
@@ -249,8 +252,8 @@ read_authors <- function(references, filename_root="") {
       authors_references[i,"OI"] <- authors[i,"OI"]
       
       authors_references[i,"Author_Order"] <- aut
-    }
-  }
+    } # aut for loop
+  } # ref forloop
   
   ##	Calculate the maximum similarity for any subsets of AU that match
   ##		across authors.  Note that we sort by country in decreasing order
