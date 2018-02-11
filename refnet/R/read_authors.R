@@ -11,19 +11,26 @@
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
 #'   function will be saved
 
+
 read_authors <- function(references, filename_root="") {
-  authors <- data.frame(
-    "AU" = character(0),
-    "AU_ID" = character(0),
-    "AU_ID_Dupe" = character(0),
-    "Similarity" = character(0),
-    "AF" = character(0),
-    "EM" = character(0),
-    "C1" = character(0),
-    "RP" = character(0),
-    "RID" = character(0),
-    "RI" = character(0),
-    "OI"= character(0),  # added by EB
+  
+  
+  authors_AU <- unlist(strsplit(references$AU, "\n"))
+  authors_AF <- unlist(strsplit(references$AF, "\n"))
+  
+  
+    authors <- data.frame(
+    "AU" = rep(NA, length(authors_AU)),
+    "AU_ID" = NA,
+    "AU_ID_Dupe" = NA,
+    "Similarity" = NA,
+    "AF" = NA,
+    "EM" = NA,
+    "C1" = NA,
+    "RP" = NA,
+    "RID" = NA,
+    "RI" = NA,
+    "OI"= NA,  # added by EB
     stringsAsFactors=FALSE
   )
   
@@ -39,20 +46,12 @@ read_authors <- function(references, filename_root="") {
     stringsAsFactors=FALSE
   )
   
-  ##	This is an index for the current author record, it gets iterated for 
-  ##		record we advance through:
-  i <- 0
-  
   ##	The email list is interesting because it seems it has line
   ##		breaks and is "; " delimited.  So we have to clean the line
   ##		a bit to start:
-  references$EM <- gsub(" ", "", references$EM)
-  references$EM <- gsub(";", "\n", references$EM)
-  
-  ##	Iterate through each reference record:
-
-    authors_AU <- unlist(strsplit(references$AU, "\n"))
-    authors_AF <- unlist(strsplit(references$AF, "\n"))
+  references <- references %>% 
+                  mutate(EM = gsub(" ", "", EM),
+                         EM = gsub(";", "\n", EM))
     
     ##	The new CIW format does not actually fill the AF field, instead
     ##		using the AU field for the full name.  Therefore we'll check it
@@ -83,15 +82,13 @@ read_authors <- function(references, filename_root="") {
     # Note: this was challenging because there were carriage returns and uneven spacing in the files downloaded from WOS. 
     # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
     # for processing that field to get the spacing along which to split the string right.
-    
-    references$RI <- gsub(" ", "", references$RI, fixed=TRUE)
-    
-    references$RI <- gsub("\n"," ", references$RI, fixed=TRUE)
-    
-    references$RI <- gsub("; ", ";", references$RI, fixed=TRUE)
-    
-    references$RI <- trimws(references$RI,which = "both")
-    
+
+    references <- references %>% 
+                    mutate(RI = gsub(" ", "", RI, fixed=TRUE),
+                           RI = gsub("\n"," ", RI, fixed=TRUE),
+                           RI = gsub("; ", ";", RI, fixed=TRUE),
+                           RI = trimws(RI,which = "both"))
+      
     RI <- unlist(strsplit(references$RI, ";"))  
     
     ## Process author ORCID ID fields to add to the *_authors.csv file (Added by EMB 2 dec 2017)
@@ -100,41 +97,36 @@ read_authors <- function(references, filename_root="") {
     # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
     # for processing that field to get the spacing along which to split the string right.
     #
-    references$OI <- gsub(" ", "", references$OI, fixed=TRUE)
-    
-    references$OI <- gsub("\n"," ", references$OI, fixed=TRUE)
-    
-    references$OI <- gsub("; ", ";", references$OI, fixed=TRUE)
-    
-    references$OI <- trimws(references$OI,which = "both")
-    
+    references <- references %>%
+                    mutate(OI = gsub(" ", "", OI, fixed=TRUE),
+                           OI = gsub("\n"," ", OI, fixed=TRUE))
+                           OI = gsub("; ", ";", OI, fixed=TRUE),
+                           OI = trimws(OI,which = "both"))
+
     OI <- unlist(strsplit(references$OI, ";"))  
 
-    
-    
-    
-    
        ########################################################
-    for (ref in 1:length(references$UT)) {    
-    ##	Now add all authors to our author_list and author_refdata_link 
-    ##		tables:
-    for (aut in 1:length(authors_AU)) {
-      
+#    # for (ref in 1:length(references$UT)) {    
+    # ##	Now add all authors to our author_list and author_refdata_link 
+    # ##		tables:
+     for (aut in 1:length(authors_AU)) {
+    # 
+    for(i in 1:length(authors_AU)){    
       ##	Check to see how many identical AU records we have and add
       ##		one to the iterator for the ID:
-      ID_sum <- sum(authors_AU[aut] == authors[,"AU"])
-      
+      ID_sum[i] <- sum(authors_AU[i] == authors[,"AU"])
+    }  
       ##	Eventually, we probably want to use a numeric primary key for
       ##		both AU_ID and for the reference (instead of UT), but for
       ##		now let's keep it this way:
-      authors[aut,"AU_ID"] <- paste(authors_AU[aut], "_", 
+      authors$AU_ID <- paste(authors_AU, "_", 
                                   (ID_sum + 1), sep="")
       
-      authors[aut,"AU"] <- authors_AU[aut]
+      authors$AU <- authors_AU
       
-      authors[aut,"AF"] <- authors_AF[aut]
+      authors$AF <- authors_AF
       
-      authors[aut,"EM"] <- ""
+      authors$EM <- ""
       
       ##	If we have email addresses, we'll try to match it to
       ##		individual authors, there is not a one-to-one relationship:
@@ -150,8 +142,8 @@ read_authors <- function(references, filename_root="") {
           newSimilarity <- jarowinkler(authors_EM[emid], 
                                        authors[i,"AU"])
           
-          if ( (newSimilarity > 0.6) & 
-               (newSimilarity > Similarity) ) {
+          if ((newSimilarity > 0.6) & 
+              (newSimilarity > Similarity) ) {
             Similarity <- newSimilarity
             
             em_match <- authors_EM[emid]
@@ -160,10 +152,10 @@ read_authors <- function(references, filename_root="") {
         authors[aut,"EM"] <- em_match
       } # emid loop
       
-      authors[aut,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+      authors$C1 <- paste0(C1_address[ grep(authors_AF, C1) ],
                                 collapse="\n")
       
-      authors[aut,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
+      authors$C1 <- paste0(C1_address[ grep(authors_AF, C1) ],
                                 collapse="\n")
       ##	For first authors, and the case where names are not listed with 
       ##		multiple C1 addresses, pull the first one:
@@ -174,17 +166,14 @@ read_authors <- function(references, filename_root="") {
         
       }
       
-      authors[aut,"RP"] <- paste0(RP_address[grep(authors_AU[aut], RP) ],
+      authors$RP <- paste0(RP_address[grep(authors_AU, RP) ],
                                 collapse="\n")
       
-      authors[aut,"RID"] <- ""# Added EB
+      authors$RID <- ""# Added EB
       
-      authors[aut,"RI"] <- ""
+      authors$RI  <- ""
       
-      authors[aut,"OI"] <- "" # Added EB
-      
-      ##	If we have Researcher ID information, we'll try to match it to
-      ##		individual authors:
+      authors$OI  <- "" # Added EB
       
       ##	If we have Researcher ID information, we'll try to match it to
       ##		individual authors:
@@ -237,21 +226,21 @@ read_authors <- function(references, filename_root="") {
         authors[aut,"OI"] <- oid_match
       }
       
-      authors_references[aut,"AU_ID"] <- authors[aut,"AU_ID"]
+      authors_references$AU_ID <- authors$AU_ID
       
-      authors_references[aut,"UT"] <- references[ref,"UT"]
+      authors_references$UT <- references$UT
       
-      authors_references[aut,"C1"] <- authors[aut,"C1"]
+      authors_references$C1 <- authors$C1
       
-      authors_references[i,"RP"] <- authors[i,"RP"]
+      authors_references$RP <- authors$RP
       
-      authors_references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      authors_references$RID <- authors$RID 
       
-      authors_references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
+      authors_references$RI <- authors$RI   
       
-      authors_references[i,"OI"] <- authors[i,"OI"]
+      authors_references$OI <- authors$OI
       
-      authors_references[i,"Author_Order"] <- aut
+      authors_references$Author_Order <- aut
     } # aut for loop
   } # ref forloop
   
