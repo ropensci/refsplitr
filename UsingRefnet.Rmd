@@ -65,11 +65,10 @@ The first argument of "read_references" should point to the folder where your da
 
 ```{r ecuador1read}
 ecuador_references <- read_references("./data/Ecuador.txt", 
-                                      dir=FALSE, 
+   dir=FALSE, 
    filename_root="./output/ecuador")
 
-ecuador <- read_authors(ecuador_references, 
-                       filename_root="./output/ecuador")
+ecuador <- read_authors(ecuador_references,    filename_root="./output/ecuador")
 ```
 
 ```{r ecuador2read}
