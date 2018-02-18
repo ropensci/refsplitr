@@ -99,7 +99,7 @@ read_authors <- function(references, filename_root="") {
     #
     references <- references %>%
                     mutate(OI = gsub(" ", "", OI, fixed=TRUE),
-                           OI = gsub("\n"," ", OI, fixed=TRUE))
+                           OI = gsub("\n"," ", OI, fixed=TRUE),
                            OI = gsub("; ", ";", OI, fixed=TRUE),
                            OI = trimws(OI,which = "both"))
 

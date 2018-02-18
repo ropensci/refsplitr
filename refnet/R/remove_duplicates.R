@@ -23,8 +23,10 @@ remove_duplicates <- function(authors, authors_references,
   
   uni_AU_ID_Dupe <- na.omit(unique(authors[,"AU_ID_Dupe"]))
   stime <- Sys.time()
+  
   for (i in 1:length(uni_AU_ID_Dupe)) {
- stime1 <- Sys.time()
+    stime1 <- Sys.time()
+    
     AU_ID_Dupe <- uni_AU_ID_Dupe[i]
     ##	Also have to check here to pull all tagged with the same AU_ID_Dupe
     ##		and the original AU_ID matching it!
