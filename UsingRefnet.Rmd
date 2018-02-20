@@ -65,44 +65,29 @@ The first argument of "read_references" should point to the folder where your da
 
 ```{r ecuador1read}
 ecuador_references <- read_references("./data/Ecuador.txt", 
-                                      dir=FALSE, 
-                                      filename_root="./output/ecuador")
+   dir=FALSE, 
+   filename_root="./output/ecuador")
 
-ecuador <- read_authors(ecuador_references, 
-                       filename_root="./output/ecuador")
+ecuador <- read_authors(ecuador_references,    filename_root="./output/ecuador")
 ```
 
 ```{r ecuador2read}
 ecuador2_references <- read_references("./data/Ecuador_0114.txt", 
                                        dir=FALSE, 
-                                       filename_root="./output/ecuador2")
+                                       filename_root="./output/test2")
 
 ecuador2 <- read_authors(ecuador2_references, 
                        filename_root="./output/ecuador2")
 ```
 
-```{r eb_referencesread}
-eb_references <- read_references("./data/EBpubs.txt", 
-                                 dir=FALSE, 
-                                 filename_root="./output/eb")
 
-eb <- read_authors(eb_references,
-                       filename_root="./output/eb")
-```
 
-```{r peru_referencesread}
-peru_references <- read_references("./data/Peru.txt", 
-                                   dir=FALSE, 
-                                   filename_root="./output/peru")
 
-peru <- read_authors(peru_references, 
-                       filename_root="./output/peru")
-```
 
 ```{r ecology_referencesread}
 ecology_references <- read_references("./data/Ecology.txt", 
                                       dir=FALSE, 
-                                      filename_root="./output/ecology")
+                                    filename_root="./output/ecology")
 
 ecology <- read_authors(ecology_references, 
                        filename_root="./output/ecology")
@@ -167,56 +152,43 @@ sum(ecuador_authors$C1 == "" | is.na(ecuador_authors$C1))/
 sum(ecuador2_authors$C1 == "" | is.na(ecuador2_authors$C1))/
   length(ecuador2_authors$C1)*100
 
-sum(peru_authors$C1 == "" | is.na(peru_authors$C1))/
-  length(peru_authors$C1)*100
-
-sum(eb_authors$C1 == "" | is.na(eb_authors$C1))/
-  length(eb_authors$C1)*100
 ```
 
 Let's remove duplicates from our presumably updated and corrected author lists:
 
 ```{r}
-ecuador_no_dupes <- remove_duplicates(authors=ecuador_authors,
-            authors_references=ecuador_authors_references,
+ecuador_no_dupes <- remove_duplicates(authors=ecuador$authors,
+            authors_references=ecuador$authors_references,
             filename_root="output/ecuador_nodupe")
 ```
 
 ```{r}
-ecuador2_no_dupes <- remove_duplicates(authors=ecuador2_authors,
-                            authors_references=ecuador2_authors_references,
+ecuador2_no_dupes <- remove_duplicates(authors=ecuador2$authors,
+                            authors_references=ecuador2$authors_references,
                             filename_root="output/ecuador2_nodupe")
-```
-
-```{r}
-peru <- remove_duplicates(authors=peru$authors,
-                            authors_references=peru$authors_references,
-                            filename_root="output/peru_nodupe")
-```
-
-```{r}
-eb <- remove_duplicates(authors=eb$authors, 
-                            authors_references=eb$authors_references,
-                            filename_root="output/eb_nodupe")
 ```
 
 Now let's merge references, authors, and authors__references:
 ```{r}
 output <- merge_records(
-	references=ecuador_no_dupes$references, 
-	authors=ecuador_no_dupes$authors, 
-	authors__references=ecuador_authors_references, 
-	references_merge=ecuador2_no_dupes$references, 
-	authors_merge=ecuador2_no_dupes$authors, 
-	authors__references_merge=ecuador2_no_dupes$authors_references,
-	#references_merge=peru_references, 
-	#authors_merge=peru_authors, 
-	#authors__references_merge=peru_authors__references,
-	#references_merge=eb_references, 
-	#authors_merge=eb_authors, 
-	#authors__references_merge=eb_authors__references,
-	filename_root = "output/merged"
-)
+    references=ecuador_references,
+    authors=ecuador_authors,
+    authors_references=ecuador_author_references,
+    references_merge=ecuador2_references,
+    authors_merge=ecuador2_authors,
+    authors_references_merge=ecuador2_authors_references,
+    filename_root = "output/merged"
+  )
+
+# output <- merge_records(
+# 	references=ecuador_no_dupes$references, 
+# 	authors=ecuador_no_dupes$authors, 
+# 	authors_references=ecuador_no_dupes$authors_references, 
+# 	references_merge=ecuador2_no_dupes$references, 
+# 	authors_merge=ecuador2_no_dupes$authors, 
+# 	authors_references_merge=ecuador2_no_dupes$authors_references,
+# 	filename_root = "output/merged"
+# )
 ```
 
 ```{r}
@@ -233,7 +205,7 @@ And finally after scrolling through and hand-correcting any authors from the mer
 #merged_authors <- read.csv("./output/merged_authors.csv", as.is=TRUE)
 
 output <- remove_duplicates(authors=merged_authors,
-              authors__references=merged_authors__references,
+              authors_references=merged_authors_references,
               filename_root="output/merged_nodupe")
 
 merged_authors <- output$authors

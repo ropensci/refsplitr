@@ -22,8 +22,10 @@ remove_duplicates <- function(authors, authors_references,
   ##	Next we will iterate over the unique values of the AU_ID_Dupe field and create a single record for each set of duplicates:
   
   uni_AU_ID_Dupe <- na.omit(unique(authors[,"AU_ID_Dupe"]))
+  stime <- Sys.time()
   
   for (i in 1:length(uni_AU_ID_Dupe)) {
+    stime1 <- Sys.time()
     
     AU_ID_Dupe <- uni_AU_ID_Dupe[i]
     ##	Also have to check here to pull all tagged with the same AU_ID_Dupe
@@ -85,7 +87,7 @@ remove_duplicates <- function(authors, authors_references,
           RP <- append(RP, unlist(strsplit(authors_dupes[j, "RP"], "\n")))
         } # if statement
         
-        ##	Finally, update the authors__references AU_ID to reflect the newly merged
+        ##	Finally, update the authors_references AU_ID to reflect the newly merged
         ##		records:
         authors_references[(authors_references$AU_ID ==
                         authors_dupes[j, "AU_ID"]),"AU_ID"] <- AU_ID_Dupe
@@ -115,9 +117,9 @@ remove_duplicates <- function(authors, authors_references,
     
     RP <- unique(RP)
     
-    
+ print(stime1 - Sys.time())
   } # AU_ID_Dupe for loop 
-  
+  stime - Sys.time()
   
   if(filename_root != "") {
     write.csv(authors_removed, 
@@ -132,7 +134,7 @@ remove_duplicates <- function(authors, authors_references,
   }            
   
   return(list("authors"=authors_removed, 
-              "authors__references"=authors_references))
+              "authors_references"=authors_references))
 }
 
 ##	END: remove_duplicates():

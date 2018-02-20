@@ -26,13 +26,35 @@ merge_records <- function(references,
                           authors_references_merge, 
                           addresses_merge="", 
                           filename_root = "") {
-  ##	For testing:
-  #references <- brazil_references
-  #authors <- brazil_authors
-  #authors_references <- brazil_authors_references
-  #references_merge <- ecuador_references
-  #authors_merge <- ecuador_authors
-  #authors_references_merge <- ecuador_authors_references
+#   ##	For testing:
+#  ecuador_references <- read.csv("~/refnet2/output/ecuador_references.csv")
+#  ecuador_authors <- read.csv("~/refnet2/output/ecuador_authors.csv")
+#  ecuador_author_references <- read.csv("~/refnet2/output/ecuador_authors__references.csv")
+#  ecuador2_references <- read.csv("~/refnet2/output/ecuador2_references.csv")
+#  ecuador2_authors <- read.csv("~/refnet2/output/ecuador2_authors.csv")
+#  ecuador2_authors_references <- read.csv("~/refnet2/output/ecuador2_authors__references.csv")
+# 
+# # output <- merge_records(
+#    references=ecuador_references#,
+#    authors=ecuador_authors#,
+#    authors_references=ecuador_author_references#,
+#    references_merge=ecuador2_references#,
+#    authors_merge=ecuador2_authors#,
+#    authors_references_merge=ecuador2_authors_references#,
+#    filename_root = "output/merged"
+# # )
+ 
+ 
+  
+  # output <- merge_records(
+  #   references=ecuador_references,
+  #   authors=ecuador_authors,
+  #   authors_references=ecuador_author_references,
+  #   references_merge=ecuador2_references,
+  #   authors_merge=ecuador2_authors,
+  #   authors_references_merge=ecuador2_authors_references,
+  #   filename_root = "output/merged"
+  # )
   
   ##	First we merge references lists, making sure that we have no duplicates
   ##		to mess with:
@@ -65,7 +87,8 @@ merge_records <- function(references,
                       select(AU_ID)
     
 #    authors_merge <- authors_merge[ authors_merge$AU_ID %in% 
- #                                     remove_ids, ]
+#                                      remove_ids, ]
+
       authors_merge <- authors_merge %>%
                           filter(AU_ID %in% remove_ids)
       
@@ -74,8 +97,8 @@ merge_records <- function(references,
 #                                            remove_ids, ]
       addresses_merge <- addresses_merge %>%
                             filter(AU_ID %in% remove_ids)
-    }
-  }
+    } # if (sum(remove_indices) > 0) {
+  } # if (sum(remove_indices) > 0) {
   
   
   ##	Now we check each author in the author list to be merged to see if it's AU_ID is already in the list to be merged and increment it:
@@ -125,12 +148,14 @@ merge_records <- function(references,
   }
   
   ##	Now we can merge all of the tables:
-  references <- bind_rows(references, references_merge)
+  suppressWarnings(  references <- bind_rows(references, references_merge))
   
-  authors <- bind_rows(authors, authors_merge)
+suppressWarnings(authors <- bind_rows(authors, authors_merge))
   
-  authors_references <- bind_rows(authors_references, 
-                                  authors_references_merge)
+suppressWarnings(authors_references <- bind_rows(
+                  authors_references, 
+                  authors_references_merge))
+
   if (addresses_merge != "") {
     if (addresses == "") {
       addresses <- addresses_merge
