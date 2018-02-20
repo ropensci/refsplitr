@@ -9,6 +9,8 @@ file1 <- "Ecuador.txt"
 file2 <- "Ecuador_0114.txt"
 name <- "ecuador"
 
+
+step1 <- function(file1, file2, name="files"){
 references1 <- read_references(paste0("./data/",file1), 
                                       dir=FALSE, 
                                       filename_root=paste0("./output/",name))
@@ -40,8 +42,18 @@ output <- merge_records(
       authors_references_merge=no_dupes2$authors_references,
       filename_root = paste0("output/merged",name))
 
-merged_references <- output$references
+return(output)
+}
 
-merged_authors <- output$authors
+tt <- Sys.time()
+out <- step1(file1=file1, file2=file2, name=name)
+tt - Sys.time()
 
-merged_authors_references <- output$authors_references
+
+step1out <- out
+
+step2 <- remove_duplicates(authors=step1out$authors, 
+                     authors_references=stepout1$merged_authors_references,
+                     filename_root=paste0("output/merged_",name,"nodupe"))
+
+
