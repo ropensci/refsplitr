@@ -12,7 +12,8 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path and will be appended to output file names function will be saved
 
-remove_duplicates <- function(authors, authors_references, 
+remove_duplicates <- function(authors, 
+                              authors_references, 
                               addresses="", 
                               filename_root = "") {
   ##	First we will create a new author list with all of those authors removed that have not been tagged as a duplicate:
@@ -89,8 +90,7 @@ remove_duplicates <- function(authors, authors_references,
         
         ##	Finally, update the authors_references AU_ID to reflect the newly merged
         ##		records:
-        authors_references[(authors_references$AU_ID ==
-                        authors_dupes[j, "AU_ID"]),"AU_ID"] <- AU_ID_Dupe
+        authors_references[(authors_references$AU_ID ==                    authors_dupes[j, "AU_ID"]),"AU_ID"] <- AU_ID_Dupe
         
         ##	If addresses were supplied, update them:
         if (addresses != "") {

@@ -1,6 +1,8 @@
 ---
 title: "UsingRefnet"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, warning=FALSE, message=FALSE}
@@ -80,20 +82,6 @@ ecuador2 <- read_authors(ecuador2_references,
                        filename_root="./output/ecuador2")
 ```
 
-
-
-
-
-```{r ecology_referencesread}
-ecology_references <- read_references("./data/Ecology.txt", 
-                                      dir=FALSE, 
-                                    filename_root="./output/ecology")
-
-ecology <- read_authors(ecology_references, 
-                       filename_root="./output/ecology")
-
-```
-
  
 # NEXT STEPS (12 jan 2017)             
 1) the researcherID is not being read in correctly due to T-R changing from RID to RI...
@@ -160,12 +148,19 @@ Let's remove duplicates from our presumably updated and corrected author lists:
 ecuador_no_dupes <- remove_duplicates(authors=ecuador$authors,
             authors_references=ecuador$authors_references,
             filename_root="output/ecuador_nodupe")
+
+ecuador_authors <- ecuador_no_dupes$authors
+ecuador_authors_references <- ecuador_no_dupes$authors_references
+
 ```
 
 ```{r}
 ecuador2_no_dupes <- remove_duplicates(authors=ecuador2$authors,
                             authors_references=ecuador2$authors_references,
                             filename_root="output/ecuador2_nodupe")
+
+ecuador2_authors <- ecuador2_no_dupes$authors
+ecuador2_authors_references <- ecuador2_no_dupes$authors_references
 ```
 
 Now let's merge references, authors, and authors__references:
