@@ -130,15 +130,15 @@ merge_records <- function(references,
 #      authors_references_merge[ authors_references_merge$AU_ID==AU_ID_old,
 #                                "AU_ID"] <- AU_ID_new
       authors_references_merge <- authors_references_merge %>%
-                                  mutate(AU_ID = ifelse(AU_ID==AU_ID_old),
-                                        AU_ID_new, AU_ID)
+                mutate(AU_ID = ifelse(AU_ID==AU_ID_old,
+                                        AU_ID_new, AU_ID))
       
       ##	And if we have addresses replaced old AU_ID values with the new:
       if (addresses_merge != "") {
 #        addresses_merge[ addresses_merge$AU_ID == AU_ID_old, "AU_ID"] <- AU_ID_new
         addresses_merge <- addresses_merge %>%
-                            mutate(AU_ID = ifelse(AU_ID==AU_ID_old,
-                                                  AU_ID_new, AU_ID))
+                   mutate(AU_ID = ifelse(AU_ID==AU_ID_old,
+                                      AU_ID_new, AU_ID))
               }
       
       ##	Return to the top to check to see if we've found a unique AU_ID
@@ -147,9 +147,10 @@ merge_records <- function(references,
   }
   
   ##	Now we can merge all of the tables:
-  suppressWarnings(  references <- bind_rows(references, references_merge))
+  suppressWarnings(references <- rbind(references_merge, 
+                                        references))
   
-suppressWarnings(authors <- bind_rows(authors, authors_merge))
+suppressWarnings(authors <- rbind(authors, authors_merge))
   
 suppressWarnings(authors_references <- bind_rows(
                   authors_references, 
@@ -177,7 +178,8 @@ suppressWarnings(authors_references <- bind_rows(
         ##	More sophisticated similarity measures could be devised here
         ##		but we'll use a canned distance composite from the 
         ##		RecordLinkage package:
-        newSimilarity <- jarowinkler(authors[aut,"AF"], similar[i,"AF"])
+        newSimilarity <- jarowinkler(authors[aut,"AF"], 
+                                     similar[i,"AF"])
         
         ##	See note above about not including country directly in the
         ##		author record:
