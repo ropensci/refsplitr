@@ -113,6 +113,7 @@ remove_duplicates <- function(authors,
 #    } # j for loop
     
     ##	Remove any duplicates from EM, C1 and RP records:
+
     # EM <- unique(EM)
     # 
     # C1 <- unique(C1)
@@ -120,6 +121,7 @@ remove_duplicates <- function(authors,
     # RP <- unique(RP)
     
     print(stime1 - Sys.time())
+
   } # AU_ID_Dupe for loop 
   stime - Sys.time()
   

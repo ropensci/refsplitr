@@ -88,6 +88,7 @@ merge_records <- function(references,
     
 #    authors_merge <- authors_merge[ authors_merge$AU_ID %in% 
 #                                      remove_ids, ]
+
       authors_merge <- authors_merge %>%
                           filter(AU_ID %in% remove_ids)
       
