@@ -31,7 +31,7 @@ output <- read_authors(ecology_references,
 
 ecology_authors <- output$authors
 
-ecology_authors__references <- output$authors__references
+ecology_authors_references <- output$authors_references
 
 ##############################################################################################
 ##########################           NEXT STEPS (12 jan 2017)             #####################
