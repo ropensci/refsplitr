@@ -9,8 +9,15 @@
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 #' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
 
-net_plot_coauthor <- function(addresses, authors_references) {
-  references_addresses_linked <- merge(x=authors_references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
+net_plot_coauthor <- function(addresses, 
+                              authors_references) {
+  
+  references_addresses_linked <- merge(x=authors_references, 
+                                       y=addresses, 
+                                       by.x="AU_ID", 
+                                       by.y="AU_ID", 
+                                       all.x=FALSE, 
+                                       all.y=FALSE)
   
   ##	For now, we'll just drop any that don't have a Country Name:
   references_addresses_linked <- references_addresses_linked[complete.cases(references_addresses_linked[c("UT", "country_name_code")]),]
@@ -25,12 +32,14 @@ net_plot_coauthor <- function(addresses, authors_references) {
   require(Matrix)
   
   linkages <- spMatrix(nrow=length(unique(references_addresses_linked$country_name_code)),
-                       ncol=length(unique(references_addresses_linked$UT)),
-                       i = as.numeric(factor(references_addresses_linked$country_name_code)),
-                       j = as.numeric(factor(references_addresses_linked$UT)),
-                       x = rep(1, length(references_addresses_linked$country_name_code)) 
+   ncol=length(unique(references_addresses_linked$UT)),
+  i = as.numeric(factor(references_addresses_linked$country_name_code)),
+  j = as.numeric(factor(references_addresses_linked$UT)),
+  x = rep(1, length(references_addresses_linked$country_name_code)) 
   )
+  
   row.names(linkages) <- levels(factor(references_addresses_linked$country_name_code))
+  
   colnames(linkages) <- levels(factor(references_addresses_linked$UT))
   
   ##	Convert to a one-mode representation of countries:
@@ -45,7 +54,9 @@ net_plot_coauthor <- function(addresses, authors_references) {
   
   
   #linkages_countries_net <- graph.adjacency(linkages_countries, mode="undirected")
-  linkages_countries_net <- graph.adjacency(linkages_countries, mode="undirected", weighted=TRUE)
+  linkages_countries_net <- graph.adjacency(linkages_countries, 
+                                            mode="undirected", 
+                                            weighted=TRUE)
   
   #summary(linkages_countries_net)
   
@@ -68,10 +79,10 @@ net_plot_coauthor <- function(addresses, authors_references) {
   #plot(linkages_countries_net, layout=layout.fruchterman.reingold)
   
   #E(linkages_countries_net)$weight
-  egam <- (log(E(linkages_countries_net)$weight)+.3)/max(log(E(linkages_countries_net)$weight)+.3)
-  11
-  E(linkages_countries_net)$color <- rgb(0,0,0,egam)
-  
+  # egam <- (log(E(linkages_countries_net)$weight)+.3)/max(log(E(linkages_countries_net)$weight)+.3)
+  # 11
+  # E(linkages_countries_net)$color <- rgb(0,0,0,egam)
+
   #pdf("../output/merged_nodupe_first1000_linkages_countries_net.pdf")
   plot(linkages_countries_net, layout=layout.fruchterman.reingold)
   #plot(linkages_countries_net, layout=layout.kamada.kawai)
