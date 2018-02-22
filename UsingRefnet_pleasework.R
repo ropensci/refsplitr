@@ -1,4 +1,4 @@
-## This is EB's edit's to the instructions on using refnet Forrest wrote up.
+
 ## Don't forget that to add your commits to the fork you need to do the following: 
 ## In RStudio menus go to "Tools"->"Shell" and type the following: git push origin proposed-updates
 ## See: http://r-bio.github.io/intro-git-rstudio/ for more info.
@@ -34,49 +34,6 @@ ecology_authors <- output$authors
 
 ecology_authors_references <- output$authors_references
 
-##############################################################################################
-##########################           NEXT STEPS (12 jan 2017)             #####################
-# 1) the researcherID is not being read in correctly due to T-R changing from RID to RI...
-###############################################################################################
-
-## FIX LIST
-# Somewhere in going from FOO_references to FOO_authors it is failing to read in the addresses 
-# in cells where there are multiple authros in the same institution
-# The problem must be in read_authors(function) and how it divides the record to assign to C1
-# EG for WOS:000282982300009
-# Correctly assigns the address for Killen, TJ but leaves a blank address for Vasquez-Martinez 
-# reads in [Killeen, TJ; Vasquez-Martinez, R] Conservat Int, Ctr Appl Biodivers Sci, Washington, DC USA. 
-# 
-# Can try to include in the code for read_authors, but might be best to just hack and add to file later.
-# 
-# C1<-eb_references$C1
-# foo<-unlist(strsplit(C1, "\n")) 
-# C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", foo) #just the address
-# foo<-as.data.frame(foo) #makes a dataframe
-# foo$C1_address<-C1_address #adds address to column
-# x <- data.frame(do.call('rbind', strsplit(as.character(foo$foo),']',fixed=TRUE)))
-# names(x)[2]<-"address"
-# x$X1 <- unlist(gsub("\\[", "", x$X1))
-# z<-x$X1 %>% str_split("\\;", simplify=TRUE)
-# x<-select(x,-1)
-# q<-cbind(x,z, stringsAsFactors=FALSE)
-# q[q==""]<-NA
-# str(x)
-# str(q)
-# z<-q %>% gather("Author_No","AF",-address,na.rm=TRUE)
-# all<-full_join(eb_authors,z,by="AF")
-
-# Need to figure out how to get WOS record in there to match them all up./
-# test<- eb_references %>% select (C1,UT)
-# names(test)[1]<-"foo"
-# foo<-full_join(foo,test,by="foo")
-
-############################################################
-# BACK TO FORREST'S ORIGINAL INSTRUCTIONS
-############################################################
-##	After reading the files in you can check the ecuador_authors.csv file
-##	and by hand in Excel, using the AU_ID_Dupe and Similarity fields, merge any author records that represent the same author.
-##	After doing so you can read these back into R using the following, or if you're not starting from scratch above:
 
 ###	Can be read back in without importing from the following three commands:
 eb_references <- read.csv("output/eb_references.csv", as.is=TRUE)
@@ -148,14 +105,6 @@ merged_authors_references <- output$authors_references
 ##	How to process addresses:
 authors_working <- merged_authors
 
-# ##	Process a single address at a time:
-# refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], "type"="RP", "address"=authors_working$RP[1], stringsAsFactors=FALSE))
-# 
-# refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[2], "type"="RP", "address"=authors_working$RP[2], stringsAsFactors=FALSE), verbose=TRUE)
-# 
-# ##	Process a group of addresses:
-# read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10], "type"="RP", "address"=authors_working$RP[1:10], stringsAsFactors=FALSE), verbose=TRUE)
-
 
 ##	Sample using the first C1 address listed for the first 1000 authors, 
 ##		keyed by author so we can join it back:
@@ -181,7 +130,6 @@ addressdf <- data.frame(
 ##	Use the full list to create addresses from the C1 records:
 addresses_working <- read_addresses(x=addressdf, 
       filename_root="output/merged_nodupe_addresses_C1_first1000")
-#addresses_working <- read.csv("output/merged_nodupe_addresses_C1_first1000_addresses.csv")
 
 ##	Now we can use those addresses to plot things out:
 plot_addresses_country(addresses_working)
@@ -200,20 +148,14 @@ output <- net_plot_coauthor_country(addresses_working, merged_authors_references
 ggsave("output/merged_nodupe_first1000_linkages_countries_world_ggplot.pdf", output, h = 9/2, w = 9)
 
 ##	We can subset records any way that makes sense.  For example, if we wanted to only use references from 2012 (note that the way records are read in they are strings and have a hard return character):
-ref_index <- merged_references$PY == "2012\n"
+ref_index <- merged_references$PY == "2016\n"|merged_references$PY == "2016"
 summary(ref_index)
 
 ##	Pull reference IDs (UT field) for just those from 2012:
 UT_index <- merged_references$UT[ref_index]
+
 merged_authors_references_subset <- merged_authors_references[ merged_authors_references$UT %in% UT_index, ]
 
 ##	Plot the subset for 2012:
 net_plot_coauthor_country(addresses_working, merged_authors_references_subset)
 
-##	Compare to 2011:
-ref_index <- merged_references$PY == "2011\n"
-UT_index <- merged_references$UT[ref_index]
-merged_authors__references_subset <- merged_authors__references[ merged_authors__references$UT %in% UT_index, ]
-
-##	Plot the subset for 2011:
-net_plot_coauthor_country(addresses_working, merged_authors__references_subset)
