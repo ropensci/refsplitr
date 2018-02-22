@@ -4,18 +4,23 @@
 
 #' Creates a network diagram of coauthors' countries linked by reference, and with nodes arranged geographically
 #' 
-#' \code{net_plot_coauthor_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
+#' \code{net_plot_coauthor_country} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for countries of co-authorship.
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
-#' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
+#' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
 
+load("addresses_working.Rdata")
+addresses <- addresses_working
+
+load("merged_authors_references.Rdata")
+authors__references <- merged_authors_references
 
 net_plot_coauthor_country <- function(
   addresses, 
-  authors_references) {
+  authors__references) {
   
   
-  references_addresses_linked <- merge(x=authors_references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
+  references_addresses_linked <- merge(x=authors__references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
   
   ##	For now, we'll just drop any that don't have a Country Name:
   references_addresses_linked <- references_addresses_linked[complete.cases(references_addresses_linked[c("UT", "country_name_code")]),]
@@ -67,8 +72,8 @@ net_plot_coauthor_country <- function(
   vertex_names <- (linkages_countries_net %v% "vertex.names")
   
   ##	Get the world map from rworldmap package:
-  world_map <- rworldmap::getMap()
-
+  world_map <- getMap()
+  
   vertexdf <- data.frame("ISO_A2"=vertex_names, stringsAsFactors=FALSE)
   
   coords_df <- merge(vertexdf, 
@@ -98,7 +103,6 @@ net_plot_coauthor_country <- function(
   
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE){
-    require(bezier)
     fromC <- layoutCoordinates[adjacencyList[whichRow, 1], ]  # Origin
     toC <- layoutCoordinates[adjacencyList[whichRow, 2], ]  # Terminus
     
@@ -112,7 +116,7 @@ net_plot_coauthor_country <- function(
     bezierMid <- (fromC + toC + bezierMid) / 3  # Moderate the Bezier midpoint
     if(curved == FALSE){bezierMid <- (fromC + toC) / 2}  # Remove the curve
     
-    edge <- data.frame(Hmisc::bezier(c(fromC[1], bezierMid[1], toC[1]),  # Generate
+    edge <- data.frame(bezier(c(fromC[1], bezierMid[1], toC[1]),  # Generate
                               c(fromC[2], bezierMid[2], toC[2]),  # X & y
                               evaluation = len)
     )  # Bezier path coordinates
@@ -139,13 +143,12 @@ net_plot_coauthor_country <- function(
   ##	Repair names:
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NAstr"] <- "NA"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NAstr"] <- "NA"
-
-  # Generate a (curved) edge path for each pair of connected nodes
-  allEdges <- lapply(1:nrow(adjacencyList), 
-                     edgeMaker, 
-                     len = 500, 
-                     curved = TRUE)
+  levels(adjacencyList$Var1)[levels(adjacencyList$Var1) == "NAstr"] <- "NA"
+  levels(adjacencyList$Var2)[levels(adjacencyList$Var2) == "NAstr"] <- "NA"
   
+  
+  # Generate a (curved) edge path for each pair of connected nodes
+  allEdges <- lapply(1:nrow(adjacencyList), edgeMaker, len = 500, curved = TRUE)
   allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
   
   
@@ -165,9 +168,9 @@ net_plot_coauthor_country <- function(
   ##	Create the world outlines:
   world_map@data$id = rownames(world_map@data)
   
-  world_map.points <- fortify(world_map)
+  world_map.points <- fortify(world_map, region="id")
   
-  world_map.df <- full_join(world_map.points, world_map@data, by="id")
+  world_map.df <- join(world_map.points, world_map@data, by="id")
   
   zp1 <- ggplot() + 
     geom_polygon(data=world_map.df, aes(long,lat,group=group), fill=gray(8/10)) +
@@ -183,7 +186,7 @@ net_plot_coauthor_country <- function(
   
   zp1 <- zp1 + geom_point(
     data = data.frame(layoutCoordinates),  # Add nodes
-    aes(x = LON, y = LAT), size = 5+100*sna::degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), pch = 21,
+    aes(x = LON, y = LAT), size = 5+100*degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), pch = 21,
     #colour = gray(4/10), fill = gray(6/10)
     colour = rgb(8/10, 2/10, 2/10, alpha=5/10), fill = rgb(9/10, 6/10, 6/10, alpha=5/10)
   )  # Customize gradient v
