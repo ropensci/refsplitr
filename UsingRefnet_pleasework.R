@@ -122,6 +122,8 @@ output <- merge_records(
 	filename_root = "output/merged"
 )
 
+save(output, file=paste0(Sys.Date(),"_merged_records_ecology_eb.Rdata"))
+
 merged_references <- output$references
 merged_authors <- output$authors
 merged_authors_references <- output$authors_references
@@ -134,23 +136,6 @@ output <- remove_duplicates(authors=merged_authors,
                 authors_references=merged_authors_references,
                 filename_root="output/merged_nodupe")
 
-
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-
 merged_authors <- output$authors
 merged_authors_references <- output$authors_references
 
@@ -162,14 +147,13 @@ merged_authors_references <- output$authors_references
 ##	How to process addresses:
 authors_working <- merged_authors
 
-##	Process a single address at a time:
-refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], "type"="RP", "address"=authors_working$RP[1], stringsAsFactors=FALSE))
-
-
-refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[2], "type"="RP", "address"=authors_working$RP[2], stringsAsFactors=FALSE), verbose=TRUE)
-
-##	Process a group of addresses:
-read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10], "type"="RP", "address"=authors_working$RP[1:10], stringsAsFactors=FALSE), verbose=TRUE)
+# ##	Process a single address at a time:
+# refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], "type"="RP", "address"=authors_working$RP[1], stringsAsFactors=FALSE))
+# 
+# refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[2], "type"="RP", "address"=authors_working$RP[2], stringsAsFactors=FALSE), verbose=TRUE)
+# 
+# ##	Process a group of addresses:
+# read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10], "type"="RP", "address"=authors_working$RP[1:10], stringsAsFactors=FALSE), verbose=TRUE)
 
 
 ##	Sample using the first C1 address listed for the first 1000 authors, 
@@ -187,8 +171,15 @@ address_list_working <- address_list_working[!is.na(address_list_working)]
 address_list_working <- gsub("^.* (.*,.*,.*)$", "\\1", address_list_working)
 address_list_working <- gsub("[. ]*$", "", address_list_working)
 
+
+addressdf <- data.frame(
+  "id"=address_list_working_au_id, 
+  "type"="C1", 
+  "address"=address_list_working, 
+  stringsAsFactors=FALSE)
 ##	Use the full list to create addresses from the C1 records:
-addresses_working <- read_addresses(data.frame("id"=address_list_working_au_id, "type"="C1", "address"=address_list_working, stringsAsFactors=FALSE), filename_root="output/merged_nodupe_addresses_C1_first1000")
+addresses_working <- read_addresses(x=addressdf, 
+      filename_root="output/merged_nodupe_addresses_C1_first1000")
 #addresses_working <- read.csv("output/merged_nodupe_addresses_C1_first1000_addresses.csv")
 
 ##	Now we can use those addresses to plot things out:
@@ -197,12 +188,13 @@ plot_addresses_points(addresses_working)
 
 ##	Uncomment to save as a PDF, and display the semi-transparent edge color:
 #pdf("output/merged_nodupe_first1000_linkages_countries.pdf")
-net_plot_coauthor(addresses_working, merged_authors__references)
+net_plot_coauthor(addresses_working, merged_authors_references)
 #dev.off()
-net_plot_coauthor_country(addresses_working, merged_authors__references)
+net_plot_coauthor_country(addresses_working, merged_authors_references)
 
 ##	The default plot area doesn't show semitransparent colors, so we'll output to PDF:
-output <- net_plot_coauthor_country(addresses_working, merged_authors__references)
+output <- net_plot_coauthor_country(addresses_working, merged_authors_references)
+
 ggsave("output/merged_nodupe_first1000_linkages_countries_world_ggplot.pdf", output, h = 9/2, w = 9)
 
 ##	We can subset records any way that makes sense.  For example, if we wanted to only use references from 2012 (note that the way records are read in they are strings and have a hard return character):

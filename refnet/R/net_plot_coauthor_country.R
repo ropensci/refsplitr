@@ -9,7 +9,11 @@
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 #' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
 
-net_plot_coauthor_country <- function(addresses, authors__references) {
+net_plot_coauthor_country <- function(
+  addresses, 
+  authors__references) {
+  
+  
   references_addresses_linked <- merge(x=authors__references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
   
   ##	For now, we'll just drop any that don't have a Country Name:
@@ -30,7 +34,9 @@ net_plot_coauthor_country <- function(addresses, authors__references) {
                        j = as.numeric(factor(references_addresses_linked$UT)),
                        x = rep(1, length(references_addresses_linked$country_name_code)) 
   )
+  
   rownames(linkages) <- levels(factor(references_addresses_linked$country_name_code))
+  
   colnames(linkages) <- levels(factor(references_addresses_linked$UT))
   
   ##	Convert to a one-mode representation of countries:
@@ -59,21 +65,19 @@ net_plot_coauthor_country <- function(addresses, authors__references) {
   
   vertex_names <- (linkages_countries_net %v% "vertex.names")
   
-  
   ##	Get the world map from rworldmap package:
   world_map <- getMap()
+
+  vertexdf <- data.frame("ISO_A2"=vertex_names, stringsAsFactors=FALSE)
   
-  coords_df <- merge(data.frame("ISO_A2"=vertex_names, stringsAsFactors=FALSE), world_map[c("ISO_A2", "LON", "LAT")]@data, by="ISO_A2")
+  coords_df <- merge(vertexdf, 
+                     world_map[c("ISO_A2", "LON", "LAT")]@data, 
+                     by="ISO_A2")
   
   ##	It seems there are two "AU" codes, so we'll aggregate and mean them:
   coords_df <- aggregate(coords_df[c("LON", "LAT")], by=list(factor(coords_df$ISO_A2)), FUN=mean)
   names(coords_df) <- c("ISO_A2", "LON", "LAT")
   
-  
-  #pdf("../output/merged_nodupe_linkages_countries_world.pdf")
-  #plot(world_map, xlim=c(-180, 180), ylim=c(-90, 90))
-  #plot(linkages_countries_net, coord=coords_df[c("LON", "LAT")], displaylabels = TRUE, boxed.labels = FALSE, suppress.axes = FALSE, label.col = rgb(0., 0.5, 0.0, 0.7), edge.col=rgb(0.0,0.0,0.0,0.3), vertex.col=rgb(0.,0.7,0.,0.5), label.cex = 0.5, xlab = "Longitude", ylab = "Latitude", main="Co-Author Locations", vertex.cex=1+10*degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), xlim=c(-180, 180), ylim=c(-90, 90), usecurve=TRUE, edge.curve=.75, new=FALSE)
-  #dev.off()
   
   
   ##	One could also use ggplot to plot out the network geographically:
@@ -153,7 +157,9 @@ net_plot_coauthor_country <- function(addresses, authors__references) {
   
   ##	Create the world outlines:
   world_map@data$id = rownames(world_map@data)
+  
   world_map.points <- fortify(world_map, region="id")
+  
   world_map.df <- join(world_map.points, world_map@data, by="id")
   
   zp1 <- ggplot() + 
