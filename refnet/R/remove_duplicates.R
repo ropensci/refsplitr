@@ -18,20 +18,24 @@ remove_duplicates <- function(authors,
                               filename_root = "") {
   ##	First we will create a new author list with all of those authors removed that have not been tagged as a duplicate:
   authors_removed <- authors[ (is.na(authors$AU_ID_Dupe) & 
-                                 !(authors$AU_ID %in% authors$AU_ID_Dupe)), ]
+                                 !(authors$AU_ID %in%
+                                     authors$AU_ID_Dupe)), ]
   
   ##	Next we will iterate over the unique values of the AU_ID_Dupe field and create a single record for each set of duplicates:
   
   uni_AU_ID_Dupe <- na.omit(unique(authors[,"AU_ID_Dupe"]))
+  stime <- Sys.time()
   
   for (i in 1:length(uni_AU_ID_Dupe)) {
+    stime1 <- Sys.time()
     
     AU_ID_Dupe <- uni_AU_ID_Dupe[i]
-    ##	Also have to check here to pull all tagged with the same AU_ID_Dupe
-    ##		and the original AU_ID matching it!
-    authors_dupes <- authors[ (!is.na(authors$AU_ID_Dupe) &
-                                (authors$AU_ID_Dupe == AU_ID_Dupe) |
-                                 authors$AU_ID == AU_ID_Dupe), ]
+    ##	Also have to check here to pull all tagged 
+    ## with the same AU_ID_Dupe and the original 
+    ## AU_ID matching it!
+    authors_dupes <- authors[(!is.na(authors$AU_ID_Dupe) &
+                   (authors$AU_ID_Dupe == AU_ID_Dupe) |
+                         authors$AU_ID == AU_ID_Dupe), ]
     
     authors_removed[i, "AU_ID"] <- AU_ID_Dupe
     
@@ -45,31 +49,32 @@ remove_duplicates <- function(authors,
     
     RP <- character(0)
     
-    for (j in 1:length(authors_dupes$AU_ID)) {
+#    for (j in 1:length(authors_dupes$AU_ID)) {
       for(k in 1:length(authors_removed$AU_ID)){
         ##	Take the longest author name with first name:
-        if (nchar(authors_dupes[j, "AF"]) > 
+        if (nchar(authors_dupes[1, "AF"]) > 
             nchar(authors_removed[k, "AF"])) {
           
-          authors_removed[k, "AF"] <- authors_dupes[j, "AF"]
+          authors_removed[k, "AF"] <- authors_dupes[1, "AF"]
         } # if statement
         
         ##	Take the longest author name with initials:
-        if (nchar(authors_dupes[j, "AU"]) > 
+        if (nchar(authors_dupes[1, "AU"]) > 
             nchar(authors_removed[k, "AU"])) {
           
-          authors_removed[k, "AU"] <- authors_dupes[j, "AU"]
+          authors_removed[k, "AU"] <- authors_dupes[1, "AU"]
         } # if statement
         
         ##	Take the longest Researcher ID:
-        if (nchar(authors_dupes[j, "RI"]) > 
+        if (nchar(authors_dupes[1, "RI"]) > 
             nchar(authors_removed[k, "RI"])) {
           
-          authors_removed[k, "RI"] <- authors_dupes[j, "RI"]
+          authors_removed[k, "RI"] <- authors_dupes[1, "RI"]
         } # if statement
         
-        ##	Append all addresses together and we'll check for and remove
-        ##		duplicates later on:
+##	Append all addresses together 
+## we'll check for and remove
+##		duplicates later on:
         if (!(is.na(authors_dupes[j, "EM"]) | 
               authors_dupes[j, "EM"] == "")) {
           
@@ -115,9 +120,9 @@ remove_duplicates <- function(authors,
     
     RP <- unique(RP)
     
-    
+    print(stime1 - Sys.time())
   } # AU_ID_Dupe for loop 
-  
+  stime - Sys.time()
   
   if(filename_root != "") {
     write.csv(authors_removed, 
@@ -134,7 +139,3 @@ remove_duplicates <- function(authors,
   return(list("authors"=authors_removed, 
               "authors_references"=authors_references))
 }
-
-##	END: remove_duplicates():
-########################################
-########################################

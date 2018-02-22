@@ -5,9 +5,9 @@ library(stringr)
 
 # devtools::install_github("embruna/refnet2", subdir = "refnet")  
 
-file1 <- "Ecuador.txt"
-file2 <- "Ecuador_0114.txt"
-name <- "ecuador"
+file1 <- "EBpubs.txt"
+file2 <- "Peru.txt"
+name <- "eb_peru"
 
 step1 <- function(file1, file2, name="files"){
 references1 <- read_references(paste0("./data/",file1), 
@@ -48,31 +48,31 @@ tt <- Sys.time()
 out <- step1(file1=file1, file2=file2, name=name)
 tt - Sys.time()
 
-# so 'out' does not have an actual out$authors_references
-# it is returning a blank data frame
-# which is USELESS TO THE NEXT STEP
 
 save(out, file= paste0(Sys.Date(),"_step1_out.Rdata"))
 
 step1out <- out
 
 step2 <- remove_duplicates(authors=step1out$authors, 
-                     authors_references=step1out$authors_references,
-                     filename_root=paste0("output/merged_",name,"nodupe"))
+               authors_references=step1out$authors_references,
+                  filename_root=paste0("output/merged_",
+                                          name,"nodupe"))
 
 save(step2, file=paste0(Sys.Date(),'_step2.Rdata'))
-######
-##	Sample geographic plotting of author locations based on RP or C1:
+
+##	Sample geographic plotting of authors based on RP or C1:
 
 authors_working <- step2$authors
 
 ##	Process a single address at a time:
+
 refnet_geocode(data.frame("AU_ID"=authors_working$AU_ID[1], 
                           "type"="RP", 
                           "address"=authors_working$RP[1], 
                           stringsAsFactors=FALSE))
 
 ##	Process a group of addresses:
+
 read_addresses(data.frame("AU_ID"=authors_working$AU_ID[1:10], 
                           "type"="RP", 
                           "address"=authors_working$RP[1:10], 
