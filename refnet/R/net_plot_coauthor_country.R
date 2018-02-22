@@ -98,7 +98,6 @@ net_plot_coauthor_country <- function(
   
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE){
-    require(bezier)
     fromC <- layoutCoordinates[adjacencyList[whichRow, 1], ]  # Origin
     toC <- layoutCoordinates[adjacencyList[whichRow, 2], ]  # Terminus
     
