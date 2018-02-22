@@ -145,19 +145,30 @@ sum(eb_authors$C1 == "" | is.na(eb_authors$C1))/length(eb_authors$C1)*100
 
 ##	Let's remove duplicates from our presumably updated and corrected author lists:
 
-output <- remove_duplicates(authors=ecuador_authors, authors__references=ecuador_authors__references, filename_root="output/ecuador_nodupe")
+output <- remove_duplicates(authors=ecuador_authors, 
+                authors_references=ecuador_authors__references,
+                  filename_root="output/ecuador_nodupe")
+
 ecuador_authors <- output$authors
 ecuador_authors__references <- output$authors__references
 
-output <- remove_duplicates(authors=ecuador2_authors, authors__references=ecuador2_authors__references, filename_root="output/ecuador2_nodupe")
+output <- remove_duplicates(authors=ecuador2_authors,
+            authors_references=ecuador2_authors__references, filename_root="output/ecuador2_nodupe")
+
 ecuador2_authors <- output$authors
 ecuador2_authors__references <- output$authors__references
 
-output <- remove_duplicates(authors=peru_authors, authors__references=peru_authors__references, filename_root="output/peru_nodupe")
+output <- remove_duplicates(authors=peru_authors, 
+                authors_references=peru_authors__references,
+                    filename_root="output/peru_nodupe")
+
 peru_authors <- output$authors
 peru_authors__references <- output$authors__references
 
-output <- remove_duplicates(authors=eb_authors, authors__references=eb_authors__references, filename_root="output/eb_nodupe")
+output <- remove_duplicates(authors=eb_authors, 
+                  authors__references=eb_authors__references,
+                  filename_root="output/eb_nodupe")
+
 eb_authors <- output$authors
 eb_authors__references <- output$authors__references
 
