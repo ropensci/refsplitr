@@ -1,28 +1,121 @@
 "AU","AU_ID","AU_ID_Dupe","Similarity","AF","EM","C1","RP","RID","RI","OI"
-"Jimenez-Uzcategui, G","Montufar, Rommel_1",NA,NA,"Torres-Santana, Christian W.","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Rivadeneyra, J_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Garcia-Villacorta, R_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Stevens, RD_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Lozada, T_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Guenter, S_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Ron, SR_3",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Cisneros-Heredia, DF","Reyes, CI_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Wright, J_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Meir, P_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Laurance, SG_3",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Calvopina, M_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Sevink, J_2",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Francisco-Ortega, J_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Ropert-Coudert, Y_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Vasquez-Martinez, R_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Capdevielle-Dulac, C","Capdevielle-Dulac, C_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Torres-Leguizamon, M","Torres-Leguizamon, M_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Villegas-Amtmann, S_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Aurioles-Gamboa, D_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Carrion-Tacuri, J_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Alvarez-Lopez, AA_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","d'Eeckenbrugge, GC_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Jimenez-Uzcategui, G","Romeijn-Peeters, E_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Gomez-Aparicio, Lorena","Gomez-Aparicio, Lorena_1",NA,NA,"Parthasarathy, Narayanaswamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Holguin-Gonzalez, JE","Silva, N_3",NA,NA,"Arunachalam, Muthukumarasamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
-"Acevedo-Whitehouse, K","Halpern, BS_3",NA,NA,"Arunachalam, Muthukumarasamy","","","","","FigueroaClemente,ManuelEnrique/L-7577-2014",""
+"Rodriguez-Ronderos, ME","Englund, G_1",NA,NA,"Rodriguez-Ronderos, M. Elizabeth","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Sanchez-Azofeifa, A","Girao, LC_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017","Sanchez-Azofeifa,Arturo/0000-0001-7768-6600"
+"Fernandez-Rebollo, P","Fernandez-Rebollo, P_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Charles-Dominique, T","Charles-Dominique, T_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Moreno-de las Heras, M","Moreno-de las Heras, M_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","MorenodelasHeras,Mariano/M-2542-2013","MorenodelasHeras,Mariano/0000-0003-3366-5060"
+"de la Pena-Domene, M","de la Pena-Domene, M_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Razafindratsima, OH","Razafindratsima, OH_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017","Razafindratsima,Onja/0000-0003-1655-6647"
+"Hernandez-Cumplido, J","Hernandez-Cumplido, J_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Anderson-Furgeson, J","Anderson-Furgeson, J_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Zuppinger-Dingley, D","Zuppinger-Dingley, D_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Fernandez-Bellon, D","Fernandez-Bellon, D_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017","Fernandez-Bellon, Dario/0000-0002-8016-6515"
+"Sebastian-Gonzalez, E","Sebastian-Gonzalez, E_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Sebastian-Gonzalez,Esther/J-7883-2012","Sebastian-Gonzalez,Esther/0000-0001-7229-1845"
+"Martinez-Izquierdo, L","Martinez-Izquierdo, L_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","Piccoli,GustavoCaue/A-8900-2017",""
+"Arroyo-Rodriguez, V","Andrade, A_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","",NA,"Christianini,Alexander/G-9486-2012",""
+"Arroyo-Rodriguez, V","Benitez-Malvido, J_1",NA,NA,"Quitete Portela, Rita De Cassia","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","",NA,"Piccoli,GustavoCaue/A-8900-2017",""

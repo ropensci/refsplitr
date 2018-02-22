@@ -12,7 +12,10 @@
 #'   function will be saved
 #' @param verbose=FALSE argument that when set to TRUE will output search strings and output from the Google Maps API call as it proceeds, useful for troubleshooting long-running calls to the function
 
-read_addresses <- function(x, filename_root="", key="", verbose=FALSE) {
+read_addresses <- function(x, 
+                           filename_root="", 
+                           key="", 
+                           verbose=FALSE) {
   columns <- c("AU_ID", "type", "search_string", "status_code", 
                "accuracy", "address", "country_name_code", 
                "country_name", "administrative_area", "locality", 
