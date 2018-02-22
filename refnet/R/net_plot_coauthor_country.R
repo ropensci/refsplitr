@@ -183,7 +183,7 @@ net_plot_coauthor_country <- function(
   
   zp1 <- zp1 + geom_point(
     data = data.frame(layoutCoordinates),  # Add nodes
-    aes(x = LON, y = LAT), size = 5+100*degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), pch = 21,
+    aes(x = LON, y = LAT), size = 5+100*sna::degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), pch = 21,
     #colour = gray(4/10), fill = gray(6/10)
     colour = rgb(8/10, 2/10, 2/10, alpha=5/10), fill = rgb(9/10, 6/10, 6/10, alpha=5/10)
   )  # Customize gradient v
