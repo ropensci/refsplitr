@@ -2,6 +2,7 @@
 ## Don't forget that to add your commits to the fork you need to do the following: 
 ## In RStudio menus go to "Tools"->"Shell" and type the following: git push origin proposed-updates
 ## See: http://r-bio.github.io/intro-git-rstudio/ for more info.
+# devtools::install_github("embruna/refnet2", subdir = "refnet")  
 
 library(devtools)
 library(tidyverse)
@@ -195,6 +196,7 @@ net_plot_coauthor_country(addresses_working, merged_authors_references)
 ##	The default plot area doesn't show semitransparent colors, so we'll output to PDF:
 output <- net_plot_coauthor_country(addresses_working, merged_authors_references)
 
+
 ggsave("output/merged_nodupe_first1000_linkages_countries_world_ggplot.pdf", output, h = 9/2, w = 9)
 
 ##	We can subset records any way that makes sense.  For example, if we wanted to only use references from 2012 (note that the way records are read in they are strings and have a hard return character):
@@ -203,10 +205,10 @@ summary(ref_index)
 
 ##	Pull reference IDs (UT field) for just those from 2012:
 UT_index <- merged_references$UT[ref_index]
-merged_authors__references_subset <- merged_authors__references[ merged_authors__references$UT %in% UT_index, ]
+merged_authors_references_subset <- merged_authors_references[ merged_authors_references$UT %in% UT_index, ]
 
 ##	Plot the subset for 2012:
-net_plot_coauthor_country(addresses_working, merged_authors__references_subset)
+net_plot_coauthor_country(addresses_working, merged_authors_references_subset)
 
 ##	Compare to 2011:
 ref_index <- merged_references$PY == "2011\n"
