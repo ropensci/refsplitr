@@ -9,6 +9,7 @@
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 #' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
 
+
 net_plot_coauthor_country <- function(
   addresses, 
   authors__references) {
@@ -66,7 +67,7 @@ net_plot_coauthor_country <- function(
   vertex_names <- (linkages_countries_net %v% "vertex.names")
   
   ##	Get the world map from rworldmap package:
-  world_map <- getMap()
+  world_map <- rworldmap::getMap()
 
   vertexdf <- data.frame("ISO_A2"=vertex_names, stringsAsFactors=FALSE)
   
@@ -75,7 +76,10 @@ net_plot_coauthor_country <- function(
                      by="ISO_A2")
   
   ##	It seems there are two "AU" codes, so we'll aggregate and mean them:
-  coords_df <- aggregate(coords_df[c("LON", "LAT")], by=list(factor(coords_df$ISO_A2)), FUN=mean)
+  coords_df <- aggregate(coords_df[c("LON", "LAT")], 
+                         by=list(factor(coords_df$ISO_A2)), 
+                         FUN=mean)
+  
   names(coords_df) <- c("ISO_A2", "LON", "LAT")
   
   
@@ -86,14 +90,15 @@ net_plot_coauthor_country <- function(
   require(maps)
   
   ##	From my "Plotting Social Networks With ggplot.r" code:
-  doInstall <- FALSE  # Change to FALSE if you don't want packages installed.
-  toInstall <- c("sna", "ggplot2", "Hmisc", "reshape2")
-  if(doInstall){install.packages(toInstall, repos = "http://cran.r-project.org")}
-  lapply(toInstall, library, character.only = TRUE)
-  
+  # doInstall <- FALSE  # Change to FALSE if you don't want packages installed.
+  # toInstall <- c("sna", "ggplot2", "Hmisc", "reshape2")
+  # if(doInstall){install.packages(toInstall, repos = "http://cran.r-project.org")}
+  # lapply(toInstall, library, character.only = TRUE)
+  # 
   
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE){
+    require(bezier)
     fromC <- layoutCoordinates[adjacencyList[whichRow, 1], ]  # Origin
     toC <- layoutCoordinates[adjacencyList[whichRow, 2], ]  # Terminus
     
@@ -107,7 +112,7 @@ net_plot_coauthor_country <- function(
     bezierMid <- (fromC + toC + bezierMid) / 3  # Moderate the Bezier midpoint
     if(curved == FALSE){bezierMid <- (fromC + toC) / 2}  # Remove the curve
     
-    edge <- data.frame(bezier(c(fromC[1], bezierMid[1], toC[1]),  # Generate
+    edge <- data.frame(Hmisc::bezier(c(fromC[1], bezierMid[1], toC[1]),  # Generate
                               c(fromC[2], bezierMid[2], toC[2]),  # X & y
                               evaluation = len)
     )  # Bezier path coordinates
@@ -115,7 +120,6 @@ net_plot_coauthor_country <- function(
     edge$Group <- paste(adjacencyList[whichRow, 1:2], collapse = ">")
     return(edge)
   }
-  
   
   adjacencyMatrix <- as.matrix(linkages_countries)
   
@@ -135,12 +139,13 @@ net_plot_coauthor_country <- function(
   ##	Repair names:
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NAstr"] <- "NA"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NAstr"] <- "NA"
-  levels(adjacencyList$Var1)[levels(adjacencyList$Var1) == "NAstr"] <- "NA"
-  levels(adjacencyList$Var2)[levels(adjacencyList$Var2) == "NAstr"] <- "NA"
-  
-  
+
   # Generate a (curved) edge path for each pair of connected nodes
-  allEdges <- lapply(1:nrow(adjacencyList), edgeMaker, len = 500, curved = TRUE)
+  allEdges <- lapply(1:nrow(adjacencyList), 
+                     edgeMaker, 
+                     len = 500, 
+                     curved = TRUE)
+  
   allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
   
   
@@ -152,15 +157,17 @@ net_plot_coauthor_country <- function(
   new_theme_empty$axis.text <- element_blank()
   new_theme_empty$plot.title <- element_blank()
   new_theme_empty$axis.title <- element_blank()
-  new_theme_empty$plot.margin <- structure(c(0, 0, -1, -1), unit = "lines", valid.unit = 3L, class = "unit")
-  
+  new_theme_empty$plot.margin <- structure(c(0, 0, -1, -1), 
+                                           unit = "lines", 
+                                           valid.unit = 3L, 
+                                           class = "unit")
   
   ##	Create the world outlines:
   world_map@data$id = rownames(world_map@data)
   
-  world_map.points <- fortify(world_map, region="id")
+  world_map.points <- fortify(world_map)
   
-  world_map.df <- join(world_map.points, world_map@data, by="id")
+  world_map.df <- full_join(world_map.points, world_map@data, by="id")
   
   zp1 <- ggplot() + 
     geom_polygon(data=world_map.df, aes(long,lat,group=group), fill=gray(8/10)) +
