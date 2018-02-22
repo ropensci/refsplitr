@@ -4,13 +4,13 @@
 
 #' Creates a network diagram of coauthors' countries linked by reference
 #' 
-#' \code{net_plot_coauthor} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for co-authorship.
+#' \code{net_plot_coauthor} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for co-authorship.
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
-#' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
+#' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
 
-net_plot_coauthor <- function(addresses, authors__references) {
-  references_addresses_linked <- merge(x=authors__references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
+net_plot_coauthor <- function(addresses, authors_references) {
+  references_addresses_linked <- merge(x=authors_references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
   
   ##	For now, we'll just drop any that don't have a Country Name:
   references_addresses_linked <- references_addresses_linked[complete.cases(references_addresses_linked[c("UT", "country_name_code")]),]
