@@ -14,8 +14,12 @@ net_plot_coauthor_country <- function(
   addresses, 
   authors_references) {
   
-  
-  references_addresses_linked <- merge(x=authors_references, y=addresses, by.x="AU_ID", by.y="AU_ID", all.x=FALSE, all.y=FALSE)
+  references_addresses_linked <- merge(x=authors_references, 
+                                       y=addresses, 
+                                       by.x="AU_ID", 
+                                       by.y="AU_ID", 
+                                       all.x=FALSE, 
+                                       all.y=FALSE)
   
   ##	For now, we'll just drop any that don't have a Country Name:
   references_addresses_linked <- references_addresses_linked[complete.cases(references_addresses_linked[c("UT", "country_name_code")]),]
@@ -30,10 +34,10 @@ net_plot_coauthor_country <- function(
   require(Matrix)
   
   linkages <- spMatrix(nrow=length(unique(references_addresses_linked$country_name_code)),
-                       ncol=length(unique(references_addresses_linked$UT)),
-                       i = as.numeric(factor(references_addresses_linked$country_name_code)),
-                       j = as.numeric(factor(references_addresses_linked$UT)),
-                       x = rep(1, length(references_addresses_linked$country_name_code)) 
+  ncol=length(unique(references_addresses_linked$UT)),
+  i = as.numeric(factor(references_addresses_linked$country_name_code)),
+   j = as.numeric(factor(references_addresses_linked$UT)),
+   x = rep(1, length(references_addresses_linked$country_name_code)) 
   )
   
   rownames(linkages) <- levels(factor(references_addresses_linked$country_name_code))
@@ -56,12 +60,12 @@ net_plot_coauthor_country <- function(
   ##		and names.eval="value" arguments it will load our edge counts in as
   ##		an edge attribute named "value" which we can then use as a weighting
   ##		or plotting attribute:
-  linkages_countries_net <- network(as.matrix(linkages_countries), directed=FALSE, loops=FALSE, ignore.eval=FALSE, names.eval="value")
-  #summary(linkages_countries_net)
-  #plot(linkages_countries_net)
-  
-  ##	Quick way:
-  #gplot(as.matrix(linkages_countries))
+  linkages_countries_net <- network(as.matrix(linkages_countries), 
+                                    directed=FALSE, 
+                                    loops=FALSE, 
+                                    ignore.eval=FALSE, 
+                                    names.eval="value")
+
   
   
   vertex_names <- (linkages_countries_net %v% "vertex.names")

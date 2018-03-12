@@ -1,3 +1,4 @@
+
 ##################################################
 ##################################################
 ##	BEGIN: read_authors():
@@ -10,320 +11,181 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
 #'   function will be saved
-
-read_authors <- function(references, filename_root="") {
-  ##	NOTE: The fields stored in our output table are a combination of the
-  ##		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
-  ##		Format" both of which are version 1.0:
-  authors <- data.frame(
-    "AU" = character(0),
-    "AU_ID" = character(0),
-    "AU_ID_Dupe" = character(0),
-    "Similarity" = character(0),
-    "AF" = character(0),
-    "EM" = character(0),
-    "C1" = character(0),
-    "RP" = character(0),
-    "RID" = character(0),
-    "RI" = character(0),
-    "OI"= character(0),  # added by EB
-    stringsAsFactors=FALSE
-  )
+read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   
-  authors_references <- data.frame(
-    "AU_ID" = character(0),
-    "UT" = character(0),
-    "C1" = character(0),
-    "RP" = character(0),
-    "RID" = character(0),
-    "RI" = character(0), # added by EB 2 dec 2017
-    "OI" = character(0), #ADDED EB 18Feb17
-    "Author_Order" = numeric(0),
-    stringsAsFactors=FALSE
-  )
+  list1<-list()
   
-  ##	This is an index for the current author record, it gets iterated for 
-  ##		record we advance through:
-  i <- 0
-  
-  ##	Iterate through each reference record:
-  for (ref in 1:length(references$UT)) {
-    authors_AU <- unlist(strsplit(references[ref,]$AU, "\n"))
-    authors_AF <- unlist(strsplit(references[ref,]$AF, "\n"))
+  for(ref in 1:nrow(references)){
+    #ref<-2818
+    if(ref==1){print('Now summarizing author records')}
     
-    ##	The new CIW format does not actually fill the AF field, instead
-    ##		using the AU field for the full name.  Therefore we'll check it
-    ##		and fill AF from AU if it's all NA:
-    if (length(authors_AF)==1) {
-      if (is.na(authors_AF)) {
-        authors_AF <- authors_AU
-      }
-    }
-    
-    ##	The email list is interesting because it seems it has line
-    ##		breaks and is "; " delimited.  So we have to clean the line
-    ##		a bit to start:
-    references[ref,]$EM <- gsub(" ", "", references[ref,]$EM)
-    
-    references[ref,]$EM <- gsub(";", "\n", references[ref,]$EM)
+    #Split out authors and author emails
+    authors_AU <- as.character(unlist(strsplit(references[ref,]$AU, "\n")))
+    authors_AF <- as.character(unlist(strsplit(references[ref,]$AF, "\n")))
     
     authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
+    authors_EM_strip<-substr(authors_EM,1,regexpr('@',authors_EM)-1)
     
-    ##	Process contact addresses, the first will be the C1 value
-    ##		itself, the second is the address without the names, stripped:
-    C1 <- unlist(strsplit(references[ref,]$C1, "\n")) 
+    ###########
+    #makes a datframe of authors as they will be used as a reference later
+    authors_df<-data.frame(AU=authors_AU, AF=authors_AF,author_order=1:length(authors_AU),stringsAsFactors=F)
+    ###########
+    # Split out Addresses
+    C1 <- unlist(strsplit(references[ref,]$C1, "\n"))
+    if(length(authors_AU)==1){C1<-paste0('[',authors_AU,'] ',C1)}
+    C1<-C1[grepl("^\\[.*\\]", C1)]
+    # Split names from the addresses they're associated with
+    C1_names<-regmatches(C1,regexpr("^\\[.*\\]", C1))
+    C1_names<-substr(C1_names,2,nchar(C1_names)-1)
+    if(length(authors_AU)==1){C1_names<-authors_AU}
     
-    C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)  #This remives the [author 1, author 2, author 3] and leaves just the address.
+    # Split out the addresses and not the names assocated
+    C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)
     
-    ##	Process reprint author address, the first will be the RP value
-    ##		itself, the second is the address without the name, stripped:
+    #create a dataframe of all unique addresses and their matching affiliations
+    dd<-data.frame(C1_names,C1_address,stringsAsFactors=F)
+    dd1<-data.frame(names=unique(unlist(strsplit(C1_names,'; '))),address=sapply(unique(unlist(strsplit(C1_names,'; '))),function(x)
+      dd$C1_address[grepl(x,dd$C1_names)][1]))
+    if(nrow(dd1)==0 & length(C1_address)==length(authors_AU)){dd1<-data.frame(names=authors_AU,address=C1_address)}
+    if(nrow(dd1)==0){dd1<-data.frame(names='',address='')}
+    ###########
+    # Split out Reprint Author information 
     RP <- unlist(strsplit(references[ref,]$RP, "\n"))
-    
     RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
+    RP_df<-data.frame(AU=substr(RP,1,regexpr('(reprint author)',RP)[1]-3),RP_address)
     
-    ##	Process author Researcher ID fields:
-    
-    # RI <- unlist(strsplit(references[ref,]$RI, "; ")) EMB 2 decvember 2017: CAN DELETE THIS LINE.
-    # Note: this was challenging because there were carriage returns and uneven spacing in the files downloaded from WOS. 
-    # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
-    # for processing that field to get the spacing along which to split the string right.
-    
-    references[ref,]$RI <- gsub(" ", "", references[ref,]$RI, fixed=TRUE)
-    
-    references[ref,]$RI <- gsub("\n"," ", references[ref,]$RI, fixed=TRUE)
-    
-    references[ref,]$RI <- gsub("; ", ";", references[ref,]$RI, fixed=TRUE)
-    
-    references[ref,]$RI <- trimws(references[ref,]$RI,which = "both")
-    
+    ##########
+    #Split out RI information
     RI <- unlist(strsplit(references[ref,]$RI, ";"))  
     
-    ## Process author ORCID ID fields to add to the *_authors.csv file (Added by EMB 2 dec 2017)
+    if(length(strsplit(RI,'/'))<2){RI_df<-data.frame(RI_names='',RI='',matchname='')}
     
-    # Note: this was challenging because there were carriage returns and uneven spacing in the files downloaded from WOS. 
-    # Then I realized that the problem with OI was the same as the problem with the emails, so I modified that code 
-    # for processing that field to get the spacing along which to split the string right.
-    #
-    references[ref,]$OI <- gsub(" ", "", references[ref,]$OI, fixed=TRUE)
+    if(length(strsplit(RI,'/'))>1){
+      RI_df<-data.frame(do.call(rbind,lapply(strsplit(RI,'/'), function(x)x[1:2])),stringsAsFactors=F)
+      # Match the author names to the RIs affiliations, this is not as exact as you think it would be
+      colnames(RI_df)<-c('RI_names','RI')
+      match_ri<-sapply(RI_df[,1], function(x) {
+        jw<-jarowinkler(x,authors_AU)
+        jw==max(jw) & jw>0.8})
+      RI_df$matchname<-unlist(apply(match_ri, 2, function(x)ifelse(sum(x)==0,'',authors_AU[x])))
+    }
     
-    references[ref,]$OI <- gsub("\n"," ", references[ref,]$OI, fixed=TRUE)
-    
-    references[ref,]$OI <- gsub("; ", ";", references[ref,]$OI, fixed=TRUE)
-    
-    references[ref,]$OI <- trimws(references[ref,]$OI,which = "both")
-    
+    #RI
+    ##########
+    #split out the OI and do the same thing we did with the RI
     OI <- unlist(strsplit(references[ref,]$OI, ";"))  
-    ########################################################
     
-    ##	Now add all authors to our author_list and author_refdata_link 
-    ##		tables:
-    for (aut in 1:length(authors_AU)) {
-      i <- i + 1
+    if(sum(is.na(OI))==0){
+      OI_df<-as.data.frame(do.call(rbind,strsplit(OI,'/')),stringsAsFactors=F)
+      colnames(OI_df)<-c('OI_names','OI')
+      match_OI<-sapply(OI_df[,1], function(x) {
+        jw<-jarowinkler(x,authors_AU)
+        jw==max(jw) & jw>0.8})
       
-      ##	Check to see how many identical AU records we have and add
-      ##		one to the iterator for the ID:
-      ID_sum <- sum(authors_AU[aut] == authors[,"AU"])
-      
-      ##	Eventually, we probably want to use a numeric primary key for
-      ##		both AU_ID and for the reference (instead of UT), but for
-      ##		now let's keep it this way:
-      authors[i,"AU_ID"] <- paste(authors_AU[aut], "_", 
-                                  (ID_sum + 1), sep="")
-      
-      authors[i,"AU"] <- authors_AU[aut]
-      
-      authors[i,"AF"] <- authors_AF[aut]
-      
-      authors[i,"EM"] <- ""
-      
-      ##	If we have email addresses, we'll try to match it to
-      ##		individual authors, there is not a one-to-one relationship:
-      if (!is.na(authors_EM[1])) {
-        Similarity <- 0
-        
-        em_match <- ""
-        
-        for (emid in 1:length(authors_EM)) {
-          ##	More sophisticated similarity measures could be devised here
-          ##		but we'll use a canned distance composite from the 
-          ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(authors_EM[emid], 
-                                       authors[i,"AU"])
-          
-          if ( (newSimilarity > 0.6) & 
-               (newSimilarity > Similarity) ) {
-            Similarity <- newSimilarity
-            
-            em_match <- authors_EM[emid]
-          }
-        }
-        authors[i,"EM"] <- em_match
-      }
-      
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
-                                collapse="\n")
-      
-      authors[i,"C1"] <- paste0(C1_address[ grep(authors_AF[aut], C1) ],
-                                collapse="\n")
-      ##	For first authors, and the case where names are not listed with 
-      ##		multiple C1 addresses, pull the first one:
-      if (authors[i,"C1"] == "" & 
-          (length(C1_address) == 1 | aut == 1)) {
-        
-        authors[i,"C1"] <- C1_address[1]
-        
-      }
-      
-      authors[i,"RP"] <- paste0(RP_address[grep(authors_AU[aut], RP) ],
-                                collapse="\n")
-      
-      authors[i,"RID"] <- ""# Added EB
-      
-      authors[i,"RI"] <- ""
-      
-      authors[i,"OI"] <- "" # Added EB
-      
-      ##	If we have Researcher ID information, we'll try to match it to
-      ##		individual authors:
-      
-      ##	If we have Researcher ID information, we'll try to match it to
-      ##		individual authors:
-      if (!is.na(RI[1])) {
-        
-        Similarity <- 0
-        
-        rid_match <- ""
-        
-        for (rid in 1:length(RI)) {
-          ##	More sophisticated similarity measures could be devised here
-          ##		but we'll use a canned distance composite from the 
-          ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(RI[rid], 
-                                       authors[i,"AF"])
-          
-          if ( (newSimilarity > 0.8) & 
-               (newSimilarity > Similarity) ) {
-            
-            Similarity <- newSimilarity
-            
-            rid_match <- RI[rid]
-          }
-        }
-        authors[i,"RI"] <- rid_match
-      }
-      
-      
-      # Copied the above for OI (by EB)
-      
-      if (!is.na(OI[1])) {
-        Similarity <- 0
-        oid_match <- ""
-        
-        for (oid in 1:length(OI)) {
-          ##	More sophisticated similarity measures could be devised here
-          ##		but we'll use a canned distance composite from the 
-          ##		RecordLinkage package:
-          newSimilarity <- jarowinkler(OI[oid], 
-                                       authors[i,"AF"])
-          
-          if ( (newSimilarity > 0.8) & 
-               (newSimilarity > Similarity) ) {
-            
-            Similarity <- newSimilarity
-            
-            oid_match <- OI[oid]
-          }
-        }
-        authors[i,"OI"] <- oid_match
-      }
-      
-      authors_references[i,"AU_ID"] <- authors[i,"AU_ID"]
-      
-      authors_references[i,"UT"] <- references[ref,"UT"]
-      
-      authors_references[i,"C1"] <- authors[i,"C1"]
-      
-      authors_references[i,"RP"] <- authors[i,"RP"]
-      
-      authors_references[i,"RID"] <- authors[i,"RID"] # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      
-      authors_references[i,"RI"] <- authors[i,"RI"]   # still not parsing out the multuple RI (EB 17 feb 2017). FIXED IN DEC 2017 by EB
-      
-      authors_references[i,"OI"] <- authors[i,"OI"]
-      
-      authors_references[i,"Author_Order"] <- aut
+      OI_df$matchname<-unlist(apply(data.frame(match_OI), 2, function(x)ifelse(sum(x)==0,'',authors_AU[x])))
     }
+    
+    if(sum(is.na(OI))>0){OI_df<-data.frame(OI_names='',OI='',matchname='')}
+    ############
+    # merge all this information together by author name, some journals use the full name some the shortend name
+    #########
+    new<-merge(authors_df,dd1,by.x='AU',by.y='names',all.x=T)
+    if(sum(is.na(new$address))==length(new$address)){new<-merge(authors_df,dd1,by.x='AF',by.y='names',all.x=T)}
+    new<-merge(new, RP_df, by='AU',all.x=T)
+    new<-merge(new, RI_df[,c('RI','matchname')], by.x='AU',by.y='matchname',all.x=T)
+    new<-merge(new, OI_df[,c('OI','matchname')], by.x='AU',by.y='matchname',all.x=T)
+    new$EM<-NA
+    new$refID<-ref
+    new$TA<-references$TI[ref]
+    new$SO<-references$SO[ref]
+    #########################3
+    #
+    # Matching emails is an imprecise science, as emails dont have to match names in any reliable way or at all
+    # I feel its better to leave these alone as much as possible, analyzing the resulting matches will lead to issues
+    match_em<-sapply(authors_EM_strip, function(x) apply(data.frame(jarowinkler(x,new$AU),jarowinkler(x,new$AF)),1,max))
+    
+    for(i in 1:length(authors_EM)){
+      #i<-1
+      new$EM[as.data.frame(apply(as.matrix(match_em),2,function(x) x>0.7 & max(x)==x))[,i]]<-authors_EM[i]
+    }
+    
+    if(nrow(new)==1){new$EM<-authors_EM[1]}
+    list1[[ref]]<-new
+    
+    ###############################Clock#############################################
+    
+    total <- nrow(references)
+    pb <- txtProgressBar(min = 0, max = total, style = 3)
+    setTxtProgressBar(pb, ref)
+    
+    #################################################################################
   }
   
-  ##	Calculate the maximum similarity for any subsets of AU that match
-  ##		across authors.  Note that we sort by country in decreasing order
-  ##		so that we can prioritize equally matching duplicates that have
-  ##		a country extracted:
-  #for (aut in order(authors[,"Country"], decreasing=FALSE, na.last=FALSE)) {
-  
-  ##	The above doesn't work, so we'll do the simpler thing and just 
-  ##		any author with a country listed by extra, at least before
-  ##		we removed the country from the author data.
-  ##	The matching works, and will only match author records that have
-  ##		the same AU value, and will join records with an AF value that's
-  ##		similar.  These records will then be cleaned, merged into single
-  ##		author records by the remove_duplicates() function:
-  for (aut in 1:length(authors[,"AU"])) {
+  #Bind all author iterations together into one large sheet that should be used for base analysis from her eon out
+  final<-do.call(rbind,list1)
+  final$authorID<-1:nrow(final)
+  final$groupID<-final$authorID
+  final$change_name<-NA
+  final$similarity<-NA
+  ############################################
+  # This is a secondary function to match authors that are likely to be the same person. This could
+  # possibly be done in a seperate function, but it seems to make sense to nest it here
+  novel<-list('1'=1) # the novel list is a list of novel authors who get their own GROUPID
+  #we start on the 2nd record as we assume the 1st record is novel
+  for(i in 2:nrow(final)){
+    #for(i in 2:1000){
+    if(i==2){print('Now matching similar authors records')}
+    #i<-2
+    changeID<-NA
+    novelids<-unlist(novel) #every iteration we rebuild the list of novelIDs and authors
+    name<-final$AF[i]
+    indicesAF<-final$AF[novelids]
+    indicesAU<-final$AU[novelids]
+    #Author matching is done heirarchical starting with simple solutions and then leading to matching using jaro winkler methods
+    # in this instance changeID will guide us through the hierarchy, if changeID is anything but NA we skip to the next record unitl a match has been found
     
-    indices <- grepl(authors[aut,"AU"], 
-                     authors[,"AU"])
+    #match by exact name matches AF
+    if(sum(name==indicesAF)>0){changeID<- final$authorID[novelids][indicesAF==name][1]}
     
-    if (sum(indices) > 1) {
-      
-      similar <- authors[indices,]
-      
-      AU_ID_Dupe <- NA 
-      
-      Similarity <- 0
-      
-      for (i in length(similar$AF)) {
-        
-        ##	More sophisticated similarity measures could be devised here
-        ##		but we'll use a canned distance composite from the 
-        ##		RecordLinkage package:
-        newSimilarity <- jarowinkler(authors[aut,"AF"], 
-                                     similar[i,"AF"])
-        
-        ##	See note above about not including country directly in the
-        ##		author record:
-        #if (!is.na(similar[i,"Country"])) {
-        #	newSimilarity <- newSimilarity + 1.0
-        #}
-        
-        if (newSimilarity > Similarity) {
-          
-          Similarity <- newSimilarity
-          
-          AU_ID_Dupe <- similar[i,"AU_ID"]
-        }
-      }
-      
-      authors[aut,"AU_ID_Dupe"] <- AU_ID_Dupe
-      
-      authors[aut,"Similarity"] <- Similarity
+    #match by exact name matches AU
+    if(sum(name==indicesAU)>0){changeID<- final$authorID[novelids][indicesAU==name][1]}
+    
+    #match by exact RI matches
+    if(is.na(changeID) & !is.na(final$RI[i])){  
+      changeID<-final$authorID[novelids][!is.na(final$RI[novelids]) && fina$RI[i]==final$RI[novelids]][1]
     }
-  }
-  
-  
-  if(filename_root != "") {
-    write.csv(authors, 
-              file=paste(filename_root, "_authors.csv", sep=""), 
-              row.names=FALSE)
+    #match by exact OI matches
+    if(is.na(changeID) & !is.na(final$OI[i])){  
+      changeID<-final$authorID[novelids][!is.na(final$OI[novelids]) && fina$OI[i]==final$OI[novelids]][1]
+    }
     
-    write.csv(authors_references, 
-              file=paste(filename_root, "_authors_references.csv", sep=""), 
-              row.names=FALSE)
-  }            
-  
-  return(list("authors"=authors, 
-              "authors_references"=authors_references))
-}
+    #If we still dont have a match, we will attempt to match using Jaro-winkler matching algorithm
+    # Currently this is controlled by the sim_score limit. 0.9 seems to match accurately but leave out
+    # more difficult matches. 88% seems fine if you want to hand check. Anything less usually doesn't match correctly.
+    if(is.na(changeID)){
+      jw_m<-jarowinkler(gsub(', ','',name), gsub(', ','',indicesAF))
+      choice<-(max(jw_m)==jw_m & jw_m>=sim_score)
+      changeID<-final$authorID[novelids][choice][1]
+      if(sum(choice)){final$similarity[i]<-jw_m[choice][1]}
+    }
+    
+    #If we still never found a match, we can assume the author is novel.
+    if(!is.na(changeID)){
+      final$groupID[i]<-final$groupID[changeID==final$authorID]
+      final$change_name[i]<-final$AF[changeID==final$authorID]}
+    if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]}
+    
+    
+    ###############################Clock#############################################
+    
+    total <- nrow(final)
+    pb <- txtProgressBar(min = 0, max = total, style = 3)
+    setTxtProgressBar(pb, i)
+    flush.console()
+    #################################################################################
+  }
+  colnames(final)
+  final<-final[,c('authorID','AU','AF','groupID','change_name','similarity','author_order','address','RP_address','RI','OI','EM','refID','TA','SO')]
+  return(final)
+} #end function
 
-##	END: read_authors():
-#############################################
-#############################################
