@@ -17,7 +17,7 @@
 #'   function will be saved
 
 read_references <- function(data=".", dir=TRUE, filename_root="") {
-  ##	NOTE: The fields stored in our output table are a combination of the
+  ##	NOTE: The fields stored in our output table are a combination of 
   ##		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
   ##		Format" both of which are version 1.0:
   output <- data.frame(
@@ -122,18 +122,6 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     read_line <- readLines(in_file, n=1, warn=FALSE)
     
     if (length(read_line) > 0) {
-      ###	Check for UTF-8 encoding:
-      #if (substr(read_line, 1, 3) == "﻿") {
-      #	read_line <- substr(read_line, 4, nchar(read_line))
-      #}
-      ###	Check for alternate UTF-8 encoding:
-      #if (substr(read_line, 1, 3) == "???") {
-      #	read_line <- substr(read_line, 4, nchar(read_line))
-      #}
-      
-      ##	NOTE: The above is inconsistent across files and download
-      ##		types, so we could try the following:
-      #read_line <- enc2native(read_line)
       
       ##	The enc2native() function doesn't work all the time either, 
       ##		so we'll have to strip the leading text.  To strip the leading 
@@ -218,28 +206,11 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
         }
         
       }
-      # --------------
-      # EMB 2 December 2017: THE FOLLOWING ISSUES WERE RESOLVED BY EMB. 
-      #   OI See notes below in the section on reading in OI
-      #   Names: See the solution in this section
-      #
-      #     EMB 14 jan 2017: RI and OI fields aren't being read in properly because the text files include extra spaces 
-      #     after they carriage return the longer records to the next line. In ebpubs record WOS: "WOS:000269700500018
-      #     OI should be Dattilo, Wesley/0000-0002-4758-4379; Bruna, Emilio/0000-0003-3381-8477; Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787
-      #   
-      #     The same is true of names - only first one was being read in.
-      #     I somehow got it to read all the names and orcids in by replacing this line below:
-      #     output[i, field] <- paste(output[i, field], line_text, "\n", sep="")
-      #     with this line: 
-      #     output[i, field] <- paste(output[i, field], line_text, "\\s+", sep="")
-      #     but this left \s+ in between. After reading and experimenting I just deleted the "\n"
-      #     or "\\s+" completeley...and...voila!
-      #     Then realized wasn't being read into *_authors, so added a space as seperator after ;
-      # --------------
       
       ##	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
-        ##	... if it is then append this line's data to the field in our output:
+        ##	... if it is then append this line's 
+        ## data to the field in our output:
         output[i, field] <- paste(output[i, field], 
                                   line_text, "\n", sep="")
         # output[i, field] <- paste(output[i, field], line_text, sep=" ")
@@ -251,8 +222,9 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
       if (field == "ER") {
         output[i,"filename"] <- filename
         
-        ##	These fields are not repeated for every record, so we set them
-        ##		from the first record where they were recorded:
+        ##	These fields are not repeated for every record, 
+        ##  so we set them
+        ##	from the first record where they were recorded:
         output[i, "FN"] <- output[1, "FN"]
         
         output[i, "VR"] <- output[1, "VR"]
@@ -265,7 +237,30 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     close(in_file)
     
   }
+  ##############################################3
+  # Post Processing
+  # We need to clean this file, remove trailing spaces where necessary on important sections
   
+  output$EM <- gsub(" ", "", output$EM)
+  
+  output$EM <- gsub(";", "\n", output$EM)
+  
+  output$RI <- gsub(" ", "", output$RI, fixed=TRUE)
+  
+  output$RI <- gsub("\n"," ", output$RI, fixed=TRUE)
+  
+  output$RI <- gsub("; ", ";", output$RI, fixed=TRUE)
+  
+  output$RI <- trimws(output$RI,which = "both")
+  
+  output$OI <- gsub(" ", "", output$OI, fixed=TRUE)
+  
+  output$OI <- gsub("\n"," ", output$OI, fixed=TRUE)
+  
+  output$OI <- gsub("; ", ";", output$OI, fixed=TRUE)
+  
+  output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
+  ############################################  
   if(filename_root != "") {
     write.csv(output, file=paste(filename_root, 
                                  "_references.csv", sep=""), 
