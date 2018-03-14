@@ -1,0 +1,59 @@
+---
+title: "20180313_three_function_overview"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(stringr)
+library(stringi)
+library(refnet)
+```
+
+
+references<-read_references()
+
+authors<-read_authors(references, sim_score=0.9)
+
+At this stage you go through and change any incorrectly grouped authors groupID to their authorID.
+
+This function takes those changes and makes the names all the same, filters again, and makes some small changes and deletes some columns for input to your functions
+
+refine_authors is doing what merge_records and remove_duplicates did before 
+
+authors_final<-refine_authors(authors, sim_score=0.94)
+
+```{r, message=FALSE, eval=FALSE}
+eb_references <- read_references("./data/EBpubs.txt", dir=FALSE, 
+                                filename_root="./output/eb")
+
+eb_authors <- read_authors(eb_references, filename_root="./output/eb")
+
+eb_refined <- refine_authors(authors=eb_authors)
+
+save(eb_refined, file="./output/eb_refined.Rdata")
+```
+
+```{r}
+load("./output/eb_refined.Rdata")
+
+dat <- separate(data=eb_refined, col = address, 
+         into=c("university","department","short_address"),
+         sep=",",extra = "merge", remove=FALSE) %>%
+       mutate(country=stri_extract_last_words(short_address),
+        zip = str_extract(string=short_address, 
+          pattern="[:digit:][:digit:][:digit:][:digit:][:digit:]"),
+        city_state = str_extract(string=short_address,
+                pattern="[:alnum:]{1,20}[,][ ][A-Z][A-Z]") ) %>%
+      select(address, short_address, city_state, zip, country, university, department)
+```
+
+\newpage
+
+```{r}
+head(dat[,c("address")])
+head(dat[,c("university","department")])
+head(dat[,c("short_address","city_state","zip","country")])
+```
