@@ -1,6 +1,3 @@
-authors<-read.csv("file:///C:/Users/birde/Downloads/refnet2-master/authors_test.csv")
-sim_score=0.94
-
 #' Refines the authors code output from read_authors()
 #' 
 #' \code{refine_authors} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'. 
