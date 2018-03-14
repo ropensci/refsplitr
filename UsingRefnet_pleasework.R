@@ -35,12 +35,6 @@ ecology_authors <- output$authors
 ecology_authors_references <- output$authors_references
 
 
-###	Can be read back in without importing from the following three commands:
-eb_references <- read.csv("output/eb_references.csv", as.is=TRUE)
-eb_authors <- read.csv("output/eb_authors.csv", as.is=TRUE)
-eb_authors_references <- read.csv("output/eb_authors__references.csv", as.is=TRUE)
-
-
 ##	Let's remove duplicates from our presumably updated and corrected author lists:
 
 output <- remove_duplicates(authors=ecology_authors, 

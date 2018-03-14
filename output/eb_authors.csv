@@ -1,356 +1,493 @@
-"AU","AU_ID","AU_ID_Dupe","Similarity","AF","EM","C1","RP","RID","RI","OI"
-"Sobrinho, MS","Sobrinho, MS_1",NA,NA,"Sobrinho, Mellissa S.","","Univ Fed Pernambuco, Programa Posgrad Biol Vegetal, BR-50372970 Recife, PE, Brazil.
-Univ Fed Amapa, BR-68940000 Mazagao, AP, Brazil.","","","",""
-"Tabarelli, M","Tabarelli, M_1","Tabarelli, M_2","1","Tabarelli, Marcelo","","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","","","",""
-"Machado, IC","Machado, IC_1",NA,NA,"Machado, Isabel C.","","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","","","",""
-"Sfair, JC","Sfair, JC_1",NA,NA,"Sfair, Julia C.","","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_1","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Lopes, AV","Lopes, AV_1","Lopes, AV_2","0.92156862745098","Lopes, Ariadna V.","","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","","",""
-"Mundim, FM","Mundim, FM_1","Mundim, FM_3","1","Mundim, Fabiane M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_2","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","",""
-"Vieira-Neto, EHM","Vieira-Neto, EHM_1","Vieira-Neto, EHM_5","1","Vieira-Neto, Ernane H. M.","","Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.","","",""
-"Vasconcelos, HL","Vasconcelos, HL_1","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, Ave Para 1720, BR-38405320 Uberlandia, MG, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_3","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_4","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.","","",""
-"Pena-Claros, M","Pena-Claros, M_1",NA,NA,"Pena-Claros, Marielos","","Wageningen Univ & Res Ctr, Forest Ecol & Forest Management Grp, Wageningen, Netherlands.
-IBIF, Santa Cruz, Bolivia.","","","",""
-"Finegan, B","Finegan, B_1",NA,NA,"Finegan, Bryan","","Trop Agr Ctr Res & Higher Educ CATIE, Prod & Conservat Forests Programme, 7170 Cartago, Turrialba 30501, Costa Rica.","","","",""
-"Kaplin, BA","Kaplin, BA_1",NA,NA,"Kaplin, Beth A.","","Antioch Univ New England, Dept Environm Studies, Ctr Trop Ecol & Conservat, 40 Avon St, Keene, NH 03431 USA.","","","",""
-"Whitlock, MC","Whitlock, MC_1",NA,NA,"Whitlock, Michael C.","whitlock@zoology.ubc.ca","Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.","Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.","","",""
-"Bronstein, JL","Bronstein, JL_1",NA,NA,"Bronstein, Judith L.","","Univ Arizona, Dept Ecol & Evolutionary Biol, Tucson, AZ 85721 USA.","","","",""
-"Bruna, EM","Bruna, EM_5","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, POB 11530, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Ellison, AM","Ellison, AM_1",NA,NA,"Ellison, Aaron M.","","Harvard Univ, Harvard Forest, Petersham, MA 01366 USA.","","","","Ellison,Aaron/0000-0003-4151-6081"
-"Fox, CW","Fox, CW_1",NA,NA,"Fox, Charles W.","","Univ Kentucky, Dept Entomol, Lexington, KY 40546 USA.","","","Fox, Charles/I-5274-2012","Fox,Charles/0000-0002-7545-7967"
-"McPeek, MA","McPeek, MA_1",NA,NA,"McPeek, Mark A.","","Dartmouth Coll, Dept Biol Sci, Hanover, NH 03755 USA.","","","",""
-"Moore, AJ","Moore, AJ_1",NA,NA,"Moore, Allen J.","","Univ Georgia, Dept Genet, Athens, GA 30602 USA.","","","",""
-"Noor, MAF","Noor, MAF_1",NA,NA,"Noor, Mohamed A. F.","","Duke Univ, Dept Biol, Durham, NC 27708 USA.","","","",""
-"Rausher, MD","Rausher, MD_1",NA,NA,"Rausher, Mark D.","","Duke Univ, Dept Biol, Durham, NC 27708 USA.","","","",""
-"Rieseberg, LH","Rieseberg, LH_1",NA,NA,"Rieseberg, Loren H.","","Univ British Columbia, Dept Bot, Vancouver, BC V6T 1Z4, Canada.","","","","Rieseberg,Loren/0000-0002-2712-2417"
-"Ritchie, MG","Ritchie, MG_1",NA,NA,"Ritchie, Michael G.","","Univ St Andrews, Sch Biol, St Andrews KY16 9AJ, Fife, Scotland.","","","Ritchie,Michael/F-7055-2013","Ritchie,Michael/0000-0001-7913-8675"
-"Shaw, RG","Shaw, RG_1",NA,NA,"Shaw, Ruth G.","","Univ Minnesota, Dept Ecol Evolut & Behav, Minneapolis, MN 55108 USA.","","","",""
-"Fine, PVA","Fine, PVA_1",NA,NA,"Fine, Paul V. A.","","Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
-Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.","Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.","","",""
-"Bruna, EM","Bruna, EM_6","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_7","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Izzo, TJ","Izzo, TJ_1","Izzo, TJ_3","1","Izzo, Thiago J.","","Univ Fed Mato Grosso, IB, Dept Bot & Ecol, BR-78060900 Cuiaba, MT, Brazil.
-INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.","","","Izzo,Thiago/K-7405-2012","Izzo,Thiago/0000-0002-4613-3787"
-"Inouye, BD","Inouye, BD_1","Inouye, BD_3","1","Inouye, Brian D.","","Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
-INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_2","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia UFU, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
-INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.","","","",""
-"Vasconcelos, PB","Vasconcelos, PB_1","Vasconcelos, PB_2","1","Vasconcelos, Pedro B.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.","","",""
-"Araujo, GM","Araujo, GM_1","Araujo, GM_2","1","Araujo, Glein M.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_8","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Smith, MJ","Smith, MJ_1",NA,NA,"Smith, Matthew J.","","Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
-Northern Plains Ctr Human Potential, St Paul, MN USA.","Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.","","",""
-"Weinberger, C","Weinberger, C_1",NA,NA,"Weinberger, Cody","","Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.","","","",""
-"Bruna, EM","Bruna, EM_9","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Allesina, S","Allesina, S_1",NA,NA,"Allesina, Stefano","","Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
-Univ Chicago, Computat Inst, Chicago, IL 60637 USA.
-Northern Plains Ctr Human Potential, St Paul, MN USA.","","","",""
-"Christianini, AV","Christianini, AV_1",NA,NA,"Christianini, Alexander V.","","Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.","Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.","","Christianini,Alexander/G-9486-2012",""
-"Oliveira, PS","Oliveira, PS_1",NA,NA,"Oliveira, Paulo S.","","Univ Estadual Campinas, Dept Biol Anim, BR-13083970 Campinas, SP, Brazil.","","","Oliveira,Paulo/E-1910-2013",""
-"Bruna, EM","Bruna, EM_10","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna, Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Vasconcelos, HL","Vasconcelos, HL_3","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Cho, AH","Cho, AH_1",NA,NA,"Cho, Alyssa H.","","Univ Florida, Dept Agron, Gainesville, FL 32611 USA.","","","",""
-"Johnson, SA","Johnson, SA_1",NA,NA,"Johnson, Shelly A.","","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Schuman, CE","Schuman, CE_1",NA,NA,"Schuman, Carrie E.","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.","","","",""
-"Adler, JM","Adler, JM_1",NA,NA,"Adler, Jennifer M.","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.","","","",""
-"Gonzalez, O","Gonzalez, O_1",NA,NA,"Gonzalez, Oscar","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.","","","Gonzalez,Oscar/D-7631-2014","Gonzalez,Oscar/0000-0002-8686-3119"
-"Graves, SJ","Graves, SJ_1",NA,NA,"Graves, Sarah J.","","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Huebner, JR","Huebner, JR_1",NA,NA,"Huebner, Jana R.","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.","","","",""
-"Marchant, DB","Marchant, DB_1",NA,NA,"Marchant, D. Blaine","","Univ Florida, Dept Biol, Gainesville, FL USA.","","","Marchant,DanielBlaine/D-7026-2014","Marchant,DanielBlaine/0000-0003-1733-3381"
-"Rifai, SW","Rifai, SW_1",NA,NA,"Rifai, Sami W.","","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Skinner, I","Skinner, I_1",NA,NA,"Skinner, Irina","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_11","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Bruna, Emilio/H-2769-2012","Bruna, Emilio/0000-0003-3381-8477"
-"Bruna, EM","Bruna, EM_12","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Bruna, EM","Bruna, EM_13","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Araujo, GM","Araujo, GM_2","Araujo, GM_2","1","Araujo, Glein M.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Amaral, AF","Amaral, AF_1",NA,NA,"Amaral, Alice F.","","Univ Fed Tocantins, BR-77330000 Arraias, TO, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_14","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Vasconcelos, HL","Vasconcelos, HL_4","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.","","",""
-"Cortes, MC","Cortes, MC_1",NA,NA,"Cortes, Marina C.","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69083000 Manaus, Amazonas, Brazil.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.","","",""
-"Uriarte, M","Uriarte, M_1","Uriarte, M_5","1","Uriarte, Maria","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","","","",""
-"Lemes, MR","Lemes, MR_1",NA,NA,"Lemes, Maristerra R.","","Inst Pesquisas Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, RJ, Brazil.","","","",""
-"Gribel, R","Gribel, R_1",NA,NA,"Gribel, Rogerio","","Inst Nacl de Pesquisas da Amazonia, Lab Genet & Biol Reprod Plantas, BR-69083000 Manaus, Amazonas, Brazil.
-Inst Pesquisas Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, RJ, Brazil.","","","Gribel, Rogerio/C-5392-2013","Gribel,Rogerio/0000-0002-0850-5578"
-"Kress, WJ","Kress, WJ_1","Kress, WJ_2","1","Kress, W. John","","Smithsonian Inst, Natl Museum Nat Hist, Dept Bot, Washington, DC 20560 USA.","","","",""
-"Smouse, PE","Smouse, PE_1",NA,NA,"Smouse, Peter E.","","Rutgers State Univ, Dept Ecol Evolut & Nat Resources, New Brunswick, NJ 08901 USA.","","","",""
-"Bruna, EM","Bruna, EM_15","Bruna, EM_49","1","Bruna, Emilio M.","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69083000 Manaus, Amazonas, Brazil.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Jurinitz, CF","Jurinitz, CF_1",NA,NA,"Jurinitz, Cristiane F.","","Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.","Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.","","",""
-"de Oliveira, AA","de Oliveira, AA_1",NA,NA,"de Oliveira, Alexandre A.","","Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_16","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna, Emilio/0000-0003-3381-8477"
-"Lucas, CM","Lucas, CM_1",NA,NA,"Lucas, Christine M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_17","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Nascimento, CMN","Nascimento, CMN_1",NA,NA,"Nascimento, Cristiane M. N.","","Inst Pesquisa Ambiental Amazonia, BR-68005080 Santarem, PA, Brazil.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_5","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.","","",""
-"Bruna, EM","Bruna, EM_18","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Passmore, HA","Passmore, HA_1",NA,NA,"Passmore, Heather A.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","","",""
-"Bruna, EM","Bruna, EM_19","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Heredia, SM","Heredia, SM_1",NA,NA,"Heredia, Sylvia M.","","Univ Calif Riverside, Dept Bot & Plant Sci, Riverside, CA 92521 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_6","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Iacona, GD","Iacona, GD_1","Iacona, GD_2","1","Iacona, Gwenllian D.","giacona@utk.edu","JW Jones Ecol Res Ctr, Newton, GA USA.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.","Univ Tennessee, Dept Ecol & Evolutionary Biol, Knoxville, TN 37996 USA.","","Iacona,Gwenllian/G-6567-2016",""
-"Kirkman, LK","Kirkman, LK_1","Kirkman, LK_2","1","Kirkman, L. Katherine","","JW Jones Ecol Res Ctr, Newton, GA USA.","","","",""
-"Bruna, EM","Bruna, EM_20","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Copeland, SM","Copeland, SM_1","Copeland, SM_2","1","Copeland, Stella M.","scopeland@ucdavis.edu","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.","","",""
-"Bruna, EM","Bruna, EM_21","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Silva, LVB","Silva, LVB_1",NA,NA,"Barbosa Silva, Laura V.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Mack, MC","Mack, MC_1",NA,NA,"Mack, Michelle C.","","Univ Florida, Dept Biol, Gainesville, FL 32611 USA.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_7","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Mundim, FM","Mundim, FM_2","Mundim, FM_3","1","Mundim, Fabiane M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_22","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Vieira-Neto, EHM","Vieira-Neto, EHM_2","Vieira-Neto, EHM_5","1","Vieira-Neto, Ernane H. M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Vieira-Neto,ErnaneHenrique/B-3177-2016","Vieira-Neto,Ernane Henrique/0000-0002-6557-7252"
-"Vasconcelos, HL","Vasconcelos, HL_8","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Bruna, EM","Bruna, EM_23","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"de Andrade, AS","de Andrade, AS_1",NA,NA,"de Andrade, Ana Segalin","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_24","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Izzo, TJ","Izzo, TJ_2","Izzo, TJ_3","1","Izzo, Thiago J.","","Univ Fed Mato Grosso, Dept Bot & Ecol, Cuiaba, Mato Grosso, Brazil.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","Izzo, Thiago/K-7405-2012","Izzo,Thiago/0000-0002-4613-3787"
-"Inouye, BD","Inouye, BD_2","Inouye, BD_3","1","Inouye, Brian D.","","Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","",""
-"Uriarte, M","Uriarte, M_2","Uriarte, M_5","1","Uriarte, Maria","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","Uriarte,Maria/L-8944-2013",""
-"Vasconcelos, HL","Vasconcelos, HL_9","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Ferreira, AV","Ferreira, AV_1",NA,NA,"Ferreira, Alana Vaz","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.","","",""
-"Bruna, EM","Bruna, EM_25","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Vasconcelos, HL","Vasconcelos, HL_10","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Uriarte, M","Uriarte, M_3","Uriarte, M_5","1","Uriarte, Maria","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.","","Uriarte,Maria/L-8944-2013",""
-"Anciaes, M","Anciaes, M_1","Anciaes, M_2","1","Anciaes, Marina","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"da Silva, MTB","da Silva, MTB_1",NA,NA,"da Silva, Mariana T. B.","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Rubim, P","Rubim, P_1","Rubim, P_3","1","Rubim, Paulo","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Johnson, E","Johnson, E_1",NA,NA,"Johnson, Erik","","Louisiana State Univ, Sch Renewable Resources, Baton Rouge, LA 70803 USA.","","","",""
-"Bruna, EM","Bruna, EM_26","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Gagnon, PR","Gagnon, PR_1",NA,NA,"Gagnon, Paul R.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-INPA PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_27","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-INPA PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Rubim, P","Rubim, P_2","Rubim, P_3","1","Rubim, Paulo","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","",""
-"Darrigo, MR","Darrigo, MR_1","Darrigo, MR_2","1","Darrigo, Maria Rosa","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","",""
-"Littell, RC","Littell, RC_1",NA,NA,"Littell, Ramon C.","","Univ Florida, Dept Stat, Gainesville, FL 32611 USA.","","","",""
-"Uriarte, M","Uriarte, M_4","Uriarte, M_5","1","Uriarte, Maria","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","","","Uriarte,Maria/L-8944-2013",""
-"Kress, WJ","Kress, WJ_2","Kress, WJ_2","1","Kress, W. John","","Smithsonian Inst, NMNH Dept Bot, Washington, DC 20013 USA.","","","",""
-"Pitman, NCA","Pitman, NCA_1",NA,NA,"Pitman, Nigel C. A.","","Amazon Conservat Assoc, Puerto Maldonado, Madre De Dios, Peru.","Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.","","Pitman,Nigel/A-7681-2008","Pitman,Nigel/0000-0002-9211-2880"
-"Widmer, J","Widmer, J_1",NA,NA,"Widmer, Jocelyn","","Univ Florida, Dept Urban & Reg Planning, Gainesville, FL 32611 USA.","","","",""
-"Jenkins, CN","Jenkins, CN_1",NA,NA,"Jenkins, Clinton N.","","Univ Maryland, Dept Biol, College Pk, MD 20742 USA.","","","Jenkins, Clinton/D-6134-2011","Jenkins,Clinton/0000-0003-2198-0637"
-"Stocks, G","Stocks, G_1","Stocks, G_2","1","Stocks, Gabriela","","Univ Florida, Dept Anthropol, Gainesville, FL 32611 USA.
-Univ Florida, Land Use & Environm Change Inst, Gainesville, FL 32611 USA.","","","",""
-"Seales, L","Seales, L_1","Seales, L_2","1","Seales, Lisa","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","",""
-"Paniagua, F","Paniagua, F_1","Paniagua, F_2","1","Paniagua, Franklin","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_28","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Laurance, WF","Laurance, WF_1",NA,NA,"Laurance, William F.","bill.laurance@jcu.edu.au","James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
-Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.","","Laurance, William/B-2709-2012",""
-"Camargo, JLC","Camargo, JLC_1",NA,NA,"Camargo, Jose L. C.","","Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","Camargo, JoseLuis/C-3137-2015",""
-"Luizao, RCC","Luizao, RCC_1",NA,NA,"Luizao, Regina C. C.","","Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
-Natl Inst Amazonian Res INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Laurance, SG","Laurance, SG_1",NA,NA,"Laurance, Susan G.","bill.laurance@jcu.edu.au","James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
-Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","Laurance,Susan/G-6021-2011","Laurance,Susan/0000-0002-2831-2933"
-"Pimm, SL","Pimm, SL_1",NA,NA,"Pimm, Stuart L.","","Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.","","","",""
-"Bruna, EM","Bruna, EM_29","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Bruna, Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Stouffer, PC","Stouffer, PC_1",NA,NA,"Stouffer, Philip C.","","Louisiana State Univ, Sch Renewable Nat Resources, Baton Rouge, LA 70803 USA.
-Louisiana State Univ, LSU AgCtr, Baton Rouge, LA 70803 USA.","","","",""
-"Williamson, GB","Williamson, GB_1",NA,NA,"Williamson, G. Bruce","","Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.","","","",""
-"Benitez-Malvido, J","Benitez-Malvido, J_1",NA,NA,"Benitez-Malvido, Julieta","","Univ Nacl Autonoma Mexico, Ecosyst Res Ctr, Morelia, Michoacan, Mexico.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_11","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos,Heraldo/0000-0001-6969-7131"
-"Van Houtan, KS","Van Houtan, KS_1",NA,NA,"Van Houtan, Kyle S.","","Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.
-NOAA Fisheries, Marine Turtle Assessment Program, Honolulu, HI 96822 USA.","","","",""
-"Zartman, CE","Zartman, CE_1",NA,NA,"Zartman, Charles E.","","Natl Inst far Amazonian Res INPA, Dept Bot, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Boyle, SA","Boyle, SA_1",NA,NA,"Boyle, Sarah A.","","Rhodes Coll, Dept Biol, Memphis, TN 38112 USA.","","","",""
-"Didham, RK","Didham, RK_1",NA,NA,"Didham, Raphael K.","","Univ Western Australia, Sch Anim Biol, Crawley, WA 6009, Australia.
-CSIRO Ecosyst Sci, Ctr Environm & Life Sci, Floreat, WA 6014, Australia.","","","Didham,Raphael/B-5953-2011",""
-"Andrade, A","Andrade, A_1","Andrade, A_1","1","Andrade, Ana","","Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Lovejoy, TE","Lovejoy, TE_1",NA,NA,"Lovejoy, Thomas E.","lovejoy@heinzctr.org","Heinz Ctr, Washington, DC 20006 USA.
-George Mason Univ, Dept Environm Sci & Policy, Fairfax, VA 22030 USA.","","","",""
-"Ribeiro, MBN","Ribeiro, MBN_1",NA,NA,"Ribeiro, Maria Beatriz N.","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Univ Sao Paulo, Dept Ecol, BR-05508900 Sao Paulo, Brazil.","Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.","","",""
-"Bruna, EM","Bruna, EM_30","Bruna, EM_49","1","Bruna, Emilio M.","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Mantovani, W","Mantovani, W_1",NA,NA,"Mantovani, Waldir","","Univ Sao Paulo, Dept Ecol, BR-05508900 Sao Paulo, Brazil.","","","",""
-"Portela, RDQ","Portela, RDQ_1","Portela, RDQ_2","0.987096774193548","Quitete Portela, Rita De Cassia","","Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.","","",""
-"Bruna, EM","Bruna, EM_31","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"dos Santos, FAM","dos Santos, FAM_1","dos Santos, FAM_2","1","Maes dos Santos, Flavio Antonio","","Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.","","","",""
-"Bruna, EM","Bruna, EM_32","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Uriarte, M","Uriarte, M_5","Uriarte, M_5","1","Uriarte, Maria","","Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.","","Uriarte,Maria/L-8944-2013",""
-"Bruna, EM","Bruna, EM_33","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Rubim, P","Rubim, P_3","Rubim, P_3","1","Rubim, Paulo","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Anciaes, M","Anciaes, M_2","Anciaes, M_2","1","Anciaes, Marina","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Jonckheere, I","Jonckheere, I_1",NA,NA,"Jonckheere, Inge","","Katholieke Univ Leuven, Biosyst Dept, Geomat Grp, B-3001 Louvain, Belgium.","","","",""
-"Iacona, GD","Iacona, GD_2","Iacona, GD_2","1","Iacona, Gwenllian D.","","JW Jones Ecol Res Ctr, Newton, GA 39870 USA.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","JW Jones Ecol Res Ctr, 3988 Jones Ctr Dr, Newton, GA 39870 USA.","","Iacona,Gwenllian/G-6567-2016",""
-"Kirkman, LK","Kirkman, LK_2","Kirkman, LK_2","1","Kirkman, L. Katherine","","JW Jones Ecol Res Ctr, Newton, GA 39870 USA.","","","",""
-"Bruna, EM","Bruna, EM_34","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Fortini, LB","Fortini, LB_1",NA,NA,"Fortini, Lucas Berio","lfortini@ufl.edu","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_35","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna, Emilio/0000-0003-3381-8477"
-"Zarin, DJ","Zarin, DJ_1",NA,NA,"Zarin, Daniel J.","","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Vasconcelos, SS","Vasconcelos, SS_1",NA,NA,"Vasconcelos, Steel S.","","Embrapa Amazonia Oriental, Lab Ecofisiol & Propagacao Plantas, BR-66095100 Belem, PA, Brazil.","","","Vasconcelos,Steel/I-2067-2012","Vasconcelos,Steel/0000-0003-2364-8822"
-"Miranda, IS","Miranda, IS_1",NA,NA,"Miranda, Izildinha S.","","Univ Fed Rural Amazonia, BR-66077530 Belem, PA, Brazil.","","","",""
-"Fiske, IJ","Fiske, IJ_1","Fiske, IJ_3","1","Fiske, Ian J.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_36","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Portela, RDQ","Portela, RDQ_2","Portela, RDQ_2","1","Quitete Portela, Rita de Cassia","","Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.","","",""
-"Bruna, EM","Bruna, EM_37","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"dos Santos, FAM","dos Santos, FAM_2","dos Santos, FAM_2","1","Maes dos Santos, Flavio Antonio","","Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_12","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","",NA,"Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Pacheco, R","Pacheco, R_1",NA,NA,"Pacheco, Renata","",NA,"","","",""
-"Silva, RC","Silva, RC_1",NA,NA,"Silva, Raphael C.","",NA,"","","",""
-"Vasconcelos, PB","Vasconcelos, PB_2","Vasconcelos, PB_2","1","Vasconcelos, Pedro B.","",NA,"","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Lopes, CT","Lopes, CT_1",NA,NA,"Lopes, Caue T.","",NA,"","","",""
-"Costa, AN","Costa, AN_1","Costa, AN_2","1","Costa, Alan N.","",NA,"","","Costa, Alan/F-2836-2014","Costa,Alan/0000-0002-7396-6370"
-"Bruna, EM","Bruna, EM_38","Bruna, EM_49","1","Bruna, Emilio M.","",NA,"","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Dattilo, W","Dattilo, W_1",NA,NA,"Dattilo, Wesley","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
-Univ Estadual Norte Fluminense, Ctr Biociencias & Biotecnol, Campos, RJ, Brazil.","","","Dattilo,Wesley/A-6371-2012","Dattilo,Wesley/0000-0002-4758-4379"
-"Izzo, TJ","Izzo, TJ_3","Izzo, TJ_3","1","Izzo, Thiago J.","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
-Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.","","Izzo,Thiago/K-7405-2012","Izzo, Thiago/0000-0002-4613-3787"
-"Inouye, BD","Inouye, BD_3","Inouye, BD_3","1","Inouye, Brian D.","","Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_13","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.","","","Vasconcelos, Heraldo/C-3353-2013","Vasconcelos,Heraldo/0000-0001-6969-7131"
-"Bruna, EM","Bruna, EM_39","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Bruna, EM","Bruna, EM_40","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011 Manaus, Amazonas, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Fiske, IJ","Fiske, IJ_2","Fiske, IJ_3","1","Fiske, Ian J.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Trager, MD","Trager, MD_1","Trager, MD_2","0.988888888888889","Trager, Mathew D.","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","",""
-"Callis, KL","Callis, KL_1",NA,NA,"Callis, Kristine L.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Christ, LR","Christ, LR_1",NA,NA,"Christ, Lindsey R.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Resasco, J","Resasco, J_1",NA,NA,"Resasco, Julian","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Armitage, DW","Armitage, DW_1",NA,NA,"Armitage, David W.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Ash, JD","Ash, JD_1",NA,NA,"Ash, Jeremy D.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Caughlin, TT","Caughlin, TT_1",NA,NA,"Caughlin, Timothy T.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Clemmensen, SF","Clemmensen, SF_1",NA,NA,"Clemmensen, Sharon F.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Copeland, SM","Copeland, SM_2","Copeland, SM_2","1","Copeland, Stella M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Fullman, TJ","Fullman, TJ_1",NA,NA,"Fullman, Timothy J.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Lynch, RL","Lynch, RL_1",NA,NA,"Lynch, Ryan L.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Olson, C","Olson, C_1",NA,NA,"Olson, Charley","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Pruner, RA","Pruner, RA_1",NA,NA,"Pruner, Raya A.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Vieira-Neto, EHM","Vieira-Neto, EHM_3","Vieira-Neto, EHM_5","1","Vieira-Neto, Ernane H. M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Vieira-Neto,ErnaneHenrique/B-3177-2016","Vieira-Neto,Ernane Henrique/0000-0002-6557-7252"
-"West-Singh, R","West-Singh, R_1",NA,NA,"West-Singh, Raneve","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_41","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Costa, AN","Costa, AN_2","Costa, AN_2","1","Costa, Alan N.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Costa, Alan/F-2836-2014","Costa,Alan/0000-0002-7396-6370"
-"Vasconcelos, HL","Vasconcelos, HL_14","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Vieira-Neto, EHM","Vieira-Neto, EHM_4","Vieira-Neto, EHM_5","1","Vieira-Neto, Ernane H. M.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","Vieira-Neto,ErnaneHenrique/B-3177-2016","Vieira-Neto,ErnaneHenrique/0000-0002-6557-7252"
-"Bruna, EM","Bruna, EM_42","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Fiske, IJ","Fiske, IJ_3","Fiske, IJ_3","1","Fiske, Ian J.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","N Carolina State Univ, Dept Stat, Raleigh, NC 27695 USA.","","",""
-"Bruna, EM","Bruna, EM_43","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin American Stud, Gainesville, FL 32611 USA.
-Smithsonian Trop Res Inst, Inst Nacl Pesquisas Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Bolker, BM","Bolker, BM_1",NA,NA,"Bolker, Benjamin M.","","Univ Florida, Dept Zool, Gainesville, FL 32611 USA.","","","",""
-"Stocks, G","Stocks, G_2","Stocks, G_2","1","Stocks, Gabriela","","Univ Florida, Dept Anthropol & Land Use, Gainesville, FL 32611 USA.
-Univ Florida, Environm Change Inst, Gainesville, FL 32611 USA.","Univ Florida, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.","","",""
-"Seales, L","Seales, L_2","Seales, L_2","1","Seales, Lisa","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","",""
-"Paniagua, F","Paniagua, F_2","Paniagua, F_2","1","Paniagua, Franklin","","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","","","",""
-"Maehr, E","Maehr, E_1",NA,NA,"Maehr, Erin","","Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","","","",""
-"Bruna, EM","Bruna, EM_44","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Bruna, EM","Bruna, EM_45","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
-Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Darrigo, MR","Darrigo, MR_2","Darrigo, MR_2","1","Darrigo, Maria Rosa","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Pacheco, AMF","Pacheco, AMF_1",NA,NA,"Furuya Pacheco, Angela Midori","","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
-Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.","","","",""
-"Vasconcelos, HL","Vasconcelos, HL_15","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","","","",""
-"Morris, WF","Morris, WF_1",NA,NA,"Morris, William F.","","Duke Univ, Dept Biol, Durham, NC 27708 USA.","Duke Univ, Dept Biol, BOx 90339, Durham, NC 27708 USA.","","",""
-"Pfister, CA","Pfister, CA_1",NA,NA,"Pfister, Catherine A.","","Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.","","","",""
-"Tuljapurkar, S","Tuljapurkar, S_1",NA,NA,"Tuljapurkar, Shripad","","Stanford Univ, Stanford, CA 94305 USA.","","","",""
-"Haridas, CV","Haridas, CV_1",NA,NA,"Haridas, Chirrakal V.","","Stanford Univ, Stanford, CA 94305 USA.","","","",""
-"Boggs, CL","Boggs, CL_1",NA,NA,"Boggs, Carol L.","","Stanford Univ, Stanford, CA 94305 USA.","","","",""
-"Boyce, MS","Boyce, MS_1",NA,NA,"Boyce, Mark S.","","Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada.","","","Boyce, Mark/A-2620-2014","Boyce,Mark/0000-0001-5811-325X"
-"Bruna, EM","Bruna, EM_46","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
-Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Church, DR","Church, DR_1",NA,NA,"Church, Don R.","","Univ Virginia, Dept Biol, Charlottesville, VA 22904 USA.","","","",""
-"Coulson, T","Coulson, T_1",NA,NA,"Coulson, Tim","","Univ London Imperial Coll Sci Technol & Med, Div Biol, Ascot SL5 7PY, Berks, England.","","","","Coulson,Tim/0000-0001-9371-9003"
-"Doak, DF","Doak, DF_1",NA,NA,"Doak, Daniel F.","","Univ Calif Santa Cruz, Dept Ecol & Evolutionary Biol, Santa Cruz, CA 95064 USA.","","","",""
-"Forsyth, S","Forsyth, S_1",NA,NA,"Forsyth, Stacey","","Univ Arizona, Inst BIO5, Tucson, AZ 85721 USA.","","","",""
-"Gaillard, JM","Gaillard, JM_1",NA,NA,"Gaillard, Jean-Michel","","Univ Lyon 1, Lab Biometrie & Biol Evolut, Unite Mixte Rech N5558, F-69622 Villeurbanne, France.","","","",""
-"Horvitz, CC","Horvitz, CC_1",NA,NA,"Horvitz, Carol C.","","Univ Miami, Dept Biol, Coral Gables, FL 33124 USA.","","","",""
-"Kalisz, S","Kalisz, S_1",NA,NA,"Kalisz, Susan","","Univ Pittsburgh, Dept Biol Sci, Pittsburgh, PA 15260 USA.","","","",""
-"Kendall, BE","Kendall, BE_1",NA,NA,"Kendall, Bruce E.","","Univ Calif Santa Barbara, Donald Bren Environm Sci & Management, Santa Barbara, CA 93106 USA.","","","Kendall,Bruce/C-1871-2008","Kendall,Bruce/0000-0003-1782-8106"
-"Knight, TM","Knight, TM_1",NA,NA,"Knight, Tiffany M.","","Washington Univ, Dept Biol, St Louis, MO 63130 USA.","","","",""
-"Lee, CT","Lee, CT_1",NA,NA,"Lee, Charlotte T.","","Stanford Univ, Stanford, CA 94305 USA.","","","",""
-"Menges, ES","Menges, ES_1",NA,NA,"Menges, Eric S.","","Archbold Biol Stn, Lake Placid, FL 33862 USA.","","","",""
-"Girao, LC","Girao, LC_1",NA,NA,"Girao, Luciana Coe","","Univ Fed Pernambuco, Dept Bot, Programa Posgrad Biol Vegetal, Recife, PE, Brazil.","","","",""
-"Lopes, AV","Lopes, AV_2","Lopes, AV_2","1","Lopes, Ariadna Valentina","","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","Lopes,Ariadna/E-8432-2010",""
-"Tabarelli, M","Tabarelli, M_2","Tabarelli, M_2","1","Tabarelli, Marcelo","","","","","Tabarelli,Marcelo/F-1088-2010","Tabarelli,Marcelo/0000-0001-7573-7216"
-"Bruna, EM","Bruna, EM_47","Bruna, EM_49","1","Bruna, Emilio M.","","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","","","Bruna, Emilio/H-2769-2012","Bruna, Emilio/0000-0003-3381-8477"
-"Trager, MD","Trager, MD_2","Trager, MD_2","1","Trager, Matthew D.","mtrager@ufl.edu","Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.","Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.","","",""
-"Bruna, EM","Bruna, EM_48","Bruna, EM_49","1","Bruna, Emilio M.","","","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
-"Vasconcelos, HL","Vasconcelos, HL_16","Vasconcelos, HL_16","1","Vasconcelos, Heraldo L.","","Univ Fed Uberlandia, Inst Biol, BR-38900402 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.","","Vasconcelos,Heraldo/C-3353-2013","Vasconcelos, Heraldo/0000-0001-6969-7131"
-"Vieira-Neto, EHM","Vieira-Neto, EHM_5","Vieira-Neto, EHM_5","1","Vieira-Neto, Ernane H. M.","","","","","Vieira-Neto,ErnaneHenrique/B-3177-2016","Vieira-Neto,Ernane Henrique/0000-0002-6557-7252"
-"Mundim, FM","Mundim, FM_3","Mundim, FM_3","1","Mundim, Fabiane M.","","","","","",""
-"Bruna, EM","Bruna, EM_49","Bruna, EM_49","1","Bruna, Emilio M.","","","","","Bruna,Emilio/H-2769-2012","Bruna,Emilio/0000-0003-3381-8477"
+"authorID","AU","AF","groupID","match_name","similarity","author_order","address","RP_address","RI","OI","EM","UT","refID"
+1,"Bruna, EM","Bruna, Emilio M.",1,NA,NA,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000388274700005
+",1
+2,"Lopes, AV","Lopes, Ariadna V.",2,NA,NA,6,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,"WOS:000388274700005
+",1
+3,"Machado, IC","Machado, Isabel C.",3,NA,NA,3,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,NA,"WOS:000388274700005
+",1
+4,"Sfair, JC","Sfair, Julia C.",4,NA,NA,4,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,NA,"WOS:000388274700005
+",1
+5,"Sobrinho, MS","Sobrinho, Mellissa S.",5,NA,NA,1,"Univ Fed Pernambuco, Programa Posgrad Biol Vegetal, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,NA,"WOS:000388274700005
+",1
+6,"Tabarelli, M","Tabarelli, Marcelo",6,NA,NA,2,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,NA,"WOS:000388274700005
+",1
+7,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000381285900006
+",2
+8,"Mundim, FM","Mundim, Fabiane M.",8,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,"WOS:000381285900006
+",2
+9,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000380065600003
+",3
+10,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,NA,NA,2,"Univ Fed Uberlandia, Inst Biol, Ave Para 1720, BR-38405320 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000380065600003
+",3
+11,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.",NA,NA,NA,"WOS:000380065600003
+",3
+12,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.","Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.",NA,NA,NA,"WOS:000372510600001
+",4
+13,"Finegan, B","Finegan, Bryan",13,NA,NA,3,"Trop Agr Ctr Res & Higher Educ CATIE, Prod & Conservat Forests Programme, 7170 Cartago, Turrialba 30501, Costa Rica.",NA,NA,NA,NA,"WOS:000372510600001
+",4
+14,"Kaplin, BA","Kaplin, Beth A.",14,NA,NA,4,"Antioch Univ New England, Dept Environm Studies, Ctr Trop Ecol & Conservat, 40 Avon St, Keene, NH 03431 USA.",NA,NA,NA,NA,"WOS:000372510600001
+",4
+15,"Pena-Claros, M","Pena-Claros, Marielos",15,NA,NA,2,"Wageningen Univ & Res Ctr, Forest Ecol & Forest Management Grp, Wageningen, Netherlands.",NA,NA,NA,NA,"WOS:000372510600001
+",4
+16,"Bronstein, JL","Bronstein, Judith L.",16,NA,NA,2,"Univ Arizona, Dept Ecol & Evolutionary Biol, Tucson, AZ 85721 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+17,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000369462400003
+",5
+18,"Ellison, AM","Ellison, Aaron M.",18,NA,NA,4,"Harvard Univ, Harvard Forest, Petersham, MA 01366 USA.",NA,NA,"0000-0003-4151-6081 ",NA,"WOS:000369462400003
+",5
+19,"Fox, CW","Fox, Charles W.",19,NA,NA,5,"Univ Kentucky, Dept Entomol, Lexington, KY 40546 USA.",NA,"I-5274-2012","0000-0002-7545-7967",NA,"WOS:000369462400003
+",5
+20,"McPeek, MA","McPeek, Mark A.",20,NA,NA,6,"Dartmouth Coll, Dept Biol Sci, Hanover, NH 03755 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+21,"Moore, AJ","Moore, Allen J.",21,NA,NA,7,"Univ Georgia, Dept Genet, Athens, GA 30602 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+22,"Noor, MAF","Noor, Mohamed A. F.",22,NA,NA,8,"Duke Univ, Dept Biol, Durham, NC 27708 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+23,"Rausher, MD","Rausher, Mark D.",23,NA,NA,9,"Duke Univ, Dept Biol, Durham, NC 27708 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+24,"Rieseberg, LH","Rieseberg, Loren H.",24,NA,NA,10,"Univ British Columbia, Dept Bot, Vancouver, BC V6T 1Z4, Canada.",NA,NA,"0000-0002-2712-2417",NA,"WOS:000369462400003
+",5
+25,"Ritchie, MG","Ritchie, Michael G.",25,NA,NA,11,"Univ St Andrews, Sch Biol, St Andrews KY16 9AJ, Fife, Scotland.",NA,"F-7055-2013","0000-0001-7913-8675",NA,"WOS:000369462400003
+",5
+26,"Shaw, RG","Shaw, Ruth G.",26,NA,NA,12,"Univ Minnesota, Dept Ecol Evolut & Behav, Minneapolis, MN 55108 USA.",NA,NA,NA,NA,"WOS:000369462400003
+",5
+27,"Whitlock, MC","Whitlock, Michael C.",27,NA,NA,1,"Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.","Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.",NA,NA,"whitlock@zoology.ubc.ca","WOS:000369462400003
+",5
+28,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000372510300001
+",6
+29,"Fine, PVA","Fine, Paul V. A.",29,NA,NA,1,"Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.","Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.",NA,NA,NA,"WOS:000372510300001
+",6
+30,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000346851400001
+",7
+31,"Inouye, BD","Inouye, Brian D.",31,NA,NA,3,"Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.",NA,NA,NA,NA,"WOS:000346851400001
+",7
+32,"Izzo, TJ","Izzo, Thiago J.",32,NA,NA,2,"Univ Fed Mato Grosso, IB, Dept Bot & Ecol, BR-78060900 Cuiaba, MT, Brazil.",NA,"K-7405-2012","0000-0002-4613-3787",NA,"WOS:000346851400001
+",7
+33,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia UFU, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000346851400001
+",7
+34,"Araujo, GM","Araujo, Glein M.",34,NA,NA,2,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000343908600008
+",8
+35,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000343908600008
+",8
+36,"Vasconcelos, PB","Vasconcelos, Pedro B.",10,"Vasconcelos, Heraldo L.",0.929087424443462,1,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.",NA,NA,NA,"WOS:000343908600008
+",8
+37,"Allesina, S","Allesina, Stefano",37,NA,NA,4,"Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.",NA,NA,NA,NA,"WOS:000345204000044
+",9
+38,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000345204000044
+",9
+39,"Smith, MJ","Smith, Matthew J.",39,NA,NA,1,"Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.","Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.",NA,NA,NA,"WOS:000345204000044
+",9
+40,"Weinberger, C","Weinberger, Cody",40,NA,NA,2,"Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.",NA,NA,NA,NA,"WOS:000345204000044
+",9
+41,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000341179800029
+",10
+42,"Christianini, AV","Christianini, Alexander V.",42,NA,NA,1,"Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.","Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.","G-9486-2012",NA,NA,"WOS:000341179800029
+",10
+43,"Oliveira, PS","Oliveira, Paulo S.",43,NA,NA,2,"Univ Estadual Campinas, Dept Biol Anim, BR-13083970 Campinas, SP, Brazil.",NA,"E-1910-2013",NA,NA,"WOS:000341179800029
+",10
+44,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000341179800029
+",10
+45,"Adler, JM","Adler, Jennifer M.",45,NA,NA,4,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+46,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,11,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","H-2769-2012","0000-0003-3381-8477",NA,"WOS:000347618000002
+",11
+47,"Cho, AH","Cho, Alyssa H.",47,NA,NA,1,"Univ Florida, Dept Agron, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+48,"Gonzalez, O","Gonzalez, Oscar",48,NA,NA,5,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.",NA,"D-7631-2014","0000-0002-8686-3119 ",NA,"WOS:000347618000002
+",11
+49,"Graves, SJ","Graves, Sarah J.",49,NA,NA,6,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+50,"Huebner, JR","Huebner, Jana R.",50,NA,NA,7,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+51,"Johnson, SA","Johnson, Shelly A.",51,NA,NA,2,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+52,"Marchant, DB","Marchant, D. Blaine",52,NA,NA,8,"Univ Florida, Dept Biol, Gainesville, FL USA.",NA,"D-7026-2014","0000-0003-1733-3381",NA,"WOS:000347618000002
+",11
+53,"Rifai, SW","Rifai, Sami W.",53,NA,NA,9,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+54,"Schuman, CE","Schuman, Carrie E.",54,NA,NA,3,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+55,"Skinner, I","Skinner, Irina",55,NA,NA,10,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000347618000002
+",11
+56,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ",NA,"WOS:000338766100001
+",12
+57,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ","embruna@ufl.edu","WOS:000332754900002
+",13
+58,"Amaral, AF","Amaral, Alice F.",58,NA,NA,2,"Univ Fed Tocantins, BR-77330000 Arraias, TO, Brazil.",NA,NA,NA,NA,"WOS:000327093200007
+",14
+59,"Araujo, GM","Araujo, Glein M.",34,"Araujo, Glein M.",NA,1,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000327093200007
+",14
+60,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000327093200007
+",14
+61,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,"WOS:000327093200007
+",14
+62,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.",NA,"C-4939-2014","0000-0001-5427-1461",NA,"WOS:000329786700016
+",15
+63,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.",NA,"C-4939-2014","0000-0003-3381-8477 ",NA,"WOS:000329786700016
+",15
+64,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.",NA,"H-2769-2012","0000-0001-5427-1461",NA,"WOS:000329786700016
+",15
+65,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000329786700016
+",15
+66,"Cortes, MC","Cortes, Marina C.",66,NA,NA,1,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.",NA,NA,NA,"WOS:000329786700016
+",15
+67,"Gribel, R","Gribel, Rogerio",67,NA,NA,4,"Inst Nacl de Pesquisas da Amazonia, Lab Genet & Biol Reprod Plantas, BR-69083000 Manaus, Amazonas, Brazil.",NA,"C-5392-2013","0000-0002-0850-5578",NA,"WOS:000329786700016
+",15
+68,"Kress, WJ","Kress, W. John",68,NA,NA,5,"Smithsonian Inst, Natl Museum Nat Hist, Dept Bot, Washington, DC 20560 USA.",NA,NA,NA,NA,"WOS:000329786700016
+",15
+69,"Lemes, MR","Lemes, Maristerra R.",69,NA,NA,3,"Inst Pesquisas Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, RJ, Brazil.",NA,NA,NA,NA,"WOS:000329786700016
+",15
+70,"Smouse, PE","Smouse, Peter E.",70,NA,NA,6,"Rutgers State Univ, Dept Ecol Evolut & Nat Resources, New Brunswick, NJ 08901 USA.",NA,NA,NA,NA,"WOS:000329786700016
+",15
+71,"Uriarte, M","Uriarte, Maria",71,NA,NA,2,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.",NA,NA,NA,NA,"WOS:000329786700016
+",15
+72,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000326333400008
+",16
+73,"de Oliveira, AA","de Oliveira, Alexandre A.",73,NA,NA,2,"Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.",NA,NA,NA,NA,"WOS:000326333400008
+",16
+74,"Jurinitz, CF","Jurinitz, Cristiane F.",74,NA,NA,1,"Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.","Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.",NA,NA,NA,"WOS:000326333400008
+",16
+75,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"C-4939-2014","0000-0001-5427-1461",NA,"WOS:000327305900003
+",17
+76,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"C-4939-2014","0000-0003-3381-8477 ",NA,"WOS:000327305900003
+",17
+77,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0001-5427-1461",NA,"WOS:000327305900003
+",17
+78,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000327305900003
+",17
+79,"Lucas, CM","Lucas, Christine M.",79,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,NA,"lucas.christine2@gmail.com","WOS:000327305900003
+",17
+80,"Nascimento, CMN","Nascimento, Cristiane M. N.",80,NA,NA,3,"Inst Pesquisa Ambiental Amazonia, BR-68005080 Santarem, PA, Brazil.",NA,NA,NA,NA,"WOS:000327305900003
+",17
+81,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000313228500003
+",18
+82,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,1,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,"WOS:000313228500003
+",18
+83,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000307378500003
+",19
+84,"Heredia, SM","Heredia, Sylvia M.",84,NA,NA,3,"Univ Calif Riverside, Dept Bot & Plant Sci, Riverside, CA 92521 USA.",NA,NA,NA,NA,"WOS:000307378500003
+",19
+85,"Passmore, HA","Passmore, Heather A.",85,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.",NA,NA,NA,"WOS:000307378500003
+",19
+86,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131 ",NA,"WOS:000307378500003
+",19
+87,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000306461800007
+",20
+88,"Iacona, GD","Iacona, Gwenllian D.",88,NA,NA,1,"JW Jones Ecol Res Ctr, Newton, GA USA.","Univ Tennessee, Dept Ecol & Evolutionary Biol, Knoxville, TN 37996 USA.","G-6567-2016",NA,"giacona@utk.edu","WOS:000306461800007
+",20
+89,"Kirkman, LK","Kirkman, L. Katherine",89,NA,NA,2,"JW Jones Ecol Res Ctr, Newton, GA USA.",NA,NA,NA,NA,"WOS:000306461800007
+",20
+90,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000327301200004
+",21
+91,"Copeland, SM","Copeland, Stella M.",91,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.",NA,NA,"scopeland@ucdavis.edu","WOS:000327301200004
+",21
+92,"Mack, MC","Mack, Michelle C.",92,NA,NA,4,"Univ Florida, Dept Biol, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000327301200004
+",21
+93,"Silva, LVB","Barbosa Silva, Laura V.",93,NA,NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000327301200004
+",21
+94,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,5,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000327301200004
+",21
+95,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000301705700011
+",22
+96,"Mundim, FM","Mundim, Fabiane M.",8,"Mundim, Fabiane M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,NA,NA,"WOS:000301705700011
+",22
+97,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131",NA,"WOS:000301705700011
+",22
+98,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,"Vieira-Neto, Ernane H. M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000301705700011
+",22
+99,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ",NA,"WOS:000295888800026
+",23
+100,"de Andrade, AS","de Andrade, Ana Segalin",100,NA,NA,2,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.",NA,NA,NA,NA,"WOS:000295888800026
+",23
+101,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","H-2769-2012","0000-0003-3381-8477",NA,"WOS:000293558900045
+",24
+102,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","H-2769-2012","0000-0001-5427-1461 ",NA,"WOS:000293558900045
+",24
+103,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","C-4939-2014","0000-0003-3381-8477",NA,"WOS:000293558900045
+",24
+104,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.","C-4939-2014","0000-0001-5427-1461 ",NA,"WOS:000293558900045
+",24
+105,"Inouye, BD","Inouye, Brian D.",31,"Inouye, Brian D.",NA,3,"Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.",NA,NA,NA,NA,"WOS:000293558900045
+",24
+106,"Izzo, TJ","Izzo, Thiago J.",32,"Izzo, Thiago J.",NA,2,"Univ Fed Mato Grosso, Dept Bot & Ecol, Cuiaba, Mato Grosso, Brazil.",NA,"K-7405-2012","0000-0002-4613-3787",NA,"WOS:000293558900045
+",24
+107,"Uriarte, M","Uriarte, Maria",71,"Uriarte, Maria",NA,4,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY USA.",NA,"L-8944-2013",NA,NA,"WOS:000293558900045
+",24
+108,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,5,"Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131",NA,"WOS:000293558900045
+",24
+109,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000292114300008
+",25
+110,"Ferreira, AV","Ferreira, Alana Vaz",110,NA,NA,1,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.","Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,"WOS:000292114300008
+",25
+111,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,3,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131 ",NA,"WOS:000292114300008
+",25
+112,"Anciaes, M","Anciaes, Marina",112,NA,NA,2,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.",NA,NA,NA,NA,"WOS:000290533700014
+",26
+113,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,6,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000290533700014
+",26
+114,"da Silva, MTB","da Silva, Mariana T. B.",114,NA,NA,3,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000290533700014
+",26
+115,"Johnson, E","Johnson, Erik",115,NA,NA,5,"Louisiana State Univ, Sch Renewable Resources, Baton Rouge, LA 70803 USA.",NA,NA,NA,NA,"WOS:000290533700014
+",26
+116,"Rubim, P","Rubim, Paulo",116,NA,NA,4,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000290533700014
+",26
+117,"Uriarte, M","Uriarte, Maria",71,"Uriarte, Maria",NA,1,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.","L-8944-2013",NA,NA,"WOS:000290533700014
+",26
+118,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000287897100023
+",27
+119,"Darrigo, MR","Darrigo, Maria Rosa",119,NA,NA,4,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000287897100023
+",27
+120,"Gagnon, PR","Gagnon, Paul R.",120,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,NA,NA,"WOS:000287897100023
+",27
+121,"Kress, WJ","Kress, W. John",68,"Kress, W. John",NA,7,"Smithsonian Inst, NMNH Dept Bot, Washington, DC 20013 USA.",NA,NA,NA,NA,"WOS:000287897100023
+",27
+122,"Littell, RC","Littell, Ramon C.",122,NA,NA,5,"Univ Florida, Dept Stat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000287897100023
+",27
+123,"Rubim, P","Rubim, Paulo",116,"Rubim, Paulo",NA,3,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000287897100023
+",27
+124,"Uriarte, M","Uriarte, Maria",71,"Uriarte, Maria",NA,6,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.",NA,"L-8944-2013",NA,NA,"WOS:000287897100023
+",27
+125,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000300900600007
+",28
+126,"Jenkins, CN","Jenkins, Clinton N.",126,NA,NA,3,"Univ Maryland, Dept Biol, College Pk, MD 20742 USA.",NA,"D-6134-2011","0000-0003-2198-0637 ",NA,"WOS:000300900600007
+",28
+127,"Paniagua, F","Paniagua, Franklin",127,NA,NA,6,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000300900600007
+",28
+128,"Pitman, NCA","Pitman, Nigel C. A.",128,NA,NA,1,"Amazon Conservat Assoc, Puerto Maldonado, Madre De Dios, Peru.","Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.","A-7681-2008","0000-0002-9211-2880",NA,"WOS:000300900600007
+",28
+129,"Seales, L","Seales, Lisa",129,NA,NA,5,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000300900600007
+",28
+130,"Stocks, G","Stocks, Gabriela",130,NA,NA,4,"Univ Florida, Dept Anthropol, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000300900600007
+",28
+131,"Widmer, J","Widmer, Jocelyn",131,NA,NA,2,"Univ Florida, Dept Urban & Reg Planning, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000300900600007
+",28
+132,"Andrade, A","Andrade, Ana",132,NA,NA,15,"Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+133,"Benitez-Malvido, J","Benitez-Malvido, Julieta",133,NA,NA,9,"Univ Nacl Autonoma Mexico, Ecosyst Res Ctr, Morelia, Michoacan, Mexico.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+134,"Boyle, SA","Boyle, Sarah A.",134,NA,NA,13,"Rhodes Coll, Dept Biol, Memphis, TN 38112 USA.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+135,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,6,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000287168100006
+",29
+136,"Camargo, JLC","Camargo, Jose L. C.",136,NA,NA,2,"Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,"C-3137-2015",NA,NA,"WOS:000287168100006
+",29
+137,"Didham, RK","Didham, Raphael K.",137,NA,NA,14,"Univ Western Australia, Sch Anim Biol, Crawley, WA 6009, Australia.",NA,"B-5953-2011",NA,NA,"WOS:000287168100006
+",29
+138,"Laurance, SG","Laurance, Susan G.",138,NA,NA,4,"James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.",NA,"G-6021-2011","0000-0002-2831-2933","bill.laurance@jcu.edu.au","WOS:000287168100006
+",29
+139,"Laurance, WF","Laurance, William F.",139,NA,NA,1,"James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.","James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.","B-2709-2012",NA,"bill.laurance@jcu.edu.au","WOS:000287168100006
+",29
+140,"Lovejoy, TE","Lovejoy, Thomas E.",140,NA,NA,16,"Heinz Ctr, Washington, DC 20006 USA.",NA,NA,NA,"lovejoy@heinzctr.org","WOS:000287168100006
+",29
+141,"Luizao, RCC","Luizao, Regina C. C.",141,NA,NA,3,"Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+142,"Pimm, SL","Pimm, Stuart L.",142,NA,NA,5,"Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+143,"Stouffer, PC","Stouffer, Philip C.",143,NA,NA,7,"Louisiana State Univ, Sch Renewable Nat Resources, Baton Rouge, LA 70803 USA.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+144,"Van Houtan, KS","Van Houtan, Kyle S.",144,NA,NA,11,"Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.",NA,NA,"0000-0001-5725-1773",NA,"WOS:000287168100006
+",29
+145,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,10,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131 ",NA,"WOS:000287168100006
+",29
+146,"Williamson, GB","Williamson, G. Bruce",146,NA,NA,8,"Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+147,"Zartman, CE","Zartman, Charles E.",147,NA,NA,12,"Natl Inst far Amazonian Res INPA, Dept Bot, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000287168100006
+",29
+148,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000281717200006
+",30
+149,"Mantovani, W","Mantovani, Waldir",149,NA,NA,3,"Univ Sao Paulo, Dept Ecol, BR-05508900 Sao Paulo, Brazil.",NA,NA,NA,NA,"WOS:000281717200006
+",30
+150,"Ribeiro, MBN","Ribeiro, Maria Beatriz N.",150,NA,NA,1,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.","Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.",NA,NA,NA,"WOS:000281717200006
+",30
+151,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000279682600016
+",31
+152,"dos Santos, FAM","Maes dos Santos, Flavio Antonio",152,NA,NA,3,"Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.",NA,NA,NA,NA,"WOS:000279682600016
+",31
+153,"Portela, RDQ","Quitete Portela, Rita De Cassia",153,NA,NA,1,"Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.",NA,NA,NA,"WOS:000279682600016
+",31
+154,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ","embruna@ufl.edu","WOS:000279438900001
+",32
+155,"Anciaes, M","Anciaes, Marina",112,"Anciaes, Marina",NA,4,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000277867600009
+",33
+156,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000277867600009
+",33
+157,"Jonckheere, I","Jonckheere, Inge",157,NA,NA,5,"Katholieke Univ Leuven, Biosyst Dept, Geomat Grp, B-3001 Louvain, Belgium.",NA,NA,NA,NA,"WOS:000277867600009
+",33
+158,"Rubim, P","Rubim, Paulo",116,"Rubim, Paulo",NA,3,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000277867600009
+",33
+159,"Uriarte, M","Uriarte, Maria",71,"Uriarte, Maria",NA,1,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.","L-8944-2013",NA,NA,"WOS:000277867600009
+",33
+160,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000276615100017
+",34
+161,"Iacona, GD","Iacona, Gwenllian D.",88,"Iacona, Gwenllian D.",NA,1,"JW Jones Ecol Res Ctr, Newton, GA 39870 USA.","JW Jones Ecol Res Ctr, 3988 Jones Ctr Dr, Newton, GA 39870 USA.","G-6567-2016",NA,"gdiacona@gmail.com","WOS:000276615100017
+",34
+162,"Kirkman, LK","Kirkman, L. Katherine",89,"Kirkman, L. Katherine",NA,2,"JW Jones Ecol Res Ctr, Newton, GA 39870 USA.",NA,NA,NA,NA,"WOS:000276615100017
+",34
+163,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000275749600011
+",35
+164,"Fortini, LB","Fortini, Lucas Berio",164,NA,NA,1,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA.",NA,NA,"lfortini@ufl.edu","WOS:000275749600011
+",35
+165,"Miranda, IS","Miranda, Izildinha S.",165,NA,NA,5,"Univ Fed Rural Amazonia, BR-66077530 Belem, PA, Brazil.",NA,NA,NA,NA,"WOS:000275749600011
+",35
+166,"Vasconcelos, SS","Vasconcelos, Steel S.",10,"Vasconcelos, Heraldo L.",0.900751879699248,4,"Embrapa Amazonia Oriental, Lab Ecofisiol & Propagacao Plantas, BR-66095100 Belem, PA, Brazil.",NA,"I-2067-2012","0000-0003-2364-8822",NA,"WOS:000275749600011
+",35
+167,"Zarin, DJ","Zarin, Daniel J.",167,NA,NA,3,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000275749600011
+",35
+168,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ",NA,"WOS:000275123700003
+",36
+169,"Fiske, IJ","Fiske, Ian J.",169,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000275123700003
+",36
+170,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000208242200002
+",37
+171,"dos Santos, FAM","Maes dos Santos, Flavio Antonio",152,"Maes dos Santos, Flavio Antonio",NA,3,"Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.",NA,NA,NA,NA,"WOS:000208242200002
+",37
+172,"Portela, RDQ","Quitete Portela, Rita de Cassia",153,"Quitete Portela, Rita De Cassia",0.986206896551724,1,"Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.",NA,NA,NA,"WOS:000208242200002
+",37
+173,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000271658000007
+",38
+174,"Costa, AN","Costa, Alan N.",174,NA,NA,6,NA,NA,"F-2836-2014","0000-0002-7396-6370 ",NA,"WOS:000271658000007
+",38
+175,"Lopes, CT","Lopes, Caue T.",175,NA,NA,5,NA,NA,NA,NA,NA,"WOS:000271658000007
+",38
+176,"Pacheco, R","Pacheco, Renata",176,NA,NA,2,NA,NA,NA,NA,NA,"WOS:000271658000007
+",38
+177,"Silva, RC","Silva, Raphael C.",177,NA,NA,3,NA,NA,NA,NA,NA,"WOS:000271658000007
+",38
+178,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,1,NA,"Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000271658000007
+",38
+179,"Vasconcelos, PB","Vasconcelos, Pedro B.",10,"Vasconcelos, Heraldo L.",0.929087424443462,4,NA,NA,NA,NA,NA,"WOS:000271658000007
+",38
+180,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000269700500018
+",39
+181,"Dattilo, W","Dattilo, Wesley",181,NA,NA,1,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.",NA,"A-6371-2012","0000-0002-4758-4379",NA,"WOS:000269700500018
+",39
+182,"Inouye, BD","Inouye, Brian D.",31,"Inouye, Brian D.",NA,3,"Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.",NA,NA,NA,NA,"WOS:000269700500018
+",39
+183,"Izzo, TJ","Izzo, Thiago J.",32,"Izzo, Thiago J.",NA,2,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.","Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.","K-7405-2012","0000-0002-4613-3787 ","izzothiago@gmail.com","WOS:000269700500018
+",39
+184,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131",NA,"WOS:000269700500018
+",39
+185,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ",NA,"WOS:000266244100019
+",40
+186,"Fiske, IJ","Fiske, Ian J.",169,"Fiske, Ian J.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000266244100019
+",40
+187,"Trager, MD","Trager, Mathew D.",187,NA,NA,3,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000266244100019
+",40
+188,"Armitage, DW","Armitage, David W.",188,NA,NA,4,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+189,"Ash, JD","Ash, Jeremy D.",189,NA,NA,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+190,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,15,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.","H-2769-2012","0000-0003-3381-8477",NA,"WOS:000265358900002
+",41
+191,"Callis, KL","Callis, Kristine L.",191,NA,NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+192,"Caughlin, TT","Caughlin, Timothy T.",192,NA,NA,6,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+193,"Christ, LR","Christ, Lindsey R.",193,NA,NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+194,"Clemmensen, SF","Clemmensen, Sharon F.",194,NA,NA,7,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+195,"Copeland, SM","Copeland, Stella M.",91,"Copeland, Stella M.",NA,8,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+196,"Fullman, TJ","Fullman, Timothy J.",196,NA,NA,9,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+197,"Lynch, RL","Lynch, Ryan L.",197,NA,NA,10,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+198,"Olson, C","Olson, Charley",198,NA,NA,11,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+199,"Pruner, RA","Pruner, Raya A.",199,NA,NA,12,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+200,"Resasco, J","Resasco, Julian",200,NA,NA,3,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+201,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,"Vieira-Neto, Ernane H. M.",NA,13,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000265358900002
+",41
+202,"West-Singh, R","West-Singh, Raneve",202,NA,NA,14,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000265358900002
+",41
+203,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,4,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","H-2769-2012","0000-0003-3381-8477",NA,"WOS:000264001900012
+",42
+204,"Costa, AN","Costa, Alan N.",174,"Costa, Alan N.",NA,1,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"F-2836-2014","0000-0002-7396-6370",NA,"WOS:000264001900012
+",42
+205,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,2,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"C-3353-2013","0000-0001-6969-7131",NA,"WOS:000264001900012
+",42
+206,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,"Vieira-Neto, Ernane H. M.",NA,3,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000264001900012
+",42
+207,"Bolker, BM","Bolker, Benjamin M.",207,NA,NA,3,"Univ Florida, Dept Zool, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000264796600002
+",43
+208,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000264796600002
+",43
+209,"Fiske, IJ","Fiske, Ian J.",169,"Fiske, Ian J.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","N Carolina State Univ, Dept Stat, Raleigh, NC 27695 USA.",NA,NA,NA,"WOS:000264796600002
+",43
+210,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000257717500001
+",44
+211,"Maehr, E","Maehr, Erin",211,NA,NA,4,"Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000257717500001
+",44
+212,"Paniagua, F","Paniagua, Franklin",127,"Paniagua, Franklin",NA,3,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000257717500001
+",44
+213,"Seales, L","Seales, Lisa",129,"Seales, Lisa",NA,2,"Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.",NA,NA,NA,NA,"WOS:000257717500001
+",44
+214,"Stocks, G","Stocks, Gabriela",130,"Stocks, Gabriela",NA,1,"Univ Florida, Dept Anthropol & Land Use, Gainesville, FL 32611 USA.","Univ Florida, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.",NA,NA,"gstocks@ufl.edu","WOS:000257717500001
+",44
+215,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,1,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"0000-0003-3381-8477 ",NA,"WOS:000256350300003
+",45
+216,"Darrigo, MR","Darrigo, Maria Rosa",119,"Darrigo, Maria Rosa",NA,2,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000256350300003
+",45
+217,"Pacheco, AMF","Furuya Pacheco, Angela Midori",217,NA,NA,3,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.",NA,NA,NA,NA,"WOS:000256350300003
+",45
+218,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,4,"Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.",NA,NA,NA,NA,"WOS:000256350300003
+",45
+219,"Boggs, CL","Boggs, Carol L.",219,NA,NA,5,"Stanford Univ, Stanford, CA 94305 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+220,"Boyce, MS","Boyce, Mark S.",220,NA,NA,6,"Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada.",NA,"A-2620-2014","0000-0001-5811-325X",NA,"WOS:000253717200003
+",46
+221,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,7,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000253717200003
+",46
+222,"Church, DR","Church, Don R.",222,NA,NA,8,"Univ Virginia, Dept Biol, Charlottesville, VA 22904 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+223,"Coulson, T","Coulson, Tim",223,NA,NA,9,"Univ London Imperial Coll Sci Technol & Med, Div Biol, Ascot SL5 7PY, Berks, England.",NA,NA,"0000-0001-9371-9003 ",NA,"WOS:000253717200003
+",46
+224,"Doak, DF","Doak, Daniel F.",224,NA,NA,10,"Univ Calif Santa Cruz, Dept Ecol & Evolutionary Biol, Santa Cruz, CA 95064 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+225,"Forsyth, S","Forsyth, Stacey",225,NA,NA,11,"Univ Arizona, Inst BIO5, Tucson, AZ 85721 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+226,"Gaillard, JM","Gaillard, Jean-Michel",226,NA,NA,12,"Univ Lyon 1, Lab Biometrie & Biol Evolut, Unite Mixte Rech N5558, F-69622 Villeurbanne, France.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+227,"Haridas, CV","Haridas, Chirrakal V.",227,NA,NA,4,"Stanford Univ, Stanford, CA 94305 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+228,"Horvitz, CC","Horvitz, Carol C.",228,NA,NA,13,"Univ Miami, Dept Biol, Coral Gables, FL 33124 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+229,"Kalisz, S","Kalisz, Susan",229,NA,NA,14,"Univ Pittsburgh, Dept Biol Sci, Pittsburgh, PA 15260 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+230,"Kendall, BE","Kendall, Bruce E.",230,NA,NA,15,"Univ Calif Santa Barbara, Donald Bren Environm Sci & Management, Santa Barbara, CA 93106 USA.",NA,"C-1871-2008","0000-0003-1782-8106",NA,"WOS:000253717200003
+",46
+231,"Knight, TM","Knight, Tiffany M.",231,NA,NA,16,"Washington Univ, Dept Biol, St Louis, MO 63130 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+232,"Lee, CT","Lee, Charlotte T.",232,NA,NA,17,"Stanford Univ, Stanford, CA 94305 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+233,"Menges, ES","Menges, Eric S.",233,NA,NA,18,"Archbold Biol Stn, Lake Placid, FL 33862 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+234,"Morris, WF","Morris, William F.",234,NA,NA,1,"Duke Univ, Dept Biol, Durham, NC 27708 USA.","Duke Univ, Dept Biol, BOx 90339, Durham, NC 27708 USA.",NA,NA,"wfmorris@duke.edu","WOS:000253717200003
+",46
+235,"Pfister, CA","Pfister, Catherine A.",235,NA,NA,2,"Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+236,"Tuljapurkar, S","Tuljapurkar, Shripad",236,NA,NA,3,"Stanford Univ, Stanford, CA 94305 USA.",NA,NA,NA,NA,"WOS:000253717200003
+",46
+237,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,4,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.",NA,"H-2769-2012","0000-0003-3381-8477 ",NA,"WOS:000207455700016
+",47
+238,"Girao, LC","Girao, Luciana Coe",238,NA,NA,1,"Univ Fed Pernambuco, Dept Bot, Programa Posgrad Biol Vegetal, Recife, PE, Brazil.",NA,NA,NA,NA,"WOS:000207455700016
+",47
+239,"Lopes, AV","Lopes, Ariadna Valentina",2,"Lopes, Ariadna V.",0.913939393939394,2,NA,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","E-8432-2010",NA,NA,"WOS:000207455700016
+",47
+240,"Tabarelli, M","Tabarelli, Marcelo",6,"Tabarelli, Marcelo",NA,3,NA,NA,"F-1088-2010","0000-0001-7573-7216",NA,"WOS:000207455700016
+",47
+241,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,2,NA,NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000240920400011
+",48
+242,"Trager, MD","Trager, Matthew D.",187,"Trager, Mathew D.",0.9875,1,NA,"Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.",NA,NA,"mtrager@ufl.edu","WOS:000240920400011
+",48
+243,"Bruna, EM","Bruna, Emilio M.",1,"Bruna, Emilio M.",NA,4,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000239634900010
+",49
+244,"Mundim, FM","Mundim, Fabiane M.",8,"Mundim, Fabiane M.",NA,3,NA,NA,NA,NA,NA,"WOS:000239634900010
+",49
+245,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,"Vasconcelos, Heraldo L.",NA,1,NA,"Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000239634900010
+",49
+246,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,"Vieira-Neto, Ernane H. M.",NA,2,NA,NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000239634900010
+",49

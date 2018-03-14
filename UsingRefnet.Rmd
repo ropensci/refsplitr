@@ -37,12 +37,11 @@ eb_references <- read_references("./data/EBpubs.txt",
                                  dir=FALSE, 
                                 filename_root="./output/eb")
 
-output <- read_authors(eb_references, 
+eb_authors <- read_authors(eb_references, 
                        filename_root="./output/eb")
 
-eb_authors <- output$authors
+eb_refined <- refine_authors(authors=eb_authors)
 
-eb_authors_references <- output$authors_references
 
 ecology_references <- read_references("./data/Ecology.txt", 
                                  dir=FALSE, 
