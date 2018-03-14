@@ -1,4 +1,3 @@
-
 ##################################################
 ##################################################
 ##	BEGIN: read_authors():
@@ -8,13 +7,14 @@
 #' \code{read_authors} This function extracts authors from a read_references format data.frame object, uses a Jaro-Winkler comparison of first names to try to match authors with multiple Last Name, Initial combinations, filling in potential matches using the AU_ID_Dupe and Similarity fields in the resulting output.  The output is a list containing two data.frame objects, one named authors and the other authors__references, which is a linking table that links authors by the AU_ID field to references data via the UT (Web of Knowledge ID) field.
 #' 
 #' @param references output from the read_references() function
+#' @parm  sim_score similarity score cut off point. Number between 0-1. Default is 88 (liberal)
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
 #'   function will be saved
 read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   
   list1<-list()
-  
+  if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
   for(ref in 1:nrow(references)){
     #ref<-2818
     if(ref==1){print('Now summarizing author records')}
@@ -95,9 +95,10 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     new<-merge(new, RI_df[,c('RI','matchname')], by.x='AU',by.y='matchname',all.x=T)
     new<-merge(new, OI_df[,c('OI','matchname')], by.x='AU',by.y='matchname',all.x=T)
     new$EM<-NA
-    new$refID<-ref
+    new$refID<-references$refID[ref]
     new$TA<-references$TI[ref]
     new$SO<-references$SO[ref]
+    new$UT<-references$UT[ref]
     #########################3
     #
     # Matching emails is an imprecise science, as emails dont have to match names in any reliable way or at all
@@ -117,7 +118,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     total <- nrow(references)
     pb <- txtProgressBar(min = 0, max = total, style = 3)
     setTxtProgressBar(pb, ref)
-    
+    flush.console()
     #################################################################################
   }
   
@@ -125,7 +126,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   final<-do.call(rbind,list1)
   final$authorID<-1:nrow(final)
   final$groupID<-final$authorID
-  final$change_name<-NA
+  final$match_name<-NA
   final$similarity<-NA
   ############################################
   # This is a secondary function to match authors that are likely to be the same person. This could
@@ -172,7 +173,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     #If we still never found a match, we can assume the author is novel.
     if(!is.na(changeID)){
       final$groupID[i]<-final$groupID[changeID==final$authorID]
-      final$change_name[i]<-final$AF[changeID==final$authorID]}
+      final$match_name[i]<-final$AF[changeID==final$authorID]}
     if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]}
     
     
@@ -185,7 +186,15 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     #################################################################################
   }
   colnames(final)
-  final<-final[,c('authorID','AU','AF','groupID','change_name','similarity','author_order','address','RP_address','RI','OI','EM','refID','TA','SO')]
+  final<-final[,c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','RP_address','RI','OI','EM','UT','refID')]
+  
+  #write it out
+  if(filename_root != "") {
+    write.csv(final, 
+              file=paste0(filename_root, "_authors.csv"), 
+              row.names=FALSE)
+  }            
+  
+  #
   return(final)
 } #end function
-
