@@ -144,7 +144,11 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     indicesAU<-final$AU[novelids]
     #Author matching is done heirarchical starting with simple solutions and then leading to matching using jaro winkler methods
     # in this instance changeID will guide us through the hierarchy, if changeID is anything but NA we skip to the next record unitl a match has been found
-    
+    #match by exact OI matches
+    if(is.na(changeID) & !is.na(final$OI[i])){  
+      changeID<-final$authorID[novelids][!is.na(final$OI[novelids]) && fina$OI[i]==final$OI[novelids]][1]
+    }
+        
     #match by exact name matches AF
     if(sum(name==indicesAF)>0){changeID<- final$authorID[novelids][indicesAF==name][1]}
     
@@ -155,10 +159,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     if(is.na(changeID) & !is.na(final$RI[i])){  
       changeID<-final$authorID[novelids][!is.na(final$RI[novelids]) && fina$RI[i]==final$RI[novelids]][1]
     }
-    #match by exact OI matches
-    if(is.na(changeID) & !is.na(final$OI[i])){  
-      changeID<-final$authorID[novelids][!is.na(final$OI[novelids]) && fina$OI[i]==final$OI[novelids]][1]
-    }
+
     
     #If we still dont have a match, we will attempt to match using Jaro-winkler matching algorithm
     # Currently this is controlled by the sim_score limit. 0.9 seems to match accurately but leave out
