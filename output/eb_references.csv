@@ -1,4 +1,4 @@
-"filename","AB","AF","AU","BP","C1","CC","CH","CL","CR","CT","CY","DE","DI","DT","EM","EP","FN","FU","FX","GA","GE","ID","IS","J9","JI","LA","LT","MC","MI","NR","PA","PD","PG","PI","PN","PS","PT","PU","PY","RI","RID","OI","PM","RP","SC","SI","SN","SO","SU","TA","TC","TI","UT","VR","VL","WC","Z9"
+"filename","AB","AF","AU","BP","C1","CC","CH","CL","CR","CT","CY","DE","DI","DT","EM","EP","FN","FU","FX","GA","GE","ID","IS","J9","JI","LA","LT","MC","MI","NR","PA","PD","PG","PI","PN","PS","PT","PU","PY","RI","RID","OI","PM","RP","SC","SI","SN","SO","SU","TA","TC","TI","UT","VR","VL","WC","Z9","refID"
 "./data/EBpubs.txt",NA,"Sobrinho, Mellissa S.
 Tabarelli, Marcelo
 Machado, Isabel C.
@@ -33,7 +33,7 @@ Lopes, AV
 ","1.0
 ","48
 ",NA,"0
-"
+",1
 "./data/EBpubs.txt",NA,"Mundim, Fabiane M.
 Bruna, Emilio M.
 ","Mundim, FM
@@ -61,7 +61,7 @@ Experimental Studies
 ","1.0
 ","188
 ",NA,"0
-"
+",2
 "./data/EBpubs.txt",NA,"Vieira-Neto, Ernane H. M.
 Vasconcelos, Heraldo L.
 Bruna, Emilio M.
@@ -90,7 +90,7 @@ Neotropical savannahs
 ","1.0
 ","53
 ",NA,"0
-"
+",3
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 Pena-Claros, Marielos
 Finegan, Bryan
@@ -123,7 +123,7 @@ Kaplin, BA
 ","1.0
 ","48
 ",NA,"0
-"
+",4
 "./data/EBpubs.txt",NA,"Whitlock, Michael C.
 Bronstein, Judith L.
 Bruna, Emilio M.
@@ -169,12 +169,7 @@ Shaw, RG
 ",NA,NA,NA,NA,NA,NA,NA,NA,"FEB
 ",NA,NA,NA,NA,"J
 ",NA,"2016
-","Ritchie, Michael/F-7055-2013; Bruna, Emilio/H-2769-2012; Fox,
-Charles/I-5274-2012; 
-",NA,"Ritchie, Michael/0000-0001-7913-8675; Bruna, Emilio/0000-0003-3381-8477;
-Fox, Charles/0000-0002-7545-7967; Rieseberg, Loren/0000-0002-2712-2417;
-Ellison, Aaron/0000-0003-4151-6081
-","26708957
+","Ritchie,Michael/F-7055-2013;Bruna,Emilio/H-2769-2012;Fox, Charles/I-5274-2012;",NA,"Ritchie,Michael/0000-0001-7913-8675;Bruna,Emilio/0000-0003-3381-8477;Fox,Charles/0000-0002-7545-7967;Rieseberg,Loren/0000-0002-2712-2417;Ellison,Aaron/0000-0003-4151-6081 ","26708957
 ","Whitlock, MC (reprint author), Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.
 ",NA,NA,"0169-5347
 ","TRENDS IN ECOLOGY & EVOLUTION
@@ -184,7 +179,7 @@ Ellison, Aaron/0000-0003-4151-6081
 ","1.0
 ","31
 ",NA,"2
-"
+",5
 "./data/EBpubs.txt",NA,"Fine, Paul V. A.
 Bruna, Emilio M.
 ","Fine, PVA
@@ -213,7 +208,7 @@ Unique Rain Forest Environment
 ","1.0
 ","48
 ",NA,"0
-"
+",6
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 Izzo, Thiago J.
 Inouye, Brian D.
@@ -236,9 +231,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"DEC
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Izzo, Thiago/K-7405-2012; Bruna, Emilio/H-2769-2012
-",NA,"Izzo, Thiago/0000-0002-4613-3787; Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+","Izzo,Thiago/K-7405-2012;Bruna,Emilio/H-2769-2012",NA,"Izzo,Thiago/0000-0002-4613-3787;Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"0012-9658
 ","ECOLOGY
 ",NA,NA,"3
@@ -247,7 +240,7 @@ Vasconcelos, HL
 ","1.0
 ","95
 ",NA,"3
-"
+",7
 "./data/EBpubs.txt",NA,"Vasconcelos, Pedro B.
 Araujo, Glein M.
 Bruna, Emilio M.
@@ -266,9 +259,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"NOV
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Vasconcelos, PB (reprint author), Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Vasconcelos, PB (reprint author), Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
 ",NA,NA,"0960-3115
 ","BIODIVERSITY AND CONSERVATION
 ",NA,NA,"3
@@ -277,7 +268,7 @@ Bruna, EM
 ","1.0
 ","23
 ",NA,"3
-"
+",8
 "./data/EBpubs.txt",NA,"Smith, Matthew J.
 Weinberger, Cody
 Bruna, Emilio M.
@@ -298,9 +289,7 @@ Allesina, S
 ",NA,NA,NA,NA,NA,NA,NA,NA,"OCT 8
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-","25296039
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ","25296039
 ","Smith, MJ (reprint author), Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -311,7 +300,7 @@ Performance
 ","1.0
 ","9
 ",NA,"11
-"
+",9
 "./data/EBpubs.txt",NA,"Christianini, Alexander V.
 Oliveira, Paulo S.
 Bruna, Emilio M.
@@ -333,10 +322,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"SEP 5
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Oliveira, Paulo/E-1910-2013; Christianini, Alexander/G-9486-2012; Bruna,
-Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-","25190784
+","Oliveira,Paulo/E-1910-2013;Christianini,Alexander/G-9486-2012;Bruna, Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ","25190784
 ","Christianini, AV (reprint author), Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.
 ",NA,NA,"0036-8075
 ","SCIENCE
@@ -346,7 +332,7 @@ Emilio/H-2769-2012
 ","1.0
 ","345
 ",NA,"2
-"
+",10
 "./data/EBpubs.txt",NA,"Cho, Alyssa H.
 Johnson, Shelly A.
 Schuman, Carrie E.
@@ -381,11 +367,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AUG 21
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Duello, Theresa/P-5752-2015; Marchant, Daniel Blaine/D-7026-2014; Bruna,
-Emilio/H-2769-2012; Gonzalez, Oscar/D-7631-2014
-",NA,"Marchant, Daniel Blaine/0000-0003-1733-3381; Bruna,
-Emilio/0000-0003-3381-8477; Gonzalez, Oscar/0000-0002-8686-3119
-","25177537
+","Duello,Theresa/P-5752-2015;Marchant,DanielBlaine/D-7026-2014;Bruna, Emilio/H-2769-2012;Gonzalez,Oscar/D-7631-2014",NA,"Marchant,DanielBlaine/0000-0003-1733-3381;Bruna, Emilio/0000-0003-3381-8477;Gonzalez,Oscar/0000-0002-8686-3119 ","25177537
 ","Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"2167-8359
 ","PEERJ
@@ -396,7 +378,7 @@ environmental biology and natural resource management
 ","1.0
 ","2
 ",NA,"7
-"
+",11
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 ","Bruna, EM
 ","377
@@ -409,9 +391,7 @@ environmental biology and natural resource management
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0006-3606
 ","BIOTROPICA
 ",NA,NA,"0
@@ -420,7 +400,7 @@ environmental biology and natural resource management
 ","1.0
 ","46
 ",NA,"0
-"
+",12
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 ","Bruna, EM
 ","169
@@ -434,9 +414,7 @@ environmental biology and natural resource management
 ",NA,NA,NA,NA,NA,NA,NA,NA,"MAR
 ",NA,NA,NA,NA,"J
 ",NA,"2014
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"0006-3568
 ","BIOSCIENCE
 ",NA,NA,"0
@@ -445,7 +423,7 @@ environmental biology and natural resource management
 ","1.0
 ","64
 ",NA,"0
-"
+",13
 "./data/EBpubs.txt",NA,"Araujo, Glein M.
 Amaral, Alice F.
 Bruna, Emilio M.
@@ -466,9 +444,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"DEC
 ",NA,NA,NA,NA,"J
 ",NA,"2013
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
 ",NA,NA,"1385-0237
 ","PLANT ECOLOGY
 ",NA,NA,"3
@@ -478,7 +454,7 @@ Neotropical swamp
 ","1.0
 ","214
 ",NA,"3
-"
+",14
 "./data/EBpubs.txt",NA,"Cortes, Marina C.
 Uriarte, Maria
 Lemes, Maristerra R.
@@ -511,11 +487,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"NOV
 ",NA,NA,NA,NA,"J
 ",NA,"2013
-","cortes, marina/I-2155-2012; Bruna, Elena/C-4939-2014; Gribel,
-Rogerio/C-5392-2013; Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Elena/0000-0001-5427-1461; Gribel, Rogerio/0000-0002-0850-5578;
-Bruna, Emilio/0000-0003-3381-8477
-","24730040
+","cortes,marina/I-2155-2012;Bruna,Elena/C-4939-2014;Gribel, Rogerio/C-5392-2013;Bruna,Emilio/H-2769-2012",NA,"Bruna,Elena/0000-0001-5427-1461;Gribel,Rogerio/0000-0002-0850-5578;Bruna,Emilio/0000-0003-3381-8477 ","24730040
 ","Cortes, MC (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
 ",NA,NA,"0962-1083
 ","MOLECULAR ECOLOGY
@@ -526,7 +498,7 @@ herb Heliconia acuminata
 ","1.0
 ","22
 ",NA,"9
-"
+",15
 "./data/EBpubs.txt",NA,"Jurinitz, Cristiane F.
 de Oliveira, Alexandre A.
 Bruna, Emilio M.
@@ -545,10 +517,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"NOV
 ",NA,NA,NA,NA,"J
 ",NA,"2013
-","Oliveira, Alexandre/G-8830-2012; Bruna, Emilio/H-2769-2012
-",NA,"Oliveira, Alexandre/0000-0001-5526-8109; Bruna,
-Emilio/0000-0003-3381-8477
-",NA,"Jurinitz, CF (reprint author), Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.
+","Oliveira,Alexandre/G-8830-2012;Bruna,Emilio/H-2769-2012",NA,"Oliveira,Alexandre/0000-0001-5526-8109;Bruna, Emilio/0000-0003-3381-8477 ",NA,"Jurinitz, CF (reprint author), Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.
 ",NA,"SI
 ","0006-3606
 ","BIOTROPICA
@@ -559,7 +528,7 @@ Shade-Tolerant Tree Species in Brazil's Atlantic Forest
 ","1.0
 ","45
 ",NA,"1
-"
+",16
 "./data/EBpubs.txt",NA,"Lucas, Christine M.
 Bruna, Emilio M.
 Nascimento, Cristiane M. N.
@@ -576,9 +545,7 @@ Nascimento, CMN
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JAN
 ",NA,NA,NA,NA,"J
 ",NA,"2013
-","Bruna, Elena/C-4939-2014; Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Elena/0000-0001-5427-1461; Bruna, Emilio/0000-0003-3381-8477
-",NA,"Lucas, CM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Elena/C-4939-2014;Bruna,Emilio/H-2769-2012",NA,"Bruna,Elena/0000-0001-5427-1461;Bruna,Emilio/0000-0003-3381-8477 ",NA,"Lucas, CM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"2150-8925
 ","ECOSPHERE
 ",NA,NA,"4
@@ -588,7 +555,7 @@ floodplain forest
 ","1.0
 ","4
 ",NA,"4
-"
+",17
 "./data/EBpubs.txt",NA,"Vasconcelos, Heraldo L.
 Bruna, Emilio M.
 ","Vasconcelos, HL
@@ -603,9 +570,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"DEC
 ",NA,NA,NA,NA,"J
 ",NA,"2012
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.
 ",NA,NA,"1984-4670
 ","ZOOLOGIA
 ",NA,NA,"5
@@ -615,7 +580,7 @@ fragments
 ","1.0
 ","29
 ",NA,"5
-"
+",18
 "./data/EBpubs.txt",NA,"Passmore, Heather A.
 Bruna, Emilio M.
 Heredia, Sylvia M.
@@ -637,10 +602,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"AUG 9
 ",NA,NA,NA,NA,"J
 ",NA,"2012
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131
-","22912666
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131 ","22912666
 ","Passmore, HA (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -650,7 +612,7 @@ Heraldo/0000-0001-6969-7131
 ","1.0
 ","7
 ",NA,"11
-"
+",19
 "./data/EBpubs.txt",NA,"Iacona, Gwenllian D.
 Kirkman, L. Katherine
 Bruna, Emilio M.
@@ -667,9 +629,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL 6
 ",NA,NA,NA,NA,"J
 ",NA,"2012
-","Bruna, Emilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; 
-","22792165
+","Bruna,Emilio/H-2769-2012;Iacona,Gwenllian/G-6567-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;","22792165
 ","Iacona, GD (reprint author), Univ Tennessee, Dept Ecol & Evolutionary Biol, Knoxville, TN 37996 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -680,7 +640,7 @@ Dominant Bunchgrass in a Fire-Maintained Savanna
 ","1.0
 ","7
 ",NA,"3
-"
+",20
 "./data/EBpubs.txt",NA,"Copeland, Stella M.
 Bruna, Emilio M.
 Barbosa Silva, Laura V.
@@ -702,9 +662,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"APR
 ",NA,NA,NA,NA,"J
 ",NA,"2012
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Copeland, SM (reprint author), Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Copeland, SM (reprint author), Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
 ",NA,NA,"2150-8925
 ","ECOSPHERE
 ",NA,NA,"3
@@ -714,7 +672,7 @@ fertility and plant growth in a Neotropical savanna
 ","1.0
 ","3
 ",NA,"3
-"
+",21
 "./data/EBpubs.txt",NA,"Mundim, Fabiane M.
 Bruna, Emilio M.
 Vieira-Neto, Ernane H. M.
@@ -735,12 +693,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"FEB
 ",NA,NA,NA,NA,"J
 ",NA,"2012
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
-Vieira-Neto, Ernane Henrique/B-3177-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
-Henrique/0000-0002-6557-7252
-","21809118
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013;Vieira-Neto,ErnaneHenrique/B-3177-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131;Vieira-Neto,Ernane Henrique/0000-0002-6557-7252 ","21809118
 ","Mundim, FM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0029-8549
 ","OECOLOGIA
@@ -751,7 +704,7 @@ trees
 ","1.0
 ","168
 ",NA,"10
-"
+",22
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 de Andrade, Ana Segalin
 ","Bruna, EM
@@ -769,9 +722,7 @@ de Andrade, AS
 ",NA,NA,NA,NA,NA,NA,NA,NA,"OCT
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-","21965134
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ","21965134
 ","Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0002-9122
 ","AMERICAN JOURNAL OF BOTANY
@@ -782,7 +733,7 @@ UNDERSTORY HERB (HELICONIA ACUMINATA; HELICONIACEAE)
 ","1.0
 ","98
 ",NA,"1
-"
+",23
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 Izzo, Thiago J.
 Inouye, Brian D.
@@ -808,12 +759,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"AUG 3
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Izzo,
-Thiago/K-7405-2012; Uriarte, Maria/L-8944-2013; Bruna, Elena/C-4939-2014
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787; Bruna,
-Elena/0000-0001-5427-1461
-","21826219
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013;Izzo, Thiago/K-7405-2012;Uriarte,Maria/L-8944-2013;Bruna,Elena/C-4939-2014",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131;Izzo,Thiago/0000-0002-4613-3787;Bruna, Elena/0000-0001-5427-1461 ","21826219
 ","Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -824,7 +770,7 @@ Queens
 ","1.0
 ","6
 ",NA,"8
-"
+",24
 "./data/EBpubs.txt",NA,"Ferreira, Alana Vaz
 Bruna, Emilio M.
 Vasconcelos, Heraldo L.
@@ -842,10 +788,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131
-",NA,"Ferreira, AV (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131 ",NA,"Ferreira, AV (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
 ",NA,NA,"0030-1299
 ","OIKOS
 ",NA,NA,"19
@@ -854,7 +797,7 @@ Heraldo/0000-0001-6969-7131
 ","1.0
 ","120
 ",NA,"21
-"
+",25
 "./data/EBpubs.txt",NA,"Uriarte, Maria
 Anciaes, Marina
 da Silva, Mariana T. B.
@@ -881,9 +824,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"APR
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
-",NA,"Bruna, Emilio/0000-0003-3381-8477; 
-","21661555
+","Bruna,Emilio/H-2769-2012;Uriarte,Maria/L-8944-2013",NA,"Bruna,Emilio/0000-0003-3381-8477;","21661555
 ","Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
 ",NA,NA,"0012-9658
 ","ECOLOGY
@@ -894,7 +835,7 @@ birds in an experimentally fragmented landscape
 ","1.0
 ","92
 ",NA,"38
-"
+",26
 "./data/EBpubs.txt",NA,"Gagnon, Paul R.
 Bruna, Emilio M.
 Rubim, Paulo
@@ -924,9 +865,7 @@ Kress, WJ
 ",NA,NA,NA,NA,NA,NA,NA,NA,"FEB
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
-",NA,"Bruna, Emilio/0000-0003-3381-8477; 
-",NA,"Gagnon, PR (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012;Uriarte,Maria/L-8944-2013",NA,"Bruna,Emilio/0000-0003-3381-8477;",NA,"Gagnon, PR (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0006-3207
 ","BIOLOGICAL CONSERVATION
 ",NA,NA,"9
@@ -936,7 +875,7 @@ fragments
 ","1.0
 ","144
 ",NA,"9
-"
+",27
 "./data/EBpubs.txt",NA,"Pitman, Nigel C. A.
 Widmer, Jocelyn
 Jenkins, Clinton N.
@@ -966,11 +905,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,"1
 ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"J
 ",NA,"2011
-","Pitman, Nigel/A-7681-2008; Bruna, Emilio/H-2769-2012; Jenkins,
-Clinton/D-6134-2011
-",NA,"Pitman, Nigel/0000-0002-9211-2880; Bruna, Emilio/0000-0003-3381-8477;
-Jenkins, Clinton/0000-0003-2198-0637
-",NA,"Pitman, NCA (reprint author), Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.
+","Pitman,Nigel/A-7681-2008;Bruna,Emilio/H-2769-2012;Jenkins, Clinton/D-6134-2011",NA,"Pitman,Nigel/0000-0002-9211-2880;Bruna,Emilio/0000-0003-3381-8477;Jenkins,Clinton/0000-0003-2198-0637 ",NA,"Pitman, NCA (reprint author), Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.
 ",NA,NA,"1940-0829
 ","TROPICAL CONSERVATION SCIENCE
 ",NA,NA,"19
@@ -980,7 +915,7 @@ and the Amazon, 1995-2008
 ","1.0
 ","4
 ",NA,"19
-"
+",28
 "./data/EBpubs.txt",NA,"Laurance, William F.
 Camargo, Jose L. C.
 Luizao, Regina C. C.
@@ -1034,21 +969,15 @@ Lovejoy, TE
 [Lovejoy, Thomas E.] Heinz Ctr, Washington, DC 20006 USA.
 [Lovejoy, Thomas E.] George Mason Univ, Dept Environm Sci & Policy, Fairfax, VA 22030 USA.
 ",NA,NA,NA,NA,NA,NA,NA,"10.1016/j.biocon.2010.09.021
-",NA,"bill.laurance@jcu.edu.au; lovejoy@heinzctr.org
+",NA,"bill.laurance@jcu.edu.au
+lovejoy@heinzctr.org
 ","67
 ","Thomson Reuters Web of Science™
 ",NA,NA,NA,NA,NA,"1
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JAN
 ",NA,NA,NA,NA,"J
 ",NA,"2011
-","Research ID, CTBCC /O-3564-2014; Laurance, Susan/G-6021-2011; Camargo,
-Jose Luis/C-3137-2015; Didham, Raphael/B-5953-2011; Laurance,
-William/B-2709-2012; James Cook University, TESS/B-8171-2012; Bruna,
-Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
-",NA,"Laurance, Susan/0000-0002-2831-2933; Van Houtan,
-Kyle/0000-0001-5725-1773; Bruna, Emilio/0000-0003-3381-8477;
-Vasconcelos, Heraldo/0000-0001-6969-7131
-",NA,"Laurance, WF (reprint author), James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
+","ResearchID,CTBCC/O-3564-2014;Laurance,Susan/G-6021-2011;Camargo, JoseLuis/C-3137-2015;Didham,Raphael/B-5953-2011;Laurance, William/B-2709-2012;JamesCookUniversity,TESS/B-8171-2012;Bruna, Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013",NA,"Laurance,Susan/0000-0002-2831-2933;VanHoutan, Kyle/0000-0001-5725-1773;Bruna,Emilio/0000-0003-3381-8477;Vasconcelos,Heraldo/0000-0001-6969-7131 ",NA,"Laurance, WF (reprint author), James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
 ",NA,NA,"0006-3207
 ","BIOLOGICAL CONSERVATION
 ",NA,NA,"218
@@ -1057,7 +986,7 @@ Vasconcelos, Heraldo/0000-0001-6969-7131
 ","1.0
 ","144
 ",NA,"225
-"
+",29
 "./data/EBpubs.txt",NA,"Ribeiro, Maria Beatriz N.
 Bruna, Emilio M.
 Mantovani, Waldir
@@ -1076,9 +1005,7 @@ Mantovani, W
 ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SEP
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Ribeiro, MBN (reprint author), Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Ribeiro, MBN (reprint author), Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.
 ",NA,NA,"1061-2971
 ","RESTORATION ECOLOGY
 ","1
@@ -1089,7 +1016,7 @@ Communities in Amazonian Secondary Forests
 ","1.0
 ","18
 ",NA,"6
-"
+",30
 "./data/EBpubs.txt",NA,"Quitete Portela, Rita De Cassia
 Bruna, Emilio M.
 Maes dos Santos, Flavio Antonio
@@ -1109,9 +1036,7 @@ dos Santos, FAM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012; Santos, Flavio/C-1611-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
-",NA,"Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.
+","Bruna,Emilio/H-2769-2012;Santos,Flavio/C-1611-2012",NA,"Bruna,Emilio/0000-0003-3381-8477;Santos,Flavio/0000-0002-4329-6214 ",NA,"Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.
 ",NA,NA,"0960-3115
 ","BIODIVERSITY AND CONSERVATION
 ",NA,NA,"14
@@ -1121,7 +1046,7 @@ harvested and unharvested species using matrix models
 ","1.0
 ","19
 ",NA,"15
-"
+",31
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 ","Bruna, EM
 ","399
@@ -1135,9 +1060,7 @@ harvested and unharvested species using matrix models
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0006-3606
 ","BIOTROPICA
 ",NA,NA,"10
@@ -1147,7 +1070,7 @@ Requiring Data Archiving
 ","1.0
 ","42
 ",NA,"10
-"
+",32
 "./data/EBpubs.txt",NA,"Uriarte, Maria
 Bruna, Emilio M.
 Rubim, Paulo
@@ -1173,9 +1096,7 @@ Jonckheere, I
 ",NA,NA,NA,NA,NA,NA,NA,NA,"MAY
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
-",NA,"Bruna, Emilio/0000-0003-3381-8477; 
-","20503865
+","Bruna,Emilio/H-2769-2012;Uriarte,Maria/L-8944-2013",NA,"Bruna,Emilio/0000-0003-3381-8477;","20503865
 ","Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
 ",NA,NA,"0012-9658
 ","ECOLOGY
@@ -1186,7 +1107,7 @@ tropical herb: assessing seed vs. safe-site limitation
 ","1.0
 ","91
 ",NA,"26
-"
+",33
 "./data/EBpubs.txt",NA,"Iacona, Gwenllian D.
 Kirkman, L. Katherine
 Bruna, Emilio M.
@@ -1205,9 +1126,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"MAY
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; 
-","19921271
+","Bruna,Emilio/H-2769-2012;Iacona,Gwenllian/G-6567-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;","19921271
 ","Iacona, GD (reprint author), JW Jones Ecol Res Ctr, 3988 Jones Ctr Dr, Newton, GA 39870 USA.
 ",NA,NA,"0029-8549
 ","OECOLOGIA
@@ -1218,7 +1137,7 @@ fire-maintained savanna
 ","1.0
 ","163
 ",NA,"14
-"
+",34
 "./data/EBpubs.txt",NA,"Fortini, Lucas Berio
 Bruna, Emilio M.
 Zarin, Daniel J.
@@ -1243,10 +1162,7 @@ Miranda, IS
 ",NA,NA,NA,NA,NA,NA,NA,NA,"APR
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Vasconcelos, Steel/I-2067-2012; Bruna, Emilio/H-2769-2012
-",NA,"Vasconcelos, Steel/0000-0003-2364-8822; Bruna,
-Emilio/0000-0003-3381-8477
-","19997929
+","Vasconcelos,Steel/I-2067-2012;Bruna,Emilio/H-2769-2012",NA,"Vasconcelos,Steel/0000-0003-2364-8822;Bruna, Emilio/0000-0003-3381-8477 ","19997929
 ","Fortini, LB (reprint author), Univ Florida, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA.
 ",NA,NA,"0029-8549
 ","OECOLOGIA
@@ -1257,7 +1173,7 @@ species in Amazonian secondary forests
 ","1.0
 ","162
 ",NA,"3
-"
+",35
 "./data/EBpubs.txt",NA,"Fiske, Ian J.
 Bruna, Emilio M.
 ","Fiske, IJ
@@ -1275,9 +1191,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"APR
 ",NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"1385-0237
 ","PLANT ECOLOGY
 ",NA,NA,"2
@@ -1287,7 +1201,7 @@ consequences for estimates of population growth rate
 ","1.0
 ","207
 ",NA,"2
-"
+",36
 "./data/EBpubs.txt",NA,"Quitete Portela, Rita de Cassia
 Bruna, Emilio M.
 Maes dos Santos, Flavio Antonio
@@ -1305,9 +1219,7 @@ dos Santos, FAM
 ",NA,NA,NA,NA,NA,"4
 ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"J
 ",NA,"2010
-","Bruna, Emilio/H-2769-2012; Santos, Flavio/C-1611-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
-",NA,"Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.
+","Bruna,Emilio/H-2769-2012;Santos,Flavio/C-1611-2012",NA,"Bruna,Emilio/0000-0003-3381-8477;Santos,Flavio/0000-0002-4329-6214 ",NA,"Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.
 ",NA,NA,"1940-0829
 ","TROPICAL CONSERVATION SCIENCE
 ",NA,NA,"2
@@ -1317,7 +1229,7 @@ Atlantic rain forest palm
 ","1.0
 ","3
 ",NA,"2
-"
+",37
 "./data/EBpubs.txt",NA,"Vasconcelos, Heraldo L.
 Pacheco, Renata
 Silva, Raphael C.
@@ -1339,11 +1251,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"NOV 9
 ",NA,NA,NA,NA,"J
 ",NA,"2009
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
-Alan/F-2836-2014
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370
-","19898619
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013;Costa, Alan/F-2836-2014",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131;Costa,Alan/0000-0002-7396-6370 ","19898619
 ","Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -1354,7 +1262,7 @@ Neotropical Woodland Savanna
 ","1.0
 ","4
 ",NA,"34
-"
+",38
 "./data/EBpubs.txt",NA,"Dattilo, Wesley
 Izzo, Thiago J.
 Inouye, Brian D.
@@ -1381,12 +1289,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"SEP
 ",NA,NA,NA,NA,"J
 ",NA,"2009
-","Dattilo, Wesley/A-6371-2012; Bruna, Emilio/H-2769-2012; Vasconcelos,
-Heraldo/C-3353-2013; Izzo, Thiago/K-7405-2012
-",NA,"Dattilo, Wesley/0000-0002-4758-4379; Bruna, Emilio/0000-0003-3381-8477;
-Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo,
-Thiago/0000-0002-4613-3787
-",NA,"Izzo, TJ (reprint author), Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+","Dattilo,Wesley/A-6371-2012;Bruna,Emilio/H-2769-2012;Vasconcelos, Heraldo/C-3353-2013;Izzo,Thiago/K-7405-2012",NA,"Dattilo,Wesley/0000-0002-4758-4379;Bruna,Emilio/0000-0003-3381-8477;Vasconcelos,Heraldo/0000-0001-6969-7131;Izzo, Thiago/0000-0002-4613-3787 ",NA,"Izzo, TJ (reprint author), Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
 ",NA,NA,"0006-3606
 ","BIOTROPICA
 ",NA,NA,"9
@@ -1396,7 +1299,7 @@ Thiago/0000-0002-4613-3787
 ","1.0
 ","41
 ",NA,"10
-"
+",39
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 Fiske, Ian J.
 Trager, Mathew D.
@@ -1417,9 +1320,7 @@ Trager, MD
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUN
 ",NA,NA,NA,NA,"J
 ",NA,"2009
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"1100-9233
 ","JOURNAL OF VEGETATION SCIENCE
 ",NA,NA,"26
@@ -1429,7 +1330,7 @@ demographically irrelevant?
 ","1.0
 ","20
 ",NA,"28
-"
+",40
 "./data/EBpubs.txt",NA,"Callis, Kristine L.
 Christ, Lindsey R.
 Resasco, Julian
@@ -1470,10 +1371,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"APR
 ",NA,NA,NA,NA,"J
 ",NA,"2009
-","Bruna, Emilio/H-2769-2012; Vieira-Neto, Ernane Henrique/B-3177-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vieira-Neto, Ernane
-Henrique/0000-0002-6557-7252
-","19269059
+","Bruna,Emilio/H-2769-2012;Vieira-Neto,ErnaneHenrique/B-3177-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;Vieira-Neto,Ernane Henrique/0000-0002-6557-7252 ","19269059
 ","Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
 ",NA,NA,"0169-5347
 ","TRENDS IN ECOLOGY & EVOLUTION
@@ -1484,7 +1382,7 @@ responsibility
 ","1.0
 ","24
 ",NA,"16
-"
+",41
 "./data/EBpubs.txt",NA,"Costa, Alan N.
 Vasconcelos, Heraldo L.
 Vieira-Neto, Ernane H. M.
@@ -1505,12 +1403,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"DEC
 ",NA,NA,NA,NA,"J
 ",NA,"2008
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
-Alan/F-2836-2014; Vieira-Neto, Ernane Henrique/B-3177-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370;
-Vieira-Neto, Ernane Henrique/0000-0002-6557-7252
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013;Costa, Alan/F-2836-2014;Vieira-Neto,ErnaneHenrique/B-3177-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131;Costa,Alan/0000-0002-7396-6370;Vieira-Neto,ErnaneHenrique/0000-0002-6557-7252 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"1100-9233
 ","JOURNAL OF VEGETATION SCIENCE
 ",NA,NA,"42
@@ -1520,7 +1413,7 @@ of biomass consumption by leaf-cutter ants
 ","1.0
 ","19
 ",NA,"43
-"
+",42
 "./data/EBpubs.txt",NA,"Fiske, Ian J.
 Bruna, Emilio M.
 Bolker, Benjamin M.
@@ -1538,9 +1431,7 @@ Bolker, BM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"AUG 28
 ",NA,NA,NA,NA,"J
 ",NA,"2008
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-","18769483
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ","18769483
 ","Fiske, IJ (reprint author), N Carolina State Univ, Dept Stat, Raleigh, NC 27695 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -1551,7 +1442,7 @@ Calculated with Matrix Models
 ","1.0
 ","3
 ",NA,"10
-"
+",43
 "./data/EBpubs.txt",NA,"Stocks, Gabriela
 Seales, Lisa
 Paniagua, Franklin
@@ -1577,9 +1468,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUL
 ",NA,NA,NA,NA,"J
 ",NA,"2008
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Stocks, G (reprint author), Univ Florida, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Stocks, G (reprint author), Univ Florida, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.
 ",NA,NA,"0006-3606
 ","BIOTROPICA
 ",NA,NA,"35
@@ -1589,7 +1478,7 @@ in the tropics
 ","1.0
 ","40
 ",NA,"35
-"
+",44
 "./data/EBpubs.txt",NA,"Bruna, Emilio M.
 Darrigo, Maria Rosa
 Furuya Pacheco, Angela Midori
@@ -1612,9 +1501,7 @@ Vasconcelos, HL
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JUN
 ",NA,NA,NA,NA,"J
 ",NA,"2008
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"0024-4066
 ","BIOLOGICAL JOURNAL OF THE LINNEAN SOCIETY
 ",NA,NA,"7
@@ -1624,7 +1511,7 @@ plant volatiles
 ","1.0
 ","94
 ",NA,"7
-"
+",45
 "./data/EBpubs.txt",NA,"Morris, William F.
 Pfister, Catherine A.
 Tuljapurkar, Shripad
@@ -1686,11 +1573,7 @@ Menges, ES
 ",NA,NA,NA,NA,NA,NA,NA,NA,"JAN
 ",NA,NA,NA,NA,"J
 ",NA,"2008
-","Kendall, Bruce/C-1871-2008; Bruna, Emilio/H-2769-2012; Boyce,
-Mark/A-2620-2014; 
-",NA,"Kendall, Bruce/0000-0003-1782-8106; Bruna, Emilio/0000-0003-3381-8477;
-Boyce, Mark/0000-0001-5811-325X; Coulson, Tim/0000-0001-9371-9003
-","18376542
+","Kendall,Bruce/C-1871-2008;Bruna,Emilio/H-2769-2012;Boyce, Mark/A-2620-2014;",NA,"Kendall,Bruce/0000-0003-1782-8106;Bruna,Emilio/0000-0003-3381-8477;Boyce,Mark/0000-0001-5811-325X;Coulson,Tim/0000-0001-9371-9003 ","18376542
 ","Morris, WF (reprint author), Duke Univ, Dept Biol, BOx 90339, Durham, NC 27708 USA.
 ",NA,NA,"0012-9658
 ","ECOLOGY
@@ -1701,7 +1584,7 @@ climatic variability
 ","1.0
 ","89
 ",NA,"187
-"
+",46
 "./data/EBpubs.txt",NA,"Girao, Luciana Coe
 Lopes, Ariadna Valentina
 Tabarelli, Marcelo
@@ -1719,11 +1602,7 @@ Bruna, EM
 ",NA,NA,NA,NA,NA,NA,NA,NA,"SEP 19
 ",NA,NA,NA,NA,"J
 ",NA,"2007
-","Tabarelli, Marcelo/F-1088-2010; Lopes, Ariadna/E-8432-2010; Bruna,
-Emilio/H-2769-2012
-",NA,"Tabarelli, Marcelo/0000-0001-7573-7216; Bruna,
-Emilio/0000-0003-3381-8477
-","17878943
+","Tabarelli,Marcelo/F-1088-2010;Lopes,Ariadna/E-8432-2010;Bruna, Emilio/H-2769-2012",NA,"Tabarelli,Marcelo/0000-0001-7573-7216;Bruna, Emilio/0000-0003-3381-8477 ","17878943
 ","Lopes, AV (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
 ",NA,NA,"1932-6203
 ","PLOS ONE
@@ -1734,7 +1613,7 @@ Fragmented Atlantic Forest Landscape
 ","1.0
 ","2
 ",NA,"56
-"
+",47
 "./data/EBpubs.txt",NA,"Trager, Matthew D.
 Bruna, Emilio M.
 ","Trager, MD
@@ -1751,9 +1630,7 @@ Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
 ",NA,NA,NA,NA,NA,NA,NA,NA,"NOV
 ",NA,NA,NA,NA,"J
 ",NA,"2006
-","Bruna, Emilio/H-2769-2012
-",NA,"Bruna, Emilio/0000-0003-3381-8477
-",NA,"Trager, MD (reprint author), Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.
+","Bruna,Emilio/H-2769-2012",NA,"Bruna,Emilio/0000-0003-3381-8477 ",NA,"Trager, MD (reprint author), Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.
 ",NA,NA,"0022-0477
 ","JOURNAL OF ECOLOGY
 ",NA,NA,"22
@@ -1763,7 +1640,7 @@ on herbivory in a neotropical myrmecophyte
 ","1.0
 ","94
 ",NA,"23
-"
+",48
 "./data/EBpubs.txt",NA,"Vasconcelos, Heraldo L.
 Vieira-Neto, Ernane H. M.
 Mundim, Fabiane M.
@@ -1784,12 +1661,7 @@ Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
 ",NA,NA,NA,NA,NA,NA,NA,NA,"SEP
 ",NA,NA,NA,NA,"J
 ",NA,"2006
-","Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
-Vieira-Neto, Ernane Henrique/B-3177-2016
-",NA,"Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
-Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
-Henrique/0000-0002-6557-7252
-",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.
+","Bruna,Emilio/H-2769-2012;Vasconcelos,Heraldo/C-3353-2013;Vieira-Neto,ErnaneHenrique/B-3177-2016",NA,"Bruna,Emilio/0000-0003-3381-8477;Vasconcelos, Heraldo/0000-0001-6969-7131;Vieira-Neto,Ernane Henrique/0000-0002-6557-7252 ",NA,"Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.
 ",NA,NA,"0006-3606
 ","BIOTROPICA
 ",NA,NA,"27
@@ -1799,4 +1671,4 @@ neotropical savannas
 ","1.0
 ","38
 ",NA,"29
-"
+",49
