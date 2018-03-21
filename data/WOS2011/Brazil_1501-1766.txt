@@ -1,0 +1,7370 @@
+﻿FN ISI Export Format VR 1.0 PT J
+AU Hering, KG
+AF Hering, KG
+TI A scientific formulation of tropical forest management
+SO ECOLOGICAL MODELLING
+C1 Univ Fed Santa Catarina, BR-89010600 Blumenau, SC, Brazil.
+RP Hering, KG (reprint author), Univ Fed Santa Catarina, Rua Hermann Hering 54, BR-89010600 Blumenau, SC, Brazil, Brazil
+TC 3
+Z9 3
+SN 0304-3800
+PD AUG 15
+PY 2003
+VL 166
+IS 3
+BP 211
+EP 238
+DI 10.1016/S0304-3800(03)00119-4
+UT WOS:000185162200002
+ER
+
+PT J
+AU Fragoso, JMV
+   Silvius, KM
+   Correa, JA
+AF Fragoso, JMV
+   Silvius, KM
+   Correa, JA
+TI Long-distance seed dispersal by tapirs increases seed survival and
+   aggregates tropical trees
+SO ECOLOGY
+C1 Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   Wildlife Conservat Soc, Bronx, NY 10460 USA.
+   Florida Atlantic Univ, Dept Math, Boca Raton, FL 33431 USA.
+RP Fragoso, JMV (reprint author), SUNY Coll Environm Sci & Forestry, Fac Environm & Forest Biol, 1 Forestry Dr, Syracuse, NY 13210 USA
+TC 58
+Z9 61
+SN 0012-9658
+PD AUG
+PY 2003
+VL 84
+IS 8
+BP 1998
+EP 2006
+DI 10.1890/01-0621
+UT WOS:000185073100007
+ER
+
+PT J
+AU Dezzeo, N
+   Worbes, M
+   Ishii, I
+   Herrera, R
+AF Dezzeo, N
+   Worbes, M
+   Ishii, I
+   Herrera, R
+TI Annual tree rings revealed by radiocarbon dating in seasonally flooded
+   forest of the Mapire River, a tributary of the lower Orinoco River,
+   Venezuela
+SO PLANT ECOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Gottingen, Inst Forstbot, D-37075 Gottingen, Germany.
+   Univ Fed Mato Grosso do Sul, BR-79304020 Corumba, MS, Brazil.
+RP Dezzeo, N (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21-827, Caracas 1020A, Venezuela
+TC 14
+Z9 15
+SN 1385-0237
+PD AUG
+PY 2003
+VL 168
+IS 1
+BP 165
+EP 175
+DI 10.1023/A:1024417610776
+UT WOS:000183835900013
+ER
+
+PT J
+AU Tidon, R
+   Leite, DF
+   Leao, BFD
+AF Tidon, R
+   Leite, DF
+   Leao, BFD
+TI Impact of the colonisation of Zaprionus (Diptera, Drosophilidae) in
+   different ecosystems of the Neotropical Region: 2 years after the
+   invasion
+SO BIOLOGICAL CONSERVATION
+C1 Univ Brasilia, Dept Genet & Morfol, BR-70919970 Brasilia, DF, Brazil.
+RP Tidon, R (reprint author), Univ Brasilia, Dept Genet & Morfol, CP 04457, BR-70919970 Brasilia, DF, Brazil
+TC 24
+Z9 28
+SN 0006-3207
+PD AUG
+PY 2003
+VL 112
+IS 3
+BP 299
+EP 305
+DI 10.1016/S0006-3207(02)00322-1
+UT WOS:000183099100001
+ER
+
+PT J
+AU Fonseca, CR
+   Benson, WW
+AF Fonseca, CR
+   Benson, WW
+TI Ontogenetic succession in Amazonian ant trees
+SO OIKOS
+C1 Univ Estadual Campinas, Dept Zool, BR-13081970 Campinas, SP, Brazil.
+   INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Fonseca, CR (reprint author), Univ Vale Rio Sinos, Lab Interacao Anim Planta, Ctr 2, BR-93022000 Sao Leopoldo, RS, Brazil
+TC 17
+Z9 18
+SN 0030-1299
+PD AUG
+PY 2003
+VL 102
+IS 2
+BP 407
+EP 412
+UT WOS:000184319100020
+ER
+
+PT J
+AU Hoffmann, WA
+   Solbrig, OT
+AF Hoffmann, WA
+   Solbrig, OT
+TI The role of topkill in the differential response of savanna woody
+   species to fire
+RID E-8894-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Brasilia, Dept Engn Florestal, BR-70919970 Brasilia, DF, Brazil.
+   Harvard Univ, Dept Organism & Evolutionary Biol, Cambridge, MA 02138 USA.
+RP Hoffmann, WA (reprint author), Univ Brasilia, Dept Engn Florestal, Caixa Postal 04357, BR-70919970 Brasilia, DF, Brazil
+EM hoffmann@unb.br
+TC 51
+Z9 56
+SN 0378-1127
+PD JUL 17
+PY 2003
+VL 180
+IS 1-3
+BP 273
+EP 286
+DI 10.1016/S0378-1127(02)00566-2
+UT WOS:000184311800023
+ER
+
+PT J
+AU Laclau, JP
+   Ranger, J
+   Nzila, JD
+   Bouillet, JP
+   Deleporte, P
+AF Laclau, JP
+   Ranger, J
+   Nzila, JD
+   Bouillet, JP
+   Deleporte, P
+TI Nutrient cycling in a clonal stand of Eucalyptus and an adjacent savanna
+   ecosystem in Congo 2. Chemical composition of soil solutions
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CIRAD Foret, UR2PI, Programme Arbres & Plantat, F-34398 Montpellier 5, France.
+   INRA, F-54280 Seichamps, France.
+RP Laclau, JP (reprint author), USP, ESALQ, CIRAD Foret, IPEF, Av Padua Dias 11,Caixa Postal 530, BR-13400970 Piracicaba, SP, Brazil
+EM laclau@cirad.fr
+   ranger@nancy.mra.fr
+   ur10@calva.com
+   jpbouillet@cirad.fr
+   cir10@calva.com
+TC 12
+Z9 13
+SN 0378-1127
+PD JUL 17
+PY 2003
+VL 180
+IS 1-3
+BP 527
+EP 544
+DI 10.1016/S0378-1127(02)00645-X
+UT WOS:000184311800042
+ER
+
+PT J
+AU Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+AF Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+TI Root interactions between young Eucalyptus deglupta trees and
+   competitive grass species in contour strips
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, INPA, BDFFP, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Bayreuth, Inst Soil Sci & Soil Geog, D-95440 Bayreuth, Germany.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Schroth, G (reprint author), Natl Inst Res Amazon, INPA, BDFFP, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 4
+Z9 8
+SN 0378-1127
+PD JUL 3
+PY 2003
+VL 179
+IS 1-3
+BP 429
+EP 440
+DI 10.1016/S0378-1127(02)00534-0
+UT WOS:000183836300034
+ER
+
+PT J
+AU Eterovick, PC
+   Barros, IS
+AF Eterovick, PC
+   Barros, IS
+TI Niche occupancy in south-eastern Brazilian tadpole communities in
+   montane-meadow streams
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Minas Gerais, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Eterovick, PC (reprint author), Univ Fed Minas Gerais, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil
+TC 15
+Z9 23
+SN 0266-4674
+PD JUL
+PY 2003
+VL 19
+PN Part 4
+BP 439
+EP 448
+DI 10.1017/S026646740300347X
+UT WOS:000184650700008
+ER
+
+PT J
+AU Hoffmann, WA
+   Franco, AC
+AF Hoffmann, WA
+   Franco, AC
+TI Comparative growth analysis of tropical forest and savanna woody plants
+   using phylogenetically independent contrasts
+RID E-8894-2010
+RID B-1615-2008
+SO JOURNAL OF ECOLOGY
+C1 Univ Brasilia, Dept Engn Florestal, BR-70919970 Brasilia, DF, Brazil.
+   Univ Brasilia, Dept Bot, BR-70919970 Brasilia, DF, Brazil.
+RP Hoffmann, WA (reprint author), Univ Brasilia, Dept Engn Florestal, Caixa Postal 04357, BR-70919970 Brasilia, DF, Brazil
+TC 45
+Z9 53
+SN 0022-0477
+PD JUN
+PY 2003
+VL 91
+IS 3
+BP 475
+EP 484
+DI 10.1046/j.1365-2745.2003.00777.x
+UT WOS:000183144700014
+ER
+
+PT J
+AU Hawkins, BA
+   Porter, EE
+   Diniz, JAF
+AF Hawkins, BA
+   Porter, EE
+   Diniz, JAF
+TI Productivity and history as predictors of the latitudinal diversity
+   gradient of terrestrial birds
+RID A-3510-2011
+SO ECOLOGY
+C1 Univ Calif Irvine, Dept Ecol & Evolutionary Biol, Irvine, CA 92697 USA.
+   Univ Fed Goias, ICB, Dept Biol Geral, BR-74001970 Goiania, Go, Brazil.
+RP Hawkins, BA (reprint author), Univ Calif Irvine, Dept Ecol & Evolutionary Biol, Irvine, CA 92697 USA
+TC 170
+Z9 179
+SN 0012-9658
+PD JUN
+PY 2003
+VL 84
+IS 6
+BP 1608
+EP 1623
+DI 10.1890/0012-9658(2003)084[1608:PAHAPO]2.0.CO;2
+UT WOS:000184451900029
+ER
+
+PT J
+AU Monnin, T
+   Ratnieks, FLW
+   Brandao, CRF
+AF Monnin, T
+   Ratnieks, FLW
+   Brandao, CRF
+TI Reproductive conflict in animal societies: hierarchy length increases
+   with colony size in queenless ponerine ants
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Univ Sheffield, Dept Anim & Plant Sci, Lab Apiculture & Social Insects, Sheffield S10 2TN, S Yorkshire, England.
+   Univ Sao Paulo, Zool Museum, BR-04263000 Sao Paulo, SP, Brazil.
+RP Monnin, T (reprint author), Univ Paris 06, Ecol Lab, CNRS, UMR 7625, 7 Quai St Bernard, F-75005 Paris, France
+TC 12
+Z9 12
+SN 0340-5443
+PD JUN
+PY 2003
+VL 54
+IS 1
+BP 71
+EP 79
+DI 10.1007/s00265-003-0600-9
+UT WOS:000183978400010
+ER
+
+PT J
+AU Read, JM
+   Clark, DB
+   Venticinque, EM
+   Moreira, MP
+AF Read, JM
+   Clark, DB
+   Venticinque, EM
+   Moreira, MP
+TI Application of merged 1-m and 4-m resolution satellite data to research
+   and management in tropical forests
+SO JOURNAL OF APPLIED ECOLOGY
+C1 Syracuse Univ, Maxwell Sch, Dept Geog, Syracuse, NY 13244 USA.
+   Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   La Selva Biol Stn, Puerto Viejo De Sarapiqu, Costa Rica.
+   INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   INPA, Dept Forest Trop Sci, BR-69011970 Manaus, Amazonas, Brazil.
+RP Read, JM (reprint author), Syracuse Univ, Maxwell Sch, Dept Geog, 144 Eggers Hall, Syracuse, NY 13244 USA
+TC 39
+Z9 43
+SN 0021-8901
+PD JUN
+PY 2003
+VL 40
+IS 3
+BP 592
+EP 600
+DI 10.1046/j.1365-2664.2003.00814.x
+UT WOS:000183283400015
+ER
+
+PT J
+AU Pereira, IM
+   Andrade, LA
+   Sampaio, EVSB
+   Barbosa, MRV
+AF Pereira, IM
+   Andrade, LA
+   Sampaio, EVSB
+   Barbosa, MRV
+TI Use-history effects on structure and flora of caatinga
+SO BIOTROPICA
+C1 UFPB, Ctr Ciencias Agrarias, BR-58108055 Areia, PB, Brazil.
+   UFPB, Dept Fitotecnia, BR-58397000 Areia, PB, Brazil.
+   UFPE, Dept Energia Nucl, BR-50740540 Recife, PE, Brazil.
+   UFPB, CCEN, Dept Sistemat & Ecol, BR-58051970 Pessota, PB, Brazil.
+RP Pereira, IM (reprint author), UFPB, Ctr Ciencias Agrarias, BR-58108055 Areia, PB, Brazil
+TC 17
+Z9 17
+SN 0006-3606
+PD JUN
+PY 2003
+VL 35
+IS 2
+BP 154
+EP 165
+DI 10.1111/j.1744-7429.2003.tb00275.x
+UT WOS:000185338600003
+ER
+
+PT J
+AU Bernard, E
+   Fenton, MB
+AF Bernard, E
+   Fenton, MB
+TI Bat mobility and roosts in a fragmented landscape in central Amazonia,
+   Brazil
+SO BIOTROPICA
+C1 York Univ, Dept Biol, N York, ON M3J 1P3, Canada.
+RP Bernard, E (reprint author), Univ Fed Lavras, Dept Biol, Caixa Postal 37, BR-37200000 Lavras, MG, Brazil
+TC 44
+Z9 45
+SN 0006-3606
+PD JUN
+PY 2003
+VL 35
+IS 2
+BP 262
+EP 277
+DI 10.1111/j.1744-7429.2003.tb00285.x
+UT WOS:000185338600013
+ER
+
+PT J
+AU Bergallo, HG
+   Esberard, CEL
+   Mello, MAR
+   Lins, V
+   Mangolin, R
+   Melo, GGS
+   Baptista, M
+AF Bergallo, HG
+   Esberard, CEL
+   Mello, MAR
+   Lins, V
+   Mangolin, R
+   Melo, GGS
+   Baptista, M
+TI Bat species richness in Atlantic forest: What is the minimum sampling
+   effort?
+RID B-1095-2008
+SO BIOTROPICA
+C1 Univ Estado Rio Janeiro, Dept Ecol, BR-20559900 Rio De Janeiro, Brazil.
+   Fdn RIOZOO, Projeto Morcegos Urbanos, BR-20940040 Rio De Janeiro, Brazil.
+   UNICAMP, BR-13081970 Campinas, SP, Brazil.
+   Univ Estado Rio De Janeiro, Programa Pos Grad Biol, BR-20559900 Rio De Janeiro, Brazil.
+RP Bergallo, HG (reprint author), Univ Estado Rio Janeiro, Dept Ecol, Rua Sao Francisco Xavier 524, BR-20559900 Rio De Janeiro, Brazil
+TC 14
+Z9 15
+SN 0006-3606
+PD JUN
+PY 2003
+VL 35
+IS 2
+BP 278
+EP 288
+DI 10.1111/j.1744-7429.2003.tb00286.x
+UT WOS:000185338600014
+ER
+
+PT J
+AU Lapola, DM
+   Bruna, EM
+   Vasconcelos, HL
+AF Lapola, DM
+   Bruna, EM
+   Vasconcelos, HL
+TI Contrasting responses to induction cues by ants inhabiting Maieta
+   guianensis (Melastomataceae)
+SO BIOTROPICA
+C1 Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   INPA, PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Estadual Paulista, Dept Ecol, BR-13506900 Rio Claro, SP, Brazil.
+   Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA
+TC 19
+Z9 19
+SN 0006-3606
+PD JUN
+PY 2003
+VL 35
+IS 2
+BP 295
+EP 300
+DI 10.1111/j.1744-7429.2003.tb00288.x
+UT WOS:000185338600016
+ER
+
+PT J
+AU Lemos, WP
+   Ramalho, FS
+   Zanuncio, JC
+AF Lemos, WP
+   Ramalho, FS
+   Zanuncio, JC
+TI Age-dependent fecundity and life-fertility tables for Euborellia
+   annulipes (Lucas) (Dermaptera : Anisolabididae) a cotton boll weevil
+   predator in laboratory studies with an artificial diet
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Embrapa Algodao, UCB, BR-58107720 Campina Grande, Paraiba, Brazil.
+   Univ Fed Vicosa, Dept Biol Anim, Vicosa, MG, Brazil.
+RP Lemos, WP (reprint author), Embrapa Algodao, UCB, Caixa Postal 174, BR-58107720 Campina Grande, Paraiba, Brazil, Brazil
+TC 6
+Z9 6
+SN 0046-225X
+PD JUN
+PY 2003
+VL 32
+IS 3
+BP 592
+EP 601
+UT WOS:000184052100023
+ER
+
+PT J
+AU Ribas, CR
+   Schoereder, JH
+   Pic, M
+   Soares, SM
+AF Ribas, CR
+   Schoereder, JH
+   Pic, M
+   Soares, SM
+TI Tree heterogeneity, resource availability, and larger scale processes
+   regulating arboreal ant species richness
+RID A-8540-2008
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Vicosa, Dept Biol Geral, BR-36571000 Vicosa, MG, Brazil.
+   Univ Fed Vicosa, Dept Biol Anim, Programa Posgrad Entomol, Vicosa, MG, Brazil.
+RP Schoereder, JH (reprint author), Univ Fed Vicosa, Dept Biol Geral, BR-36571000 Vicosa, MG, Brazil
+TC 50
+Z9 52
+SN 1442-9985
+PD JUN
+PY 2003
+VL 28
+IS 3
+BP 305
+EP 314
+DI 10.1046/j.1442-9993.2003.01290.x
+UT WOS:000183797900008
+ER
+
+PT J
+AU Simon, MF
+   Hay, JD
+AF Simon, MF
+   Hay, JD
+TI Comparison of a common and rare species of Mimosa (Mimosaceae) in
+   Central Brazil
+SO AUSTRAL ECOLOGY
+C1 Univ Brasilia, Inst Ciencias Biol, Dept Ecol, BR-70919970 Brasilia, DF, Brazil.
+RP Hay, JD (reprint author), Univ Brasilia, Inst Ciencias Biol, Dept Ecol, BR-70919970 Brasilia, DF, Brazil
+TC 15
+Z9 15
+SN 1442-9985
+PD JUN
+PY 2003
+VL 28
+IS 3
+BP 315
+EP 326
+DI 10.1046/j.1442-9993.2003.01291.x
+UT WOS:000183797900009
+ER
+
+PT J
+AU Santos, EF
+   Setz, EZF
+   Gobbi, N
+AF Santos, EF
+   Setz, EZF
+   Gobbi, N
+TI Diet of the maned wolf (Chrysocyon brachyurus) and its role in seed
+   dispersal on a cattle ranch in Brazil
+SO JOURNAL OF ZOOLOGY
+C1 Bosque Jequitibas, BR-13025000 Campinas, SP, Brazil.
+   Univ Estadual Paulista, Dept Ecol, BR-13506900 Rio Claro, SP, Brazil.
+   Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Santos, EF (reprint author), R Mistre Tito 42 Vila Ind, BR-13035400 Campinas, SP, Brazil
+TC 12
+Z9 15
+SN 0952-8369
+PD JUN
+PY 2003
+VL 260
+PN Part 2
+BP 203
+EP 208
+DI 10.1017/S0952836903003650
+UT WOS:000183813400014
+ER
+
+PT J
+AU Pillar, VD
+   Sosinski, EE
+AF Pillar, VD
+   Sosinski, EE
+TI An improved method for searching plant functional types by numerical
+   analysis
+RID B-9872-2008
+SO JOURNAL OF VEGETATION SCIENCE
+C1 Univ Fed Rio Grande Sul, Dept Ecol, BR-91540000 Porto Alegre, RS, Brazil.
+RP Pillar, VD (reprint author), Univ Fed Rio Grande Sul, Dept Ecol, BR-91540000 Porto Alegre, RS, Brazil
+TC 26
+Z9 28
+SN 1100-9233
+PD JUN
+PY 2003
+VL 14
+IS 3
+BP 323
+EP 332
+DI 10.1111/j.1654-1103.2003.tb02158.x
+UT WOS:000184495400003
+ER
+
+PT J
+AU Culik, MP
+   Zeppelini, D
+AF Culik, MP
+   Zeppelini, D
+TI Diversity and distribution of Collembola (Arthropoda : Hexapoda) of
+   Brazil
+SO BIODIVERSITY AND CONSERVATION
+C1 INCAPER, Assistencia Tecn & Extensao Rural, Inst Capixaba Pesquisa, BR-29052010 Vitoria, ES, Brazil.
+   Univ Fed Paraiba, Ctr Ciencias Exatas & Nat, Dept Sistemat & Ecol, BR-58059900 Joao Pessoa, Paraiba, Brazil.
+RP Culik, MP (reprint author), Rua Elpidio Pimentel 383-302, BR-29065060 Vitoria, ES, Brazil, Brazil
+TC 14
+Z9 18
+SN 0960-3115
+PD JUN
+PY 2003
+VL 12
+IS 6
+BP 1119
+EP 1143
+DI 10.1023/A:1023069912619
+UT WOS:000182003400004
+ER
+
+PT J
+AU Monteiro-Neto, C
+   Cunha, FED
+   Nottingham, MC
+   Araujo, ME
+   Rosa, IL
+   Barros, GML
+AF Monteiro-Neto, C
+   Cunha, FED
+   Nottingham, MC
+   Araujo, ME
+   Rosa, IL
+   Barros, GML
+TI Analysis of the marine ornamental fish trade at Ceara State, northeast
+   Brazil
+RID E-9148-2010
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Fluminense, Dept Biol Marinha, BR-24001970 Niteroi, RJ, Brazil.
+   Univ Fed Ceara, Lab Biol Aquat, Dept Engn Pesca, BR-60356000 Fortaleza, RJ, Brazil.
+   Univ Fed Paraiba, Dept Sistemat & ecol, CCEN, BR-58059900 Joao Pessoa, Paraiba, Brazil.
+   Inst Brasileiro Meio Ambiente & Recursos Nat Reno, BR-60025062 Fortaleza, Ceara, Brazil.
+RP Monteiro-Neto, C (reprint author), Univ Fed Fluminense, Dept Biol Marinha, Caixa Postal 100-644, BR-24001970 Niteroi, RJ, Brazil
+TC 13
+Z9 17
+SN 0960-3115
+PD JUN
+PY 2003
+VL 12
+IS 6
+BP 1287
+EP 1295
+DI 10.1023/A:1023096023733
+UT WOS:000182003400015
+ER
+
+PT J
+AU Funk, WC
+   Mills, LS
+AF Funk, WC
+   Mills, LS
+TI Potential causes of population declines in forest fragments in an
+   Amazonian frog
+SO BIOLOGICAL CONSERVATION
+C1 Natl Inst Res Amazon INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Montana, Sch Forestry, Wildlife Biol Program, Missoula, MT 59812 USA.
+RP Funk, WC (reprint author), Univ Montana, Div Biol Sci, Missoula, MT 59812 USA
+TC 7
+Z9 9
+SN 0006-3207
+PD JUN
+PY 2003
+VL 111
+IS 2
+BP 205
+EP 214
+DI 10.1016/S0006-3207(02)00274-4
+UT WOS:000181821700009
+ER
+
+PT J
+AU Galetti, M
+   Alves-Costa, CP
+   Cazetta, E
+AF Galetti, M
+   Alves-Costa, CP
+   Cazetta, E
+TI Effects of forest fragmentation, anthropogenic edges and fruit colour on
+   the consumption of ornithocoric fruits
+RID F-3296-2010
+SO BIOLOGICAL CONSERVATION
+C1 Univ Estadual Paulista, UNESP, Dept Ecol, Phenol & Seed Dispersal Res Grp, BR-13506900 Rio Claro, SP, Brazil.
+   Inst Biol Conservacao, Campinas, SP, Brazil.
+   Univ Estadual Campinas, UNICAMP, Dept Zool, Lab Vertebrate Plant Interact, BR-13083970 Campinas, SP, Brazil.
+RP Galetti, M (reprint author), Univ Estadual Paulista, UNESP, Dept Ecol, Phenol & Seed Dispersal Res Grp, CP 199, BR-13506900 Rio Claro, SP, Brazil
+TC 27
+Z9 33
+SN 0006-3207
+PD JUN
+PY 2003
+VL 111
+IS 2
+BP 269
+EP 273
+DI 10.1016/S0006-3207(02)00299-9
+UT WOS:000181821700016
+ER
+
+PT J
+AU Jerozolimski, A
+   Peres, CA
+AF Jerozolimski, A
+   Peres, CA
+TI Bringing home the biggest bacon: a cross-site analysis of the structure
+   of hunter-kill profiles in Neotropical forests
+SO BIOLOGICAL CONSERVATION
+C1 Univ Sao Paulo, Dept Ecol IB, BR-05422970 Sao Paulo, SP, Brazil.
+   Univ E Anglia, Sch Environm Sci, Ctr Ecol Evolut & Conservat, Norwich NR4 7TJ, Norfolk, England.
+RP Jerozolimski, A (reprint author), Univ Sao Paulo, Dept Ecol IB, CP 11461, BR-05422970 Sao Paulo, SP, Brazil
+TC 47
+Z9 50
+SN 0006-3207
+PD JUN
+PY 2003
+VL 111
+IS 3
+BP 415
+EP 425
+DI 10.1016/S0006-3207(02)00310-5
+UT WOS:000182418200012
+ER
+
+PT J
+AU Canela, MBF
+   Sazima, M
+AF Canela, MBF
+   Sazima, M
+TI Florivory by the crab Armases angustipes (Grapsidae) influences
+   hummingbird visits to Aechmea pectinata (Bromeliaceae)
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Dept Bot, IB, BR-13090970 Campinas, SP, Brazil.
+RP Canela, MBF (reprint author), Univ Estadual Campinas, Dept Bot, IB, Caixa Postal 6109, BR-13090970 Campinas, SP, Brazil
+TC 8
+Z9 11
+SN 0006-3606
+PD JUN
+PY 2003
+VL 35
+IS 2
+BP 289
+EP 294
+DI 10.1646/02096
+UT WOS:000185338600015
+ER
+
+PT J
+AU Cardoso, MF
+   Hurtt, GC
+   Moore, B
+   Nobre, CA
+   Prins, EM
+AF Cardoso, MF
+   Hurtt, GC
+   Moore, B
+   Nobre, CA
+   Prins, EM
+TI Projecting future fire activity in Amazonia
+SO GLOBAL CHANGE BIOLOGY
+C1 Univ New Hampshire, Inst Study Earth Oceans & Space, Durham, NH 03824 USA.
+   Univ New Hampshire, Dept Nat Resources, Durham, NH 03824 USA.
+   Inst Nacl Pesquisas Espaciais, CPTEC, INPE, BR-12630000 Cachoeira Paulista, SP, Brazil.
+   Univ Wisconsin, NOAA, NESDIS, ORA Adv Satellite Prod Team, Madison, WI 53706 USA.
+RP Cardoso, MF (reprint author), Univ New Hampshire, Inst Study Earth Oceans & Space, Durham, NH 03824 USA
+TC 32
+Z9 32
+SN 1354-1013
+PD MAY
+PY 2003
+VL 9
+IS 5
+BP 656
+EP 669
+DI 10.1046/j.1365-2486.2003.00607.x
+UT WOS:000182653700002
+ER
+
+PT J
+AU Moutinho, P
+   Nepstad, DC
+   Davidson, EA
+AF Moutinho, P
+   Nepstad, DC
+   Davidson, EA
+TI Influence of leaf-cutting ant nests on secondary forest growth and soil
+   properties in Amazonia
+SO ECOLOGY
+C1 Inst Pesquisa Ambiental Amazonia, BR-66035170 Belem, Para, Brazil.
+   Woods Hole Res Ctr, Woods Hole, MA 02543 USA.
+RP Moutinho, P (reprint author), Inst Pesquisa Ambiental Amazonia, Av Nazare 669, BR-66035170 Belem, Para, Brazil
+TC 42
+Z9 45
+SN 0012-9658
+PD MAY
+PY 2003
+VL 84
+IS 5
+BP 1265
+EP 1276
+DI 10.1890/0012-9658(2003)084[1265:IOLANO]2.0.CO;2
+UT WOS:000184120500019
+ER
+
+PT J
+AU Eterovick, PC
+AF Eterovick, PC
+TI Distribution of anuran species among montane streams in south-eastern
+   Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Minas Gerais, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Eterovick, PC (reprint author), Univ Fed Minas Gerais, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil
+TC 13
+Z9 21
+SN 0266-4674
+PD MAY
+PY 2003
+VL 19
+PN Part 3
+BP 219
+EP 228
+DI 10.1017/S0266467403003250
+UT WOS:000183658600001
+ER
+
+PT J
+AU Passos, L
+   Oliveira, PS
+AF Passos, L
+   Oliveira, PS
+TI Interactions between ants, fruits and seeds in a restinga forest in
+   south-eastern Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Campinas, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Oliveira, PS (reprint author), Univ Estadual Campinas, Dept Bot, C P 6109, BR-13083970 Campinas, SP, Brazil
+TC 29
+Z9 29
+SN 0266-4674
+PD MAY
+PY 2003
+VL 19
+PN Part 3
+BP 261
+EP 270
+DI 10.1017/S0266467403003298
+UT WOS:000183658600005
+ER
+
+PT J
+AU Zangaro, W
+   Nisizaki, SMA
+   Domingos, JCB
+   Nakano, EM
+AF Zangaro, W
+   Nisizaki, SMA
+   Domingos, JCB
+   Nakano, EM
+TI Mycorrhizal response and successional status in 80 woody species from
+   south Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Londrina, Dept Biol Anim & Vegetal, BR-86051990 Londrina, Parana, Brazil.
+RP Zangaro, W (reprint author), Univ Estadual Londrina, Dept Biol Anim & Vegetal, BR-86051990 Londrina, Parana, Brazil
+EM wzangaro@uel.br
+TC 26
+Z9 27
+SN 0266-4674
+PD MAY
+PY 2003
+VL 19
+PN Part 3
+BP 315
+EP 324
+DI 10.1017/S0266467403003341
+UT WOS:000183658600010
+ER
+
+PT J
+AU Schiesari, L
+   Zuanon, J
+   Azevedo-Ramos, C
+   Garcia, M
+   Gordo, M
+   Messias, M
+   Vieira, EM
+AF Schiesari, L
+   Zuanon, J
+   Azevedo-Ramos, C
+   Garcia, M
+   Gordo, M
+   Messias, M
+   Vieira, EM
+TI Macrophyte rafts as dispersal vectors for fishes and amphibians in the
+   Lower Solimoes River, Central Amazon
+RID F-3562-2010
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 UNISINOS, Ctr Ciencias Saude, Lab Ecol Mamiferos, BR-93022000 Sao Leopoldo, RS, Brazil.
+   UNESP Rio Claro, PG Zool, BR-13506900 Rio Claro, SP, Brazil.
+   Univ Amazonas, Dept Biol, BR-69970000 Manaus, Amazonas, Brazil.
+   Fed Univ Para, NAEA, BR-67010100 Belem, Para, Brazil.
+   Inst Nacl Pesquisas Espaciais, Coordenacao Pesquisas Biol Aquat, BR-69083970 Manaus, Amazonas, Brazil.
+   Univ Sao Paulo, Inst Biociencias, Dept Zool, BR-01452990 Sao Paulo, Brazil.
+RP Schiesari, L (reprint author), Univ Michigan, Dept Ecol & Evolutionary Biol, Ann Arbor, MI 48109 USA
+TC 6
+Z9 6
+SN 0266-4674
+PD MAY
+PY 2003
+VL 19
+PN Part 3
+BP 333
+EP 336
+DI 10.1017/S0266467403003365
+UT WOS:000183658600012
+ER
+
+PT J
+AU Laurance, WF
+   Merona, JMRD
+   Andrade, A
+   Laurance, SG
+   D'Angelo, S
+   Lovejoy, TE
+   Vasconcelos, HL
+AF Laurance, WF
+   Merona, JMRD
+   Andrade, A
+   Laurance, SG
+   D'Angelo, S
+   Lovejoy, TE
+   Vasconcelos, HL
+TI Rain-forest fragmentation and the phenology of Amazonian tree
+   communities
+RID G-6021-2011
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res, INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 8
+Z9 9
+SN 0266-4674
+PD MAY
+PY 2003
+VL 19
+PN Part 3
+BP 343
+EP 347
+DI 10.1017/S0266467403003389
+UT WOS:000183658600014
+ER
+
+PT J
+AU Cogni, R
+   Freitas, AVL
+   Oliveira, PS
+AF Cogni, R
+   Freitas, AVL
+   Oliveira, PS
+TI Interhabitat differences in ant activity on plant foliage: ants at
+   extrafloral nectaries of Hibiscus pernambucensis in sandy and mangrove
+   forests
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Estadual Campinas, Inst Biol, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Biol, Museum Hist Nat, BR-13083970 Campinas, SP, Brazil.
+RP Oliveira, PS (reprint author), Univ Estadual Campinas, Inst Biol, Dept Zool, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 13
+Z9 15
+SN 0013-8703
+PD MAY
+PY 2003
+VL 107
+IS 2
+BP 125
+EP 131
+DI 10.1046/j.1570-7458.2003.00046.x
+UT WOS:000182711000004
+ER
+
+PT J
+AU Melo, AS
+   Pereira, RAS
+   Santos, AJ
+   Shepherd, GJ
+   Machado, G
+   Medeiros, HF
+   Sawaya, RJ
+AF Melo, AS
+   Pereira, RAS
+   Santos, AJ
+   Shepherd, GJ
+   Machado, G
+   Medeiros, HF
+   Sawaya, RJ
+TI Comparing species richness among assemblages using sample units: why not
+   use extrapolation methods to standardize different sample sizes?
+SO OIKOS
+C1 Univ Estadual Campinas, Inst Biol, Nat Hist Museum, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Biol, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Biol, Dept Genet & Evolucao, BR-13083970 Campinas, SP, Brazil.
+RP Melo, AS (reprint author), Univ Sao Paulo, FFCLRP, Dept Biol, Lab Entomol Aquat, BR-14040901 Ribeirao Preto, Brazil
+TC 29
+Z9 33
+SN 0030-1299
+PD MAY
+PY 2003
+VL 101
+IS 2
+BP 398
+EP 410
+DI 10.1034/j.1600-0706.2003.11893.x
+UT WOS:000182800600019
+ER
+
+PT J
+AU Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+AF Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+TI Growth and effects of thinning of mixed and pure plantations with native
+   trees in humid tropical Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Vila Nova Conceicao, BR-04511011 Sao Paulo, Brazil.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Montagnini, F (reprint author), Yale Univ, Sch Forestry & Environm Studies, 370 Prospect St, New Haven, CT 06511 USA
+TC 15
+Z9 16
+SN 0378-1127
+PD APR 7
+PY 2003
+VL 177
+IS 1-3
+BP 427
+EP 439
+DI 10.1016/S0378-1127(02)00445-0
+UT WOS:000182041800033
+ER
+
+PT J
+AU Bruna, EM
+AF Bruna, EM
+TI Are plant populations in fragmented habitats recruitment limited? Tests
+   with an Amazonian herb
+SO ECOLOGY
+C1 Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   INPA, PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA
+TC 37
+Z9 40
+SN 0012-9658
+PD APR
+PY 2003
+VL 84
+IS 4
+BP 932
+EP 947
+DI 10.1890/0012-9658(2003)084[0932:APPIFH]2.0.CO;2
+UT WOS:000182813600014
+ER
+
+PT J
+AU Zartman, CE
+AF Zartman, CE
+TI Habitat fragmentation impacts on epiphyllous bryophyte communities in
+   central Amazonia
+SO ECOLOGY
+C1 Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, BR-69022970 Manaus, Amazonas, Brazil.
+RP Zartman, CE (reprint author), Duke Univ, Dept Biol, Durham, NC 27708 USA
+TC 29
+Z9 34
+SN 0012-9658
+PD APR
+PY 2003
+VL 84
+IS 4
+BP 948
+EP 954
+DI 10.1890/0012-9658(2003)084[0948:HFIOEB]2.0.CO;2
+UT WOS:000182813600015
+ER
+
+PT J
+AU Ribeiro, KT
+   Codeco, CT
+   Fernandes, GW
+AF Ribeiro, KT
+   Codeco, CT
+   Fernandes, GW
+TI Local and regional spatial distribution of an eruptive and a latent
+   herbivore insect species
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Minas Gerais, Inst Ciencias Biol, DBG, Belo Horizonte, MG, Brazil.
+   Fundacao Oswaldo Cruz, Programa Comp Cient, Rio De Janeiro, Brazil.
+RP Ribeiro, KT (reprint author), IBAMA, Inst Brasileiro Meio Ambiente & Recursos Nat Reno, Serra do Cipo Natl Pk,Rua Conde Dolabela 237, BR-33400000 Lagoa Santa, MG, Brazil
+EM ktorres@uai.com.br
+TC 11
+Z9 11
+SN 1442-9985
+PD APR
+PY 2003
+VL 28
+IS 2
+BP 99
+EP 107
+DI 10.1046/j.1442-9993.2003.01235.x
+UT WOS:000182113600001
+ER
+
+PT J
+AU Orr, MR
+   Dahlsten, DL
+   Benson, WW
+AF Orr, MR
+   Dahlsten, DL
+   Benson, WW
+TI Ecological interactions among ants in the genus Linepithema, their
+   phorid parasitoids, and ant competitors
+SO ECOLOGICAL ENTOMOLOGY
+C1 Univ Calif Berkeley, Coll Nat Resources, Berkeley, CA 94720 USA.
+   Univ Estadual Campinas, LIIP, Dept Zool, Sao Paulo, Brazil.
+RP Orr, MR (reprint author), 245 Mulford Hall 3100, Berkeley, CA 94720 USA
+EM morr@nature.berkeley.edu
+TC 15
+Z9 15
+SN 0307-6946
+PD APR
+PY 2003
+VL 28
+IS 2
+BP 203
+EP 210
+DI 10.1046/j.1365-2311.2003.00506.x
+UT WOS:000181831600010
+ER
+
+PT J
+AU da Fonseca, GAB
+AF da Fonseca, GAB
+TI Conservation science and NGOs
+SO CONSERVATION BIOLOGY
+C1 Conservat Int, Ctr Appl Biodivers Sci, Washington, DC 20036 USA.
+   Univ Fed Minas Gerais, Dept Zool, BR-31275000 Belo Horizonte, MG, Brazil.
+RP da Fonseca, GAB (reprint author), Conservat Int, Ctr Appl Biodivers Sci, 1919 M St NW Suite 600, Washington, DC 20036 USA
+EM g.fonseca@conservation.org
+TC 5
+Z9 5
+SN 0888-8892
+PD APR
+PY 2003
+VL 17
+IS 2
+BP 345
+EP 347
+DI 10.1046/j.1523-1739.2003.01721.x
+UT WOS:000181736400001
+ER
+
+PT J
+AU Benitez-Malvido, J
+   Martinez-Ramos, M
+AF Benitez-Malvido, J
+   Martinez-Ramos, M
+TI Impact of forest fragmentation on understory plant species richness in
+   Amazonia
+SO CONSERVATION BIOLOGY
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Morelia 59180, Michoacan, Mexico.
+   Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Benitez-Malvido, J (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Antigua Carretera Patzcuaro 8701,Ex Hacienda San, Morelia 59180, Michoacan, Mexico
+EM jbenitez@oikos.unam.mx
+TC 67
+Z9 70
+SN 0888-8892
+PD APR
+PY 2003
+VL 17
+IS 2
+BP 389
+EP 400
+DI 10.1046/j.1523-1739.2003.01120.x
+UT WOS:000181736400009
+ER
+
+PT J
+AU Nunes, ED
+   Benson, EE
+   Oltramari, AC
+   Araujo, PS
+   Moser, JR
+   Viana, AM
+AF Nunes, ED
+   Benson, EE
+   Oltramari, AC
+   Araujo, PS
+   Moser, JR
+   Viana, AM
+TI In vitro conservation of Cedrela fissilis Vellozo (Meliaceae), a native
+   tree of the Brazilian Atlantic Forest
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Santa Catarina, Dept Bot, BR-88040900 Florianopolis, SC, Brazil.
+   Univ Abertay Dundee, Sch Sci & Engn, Plant Conservat Grp, Dundee DD1 1HG, Scotland.
+RP Viana, AM (reprint author), Univ Fed Santa Catarina, Dept Bot, BR-88040900 Florianopolis, SC, Brazil
+TC 9
+Z9 11
+SN 0960-3115
+PD APR
+PY 2003
+VL 12
+IS 4
+BP 837
+EP 848
+UT WOS:000181038100015
+ER
+
+PT J
+AU Caldas, A
+   Robbins, RK
+AF Caldas, A
+   Robbins, RK
+TI Modified Pollard transects for assessing tropical butterfly abundance
+   and diversity
+SO BIOLOGICAL CONSERVATION
+C1 Smithsonian Inst, Natl Museum Nat Hist, Sect Entomol, Dept Systemat Biol, Washington, DC 20560 USA.
+   UERJ, Dept Biol Anim & Vegetal, BR-20550900 Rio De Janeiro, Brazil.
+RP Caldas, A (reprint author), Univ Maryland, Dept Entomol, College Pk, MD 20742 USA
+TC 14
+Z9 18
+SN 0006-3207
+PD APR
+PY 2003
+VL 110
+IS 2
+BP 211
+EP 219
+DI 10.1016/S0006-3207(02)00190-8
+UT WOS:000180818400005
+ER
+
+PT J
+AU Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+AF Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+TI Species and site characteristics that permit the association of
+   fast-growing trees with crops: the case of Eucalyptus deglupta as coffee
+   shade in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   German Dev Serv, Ded, BR-50050340 Recife, PE, Brazil.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Schroth, G (reprint author), Natl Inst Res Amazon, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil, Brazil
+TC 11
+Z9 11
+SN 0378-1127
+PD MAR 3
+PY 2003
+VL 175
+IS 1-3
+BP 205
+EP 215
+DI 10.1016/S0378-1127(02)00079-8
+UT WOS:000181504000015
+ER
+
+PT J
+AU Scolforo, JRS
+   Tabai, FCV
+   de Macedo, RLG
+   Acerbi, FW
+   de Assis, AL
+AF Scolforo, JRS
+   Tabai, FCV
+   de Macedo, RLG
+   Acerbi, FW
+   de Assis, AL
+TI S-B distribution's accuracy to represent the diameter distribution of
+   Pinus taeda, through five fitting methods
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Fed Lavras, BR-37200000 Lavras, MG, Brazil.
+RP Scolforo, JRS (reprint author), Univ Fed Lavras, POB 37, BR-37200000 Lavras, MG, Brazil, Brazil
+TC 4
+Z9 4
+SN 0378-1127
+PD MAR 3
+PY 2003
+VL 175
+IS 1-3
+BP 489
+EP 496
+DI 10.1016/S0378-1127(02)00183-4
+UT WOS:000181504000036
+ER
+
+PT J
+AU Costa, FRC
+   Magnusson, WE
+AF Costa, FRC
+   Magnusson, WE
+TI Effects of selective logging on the diversity and abundance of flowering
+   and fruiting understory plants in a central amazonian forest
+SO BIOTROPICA
+C1 Inst Nacl de Pesquisas da Amazonia, Coordenacao Pesquisas Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+RP Costa, FRC (reprint author), Inst Nacl de Pesquisas da Amazonia, Coordenacao Pesquisas Ecol, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 14
+Z9 14
+SN 0006-3606
+PD MAR
+PY 2003
+VL 35
+IS 1
+BP 103
+EP 114
+DI 10.1111/j.1744-7429.2003.tb00267.x
+UT WOS:000182530700012
+ER
+
+PT J
+AU Frizano, J
+   Vann, DR
+   Johnson, AH
+   Johnson, CM
+   Vieira, ICG
+   Zarin, DJ
+AF Frizano, J
+   Vann, DR
+   Johnson, AH
+   Johnson, CM
+   Vieira, ICG
+   Zarin, DJ
+TI Labile phosphorus in soils of forest fallows and primary forest in the
+   Bragantina region, Brazil
+SO BIOTROPICA
+C1 Univ Penn, Dept Earth & Environm Sci, Philadelphia, PA 19104 USA.
+   Museu Paraense Emilio Goeldi, Dept Bot, BR-66040170 Belem, Para, Brazil.
+   Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+RP Johnson, AH (reprint author), Univ Penn, Dept Earth & Environm Sci, Philadelphia, PA 19104 USA
+TC 6
+Z9 6
+SN 0006-3606
+PD MAR
+PY 2003
+VL 35
+IS 1
+BP 2
+EP 11
+DI 10.1646/0006-3606(2003)035[0002:LPISOF]2.0.CO;2
+UT WOS:000182530700001
+ER
+
+PT J
+AU Marshall, CD
+   Maeda, H
+   Iwata, M
+   Furuta, M
+   Asano, S
+   Rosas, F
+   Reep, RL
+AF Marshall, CD
+   Maeda, H
+   Iwata, M
+   Furuta, M
+   Asano, S
+   Rosas, F
+   Reep, RL
+TI Orofacial morphology and feeding behaviour of the dugong, Amazonian,
+   West African and Antillean manatees (Mammalia : Sirenia): functional
+   morphology of the muscular-vibrissal complex
+SO JOURNAL OF ZOOLOGY
+C1 Texas A&M Univ, Dept Marine Biol, Galveston, TX 77551 USA.
+   Toba Aquarium, Toba, Mie 517, Japan.
+   Yomiuriland Marine Aquarium, Tokyo 206, Japan.
+   INPA, Manaus, Amazonas, Brazil.
+   Univ Florida, Dept Physiol Sci, Gainesville, FL 32610 USA.
+RP Marshall, CD (reprint author), Texas A&M Univ, Dept Marine Biol, Galveston, TX 77551 USA
+TC 7
+Z9 7
+SN 0952-8369
+PD MAR
+PY 2003
+VL 259
+PN Part 3
+BP 245
+EP 260
+DI 10.1017/S0952836902003205
+UT WOS:000182607100004
+ER
+
+PT J
+AU Mannheimer, S
+   Bevilacqua, G
+   Caramaschi, EP
+   Scarano, FR
+AF Mannheimer, S
+   Bevilacqua, G
+   Caramaschi, EP
+   Scarano, FR
+TI Evidence for seed dispersal by the catfish Auchenipterichthys longimanus
+   in an Amazonian lake
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Rio de Janeiro, Dept Ecol, CCS, IB, BR-21941970 Rio De Janeiro, Brazil.
+RP Caramaschi, EP (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, CCS, IB, Ilha Fundao, BR-21941970 Rio De Janeiro, Brazil
+TC 14
+Z9 14
+SN 0266-4674
+PD MAR
+PY 2003
+VL 19
+PN Part 2
+BP 215
+EP 218
+DI 10.1017/S0266467403003249
+UT WOS:000182606600011
+ER
+
+PT J
+AU Cogni, R
+   Fernandes, GW
+   Vieira, DLM
+   Marinelli, CE
+   Jurinitz, CF
+   Guerra, BR
+   Zuanon, J
+   Venticinque, EM
+AF Cogni, R
+   Fernandes, GW
+   Vieira, DLM
+   Marinelli, CE
+   Jurinitz, CF
+   Guerra, BR
+   Zuanon, J
+   Venticinque, EM
+TI Galling insects (Diptera : Cecidomyiidae) survive inundation during host
+   plant flooding in Central Amazonia
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Inst Biol, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Univ Fed Minas Gerais, ICB, Ecol Evolut Herbivoros Trop DBG, BR-30161970 Belo Horizonte, MG, Brazil.
+   Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+   Univ Sao Paulo, Ctr Recursos Hidr & Ecol Aplicada, BR-05302010 Sao Paulo, Brazil.
+   Univ Fed Rio Grande Sul, Inst Biociencias, Dept Bot, Programa Posgrad Bot, BR-91501970 Porto Alegre, RS, Brazil.
+   Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Evolut, Mexico City 04510, DF, Mexico.
+   INPA, Coordenacao Pesquisas Biol Aquat, BR-69083970 Manaus, Amazonas, Brazil.
+   INPA, Projeto Dinam Biol Fragmentos Florestais, BR-69011970 Manaus, Amazonas, Brazil.
+RP Cogni, R (reprint author), Univ Estadual Campinas, Inst Biol, Dept Zool, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 0
+Z9 0
+SN 0006-3606
+PD MAR
+PY 2003
+VL 35
+IS 1
+BP 115
+EP 119
+DI 10.1646/0006-3606(2003)035[0115:GIDCSI]2.0.CO;2
+UT WOS:000182530700013
+ER
+
+PT J
+AU Paxton, RJ
+   Bego, LR
+   Shah, MM
+   Mateus, S
+AF Paxton, RJ
+   Bego, LR
+   Shah, MM
+   Mateus, S
+TI Low mating frequency of queens in the stingless bee Scaptotrigona
+   postica and worker maternity of males
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Univ Tubingen, Inst Zool, D-72076 Tubingen, Germany.
+   Univ Sao Paulo, Fac Philosophy Sci & Letters Ribeirao Preto, Dept Biol, BR-14040901 Ribeirao Preto, SP, Brazil.
+RP Paxton, RJ (reprint author), Univ Tubingen, Inst Zool, Morgenstelle 28, D-72076 Tubingen, Germany
+TC 24
+Z9 25
+SN 0340-5443
+PD FEB
+PY 2003
+VL 53
+IS 3
+BP 174
+EP 181
+DI 10.1007/s00265-002-0561-4
+UT WOS:000181550000005
+ER
+
+PT J
+AU Souza, AF
+   Martins, FR
+AF Souza, AF
+   Martins, FR
+TI Spatial distribution of an undergrowth palm in fragments of the
+   Brazilian Atlantic Forest
+SO PLANT ECOLOGY
+C1 Univ Estadual Campinas, Programa Posgrad Ecol, Dept Bot, IB, BR-13083970 Campinas, SP, Brazil.
+RP Martins, FR (reprint author), Univ Estadual Campinas, Programa Posgrad Ecol, Dept Bot, IB, Caixa Postal 6109, BR-13083970 Campinas, SP, Brazil
+TC 6
+Z9 6
+SN 1385-0237
+PD FEB
+PY 2003
+VL 164
+IS 2
+BP 141
+EP 155
+DI 10.1023/A:1021229832634
+UT WOS:000179514800001
+ER
+
+PT J
+AU Foley, JA
+   Costa, MH
+   Delire, C
+   Ramankutty, N
+   Snyder, P
+AF Foley, JA
+   Costa, MH
+   Delire, C
+   Ramankutty, N
+   Snyder, P
+TI Green surprise? How terrestrial ecosystems could affect earth's climate
+RID A-5695-2009
+SO FRONTIERS IN ECOLOGY AND THE ENVIRONMENT
+C1 Univ Wisconsin, Gaylord Nelson Inst Environm Studies, Ctr Sustainabil & Global Environm, Madison, WI 53726 USA.
+   Univ Fed Vicosa, Dept Agr Engn, BR-36571000 Vicosa, MG, Brazil.
+RP Foley, JA (reprint author), Univ Wisconsin, Gaylord Nelson Inst Environm Studies, Ctr Sustainabil & Global Environm, 1710 Univ Ave, Madison, WI 53726 USA
+EM jfoley@wisc.edu
+TC 77
+Z9 82
+SN 1540-9295
+PD FEB
+PY 2003
+VL 1
+IS 1
+BP 38
+EP 44
+DI 10.2307/3867963
+UT WOS:000221789300018
+ER
+
+PT J
+AU Costa, LP
+AF Costa, LP
+TI The historical bridge between the Amazon and the Atlantic Forest of
+   Brazil: a study of molecular phylogeography with small mammals
+RID G-4259-2011
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Calif Berkeley, Museum Vertebrate Zool, Berkeley, CA 94720 USA.
+RP Costa, LP (reprint author), Univ Fed Minas Gerais, Inst Ciencias Biol, Dept Zool, Av Antonio Carlos 6627, BR-31260901 Belo Horizonte, MG, Brazil
+TC 116
+Z9 126
+SN 0305-0270
+PD JAN
+PY 2003
+VL 30
+IS 1
+BP 71
+EP 86
+DI 10.1046/j.1365-2699.2003.00792.x
+UT WOS:000180394900006
+ER
+
+PT J
+AU Turra, A
+   Leite, FPP
+AF Turra, A
+   Leite, FPP
+TI The molding hypothesis: linking shell use with hermit crab growth,
+   morphology, and shell-species selection
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Estadual Campinas, Pos Grad Ecol, Dept Zool, BR-13083970 Sao Paulo, Brazil.
+RP Turra, A (reprint author), Univ Estadual Campinas, Pos Grad Ecol, Dept Zool, BR-13083970 Sao Paulo, Brazil
+EM turra@feob.br
+TC 10
+Z9 10
+SN 0171-8630
+PY 2003
+VL 265
+BP 155
+EP 163
+DI 10.3354/meps265155
+UT WOS:000188774900013
+ER
+
+PT J
+AU Barletta, M
+   Barletta-Bergan, A
+   Saint-Paul, U
+   Hubold, G
+AF Barletta, M
+   Barletta-Bergan, A
+   Saint-Paul, U
+   Hubold, G
+TI Seasonal changes in density, biomass, and diversity of estuarine fishes
+   in tidal mangrove creeks of the lower Caete Estuary (northern Brazilian
+   coast, east Amazon)
+RID B-8060-2010
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 UFPE, Dept Oceanog, BR-50740550 Recife, PE, Brazil.
+   Ctr Trop Marine Ecol, D-28359 Bremen, Germany.
+   Bundesforsch Fischerei, D-28359 Bremen, Germany.
+RP Barletta, M (reprint author), UFPE, Dept Oceanog, Cidade Univ, BR-50740550 Recife, PE, Brazil
+TC 46
+Z9 51
+SN 0171-8630
+PY 2003
+VL 256
+BP 217
+EP 228
+DI 10.3354/meps256217
+UT WOS:000184808900019
+ER
+
+PT J
+AU Godley, BJ
+   Lima, EHSM
+   Akesson, S
+   Broderick, AC
+   Glen, F
+   Godfrey, MH
+   Luschi, P
+   Hays, GC
+AF Godley, BJ
+   Lima, EHSM
+   Akesson, S
+   Broderick, AC
+   Glen, F
+   Godfrey, MH
+   Luschi, P
+   Hays, GC
+TI Movement patterns of green turtles in Brazilian coastal waters described
+   by satellite tracking and flipper tagging
+RID A-6139-2009
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Coll Swansea, Sch Biol Sci, Marine Turtle Res Grp, Swansea SA2 8PP, W Glam, Wales.
+   Fdn Pro TAMAR, BR-62592990 Almofala, Ceara, Brazil.
+   Lund Univ, Dept Anim Ecol, S-22362 Lund, Sweden.
+   N Carolina Wildlife Resources Commiss, Beaufort, NC 28516 USA.
+   Univ Pisa, Dipartimento Etol Ecol & Evoluz, I-56126 Pisa, Italy.
+RP Godley, BJ (reprint author), Univ Coll Swansea, Sch Biol Sci, Marine Turtle Res Grp, Swansea SA2 8PP, W Glam, Wales
+TC 20
+Z9 29
+SN 0171-8630
+PY 2003
+VL 253
+BP 279
+EP 288
+DI 10.3354/meps253279
+UT WOS:000183487200025
+ER
+
+PT J
+AU Tonhasca, A
+   Albuquerque, GS
+   Blackmer, JL
+AF Tonhasca, A
+   Albuquerque, GS
+   Blackmer, JL
+TI Dispersal of euglossine bees between fragments of the Brazilian Atlantic
+   Forest
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Norte Fluminense, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+RP Tonhasca, A (reprint author), Univ Estadual Norte Fluminense, Av Alberto Lamego 2000, BR-28015620 Campos Dos Goytacazes, RJ, Brazil
+TC 20
+Z9 19
+SN 0266-4674
+PD JAN
+PY 2003
+VL 19
+PN Part 1
+BP 99
+EP 102
+DI 10.1017/S0266467403003122
+UT WOS:000182606300012
+ER
+
+PT J
+AU Miranda, IS
+   Absy, ML
+   Rebelo, GH
+AF Miranda, IS
+   Absy, ML
+   Rebelo, GH
+TI Community structure of woody plants of Roraima Savannahs, Brazil
+SO PLANT ECOLOGY
+C1 Fac Ciencias Agr Para, Dept Ciencias Florestais, BR-66077530 Belem, Para, Brazil.
+   Inst Nacl Pesquisas Espaciais Amazonia, BR-69011970 Manaus, Amazonas, Brazil.
+RP Miranda, IS (reprint author), Fac Ciencias Agr Para, Dept Ciencias Florestais, Caixa Postal 917, BR-66077530 Belem, Para, Brazil
+TC 10
+Z9 11
+SN 1385-0237
+PD JAN
+PY 2003
+VL 164
+IS 1
+BP 109
+EP 123
+DI 10.1023/A:1021298328048
+UT WOS:000179514300010
+ER
+
+PT J
+AU Diniz, JAF
+   Bini, LM
+   Hawkins, BA
+AF Diniz, JAF
+   Bini, LM
+   Hawkins, BA
+TI Spatial autocorrelation and red herrings in geographical ecology
+RID A-3510-2011
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+C1 Univ Fed Goias, ICB, Dept Biol Geral, BR-74001970 Goiania, Go, Brazil.
+   Univ Calif Irvine, Dept Ecol & Evolutionary Biol, Irvine, CA 92697 USA.
+RP Diniz, JAF (reprint author), Univ Fed Goias, ICB, Dept Biol Geral, CP 131, BR-74001970 Goiania, Go, Brazil
+EM diniz@icb1.ufg.br
+   bhawkins@uci.edu
+TC 352
+Z9 364
+SN 0960-7447
+PD JAN
+PY 2003
+VL 12
+IS 1
+BP 53
+EP 64
+DI 10.1046/j.1466-822X.2003.00322.x
+UT WOS:000180893200007
+ER
+
+PT J
+AU Shipley, B
+   Almeida-Cortez, J
+AF Shipley, B
+   Almeida-Cortez, J
+TI Interspecific consistency and intraspecific variability of specific leaf
+   area with respect to irradiance and nutrient availability
+SO ECOSCIENCE
+C1 Univ Sherbrooke, Dept Biol, Sherbrooke, PQ J1K 2R1, Canada.
+   Univ Fed Pernambuco, Dept Bot, CCB, BR-50372970 Recife, PE, Brazil.
+RP Shipley, B (reprint author), Univ Sherbrooke, Dept Biol, Sherbrooke, PQ J1K 2R1, Canada
+TC 7
+Z9 19
+SN 1195-6860
+PY 2003
+VL 10
+IS 1
+BP 74
+EP 79
+UT WOS:000182155200011
+ER
+
+PT J
+AU Silvius, KM
+   Fragoso, JMV
+AF Silvius, KM
+   Fragoso, JMV
+TI Pulp handling by vertebrate seed dispersers increases palm seed
+   predation by bruchid beetles in the northern Amazon
+SO JOURNAL OF ECOLOGY
+C1 Univ Florida, Dept Zool, Gainesville, FL 32611 USA.
+   Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+RP Silvius, KM (reprint author), SUNY ESF, Fac Environm & Forest Biol, 6 Illick Hall,1 Forestry Dr, Syracuse, NY 13210 USA
+TC 21
+Z9 21
+SN 0022-0477
+PD DEC
+PY 2002
+VL 90
+IS 6
+BP 1024
+EP 1032
+DI 10.1046/j.1365-2745.2002.00728.x
+UT WOS:000179548000011
+ER
+
+PT J
+AU Toth, E
+   Queller, DC
+   Imperatriz-Fonseca, VL
+   Strassmann, JE
+AF Toth, E
+   Queller, DC
+   Imperatriz-Fonseca, VL
+   Strassmann, JE
+TI Genetic and behavioral conflict over male production between workers and
+   queens in the stingless bee Paratrigona subnuda
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Rice Univ, Houston, TX 77251 USA.
+   Univ Sao Paulo, Dept Ecol Geral, BR-05508900 Sao Paulo, Brazil.
+RP Toth, E (reprint author), Rice Univ, POB 1892, Houston, TX 77251 USA
+TC 24
+Z9 25
+SN 0340-5443
+PD DEC
+PY 2002
+VL 53
+IS 1
+BP 1
+EP 8
+DI 10.1007/s00265-002-0543-6
+UT WOS:000179993400001
+ER
+
+PT J
+AU Asner, GP
+   Palace, M
+   Keller, M
+   Pereira, R
+   Silva, JNM
+   Zweede, JC
+AF Asner, GP
+   Palace, M
+   Keller, M
+   Pereira, R
+   Silva, JNM
+   Zweede, JC
+TI Estimating canopy structure in an Amazon Forest from laser range finder
+   and IKONOS satellite observations
+SO BIOTROPICA
+C1 Stanford Univ, Carnegie Inst Washington, Dept Global Ecol, Stanford, CA 94305 USA.
+   Univ New Hampshire, Complex Syst Res Ctr, Durham, NH 03824 USA.
+   USDA, Forest Serv, Int Inst Trop Forestry, Rio Piedras, PR USA.
+   Fdn Floresta Trop, BR-66063140 Belem, Para, Brazil.
+   EMBRAPA Amazonia Oriental, BR-66095100 Belem, Para, Brazil.
+RP Asner, GP (reprint author), Stanford Univ, Carnegie Inst Washington, Dept Global Ecol, Stanford, CA 94305 USA
+TC 31
+Z9 33
+SN 0006-3606
+PD DEC
+PY 2002
+VL 34
+IS 4
+BP 483
+EP 492
+DI 10.1111/j.1744-7429.2002.tb00568.x
+UT WOS:000180539800002
+ER
+
+PT J
+AU Francisco, MR
+   Lunardi, VD
+   Galetti, M
+AF Francisco, MR
+   Lunardi, VD
+   Galetti, M
+TI Massive seed predation of Pseudobombax grandiflorum (Bombacaceae) by
+   parakeets Brotogeris versicolurus (Psittacidae) in a forest fragment in
+   brazil
+SO BIOTROPICA
+C1 Univ Fed Sao Carlos, Porgrama Pos Grad Ecol & Recursos Nat, Dept Genet & Evolucao, BR-13565905 Sao Carlos, SP, Brazil.
+   Univ Estadual Paulista, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, BR-13506900 Rio Claro, SP, Brazil.
+RP Francisco, MR (reprint author), Univ Fed Sao Carlos, Porgrama Pos Grad Ecol & Recursos Nat, Dept Genet & Evolucao, Rod Washington Luis,Km 235,POB 676, BR-13565905 Sao Carlos, SP, Brazil
+TC 9
+Z9 11
+SN 0006-3606
+PD DEC
+PY 2002
+VL 34
+IS 4
+BP 613
+EP 615
+DI 10.1646/0006-3606(2002)034[0613:MSPOPG]2.0.CO;2
+UT WOS:000180539800016
+ER
+
+PT J
+AU Cunha, AA
+   Vieira, MV
+AF Cunha, AA
+   Vieira, MV
+TI Support diameter, incline, and vertical movements of four didelphid
+   marsupials in the Atlantic forest of Brazil
+SO JOURNAL OF ZOOLOGY
+C1 Univ Fed Rio de Janeiro, Dept Ecol, Lab Vertebrados, BR-21941590 Rio De Janeiro, Brazil.
+RP Vieira, MV (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Lab Vertebrados, CP 68020, BR-21941590 Rio De Janeiro, Brazil
+TC 39
+Z9 49
+SN 0952-8369
+PD DEC
+PY 2002
+VL 258
+PN Part 4
+BP 419
+EP 426
+DI 10.1017/S0952836902001565
+UT WOS:000180485900001
+ER
+
+PT J
+AU Gerwing, JJ
+   Uhl, C
+AF Gerwing, JJ
+   Uhl, C
+TI Pre-logging liana cutting reduces liana regeneration in logging gaps in
+   the eastern Brazilian Amazon
+SO ECOLOGICAL APPLICATIONS
+C1 Penn State Univ, Interdept Program Ecol, University Pk, PA 16802 USA.
+   IMAZON, BR-66017000 Belem, Para, Brazil.
+   Penn State Univ, Dept Biol, University Pk, PA 16802 USA.
+RP Gerwing, JJ (reprint author), Portland State Univ, POB 751, Portland, OR 97207 USA
+TC 11
+Z9 11
+SN 1051-0761
+PD DEC
+PY 2002
+VL 12
+IS 6
+BP 1642
+EP 1651
+DI 10.2307/3099928
+UT WOS:000179986700007
+ER
+
+PT J
+AU Pires, AS
+   Lira, PK
+   Fernandez, FAS
+   Schittini, GM
+   Oliveira, LC
+AF Pires, AS
+   Lira, PK
+   Fernandez, FAS
+   Schittini, GM
+   Oliveira, LC
+TI Frequency of movements of small mammals among Atlantic Coastal Forest
+   fragments in Brazil
+SO BIOLOGICAL CONSERVATION
+C1 Univ Fed Rio de Janeiro, CCS, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.
+RP Fernandez, FAS (reprint author), Univ Fed Rio de Janeiro, CCS, Dept Ecol, CP 68020,Ilha Fundao, BR-21941590 Rio De Janeiro, RJ, Brazil
+TC 52
+Z9 57
+SN 0006-3207
+PD DEC
+PY 2002
+VL 108
+IS 2
+BP 229
+EP 237
+DI 10.1016/S0006-3207(02)00109-X
+UT WOS:000178204700009
+ER
+
+PT J
+AU Camargo, JLC
+   Ferraz, IDK
+   Imakawa, AM
+AF Camargo, JLC
+   Ferraz, IDK
+   Imakawa, AM
+TI Rehabilitation of degraded areas of central Amazonia using direct sowing
+   of forest tree seeds
+SO RESTORATION ECOLOGY
+C1 Brazilian Inst Res Amazon INPA, Dept Trop Silviculture, BR-69011970 Manaus, Amazonas, Brazil.
+RP Camargo, JLC (reprint author), INPA CPST, POB 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 28
+Z9 34
+SN 1061-2971
+PD DEC
+PY 2002
+VL 10
+IS 4
+BP 636
+EP 644
+DI 10.1046/j.1526-100X.2002.01044.x
+UT WOS:000179493700004
+ER
+
+PT J
+AU Williams, M
+   Shimabukuro, YE
+   Herbert, DA
+   Lacruz, SP
+   Renno, C
+   Rastetter, EB
+AF Williams, M
+   Shimabukuro, YE
+   Herbert, DA
+   Lacruz, SP
+   Renno, C
+   Rastetter, EB
+TI Heterogeneity of soils and vegetation in an eastern Amazonian rain
+   forest: Implications for scaling up biomass and production
+SO ECOSYSTEMS
+C1 Univ Edinburgh, Inst Ecol & Resource Management, Edinburgh EH9 3JU, Midlothian, Scotland.
+   Marine Biol Lab, Ctr Ecosyst, Woods Hole, MA 02543 USA.
+   Inst Nacl Pesquisas Espaciais, BR-12201 Sao Jose Dos Campos, Brazil.
+RP Williams, M (reprint author), Univ Edinburgh, Inst Ecol & Resource Management, Edinburgh EH9 3JU, Midlothian, Scotland
+TC 17
+Z9 18
+SN 1432-9840
+PD NOV
+PY 2002
+VL 5
+IS 7
+BP 692
+EP 704
+DI 10.1007/s10021-002-0165-x
+UT WOS:000179275900009
+ER
+
+PT J
+AU Tonhasca, A
+   Blackmer, JL
+   Albuquerque, GS
+AF Tonhasca, A
+   Blackmer, JL
+   Albuquerque, GS
+TI Within-habitat heterogeneity of euglossine bee populations: a
+   re-evaluation of the evidence
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Norte Fluminense, BR-28015620 Campos dos Goytacazes, RJ, Brazil.
+RP Tonhasca, A (reprint author), Univ Estadual Norte Fluminense, Av Alberto Lamego 2000, BR-28015620 Campos dos Goytacazes, RJ, Brazil
+TC 10
+Z9 9
+SN 0266-4674
+PD NOV
+PY 2002
+VL 18
+PN Part 6
+BP 929
+EP 933
+DI 10.1017/S0266467402002602
+UT WOS:000179020900009
+ER
+
+PT J
+AU Martins, SV
+   Rodrigues, RR
+AF Martins, SV
+   Rodrigues, RR
+TI Gap-phase regeneration in a semideciduous mesophytic forest,
+   south-eastern Brazil
+SO PLANT ECOLOGY
+C1 Univ Fed Vicosa, Dept Engn Florestal, BR-36571000 Vicosa, MG, Brazil.
+   Univ Sao Paulo, Escola Super Agr Luiz de Queiroz, Dept Ciencias Biol, Piracicaba, SP, Brazil.
+RP Martins, SV (reprint author), Univ Fed Vicosa, Dept Engn Florestal, BR-36571000 Vicosa, MG, Brazil
+TC 23
+Z9 29
+SN 1385-0237
+PD NOV
+PY 2002
+VL 163
+IS 1
+BP 51
+EP 62
+UT WOS:000178236800005
+ER
+
+PT J
+AU Grelle, CEV
+AF Grelle, CEV
+TI Is higher-taxon analysis an useful surrogate of species richness in
+   studies of Neotropical mammal diversity?
+SO BIOLOGICAL CONSERVATION
+C1 UERJ, IBRAG, DBAV, Setor Zool,Lab Zool Vertebrados, BR-20559900 Rio De Janeiro, Brazil.
+RP Grelle, CEV (reprint author), UERJ, IBRAG, DBAV, Setor Zool,Lab Zool Vertebrados, Av Sao Francisco Xavier,524 Maracana, BR-20559900 Rio De Janeiro, Brazil
+TC 24
+Z9 27
+SN 0006-3207
+PD NOV
+PY 2002
+VL 108
+IS 1
+BP 101
+EP 106
+DI 10.1016/S0006-3207(02)00094-0
+UT WOS:000177885800010
+ER
+
+PT J
+AU Metzger, JP
+AF Metzger, JP
+TI Landscape dynamics and equilibrium in areas of slash-and-burn
+   agriculture with short and long fallow period (Bragantina region, NE
+   Brazilian Amazon)
+SO LANDSCAPE ECOLOGY
+C1 Univ Sao Paulo, Inst Biosci, Dept Ecol, BR-05508900 Sao Paulo, Brazil.
+RP Metzger, JP (reprint author), Univ Sao Paulo, Inst Biosci, Dept Ecol, Rua Matao 321,Travessa 14, BR-05508900 Sao Paulo, Brazil
+TC 15
+Z9 16
+SN 0921-2973
+PD OCT
+PY 2002
+VL 17
+IS 5
+BP 419
+EP 431
+DI 10.1023/A:1021250306481
+UT WOS:000179388800004
+ER
+
+PT J
+AU Bruna, EM
+   Kress, WJ
+AF Bruna, EM
+   Kress, WJ
+TI Habitat fragmentation and the demographic structure of an Amazonian
+   understory herb (Heliconia acuminata)
+SO CONSERVATION BIOLOGY
+C1 Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
+   Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   Smithsonian Inst, Natl Museum Nat Hist, Dept Systemat Biol Bot, Washington, DC 20560 USA.
+   Natl Inst Res Amazon, INPA, Biol Dynam Forest Fragments Project, BR-69011 Manaus, Amazonas, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA
+TC 30
+Z9 33
+SN 0888-8892
+PD OCT
+PY 2002
+VL 16
+IS 5
+BP 1256
+EP 1266
+DI 10.1046/j.1523-1739.2002.99494.x
+UT WOS:000178183600012
+ER
+
+PT J
+AU Izzo, TJ
+   Vasconcelos, HL
+AF Izzo, TJ
+   Vasconcelos, HL
+TI Cheating the cheater: domatia loss minimizes the effects of ant
+   castration in an Amazonian ant-plant
+SO OECOLOGIA
+C1 Inst Nacl de Pesquisas da Amazonia, Coordenacao Pesquisas Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+RP Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil
+TC 39
+Z9 43
+SN 0029-8549
+PD OCT
+PY 2002
+VL 133
+IS 2
+BP 200
+EP 205
+DI 10.1007/s00442-002-1027-0
+UT WOS:000178825900013
+ER
+
+PT J
+AU Villela, DM
+   Proctor, J
+AF Villela, DM
+   Proctor, J
+TI Leaf litter decomposition and monodominance in the Peltogyne forest of
+   Maraca Island, Brazil
+SO BIOTROPICA
+C1 Univ Stirling, Dept Biol & Mol Sci, Stirling FK9 4LA, Scotland.
+RP Villela, DM (reprint author), Univ Estadual Norte Fluminese, Lab Ciencias Ambientais, CBB, BR-28015620 Campos Dos Goytacazes, RJ, Brazil
+TC 9
+Z9 9
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 334
+EP 347
+DI 10.1111/j.1744-7429.2002.tb00547.x
+UT WOS:000178898900001
+ER
+
+PT J
+AU Paarmann, W
+   Gutzmann, B
+   Stumpe, P
+   Bolte, H
+   Kuppers, S
+   Holzkamp, K
+   Niers, C
+   Adis, J
+   Stork, NE
+   da Fonseca, CRV
+AF Paarmann, W
+   Gutzmann, B
+   Stumpe, P
+   Bolte, H
+   Kuppers, S
+   Holzkamp, K
+   Niers, C
+   Adis, J
+   Stork, NE
+   da Fonseca, CRV
+TI The structure of ground beetle assemblages (Coleoptera : Carabidae) at
+   fruit falls of Melastomataceae trees in a Brazilian terra firme rain
+   forest
+SO BIOTROPICA
+C1 Fachhsch Hildesheim Holzminden Gottingen, Fachbereich Forstwirtschaft & Umweltmanagement, D-37077 Gottingen, Germany.
+   AG Tropenokol, Max Planck Inst Limnol, D-24302 Plon, Germany.
+   James Cook Univ N Queensland, Cooperat Res Ctr Trop Rainforest Ecol & Managemen, Cairns, Qld 4870, Australia.
+   INPA, CPEN, BR-69011970 Manaus, Amazonas, Brazil.
+RP Paarmann, W (reprint author), Fachhsch Hildesheim Holzminden Gottingen, Fachbereich Forstwirtschaft & Umweltmanagement, Busgenweg 1A, D-37077 Gottingen, Germany, Germany
+TC 2
+Z9 4
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 368
+EP 375
+DI 10.1646/0006-3606(2002)034[0368:TSOGBA]2.0.CO;2
+UT WOS:000178898900004
+ER
+
+PT J
+AU Tonhasca, A
+   Blackmer, JL
+   Albuquerque, GS
+AF Tonhasca, A
+   Blackmer, JL
+   Albuquerque, GS
+TI Abundance and diversity of euglossine bees in the fragmented landscape
+   of the Brazilian Atlantic forest
+SO BIOTROPICA
+C1 Univ Estadual Norte Fluminese, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+RP Tonhasca, A (reprint author), Univ Estadual Norte Fluminese, Av Alberto Lamego 2000, BR-28015620 Campos Dos Goytacazes, RJ, Brazil
+TC 41
+Z9 44
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 416
+EP 422
+DI 10.1111/j.1744-7429.2002.tb00555.x
+UT WOS:000178898900009
+ER
+
+PT J
+AU Camargo, JMF
+   Pedro, SRM
+AF Camargo, JMF
+   Pedro, SRM
+TI Mutualistic association between a tiny Amazonian stingless bee and a
+   wax-producing scale insect
+SO BIOTROPICA
+C1 Univ Sao Paulo, Fac Filosofia Ciencias & Letras Ribeirao Pret, Dept Biol, BR-14040901 Ribeirao Preto, SP, Brazil.
+RP Camargo, JMF (reprint author), Univ Sao Paulo, Fac Filosofia Ciencias & Letras Ribeirao Pret, Dept Biol, Av Bandeirantes 3900, BR-14040901 Ribeirao Preto, SP, Brazil
+TC 9
+Z9 9
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 446
+EP 451
+DI 10.1111/j.1744-7429.2002.tb00559.x
+UT WOS:000178898900013
+ER
+
+PT J
+AU Grombone-Guaratini, MT
+   Rodrigues, RR
+AF Grombone-Guaratini, MT
+   Rodrigues, RR
+TI Seed bank and seed rain in a seasonal semi-deciduous forest in
+   south-eastern Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Campinas, UNICAMP, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+   Escola Super Agr Luis Dequeiroz, Dept Ciencias Biol, BR-13418900 Sao Paulo, Brazil.
+RP Grombone-Guaratini, MT (reprint author), Univ Estadual Campinas, UNICAMP, Dept Bot, Cx P 6109, BR-13083970 Campinas, SP, Brazil
+TC 23
+Z9 25
+SN 0266-4674
+PD SEP
+PY 2002
+VL 18
+PN Part 5
+BP 759
+EP 774
+DI 10.1017/S0266467402002493
+UT WOS:000178060700008
+ER
+
+PT J
+AU Ribeiro, LF
+   Tabarelli, M
+AF Ribeiro, LF
+   Tabarelli, M
+TI A structural gradient in cerrado vegetation of Brazil: changes in woody
+   plant density, species richness, life history and plant composition
+RID F-1088-2010
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Pernambuco, Dept Bot, BR-50670901 Recife, Brazil.
+RP Tabarelli, M (reprint author), Univ Fed Pernambuco, Dept Bot, BR-50670901 Recife, Brazil
+TC 11
+Z9 11
+SN 0266-4674
+PD SEP
+PY 2002
+VL 18
+PN Part 5
+BP 775
+EP 794
+DI 10.1017/S026646740200250X
+UT WOS:000178060700009
+ER
+
+PT J
+AU Nascimento, HEM
+   Laurance, WF
+AF Nascimento, HEM
+   Laurance, WF
+TI Total aboveground biomass in central Amazonian rainforests: a
+   landscape-scale study
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Amazonian Res, INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+RP Laurance, WF (reprint author), Natl Inst Amazonian Res, INPA, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 58
+Z9 59
+SN 0378-1127
+PD SEP 1
+PY 2002
+VL 168
+IS 1-3
+BP 311
+EP 321
+DI 10.1016/S0378-1127(01)00749-6
+UT WOS:000177478900025
+ER
+
+PT J
+AU Pereira, R
+   Zweede, J
+   Asner, GP
+   Keller, M
+AF Pereira, R
+   Zweede, J
+   Asner, GP
+   Keller, M
+TI Forest canopy damage and recovery in reduced-impact and conventional
+   selective logging in eastern Para, Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ New Hampshire, Complex Syst Res Ctr, Durham, NH 03824 USA.
+   Fdn Floresta Trop, BR-66063140 Belem, Para, Brazil.
+   Univ Colorado, Dept Geol Sci, Boulder, CO 80309 USA.
+   Univ Colorado, Environm Studies Program, Boulder, CO 80309 USA.
+   USDA, Forest Serv, Int Inst Trop Forestry, Rio Piedras, PR 00928 USA.
+RP Keller, M (reprint author), Univ New Hampshire, Complex Syst Res Ctr, Morse Hall, Durham, NH 03824 USA
+TC 57
+Z9 58
+SN 0378-1127
+PD SEP 1
+PY 2002
+VL 168
+IS 1-3
+BP 77
+EP 89
+DI 10.1016/S0378-1127(01)00732-0
+UT WOS:000177478900007
+ER
+
+PT J
+AU Soares, BS
+   Cerqueira, GC
+   Pennachin, CL
+AF Soares, BS
+   Cerqueira, GC
+   Pennachin, CL
+TI DINAMICA - a stochastic cellular automata model designed to simulate the
+   landscape dynamics in an Amazonian colonization frontier
+SO ECOLOGICAL MODELLING
+C1 Univ Fed Minas Gerais, Dept Cartog, BR-31270900 Belo Horizonte, MG, Brazil.
+   Univ Fed Minas Gerais, Remote Sensing Ctr, BR-31270900 Belo Horizonte, MG, Brazil.
+   Intelligenesis Brasil Ltda, BR-30140003 Belo Horizonte, MG, Brazil.
+RP Soares, BS (reprint author), Univ Fed Minas Gerais, Dept Cartog, Av Antonio Carlos, BR-31270900 Belo Horizonte, MG, Brazil
+TC 66
+Z9 76
+SN 0304-3800
+PD SEP 1
+PY 2002
+VL 154
+IS 3
+BP 217
+EP 235
+DI 10.1016/S0304-3800(02)00059-5
+UT WOS:000177198400003
+ER
+
+PT J
+AU Hawkins, BA
+   Diniz, JAF
+AF Hawkins, BA
+   Diniz, JAF
+TI The mid-domain effect cannot explain the diversity gradient of Nearctic
+   birds
+RID A-3510-2011
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+C1 Univ Calif Irvine, Dept Ecol & Evolutionary Biol, Irvine, CA 92697 USA.
+   Univ Fed Goias, ICB, Dept Biol Geral, BR-74001970 Goiania, Go, Brazil.
+RP Hawkins, BA (reprint author), Univ Calif Irvine, Dept Ecol & Evolutionary Biol, Irvine, CA 92697 USA
+TC 62
+Z9 66
+SN 0960-7447
+PD SEP
+PY 2002
+VL 11
+IS 5
+BP 419
+EP 426
+DI 10.1046/j.1466-822x.2002.00299.x
+UT WOS:000178189800007
+ER
+
+PT J
+AU Dudley, R
+   Srygley, RB
+   Oliveira, EG
+   DeVries, PJ
+AF Dudley, R
+   Srygley, RB
+   Oliveira, EG
+   DeVries, PJ
+TI Flight speeds, lipid reserves, and predation of the migratory
+   neotropical moth Urania fulgens (Uraniidae)
+SO BIOTROPICA
+C1 Univ Texas, Sect Integrat Biol, Austin, TX 78712 USA.
+   Univ Oxford, Dept Zool, Oxford OX1 3PS, England.
+   Univ Fed Minas Gerais, Inst Ciencias Biol, BR-30161970 Belo Horizonte, MG, Brazil.
+   Milwaukee Publ Museum, Ctr Biodivers Studies, Milwaukee, WI 53233 USA.
+RP Dudley, R (reprint author), Univ Texas, Sect Integrat Biol, Austin, TX 78712 USA,USA
+TC 1
+Z9 2
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 452
+EP 458
+DI 10.1646/0006-3606(2002)034[0452:FSLRAP]2.0.CO;2
+UT WOS:000178898900014
+ER
+
+PT J
+AU Bruna, EM
+   Nardy, O
+   Strauss, SY
+   Harrison, S
+AF Bruna, EM
+   Nardy, O
+   Strauss, SY
+   Harrison, S
+TI Experimental assessment of Heliconia acuminata growth in a fragmented
+   Amazonian landscape
+SO JOURNAL OF ECOLOGY
+C1 Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   INPA, PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Estadual Paulista, Dept Ecol, BR-13506900 Rio Claro, SP, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA
+TC 18
+Z9 18
+SN 0022-0477
+PD AUG
+PY 2002
+VL 90
+IS 4
+BP 639
+EP 649
+DI 10.1046/j.1365-2745.2002.00707.x
+UT WOS:000177368400005
+ER
+
+PT J
+AU De Almeida, MAF
+   Geden, CJ
+   Do Prado, AR
+AF De Almeida, MAF
+   Geden, CJ
+   Do Prado, AR
+TI Influence of feeding treatment, host density, temperature, and cool
+   storage on attack rates of Tachinaephagus zealandicus (Hymenoptera :
+   Encyrtidae)
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 UNICAMP, Inst Biol, Dept Parasitol, BR-13083970 Campinas, SP, Brazil.
+   ARS, USDA, Med & Vet Entomol Res Lab, Gainesville, FL 32601 USA.
+RP De Almeida, MAF (reprint author), UNICAMP, Inst Biol, Dept Parasitol, CP 6109, BR-13083970 Campinas, SP, Brazil, Brazil
+TC 4
+Z9 4
+SN 0046-225X
+PD AUG
+PY 2002
+VL 31
+IS 4
+BP 732
+EP 738
+UT WOS:000177610500020
+ER
+
+PT J
+AU Navas, CA
+   Jared, C
+   Antoniazzi, MM
+AF Navas, CA
+   Jared, C
+   Antoniazzi, MM
+TI Water economy in the casque-headed tree-frog Corythomantis greeningi
+   (Hylidae): role of behaviour, skin, and skull skin co-ossification
+SO JOURNAL OF ZOOLOGY
+C1 Inst Butantan, Lab Biol Celular, BR-05503900 Sao Paulo, Brazil.
+   Univ Sao Paulo, Inst Biociencias, Dept Fisiol, BR-05508900 Sao Paulo, Brazil.
+RP Jared, C (reprint author), Inst Butantan, Lab Biol Celular, Avenida Vital Brazil 1500, BR-05503900 Sao Paulo, Brazil
+TC 9
+Z9 10
+SN 0952-8369
+PD AUG
+PY 2002
+VL 257
+PN Part 4
+BP 525
+EP 532
+DI 10.1017/S0952836902001103
+UT WOS:000177595100008
+ER
+
+PT J
+AU Zinn, YL
+   Resck, DVS
+   da Silva, JE
+AF Zinn, YL
+   Resck, DVS
+   da Silva, JE
+TI Soil organic carbon as affected by afforestation with Eucalyptus and
+   Pinus in the Cerrado region of Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Ohio State Univ, Sch Nat Resources, Columbus, OH 43210 USA.
+   EMBRAPA, Cerrados Agr Res Ctr, BR-73301970 Planaltina, DF, Brazil.
+RP Zinn, YL (reprint author), Ohio State Univ, Sch Nat Resources, 2021 Coffey Rd, Columbus, OH 43210 USA
+EM zinn.14@osu.edu
+TC 48
+Z9 58
+SN 0378-1127
+PD AUG 1
+PY 2002
+VL 166
+IS 1-3
+BP 285
+EP 294
+DI 10.1016/S0378-1127(01)00682-X
+UT WOS:000177023600021
+ER
+
+PT J
+AU da Silva, RP
+   dos Santos, J
+   Tribuzy, ES
+   Chambers, JQ
+   Nakamura, S
+   Higuchi, N
+AF da Silva, RP
+   dos Santos, J
+   Tribuzy, ES
+   Chambers, JQ
+   Nakamura, S
+   Higuchi, N
+TI Diameter increment and growth patterns for individual tree growing in
+   Central Amazon, Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Amazon Res, Trop Forestry Dept, INPA, BR-69011970 Manaus, Amazonas, Brazil.
+RP Higuchi, N (reprint author), Natl Inst Amazon Res, Trop Forestry Dept, INPA, Caixa Postal 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 25
+Z9 25
+SN 0378-1127
+PD AUG 1
+PY 2002
+VL 166
+IS 1-3
+BP 295
+EP 301
+DI 10.1016/S0378-1127(01)00678-8
+UT WOS:000177023600022
+ER
+
+PT J
+AU Dunisch, O
+   Schwarz, T
+   Neves, EJM
+AF Dunisch, O
+   Schwarz, T
+   Neves, EJM
+TI Nutrient fluxes and growth of Carapa guianensis Aubl. in two plantation
+   systems in the central Amazon
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Hamburg, Inst Wood Biol, D-21031 Hamburg, Germany.
+   Fed Res Ctr Forest Prod, D-21031 Hamburg, Germany.
+   EMBRAPA Florestas, CNPF, BR-83411000 Colombo, PR, Brazil.
+RP Dunisch, O (reprint author), Univ Hamburg, Inst Wood Biol, Leuschnerstr 91, D-21031 Hamburg, Germany
+TC 3
+Z9 3
+SN 0378-1127
+PD AUG 1
+PY 2002
+VL 166
+IS 1-3
+BP 55
+EP 68
+DI 10.1016/S0378-1127(01)00675-2
+UT WOS:000177023600005
+ER
+
+PT J
+AU Diniz, JAF
+   Telles, MPD
+AF Diniz, JAF
+   Telles, MPD
+TI Spatial autocorrelation analysis and the identification of operational
+   units for conservation in continuous populations
+SO CONSERVATION BIOLOGY
+C1 Univ Fed Goias, Dept Biol Geral, Inst Ciencias Biol, BR-74001970 Goiania, Go, Brazil.
+   Univ Catolica Goias, Dept Zootecn, Goiania, Go, Brazil.
+RP Diniz, JAF (reprint author), Univ Fed Goias, Dept Biol Geral, Inst Ciencias Biol, CxP 131, BR-74001970 Goiania, Go, Brazil
+EM diniz@icbl.ufg.br
+TC 77
+Z9 82
+SN 0888-8892
+PD AUG
+PY 2002
+VL 16
+IS 4
+BP 924
+EP 935
+DI 10.1046/j.1523-1739.2002.00295.x
+UT WOS:000177199500010
+ER
+
+PT J
+AU Laurance, WF
+AF Laurance, WF
+TI Hyperdynamism in fragmented habitats
+SO JOURNAL OF VEGETATION SCIENCE
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 37
+Z9 37
+SN 1100-9233
+PD AUG
+PY 2002
+VL 13
+IS 4
+BP 595
+EP 602
+DI 10.1111/j.1654-1103.2002.tb02086.x
+UT WOS:000178961700015
+ER
+
+PT J
+AU Tabarelli, M
+   Peres, CA
+AF Tabarelli, M
+   Peres, CA
+TI Abiotic and vertebrate seed dispersal in the Brazilian Atlantic forest:
+   implications for forest regeneration
+RID F-1088-2010
+SO BIOLOGICAL CONSERVATION
+C1 Univ Fed Pernambuco, Dept Bot, CCB, BR-50670901 Recife, PE, Brazil.
+   Univ E Anglia, Sch Environm Sci, Norwich NR4 7TJ, Norfolk, England.
+RP Tabarelli, M (reprint author), Univ Fed Pernambuco, Dept Bot, CCB, BR-50670901 Recife, PE, Brazil
+TC 46
+Z9 49
+SN 0006-3207
+PD AUG
+PY 2002
+VL 106
+IS 2
+BP 165
+EP 176
+DI 10.1016/S0006-3207(01)00243-9
+UT WOS:000176269900004
+ER
+
+PT J
+AU Lopez-Zamora, I
+   Falcao, N
+   Comerford, NB
+   Barros, NF
+AF Lopez-Zamora, I
+   Falcao, N
+   Comerford, NB
+   Barros, NF
+TI Root isotropy and an evaluation of a method for measuring root
+   distribution in soil trenches
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Florida, Dept Soil & Water Sci, Gainesville, FL 32611 USA.
+   Natl Inst Amazonian Res, Manaus, Amazonas, Brazil.
+   Univ Fed Vicosa, Vicosa, MG, Brazil.
+RP Comerford, NB (reprint author), Univ Florida, Dept Soil & Water Sci, POB 110290, Gainesville, FL 32611 USA,USA
+TC 9
+Z9 9
+SN 0378-1127
+PD AUG 1
+PY 2002
+VL 166
+IS 1-3
+BP 303
+EP 310
+DI 10.1016/S0378-1127(01)00679-X
+UT WOS:000177023600023
+ER
+
+PT J
+AU Tanaka, MO
+   Magalhaes, CA
+AF Tanaka, MO
+   Magalhaes, CA
+TI Edge effects and succession dynamics in Brachidontes mussel beds
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Estadual Campinas, Programa Grad & Ecol, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Dept Zool, Inst Biol, BR-13083970 Campinas, SP, Brazil.
+RP Tanaka, MO (reprint author), Univ Fed Mato Grosso Sul, Setor Ecol, Dept Biol, CP 549, BR-79070900 Campo Grande, MS, Brazil
+TC 8
+Z9 8
+SN 0171-8630
+PD JUL 18
+PY 2002
+VL 237
+BP 151
+EP 158
+DI 10.3354/meps237151
+UT WOS:000177535300014
+ER
+
+PT J
+AU Sist, P
+   Nguyen-The, N
+AF Sist, P
+   Nguyen-The, N
+TI Logging damage and the subsequent dynamics of a dipterocarp forest in
+   East Kalimantan (1990-1996)
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Embrapa Amazonia Oriental, Convenio Cirad Foret Embrapa, BR-66095100 Belem, Para, Brazil.
+   AFOCEL, F-34980 St Clement Riviere, France.
+RP Sist, P (reprint author), Embrapa Amazonia Oriental, Convenio Cirad Foret Embrapa, Trav Dr Enaes Pinneiro, BR-66095100 Belem, Para, Brazil
+TC 35
+Z9 37
+SN 0378-1127
+PD JUL 15
+PY 2002
+VL 165
+IS 1-3
+BP 85
+EP 103
+DI 10.1016/S0378-1127(01)00649-1
+UT WOS:000176620100008
+ER
+
+PT J
+AU Magnusson, WE
+   Sanaiotti, TM
+   Lima, AP
+   Martinelli, LA
+   Victoria, RL
+   de Araujo, MC
+   Albernaz, AL
+AF Magnusson, WE
+   Sanaiotti, TM
+   Lima, AP
+   Martinelli, LA
+   Victoria, RL
+   de Araujo, MC
+   Albernaz, AL
+TI A comparison of delta C-13 ratios of surface soils in savannas and
+   forests in Amazonia
+RID F-7870-2011
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Inst Nacl Pesquisas Amazonias, BR-69011970 Manaus, Amazonas, Brazil.
+   Ctr Energia Nucl Agr, BR-13416000 Piracicaba, SP, Brazil.
+RP Magnusson, WE (reprint author), Inst Nacl Pesquisas Amazonias, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 9
+Z9 9
+SN 0305-0270
+PD JUL
+PY 2002
+VL 29
+IS 7
+BP 857
+EP 863
+DI 10.1046/j.1365-2699.2002.00674.x
+UT WOS:000177026400003
+ER
+
+PT J
+AU Schongart, J
+   Piedade, MTF
+   Ludwigshausen, S
+   Horna, V
+   Worbes, M
+AF Schongart, J
+   Piedade, MTF
+   Ludwigshausen, S
+   Horna, V
+   Worbes, M
+TI Phenology and stem-growth periodicity of tree species in Amazonian
+   floodplain forests
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Gottingen, Inst Forest Bot, D-37077 Gottingen, Germany.
+   Inst Nacl de Pesquisas da Amazonia, BR-69011910 Manaus, Amazonas, Brazil.
+   Max Planck Inst Limnol, D-24302 Plon, Germany.
+   Univ Bayreuth, D-95440 Bayreuth, Germany.
+RP Schongart, J (reprint author), Univ Gottingen, Inst Forest Bot, Busgenweg 2, D-37077 Gottingen, Germany
+TC 57
+Z9 67
+SN 0266-4674
+PD JUL
+PY 2002
+VL 18
+PN Part 4
+BP 581
+EP 597
+DI 10.1017/S0266467402002389
+UT WOS:000177349500006
+ER
+
+PT J
+AU Smith, CK
+   Oliveira, FD
+   Gholz, HL
+   Baima, A
+AF Smith, CK
+   Oliveira, FD
+   Gholz, HL
+   Baima, A
+TI Soil carbon stocks after forest conversion to tree plantations in
+   lowland Amazonia, Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ So, Forest & Geol Dept, Sewanee, TN 37383 USA.
+   Univ Agr Sci, FCAP, Dept Soil Sci, BR-66077530 Belem, Para, Brazil.
+   Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   Univ Agr Sci, Dept Forestry, FCAP, BR-66077530 Belem, Para, Brazil.
+RP Smith, CK (reprint author), Univ So, Forest & Geol Dept, 735 Univ Ave, Sewanee, TN 37383 USA
+EM ksmith@sewanee.edu
+TC 20
+Z9 23
+SN 0378-1127
+PD JUL 1
+PY 2002
+VL 164
+IS 1-3
+BP 257
+EP 263
+DI 10.1016/S0378-1127(01)00599-0
+UT WOS:000176604900020
+ER
+
+PT J
+AU Nogueira-de-Sa, F
+   Trigo, JR
+AF Nogueira-de-Sa, F
+   Trigo, JR
+TI Do fecal shields provide physical protection to larvae of the tortoise
+   beetles Plagiometriona flavescens and Stolas chalybea against natural
+   enemies?
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Estadual Campinas, Lab Ecol Quim, Dept Zool, Inst Biol, BR-13083970 Campinas, SP, Brazil.
+RP Nogueira-de-Sa, F (reprint author), Univ Estadual Campinas, Lab Ecol Quim, Dept Zool, Inst Biol, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 12
+Z9 13
+SN 0013-8703
+PD JUL
+PY 2002
+VL 104
+IS 1
+BP 203
+EP 206
+DI 10.1046/j.1570-7458.2002.01007.x
+UT WOS:000179520500023
+ER
+
+PT J
+AU Negrao, JNC
+   de Carvalho, ED
+   Foresti, F
+   Quagio-Grassiotto, I
+AF Negrao, JNC
+   de Carvalho, ED
+   Foresti, F
+   Quagio-Grassiotto, I
+TI Spermatogonia and spermatocyte ultrastructure in Hoplias malabaricus
+   (Teleostei, Characiformes : Erythrinidae)
+SO JOURNAL OF ZOOLOGY
+C1 Univ Estadual Paulista, Inst Biociencias Botucatu, Dept Morfol, BR-18618000 Botucatu, SP, Brazil.
+RP Negrao, JNC (reprint author), Univ Estadual Paulista, Inst Biociencias Botucatu, Dept Morfol, BR-18618000 Botucatu, SP, Brazil
+TC 1
+Z9 1
+SN 0952-8369
+PD JUL
+PY 2002
+VL 257
+PN Part 3
+BP 287
+EP 293
+DI 10.1017/S0952836902000882
+UT WOS:000177482200002
+ER
+
+PT J
+AU Schroth, G
+   D'Angelo, SA
+   Teixeira, WG
+   Haag, D
+   Lieberei, R
+AF Schroth, G
+   D'Angelo, SA
+   Teixeira, WG
+   Haag, D
+   Lieberei, R
+TI Conversion of secondary forest into agroforestry and monoculture
+   plantations in Amazonia: consequences for biomass, litter and soil
+   carbon stocks after 7 years
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Hamburg, Inst Appl Bot, D-20355 Hamburg, Germany.
+   Embrapa Amazonia Ocidental, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Hohenheim, Inst Soil Sci & Land Evaluat, D-70599 Stuttgart, Germany.
+RP Schroth, G (reprint author), Natl Inst Res Amazon, INPA, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+EM schroth@internext.com.br
+TC 34
+Z9 37
+SN 0378-1127
+PD JUN 28
+PY 2002
+VL 163
+IS 1-3
+BP 131
+EP 150
+DI 10.1016/S0378-1127(01)00537-0
+UT WOS:000176460500011
+ER
+
+PT J
+AU Holmes, TP
+   Blate, GM
+   Zweede, JC
+   Pereira, R
+   Barreto, P
+   Boltz, F
+   Bauch, R
+AF Holmes, TP
+   Blate, GM
+   Zweede, JC
+   Pereira, R
+   Barreto, P
+   Boltz, F
+   Bauch, R
+TI Financial and ecological indicators of reduced impact logging
+   performance in the eastern Amazon
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 USDA, Forest Serv, So Res Stn, Res Triangle Pk, NC 27709 USA.
+   Trop Forest Fdn, Alexandria, VA 22314 USA.
+   Fdn Floresta Trop, Belem, Para, Brazil.
+   Inst Homen & Meio Ambiente Amazonia, Belem, Para, Brazil.
+   Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+RP Holmes, TP (reprint author), USDA, Forest Serv, So Res Stn, POB 12254, Res Triangle Pk, NC 27709 USA
+TC 58
+Z9 65
+SN 0378-1127
+PD JUN 28
+PY 2002
+VL 163
+IS 1-3
+BP 93
+EP 110
+DI 10.1016/S0378-1127(01)00530-8
+UT WOS:000176460500008
+ER
+
+PT J
+AU Williamson, GB
+   Ickes, K
+AF Williamson, GB
+   Ickes, K
+TI Mast fruiting and ENSO cycles - does the cue betray a cause?
+SO OIKOS
+C1 Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.
+   Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Aberdeen, Dept Plant & Soil Sci, Aberdeen AB24 3UU, Scotland.
+RP Williamson, GB (reprint author), Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA
+EM btwill@lsu.edu
+TC 18
+Z9 21
+SN 0030-1299
+PD JUN
+PY 2002
+VL 97
+IS 3
+BP 459
+EP 461
+DI 10.1034/j.1600-0706.2002.970317.x
+UT WOS:000177002200017
+ER
+
+PT J
+AU Passos, L
+   Oliveira, PS
+AF Passos, L
+   Oliveira, PS
+TI Ants affect the distribution and performance of seedlings of Clusia
+   criuva, a primarily bird-dispersed rain forest tree
+SO JOURNAL OF ECOLOGY
+C1 Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+RP Oliveira, PS (reprint author), Univ Estadual Campinas, Dept Zool, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 42
+Z9 49
+SN 0022-0477
+PD JUN
+PY 2002
+VL 90
+IS 3
+BP 517
+EP 528
+DI 10.1046/j.1365-2745.2002.00687.x
+UT WOS:000175666900009
+ER
+
+PT J
+AU Costa, FRC
+   Senna, C
+   Nakkazono, EM
+AF Costa, FRC
+   Senna, C
+   Nakkazono, EM
+TI Effects of selective logging on populations of two tropical understory
+   herbs in an Amazonian forest
+SO BIOTROPICA
+C1 Inst Nacl de Pesquisas da Amazonia, Programa Posgrad Biol Trop & Recursos Nat, Div Curso Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   Museu Paraense Emilio Goeldi, Dept Ecol, BR-66040170 Belem, Para, Brazil.
+RP Costa, FRC (reprint author), Inst Nacl de Pesquisas da Amazonia, Programa Posgrad Biol Trop & Recursos Nat, Div Curso Ecol, CP 478, BR-69011970 Manaus, Amazonas, Brazil, Brazil
+TC 5
+Z9 5
+SN 0006-3606
+PD JUN
+PY 2002
+VL 34
+IS 2
+BP 289
+EP 296
+DI 10.1111/j.1744-7429.2002.tb00540.x
+UT WOS:000176587000011
+ER
+
+PT J
+AU Sanches, MC
+   Valio, IFM
+AF Sanches, MC
+   Valio, IFM
+TI Seed and seedling survival of some climber species in a southeast
+   Brazilian tropical forest
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Inst Biol, Dept Fisiol Vegetal, BR-13083970 Campinas, SP, Brazil.
+RP Sanches, MC (reprint author), Univ Estadual Campinas, Inst Biol, Dept Fisiol Vegetal, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 3
+Z9 4
+SN 0006-3606
+PD JUN
+PY 2002
+VL 34
+IS 2
+BP 323
+EP 327
+DI 10.1646/0006-3606(2002)034[0323:SASSOS]2.0.CO;2
+UT WOS:000176587000015
+ER
+
+PT J
+AU Espirito-Santo, MM
+   Fernandes, GW
+AF Espirito-Santo, MM
+   Fernandes, GW
+TI Host plant effects on the development and survivorship of the galling
+   insect Neopelma baccharidis (Homoptera : Psyllidae)
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Minas Gerais, ICB, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Espirito-Santo, MM (reprint author), Univ Fed Minas Gerais, ICB, Dept Biol Geral, CP486, BR-30161970 Belo Horizonte, MG, Brazil
+TC 11
+Z9 12
+SN 1442-9985
+PD JUN
+PY 2002
+VL 27
+IS 3
+BP 249
+EP 257
+DI 10.1046/j.1442-9993.2002.01185.x
+UT WOS:000175748700002
+ER
+
+PT J
+AU Boubli, JP
+AF Boubli, JP
+TI Lowland floristic assessment of Pico da Neblina National Park, Brazil
+SO PLANT ECOLOGY
+C1 UFRJ, Museu Nacl, Dept Anthropol, BR-20940040 Rio De Janeiro, Brazil.
+RP Boubli, JP (reprint author), UFRJ, Museu Nacl, Dept Anthropol, Quinta Boa Vista S-N Sao Cristovao, BR-20940040 Rio De Janeiro, Brazil, Brazil
+TC 4
+Z9 6
+SN 1385-0237
+PD JUN
+PY 2002
+VL 160
+IS 2
+BP 149
+EP 167
+DI 10.1023/A:1015832811209
+UT WOS:000176226300003
+ER
+
+PT J
+AU Laurance, WF
+   Lovejoy, TE
+   Vasconcelos, HL
+   Bruna, EM
+   Didham, RK
+   Stouffer, PC
+   Gascon, C
+   Bierregaard, RO
+   Laurance, SG
+   Sampaio, E
+AF Laurance, WF
+   Lovejoy, TE
+   Vasconcelos, HL
+   Bruna, EM
+   Didham, RK
+   Stouffer, PC
+   Gascon, C
+   Bierregaard, RO
+   Laurance, SG
+   Sampaio, E
+TI Ecosystem decay of Amazonian forest fragments: A 22-year investigation
+RID B-5953-2011
+RID G-6021-2011
+SO CONSERVATION BIOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   H John Heinz III Ctr Sci Econ & Environm, Washington, DC 20004 USA.
+   Univ Canterbury, Dept Zool, Christchurch 1, New Zealand.
+   SE Louisiana Univ, Dept Biol Sci, Hammond, LA 70402 USA.
+   Conservat Int, Washington, DC 20036 USA.
+   Univ N Carolina, Dept Biol, Charlotte, NC 28223 USA.
+   Univ New England, Dept Ecosyst Management, Armidale, NSW 2351, Australia.
+   Univ Tubingen, Dept Zoophysiol, D-72076 Tubingen, Germany.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 436
+Z9 479
+SN 0888-8892
+PD JUN
+PY 2002
+VL 16
+IS 3
+BP 605
+EP 618
+DI 10.1046/j.1523-1739.2002.01025.x
+UT WOS:000175832000009
+ER
+
+PT J
+AU Malhi, Y
+   Phillips, OL
+   Lloyd, J
+   Baker, T
+   Wright, J
+   Almeida, S
+   Arroyo, L
+   Frederiksen, T
+   Grace, J
+   Higuchi, N
+   Killeen, T
+   Laurance, WF
+   Leano, C
+   Lewis, S
+   Meir, P
+   Monteagudo, A
+   Neill, D
+   Vargas, PN
+   Panfil, SN
+   Patino, S
+   Pitman, N
+   Quesada, CA
+   Rudas-Ll, A
+   Salomao, R
+   Saleska, S
+   Silva, N
+   Silveira, M
+   Sombroek, WG
+   Valencia, R
+   Martinez, RV
+   Vieira, ICG
+   Vinceti, B
+AF Malhi, Y
+   Phillips, OL
+   Lloyd, J
+   Baker, T
+   Wright, J
+   Almeida, S
+   Arroyo, L
+   Frederiksen, T
+   Grace, J
+   Higuchi, N
+   Killeen, T
+   Laurance, WF
+   Leano, C
+   Lewis, S
+   Meir, P
+   Monteagudo, A
+   Neill, D
+   Vargas, PN
+   Panfil, SN
+   Patino, S
+   Pitman, N
+   Quesada, CA
+   Rudas-Ll, A
+   Salomao, R
+   Saleska, S
+   Silva, N
+   Silveira, M
+   Sombroek, WG
+   Valencia, R
+   Martinez, RV
+   Vieira, ICG
+   Vinceti, B
+TI An international network to monitor the structure, composition and
+   dynamics of Amazonian forests (RAINFOR)
+RID A-1523-2011
+RID A-7681-2008
+SO JOURNAL OF VEGETATION SCIENCE
+CT IGBP Terrestrial Transects Workshop
+CY JUL 12-16, 1999
+CL DARWIN, AUSTRALIA
+C1 Univ Edinburgh, Inst Ecol & Resource Management, Edinburgh EH9 3JU, Midlothian, Scotland.
+   Univ Leeds, Sch Geog, Ctr Biodivers & Conservat, Leeds LS2 9JT, W Yorkshire, England.
+   Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   Proyecto BOLFOR, Santa Cruz, Bolivia.
+   Inst Nacl de Pesquisas da Amazonia, Dept Silvicultura Trop, Manaus, Amazonas, Brazil.
+   Conservat Int, Ctr Appl Biodivers Sci, Washington, DC USA.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   Max Planck Inst Biogeochem, D-07701 Jena, Germany.
+   Univ Nacl San Antonio Abad Cusco, Herbario Vargas, Cuzco, Peru.
+   Fdn Jatun Sacha, Quito, Ecuador.
+   Missouri Bot Garden, St Louis, MO USA.
+   Univ Georgia, Dept Bot, Athens, GA 30602 USA.
+   Duke Univ, Ctr Trop Conservat, Durham, NC USA.
+   Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   Harvard Univ, Cambridge, MA 02138 USA.
+   CIFOR, Tapajos, Para, Brazil.
+   EMBRAPA Amazonia Oriental, Belem, Para, Brazil.
+   Univ Brasilia, Dept Ecol, Brasilia, DF, Brazil.
+   ISRIC, Wageningen, Netherlands.
+   Pontificia Univ Catolica Ecuador, Herbario QCA, Dept Ciencias Biol, Quito, Ecuador.
+   Jardin Bot Missouri, Proyecto Flora Peru, Jaen, Cajamarca, Peru.
+   Museo Noel Kempff Mercado, Santa Cruz, Bolivia.
+   Alexander von Humboldt Inst, Bogota, DC, Colombia.
+   Univ Fed Acre, Dept Ciencias Nat Parque Zoobot, Rio Branco, AC, Brazil.
+RP Malhi, Y (reprint author), Univ Edinburgh, Inst Ecol & Resource Management, Darwin Bldg,Mayfield Rd, Edinburgh EH9 3JU, Midlothian, Scotland
+TC 78
+Z9 83
+SN 1100-9233
+PD JUN
+PY 2002
+VL 13
+IS 3
+BP 439
+EP 450
+DI 10.1111/j.1654-1103.2002.tb02068.x
+UT WOS:000178428000015
+ER
+
+PT J
+AU Costa, F
+   Magnusson, W
+AF Costa, F
+   Magnusson, W
+TI Selective logging effects on abundance, diversity, and composition of
+   tropical understory herbs
+SO ECOLOGICAL APPLICATIONS
+C1 Inst Nacl de Pesquisas da Amazonia, Coordenacao Pesquisas Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+RP Costa, F (reprint author), Inst Nacl de Pesquisas da Amazonia, Coordenacao Pesquisas Ecol, Caixa Postal 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 22
+Z9 23
+SN 1051-0761
+PD JUN
+PY 2002
+VL 12
+IS 3
+BP 807
+EP 819
+DI 10.1890/1051-0761(2002)012[0807:SLEOAD]2.0.CO;2
+UT WOS:000175693800022
+ER
+
+PT J
+AU Arrabal, R
+   Amancio, F
+   Carneiro, LA
+   Neves, LJ
+   Mansur, E
+AF Arrabal, R
+   Amancio, F
+   Carneiro, LA
+   Neves, LJ
+   Mansur, E
+TI Micropropagation of endangered endemic Brazilian bromeliad Cryptanthus
+   sinuosus (L.B. Smith) for in vitro preservation
+SO BIODIVERSITY AND CONSERVATION
+CT 7th Meeting of the Subsidiary Body on Scientific, Technical and
+   Technological Advice of the Convention on Biological Diversity
+CY NOV 12-16, 2001
+CL MONTREAL, CANADA
+C1 Univ Estado Rio de Janeiro, Lab Micropropagacao & Transformaoca Plantas, DBCG, BR-20550013 Rio De Janeiro, Brazil.
+   Univ Fed Rio de Janeiro, Museo Nacl Rio de Janeiro, Lab Anat Vegetal, BR-21941 Rio De Janeiro, Brazil.
+RP Mansur, E (reprint author), Univ Estado Rio de Janeiro, Lab Micropropagacao & Transformaoca Plantas, DBCG, Rua Sao Francisco Xavier,524 PHLC,Sala 505, BR-20550013 Rio De Janeiro, Brazil
+TC 11
+Z9 12
+SN 0960-3115
+PD JUN
+PY 2002
+VL 11
+IS 6
+BP 1081
+EP 1089
+DI 10.1023/A:1015860804695
+UT WOS:000176184700010
+ER
+
+PT J
+AU Carbayo, F
+   Leal-Zanchet, AM
+   Vieira, EM
+AF Carbayo, F
+   Leal-Zanchet, AM
+   Vieira, EM
+TI Terrestrial flatworm (Platyhelminthes : Tricladida : Terricola)
+   diversity versus man-induced disturbance in an ombrophilous forest in
+   southern Brazil
+RID F-3562-2010
+SO BIODIVERSITY AND CONSERVATION
+CT 7th Meeting of the Subsidiary Body on Scientific, Technical and
+   Technological Advice of the Convention on Biological Diversity
+CY NOV 12-16, 2001
+CL MONTREAL, CANADA
+C1 Univ Vale Rio dos Sinos, Ctr Ciencias Saude, Inst Pesquisas Planarias, BR-93022000 Sao Leopoldo, RS, Brazil.
+   Univ Vale Rio dos Sinos, Ctr Ciencias Saude, Lab Ecol Mamiferos, BR-93022000 Sao Leopoldo, RS, Brazil.
+RP Carbayo, F (reprint author), Univ Vale Rio dos Sinos, Ctr Ciencias Saude, Inst Pesquisas Planarias, Av Unisinos 950, BR-93022000 Sao Leopoldo, RS, Brazil
+TC 9
+Z9 11
+SN 0960-3115
+PD JUN
+PY 2002
+VL 11
+IS 6
+BP 1091
+EP 1104
+DI 10.1023/A:1015865005604
+UT WOS:000176184700011
+ER
+
+PT J
+AU Perez-Losada, M
+   Jara, CG
+   Bond-Buckup, G
+   Crandall, KA
+AF Perez-Losada, M
+   Jara, CG
+   Bond-Buckup, G
+   Crandall, KA
+TI Conservation phylogenetics of Chilean freshwater crabs Aegla (Anomura,
+   Aeglidae): assigning priorities for aquatic habitat protection
+SO BIOLOGICAL CONSERVATION
+C1 Brigham Young Univ, Dept Zool, Provo, UT 84602 USA.
+   Brigham Young Univ, Monte L Bean Museum, Provo, UT 84602 USA.
+   Univ Austral Chile, Inst Zool, Valdivia, Chile.
+   Univ Fed Rio Grande do Sul, Dept Zool, Porto Alegre, RS, Brazil.
+RP Perez-Losada, M (reprint author), Brigham Young Univ, Dept Zool, 574 Widtsoe Bldg, Provo, UT 84602 USA
+EM mp323@email.byu.edu
+TC 22
+Z9 23
+SN 0006-3207
+PD JUN
+PY 2002
+VL 105
+IS 3
+BP 345
+EP 353
+DI 10.1016/S0006-3207(01)00218-X
+UT WOS:000175649700007
+ER
+
+PT J
+AU Laurance, WF
+   Albernaz, AKM
+   Schroth, G
+   Fearnside, PM
+   Bergen, S
+   Venticinque, EM
+   Da Costa, C
+AF Laurance, WF
+   Albernaz, AKM
+   Schroth, G
+   Fearnside, PM
+   Bergen, S
+   Venticinque, EM
+   Da Costa, C
+TI Predictors of deforestation in the Brazilian Amazon
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   Natl Inst Amazonian Res INPA, Dept Ecol, Manaus, Amazonas, Brazil.
+   Mt Holyoke Coll, Ctr Environm Literacy, S Hadley, MA 01075 USA.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 73
+Z9 77
+SN 0305-0270
+PD MAY-JUN
+PY 2002
+VL 29
+IS 5-6
+BP 737
+EP 748
+DI 10.1046/j.1365-2699.2002.00721.x
+UT WOS:000176652300016
+ER
+
+PT J
+AU Dunstone, N
+   Durbin, L
+   Wylie, I
+   Freer, R
+   Jamett, GA
+   Mazzolli, M
+   Rose, S
+AF Dunstone, N
+   Durbin, L
+   Wylie, I
+   Freer, R
+   Jamett, GA
+   Mazzolli, M
+   Rose, S
+TI Spatial organization, ranging behaviour and habitat use of the kodkod
+   (Oncifelis guigna) in southern Chile
+SO JOURNAL OF ZOOLOGY
+C1 Univ Durham, Dept Biol Sci, Durham DH1 3LE, England.
+   Ctr Ecol & Hydrol, Banchory AB31 4PP, Aberdeen, Scotland.
+   Ctr Ecol & Hydrol, Huntingdon PE28 2LS, Cambs, England.
+   Corp Nacl Forestal VIII Reg, Unidad Gest Patrimonio Silvestre, Chillan, Chile.
+   Projecto Puma, BR-88037000 Florianopolis, SC, Brazil.
+   Univ Leeds, Sch Geog, Ctr Biopdivers & Conservat, Leeds LS2 9JT, W Yorkshire, England.
+RP Dunstone, N (reprint author), Univ Durham, Dept Biol Sci, South Rd, Durham DH1 3LE, England
+TC 11
+Z9 12
+SN 0952-8369
+PD MAY
+PY 2002
+VL 257
+PN Part 1
+BP 1
+EP 11
+DI 10.1017/S095283692000602
+UT WOS:000175690400001
+ER
+
+PT J
+AU Cochrane, MA
+   Laurance, WF
+AF Cochrane, MA
+   Laurance, WF
+TI Fire as a large-scale edge effect in Amazonian forests
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Michigan State Univ, Basic Sci & Remote Sensing Initiat, E Lansing, MI 48823 USA.
+   Natl Inst Amazonian Res, INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+EM laurancew@tivoli.si.edu
+TC 117
+Z9 124
+SN 0266-4674
+PD MAY
+PY 2002
+VL 18
+PN Part 3
+BP 311
+EP 325
+DI 10.1017/S0266467402002237
+UT WOS:000174907100001
+ER
+
+PT J
+AU Teixeira, PC
+   Novais, RF
+   Barros, NF
+   Neves, JCL
+   Teixeira, JL
+AF Teixeira, PC
+   Novais, RF
+   Barros, NF
+   Neves, JCL
+   Teixeira, JL
+TI Eucalyptus urophylla root growth, stem sprouting and nutrient supply
+   from the roots and soil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Fed Vicosa, Dept Soil Sci, BR-36571000 Vicosa, MG, Brazil.
+RP Teixeira, PC (reprint author), Univ Fed Vicosa, Dept Soil Sci, Av PH Rolfs S-N, BR-36571000 Vicosa, MG, Brazil
+TC 6
+Z9 9
+SN 0378-1127
+PD MAY 1
+PY 2002
+VL 160
+IS 1-3
+BP 263
+EP 271
+DI 10.1016/S0378-1127(01)00469-8
+UT WOS:000175374500022
+ER
+
+PT J
+AU Ruggiero, PGC
+   Batalha, MA
+   Pivello, VR
+   Meirelles, ST
+AF Ruggiero, PGC
+   Batalha, MA
+   Pivello, VR
+   Meirelles, ST
+TI Soil-vegetation relationships in cerrado (Brazilian savanna) and
+   semideciduous forest, Southeastern Brazil
+SO PLANT ECOLOGY
+C1 Univ Sao Paulo, Dept Ecol, Sao Paulo, Brazil.
+   Univ Campinas, Dept Bot, Campinas, Brazil.
+RP Pivello, VR (reprint author), Univ Sao Paulo, Dept Ecol, Sao Paulo, Brazil
+TC 32
+Z9 36
+SN 1385-0237
+PD MAY
+PY 2002
+VL 160
+IS 1
+BP 1
+EP 16
+UT WOS:000176181700001
+ER
+
+PT J
+AU Franco, AC
+   Luttge, U
+AF Franco, AC
+   Luttge, U
+TI Midday depression in savanna trees: coordinated adjustments in
+   photochemical efficiency, photorespiration, CO2 assimilation and water
+   use efficiency
+RID B-1615-2008
+SO OECOLOGIA
+C1 Univ Brasilia, Dept Bot, BR-70919970 Brasilia, DF, Brazil.
+   TH Darmstadt, Inst Bot, D-64287 Darmstadt, Germany.
+RP Franco, AC (reprint author), Univ Brasilia, Dept Bot, Caixa Postal 04457, BR-70919970 Brasilia, DF, Brazil
+TC 38
+Z9 48
+SN 0029-8549
+PD MAY
+PY 2002
+VL 131
+IS 3
+BP 356
+EP 365
+DI 10.1007/s00442-002-0903-y
+UT WOS:000175936300005
+ER
+
+PT J
+AU Stewart, GR
+   Aidar, MPM
+   Joly, CA
+   Schmidt, S
+AF Stewart, GR
+   Aidar, MPM
+   Joly, CA
+   Schmidt, S
+TI Impact of point source pollution on nitrogen isotope signatures (delta
+   N-15) of vegetation in SE Brazil
+RID B-2780-2009
+SO OECOLOGIA
+C1 Univ Queensland, Dept Bot, St Lucia, Qld 4072, Australia.
+   UNICAMP, State Univ Campinas, Dept Bot IB, BR-13083970 Campinas, SP, Brazil.
+   SMA, Inst Bot, BR-01061970 Sao Paulo, Brazil.
+   Univ Western Australia, Fac Sci, Nedlands, WA 6009, Australia.
+RP Schmidt, S (reprint author), Univ Queensland, Dept Bot, St Lucia, Qld 4072, Australia
+TC 23
+Z9 26
+SN 0029-8549
+PD MAY
+PY 2002
+VL 131
+IS 3
+BP 468
+EP 472
+DI 10.1007/s00442-002-0906-8
+UT WOS:000175936300018
+ER
+
+PT J
+AU Ribas, CR
+   Schoereder, JH
+AF Ribas, CR
+   Schoereder, JH
+TI Are all ant mosaics caused by competition?
+RID A-8540-2008
+SO OECOLOGIA
+C1 Univ Fed Vicosa, Dept Biol Geral, Vicosa, MG, Brazil.
+   Univ Fed Vicosa, Program Pos Grad Entomol, Dept Biol Anim, BR-36570 Vicosa, MG, Brazil.
+RP Schoereder, JH (reprint author), Univ Fed Vicosa, Dept Biol Geral, Vicosa, MG, Brazil
+TC 44
+Z9 45
+SN 0029-8549
+PD MAY
+PY 2002
+VL 131
+IS 4
+BP 606
+EP 611
+DI 10.1007/s00442-002-0912-x
+UT WOS:000176218000016
+ER
+
+PT J
+AU Negrelle, RRB
+AF Negrelle, RRB
+TI The Atlantic forest in the Volta Velha Reserve: a tropical rain forest
+   site outside the tropics
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Parana, Dept Bot, Ecol Lab, BR-81531970 Curitiba, Parana, Brazil.
+RP Negrelle, RRB (reprint author), Univ Fed Parana, Dept Bot, Ecol Lab, CX Postal 19021, BR-81531970 Curitiba, Parana, Brazil, Brazil
+TC 11
+Z9 13
+SN 0960-3115
+PD MAY
+PY 2002
+VL 11
+IS 5
+BP 887
+EP 919
+DI 10.1023/A:1015322414513
+UT WOS:000175420200007
+ER
+
+PT J
+AU Mazzolli, M
+   Graipel, ME
+   Dunstone, N
+AF Mazzolli, M
+   Graipel, ME
+   Dunstone, N
+TI Mountain lion depredation in southern Brazil
+SO BIOLOGICAL CONSERVATION
+C1 Projeto Puma, BR-88037000 Florianopolis, SC, Brazil.
+   Univ Fed Santa Catarina, CCB, Dept Ecol & Zool, BR-8804900 Florianopolis, SC, Brazil.
+   Univ Durham, Dept Biol Sci, Durham DH1 3LE, England.
+RP Mazzolli, M (reprint author), Projeto Puma, RJ Pio Duarte Silva,535 Horto Florestal, BR-88037000 Florianopolis, SC, Brazil
+EM marcelo_puma@yahoo.com
+TC 26
+Z9 27
+SN 0006-3207
+PD MAY
+PY 2002
+VL 105
+IS 1
+BP 43
+EP 51
+DI 10.1016/S0006-3207(01)00178-1
+UT WOS:000174722400004
+ER
+
+PT J
+AU Venzon, M
+   Janssen, A
+   Sabelis, MW
+AF Venzon, M
+   Janssen, A
+   Sabelis, MW
+TI Prey preference and reproductive success of the generalist predator
+   Orius laevigatus
+RID B-2657-2009
+SO OIKOS
+C1 Univ Amsterdam, Sect Populat Biol, NL-1090 GB Amsterdam, Netherlands.
+   EPAMIG, Agr & Livestock Res Enterprise Minas Gerais, Vicosa, MG, Brazil.
+RP Janssen, A (reprint author), Univ Amsterdam, Sect Populat Biol, POB 94084, NL-1090 GB Amsterdam, Netherlands
+TC 18
+Z9 23
+SN 0030-1299
+PD APR
+PY 2002
+VL 97
+IS 1
+BP 116
+EP 124
+DI 10.1034/j.1600-0706.2002.970112.x
+UT WOS:000176022200012
+ER
+
+PT J
+AU Sujii, ER
+   Garcia, MA
+   Fontes, EMG
+   Pires, CSS
+   O'Neil, RJ
+AF Sujii, ER
+   Garcia, MA
+   Fontes, EMG
+   Pires, CSS
+   O'Neil, RJ
+TI Effects of meteorological variation on mortality in populations of the
+   spittlebug Deois flavopicta (Homoptera : Cercopidae)
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 EMBRAPA, CENARGEN, BR-70849970 Brasilia, DF, Brazil.
+   UNICAMP IB, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Purdue Univ, Dept Entomol, W Lafayette, IN 47907 USA.
+RP Sujii, ER (reprint author), EMBRAPA, CENARGEN, C Postal 02-372, BR-70849970 Brasilia, DF, Brazil
+TC 1
+Z9 2
+SN 0046-225X
+PD APR
+PY 2002
+VL 31
+IS 2
+BP 299
+EP 305
+DI 10.1603/0046-225X-31.2.299
+UT WOS:000178325900014
+ER
+
+PT J
+AU De Almeida, MAF
+   Do Prado, AP
+   Geden, CJ
+AF De Almeida, MAF
+   Do Prado, AP
+   Geden, CJ
+TI Influence of temperature on development time and longevity of
+   Tachinaephagus zealandicus (Hymenoptera : Encyrtidae), and effects of
+   nutrition. and emergence order on longevity
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Univ Estadual Campinas, Inst Biol, Dept Parasitol, BR-13083970 Campinas, SP, Brazil.
+   USDA ARS, Med & Vet Entomol Res Lab, Gainesville, FL 32604 USA.
+RP De Almeida, MAF (reprint author), Univ Estadual Campinas, Inst Biol, Dept Parasitol, CP 6109, BR-13083970 Campinas, SP, Brazil, Brazil
+TC 7
+Z9 7
+SN 0046-225X
+PD APR
+PY 2002
+VL 31
+IS 2
+BP 375
+EP 380
+UT WOS:000178325900024
+ER
+
+PT J
+AU Pinheiro, F
+   Diniz, IR
+   Coelho, D
+   Bandeira, MPS
+AF Pinheiro, F
+   Diniz, IR
+   Coelho, D
+   Bandeira, MPS
+TI Seasonal pattern of insect abundance in the Brazilian cerrado
+SO AUSTRAL ECOLOGY
+C1 Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+   Univ Brasilia, Dept Zool, BR-70910900 Brasilia, DF, Brazil.
+RP Pinheiro, F (reprint author), Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil
+TC 59
+Z9 64
+SN 1442-9985
+PD APR
+PY 2002
+VL 27
+IS 2
+BP 132
+EP 136
+DI 10.1046/j.1442-9993.2002.01165.x
+UT WOS:000174641900002
+ER
+
+PT J
+AU Gerwing, JJ
+   Vidal, E
+AF Gerwing, JJ
+   Vidal, E
+TI Changes in liana abundance and species diversity eight years after liana
+   cutting and logging in an eastern Amazonian forest
+SO CONSERVATION BIOLOGY
+C1 Penn State Univ, Dept Biol, Mueller Lab 208, Interdept Program Ecol, University Pk, PA 16802 USA.
+   Inst Homem & Meio Ambiente Amazonia, BR-66017000 Belem, Para, Brazil.
+RP Gerwing, JJ (reprint author), Penn State Univ, Dept Biol, Mueller Lab 208, Interdept Program Ecol, University Pk, PA 16802 USA
+TC 13
+Z9 19
+SN 0888-8892
+PD APR
+PY 2002
+VL 16
+IS 2
+BP 544
+EP 548
+DI 10.1046/j.1523-1739.2002.00521.x
+UT WOS:000174750800032
+ER
+
+PT J
+AU Phillips, OL
+   Malhi, Y
+   Vinceti, B
+   Baker, T
+   Lewis, SL
+   Higuchi, N
+   Laurance, WF
+   Vargas, PN
+   Martinez, RV
+   Laurance, S
+   Ferreira, LV
+   Stern, M
+   Brown, S
+   Grace, J
+AF Phillips, OL
+   Malhi, Y
+   Vinceti, B
+   Baker, T
+   Lewis, SL
+   Higuchi, N
+   Laurance, WF
+   Vargas, PN
+   Martinez, RV
+   Laurance, S
+   Ferreira, LV
+   Stern, M
+   Brown, S
+   Grace, J
+TI Changes in growth of tropical forests: Evaluating potential biases
+RID A-1523-2011
+RID G-6021-2011
+SO ECOLOGICAL APPLICATIONS
+C1 Univ Leeds, Sch Geog, Ctr Biodivers & Conservat, Leeds LS2 9JT, W Yorkshire, England.
+   Univ Edinburgh, Inst Ecol & Resource Management, Edinburgh, Midlothian, Scotland.
+   Inst Nacl Pesquisas, Dept Silvicultura Trop, Manaus, Amazonas, Brazil.
+   Natl Inst Amazonian Res, INPA, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Univ Nacl San Antonio Abad Cusco, Herbario Vargas, Cuzco, Peru.
+   Proyecto Flora Peru, Jardin Bot Missouri, Jaen, Cajamarca, Peru.
+   New York Bot Garden, New York, NY USA.
+   Winrock Int Livestock Res & Training Ctr, Corvallis, OR USA.
+RP Phillips, OL (reprint author), Univ Leeds, Sch Geog, Ctr Biodivers & Conservat, Leeds LS2 9JT, W Yorkshire, England
+TC 81
+Z9 83
+SN 1051-0761
+PD APR
+PY 2002
+VL 12
+IS 2
+BP 576
+EP 587
+DI 10.2307/3060964
+UT WOS:000174457800022
+ER
+
+PT J
+AU Shanley, P
+   Luz, L
+   Swingland, IR
+AF Shanley, P
+   Luz, L
+   Swingland, IR
+TI The faint promise of a distant market: a survey of Belem's trade in
+   non-timber forest products
+SO BIODIVERSITY AND CONSERVATION
+C1 CIFOR, Jakarta 10065, Indonesia.
+   Ctr Escritorio IEF, Projeto Doces Matas, Manhuacu, MG, Brazil.
+   Durrell Inst Conservat & Ecol, Nash CT3 2JX, Kent, England.
+RP Shanley, P (reprint author), CIFOR, POB 6596 JKPWB, Jakarta 10065, Indonesia
+TC 16
+Z9 20
+SN 0960-3115
+PD APR
+PY 2002
+VL 11
+IS 4
+BP 615
+EP 636
+DI 10.1023/A:1015556508925
+UT WOS:000175634400004
+ER
+
+PT J
+AU de Castro, RJ
+   Nakatani, K
+   Bialetzki, A
+   Sanches, PV
+   Baumgartner, G
+AF de Castro, RJ
+   Nakatani, K
+   Bialetzki, A
+   Sanches, PV
+   Baumgartner, G
+TI Temporal distribution and composition of the ichthyoplankton from
+   Leopoldo's Inlet on the Upper Parana River floodplain (Brazil)
+SO JOURNAL OF ZOOLOGY
+C1 Univ Estadual Maringa, Dept Biol, Posgrad Ecol Ambientes Aquat Continentais, BR-87020900 Maringa, Parana, Brazil.
+   Univ Estadual Paulista, Inst Biociencias, BR-18618000 Botucatu, SP, Brazil.
+   Nucl Pesquisas Limnol Ictiol & Aquicultura, Nupelia, Parana, Brazil.
+   UNIPAR, Toledo, Parana, Brazil.
+   Univ Estadual Oeste Parana, Ctr Engn & Ciencias Exatas, BR-87030900 Toledo, Parana, Brazil.
+RP Bialetzki, A (reprint author), Univ Estadual Maringa, Dept Biol, Posgrad Ecol Ambientes Aquat Continentais, Avenida Colombo 5790, BR-87020900 Maringa, Parana, Brazil
+TC 0
+Z9 0
+SN 0952-8369
+PD APR
+PY 2002
+VL 256
+PN Part 4
+BP 437
+EP 443
+DI 10.1017/S095283690200047X
+UT WOS:000175060900002
+ER
+
+PT J
+AU Ganade, G
+   Brown, VK
+AF Ganade, G
+   Brown, VK
+TI Succession in old pastures of central Amazonia: Role of soil fertility
+   and plant litter
+SO ECOLOGY
+C1 Univ London Imperial Coll Sci Technol & Med, Dept Biol, Ascot SL5 7PY, Berks, England.
+   Univ London Imperial Coll Sci Technol & Med, Ctr Populat Biol, Ascot SL5 7PY, Berks, England.
+   Inst Nacl Pesquisas, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   CABI Biosci Environm, United Kingdom Ctr, Ascot SL5 7TA, Berks, England.
+   Univ Reading, Dept Agr, Ctr Agrienvironm Res, Reading RG6 6AT, Berks, England.
+RP Ganade, G (reprint author), Univ Vale Do Rio Dos Sinos, Div Manejo Vida Silvestre, Ctr 2,CP 275, BR-93022000 Rio Grande Do Sul, Brazil
+TC 20
+Z9 22
+SN 0012-9658
+PD MAR
+PY 2002
+VL 83
+IS 3
+BP 743
+EP 754
+DI 10.1890/0012-9658(2002)083[0743:SIOPOC]2.0.CO;2
+UT WOS:000173967500015
+ER
+
+PT J
+AU Sanaiotti, TM
+   Martinelli, LA
+   Victoria, RL
+   Trumbore, SE
+   Camargo, PB
+AF Sanaiotti, TM
+   Martinelli, LA
+   Victoria, RL
+   Trumbore, SE
+   Camargo, PB
+TI Past vegetation changes in Amazon savannas determined using carbon
+   isotopes of soil organic matter
+RID F-7870-2011
+SO BIOTROPICA
+C1 Inst Nacl de Pesquisas da Amazonia, Dept Ecol, BR-69000000 Manaus, Amazonas, Brazil.
+   Ctr Energia Nucl Agr, BR-13416000 Piracicaba, SP, Brazil.
+   Univ Calif Irvine, Dept Earth Syst Sci, Irvine, CA 92697 USA.
+RP Martinelli, LA (reprint author), Inst Nacl de Pesquisas da Amazonia, Dept Ecol, BR-69000000 Manaus, Amazonas, Brazil
+TC 15
+Z9 15
+SN 0006-3606
+PD MAR
+PY 2002
+VL 34
+IS 1
+BP 2
+EP 16
+DI 10.1111/j.1744-7429.2002.tb00237.x
+UT WOS:000175063600001
+ER
+
+PT J
+AU Funch, LS
+   Funch, R
+   Barroso, GM
+AF Funch, LS
+   Funch, R
+   Barroso, GM
+TI Phenology of gallery and montane forest in the Chapada Diamantina,
+   Bahia, Brazil
+SO BIOTROPICA
+C1 Univ Estadual de Feira de Santana, Dept Ciencias Biol, BR-44031460 Feira De Santana, BA, Brazil.
+   Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, Brazil.
+RP Funch, LS (reprint author), Univ Estadual de Feira de Santana, Dept Ciencias Biol, Av Univ S-N, BR-44031460 Feira De Santana, BA, Brazil
+TC 17
+Z9 24
+SN 0006-3606
+PD MAR
+PY 2002
+VL 34
+IS 1
+BP 40
+EP 50
+DI 10.1111/j.1744-7429.2002.tb00240.x
+UT WOS:000175063600004
+ER
+
+PT J
+AU Werneck, MD
+   do Espirito-Santo, MM
+AF Werneck, MD
+   do Espirito-Santo, MM
+TI Species diversity and abundance of vascular epiphytes on Vellozia
+   piresiana in Brazil
+SO BIOTROPICA
+C1 Univ Fed Minas Gerais, Dept Biol Geral, ICB, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Werneck, MD (reprint author), Univ Fed Minas Gerais, Dept Bot, ICB, CP 486, BR-30161970 Belo Horizonte, MG, Brazil, Brazil
+TC 8
+Z9 12
+SN 0006-3606
+PD MAR
+PY 2002
+VL 34
+IS 1
+BP 51
+EP 57
+UT WOS:000175063600005
+ER
+
+PT J
+AU Alves, LF
+   Santos, FAM
+AF Alves, LF
+   Santos, FAM
+TI Tree allometry and crown shape of four tree species in Atlantic rain
+   forest, south-east Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Campinas, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+RP Alves, LF (reprint author), Univ Sao Paulo, Dept Ecol, Rua do Matao 321,Travessa 14, BR-05508900 Sao Paulo, Brazil
+TC 14
+Z9 16
+SN 0266-4674
+PD MAR
+PY 2002
+VL 18
+PN Part 2
+BP 245
+EP 260
+UT WOS:000174196500006
+ER
+
+PT J
+AU Guimaraes, PR
+   Cogni, R
+AF Guimaraes, PR
+   Cogni, R
+TI Seed cleaning of Cupania vernalis (Sapindaceae) by ants: edge effect in
+   a highland forest in south-east Brazil
+RID B-1099-2008
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Estadual Campinas, Museu Hist Nat, Inst Biol, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Dept Zool, Inst Biol, BR-13083970 Campinas, SP, Brazil.
+RP Guimaraes, PR (reprint author), Univ Estadual Campinas, Museu Hist Nat, Inst Biol, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 7
+Z9 8
+SN 0266-4674
+PD MAR
+PY 2002
+VL 18
+PN Part 2
+BP 303
+EP 307
+UT WOS:000174196500011
+ER
+
+PT J
+AU Sanches, MC
+   Valio, IFM
+AF Sanches, MC
+   Valio, IFM
+TI Seedling growth of climbing species from a southeast Brazilian tropical
+   forest
+SO PLANT ECOLOGY
+C1 Univ Estadual Campinas, Inst Biol, Dept Fisiol Vegetal, BR-13083970 Campinas, SP, Brazil.
+RP Sanches, MC (reprint author), Univ Estadual Campinas, Inst Biol, Dept Fisiol Vegetal, C Postal 6109, BR-13083970 Campinas, SP, Brazil
+TC 1
+Z9 1
+SN 1385-0237
+PD MAR
+PY 2002
+VL 159
+IS 1
+BP 51
+EP 59
+DI 10.1023/A:1015561819506
+UT WOS:000175636400005
+ER
+
+PT J
+AU Gerwing, JJ
+AF Gerwing, JJ
+TI Degradation of forests through logging and fire in the eastern Brazilian
+   Amazon
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Homem & Meio Ambiente Amazonia, IMAZON, BR-66613970 Belem, Para, Brazil.
+   Penn State Univ, Interdepartmental Program Ecol, University Pk, PA 16802 USA.
+RP Gerwing, JJ (reprint author), Inst Homem & Meio Ambiente Amazonia, IMAZON, Caixa Postal 5101, BR-66613970 Belem, Para, Brazil
+TC 52
+Z9 59
+SN 0378-1127
+PD MAR 1
+PY 2002
+VL 157
+IS 1-3
+BP 131
+EP 141
+DI 10.1016/S0378-1127(00)00644-7
+UT WOS:000174495000012
+ER
+
+PT J
+AU Leite, RG
+   Araujo-Lima, CARM
+   Victoria, RL
+   Martinelli, LA
+AF Leite, RG
+   Araujo-Lima, CARM
+   Victoria, RL
+   Martinelli, LA
+TI Stable isotope analysis of energy sources for larvae of eight fish
+   species from the Amazon floodplain
+RID F-7870-2011
+SO ECOLOGY OF FRESHWATER FISH
+C1 INPA, Manaus, Amazonas, Brazil.
+   CENA, Piracicaba, Brazil.
+RP Leite, RG (reprint author), INPA, CP 478, Manaus, Amazonas, Brazil
+TC 6
+Z9 6
+SN 0906-6691
+PD MAR
+PY 2002
+VL 11
+IS 1
+BP 56
+EP 63
+DI 10.1034/j.1600-0633.2002.110106.x
+UT WOS:000174434000006
+ER
+
+PT J
+AU Souza, FL
+   Cunha, AF
+   Oliveira, MA
+   Pereira, GAG
+   Pinheiro, HP
+   dos Reis, SF
+AF Souza, FL
+   Cunha, AF
+   Oliveira, MA
+   Pereira, GAG
+   Pinheiro, HP
+   dos Reis, SF
+TI Partitioning of molecular variation at local spatial scales in the
+   vulnerable neotropical freshwater turtle, Hydromedusa maximiliani
+   (Testudines, Chelidae): implications for the conservation of aquatic
+   organisms in natural hierarchical systems
+SO BIOLOGICAL CONSERVATION
+C1 Univ Estadual Campinas, Inst Biol, Dept Parasitol, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Biol, Dept Genet, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Inst Matemat & Comp Cient, Dept Estat, BR-13083970 Campinas, SP, Brazil.
+RP dos Reis, SF (reprint author), Univ Estadual Campinas, Inst Biol, Dept Parasitol, Caixa Postal 6109, BR-13083970 Campinas, SP, Brazil
+TC 14
+Z9 17
+SN 0006-3207
+PD MAR
+PY 2002
+VL 104
+IS 1
+BP 119
+EP 126
+DI 10.1016/S0006-3207(01)00160-4
+UT WOS:000174356200011
+ER
+
+PT J
+AU Medeiros, L
+   Moreira, GRP
+AF Medeiros, L
+   Moreira, GRP
+TI Moving on hairy surfaces: modifications of Gratiana spadicea larval legs
+   to attach on its host plant Solanum sisymbriifolium
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 UFRGS, Dept Zool, BR-91501970 Porto Alegre, RS, Brazil.
+   UNIJUI, DeBQ, BR-98700000 Ijui, RS, Brazil.
+   UFPR, Curso Posgrad Entomol, BR-81531990 Curitiba, Parana, Brazil.
+RP Moreira, GRP (reprint author), UFRGS, Dept Zool, Av Bento Goncalves,9500,Bloco 4,Predio 43435, BR-91501970 Porto Alegre, RS, Brazil, Brazil
+TC 7
+Z9 8
+SN 0013-8703
+PD MAR
+PY 2002
+VL 102
+IS 3
+BP 295
+EP 305
+DI 10.1046/j.1570-7458.2002.00950.x
+UT WOS:000177169900009
+ER
+
+PT J
+AU Brito, D
+   Fernandez, FAS
+AF Brito, D
+   Fernandez, FAS
+TI Patch relative importance to metapopulation viability: the neotropical
+   marsupial Micoureus demerarae as a case study
+RID A-4014-2008
+SO ANIMAL CONSERVATION
+C1 Univ Fed Rio de Janeiro, CCS, Dept Ecol, Lab Ecol & Conservacao Populacoes, BR-21941590 Rio De Janeiro, Brazil.
+RP Brito, D (reprint author), Rua Andrade Neves 93-802, BR-20510230 Rio De Janeiro, Brazil
+TC 11
+Z9 12
+SN 1367-9430
+PD FEB
+PY 2002
+VL 5
+PN Part 1
+BP 45
+EP 51
+DI 10.1017/S1367943002001063
+UT WOS:000174812000006
+ER
+
+PT J
+AU Eterovic, A
+   Duarte, MR
+AF Eterovic, A
+   Duarte, MR
+TI Exotic snakes in Sao Paulo City, southeastern Brazil: Why xenophobia ?
+SO BIODIVERSITY AND CONSERVATION
+C1 Inst Butantan, Lab Herpetol, BR-05503900 Sao Paulo, Brazil.
+   Univ Sao Paulo, Inst Biociencias, Dept Ecol Geral, Lab Ecol Evolut, BR-05508 Sao Paulo, Brazil.
+   Univ Estadual Paulista, Inst Biociencias, Dept Zool, Botucatu, SP, Brazil.
+RP Duarte, MR (reprint author), Inst Butantan, Lab Herpetol, Ave Vital Brazil 1500, BR-05503900 Sao Paulo, Brazil
+TC 2
+Z9 5
+SN 0960-3115
+PD FEB
+PY 2002
+VL 11
+IS 2
+BP 327
+EP 339
+DI 10.1023/A:1014509923673
+UT WOS:000174253500008
+ER
+
+PT J
+AU Paraiba, LC
+   Bru, R
+   Carrasco, JM
+AF Paraiba, LC
+   Bru, R
+   Carrasco, JM
+TI Level IV fugacity model depending on temperature by a periodic control
+   system
+SO ECOLOGICAL MODELLING
+C1 EMBRAPA, BR-13820000 Sao Paulo, Brazil.
+   Univ Politecn Valencia, Dept Matemat Aplicada, ETSIA, Valencia 46022, Spain.
+   Univ Politecn Valencia, Dept Biotecnol, ETSIA, Valencia 46022, Spain.
+RP Paraiba, LC (reprint author), EMBRAPA, CP 69, BR-13820000 Sao Paulo, Brazil
+TC 7
+Z9 9
+SN 0304-3800
+PD JAN 30
+PY 2002
+VL 147
+IS 3
+BP 221
+EP 232
+DI 10.1016/S0304-3800(01)00421-5
+UT WOS:000173592500003
+ER
+
+PT J
+AU Diniz, JAF
+   de Sant'Ana, CER
+   de Souza, MC
+   Rangel, TFLVB
+AF Diniz, JAF
+   de Sant'Ana, CER
+   de Souza, MC
+   Rangel, TFLVB
+TI Null models and spatial patterns of species richness in South American
+   birds of prey
+SO ECOLOGY LETTERS
+C1 Univ Fed Goias, Dept Biol Geral, ICB, BR-74001970 Goiania, Go, Brazil.
+   CEFET GO, Goiania, Go, Brazil.
+   Univ Brasilia, Grad Program Anim Biol, Brasilia, DF, Brazil.
+   Univ Fed Goias, Grad Program Ecol, ICB, BR-74001970 Goiania, Go, Brazil.
+RP Diniz, JAF (reprint author), Univ Fed Goias, Dept Biol Geral, ICB, CP 131, BR-74001970 Goiania, Go, Brazil
+TC 34
+Z9 35
+SN 1461-023X
+PD JAN
+PY 2002
+VL 5
+IS 1
+BP 47
+EP 55
+DI 10.1046/j.1461-0248.2002.00289.x
+UT WOS:000175032800008
+ER
+
+PT J
+AU Binkley, D
+   Stape, JL
+   Ryan, MG
+   Barnard, HR
+   Fownes, J
+AF Binkley, D
+   Stape, JL
+   Ryan, MG
+   Barnard, HR
+   Fownes, J
+TI Age-related decline in forest ecosystem growth: An individual-tree,
+   stand-structure hypothesis
+RID A-2703-2010
+RID A-9805-2008
+SO ECOSYSTEMS
+C1 Colorado State Univ, Dept Forest Sci, Ft Collins, CO 80523 USA.
+   Colorado State Univ, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA.
+   US Forest Serv, USDA, Rocky Mt Res Stn, Ft Collins, CO 80523 USA.
+   Univ Sao Paulo, Dept Forest Sci, CNPq, Piracicaba, SP, Brazil.
+   Univ Hawaii Manoa, Coll Trop Agr & Human Resources, Honolulu, HI 96822 USA.
+   Univ Massachusetts, Dept Nat Resources Conservat, Amherst, MA 01003 USA.
+RP Binkley, D (reprint author), Colorado State Univ, Dept Forest Sci, Ft Collins, CO 80523 USA
+TC 67
+Z9 68
+SN 1432-9840
+PD JAN
+PY 2002
+VL 5
+IS 1
+BP 58
+EP 67
+DI 10.1007/s10021-001-0055-7
+UT WOS:000175429300005
+ER
+
+PT J
+AU Defeo, O
+   Cardoso, RS
+AF Defeo, O
+   Cardoso, RS
+TI Macroecology of population dynamics and life history traits of the mole
+   crab Emerita brasiliensis in Atlantic sandy beaches of South America
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Ctr Invest & Estudios Avanzados, Unidad Merida, Merida 97310, Yucatan, Mexico.
+   Fac Ciencias, UNIDECIMAR, Montevideo 11400, Uruguay.
+   UNIRIO, Dept Ciencias Nat, Lab Dinam Populacoes Marinhas, BR-22290240 Rio De Janeiro, RJ, Brazil.
+RP Defeo, O (reprint author), Ctr Invest & Estudios Avanzados, Unidad Merida, Carretera Antigua Progresso Km 6,POB 73, Merida 97310, Yucatan, Mexico
+TC 25
+Z9 25
+SN 0171-8630
+PY 2002
+VL 239
+BP 169
+EP 179
+DI 10.3354/meps239169
+UT WOS:000178175000016
+ER
+
+PT J
+AU Schwamborn, R
+   Ekau, W
+   Voss, M
+   Saint-Paul, U
+AF Schwamborn, R
+   Ekau, W
+   Voss, M
+   Saint-Paul, U
+TI How important are mangroves as a carbon source for decapod crustacean
+   larvae in a tropical estuary?
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Ctr Trop Marine Ecol, D-28359 Bremen, Germany.
+   Baltic Sea Res Inst, D-18119 Rostock, Germany.
+RP Schwamborn, R (reprint author), Univ Fed Pernambuco, Dept Oceanog, BR-50730540 Recife, PE, Brazil
+TC 18
+Z9 19
+SN 0171-8630
+PY 2002
+VL 229
+BP 195
+EP 205
+DI 10.3354/meps229195
+UT WOS:000175144400018
+ER
+
+PT J
+AU Hoffmann, WA
+AF Hoffmann, WA
+TI Direct and indirect effects of fire on radial growth of cerrado savanna
+   trees
+RID E-8894-2010
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Brasilia, Dept Engn Florestal, BR-70919970 Brasilia, DF, Brazil.
+RP Hoffmann, WA (reprint author), Univ Brasilia, Dept Engn Florestal, Caixa Postal 04357, BR-70919970 Brasilia, DF, Brazil
+EM hoffmann@unb.br
+TC 13
+Z9 15
+SN 0266-4674
+PD JAN
+PY 2002
+VL 18
+PN Part 1
+BP 137
+EP 142
+UT WOS:000173485800008
+ER
+
+PT J
+AU Diniz, JAF
+   Torres, NM
+AF Diniz, JAF
+   Torres, NM
+TI Phylogenetic comparative methods and the geographic range size - body
+   size relationship in new world terrestrial carnivora
+SO EVOLUTIONARY ECOLOGY
+C1 Univ Fed Goias, Inst Ciencias Biol, Dept Biol Geral, BR-74001970 Goiania, Go, Brazil.
+   CNPq, PIBIB, Grad Program Biol, Rio De Janeiro, Brazil.
+RP Diniz, JAF (reprint author), Univ Fed Goias, Inst Ciencias Biol, Dept Biol Geral, CxP 131, BR-74001970 Goiania, Go, Brazil
+EM diniz@icbl.ufg.br
+TC 57
+Z9 59
+SN 0269-7653
+PY 2002
+VL 16
+IS 4
+BP 351
+EP 367
+UT WOS:000177983000003
+ER
+
+PT J
+AU Margis, R
+   Felix, D
+   Caldas, JF
+   Salgueiro, F
+   De Araujo, DSD
+   Breyne, P
+   Van Montagu, M
+   De Oliveira, D
+   Margis-Pinheiro, M
+AF Margis, R
+   Felix, D
+   Caldas, JF
+   Salgueiro, F
+   De Araujo, DSD
+   Breyne, P
+   Van Montagu, M
+   De Oliveira, D
+   Margis-Pinheiro, M
+TI Genetic differentiation among three neighboring Brazil-cherry (Eugenia
+   uniflora L.) populations within the Brazilian Atlantic rain forest
+RID A-7230-2008
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Rio de Janeiro, CCS, Inst Biol, Dept Genet,Lab Genet Mol Vegetal, BR-21944970 Rio De Janeiro, Brazil.
+   UFRJ, Inst Quim, Dept Bioquim, Rio De Janeiro, Brazil.
+   Univ Fed Rio de Janeiro, CCS, Inst Biol, Dept Ecol, Rio De Janeiro, Brazil.
+   State Univ Ghent VIB, B-9000 Ghent, Belgium.
+RP Margis, R (reprint author), Univ Fed Rio de Janeiro, CCS, Inst Biol, Dept Genet,Lab Genet Mol Vegetal, Ilha Fundao, BR-21944970 Rio De Janeiro, Brazil
+EM margisr@ufrj.br
+TC 14
+Z9 15
+SN 0960-3115
+PD JAN
+PY 2002
+VL 11
+IS 1
+BP 149
+EP 163
+DI 10.1023/A:1014028026273
+UT WOS:000173702400010
+ER
+
+PT J
+AU Rapini, A
+   De Mello-Silva, R
+   Kawasaki, ML
+AF Rapini, A
+   De Mello-Silva, R
+   Kawasaki, ML
+TI Richness and endemism in Asclepiadoideae (Apocynaceae) from the
+   Espinhaco Range of Minas Gerais, Brazil - a conservationist view
+RID F-1584-2011
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Sao Paulo, Inst Biociencias, Dept Bot, BR-05422970 Sao Paulo, Brazil.
+   Inst Bot Sao Paulo, Herbario, BR-01061970 Sao Paulo, Brazil.
+RP Rapini, A (reprint author), Univ Sao Paulo, Inst Biociencias, Dept Bot, Caixa Postal 11461, BR-05422970 Sao Paulo, Brazil
+TC 12
+Z9 14
+SN 0960-3115
+PY 2002
+VL 11
+IS 10
+BP 1733
+EP 1746
+DI 10.1023/A:1020346616185
+UT WOS:000178204300003
+ER
+
+PT J
+AU Matos, DMS
+   Bovi, MLA
+AF Matos, DMS
+   Bovi, MLA
+TI Understanding the threats to biological diversity in southeastern Brazil
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ E Anglia, Sch Biol Sci, Norwich NR4 7TJ, Norfolk, England.
+   Inst Agron Campinas, BR-13020902 Campinas, SP, Brazil.
+RP Matos, DMS (reprint author), Univ Rio de Janeiro, ECB, Dept Ciencias Nat, Av Pasteur 458, BR-22290240 Rio De Janeiro, Brazil, Brazil
+TC 4
+Z9 5
+SN 0960-3115
+PY 2002
+VL 11
+IS 10
+BP 1747
+EP 1758
+UT WOS:000178204300004
+ER
+
+PT J
+AU Azevedo-Rams, C
+   Galatti, U
+AF Azevedo-Rams, C
+   Galatti, U
+TI Patterns of amphibian diversity in Brazilian Amazonia: conservation
+   implications
+SO BIOLOGICAL CONSERVATION
+C1 Fed Univ Para, DPE, Ctr Filosofia & Ciencias Humanas, BR-66070100 Belem, Para, Brazil.
+   Museu Paraense Emulio Goeldi, Dept Zool, BR-66017970 Belem, Para, Brazil.
+RP Azevedo-Rams, C (reprint author), Fed Univ Para, DPE, Ctr Filosofia & Ciencias Humanas, BR-66070100 Belem, Para, Brazil
+TC 14
+Z9 15
+SN 0006-3207
+PD JAN
+PY 2002
+VL 103
+IS 1
+BP 103
+EP 111
+DI 10.1016/S0006-3207(01)00129-X
+UT WOS:000172057300009
+ER
+
+PT J
+AU Gerwing, JJ
+AF Gerwing, JJ
+TI Testing liana cutting and controlled burning as silvicultural treatments
+   for a logged forest in the eastern Amazon
+SO JOURNAL OF APPLIED ECOLOGY
+C1 Penn State Univ, Interdept Program Ecol, Mueller Lab 208, University Pk, PA 16802 USA.
+   Inst Homem & Meio Ambiente Amazonia, BR-66613970 Belem, Para, Brazil.
+RP Gerwing, JJ (reprint author), Penn State Univ, Interdept Program Ecol, Mueller Lab 208, University Pk, PA 16802 USA
+TC 29
+Z9 31
+SN 0021-8901
+PD DEC
+PY 2001
+VL 38
+IS 6
+BP 1264
+EP 1276
+DI 10.1046/j.0021-8901.2001.00677.x
+UT WOS:000173050100009
+ER
+
+PT J
+AU Maltchik, L
+   Pedro, F
+AF Maltchik, L
+   Pedro, F
+TI Responses of aquatic macrophytes to disturbance by flash floods in a
+   Brazilian semiarid intermittent stream
+SO BIOTROPICA
+C1 Univ Vale Rio Sinos, UNISINOS, BR-93022000 Sao Leopoldo, RS, Brazil.
+RP Maltchik, L (reprint author), Univ Vale Rio Sinos, UNISINOS, BR-93022000 Sao Leopoldo, RS, Brazil, Brazil
+TC 9
+Z9 12
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 566
+EP 572
+DI 10.1646/0006-3606(2001)033[0566:ROAMTD]2.0.CO;2
+UT WOS:000173456300003
+ER
+
+PT J
+AU Garla, RC
+   Setz, EZF
+   Gobbi, N
+AF Garla, RC
+   Setz, EZF
+   Gobbi, N
+TI Jaguar (Panthera onca) food habits in Atlantic rain forest of
+   southeastern Brazil
+SO BIOTROPICA
+C1 Univ Estadual Paulista, BR-13506900 Sao Paulo, Brazil.
+   Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Garla, RC (reprint author), Rua Amador Bueno,1342-120 Ctr, BR-14010070 Sao Paulo, Brazil
+TC 15
+Z9 17
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 691
+EP 696
+DI 10.1111/j.1744-7429.2001.tb00226.x
+UT WOS:000173456300014
+ER
+
+PT J
+AU Alves-Costa, CP
+   Lopes, AV
+AF Alves-Costa, CP
+   Lopes, AV
+TI Using artificial fruits to evaluate fruit selection by birds in the
+   field
+RID E-8432-2010
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Posgrad Ecol IB, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Campinas, Dept Bot IB, BR-13083970 Campinas, SP, Brazil.
+RP Alves-Costa, CP (reprint author), Univ Estadual Campinas, Posgrad Ecol IB, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 9
+Z9 10
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 713
+EP 717
+DI 10.1111/j.1744-7429.2001.tb00230.x
+UT WOS:000173456300018
+ER
+
+PT J
+AU Galetti, M
+   Keuroghlian, A
+   Hanada, L
+   Morato, MI
+AF Galetti, M
+   Keuroghlian, A
+   Hanada, L
+   Morato, MI
+TI Frugivory and seed dispersal by the lowland tapir (Tapirus terrestris)
+   in southeast Brazil
+SO BIOTROPICA
+C1 Univ Estadual Paulista, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, BR-13506900 Sao Paulo, Brazil.
+   Univ Nevada, EECB, Reno, NV USA.
+RP Galetti, M (reprint author), Univ Estadual Paulista, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, CP 199, BR-13506900 Sao Paulo, Brazil
+TC 24
+Z9 26
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 723
+EP 726
+DI 10.1111/j.1744-7429.2001.tb00232.x
+UT WOS:000173456300020
+ER
+
+PT J
+AU De Nardo, EAB
+   Maia, AHN
+   Watanabe, MA
+AF De Nardo, EAB
+   Maia, AHN
+   Watanabe, MA
+TI Effect of a formulation of Anticarsia gemmatalis (Lepidoptera :
+   Noctuidae) nuclear polyhedrosis virus on the predator Podisus
+   nigrispinus (Heteroptera : Pentatomidae : Asopinae), using the fertility
+   life table parameters
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 EMBRAPA, CNPMA, BR-13820000 Jaguariuna, SP, Brazil.
+RP De Nardo, EAB (reprint author), EMBRAPA, CNPMA, BR-13820000 Jaguariuna, SP, Brazil
+TC 2
+Z9 2
+SN 0046-225X
+PD DEC
+PY 2001
+VL 30
+IS 6
+BP 1164
+EP 1173
+DI 10.1603/0046-225X-30.6.1164
+UT WOS:000172937000025
+ER
+
+PT J
+AU Zanuncio, JC
+   Guedes, RNC
+   Zanuncio, TV
+   Fabres, AS
+AF Zanuncio, JC
+   Guedes, RNC
+   Zanuncio, TV
+   Fabres, AS
+TI Species richness and abundance of defoliating Lepidoptera associated
+   with Eucalyptus grandis in Brazil and their response to plant age
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Vicosa, Dept Biol Anim, BR-36571000 Vicosa, MG, Brazil.
+   Celulose Nipo Brasileira SA, CENIBRA, Ipatinga, MG, Brazil.
+RP Guedes, RNC (reprint author), Univ Fed Vicosa, Dept Biol Anim, BR-36571000 Vicosa, MG, Brazil
+TC 19
+Z9 22
+SN 1442-9985
+PD DEC
+PY 2001
+VL 26
+IS 6
+BP 582
+EP 589
+DI 10.1046/j.1442-9993.2001.01126.x
+UT WOS:000175424200002
+ER
+
+PT J
+AU Barros-Bellanda, HCH
+   Zucoloto, FS
+AF Barros-Bellanda, HCH
+   Zucoloto, FS
+TI Influence of chorion ingestion on the performance of Ascia monuste and
+   its association with cannibalism
+SO ECOLOGICAL ENTOMOLOGY
+C1 Univ Sao Paulo, FFCL RP, Dept Biol, BR-14049901 Ribeirao Preto, SP, Brazil.
+RP Zucoloto, FS (reprint author), Univ Sao Paulo, FFCL RP, Dept Biol, Av Bandeirantes 3900, BR-14049901 Ribeirao Preto, SP, Brazil
+TC 10
+Z9 10
+SN 0307-6946
+PD DEC
+PY 2001
+VL 26
+IS 6
+BP 557
+EP 561
+DI 10.1046/j.1365-2311.2001.00377.x
+UT WOS:000172627500001
+ER
+
+PT J
+AU Martins, RP
+   Guerra, STM
+   Barbeitos, MS
+AF Martins, RP
+   Guerra, STM
+   Barbeitos, MS
+TI Variability in egg-to-adult development time in the bee Ptilothrix
+   plumata and its parasitoids
+SO ECOLOGICAL ENTOMOLOGY
+C1 UFMG, ICB, Dept Biol Geral, Lab Ecol & Comportamento Insetos, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Martins, RP (reprint author), UFMG, ICB, Dept Biol Geral, Lab Ecol & Comportamento Insetos, Caixa Postal 486, BR-30161970 Belo Horizonte, MG, Brazil
+TC 6
+Z9 6
+SN 0307-6946
+PD DEC
+PY 2001
+VL 26
+IS 6
+BP 609
+EP 616
+DI 10.1046/j.1365-2311.2001.00353.x
+UT WOS:000172627500008
+ER
+
+PT J
+AU Zarin, DJ
+   Pereira, VFG
+   Raffles, H
+   Rabelo, FG
+   Pinedo-Vasquez, M
+   Congalton, RG
+AF Zarin, DJ
+   Pereira, VFG
+   Raffles, H
+   Rabelo, FG
+   Pinedo-Vasquez, M
+   Congalton, RG
+TI Landscape change in tidal floodplains near the mouth of the Amazon River
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ New Hampshire, Dept Nat Resources, Durham, NH 03824 USA.
+   Univ Calif Santa Cruz, Dept Anthropol, Santa Cruz, CA 95064 USA.
+   Fac Ciencias Agrarias Para, Dept Ciencias Florestais, BR-66077530 Belem, Para, Brazil.
+   Columbia Univ, Ctr Environm Res & Conservat, New York, NY 10027 USA.
+RP Zarin, DJ (reprint author), Univ Florida, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA
+TC 15
+Z9 15
+SN 0378-1127
+PD DEC 1
+PY 2001
+VL 154
+IS 3
+BP 383
+EP 393
+DI 10.1016/S0378-1127(01)00510-2
+UT WOS:000172287600004
+ER
+
+PT J
+AU Nepstad, D
+   Carvalho, G
+   Barros, AC
+   Alencar, A
+   Capobianco, JP
+   Bishop, J
+   Moutinho, P
+   Lefebvre, P
+   Silva, UL
+   Prins, E
+AF Nepstad, D
+   Carvalho, G
+   Barros, AC
+   Alencar, A
+   Capobianco, JP
+   Bishop, J
+   Moutinho, P
+   Lefebvre, P
+   Silva, UL
+   Prins, E
+TI Road paving, fire regime feedbacks, and the future of Amazon forests
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Woods Hole Res Ctr, Woods Hole, MA 02543 USA.
+   Inst Pesquisa Ambiental Amazonia, Belem, Para, Brazil.
+   Inst Socio Ambiental, BR-0123800 Sao Paulo, Brazil.
+   Int Inst Environm & Dev, London WC1H 0DD, England.
+   NOAA, ORA, NESDIS, Adv Satellite Prod Team, Madison, WI 53706 USA.
+RP Nepstad, D (reprint author), Woods Hole Res Ctr, POB 296, Woods Hole, MA 02543 USA
+TC 154
+Z9 161
+SN 0378-1127
+PD DEC 1
+PY 2001
+VL 154
+IS 3
+BP 395
+EP 407
+DI 10.1016/S0378-1127(01)00511-4
+UT WOS:000172287600005
+ER
+
+PT J
+AU Laurance, WF
+   Williamson, GB
+AF Laurance, WF
+   Williamson, GB
+TI Positive feedbacks among forest fragmentation, drought, and climate
+   change in the Amazon
+SO CONSERVATION BIOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Louisiana State Univ, Dept Bot, Baton Rouge, LA 70803 USA.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 93
+Z9 99
+SN 0888-8892
+PD DEC
+PY 2001
+VL 15
+IS 6
+BP 1529
+EP 1535
+DI 10.1046/j.1523-1739.2001.01093.x
+UT WOS:000172692900012
+ER
+
+PT J
+AU Neill, C
+   Deegan, LA
+   Thomas, SM
+   Cerri, CC
+AF Neill, C
+   Deegan, LA
+   Thomas, SM
+   Cerri, CC
+TI Deforestation for pasture alters nitrogen and phosphorus in small
+   Amazonian Streams
+SO ECOLOGICAL APPLICATIONS
+C1 Marine Biol Lab, Ctr Ecosyst, Woods Hole, MA 02543 USA.
+   Avenida Centenario, Ctr Energia Nuc Agr, BR-13416000 Piracicaba, SP, Brazil.
+RP Neill, C (reprint author), Marine Biol Lab, Ctr Ecosyst, Woods Hole, MA 02543 USA
+TC 53
+Z9 54
+SN 1051-0761
+PD DEC
+PY 2001
+VL 11
+IS 6
+BP 1817
+EP 1828
+DI 10.2307/3061098
+UT WOS:000172456700020
+ER
+
+PT J
+AU Oliveira, AEA
+   Sassaki, GL
+   Iacomini, M
+   da Cunha, M
+   Gomes, VM
+   Fernandes, BKVS
+   Xavier, J
+AF Oliveira, AEA
+   Sassaki, GL
+   Iacomini, M
+   da Cunha, M
+   Gomes, VM
+   Fernandes, BKVS
+   Xavier, J
+TI Isolation and characterization of a galactorhamnan polysaccharide from
+   the seed coat of Canavalia ensiformis that is toxic to the cowpea weevil
+   (Callosobruchus maculatus)
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Estadual Norte Fluminense, Ctr Biociencias & Biotecnol, Lab Quim & Funcao Prot & Peptideos, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+   Univ Fed Parana, Dept Bioquim, BR-81531970 Curitiba, Parana, Brazil.
+   Univ Estadual Norte Fluminense, Lab Biol Celular & Tecidual, Ctr Biociencias & Biotecnol, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+   Univ Estadual Norte Fluminense, Lab Fisiol & Bioquim Microrgaanismos, Ctr Biociencias & Biotecnol, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+RP Xavier, J (reprint author), Univ Estadual Norte Fluminense, Ctr Biociencias & Biotecnol, Lab Quim & Funcao Prot & Peptideos, BR-28015620 Campos Dos Goytacazes, RJ, Brazil
+TC 5
+Z9 5
+SN 0013-8703
+PD DEC
+PY 2001
+VL 101
+IS 3
+BP 225
+EP 231
+DI 10.1046/j.1570-7458.2001.00907.x
+UT WOS:000174481900003
+ER
+
+PT J
+AU Jennings, SB
+   Brown, ND
+   Boshier, DH
+   Whitmore, TC
+   Lopes, JDA
+AF Jennings, SB
+   Brown, ND
+   Boshier, DH
+   Whitmore, TC
+   Lopes, JDA
+TI Ecology provides a pragmatic solution to the maintenance of genetic
+   diversity in sustainably managed tropical rain forests
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Oxford, Oxford Forestry Inst, Dept Plant Sci, Oxford OX1 3RB, England.
+   Univ Cambridge, Dept Geog, Cambridge CB2 3EN, England.
+   Embrapa Amazonia Oriental, BR-66005100 Belem, Para, Brazil.
+RP Jennings, SB (reprint author), Univ Oxford, Oxford Forestry Inst, Dept Plant Sci, S Parks Rd, Oxford OX1 3RB, England, England
+TC 26
+Z9 26
+SN 0378-1127
+PD NOV 15
+PY 2001
+VL 154
+IS 1-2
+BP 1
+EP 10
+DI 10.1016/S0378-1127(00)00637-X
+UT WOS:000172049500001
+ER
+
+PT J
+AU McGrath, DA
+   Smith, CK
+   Gholz, HL
+   Oliveira, FD
+AF McGrath, DA
+   Smith, CK
+   Gholz, HL
+   Oliveira, FD
+TI Effects of land-use change on soil nutrient dynamics in Amazonia
+SO ECOSYSTEMS
+C1 Agr Univ Para, FCAP, BR-66077530 Belem, Para, Brazil.
+   Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL USA.
+   Univ South, Dept Forestry & Geol, Sewanee, TN 37383 USA.
+RP McGrath, DA (reprint author), Univ South, Dept Biol, Sewanee, TN 37383 USA
+EM dmcgrath@sewanee.edu
+TC 65
+Z9 73
+SN 1432-9840
+PD NOV
+PY 2001
+VL 4
+IS 7
+BP 625
+EP 645
+DI 10.1007/s10021-001-0033-0
+UT WOS:000172503300002
+ER
+
+PT J
+AU Laurance, WF
+   Williamson, GB
+   Delamonica, P
+   Oliveira, A
+   Lovejoy, TE
+   Gascon, C
+   Pohl, L
+AF Laurance, WF
+   Williamson, GB
+   Delamonica, P
+   Oliveira, A
+   Lovejoy, TE
+   Gascon, C
+   Pohl, L
+TI Effects of a strong drought on Amazonian forest fragments and edges
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   INPA, Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Louisiana State Univ, Dept Bot, Baton Rouge, LA 70803 USA.
+   Smithsonian Inst, Washington, DC 20560 USA.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 33
+Z9 35
+SN 0266-4674
+PD NOV
+PY 2001
+VL 17
+PN Part 6
+BP 771
+EP 785
+UT WOS:000172660900001
+ER
+
+PT J
+AU Fischer, E
+   Dos Santos, FAM
+AF Fischer, E
+   Dos Santos, FAM
+TI Demography, phenology and sex of Calophyllum brasiliense (Clusiaceae)
+   trees in the Atlantic forest
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Mato Grosso Sul, Dept Biol, BR-79070900 Campo Grande, MS, Brazil.
+   Univ Estadual Campinas, Dept Bot, BR-13081970 Campinas, SP, Brazil.
+RP Fischer, E (reprint author), Univ Fed Mato Grosso Sul, Dept Biol, CP 549, BR-79070900 Campo Grande, MS, Brazil, Brazil
+TC 6
+Z9 8
+SN 0266-4674
+PD NOV
+PY 2001
+VL 17
+PN Part 6
+BP 903
+EP 909
+UT WOS:000172660900009
+ER
+
+PT J
+AU Pizo, MA
+   Oliveira, PS
+AF Pizo, MA
+   Oliveira, PS
+TI Size and lipid content of nonmyrmecochorous diaspores: effects on the
+   interaction with litter-foraging ants in the Atlantic rain forest of
+   Brazil
+SO PLANT ECOLOGY
+C1 Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Oliveira, PS (reprint author), Univ Estadual Campinas, Dept Zool, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 29
+Z9 34
+SN 1385-0237
+PD NOV
+PY 2001
+VL 157
+IS 1
+BP 37
+EP 52
+DI 10.1023/A:1013735305100
+UT WOS:000173315500003
+ER
+
+PT J
+AU Engel, VL
+   Parrotta, JA
+AF Engel, VL
+   Parrotta, JA
+TI An evaluation of direct seeding for reforestation of degraded lands in
+   central Sao Paulo state, Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 US Forest Serv, Int Inst Trop Forestry, USDA, Rio Piedras, PR 00928 USA.
+   Univ Estadual Paulista, FCA, Dept Nat Resources, BR-18603970 Botucatu, SP, Brazil.
+RP Parrotta, JA (reprint author), US Forest Serv, Int Inst Trop Forestry, USDA, POB 25000, Rio Piedras, PR 00928 USA
+EM veralex@fca.unesp.br
+   jparrotta@fs.fed.us
+TC 31
+Z9 36
+SN 0378-1127
+PD OCT 15
+PY 2001
+VL 152
+IS 1-3
+BP 169
+EP 181
+DI 10.1016/S0378-1127(00)00600-9
+UT WOS:000171497800014
+ER
+
+PT J
+AU Chambers, JQ
+   dos Santos, J
+   Ribeiro, RJ
+   Higuchi, N
+AF Chambers, JQ
+   dos Santos, J
+   Ribeiro, RJ
+   Higuchi, N
+TI Tree damage, allometric relationships, and above-ground net primary
+   production in central Amazon forest
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Nacl Pesquisas Espaciais, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Calif Irvine, Irvine, CA 92697 USA.
+RP Chambers, JQ (reprint author), Inst Nacl Pesquisas Espaciais, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 107
+Z9 110
+SN 0378-1127
+PD OCT 15
+PY 2001
+VL 152
+IS 1-3
+BP 73
+EP 84
+DI 10.1016/S0378-1127(00)00591-0
+UT WOS:000171497800006
+ER
+
+PT J
+AU Potter, C
+   Davidson, E
+   Nepstad, D
+   de Carvalho, CR
+AF Potter, C
+   Davidson, E
+   Nepstad, D
+   de Carvalho, CR
+TI Ecosystem modeling and dynamic effects of deforestation on trace gas
+   fluxes in Amazon tropical forests
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 NASA, Ames Res Ctr, Ecosyst Sci & Technol Branch, Moffett Field, CA 94035 USA.
+   Woods Hole Res Ctr, Woods Hole, MA 02543 USA.
+   EMBRAPA, Amazonia Ocidental, Belem, Para, Brazil.
+RP Potter, C (reprint author), NASA, Ames Res Ctr, Ecosyst Sci & Technol Branch, Moffett Field, CA 94035 USA
+TC 24
+Z9 24
+SN 0378-1127
+PD OCT 15
+PY 2001
+VL 152
+IS 1-3
+BP 97
+EP 117
+DI 10.1016/S0378-1127(00)00593-4
+UT WOS:000171497800008
+ER
+
+PT J
+AU Mendonca, MD
+AF Mendonca, MD
+TI Galling insect diversity patterns: the resource synchronisation
+   hypothesis
+SO OIKOS
+C1 Univ Fed Rio Grande do Sul, Inst Biociencias, Dept Zool, Lab Ecol Insetos, BR-91501970 Porto Alegre, RS, Brazil.
+   Univ London Imperial Coll Sci Technol & Med, NERC, Ctr Populat Biol, Ascot SL5 7PY, Berks, England.
+   Univ London Imperial Coll Sci Technol & Med, Dept Biol, Ascot SL5 7PY, Berks, England.
+RP Mendonca, MD (reprint author), Univ Fed Rio Grande do Sul, Inst Biociencias, Dept Zool, Lab Ecol Insetos, Av Bento Goncalves 9500, BR-91501970 Porto Alegre, RS, Brazil
+EM milton_mendonca@uol.com.br
+TC 12
+Z9 16
+SN 0030-1299
+PD OCT
+PY 2001
+VL 95
+IS 1
+BP 171
+EP 176
+UT WOS:000172338600020
+ER
+
+PT J
+AU Bernoux, M
+   Carvalho, MDS
+   Volkoff, B
+   Cerri, CC
+AF Bernoux, M
+   Carvalho, MDS
+   Volkoff, B
+   Cerri, CC
+TI CO2 emission from mineral soils following land-cover change in Brazil
+RID B-3090-2008
+SO GLOBAL CHANGE BIOLOGY
+C1 USP, IRD, CENA, UR Carbon Sequestrat, BR-13400970 Piracicaba, SP, Brazil.
+RP Bernoux, M (reprint author), USP, IRD, CENA, UR Carbon Sequestrat, CP 96, BR-13400970 Piracicaba, SP, Brazil
+TC 26
+Z9 28
+SN 1354-1013
+PD OCT
+PY 2001
+VL 7
+IS 7
+BP 779
+EP 787
+DI 10.1046/j.1354-1013.2001.00446.x
+UT WOS:000172097300004
+ER
+
+PT J
+AU Lemos, B
+   Marroig, G
+   Cerqueira, R
+AF Lemos, B
+   Marroig, G
+   Cerqueira, R
+TI Evolutionary rates and stabilizing selection in large-bodied opossum
+   skulls (Didelphimorphia : Didelphidae)
+SO JOURNAL OF ZOOLOGY
+C1 Univ Fed Rio de Janeiro, Dept Ecol, Lab Vertebrados, BR-21941590 Rio De Janeiro, Brazil.
+   Univ Fed Rio de Janeiro, Dept Genet, BR-21941590 Rio De Janeiro, Brazil.
+RP Marroig, G (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Lab Vertebrados, CP 68020, BR-21941590 Rio De Janeiro, Brazil
+TC 11
+Z9 11
+SN 0952-8369
+PD OCT
+PY 2001
+VL 255
+PN Part 2
+BP 181
+EP 189
+DI 10.1017/S095283690100125X
+UT WOS:000171784700006
+ER
+
+PT J
+AU Spathelf, P
+   Durlo, MA
+AF Spathelf, P
+   Durlo, MA
+TI Transition matrix for modeling the dynamics of a subtropical seminatural
+   forest in southern Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+CT Conference on Transformation of Plantation Forests
+CY AUG 29-SEP 03, 1999
+CL EDINBURGH, SCOTLAND
+C1 Univ Fed Santa Maria, BR-97105900 Santa Maria, RS, Brazil.
+RP Spathelf, P (reprint author), Univ Fed Santa Maria, Campus Univ, BR-97105900 Santa Maria, RS, Brazil
+TC 8
+Z9 8
+SN 0378-1127
+PD OCT 1
+PY 2001
+VL 151
+IS 1-3
+SI SI
+BP 139
+EP 149
+DI 10.1016/S0378-1127(00)00704-0
+UT WOS:000171151900014
+ER
+
+PT J
+AU Develey, PF
+   Stouffer, PC
+AF Develey, PF
+   Stouffer, PC
+TI Effects of roads on movements by understory birds in mixed-species
+   flocks in central Amazonian Brazil
+SO CONSERVATION BIOLOGY
+C1 Inst Nacl Pesquisas, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   SE Louisiana Univ, Dept Biol Sci, Hammond, LA 70402 USA.
+RP Develey, PF (reprint author), Inst Nacl Pesquisas, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 77
+Z9 81
+SN 0888-8892
+PD OCT
+PY 2001
+VL 15
+IS 5
+BP 1416
+EP 1422
+DI 10.1046/j.1523-1739.2001.00170.x
+UT WOS:000171501100025
+ER
+
+PT J
+AU Magnusson, WE
+AF Magnusson, WE
+TI Catchments as basic units of management in conservation biology courses
+SO CONSERVATION BIOLOGY
+C1 Coordenacao Pesquisas Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   Inst Nacl Pesquisas, BR-69011970 Manaus, Amazonas, Brazil.
+RP Magnusson, WE (reprint author), INPA, CPEC, Ave Efigenio Sales 2239, BR-69060020 Manaus, Amazonas, Brazil,Brazil
+TC 3
+Z9 4
+SN 0888-8892
+PD OCT
+PY 2001
+VL 15
+IS 5
+BP 1464
+EP 1465
+DI 10.1046/j.1523-1739.2001.00399.x
+UT WOS:000171501100035
+ER
+
+PT J
+AU de Souza, RP
+   Valio, IFM
+AF de Souza, RP
+   Valio, IFM
+TI Seed size, seed germination, and seedling survival of Brazilian tropical
+   tree species differing in successional status
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Inst Biol, Dept Fisiol Vegetal, BR-13083970 Campinas, SP, Brazil.
+RP de Souza, RP (reprint author), Inst Agron Campinas, Ctr Ecofisiol & Biofis, Secao Fisiol, Av Barlo Itapura 1481,CP 28, BR-13001970 Campinas, SP, Brazil
+TC 9
+Z9 9
+SN 0006-3606
+PD SEP
+PY 2001
+VL 33
+IS 3
+BP 447
+EP 457
+DI 10.1646/0006-3606(2001)033[0447:SSSGAS]2.0.CO;2
+UT WOS:000171709800007
+ER
+
+PT J
+AU Eterovick, PC
+   Fernandes, GW
+AF Eterovick, PC
+   Fernandes, GW
+TI Tadpole distribution within montane meadow streams at the Serra do Cipo,
+   southeastern Brazil: ecological or phylogenetic constraints?
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Minas Gerais, Dept Biol Geral, Post Graduat Program Ecol Conservat & Wildlife Ma, ICB, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Eterovick, PC (reprint author), Univ Fed Minas Gerais, Dept Biol Geral, Post Graduat Program Ecol Conservat & Wildlife Ma, ICB, BR-30161970 Belo Horizonte, MG, Brazil
+TC 15
+Z9 23
+SN 0266-4674
+PD SEP
+PY 2001
+VL 17
+PN Part 5
+BP 683
+EP 693
+UT WOS:000172582800004
+ER
+
+PT J
+AU Cardoso, MZ
+AF Cardoso, MZ
+TI Patterns of pollen collection and flower visitation by Heliconius
+   butterflies in southeastern Mexico
+RID D-4683-2009
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Texas, Sect Integrat Biol, Austin, TX 78712 USA.
+RP Cardoso, MZ (reprint author), Univ Estadual Feina Santana, Dept Ciencias Biol, BR-44031480 Feina De Santana, BA, Brazil
+EM mzcardoso@uefs.br
+TC 5
+Z9 5
+SN 0266-4674
+PD SEP
+PY 2001
+VL 17
+PN Part 5
+BP 763
+EP 768
+UT WOS:000172582800011
+ER
+
+PT J
+AU Machado, G
+   Vital, DM
+AF Machado, G
+   Vital, DM
+TI On the occurrence of epizoic cyanobacteria and liverworts on a
+   neotropical harvestman (Arachnida : Opiliones)
+SO BIOTROPICA
+C1 Univ Estadual Campinas, Inst Biol, Museu Hist Nat, Curso Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.
+   Inst Bot, BR-01061970 Sao Paulo, Brazil.
+RP Machado, G (reprint author), Univ Estadual Campinas, Inst Biol, Museu Hist Nat, Curso Posgrad Ecol, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 6
+Z9 6
+SN 0006-3606
+PD SEP
+PY 2001
+VL 33
+IS 3
+BP 535
+EP 538
+DI 10.1646/0006-3606(2001)033[0535:OTOOEC]2.0.CO;2
+UT WOS:000171709800017
+ER
+
+PT J
+AU Mesquita, RCG
+   Ickes, K
+   Ganade, G
+   Williamson, GB
+AF Mesquita, RCG
+   Ickes, K
+   Ganade, G
+   Williamson, GB
+TI Alternative successional pathways in the Amazon Basin
+SO JOURNAL OF ECOLOGY
+C1 INPA, PDBFF, BR-69083970 Manaus, Amazonas, Brazil.
+   Louisiana State Univ, Dept Plant Biol, Baton Rouge, LA 70803 USA.
+   Univ Campinas, Dept Zool, BR-13081970 Campinas, SP, Brazil.
+RP Mesquita, RCG (reprint author), INPA, PDBFF, Cx P 478, BR-69083970 Manaus, Amazonas, Brazil
+TC 67
+Z9 78
+SN 0022-0477
+PD AUG
+PY 2001
+VL 89
+IS 4
+BP 528
+EP 537
+DI 10.1046/j.1365-2745.2001.00583.x
+UT WOS:000170666800003
+ER
+
+PT J
+AU Davy, AJ
+   Bishop, GF
+   Costa, CSB
+AF Davy, AJ
+   Bishop, GF
+   Costa, CSB
+TI Salicornia L. (Salicornia pusilla J. Woods, S. ramosissima J. Woods, S.
+   europaea L., S. obscura P.W. Ball & Tutin, S. nitens P.W. Ball & Tutin,
+   S. fragilis P.W. Ball & Tutin and S. dolichostachya Moss)
+RID E-1542-2011
+SO JOURNAL OF ECOLOGY
+C1 Univ E Anglia, Sch Biol Sci, Norwich NR4 7TJ, Norfolk, England.
+   Fdn Univ Fed Rio Grande, Dept Oceanog, BR-96201900 Rio Grande, Brazil.
+RP Davy, AJ (reprint author), Univ E Anglia, Sch Biol Sci, Norwich NR4 7TJ, Norfolk, England
+TC 36
+Z9 38
+SN 0022-0477
+PD AUG
+PY 2001
+VL 89
+IS 4
+BP 681
+EP 707
+DI 10.1046/j.0022-0477.2001.00607.x
+UT WOS:000170666800017
+ER
+
+PT J
+AU Orr, MR
+   Seike, SH
+   Benson, WW
+   Dahlsten, DL
+AF Orr, MR
+   Seike, SH
+   Benson, WW
+   Dahlsten, DL
+TI Host specificity of Pseudacteon (Diptera : Phoridae) parasitoids that
+   attack Linepithema (Hymenoptera : Formicidae) in South America
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Div Insect Biol, Berkeley, CA 94720 USA.
+   Univ Estadual Campinas, Dept Zool, LIIP, BR-13089397 Campinas, SP, Brazil.
+RP Orr, MR (reprint author), Div Insect Biol, 201 Wellman Hall 3110, Berkeley, CA 94720 USA
+TC 10
+Z9 10
+SN 0046-225X
+PD AUG
+PY 2001
+VL 30
+IS 4
+BP 742
+EP 747
+UT WOS:000170602100016
+ER
+
+PT J
+AU Machado, G
+   Freitas, AVL
+AF Machado, G
+   Freitas, AVL
+TI Larval defence against ant predation in the butterfly Smyrna blomfildia
+SO ECOLOGICAL ENTOMOLOGY
+C1 Univ Estadual Campinas, Inst Biol, Museu Hist Nat, BR-13083970 Campinas, SP, Brazil.
+RP Machado, G (reprint author), Univ Estadual Campinas, Inst Biol, Museu Hist Nat, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 8
+Z9 8
+SN 0307-6946
+PD AUG
+PY 2001
+VL 26
+IS 4
+BP 436
+EP 439
+DI 10.1046/j.1365-2311.2001.00328.x
+UT WOS:000171023100013
+ER
+
+PT J
+AU Nascimento, LB
+   Pombal, JP
+   Haddad, CFB
+AF Nascimento, LB
+   Pombal, JP
+   Haddad, CFB
+TI A new frog of the genus Hylodes (Amphibia : Leptodactylidae) from Minas
+   Gerais, Brazil
+SO JOURNAL OF ZOOLOGY
+C1 PUC Minas, Dept Ciencias Biol, BR-30535610 Belo Horizonte, MG, Brazil.
+   Univ Fed Rio de Janeiro, Museu Nacl, Dept Vertebrados, BR-20940040 Rio De Janeiro, Brazil.
+   Univ Estadual Paulista, Inst Biociencias, Dept Zool, BR-13506900 Rio Claro, SP, Brazil.
+RP Nascimento, LB (reprint author), PUC Minas, Dept Ciencias Biol, BR-30535610 Belo Horizonte, MG, Brazil, Brazil
+TC 13
+Z9 15
+SN 0952-8369
+PD AUG
+PY 2001
+VL 254
+PN Part 4
+BP 421
+EP 428
+DI 10.1017/S0952836901000917
+UT WOS:000170432300001
+ER
+
+PT J
+AU Martins, M
+   Araujo, MS
+   Sawaya, RJ
+   Nunes, R
+AF Martins, M
+   Araujo, MS
+   Sawaya, RJ
+   Nunes, R
+TI Diversity and evolution of macrohabitat use, body size and morphology in
+   a monophyletic group of Neotropical pitvipers (Bothrops)
+RID C-1150-2011
+SO JOURNAL OF ZOOLOGY
+C1 Univ Sao Paulo, Inst Biociencias, Dept Ecol, BR-05422970 Sao Paulo, Brazil.
+   Univ Estadual Campinas, Inst Biol, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+   Univ Estadual Paulista, Inst Biociencias, Dept Zool, BR-13506900 Rio Claro, SP, Brazil.
+RP Martins, M (reprint author), Univ Sao Paulo, Inst Biociencias, Dept Ecol, Caixa Postal 11461, BR-05422970 Sao Paulo, Brazil
+TC 22
+Z9 25
+SN 0952-8369
+PD AUG
+PY 2001
+VL 254
+PN Part 4
+BP 529
+EP 538
+DI 10.1017/S0952836901001030
+UT WOS:000170432300013
+ER
+
+PT J
+AU da Silva, JMC
+   Tabarelli, M
+AF da Silva, JMC
+   Tabarelli, M
+TI The future of the Atlantic forest in northeastern Brazil
+RID F-1088-2010
+SO CONSERVATION BIOLOGY
+C1 Univ Fed Pernambuco, Ctr Ciencias Biol, BR-50670901 Recife, PE, Brazil.
+RP da Silva, JMC (reprint author), Univ Fed Pernambuco, Ctr Ciencias Biol, Av Prof Moraes Rego 1235, BR-50670901 Recife, PE, Brazil
+TC 1
+Z9 1
+SN 0888-8892
+PD AUG
+PY 2001
+VL 15
+IS 4
+BP 819
+EP 820
+DI 10.1046/j.1523-1739.2001.00014-4.x
+UT WOS:000170179600005
+ER
+
+PT J
+AU Saatchi, S
+   Agosti, D
+   Alger, K
+   Delabie, J
+   Musinsky, J
+AF Saatchi, S
+   Agosti, D
+   Alger, K
+   Delabie, J
+   Musinsky, J
+TI Examining fragmentation and loss of primary forest in the southern
+   Bahian Atlantic forest of Brazil with radar imagery
+SO CONSERVATION BIOLOGY
+C1 CALTECH, Jet Prop Lab, Pasadena, CA 91109 USA.
+   Amer Museum Nat Hist, New York, NY 10024 USA.
+   Conservat Int, Washington, DC USA.
+   CEPLEC, Itabuna, Brazil.
+RP Saatchi, S (reprint author), CALTECH, Jet Prop Lab, 4800 Oak Grove Dr, Pasadena, CA 91109 USA
+TC 32
+Z9 35
+SN 0888-8892
+PD AUG
+PY 2001
+VL 15
+IS 4
+BP 867
+EP 875
+DI 10.1046/j.1523-1739.2001.015004867.x
+UT WOS:000170179600014
+ER
+
+PT J
+AU Abranches, J
+   Starmer, WT
+   Hagler, AN
+AF Abranches, J
+   Starmer, WT
+   Hagler, AN
+TI Yeast-yeast interactions in guava and tomato fruits
+SO MICROBIAL ECOLOGY
+C1 Univ Fed Rio de Janeiro, CCS, Inst Microbiol Prof Paulo de Goes, BR-21941590 Rio De Janeiro, Brazil.
+   Syracuse Univ, Dept Biol, Syracuse, NY 13244 USA.
+RP Abranches, J (reprint author), Univ Fed Rio de Janeiro, CCS, Inst Microbiol Prof Paulo de Goes, BR-21941590 Rio De Janeiro, Brazil
+TC 10
+Z9 10
+SN 0095-3628
+PD AUG
+PY 2001
+VL 42
+IS 2
+BP 186
+EP 192
+UT WOS:000170529700010
+ER
+
+PT J
+AU Dorneles, MRF
+   da Silva, CM
+   Gomes, AA
+AF Dorneles, MRF
+   da Silva, CM
+   Gomes, AA
+TI A model for hyphae effects in phosphorus absorption by plants
+SO ECOLOGICAL MODELLING
+C1 UFSM, Dept Fis, BR-97105900 Santa Maria, RS, Brazil.
+   Ctr Brasileiro Pesquisas Fis, BR-22290180 Rio De Janeiro, Brazil.
+RP da Silva, CM (reprint author), UFSM, Dept Fis, BR-97105900 Santa Maria, RS, Brazil
+TC 5
+Z9 5
+SN 0304-3800
+PD AUG 1
+PY 2001
+VL 142
+IS 1-2
+BP 83
+EP 89
+DI 10.1016/S0304-3800(01)00280-0
+UT WOS:000170761900006
+ER
+
+PT J
+AU Joyeux, JC
+   Floeter, SR
+   Ferreira, CEL
+   Gasparini, JL
+AF Joyeux, JC
+   Floeter, SR
+   Ferreira, CEL
+   Gasparini, JL
+TI Biogeography of tropical reef fishes: the South Atlantic puzzle
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Fed Espirito Santo, Dept Ecol & Recursos Nat, BR-29060900 Vitoria, ES, Brazil.
+   Univ Estadual Norte Fluminense, Lab Ciencias Ambientais, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+   IEAPM, Dept Oceanog, BR-28930000 Arraial Do Cabo, RJ, Brazil.
+RP Joyeux, JC (reprint author), Univ Fed Espirito Santo, Dept Ecol & Recursos Nat, Av Fernando Ferrari S-N, BR-29060900 Vitoria, ES, Brazil
+TC 40
+Z9 40
+SN 0305-0270
+PD JUL
+PY 2001
+VL 28
+IS 7
+BP 831
+EP 841
+DI 10.1046/j.1365-2699.2001.00602.x
+UT WOS:000172403100003
+ER
+
+PT J
+AU Paarmann, W
+   Adis, J
+   Stork, N
+   Gutzmann, B
+   Stumpe, P
+   Staritz, B
+   Bolte, H
+   Kuppers, S
+   Holzkamp, K
+   Niers, C
+   Da Fonseca, CRV
+AF Paarmann, W
+   Adis, J
+   Stork, N
+   Gutzmann, B
+   Stumpe, P
+   Staritz, B
+   Bolte, H
+   Kuppers, S
+   Holzkamp, K
+   Niers, C
+   Da Fonseca, CRV
+TI The structure of ground beetle assemblages (Coleoptera : Carabidae) at
+   fig fruit falls (Moraceae) in a terra firme rain forest near Manaus
+   (Brazil)
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Fachhsch Hildesheim Holzminden Gottingen, Fachbereich Forstwirtschaft & Umweltmanagement, D-37077 Gottingen, Germany.
+   Max Planck Inst Limnol, AG Tropenokol, D-24302 Plon, Germany.
+   James Cook Univ N Queensland, Cooperat Res Ctr Trop Rainforest Ecol & Managemen, Cairns, Qld 4870, Australia.
+   INPA, CPEN, BR-69011970 Manaus, Amazonas, Brazil.
+RP Paarmann, W (reprint author), Fachhsch Hildesheim Holzminden Gottingen, Fachbereich Forstwirtschaft & Umweltmanagement, Busgenweg 1A, D-37077 Gottingen, Germany
+TC 11
+Z9 12
+SN 0266-4674
+PD JUL
+PY 2001
+VL 17
+PN Part 4
+BP 549
+EP 561
+DI 10.1017/S0266467401001419
+UT WOS:000170112400006
+ER
+
+PT J
+AU de Castro, LAB
+   Petrere, M
+   Comune, AE
+AF de Castro, LAB
+   Petrere, M
+   Comune, AE
+TI Sensitivity of the BEAM4 fisheries bioeconomic model to the main
+   biological input parameters
+SO ECOLOGICAL MODELLING
+C1 Univ Sao Paulo, Fac Econ Adm & Contabilidade, BR-05508900 Sao Paulo, Brazil.
+   Univ Estadual Paulista, Inst Biociencias, Dept Ecol, BR-13506900 Rio Claro, SP, Brazil.
+   Univ Sao Paulo, Fac Econ adm & Contabilidade, BR-05508900 Sao Paulo, Brazil.
+RP Comune, AE (reprint author), Univ Sao Paulo, Fac Econ Adm & Contabilidade, Av Prof Luciano Gualberto 908, BR-05508900 Sao Paulo, Brazil, Brazil
+TC 3
+Z9 3
+SN 0304-3800
+PD JUL 1
+PY 2001
+VL 141
+IS 1-3
+BP 53
+EP 66
+DI 10.1016/S0304-3800(01)00241-1
+UT WOS:000170638600004
+ER
+
+PT J
+AU Ferreira, RL
+   Silva, MS
+AF Ferreira, RL
+   Silva, MS
+TI Biodiversity under rocks: the role of microhabitats in structuring
+   invertebrate communities in Brazilian outcrops
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Minas Gerais, Dept Biol Geral, Lab Ecol & Comportamento Insetos, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Ferreira, RL (reprint author), Univ Fed Minas Gerais, Dept Biol Geral, Lab Ecol & Comportamento Insetos, CP 2486, BR-30161970 Belo Horizonte, MG, Brazil, Brazil
+TC 0
+Z9 3
+SN 0960-3115
+PD JUL
+PY 2001
+VL 10
+IS 7
+BP 1171
+EP 1183
+UT WOS:000169648200011
+ER
+
+PT J
+AU Floeter, SR
+   Guimaraes, RZP
+   Rocha, LA
+   Ferreira, CEL
+   Rangel, CA
+   Gasparini, JL
+AF Floeter, SR
+   Guimaraes, RZP
+   Rocha, LA
+   Ferreira, CEL
+   Rangel, CA
+   Gasparini, JL
+TI Geographic variation in reef-fish assemblages along the Brazilian coast
+RID C-5107-2011
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+C1 UENF, Lab Ciencias Ambientais, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+   UFRJ, NIGP, Lab Biodiversidade Recursos Pesqueiros, Dept Biol Marinha, BR-21941569 Rio De Janeiro, Brazil.
+   UF, Dept Fish Aquat Sci, Gainesville, FL 32653 USA.
+   UEAPM, Dept Oceanog, BR-28930000 Arraial Do Cabo, RJ, Brazil.
+   Dept Ecol, BR-29041970 Vitoria, ES, Brazil.
+RP Floeter, SR (reprint author), Village,Ed Degas 204, BR-29052730 Vitoria, ES, Brazil
+TC 53
+Z9 57
+SN 0960-7447
+PD JUL
+PY 2001
+VL 10
+IS 4
+BP 423
+EP 431
+DI 10.1046/j.1466-822X.2001.00245.x
+UT WOS:000172043300009
+ER
+
+PT J
+AU Lilienfein, J
+   Wilcke, W
+   Thomas, R
+   Vilela, L
+   Lima, SD
+   Zech, W
+AF Lilienfein, J
+   Wilcke, W
+   Thomas, R
+   Vilela, L
+   Lima, SD
+   Zech, W
+TI Effects of Pinus caribaea forests on the C, N, P, and S status of
+   Brazilian savanna Oxisols
+RID A-1573-2008
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Bayreuth, Inst Soil Sci & Soil Geog, D-94550 Bayreuth, Germany.
+   CIAT, Cali, Colombia.
+   EMBRAPA, Planaltina, DF, Brazil.
+   Univ Fed Uberlandia, BR-38406210 Uberlandia, MG, Brazil.
+RP Lilienfein, J (reprint author), Univ Bayreuth, Inst Soil Sci & Soil Geog, D-94550 Bayreuth, Germany
+TC 12
+Z9 12
+SN 0378-1127
+PD JUN 30
+PY 2001
+VL 147
+IS 2-3
+BP 171
+EP 182
+DI 10.1016/S0378-1127(00)00472-2
+UT WOS:000169027000006
+ER
+
+PT J
+AU Johnson, CM
+   Vieira, ICG
+   Zarin, DJ
+   Frizano, J
+   Johnson, AH
+AF Johnson, CM
+   Vieira, ICG
+   Zarin, DJ
+   Frizano, J
+   Johnson, AH
+TI Carbon and nutrient storage in primary and secondary forests in eastern
+   Amazonia
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Penn, Philadelphia, PA 19104 USA.
+   Museu Paraense Emilio goeldi, Dept Bot, BR-66040170 Belem, Para, Brazil.
+   Univ New Hampshire, Dept Nat Resources, Durham, NH 03824 USA.
+RP Zarin, DJ (reprint author), Univ Florida, Sch Forest Resources & Conservat, POB 11070, Gainesville, FL 32611 USA
+TC 37
+Z9 39
+SN 0378-1127
+PD JUN 30
+PY 2001
+VL 147
+IS 2-3
+BP 245
+EP 252
+DI 10.1016/S0378-1127(00)00466-7
+UT WOS:000169027000010
+ER
+
+PT J
+AU Caparroz, R
+   Miyaki, CY
+   Bampi, MI
+   Wajntal, A
+AF Caparroz, R
+   Miyaki, CY
+   Bampi, MI
+   Wajntal, A
+TI Analysis of the genetic variability in a sample of the remaining group
+   of Spix's Macaw (Cyanopsitta spixii, Psittaciformes : Aves) by DNA
+   fingerprinting
+SO BIOLOGICAL CONSERVATION
+C1 Univ Sao Paulo, Dept Biol, BR-05422970 Sao Paulo, Brazil.
+   SAIN, IBAMA, Diretoria Ecossistemas, BR-70800200 Brasilia, DF, Brazil.
+RP Wajntal, A (reprint author), Univ Sao Paulo, Dept Biol, Rua Matao 277,CP 11-461, BR-05422970 Sao Paulo, Brazil
+EM aniwa@usp.br
+TC 5
+Z9 6
+SN 0006-3207
+PD JUN
+PY 2001
+VL 99
+IS 3
+BP 307
+EP 311
+DI 10.1016/S0006-3207(00)00196-8
+UT WOS:000169162600005
+ER
+
+PT J
+AU Cirne, P
+   Scarano, FR
+AF Cirne, P
+   Scarano, FR
+TI Resprouting and growth dynamics after fire of the clonal shrub Andira
+   legalis (Leguminosae) in a sandy coastal plain in south-eastern Brazil
+SO JOURNAL OF ECOLOGY
+C1 Univ Fed Rio de Janeiro, CCS, IB, Dept Ecol, BR-21941970 Rio De Janeiro, Brazil.
+RP Scarano, FR (reprint author), Univ Fed Rio de Janeiro, CCS, IB, Dept Ecol, Caixa Postal 68020, BR-21941970 Rio De Janeiro, Brazil
+TC 30
+Z9 36
+SN 0022-0477
+PD JUN
+PY 2001
+VL 89
+IS 3
+BP 351
+EP 357
+DI 10.1046/j.1365-2745.2001.00557.x
+UT WOS:000169689900003
+ER
+
+PT J
+AU Magnusson, WE
+   Lima, AP
+   Faria, AS
+   Victoria, RL
+   Martinelli, LA
+AF Magnusson, WE
+   Lima, AP
+   Faria, AS
+   Victoria, RL
+   Martinelli, LA
+TI Size and carbon acquisition in lizards from Amazonian savanna: Evidence
+   from isotope analysis
+RID F-7870-2011
+SO ECOLOGY
+C1 Inst Nacl Pesquisa Amazonia, Coordenacao Pesquisas Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   Ctr Energia Nucl Agr, BR-13416000 Piracicaba, SP, Brazil.
+RP Magnusson, WE (reprint author), Inst Nacl Pesquisa Amazonia, Coordenacao Pesquisas Ecol, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 14
+Z9 15
+SN 0012-9658
+PD JUN
+PY 2001
+VL 82
+IS 6
+BP 1772
+EP 1780
+DI 10.1890/0012-9658(2001)082[1772:SACAIL]2.0.CO;2
+UT WOS:000169521200022
+ER
+
+PT J
+AU Erthal, M
+   Tonhasca, A
+AF Erthal, M
+   Tonhasca, A
+TI Attacobius attarum spiders (Corinnidae): Myrmecophilous predators of
+   immature forms of the leef-cutting ant Atta sexdens (Formicidae)
+SO BIOTROPICA
+C1 Univ Estadual Norte Fluminense, BR-28015620 Campos Dos Goytacazes, RJ, Brazil.
+RP Tonhasca, A (reprint author), Univ Estadual Norte Fluminense, Av Alberto Lamego 2000, BR-28015620 Campos Dos Goytacazes, RJ, Brazil
+TC 2
+Z9 2
+SN 0006-3606
+PD JUN
+PY 2001
+VL 33
+IS 2
+BP 374
+EP 376
+DI 10.1111/j.1744-7429.2001.tb00191.x
+UT WOS:000169772000019
+ER
+
+PT J
+AU Cornelissen, TG
+   Fernandes, GW
+AF Cornelissen, TG
+   Fernandes, GW
+TI Defence, growth and nutrient allocation in the tropical shrub Bauhinia
+   brevipes (Leguminosae)
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Minas Gerais, Inst Ciencias Biol, Dept Biol Geral, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Cornelissen, TG (reprint author), Univ Fed Minas Gerais, Inst Ciencias Biol, Dept Biol Geral, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+EM tatiana@icb.ufmg.br
+TC 15
+Z9 19
+SN 1442-9985
+PD JUN
+PY 2001
+VL 26
+IS 3
+BP 246
+EP 253
+DI 10.1046/j.1442-9993.2001.01109.x
+UT WOS:000169017700004
+ER
+
+PT J
+AU Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+AF Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+TI Nest poaching in neotropical parrots
+SO CONSERVATION BIOLOGY
+C1 Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   Ctr Calidad Ambiental, Monterey 64849, NL, Mexico.
+   Provita, Caracas 1041A, Venezuela.
+   Univ Calif Berkeley, Ecosyst Sci Div, Berkeley, CA 94720 USA.
+   Univ La Habana, Fac Biol, Habana, Cuba.
+   Univ Calif Davis, Dept Avian Sci, Davis, CA 95616 USA.
+   Princeton Univ, Dept Ecol & Evolutionary Biol, Princeton, NJ 08540 USA.
+   Wildlife Preservat Trust Int, St Lucia, W Ind Assoc St.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Inst Insularis, BR-11750970 Peruibe, SP, Brazil.
+   Univ Kent, Durrell Inst Conservat & Ecol, Canterbury CT2 7NS, Kent, England.
+   Natl Biol Serv, Patuxent Wildlife Res Ctr, Palmer, PR 00721 USA.
+   Univ Autonoma Chiriqui, Escuela Biol, David, Panama.
+   Univ Georgia, Inst Ecol, Athens, GA 30602 USA.
+   Mississippi State Univ, Dept Wildlife & Fisheries, Mississippi State, MS 39762 USA.
+   Grambling State Univ, Grambling Cooperat Wildlife Project, Grambling, LA 71245 USA.
+RP Wright, TF (reprint author), Univ Maryland, Dept Biol, College Pk, MD 20742 USA
+TC 48
+Z9 49
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 710
+EP 720
+DI 10.1046/j.1523-1739.2001.015003710.x
+UT WOS:000169226000018
+ER
+
+PT J
+AU Stratford, JA
+   Stouffer, PC
+AF Stratford, JA
+   Stouffer, PC
+TI Reduced feather growth rates of two common birds inhabiting central
+   Amazonian forest fragments
+SO CONSERVATION BIOLOGY
+C1 Auburn Univ, Dept Biol Sci, Auburn, AL 36849 USA.
+   SE Louisiana Univ, Dept Biol Sci, Hammond, LA 70402 USA.
+   Inst Nacl Pesquisas Amazonia, Biol Dynam Forest Fragments Project, BR-69011 Manaus, Amazonas, Brazil.
+RP Stratford, JA (reprint author), Auburn Univ, Dept Biol Sci, 331 Funchess Hall, Auburn, AL 36849 USA
+TC 15
+Z9 15
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 721
+EP 728
+DI 10.1046/j.1523-1739.2001.015003721.x
+UT WOS:000169226000019
+ER
+
+PT J
+AU Peres, CA
+   Zimmerman, B
+AF Peres, CA
+   Zimmerman, B
+TI Perils in parks or parks in peril? Reconciling conservation in Amazonian
+   reserves with and without use
+SO CONSERVATION BIOLOGY
+C1 Univ E Anglia, Sch Environm Sci, Norwich NR4 7TJ, Norfolk, England.
+   Univ Toronto, Fac Forestry, Ctr Earth Sci, Toronto, ON M5S 3B3, Canada.
+   Conservat Int Brazil, Toronto, ON M5S 3B3, Canada.
+RP Peres, CA (reprint author), Univ E Anglia, Sch Environm Sci, Norwich NR4 7TJ, Norfolk, England
+TC 28
+Z9 28
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 793
+EP 797
+DI 10.1046/j.1523-1739.2001.015003793.x
+UT WOS:000169226000030
+ER
+
+PT J
+AU Galetti, M
+AF Galetti, M
+TI Indians within conservation units: Lessons from the Atlantic forest
+SO CONSERVATION BIOLOGY
+C1 Univ Estadual Paulista, Dept Ecol, BR-13506900 Sao Paulo, Brazil.
+RP Galetti, M (reprint author), Univ Estadual Paulista, Dept Ecol, CP 199, BR-13506900 Sao Paulo, Brazil, Brazil
+TC 5
+Z9 5
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 798
+EP 799
+DI 10.1046/j.1523-1739.2001.015003798.x
+UT WOS:000169226000031
+ER
+
+PT J
+AU Meir, P
+   Grace, J
+   Miranda, AC
+AF Meir, P
+   Grace, J
+   Miranda, AC
+TI Leaf respiration in two tropical rainforests: constraints on physiology
+   by phosphorus, nitrogen and temperature
+SO FUNCTIONAL ECOLOGY
+C1 Univ Edinburgh, Inst Ecol & Resource Management, Edinburgh EH9 3JU, Midlothian, Scotland.
+   Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+RP Meir, P (reprint author), Univ Edinburgh, Inst Ecol & Resource Management, Kings Bldg,Mayfield Rd, Edinburgh EH9 3JU, Midlothian, Scotland
+EM pmeir@ed.ac.uk
+TC 29
+Z9 30
+SN 0269-8463
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 378
+EP 387
+DI 10.1046/j.1365-2435.2001.00534.x
+UT WOS:000169131300012
+ER
+
+PT J
+AU Vourlitis, GL
+   Priante, N
+   Hayashi, MMS
+   Nogueira, JD
+   Caseiro, FT
+   Campelo, JH
+AF Vourlitis, GL
+   Priante, N
+   Hayashi, MMS
+   Nogueira, JD
+   Caseiro, FT
+   Campelo, JH
+TI Seasonal variations in the net ecosystem CO2 exchange of a mature
+   Amazonian transitional tropical forest (cerradao)
+SO FUNCTIONAL ECOLOGY
+C1 Calif State Univ, Biol Sci Program, San Marcos, CA 92096 USA.
+   Univ Fed Mato Grosso, Nucleo Tecnol Armazenagem, Dept Fis, Cuiaba, Mato Grosso, Brazil.
+RP Vourlitis, GL (reprint author), Calif State Univ, Biol Sci Program, San Marcos, CA 92096 USA
+TC 39
+Z9 51
+SN 0269-8463
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 388
+EP 395
+DI 10.1046/j.1365-2435.2001.00535.x
+UT WOS:000169131300013
+ER
+
+PT J
+AU Fearnside, PM
+   Graca, PMLD
+   Rodrigues, FJA
+AF Fearnside, PM
+   Graca, PMLD
+   Rodrigues, FJA
+TI Burning of Amazonian rainforests: burning efficiency and charcoal
+   formation in forest cleared for cattle pasture near Manaus, Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+RP Fearnside, PM (reprint author), Natl Inst Res Amazon, INPA, Dept Ecol, Caixa Postal 478, BR-69011970 Manaus, Amazonas, Brazil
+EM pmfearn@inpa.gov.br
+TC 36
+Z9 42
+SN 0378-1127
+PD JUN 1
+PY 2001
+VL 146
+IS 1-3
+BP 115
+EP 128
+DI 10.1016/S0378-1127(00)00450-3
+UT WOS:000168636800010
+ER
+
+PT J
+AU de Oliveira, AA
+   Nelson, BW
+AF de Oliveira, AA
+   Nelson, BW
+TI Floristic relationships of terra firme forests in the Brazilian Amazon
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Estadual Paulista, UNIP, Herbarium, BR-01310100 Sao Paulo, Brazil.
+   Univ Estadual Paulista, UNIP, Bot Lab, BR-01310100 Sao Paulo, Brazil.
+   Univ Sao Paulo, Inst Biociencias, Dept Bot, BR-69011970 Manaus, Amazonas, Brazil.
+   Inst Nacl Pesquisas Amazonia, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+RP de Oliveira, AA (reprint author), Univ Estadual Paulista, UNIP, Herbarium, Av Paulista 900 Andar, BR-01310100 Sao Paulo, Brazil
+TC 8
+Z9 10
+SN 0378-1127
+PD JUN 1
+PY 2001
+VL 146
+IS 1-3
+BP 169
+EP 179
+UT WOS:000168636800014
+ER
+
+PT J
+AU Aragona, M
+   Setz, EZF
+AF Aragona, M
+   Setz, EZF
+TI Diet of the maned wolf, Chrysocyon brachyurus (Mammalia : Canidae),
+   during wet and dry seasons at Ibitipoca State Park, Brazil
+SO JOURNAL OF ZOOLOGY
+C1 Univ Estadual Paulista, Dept Ecol, BR-13506900 Rio Claro, SP, Brazil.
+   Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Aragona, M (reprint author), Dr Louis Coutry 35,Apto 22, BR-05436030 Sao Paulo, Brazil
+TC 21
+Z9 23
+SN 0952-8369
+PD MAY
+PY 2001
+VL 254
+PN Part 1
+BP 131
+EP 136
+DI 10.1017/S0952836901000620
+UT WOS:000168785200012
+ER
+
+PT J
+AU Quental, TB
+   Fernandez, FAD
+   Dias, ATC
+   Rocha, FS
+AF Quental, TB
+   Fernandez, FAD
+   Dias, ATC
+   Rocha, FS
+TI Population dynamics of the marsupial Micoureus demerarae in small
+   fragments of Atlantic Coastal Forest in Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Fed Univ Rio De Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, Brazil.
+RP Fernandez, FAD (reprint author), Univ Estadual Campinas, Dept Zool, CP 6109, BR-13081970 Campinas, SP, Brazil
+TC 23
+Z9 25
+SN 0266-4674
+PD MAY
+PY 2001
+VL 17
+PN Part 3
+BP 339
+EP 352
+UT WOS:000168921800001
+ER
+
+PT J
+AU Peinetti, HR
+   Menezes, RSC
+   Coughenour, MB
+AF Peinetti, HR
+   Menezes, RSC
+   Coughenour, MB
+TI Changes induced by elk browsing in the aboveground biomass production
+   and distribution of willow (Salix monticola Bebb): their relationships
+   with plant water, carbon, and nitrogen dynamics
+SO OECOLOGIA
+C1 Colorado State Univ, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA.
+   Univ Nacl Pampa, Fac Agron, Santa Rosa, Argentina.
+   Univ Fed Pernambuco, Recife, PE, Brazil.
+RP Peinetti, HR (reprint author), Colorado State Univ, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA
+TC 34
+Z9 35
+SN 0029-8549
+PD MAY
+PY 2001
+VL 127
+IS 3
+BP 334
+EP 342
+DI 10.1007/s004420000593
+UT WOS:000168801400006
+ER
+
+PT J
+AU Marsden, SJ
+   Whiffin, M
+   Galetti, M
+AF Marsden, SJ
+   Whiffin, M
+   Galetti, M
+TI Bird diversity and abundance in forest fragments and Eucalyptus
+   plantations around an Atlantic forest reserve, Brazil
+SO BIODIVERSITY AND CONSERVATION
+C1 Manchester Metropolitan Univ, Dept Biol Sci, Behav & Environm Biol Grp, Manchester M1 5GD, Lancs, England.
+   UNESP, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, BR-13506900 Sao Paulo, Brazil.
+RP Marsden, SJ (reprint author), Manchester Metropolitan Univ, Dept Geog & Environm Sci, Appl Ecol Grp, Chester St, Manchester M1 5GD, Lancs, England
+TC 38
+Z9 42
+SN 0960-3115
+PD MAY
+PY 2001
+VL 10
+IS 5
+BP 737
+EP 751
+DI 10.1023/A:1016669118956
+UT WOS:000168812900006
+ER
+
+PT J
+AU Pompermayer, P
+   Lopes, AR
+   Terra, WR
+   Parra, JRP
+   Falco, MC
+   Silva-Filho, MC
+AF Pompermayer, P
+   Lopes, AR
+   Terra, WR
+   Parra, JRP
+   Falco, MC
+   Silva-Filho, MC
+TI Effects of soybean proteinase inhibitor on development, survival and
+   reproductive potential of the sugarcane borer, Diatraea saccharalis
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Sao Paulo, Escola Super Agr Luiz de Queiroz, Dept Genet, BR-13400970 Piracicaba, SP, Brazil.
+   Univ Sao Paulo, Inst Quim, Dept Bioquim, BR-05599970 Sao Paulo, Brazil.
+   Univ Sao Paulo, ESALQ, Dept Entomol Fitopatol & Zool Agr, BR-13418900 Piracicaba, SP, Brazil.
+RP Silva-Filho, MC (reprint author), Univ Sao Paulo, Escola Super Agr Luiz de Queiroz, Dept Genet, CP 83, BR-13400970 Piracicaba, SP, Brazil
+TC 27
+Z9 28
+SN 0013-8703
+PD APR
+PY 2001
+VL 99
+IS 1
+BP 79
+EP 85
+DI 10.1046/j.1570-7458.2001.00804.x
+UT WOS:000167858300009
+ER
+
+PT J
+AU Cullen, L
+   Bodmer, ER
+   Valladares-Padua, C
+AF Cullen, L
+   Bodmer, ER
+   Valladares-Padua, C
+TI Ecological consequences of hunting in Atlantic forest patches, Sao
+   Paulo, Brazil
+SO ORYX
+C1 Univ Kent, Durrell Inst Conservat & Ecol, Canterbury CT2 7NS, Kent, England.
+   IPE Inst Pesquisas Ecol, Parque Estadual Morro do Diabo,CP 91, BR-19280000 Teodoro Sampaio, SP, Brazil.
+RP Bodmer, ER (reprint author), Univ Kent, Durrell Inst Conservat & Ecol, Canterbury CT2 7NS, Kent, England
+TC 33
+Z9 36
+SN 0030-6053
+PD APR
+PY 2001
+VL 35
+IS 2
+BP 137
+EP 144
+UT WOS:000168474200005
+ER
+
+PT J
+AU Rodrigues, FHG
+   Marinho, J
+   dos Santos, HG
+AF Rodrigues, FHG
+   Marinho, J
+   dos Santos, HG
+TI Home ranges of translocated lesser anteaters Tamandua tetradactyla in
+   the cerrado of Brazil
+SO ORYX
+C1 Assoc Pr Carnivoros, BR-70867110 Brasilia, DF, Brazil.
+   FUNATURA, BR-70743520 Brasilia, DF, Brazil.
+   Univ Brasilia, Dept Zool, BR-70910900 Brasilia, DF, Brazil.
+   FURNAS Cent Elect SA, Dept Meio Ambiente, BR-22283900 Rio De Janeiro, Brazil.
+RP Rodrigues, FHG (reprint author), Assoc Pr Carnivoros, SQN 412 Bloco K Apt 305, BR-70867110 Brasilia, DF, Brazil
+TC 1
+Z9 2
+SN 0030-6053
+PD APR
+PY 2001
+VL 35
+IS 2
+BP 166
+EP 169
+DI 10.1046/j.1365-3008.2001.00162.x
+UT WOS:000168474200009
+ER
+
+PT J
+AU Barrigossi, JAF
+   Hein, GL
+   Higley, LG
+AF Barrigossi, JAF
+   Hein, GL
+   Higley, LG
+TI Life tables and larval dispersal of Mexican bean beetle (Coleoptera :
+   Coccinellidae) on dry bean in the high plains
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Univ Nebraska, Dept Entomol, Lincoln, NE 68583 USA.
+RP Barrigossi, JAF (reprint author), Embrapa Arroz & Feijao, Caixa Postal 171, BR-75275000 Santo Antonio De Goias, Go, Brazil, Brazil
+TC 3
+Z9 3
+SN 0046-225X
+PD APR
+PY 2001
+VL 30
+IS 2
+BP 235
+EP 243
+DI 10.1603/0046-225X-30.2.235
+UT WOS:000168437900010
+ER
+
+PT J
+AU Barrigossi, JAF
+   Young, LJ
+   Crawford, CAG
+   Hein, GL
+   Higley, LG
+AF Barrigossi, JAF
+   Young, LJ
+   Crawford, CAG
+   Hein, GL
+   Higley, LG
+TI Spatial and probability distribution of Mexican bean beetle (Coleoptera
+   : Coccinellidae) egg mass populations in dry bean
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Univ Nebraska, Dept Entomol, Lincoln, NE 68583 USA.
+RP Barrigossi, JAF (reprint author), Embrapa Arroz & Feijao, Caixa Postal 171, BR-75275000 Santo Antonio De Goias, Go, Brazil
+TC 7
+Z9 7
+SN 0046-225X
+PD APR
+PY 2001
+VL 30
+IS 2
+BP 244
+EP 253
+DI 10.1603/0046-225X-30.2.244
+UT WOS:000168437900011
+ER
+
+PT J
+AU Queiroz, JM
+   Oliveira, PS
+AF Queiroz, JM
+   Oliveira, PS
+TI Tending ants protect honeydew-producing whiteflies (Homoptera :
+   Aleyrodidae)
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Univ Estadual Campinas, Dept Zool, BR-13083970 Campinas, SP, Brazil.
+RP Queiroz, JM (reprint author), Univ Estadual Campinas, Dept Zool, CP 6109, BR-13083970 Campinas, SP, Brazil
+TC 11
+Z9 15
+SN 0046-225X
+PD APR
+PY 2001
+VL 30
+IS 2
+BP 295
+EP 297
+DI 10.1603/0046-225X-30.2.295
+UT WOS:000168437900018
+ER
+
+PT J
+AU Medeiros, ESF
+   Maltchik, L
+AF Medeiros, ESF
+   Maltchik, L
+TI Fish assemblage stability in an intermittently flowing stream from the
+   Brazilian semiarid region
+SO AUSTRAL ECOLOGY
+C1 Univ Vale Rios dos Sinos, Ctr 2, BR-93022000 Sao Leopoldo, RS, Brazil.
+   Univ Fed Paraiba, Dept Sistemat & Ecol, Joao Pessoa, Paraiba, Brazil.
+RP Maltchik, L (reprint author), Univ Vale Rios dos Sinos, Ctr 2, Ave Unisinos 950, BR-93022000 Sao Leopoldo, RS, Brazil
+TC 10
+Z9 10
+SN 1442-9985
+PD APR
+PY 2001
+VL 26
+IS 2
+BP 156
+EP 164
+DI 10.1046/j.1442-9993.2001.01099.x
+UT WOS:000167888900005
+ER
+
+PT J
+AU De Souza, ALT
+   Tanaka, MO
+   Fernandes, GW
+   Figueira, JEC
+AF De Souza, ALT
+   Tanaka, MO
+   Fernandes, GW
+   Figueira, JEC
+TI Host plant response and phenotypic plasticity of a galling weevil
+   (Collabismus clitellae : Curculionidae)
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Mato Grosso do Sul, CCBS, Dept Biol, Setor Ecol, BR-79070900 Campo Grande, MS, Brazil.
+   Univ Fed Minas Gerais, ICB, Dept Biol Geral, Belo Horizonte, MG, Brazil.
+RP De Souza, ALT (reprint author), Univ Fed Mato Grosso do Sul, CCBS, Dept Biol, Setor Ecol, CP 549, BR-79070900 Campo Grande, MS, Brazil
+TC 9
+Z9 9
+SN 1442-9985
+PD APR
+PY 2001
+VL 26
+IS 2
+BP 173
+EP 178
+DI 10.1046/j.1442-9993.2001.01100.x
+UT WOS:000167888900007
+ER
+
+PT J
+AU Soares, SM
+   Schoereder, JH
+   DeSouza, O
+AF Soares, SM
+   Schoereder, JH
+   DeSouza, O
+TI Processes involved in species saturation of ground-dwelling ant
+   communities (Hymenoptera, Formicidae)
+RID A-8540-2008
+RID A-7140-2008
+SO AUSTRAL ECOLOGY
+C1 Univ Fed Vicosa, Dept Biol Geral, BR-36571000 Vicosa, MG, Brazil.
+   Univ Fed Vicosa, Dept Biol Anim, BR-36571000 Vicosa, MG, Brazil.
+RP Schoereder, JH (reprint author), Univ Fed Vicosa, Dept Biol Geral, BR-36571000 Vicosa, MG, Brazil
+TC 12
+Z9 13
+SN 1442-9985
+PD APR
+PY 2001
+VL 26
+IS 2
+BP 187
+EP 192
+DI 10.1046/j.1442-9993.2001.01101.x
+UT WOS:000167888900009
+ER
+
+PT J
+AU Leal-Zanchet, AM
+   Carbayo, F
+AF Leal-Zanchet, AM
+   Carbayo, F
+TI Two new species of Geoplanidae (Platyhelminthes, Tricladida, Terricola)
+   of south Brazil
+SO JOURNAL OF ZOOLOGY
+C1 UNISINOS, Inst Planarian Res, Ctr Ciencias Saude, BR-93022000 Sao Leopoldo, RS, Brazil.
+RP Leal-Zanchet, AM (reprint author), UNISINOS, Inst Planarian Res, Ctr Ciencias Saude, Av Unisinos 950, BR-93022000 Sao Leopoldo, RS, Brazil
+TC 8
+Z9 10
+SN 0952-8369
+PD APR
+PY 2001
+VL 253
+PN Part 4
+BP 433
+EP 446
+DI 10.1017/S0952836901000401
+UT WOS:000168615500002
+ER
+
+PT J
+AU Uryu, Y
+   Malm, O
+   Thornton, I
+   Payne, I
+   Cleary, D
+AF Uryu, Y
+   Malm, O
+   Thornton, I
+   Payne, I
+   Cleary, D
+TI Mercury contamination of fish and its implications for other wildlife of
+   the Tapajos Basin, Brazilian Amazon
+SO CONSERVATION BIOLOGY
+C1 Univ London Imperial Coll Sci Technol & Med, Royal Sch Mines, Ctr Environm Technol, Environm Geochem Res Grp, London SW7 2BP, England.
+   UCL, Dept Biol, London WC1E 6BT, England.
+   Univ Fed Rio de Janeiro, CCS, Ilha Fundao, Inst Biofis Carlos Chagas Filho,Lab Radioisotopes, BR-21949900 Rio De Janeiro, Brazil.
+   Univ London Imperial Coll Sci Technol & Med, Marine Resources Assessment Grp, London SW7 1NA, England.
+   Esperanza Fdn, Projeto Mercurio, BR-68040100 Santarem, Para, Brazil.
+RP Thornton, I (reprint author), Univ London Imperial Coll Sci Technol & Med, Royal Sch Mines, Ctr Environm Technol, Environm Geochem Res Grp, Prince Consort Rd, London SW7 2BP, England
+EM i.thornton@ic.ac.uk
+TC 28
+Z9 28
+SN 0888-8892
+PD APR
+PY 2001
+VL 15
+IS 2
+BP 438
+EP 446
+DI 10.1046/j.1523-1739.2001.015002438.x
+UT WOS:000168008400019
+ER
+
+PT J
+AU Boff, MIC
+   Zoon, FC
+   Smits, PH
+AF Boff, MIC
+   Zoon, FC
+   Smits, PH
+TI Orientation of Heterorhabditis megidis to insect hosts and plant roots
+   in a Y-tube sand olfactometer
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Plant Res Int Wageningen UR, NL-6700 AA Wageningen, Netherlands.
+   Wageningen Univ, Entomol Lab, NL-6700 EH Wageningen, Netherlands.
+   Univ Estado Santa Catarina, Ctr Ciencias Agrovet, BR-88520000 Lages, SC, Brazil.
+RP Boff, MIC (reprint author), Plant Res Int Wageningen UR, POB 16, NL-6700 AA Wageningen, Netherlands
+TC 31
+Z9 35
+SN 0013-8703
+PD MAR
+PY 2001
+VL 98
+IS 3
+BP 329
+EP 337
+DI 10.1046/j.1570-7458.2001.00789.x
+UT WOS:000167852200009
+ER
+
+PT J
+AU Hero, JM
+   Magnusson, WE
+   Rocha, CFD
+   Catterall, CP
+AF Hero, JM
+   Magnusson, WE
+   Rocha, CFD
+   Catterall, CP
+TI Antipredator defenses influence the distribution of amphibian prey
+   species in the central Amazon Rain Forest
+RID A-4257-2010
+SO BIOTROPICA
+C1 Griffith Univ Gold Coast, Sch Environm & Appl Sci, Nathan, Qld 9726, Australia.
+   Inst Nacl Pesquisas Amazonia, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Estado Rio Janero, Inst Biol, Sector Ecol, BR-20550 Rio De Janeiro, Brazil.
+   Griffith Univ, Div Australian Environm Studies, Brisbane, Qld 4111, Australia.
+RP Hero, JM (reprint author), Griffith Univ Gold Coast, Sch Environm & Appl Sci, PMB 50 Gold Coast MC, Nathan, Qld 9726, Australia
+TC 26
+Z9 30
+SN 0006-3606
+PD MAR
+PY 2001
+VL 33
+IS 1
+BP 131
+EP 141
+DI 10.1111/j.1744-7429.2001.tb00163.x
+UT WOS:000168959800012
+ER
+
+PT J
+AU Lacher, TE
+   Alho, CJR
+AF Lacher, TE
+   Alho, CJR
+TI Terrestrial small mammal richness and habitat associations in an Amazon
+   Forest-Cerrado contact zone
+SO BIOTROPICA
+C1 Texas A&M Univ, Dept Wildlife & Fisheries Sci, College Stn, TX 77843 USA.
+   Univ Fed Sao Carlos, Programa Pos Grad Recursos Nat, BR-13565905 Sao Carlos, SP, Brazil.
+RP Lacher, TE (reprint author), Texas A&M Univ, Dept Wildlife & Fisheries Sci, 210 Nagle Hall, College Stn, TX 77843 USA
+TC 18
+Z9 20
+SN 0006-3606
+PD MAR
+PY 2001
+VL 33
+IS 1
+BP 171
+EP 181
+DI 10.1111/j.1744-7429.2001.tb00166.x
+UT WOS:000168959800015
+ER
+
+PT J
+AU Goncalves-Alvim, SJ
+   dos Santos, MCFV
+   Fernandes, GW
+AF Goncalves-Alvim, SJ
+   dos Santos, MCFV
+   Fernandes, GW
+TI Leaf gall abundance on Avicennia germinans (Avicenniaceae) along an
+   interstitial salinity gradient
+SO BIOTROPICA
+C1 Univ Fed Minas Gerais, ICB, DBG, BR-30161970 Belo Horizonte, MG, Brazil.
+   Univ Fed Maranhao, Dept Oceanog & Limnol, BR-65080040 Sao Luis, MA, Brazil.
+RP Goncalves-Alvim, SJ (reprint author), Univ Fed Minas Gerais, ICB, DBG, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+TC 7
+Z9 7
+SN 0006-3606
+PD MAR
+PY 2001
+VL 33
+IS 1
+BP 69
+EP 77
+DI 10.1646/0006-3606(2001)033[0069:LGAOAG]2.0.CO;2
+UT WOS:000168959800007
+ER
+
+PT J
+AU Griz, LMS
+   Machado, ICS
+AF Griz, LMS
+   Machado, ICS
+TI Fruiting phenology and seed dispersal syndromes in caatinga, a tropical
+   dry forest in the northeast of Brazil
+RID B-6856-2011
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.
+RP Griz, LMS (reprint author), Univ Missouri, Dept Biol, 8001 Nat Bridge Rd, St Louis, MO 63121 USA
+TC 32
+Z9 39
+SN 0266-4674
+PD MAR
+PY 2001
+VL 17
+PN Part 2
+BP 303
+EP 321
+UT WOS:000167920700010
+ER
+
+PT J
+AU Flechtmann, CAH
+   Ottati, ALT
+   Berisford, CW
+AF Flechtmann, CAH
+   Ottati, ALT
+   Berisford, CW
+TI Ambrosia and bark beetles (Scolytidae : Coleoptera) in pine and eucalypt
+   stands in southern Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 UNESP, FEIS, Dept Biol, BR-1538500 Ilha Solteira, SP, Brazil.
+   UNESP, FCA, Dept Defesa Fitossanitaria, BR-18603970 Botucatu, SP, Brazil.
+   Univ Georgia, Dept Entomol, Athens, GA 30602 USA.
+RP Flechtmann, CAH (reprint author), UNESP, FEIS, Dept Biol, Av Brasil 56, BR-1538500 Ilha Solteira, SP, Brazil
+TC 9
+Z9 9
+SN 0378-1127
+PD MAR 1
+PY 2001
+VL 142
+IS 1-3
+BP 183
+EP 191
+DI 10.1016/S0378-1127(00)00349-2
+UT WOS:000167165300014
+ER
+
+PT J
+AU Rolim, SG
+   do Cuto, HTZ
+   de Jesus, RM
+AF Rolim, SG
+   do Cuto, HTZ
+   de Jesus, RM
+TI Temporal fluctuations in the floristic composition of an Atlantic
+   Tropical Forest
+SO BIOTROPICA
+C1 Reserva Florestal Linhares, BR-29900970 Linhares, Espirito Santo, Brazil.
+   Univ Sao Paulo, Dept Ciencias Florestals, BR-13400970 Sao Paulo, Brazil.
+RP Rolim, SG (reprint author), Reserva Florestal Linhares, CP 91, BR-29900970 Linhares, Espirito Santo, Brazil
+TC 2
+Z9 2
+SN 0006-3606
+PD MAR
+PY 2001
+VL 33
+IS 1
+BP 12
+EP 22
+DI 10.1646/0006-3606(2001)033[0012:FTELCN]2.0.CO;2
+UT WOS:000168959800002
+ER
+
+PT J
+AU da Silva, ET
+   Asmus, ML
+AF da Silva, ET
+   Asmus, ML
+TI A dynamic simulation model of the widgeon grass Ruppia maritima and its
+   epiphytes in the estuary of the Patos Lagoon, RS, Brazil
+SO ECOLOGICAL MODELLING
+C1 James Cook Univ N Queensland, Dept Chem, Townsville, Qld 4811, Australia.
+   Fdn Univ Fed Rio Grande, Dept Oceanog, BR-96201900 Rio Grande, RS, Brazil.
+RP da Silva, ET (reprint author), James Cook Univ N Queensland, Dept Chem, Townsville, Qld 4811, Australia
+TC 8
+Z9 8
+SN 0304-3800
+PD FEB 20
+PY 2001
+VL 137
+IS 2-3
+BP 161
+EP 179
+DI 10.1016/S0304-3800(00)00425-7
+UT WOS:000168003300004
+ER
+
+PT J
+AU Hoffmann-Campo, CB
+   Harborne, JB
+   McCaffery, AR
+AF Hoffmann-Campo, CB
+   Harborne, JB
+   McCaffery, AR
+TI Pre-ingestive and post-ingestive effects of soya bean extracts and rutin
+   on Trichoplusia ni growth
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Reading, Dept Bot, Reading RG6 2AS, Berks, England.
+   Univ Reading, Div Zool, Reading RG6 6AJ, Berks, England.
+RP Hoffmann-Campo, CB (reprint author), EMBRAPA, Ctr Nacl Pesquisa Soja, Caixa Postal 231, BR-86001970 Londrina, PR, Brazil
+TC 18
+Z9 18
+SN 0013-8703
+PD FEB
+PY 2001
+VL 98
+IS 2
+BP 181
+EP 194
+DI 10.1046/j.1570-7458.2001.00773.x
+UT WOS:000167827600008
+ER
+
+PT J
+AU Fonseca, CR
+   Ganade, G
+AF Fonseca, CR
+   Ganade, G
+TI Species functional redundancy, random extinctions and the stability of
+   ecosystems
+SO JOURNAL OF ECOLOGY
+C1 Univ Estadual Campinas, Dept Zool, BR-13081970 Campinas, SP, Brazil.
+RP Fonseca, CR (reprint author), Univ Vale do Rio dos Sinos, Ctr 2, Dept Biol, CP 275, BR-93022000 Sao Leopoldo, RS, Brazil
+EM cfonseca@cirrus.unisinos.br
+TC 57
+Z9 65
+SN 0022-0477
+PD FEB
+PY 2001
+VL 89
+IS 1
+BP 118
+EP 125
+DI 10.1046/j.1365-2745.2001.00528.x
+UT WOS:000168273200013
+ER
+
+PT J
+AU Rocha, CFD
+   Van Sluys, M
+   Alves, MAS
+   Bergallo, HG
+   Vrcibradic, D
+AF Rocha, CFD
+   Van Sluys, M
+   Alves, MAS
+   Bergallo, HG
+   Vrcibradic, D
+TI Estimates of forest floor litter frog communities: A comparison of two
+   methods
+SO AUSTRAL ECOLOGY
+C1 Univ Estado Rio de Janeiro, Inst Biol, Setor Ecol, BR-20550013 Rio De Janeiro, Brazil.
+RP Rocha, CFD (reprint author), Univ Estado Rio de Janeiro, Inst Biol, Setor Ecol, Rua Sao Francisco Xavier 524, BR-20550013 Rio De Janeiro, Brazil
+TC 13
+Z9 15
+SN 1442-9985
+PD FEB
+PY 2001
+VL 26
+IS 1
+BP 14
+EP 21
+DI 10.1111/j.1442-9993.2001.01073.pp.x
+UT WOS:000167002000002
+ER
+
+PT J
+AU Faria, ML
+   Fernandes, GW
+AF Faria, ML
+   Fernandes, GW
+TI Vigour of a dioecious shrub and attack by a galling herbivore
+SO ECOLOGICAL ENTOMOLOGY
+C1 Univ Fed Minas Gerais, Inst Ciencias Biol, DBG, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Fernandes, GW (reprint author), Univ Fed Minas Gerais, Inst Ciencias Biol, DBG, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+EM gwilson@icb.ufmg.br
+TC 26
+Z9 27
+SN 0307-6946
+PD FEB
+PY 2001
+VL 26
+IS 1
+BP 37
+EP 45
+DI 10.1046/j.1365-2311.2001.00291.x
+UT WOS:000167235100005
+ER
+
+PT J
+AU Fernandes, GW
+   Negreiros, D
+AF Fernandes, GW
+   Negreiros, D
+TI The occurrence and effectiveness of hypersensitive reaction against
+   galling herbivores across host taxa
+SO ECOLOGICAL ENTOMOLOGY
+C1 Univ Fed Minas Gerais, Inst Ciencias Biol, DBG, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Fernandes, GW (reprint author), Univ Fed Minas Gerais, Inst Ciencias Biol, DBG, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+TC 35
+Z9 36
+SN 0307-6946
+PD FEB
+PY 2001
+VL 26
+IS 1
+BP 46
+EP 55
+DI 10.1046/j.1365-2311.2001.00290.x
+UT WOS:000167235100006
+ER
+
+PT J
+AU Galetti, M
+AF Galetti, M
+TI The future of the Atlantic forest
+SO CONSERVATION BIOLOGY
+C1 Univ Estadual Paulista, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, BR-13506900 Sao Paulo, Brazil.
+RP Galetti, M (reprint author), Univ Estadual Paulista, Dept Ecol, Plant Phenol & Seed Dispersal Res Grp, CP 199, BR-13506900 Sao Paulo, Brazil
+TC 6
+Z9 7
+SN 0888-8892
+PD FEB
+PY 2001
+VL 15
+IS 1
+BP 4
+EP 4
+DI 10.1046/j.1523-1739.2001.00_11.x
+UT WOS:000167170400002
+ER
+
+PT J
+AU Laurance, WF
+AF Laurance, WF
+TI Tropical logging and human invasions
+SO CONSERVATION BIOLOGY
+C1 Smithsonian Trop Res Inst, Balboa, Panama.
+   Natl Inst Amazonian Res, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Laurance, WF (reprint author), Smithsonian Trop Res Inst, Apartado 2072, Balboa, Panama
+TC 23
+Z9 24
+SN 0888-8892
+PD FEB
+PY 2001
+VL 15
+IS 1
+BP 4
+EP 5
+DI 10.1046/j.1523-1739.2001.00_11-2.x
+UT WOS:000167170400003
+ER
+
+PT J
+AU Leite, EJ
+AF Leite, EJ
+TI Spatial distribution patterns of riverine forest taxa in Brasilia,
+   Brazil
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Embrapa Genet Resources & Biotechnol, BR-70849970 Brasilia, DF, Brazil.
+RP Leite, EJ (reprint author), Embrapa Genet Resources & Biotechnol, CP 02372, BR-70849970 Brasilia, DF, Brazil, Brazil
+TC 2
+Z9 3
+SN 0378-1127
+PD JAN 15
+PY 2001
+VL 140
+IS 2-3
+BP 257
+EP 264
+DI 10.1016/S0378-1127(00)00316-9
+UT WOS:000166336200013
+ER
+
+PT J
+AU Laurance, WF
+   Perez-Salicrup, D
+   Delamonica, P
+   Fearnside, PM
+   D'Angelo, S
+   Jerozolinski, A
+   Pohl, L
+   Lovejoy, TE
+AF Laurance, WF
+   Perez-Salicrup, D
+   Delamonica, P
+   Fearnside, PM
+   D'Angelo, S
+   Jerozolinski, A
+   Pohl, L
+   Lovejoy, TE
+TI Rain forest fragmentation and the structure of Amazonian liana
+   communities
+SO ECOLOGY
+C1 Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Harvard Univ, Cambridge, MA 02138 USA.
+   Natl Inst Amazonian Res INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   Smithsonian Inst, Washington, DC 20560 USA.
+RP Laurance, WF (reprint author), Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 133
+Z9 157
+SN 0012-9658
+PD JAN
+PY 2001
+VL 82
+IS 1
+BP 105
+EP 116
+DI 10.1890/0012-9658(2001)082[0105:RFFATS]2.0.CO;2
+UT WOS:000166488200009
+ER
+
+PT J
+AU Hossaert-McKey, M
+   Orivel, J
+   Labeyrie, E
+   Pascal, L
+   Delabie, JHC
+   Dejean, A
+AF Hossaert-McKey, M
+   Orivel, J
+   Labeyrie, E
+   Pascal, L
+   Delabie, JHC
+   Dejean, A
+TI Differential associations with ants of three co-occurring extrafloral
+   nectary-bearing plants
+RID C-4034-2011
+SO ECOSCIENCE
+C1 CNRS, Ctr Ecol Fonct & Evolut, UPR 9056, F-34033 Montpellier 5, France.
+   Univ Paris 13, LEEC, CNRS, ESA 7025, F-93430 Villetaneuse, France.
+   UESC CEPLAC, UPA, Lab Mirmecol Convenio, BR-45600000 Itabuna, BA, Brazil.
+   Univ Toulouse 3, LET, UMR 5552, CNRS, F-31062 Toulouse, France.
+RP Hossaert-McKey, M (reprint author), CNRS, Ctr Ecol Fonct & Evolut, UPR 9056, 1919 Route Mende, F-34033 Montpellier 5, France
+TC 21
+Z9 21
+SN 1195-6860
+PY 2001
+VL 8
+IS 3
+BP 325
+EP 335
+UT WOS:000171579500007
+ER
+
+PT J
+AU Wirth, R
+   Leal, IR
+AF Wirth, R
+   Leal, IR
+TI Does rainfall affect temporal variability of ant protection in
+   Passiflora coccinea?
+RID E-8362-2010
+SO ECOSCIENCE
+C1 Univ Kaiserslautern, Abt Allgemeine Bot, D-67653 Kaiserslautern, Germany.
+   Univ Fed Pernambuco, Dept Bot, BR-50670901 Recife, PE, Brazil.
+RP Wirth, R (reprint author), Univ Kaiserslautern, Abt Allgemeine Bot, Postfach 3049, D-67653 Kaiserslautern, Germany
+TC 7
+Z9 7
+SN 1195-6860
+PY 2001
+VL 8
+IS 4
+BP 450
+EP 453
+UT WOS:000172929700006
+ER
+
+PT J
+AU Bernard, E
+AF Bernard, E
+TI Vertical stratification of bat communities in primary forests of Central
+   Amazon, Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Brazilian Natl Inst Res Amazon, INPA, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+RP Bernard, E (reprint author), York Univ, Dept Biol, N York, ON M3J 1P3, Canada
+TC 52
+Z9 56
+SN 0266-4674
+PD JAN
+PY 2001
+VL 17
+PN Part 1
+BP 115
+EP 126
+DI 10.1017/S0266467401001079
+UT WOS:000166994400007
+ER
+
+PT J
+AU Marquis, RJ
+   Diniz, IR
+   Morais, HC
+AF Marquis, RJ
+   Diniz, IR
+   Morais, HC
+TI Patterns and correlates of interspecific variation in foliar insect
+   herbivory and pathogen attack in Brazilian cerrado
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   Univ Brasilia, Inst Ciencias Biol, Dept Zool, BR-70910900 Brasilia, DF, Brazil.
+   Univ Brasilia, Inst Ciencias Biol, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+RP Marquis, RJ (reprint author), Univ Missouri, Dept Biol, 8001 Nat Bridge Rd, St Louis, MO 63121 USA
+TC 35
+Z9 39
+SN 0266-4674
+PD JAN
+PY 2001
+VL 17
+PN Part 1
+BP 127
+EP 148
+DI 10.1017/S0266467401001080
+UT WOS:000166994400008
+ER
+
+PT J
+AU Goncalves-Alvim, SD
+AF Goncalves-Alvim, SD
+TI Resin-collecting bees (Apidae) on Clusia palmicida (Clusiaceae) in a
+   riparian forest in Brazil
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Fed Minas Gerais, Lab Ecol Evolut Herbivoros Trop, ICB, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Goncalves-Alvim, SD (reprint author), Univ Fed Minas Gerais, Lab Ecol Evolut Herbivoros Trop, ICB, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+TC 2
+Z9 3
+SN 0266-4674
+PD JAN
+PY 2001
+VL 17
+PN Part 1
+BP 149
+EP 153
+DI 10.1017/S0266467401001092
+UT WOS:000166994400009
+ER
+
+PT J
+AU Scudeller, VV
+   Martins, FR
+   Shepherd, GJ
+AF Scudeller, VV
+   Martins, FR
+   Shepherd, GJ
+TI Distribution and abundance of arboreal species in the atlantic
+   ombrophilous dense forest in Southeastern Brazil
+SO PLANT ECOLOGY
+C1 Univ Estadual Campinas, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+RP Scudeller, VV (reprint author), Univ Estadual Campinas, Dept Bot, Caixa Postal 6109, BR-13083970 Campinas, SP, Brazil
+TC 28
+Z9 37
+SN 1385-0237
+PY 2001
+VL 152
+IS 2
+BP 185
+EP 199
+DI 10.1023/A:1011494228661
+UT WOS:000168353700007
+ER
+
+PT J
+AU Goncalves-Alvim, SJ
+   Fernandes, GW
+AF Goncalves-Alvim, SJ
+   Fernandes, GW
+TI Biodiversity of galling insects: historical, community and habitat
+   effects in four neotropical savannas
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Fed Minas Gerais, ICB, Ecol Evolut Herbivoros Trop DBG, BR-30161970 Belo Horizonte, MG, Brazil.
+RP Goncalves-Alvim, SJ (reprint author), Univ Fed Minas Gerais, ICB, Ecol Evolut Herbivoros Trop DBG, CP 486, BR-30161970 Belo Horizonte, MG, Brazil
+EM silmary@icb.ufmg.br
+TC 34
+Z9 37
+SN 0960-3115
+PD JAN
+PY 2001
+VL 10
+IS 1
+BP 79
+EP 98
+DI 10.1023/A:1016602213305
+UT WOS:000166224100006
+ER
+
+PT J
+AU de Almeida, FS
+   Fungaro, MHP
+   Sodre, LMK
+AF de Almeida, FS
+   Fungaro, MHP
+   Sodre, LMK
+TI RAPD and isoenzyme analysis of genetic variability in three allied
+   species of catfish (Silurifonnes : Pimelodidae) from the Tibagi River,
+   Brazil
+SO JOURNAL OF ZOOLOGY
+C1 Univ Estadual Londrina, Ctr Ciencias Biol, Dept Biol Geral, BR-86051990 Londrina, Parana, Brazil.
+RP Sodre, LMK (reprint author), Univ Estadual Londrina, Ctr Ciencias Biol, Dept Biol Geral, Campus Univ,Caixa Postal 6001, BR-86051990 Londrina, Parana, Brazil
+TC 1
+Z9 1
+SN 0952-8369
+PD JAN
+PY 2001
+VL 253
+PN Part 1
+BP 113
+EP 120
+DI 10.1017/S0952836901000103
+UT WOS:000168348600010
+ER
+
+PT J
+AU Line, SRP
+AF Line, SRP
+TI Molecular strategies in the evolution of mammalian dental patterning
+SO EVOLUTIONARY ECOLOGY
+C1 State Univ Campinas, Fac Odontol Piracicaba, Dept Morphol, BR-13414018 Sao Paulo, Brazil.
+RP Line, SRP (reprint author), State Univ Campinas, Fac Odontol Piracicaba, Dept Morphol, Av Limeira 901, BR-13414018 Sao Paulo, Brazil
+TC 3
+Z9 3
+SN 0269-7653
+PY 2001
+VL 15
+IS 1
+BP 73
+EP 79
+DI 10.1023/A:1011914028822
+UT WOS:000171143100005
+ER
+
+EF

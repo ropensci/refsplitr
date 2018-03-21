@@ -1,0 +1,6520 @@
+﻿FN ISI Export Format VR 1.0 PT J
+AU Reichert, E
+   Johnson, MT
+   Chacon, E
+   Anderson, RS
+   Wheeler, TA
+AF Reichert, Elisabeth
+   Johnson, M. Tracy
+   Chacon, Eduardo
+   Anderson, Robert S.
+   Wheeler, Terry A.
+TI Biology and Host Preferences of Cryptorhynchus melastomae (Coleoptera:
+   Curculionidae), a Possible Biocontrol Agent for Miconia calvescens
+   (Melastomataceae) in Hawaii
+RID A-9466-2011
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 [Reichert, E; Wheeler, TA] McGill Univ, Dept Nat Resource Sci, Ste Anne De Bellevue, PQ H9X 3V9, Canada.
+   [Johnson, MT] US Forest Serv, Inst Pacific Islands Forestry, USDA, Pacific SW Res Stn, Volcano, HI 96785 USA.
+   [Chacon, E] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   [Anderson, RS] Canadian Museum Nat, Stn D, Ottawa, ON K1P 6P4, Canada.
+RP Wheeler, TA (reprint author), McGill Univ, Dept Nat Resource Sci, Macdonald Campus, Ste Anne De Bellevue, PQ H9X 3V9, Canada
+EM terry.wheeler@mcgill.ca
+TC 0
+Z9 0
+SN 0046-225X
+PD DEC
+PY 2010
+VL 39
+IS 6
+BP 1848
+EP 1857
+DI 10.1603/EN10029
+UT WOS:000286125700018
+ER
+
+PT J
+AU DeClerck, FAJ
+   Chazdon, R
+   Holl, KD
+   Milder, JC
+   Finegan, B
+   Martinez-Salinas, A
+   Imbach, P
+   Canet, L
+   Ramos, Z
+AF DeClerck, Fabrice A. J.
+   Chazdon, Robin
+   Holl, Karen D.
+   Milder, Jeffrey C.
+   Finegan, Bryan
+   Martinez-Salinas, Alejandra
+   Imbach, Pablo
+   Canet, Lindsay
+   Ramos, Zayra
+TI Biodiversity conservation in human-modified landscapes of Mesoamerica:
+   Past, present and future
+SO BIOLOGICAL CONSERVATION
+C1 [DeClerck, FAJ; Finegan, B; Martinez-Salinas, A; Imbach, P; Canet, L; Ramos, Z] CATIE 7170, Div Res & Dev, Turrialba 30501, Costa Rica.
+   [Chazdon, R] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   [Holl, KD] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95065 USA.
+   [Milder, JC] Cornell Univ, Dept Nat Resources, Ithaca, NY 14853 USA.
+RP DeClerck, FAJ (reprint author), CATIE 7170, Div Res & Dev, Turrialba 30501, Costa Rica
+EM fdeclerck@catie.ac.cr
+   bfinegan@catie.ac.cr
+   amartinez@catie.ac.cr
+   pimbach@catie.ac.cr
+   lcanet@catie.ac.cr
+   zramos@catie.ac.cr
+TC 2
+Z9 3
+SN 0006-3207
+PD OCT
+PY 2010
+VL 143
+IS 10
+BP 2301
+EP 2313
+DI 10.1016/j.biocon.2010.03.026
+UT WOS:000282076800007
+ER
+
+PT J
+AU Chaverri, G
+AF Chaverri, Gloriana
+TI Comparative social network analysis in a leaf-roosting bat
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 [Chaverri, G] Boston Univ, Dept Biol, Boston, MA 02215 USA.
+RP Chaverri, G (reprint author), 4646 Alamedas, Golfito 60701, Costa Rica
+EM gchaverri@upacificosur.org
+TC 2
+Z9 2
+SN 0340-5443
+PD OCT
+PY 2010
+VL 64
+IS 10
+BP 1619
+EP 1630
+DI 10.1007/s00265-010-0975-3
+UT WOS:000281897000011
+ER
+
+PT J
+AU Gaos, AR
+   Abreu-Grobois, FA
+   Alfaro-Shigueto, J
+   Amorocho, D
+   Arauz, R
+   Baquero, A
+   Briseno, R
+   Chacon, D
+   Duenas, C
+   Hasbun, C
+   Liles, M
+   Mariona, G
+   Muccio, C
+   Munoz, JP
+   Nichols, WJ
+   Pena, M
+   Seminoff, JA
+   Vasquez, M
+   Urteaga, J
+   Wallace, B
+   Yanez, IL
+   Zarate, P
+AF Gaos, Alexander R.
+   Abreu-Grobois, F. A.
+   Alfaro-Shigueto, J.
+   Amorocho, D.
+   Arauz, R.
+   Baquero, A.
+   Briseno, R.
+   Chacon, D.
+   Duenas, C.
+   Hasbun, C.
+   Liles, M.
+   Mariona, G.
+   Muccio, C.
+   Munoz, J. P.
+   Nichols, W. J.
+   Pena, M.
+   Seminoff, J. A.
+   Vasquez, M.
+   Urteaga, J.
+   Wallace, B.
+   Yanez, I. L.
+   Zarate, P.
+TI Signs of hope in the eastern Pacific: international collaboration
+   reveals encouraging status for a severely depleted population of
+   hawksbill turtles Eretmochelys imbricata
+SO ORYX
+C1 [Gaos, AR; Yanez, IL] Ocean Fdn, Washington, DC USA.
+   [Gaos, AR] San Diego State Univ, Dept Biol, San Diego, CA 92102 USA.
+   [Abreu-Grobois, FA; Briseno, R] UNAM, Lab Genet & Banco Informac Tortugas Marinas, Inst Ciencias Mar & Limnol, Mazatlan, Mexico.
+   [Alfaro-Shigueto, J] ProDelphinus, Lima, Peru.
+   [Alfaro-Shigueto, J] Univ Exeter, Exeter, Devon, England.
+   [Amorocho, D] Ctr Invest El Manejo Ambiental & El Desarrollo, Cali, Colombia.
+   [Arauz, R] Programa Restaurac Tortugas Marinas, San Jose, Costa Rica.
+   [Baquero, A; Munoz, JP; Pena, M] Fdn Equilibrio Azul, Quito, Ecuador.
+   [Baquero, A] Univ San Francisco Quito, Quito, Ecuador.
+   [Chacon, D] WIDECAST Latin Amer, San Jose, Costa Rica.
+   [Duenas, C] Minist Medio Ambiente & Recursos Nat, San Salvador, El Salvador.
+   [Hasbun, C] USAID, Santa Elena, La Libertad, El Salvador.
+   [Liles, M; Mariona, G] Fdn Zool El Salvador, San Salvador, El Salvador.
+   [Muccio, C] Asociac Rescate & Conservac Vida Silvestre, San Lucas Sacatepequez, Guatemala.
+   [Nichols, WJ] Calif Acad Sci, San Francisco, CA 94118 USA.
+   [Seminoff, JA] Natl Ocean & Atmospher Adm, San Diego, CA USA.
+   [Vasquez, M] Univ El Salvador, Inst Ciencias Mar & Limnol, San Salvador, El Salvador.
+   [Urteaga, J] Fauna & Flora Int, Managua, Nicaragua.
+   [Wallace, B] Conservat Int, Global Marine Div, Arlington, TX USA.
+   [Yanez, IL] Grp Tortuguero Californias AC, La Paz, Mexico.
+   [Zarate, P] Univ Florida, Archie Carr Ctr Sea Turtle Res, Gainesville, FL USA.
+   [Zarate, P] Univ Florida, Dept Biol, Gainesville, FL USA.
+   [Zarate, P] Charles Darwin Fdn, Santa Cruz Isl, Galapagos Isl, Ecuador.
+RP Gaos, AR (reprint author), Ocean Fdn, Washington, DC USA
+TC 1
+Z9 2
+SN 0030-6053
+PD OCT
+PY 2010
+VL 44
+IS 4
+BP 595
+EP 601
+DI 10.1017/S0030605310000773
+UT WOS:000284038500027
+ER
+
+PT J
+AU Clay, NA
+   Bauer, M
+   Solis, M
+   Yanoviak, SP
+AF Clay, Natalie A.
+   bauer, Monica
+   Solis, Manuel
+   Yanoviak, Stephen P.
+TI Arboreal substrates influence foraging in tropical ants
+SO ECOLOGICAL ENTOMOLOGY
+C1 [Clay, NA] Colby Coll, Dept Biol, Waterville, ME 04901 USA.
+   [Bauer, M] Univ Calif San Diego, Div Biol Sci, La Jolla, CA 92093 USA.
+   [Solis, M] Inst Nacl Biodiversidad INBio, Dept Entomol, Santo Domingo, Heredia, Costa Rica.
+   [Yanoviak, SP] Univ Arkansas, Dept Biol, Little Rock, AR 72204 USA.
+RP Clay, NA (reprint author), Univ Oklahoma, Dept Zool, 730 Vleet Oval, Norman, OK 73019 USA
+EM naclay@ou.edu
+TC 0
+Z9 0
+SN 0307-6946
+PD AUG
+PY 2010
+VL 35
+IS 4
+BP 417
+EP 423
+DI 10.1111/j.1365-2311.2010.01197.x
+UT WOS:000279440900002
+ER
+
+PT J
+AU Cole, RJ
+   Holl, KD
+   Zahawi, RA
+AF Cole, R. J.
+   Holl, K. D.
+   Zahawi, R. A.
+TI Seed rain under tree islands planted to restore degraded lands in a
+   tropical agricultural landscape
+SO ECOLOGICAL APPLICATIONS
+C1 [Cole, RJ; Holl, KD] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+   [Zahawi, RA] Org Trop Studies, Las Cruces Biol Stn, San Vito, Costa Rica.
+RP Cole, RJ (reprint author), Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA
+EM cole.rebeccaj@gmail.com
+TC 5
+Z9 5
+SN 1051-0761
+PD JUL
+PY 2010
+VL 20
+IS 5
+BP 1255
+EP 1269
+DI 10.1890/09-0714.1
+UT WOS:000279047400006
+ER
+
+PT J
+AU Russell, AE
+   Raich, JW
+   Arrieta, RB
+   Valverde-Barrantes, O
+   Gonzalez, E
+AF Russell, Ann E.
+   Raich, James W.
+   Bedoya Arrieta, Ricardo
+   Valverde-Barrantes, Oscar
+   Gonzalez, Eugenio
+TI Impacts of individual tree species on carbon dynamics in a moist
+   tropical forest environment
+SO ECOLOGICAL APPLICATIONS
+C1 [Russell, AE] Iowa State Univ, Dept Nat Resource Ecol & Management, Ames, IA 50011 USA.
+   [Raich, JW] Iowa State Univ, Dept Ecol Evolut & Organismal Biol, Ames, IA 50011 USA.
+   [Arrieta, RB] Org Trop Studies, La Selva Biol Stn, Puerto Viejo de Sarapiqui, Costa Rica.
+   [Valverde-Barrantes, O] Kent State Univ, Dept Biol Sci, Kent, OH 44242 USA.
+   [Gonzalez, E] Texas A&M Univ, Dept Ecosyst Sci & Management, San Isidro Penas Blancas, Costa Rica.
+   [Gonzalez, E] Texas A&M Univ, Res & Educ Ctr, San Isidro Penas Blancas, Costa Rica.
+RP Russell, AE (reprint author), Iowa State Univ, Dept Nat Resource Ecol & Management, Ames, IA 50011 USA
+EM arussell@iastate.edu
+TC 1
+Z9 1
+SN 1051-0761
+PD JUN
+PY 2010
+VL 20
+IS 4
+BP 1087
+EP 1100
+DI 10.1890/09-0635.1
+UT WOS:000278865200015
+ER
+
+PT J
+AU Fuchs, EJ
+   Ross-Ibarra, J
+   Barrantes, G
+AF Fuchs, Eric J.
+   Ross-Ibarra, Jeffrey
+   Barrantes, Gilbert
+TI Reproductive biology of Macleania rupestris (Ericaceae), a
+   pollen-limited Neotropical cloud-forest species in Costa Rica
+RID A-9963-2010
+RID D-7782-2011
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Ross-Ibarra, J] Univ Calif Davis, Dept Plant Sci, Davis, CA 95616 USA.
+   [Fuchs, EJ; Barrantes, G] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Ross-Ibarra, J (reprint author), Univ Calif Davis, Dept Plant Sci, 1 Shields Ave, Davis, CA 95616 USA
+EM rossibarra@ucdavis.edu
+TC 0
+Z9 0
+SN 0266-4674
+PD MAY
+PY 2010
+VL 26
+PN Part 3
+BP 351
+EP 354
+DI 10.1017/S0266467410000064
+UT WOS:000277483200012
+ER
+
+PT J
+AU Marsden, C
+   le Maire, G
+   Stape, JL
+   Lo Seen, D
+   Roupsard, O
+   Cabral, O
+   Epron, D
+   Lima, AMN
+   Nouvellon, Y
+AF Marsden, Claire
+   le Maire, Guerric
+   Stape, Jose-Luiz
+   Lo Seen, Danny
+   Roupsard, Olivier
+   Cabral, Osvaldo
+   Epron, Daniel
+   Nascimento Lima, Augusto Miguel
+   Nouvellon, Yann
+TI Relating MODIS vegetation index time-series with structure, light
+   absorption and stem production of fast-growing Eucalyptus plantations
+RID A-1573-2010
+RID C-2679-2008
+RID C-1219-2008
+RID B-5093-2011
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Marsden, C; le Maire, G; Roupsard, O; Nouvellon, Y] CIRAD, UPR80, TA10 D, F-34398 Montpellier 5, France.
+   [Marsden, C; Nouvellon, Y] Univ Sao Paulo, IAG, Dept Ciencias Atmosfer, BR-05508 Sao Paulo, Brazil.
+   [Stape, JL] N Carolina State Univ, Dept Forestry & Environm Sci, Raleigh, NC 27695 USA.
+   [Marsden, C; le Maire, G; Lo Seen, D] CIRAD, UMR TETIS, F-34093 Montpellier 5, France.
+   [Roupsard, O] CATIE, Turrialba 7170, Costa Rica.
+   [Cabral, O] EMBRAPA Meio Ambiente, Lab Solo & Agua, BR-13820000 Sao Paulo, Brazil.
+   [Epron, D] Nancy Univ, Univ Henri Poincare, UMR Ecol & Ecophysiol Forestieres 1137, F-54506 Vandoeuvre Les Nancy, France.
+   [Lima, AMN] Chamflora Mogi Guacu Agroflorestal Ltda, Int Paper Brasil, Sao Paulo, Brazil.
+RP Marsden, C (reprint author), CIRAD, UMR TETIS, 500 Rue JF Breton, F-34093 Montpellier 5, France
+EM claire.marsden@cirad.fr
+TC 5
+Z9 5
+SN 0378-1127
+PD APR 15
+PY 2010
+VL 259
+IS 9
+SI SI
+BP 1741
+EP 1753
+DI 10.1016/j.foreco.2009.07.039
+UT WOS:000276883400008
+ER
+
+PT J
+AU Nouvellon, Y
+   Laclau, JP
+   Epron, D
+   Kinana, A
+   Mabiala, A
+   Roupsard, O
+   Bonnefond, JM
+   le Maire, G
+   Marsden, C
+   Bontemps, JD
+   Saint-Andre, L
+AF Nouvellon, Yann
+   Laclau, Jean-Paul
+   Epron, Daniel
+   Kinana, Antoine
+   Mabiala, Andre
+   Roupsard, Olivier
+   Bonnefond, Jean-Marc
+   le Maire, Guerric
+   Marsden, Claire
+   Bontemps, Jean-Daniel
+   Saint-Andre, Laurent
+TI Within-stand and seasonal variations of specific leaf area in a clonal
+   Eucalyptus plantation in the Republic of Congo
+RID B-5093-2011
+RID C-1219-2008
+RID A-1573-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Nouvellon, Y; Laclau, JP; Roupsard, O; le Maire, G; Marsden, C; Saint-Andre, L] CIRAD, UPR80, TA10 D, F-34398 Montpellier 5, France.
+   [Nouvellon, Y; Kinana, A; Mabiala, A] UR2PI, Pointe Noire, Congo.
+   [Laclau, JP] USP, ESALQ, BR-13418900 Piracicaba, SP, Brazil.
+   [Epron, D; Marsden, C] Nancy Univ, Univ Henri Poincare, Ecol & Ecophysiol Forestieres UMR1137, F-54506 Vandoeuvre Les Nancy, France.
+   [Epron, D; Marsden, C] INRA, Ecol & Ecophysiol Forestieres UMR1137, F-54280 Champenoux, France.
+   [Roupsard, O] CATIE, Turrialba 7170, Costa Rica.
+   [Bonnefond, JM] INRA, EPHYSE UR1263, F-33140 Villenave Dornon, France.
+   [Bontemps, JD] AgroParisTech, ENGREF, F-54000 Nancy, France.
+RP Nouvellon, Y (reprint author), Univ Sao Paulo, Dept Ciencias Atmosfer, IAG, Rua Matao 1226,Cidade Univ, BR-05508900 Sao Paulo, Brazil
+EM yann.nouvellon@cirad.fr
+TC 3
+Z9 3
+SN 0378-1127
+PD APR 15
+PY 2010
+VL 259
+IS 9
+SI SI
+BP 1796
+EP 1807
+DI 10.1016/j.foreco.2009.05.023
+UT WOS:000276883400013
+ER
+
+PT J
+AU Rivadeneira, MM
+   Hernaez, P
+   Baeza, JA
+   Boltana, S
+   Cifuentes, M
+   Correa, C
+   Cuevas, A
+   del Valle, E
+   Hinojosa, I
+   Ulrich, N
+   Valdivia, N
+   Vasquez, N
+   Zander, A
+   Thiel, M
+AF Rivadeneira, Marcelo M.
+   Hernaez, Patricio
+   Baeza, J. Antonio
+   Boltana, Sebastian
+   Cifuentes, Mauricio
+   Correa, Cristian
+   Cuevas, Alejandra
+   del Valle, Erasmo
+   Hinojosa, Ivan
+   Ulrich, Niklas
+   Valdivia, Nelson
+   Vasquez, Nelson
+   Zander, Anke
+   Thiel, Martin
+TI Testing the abundant-centre hypothesis using intertidal porcelain crabs
+   along the Chilean coast: linking abundance and life-history variation
+RID E-6375-2011
+RID C-3613-2009
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Rivadeneira, MM] Univ Catolica Norte, Fac Ciencias Mar, CEAZA, Coquimbo 1781412, Chile.
+   [Rivadeneira, MM] Pontificia Univ Catolica Chile, Fac Ciencias Biol, Dept Ecol, CASEB, Santiago, Chile.
+   [Hernaez, P] Univ Arturo Prat, Museo Mar, Iquique, Chile.
+   [Hernaez, P] Univ Costa Rica, UNIP CIMAR, Unidad Invest Pesquera & Acuicultura, San Jose, Costa Rica.
+   [Baeza, JA] Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   [Baeza, JA] Smithsonian Marine Stn Ft Pierce, Ft Pierce, FL 34949 USA.
+   [Boltana, S; Cifuentes, M; Correa, C; Cuevas, A; del Valle, E; Hinojosa, I; Ulrich, N; Valdivia, N; Vasquez, N; Zander, A; Thiel, M] Univ Catolica Norte, Fac Ciencias Mar, Dept Biol Marina, Coquimbo 1781412, Chile.
+RP Rivadeneira, MM (reprint author), Univ Catolica Norte, Fac Ciencias Mar, CEAZA, Larrondo 1281, Coquimbo 1781412, Chile
+EM mrivadeneira@ucn.cl
+TC 3
+Z9 3
+SN 0305-0270
+PD MAR
+PY 2010
+VL 37
+IS 3
+BP 486
+EP 498
+DI 10.1111/j.1365-2699.2009.02224.x
+UT WOS:000273949700010
+ER
+
+PT J
+AU Morrison, EB
+   Lindell, CA
+   Holl, KD
+   Zahawi, RA
+AF Morrison, Emily B.
+   Lindell, Catherine A.
+   Holl, Karen D.
+   Zahawi, Rakan A.
+TI Patch size effects on avian foraging behaviour: implications for
+   tropical forest restoration design
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Morrison, EB; Lindell, CA] Michigan State Univ, Dept Zool, E Lansing, MI 48823 USA.
+   [Morrison, EB; Lindell, CA] Michigan State Univ, Ctr Global Change & Earth Observat, E Lansing, MI 48823 USA.
+   [Holl, KD] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+   [Zahawi, RA] Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+RP Morrison, EB (reprint author), Michigan State Univ, Dept Zool, 203 Nat Sci Bldg, E Lansing, MI 48823 USA
+EM ebmorris@msu.edu
+TC 3
+Z9 3
+SN 0021-8901
+PD FEB
+PY 2010
+VL 47
+IS 1
+BP 130
+EP 138
+DI 10.1111/j.1365-2664.2009.01743.x
+UT WOS:000274191300015
+ER
+
+PT J
+AU Hansen, L
+   Hoffman, J
+   Drews, C
+   Mielbrecht, E
+AF Hansen, Lara
+   Hoffman, Jennifer
+   Drews, Carlos
+   Mielbrecht, Eric
+TI Designing Climate-Smart Conservation: Guidance and Case Studies
+SO CONSERVATION BIOLOGY
+C1 [Hansen, L; Hoffman, J; Mielbrecht, E] EcoAdapt, Washington, DC 20016 USA.
+   [Drews, C] WWF Cent Amer Reg Programme Off, San Jose, Costa Rica.
+RP Hansen, L (reprint author), EcoAdapt, POB 9767, Washington, DC 20016 USA
+EM lara@ecoadapt.org
+TC 7
+Z9 7
+SN 0888-8892
+PD FEB
+PY 2010
+VL 24
+IS 1
+BP 63
+EP 69
+DI 10.1111/j.1523-1739.2009.01404.x
+UT WOS:000273686700010
+ER
+
+PT J
+AU Clark, DB
+   Clark, DA
+   Oberbauer, SF
+AF Clark, David B.
+   Clark, Deborah A.
+   Oberbauer, Steven F.
+TI Annual wood production in a tropical rain forest in NE Costa Rica linked
+   to climatic variation but not to increasing CO(2)
+SO GLOBAL CHANGE BIOLOGY
+C1 [Clark, DB; Clark, DA] Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   [Clark, DB; Clark, DA] La Selva Biol Stn, Puerto Viejo de Sarapiqui, Costa Rica.
+   [Oberbauer, SF] Fairchild Trop Bot Garden, Miami, FL 33156 USA.
+   [Oberbauer, SF] Florida Int Univ, Dept Biol Sci, Miami, FL 33199 USA.
+RP Clark, DB (reprint author), OTS, Interlink 341,POB 025635, Miami, FL 33102 USA
+EM dbclark@sloth.ots.ac.cr
+TC 17
+Z9 17
+SN 1354-1013
+PD FEB
+PY 2010
+VL 16
+IS 2
+BP 747
+EP 759
+DI 10.1111/j.1365-2486.2009.02004.x
+UT WOS:000274419400020
+ER
+
+PT J
+AU Marten-Rodriguez, S
+   Fenster, CB
+AF Marten-Rodriguez, Silvana
+   Fenster, Charles B.
+TI Pollen limitation and reproductive assurance in Antillean Gesnerieae: a
+   specialists vs. generalist comparison
+SO ECOLOGY
+C1 [Marten-Rodriguez, S; Fenster, CB] Univ Maryland, Behav Ecol Evolut & Systemat Program, College Pk, MD 20742 USA.
+   [Marten-Rodriguez, S] Univ Costa Rica, Herbario, Escuela Biol, San Jose, Costa Rica.
+   [Fenster, CB] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+RP Marten-Rodriguez, S (reprint author), Natl Museum Nat Hist, Smithsonian Inst, Dept Biol, MRC 166, Washington, DC 20560 USA
+EM smartenr@gmail.com
+TC 3
+Z9 3
+SN 0012-9658
+PD JAN
+PY 2010
+VL 91
+IS 1
+BP 155
+EP 165
+DI 10.1890/08-2115.1
+UT WOS:000275458500019
+ER
+
+PT J
+AU Fallas-Cedeno, L
+   Holbrook, NM
+   Rocha, OJ
+   Vasquez, N
+   Gutierrez-Soto, MV
+AF Fallas-Cedeno, Lottie
+   Holbrook, N. Michele
+   Rocha, Oscar J.
+   Vasquez, Nelly
+   Gutierrez-Soto, Marco V.
+TI Phenology, Lignotubers, and Water Relations of Cochlospermum vitifolium,
+   a Pioneer Tropical Dry Forest Tree in Costa Rica
+SO BIOTROPICA
+C1 [Fallas-Cedeno, L; Gutierrez-Soto, MV] Univ Costa Rica, Estac Expt Fabio Baudrit, Alajuela, Costa Rica.
+   [Holbrook, NM] Harvard Univ, Dept Organism & Evolutionary Biol, Cambridge, MA 02138 USA.
+   [Rocha, OJ] Kent State Univ, Dept Biol Sci, Kent, OH 44242 USA.
+   [Vasquez, N] Ctr Agron Trop Invest & Ensenanza, Histol Lab, Turrialba 30501, Cartago, Costa Rica.
+RP Gutierrez-Soto, MV (reprint author), Univ Costa Rica, Estac Expt Fabio Baudrit, Apartado 183-4050, Alajuela, Costa Rica
+EM surdo26@racsa.co.cr
+TC 0
+Z9 0
+SN 0006-3606
+PD JAN
+PY 2010
+VL 42
+IS 1
+BP 104
+EP 111
+DI 10.1111/j.1744-7429.2009.00539.x
+UT WOS:000273301100015
+ER
+
+PT J
+AU Chazdon, RL
+   Finegan, B
+   Capers, RS
+   Salgado-Negret, B
+   Casanoves, F
+   Boukili, V
+   Norden, N
+AF Chazdon, Robin L.
+   Finegan, Bryan
+   Capers, Robert S.
+   Salgado-Negret, Beatriz
+   Casanoves, Fernando
+   Boukili, Vanessa
+   Norden, Natalia
+TI Composition and Dynamics of Functional Groups of Trees During Tropical
+   Forest Succession in Northeastern Costa Rica
+SO BIOTROPICA
+C1 [Chazdon, RL; Capers, RS; Boukili, V; Norden, N] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   [Finegan, B; Salgado-Negret, B] Trop Agr Ctr Res & Higher Educ CATIE, Prod & Conservat Forests Program, Turrialba, Costa Rica.
+   [Casanoves, F] Trop Agr Ctr Res & Higher Educ CATIE, Biostat Unit, Turrialba, Costa Rica.
+RP Chazdon, RL (reprint author), Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA
+EM robin.chazdon@uconn.edu
+TC 5
+Z9 6
+SN 0006-3606
+PD JAN
+PY 2010
+VL 42
+IS 1
+BP 31
+EP 40
+DI 10.1111/j.1744-7429.2009.00566.x
+UT WOS:000273301100005
+ER
+
+PT J
+AU Chollett, I
+   Mumby, PJ
+   Cortes, J
+AF Chollett, Iliana
+   Mumby, Peter J.
+   Cortes, Jorge
+TI Upwelling areas do not guarantee refuge for coral reefs in a warming
+   ocean
+RID F-9914-2010
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 [Chollett, I; Mumby, PJ] Univ Exeter, Sch Biosci, Hatherly Lab, Marine Spatial Ecol Lab, Exeter EX4 4PS, Devon, England.
+   [Chollett, I; Mumby, PJ] Univ Queensland, Sch Biol Sci, Marine Spatial Ecol Lab, St Lucia, Qld 4072, Australia.
+   [Cortes, J] Univ Costa Rica, Ctr Invest Ciencias Mar & Limnol, San Jose 115012060, Costa Rica.
+   [Cortes, J] Univ Costa Rica, Escuela Biol, San Jose 115012060, Costa Rica.
+RP Chollett, I (reprint author), Univ Exeter, Sch Biosci, Hatherly Lab, Marine Spatial Ecol Lab, Prince Wales Rd, Exeter EX4 4PS, Devon, England
+EM i.c.chollett-ordaz@exeter.ac.uk
+TC 0
+Z9 0
+SN 0171-8630
+PY 2010
+VL 416
+BP 47
+EP 56
+DI 10.3354/meps08775
+UT WOS:000283446400004
+ER
+
+PT J
+AU Pesek, T
+   Abramiuk, M
+   Fini, N
+   Rojas, MO
+   Collins, S
+   Cal, V
+   Sanchez, P
+   Poveda, L
+   Arnason, J
+AF Pesek, Todd
+   Abramiuk, Marc
+   Fini, Nick
+   Otarola Rojas, Marco
+   Collins, Sean
+   Cal, Victor
+   Sanchez, Pablo
+   Poveda, Luis
+   Arnason, John
+TI Q'eqchi' Maya healers' traditional knowledge in prioritizing
+   conservation of medicinal plants: culturally relative conservation in
+   sustaining traditional holistic health promotion
+SO BIODIVERSITY AND CONSERVATION
+C1 [Pesek, T] Cleveland State Univ, Ctr Healing Cultures, Dept Hlth Sci, Cleveland, OH 44115 USA.
+   [Abramiuk, M] Case Western Reserve Univ, Dept Anthropol, Cleveland, OH 44106 USA.
+   [Fini, N] Naturaleza Fdn, Lakewood, OH 44107 USA.
+   [Rojas, MO; Sanchez, P; Poveda, L] Univ Nacl, Herbario Juvenal Valerio Rodriguez, Heredia, Costa Rica.
+   [Collins, S; Arnason, J] Univ Ottawa, Dept Biol, Ottawa, ON, Canada.
+   [Cal, V] BITI, Punta Gorda, Belize.
+RP Pesek, T (reprint author), Cleveland State Univ, Ctr Healing Cultures, Dept Hlth Sci, 2121 Euclid Ave,HS 101, Cleveland, OH 44115 USA, USA
+EM t.pesek@csuohio.edu
+TC 1
+Z9 1
+SN 0960-3115
+PD JAN
+PY 2010
+VL 19
+IS 1
+BP 1
+EP 20
+DI 10.1007/s10531-009-9696-1
+UT WOS:000272614200001
+ER
+
+PT J
+AU Laliberte, E
+   Wells, JA
+   DeClerck, F
+   Metcalfe, DJ
+   Catterall, CP
+   Queiroz, C
+   Aubin, I
+   Bonser, SP
+   Ding, Y
+   Fraterrigo, JM
+   McNamara, S
+   Morgan, JW
+   Merlos, DS
+   Vesk, PA
+   Mayfield, MM
+AF Laliberte, Etienne
+   Wells, Jessie A.
+   DeClerck, Fabrice
+   Metcalfe, Daniel J.
+   Catterall, Carla P.
+   Queiroz, Cibele
+   Aubin, Isabelle
+   Bonser, Stephen P.
+   Ding, Yi
+   Fraterrigo, Jennifer M.
+   McNamara, Sean
+   Morgan, John W.
+   Sanchez Merlos, Dalia
+   Vesk, Peter A.
+   Mayfield, Margaret M.
+TI Land-use intensification reduces functional redundancy and response
+   diversity in plant communities
+RID B-6855-2008
+RID F-7318-2010
+RID G-3305-2010
+SO ECOLOGY LETTERS
+C1 [Laliberte, E] Univ Canterbury, Sch Forestry, Christchurch 8140, New Zealand.
+   [Wells, JA; Mayfield, MM] Univ Queensland, Sch Biol Sci, Brisbane, Qld 4072, Australia.
+   [DeClerck, F; Merlos, DS] CATIE 7170, Div Sci & Dev, Turrialba 30501, Costa Rica.
+   [Metcalfe, DJ] CSIRO Sustainable Ecosyst, Atherton, Qld 4883, Australia.
+   [Catterall, CP] Griffith Univ, Griffith Sch Environm, Nathan, Qld 4111, Australia.
+   [Queiroz, C] Stockholm Univ, Dept Syst Ecol, SE-10691 Stockholm, Sweden.
+   [Aubin, I] Canadian Forest Serv, Great Lakes Forestry Ctr, Sault Ste Marie, ON P6A 2E5, Canada.
+   [Bonser, SP] Univ New S Wales, Sch Biol Earth & Environm Sci, Evolut & Ecol Res Ctr, Sydney, NSW 2052, Australia.
+   [Ding, Y] Chinese Acad Forestry, Inst Forest Ecol Environm & Protect, Beijing 100091, Peoples R China.
+   [Fraterrigo, JM] Univ Illinois, Dept Nat Resources & Environm Sci, Urbana, IL 61801 USA.
+   [McNamara, S] Univ Queensland, Ctr Mined Land Rehabil, Brisbane, Qld 4072, Australia.
+   [Morgan, JW] La Trobe Univ, Dept Bot, Bundoora, Vic 3086, Australia.
+   [Vesk, PA] Univ Melbourne, Sch Bot, Melbourne, Vic 3010, Australia.
+RP Laliberte, E (reprint author), Univ Canterbury, Sch Forestry, Private Bag 4800, Christchurch 8140, New Zealand
+EM etiennelaliberte@gmail.com
+TC 12
+Z9 13
+SN 1461-023X
+PD JAN
+PY 2010
+VL 13
+IS 1
+BP 76
+EP 86
+DI 10.1111/j.1461-0248.2009.01403.x
+UT WOS:000272996200009
+ER
+
+PT J
+AU Aisenberg, A
+   Eberhard, WG
+AF Aisenberg, Anita
+   Eberhard, William G.
+TI Female cooperation in plug formation in a spider: effects of male
+   copulatory courtship
+SO BEHAVIORAL ECOLOGY
+C1 [Aisenberg, A] Inst Invest Biol Clemente Estable, Lab Etol Ecol & Evoluc, Montevideo 11600, Uruguay.
+   [Eberhard, WG] Univ Costa Rica, Smithsonian Trop Res Inst, San Jose, Costa Rica.
+   [Eberhard, WG] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Aisenberg, A (reprint author), Inst Invest Biol Clemente Estable, Lab Etol Ecol & Evoluc, Ave Italia 3318, Montevideo 11600, Uruguay
+EM aisenber@iibce.edu.uy
+TC 8
+Z9 8
+SN 1045-2249
+PD NOV-DEC
+PY 2009
+VL 20
+IS 6
+BP 1236
+EP 1241
+DI 10.1093/beheco/arp117
+UT WOS:000271813600012
+ER
+
+PT J
+AU Zahawi, RA
+   Holl, KD
+AF Zahawi, Rakan A.
+   Holl, Karen D.
+TI Comparing the Performance of Tree Stakes and Seedlings to Restore
+   Abandoned Tropical Pastures
+SO RESTORATION ECOLOGY
+C1 [Zahawi, RA] Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+   [Holl, KD] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+RP Zahawi, RA (reprint author), Org Trop Studies, Apdo 73-8257, San Vito De Coto Brus, Costa Rica
+EM zahawi@ots.ac.cr
+TC 3
+Z9 3
+SN 1061-2971
+PD NOV
+PY 2009
+VL 17
+IS 6
+BP 854
+EP 864
+DI 10.1111/j.1526-100X.2008.00423.x
+UT WOS:000272131700011
+ER
+
+PT J
+AU Locatelli, B
+   Vignola, R
+AF Locatelli, Bruno
+   Vignola, Raffaele
+TI Managing watershed services of tropical forests and plantations: Can
+   meta-analyses help?
+RID C-9957-2009
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Locatelli, B] CIRAD UPR Forest Resources, F-34398 Montpellier, France.
+   [Locatelli, B] CIFOR ENV Programme, Bogor 16000, Indonesia.
+   [Vignola, R] CATIE Global Change Grp, Turrialba 7170, Costa Rica.
+   [Vignola, R] Swiss Fed Inst Technol, Inst Environm Decis Nat & Social Sci Interface, CH-8092 Zurich, Switzerland.
+RP Locatelli, B (reprint author), CIRAD UPR Forest Resources, F-34398 Montpellier, France
+EM bruno.locatelli@cirad.fr
+TC 5
+Z9 6
+SN 0378-1127
+PD OCT 10
+PY 2009
+VL 258
+IS 9
+BP 1864
+EP 1870
+DI 10.1016/j.foreco.2009.01.015
+UT WOS:000271093200006
+ER
+
+PT J
+AU Metcalf, CJE
+   Horvitz, CC
+   Tuljapurkar, S
+   Clark, DA
+AF Metcalf, C. Jessica E.
+   Horvitz, Carol C.
+   Tuljapurkar, Shripad
+   Clark, Deborah A.
+TI A time to grow and a time to die: a new way to analyze the dynamics of
+   size, light, age, and death of tropical trees
+SO ECOLOGY
+C1 [Metcalf, CJE] Duke Univ, Duke Populat Res Inst, Durham, NC 27707 USA.
+   [Horvitz, CC] Univ Miami, Dept Biol, Coral Gables, FL 33124 USA.
+   [Tuljapurkar, S] Stanford Univ, Dept Biol, Stanford, CA 94305 USA.
+   [Clark, DA] Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   [Clark, DA] La Selva Biol Stn, Puerto Viejo Sarapiqu, Costa Rica.
+RP Metcalf, CJE (reprint author), Duke Univ, Duke Populat Res Inst, Durham, NC 27707 USA
+EM cjm53@psu.edu
+TC 7
+Z9 8
+SN 0012-9658
+PD OCT
+PY 2009
+VL 90
+IS 10
+BP 2766
+EP 2778
+DI 10.1890/08-1645.1
+UT WOS:000270274200013
+ER
+
+PT J
+AU Nadkarni, NM
+   Haber, WA
+AF Nadkarni, Nalini M.
+   Haber, Willam A.
+TI Canopy Seed Banks as Time Capsules of Biodiversity in Pasture-Remnant
+   Tree Crowns
+SO CONSERVATION BIOLOGY
+C1 [Nadkarni, NM] Evergreen State Coll, Lab 2, Olympia, WA 98505 USA.
+   [Haber, WA] Monteverde, Santa Elena, Puntarenas, Costa Rica.
+RP Nadkarni, NM (reprint author), Evergreen State Coll, Lab 2, 2700 Evergreen Pkwy NW, Olympia, WA 98505 USA
+EM nadkarnn@evergreen.edu
+TC 2
+Z9 2
+SN 0888-8892
+PD OCT
+PY 2009
+VL 23
+IS 5
+BP 1117
+EP 1126
+DI 10.1111/j.1523-1739.2009.01235.x
+UT WOS:000269802200014
+ER
+
+PT J
+AU Philpott, SM
+   Soong, O
+   Lowenstein, JH
+   Pulido, AL
+   Lopez, DT
+   Flynn, DFB
+   DeClerck, F
+AF Philpott, Stacy M.
+   Soong, Oliver
+   Lowenstein, Jacob H.
+   Luz Pulido, Astrid
+   Tobar Lopez, Diego
+   Flynn, Dan F. B.
+   DeClerck, Fabrice
+TI Functional richness and ecosystem services: bird predation on arthropods
+   in tropical agroecosystems
+RID F-2330-2011
+RID A-4200-2008
+SO ECOLOGICAL APPLICATIONS
+C1 [Philpott, SM] Univ Toledo, Dept Environm Sci, Toledo, OH 43606 USA.
+   [Soong, O] Univ Calif Santa Barbara, Donald Bren Sch Environm Sci & Management, Santa Barbara, CA 93106 USA.
+   [Lowenstein, JH; Flynn, DFB] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Lowenstein, JH] Amer Museum Nat Hist, Dept Ichthyol, New York, NY 10024 USA.
+   [Pulido, AL; Lopez, DT; DeClerck, F] CATIE, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+RP Philpott, SM (reprint author), Univ Toledo, Dept Environm Sci, 2801 W Bancroft St, Toledo, OH 43606 USA
+EM stacy.philpott@utoledo.edu
+TC 11
+Z9 12
+SN 1051-0761
+PD OCT
+PY 2009
+VL 19
+IS 7
+BP 1858
+EP 1867
+DI 10.1890/08-1928.1
+UT WOS:000269942500014
+ER
+
+PT J
+AU Quesada, M
+   Sanchez-Azofeifa, GA
+   Alvarez-Anorve, M
+   Stoner, KE
+   Avila-Cabadilla, L
+   Calvo-Alvarado, J
+   Castillo, A
+   Espirito-Santo, MM
+   Fagundes, M
+   Fernandes, GW
+   Gamon, J
+   Lopezaraiza-Mikel, M
+   Lawrence, D
+   Morellato, LPC
+   Powers, JS
+   Neves, FD
+   Rosas-Guerrero, V
+   Sayago, R
+   Sanchez-Montoya, G
+AF Quesada, Mauricio
+   Sanchez-Azofeifa, G. Arturo
+   Alvarez-Anorve, Mariana
+   Stoner, Kathryn E.
+   Avila-Cabadilla, Luis
+   Calvo-Alvarado, Julio
+   Castillo, Alicia
+   Espirito-Santo, Mario M.
+   Fagundes, Marcilio
+   Fernandes, Geraldo W.
+   Gamon, John
+   Lopezaraiza-Mikel, Martha
+   Lawrence, Deborah
+   Cerdeira Morellato, Leonor Patricia
+   Powers, Jennifer S.
+   Neves, Frederico de S.
+   Rosas-Guerrero, Victor
+   Sayago, Roberto
+   Sanchez-Montoya, Gumersindo
+TI Succession and management of tropical dry forests in the Americas:
+   Review and new perspectives
+RID F-6740-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Quesada, M; Alvarez-Anorve, M; Stoner, KE; Avila-Cabadilla, L; Castillo, A; Lopezaraiza-Mikel, M; Rosas-Guerrero, V; Sayago, R; Sanchez-Montoya, G] Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   [Sanchez-Azofeifa, GA; Gamon, J] Univ Alberta, Dept Earth & Atmospher Sci, Edmonton, AB, Canada.
+   [Calvo-Alvarado, J] Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   [Espirito-Santo, MM; Fagundes, M; Neves, FD] Univ Estadual Montes Claros, CCBS, Dept Biol Geral, Montes Claros, MG, Brazil.
+   [Fernandes, GW] Univ Fed Minas Gerais, Belo Horizonte, MG, Brazil.
+   [Lawrence, D] Univ Virginia, Dept Environm Sci, Charlottesville, VA 22903 USA.
+   [Morellato, LPC] Univ Estadual Paulista, UNESP, Dept Bot, IB, Sao Paulo, Brazil.
+   [Powers, JS] Univ Minnesota, Dept Plant Biol Ecol Evolut & Behav, St Paul, MN 55108 USA.
+   [Powers, JS] Univ Minnesota, Dept Soil Water & Climate, St Paul, MN 55108 USA.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+EM mquesada@oikos.unam.mx
+TC 15
+Z9 16
+SN 0378-1127
+PD SEP 5
+PY 2009
+VL 258
+IS 6
+BP 1014
+EP 1024
+DI 10.1016/j.foreco.2009.06.023
+UT WOS:000269874000013
+ER
+
+PT J
+AU Calvo-Alvarado, J
+   McLennan, B
+   Sanchez-Azofeifa, A
+   Garvin, T
+AF Calvo-Alvarado, J.
+   McLennan, B.
+   Sanchez-Azofeifa, A.
+   Garvin, T.
+TI Deforestation and forest restoration in Guanacaste, Costa Rica: Putting
+   conservation policies in context
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Calvo-Alvarado, J] ITCR, Escuela Ingn Forestal, Cartago, Costa Rica.
+   [McLennan, B; Sanchez-Azofeifa, A; Garvin, T] Univ Alberta, Dept Earth & Atmospher Sci, Earth Observat Syst Lab, Edmonton, AB T6G 2E3, Canada.
+RP Calvo-Alvarado, J (reprint author), ITCR, Escuela Ingn Forestal, Cartago, Costa Rica
+EM jucalvo@itcr.ac.cr
+TC 8
+Z9 8
+SN 0378-1127
+PD SEP 5
+PY 2009
+VL 258
+IS 6
+BP 931
+EP 940
+DI 10.1016/j.foreco.2008.10.035
+UT WOS:000269874000005
+ER
+
+PT J
+AU Powers, JS
+   Becknell, JM
+   Irving, J
+   Perez-Aviles, D
+AF Powers, Jennifer S.
+   Becknell, Justin M.
+   Irving, Jennifer
+   Perez-Aviles, Daniel
+TI Diversity and structure of regenerating tropical dry forests in Costa
+   Rica: Geographic patterns and environmental drivers
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Powers, JS; Becknell, JM] Univ Minnesota, Dept Ecol Evolut & Behav, St Paul, MN 55108 USA.
+   [Powers, JS; Irving, J] Univ Minnesota, Dept Plant Biol, St Paul, MN 55108 USA.
+   [Powers, JS] Univ Minnesota, Dept Soil Water & Climate, St Paul, MN 55108 USA.
+   [Perez-Aviles, D] Org Trop Studies, Bagaces, San Pedro, Costa Rica.
+RP Powers, JS (reprint author), Univ Minnesota, Dept Ecol Evolut & Behav, 100 Ecol Bldg,1987 Upper Buford Circle, St Paul, MN 55108 USA
+EM powers@umn.edu
+TC 14
+Z9 15
+SN 0378-1127
+PD SEP 5
+PY 2009
+VL 258
+IS 6
+BP 959
+EP 970
+DI 10.1016/j.foreco.2008.10.036
+UT WOS:000269874000008
+ER
+
+PT J
+AU Timm, RM
+   Lieberman, D
+   Lieberman, M
+   McClearn, D
+AF Timm, Robert M.
+   Lieberman, Diana
+   Lieberman, Milton
+   McClearn, Deedra
+TI Mammals of Cabo Blanco: History, diversity, and conservation after 45
+   years of regrowth of a Costa Rican dry forest
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Timm, RM] Univ Kansas, Museum Nat Hist, Lawrence, KS 66045 USA.
+   [Timm, RM] Univ Kansas, Dept Ecol & Evolutionary Biol, Lawrence, KS 66045 USA.
+   [Timm, RM] Univ Kansas, Biodivers Res Ctr, Lawrence, KS 66045 USA.
+   [Lieberman, D] Univ Georgia, Odum Sch Ecol, Athens, GA 30602 USA.
+   [Lieberman, M] MINAE, Estn Biol San Miguel, San Jose, Costa Rica.
+   [McClearn, D] Org Estudios Trop, Estn Biol La Selva, San Jose, Costa Rica.
+RP Timm, RM (reprint author), Univ Kansas, Museum Nat Hist, Lawrence, KS 66045 USA
+EM btimm@ku.edu
+TC 1
+Z9 1
+SN 0378-1127
+PD SEP 5
+PY 2009
+VL 258
+IS 6
+BP 997
+EP 1013
+DI 10.1016/j.foreco.2008.10.027
+UT WOS:000269874000012
+ER
+
+PT J
+AU Letcher, SG
+   Chazdon, RL
+AF Letcher, Susan G.
+   Chazdon, Robin L.
+TI Rapid Recovery of Biomass, Species Richness, and Species Composition in
+   a Forest Chronosequence in Northeastern Costa Rica
+SO BIOTROPICA
+C1 [Letcher, SG] Org Trop Studies, San Pedro, Costa Rica.
+   [Chazdon, RL] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+RP Letcher, SG (reprint author), Org Trop Studies, Apartado Postal 676-2050, San Pedro, Costa Rica
+EM suletcher@ots.ac.cr
+TC 16
+Z9 18
+SN 0006-3606
+PD SEP
+PY 2009
+VL 41
+IS 5
+BP 608
+EP 617
+DI 10.1111/j.1744-7429.2009.00517.x
+UT WOS:000269700500014
+ER
+
+PT J
+AU Carrillo, E
+   Fuller, TK
+   Saenz, JC
+AF Carrillo, Eduardo
+   Fuller, Todd K.
+   Saenz, Joel C.
+TI Jaguar (Panthera onca) hunting activity: effects of prey distribution
+   and availability
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Carrillo, E; Fuller, TK] Univ Massachusetts, Dept Nat Resources Conservat, Amherst, MA 01003 USA.
+   [Carrillo, E; Saenz, JC] Univ Nacl, Inst Int Manejo & Conservac Vida Silvestre, Heredia, Costa Rica.
+RP Fuller, TK (reprint author), Univ Massachusetts, Dept Nat Resources Conservat, Amherst, MA 01003 USA, USA
+EM tkfuller@nrc.umass.cdu
+TC 1
+Z9 2
+SN 0266-4674
+PD SEP
+PY 2009
+VL 25
+BP 563
+EP 567
+DI 10.1017/S0266467409990137
+UT WOS:000269168700014
+ER
+
+PT J
+AU Ceballos, G
+   Vale, MM
+   Bonacic, C
+   Calvo-Alvarado, J
+   List, R
+   Bynum, N
+   Medellin, RA
+   Simonetti, JA
+   Rodriguez, JP
+AF Ceballos, Gerardo
+   Vale, Mariana M.
+   Bonacic, Cristian
+   Calvo-Alvarado, Julio
+   List, Rurik
+   Bynum, Nora
+   Medellin, Rodrigo A.
+   Simonetti, Javier A.
+   Rodriguez, Jon Paul
+TI Conservation Challenges for the Austral and Neotropical America Section
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 [Ceballos, G; List, R; Medellin, RA] Univ Nacl Autonoma Mexico, Inst Ecol, Mexico City 04510, DF, Mexico.
+   [Vale, MM] Univ Estado Rio de Janeiro, Dept Ecol, BR-20550011 Rio De Janeiro, Brazil.
+   [Bonacic, C] Pontificia Univ Catolica Chile, Fac Agron & Ingn Forestal, Santiago, Chile.
+   [Calvo-Alvarado, J] Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   [Bynum, N] Amer Museum Nat Hist, Ctr Biodivers & Conservat, New York, NY 10024 USA.
+   [Simonetti, JA] Univ Chile, Fac Ciencias, Santiago, Chile.
+   [Rodriguez, JP] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Ceballos, G (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Apartado Postal 70-275, Mexico City 04510, DF, Mexico
+EM gceballo@ecologia.unam.mx
+TC 2
+Z9 2
+SN 0888-8892
+PD AUG
+PY 2009
+VL 23
+IS 4
+BP 811
+EP 817
+DI 10.1111/j.1523-1739.2009.01286.x
+UT WOS:000268028800010
+ER
+
+PT J
+AU Powers, JS
+   Montgomery, RA
+   Adair, EC
+   Brearley, FQ
+   DeWalt, SJ
+   Castanho, CT
+   Chave, J
+   Deinert, E
+   Ganzhorn, JU
+   Gilbert, ME
+   Gonzalez-Iturbe, JA
+   Bunyavejchewin, S
+   Grau, HR
+   Harms, KE
+   Hiremath, A
+   Iriarte-Vivar, S
+   Manzane, E
+   de Oliveira, AA
+   Poorter, L
+   Ramanamanjato, JB
+   Salk, C
+   Varela, A
+   Weiblen, GD
+   Lerdau, MT
+AF Powers, Jennifer S.
+   Montgomery, Rebecca A.
+   Adair, E. Carol
+   Brearley, Francis Q.
+   DeWalt, Saara J.
+   Castanho, Camila T.
+   Chave, Jerome
+   Deinert, Erika
+   Ganzhorn, Joerg U.
+   Gilbert, Matthew E.
+   Antonio Gonzalez-Iturbe, Jose
+   Bunyavejchewin, Sarayudh
+   Grau, H. Ricardo
+   Harms, Kyle E.
+   Hiremath, Ankila
+   Iriarte-Vivar, Silvia
+   Manzane, Eric
+   de Oliveira, Alexandre A.
+   Poorter, Lourens
+   Ramanamanjato, Jean-Baptiste
+   Salk, Carl
+   Varela, Amanda
+   Weiblen, George D.
+   Lerdau, Manuel T.
+TI Decomposition in tropical forests: a pan-tropical study of the effects
+   of litter type, litter placement and mesofaunal exclusion across a
+   precipitation gradient
+SO JOURNAL OF ECOLOGY
+C1 [Powers, JS] Univ Minnesota, Dept Ecol Evolut & Behav & Plant Biol, St Paul, MN 55108 USA.
+   [Brearley, FQ] Manchester Metropolitan Univ, Dept Geog & Environm Sci, Manchester M1 5GD, Lancs, England.
+   [DeWalt, SJ] Clemson Univ, Dept Biol Sci, Clemson, SC 29634 USA.
+   [Castanho, CT; de Oliveira, AA] Univ Sao Paulo, Inst Biociencias, Sao Paulo, Brazil.
+   [Chave, J] CNRS UPS, Lab Evolut & Divers Biol, UMR5174, F-31062 Toulouse, France.
+   [Deinert, E] Org Trop Studies, San Jose, Costa Rica.
+   [Ganzhorn, JU] Univ Hamburg, Dept Anim Ecol & Conservat, D-20146 Hamburg, Germany.
+   [Gilbert, ME] Harvard Univ, Dept Organism & Evolutionary Biol, Cambridge, MA 02138 USA.
+   [Gonzalez-Iturbe, JA] Biocenosis AC, Merida 97134, Yucatan, Mexico.
+   [Bunyavejchewin, S] Natl Pk, Wildlife & Plant Conservat Dept, Res Off, Bangkok 10900, Thailand.
+   [Grau, HR] Univ Nacl Tucuman, Fac Ciencias Nat, Conicet Liey, RA-4000 San Miguel De Tucuman, Tucuman, Argentina.
+   [Harms, KE] Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.
+   [Harms, KE] Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   [Hiremath, A] ATREE, New Delhi 110014, India.
+   [Iriarte-Vivar, S] Ctr Invest Cient Yucatan AC, Unidad Recursos Nat, Merida, Yucatan, Mexico.
+   [Manzane, E] Univ Miami, Dept Biol, Coral Gables, FL 33146 USA.
+   [Poorter, L] Wageningen Univ, Ctr Ecosyst Studies, Forest Ecol & Forest Management Grp, NL-6700 AA Wageningen, Netherlands.
+   [Poorter, L] Wageningen Univ, Ctr Ecosyst Studies, Resource Ecol Grp, NL-6700 AA Wageningen, Netherlands.
+   [Poorter, L] Inst Boliviano Invest Forestal, Casilla 6204, Santa Cruz, Bolivia.
+   [Ramanamanjato, JB] QIT Madagascar Minerals, Tolagnaro 614, Madagascar.
+   [Salk, C] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Varela, A] Pontificia Univ Javeriana, Lab Ecol Suelos & Hongos Trop, Unidad Ecol & Sistemat, Dept Biol,Fac Ciencias, Bogota, Colombia.
+   [Weiblen, GD] Univ Minnesota, Plant Biol & Bell Museum Nat Hist, St Paul, MN 55108 USA.
+   [Lerdau, MT] Univ Virginia, Dept Environm Sci, Charlottesville, VA 22904 USA.
+   [Lerdau, MT] Univ Virginia, Dept Biol, Charlottesville, VA 22904 USA.
+RP Powers, JS (reprint author), Univ Minnesota, Dept Ecol Evolut & Behav & Plant Biol, St Paul, MN 55108 USA
+EM powers@umn.edu
+TC 15
+Z9 15
+SN 0022-0477
+PD JUL
+PY 2009
+VL 97
+IS 4
+BP 801
+EP 811
+DI 10.1111/j.1365-2745.2009.01515.x
+UT WOS:000267071500021
+ER
+
+PT J
+AU Cascante-Marin, A
+   Wolf, JHD
+   Oostermeijer, JGB
+AF Cascante-Marin, Alfredo
+   Wolf, Jan H. D.
+   Oostermeijer, J. Gerard B.
+TI Wasp florivory decreases reproductive success in an epiphytic bromeliad
+SO PLANT ECOLOGY
+C1 [Cascante-Marin, A] Museo Nacl Costa Rica, Dept Hist Nat, San Jose, Costa Rica.
+   [Wolf, JHD; Oostermeijer, JGB] Univ Amsterdam, IBED, NL-1098 SM Amsterdam, Netherlands.
+RP Cascante-Marin, A (reprint author), Museo Nacl Costa Rica, Dept Hist Nat, Apartado Postal 749-1000, San Jose, Costa Rica
+EM alfredo.cascante@gmail.com
+TC 1
+Z9 1
+SN 1385-0237
+PD JUL
+PY 2009
+VL 203
+IS 1
+BP 149
+EP 153
+DI 10.1007/s11258-008-9522-y
+UT WOS:000266454700013
+ER
+
+PT J
+AU Fink, RD
+   Lindell, CA
+   Morrison, EB
+   Zahawi, RA
+   Holl, KD
+AF Fink, Rebecca D.
+   Lindell, Catherine A.
+   Morrison, Emily B.
+   Zahawi, Rakan A.
+   Holl, Karen D.
+TI Patch Size and Tree Species Influence the Number and Duration of Bird
+   Visits in Forest Restoration Plots in Southern Costa Rica
+SO RESTORATION ECOLOGY
+C1 [Fink, RD] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Lindell, CA; Morrison, EB] Michigan State Univ, Dept Zool, E Lansing, MI 48824 USA.
+   [Lindell, CA; Morrison, EB] Michigan State Univ, Ctr Global Change & Earth Observat, E Lansing, MI 48823 USA.
+   [Zahawi, RA] Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+   [Holl, KD] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+RP Fink, RD (reprint author), Duke Univ, Dept Biol, 139 Biol Sci Bldg, Durham, NC 27708 USA
+EM rebecca.fink@duke.edu
+TC 5
+Z9 5
+SN 1061-2971
+PD JUL
+PY 2009
+VL 17
+IS 4
+BP 479
+EP 486
+DI 10.1111/j.1526-100X.2008.00383.x
+UT WOS:000268302800006
+ER
+
+PT J
+AU Morse, WC
+   Schedlbauer, JL
+   Sesnie, SE
+   Finegan, B
+   Harvey, CA
+   Hollenhorst, SJ
+   Kavanagh, KL
+   Stoian, D
+   Wulfhorst, JD
+AF Morse, Wayde C.
+   Schedlbauer, Jessica L.
+   Sesnie, Steven E.
+   Finegan, Bryan
+   Harvey, Celia A.
+   Hollenhorst, Steven J.
+   Kavanagh, Kathleen L.
+   Stoian, Dietmar
+   Wulfhorst, J. D.
+TI Consequences of Environmental Service Payments for Forest Retention and
+   Recruitment in a Costa Rican Biological Corridor
+SO ECOLOGY AND SOCIETY
+C1 [Morse, WC; Schedlbauer, JL; Sesnie, SE; Finegan, B; Harvey, CA; Stoian, D] Trop Agr Res & Higher Educ Ctr CATIE, Turrialba, Costa Rica.
+   [Morse, WC; Schedlbauer, JL; Sesnie, SE; Hollenhorst, SJ; Kavanagh, KL; Wulfhorst, JD] Univ Idaho Moscow, Moscow, ID USA.
+RP Morse, WC (reprint author), Trop Agr Res & Higher Educ Ctr CATIE, Turrialba, Costa Rica
+TC 5
+Z9 5
+SN 1708-3087
+PD JUN
+PY 2009
+VL 14
+IS 1
+AR 23
+UT WOS:000267846300014
+ER
+
+PT J
+AU Farji-Brener, AG
+   Chinchilla, FA
+   Magrach, A
+   Romero, V
+   Rios, M
+   Velilla, M
+   Serrano, JM
+   Amador-Vargas, S
+AF Farji-Brener, Alejandro G.
+   Chinchilla, Federico A.
+   Magrach, Ainhoa
+   Romero, Victor
+   Rios, Marcos
+   Velilla, Marianela
+   Manuel Serrano, Jose
+   Amador-Vargas, Sabrina
+TI Slope orientation enhances the nurse effect of a paramo shrub, Hypericum
+   irazuense (Hypericaceae) in Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Farji-Brener, AG] CRUB UNCOma, INIBIOMA Conicet, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   [Chinchilla, FA] Estn Biol Monteverde, Puntarenas, Costa Rica.
+   [Magrach, A] Univ Santiago de Compostela, Depto Biol Celular & Ecol, Fac Biol, Santiago De Compostela, Spain.
+   [Romero, V] Univ Simon Bolivar, Lab Ecol Evolut, Caracas, Venezuela.
+   [Rios, M] Univ Amazonia Peruana, Iquitos, Peru.
+   [Velilla, M] Guido Spano 2820, Asuncion, Paraguay.
+   [Serrano, JM] Inst Ecol AC, Xalapa, Veracruz, Mexico.
+   [Amador-Vargas, S] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Farji-Brener, AG (reprint author), CRUB UNCOma, INIBIOMA Conicet, Lab Ecotono, Pasaje Gutierrez 1125, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+EM alefarji@crub.uncoma.edu.ar
+TC 1
+Z9 1
+SN 0266-4674
+PD MAY
+PY 2009
+VL 25
+BP 331
+EP 335
+DI 10.1017/S0266467409005999
+UT WOS:000265504100010
+ER
+
+PT J
+AU Puschendorf, R
+   Carnaval, AC
+   VanDerWal, J
+   Zumbado-Ulate, H
+   Chaves, G
+   Bolanos, F
+   Alford, RA
+AF Puschendorf, Robert
+   Carnaval, Ana C.
+   VanDerWal, Jeremy
+   Zumbado-Ulate, Hector
+   Chaves, Gerardo
+   Bolanos, Federico
+   Alford, Ross A.
+TI Distribution models for the amphibian chytrid Batrachochytrium
+   dendrobatidis in Costa Rica: proposing climatic refuges as a
+   conservation tool
+RID B-6280-2011
+RID C-7457-2009
+SO DIVERSITY AND DISTRIBUTIONS
+C1 [Puschendorf, R; VanDerWal, J] James Cook Univ, Sch Marine & Trop Biol, Ctr Trop Biodivers & Climate Change Res, Townsville, Qld 4811, Australia.
+   [Carnaval, AC] Univ Calif Berkeley, Museum Vertebrate Zool, Berkeley, CA 94720 USA.
+   [Puschendorf, R; Alford, RA] James Cook Univ, Amphibian Dis Ecol Grp, Townsville, Qld 4811, Australia.
+   [Puschendorf, R; Zumbado-Ulate, H; Chaves, G; Bolanos, F] Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+RP Puschendorf, R (reprint author), James Cook Univ, Sch Marine & Trop Biol, Ctr Trop Biodivers & Climate Change Res, Townsville, Qld 4811, Australia
+EM robert.puschendorf@jcu.edu.au
+TC 17
+Z9 17
+SN 1366-9516
+PD MAY
+PY 2009
+VL 15
+IS 3
+BP 401
+EP 408
+DI 10.1111/j.1472-4642.2008.00548.x
+UT WOS:000265070400004
+ER
+
+PT J
+AU Norden, N
+   Chazdon, RL
+   Chao, A
+   Jiang, YH
+   Vilchez-Alvarado, B
+AF Norden, Natalia
+   Chazdon, Robin L.
+   Chao, Anne
+   Jiang, Yi-Huei
+   Vilchez-Alvarado, Braulio
+TI Resilience of tropical rain forests: tree community reassembly in
+   secondary forests
+SO ECOLOGY LETTERS
+C1 [Norden, N; Chazdon, RL] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   [Chao, A; Jiang, YH] Natl Tsing Hua Univ, Inst Stat, Hsinchu 30043, Taiwan.
+   [Vilchez-Alvarado, B] Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+RP Chazdon, RL (reprint author), Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA
+EM robin.chazdon@uconn.edu
+TC 16
+Z9 17
+SN 1461-023X
+PD MAY
+PY 2009
+VL 12
+IS 5
+BP 385
+EP 394
+DI 10.1111/j.1461-0248.2009.01292.x
+UT WOS:000265010400002
+ER
+
+PT J
+AU Letcher, SG
+   Chazdon, RL
+AF Letcher, Susan G.
+   Chazdon, Robin L.
+TI Lianas and self-supporting plants during tropical forest succession
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Letcher, SG] Org Trop Studies, San Pedro, Costa Rica.
+   [Chazdon, RL] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+RP Letcher, SG (reprint author), Org Trop Studies, Apartado Postal 676-2050, San Pedro, Costa Rica
+EM suletcher@ots.ac.cr
+TC 8
+Z9 10
+SN 0378-1127
+PD APR 30
+PY 2009
+VL 257
+IS 10
+BP 2150
+EP 2156
+DI 10.1016/j.foreco.2009.02.028
+UT WOS:000265906500023
+ER
+
+PT J
+AU Gaudinski, JB
+   Torn, MS
+   Riley, WJ
+   Swanston, C
+   Trumbore, SE
+   Joslin, JD
+   Majdi, H
+   Dawson, TE
+   Hanson, PJ
+AF Gaudinski, J. B.
+   Torn, M. S.
+   Riley, W. J.
+   Swanston, C.
+   Trumbore, S. E.
+   Joslin, J. D.
+   Majdi, H.
+   Dawson, T. E.
+   Hanson, P. J.
+TI Use of stored carbon reserves in growth of temperate tree roots and leaf
+   buds: analyses using radiocarbon measurements and modeling
+RID D-8069-2011
+SO GLOBAL CHANGE BIOLOGY
+C1 [Gaudinski, JB; Torn, MS; Riley, WJ] Univ Calif Berkeley, Lawrence Berkeley Lab, Div Earth Sci, Berkeley, CA 94720 USA.
+   [Gaudinski, JB] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+   [Gaudinski, JB; Dawson, TE] Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   [Swanston, C] Lawrence Livermore Natl Lab, Ctr Accelerator Mass Spectrometry, Livermore, CA 94550 USA.
+   [Trumbore, SE] Univ Calif Irvine, Dept Earth Syst Sci, Irvine, CA USA.
+   [Joslin, JD] Belowground Forest Res, Santa Elena De Monteverd, Puntarenas, Costa Rica.
+   [Majdi, H] Swedish Univ Agr Sci, Dept Ecol, Uppsala, Sweden.
+   [Hanson, PJ] Oak Ridge Natl Lab, Div Environm Sci, Oak Ridge, TN 37831 USA.
+RP Gaudinski, JB (reprint author), Univ Calif Berkeley, Lawrence Berkeley Lab, Div Earth Sci, Berkeley, CA 94720 USA
+EM mstorn@lbl.gov
+TC 11
+Z9 11
+SN 1354-1013
+PD APR
+PY 2009
+VL 15
+IS 4
+BP 992
+EP 1014
+DI 10.1111/j.1365-2486.2008.01736.x
+UT WOS:000263752300018
+ER
+
+PT J
+AU Cornelius, JP
+AF Cornelius, Jonathan P.
+TI The utility of the predictive decapitation test as a tool for early
+   genetic selection for Hypsipyla tolerance in big-leaf mahogany
+   (Swietenia macrophylla King)
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Cornelius, JP] Ctr Res & Higher Educ Trop Agr CATIE, Turrialba, Costa Rica.
+RP Cornelius, JP (reprint author), James Cook Univ, Agroforestry & Novel Crops Unit, Sch Marine & Trop Biol, POB 6811, Cairns, Qld 4870, Australia
+EM jonathan.cornelius@jcu.edu.au
+TC 0
+Z9 0
+SN 0378-1127
+PD MAR 31
+PY 2009
+VL 257
+IS 8
+BP 1815
+EP 1821
+DI 10.1016/j.foreco.2009.02.003
+UT WOS:000265342200021
+ER
+
+PT J
+AU Marten-Rodriguez, S
+   Almarales-Castro, A
+   Fenster, CB
+AF Marten-Rodriguez, Silvana
+   Almarales-Castro, Abel
+   Fenster, Charles B.
+TI Evaluation of pollination syndromes in Antillean Gesneriaceae: evidence
+   for bat, hummingbird and generalized flowers
+SO JOURNAL OF ECOLOGY
+C1 [Marten-Rodriguez, S; Fenster, CB] Univ Maryland, Behav Ecol Evolut & Systemat Program, College Pk, MD 20742 USA.
+   [Marten-Rodriguez, S] Herbario Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   [Almarales-Castro, A] Ctr Oriental Ecosistemas & Biodiversidad BIOECO, Museo Hist Nat Tomas Romay, Santiago De Cuba, Cuba.
+   [Fenster, CB] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+RP Marten-Rodriguez, S (reprint author), Univ Maryland, Behav Ecol Evolut & Systemat Program, College Pk, MD 20742 USA
+EM smartenr@gmail.com
+TC 12
+Z9 13
+SN 0022-0477
+PD MAR
+PY 2009
+VL 97
+IS 2
+BP 348
+EP 359
+DI 10.1111/j.1365-2745.2008.01465.x
+UT WOS:000263302000015
+ER
+
+PT J
+AU Wasko, DK
+   Sasa, M
+AF Wasko, Dennis K.
+   Sasa, Mahmood
+TI Activity Patterns of a Neotropical Ambush Predator: Spatial Ecology of
+   the Fer-de-lance (Bothrops asper, Serpentes: Viperidae) in Costa Rica
+SO BIOTROPICA
+C1 [Wasko, DK] Univ Miami, Dept Biol, Cox Sci Ctr, Coral Gables, FL 33124 USA.
+   [Sasa, M] Univ Costa Rica, Inst Clodomiro Picado, San Jose, Costa Rica.
+RP Wasko, DK (reprint author), Univ Miami, Dept Biol, Cox Sci Ctr, Coral Gables, FL 33124 USA
+EM dennis@bio.miami.edu
+TC 2
+Z9 2
+SN 0006-3606
+PD MAR
+PY 2009
+VL 41
+IS 2
+BP 241
+EP 249
+DI 10.1111/j.1744-7429.2008.00464.x
+UT WOS:000263747000015
+ER
+
+PT J
+AU Lorion, CM
+   Kennedy, BP
+AF Lorion, Christopher M.
+   Kennedy, Brian P.
+TI Riparian forest buffers mitigate the effects of deforestation on fish
+   assemblages in tropical headwater streams
+SO ECOLOGICAL APPLICATIONS
+C1 [Lorion, CM; Kennedy, BP] Univ Idaho, Dept Fish & Wildlife Resources, Moscow, ID 83844 USA.
+   [Lorion, CM] CATIE, Turrialba, Costa Rica.
+RP Lorion, CM (reprint author), Corvallis Res Lab, Oregon Dept Fish & Wildlife, 28655 Highway 34, Corvallis, OR 97333 USA
+EM chrislorion@vandals.uidaho.edu
+TC 9
+Z9 9
+SN 1051-0761
+PD MAR
+PY 2009
+VL 19
+IS 2
+BP 468
+EP 479
+DI 10.1890/08-0050.1
+UT WOS:000263719400015
+ER
+
+PT J
+AU Sesnie, SE
+   Finegan, B
+   Gessler, PE
+   Ramos, Z
+AF Sesnie, Steven E.
+   Finegan, Bryan
+   Gessler, Paul E.
+   Ramos, Zayra
+TI Landscape-Scale Environmental and Floristic Variation in Costa Rican
+   Old-Growth Rain Forest Remnants
+SO BIOTROPICA
+C1 [Sesnie, SE; Gessler, PE] Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA.
+   [Sesnie, SE; Finegan, B; Ramos, Z] CATIE, Dept Recursos Nat & Ambiente, Sede Cent 7170, Turrialba, Costa Rica.
+RP Sesnie, SE (reprint author), Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA
+EM steven.sesnie@nau.edu
+TC 10
+Z9 10
+SN 0006-3606
+PD JAN
+PY 2009
+VL 41
+IS 1
+BP 16
+EP 26
+DI 10.1111/j.1744-7429.2008.00451.x
+UT WOS:000261961100004
+ER
+
+PT J
+AU Halford, AR
+   Perret, J
+AF Halford, Andrew R.
+   Perret, Johan
+TI Patterns of recovery in catastrophically disturbed reef fish assemblages
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 [Halford, AR] Australian Inst Marine Sci, TMC, Townsville, Qld 4810, Australia.
+   [Perret, J] EARTH Univ, Dept Soil & Water, San Jose, Costa Rica.
+RP Halford, AR (reprint author), Univ Guam, Marine Lab, Mangilao, GU 96923 USA
+EM andrew.halford@gmail.com
+TC 3
+Z9 3
+SN 0171-8630
+PY 2009
+VL 383
+BP 261
+EP 272
+DI 10.3354/meps07996
+UT WOS:000266756800021
+ER
+
+PT J
+AU Castoe, TA
+   Daza, JM
+   Smith, EN
+   Sasa, MM
+   Kuch, U
+   Campbell, JA
+   Chippindale, PT
+   Parkinson, CL
+AF Castoe, Todd A.
+   Daza, Juan M.
+   Smith, Eric N.
+   Sasa, Mahmood M.
+   Kuch, Ulrich
+   Campbell, Jonathan A.
+   Chippindale, Paul T.
+   Parkinson, Christopher L.
+TI Comparative phylogeography of pitvipers suggests a consensus of ancient
+   Middle American highland biogeography
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Castoe, TA; Daza, JM; Parkinson, CL] Univ Cent Florida, Dept Biol, Orlando, FL 32816 USA.
+   [Smith, EN; Campbell, JA; Chippindale, PT] Univ Texas Arlington, Dept Biol, Arlington, TX 76019 USA.
+   [Sasa, MM] Univ Costa Rica, Inst Clodomiro Picado, San Jose, Costa Rica.
+   [Kuch, U] Biodivers & Climate Res Ctr, Frankfurt, Germany.
+RP Parkinson, CL (reprint author), Univ Cent Florida, Dept Biol, 4000 Cent Florida Blvd, Orlando, FL 32816 USA
+EM cparkins@mail.ucf.edu
+TC 20
+Z9 20
+SN 0305-0270
+PD JAN
+PY 2009
+VL 36
+IS 1
+BP 88
+EP 103
+DI 10.1111/j.1365-2699.2008.01991.x
+UT WOS:000261620400010
+ER
+
+PT J
+AU Metcalf, CJE
+   Clark, JS
+   Clark, DA
+AF Metcalf, C. Jessica E.
+   Clark, James S.
+   Clark, Deborah A.
+TI Tree growth inference and prediction when the point of measurement
+   changes: modelling around buttresses in tropical forests
+RID G-6331-2011
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Metcalf, CJE] Penn State Univ, Ctr Infect Dis Dynam, State Coll, PA 16802 USA.
+   [Clark, JS] Duke Univ, Nicholas Sch Environm, Durham, NC 27707 USA.
+   [Clark, JS] Duke Univ, Dept Biol, Durham, NC 27706 USA.
+   [Clark, JS] Duke Univ, Dept Stat Sci, Durham, NC 27706 USA.
+   [Clark, DA] Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   [Clark, DA] La Selva Biol Stn, Puerto Viejo de Sarapiqui, Costa Rica.
+RP Metcalf, CJE (reprint author), Penn State Univ, Ctr Infect Dis Dynam, State Coll, PA 16802 USA
+EM cjm53@psu.edu
+TC 3
+Z9 3
+SN 0266-4674
+PD JAN
+PY 2009
+VL 25
+PN Part 1
+BP 1
+EP 12
+DI 10.1017/S0266467408005646
+UT WOS:000262545800001
+ER
+
+PT J
+AU Cascante-Marin, A
+   von Meijenfeldt, N
+   de Leeuw, HMH
+   Wolf, JHD
+   Oostermeijer, JGB
+   den Nijs, JCM
+AF Cascante-Marin, Alfredo
+   von Meijenfeldt, Noemi
+   de Leeuw, Hanneke M. H.
+   Wolf, Jan H. D.
+   Oostermeijer, J. Gerard B.
+   den Nijs, Joannes C. M.
+TI Dispersal limitation in epiphytic bromeliad communities in a Costa Rican
+   fragmented montane landscape
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Cascante-Marin, A; von Meijenfeldt, N; de Leeuw, HMH; Wolf, JHD; Oostermeijer, JGB; den Nijs, JCM] Univ Amsterdam, IBED, NL-1098 SM Amsterdam, Netherlands.
+RP Cascante-Marin, A (reprint author), Museo Nacl Costa Rica, Dept Hist Nat, Apartado 749-1000, San Jose, Costa Rica
+EM alfredo.cascante@gmail.com
+TC 6
+Z9 7
+SN 0266-4674
+PD JAN
+PY 2009
+VL 25
+BP 63
+EP 73
+DI 10.1017/S0266467408005622
+UT WOS:000262545800007
+ER
+
+PT J
+AU Flynn, DFB
+   Gogol-Prokurat, M
+   Nogeire, T
+   Molinari, N
+   Richers, BT
+   Lin, BB
+   Simpson, N
+   Mayfield, MM
+   DeClerck, F
+AF Flynn, Dan F. B.
+   Gogol-Prokurat, Melanie
+   Nogeire, Theresa
+   Molinari, Nicole
+   Richers, Barbara Trautman
+   Lin, Brenda B.
+   Simpson, Nicholas
+   Mayfield, Margaret M.
+   DeClerck, Fabrice
+TI Loss of functional diversity under land use intensification across
+   multiple taxa
+RID A-4200-2008
+RID A-8834-2011
+SO ECOLOGY LETTERS
+C1 [Flynn, DFB] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY USA.
+   [Gogol-Prokurat, M] Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
+   [Nogeire, T] Univ Calif Santa Barbara, Bren Sch Environm Sci & Management, Santa Barbara, CA 93106 USA.
+   [Molinari, N] Univ Calif Santa Barbara, Dept Ecol Evolut & Marine Biol, Santa Barbara, CA 93106 USA.
+   [Richers, BT; DeClerck, F] Trop Agr Ctr Res & Higher Educ CATIE, Turrialba, Costa Rica.
+   [Lin, BB; DeClerck, F] Columbia Univ, Earths Inst, New York, NY USA.
+   [Simpson, N] Kansas State Univ, Div Biol, Manhattan, KS 66506 USA.
+   [Mayfield, MM] Univ Queensland, Sch Integrat Biol, Brisbane, Qld, Australia.
+RP DeClerck, F (reprint author), Trop Agr Ctr Res & Higher Educ CATIE, Turrialba, Costa Rica
+EM fdeclerck@catie.ac.cr
+TC 47
+Z9 48
+SN 1461-023X
+PD JAN
+PY 2009
+VL 12
+IS 1
+BP 22
+EP 33
+DI 10.1111/j.1461-0248.2008.01255.x
+UT WOS:000261625500005
+ER
+
+PT J
+AU Liu, SG
+   Anderson, P
+   Zhou, GY
+   Kauffman, B
+   Hughes, F
+   Schimel, D
+   Watson, V
+   Tosi, J
+AF Liu, Shuguang
+   Anderson, Pamela
+   Zhou, Guoyi
+   Kauffman, Boone
+   Hughes, Flint
+   Schimel, David
+   Watson, Vicente
+   Tosi, Joseph
+TI Resolving model parameter values from carbon and nitrogen stock
+   measurements in a wide range of tropical mature forests using nonlinear
+   inversion and regression trees
+SO ECOLOGICAL MODELLING
+CT 3rd Biennial Meeting of the
+   International-Environmental-Modelling-and-Software-Society
+CY AUG 09-13, 2006
+CL Burlington, VT
+C1 [Liu, SG; Anderson, P] USGS, EROS, Ctr Data, Sioux Falls, SD 57198 USA.
+   [Liu, SG] Dakota State Univ, GIS Ctr Excellence, Brookings, SD USA.
+   [Anderson, P] S Dakota State Univ, Dept Geog, Brookings, SD 57007 USA.
+   [Zhou, GY; Hughes, F] Chinese Acad Sci, S China Bot Garden, Guangzhou, Guangdong, Peoples R China.
+   [Kauffman, B] USDA Forest Serv, Inst Pacific Isl Forestry, Hilo, HI 96720 USA.
+   [Schimel, D] Natl Ctr Atmospher Res, Boulder, CO 80305 USA.
+   [Watson, V; Tosi, J] Trop Sci Ctr, San Jose, Costa Rica.
+RP Liu, SG (reprint author), USGS, EROS, Ctr Data, Sioux Falls, SD 57198 USA
+EM sliu@usgs.gov
+TC 1
+Z9 1
+SN 0304-3800
+PD DEC 10
+PY 2008
+VL 219
+IS 3-4
+SI SI
+BP 327
+EP 341
+DI 10.1016/j.ecolmodel.2008.07.025
+UT WOS:000261560500007
+ER
+
+PT J
+AU Escobar, F
+   Halffter, G
+   Solis, A
+   Halffter, V
+   Navarrete, D
+AF Escobar, Federico
+   Halffter, Gonzalo
+   Solis, Angel
+   Halffter, Violeta
+   Navarrete, Dario
+TI Temporal shifts in dung beetle community structure within a protected
+   area of tropical wet forest: a 35-year study and its implications for
+   long-term conservation
+RID C-1396-2011
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Solis, A] INBIO, Inst Nacl Biodiversidad, Santo Domingo De Heredia, Costa Rica.
+   [Navarrete, D] Colegio Frontera, Carretera Panamericana & Perifer, San Cristobal de las Casa 29290, Chiapas, Mexico.
+EM federico.escobarf@gmail.com
+TC 4
+Z9 5
+SN 0021-8901
+PD DEC
+PY 2008
+VL 45
+IS 6
+BP 1584
+EP 1592
+DI 10.1111/j.1365-2664.2008.01551.x
+UT WOS:000260257800004
+ER
+
+PT J
+AU Reid, JL
+   Harris, JBC
+   Martin, LJ
+   Barnett, JR
+   Zahawi, RA
+AF Reid, J. Leighton
+   Harris, J. Berton C.
+   Martin, Laura J.
+   Barnett, Jacob R.
+   Zahawi, Rakan A.
+TI Distribution and abundance of nearctic-neotropical songbird migrants in
+   a forest restoration site in southern Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Reid, JL] Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+   [Harris, JBC] Univ Adelaide, Res Ctr Climate Change & Sustainabil, Sch Earth & Environm Sci, Adelaide, SA 5005, Australia.
+   [Martin, LJ] Cornell Univ, Dept Nat Resources, Ithaca, NY 14853 USA.
+   [Zahawi, RA] Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+RP Reid, JL (reprint author), Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA,USA
+EM leighton7875@hotmail.com
+TC 1
+Z9 1
+SN 0266-4674
+PD NOV
+PY 2008
+VL 24
+PN Part 6
+BP 685
+EP 688
+DI 10.1017/S0266467408005415
+UT WOS:000261254400011
+ER
+
+PT J
+AU Tomillo, PS
+   Saba, VS
+   Piedra, R
+   Palkdino, FV
+   Spotila, JR
+AF Tomillo, Pilar Santidrian
+   Saba, Vincent S.
+   Piedra, Rotney
+   Palkdino, Frank V.
+   Spotila, James R.
+TI Effects of Illegal Harvest of Eggs on the Population Decline of
+   Leatherback Turtles in Las Baulas Marine National Park, Costa Rica
+SO CONSERVATION BIOLOGY
+C1 [Tomillo, PS; Spotila, JR] Drexel Univ, Dept Biosci & Biotechnol, Philadelphia, PA 19104 USA.
+   [Saba, VS] Virginia Inst Marine Sci, Coll William & Mary, Dept Fisheries Sci, Gloucester Point, VA 23062 USA.
+   [Piedra, R] Minist Ambiente & Energia, San Jose, Costa Rica.
+   [Palkdino, FV] Indiana Univ Purdue Univ, Dept Biol, Ft Wayne, IN 46805 USA.
+RP Tomillo, PS (reprint author), Drexel Univ, Dept Biosci & Biotechnol, Philadelphia, PA 19104 USA
+EM ms454@drexel.edu
+TC 5
+Z9 6
+SN 0888-8892
+PD OCT
+PY 2008
+VL 22
+IS 5
+BP 1216
+EP 1224
+DI 10.1111/j.1523-1739.2008.00987.x
+UT WOS:000260252000017
+ER
+
+PT J
+AU Schlawin, J
+   Zahawi, RA
+AF Schlawin, Justin
+   Zahawi, R. A.
+TI 'Nucleating' succession in recovering neotropical wet forests: The
+   legacy of remnant trees
+SO JOURNAL OF VEGETATION SCIENCE
+C1 [Zahawi, RA] Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+   [Schlawin, J] Bates Coll, Lewiston, ME 04240 USA.
+RP Zahawi, RA (reprint author), Org Trop Studies, Apdo 73-8257, San Vito De Coto Brus, Costa Rica
+EM jschlawin@hotmail.com
+   zahawi@ots.ac.cr
+TC 12
+Z9 12
+SN 1100-9233
+PD AUG
+PY 2008
+VL 19
+IS 4
+BP 485
+EP U7
+DI 10.3170/2008-8-18387
+UT WOS:000255199200006
+ER
+
+PT J
+AU Marin, AC
+   Wolf, JHD
+   Oostermeijer, JGB
+   Den Nijs, JCM
+AF Marin, Alfredo Cascante
+   Wolf, Jan H. D.
+   Oostermeijer, J. Gerard B.
+   Den Nijs, Joannes C. M.
+TI Establishment of epiphytic bromeliads in successional tropical
+   premontane forests in Costa Rica
+SO BIOTROPICA
+C1 [Marin, AC; Wolf, JHD; Oostermeijer, JGB; Den Nijs, JCM] Univ Amsterdam, IBED, NL-1098 SM Amsterdam, Netherlands.
+RP Marin, AC (reprint author), Museo Nacl Costa Rica, Detp Hist Nat, Apartado Postal 749-1000, San Jose, Costa Rica
+EM hnatural@museocostarica.go.cr
+TC 2
+Z9 3
+SN 0006-3606
+PD JUL
+PY 2008
+VL 40
+IS 4
+BP 441
+EP 448
+DI 10.1111/j.1744-7429.2008.00403.x
+UT WOS:000257717500007
+ER
+
+PT J
+AU Brosi, BJ
+   Daily, GC
+   Shih, TM
+   Oviedo, F
+   Duran, G
+AF Brosi, Berry J.
+   Daily, Gretchen C.
+   Shih, Tiffany M.
+   Oviedo, Federico
+   Duran, Guillermo
+TI The effects of forest fragmentation on bee communities in tropical
+   countryside
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Brosi, BJ; Daily, GC] Stanford Univ, Dept Biol Sci, Stanford, CA 94305 USA.
+   [Shih, TM] Univ Calif Berkeley, Energy & Resources Grp, Berkeley, CA 94720 USA.
+   [Oviedo, F; Duran, G] Org Trop Studies, Las Cruces Biol Stn, San Vito De Coto Brus 738257, Puntarenas, Costa Rica.
+RP Brosi, BJ (reprint author), Stanford Univ, Dept Biol Sci, 385 Serra Mall, Stanford, CA 94305 USA
+EM bbrosi@stanford.edu
+TC 25
+Z9 25
+SN 0021-8901
+PD JUN
+PY 2008
+VL 45
+IS 3
+BP 773
+EP 783
+DI 10.1111/j.1365-2664.2007.01412.x
+UT WOS:000255464600005
+ER
+
+PT J
+AU Livingston, GF
+   White, AM
+   Kratz, CJ
+AF Livingston, George F.
+   White, Adam M.
+   Kratz, Carley J.
+TI Indirect interactions between ant-tended hemipterans, a dominant ant
+   Azteca instabilis (Hymenoptera : Formicidae), and shade trees in a
+   tropical agroecosystem
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 [Livingston, GF; Kratz, CJ] Univ Michigan, Dept Ecol & Evolutionary Biol, Ann Arbor, MI 48109 USA.
+   [White, AM] CATIE, Turrialba, Costa Rica.
+RP Livingston, GF (reprint author), Univ Michigan, Dept Ecol & Evolutionary Biol, Ann Arbor, MI 48109 USA
+EM gliv@umich.edu
+TC 2
+Z9 3
+SN 0046-225X
+PD JUN
+PY 2008
+VL 37
+IS 3
+BP 734
+EP 740
+DI 10.1603/0046-225X(2008)37[734:IIBAHA]2.0.CO;2
+UT WOS:000258342500013
+ER
+
+PT J
+AU Zahawi, RA
+AF Zahawi, R. A.
+TI Instant trees: Using giant vegetative stakes in tropical forest
+   restoration
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Org Trop Studies, San Vito De Coto Brus, Costa Rica.
+RP Zahawi, RA (reprint author), Org Trop Studies, Apdo 73-8257, San Vito De Coto Brus, Costa Rica
+EM zahawi@ots.ac.cr
+TC 1
+Z9 1
+SN 0378-1127
+PD APR 20
+PY 2008
+VL 255
+IS 7
+BP 3013
+EP 3016
+DI 10.1016/j.foreco.2008.02.009
+UT WOS:000256143900097
+ER
+
+PT J
+AU Farji-Brener, AG
+   Carvajal, D
+   Gei, MG
+   Olano, J
+   Sanchez, JD
+AF Farji-Brener, Alejandro G.
+   Carvajal, Dorian
+   Gei, Maria Gabriela
+   Olano, Juanita
+   Sanchez, Juan David
+TI Direct and indirect effects of soil structure on the density of an
+   antlion larva in a tropical dry forest
+SO ECOLOGICAL ENTOMOLOGY
+C1 [Carvajal, D] Escuela Tecnol Nacl, San Jose, Costa Rica.
+   [Gei, MG] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   [Sanchez, JD] Univ Antioquia, Antioquia, Colombia.
+   [Farji-Brener, AG] CRUB UNC, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+RP Farji-Brener, AG (reprint author), CRUB UNC, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+EM alefarji@crub.uncoma.edu.ar
+TC 3
+Z9 3
+SN 0307-6946
+PD APR
+PY 2008
+VL 33
+IS 2
+BP 183
+EP 188
+DI 10.1111/j.1365-2311.2007.00948.x
+UT WOS:000253710000004
+ER
+
+PT J
+AU Schedlbauer, JL
+   Kavanagh, KL
+AF Schedlbauer, Jessica L.
+   Kavanagh, Kathleen L.
+TI Soil carbon dynamics in a chronosequence of secondary forests in
+   northeastern Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Schedlbauer, JL; Kavanagh, KL] Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA.
+   [Schedlbauer, JL] CATIE, Dept Recursos Nat & Ambiente, Turrialba, Costa Rica.
+RP Schedlbauer, JL (reprint author), Florida Int Univ, Dept Biol Sci, 11200 SW 8th St, Miami, FL 33199 USA
+EM jschedlb@fiu.edu
+TC 11
+Z9 11
+SN 0378-1127
+PD MAR 20
+PY 2008
+VL 255
+IS 3-4
+BP 1326
+EP 1335
+DI 10.1016/j.foreco.2007.10.039
+UT WOS:000254072700097
+ER
+
+PT J
+AU Wightman, KE
+   Ward, SE
+   Haggar, JP
+   Santiago, BR
+   Cornelius, JP
+AF Wightman, Kevyn E.
+   Ward, Sheila E.
+   Haggar, Jeremy P.
+   Rodriguez Santiago, Bartolo
+   Cornelius, Jonathan P.
+TI Performance and genetic variation of big-leaf mahogany (Swietenia
+   macrophylla King) in provenance and progeny trials in the Yucatan
+   Peninsula of Mexico
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Wightman, KE] World Agroforestry Ctr ICRAF, Chetumal, Mexico.
+   [Wightman, KE] Trop Agr Res & Higher Educ Ctr CATIE, Mexico City, DF, Mexico.
+   [Ward, SE] US Forest Serv, Int Inst Trop Forestry, USDA, San Juan, PR 00926 USA.
+   [Haggar, JP; Cornelius, JP] Trop Agr Res & Higher Educ Ctr CATIE, Turrialba, Costa Rica.
+   [Santiago, BR] INIFAP, Chetumal 77000, Mexico.
+RP Ward, SE (reprint author), Mahogany Future Inc, POB 21072, San Juan, PR 00928 USA
+EM seward@caribe.net
+TC 1
+Z9 1
+SN 0378-1127
+PD MAR 10
+PY 2008
+VL 255
+IS 2
+BP 346
+EP 355
+DI 10.1016/j.foreco.2007.09.056
+UT WOS:000253942200013
+ER
+
+PT J
+AU Ward, SE
+   Wightman, KE
+   Santiago, BR
+AF Ward, Sheila E.
+   Wightman, Kevyn E.
+   Rodriguez Santiago, Bartolo
+TI Early results from genetic trials on the growth of Spanish cedar and its
+   susceptibility to the shoot borer moth in the Yucatan Peninsula, Mexico
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Ward, SE] US Forest Serv, Int Inst Trop Forestry, USDA, San Juan, PR 00926 USA.
+   [Wightman, KE] World Agroforestry Ctr ICRAF, Chetumal, Mexico.
+   [Wightman, KE] Trop Agr & Higher Educ Ctr CATIE, Turrialba, Costa Rica.
+   [Santiago, BR] INIFAP, Chetumal 77000, Mexico.
+RP Ward, SE (reprint author), Mahogany Future Inc, POB 21072, San Juan, PR 00928 USA
+EM seward@caribe.net
+TC 2
+Z9 2
+SN 0378-1127
+PD MAR 10
+PY 2008
+VL 255
+IS 2
+BP 356
+EP 364
+DI 10.1016/j.foreco.2007.09.057
+UT WOS:000253942200014
+ER
+
+PT J
+AU Chaloupka, M
+   Bjorndal, KA
+   Balazs, GH
+   Bolten, AB
+   Ehrhart, LM
+   Limpus, CJ
+   Suganuma, H
+   Troeeng, S
+   Yamaguchi, M
+AF Chaloupka, Milani
+   Bjorndal, Karen A.
+   Balazs, George H.
+   Bolten, Alan B.
+   Ehrhart, Llewellyn M.
+   Limpus, Colin J.
+   Suganuma, Hiroyuki
+   Troeeng, Sebastian
+   Yamaguchi, Manami
+TI Encouraging outlook for recovery of a once severely exploited marine
+   megaherbivore
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+C1 [Chaloupka, M] Univ Queensland, Ecol Modelling Serv Pty Ltd, St Lucia, Qld 4067, Australia.
+   [Bjorndal, KA; Bolten, AB] Univ Florida, Ctr Sea Turtle Res, Dept Zool, Gainesville, FL 32611 USA.
+   [Balazs, GH] Pacific Isl Fisheries Sci Ctr, Natl Marine Fisheries Serv, Honolulu, HI 96822 USA.
+   [Ehrhart, LM] Univ Cent Florida, Dept Biol, Orlando, FL 32816 USA.
+   [Ehrhart, LM] Hubbs Sea World Res Inst, Melbourne, FL 32951 USA.
+   [Limpus, CJ] Environm Protect Agcy, Queensland Pk & Wildlife Serv, City E, Qld 4002, Australia.
+   [Suganuma, H] Everlasting Nat Asia, Kanagawa Ku, Yokohama, Kanagawa 2210822, Japan.
+   [Troeeng, S] Carribbean Conservat Corp, San Pedro, Costa Rica.
+   [Troeeng, S] Lund Univ, Dept Anim Ecol, S-22362 Lund, Sweden.
+   [Yamaguchi, M] Ogasawara Marine Ctr, Ogasawara, Tokyo 1002101, Japan.
+RP Chaloupka, M (reprint author), Univ Queensland, Ecol Modelling Serv Pty Ltd, PO Box 6150, St Lucia, Qld 4067, Australia
+EM m.chaloupka@uq.edu.au
+TC 23
+Z9 28
+SN 1466-822X
+PD MAR
+PY 2008
+VL 17
+IS 2
+BP 297
+EP 304
+DI 10.1111/j.1466-8238.2007.00367.x
+UT WOS:000252966000015
+ER
+
+PT J
+AU Gomes, LGL
+   Oostra, V
+   Nijman, V
+   Cleef, AM
+   Kappelle, M
+AF Gomes, Laurens G. L.
+   Oostra, Vicencio
+   Nijman, Vincent
+   Cleef, Antoine M.
+   Kappelle, Maarten
+TI Tolerance of frugivorous birds to habitat disturbance in a tropical
+   cloud forest
+SO BIOLOGICAL CONSERVATION
+C1 [Kappelle, M] Mesoamer & Caribbean Sci Program, Nat Conservancy, San Jose, Costa Rica.
+   [Gomes, LGL; Oostra, V; Cleef, AM] Univ Amsterdam, IBED, NL-1098 SM Amsterdam, Netherlands.
+   [Nijman, V] Oxford Brookes Univ, Sch Social Sci & Law, Dept Geog & Anthropol, Oxford OX3 0BP, England.
+   [Kappelle, M] Univ Tennessee, Dept Geog, Knoxville, TN 37996 USA.
+RP Kappelle, M (reprint author), Mesoamer & Caribbean Sci Program, Nat Conservancy, Apartado 230-1225,Plaza Mayor, San Jose, Costa Rica
+EM lgomes@science.uva.nl
+   v.oostra@biology.leidenuniv.nl
+   vnijman@brookes.ac.uk
+   cleef@science.uva.nl
+   mkappelle@tnc.org
+TC 6
+Z9 6
+SN 0006-3207
+PD MAR
+PY 2008
+VL 141
+IS 3
+BP 860
+EP 871
+DI 10.1016/j.biocon.2008.01.007
+UT WOS:000254729500026
+ER
+
+PT J
+AU O'Brien, JJ
+   Oberbauer, SF
+   Clark, DB
+   Clark, DA
+AF O'Brien, Joseph J.
+   Oberbauer, Steven F.
+   Clark, David B.
+   Clark, Deborah A.
+TI Phenology and stem diameter increment seasonality in a Costa Rican wet
+   tropical forest
+SO BIOTROPICA
+C1 [O'Brien, JJ; Oberbauer, SF] Florida Int Univ, Dept Biol Sci, Miami, FL 33199 USA.
+   [Oberbauer, SF] Fairchild Trop Bot Garden, Miami, FL 33156 USA.
+   [Clark, DB; Clark, DA] La Selva Biol Stn, Puerto Viejo de Sarapiqui, Costa Rica.
+   [Clark, DA] Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+RP O'Brien, JJ (reprint author), US Forest Serv, USDA, So Res Stn, 320 Green St, Athens, GA 30601 USA,USA
+EM jjobrien@fs.fed.us
+TC 2
+Z9 2
+SN 0006-3606
+PD MAR
+PY 2008
+VL 40
+IS 2
+BP 151
+EP 159
+DI 10.1111/j.1744-7429.2007.00354.x
+UT WOS:000254195100003
+ER
+
+PT J
+AU Esquivel, MJ
+   Harvey, CA
+   Finegan, B
+   Casanoves, F
+   Skarpe, C
+AF Esquivel, M. Jimena
+   Harvey, Celia A.
+   Finegan, Bryan
+   Casanoves, Fernando
+   Skarpe, Christina
+TI Effects of pasture management on the natural regeneration of neotropical
+   trees
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Esquivel, MJ; Harvey, CA] Trop Agr Res & Higher Educ Ctr CATIE, Dept Agr & Agroforestry, Turriabla, Costa Rica.
+   [Finegan, B] Trop Agr Res & Higher Educ Ctr CATIE, Forests Protected Areas & Biodivers Themat Grp, Turriabla, Costa Rica.
+   [Casanoves, F] Trop Agr Res & Higher Educ Ctr CATIE, Biometr Unit, Turriabla, Costa Rica.
+   [Esquivel, MJ] Ctr Res Sustainable Agr Product & higher Educ Ctr, Cali 20591, Colombia.
+   [Skarpe, C] Norwegian Inst Nat Res NINA, NO-7485 Trondheim, Norway.
+RP Esquivel, MJ (reprint author), Trop Agr Res & Higher Educ Ctr CATIE, Dept Agr & Agroforestry, Apdo 7170, Turriabla, Costa Rica
+EM jesquive@catie.ac.cr
+TC 8
+Z9 8
+SN 0021-8901
+PD FEB
+PY 2008
+VL 45
+IS 1
+BP 371
+EP 380
+DI 10.1111/j.1365-2664.2007.01411.x
+UT WOS:000252558400040
+ER
+
+PT J
+AU Meyer, CFJ
+   Frund, J
+   Lizano, WP
+   Kalko, EKV
+AF Meyer, Christoph F. J.
+   Fruend, Jochen
+   Lizano, Willy Pineda
+   Kalko, Elisabeth K. V.
+TI Ecological correlates of vulnerability to fragmentation in Neotropical
+   bats
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Meyer, CFJ; Kalko, EKV] Univ Ulm, Dept Expt Ecol, D-89069 Ulm, Germany.
+   [Frund, J] Univ Wurzburg, Dept Anim Ecol & Trop Biol, D-97074 Wurzburg, Germany.
+   [Lizano, WP] Univ Costa Rica, Escuela Biol, San Jose 126711000, Costa Rica.
+   [Kalko, EKV] Smithsonian Trop Res Inst, Unit 0948, Miami, FL 34002 USA.
+RP Meyer, CFJ (reprint author), Univ Ulm, Dept Expt Ecol, Albert Einstein Allee 11, D-89069 Ulm, Germany
+EM christoph.meyer@uni-ulm.de
+TC 20
+Z9 21
+SN 0021-8901
+PD FEB
+PY 2008
+VL 45
+IS 1
+BP 381
+EP 391
+DI 10.1111/j.1365-2664.2007.01389.x
+UT WOS:000252558400041
+ER
+
+PT J
+AU Vargas, S
+   Guzman, HM
+   Breedy, O
+AF Vargas, Sergio
+   Guzman, Hector M.
+   Breedy, Odalisca
+TI Distribution patterns of the genus Pacifigorgia (Octocorallia :
+   Gorgoniidae): track compatibility analysis and parsimony analysis of
+   endemicity
+RID A-5678-2011
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Vargas, S; Breedy, O] Univ Costa Rica, Escuela Biol, Museo Zool, San Jose, Costa Rica.
+   [Guzman, HM; Breedy, O] Smithsonian Trop Res Inst, Balboa, Panama.
+RP Vargas, S (reprint author), Apdo 26, San Jose 1100, Costa Rica
+EM sergio.vargasr@ecci.ucr.ac.cr
+TC 4
+Z9 5
+SN 0305-0270
+PD FEB
+PY 2008
+VL 35
+IS 2
+BP 241
+EP 247
+DI 10.1111/j.1365-2699.2007.01810.x
+UT WOS:000252396600006
+ER
+
+PT J
+AU Harvey, CA
+   Komar, O
+   Chazdon, R
+   Ferguson, BG
+   Finegan, B
+   Griffith, DM
+   Martinez-Ramos, M
+   Morales, H
+   Nigh, R
+   Soto-Pinto, L
+   Van Breugel, M
+   Wishnie, M
+AF Harvey, Celia A.
+   Komar, Oliver
+   Chazdon, Robin
+   Ferguson, Bruce G.
+   Finegan, Bryan
+   Griffith, Daniel M.
+   Martinez-Ramos, Miguel
+   Morales, Helda
+   Nigh, Ronald
+   Soto-Pinto, Lorena
+   Van Breugel, Michiel
+   Wishnie, Mark
+TI Integrating agricultural landscapes with biodiversity conservation in
+   the Mesoamerican hotspot
+RID F-6201-2010
+RID F-6200-2010
+SO CONSERVATION BIOLOGY
+C1 [Harvey, CA] CATIE, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+   [Komar, O] SalvaNATURA, Program Ciencias Conservac, San Salvador, El Salvador.
+   [Chazdon, R] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06268 USA.
+   [Ferguson, BG] El Colegio Frontera Sur, Dept Agroecol, Chiapas, Mexico.
+   [Finegan, B] CATIE, Dept Nat Resources & Environm, Turrialba, Costa Rica.
+   [Griffith, DM] Biodivers BOSAWAS Biosphere Reserve, Managua, Nicaragua.
+   [Martinez-Ramos, M] Univ Nacl Autonoma Mexico, Ctr Invest & Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   [Nigh, R] Ctr Invest, Chiapas, Mexico.
+   [Nigh, R] Estudios Super & Antropol Social, Chiapas, Mexico.
+   [Van Breugel, M] Univ Wageningen & Res Ctr, Ctr Ecosyst Studies, NL-6700 AA Wageningen, Netherlands.
+   [Wishnie, M] Equator Environm LLC, New York, NY 10003 USA.
+RP Harvey, CA (reprint author), Conservat Int, Protected Areas & Conservat Corridors, 2011 Crystal Dr,Suite 500, Arlington, VA 22202 USA
+EM c.harvey@conservation.org
+TC 46
+Z9 48
+SN 0888-8892
+PD FEB
+PY 2008
+VL 22
+IS 1
+BP 8
+EP 15
+DI 10.1111/j.1523-1739.2007.00863.x
+UT WOS:000252895700003
+ER
+
+PT J
+AU Pejchar, L
+   Pringle, RM
+   Ranganathan, J
+   Zook, JR
+   Duran, G
+   Oviedo, F
+   Daily, GC
+AF Pejchar, Liba
+   Pringle, Robert M.
+   Ranganathan, Jai
+   Zook, James R.
+   Duran, Guillermo
+   Oviedo, Federico
+   Daily, Gretchen C.
+TI Birds as agents of seed dispersal in a human-dominated landscape in
+   southern Costa Rica
+SO BIOLOGICAL CONSERVATION
+C1 [Pejchar, L; Pringle, RM; Ranganathan, J; Daily, GC] Stanford Univ, Dept Biol Sci, Stanford, CA 94305 USA.
+   [Duran, G; Oviedo, F] Las Cruces Biol Stn, San Vito, Coto Brus, Costa Rica.
+RP Pejchar, L (reprint author), Stanford Univ, Dept Biol Sci, Stanford, CA 94305 USA
+EM liba@stanford.edu
+   pringle@stanford.edu
+   ranganathan@nceas.ucsb.edu
+   jrzook@racsa.co.cr
+   gduran@ots.ac.cr
+   copaifera2003@yahoo.com
+   gdaily@stanford.edu
+TC 5
+Z9 5
+SN 0006-3207
+PD FEB
+PY 2008
+VL 141
+IS 2
+BP 536
+EP 544
+DI 10.1016/j.biocon.2007.11.008
+UT WOS:000254599900021
+ER
+
+PT J
+AU Clark, DB
+   Olivas, PC
+   Oberbauer, SF
+   Clark, DA
+   Ryan, MG
+AF Clark, David B.
+   Olivas, Paulo C.
+   Oberbauer, Steven F.
+   Clark, Deborah A.
+   Ryan, Michael G.
+TI First direct landscape-scale measurement of tropical rain forest Leaf
+   Area Index, a key driver of global primary productivity
+RID A-9805-2008
+SO ECOLOGY LETTERS
+C1 [Clark, DB; Clark, DA] Univ Missouri, St Louis, MO 63121 USA.
+   [Clark, DB; Clark, DA] La Selva Biol Stn, Puerto Viejo de Sarapiqui, Costa Rica.
+   [Olivas, PC; Oberbauer, SF] Florida Int Univ, Dept Biol Sci, Miami, FL 33199 USA.
+   [Olivas, PC; Oberbauer, SF] Fairchild Trop Bot Garden, Miami, FL 33156 USA.
+   [Ryan, MG] US Forest Serv, USDA, Rocky Mt Res Stn, Ft Collins, CO USA.
+   [Ryan, MG] Colorado State Univ, Affiliate Fac, Dept Forest Rangeland & Watershed Stewardship, Ft Collins, CO 80523 USA.
+   [Ryan, MG] Colorado State Univ, Grad Degree Program Ecol, Ft Collins, CO 80523 USA.
+RP Clark, DB (reprint author), Univ Missouri, St Louis, MO 63121 USA
+EM dbclark@sloth.ots.ac.cr
+TC 31
+Z9 31
+SN 1461-023X
+PD FEB
+PY 2008
+VL 11
+IS 2
+BP 163
+EP 172
+DI 10.1111/j.1461-0248.2007.01134.x
+UT WOS:000252206800007
+ER
+
+PT J
+AU Brenes-Arguedas, T
+   Coley, PD
+   Kursar, TA
+AF Brenes-Arguedas, Tania
+   Coley, Phyllis D.
+   Kursar, Thomas A.
+TI Divergence and diversity in the defensive ecology of Inga at two
+   Neotropical sites
+SO JOURNAL OF ECOLOGY
+C1 [Brenes-Arguedas, T; Coley, PD; Kursar, TA] Univ Utah, Smithsonian Trop Res Inst, Salt Lake City, UT USA.
+   [Coley, PD; Kursar, TA] Univ Utah, Dept Biol, Salt Lake City, UT 84112 USA.
+RP Brenes-Arguedas, T (reprint author), Apdo 453-2010 Zapote, San Jose, Costa Rica
+EM taniabrenes@gmail.com
+TC 3
+Z9 3
+SN 0022-0477
+PD JAN
+PY 2008
+VL 96
+IS 1
+BP 127
+EP 135
+DI 10.1111/j.1365-2745.2007.01327.x
+UT WOS:000252846500014
+ER
+
+PT J
+AU Schedlbauer, JL
+   Kavanagh, KL
+AF Schedlbauer, Jessica L.
+   Kavanagh, Kathleen L.
+TI delta(13)C in Pentaclethra macroloba trees growing at forest edges in
+   north-eastern Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Schedlbauer, JL; Kavanagh, KL] Univ Idaho, Dept Forest Resources, Moscow, ID 83843 USA.
+   [Schedlbauer, JL] CATIE, Dept Recursos Nat & Ambiente, Turrialba, Costa Rica.
+RP Kavanagh, KL (reprint author), Florida Int Univ, Dept Biol Sci, 112200 SW 8th St, Miami, FL 33199 USA
+EM jschedlb@fiu.edu
+TC 2
+Z9 2
+SN 0266-4674
+PD JAN
+PY 2008
+VL 24
+PN Part 1
+BP 49
+EP 56
+DI 10.1017/S0266467407004671
+UT WOS:000252822200006
+ER
+
+PT J
+AU Herrerias-Diego, Y
+   Quesada, M
+   Stoner, KE
+   Lobo, JA
+   Hernandez-Flores, Y
+   Montoya, GS
+AF Herrerias-Diego, Yuonne
+   Quesada, Mauricio
+   Stoner, Kathryn E.
+   Lobo, Jorge A.
+   Hernandez-Flores, Yared
+   Montoya, Gumersindo Sanchez
+TI Effect of forest fragmentation on fruit and seed predation of the
+   tropical dry forest tree Ceiba aesculifolia
+SO BIOLOGICAL CONSERVATION
+C1 [Herrerias-Diego, Y; Quesada, M; Stoner, KE; Lobo, JA; Montoya, GS] Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia, Michoacan, Mexico.
+   [Lobo, JA] Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Campus Morelia, Morelia, Michoacan, Mexico
+EM mquesada@oikos.unam.mx
+TC 4
+Z9 4
+SN 0006-3207
+PD JAN
+PY 2008
+VL 141
+IS 1
+BP 241
+EP 248
+DI 10.1016/j.biocon.2007.09.017
+UT WOS:000252206900025
+ER
+
+PT J
+AU Fernandez, M
+   Lobo, J
+   Chacon, E
+   Quesada, M
+AF Fernandez, Mauricio
+   Lobo, Jorge
+   Chacon, Eduardo
+   Quesada, Mauricio
+TI Curculionid beetles in aborted flower buds and immature fruits of Ceiba
+   pentandra (Bombacaceae)
+SO PLANT ECOLOGY
+C1 Univ Costa Rica, Escuela Biol, San Jose 2000, Costa Rica.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosist, Morelia, Michoacan, Mexico.
+RP Lobo, J (reprint author), Univ Costa Rica, Escuela Biol, Pedro Montes Oca, San Jose 2000, Costa Rica
+EM jlobo@biologia.ucr.ac.cr
+TC 2
+Z9 2
+SN 1385-0237
+PD JAN
+PY 2008
+VL 194
+IS 1
+BP 1
+EP 4
+DI 10.1007/s11258-007-9272-2
+UT WOS:000251147200001
+ER
+
+PT J
+AU Martinez-Alonso, C
+   Valladares, F
+   Camarero, JJ
+   Arias, ML
+   Serrano, M
+   Rodriguez, JA
+AF Martinez-Alonso, Celia
+   Valladares, Fernando
+   Camarero, J. Julio
+   Arias, Manuel Lopez
+   Serrano, Milagros
+   Rodriguez, Jose Antonio
+TI The uncoupling of secondary growth, cone and litter production by
+   intradecadal climatic variability in a mediterranean scots pine forest
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Martinez-Alonso, C] Grp Cambia Global, CATIE, Turrialba 7170, Costa Rica.
+   [Martinez-Alonso, C; Arias, ML; Serrano, M; Rodriguez, JA] CIFOR INIA, Madrid 28040, Spain.
+   [Valladares, F] CSIC, Inst Recursos Nat, CCMA, E-28006 Madrid, Spain.
+   [Camarero, JJ] Ctr Invest & Technol Agroalimentaria, Unidad Recursos Forestales, Zaragoza 50059, Spain.
+RP Martinez-Alonso, C (reprint author), Grp Cambia Global, CATIE, Turrialba 7170, Costa Rica
+EM cmalonso@mia.es
+TC 6
+Z9 7
+SN 0378-1127
+PD DEC 15
+PY 2007
+VL 253
+IS 1-3
+BP 19
+EP 29
+DI 10.1016/j.foreco.2007.06.043
+UT WOS:000251760300003
+ER
+
+PT J
+AU Hanson, T
+   Brunsfeld, S
+   Finegan, B
+   Waits, L
+AF Hanson, Thor
+   Brunsfeld, Steven
+   Finegan, Bryan
+   Waits, Lisette
+TI Conventional and genetic measures of seed dispersal for Dipteryx
+   panamensis (Fabaceae) in continuous and fragmented Costa Rican rain
+   forest
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA.
+   Ctr Agronom Trop Invest Ensenanza, Dept Recursos Nat Ambiente, Turrialba 7170, Costa Rica.
+RP Hanson, T (reprint author), Univ Idaho, Dept Forest Resources, PO Box 441133, Moscow, ID 83844 USA
+EM Thor@rockisland.com
+TC 6
+Z9 6
+SN 0266-4674
+PD NOV
+PY 2007
+VL 23
+PN Part 6
+BP 635
+EP 642
+DI 10.1017/S0266467407004488
+UT WOS:000251342000003
+ER
+
+PT J
+AU Schedlbauer, JL
+   Finegan, B
+   Kavanagh, KL
+AF Schedlbauer, Jessica L.
+   Finegan, Bryan
+   Kavanagh, Kathleen L.
+TI Rain forest structure at forest-pasture edges in Northeastern Costa Rica
+SO BIOTROPICA
+C1 Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA.
+   CATIE, Dept Recursos Nat & Ambiente, Sede Central 7170, Turrialba, Costa Rica.
+RP Schedlbauer, JL (reprint author), Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA
+EM sche4619@uidaho.edu
+TC 6
+Z9 6
+SN 0006-3606
+PD SEP
+PY 2007
+VL 39
+IS 5
+BP 578
+EP 584
+DI 10.1111/j.1744-7429.2007.00312.x
+UT WOS:000248968200004
+ER
+
+PT J
+AU Zamora, CO
+   Montagnini, F
+AF Zamora, Carolina O.
+   Montagnini, Florencia
+TI Seed rain and seed dispersal agents in pure and mixed plantations of
+   native trees and abandoned pastures at La Selva Biological Station,
+   Costa Rica
+SO RESTORATION ECOLOGY
+C1 Univ Nacl Costa Rica, Heredia, Costa Rica.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+RP Montagnini, F (reprint author), Univ Nacl Costa Rica, Heredia, Costa Rica
+EM florencia.montagnini@yale.edu
+TC 14
+Z9 15
+SN 1061-2971
+PD SEP
+PY 2007
+VL 15
+IS 3
+BP 453
+EP 461
+DI 10.1111/j.1526-100X.2007.00241.x
+UT WOS:000248619000012
+ER
+
+PT J
+AU Arias, D
+   Calvo-Alvarado, J
+   Dohrenbusch, A
+AF Arias, D.
+   Calvo-Alvarado, J.
+   Dohrenbusch, A.
+TI Calibration of LAI-2000 to estimate leaf area index (LAI) and assessment
+   of its relationship with stand productivity in six native and introduced
+   tree species in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Tecnol Costa Rica, Escuela Ingn Forestal, Programa Conservac & Manejo Recursos Nat, Cartago, Costa Rica.
+   Univ Gottingen, Fac Forest Sci & Forest Ecol, Inst Silviculture, D-3400 Gottingen, Germany.
+RP Calvo-Alvarado, J (reprint author), Inst Tecnol Costa Rica, Escuela Ingn Forestal, Programa Conservac & Manejo Recursos Nat, Apdo 159-7050, Cartago, Costa Rica
+EM jucalvo@itcr.ac.cr
+TC 7
+Z9 9
+SN 0378-1127
+PD AUG 15
+PY 2007
+VL 247
+IS 1-3
+BP 185
+EP 193
+DI 10.1016/j.foreco.2007.04.039
+UT WOS:000248787400019
+ER
+
+PT J
+AU Cuevas-Reyes, P
+   Quesada, M
+   Hanson, P
+   Oyama, K
+AF Cuevas-Reyes, Pablo
+   Quesada, Mauricio
+   Hanson, Paul
+   Oyama, Ken
+TI Interactions among three trophic levels and diversity of parasitoids: A
+   case of top-down processes in Mexican tropical dry forest
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Mexico City 04510, DF, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+EM pcuevas@oikos.unam.mx
+TC 0
+Z9 0
+SN 0046-225X
+PD AUG
+PY 2007
+VL 36
+IS 4
+BP 792
+EP 800
+DI 10.1603/0046-225X(2007)36[792:IATTLA]2.0.CO;2
+UT WOS:000248534900016
+ER
+
+PT J
+AU Schroth, G
+   Harvey, CA
+AF Schroth, Goetz
+   Harvey, Celia A.
+TI Biodiversity conservation in cocoa production landscapes: an overview
+SO BIODIVERSITY AND CONSERVATION
+C1 Ctr Agron Trop & Invest & Ensenanza, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+RP Schroth, G (reprint author), Conservat Int, 2011 Crystal Dr Suite 500, Arlington, VA 22202 USA
+EM g.schroth@conservation.org
+   c.harvey@conservation.org
+TC 30
+Z9 31
+SN 0960-3115
+PD JUL
+PY 2007
+VL 16
+IS 8
+BP 2237
+EP 2244
+DI 10.1007/s10531-007-9195-1
+UT WOS:000247932200001
+ER
+
+PT J
+AU Harvey, CA
+   Villalobos, JAG
+AF Harvey, Celia A.
+   Gonzalez Villalobos, Jorge A.
+TI Agroforestry systems conserve species-rich but modified assemblages of
+   tropical birds and bats
+SO BIODIVERSITY AND CONSERVATION
+C1 Conservat Int, Arlington, VA 22202 USA.
+   Univ Nacl Costa Rica, Inst Int Conservac & Manejo de Vida Silvestre, Heredia, Costa Rica.
+RP Harvey, CA (reprint author), Conservat Int, 2011 Crystal Dr,Suite 500, Arlington, VA 22202 USA
+EM c.harvey@conservation.org
+TC 30
+Z9 30
+SN 0960-3115
+PD JUL
+PY 2007
+VL 16
+IS 8
+BP 2257
+EP 2292
+DI 10.1007/s10531-007-9194-2
+UT WOS:000247932200003
+ER
+
+PT J
+AU Vaughan, C
+   Ramirez, O
+   Herrera, G
+   Guries, R
+AF Vaughan, Christopher
+   Ramirez, Oscar
+   Herrera, Geovanny
+   Guries, Raymond
+TI Spatial ecology and conservation of two sloth species in a cacao
+   landscape in limon, Costa Rica
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Wisconsin, Dept Wildlife Ecol, Madison, WI 53706 USA.
+   Univ Nacl, Int Inst Wildlife Conservat & Management, Heredia, Costa Rica.
+   Milwaukee Publ Museum, Milwaukee, WI 53233 USA.
+   Univ Nacl, Sch Biol Sci, Heredia, Costa Rica.
+   Univ Wisconsin, Dept Forest Ecol & Management, Madison, WI 53706 USA.
+RP Vaughan, C (reprint author), Univ Wisconsin, Dept Wildlife Ecol, Madison, WI 53706 USA
+EM cvaughan@wisc.edu
+TC 8
+Z9 10
+SN 0960-3115
+PD JUL
+PY 2007
+VL 16
+IS 8
+BP 2293
+EP 2310
+DI 10.1007/s10531-007-9191-5
+UT WOS:000247932200004
+ER
+
+PT J
+AU Dahlquist, RM
+   Whelan, MP
+   Winowiecki, L
+   Polidoro, B
+   Candela, S
+   Harvey, CA
+   Wulfhorst, JD
+   McDaniel, PA
+   Bosque-Perez, NA
+AF Dahlquist, R. M.
+   Whelan, M. P.
+   Winowiecki, L.
+   Polidoro, B.
+   Candela, S.
+   Harvey, C. A.
+   Wulfhorst, J. D.
+   McDaniel, P. A.
+   Bosque-Perez, N. A.
+TI Incorporating livelihoods in biodiversity conservation: a case study of
+   cacao agroforestry systems in Talamanca, Costa Rica
+SO BIODIVERSITY AND CONSERVATION
+C1 CATIE, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+   CATIE, Dept Nat Resources & Environm, Turrialba, Costa Rica.
+   Univ Idaho, Dept Plant Soil & Entomol Sci, Moscow, ID 83844 USA.
+   Univ Idaho, Dept Agr Econ & Rural Sociol, Moscow, ID 83844 USA.
+RP Dahlquist, RM (reprint author), CATIE, Dept Agr & Agroforestry, Apdo 7170, Turrialba, Costa Rica
+EM rdahlquist@vandals.uidaho.edu
+TC 4
+Z9 4
+SN 0960-3115
+PD JUL
+PY 2007
+VL 16
+IS 8
+BP 2311
+EP 2333
+DI 10.1007/s10531-007-9192-4
+UT WOS:000247932200005
+ER
+
+PT J
+AU Lobo, J
+   Barrantes, G
+   Castillo, M
+   Quesada, R
+   Maldonado, T
+   Fuchs, EJ
+   Solis, S
+   Quesada, M
+AF Lobo, Jorge
+   Barrantes, Gilbert
+   Castillo, Marvin
+   Quesada, Ruperto
+   Maldonado, Tirso
+   Fuchs, Eric J.
+   Solis, Silvia
+   Quesada, Mauricio
+TI Effects of selective logging on the abundance, regeneration and
+   short-term survival of Caryocar costaricense (Caryocaceae) and Peltogyne
+   purpurea (Caesalpinaceae), two endemic timber species of southern
+   Central America
+RID A-9963-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Costa Rica, Escuela Biol, San pedro, Costa Rica.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosist, Morelia 58089, Michoacan, Mexico.
+RP Lobo, J (reprint author), Univ Costa Rica, Escuela Biol, San pedro, Costa Rica
+EM jorgelobosegura@gmail.com
+TC 7
+Z9 9
+SN 0378-1127
+PD JUN 30
+PY 2007
+VL 245
+IS 1-3
+BP 88
+EP 95
+DI 10.1016/j.foreco.2007.03.067
+UT WOS:000247276100009
+ER
+
+PT J
+AU Stoner, KE
+   Riba-Hernandez, P
+   Vulinec, K
+   Lambert, JE
+AF Stoner, Kathryn E.
+   Riba-Hernandez, Pablo
+   Vulinec, Kevina
+   Lambert, Joanna E.
+TI The role of mammals in creating and modifying seedshadows in tropical
+   forests and some possible consequences of their elimination
+SO BIOTROPICA
+CT Annual Meeting of the Association-for-Tropical-Biology-and-Conservation
+CY 2005
+CL Uberlandia, BRAZIL
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosist, Morelia 48980, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Delaware State Univ, Dept Agr & Nat Resources, Dover, DE 19901 USA.
+   Univ Wisconsin, Dept Anthropol, Madison, WI 53706 USA.
+   Univ Wisconsin, Dept Zool, Madison, WI 53706 USA.
+RP Stoner, KE (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosist, Morelia 48980, Michoacan, Mexico
+EM kstoner@oikos.unam.mx
+TC 27
+Z9 29
+SN 0006-3606
+PD MAY
+PY 2007
+VL 39
+IS 3
+BP 316
+EP 327
+DI 10.1111/j.1744-7429.2007.00292.x
+UT WOS:000245939300004
+ER
+
+PT J
+AU Avalos, G
+   Mulkey, SS
+   Kitajima, K
+   Wright, SJ
+AF Avalos, Gerardo
+   Mulkey, Stephen S.
+   Kitajima, Kaoru
+   Wright, S. Joseph
+TI Colonization strategies of two liana species in a tropical dry forest
+   canopy
+SO BIOTROPICA
+C1 Sch Field Studies, Ctr Sustainable Dev Studies, Salem, MA 01970 USA.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   Univ Florida, Dept Bot, Gainesville, FL 32611 USA.
+   Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+RP Avalos, G (reprint author), Sch Field Studies, Ctr Sustainable Dev Studies, 10 Fed St, Salem, MA 01970 USA
+EM avalos@fieldstudies.org
+TC 5
+Z9 6
+SN 0006-3606
+PD MAY
+PY 2007
+VL 39
+IS 3
+BP 393
+EP 399
+DI 10.1111/j.1744-7429.2007.00265.x
+UT WOS:000245939300012
+ER
+
+PT J
+AU Calvo-Alvarado, JC
+   Arias, D
+   Richter, DD
+AF Calvo-Alvarado, J. C.
+   Arias, D.
+   Richter, D. D.
+TI Early growth performance of native and introduced fast growing tree
+   species in wet to sub-humid climates of the Southern region of Costa
+   Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Tecnol Costa Rica, Escuela Ing Forestal, Programa Conservac Manejo Recursos Nat, Cartago, Costa Rica.
+   Duke Univ, Nicholas Sch Environm & Earth Sci, Durham, NC USA.
+RP Calvo-Alvarado, JC (reprint author), Inst Tecnol Costa Rica, Escuela Ing Forestal, Programa Conservac Manejo Recursos Nat, Apdo 159-7050, Cartago, Costa Rica
+EM jucalvo@itcr.ac.cr
+TC 14
+Z9 15
+SN 0378-1127
+PD APR 30
+PY 2007
+VL 242
+IS 2-3
+BP 227
+EP 235
+DI 10.1016/j.foreco.2007.01.034
+UT WOS:000246268100015
+ER
+
+PT J
+AU Jimenez, JJ
+   Lal, R
+   Leblanc, HA
+   Russo, RO
+AF Jimenez, J. J.
+   Lal, R.
+   Leblanc, H. A.
+   Russo, R. O.
+TI Soil organic carbon pool under native tree plantations in the Caribbean
+   lowlands of Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Ohio State Univ, Sch Environm & Nat Resources, Carbon Management & Sequestrat Ctr, Columbus, OH 43210 USA.
+   EARTH Univ, Limon, Costa Rica.
+RP Jimenez, JJ (reprint author), Ohio State Univ, Sch Environm & Nat Resources, Carbon Management & Sequestrat Ctr, 2021 Coffey Rd, Columbus, OH 43210 USA
+EM juanjo_jimenezj@yahoo.com
+TC 7
+Z9 9
+SN 0378-1127
+PD MAR 30
+PY 2007
+VL 241
+IS 1-3
+BP 134
+EP 144
+DI 10.1016/j.foreco.2007.01.022
+UT WOS:000245479700013
+ER
+
+PT J
+AU Yanoviak, SP
+   Nadkarni, NM
+   Solano, R
+AF Yanoviak, Stephen P.
+   Nadkarni, Nalini M.
+   Solano-J, Rodrigo
+TI Arthropod assemblages in epiphyte mats of Costa Rican cloud forests
+SO BIOTROPICA
+C1 Evergreen State Coll, Olympia, WA 98505 USA.
+   Monteverde Cloud Forest, Puntarenas, Costa Rica.
+RP Nadkarni, NM (reprint author), Evergreen State Coll, Olympia, WA 98505 USA
+EM NadkarnN@evergreen.edu
+TC 2
+Z9 2
+SN 0006-3606
+PD MAR
+PY 2007
+VL 39
+IS 2
+BP 202
+EP 210
+DI 10.1111/j.1744-7429.2006.00261.x
+UT WOS:000244098300007
+ER
+
+PT J
+AU Farji-Brener, AG
+   Barrantes, G
+   Laverde, O
+   Fierro-Calderon, K
+   Bascope, F
+   Lopez, A
+AF Farji-Brener, Alejandro G.
+   Barrantes, G.
+   Laverde, O.
+   Fierro-Calderon, K.
+   Bascope, F.
+   Lopez, Adriana
+TI Fallen branches as part of leaf-cutting ant trails: Their role in
+   resource discovery and leaf transport rates in Atta cephalotes
+SO BIOTROPICA
+C1 UNC, CRUB, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   Univ Nacl, Bogota, Colombia.
+   Univ Valle, Cali, Colombia.
+   Herbario Nacl Bolivia, La Paz, Bolivia.
+   Univ Nacl Autonoma Mexico, Lab Interacciones Planta Anim, Mexico City, DF, Mexico.
+RP Farji-Brener, AG (reprint author), UNC, CRUB, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+EM alefarji@crub.uncoma.edu.ar
+TC 6
+Z9 6
+SN 0006-3606
+PD MAR
+PY 2007
+VL 39
+IS 2
+BP 211
+EP 215
+DI 10.1111/j.1744-7429.2006.00256.x
+UT WOS:000244098300008
+ER
+
+PT J
+AU Eberhard, WG
+AF Eberhard, William G.
+TI Stabilimenta of Philoponella vicina (Araneae : Uloboridae) and
+   Gasteracantha cancriformis (Araneae : Araneidae): Evidence against a
+   prey attractant function
+SO BIOTROPICA
+C1 Univ Costa Rica, Escuela Biol, Smithsonian Trop Res Inst, San Jose, Costa Rica.
+RP Eberhard, WG (reprint author), Univ Costa Rica, Escuela Biol, Smithsonian Trop Res Inst, Ciudad Univ, San Jose, Costa Rica
+EM archisepsis@biologia.ucr.ac.cr
+TC 4
+Z9 4
+SN 0006-3606
+PD MAR
+PY 2007
+VL 39
+IS 2
+BP 216
+EP 220
+DI 10.1111/j.1744-7429.2006.00254.x
+UT WOS:000244098300009
+ER
+
+PT J
+AU Raich, JW
+   Russell, AE
+   Bedoya-Arrieta, R
+AF Raich, James W.
+   Russell, Ann E.
+   Bedoya-Arrieta, Ricardo
+TI Lignin and enhanced litter turnover in tree plantations of lowland Costa
+   Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Iowa State Univ, Dept Ecol Evolut & Organismal Biol, Ames, IA 50011 USA.
+   Iowa State Univ, Dept Nat Resource Ecol & Management, Ames, IA 50011 USA.
+   Org Trop Studies, La Selva Biol Stn, San Pedro, Costa Rica.
+RP Raich, JW (reprint author), Iowa State Univ, Dept Ecol Evolut & Organismal Biol, Ames, IA 50011 USA
+EM jraich@iastate.edu
+TC 7
+Z9 7
+SN 0378-1127
+PD FEB 15
+PY 2007
+VL 239
+IS 1-3
+BP 128
+EP 135
+DI 10.1016/j.foreco.2006.11.016
+UT WOS:000244155100013
+ER
+
+PT J
+AU Salom-Perez, R
+   Carrillo, E
+   Saenz, JC
+   Mora, JM
+AF Salom-Perez, Roberto
+   Carrillo, Eduardo
+   Saenz, Joel C.
+   Mora, Jose M.
+TI Critical condition of the jaguar Panthera onca population in Corcovado
+   National Park, Costa Rica
+SO ORYX
+C1 Univ Nacl, Programa Reg Manejo Vida Silvestre, Heredia, Costa Rica.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Salom-Perez, R (reprint author), POB 350-2300, San Jose, CA USA
+EM robersalom@yahoo.com
+TC 7
+Z9 7
+SN 0030-6053
+PD JAN
+PY 2007
+VL 41
+IS 1
+BP 51
+EP 56
+DI 10.1017/S0030605307001615
+UT WOS:000245766600013
+ER
+
+PT J
+AU Medina, A
+   Harvey, CA
+   Merlo, DS
+   Vilchez, S
+   Hernandez, B
+AF Medina, Arnulfo
+   Harvey, Celia A.
+   Merlo, Dalia Sanchez
+   Vilchez, Sergio
+   Hernandez, Blas
+TI Bat diversity and movement in an agricultural landscape in Matiguas,
+   Nicaragua
+SO BIOTROPICA
+C1 Ctr Agron Invest & Ensenanza, Dept Agr & Agroforesteria, CATIE, Turrialba, Costa Rica.
+   Fdn Nicaraguense Conservac Fdn Cocibolca, Managua, Nicaragua.
+RP Harvey, CA (reprint author), Ctr Agron Invest & Ensenanza, Dept Agr & Agroforesteria, CATIE, Apartado Postal 7170, Turrialba, Costa Rica
+EM charvey@catie.ac.cr
+TC 16
+Z9 17
+SN 0006-3606
+PD JAN
+PY 2007
+VL 39
+IS 1
+BP 120
+EP 128
+DI 10.1111/j.1744-7429.2006.00240.x
+UT WOS:000243294500016
+ER
+
+PT J
+AU Henderson, AE
+   Roitberg, BD
+AF Henderson, A. E.
+   Roitberg, B. D.
+TI Microhabitat location of Exophthalmus jekelianus (White) (Coleoptera :
+   Curculionidae): Is there a preference for shade-grown coffee?
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 CATIE, Dept Plant Protect, Res Stn, Turruialba, Costa Rica.
+RP Henderson, AE (reprint author), Simon Fraser Univ, Dept Biol Sci, 8888 Univ Dr, Burnaby, BC V5S 1A7, Canada, Canada
+EM aeh@sfu.ca
+TC 1
+Z9 1
+SN 0046-225X
+PD DEC
+PY 2006
+VL 35
+IS 6
+BP 1603
+EP 1609
+DI 10.1603/0046-225X(2006)35[1603:MLOEJW]2.0.CO;2
+UT WOS:000242772900019
+ER
+
+PT J
+AU DeClerck, FAJ
+   Barbour, MG
+   Sawyer, JO
+AF DeClerck, Fabrice A. J.
+   Barbour, Michael G.
+   Sawyer, John O.
+TI Species richness and stand stability in conifer forests of the Sierra
+   Nevada
+SO ECOLOGY
+C1 Univ Calif Davis, Geog Grad Grp, Davis, CA 95616 USA.
+   Univ Calif Davis, Dept Plant Sci, Davis, CA 95616 USA.
+   Humboldt State Univ, Arcata, CA 95521 USA.
+RP DeClerck, FAJ (reprint author), Dept Agr & Agroforestry, CATIE 7170, Turrialba, Costa Rica
+EM fadeclerck@mac.com
+TC 5
+Z9 5
+SN 0012-9658
+PD NOV
+PY 2006
+VL 87
+IS 11
+BP 2787
+EP 2799
+DI 10.1890/0012-9658(2006)87[2787:SRASSI]2.0.CO;2
+UT WOS:000242214800011
+ER
+
+PT J
+AU Hanson, T
+   Brunsfeld, S
+   Finegan, B
+AF Hanson, Thor
+   Brunsfeld, Steven
+   Finegan, Bryan
+TI Variation in seedling density and seed predation indicators for the
+   emergent tree Dipteryx panamensis in continuous and fragmented rain
+   forest
+SO BIOTROPICA
+C1 Univ Idaho, Dept Forest Resources, Moscow, ID 83844 USA.
+   Ctr Agron Trop Invest & Ensenanza, Dept Recursos Nat & Ambiente, Turrialba 7170, Costa Rica.
+RP Hanson, T (reprint author), Univ Idaho, Dept Forest Resources, POB 441133, Moscow, ID 83844 USA
+EM thor@rockisland.com
+TC 6
+Z9 6
+SN 0006-3606
+PD NOV
+PY 2006
+VL 38
+IS 6
+BP 770
+EP 774
+DI 10.1111/j.1744-7429.2006.00204.x
+UT WOS:000241409500009
+ER
+
+PT J
+AU Harvey, CA
+   Medina, A
+   Sanchez, DM
+   Vilchez, S
+   Hernandez, B
+   Saenz, JC
+   Maes, JM
+   Casanoves, F
+   Sinclair, FL
+AF Harvey, Celia A.
+   Medina, Arnulfo
+   Merlo Sanchez, Dalia
+   Vilchez, Sergio
+   Hernandez, Blas
+   Saenz, Joel C.
+   Maes, Jean Michel
+   Casanoves, Fernando
+   Sinclair, Fergus L.
+TI Patterns of animal diversity in different forms of tree cover in
+   agricultural landscapes
+SO ECOLOGICAL APPLICATIONS
+C1 Univ Coll N Wales, Sch Agr & Forest Sci, Bangor LL57 2UW, Gwynedd, Wales.
+   Ctr Agron Trop Invest & Ensenanza, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+   Fdn Nicaraguense Conservac, Managua, Nicaragua.
+   Museo Entomol Leon, Leon, Nicaragua.
+   Univ Nacl Costa Rica, Inst Int Manejo & Conservac Vida Silvestre, Heredia, Costa Rica.
+   Ctr Agron Trop Invest & Ensenanza, Dept Biometry, Turrialba, Costa Rica.
+RP Harvey, CA (reprint author), Univ Coll N Wales, Sch Agr & Forest Sci, Bangor LL57 2UW, Gwynedd, Wales
+TC 41
+Z9 42
+SN 1051-0761
+PD OCT
+PY 2006
+VL 16
+IS 5
+BP 1986
+EP 1999
+DI 10.1890/1051-0761(2006)016[1986:POADID]2.0.CO;2
+UT WOS:000241362400032
+ER
+
+PT J
+AU Puschendorf, R
+   Bolanos, F
+   Chaves, G
+AF Puschendorf, Robert
+   Bolanos, Federico
+   Chaves, Gerardo
+TI The amphibian chytrid fungus along an altitudinal transect before the
+   first reported declines in Costa Rica
+RID B-6280-2011
+SO BIOLOGICAL CONSERVATION
+C1 Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Puschendorf, R (reprint author), James Cook Univ N Queensland, Sch Trop Biol, Amphibian Dis Ecol Grp, Townsville, Qld 4811, Australia
+EM Robert.Puschendorf@jcu.edu.au
+TC 32
+Z9 38
+SN 0006-3207
+PD SEP
+PY 2006
+VL 132
+IS 1
+BP 136
+EP 142
+DI 10.1016/j.biocon.2006.03.010
+UT WOS:000240273500014
+ER
+
+PT J
+AU Avelino, J
+   Zelaya, H
+   Merlo, A
+   Pineda, A
+   Ordonez, M
+   Savary, S
+AF Avelino, J.
+   Zelaya, H.
+   Merlo, A.
+   Pineda, A.
+   Ordonez, M.
+   Savary, S.
+TI The intensity of a coffee rust epidemic is dependent on production
+   situations
+SO ECOLOGICAL MODELLING
+C1 Ctr Cooperat Int Rech Agron Dev, F-34398 Montpellier 5, France.
+   Inst Hondureno Cafe, Tegucigalpa, Honduras.
+   INRA, Ctr Rech INRA Bordeaux Aquitaine, UMR Sante Vegetale, F-33883 Villenave Dornon, France.
+RP Avelino, J (reprint author), IICA PROMECAFE, AP 55,2200 Coronado, San Jose, Costa Rica
+EM jacques.avelino@cirad.fr
+TC 8
+Z9 8
+SN 0304-3800
+PD AUG 25
+PY 2006
+VL 197
+IS 3-4
+BP 431
+EP 447
+DI 10.1016/j.ecolmodel.2006.03.013
+UT WOS:000239985700016
+ER
+
+PT J
+AU Herrerias-Diego, Y
+   Quesada, M
+   Stoner, KE
+   Lobo, JA
+AF Herrerias-Diego, Yvonne
+   Quesada, Mauricio
+   Stoner, Kathryn E.
+   Lobo, Jorge A.
+TI Effects of forest fragmentation on phenological patterns and
+   reproductive success of the tropical dry forest tree Ceiba aesculifolia
+SO CONSERVATION BIOLOGY
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Herrerias-Diego, Y (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Campus Morelia,Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+EM mquesada@oikos.unam.mx
+TC 13
+Z9 15
+SN 0888-8892
+PD AUG
+PY 2006
+VL 20
+IS 4
+BP 1111
+EP 1120
+DI 10.1111/j.1523-1739.2006.00370.x
+UT WOS:000239545500022
+ER
+
+PT J
+AU Matlock, RB
+   Edwards, PJ
+AF Matlock, Robert B., Jr.
+   Edwards, Peter J.
+TI The influence of habitat variables on Bird Communities in Forest
+   Remnants in Costa Rica
+SO BIODIVERSITY AND CONSERVATION
+C1 Tulane Univ, Dept Ecol & Evolutionary Biol, New Orleans, LA 70118 USA.
+   EARTH, San Jose, Costa Rica.
+   Syngenta, Jeallotts Hill Res Stn, Bracknell RG42 6ET, Berks, England.
+RP Matlock, RB (reprint author), Tulane Univ, Dept Ecol & Evolutionary Biol, 6823 St Charles Ave,Dinwiddie Hall 310, New Orleans, LA 70118 USA
+EM rmatlock@tulane.edu
+TC 1
+Z9 3
+SN 0960-3115
+PD AUG
+PY 2006
+VL 15
+IS 9
+BP 2987
+EP 3016
+DI 10.1007/s10531-005-4873-3
+UT WOS:000240722500009
+ER
+
+PT J
+AU Chaverri, P
+   Vilchez, B
+AF Chaverri, Priscila
+   Vilchez, Braulio
+TI Hypocrealean (Hypocreales, Ascomycota) fungal diversity in different
+   stages of tropical forest succession in Costa Rica
+SO BIOTROPICA
+C1 Howard Univ, Dept Biol, Washington, DC 20059 USA.
+   INBio, Santo Domingo, Heredia, Costa Rica.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+RP Chaverri, P (reprint author), Howard Univ, Dept Biol, 415 Coll St NW, Washington, DC 20059 USA
+EM pchaverri@howard.edu
+TC 3
+Z9 4
+SN 0006-3606
+PD JUL
+PY 2006
+VL 38
+IS 4
+BP 531
+EP 543
+DI 10.1111/j.1744-7429.2006.00176.x
+UT WOS:000238066600011
+ER
+
+PT J
+AU Zahawi, RA
+   Augspurger, CK
+AF Zahawi, RA
+   Augspurger, CK
+TI Tropical forest restoration: Tree islands as recruitment foci in
+   degraded lands of Honduras
+SO ECOLOGICAL APPLICATIONS
+C1 Univ Illinois, Dept Plant Biol, Urbana, IL 61801 USA.
+RP Zahawi, RA (reprint author), Org Trop Studies, Apdo 676-2050, San Pedro, Costa Rica
+EM zahawi@ots.ac.cr
+TC 20
+Z9 23
+SN 1051-0761
+PD APR
+PY 2006
+VL 16
+IS 2
+BP 464
+EP 478
+DI 10.1890/1051-0761(2006)016[0464:TFRTIA]2.0.CO;2
+UT WOS:000237052200004
+ER
+
+PT J
+AU DeMattia, EA
+   Rathcke, BJ
+   Curran, LM
+   Aguilar, R
+   Vargas, O
+AF DeMattia, EA
+   Rathcke, BJ
+   Curran, LM
+   Aguilar, R
+   Vargas, O
+TI Effects of small rodent and large mammal exclusion on seedling
+   recruitment in Costa Rica
+SO BIOTROPICA
+C1 Univ Michigan, Dept Ecol & Evolutionary Biol, Ann Arbor, MI 48109 USA.
+   Yale Sch Forestry & Environm Studies, New Haven, CT 06517 USA.
+   Org Trop Studies, Selva Biol Stn, San Pedro, Costa Rica.
+RP DeMattia, EA (reprint author), Sch Field Studies, 10 Fed St, Salem, MA 01970 USA
+EM ldemattia@fieldstudies.org
+TC 13
+Z9 13
+SN 0006-3606
+PD MAR
+PY 2006
+VL 38
+IS 2
+BP 196
+EP 202
+DI 10.1111/j.1744-7429.2006.00117.x
+UT WOS:000235210600006
+ER
+
+PT J
+AU Sigel, BJ
+   Sherry, TW
+   Young, BE
+AF Sigel, BJ
+   Sherry, TW
+   Young, BE
+TI Avian community response to lowland tropical rainforest isolation: 40
+   Years of change at La Selva Biological Station, Costa Rica
+SO CONSERVATION BIOLOGY
+C1 Tulane Univ, Dept Ecol & Evolutionary Biol, New Orleans, LA 70118 USA.
+   NatureServ, Puntarenas, Costa Rica.
+RP Sigel, BJ (reprint author), Tulane Univ, Dept Ecol & Evolutionary Biol, 310 Dinwiddie Hall, New Orleans, LA 70118 USA
+EM bsigel@tulane.edu
+TC 23
+Z9 25
+SN 0888-8892
+PD FEB
+PY 2006
+VL 20
+IS 1
+BP 111
+EP 121
+DI 10.1111/j.1523-1739.2006.00293
+UT WOS:000235367100012
+ER
+
+PT J
+AU Harvey, CA
+   Gonzalez, J
+   Somarriba, E
+AF Harvey, CA
+   Gonzalez, J
+   Somarriba, E
+TI Dung beetle and terrestrial mammal diversity in forests, indigenous
+   agroforestry systems and plantain monocultures in Talamanca, Costa Rica
+SO BIODIVERSITY AND CONSERVATION
+C1 CATIE, Dept Agr & Agroforestry, Turrialba, Costa Rica.
+   UNA, Programa Reg Vida Silvestre, Heredia, Costa Rica.
+RP Harvey, CA (reprint author), CATIE, Dept Agr & Agroforestry, Apdo 7170, Turrialba, Costa Rica
+EM charvey@catie.ac.cr
+   esomarri@catie.ac.cr
+TC 33
+Z9 34
+SN 0960-3115
+PD FEB
+PY 2006
+VL 15
+IS 2
+BP 555
+EP 585
+DI 10.1007/s10531-005-2088-2
+UT WOS:000235489200002
+ER
+
+PT J
+AU Cascante-Marin, A
+   Wolf, JHD
+   Oostermeijer, JGB
+   den Nijs, JCM
+   Sanahuja, O
+   Duran-Apuy, A
+AF Cascante-Marin, Alfredo
+   Wolf, Jan H. D.
+   Oostermeijer, J. Gerard B.
+   den Nijs, J. C. M.
+   Sanahuja, Oscar
+   Duran-Apuy, Alejandro
+TI Epiphytic bromeliad communities in secondary and mature forest in a
+   tropical premontane area
+SO BASIC AND APPLIED ECOLOGY
+C1 Univ Amsterdam, IBED, NL-1090 GB Amsterdam, Netherlands.
+   Univ Nacl, Programa Manejo Recursos Nat, Escuela Ciencias Biol, Heredia, Costa Rica.
+RP Cascante-Marin, A (reprint author), Museo Nacl Costa Rica, Dept Hist Nat, Apartado 749-1000, San Jose, Costa Rica
+EM cascante@science.uva.nl
+TC 18
+Z9 22
+SN 1439-1791
+PY 2006
+VL 7
+IS 6
+BP 520
+EP 532
+DI 10.1016/j.baae.2005.10.005
+UT WOS:000242679700004
+ER
+
+PT J
+AU Chaverri, G
+   Kunz, TH
+AF Chaverri, G
+   Kunz, TH
+TI Roosting ecology of the tent-roosting bat Artibeus watsoni (Chiroptera :
+   Phyllostomidae) in southwestern Costa Rica
+SO BIOTROPICA
+C1 Boston Univ, Dept Biol, Ctr Ecol & Conservat Biol, Boston, MA 02215 USA.
+RP Chaverri, G (reprint author), 4646 Alamedas, Golfito, Costa Rica
+EM glori@bu.edu
+TC 12
+Z9 14
+SN 0006-3606
+PD JAN
+PY 2006
+VL 38
+IS 1
+BP 77
+EP 84
+DI 10.1111/j.1744-7429.2005.00107.x
+UT WOS:000234858000010
+ER
+
+PT J
+AU Swimmer, Y
+   Arauz, R
+   McCracken, M
+   McNaughton, L
+   Ballestero, J
+   Musyl, M
+   Bigelow, K
+   Brill, R
+AF Swimmer, Yonat
+   Arauz, Randall
+   McCracken, Marti
+   McNaughton, Lianne
+   Ballestero, Jorge
+   Musyl, Mike
+   Bigelow, Keith
+   Brill, Richard
+TI Diving behavior and delayed mortality of olive ridley seat turtles
+   Lepidochelys olivacea after their release from longline fishing gear
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Natl Marine Fisheries Serv, Pacific Isl Fisheries Sci Ctr, Honolulu, HI 96822 USA.
+   PRETOMA, San Jose, Costa Rica.
+   Univ Hawaii, Joint Inst Marine & Atmospher Res, Honolulu, HI 96822 USA.
+   Virginia Inst Marine Sci, Gloucester Point, VA 23062 USA.
+   Natl Marine Fisheries Serv, Gloucester Point, VA 23062 USA.
+RP Swimmer, Y (reprint author), Natl Marine Fisheries Serv, Pacific Isl Fisheries Sci Ctr, 2570 Dole St, Honolulu, HI 96822 USA
+EM yonat.swimmer@noaa.gov
+TC 16
+Z9 24
+SN 0171-8630
+PY 2006
+VL 323
+BP 253
+EP 261
+DI 10.3354/meps323253
+UT WOS:000241921700023
+ER
+
+PT J
+AU Capers, RS
+   Chazdon, RL
+   Brenes, AR
+   Alvarado, BV
+AF Capers, RS
+   Chazdon, RL
+   Brenes, AR
+   Alvarado, BV
+TI Successional dynamics of woody seedling communities in wet tropical
+   secondary forests
+SO JOURNAL OF ECOLOGY
+C1 Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+RP Capers, RS (reprint author), Connecticut Agr Expt Stn, New Haven, CT 06504 USA
+EM robert.capers@po.state.ct.us
+TC 29
+Z9 33
+SN 0022-0477
+PD DEC
+PY 2005
+VL 93
+IS 6
+BP 1071
+EP 1084
+DI 10.1111/j.1365-2745.2005.01050.x
+UT WOS:000233287500004
+ER
+
+PT J
+AU Sanchez-Azofeifa, GA
+   Quesada, M
+   Rodriguez, JP
+   Nassar, JM
+   Stoner, KE
+   Castillo, A
+   Garvin, T
+   Zent, EL
+   Calvo-Alvarado, JC
+   Kalacska, MER
+   Fajardo, L
+   Gamon, JA
+   Cuevas-Reyes, P
+AF Sanchez-Azofeifa, GA
+   Quesada, M
+   Rodriguez, JP
+   Nassar, JM
+   Stoner, KE
+   Castillo, A
+   Garvin, T
+   Zent, EL
+   Calvo-Alvarado, JC
+   Kalacska, MER
+   Fajardo, L
+   Gamon, JA
+   Cuevas-Reyes, P
+TI Research priorities for neotropical dry forests
+SO BIOTROPICA
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Edmonton, AB T6G 2E3, Canada.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Inst Venezolano Invest Cient, Ctr Antropol, Caracas 1020A, Venezuela.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Programa Manejo & Conservac Recursos Nat, Cartago, Costa Rica.
+   Calif State Univ Los Angeles, Dept Biol Sci, Los Angeles, CA 90032 USA.
+   Univ Michoacana, Fac Biol, Morelia, Michoacan, Mexico.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 42
+Z9 46
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 477
+EP 485
+DI 10.1111/j.1744-7429.2005.00066.x
+UT WOS:000233766800001
+ER
+
+PT J
+AU Kalacska, MER
+   Sanchez-Azofeifa, GA
+   Calvo-Alvarado, JC
+   Rivard, B
+   Quesada, M
+AF Kalacska, MER
+   Sanchez-Azofeifa, GA
+   Calvo-Alvarado, JC
+   Rivard, B
+   Quesada, M
+TI Effects of season and successional stage on leaf area index and spectral
+   vegetation indices in three mesoamerican tropical dry forests
+SO BIOTROPICA
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Earth Observ Syst Lab, Edmonton, AB T6G 2E3, Canada.
+   Inst Tecnol Costa Rica, Dept Forest Engn, Cartago, Costa Rica.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Earth Observ Syst Lab, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 22
+Z9 26
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 486
+EP 496
+DI 10.1111/j.1744-7429.2005.00067.x
+UT WOS:000233766800002
+ER
+
+PT J
+AU Arroyo-Mora, JP
+   Sanchez-Azofeifa, GA
+   Kalacska, MER
+   Rivard, B
+   Calvo-Alvarado, JC
+   Janzen, DH
+AF Arroyo-Mora, JP
+   Sanchez-Azofeifa, GA
+   Kalacska, MER
+   Rivard, B
+   Calvo-Alvarado, JC
+   Janzen, DH
+TI Secondary forest detection in a neotropical dry forest landscape using
+   Landsat 7 ETM+ and IKONOS imagery
+SO BIOTROPICA
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Earth Observ Syst Lab, Edmonton, AB, Canada.
+   Inst Tecnol Costa Rica, Cartago, Costa Rica.
+   Univ Penn, Dept Biol, Philadelphia, PA 19104 USA.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Earth Observ Syst Lab, Edmonton, AB, Canada
+EM arturo.sanchez@ualberta.ca
+TC 20
+Z9 20
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 497
+EP 507
+DI 10.1111/j.1744-7429.2005.00068.x
+UT WOS:000233766800003
+ER
+
+PT J
+AU Garcia-Robledo, C
+   Quintero-Marin, P
+   Mora-Kepfer, F
+AF Garcia-Robledo, C
+   Quintero-Marin, P
+   Mora-Kepfer, F
+TI Geographic variation and succession of arthropod communities in
+   inflorescences and infructescences of Xanthosoma (Araceae)
+RID A-3164-2008
+SO BIOTROPICA
+C1 Univ Miami, Dept Biol, Coral Gables, FL 33124 USA.
+   Univ Valle, Dept Biol, Cali, Colombia.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Garcia-Robledo, C (reprint author), Univ Miami, Dept Biol, POB 249118, Coral Gables, FL 33124 USA
+EM carlos@bio.miami.edu
+TC 3
+Z9 3
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 650
+EP 656
+DI 10.1111/j.1744-7429.2005.00082.x
+UT WOS:000233766800017
+ER
+
+PT J
+AU Yamashita, N
+   Stoner, KE
+   Riba-Hernandez, P
+   Dominy, NJ
+   Lucas, PW
+AF Yamashita, N
+   Stoner, KE
+   Riba-Hernandez, P
+   Dominy, NJ
+   Lucas, PW
+TI Light levels used during feeding by primate species with different color
+   vision phenotypes
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Univ So Calif, Dept Cell & Neurobiol, Keck Sch Med, Los Angeles, CA 90089 USA.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 548980, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Calif Santa Cruz, Dept Anthropol, Santa Cruz, CA 95064 USA.
+   George Washington Univ, Dept Anthropol, Washington, DC 20052 USA.
+RP Yamashita, N (reprint author), Univ So Calif, Dept Cell & Neurobiol, Keck Sch Med, BMT 405,1333 San Pablo St, Los Angeles, CA 90089 USA
+EM nayutaya@usc.edu
+TC 12
+Z9 13
+SN 0340-5443
+PD OCT
+PY 2005
+VL 58
+IS 6
+BP 618
+EP 629
+DI 10.1007/s00265-005-0936-4
+UT WOS:000232792800011
+ER
+
+PT J
+AU Jimenez, I
+AF Jimenez, I
+TI Development of predictive models to explain the distribution of the West
+   Indian manatee Trichechus manatus in tropical watercourses
+SO BIOLOGICAL CONSERVATION
+C1 Univ Nacl, Programa Reg Manejo Vida Silvestre Mesoamer & Car, Heredia, Costa Rica.
+RP Jimenez, I (reprint author), Fdn Manati, Ctr Int Estrategias Ambientales, Cuba 3129,Depto 15, RA-1429 Buenos Aires, DF, Argentina
+EM i_jimenez_perez@yahoo.es
+TC 0
+Z9 1
+SN 0006-3207
+PD OCT
+PY 2005
+VL 125
+IS 4
+BP 491
+EP 503
+DI 10.1016/j.biocon.2005.04.012
+UT WOS:000230447100008
+ER
+
+PT J
+AU Chazdon, RL
+   Brenes, AR
+   Alvarado, BV
+AF Chazdon, RL
+   Brenes, AR
+   Alvarado, BV
+TI Effects of climate and stand age on annual tree dynamics in tropical
+   second-growth rain forests
+SO ECOLOGY
+C1 Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+RP Chazdon, RL (reprint author), Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA
+EM chazdon@uconn.edu
+TC 23
+Z9 27
+SN 0012-9658
+PD JUL
+PY 2005
+VL 86
+IS 7
+BP 1808
+EP 1815
+DI 10.1890/04-0572
+UT WOS:000230249600017
+ER
+
+PT J
+AU La Marca, E
+   Lips, KR
+   Lotters, S
+   Puschendorf, R
+   Ibanez, R
+   Rueda-Almonacid, JV
+   Schulte, R
+   Marty, C
+   Castro, F
+   Manzanilla-Puppo, J
+   Garcia-Perez, JE
+   Bolanos, F
+   Chaves, G
+   Pounds, JA
+   Toral, E
+   Young, BE
+AF La Marca, E
+   Lips, KR
+   Lotters, S
+   Puschendorf, R
+   Ibanez, R
+   Rueda-Almonacid, JV
+   Schulte, R
+   Marty, C
+   Castro, F
+   Manzanilla-Puppo, J
+   Garcia-Perez, JE
+   Bolanos, F
+   Chaves, G
+   Pounds, JA
+   Toral, E
+   Young, BE
+TI Catastrophic population declines and extinctions in neotropical
+   harlequin frogs (Bufonidae : Atelopus)
+RID B-6280-2011
+SO BIOTROPICA
+C1 Univ Los Andes, Fac Ciencias Forestales & Ambientales, Escuela Geog, Lab Biogeog, Merida 5101A, Venezuela.
+   So Illinois Univ, Dept Zool, Carbondale, IL 62901 USA.
+   Univ Mainz, Dept Ecol, Inst Zool, D-55099 Mainz, Germany.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Panama, Dept Zool, Panama City, Panama.
+   Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   Conservac Int, Programa Especies Amenazadas, Bogota, Colombia.
+   Inst Invest Biol Cordilleras Orientales, INIBICO, Tarapoto, Peru.
+   Impasse Jean Galot, Montjoly 097354, Guyana.
+   Univ Valle, Dept Biol, Fac Ciencias, Secc Zool,Lab Herpetol, Cali, Colombia.
+   Museo Nacl Ciencias Nat, Madrid, Spain.
+   Cent Univ Venezuela, Museo Inst Zool Agr, Maracay, Venezuela.
+   UNELLEZ, Vice Rectorado Prod Agr, Programa Recursos Nat Renovables, Museo Zool, Guanare, Estado Portugue, Venezuela.
+   Monteverde Cloud Forest Preserve & Trop Sci Ctr, Golden Toad Lab Conservat, Santa Elena 565573, Puntarenas, Costa Rica.
+   NatureServe, Monteverde 5655, Puntarenas, Costa Rica.
+RP La Marca, E (reprint author), Univ Los Andes, Fac Ciencias Forestales & Ambientales, Escuela Geog, Lab Biogeog, Apartado Postal 116, Merida 5101A, Venezuela
+TC 79
+Z9 91
+SN 0006-3606
+PD JUN
+PY 2005
+VL 37
+IS 2
+BP 190
+EP 201
+DI 10.1111/j.1744-7429.2005.00026.x
+UT WOS:000229355500006
+ER
+
+PT J
+AU Riba-Hernandez, P
+   Stoner, KE
+AF Riba-Hernandez, P
+   Stoner, KE
+TI Massive destruction of Symphonia globulifera (Clusiaceae) flowers by
+   Central American spider monkeys (Ateles geoffroyi)
+SO BIOTROPICA
+C1 Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 48980, Michoacan, Mexico.
+RP Stoner, KE (reprint author), Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica
+EM kstoner@oikos.unam.mx
+TC 7
+Z9 7
+SN 0006-3606
+PD JUN
+PY 2005
+VL 37
+IS 2
+BP 274
+EP 278
+DI 10.1111/j.1744-7429.2005.00037.x
+UT WOS:000229355500016
+ER
+
+PT J
+AU Troeng, S
+   Dutton, PH
+   Evans, D
+AF Troeng, S
+   Dutton, PH
+   Evans, D
+TI Migration of hawksbill turtles Eretmochelys imbricata from Tortuguero,
+   Costa Rica
+SO ECOGRAPHY
+C1 Caribbean Conservat Corp, San Pedro, Costa Rica.
+   NOAA Fisheries, SW Fisheries Sci Ctr, La Jolla, CA 92038 USA.
+   Caribbean Conserv Corp, Gainesville, FL 32609 USA.
+RP Troeng, S (reprint author), Caribbean Conservat Corp, Apdo Postal 246-2050, San Pedro, Costa Rica
+EM sebastian@cccturtle.org
+TC 21
+Z9 27
+SN 0906-7590
+PD JUN
+PY 2005
+VL 28
+IS 3
+BP 394
+EP 402
+DI 10.1111/j.0906-7590.2005.04110.x
+UT WOS:000229428800012
+ER
+
+PT J
+AU Perez, D
+   Kanninen, M
+AF Perez, D
+   Kanninen, M
+TI Stand growth scenarios for Tectona grandis plantations in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 JKPWB, CIFOR, Jakarta 10065, Indonesia.
+   CATIE, Turrialba, Costa Rica.
+   Univ Helsinki, FIN-00014 Helsinki, Finland.
+RP Kanninen, M (reprint author), JKPWB, CIFOR, POB 6596, Jakarta 10065, Indonesia
+EM m.kanninen@cgiar.org
+TC 13
+Z9 15
+SN 0378-1127
+PD MAY 16
+PY 2005
+VL 210
+IS 1-3
+BP 425
+EP 441
+DI 10.1016/j.foreco.2005.02.037
+UT WOS:000229165500031
+ER
+
+PT J
+AU Kleinn, C
+   Ramirez, C
+   Holmgren, P
+   Valverde, SL
+   Chavez, G
+AF Kleinn, C
+   Ramirez, C
+   Holmgren, P
+   Valverde, SL
+   Chavez, G
+TI A national forest resources assessment for Costa Rica based on low
+   intensity sampling
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Gottingen, Chair Forest Assessment & Remote Sensing, D-37077 Gottingen, Germany.
+   CATIE, Biostat Sect, Pilot Inventory Costa Rica, Turrialba 7170, Costa Rica.
+   FAO, Food & Agr Org United Nations, Dept Forestry, Forest Resources Dev Serv, I-00100 Rome, Italy.
+   SINAC, Minist Environm & Energy, Sect Forest Fires & Payment Environm Serv, San Jose, Costa Rica.
+RP Kleinn, C (reprint author), Univ Gottingen, Chair Forest Assessment & Remote Sensing, Busgenweg 5, D-37077 Gottingen, Germany
+EM ckleinn@gwdg.de
+   cramzea@intelnet.net.gt
+   peter.holmgren@fao.org
+   sonilobo@minae.go.cr
+   guidocha@minae.go.cr
+TC 8
+Z9 8
+SN 0378-1127
+PD MAY 16
+PY 2005
+VL 210
+IS 1-3
+BP 9
+EP 23
+DI 10.1016/j.foreco.2005.02.023
+UT WOS:000229165500002
+ER
+
+PT J
+AU Sanchez-Azofeifa, GA
+   Kalacska, M
+   Quesada, M
+   Calvo-Alvarado, JC
+   Nassar, JM
+   Rodriguez, JP
+AF Sanchez-Azofeifa, GA
+   Kalacska, M
+   Quesada, M
+   Calvo-Alvarado, JC
+   Nassar, JM
+   Rodriguez, JP
+TI Need for integrated research for a sustainable future in tropical dry
+   forests
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Earth Observat Syst Lab, Edmonton, AB T6G 2E3, Canada.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia, Michoacan, Mexico.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Earth Observat Syst Lab, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 26
+Z9 27
+SN 0888-8892
+PD APR
+PY 2005
+VL 19
+IS 2
+BP 285
+EP 286
+DI 10.1111/j.1523-1739.2005.s01_1.x
+UT WOS:000227647600001
+ER
+
+PT J
+AU Schade, JD
+   Espeleta, JF
+   Klausmeier, CA
+   McGroddy, ME
+   Thomas, SA
+   Zhang, LX
+AF Schade, JD
+   Espeleta, JF
+   Klausmeier, CA
+   McGroddy, ME
+   Thomas, SA
+   Zhang, LX
+TI A conceptual framework for ecosystem stoichiometry: Balancing resource
+   supply and demand
+SO OIKOS
+C1 Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   Org Trop Studies, La Selva Biol Stn, San Pedro, Costa Rica.
+   Georgia Inst Technol, Sch Biol, Atlanta, GA 30332 USA.
+   Princeton Univ, Dept Ecol & Evolut Biol, Princeton, NJ 08540 USA.
+   Cornell Univ, Dept Ecol & Evolut Biol, Ithaca, NY 14853 USA.
+   Chinese Acad Sci, Inst Bot, Beijing 100093, Peoples R China.
+RP Schade, JD (reprint author), Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA
+EM jschade@berkeley.edu
+TC 21
+Z9 23
+SN 0030-1299
+PD APR
+PY 2005
+VL 109
+IS 1
+BP 40
+EP 51
+DI 10.1111/j.0030-1299.2005.14050.x
+UT WOS:000227174800005
+ER
+
+PT J
+AU Segura, M
+   Kanninen, M
+AF Segura, M
+   Kanninen, M
+TI Allometric models for tree volume and total aboveground biomass in a
+   tropical humid forest in Costa Rica
+SO BIOTROPICA
+C1 Univ Helsinki, Dept Forest Ecol, Agreement Trop Agr Res & Higher Educ Ctr, FIN-00014 Helsinki, Finland.
+   CATIE, Turrialba 7170, Costa Rica.
+   CIFOR, Jakarta 10065, Indonesia.
+RP Kanninen, M (reprint author), Univ Helsinki, Dept Forest Ecol, Agreement Trop Agr Res & Higher Educ Ctr, FIN-00014 Helsinki, Finland
+EM m.kanninen@cgiar.org
+TC 18
+Z9 27
+SN 0006-3606
+PD MAR
+PY 2005
+VL 37
+IS 1
+BP 2
+EP 8
+UT WOS:000227417200001
+ER
+
+PT J
+AU Lucking, R
+   Bernecker-Lucking, A
+AF Lucking, R
+   Bernecker-Lucking, A
+TI Drip-tips do not impair the development of epiphyllous rain-forest
+   lichen communities
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Field Museum, Dept Bot, Chicago, IL 60605 USA.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Lucking, R (reprint author), Field Museum, Dept Bot, 1400 S Lake Shore Dr, Chicago, IL 60605 USA
+TC 7
+Z9 9
+SN 0266-4674
+PD MAR
+PY 2005
+VL 21
+PN Part 2
+BP 171
+EP 177
+DI 10.1017/S0266467404002093
+UT WOS:000228028100005
+ER
+
+PT J
+AU Cordero, C
+   Eberhard, WG
+AF Cordero, C
+   Eberhard, WG
+TI Interaction between sexually antagonistic selection and mate choice in
+   the evolution of female responses to male traits
+SO EVOLUTIONARY ECOLOGY
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Evolut, Coyoacan 04510, DF, Mexico.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Cordero, C (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Evolut, Apdo Post 70-275, Coyoacan 04510, DF, Mexico
+EM cordero@miranda.ecologia.unam
+TC 18
+Z9 19
+SN 0269-7653
+PD MAR
+PY 2005
+VL 19
+IS 2
+BP 111
+EP 122
+DI 10.1007/s10682-004-7918-2
+UT WOS:000231806500002
+ER
+
+PT J
+AU Zahawi, RA
+AF Zahawi, RA
+TI Establishment and growth of living fence species: An overlooked tool for
+   the restoration of degraded areas in the tropics
+SO RESTORATION ECOLOGY
+C1 Univ Illinois, Dept Plant Biol, Urbana, IL 61801 USA.
+RP Zahawi, RA (reprint author), Org Trop Studies, Apdo 676-2050, San Pedro, Costa Rica
+EM zahawi@ots.ac.cr
+TC 20
+Z9 26
+SN 1061-2971
+PD MAR
+PY 2005
+VL 13
+IS 1
+BP 92
+EP 102
+DI 10.1111/j.1526-100X.2005.00011.x
+UT WOS:000227392500011
+ER
+
+PT J
+AU Avalos, G
+   Salazar, D
+   Araya, AL
+AF Avalos, G
+   Salazar, D
+   Araya, AL
+TI Stilt root structure in the neotropical palms Iriartea deltoidea and
+   Socratea exorrhiza
+SO BIOTROPICA
+C1 Ctr Sustainable Dev Studies, Sch Field Studies, Salem, MA 01970 USA.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Avalos, G (reprint author), Ctr Sustainable Dev Studies, Sch Field Studies, 10 Fed St, Salem, MA 01970 USA
+EM avalos@fieldstudies.org
+TC 3
+Z9 3
+SN 0006-3606
+PD MAR
+PY 2005
+VL 37
+IS 1
+BP 44
+EP 53
+UT WOS:000227417200006
+ER
+
+PT J
+AU Brightsmith, D
+   Hilburn, J
+   del Campo, A
+   Boyd, J
+   Frisius, M
+   Frisius, R
+   Janik, D
+   Guillen, F
+AF Brightsmith, D
+   Hilburn, J
+   del Campo, A
+   Boyd, J
+   Frisius, M
+   Frisius, R
+   Janik, D
+   Guillen, F
+TI The use of hand-raised psittacines for reintroduction: a case study of
+   scarlet macaws (Ara macao) in Peru and Costa Rica
+SO BIOLOGICAL CONSERVATION
+C1 Duke Univ, Dept Biol, Durham, NC 27712 USA.
+   Selva Reps, Rainforest Expedit, Lima 18, Peru.
+   Amigos Aves USA, Slidell, LA 70458 USA.
+   Fdn Restaurac Naturaleza, Alajuela, Costa Rica.
+   Amigos Aves, Alajuela, Costa Rica.
+RP Brightsmith, D (reprint author), Duke Univ, Dept Biol, Durham, NC 27712 USA
+EM Dib4@duke.edu
+TC 15
+Z9 17
+SN 0006-3207
+PD FEB
+PY 2005
+VL 121
+IS 3
+BP 465
+EP 472
+DI 10.1016/j.biocon.2004.05.016
+UT WOS:000224662100014
+ER
+
+PT J
+AU Swimmer, Y
+   Arauz, R
+   Higgins, B
+   McNaughton, L
+   McCracken, M
+   Ballestero, J
+   Brill, R
+AF Swimmer, Y
+   Arauz, R
+   Higgins, B
+   McNaughton, L
+   McCracken, M
+   Ballestero, J
+   Brill, R
+TI Food color and marine turtle feeding behavior: Can blue bait reduce
+   turtle bycatch in commercial fisheries?
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Pacific Island Fisheries Sci Ctr, Natl Marine Fisheries Serv, Honolulu, HI 96822 USA.
+   PRETOMA, San Jose, Costa Rica.
+   Sea Turtle Restorat Program, San Jose, Costa Rica.
+   Galveston Sea Turtle Facil, Natl Marine Fisheries Serv, Galveston, TX 77551 USA.
+   Univ Hawaii, Joint Inst Marine & Atmospher Res, Honolulu, HI 96822 USA.
+   Virginia Inst Marine Sci, Gloucester Point, VA 23062 USA.
+   Natl Marine Fisheries Serv, Gloucester Point, VA 23062 USA.
+RP Swimmer, Y (reprint author), Pacific Island Fisheries Sci Ctr, Natl Marine Fisheries Serv, 2570 Dole St, Honolulu, HI 96822 USA
+EM yonat.swimmer@noaa.gov
+TC 13
+Z9 15
+SN 0171-8630
+PY 2005
+VL 295
+BP 273
+EP 278
+DI 10.3354/meps295273
+UT WOS:000230671800024
+ER
+
+PT J
+AU Troeng, S
+   Rankin, E
+AF Troeng, S
+   Rankin, E
+TI Long-term conservation efforts contribute to positive green turtle
+   Chelonia mydas nesting trend at Tortuguero, Costa Rica
+SO BIOLOGICAL CONSERVATION
+C1 Caribbean Conservat Corp, San Pedro, Costa Rica.
+RP Troeng, S (reprint author), Caribbean Conservat Corp, Apdo Postal 246-2050, San Pedro, Costa Rica
+EM sebastian@cccturtle.org
+TC 46
+Z9 53
+SN 0006-3207
+PD JAN
+PY 2005
+VL 121
+IS 1
+BP 111
+EP 116
+DI 10.1016/j.biocon.2004.04.014
+UT WOS:000224013600011
+ER
+
+PT J
+AU Kanninen, M
+   Perez, D
+   Montero, M
+   Viquez, E
+AF Kanninen, M
+   Perez, D
+   Montero, M
+   Viquez, E
+TI Intensity and timing of the first thinning of Tectona grandis
+   plantations in Costa Rica: results of a thinning trial
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CIFOR, JKPWB, Jakarta, Indonesia.
+   Univ Helsinki, CATIE, Turrialba, Costa Rica.
+RP Kanninen, M (reprint author), CIFOR, JKPWB, POB 6596, Jakarta, Indonesia
+EM m.kanninen@cgiar.org
+   diegoperez@costarricense.cr
+   mmontero@catie.ac.cr
+   eviquez@catie.ac.cr
+TC 5
+Z9 6
+SN 0378-1127
+PD DEC 13
+PY 2004
+VL 203
+IS 1-3
+BP 89
+EP 99
+DI 10.1016/j.foreco.2004.07.054
+UT WOS:000225523000007
+ER
+
+PT J
+AU Kalacska, M
+   Sanchez-Azofeifa, GA
+   Calvo-Alvarado, JC
+   Quesada, M
+   Rivard, B
+   Janzen, DH
+AF Kalacska, M
+   Sanchez-Azofeifa, GA
+   Calvo-Alvarado, JC
+   Quesada, M
+   Rivard, B
+   Janzen, DH
+TI Species composition, similarity and diversity in three successional
+   stages of a seasonally dry tropical forest
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Alberta, Earth & Atmospher Sci Dept, Edmonton, AB T6G 2E3, Canada.
+   ITCR, Escuela Ingn Forestal, Programa Manejo & Conservac Recursos Nat, Cartago, Costa Rica.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   Univ Penn, Dept Biol, Philadelphia, PA 19104 USA.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Earth & Atmospher Sci Dept, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 44
+Z9 51
+SN 0378-1127
+PD OCT 25
+PY 2004
+VL 200
+IS 1-3
+BP 227
+EP 247
+DI 10.1016/j.foreco.2004.07.001
+UT WOS:000224682400018
+ER
+
+PT J
+AU Troeng, S
+   Chacon, D
+   Dick, B
+AF Troeng, S
+   Chacon, D
+   Dick, B
+TI Possible decline in leatherback turtle Dermochelys coriacea nesting
+   along the coast of Caribbean Central America
+SO ORYX
+C1 Caribbean Conservat Corp, San Pedro, Costa Rica.
+   Asociac ANAI, San Jose, Costa Rica.
+   La Reserva Pacuare, San Jose, Costa Rica.
+RP Troeng, S (reprint author), Caribbean Conservat Corp, Apdo Postal 246-2050, San Pedro, Costa Rica
+EM sebastian@cccturtle.org
+TC 19
+Z9 25
+SN 0030-6053
+PD OCT
+PY 2004
+VL 38
+IS 4
+BP 395
+EP 403
+DI 10.1017/S0030605304000766
+UT WOS:000225339900013
+ER
+
+PT J
+AU Nadkarni, NM
+   Schaefer, D
+   Matelson, TJ
+   Solano, R
+AF Nadkarni, NM
+   Schaefer, D
+   Matelson, TJ
+   Solano, R
+TI Biomass and nutrient pools of canopy and terrestrial components in a
+   primary and a secondary montane cloud forest, Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Evergreen State Coll, Olympia, WA 98505 USA.
+   Monteverde, Elena, Puntarenas, Costa Rica.
+RP Nadkarni, NM (reprint author), Evergreen State Coll, Olympia, WA 98505 USA
+EM nadkarnn@evergreen.edu
+TC 35
+Z9 38
+SN 0378-1127
+PD AUG 23
+PY 2004
+VL 198
+IS 1-3
+BP 223
+EP 236
+DI 10.1016/j.foreco.2004.04.011
+UT WOS:000223410500016
+ER
+
+PT J
+AU Cavers, S
+   Navarro, C
+   Lowe, AJ
+AF Cavers, S
+   Navarro, C
+   Lowe, AJ
+TI Targeting genetic resource conservation in widespread species: a case
+   study of Cedrela odorata L.
+RID B-7806-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+CT International Conference on Dynamics and Conservation of Genetic
+   Diversity in Forest Ecosystems
+CY DEC 02-05, 2002
+CL Strasbourg, FRANCE
+C1 Ctr Ecol & Hydrol, Penicuik EH26 0QB, Midlothian, Scotland.
+   Ctr Agron Trop Invest & Ensenanza, Cartago 7170, Turrialba, Costa Rica.
+   Univ Queensland, Sch Life Sci, Brisbane, Qld 4072, Australia.
+RP Cavers, S (reprint author), Ctr Ecol & Hydrol, Edinburgh Bush Estate, Penicuik EH26 0QB, Midlothian, Scotland
+EM scav@ceh.ac.uk
+TC 13
+Z9 16
+SN 0378-1127
+PD AUG 11
+PY 2004
+VL 197
+IS 1-3
+BP 285
+EP 294
+DI 10.1016/j.foreco.2004.05.019
+UT WOS:000223382700025
+ER
+
+PT J
+AU Cuevas-Reyes, P
+   Quesada, M
+   Hanson, P
+   Dirzo, R
+   Oyama, K
+AF Cuevas-Reyes, P
+   Quesada, M
+   Hanson, P
+   Dirzo, R
+   Oyama, K
+TI Diversity of gall-inducing insects in a Mexican tropical dry forest: the
+   importance of plant species richness, life-forms, host plant age and
+   plant density
+SO JOURNAL OF ECOLOGY
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58190, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Nacl Autonoma Mexico, Inst Ecol, Mexico City 04510, DF, Mexico.
+RP Cuevas-Reyes, P (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Antigua Carretera Patzcuaro 8701,Col Ex Hacienda, Morelia 58190, Michoacan, Mexico
+EM pcuevas@oikos.unam.mx
+TC 29
+Z9 33
+SN 0022-0477
+PD AUG
+PY 2004
+VL 92
+IS 4
+BP 707
+EP 716
+DI 10.1111/j.0022-0477.2004.00896.x
+UT WOS:000222869400014
+ER
+
+PT J
+AU Myers, MC
+   Vaughan, C
+AF Myers, MC
+   Vaughan, C
+TI Movement and behavior of scarlet macaws (Ara macao) during the
+   post-fledging dependence period: implications for in situ versus ex situ
+   management
+SO BIOLOGICAL CONSERVATION
+C1 Univ Minnesota, Conservat Biol Program, St Paul, MN 55108 USA.
+   Univ Nacl, Reg Wildlife Management Program Mesoamer & Caribb, Heredia, Costa Rica.
+RP Myers, MC (reprint author), Univ Minnesota, Conservat Biol Program, 180 McNeal Hall,1985 Buford Ave, St Paul, MN 55108 USA
+EM myer0132@umn.edu
+   cvaughan@wiscmail.edu
+TC 11
+Z9 11
+SN 0006-3207
+PD JUL
+PY 2004
+VL 118
+IS 3
+BP 411
+EP 420
+DI 10.1016/j.biocon.2003.09.018
+UT WOS:000221736500013
+ER
+
+PT J
+AU Navarro, C
+   Montagnini, F
+   Hernandez, G
+AF Navarro, C
+   Montagnini, F
+   Hernandez, G
+TI Genetic variability of Cedrela odorata Linnaeus: results of early
+   performance of provenances and families from Mesoamerica grown in
+   association with coffee
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Trop Agr Res & Higher Educ Ctr, CATIE, Turrialba, Costa Rica.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+RP Navarro, C (reprint author), Trop Agr Res & Higher Educ Ctr, CATIE, Turrialba, Costa Rica, Costa Rica
+EM florencia.montagnini@yale.edu
+TC 8
+Z9 8
+SN 0378-1127
+PD MAY 6
+PY 2004
+VL 192
+IS 2-3
+BP 217
+EP 227
+DI 10.1016/j.foreco.2004.01.037
+UT WOS:000221318300007
+ER
+
+PT J
+AU Espeleta, JF
+   West, JB
+   Donovan, LA
+AF Espeleta, JF
+   West, JB
+   Donovan, LA
+TI Species-specific patterns of hydraulic lift in co-occurring adult trees
+   and grasses in a sandhill community (vol 138, pg 341, 2004)
+SO OECOLOGIA
+C1 Univ Georgia, Dept Plant Biol, Athens, GA 30602 USA.
+   Org Trop Studies, La Selva Biol Stn, Puerto Viejo De Sarapiqu, Heredia, Costa Rica.
+   Org Trop Studies Interlink 341, Miami, FL 33102 USA.
+   Univ Minnesota, Dept Ecol Evolut & Behav, St Paul, MN 55108 USA.
+RP Donovan, LA (reprint author), Univ Georgia, Dept Plant Biol, Athens, GA 30602 USA
+EM jespele@sloth.ots.ac.cr
+   westx062@tc.umn.edu
+   donovan@plantbio.uga.edu
+TC 0
+Z9 0
+SN 0029-8549
+PD MAY
+PY 2004
+VL 139
+IS 3
+BP 486
+EP 486
+DI 10.1007/s00442-004-1539-x
+UT WOS:000221056400020
+ER
+
+PT J
+AU Powell, GVN
+   Bjork, RD
+AF Powell, GVN
+   Bjork, RD
+TI Habitat linkages and the conservation of tropical Biodiversity as
+   indicated by seasonal migrations of three-wattled bellbirds
+SO CONSERVATION BIOLOGY
+C1 RARE Ctr Trop Conservat, Monteverde, Puntarenas, Costa Rica.
+RP Powell, GVN (reprint author), World Wildlife Fund, Conservat Sci Program, 1250 24th St NW, Washington, DC 20037 USA
+EM powell@wwfus.org
+TC 11
+Z9 13
+SN 0888-8892
+PD APR
+PY 2004
+VL 18
+IS 2
+BP 500
+EP 509
+DI 10.1111/j.1523-1739.2004.00044.x
+UT WOS:000220567300027
+ER
+
+PT J
+AU Piotto, D
+   Viquez, E
+   Montagnini, F
+   Kanninen, M
+AF Piotto, D
+   Viquez, E
+   Montagnini, F
+   Kanninen, M
+TI Pure and mixed forest plantations with native species of the dry tropics
+   of Costa Rica: a comparison of growth and productivity
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Geotec Consultoria, BR-04022000 Sao Paulo, Brazil.
+   CATIE, Turrialba 7170, Costa Rica.
+   CIFOR, Bogor Barat 16680, Indonesia.
+RP Montagnini, F (reprint author), Yale Univ, Sch Forestry & Environm Studies, 370 Prospect St, New Haven, CT 06511 USA
+EM florencia.montagnini@yale.edu
+TC 31
+Z9 32
+SN 0378-1127
+PD MAR 22
+PY 2004
+VL 190
+IS 2-3
+BP 359
+EP 372
+DI 10.1016/j.foreco.2003.11.005
+UT WOS:000220456200021
+ER
+
+PT J
+AU West, JB
+   Espeleta, JF
+   Donovan, LA
+AF West, JB
+   Espeleta, JF
+   Donovan, LA
+TI Fine root production and turnover across a complex edaphic gradient of a
+   Pinus palustris-Aristida stricta savanna ecosystem
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Georgia, Dept Plant Biol, Athens, GA 30602 USA.
+   Univ Minnesota, Dept Ecol Evolut & Behav, St Paul, MN 55108 USA.
+   Org Trop Studies, La Selva Biol Stn, Puerto Viejo De Sarapiqui, Costa Rica.
+RP West, JB (reprint author), Univ Georgia, Dept Plant Biol, Athens, GA 30602 USA
+EM westx062@umn.edu
+TC 19
+Z9 27
+SN 0378-1127
+PD FEB 23
+PY 2004
+VL 189
+IS 1-3
+BP 397
+EP 406
+DI 10.1016/j.foreco.2003.09.009
+UT WOS:000188971000031
+ER
+
+PT J
+AU Harmand, JM
+   Njiti, CF
+   Bernhard-Reversat, F
+   Puig, H
+AF Harmand, JM
+   Njiti, CF
+   Bernhard-Reversat, F
+   Puig, H
+TI Aboveground and belowground biomass, productivity and nutrient
+   accumulation in tree improved fallows in the dry tropics of Cameroon
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CIRAD Foret, CATIE, Turrialba 7170, Costa Rica.
+   IRAD, Garoua, Cameroon.
+   IRD, Ctr Ile France, F-93143 Bondy, France.
+   Lab Ecol Terrestre, F-31029 Toulouse, France.
+RP Harmand, JM (reprint author), CIRAD Foret, CATIE, Apdo 31, Turrialba 7170, Costa Rica
+EM jean-michel.harmand@cirad.fr
+TC 13
+Z9 13
+SN 0378-1127
+PD FEB 5
+PY 2004
+VL 188
+IS 1-3
+BP 249
+EP 265
+DI 10.1016/j.foreco.2003.07.026
+UT WOS:000188294900021
+ER
+
+PT J
+AU Clark, DB
+   Read, JM
+   Clark, ML
+   Cruz, AM
+   Dotti, MF
+   Clark, DA
+AF Clark, DB
+   Read, JM
+   Clark, ML
+   Cruz, AM
+   Dotti, MF
+   Clark, DA
+TI Application of 1-M and 4-M resolution satellite data to ecological
+   studies of tropical rain forests
+SO ECOLOGICAL APPLICATIONS
+C1 Univ Missouri, Dept Biol, St Louis, MO 63124 USA.
+   La Selva Biol Stn, Puerto Viejo De Sarapiqui, Costa Rica.
+   Syracuse Univ, Dept Geog, Maxwell Sch, Syracuse, NY 13244 USA.
+   Univ Calif Santa Barbara, Dept Geog, Santa Barbara, CA 93106 USA.
+   Univ Nacl, Dept Forest Sci, Sch Environm, Heredia, Costa Rica.
+RP Clark, DB (reprint author), OTS Interlink 341,POB 025635, Miami, FL 33102 USA
+EM dbclark@sloth.ots.ac.cr
+TC 44
+Z9 47
+SN 1051-0761
+PD FEB
+PY 2004
+VL 14
+IS 1
+BP 61
+EP 74
+DI 10.1890/02-5120
+UT WOS:000189130000010
+ER
+
+PT J
+AU Espeleta, JF
+   West, JB
+   Donovan, LA
+AF Espeleta, JF
+   West, JB
+   Donovan, LA
+TI Species-specific patterns of hydraulic lift in co-occurring adult trees
+   and grasses in a sandhill community
+SO OECOLOGIA
+C1 Univ Georgia, Dept Plant Biol, Athens, GA 30602 USA.
+   Org Trop Studies, Selva Biol Stn, Puerto Viejo De Sarapiqu, Costa Rica.
+   Univ Minnesota, Dept Ecol Evolut & Behav, St Paul, MN 55108 USA.
+RP Espeleta, JF (reprint author), Org Trop Studies Interlink 341, POB 02-5635, Miami, FL 33102 USA
+TC 34
+Z9 42
+SN 0029-8549
+PD FEB
+PY 2004
+VL 138
+IS 3
+BP 341
+EP 349
+DI 10.1007/s00442-003-1460-8
+UT WOS:000188387100003
+ER
+
+PT J
+AU Clark, DB
+   Castro, CS
+   Alvarado, LDA
+   Read, JM
+AF Clark, DB
+   Castro, CS
+   Alvarado, LDA
+   Read, JM
+TI Quantifying mortality of tropical rain forest trees using
+   high-spatial-resolution satellite data
+SO ECOLOGY LETTERS
+C1 Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   La Selva Biol Stn, Puerto Viejo De Sarapiqui, Costa Rica.
+   Univ Nacl, Sch Environm, Dept Forest Sci, Heredia, Costa Rica.
+   Syracuse Univ, Maxwell Sch, Dept Geog, Syracuse, NY USA.
+RP Clark, DB (reprint author), OTS Interlink 341, POB 025635, Miami, FL 33102 USA
+EM dbclark@sloth.ots.ac.cr
+TC 37
+Z9 38
+SN 1461-023X
+PD JAN
+PY 2004
+VL 7
+IS 1
+BP 52
+EP 59
+DI 10.1046/j.1461-0248.2003.00547.x
+UT WOS:000187274500007
+ER
+
+PT J
+AU Farji-Brener, AG
+   Barrantes, G
+   Ruggiero, A
+AF Farji-Brener, AG
+   Barrantes, G
+   Ruggiero, A
+TI Environmental rugosity, body size and access to food: a test of the
+   size-grain hypothesis in tropical litter ants
+SO OIKOS
+C1 Univ Comahue, CRUB, Dept Ecol, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Farji-Brener, AG (reprint author), Univ Comahue, CRUB, Dept Ecol, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+EM alefarji@crub.uncoma.edu.ar
+TC 20
+Z9 21
+SN 0030-1299
+PD JAN
+PY 2004
+VL 104
+IS 1
+BP 165
+EP 171
+DI 10.1111/j.0030-1299.2004.12740.x
+UT WOS:000187962200018
+ER
+
+PT J
+AU Riba-Hernandez, P
+   Stoner, KE
+   Lucas, PW
+AF Riba-Hernandez, P
+   Stoner, KE
+   Lucas, PW
+TI The sugar composition of fruits in the diet of spider monkeys (Ateles
+   geoffroyi) in tropical humid forest in Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 48980, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Hong Kong, Dept Anat, Hong Kong, SAR, Peoples R China.
+RP Stoner, KE (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Apartado Postal 27-3 Xangari, Morelia 48980, Michoacan, Mexico
+TC 6
+Z9 6
+SN 0266-4674
+PD NOV
+PY 2003
+VL 19
+PN Part 6
+BP 709
+EP 716
+DI 10.1017/S0266467403006102
+UT WOS:000186710800010
+ER
+
+PT J
+AU Cornelius, JP
+   Watt, AD
+AF Cornelius, JP
+   Watt, AD
+TI Genetic variation in a Hypsipyla-attacked clonal trial of Cedrela
+   odorata under two pruning regimes
+RID A-4301-2010
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CATIE, Turrialba 7170, Costa Rica.
+   Ctr Ecol & Hydrol, Banchory, Kincardine, Scotland.
+RP Cornelius, JP (reprint author), CATIE, Turrialba 7170, Costa Rica
+TC 7
+Z9 8
+SN 0378-1127
+PD SEP 15
+PY 2003
+VL 183
+IS 1-3
+BP 341
+EP 349
+DI 10.1016/S0378-1127(03)00142-7
+UT WOS:000185170500023
+ER
+
+PT J
+AU Horn, SP
+   Sanford, RL
+   Dilcher, D
+   Lott, TA
+   Renne, PR
+   Wiemann, MC
+   Cozadd, D
+   Vargas, O
+AF Horn, SP
+   Sanford, RL
+   Dilcher, D
+   Lott, TA
+   Renne, PR
+   Wiemann, MC
+   Cozadd, D
+   Vargas, O
+TI Pleistocene plant fossils in and near La Selva Biological Station, Costa
+   Rica
+SO BIOTROPICA
+C1 Univ Tennessee, Dept Geog, Knoxville, TN 37996 USA.
+   Univ Denver, Dept Biol Sci, Denver, CO 80208 USA.
+   Univ Florida, Florida Museum Nat Hist, Gainesville, FL 32611 USA.
+   Berkeley Geochronol Ctr, Berkeley, CA 94709 USA.
+   Univ Calif Berkeley, Dept Earth & Planetary Sci, Berkeley, CA 94720 USA.
+   US Forest Serv, USDA, Ctr Wood Anat Res, Madison, WI 53705 USA.
+   Org Trop Studies, Selva Biol Stn, Puerto Viedjo De Sarapiq, Costa Rica.
+RP Horn, SP (reprint author), Univ Tennessee, Dept Geog, 304 Burchfiel Geog Bldg, Knoxville, TN 37996 USA, USA
+TC 4
+Z9 4
+SN 0006-3606
+PD SEP
+PY 2003
+VL 35
+IS 3
+BP 434
+EP 441
+DI 10.1646/0006-3606(2003)035[0434:PPFIAN]2.0.CO;2
+UT WOS:000186644700014
+ER
+
+PT J
+AU Holscher, D
+   Kohler, L
+   Leuschner, C
+   Kappelle, M
+AF Holscher, D
+   Kohler, L
+   Leuschner, C
+   Kappelle, M
+TI Nutrient fluxes in stemflow and throughfall in three successional stages
+   of an upper montane rain forest in Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Gottingen, Albrecht Von Haller Inst Plant Sci, D-37073 Gottingen, Germany.
+   Inst Nacl Biodiversidad, INBio, Santo Domingo Heredia, Costa Rica.
+RP Holscher, D (reprint author), Univ Gottingen, Albrecht Von Haller Inst Plant Sci, Untere Karspule 2, D-37073 Gottingen, Germany
+TC 21
+Z9 21
+SN 0266-4674
+PD SEP
+PY 2003
+VL 19
+PN Part 5
+BP 557
+EP 565
+DI 10.1017/S0266467403003614
+UT WOS:000186326600009
+ER
+
+PT J
+AU Zaldivar, ME
+   Glander, KE
+   Rocha, O
+   Aguilar, G
+   Vargas, E
+   Gutierrez-Espeleta, GA
+   Sanchez, R
+AF Zaldivar, ME
+   Glander, KE
+   Rocha, O
+   Aguilar, G
+   Vargas, E
+   Gutierrez-Espeleta, GA
+   Sanchez, R
+TI Genetic variation of mantled howler monkeys (Alouatta palliata) from
+   Costa Rica
+SO BIOTROPICA
+C1 Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   Duke Univ, Dept Biol Anthropol & Anat, Durham, NC 27708 USA.
+   Univ Costa Rica, Dept Biol, San Ramon, Costa Rica.
+RP Zaldivar, ME (reprint author), Univ Costa Rica, Escuela Biol, Ciudad Univ Rodrigo Facio, San Jose, Costa Rica
+TC 3
+Z9 3
+SN 0006-3606
+PD SEP
+PY 2003
+VL 35
+IS 3
+BP 375
+EP 381
+DI 10.1646/02062
+UT WOS:000186644700007
+ER
+
+PT J
+AU Chazdon, RL
+   Careaga, S
+   Webb, C
+   Vargas, O
+AF Chazdon, RL
+   Careaga, S
+   Webb, C
+   Vargas, O
+TI Community and phylogenetic structure of reproductive traits of woody
+   species in wet tropical forests
+SO ECOLOGICAL MONOGRAPHS
+C1 Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+   Comis Nacl Conocimiento & Uso Biodiversidad, Tlalpan 14010, DF, Mexico.
+   Yale Univ, Dept Ecol & Evolutionary Biol, New Haven, CT 06511 USA.
+   Reserva Ecol Bijagual Sarapiqui, Puerto Viejo de Sarapiqui, Costa Rica.
+RP Chazdon, RL (reprint author), Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA
+EM chazdon@uconn.edu
+TC 66
+Z9 74
+SN 0012-9615
+PD AUG
+PY 2003
+VL 73
+IS 3
+BP 331
+EP 348
+DI 10.1890/02-4037
+UT WOS:000184866400001
+ER
+
+PT J
+AU Matlock, RB
+   de la Cruz, R
+AF Matlock, RB
+   de la Cruz, R
+TI Ants as indicators of pesticide impacts in banana
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Escuela Agr Reg Trop Humeda, EARTH, San Jose, Costa Rica.
+RP Matlock, RB (reprint author), Org Trop Studies, La Selva Biol stn, Interlink 341,POB 02-5635, Miami, FL 33102 USA
+EM rmatlock@sloth.ots.ac.cr
+TC 9
+Z9 9
+SN 0046-225X
+PD AUG
+PY 2003
+VL 32
+IS 4
+BP 816
+EP 829
+UT WOS:000185274600015
+ER
+
+PT J
+AU Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+AF Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+TI Root interactions between young Eucalyptus deglupta trees and
+   competitive grass species in contour strips
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, INPA, BDFFP, BR-69011970 Manaus, Amazonas, Brazil.
+   Univ Bayreuth, Inst Soil Sci & Soil Geog, D-95440 Bayreuth, Germany.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Schroth, G (reprint author), Natl Inst Res Amazon, INPA, BDFFP, CP 478, BR-69011970 Manaus, Amazonas, Brazil
+TC 4
+Z9 8
+SN 0378-1127
+PD JUL 3
+PY 2003
+VL 179
+IS 1-3
+BP 429
+EP 440
+DI 10.1016/S0378-1127(02)00534-0
+UT WOS:000183836300034
+ER
+
+PT J
+AU Masera, OR
+   Garza-Caligaris, JF
+   Kanninen, M
+   Karjalainen, T
+   Liski, J
+   Nabuurs, GJ
+   Pussinen, A
+   de Jong, BHJ
+   Mohren, GMJ
+AF Masera, OR
+   Garza-Caligaris, JF
+   Kanninen, M
+   Karjalainen, T
+   Liski, J
+   Nabuurs, GJ
+   Pussinen, A
+   de Jong, BHJ
+   Mohren, GMJ
+TI Modeling carbon sequestration in afforestation, agroforestry and forest
+   management projects: the CO2FIX V.2 approach
+SO ECOLOGICAL MODELLING
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Morelia 58089, Michoacan, Mexico.
+   CATIE, Turrialba 7170, Costa Rica.
+   European Forest Inst, FIN-80100 Joensuu, Finland.
+   ALTERRA, NL-6700 AA Wageningen, Netherlands.
+   El Colegio Frontera Sur, Villahermosa, Tab, Mexico.
+   Wageningen Univ, Forest Ecol & Forest Management Grp, Dept Environm Sci, NL-6700 AH Wageningen, Netherlands.
+   Finnish Forest Res Inst, FIN-80101 Joensuu, Finland.
+RP Masera, OR (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, AP 27-3,Xangari, Morelia 58089, Michoacan, Mexico
+EM omasera@oikos.unam.mx
+TC 75
+Z9 78
+SN 0304-3800
+PD JUN 15
+PY 2003
+VL 164
+IS 2-3
+BP 177
+EP 199
+DI 10.1016/S0304-3800(02)00419-2
+UT WOS:000183394200006
+ER
+
+PT J
+AU Read, JM
+   Clark, DB
+   Venticinque, EM
+   Moreira, MP
+AF Read, JM
+   Clark, DB
+   Venticinque, EM
+   Moreira, MP
+TI Application of merged 1-m and 4-m resolution satellite data to research
+   and management in tropical forests
+SO JOURNAL OF APPLIED ECOLOGY
+C1 Syracuse Univ, Maxwell Sch, Dept Geog, Syracuse, NY 13244 USA.
+   Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+   La Selva Biol Stn, Puerto Viejo De Sarapiqu, Costa Rica.
+   INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   INPA, Dept Forest Trop Sci, BR-69011970 Manaus, Amazonas, Brazil.
+RP Read, JM (reprint author), Syracuse Univ, Maxwell Sch, Dept Geog, 144 Eggers Hall, Syracuse, NY 13244 USA
+TC 39
+Z9 43
+SN 0021-8901
+PD JUN
+PY 2003
+VL 40
+IS 3
+BP 592
+EP 600
+DI 10.1046/j.1365-2664.2003.00814.x
+UT WOS:000183283400015
+ER
+
+PT J
+AU Quesada, M
+   Stoner, KE
+   Rosas-Guerrero, V
+   Palacios-Guevara, C
+   Lobo, JA
+AF Quesada, M
+   Stoner, KE
+   Rosas-Guerrero, V
+   Palacios-Guevara, C
+   Lobo, JA
+TI Effects of habitat disruption on the activity of nectarivorous bats
+   (Chiroptera : Phyllostomidae) in a dry tropical forest: implications for
+   the reproductive success of the neotropical tree Ceiba grandiflora
+RID F-6740-2010
+SO OECOLOGIA
+C1 Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+EM mquesada@oikos.unam.mx
+TC 30
+Z9 32
+SN 0029-8549
+PD MAY
+PY 2003
+VL 135
+IS 3
+BP 400
+EP 406
+DI 10.1007/s00442-003-1234-3
+UT WOS:000183198000011
+ER
+
+PT J
+AU Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+AF Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+TI Growth and effects of thinning of mixed and pure plantations with native
+   trees in humid tropical Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Vila Nova Conceicao, BR-04511011 Sao Paulo, Brazil.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Montagnini, F (reprint author), Yale Univ, Sch Forestry & Environm Studies, 370 Prospect St, New Haven, CT 06511 USA
+TC 15
+Z9 16
+SN 0378-1127
+PD APR 7
+PY 2003
+VL 177
+IS 1-3
+BP 427
+EP 439
+DI 10.1016/S0378-1127(02)00445-0
+UT WOS:000182041800033
+ER
+
+PT J
+AU Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+AF Piotto, D
+   Montagnini, F
+   Ugalde, L
+   Kanninen, M
+TI Performance of forest plantations in small and medium-sized farms in the
+   Atlantic lowlands of Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Montagnini, F (reprint author), Yale Univ, Sch Forestry & Environm Studies, 370 Prospect St, New Haven, CT 06511 USA
+TC 32
+Z9 33
+SN 0378-1127
+PD MAR 3
+PY 2003
+VL 175
+IS 1-3
+BP 195
+EP 204
+DI 10.1016/S0378-1127(02)00127-5
+UT WOS:000181504000014
+ER
+
+PT J
+AU Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+AF Schaller, M
+   Schroth, G
+   Beer, J
+   Jimenez, F
+TI Species and site characteristics that permit the association of
+   fast-growing trees with crops: the case of Eucalyptus deglupta as coffee
+   shade in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Natl Inst Res Amazon, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   German Dev Serv, Ded, BR-50050340 Recife, PE, Brazil.
+   CATIE, Turrialba 7170, Costa Rica.
+RP Schroth, G (reprint author), Natl Inst Res Amazon, Biol Dynam Forest Fragments Project, CP 478, BR-69011970 Manaus, Amazonas, Brazil, Brazil
+TC 11
+Z9 11
+SN 0378-1127
+PD MAR 3
+PY 2003
+VL 175
+IS 1-3
+BP 205
+EP 215
+DI 10.1016/S0378-1127(02)00079-8
+UT WOS:000181504000015
+ER
+
+PT J
+AU Cordero, LDP
+   Kanninen, M
+   Arias, LAU
+AF Cordero, LDP
+   Kanninen, M
+   Arias, LAU
+TI Stand growth scenarios for Bombacopsis quinata plantations in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Ctr Agron Trop Invest & Ensenanza, Res Program, Turrialba 7170, Costa Rica.
+   Univ Helsinki, Helsinki, Finland.
+RP Kanninen, M (reprint author), Ctr Agron Trop Invest & Ensenanza, Res Program, Turrialba 7170, Costa Rica
+TC 0
+Z9 0
+SN 0378-1127
+PD FEB 17
+PY 2003
+VL 174
+IS 1-3
+BP 345
+EP 352
+UT WOS:000181137200026
+ER
+
+PT J
+AU Fuchs, EJ
+   Lobo, JA
+   Quesada, M
+AF Fuchs, EJ
+   Lobo, JA
+   Quesada, M
+TI Effects of forest fragmentation and flowering phenology on the
+   reproductive success and mating patterns of the tropical dry forest tree
+   Pachira quinata
+RID A-9963-2010
+SO CONSERVATION BIOLOGY
+C1 Univ Nacl Autonoma Mexico, Dept Ecol Recursos Nat, Inst Ecol, Morelia 58089, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Dept Ecol Recursos Nat, Inst Ecol, Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+TC 65
+Z9 74
+SN 0888-8892
+PD FEB
+PY 2003
+VL 17
+IS 1
+BP 149
+EP 157
+DI 10.1046/j.1523-1739.2003.01140.x
+UT WOS:000180846200019
+ER
+
+PT J
+AU Gateno, D
+   Leon, A
+   Barki, Y
+   Cortes, J
+   Rinkevich, B
+AF Gateno, D
+   Leon, A
+   Barki, Y
+   Cortes, J
+   Rinkevich, B
+TI Skeletal tumor formations in the massive coral Pavona clavus
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Israel Oceanog & Limnol Res, Natl Inst Oceanog, IL-31080 Haifa, Israel.
+   Univ Costa Rica, Ctr Invest Ciencias Mar & Limnol, San Jose 2060, Costa Rica.
+RP Rinkevich, B (reprint author), Israel Oceanog & Limnol Res, Natl Inst Oceanog, POB 8030, IL-31080 Haifa, Israel
+TC 13
+Z9 14
+SN 0171-8630
+PY 2003
+VL 258
+BP 97
+EP 108
+DI 10.3354/meps258097
+UT WOS:000185560800010
+ER
+
+PT J
+AU Carrillo, E
+   Saenz, JC
+   Fuller, TK
+AF Carrillo, E
+   Saenz, JC
+   Fuller, TK
+TI Movements and activities of white-lipped peccaries in corcovado National
+   Park, Costa Rica
+SO BIOLOGICAL CONSERVATION
+C1 Univ Massachusetts, Dept Nat Resources Conservat, Amherst, MA 01003 USA.
+   Univ Nacl, Programa Reg Manejo Vida Silvestre, Heredia, Costa Rica.
+RP Fuller, TK (reprint author), Univ Massachusetts, Dept Nat Resources Conservat, Amherst, MA 01003 USA
+TC 13
+Z9 13
+SN 0006-3207
+PD DEC
+PY 2002
+VL 108
+IS 3
+BP 317
+EP 324
+DI 10.1016/S0006-3207(02)00118-0
+UT WOS:000178152800007
+ER
+
+PT J
+AU Guariguata, MR
+   Arias-Le Claire, H
+   Jones, G
+AF Guariguata, MR
+   Arias-Le Claire, H
+   Jones, G
+TI Tree seed fate in a logged and fragmented forest landscape, northeastern
+   Costa Rica
+SO BIOTROPICA
+C1 CATIE, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica.
+RP Guariguata, MR (reprint author), CATIE, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica
+TC 23
+Z9 24
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 405
+EP 415
+DI 10.1111/j.1744-7429.2002.tb00554.x
+UT WOS:000178898900008
+ER
+
+PT J
+AU Foerster, CR
+   Vaughan, C
+AF Foerster, CR
+   Vaughan, C
+TI Home range, habitat use, and activity of Baird's tapir in Costa Rica
+SO BIOTROPICA
+C1 Univ Nacl, Program Reg Manejo Vido Silvestre Mesoamer & Cari, Heredia, Costa Rica.
+RP Foerster, CR (reprint author), 445 CR 221, Orange Grove, TX 78372 USA
+TC 16
+Z9 19
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 423
+EP 437
+DI 10.1111/j.1744-7429.2002.tb00556.x
+UT WOS:000178898900010
+ER
+
+PT J
+AU Stoner, KE
+   Quesada, M
+   Rosas-Guerrero, V
+   Lobo, JA
+AF Stoner, KE
+   Quesada, M
+   Rosas-Guerrero, V
+   Lobo, JA
+TI Effects of forest fragmentation on the Colima long-nosed bat
+   (Musonycteris harrisoni) foraging in tropical dry forest of Jalisco,
+   Mexico
+RID F-6740-2010
+SO BIOTROPICA
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Morelia 58009, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+RP Stoner, KE (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Campus Morelia,Apartado Postal 27-3 Xangari, Morelia 58009, Michoacan, Mexico
+TC 14
+Z9 14
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 462
+EP 467
+DI 10.1111/j.1744-7429.2002.tb00562.x
+UT WOS:000178898900016
+ER
+
+PT J
+AU Tobler, MW
+AF Tobler, MW
+TI Habitat use and diet of Baird's tapirs (Tapirus bairdii) in a montane
+   cloud forest of the Cordillera de Talamanca, Costa Rica
+SO BIOTROPICA
+C1 CATIE, Proyecto Silvicultura Bosques Nat, Turrialba, Costa Rica.
+RP Tobler, MW (reprint author), Eselweidweg 30, CH-8833 Samstagern, Switzerland
+EM matobler@gmx.net
+TC 11
+Z9 12
+SN 0006-3606
+PD SEP
+PY 2002
+VL 34
+IS 3
+BP 468
+EP 474
+DI 10.1111/j.1744-7429.2002.tb00563.x
+UT WOS:000178898900017
+ER
+
+PT J
+AU Guariguata, MR
+   Saenz, GP
+AF Guariguata, MR
+   Saenz, GP
+TI Post-logging acorn production and oak regeneration in a tropical montane
+   forest, Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CATIE, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica.
+RP Guariguata, MR (reprint author), CATIE, Unidad Manejo Bosques Nat, Casilla 64, Turrialba 7170, Costa Rica
+TC 15
+Z9 15
+SN 0378-1127
+PD AUG 15
+PY 2002
+VL 167
+IS 1-3
+BP 285
+EP 293
+DI 10.1016/S0378-1127(01)00700-9
+UT WOS:000177023700022
+ER
+
+PT J
+AU Willocquet, L
+   Savary, S
+   Fernandez, L
+   Elazegui, FA
+   Castilla, N
+   Zhu, D
+   Tang, Q
+   Huang, S
+   Lin, X
+   Singh, HM
+   Srivastava, RK
+AF Willocquet, L
+   Savary, S
+   Fernandez, L
+   Elazegui, FA
+   Castilla, N
+   Zhu, D
+   Tang, Q
+   Huang, S
+   Lin, X
+   Singh, HM
+   Srivastava, RK
+TI Structure and validation of RICEPEST, a production situation-driven,
+   crop growth model simulating rice yield response to multiple pest
+   injuries for tropical Asia
+SO ECOLOGICAL MODELLING
+C1 Int Rice Res Inst, IRRI IRD Project Rice Pests Characterisat, Makati 1271, Philippines.
+   Int Rice Res Inst, Entomol & Plant Pathol Div, Makati 1271, Philippines.
+   China Natl Rice Res Inst, Hangzhou 310006, Zhejiang, Peoples R China.
+   Narendra Deva Univ Agr & Technol, Kumarganj 224229, Uttar Pradesh, India.
+RP Willocquet, L (reprint author), CATIE, IRD CBGP CATIE Project Pest Management, Plant Protect Unit, Turrialba 7170, Costa Rica
+TC 12
+Z9 13
+SN 0304-3800
+PD AUG 1
+PY 2002
+VL 153
+IS 3
+BP 247
+EP 268
+DI 10.1016/S0304-3800(02)00014-5
+UT WOS:000177071900004
+ER
+
+PT J
+AU Cordero, LDP
+   Kanninen, M
+AF Cordero, LDP
+   Kanninen, M
+TI Wood specific gravity and aboveground biomass of Bombacopsis quinata
+   plantations in Costa Rica
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CATIE, Res Program, Turrialba 7170, Costa Rica.
+   Agreement Ctr Agron Trop Invest & Ensenanza, Turrialba, Costa Rica.
+   Univ Helsinki, Helsinki, Finland.
+RP Kanninen, M (reprint author), CATIE, Res Program, Turrialba 7170, Costa Rica
+TC 4
+Z9 5
+SN 0378-1127
+PD JUL 15
+PY 2002
+VL 165
+IS 1-3
+BP 1
+EP 9
+UT WOS:000176620100001
+ER
+
+PT J
+AU Dominy, NJ
+   Lucas, PW
+   Ramsden, LW
+   Riba-Hernandez, P
+   Stoner, KE
+   Turner, IM
+AF Dominy, NJ
+   Lucas, PW
+   Ramsden, LW
+   Riba-Hernandez, P
+   Stoner, KE
+   Turner, IM
+TI Why are young leaves red?
+SO OIKOS
+C1 Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   Univ Hong Kong, Dept Anat, Hong Kong, Hong Kong, Peoples R China.
+   Univ Hong Kong, Dept Bot, Hong Kong, Hong Kong, Peoples R China.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   Univ Nacl Autonoma Mexico, Dept Recursos Nat, Inst Ecol, Morelia 58089, Michoacan, Mexico.
+   Singapore Bot Gardens, Singapore 259569, Singapore.
+RP Dominy, NJ (reprint author), Univ Chicago, Dept Ecol & Evolut, 1101 E 57th St, Chicago, IL 60637 USA
+EM njdominy@uchicago.edu
+TC 27
+Z9 32
+SN 0030-1299
+PD JUL
+PY 2002
+VL 98
+IS 1
+BP 163
+EP 176
+DI 10.1034/j.1600-0706.2002.980117.x
+UT WOS:000177271600017
+ER
+
+PT J
+AU Jimenez, I
+AF Jimenez, I
+TI Heavy poaching in prime habitat: the conservation status of the West
+   Indian manatee in Nicaragua
+SO ORYX
+C1 Univ Nacl, Programa Reg Manejo Vida Silvestre Mesoamer & Car, Heredia, Costa Rica.
+RP Jimenez, I (reprint author), Especies & Espacios Int, Avda Suecua 27,7, Valencia 46010, Spain
+TC 2
+Z9 3
+SN 0030-6053
+PD JUL
+PY 2002
+VL 36
+IS 3
+BP 272
+EP 278
+DI 10.1017/S0030605302000492
+UT WOS:000177616900015
+ER
+
+PT J
+AU Carnevale, NJ
+   Montagnini, F
+AF Carnevale, NJ
+   Montagnini, F
+TI Facilitating regeneration of secondary forests with the use of mixed and
+   pure plantations of indigenous tree species
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Nacl Rosario, Fac Agr Sci, Zavalla, Santa Fe, Argentina.
+   Ctr Agron Trop Invest & Ensenanza, CATIE, Turrialba 7170, Costa Rica.
+RP Montagnini, F (reprint author), Yale Univ, Sch Forestry & Environm Studies, 370 Prospect St, New Haven, CT 06511 USA
+TC 45
+Z9 49
+SN 0378-1127
+PD JUN 28
+PY 2002
+VL 163
+IS 1-3
+BP 217
+EP 227
+DI 10.1016/S0378-1127(01)00581-3
+UT WOS:000176460500017
+ER
+
+PT J
+AU Gilbert, GS
+   Ferrer, A
+   Carranza, J
+AF Gilbert, GS
+   Ferrer, A
+   Carranza, J
+TI Polypore fungal diversity and host density in a moist tropical forest
+RID C-2595-2008
+SO BIODIVERSITY AND CONSERVATION
+CT 7th Meeting of the Subsidiary Body on Scientific, Technical and
+   Technological Advice of the Convention on Biological Diversity
+CY NOV 12-16, 2001
+CL MONTREAL, CANADA
+C1 Univ Calif Santa Cruz, Dept Environm Studies, Santa Cruz, CA 95064 USA.
+   Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   SUNY Coll Environm Sci & Forestry, Dept Environm & Forest Biol, Syracuse, NY 13210 USA.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+RP Gilbert, GS (reprint author), Univ Calif Santa Cruz, Dept Environm Studies, 481 Nat Sci 2, Santa Cruz, CA 95064 USA
+TC 25
+Z9 26
+SN 0960-3115
+PD JUN
+PY 2002
+VL 11
+IS 6
+BP 947
+EP 957
+DI 10.1023/A:1015896204113
+UT WOS:000176184700002
+ER
+
+PT J
+AU Nadkarni, NM
+   Solano, R
+AF Nadkarni, NM
+   Solano, R
+TI Potential effects of climate change on canopy communities in a tropical
+   cloud forest: an experimental approach
+SO OECOLOGIA
+C1 Evergreen State Coll, Olympia, WA 98505 USA.
+   Monteverde, Puntarenas, Costa Rica.
+RP Nadkarni, NM (reprint author), Evergreen State Coll, Olympia, WA 98505 USA
+TC 31
+Z9 43
+SN 0029-8549
+PD MAY
+PY 2002
+VL 131
+IS 4
+BP 580
+EP 586
+DI 10.1007/s00442-002-0899-3
+UT WOS:000176218000013
+ER
+
+PT J
+AU Altrichter, M
+   Almeida, R
+AF Altrichter, M
+   Almeida, R
+TI Exploitation of white-lipped peccaries Tayassu pecari (Artiodactyla :
+   Tayassuidae) on the Osa Peninsula, Costa Rica
+SO ORYX
+C1 Univ Nacl APDO, Program Reg & Manejo Vida Silvestre, Heredia 13503000, Costa Rica.
+RP Almeida, R (reprint author), Univ Arizona, Sch Renewable Nat Resources, 104 BioSci E, Tucson, AZ 85721 USA
+TC 10
+Z9 10
+SN 0030-6053
+PD APR
+PY 2002
+VL 36
+IS 2
+BP 126
+EP 132
+DI 10.1017/S0030605302000194
+UT WOS:000176832700014
+ER
+
+PT J
+AU Altrichter, M
+   Drews, C
+   Saenz, JC
+   Carrillo, E
+AF Altrichter, M
+   Drews, C
+   Saenz, JC
+   Carrillo, E
+TI Time budget of the white-lipped peccary (Tayassu pecari) in a Costa
+   Rican Rain Forest
+SO BIOTROPICA
+C1 Univ Nacl, Programa Reg Manejo Vida Silvestre Mesoamer & Car, Heredia, Costa Rica.
+RP Altrichter, M (reprint author), Univ Arizona, Sch Renewable Nat Resources, Fish & Wildlife Unit, 104 BioSci E, Tucson, AZ 85721 USA
+TC 6
+Z9 6
+SN 0006-3606
+PD MAR
+PY 2002
+VL 34
+IS 1
+BP 136
+EP 143
+DI 10.1111/j.1744-7429.2002.tb00249.x
+UT WOS:000175063600013
+ER
+
+PT J
+AU Borchert, R
+   Rivera, G
+   Hagnauer, W
+AF Borchert, R
+   Rivera, G
+   Hagnauer, W
+TI Modification of vegetative phenology in a tropical semi-deciduous forest
+   by abnormal drought and rain
+SO BIOTROPICA
+C1 Univ Kansas, Div Biol Sci, Lawrence, KS 66045 USA.
+   Univ Nacl Cordoba, Inst Multidisciplinario Biol Vegetal, RA-5000 Cordoba, Argentina.
+   Finca Las Pumas, Canas 6400, Guanacaste, Costa Rica.
+RP Borchert, R (reprint author), Univ Kansas, Div Biol Sci, 1200 Haworth Hall,Sunnyside Ave, Lawrence, KS 66045 USA
+TC 47
+Z9 53
+SN 0006-3606
+PD MAR
+PY 2002
+VL 34
+IS 1
+BP 27
+EP 39
+DI 10.1111/j.1744-7429.2002.tb00239.x
+UT WOS:000175063600003
+ER
+
+PT J
+AU Briceno, RD
+   Eberhard, WG
+AF Briceno, RD
+   Eberhard, WG
+TI Courtship in the medfly, Ceratitis capitata, includes tactile
+   stimulation with the male's aristae
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 Univ Costa Rica, Smithsonian Trop Res Inst, San Jose, Costa Rica.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Eberhard, WG (reprint author), Univ Costa Rica, Smithsonian Trop Res Inst, Ciudad Univ, San Jose, Costa Rica
+TC 7
+Z9 7
+SN 0013-8703
+PD MAR
+PY 2002
+VL 102
+IS 3
+BP 221
+EP 228
+DI 10.1046/j.1570-7458.2002.00943.x
+UT WOS:000177169900002
+ER
+
+PT J
+AU Cascante, A
+   Quesada, M
+   Lobo, JJ
+   Fuchs, EA
+AF Cascante, A
+   Quesada, M
+   Lobo, JJ
+   Fuchs, EA
+TI Effects of dry tropical forest fragmentation on the reproductive success
+   and genetic structure of the tree Samanea saman
+RID A-9963-2010
+SO CONSERVATION BIOLOGY
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Morelia 58089, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+EM mquesada@oikos.unam.mx
+TC 85
+Z9 89
+SN 0888-8892
+PD FEB
+PY 2002
+VL 16
+IS 1
+BP 137
+EP 147
+DI 10.1046/j.1523-1739.2002.00317.x
+UT WOS:000173726400014
+ER
+
+PT J
+AU Jimenez-Montealegre, R
+   Verdegem, MCJ
+   van Dam, A
+   Verreth, JAJ
+AF Jimenez-Montealegre, R
+   Verdegem, MCJ
+   van Dam, A
+   Verreth, JAJ
+TI Conceptualization and validation of a dynamic model for the simulation
+   of nitrogen transformations and fluxes in fish ponds
+SO ECOLOGICAL MODELLING
+C1 Univ Nacl, Escuela Ciencias Biol, Heredia, Costa Rica.
+   Univ Wageningen & Res Ctr, Wageningen Inst Anim Sci, Fish Culture & Fisheries Grp, NL-6700 AH Wageningen, Netherlands.
+RP Jimenez-Montealegre, R (reprint author), Univ Nacl, Escuela Ciencias Biol, POB 86-3000, Heredia, Costa Rica
+TC 13
+Z9 15
+SN 0304-3800
+PD JAN 15
+PY 2002
+VL 147
+IS 2
+BP 123
+EP 152
+DI 10.1016/S0304-3800(01)00403-3
+UT WOS:000173501400002
+ER
+
+PT J
+AU Marten, S
+   Quesada, M
+AF Marten, S
+   Quesada, M
+TI Phenology, sexual expression, and reproductive success of the rare
+   neotropical palm Geonoma epetiolata
+SO BIOTROPICA
+C1 Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Morelia 58089, Michoacan, Mexico.
+   Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Quesada, M (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Dept Ecol Recursos Nat, Apartado Postal 27-3 Xangari, Morelia 58089, Michoacan, Mexico
+TC 8
+Z9 9
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 596
+EP 605
+DI 10.1646/0006-3606(2001)033[0596:PSEARS]2.0.CO;2
+UT WOS:000173456300006
+ER
+
+PT J
+AU Notman, E
+   Gorchov, DL
+AF Notman, E
+   Gorchov, DL
+TI Variation in post-dispersal seed predation in mature Peruvian lowland
+   tropical forest and fallow agricultural sites
+SO BIOTROPICA
+C1 Miami Univ, Dept Bot, Oxford, OH 45056 USA.
+RP Notman, E (reprint author), Org Trop Studies, Apartado 676, San Pedro 2050, Costa Rica
+TC 20
+Z9 22
+SN 0006-3606
+PD DEC
+PY 2001
+VL 33
+IS 4
+BP 621
+EP 636
+DI 10.1111/j.1744-7429.2001.tb00220.x
+UT WOS:000173456300008
+ER
+
+PT J
+AU Prohl, H
+   Berke, O
+AF Prohl, H
+   Berke, O
+TI Spatial distributions of male and female strawberry poison frogs and
+   their relation to female reproductive resources
+RID F-7798-2010
+SO OECOLOGIA
+C1 Tierarztlichen Hsch Hannover, Inst Zool, D-3000 Hannover, Germany.
+   Tierarztlichen Hsch Hannover, Inst Biometrie Epidemiol & Informat Verarbeitung, D-3000 Hannover, Germany.
+RP Prohl, H (reprint author), San Joaquin Flores, Calle Cementerio,50 m Este Salon Fiestas La Finic, Heredia, Costa Rica
+TC 26
+Z9 27
+SN 0029-8549
+PD DEC
+PY 2001
+VL 129
+IS 4
+BP 534
+EP 542
+UT WOS:000172685100007
+ER
+
+PT J
+AU Young, BE
+   Lips, KR
+   Reaser, JK
+   Ibanez, R
+   Salas, AW
+   Cedeno, JR
+   Coloma, LA
+   Ron, S
+   La Marca, E
+   Meyer, JR
+   Munoz, A
+   Bolanos, F
+   Chaves, G
+   Romo, D
+AF Young, BE
+   Lips, KR
+   Reaser, JK
+   Ibanez, R
+   Salas, AW
+   Cedeno, JR
+   Coloma, LA
+   Ron, S
+   La Marca, E
+   Meyer, JR
+   Munoz, A
+   Bolanos, F
+   Chaves, G
+   Romo, D
+TI Population declines and priorities for amphibian conservation in Latin
+   America
+SO CONSERVATION BIOLOGY
+C1 Assoc Biodivers Informat, Arlington, VA 22209 USA.
+   So Illinois Univ, Dept Zool, Carbondale, IL 62901 USA.
+   US Dept State, Off Ecol & Terr Conservat, Washington, DC 20520 USA.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Univ Ricardo Palma, Museo Hist Nat, Lima 33, Peru.
+   El Colegio Frontera Sur, Chetumal, Quintana Roo, Mexico.
+   Pontificia Univ Catolica Ecuador, Museo Zool, Quito, Ecuador.
+   Univ Los Andes, Fac Ciencias Forestales & Ambientales, Lab Biogeog, Merida 5101A, Venezuela.
+   Navajo Nat Heritage Program, Window Rock, AZ 86515 USA.
+   El Colegio Frontera Sur, Chiapas, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ San Francisco Quito, Colegio Ciencias Ambientales, Quito, Ecuador.
+RP Young, BE (reprint author), Assoc Biodivers Informat, 1101 Wilson Blvd, Arlington, VA 22209 USA
+TC 115
+Z9 127
+SN 0888-8892
+PD OCT
+PY 2001
+VL 15
+IS 5
+BP 1213
+EP 1223
+DI 10.1046/j.1523-1739.2001.00218.x
+UT WOS:000171501100004
+ER
+
+PT J
+AU Giannini, NP
+   Brenes, FV
+AF Giannini, NP
+   Brenes, FV
+TI Flight cage observations of foraging mode in Phyllostomus discolor,
+   P-hastatus, and Glossophaga commissarisi
+SO BIOTROPICA
+C1 Univ Nacl Tucuman, Fac Ciencias Nat, CONICET, Programa Invest Biodiversidad Argentina, RA-4000 San Miguel De Tucuman, Tucuman, Argentina.
+   Univ Nacl Tucuman, Inst Miguel Lillo, RA-4000 San Miguel De Tucuman, Tucuman, Argentina.
+   Inst Centroamer Invest Biol & Conservac, San Jose, Costa Rica.
+RP Giannini, NP (reprint author), Univ Nacl Tucuman, Fac Ciencias Nat, CONICET, Programa Invest Biodiversidad Argentina, Miguel Lillo 205, RA-4000 San Miguel De Tucuman, Tucuman, Argentina
+TC 2
+Z9 3
+SN 0006-3606
+PD SEP
+PY 2001
+VL 33
+IS 3
+BP 546
+EP 550
+DI 10.1111/j.1744-7429.2001.tb00211.x
+UT WOS:000171709800020
+ER
+
+PT J
+AU Jukofsky, D
+AF Jukofsky, D
+TI Shared conservation experiences
+SO CONSERVATION BIOLOGY
+C1 Rainforest Alliance, Moravia, Costa Rica.
+RP Jukofsky, D (reprint author), Rainforest Alliance, Apdo 138-2150, Moravia, Costa Rica
+TC 0
+Z9 0
+SN 0888-8892
+PD AUG
+PY 2001
+VL 15
+IS 4
+BP 818
+EP 819
+DI 10.1046/j.1523-1739.2001.00014-3.x
+UT WOS:000170179600004
+ER
+
+PT J
+AU Guariguata, MR
+   Ostertag, R
+AF Guariguata, MR
+   Ostertag, R
+TI Neotropical secondary forest succession: changes in structural and
+   functional characteristics
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Ctr Agron Trop Invest & Enzenanza, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica.
+   Univ Calif Berkeley, Dept Environm Sci Policy & Management, Berkeley, CA 94720 USA.
+   US Forest Serv, Int Inst Trop Forestry, USDA, Rio Piedras, PR 00928 USA.
+RP Guariguata, MR (reprint author), Ctr Agron Trop Invest & Enzenanza, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica
+EM mguarigu@catie.ac.cr
+TC 183
+Z9 208
+SN 0378-1127
+PD JUL 1
+PY 2001
+VL 148
+IS 1-3
+BP 185
+EP 206
+DI 10.1016/S0378-1127(00)00535-1
+UT WOS:000169328200017
+ER
+
+PT J
+AU Cornelius, JP
+AF Cornelius, JP
+TI The effectiveness of pruning in mitigating Hypsipyla grandella attack on
+   young mahogany (Swietenia macrophylla King) trees
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Trop Agr Res & Higher Educ Ctr, CATIE, Turrialba 7170, Costa Rica.
+RP Cornelius, JP (reprint author), Trop Agr Res & Higher Educ Ctr, CATIE, Turrialba 7170, Costa Rica
+TC 4
+Z9 6
+SN 0378-1127
+PD JUL 1
+PY 2001
+VL 148
+IS 1-3
+BP 287
+EP 289
+DI 10.1016/S0378-1127(00)00531-4
+UT WOS:000169328200023
+ER
+
+PT J
+AU Young, KA
+AF Young, KA
+TI Defining units of conservation for intraspecific biodiversity: Reply to
+   Dimmick et al.
+SO CONSERVATION BIOLOGY
+C1 Univ British Columbia, Dept Forest Sci, Ctr Appl Conservat Biol, Vancouver, BC V6T 1Z4, Canada.
+RP Young, KA (reprint author), Assoc Biodivers Informat, Apdo 75, Puntarenas 5655, Costa Rica, Costa Rica
+TC 5
+Z9 5
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 784
+EP 787
+DI 10.1046/j.1523-1739.2001.015003784.x
+UT WOS:000169226000027
+ER
+
+PT J
+AU O'Neill, GA
+   Dawson, I
+   Sotelo-Montes, C
+   Guarino, L
+   Guariguata, M
+   Current, D
+   Weber, JC
+AF O'Neill, GA
+   Dawson, I
+   Sotelo-Montes, C
+   Guarino, L
+   Guariguata, M
+   Current, D
+   Weber, JC
+TI Strategies for genetic conservation of trees in the Peruvian Amazon
+SO BIODIVERSITY AND CONSERVATION
+C1 Int Ctr Res Agroforestry, Inst Nacl Invest Agr, Estac Expt, Pucallpa, Peru.
+   Int Ctr Res Agroforestry, Nairobi, Kenya.
+   Ctr Int Agr Trop, Reg Off Amer, Int Plant Genet Resources Inst, Cali, Colombia.
+   Ctr Agron Trop Invest & Ensenanza, Turrialba 7170, Costa Rica.
+RP O'Neill, GA (reprint author), Univ British Columbia, Dept Forest Sci, 3041-2424 Main Mall, Vancouver, BC V6T 1Z4, Canada
+EM goneill@interchange.ubc.ca
+TC 18
+Z9 19
+SN 0960-3115
+PD JUN
+PY 2001
+VL 10
+IS 6
+BP 837
+EP 850
+DI 10.1023/A:1016644706237
+UT WOS:000169326200001
+ER
+
+PT J
+AU Gould, KA
+   Herrick, JE
+   Lezama, H
+AF Gould, KA
+   Herrick, JE
+   Lezama, H
+TI Refuse to refuge: Dry season use and modification of cattle dung by
+   subterranean termites in Guanacaste, Costa Rica
+SO BIOTROPICA
+C1 Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   New Mexico State Univ, USDA ARS, Jornada Expt Range, Las Cruces, NM 88003 USA.
+   Univ Costa Rica, Museo Insectos, San Jose, Costa Rica.
+RP Gould, KA (reprint author), Univ Florida, Sch Forest Resources & Conservat, 373 Newins Ziegler Hall, Gainesville, FL 32611 USA
+TC 1
+Z9 1
+SN 0006-3606
+PD MAR
+PY 2001
+VL 33
+IS 1
+BP 121
+EP 130
+DI 10.1646/0006-3606(2001)033[0121:RTRDSU]2.0.CO;2
+UT WOS:000168959800011
+ER
+
+PT J
+AU Biesmeijer, JC
+   de Vries, H
+AF Biesmeijer, JC
+   de Vries, H
+TI Exploration and exploitation of food sources by social insect colonies:
+   a revision of the scout-recruit concept
+RID B-9359-2011
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Univ Utrecht, Ethol & Socioecol Grp, NL-3508 TB Utrecht, Netherlands.
+RP Biesmeijer, JC (reprint author), Apartado Postal 2270-3000, Heredia, Costa Rica
+TC 46
+Z9 47
+SN 0340-5443
+PD JAN
+PY 2001
+VL 49
+IS 2-3
+BP 89
+EP 99
+DI 10.1007/s002650000289
+UT WOS:000166818400001
+ER
+
+PT J
+AU Boucher, DH
+   Vandermeer, JH
+   de la Cerda, IG
+   Mallona, MA
+   Perfecto, I
+   Zamora, N
+AF Boucher, DH
+   Vandermeer, JH
+   de la Cerda, IG
+   Mallona, MA
+   Perfecto, I
+   Zamora, N
+TI Post-agriculture versus post-hurricane succession in southeastern
+   Nicaraguan rain forest
+SO PLANT ECOLOGY
+C1 Hood Coll, Dept Biol, Frederick, MD 21701 USA.
+   Univ Maryland, Ctr Environm Sci, Appalachian Lab, Frostburg, MD 21532 USA.
+   Univ Michigan, Dept Biol, Ann Arbor, MI 48109 USA.
+   Cuerpo Paz, Programa Recursos Nat, Managua, Nicaragua.
+   Univ Michigan, Sch Nat Resources & Environm, Ann Arbor, MI 48109 USA.
+   Inst Nacl Biodivers, Dept Bot, Santo Domingo De Heredia, Costa Rica.
+RP Boucher, DH (reprint author), Hood Coll, Dept Biol, 401 Rosemont Ave, Frederick, MD 21701 USA
+TC 14
+Z9 16
+SN 1385-0237
+PY 2001
+VL 156
+IS 2
+BP 131
+EP 137
+DI 10.1023/A:1012672005360
+UT WOS:000172074900002
+ER
+
+PT J
+AU Saenz, GP
+   Guariguata, MR
+AF Saenz, GP
+   Guariguata, MR
+TI Demographic response of tree juveniles to reduced-impact logging in a
+   Costa Rican montane forest
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 CATIE, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica.
+RP Guariguata, MR (reprint author), CATIE, Unidad Manejo Bosques Nat, Turrialba 7170, Costa Rica, Costa Rica
+TC 4
+Z9 5
+SN 0378-1127
+PD JAN 1
+PY 2001
+VL 140
+IS 1
+BP 75
+EP 84
+DI 10.1016/S0378-1127(00)00278-4
+UT WOS:000166336100007
+ER
+
+EF
