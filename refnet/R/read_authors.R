@@ -64,10 +64,16 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
       RI_df<-data.frame(do.call(rbind,lapply(strsplit(RI,'/'), function(x)x[1:2])),stringsAsFactors=F)
       # Match the author names to the RIs affiliations, this is not as exact as you think it would be
       colnames(RI_df)<-c('RI_names','RI')
+      
       match_ri<-sapply(RI_df[,1], function(x) {
         jw<-jarowinkler(x,authors_AU)
         jw==max(jw) & jw>0.8})
-      RI_df$matchname<-unlist(apply(match_ri, 2, function(x)ifelse(sum(x)==0,'',authors_AU[x])))
+      if(length(authors_AU)>1){  
+        RI_df$matchname<-unlist(apply(match_ri, 2, function(x)ifelse(sum(x)==0,'',authors_AU[x])))
+      }
+      if(length(authors_AU)==1){
+        RI_df$matchname <- ifelse(sum(match_ri)==0,'',authors_AU[match_ri]) 
+      }
     }
     
     #RI
