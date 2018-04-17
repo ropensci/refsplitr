@@ -7,11 +7,9 @@
 #' 
 #' \code{plot_addresses_country} This function plots an addresses data.frame object by country name.
 #' 
-#' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
+#' @param addresses output from the extract_country_name() function, containing geocoded address latitude and longitude locations.
 
 plot_addresses_country <- function(data=df) {
-  ###	Exapmle plot by country (using just reprint author):
-  #country_name <- gsub("^.* ([A-z]*)\n$", "\\1", addresses$RP, perl=TRUE)
   country_name <- df$country
   
   country_name_table <- as.data.frame(table(country_name))
