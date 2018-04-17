@@ -9,21 +9,13 @@
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 
-plot_addresses_country <- function(addresses) {
+plot_addresses_country <- function(data=df) {
   ###	Exapmle plot by country (using just reprint author):
   #country_name <- gsub("^.* ([A-z]*)\n$", "\\1", addresses$RP, perl=TRUE)
-  country_name <- addresses$country_name
-  
-  country_name[country_name == "USA"] <- "United States"
-  country_name[country_name == "England"] <- "United Kingdom"
-  country_name[country_name == "Scotland"] <- "United Kingdom"
-  country_name[country_name == "Wales"] <- "United Kingdom"
-  country_name[country_name == "The Netherlands"] <- "Netherlands"
-  #country_name[country_name == "Zealand"] <- "New Zealand"
+  country_name <- df$country
   
   country_name_table <- as.data.frame(table(country_name))
   
-  #install.packages("rworldmap")
   require(rworldmap)
   
   mapdata <- joinCountryData2Map(country_name_table, joinCode="NAME", nameJoinColumn="country_name", verbose=TRUE)
