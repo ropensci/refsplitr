@@ -10,11 +10,11 @@
 
 plot_addresses_points <- function(data=df) {
   ##	Remove any addresses that have NA values:
-  df <- df[!is.na(df$lon) | !is.na(df$lat),]
+  data <- data[!is.na(data$lon) | !is.na(data$lat),]
   
   ##	Convert our lat/long coordinates to a SpatialPointsDataFrame:
-  spatial_points <- SpatialPoints(cbind(as.numeric(df$lon), as.numeric(df$lat)))
-  spatial_authors <- SpatialPointsDataFrame(spatial_points, df)
+  spatial_points <- SpatialPoints(cbind(as.numeric(data$lon), as.numeric(data$lat)))
+  spatial_authors <- SpatialPointsDataFrame(spatial_points, data)
   
   
   ##	Get the world map from rworldmap package:

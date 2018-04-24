@@ -10,7 +10,7 @@
 #' @param addresses output from the extract_country_name() function, containing geocoded address latitude and longitude locations.
 
 plot_addresses_country <- function(data=df) {
-  country_name <- df$country
+  country_name <- data$country
   
   country_name_table <- as.data.frame(table(country_name))
   

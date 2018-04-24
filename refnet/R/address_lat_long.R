@@ -7,11 +7,11 @@
 address_lat_long <- function(data=df,
                              address_column="address"){
   # Read in the CSV data and store it in a variable 
-  origAddress <- separate(data=data, col = address_column,
+  
+origAddress <- separate(data=data, col = address_column,
                     into=c("university","department","short_address"),
                     sep=",",extra = "merge", remove=FALSE) %>%
-    mutate(country=stri_extract_last_words(short_address),
-           postal_code = str_extract(string=short_address, 
+    mutate(postal_code = str_extract(string=short_address, 
            pattern="[:alpha:]{2}[:punct:]{1}[:digit:]{1,8}|[:space:][:upper:][:digit:][:upper:][:space:][:digit:][:upper:][:digit:]|[:alpha:][:punct:][:digit:]{4}")) %>%
     mutate(postal_code = ifelse(is.na(postal_code), 
                       str_extract(string=short_address,
@@ -19,8 +19,12 @@ address_lat_long <- function(data=df,
     mutate(postal_code = ifelse(is.na(postal_code), 
                       str_extract(string=short_address,
 pattern="[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"),
-postal_code),
-           paste_address = paste(country, postal_code))
+postal_code))
+
+
+origAddress <- extract_country_name(origAddress)
+
+origAddress$paste_address <- paste(origAddress$country, origAddress$postal_code)
   
   # Initialize the data frame
   geocoded <- data.frame(stringsAsFactors = FALSE)
