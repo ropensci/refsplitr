@@ -17,7 +17,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
   for(ref in 1:nrow(references)){
     #ref<-2818
-    if(ref==1){print('Now summarizing author records')}
+    if(ref==1){print('Summarizing author records')}
     
     #Split out authors and author emails
     authors_AU <- as.character(unlist(strsplit(references[ref,]$AU, "\n")))
@@ -185,7 +185,7 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   #we start on the 2nd record as we assume the 1st record is novel
   for(i in 2:nrow(final)){
    #for(i in 2:1000){
-    if(i==2){print('Now matching similar authors records')}
+    if(i==2){print('Matching similar authors names')}
     #i<-2
     changeID<-NA
     novelids<-unlist(novel) #every iteration we rebuild the list of novelIDs and authors
