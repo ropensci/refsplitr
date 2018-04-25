@@ -14,7 +14,7 @@
 read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   
   list1<-list()
-  if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
+  #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
   for(ref in 1:nrow(references)){
     #ref<-2818
     if(ref==1){print('Now summarizing author records')}
@@ -134,13 +134,57 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   final$groupID<-final$authorID
   final$match_name<-NA
   final$similarity<-NA
+  
   ############################################
   # This is a secondary function to match authors that are likely to be the same person. This could
   # possibly be done in a seperate function, but it seems to make sense to nest it here
+  # 
+  # Because we are matching names, we're going to split the author names into their first,last,middle component.
+  # This does this for the first entry and creates a list of novel names that we will step through later
+  novel.df<-data.frame(id=rep(NA,nrow(final)),first=NA,middle=NA,last=NA)
+  
+  ############################################
+  # Split Names function
+  ###########################################
+  split.names<-function(x){
+    first<-NA;middle<-NA;last<-NA
+    #x<-final$AF[1]
+    #split first by commas, as we assume this is atleast seperating the last name from the rest of the information
+    first.split<-strsplit(x,',')
+    #we are going to assume the very first split before the comma is the last name
+    last<-first.split[[1]][1]
+    
+    #Since we've already split by commas, the next most comma split is by spaces. This can be dangerous if someone has a space in their first name, for now we'll assume it doesnt
+    second.split<-strsplit(first.split[[1]][-1],' ')
+    #delete trailing spaces (maybe a better way to do that)
+    second.split<-unlist(second.split)
+    second.split<-second.split[nchar(second.split)>0]
+    
+    #now we assume that the first name after the first comma is the first name, this is pretty standard so it should be safe enough of an assumption. 
+    #However because we often have First initials and middle intials shoved together with no space we have to specify lower case
+    
+    first<- regmatches(second.split,regexpr("[A-Z][a-z]*",second.split))[1]
+    
+    # Middle names are messy because they have multiple parts, spaces, names, and jrs srs, for the sake of this analysis
+    # we'll just shove the names together. Even though this might not be 'correct'. 
+    if(length(second.split)>1){
+      third.split<-second.split[-1]
+      middle<- gsub('[\\./,]','',paste0(third.split,collapse=''))
+    }
+    #Check if first and middle names are just initials and not seperated by period
+    
+    if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))}
+    
+    return(c(first=first, middle=middle, last=last))
+  }
+ ###########################################
+  
+  novel.df[1,c('id','first','middle','last')]<- c(1,split.names(final$AF[1]))
+  
   novel<-list('1'=1) # the novel list is a list of novel authors who get their own GROUPID
   #we start on the 2nd record as we assume the 1st record is novel
   for(i in 2:nrow(final)){
-    #for(i in 2:1000){
+   #for(i in 2:1000){
     if(i==2){print('Now matching similar authors records')}
     #i<-2
     changeID<-NA
@@ -151,57 +195,120 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     #Author matching is done heirarchical starting with simple solutions and then leading to matching using jaro winkler methods
     # in this instance changeID will guide us through the hierarchy, if changeID is anything but NA we skip to the next record unitl a match has been found
     #match by exact OI matches
-    if(is.na(changeID) & !is.na(final$OI[i])){  
-      changeID<-final$authorID[novelids][!is.na(final$OI[novelids]) && fina$OI[i]==final$OI[novelids]][1]
+    if(!is.na(final$OI[i])){  
+      changeID<-final$groupID[!is.na(final$OI[1:(i-1)]) & final$OI[1:(i-1)]==final$OI[i]][1]
     }
-        
-    #match by exact name matches AF
-    if(sum(name==indicesAF)>0){changeID<- final$authorID[novelids][indicesAF==name][1]}
-    
-    #match by exact name matches AU
-    if(sum(name==indicesAU)>0){changeID<- final$authorID[novelids][indicesAU==name][1]}
     
     #match by exact RI matches
     if(is.na(changeID) & !is.na(final$RI[i])){  
-      changeID<-final$authorID[novelids][!is.na(final$RI[novelids]) && fina$RI[i]==final$RI[novelids]][1]
+      changeID<-final$groupID[!is.na(final$RI[1:(i-1)]) & final$RI[1:(i-1)]==final$RI[i]][1]
     }
-
     
-    #If we still dont have a match, we will attempt to match using Jaro-winkler matching algorithm
-    # Currently this is controlled by the sim_score limit. 0.9 seems to match accurately but leave out
-    # more difficult matches. 88% seems fine if you want to hand check. Anything less usually doesn't match correctly.
+    #match by exact name matches AF
+    if(is.na(changeID) & sum(name==indicesAF)>0){changeID<- final$authorID[novelids][indicesAF==name][1]}
+    
+    #match by exact name matches AU
+    if(is.na(changeID) & sum(name==indicesAU)>0){changeID<- final$authorID[novelids][indicesAU==name][1]}
+    
+    #There's a minor problem where an RI/OI exists on only certain of the authors files. So this will match RI/OI if it exists in one but not the original author mention (defunct for now)
+  
+   
+    # #If we still dont have a match, we will attempt to match using Jaro-winkler matching algorithm
+    # # Currently this is controlled by the sim_score limit. 0.9 seems to match accurately but leave out
+    # # more difficult matches. 88% seems fine if you want to hand check. Anything less usually doesn't match correctly.   # Below is defunct until we're sure we want to use the more complicated logic
+    # if(is.na(changeID)){
+    #   jw_m<-jarowinkler(gsub(', ','',name), gsub(', ','',indicesAF))
+    #   choice<-(max(jw_m)==jw_m & jw_m>=sim_score)
+    #   changeID<-final$authorID[novelids][choice][1]
+    #   if(sum(choice)){final$similarity[i]<-jw_m[choice][1]}
+    # }
+    # 
+    ###################################
+    # split name into its first, middle, last component
+    name.df<-split.names(final$AF[i])
+    name.df<-data.frame(first=name.df[1],middle=name.df[2],last=name.df[3],stringsAsFactors=F)
+    
+    #Check name matches
+    #Create a novel names df to compare against
+    novel.names<-novel.df[!is.na(novel.df$id),]
+    
+    #Check first if full first and last name match but and middle initials (in rare instances where middle is full in one but initials in the other)
     if(is.na(changeID)){
-      jw_m<-jarowinkler(gsub(', ','',name), gsub(', ','',indicesAF))
-      choice<-(max(jw_m)==jw_m & jw_m>=sim_score)
-      changeID<-final$authorID[novelids][choice][1]
-      if(sum(choice)){final$similarity[i]<-jw_m[choice][1]}
+    changeID<-novel.names$id[!is.na(novel.names$middle) && (novel.names$first==name.df$first & novel.names$last==name.df$last & substr(novel.names$middle,1,1)==substr(name.df$middle,1,1))]
+    changeID<-ifelse(length(changeID)==0,NA,changeID)
     }
     
-    #If we still never found a match, we can assume the author is novel.
+    #Check second if full last name exist as well as the first and middle letters. Run JW on these
+    # create a subset list to match against where either:
+    # Last Name ALWAYS MATCHES + 
+    #first name only has 1 letter we match first names of any name of any length:
+    # 1. First letter of first and middle match 
+    # 2. First letter of first matches and there is no middle name 
+    # or
+    #first name has more than 1 letter in which case we only match similar names that have only 1 letter and
+    # 1. First letter of first and middle match
+    # 2. First letter of first matches and there is no middle name
+   
+    if(is.na(changeID)){
+      #To make this easier, lets subset by same last name and same first letter of first name
+      name.df$first[is.na(name.df$first)]<-' '
+     sub.names<-novel.names[novel.names$last==name.df$last & (substr(novel.names$first,1,1)==substr(name.df$first,1,1)),]
+      
+     # The reason to do this is I need to match where NAs are involved and this makes the code easier to understand and troubleshoot later. It absolutely can be done with one large logical statement
+     # If the authors name is just an initial
+     if(nchar(name.df$first)==1 &!is.na(name.df$middle)){
+       sub.names<-sub.names[is.na(sub.names$middle) | (!is.na(sub.names$middle)&(substr(sub.names$middle,1,1)==substr(name.df$middle,1,1) )),]
+     }
+     
+     # If the authors name is a full name
+     if(nchar(name.df$first)>1){
+       sub.names<-sub.names[(sub.names$first==name.df$first & (!is.na(sub.names$middle) & (substr(sub.names$middle,1,1)==substr(name.df$middle,1,1) ) | (is.na(sub.names$middle))))  | (nchar(sub.names$first)==1 & (!is.na(sub.names$middle) & (substr(sub.names$middle,1,1)==substr(name.df$middle,1,1) ) | (is.na(sub.names$middle)))) ,]
+       }
+     
+     # If their were names that matched our scrict criteria we will run Jaro_Winkler matching on them
+       if(nrow(sub.names)>0 &&!is.na(sub.names$id) ){                                     
+     jw_m<-jarowinkler(paste0(sub.names$last,sub.names$first,sub.names$middle),paste0(name.df$last,name.df$first,name.df$middle))
+        #choice<-(max(jw_m)==jw_m & jw_m>=sim_score)
+        choice<-(max(jw_m)==jw_m)
+        changeID<-sub.names$id[choice][1]
+        #changeID<-final$authorID[novelids][choice][1]
+        if(sum(choice)>0){final$similarity[i]<-jw_m[choice][1]}
+      }
+    }
+    
+    #If we found a match we'll change the groupID to it's match
     if(!is.na(changeID)){
       final$groupID[i]<-final$groupID[changeID==final$authorID]
       final$match_name[i]<-final$AF[changeID==final$authorID]}
-    if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]}
-    
+    #If we still never found a match, we can assume the author is novel.
+    if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]
+    novel.df[i,c('id','first','middle','last')]<-c(final$authorID[i],name.df)
+    }
     
     ###############################Clock#############################################
-    
     total <- nrow(final)
     pb <- txtProgressBar(min = 0, max = total, style = 3)
     setTxtProgressBar(pb, i)
     flush.console()
     #################################################################################
   }
-  colnames(final)
+  
   final<-final[,c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','RP_address','RI','OI','EM','UT','refID')]
+  #final$groupID[!is.na(final$similarity)]
+  sub<-final[!is.na(final$similarity) | final$authorID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','address','RI','OI','EM')]
+  sub<-sub[order(sub$groupID, sub$authorID),]
   
   #write it out
   if(filename_root != "") {
     write.csv(final, 
+              file=paste0(subset(filename_root,select=-c(match_name,similarity)), "_authors_master.csv"), 
+              row.names=FALSE)
+    
+    write.csv(sub, 
               file=paste0(filename_root, "_authors.csv"), 
               row.names=FALSE)
   }            
   
   #
-  return(final)
+  return(list(master=final,authors=sub))
 } #end function
