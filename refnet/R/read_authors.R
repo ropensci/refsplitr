@@ -300,14 +300,14 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   
   #write it out
   if(filename_root != "") {
-    write.csv(final, 
-              file=paste0(subset(filename_root,select=-c(match_name,similarity)), "_authors_master.csv"), 
+    write.csv(subset(final,select=-c(match_name,similarity)), 
+              file=paste0(filename_root, "_authors_master.csv"), 
               row.names=FALSE)
     
     write.csv(sub, 
               file=paste0(filename_root, "_authors.csv"), 
               row.names=FALSE)
-  }     
+  }                
   #
   return(list(master=final,authors=sub))
 } #end function
