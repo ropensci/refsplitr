@@ -12,6 +12,8 @@ zz <- address_lat_long(data=eb_refined)
 plot_addresses_points(data=zz)
 plot_addresses_country(data=zz)
 
-net_plot_coauthor(addresses=zz)
-net_plot_coauthor_address()
-net_plot_coauthor_country()
+net_plot_coauthor(data=zz)
+
+net_plot_coauthor_country(data=zz)
+
+net_plot_coauthor_address(data=zz)
