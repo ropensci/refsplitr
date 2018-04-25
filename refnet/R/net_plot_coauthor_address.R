@@ -132,8 +132,10 @@ edgeMaker <- function(whichRow, len = 100, curved = TRUE){
   world_map@data$id = rownames(world_map@data)
   world_map.points <- fortify(world_map)
   world_map.df <- full_join(world_map.points, world_map@data, by="id")
+
+products <- list()
   
-  zp1 <- ggplot() + 
+products[["plot"]] <- ggplot() + 
     geom_polygon(data=world_map.df, 
                  aes(long,lat,group=group), 
                  fill=gray(8/10)) +
@@ -162,12 +164,12 @@ edgeMaker <- function(whichRow, len = 100, curved = TRUE){
     scale_size(range = c(5/10, 5/10), guide = "none") + # Customize taper
   empty_theme
 
+  
+products[["data_path"]] <- allEdges
+products[["data_polygon"]] <- world_map.df
+products[["data_points"]] <- data.frame(layoutCoordinates)
 
-  return(zp1)
-  
-  
-  ##	Or, we can get the fanciest and plot great circle networks:
-  ##		http://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/
+  return(products)
 }
 
 ##	END: net_plot_coauthor_address():

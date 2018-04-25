@@ -8,7 +8,7 @@
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 
-plot_addresses_points <- function(data=df) {
+plot_addresses_points <- function(data) {
   ##	Remove any addresses that have NA values:
   data <- data[!is.na(data$lon) | !is.na(data$lat),]
   
