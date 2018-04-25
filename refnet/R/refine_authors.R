@@ -31,10 +31,10 @@ colnames(data1)[colnames(data1)=='AF']<-'author_name'
 
 #write it out
 if(filename_root != "") {
-  write.csv(final, 
+  write.csv(data1, 
             file=paste0(filename_root, "_authors_final.csv"), 
             row.names=FALSE)
-}            
+}                    
 #
 return(data1)
 }
