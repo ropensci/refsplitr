@@ -167,7 +167,9 @@ net_plot_coauthor_country <- function(data) {
   
   world_map.df <- full_join(world_map.points, world_map@data, by="id")
   
-  zp1 <- ggplot() + 
+  products <- list()
+  
+  products[["plot"]] <- ggplot() + 
     geom_polygon(data=world_map.df, aes(long,lat,group=group), fill=gray(8/10)) +
     geom_path(data=world_map.df, aes(long,lat,group=group), color=gray(6/10)) +
     coord_equal() + 
@@ -189,7 +191,11 @@ net_plot_coauthor_country <- function(data) {
   ) + empty_theme  # Clean up plot
   
   
-  return(zp1)
+  products[["data_path"]] <- allEdges
+  products[["data_polygon"]] <- world_map.df
+  products[["data_points"]] <- data.frame(layoutCoordinates)
+  
+  return(products)
   
   
 }
