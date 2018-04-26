@@ -100,7 +100,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   file_list = file_list[ grep(".ciw|.txt", file_list) ]
   
   if (length(file_list) == 0) {
-    close(in_file)
+    #close(in_file)
     stop("ERROR:  The specified file or directory does not contain any Web of Knowledge or ISI Export Format records!")
   }
   print('Now processing all references files')
