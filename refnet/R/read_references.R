@@ -16,7 +16,7 @@
 #'   function will be saved
 
 read_references <- function(data=".", dir=TRUE, filename_root="") {
-  
+
   ##	NOTE: The fields stored in our output table are a combination of the
   ##		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
   ##		Format" both of which are version 1.0:
@@ -92,6 +92,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   if (dir) {
     file_list = dir(path=data)
   }	else {
+    
     file_list = data
   }
   
@@ -106,7 +107,8 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   filename <- file_list[1]
   counter<-1
   for (filename in file_list) {
-    in_file <- file(filename, "r")
+    if(dir){in_file <- file(paste0(data,'/',filename), "r")}
+    if(!dir){in_file <- file(filename, "r")}
     
     field <- ""
     
@@ -123,7 +125,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     
     if (length(read_line) > 0) {
       ###	Check for UTF-8 encoding:
-      #if (substr(read_line, 1, 3) == "﻿") {
+      #if (substr(read_line, 1, 3) == "ï»¿") {
       #	read_line <- substr(read_line, 4, nchar(read_line))
       #}
       ###	Check for alternate UTF-8 encoding:
@@ -270,14 +272,14 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     counter<-counter+1
     flush.console()
     #################################################################################
-    
+     
   }
-  ##############################################3
-  # Post Processing
-  # We need to clean this file, remove trailing spaces where necessary on important sections
-  # I moved this over from the Author code as it was unecessarily complicating the program
-  # email list
-  # We can add to this section as we find things that need to be fixed
+##############################################3
+# Post Processing
+# We need to clean this file, remove trailing spaces where necessary on important sections
+# I moved this over from the Author code as it was unecessarily complicating the program
+# email list
+# We can add to this section as we find things that need to be fixed
   output$EM <- gsub(" ", "", output$EM)
   
   output$EM <- gsub(";", "\n", output$EM)
@@ -298,7 +300,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
-  ############################################  
+############################################  
   if(filename_root != "") {
     write.csv(output, file=paste(filename_root, 
                                  "_references.csv", sep=""), 
