@@ -31,7 +31,7 @@ eb_references <- read_references("./data/EBpubs.txt", dir=FALSE,
 
 eb_authors <- read_authors(eb_references, filename_root="./output/eb")
 
-eb_refined <- refine_authors(authors=eb_authors)
+eb_refined <- refine_authors(authors=eb_authors, master=eb_authors)
 
 save(eb_refined, file="./output/eb_refined.Rdata")
 ```

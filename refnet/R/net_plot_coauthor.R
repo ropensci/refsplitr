@@ -52,8 +52,12 @@ data <- data[!is.na(data$country),]
   ##	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
   linkages_countries_net <- simplify(linkages_countries_net)
 
-  plot(linkages_countries_net, layout=layout.fruchterman.reingold)
+  products <- list()
+  
+products[["plot"]] <-  plot(linkages_countries_net, layout=layout.fruchterman.reingold)
+products[["data"]] <- linkages_countries_net
 
+return(products)
 }
 
 ##	END: net_plot_coauthor():

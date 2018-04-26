@@ -33,7 +33,7 @@ The first argument of "read_references" should point to the folder where your da
     - Ecology.txt: all articles published in Ecology in 2016
 
 ```{r ecuador1read}
-eb_references <- read_references("./data/EBpubs.txt", 
+eb_references <- read_references(data="~/refnet2/data/EBpubs.txt", 
                                  dir=FALSE, 
                                 filename_root="./output/eb")
 
