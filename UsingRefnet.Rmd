@@ -26,7 +26,6 @@ eb_authors <- read_authors(eb_references,
 eb_refined <- refine_authors(authors=eb_authors$authors,
                              master = eb_authors$master)
 
-world <- map_data("world")
 
 zz <- address_lat_long(data=eb_refined)
 

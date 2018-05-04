@@ -36,12 +36,17 @@ origAddress$paste_address <- paste(origAddress$country, origAddress$postal_code)
     address <- origAddress[i,"short_address"]
     
     if(!is.na(address)){
-    result <- geocode(address, output = "latlona", 
-                      source = "dsk")
+      suppressMessages(result <- geocode(address, output = "latlona", 
+                      source = "dsk",
+                      messaging = TRUE))
     
     origAddress$lon[i] <- as.numeric(result[1])
     origAddress$lat[i] <- as.numeric(result[2])
     }
+    total <- nrow(origAddress)
+    pb <- txtProgressBar(min = 0, max = total, style = 3)
+    setTxtProgressBar(pb, i)
+    flush.console()
   }
   
   faileddsk <- origAddress[is.na(origAddress$lat),]
