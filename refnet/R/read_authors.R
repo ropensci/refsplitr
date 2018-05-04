@@ -7,7 +7,7 @@
 #' \code{read_authors} This function extracts authors from a read_references format data.frame object, uses a Jaro-Winkler comparison of first names to try to match authors with multiple Last Name, Initial combinations, filling in potential matches using the AU_ID_Dupe and Similarity fields in the resulting output.  The output is a list containing two data.frame objects, one named authors and the other authors__references, which is a linking table that links authors by the AU_ID field to references data via the UT (Web of Knowledge ID) field.
 #' 
 #' @param references output from the read_references() function
-#' @parm  sim_score similarity score cut off point. Number between 0-1. Default is 88 (liberal)
+#' @param  sim_score similarity score cut off point. Number between 0-1. Default is 88 (liberal)
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
 #'   function will be saved
