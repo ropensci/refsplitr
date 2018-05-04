@@ -7,7 +7,7 @@
 extract_country_name <- function(data,
                                  address_column="address"){
   # loads in country names
-  load("./data/countries.Rdata")
+  data(countries)
   
   # creates an empty column for country names
   data$country <- NA
