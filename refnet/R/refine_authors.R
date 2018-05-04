@@ -7,7 +7,7 @@
 #' 
 #' @param authors authors list that need to be check from read_authors() function
 #' @param master master output from the read_authors() function
-#' @parm  sim_score similarity score cut off point. Number between 0-1.
+#' @param  sim_score similarity score cut off point. Number between 0-1.
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the
 ## so what you need to do is take the authors file and change the names (no au and af), with addresses, title, and authors
