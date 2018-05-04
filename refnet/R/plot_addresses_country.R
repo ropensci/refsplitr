@@ -14,8 +14,6 @@ plot_addresses_country <- function(data) {
   
   country_name_table <- as.data.frame(table(country_name))
   
-  require(rworldmap)
-  
   mapdata <- joinCountryData2Map(country_name_table, joinCode="NAME", nameJoinColumn="country_name", verbose=TRUE)
   
   par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")

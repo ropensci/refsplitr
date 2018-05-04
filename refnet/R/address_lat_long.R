@@ -4,7 +4,7 @@
 #' 
 #' @param data dataframe from refine_authors
 #' @param address_column name of column in quotes where the addresses are
-address_lat_long <- function(data=df,
+address_lat_long <- function(data=df,  
                              address_column="address"){
   # Read in the CSV data and store it in a variable 
   
@@ -36,7 +36,7 @@ origAddress$paste_address <- paste(origAddress$country, origAddress$postal_code)
     address <- origAddress[i,"short_address"]
     
     if(!is.na(address)){
-      suppressMessages(result <- geocode(address, output = "latlona", 
+      suppressWarnings(result <- geocode(address, output = "latlona", 
                       source = "dsk",
                       messaging = TRUE))
     

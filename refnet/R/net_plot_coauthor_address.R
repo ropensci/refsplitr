@@ -11,11 +11,11 @@
 
 net_plot_coauthor_address <- function(data) {
 
-  require(Matrix)
-  require(network)
-  require(sna)
-  require(maps)
-  require(maptools)
+  # require(Matrix)
+  # require(network)
+  # require(sna)
+  # require(maps)
+  # require(maptools)
   
   data <- data[!is.na(data$country),]
   

@@ -36,8 +36,7 @@ data <- data[!is.na(data$country),]
   linkages_references <- t(linkages) %*% linkages
   
   ##	Create an igraph object from our countries linkages:
-  require(igraph)
-  
+
   linkages_countries_net <- graph.adjacency(linkages_countries, 
                                             mode="undirected", 
                                             weighted=TRUE)
