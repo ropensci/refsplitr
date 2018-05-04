@@ -1,6 +1,6 @@
 ---
 title: "RefNet"
-author: "Emilio Bruna, Auriel Fournier, Matt Boone"
+author: "Emilio Bruna, Forest Stevens, Auriel Fournier, Matt Boone"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -21,7 +21,7 @@ RefNet is a package that helps import and analyze Web of Science references data
 
 ## Import
 
-This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the **read_references(** function which has three arguments:  
+This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the **read_references()** function which has three arguments:  
 
 - **data**: The directory location of the web of science files. If left blank it assumes the files are in the working directory. If it's in a separate directory, the absolute file name or relative file paths can be used.  
 - **dir**: This is a true false whether you're loading from a directory (multiple web of science files in one folder, or a single file)
@@ -54,7 +54,7 @@ For this we'll use the **read_authors()** function. It takes the reference sheet
 
 
 ##Hand checking matches
-Now that the algorithm has attempted to match similar names. A user needs to hand check the matches. Open up the 'authors' output from the previous function. There are two important pieces of information in these files:  
+Now that the algorithm has attempted to match similar names the user needs to hand check the matches. Open up the 'authors' output from the previous function. There are two important pieces of information in these files:  
 
 - **AuthorID/GroupID**: There are two ID fields, AuthorID and GroupID. AuthorID is the unique identifier for each entry. GroupID is the ID that identifies what records are the same person.  
 
@@ -70,7 +70,7 @@ The sheet is ordered by groupID and then authorID. Go through each match and che
 
 Conversely, if you find authors that should be grouped (difficult to find), then you change each records **GroupID** to the same **GroupID** so that all records match. In this case it is good practice to make the groupID the smallest authorID of the cohort. 
 
-When you're done, save this spreadsheet, we'll merge the change records in the next step.
+When you're done, save this .csv file, load it back into R and we'll merge the change records in the next step.
 
 ##Recombine authors
 After making final assignments of similar authors, we want to merge the changes together for use in the final analysis. For this we'll use the **refine_authors()** function. It has four arguments:  
@@ -81,7 +81,7 @@ After making final assignments of similar authors, we want to merge the changes 
 - **filename_root**: The location and prefix of the output, works the same as the other functions.  
 
 ##Calculating authors location
-Now that we've identified matching authors we will calculate the authors location including their lat and longs for later mapping. We will use the **address_lat_long()** function. It has 2 arguments:  
+Now that we've identified matching authors we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the **address_lat_long()** function. It has 2 arguments:  
 
 - data: This is the output created from refine_authors. Must be an object.  
 - address_column: This is a quoted character identifying what the column name that the addresses are stored in.  
@@ -113,6 +113,8 @@ To plot a network diagram of co-author countries of origins and how they're conn
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
+This function has two outputs, in the form of a list. $plot is the plot, $data is the dataframe that was used to the build the plot. listname$plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+
 <img src="C:/Users/birde/Dropbox/refnet/NetPlotBase.png" height="400" />  
 
 
@@ -121,7 +123,7 @@ To plot a network diagram of co-author countries of origins overlayed on a world
 
 - **data**: This is the output from addresses_lat_long. Must be an object.  
 
-The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console.
+The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console. $data is the dataframe that was used to the build the plot. $plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 <img src="C:/Users/birde/Dropbox/refnet/NetPlotCountry.png" height="400" />  
 
@@ -131,8 +133,7 @@ To plot a network diagram of co-author using their individual addresses overlaye
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
-The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console.  
-
+The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console.  $data is the dataframe that was used to the build the plot. $plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
 
