@@ -153,7 +153,7 @@ products[["plot"]] <- ggplot() +
     geom_point(data = data.frame(layoutCoordinates),
                aes(x = LON, y = LAT), 
                size = 3+100*degree(linkages_points_net, 
-               cmode="outdegree", rescale=TRUE), 
+               mode="out"), 
                pch = 21,
                colour = rgb(8/10, 2/10, 2/10, alpha=5/10), 
                fill = rgb(9/10, 6/10, 6/10, alpha=5/10)
