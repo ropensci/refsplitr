@@ -10,7 +10,7 @@
 #' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
 
 
-net_plot_coauthor_country <- function(data) {
+net_plot_coauthor_country <- function(data,line_resolution=10) {
 
   require(Matrix)
   require(network)
@@ -142,7 +142,7 @@ net_plot_coauthor_country <- function(data) {
 
   # Generate a (curved) edge path for each pair of connected nodes
   allEdges <- lapply(1:nrow(adjacencyList), 
-                     edgeMaker, 
+                     edgeMaker, len=line_resolution 
                      curved = TRUE)
   
   allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
