@@ -142,7 +142,7 @@ net_plot_coauthor_country <- function(data,line_resolution=10) {
 
   # Generate a (curved) edge path for each pair of connected nodes
   allEdges <- lapply(1:nrow(adjacencyList), 
-                     edgeMaker, len=line_resolution 
+                     edgeMaker, len=line_resolution, 
                      curved = TRUE)
   
   allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
