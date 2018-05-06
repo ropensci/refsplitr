@@ -4,7 +4,7 @@
 #' 
 #' @param data dataframe from refine_authors
 #' @param address_column name of column in quotes where the addresses are
-address_lat_long <- function(data=df,  
+address_lat_long <- function(data,  
                              address_column="address", filename_root=""){
   # Read in the CSV data and store it in a variable 
   
