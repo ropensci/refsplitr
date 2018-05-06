@@ -60,9 +60,14 @@ address_lat_long <- function(data=df,
     flush.console()
   }
   
-  faileddsk <- uniquead[is.na(uniquead$lat),c('short_address','adID')]
+  #run the failed addresses into googles api
+  
 
+  retry<-T
+  while(retry==T){
+    faileddsk <- uniquead[is.na(uniquead$lat),c('short_address','adID')]
   for(p in 1:nrow(faileddsk)){
+    #p<-1
     paste_address<-origAddress$paste_address[faileddsk$adID[p]==origAddress$adID][1]
     result<-geocode(paste_address, 
             output = "latlona", 
@@ -71,9 +76,16 @@ address_lat_long <- function(data=df,
     uniquead$lat[uniquead$adID==result$adID]<-result$lat
     uniquead$lon[uniquead$adID==result$adID]<-result$lon
     }
+  catch<-warnings()
+  # 
+  retry<-sum(grepl('OVER_QUERY_LIMIT',names(catch)))>0
+  if(nrow(faileddsk)==1 & paste_address==' '){retry<-F}
+  if(geocodeQueryCheck(userType = "free")==0){retry<-F;print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")}
   
+  if(retry==T){print('server busy, trying again in 5 seconds');Sys.sleep(5)}
+  }
+ 
   addresses<-merge(origAddress,uniquead[,c('adID','lat','lon')],by='adID',all.x=T)
-  colnames(addresses)
   addresses<-subset(addresses,select=c(authorID,author_name,groupID,author_order,address,university,department,RP_address,RI,OI,UT,refID,postal_code,country,lat,lon,adID))
   
   if(filename_root != "") {
