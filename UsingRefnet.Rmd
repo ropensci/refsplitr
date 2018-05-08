@@ -41,6 +41,7 @@ q$plot
 p <- net_plot_coauthor_address(data=zz)
 p$plot
 
+#-----
 
 ecology_references <- read_references("./data/Ecology.txt", 
                                  dir=FALSE, 
@@ -68,4 +69,106 @@ q$plot
 p <- net_plot_coauthor_address(data=zz)
 p$plot
 
+#-----
+# Added by EB to test-drive some other datasets
+WOS2011_stitched<-read_csv(file="./data/WOS2011/WOS2011_stitched.csv")
+WOS2011_stitched_authors<-read_authors(WOS2011_stitched, filename_root="./output/WOS2011_stitched")
+# WOS2011review<-as.data.frame(WOS2011_stitched_authors %>% filter (similarity<1))
+# WOS2011review<-WOS2011review %>% select(-refID)
+# write.csv(WOS2011review,file="./output/WOS2011review.csv",row.names=FALSE)
+
+WOS2011_refined <- refine_authors(authors=WOS2011_stitched_authors$authors,
+                             master = WOS2011_stitched_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=WOS2011_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
+
+#------
+# Added by EB to test-drive some other datasets
+WOS2018_stitched<-read_csv(file="./data/WOS2018/WOS2018_stitched.csv")
+WOS2018_stitched_authors <- read_authors(WOS2018_stitched,filename_root="./output/WOS2018_stitched")
+# WOS2018review<-as.data.frame(WOS2018_stitched_authors %>% filter (similarity<1))
+# WOS2018review<-WOS2018review %>% select(-refID)
+# write.csv(WOS2018review,file="./output/WOS2018review.csv",row.names=FALSE)
+WOS2018_refined <- refine_authors(authors=WOS2018_stitched_authors$authors,
+                             master = WOS2018_stitched_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=WOS2018_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
+#------
+# Added by EB to test-drive some other datasets
+ecuador_references <- read_references("./data/Ecuador.txt", 
+                                      dir=FALSE, 
+                                      filename_root="./output/ecuador")
+ecuador_authors <- read_authors(ecuador_references, filename_root="./output/ecuador")
+
+ecuador_refined <- refine_authors(authors=ecuador_authors$authors,
+                             master = ecuador_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=ecuador_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
+
+#------
+ecuador2_references <- read_references("./data/Ecuador_0114.txt", 
+                                       dir=FALSE, 
+                                       filename_root="./output/ecuador2") 
+ecuador2_authors <- read_authors(ecuador2_references, filename_root="./output/ecuador2")
+
+ecuador2_refined <- refine_authors(authors=ecuador2_authors$authors,
+                             master = ecuador2_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=ecuador2_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
 ```
