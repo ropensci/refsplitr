@@ -1,6 +1,6 @@
 ---
 title: "RefNet"
-author: "Emilio Bruna, Forest Stevens, Auriel Fournier, Matt Boone"
+author: "Forest Stevens, Auriel Fournier, Matt Boone, Emilio Bruna (order of 1&2 TBD)"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -17,7 +17,9 @@ knitr::opts_chunk$set(
 ```
 
 
-RefNet is a package that helps import and analyze Web of Science references data. There's a linear process to go from importing the raw web of science data to plotting the results and performing network analysis.
+RefNet is a package that helps import, organize, and visualize bibliographic records from the Web of Science (WOS) and SCOPUS for use in scientomentric analyses. It includes tools for disambiguating author names, identifying and georeferencing author institutions, and visualizing coauthorship networks. Finally, it saves the corrected and organized data in formats that simplify subesquent analyses. 
+
+Refnet's tools are applied in a three step process (Fig 1). The first step is data import and tidying, the second is author name disambiguation, and the third is georeferencing of author institutions. For some analyses users will only need Steps 1 and 2, while for others they will need all three. Refnet also includes tools for summary bibliometric statistics, as well as the visualizations of coauthorship networks.     
 
 ## Import
 
