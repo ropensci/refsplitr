@@ -16,9 +16,9 @@ FL2017_stitched = lapply(FL2017, function(x) {
 
 #This is returned as a list, when binding below converts to dataframe with country as chr
 FL2017_stitched<-bind_rows(FL2017_stitched)
-FL2017_stitched<- FL2017_stitched %>% select(-filename) #remove the name of the sub-file the record came from 
+#FL2017_stitched<- FL2017_stitched %>% select(-filename) #remove the name of the sub-file the record came from 
 str(FL2017_stitched)
 names(FL2017_stitched)
 FL2017_stitched
-write.csv(FL2017_stitched,file="./data/FL2017_stitched.csv",row.names=FALSE)
+write.csv(FL2017_stitched,file="./data/Florida2017/FL2017_stitched.csv",row.names=FALSE)
 
