@@ -171,4 +171,31 @@ q$plot
 
 p <- net_plot_coauthor_address(data=zz)
 p$plot
+
+#-----
+
+FL2017_stitched<-read_csv(file="./data/Florida2017/FL2017_stitched.csv")
+FL2017_authors <- read_authors(FL2017_stitched,filename_root="./output/FL2017")
+FL2017_refined <- refine_authors(authors=FL2017_authors$authors,
+                             master = FL2017_authors$master)
+
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=FL2017_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
+
+#-----
+
 ```
