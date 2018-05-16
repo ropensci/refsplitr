@@ -17,11 +17,25 @@ knitr::opts_chunk$set(
 ```
 
 ###1. Introduction
+<<<<<<< HEAD
+=======
+
+
+
+###1.1 Existing approaches
+
+Sci^2^: https://sci2.cns.iu.edu/user/index.php
+
+Package 'revtools: https://cran.r-project.org/web/packages/revtools/index.html and https://www.biorxiv.org/content/early/2018/02/12/262881 
+
+Package 'bibliometrix': https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html and https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf 
+>>>>>>> 3c16e11b91f71c28742389b36ac2adcee42032b8
 
 Understanding the generation and dissemination of knoweldge...(e.g., The Science of Science). One central tool in this discipline is the analysis of bibliometric data. Define, their history, typical analyses and what they tell us. In recent decades, the increased availibility of data from large bibliometric databases, such as SCOPUS and the WOS, coupled with increases in computational power, has made it possible to conduct analyses on datasets of unprecedented sizes...
 
 Researchers using data from bibliometric databases for research face three major challenges. First, ... (i.e., "name disambiguation"). Second, the way in which data are recorded in article records makes it difficult to carry out analyses based on institution (institution is mixed up in a single cell with dept, center, etc with little conistency of format). Third, it is difficult to carry out spatially explicit analyses at sub-national levels, again because of the way author data is recorded in each article's record.   
 
+<<<<<<< HEAD
 RefNet is an R package that helps users import, correct, and organize bibliographic records from the Web of Science (WOS) and SCOPUS. It includes tools for disambiguating author names, identifying and georeferencing author institutions, and visualizing coauthorship networks. Finally, it allows users to save or export the data in tidy formats for calculating summary statistics, visulaizing data, and conducting more in-dpeth scientometric analyses with their own code or with packages such as 'revtools' and 'bibliometrix' (is this true...would be great if we could!).
 
 
@@ -38,6 +52,10 @@ RefNet is an R package that helps users import, correct, and organize bibliograp
 
 Refnet's tools are applied in a three step process (Fig 1). The first step is data import and tidying, the second is author name disambiguation, and the third is georeferencing of author institutions. Some users will only require Steps 1 and 2, while for others will require all three. Refnet can also visualize the geographic distributions of authors and coauthorship networks and calculate some summary bibliometric statistics.       
    
+=======
+###2 Using RefNet
+
+>>>>>>> 3c16e11b91f71c28742389b36ac2adcee42032b8
 ###2.1 Importing Search Results 
 
 This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the **read_references()** function which has three arguments:  
