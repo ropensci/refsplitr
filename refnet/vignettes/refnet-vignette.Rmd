@@ -79,7 +79,7 @@ And loading from a single file:
 
 The output of this file is a cleaned and combined file with all relevant fields merged. This is used as a base file for later analysis:
 
-<img src="C:/Users/birde/Dropbox/refnet/Reference.PNG" height="300" />
+#<img src="C:/Users/birde/Dropbox/refnet/Reference.PNG" height="300" />
 
 ###2.2  Author Disambiguation
 
@@ -104,7 +104,7 @@ Now that the algorithm has attempted to match similar names the user needs to ha
 
 The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is the one you want to hand check matches, because it does it this iteratively the **groupID will always be the smallest authorID** of the group.
 
-<img src="C:/Users/birde/Dropbox/refnet/AuthorMatch.PNG" height="300" />
+#<img src="C:/Users/birde/Dropbox/refnet/AuthorMatch.PNG" height="300" />
 
 The sheet is ordered by groupID and then authorID. Go through each match and check that the matches make sense. You can use the similarity score, physical address, and email address to help assess whether names are the same or not. If in doubt, prior knowledge or Google should be helpful. If you find authors that are **NOT** the same person but assigned the same groupID, simply change each records **groupID** to its **authorID** to make them independent groups. 
 
@@ -142,14 +142,14 @@ To make a colored plot of all authors country of residency we'll use the **plot_
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
-<img src="C:/Users/birde/Dropbox/refnet/WorldCountry.png" height="400" />
+#<img src="C:/Users/birde/Dropbox/refnet/WorldCountry.png" height="400" />
 
 ###2.3.2 World Plots (points)
 To individual plot points of each authors location we'll use the **plot_addresses_points()**. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
-<img src="C:/Users/birde/Dropbox/refnet/WorldPoint.png" height="400" />
+#<img src="C:/Users/birde/Dropbox/refnet/WorldPoint.png" height="400" />
 
 ###2.3.3 Net Plots (base)
 To plot a network diagram of co-author countries of origins and how they're connected we'll use the **net_plot_coauthor()** function. The function has one argument:  
@@ -158,7 +158,7 @@ To plot a network diagram of co-author countries of origins and how they're conn
 
 This function has two outputs, in the form of a list. $plot is the plot, $data is the dataframe that was used to the build the plot. listname$plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
-<img src="C:/Users/birde/Dropbox/refnet/NetPlotBase.png" height="400" />  
+#<img src="C:/Users/birde/Dropbox/refnet/NetPlotBase.png" height="400" />  
 
 
 ###2.3.4 Net Plots (Country)
@@ -168,7 +168,7 @@ To plot a network diagram of co-author countries of origins overlayed on a world
 
 The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console. $data is the dataframe that was used to the build the plot. $plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
-<img src="C:/Users/birde/Dropbox/refnet/NetPlotCountry.png" height="400" />  
+#<img src="C:/Users/birde/Dropbox/refnet/NetPlotCountry.png" height="400" />  
 
 
 ###2.3.5 Net Plots (Addresses)
@@ -181,7 +181,7 @@ The net plot analysis returns an object that allows the plotting of these comple
 This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
 
 
-<img src="C:/Users/birde/Dropbox/refnet/NetPlotAddress.png" height="400" />  
+#<img src="C:/Users/birde/Dropbox/refnet/NetPlotAddress.png" height="400" />  
 
 #Summary
 
