@@ -8,8 +8,11 @@
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 #' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
-
-net_plot_coauthor_address <- function(data,line_resolution=10) {
+#' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' 
+net_plot_coauthor_address <- function(data,
+                                      line_resolution=10,
+                                      mapRegion="world") {
   
   # require(Matrix)
   # require(network)
@@ -145,10 +148,18 @@ net_plot_coauthor_address <- function(data,line_resolution=10) {
                                    class = "unit"))
   
   
+  if(mapRegion !="world"){
+  world_map <- world_map[which(world_map$continent==mapRegion),]
+  }
+  
+  
+  
   ##	Create the world outlines:
   world_map@data$id = rownames(world_map@data)
   world_map.points <- fortify(world_map)
   world_map.df <- full_join(world_map.points, world_map@data, by="id")
+  
+  
   
   products <- list()
   
