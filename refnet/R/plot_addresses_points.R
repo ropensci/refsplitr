@@ -8,7 +8,8 @@
 #' 
 #' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
 
-plot_addresses_points <- function(data) {
+plot_addresses_points <- function(data,
+                                  mapRegion="world") {
   ##	Remove any addresses that have NA values:
   data <- data[!is.na(data$lon) | !is.na(data$lat),]
   
@@ -19,6 +20,11 @@ plot_addresses_points <- function(data) {
   
   ##	Get the world map from rworldmap package:
   world_map <- getMap()
+  
+  
+  if(mapRegion !="world"){
+    world_map <- world_map[which(world_map$continent==mapRegion),]
+  }
   
   plot(world_map)
   plot(spatial_points, add=T, col="red")

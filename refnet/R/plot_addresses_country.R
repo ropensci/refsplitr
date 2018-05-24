@@ -9,7 +9,8 @@
 #' 
 #' @param addresses output from the extract_country_name() function, containing geocoded address latitude and longitude locations.
 
-plot_addresses_country <- function(data) {
+plot_addresses_country <- function(data,
+                                   mapRegion="world") {
   country_name <- data$country
   
   country_name_table <- as.data.frame(table(country_name))
@@ -17,7 +18,7 @@ plot_addresses_country <- function(data) {
   mapdata <- joinCountryData2Map(country_name_table, joinCode="NAME", nameJoinColumn="country_name", verbose=TRUE)
   
   par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
-  mapParams <- mapCountryData( mapdata, nameColumnToPlot="Freq", addLegend=FALSE, mapTitle="Authors Records by Country", catMethod="pretty")
+  mapParams <- mapCountryData( mapdata, nameColumnToPlot="Freq", addLegend=FALSE, mapTitle="Authors Records by Country", catMethod="pretty",mapRegion = mapRegion)
   do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 2))
 }
 
