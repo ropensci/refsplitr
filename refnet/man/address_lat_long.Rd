@@ -4,13 +4,20 @@
 \alias{address_lat_long}
 \title{Extracts the lat and long for each address}
 \usage{
-address_lat_long(data = df, address_column = "address")
+address_lat_long(data, address_column = "address", filename_root = "",
+  write_out_missing = FALSE)
 }
 \arguments{
-\item{data}{dataframe from refine_authors}
+\item{data}{master dataframe from refine_authors}
 
 \item{address_column}{name of column in quotes where the addresses are}
+
+\item{filename_root}{the filename root, can include relative or absolute}
+
+\item{write_out_missing}{TRUE or FALSE, do you want a .csv file written out that has all the entries where we could not determine the lat/long? 
+path, to which "_addresses.csv" will be appended and the output from the
+function will be saved}
 }
 \description{
-\code{address_lat_long} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'.
+\code{address_lat_long} This function takes the final author list from refine_authors, and calculates the lat long of the addresses. It does this by feeding the addresses into data science toolkit and then googles api. The output is a data.frame of all information from refine_authors plus new location columns and calculated lat longs.
 }

@@ -12,7 +12,7 @@
 
 <meta name="author" content="Forest Stevens, Auriel Fournier, Matt Boone, Emilio Bruna (order of 1&amp;2 TBD)" />
 
-<meta name="date" content="2018-05-17" />
+<meta name="date" content="2018-05-24" />
 
 <title>RefNet</title>
 
@@ -32,15 +32,12 @@
 
 <h1 class="title toc-ignore">RefNet</h1>
 <h4 class="author"><em>Forest Stevens, Auriel Fournier, Matt Boone, Emilio Bruna (order of 1&amp;2 TBD)</em></h4>
-<h4 class="date"><em>2018-05-17</em></h4>
+<h4 class="date"><em>2018-05-24</em></h4>
 
 
 
 <div id="introduction" class="section level2">
 <h2>1 Introduction</h2>
-</div>
-<div id="section" class="section level1">
-<h1><!-- <<<<<<< HEAD  # EB Question: what does this do? --></h1>
 <p>The generation and dissemination of knoweldge…(e.g., The Science of Science). One central tool in this discipline is the analysis of bibliometric data. Define, their history, typical analyses and what they tell us. In recent decades, the increased availibility of data from large bibliometric databases, such as SCOPUS and the WOS, coupled with increases in computational power, has made it possible to conduct analyses on datasets of unprecedented sizes…</p>
 <p>Researchers using data from bibliometric databases for research face three major challenges. First, … (i.e., “name disambiguation”). Second, the way in which data are recorded in article records makes it difficult to carry out analyses based on institution (institution is mixed up in a single cell with dept, center, etc with little conistency of format). Third, it is difficult to carry out spatially explicit analyses at sub-national levels, again because of the way author data is recorded in each article’s record.</p>
 <p>RefNet is an R package that helps users import, correct, and organize bibliographic records from the Web of Science (WOS) and SCOPUS. It includes tools for disambiguating author names, identifying and georeferencing author institutions, and visualizing coauthorship networks. Finally, it allows users to save or export the data in tidy formats for calculating summary statistics, visulaizing data, and conducting more in-dpeth scientometric analyses with their own code or with packages such as ‘revtools’ and ‘bibliometrix’ (is this true…would be great if we could!).</p>
@@ -50,11 +47,13 @@
 <li><p><strong>EB Note</strong>: Package ’revtools: <a href="https://cran.r-project.org/web/packages/revtools/index.html" class="uri">https://cran.r-project.org/web/packages/revtools/index.html</a> and <a href="https://www.biorxiv.org/content/early/2018/02/12/262881" class="uri">https://www.biorxiv.org/content/early/2018/02/12/262881</a></p></li>
 <li><p><strong>EB Note</strong>: Package ‘bibliometrix’: <a href="https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html" class="uri">https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html</a> and <a href="https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf" class="uri">https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf</a></p></li>
 </ul>
+</div>
 <div id="using-refnet" class="section level2">
 <h2>2 Using RefNet</h2>
 <p>Refnet’s tools are applied in a three step process (Fig 1). The first step is data import and tidying, the second is author name disambiguation, and the third is georeferencing of author institutions. Some users will only require Steps 1 and 2, while for others will require all three. Refnet can also visualize the geographic distributions of authors and coauthorship networks and calculate some summary bibliometric statistics.</p>
-<p>======= <!-- >>>>>>> 3c16e11b91f71c28742389b36ac2adcee42032b8 --> ###2.1 Importing Search Results</p>
-<p>This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are ‘.txt’ and ‘.ciw’. For this step we will use the <strong>read_references()</strong> function which has three arguments:</p>
+<div id="importing-search-results" class="section level3">
+<h3>2.1 Importing Search Results</h3>
+<p>This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are ‘.txt’ and ‘.ciw’. For this step we will use the <code>read_references()</code> function which has three arguments:</p>
 <ul>
 <li><strong>data</strong>: The directory location of the web of science files. If left blank it assumes the files are in the working directory. If it’s in a separate directory, the absolute file name or relative file paths can be used.<br />
 </li>
@@ -69,13 +68,14 @@
 <p><code>read_references(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')</code></p>
 <p>The output of this file is a cleaned and combined file with all relevant fields merged. This is used as a base file for later analysis:</p>
 <!--  <img src="C:/Users/birde/Dropbox/refnet/Reference.PNG" height="300" /> -->
+</div>
 <div id="author-disambiguation" class="section level3">
 <h3>2.2 Author Disambiguation</h3>
 </div>
 <div id="step-1-refnet-disambiguation-algorithm" class="section level3">
 <h3>2.2.1 Step 1: Refnet Disambiguation Algorithm</h3>
 <p>The next step in the process is to use the newly made reference sheet to identify authors names and identify what authors are the same person. This can be difficult because different journals publish names in different formats. Sometimes with First names, sometimes only initials, sometimes with middle names, sometimes with no middle initial. It is because of this the function attempts to match names that are similar. However, these matches need to be hand checked for accuracy.</p>
-<p>For this we’ll use the <strong>read_authors()</strong> function. It takes the reference sheet we created and outputs a file of matched authors, and a master list. It has two arguments:</p>
+<p>For this we’ll use the <code>read_authors()</code> function. It takes the reference sheet we created and outputs a file of matched authors, and a master list. It has two arguments:</p>
 <ul>
 <li><strong>references</strong>: This is an object created from read_references. You can load in a previous reference sheet as long as it’s an output from read_references and is saved to an object<br />
 </li>
@@ -98,7 +98,7 @@
 </div>
 <div id="step-3-uploading-and-merging-corrections" class="section level3">
 <h3>2.2.3 Step 3: Uploading and merging corrections</h3>
-<p>After making final assignments of similar authors, we want to merge the changes together for use in the final analysis. For this we’ll use the <strong>refine_authors()</strong> function. It has four arguments:</p>
+<p>After making final assignments of similar authors, we want to merge the changes together for use in the final analysis. For this we’ll use the <code>refine_authors()</code> function. It has four arguments:</p>
 <ul>
 <li><strong>authors</strong>: This is the new fixed authors object we saved previously. Must be in an object<br />
 </li>
@@ -112,13 +112,15 @@
 </div>
 <div id="identifying-and-georeferencing-author-institutions" class="section level2">
 <h2>3 Identifying and georeferencing author institutions</h2>
-<p>Now that we’ve identified matching authors we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the <strong>address_lat_long()</strong> function. It has 2 arguments:</p>
+<p>Now that we’ve identified matching authors we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the <code>address_lat_long()</code> function. It has 2 arguments:</p>
 <ul>
 <li>data: This is the output created from refine_authors. Must be an object.<br />
 </li>
 <li>address_column: This is a quoted character identifying what the column name that the addresses are stored in.</li>
 </ul>
 <p>The output is a modified data.frame with new columns for the latitude and longitude as well as various pieces of the address the algorithm could correctly parse out.</p>
+<p>NEED TO ADD DETAILS ON RESOLUTION OF GEOREFERENCES</p>
+<p><code>address_lat_long()</code></p>
 <p><strong>warning</strong> This function parses out addresses from the web of science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. <strong>warning</strong></p>
 </div>
 <div id="data-visualization-mapping-author-locations-and-co-authorship-networks" class="section level2">
@@ -126,7 +128,7 @@
 <p>Now that we’ve successfully imported, wrangled, and checked the data. We can begin plotting the data. There five kinds of plots you can make. They are in two categories <strong>World plots</strong> and <strong>Net Plots</strong>. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We’ll go from simple to complex. It’s important to note that the rendering of these plots may take time, particularly if the amount of individual authors is &gt;1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points</p>
 <div id="world-plots-by-country" class="section level3">
 <h3>4.1 World Plots (by country)</h3>
-<p>To make a colored plot of all authors country of residency we’ll use the <strong>plot_addresses_country()</strong>. The function has one argument:</p>
+<p>To make a colored plot of all authors country of residency we’ll use the <code>plot_addresses_country()</code>. The function has one argument:</p>
 <ul>
 <li><strong>data</strong>: This is the output from addresses_lat_long. Must be an object.</li>
 </ul>
@@ -134,7 +136,7 @@
 </div>
 <div id="world-plots-points" class="section level3">
 <h3>4.2 World Plots (points)</h3>
-<p>To individual plot points of each authors location we’ll use the <strong>plot_addresses_points()</strong>. The function has one argument:</p>
+<p>To individual plot points of each authors location we’ll use the <code>plot_addresses_points()</code>. The function has one argument:</p>
 <ul>
 <li><strong>data</strong>: This is the output from addresses_lat_long. Must be an object.</li>
 </ul>
@@ -142,7 +144,7 @@
 </div>
 <div id="net-plots-base" class="section level3">
 <h3>4.3 Net Plots (base)</h3>
-<p>To plot a network diagram of co-author countries of origins and how they’re connected we’ll use the <strong>net_plot_coauthor()</strong> function. The function has one argument:</p>
+<p>To plot a network diagram of co-author countries of origins and how they’re connected we’ll use the <code>net_plot_coauthor()</code> function. The function has one argument:</p>
 <ul>
 <li><strong>data</strong>: This is the output from addresses_lat_long. Must be an object.</li>
 </ul>
@@ -160,7 +162,7 @@
 </div>
 <div id="net-plots-addresses" class="section level3">
 <h3>4.5 Net Plots (Addresses)</h3>
-<p>To plot a network diagram of co-author using their individual addresses overlayed on a world map we’ll use <strong>net_plot_coauthor_addresses()</strong> function. The function has one argument:</p>
+<p>To plot a network diagram of co-author using their individual addresses overlayed on a world map we’ll use <code>net_plot_coauthor_addresses()</code> function. The function has one argument:</p>
 <ul>
 <li><strong>data</strong>: This is the output from addresses_lat_long. Must be an object.</li>
 </ul>
@@ -178,7 +180,10 @@
 </div>
 <div id="references" class="section level2">
 <h2>References</h2>
-</div>
+<p>Aria, M. &amp; Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics, 11(4), pp 959-975, Elsevier.</p>
+<p>Sci2 Team. (2009). Science of Science (Sci2) Tool. Indiana University and SciTech Strategies, <a href="https://sci2.cns.iu.edu" class="uri">https://sci2.cns.iu.edu</a>.</p>
+<p>Westgate, M. J. (2018a). revtools: Tools to Support Evidence Synthesis. R package version 0.2.2. <a href="https://CRAN.R-project.org/package=revtools" class="uri">https://CRAN.R-project.org/package=revtools</a></p>
+<p>Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881</p>
 </div>
 
 
