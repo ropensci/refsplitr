@@ -5,11 +5,14 @@
 #' @param data master dataframe from refine_authors
 #' @param address_column name of column in quotes where the addresses are
 #' @param filename_root the filename root, can include relative or absolute
+#' @param write_out_missing TRUE or FALSE, do you want a .csv file written out that has all the entries where we could not determine the lat/long? 
 #'   path, to which "_addresses.csv" will be appended and the output from the
 #'   function will be saved
 #'   
 address_lat_long <- function(data,  
-                             address_column="address", filename_root=""){
+                             address_column="address", 
+                             filename_root="",
+                             write_out_missing=FALSE){
   # Read in the CSV data and store it in a variable 
   # Parse out address information into its respective parts
   origAddress <- separate(data=data, col = address_column,
@@ -105,7 +108,13 @@ address_lat_long <- function(data,
   # merge results together
   addresses<-merge(origAddress,uniquead[,c('adID','lat','lon')],by='adID',all.x=T)
   addresses<-subset(addresses,select=c(authorID,author_name,groupID,author_order,address,university,department,RP_address,RI,OI,UT,refID,postal_code,country,lat,lon,adID))
+
+  missingaddresses <- addresses[is.na(addresses$lat),]
   
+  if(write_out_missing){
+
+    write.csv(missingaddresses, file="missing_addresses.csv", row.names = FALSE)
+  }
   #write out if necessary 
   if(filename_root != "") {
     write.csv(addresses, file=paste(filename_root, 
@@ -113,5 +122,9 @@ address_lat_long <- function(data,
               row.names=FALSE)
   }
   
-  return(addresses)
+  outputlist <- list()
+  
+  outputlist$addresses <- addresses
+  outputlist$missing_addresses <- missingaddresses
+  return(outputlist)
 }
