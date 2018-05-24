@@ -10,7 +10,9 @@
 #' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
 
 
-net_plot_coauthor_country <- function(data,line_resolution=10) {
+net_plot_coauthor_country <- function(data,
+                                      line_resolution=10,
+                                      mapRegion="world") {
 
   require(Matrix)
   require(network)
@@ -159,6 +161,10 @@ net_plot_coauthor_country <- function(data,line_resolution=10) {
                                            unit = "lines", 
                                            valid.unit = 3L, 
                                            class = "unit"))
+  
+  if(mapRegion !="world"){
+    world_map <- world_map[which(world_map$continent==mapRegion),]
+  }
   
   ##	Create the world outlines:
   world_map@data$id = rownames(world_map@data)
