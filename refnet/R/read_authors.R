@@ -11,7 +11,10 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
 #'   function will be saved
-read_authors <- function(references, sim_score=0.88 ,filename_root="") {
+read_authors <- function(references, 
+                         sim_score=0.88 ,
+                         filename_root="./",
+                         write_out_data=FALSE) {
   
   list1<-list()
   #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
@@ -299,7 +302,6 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
   sub<-sub[order(sub$groupID, sub$authorID),]
   
   #write it out
-  if(filename_root != "") {
     write.csv(subset(final,select=-c(match_name,similarity)), 
               file=paste0(filename_root, "_authors_master.csv"), 
               row.names=FALSE)
@@ -307,7 +309,6 @@ read_authors <- function(references, sim_score=0.88 ,filename_root="") {
     write.csv(sub, 
               file=paste0(filename_root, "_authors.csv"), 
               row.names=FALSE)
-  }                
   #
   return(list(master=final,authors=sub))
 } #end function
