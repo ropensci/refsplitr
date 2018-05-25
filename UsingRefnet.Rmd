@@ -182,6 +182,7 @@ FL2017_refined <- refine_authors(authors=FL2017_authors$authors,
 
 world <- map_data("world")
 
+
 zz <- address_lat_long(data=FL2017_refined)
 
 plot_addresses_points(data=zz)
@@ -198,4 +199,30 @@ p$plot
 
 #-----
 
+
+LARR_references <- read_references("./data/LARR", 
+                                 dir=TRUE, 
+                                 filename_root="./output/LARR")
+
+LARR_authors <- read_authors(LARR_references, 
+                       filename_root="./output/LARR")
+
+LARR_refined <- refine_authors(authors=LARR_authors$authors,
+                             master = LARR_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=LARR_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
 ```
