@@ -1,0 +1,641 @@
+﻿FN ISI Export Format VR 1.0 PT J
+AU De Miguel, JM
+   Casado, MA
+   Del Pozo, A
+   Ovalle, C
+   Moreno-Casasola, P
+   Travieso-Bello, AC
+   Barrera, M
+   Ricardo, N
+   Tecco, PA
+   Acosta, B
+AF De Miguel, J. M.
+   Casado, M. A.
+   Del Pozo, A.
+   Ovalle, C.
+   Moreno-Casasola, P.
+   Travieso-Bello, A. C.
+   Barrera, M.
+   Ricardo, N.
+   Tecco, P. A.
+   Acosta, B.
+TI How reproductive, vegetative and defensive strategies of Mediterranean
+   grassland species respond to a grazing intensity gradient
+SO PLANT ECOLOGY
+C1 [De Miguel, JM; Casado, MA; Acosta, B] Univ Complutense, Fac Biol, Dept Ecol, E-28040 Madrid, Spain.
+   [Del Pozo, A] Univ Talca, Fac Ciencias Agr, Talca 747, Chile.
+   [Ovalle, C] INIA, CRI Quilamapu, Chillan 426, Chile.
+   [Moreno-Casasola, P; Travieso-Bello, AC] Inst Ecol AC, Xalapa 91000, Veracruz, Mexico.
+   [Barrera, M] Natl Univ La Plata, LISEA, RA-1900 La Plata, Argentina.
+   [Ricardo, N] Inst Ecol & Sistemat, Havana 8029, Cuba.
+   [Tecco, PA] Univ Nacl Cordoba, IMBIV, CONICET, Cordoba, Argentina.
+RP De Miguel, JM (reprint author), Univ Complutense, Fac Biol, Dept Ecol, E-28040 Madrid, Spain
+EM demiguel@bio.ucm.es
+TC 0
+Z9 0
+SN 1385-0237
+PD SEP
+PY 2010
+VL 210
+IS 1
+BP 97
+EP 110
+DI 10.1007/s11258-010-9741-x
+UT WOS:000280577900008
+ER
+
+PT J
+AU Fong, A
+   Hero, JM
+   Vina, R
+   Bignotte-Giro, I
+AF Fong G, Ansel
+   Hero, Jean-Marc
+   Vina, Rolando
+   Bignotte-Giro, Irelis
+TI Population Ecology of the Riparian Frog Eleutherodactylus cuneatus in
+   Cuba
+SO BIOTROPICA
+C1 [Fong, A; Vina, R; Bignotte-Giro, I] Museo Hist Nat Tomas Romay, BIOECO, Santiago De Cuba 90100, Cuba.
+   [Hero, JM] Griffith Univ Gold Coast, Sch Environm, Environm Futures Ctr, Gold Coast, Qld 4222, Australia.
+RP Fong, A (reprint author), Museo Hist Nat Tomas Romay, BIOECO, Enramadas 601, Santiago De Cuba 90100, Cuba
+EM ansel@bioeco.ciges.inf.cu
+TC 1
+Z9 1
+SN 0006-3606
+PD MAY
+PY 2010
+VL 42
+IS 3
+BP 348
+EP 354
+DI 10.1111/j.1744-7429.2009.00592.x
+UT WOS:000277289400011
+ER
+
+PT J
+AU Borroto-Paez, R
+AF Borroto-Paez, Rafael
+TI Invasive mammals in Cuba: an overview
+SO BIOLOGICAL INVASIONS
+C1 Inst Ecol & Sistemat, Havana 10800, Cuba.
+RP Borroto-Paez, R (reprint author), Inst Ecol & Sistemat, Carretera Varona Km 3-5 Boyeros,AP 8029, Havana 10800, Cuba
+EM borroto@yahoo.com
+TC 2
+Z9 2
+SN 1387-3547
+PD DEC
+PY 2009
+VL 11
+IS 10
+BP 2279
+EP 2290
+DI 10.1007/s10530-008-9414-z
+UT WOS:000271261700009
+ER
+
+PT J
+AU Marten-Rodriguez, S
+   Almarales-Castro, A
+   Fenster, CB
+AF Marten-Rodriguez, Silvana
+   Almarales-Castro, Abel
+   Fenster, Charles B.
+TI Evaluation of pollination syndromes in Antillean Gesneriaceae: evidence
+   for bat, hummingbird and generalized flowers
+SO JOURNAL OF ECOLOGY
+C1 [Marten-Rodriguez, S; Fenster, CB] Univ Maryland, Behav Ecol Evolut & Systemat Program, College Pk, MD 20742 USA.
+   [Marten-Rodriguez, S] Herbario Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   [Almarales-Castro, A] Ctr Oriental Ecosistemas & Biodiversidad BIOECO, Museo Hist Nat Tomas Romay, Santiago De Cuba, Cuba.
+   [Fenster, CB] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+RP Marten-Rodriguez, S (reprint author), Univ Maryland, Behav Ecol Evolut & Systemat Program, College Pk, MD 20742 USA
+EM smartenr@gmail.com
+TC 12
+Z9 13
+SN 0022-0477
+PD MAR
+PY 2009
+VL 97
+IS 2
+BP 348
+EP 359
+DI 10.1111/j.1365-2745.2008.01465.x
+UT WOS:000263302000015
+ER
+
+PT J
+AU Kolbe, JJ
+   Glor, RE
+   Schettino, LR
+   Lara, AC
+   Larson, A
+   Losos, JB
+AF Kolbe, Jason J.
+   Glor, Richard E.
+   Schettino, Lourdes Rodriguez
+   Lara, Ada Chamizo
+   Larson, Allan
+   Losos, Jonathan B.
+TI Multiple sources, admixture, and genetic variation in introduced Anolis
+   lizard populations
+SO CONSERVATION BIOLOGY
+C1 [Kolbe, JJ; Larson, A] Washington Univ, Dept Biol, St Louis, MO 63130 USA.
+   [Glor, RE] Univ Rochester, Dept Biol, Rochester, NY 14627 USA.
+   [Schettino, LR; Lara, AC] CITMA, Inst Ecol & Sistemat, Havana 10800, Cuba.
+   [Losos, JB] Harvard Univ, Dept Organism & Evolutionary Biol, Cambridge, MA 02138 USA.
+RP Kolbe, JJ (reprint author), Univ Calif Berkeley, Museum Vertebrate Zool, Berkeley, CA 94720 USA
+EM kolbe@berkeley.edu
+TC 19
+Z9 20
+SN 0888-8892
+PD DEC
+PY 2007
+VL 21
+IS 6
+BP 1612
+EP 1625
+DI 10.1111/j.1523-1739.2007.00826.x
+UT WOS:000251764200031
+ER
+
+PT J
+AU Zona, S
+   Verdecia, R
+   Sanchez, AL
+   Lewis, CE
+   Maunder, M
+AF Zona, Scott
+   Verdecia, Raul
+   Sanchez, Angela Leiva
+   Lewis, Carl E.
+   Maunder, Mike
+TI The conservation status of West Indian palms (Arecaceae)
+SO ORYX
+C1 IUCN, Ctr Trop Plant Conservat, Fairchild Trop Bot Garden, SSC Palm Specialist Grp, Miami, FL 33156 USA.
+   IUCN, SSC Palm Specialist Grp, Jardin Bot Las Tunas, Las Tunas, Cuba.
+   IUCN, SSC Palm Specialist Grp, Jardin Bot Nacl, Havana, Cuba.
+RP Zona, S (reprint author), IUCN, Ctr Trop Plant Conservat, Fairchild Trop Bot Garden, SSC Palm Specialist Grp, 11935 Old Cutler Rd, Miami, FL 33156 USA
+EM szona@fairchildgarden.org
+TC 5
+Z9 7
+SN 0030-6053
+PD JUL
+PY 2007
+VL 41
+IS 3
+BP 300
+EP 305
+DI 10.1017/S0030605307000404
+UT WOS:000250377200007
+ER
+
+PT J
+AU Marrero, J
+   Auling, G
+   Coto, O
+   Nies, DH
+AF Marrero, Jeannette
+   Auling, Georg
+   Coto, Orquidea
+   Nies, Dietrich H.
+TI High-level resistance to cobalt and nickel but probably no transenvelope
+   efflux: Metal resistance in the cuban Serratia marcescens strain C-1
+SO MICROBIAL ECOLOGY
+C1 Univ Halle Wittenberg, Inst Mikrobiol, Halle, Germany.
+   Leibniz Univ Hannover, Inst Mikrobiol, Hannover, Germany.
+   Univ La Habana, Fac Biol, Dept Microbiol, Havana 10400, Cuba.
+RP Nies, DH (reprint author), Univ Halle Wittenberg, Inst Mikrobiol, Halle, Germany
+EM d.nies@mikrobiologie.uni-halle.de
+TC 6
+Z9 6
+SN 0095-3628
+PD JAN
+PY 2007
+VL 53
+IS 1
+BP 123
+EP 133
+DI 10.1007/s00248-006-9152-7
+UT WOS:000243908700014
+ER
+
+PT J
+AU Gonzalez, G
+   Huang, CY
+   Zou, XM
+   Rodriguez, C
+AF Gonzalez, Grizelle
+   Huang, Ching Yu
+   Zou, Xiaoming
+   Rodriguez, Carlos
+TI Earthworm invasions in the tropics
+SO BIOLOGICAL INVASIONS
+C1 US Forest Serv, USDA, Int Inst Trop Forestry, Rio Piedras, PR 00926 USA.
+   Univ Georgia, Inst Ecol, Athens, GA 30602 USA.
+   Univ Puerto Rico, Inst Trop Ecosyst Studies, San Juan, PR 00936 USA.
+   Univ La Habana, Fac Biol, Havana, Cuba.
+RP Gonzalez, G (reprint author), US Forest Serv, USDA, Int Inst Trop Forestry, 1201 Ceiba St, Rio Piedras, PR 00926 USA
+EM ggonzalez@fs.fed.us
+TC 16
+Z9 22
+SN 1387-3547
+PD SEP
+PY 2006
+VL 8
+IS 6
+BP 1247
+EP 1256
+DI 10.1007/s10530-006-9023-7
+UT WOS:000241377700006
+ER
+
+PT J
+AU Gomez, T
+   Hernandez, M
+   Leon, MA
+   Caballero, R
+AF Gomez, T
+   Hernandez, M
+   Leon, MA
+   Caballero, R
+TI A forest planning problem solved via a linear fractional goal
+   programming model
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Malaga, Dept Appl Econ, E-29071 Malaga, Spain.
+   Univ Pinar Del Rio, Dept Math, Pinar Del Rio, Cuba.
+RP Caballero, R (reprint author), Univ Malaga, Dept Appl Econ, Campus El Ejido S-N, E-29071 Malaga, Spain
+EM r_caballero@uma.es
+TC 7
+Z9 7
+SN 0378-1127
+PD MAY 15
+PY 2006
+VL 227
+IS 1-2
+BP 79
+EP 88
+DI 10.1016/j.foreco.2006.02.012
+UT WOS:000237549900009
+ER
+
+PT J
+AU Thorbjarnarson, J
+   Mazzotti, F
+   Sanderson, E
+   Buitrago, F
+   Lazcano, M
+   Minkowski, K
+   Muniz, M
+   Ponce, P
+   Sigler, L
+   Soberon, R
+   Trelancia, AM
+   Velasco, A
+AF Thorbjarnarson, J
+   Mazzotti, F
+   Sanderson, E
+   Buitrago, F
+   Lazcano, M
+   Minkowski, K
+   Muniz, M
+   Ponce, P
+   Sigler, L
+   Soberon, R
+   Trelancia, AM
+   Velasco, A
+TI Regional habitat conservation priorities for the American crocodile
+SO BIOLOGICAL CONSERVATION
+C1 Wildlife Conservat Soc, Gainesville, FL 32635 USA.
+   Univ Florida, Ft Lauderdale Res & Educ Ctr, Ft Lauderdale, FL 33314 USA.
+   Wildlife Conservat Soc, Bronx, NY 10460 USA.
+   FUNDAR, Managua, Nicaragua.
+   Amigos Sian Kan, Quintana Roo 77500, Cancun, Mexico.
+   SECOCOM, Mexico City 11000, DF, Mexico.
+   Bosque Trop AC, Mexico City 45042, DF, Mexico.
+   Miguel Alvarez Toro Zoo, Crocodile Museum, Nat Hist Inst, Tuxtla Gutierrez 29000, Chiapas, Mexico.
+   Empresa Nacl Para Protecc Flora & Fauna, Havana, Cuba.
+   Cent Univ Venezuela, Fac Ciencias, Caracas 66597, Venezuela.
+RP Thorbjarnarson, J (reprint author), Wildlife Conservat Soc, POB 357265, Gainesville, FL 32635 USA
+EM jthorbjarnarson@wcs.org
+TC 15
+Z9 17
+SN 0006-3207
+PD FEB
+PY 2006
+VL 128
+IS 1
+BP 25
+EP 36
+DI 10.1016/j.biocon.2005.09.013
+UT WOS:000235405000003
+ER
+
+PT J
+AU Jimenez, I
+AF Jimenez, I
+TI Development of predictive models to explain the distribution of the West
+   Indian manatee Trichechus manatus in tropical watercourses
+SO BIOLOGICAL CONSERVATION
+C1 Univ Nacl, Programa Reg Manejo Vida Silvestre Mesoamer & Car, Heredia, Costa Rica.
+RP Jimenez, I (reprint author), Fdn Manati, Ctr Int Estrategias Ambientales, Cuba 3129,Depto 15, RA-1429 Buenos Aires, DF, Argentina
+EM i_jimenez_perez@yahoo.es
+TC 0
+Z9 1
+SN 0006-3207
+PD OCT
+PY 2005
+VL 125
+IS 4
+BP 491
+EP 503
+DI 10.1016/j.biocon.2005.04.012
+UT WOS:000230447100008
+ER
+
+PT J
+AU Chong, OAG
+   Diniz, GL
+   Villatoro, FR
+AF Chong, OAG
+   Diniz, GL
+   Villatoro, FR
+TI Dispersal of fish populations in dams: modelling and simulation
+RID D-4826-2011
+SO ECOLOGICAL MODELLING
+C1 UFMT, ICET, BR-78060900 Cuiaba, MT, Brazil.
+   UPR, Pinar Del Rio 20100, Cuba.
+   UMA, Lenguajes & Ciencias Computac, Malaga 29013, Spain.
+RP Diniz, GL (reprint author), UFMT, ICET, BR-78060900 Cuiaba, MT, Brazil
+EM oagch@yahoo.com.br
+   geraldo@cpd.ufmt.br
+   villa@lcc.uma.es
+TC 1
+Z9 1
+SN 0304-3800
+PD AUG 25
+PY 2005
+VL 186
+IS 3
+BP 290
+EP 298
+DI 10.1016/j.ecolmodel.2004.11.025
+UT WOS:000231044600003
+ER
+
+PT J
+AU Gil-Sanchez, JM
+   Moleon, M
+   Bautista, J
+   Otero, M
+AF Gil-Sanchez, JM
+   Moleon, M
+   Bautista, J
+   Otero, M
+TI Differential composition in the age of mates in Bonelli's eagle
+   populations: The role of spatial scale, non-natural mortality reduction,
+   and the age classes definition
+SO BIOLOGICAL CONSERVATION
+C1 Univ Granada, Fac Ciencias, Dept Biol Anim & Ecol, E-18071 Granada, Spain.
+RP Moleon, M (reprint author), C-Cuba 2, E-18210 Granada, Spain, Spain
+EM mmoleonpaiz@hotmail.com
+TC 7
+Z9 7
+SN 0006-3207
+PD JUL
+PY 2005
+VL 124
+IS 1
+BP 149
+EP 152
+DI 10.1016/j.biocon.2005.01.016
+UT WOS:000228426700013
+ER
+
+PT J
+AU Paris, CB
+   Cowen, RK
+   Claro, R
+   Lindeman, KC
+AF Paris, CB
+   Cowen, RK
+   Claro, R
+   Lindeman, KC
+TI Larval transport pathways from Cuban snapper (Lutjanidae) spawning
+   aggregations based on biophysical modeling
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Miami, Rosenstiel Sch Marine & Atmospher Sci, Miami, FL 33149 USA.
+   Ctr Innovac Tecnol Medio Ambiente, Inst Oceanol, Havana, Cuba.
+   Environm Defense, Satellite Beach, FL 32937 USA.
+RP Paris, CB (reprint author), Univ Miami, Rosenstiel Sch Marine & Atmospher Sci, 4600 Rickenbacker Causeway, Miami, FL 33149 USA
+EM cparis@rsmas.miami.edu
+TC 36
+Z9 37
+SN 0171-8630
+PY 2005
+VL 296
+BP 93
+EP 106
+DI 10.3354/meps296093
+UT WOS:000231365700008
+ER
+
+PT J
+AU Gil-Sanchez, JM
+   Moleon, M
+   Otero, M
+   Bautista, J
+AF Gil-Sanchez, JM
+   Moleon, M
+   Otero, M
+   Bautista, J
+TI A nine-year study of successful breeding in a Bonelli's eagle population
+   in southeast Spain: a basis for conservation
+SO BIOLOGICAL CONSERVATION
+C1 Univ Granada, Dept Biol Anim & Ecol, Fac Ciencias, E-18071 Granada, Spain.
+RP Moleon, M (reprint author), C Cuba,2, E-18210 Granada, Spain
+EM mmoleonpaiz@hotmail.com
+TC 35
+Z9 35
+SN 0006-3207
+PD AUG
+PY 2004
+VL 118
+IS 5
+BP 685
+EP 694
+DI 10.1016/j.biocon.2003.10.017
+UT WOS:000221997500013
+ER
+
+PT J
+AU Moleon, M
+   Gil-Sanchez, JM
+AF Moleon, M
+   Gil-Sanchez, JM
+TI Food habits of the wildcat (Felis silvestris) in a peculiar habitat: the
+   Mediterranean high mountain
+SO JOURNAL OF ZOOLOGY
+C1 Univ Granada, Fac Sci, Dept Anim Biol & Ecol, Granada 18071, Spain.
+RP Moleon, M (reprint author), C Cuba 2, Granada 18210, Spain
+TC 13
+Z9 13
+SN 0952-8369
+PD MAY
+PY 2003
+VL 260
+PN Part 1
+BP 17
+EP 22
+DI 10.1017/S0952836902003370
+UT WOS:000183462900003
+ER
+
+PT J
+AU Fa, JE
+   Soy, JP
+   Capote, R
+   Martinez, M
+   Fernandez, I
+   Avila, A
+   Rodriguez, D
+   Rodriguez, A
+   Cejas, F
+   Brull, G
+AF Fa, JE
+   Soy, JP
+   Capote, R
+   Martinez, M
+   Fernandez, I
+   Avila, A
+   Rodriguez, D
+   Rodriguez, A
+   Cejas, F
+   Brull, G
+TI Biodiversity of Sierra del Cristal, Cuba: first insights
+SO ORYX
+C1 Durrell Wildlife Conservat Trust, Trinity JE3 5BP, Jersey, England.
+   Minist Agr, Empresa Nacl Protecc Flora & Fauna, Havana, Cuba.
+   Minist Ciencia Tecnol & Medio Ambiente, Inst Ecol & Sistemat, Havana, Cuba.
+RP Fa, JE (reprint author), Durrell Wildlife Conservat Trust, Les Augres Manor, Trinity JE3 5BP, Jersey, England
+TC 0
+Z9 0
+SN 0030-6053
+PD OCT
+PY 2002
+VL 36
+IS 4
+BP 389
+EP 395
+DI 10.1017/S0030605302000741
+UT WOS:000179673100022
+ER
+
+PT J
+AU Huber, BA
+   Gonzalez, AP
+AF Huber, BA
+   Gonzalez, AP
+TI Female genital dimorphism in a spider - (Araneae : Pholcidae)
+SO JOURNAL OF ZOOLOGY
+C1 Amer Museum Nat Hist, Div Invertebrate Zool, New York, NY 10024 USA.
+   Inst Ecol & Sistemat, Havana 8, Cuba.
+RP Huber, BA (reprint author), Univ Vienna, Inst Zool, Althanstr 14, A-1090 Vienna, Austria
+EM bkhuber@utanet.at
+TC 16
+Z9 16
+SN 0952-8369
+PD NOV
+PY 2001
+VL 255
+PN Part 3
+BP 301
+EP 304
+DI 10.1017/S095283690100139X
+UT WOS:000172227600004
+ER
+
+PT J
+AU Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+AF Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+TI Nest poaching in neotropical parrots
+SO CONSERVATION BIOLOGY
+C1 Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   Ctr Calidad Ambiental, Monterey 64849, NL, Mexico.
+   Provita, Caracas 1041A, Venezuela.
+   Univ Calif Berkeley, Ecosyst Sci Div, Berkeley, CA 94720 USA.
+   Univ La Habana, Fac Biol, Habana, Cuba.
+   Univ Calif Davis, Dept Avian Sci, Davis, CA 95616 USA.
+   Princeton Univ, Dept Ecol & Evolutionary Biol, Princeton, NJ 08540 USA.
+   Wildlife Preservat Trust Int, St Lucia, W Ind Assoc St.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Inst Insularis, BR-11750970 Peruibe, SP, Brazil.
+   Univ Kent, Durrell Inst Conservat & Ecol, Canterbury CT2 7NS, Kent, England.
+   Natl Biol Serv, Patuxent Wildlife Res Ctr, Palmer, PR 00721 USA.
+   Univ Autonoma Chiriqui, Escuela Biol, David, Panama.
+   Univ Georgia, Inst Ecol, Athens, GA 30602 USA.
+   Mississippi State Univ, Dept Wildlife & Fisheries, Mississippi State, MS 39762 USA.
+   Grambling State Univ, Grambling Cooperat Wildlife Project, Grambling, LA 71245 USA.
+RP Wright, TF (reprint author), Univ Maryland, Dept Biol, College Pk, MD 20742 USA
+TC 48
+Z9 49
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 710
+EP 720
+DI 10.1046/j.1523-1739.2001.015003710.x
+UT WOS:000169226000018
+ER
+
+EF

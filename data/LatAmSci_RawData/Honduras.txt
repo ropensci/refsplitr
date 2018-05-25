@@ -1,0 +1,169 @@
+﻿FN ISI Export Format VR 1.0 PT J
+AU Bethers, S
+   Day, ME
+   Wiersma, GB
+   Fernandez, IJ
+   Elvir, JA
+AF Bethers, Suzanne
+   Day, Michael E.
+   Wiersma, G. Bruce
+   Fernandez, Ivan J.
+   Elvir, J. Alexander
+TI Effects of chronically elevated nitrogen and sulfur deposition on sugar
+   maple saplings: Nutrition, growth and physiology
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Elvir, JA] Escuela Nacl Ciencias Forestales, Siguatepeque, Comayagua, Honduras.
+   [Bethers, S; Day, ME; Wiersma, GB; Fernandez, IJ] Univ Maine, Orono, ME 04469 USA.
+RP Elvir, JA (reprint author), Escuela Nacl Ciencias Forestales, Apartado Postal 2, Siguatepeque, Comayagua, Honduras
+EM alexit98@yahoo.com
+TC 5
+Z9 5
+SN 0378-1127
+PD AUG 20
+PY 2009
+VL 258
+IS 5
+BP 895
+EP 902
+DI 10.1016/j.foreco.2009.03.024
+UT WOS:000268623400040
+ER
+
+PT J
+AU Avelino, J
+   Zelaya, H
+   Merlo, A
+   Pineda, A
+   Ordonez, M
+   Savary, S
+AF Avelino, J.
+   Zelaya, H.
+   Merlo, A.
+   Pineda, A.
+   Ordonez, M.
+   Savary, S.
+TI The intensity of a coffee rust epidemic is dependent on production
+   situations
+SO ECOLOGICAL MODELLING
+C1 Ctr Cooperat Int Rech Agron Dev, F-34398 Montpellier 5, France.
+   Inst Hondureno Cafe, Tegucigalpa, Honduras.
+   INRA, Ctr Rech INRA Bordeaux Aquitaine, UMR Sante Vegetale, F-33883 Villenave Dornon, France.
+RP Avelino, J (reprint author), IICA PROMECAFE, AP 55,2200 Coronado, San Jose, Costa Rica
+EM jacques.avelino@cirad.fr
+TC 8
+Z9 8
+SN 0304-3800
+PD AUG 25
+PY 2006
+VL 197
+IS 3-4
+BP 431
+EP 447
+DI 10.1016/j.ecolmodel.2006.03.013
+UT WOS:000239985700016
+ER
+
+PT J
+AU Elvir, JA
+   Wiersma, GB
+   Day, ME
+   Greenwood, MS
+   Fernandez, IJ
+AF Elvir, JA
+   Wiersma, GB
+   Day, ME
+   Greenwood, MS
+   Fernandez, IJ
+TI Effects of enhanced nitrogen deposition on foliar chemistry and
+   physiological processes of forest trees at the Bear Brook Watershed in
+   Maine
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Escuela Nacl Ciencias Forestale, Comayagua, Honduras.
+   Univ Maine, Orono, ME 04469 USA.
+RP Elvir, JA (reprint author), Escuela Nacl Ciencias Forestale, Apartado Postal 2, Comayagua, Honduras
+EM alexit98@yahoo.com
+TC 13
+Z9 17
+SN 0378-1127
+PD JAN 10
+PY 2006
+VL 221
+IS 1-3
+BP 207
+EP 214
+DI 10.1016/j.foreco.2005.09.022
+UT WOS:000234883800019
+ER
+
+PT J
+AU Gordon, JE
+   Hawthorne, WD
+   Reyes-Garcia, A
+   Sandoval, G
+   Barrance, AJ
+AF Gordon, JE
+   Hawthorne, WD
+   Reyes-Garcia, A
+   Sandoval, G
+   Barrance, AJ
+TI Assessing landscapes: a case study of tree and shrub diversity in the
+   seasonally dry tropical forests of Oaxaca, Mexico and southern Honduras
+SO BIOLOGICAL CONSERVATION
+C1 Univ Oxford, Dept Plant Sci, Oxford OX1 3RB, England.
+   Univ Nacl Autonoma Mexico, Inst Biol, Mexico City 04510, DF, Mexico.
+   Univ Nacl Autonoma Honduras, Dept Biol, Tegucigalpa, Honduras.
+   Overseas Dev Inst, London SE1 7JD, England.
+RP Gordon, JE (reprint author), Univ Durham, Dept Geog, Sci Site, S Rd, Durham DH1 3LE, England
+EM j.e.gordon@durham.ac.uk
+TC 21
+Z9 23
+SN 0006-3207
+PD JUN
+PY 2004
+VL 117
+IS 4
+BP 429
+EP 442
+DI 10.1016/j.biocon.2003.08.011
+UT WOS:000220814600006
+ER
+
+PT J
+AU Castillejos, V
+   Garcia, L
+   Cisneros, J
+   Goulson, D
+   Cave, RD
+   Caballero, P
+   Williams, T
+AF Castillejos, V
+   Garcia, L
+   Cisneros, J
+   Goulson, D
+   Cave, RD
+   Caballero, P
+   Williams, T
+TI The potential of Chrysoperla rufilabris and Doru taeniatum as agents for
+   dispersal of Spodoptera frugiperda nucleopolyhedrovirus in maize
+RID A-2462-2010
+RID D-5063-2009
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+C1 ECOSUR, Tapachula 30700, Chiapas, Mexico.
+   Univ Southampton, Dept Biol, Southampton SO16 7PX, Hants, England.
+   Escuela Agr Panamer, El Zamorano, Honduras.
+   Univ Publ Navarra, Dept Agr Prod, Pamplona 31006, Spain.
+RP Williams, T (reprint author), ECOSUR, Tapachula 30700, Chiapas, Mexico
+TC 8
+Z9 8
+SN 0013-8703
+PD MAR
+PY 2001
+VL 98
+IS 3
+BP 353
+EP 359
+DI 10.1046/j.1570-7458.2001.00792.x
+UT WOS:000167852200012
+ER
+
+EF

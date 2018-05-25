@@ -1,0 +1,711 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Amador-Vargas, Sabrina
+   Dominguez, Marisol
+   Leon, Gunnary
+   Maldonado, Belen
+   Murillo, Johanna
+   Vides, Gabriel L.
+TI Leaf-folding response of a sensitive plant shows context-dependent
+   behavioral plasticity
+SO PLANT ECOLOGY
+VL 215
+IS 12
+BP 1445
+EP 1454
+DI 10.1007/s11258-014-0401-4
+PD DEC 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000344810900007
+ER
+
+PT J
+AU Clairmont, Lindsey
+   Mora, Emanuel C.
+   Fenton, Brock
+TI Morphology, Diet and Flower-visiting by Phyllostomid Bats in Cuba
+SO BIOTROPICA
+VL 46
+IS 4
+BP 433
+EP 440
+DI 10.1111/btp.12118
+PD JUL 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3606
+UT WOS:000338766100008
+ER
+
+PT J
+AU Mancina, Carlos A.
+   Castro-Arellano, Ivan
+TI Unusual temporal niche overlap in a phytophagous bat ensemble of western
+   Cuba
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 29
+BP 511
+EP 521
+DI 10.1017/S0266467413000680
+PN 6
+PD NOV 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0266-4674
+UT WOS:000330474700005
+ER
+
+PT J
+AU Baisre, Julio A.
+TI Shifting Baselines and The Extinction of The Caribbean Monk Seal
+SO CONSERVATION BIOLOGY
+VL 27
+IS 5
+BP 927
+EP 935
+DI 10.1111/cobi.12107
+PD OCT 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0888-8892
+UT WOS:000324931700006
+PM 23869874
+ER
+
+PT J
+AU Rodriguez, Ricardo A.
+   Delgado, Juan D.
+   Ma Herrera, Ada
+   Riera, Rodrigo
+   Ma Navarro, Rafael
+   Melian, Carlos
+   Dieguez, Lorenzo
+   Quiros, Angel
+TI Effects of two traits of the ecological state equation on our
+   understanding of species coexistence and ecosystem services
+SO ECOLOGICAL MODELLING
+VL 265
+BP 1
+EP 13
+DI 10.1016/j.ecolmodel.2013.06.001
+PD SEP 10 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0304-3800
+UT WOS:000323688900001
+ER
+
+PT J
+AU Rodriguez, Ricardo A.
+   Herrera, Ada Ma
+   Delgado, Juan D.
+   Otto, Ruediger
+   Quiros, Angel
+   Santander, Jacobo
+   Miranda, Jezahel V.
+   Fernandez, Maria J.
+   Jimenez-Rodriguez, Antonia
+   Riera, Rodrigo
+   Navarro, Rafael Ma
+   Perdomo, Ma Elena
+   Fernandez-Palacios, Jose Ma
+   Escudero, Carlos G.
+   Arevalo, Jose R.
+   Dieguez, Lorenzo
+TI Biomass-dispersal trade-off and the functional meaning of species
+   diversity
+SO ECOLOGICAL MODELLING
+VL 261
+BP 8
+EP 18
+DI 10.1016/j.ecolmodel.2013.03.023
+PD JUL 24 2013
+PY 2013
+RI DELGADO, JUAN/I-2992-2013; arevalo, jose/C-6611-2014
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0304-3800
+UT WOS:000320494800002
+ER
+
+PT J
+AU Wiegand, Thorsten
+   Raventos, Jose
+   Mujica, Ernesto
+   Gonzalez, Elaine
+   Bonet, Andreu
+TI Spatio-temporal Analysis of the Effects of Hurricane Ivan on Two
+   Contrasting Epiphytic Orchid Species in Guanahacabibes, Cuba
+SO BIOTROPICA
+VL 45
+IS 4
+BP 441
+EP 449
+DI 10.1111/btp.12025
+PD JUL 2013
+PY 2013
+RI Bonet, Andreu /L-8950-2014
+OI Bonet, Andreu /0000-0002-4210-9966
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0006-3606
+UT WOS:000321210900005
+ER
+
+PT J
+AU Turra, Alexander
+   Croquer, Aldo
+   Carranza, Alvar
+   Mansilla, Andres
+   Areces, Arsenio J.
+   Werlinger, Camilo
+   Martinez-Bayon, Carlos
+   Gomes Nassar, Cristina Aparecida
+   Plastino, Estela
+   Schwindt, Evangelina
+   Scarabino, Fabrizio
+   Chow, Fungyi
+   Lopes Figueroa, Felix
+   Berchez, Flavio
+   Hall-Spencer, Jason M.
+   Soto, Luis A.
+   Buckeridge, Marcos Silveira
+   Copertino, Margareth S.
+   Menezes de Szechy, Maria Tereza
+   Ghilardi-Lopes, Natalia Pirani
+   Horta, Paulo
+   Coutinho, Ricardo
+   Fraschetti, Simonetta
+   de Andrade Nery Leao, Zelinda Margarida
+TI Global environmental changes: setting priorities for Latin American
+   coastal habitats
+SO GLOBAL CHANGE BIOLOGY
+VL 19
+IS 7
+BP 1965
+EP 1969
+DI 10.1111/gcb.12186
+PD JUL 2013
+PY 2013
+RI Turra, Alexander/G-1352-2012
+OI Turra, Alexander/0000-0003-2225-8371
+TC 6
+ZB 5
+Z8 0
+ZS 0
+Z9 6
+SN 1354-1013
+UT WOS:000319963500001
+PM 23504820
+ER
+
+PT J
+AU Cavers, Stephen
+   Telford, A.
+   Arenal Cruz, F.
+   Perez Castaneda, A. J.
+   Valencia, R.
+   Navarro, C.
+   Buonamici, A.
+   Lowe, A. J.
+   Vendramin, G. G.
+TI Cryptic species and phylogeographical structure in the tree Cedrela
+   odorata L. throughout the Neotropics
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 732
+EP 746
+DI 10.1111/jbi.12086
+PD APR 2013
+PY 2013
+RI Cavers, Stephen/B-7806-2010; Perry, Annika/F-6784-2014
+OI Cavers, Stephen/0000-0003-2139-9236; Perry, Annika/0000-0002-7889-7597
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0305-0270
+UT WOS:000316325500010
+ER
+
+PT J
+AU Boehm, Monika
+   Collen, Ben
+   Baillie, Jonathan E. M.
+   Bowles, Philip
+   Chanson, Janice
+   Cox, Neil
+   Hammerson, Geoffrey
+   Hoffmann, Michael
+   Livingstone, Suzanne R.
+   Ram, Mala
+   Rhodin, Anders G. J.
+   Stuart, Simon N.
+   van Dijk, Peter Paul
+   Young, Bruce E.
+   Afuang, Leticia E.
+   Aghasyan, Aram
+   Garcia, Andres
+   Aguilar, Cesar
+   Ajtic, Rastko
+   Akarsu, Ferdi
+   Alencar, Laura R. V.
+   Allison, Allen
+   Ananjeva, Natalia
+   Anderson, Steve
+   Andren, Claes
+   Ariano-Sanchez, Daniel
+   Arredondo, Juan Camilo
+   Auliya, Mark
+   Austin, Christopher C.
+   Avci, Aziz
+   Baker, Patrick J.
+   Barreto-Lima, Andre F.
+   Barrio-Amoros, Cesar L.
+   Basu, Dhruvayothi
+   Bates, Michael F.
+   Batistella, Alexandre
+   Bauer, Aaron
+   Bennett, Daniel
+   Boehme, Wolfgang
+   Broadley, Don
+   Brown, Rafe
+   Burgess, Joseph
+   Captain, Ashok
+   Carreira, Santiago
+   Castaneda, Maria del Rosario
+   Castro, Fernando
+   Catenazzi, Alessandro
+   Cedeno-Vazquez, Jose R.
+   Chapple, David G.
+   Cheylan, Marc
+   Cisneros-Heredia, Diego F.
+   Cogalniceanu, Dan
+   Cogger, Hal
+   Corti, Claudia
+   Costa, Gabriel C.
+   Couper, Patrick J.
+   Courtney, Tony
+   Crnobrnja-Isailovic, Jelka
+   Crochet, Pierre-Andre
+   Crother, Brian
+   Cruz, Felix
+   Daltry, Jennifer C.
+   Daniels, R. I. Ranjit
+   Das, Indraneil
+   de Silva, Anslem
+   Diesmos, Arvin C.
+   Dirksen, Lutz
+   Doan, Tiffany M.
+   Dodd, C. Kenneth, Jr.
+   Doody, J. Sean
+   Dorcas, Michael E.
+   de Barros Filho, Jose Duarte
+   Egan, Vincent T.
+   El Mouden, El Hassan
+   Embert, Dirk
+   Espinoza, Robert E.
+   Fallabrino, Alejandro
+   Feng, Xie
+   Feng, Zhao-Jun
+   Fitzgerald, Lee
+   Flores-Villela, Oscar
+   Franca, Frederico G. R.
+   Frost, Darrell
+   Gadsden, Hector
+   Gamble, Tony
+   Ganesh, S. R.
+   Garcia, Miguel A.
+   Garcia-Perez, Juan E.
+   Gatus, Joey
+   Gaulke, Maren
+   Geniez, Philippe
+   Georges, Arthur
+   Gerlach, Justin
+   Goldberg, Stephen
+   Gonzalez, Juan-Carlos T.
+   Gower, David J.
+   Grant, Tandora
+   Greenbaum, Eli
+   Grieco, Cristina
+   Guo, Peng
+   Hamilton, Alison M.
+   Hare, Kelly
+   Hedges, S. Blair
+   Heideman, Neil
+   Hilton-Taylor, Craig
+   Hitchmough, Rod
+   Hollingsworth, Bradford
+   Hutchinson, Mark
+   Ineich, Ivan
+   Iverson, John
+   Jaksic, Fabian M.
+   Jenkins, Richard
+   Joger, Ulrich
+   Jose, Reizl
+   Kaska, Yakup
+   Kaya, Ugur
+   Keogh, J. Scott
+   Koehler, Gunther
+   Kuchling, Gerald
+   Kumlutas, Yusuf
+   Kwet, Axel
+   La Marca, Enrique
+   Lamar, William
+   Lane, Amanda
+   Lardner, Bjorn
+   Latta, Craig
+   Latta, Gabrielle
+   Lau, Michael
+   Lavin, Pablo
+   Lawson, Dwight
+   LeBreton, Matthew
+   Lehr, Edgar
+   Limpus, Duncan
+   Lipczynski, Nicola
+   Lobo, Aaron S.
+   Lopez-Luna, Marco A.
+   Luiselli, Luca
+   Lukoschek, Vimoksalehi
+   Lundberg, Mikael
+   Lymberakis, Petros
+   Macey, Robert
+   Magnusson, William E.
+   Mahler, D. Luke
+   Malhotra, Anita
+   Mariaux, Jean
+   Maritz, Bryan
+   Marques, Otavio A. V.
+   Marquez, Rafael
+   Martins, Marcio
+   Masterson, Gavin
+   Mateo, Jose A.
+   Mathew, Rosamma
+   Mathews, Nixon
+   Mayer, Gregory
+   McCranie, James R.
+   Measey, G. John
+   Mendoza-Quijano, Fernando
+   Menegon, Michele
+   Metrailler, Sebastien
+   Milton, David A.
+   Montgomery, Chad
+   Morato, Sergio A. A.
+   Mott, Tami
+   Munoz-Alonso, Antonio
+   Murphy, John
+   Nguyen, Truong Q.
+   Nilson, Goeran
+   Nogueira, Cristiano
+   Nunez, Herman
+   Orlov, Nikolai
+   Ota, Hidetoshi
+   Ottenwalder, Jose
+   Papenfuss, Theodore
+   Pasachnik, Stesha
+   Passos, Paulo
+   Pauwels, Olivier S. G.
+   Perez-Buitrago, Nestor
+   Perez-Mellado, Valentin
+   Pianka, Eric R.
+   Pleguezuelos, Juan
+   Pollock, Caroline
+   Ponce-Campos, Paulino
+   Powell, Robert
+   Pupin, Fabio
+   Quintero Diaz, Gustavo E.
+   Radder, Raju
+   Ramer, Jan
+   Rasmussen, Arne R.
+   Raxworthy, Chris
+   Reynolds, Robert
+   Richman, Nadia
+   Rico, Edmund L.
+   Riservato, Elisa
+   Rivas, Gilson
+   da Rocha, Pedro L. B.
+   Roedel, Mark-Oliver
+   Rodriguez Schettino, Lourdes
+   Roosenburg, Willem M.
+   Ross, James P.
+   Sadek, Riyad
+   Sanders, Kate
+   Santos-Barrera, Georgina
+   Schleich, Hermann H.
+   Schmidt, Benedikt R.
+   Schmitz, Andreas
+   Sharifi, Mozafar
+   Shea, Glenn
+   Shi, Hai-Tao
+   Shine, Richard
+   Sindaco, Roberto
+   Slimani, Tahar
+   Somaweera, Ruchira
+   Spawls, Steve
+   Stafford, Peter
+   Stuebing, Rob
+   Sweet, Sam
+   Sy, Emerson
+   Temple, Helen J.
+   Tognelli, Marcelo F.
+   Tolley, Krystal
+   Tolson, Peter J.
+   Tuniyev, Boris
+   Tuniyev, Sako
+   Uzum, Nazan
+   van Buurt, Gerard
+   Van Sluys, Monique
+   Velasco, Alvaro
+   Vences, Miguel
+   Vesely, Milan
+   Vinke, Sabine
+   Vinke, Thomas
+   Vogel, Gernot
+   Vogrin, Milan
+   Vogt, Richard C.
+   Wearn, Oliver R.
+   Werner, Yehudah L.
+   Whiting, Martin J.
+   Wiewandt, Thomas
+   Wilkinson, John
+   Wilson, Byron
+   Wren, Sally
+   Zamin, Tara
+   Zhou, Kaiya
+   Zug, George
+TI The conservation status of the world's reptiles
+SO BIOLOGICAL CONSERVATION
+VL 157
+BP 372
+EP 385
+DI 10.1016/j.biocon.2012.07.015
+PD JAN 2013
+PY 2013
+RI Schmidt, Benedikt/B-8491-2008; Marquez, Rafael/E-4454-2013; Martins, Marcio/C-1150-2011; Costa, Gabriel/A-4147-2008; Measey, G John/F-2028-2010; Cogalniceanu, Dan/B-7065-2011; Chapple, David/B-9073-2008; Franca, Frederico/M-6718-2013; Nogueira, Cristiano/I-5100-2012; Nguyen, Truong/F-3730-2012; jaksic, Fabian/G-1705-2014; Whiting, Martin/E-2999-2010; Somaweera, Ruchira/G-7531-2014; Hoffmann, Michael/E-6419-2010; Magnusson, William/J-9408-2014; Catenazzi, Alessandro/C-8615-2009; Keogh, Scott/C-8441-2009; Gadsden, Hector/A-2066-2015; Cisneros-Heredia, Diego/D-1744-2011
+OI Costa, Gabriel/0000-0002-6777-6706; Measey, G John/0000-0001-9939-7615;
+   Cogalniceanu, Dan/0000-0003-2959-014X; Franca,
+   Frederico/0000-0001-6989-2455; Whiting, Martin/0000-0002-4662-0227;
+   Catenazzi, Alessandro/0000-0002-3650-4783; Cisneros-Heredia,
+   Diego/0000-0002-6132-2738
+TC 58
+ZB 56
+Z8 0
+ZS 0
+Z9 59
+SN 0006-3207
+UT WOS:000316651200043
+ER
+
+PT J
+AU Moncada, F. G.
+   Hawkes, L. A.
+   Fish, M. R.
+   Godley, B. J.
+   Manolis, S. C.
+   Medina, Y.
+   Nodarse, G.
+   Webb, G. J. W.
+TI Patterns of dispersal of hawksbill turtles from the Cuban shelf inform
+   scale of conservation and management
+SO BIOLOGICAL CONSERVATION
+VL 148
+IS 1
+BP 191
+EP 199
+DI 10.1016/j.biocon.2012.01.011
+PD APR 2012
+PY 2012
+RI godley, brendan/A-6139-2009
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0006-3207
+UT WOS:000302840100020
+ER
+
+PT J
+AU Alonso, Roberto
+   Crawford, Andrew J.
+   Bermingham, Eldredge
+TI Molecular phylogeny of an endemic radiation of Cuban toads (Bufonidae:
+   Peltophryne) based on mitochondrial and nuclear genes
+SO JOURNAL OF BIOGEOGRAPHY
+VL 39
+IS 3
+BP 434
+EP 451
+DI 10.1111/j.1365-2699.2011.02594.x
+PD MAR 2012
+PY 2012
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 0305-0270
+UT WOS:000300665400002
+ER
+
+PT J
+AU Jestrow, Brett
+   Amaro, Jorge Gutierrez
+   Francisco-Ortega, Javier
+TI Islands within islands: a molecular phylogenetic study of the
+   Leucocroton alliance (Euphorbiaceae) across the Caribbean Islands and
+   within the serpentinite archipelago of Cuba
+SO JOURNAL OF BIOGEOGRAPHY
+VL 39
+IS 3
+BP 452
+EP 464
+DI 10.1111/j.1365-2699.2011.02607.x
+PD MAR 2012
+PY 2012
+TC 7
+ZB 7
+Z8 0
+ZS 0
+Z9 7
+SN 0305-0270
+UT WOS:000300665400003
+ER
+
+PT J
+AU Muniz, Y.
+   Granier, M.
+   Caruth, C.
+   Umaharan, P.
+   Marchal, C.
+   Pavis, C.
+   Wicker, E.
+   Martinez, Y.
+   Peterschmitt, M.
+TI Extensive Settlement of the Invasive MEAM1 population of Bemisia tabaci
+   (Hemiptera: Aleyrodidae) in the Caribbean and Rare Detection of
+   Indigenous Populations
+SO ENVIRONMENTAL ENTOMOLOGY
+VL 40
+IS 5
+BP 989
+EP 998
+DI 10.1603/EN11129
+PD OCT 2011
+PY 2011
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0046-225X
+UT WOS:000295659500002
+PM 22251711
+ER
+
+PT J
+AU Ponce de Leon, Jose L.
+   Rodriguez, Rodet
+   Acosta, Martin
+   Uribe, Mari C.
+TI Egg size and its relationship with fecundity, newborn length and female
+   size in Cuban poeciliid fishes (Teleostei: Cyprinodontiformes).
+SO Ecology of Freshwater Fish
+VL 20
+IS 2
+BP 243
+EP 250
+DI 10.1111/j.1600-0633.2011.00489.x
+PD Jun 2011
+PY 2011
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0906-6691
+UT ZOOREC:ZOOR14707052928
+ER
+
+PT J
+AU Ponce de Leon, Jose L.
+   Rodriguez, Rodet
+   Acosta, Martin
+   Uribe, Mari C.
+TI Egg size and its relationship with fecundity, newborn length and female
+   size in Cuban poeciliid fishes (Teleostei: Cyprinodontiformes)
+SO ECOLOGY OF FRESHWATER FISH
+VL 20
+IS 2
+BP 243
+EP 250
+DI 10.1111/j.1600-0633.2011.00489.x
+PD JUN 2011
+PY 2011
+TC 6
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0906-6691
+UT WOS:000290168700006
+ER
+
+PT J
+AU Raventos, Jose
+   Mujica, Ernesto
+   Wiegand, Thorsten
+   Bonet, Andreu
+TI Analyzing the Spatial Structure of Broughtonia cubensis (Orchidaceae)
+   Populations in the Dry Forests of Guanahacabibes, Cuba
+SO BIOTROPICA
+VL 43
+IS 2
+BP 173
+EP 182
+DI 10.1111/j.1744-7429.2010.00684.x
+PD MAR 2011
+PY 2011
+RI Bonet, Andreu /L-8950-2014
+OI Bonet, Andreu /0000-0002-4210-9966
+TC 5
+ZB 5
+Z8 1
+ZS 0
+Z9 6
+SN 0006-3606
+UT WOS:000287851700006
+ER
+
+EF

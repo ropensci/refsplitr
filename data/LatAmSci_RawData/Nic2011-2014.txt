@@ -1,0 +1,312 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Peguero, Guille
+   Bonal, Raul
+   Espelta, Josep Maria
+TI Variation of predator satiation and seed abortion as seed defense
+   mechanisms across an altitudinal range
+SO BASIC AND APPLIED ECOLOGY
+VL 15
+IS 3
+BP 269
+EP 276
+DI 10.1016/j.baae.2014.03.006
+PD 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1439-1791
+UT WOS:000338606300009
+ER
+
+PT J
+AU Vilchez Mendoza, Sergio
+   Harvey, Celia A.
+   Saenz, Joel C.
+   Casanoves, Fernando
+   Pablo Carvajal, Jose
+   Gonzalez Villalobos, Jorge
+   Hernandez, Blas
+   Medina, Arnulfo
+   Montero, Jorge
+   Sanchez Merlo, Dalia
+   Sinclair, Fergus L.
+TI Consistency in bird use of tree cover across tropical agricultural
+   landscapes
+SO ECOLOGICAL APPLICATIONS
+VL 24
+IS 1
+BP 158
+EP 168
+DI 10.1890/13-0585.1
+PD JAN 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1051-0761
+UT WOS:000329836900014
+ER
+
+PT J
+AU Andraka, Sandra
+   Mug, Moises
+   Hall, Martin
+   Pons, Maite
+   Pacheco, Lucas
+   Parrales, Manuel
+   Rendon, Liliana
+   Parga, Maria L.
+   Mituhasi, Takahisa
+   Segura, Alvaro
+   Ortega, David
+   Villagran, Erick
+   Perez, Sara
+   de Paz, Celina
+   Siu, Salvador
+   Gadea, Velkiss
+   Caicedo, Julian
+   Zapata, Luis A.
+   Martinez, Jimmy
+   Guerrero, Pablo
+   Valqui, Michael
+   Vogel, Nick
+TI Circle hooks: Developing better fishing practices in the artisanal
+   longline fisheries of the Eastern Pacific Ocean
+SO BIOLOGICAL CONSERVATION
+VL 160
+BP 214
+EP 224
+DI 10.1016/j.biocon.2013.01.019
+PD APR 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3207
+UT WOS:000320684700024
+ER
+
+PT J
+AU Vander Zanden, Hannah B.
+   Arthur, Karen E.
+   Bolten, Alan B.
+   Popp, Brian N.
+   Lagueux, Cynthia J.
+   Harrison, Emma
+   Campbell, Cathi L.
+   Bjorndal, Karen A.
+TI Trophic ecology of a green turtle breeding population
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 476
+BP 237
+EP +
+DI 10.3354/meps10185
+PD 2013
+PY 2013
+TC 14
+ZB 14
+Z8 0
+ZS 0
+Z9 14
+SN 0171-8630
+UT WOS:000315465900018
+ER
+
+PT J
+AU Peguero, Guille
+   Lanuza, Oscar R.
+   Save, Robert
+   Espelta, Josep M.
+TI Allelopathic potential of the neotropical dry-forest tree Acacia
+   pennatula Benth.: inhibition of seedling establishment exceeds
+   facilitation under tree canopies
+SO PLANT ECOLOGY
+VL 213
+IS 12
+SI SI
+BP 1945
+EP 1953
+DI 10.1007/s11258-011-0014-0
+PD DEC 2012
+PY 2012
+RI Peguero, Guille/B-9362-2014
+OI Peguero, Guille/0000-0002-6464-1486
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 1385-0237
+UT WOS:000313031200010
+ER
+
+PT J
+AU Granzow-de la Cerda, Inigo
+   Lloret, Francisco
+   Ruiz, Javier E.
+   Vandermeer, John H.
+TI Tree mortality following ENSO-associated fires and drought in lowland
+   rain forests of Eastern Nicaragua
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 265
+BP 248
+EP 257
+DI 10.1016/j.foreco.2011.10.034
+PD FEB 1 2012
+PY 2012
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 0378-1127
+UT WOS:000299981900027
+ER
+
+PT J
+AU Gaos, Alexander R.
+   Lewison, Rebecca L.
+   Wallace, Bryan P.
+   Yanez, Ingrid L.
+   Liles, Michael J.
+   Nichols, Wallace J.
+   Baquero, Andres
+   Hasbun, Carlos R.
+   Vasquez, Mauricio
+   Urteaga, Jose
+   Seminoff, Jeffrey A.
+TI Spatial ecology of critically endangered hawksbill turtles Eretmochelys
+   imbricata: implications for management and conservation
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 450
+BP 181
+EP U198
+DI 10.3354/meps09591
+PD 2012
+PY 2012
+TC 4
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0171-8630
+UT WOS:000302066000014
+ER
+
+PT J
+AU Fraser, Kevin C.
+   McKinnon, Emily A.
+   Diamond, Antony W.
+   Chavarria, Liliana
+TI The influence of microhabitat, moisture and diet on stable-hydrogen
+   isotope variation in a Neotropical avian food web
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 563
+EP 572
+DI 10.1017/S0266467411000332
+PN 6
+PD NOV 2011
+PY 2011
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0266-4674
+UT WOS:000296208500001
+ER
+
+PT J
+AU Peguero, Guille
+   Maria Espelta, Josep
+TI Disturbance intensity and seasonality affect the resprouting ability of
+   the neotropical dry-forest tree Acacia pennatula: do resources stored
+   below-ground matter?
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 539
+EP 546
+DI 10.1017/S0266467411000290
+PN 5
+PD SEP 2011
+PY 2011
+RI Peguero, Guille/B-9362-2014
+OI Peguero, Guille/0000-0002-6464-1486
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0266-4674
+UT WOS:000294212300009
+ER
+
+PT J
+AU Harvey, Celia A.
+   Villanueva, Cristobal
+   Esquivel, Humberto
+   Gomez, Rene
+   Ibrahim, Muhammad
+   Lopez, Marlon
+   Martinez, Jorge
+   Munoz, Diego
+   Restrepo, Claudia
+   Saenz, Joel C.
+   Villacis, Jaime
+   Sinclair, Fergus L.
+TI Conservation value of dispersed tree cover threatened by pasture
+   management
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1664
+EP 1674
+DI 10.1016/j.foreco.2010.11.004
+PD MAY 15 2011
+PY 2011
+TC 12
+ZB 10
+Z8 1
+ZS 2
+Z9 14
+SN 0378-1127
+UT WOS:000290924400013
+ER
+
+PT J
+AU Miranda, Freddy
+   Bylund, Helena
+   Gronberg, Lina
+   Larsson, Linda
+   Bjorkman, Christer
+TI Population Density and Killing Capacity by Predators of Eggs and Larvae
+   of the Diamondback Moth in Nicaragua
+SO ENVIRONMENTAL ENTOMOLOGY
+VL 40
+IS 2
+BP 333
+EP 341
+DI 10.1603/EN10277
+PD APR 2011
+PY 2011
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0046-225X
+UT WOS:000294109900016
+ER
+
+EF

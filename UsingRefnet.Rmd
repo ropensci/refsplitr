@@ -225,4 +225,50 @@ q$plot
 
 p <- net_plot_coauthor_address(data=zz)
 p$plot
+
+#-----
+
+LATAM_references <- read_references("./data/LatAmSci_RawData", 
+                                 dir=TRUE, 
+                                 filename_root="./output/LATAM")
+
+LATAM_references<-distinct(LATAM_references, UT, .keep_all = TRUE)
+
+LATAM_authors <- read_authors(LATAM_references, 
+                       filename_root="./output/LATAM")
+
+LATAM_refined <- refine_authors(authors=LATAM_authors$authors,
+                             master = LATAM_authors$master)
+
+world <- map_data("world")
+
+zz <- address_lat_long(data=LATAM_refined)
+
+plot_addresses_points(data=zz)
+plot_addresses_country(data=zz)
+
+s <- net_plot_coauthor(data=zz)
+s$data
+
+q <- net_plot_coauthor_country(data=zz)
+q$plot
+
+p <- net_plot_coauthor_address(data=zz)
+p$plot
+
+
+
+#-----
+
+dupe_references <- read_references("./data/dupe_test", 
+                                 dir=TRUE, 
+                                 filename_root="./output/dupe_test")
+
+dupe_references<-distinct(dupe_references, UT, .keep_all = TRUE)
+
+dupe_authors <- read_authors(dupe_references, 
+                       filename_root="./output/dupe_test")
+
+
+
 ```

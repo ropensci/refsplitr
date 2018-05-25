@@ -1,0 +1,7668 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Davidson, Timothy M.
+   De Rivera, Catherine E.
+   Hsieh, Hwey-Lian
+TI Damage and alteration of mangroves inhabited by a marine wood-borer
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 516
+BP 177
+EP 185
+DI 10.3354/meps11046
+PD DEC 3 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0171-8630
+UT WOS:000346418900014
+ER
+
+PT J
+AU Andersen, Kelly M.
+   Turner, Benjamin L.
+   Dalling, James W.
+TI Seedling performance trade-offs influencing habitat filtering along a
+   soil nutrient gradient in a tropical forest
+SO ECOLOGY
+VL 95
+IS 12
+BP 3399
+EP 3413
+PD DEC 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000346851400017
+ER
+
+PT J
+AU Schnitzer, Stefan A.
+   van der Heijden, Geertje
+   Mascaro, Joseph
+   Carson, Walter P.
+TI Lianas in gaps reduce carbon accumulation in a tropical forest
+SO ECOLOGY
+VL 95
+IS 11
+BP 3008
+EP 3017
+PD NOV 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000345326000002
+ER
+
+PT J
+AU Garibaldi, Cristina
+   Nieto-Ariza, Beatriz
+   Macia, Manuel J.
+   Cayuela, Luis
+TI Soil and Geographic Distance as Determinants of Floristic Composition in
+   the Azuero Peninsula (Panama)
+SO BIOTROPICA
+VL 46
+IS 6
+BP 687
+EP 695
+DI 10.1111/btp.12174
+PD NOV 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3606
+UT WOS:000344536600007
+ER
+
+PT J
+AU Davies, Andrew B.
+   Robertson, Mark P.
+   Levick, Shaun R.
+   Asner, Gregory P.
+   van Rensburg, Berndt J.
+   Parr, Catherine L.
+TI Variable effects of termite mounds on African savanna grass communities
+   across a rainfall gradient
+SO JOURNAL OF VEGETATION SCIENCE
+VL 25
+IS 6
+BP 1405
+EP 1416
+DI 10.1111/jvs.12200
+PD NOV 2014
+PY 2014
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1100-9233
+UT WOS:000343867500010
+ER
+
+PT J
+AU Holmes, Ignacia
+   Potvin, Catherine
+TI Avoiding Re-Inventing the Wheel in a People-Centered Approach to REDD
+SO CONSERVATION BIOLOGY
+VL 28
+IS 5
+BP 1380
+EP 1393
+DI 10.1111/cobi.12301
+PD OCT 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0888-8892
+UT WOS:000342668700027
+PM 24762062
+ER
+
+PT J
+AU Slot, Martijn
+   Rey-Sanchez, Camilo
+   Winter, Klaus
+   Kitajima, Kaoru
+TI Trait-based scaling of temperature-dependent foliar respiration in a
+   species-rich tropical forest canopy
+SO FUNCTIONAL ECOLOGY
+VL 28
+IS 5
+BP 1074
+EP 1086
+DI 10.1111/1365-2435.12263
+PD OCT 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0269-8463
+UT WOS:000342615100003
+ER
+
+PT J
+AU Chave, Jerome
+   Rejou-Mechain, Maxime
+   Burquez, Alberto
+   Chidumayo, Emmanuel
+   Colgan, Matthew S.
+   Delitti, Welington B. C.
+   Duque, Alvaro
+   Eid, Tron
+   Fearnside, Philip M.
+   Goodman, Rosa C.
+   Henry, Matieu
+   Martinez-Yrizar, Angelina
+   Mugasha, Wilson A.
+   Muller-Landau, Helene C.
+   Mencuccini, Maurizio
+   Nelson, Bruce W.
+   Ngomanda, Alfred
+   Nogueira, Euler M.
+   Ortiz-Malavassi, Edgar
+   Pelissier, Raphael
+   Ploton, Pierre
+   Ryan, Casey M.
+   Saldarriaga, Juan G.
+   Vieilledent, Ghislain
+TI Improved allometric models to estimate the aboveground biomass of
+   tropical trees
+SO GLOBAL CHANGE BIOLOGY
+VL 20
+IS 10
+BP 3177
+EP 3190
+DI 10.1111/gcb.12629
+PD OCT 2014
+PY 2014
+RI Mencuccini, Maurizio/B-9052-2011; Krammel, Vera/N-4826-2014
+OI Mencuccini, Maurizio/0000-0003-0840-1477; Krammel,
+   Vera/0000-0002-8273-8396
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 1354-1013
+UT WOS:000342168500015
+PM 24817483
+ER
+
+PT J
+AU Teague O'Mara, M.
+   Dechmann, Dina K. N.
+   Page, Rachel A.
+TI Frugivorous bats evaluate the quality of social information when
+   choosing novel foods
+SO BEHAVIORAL ECOLOGY
+VL 25
+IS 5
+BP 1233
+EP 1239
+DI 10.1093/beheco/aru120
+PD SEP-OCT 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1045-2249
+UT WOS:000342360200031
+ER
+
+PT J
+AU Sapijanskas, Jurgis
+   Paquette, Alain
+   Potvin, Catherine
+   Kunert, Norbert
+   Loreau, Michel
+TI Tropical tree diversity enhances light capture through crown plasticity
+   and spatial and temporal niche differences
+SO ECOLOGY
+VL 95
+IS 9
+BP 2479
+EP 2492
+PD SEP 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000342340200011
+ER
+
+PT J
+AU Feret, Jean-Baptiste
+   Asner, Gregory P.
+TI Mapping tropical forest canopy diversity using high-fidelity imaging
+   spectroscopy
+SO ECOLOGICAL APPLICATIONS
+VL 24
+IS 6
+BP 1289
+EP 1296
+PD SEP 2014
+PY 2014
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1051-0761
+UT WOS:000341715800004
+ER
+
+PT J
+AU Feret, Jean-Baptiste
+   Asner, Gregory P.
+TI Microtopographic controls on lowland Amazonian canopy diversity from
+   imaging spectroscopy
+SO ECOLOGICAL APPLICATIONS
+VL 24
+IS 6
+BP 1297
+EP 1310
+PD SEP 2014
+PY 2014
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1051-0761
+UT WOS:000341715800005
+ER
+
+PT J
+AU Shik, Jonathan Z.
+   Santos, Juan C.
+   Seal, Jon N.
+   Kay, Adam
+   Mueller, Ulrich G.
+   Kaspari, Michael
+TI Metabolism and the Rise of Fungus Cultivation by Ants
+SO AMERICAN NATURALIST
+VL 184
+IS 3
+BP 364
+EP 373
+DI 10.1086/677296
+PD SEP 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0003-0147
+UT WOS:000340844300010
+PM 25141145
+ER
+
+PT J
+AU Rocio Pinto-Sanchez, Nelsy
+   Crawford, Andrew J.
+   Wiens, John J.
+TI Using historical biogeography to test for community saturation
+SO ECOLOGY LETTERS
+VL 17
+IS 9
+BP 1077
+EP 1085
+DI 10.1111/ele.12310
+PD SEP 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1461-023X
+UT WOS:000340406200003
+PM 24920382
+ER
+
+PT J
+AU Jansen, Patrick A.
+   Visser, Marco D.
+   Wright, S. Joseph
+   Rutten, Gemma
+   Muller-Landau, Helene C.
+TI Negative density dependence of seed dispersal and seedling recruitment
+   in a Neotropical palm
+SO ECOLOGY LETTERS
+VL 17
+IS 9
+BP 1111
+EP 1120
+DI 10.1111/ele.12317
+PD SEP 2014
+PY 2014
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 0
+ZB 1
+Z8 1
+ZS 0
+Z9 1
+SN 1461-023X
+UT WOS:000340406200007
+PM 25039608
+ER
+
+PT J
+AU Slot, Martijn
+   Rey-Sanchez, Camilo
+   Gerber, Stefan
+   Lichstein, Jeremy W.
+   Winter, Klaus
+   Kitajima, Kaoru
+TI Thermal acclimation of leaf respiration of tropical trees and lianas:
+   response to experimental canopy warming, and consequences for tropical
+   forest carbon balance
+SO GLOBAL CHANGE BIOLOGY
+VL 20
+IS 9
+BP 2915
+EP 2926
+DI 10.1111/gcb.12563
+PD SEP 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1354-1013
+UT WOS:000340287300019
+PM 24604769
+ER
+
+PT J
+AU Lohbeck, Madelon
+   Poorter, Lourens
+   Martinez-Ramos, Miguel
+   Rodriguez-Velazquez, Jorge
+   van Breugel, Michiel
+   Bongers, Frans
+TI Changing drivers of species dominance during tropical forest succession
+SO FUNCTIONAL ECOLOGY
+VL 28
+IS 4
+BP 1052
+EP 1058
+DI 10.1111/1365-2435.12240
+PD AUG 2014
+PY 2014
+RI Lohbeck, Madelon/M-6390-2014
+OI Lohbeck, Madelon/0000-0002-3959-1800
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0269-8463
+UT WOS:000340673900028
+ER
+
+PT J
+AU Lin, Fei
+   Comita, Liza S.
+   Wang, Xugao
+   Bai, Xuejiao
+   Yuan, Zuoqiang
+   Xing, Dingliang
+   Hao, Zhanqing
+TI The contribution of understory light availability and biotic
+   neighborhood to seedling survival in secondary versus old-growth
+   temperate forest
+SO PLANT ECOLOGY
+VL 215
+IS 8
+BP 795
+EP 807
+DI 10.1007/s11258-014-0332-0
+PD AUG 2014
+PY 2014
+RI wang, xugao/B-1111-2015
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000341091600001
+ER
+
+PT J
+AU Schreeg, L. A.
+   Santiago, L. S.
+   Wright, S. J.
+   Turner, B. L.
+TI Stem, root, and older leaf N:P ratios are more responsive indicators of
+   soil nutrient availability than new foliage
+SO ECOLOGY
+VL 95
+IS 8
+BP 2062
+EP 2068
+PD AUG 2014
+PY 2014
+RI Turner, Benjamin/E-5940-2011; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000340215900005
+PM 25230458
+ER
+
+PT J
+AU O'Mara, M. Teague
+   Hickey, Cathriona M.
+TI The development of sex differences in ring-tailed lemur feeding ecology
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 68
+IS 8
+BP 1273
+EP 1286
+DI 10.1007/s00265-014-1738-3
+PD AUG 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0340-5443
+UT WOS:000339728500006
+ER
+
+PT J
+AU Picq, Sophie
+   Alda, Fernando
+   Krahe, Ruediger
+   Bermingham, Eldredge
+TI Miocene and Pliocene colonization of the Central American Isthmus by the
+   weakly electric fish Brachyhypopomus occidentalis (Hypopomidae,
+   Gymnotiformes)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 41
+IS 8
+BP 1520
+EP 1532
+DI 10.1111/jbi.12309
+PD AUG 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0305-0270
+UT WOS:000339665900008
+ER
+
+PT J
+AU Shen, Yong
+   Santiago, Louis S.
+   Shen, Hao
+   Ma, Lei
+   Lian, Juyu
+   Cao, Honglin
+   Lu, Huanping
+   Ye, Wanhui
+TI Determinants of change in subtropical tree diameter growth with
+   ontogenetic stage
+SO OECOLOGIA
+VL 175
+IS 4
+BP 1315
+EP 1324
+DI 10.1007/s00442-014-2981-z
+PD AUG 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0029-8549
+UT WOS:000339893600025
+PM 24938832
+ER
+
+PT J
+AU O'Dwyer, James P.
+   Chisholm, Ryan
+TI A mean field model for competition: from neutral ecology to the Red
+   Queen
+SO ECOLOGY LETTERS
+VL 17
+IS 8
+BP 961
+EP 969
+DI 10.1111/ele.12299
+PD AUG 2014
+PY 2014
+RI Chisholm, Ryan/H-8033-2012
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1461-023X
+UT WOS:000339101100008
+PM 24924150
+ER
+
+PT J
+AU Mitchard, Edward T. A.
+   Feldpausch, Ted R.
+   Brienen, Roel J. W.
+   Lopez-Gonzalez, Gabriela
+   Monteagudo, Abel
+   Baker, Timothy R.
+   Lewis, Simon L.
+   Lloyd, Jon
+   Quesada, Carlos A.
+   Gloor, Manuel
+   ter Steege, Hans
+   Meir, Patrick
+   Alvarez, Esteban
+   Araujo-Murakami, Alejandro
+   Aragao, Luiz E. O. C.
+   Arroyo, Luzmila
+   Aymard, Gerardo
+   Banki, Olaf
+   Bonal, Damien
+   Brown, Sandra
+   Brown, Foster I.
+   Ceron, Carlos E.
+   Chama Moscoso, Victor
+   Chave, Jerome
+   Comiskey, James A.
+   Cornejo, Fernando
+   Corrales Medina, Massiel
+   Da Costa, Lola
+   Costa, Flavia R. C.
+   Di Fiore, Anthony
+   Domingues, Tomas F.
+   Erwin, Terry L.
+   Frederickson, Todd
+   Higuchi, Niro
+   Honorio Coronado, Euridice N.
+   Killeen, Tim J.
+   Laurance, William F.
+   Levis, Carolina
+   Magnusson, William E.
+   Marimon, Beatriz S.
+   Marimon Junior, Ben Hur
+   Mendoza Polo, Irina
+   Mishra, Piyush
+   Nascimento, Marcelo T.
+   Neill, David
+   Nunez Vargas, Mario P.
+   Palacios, Walter A.
+   Parada, Alexander
+   Pardo Molina, Guido
+   Pena-Claros, Marielos
+   Pitman, Nigel
+   Peres, Carlos A.
+   Poorter, Lourens
+   Prieto, Adriana
+   Ramirez-Angulo, Hirma
+   Restrepo Correa, Zorayda
+   Roopsind, Anand
+   Roucoux, Katherine H.
+   Rudas, Agustin
+   Salomao, Rafael P.
+   Schietti, Juliana
+   Silveira, Marcos
+   de Souza, Priscila F.
+   Steininger, Marc K.
+   Stropp, Juliana
+   Terborgh, John
+   Thomas, Raquel
+   Toledo, Marisol
+   Torres-Lezama, Armando
+   van Andel, Tinde R.
+   van der Heijden, Geertje M. F.
+   Vieira, Ima C. G.
+   Vieira, Simone
+   Vilanova-Torre, Emilio
+   Vos, Vincent A.
+   Wang, Ophelia
+   Zartman, Charles E.
+   Malhi, Yadvinder
+   Phillips, Oliver L.
+TI Markedly divergent estimates of Amazon forest carbon density from ground
+   plots and satellites
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 23
+IS 8
+BP 935
+EP 946
+DI 10.1111/geb.12168
+PD AUG 2014
+PY 2014
+RI Lloyd, Jonathan/F-8893-2010; Phillips, Oliver/A-1523-2011; Magnusson, William/J-9408-2014; Marimon Junior, Ben Hur/E-7330-2013; James Cook University, TESS/B-8171-2012; Vieira, Simone/H-1225-2011; Research ID, CTBCC /O-3564-2014
+OI Lloyd, Jonathan/0000-0002-5458-9960; Phillips,
+   Oliver/0000-0002-8993-6168; Vieira, Simone/0000-0002-0129-4181; 
+TC 7
+ZB 4
+Z8 0
+ZS 0
+Z9 7
+SN 1466-822X
+UT WOS:000339110400011
+ER
+
+PT J
+AU Hirsch, Ben T.
+   Martinez, Daniel
+   Kurten, Erin L.
+   Brown, Danielle D.
+   Carson, Walter P.
+TI Mammalian Insectivores Exert Top-Down Effects on Azteca Ants
+SO BIOTROPICA
+VL 46
+IS 4
+BP 489
+EP 494
+DI 10.1111/btp.12128
+PD JUL 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3606
+UT WOS:000338766100014
+ER
+
+PT J
+AU Comita, Liza S.
+   Queenborough, Simon A.
+   Murphy, Stephen J.
+   Eck, Jenalle L.
+   Xu, Kaiyang
+   Krishnadas, Meghna
+   Beckman, Noelle
+   Zhu, Yan
+TI Testing predictions of the Janzen-Connell hypothesis: a meta-analysis of
+   experimental evidence for distance- and density-dependent seed and
+   seedling survival
+SO JOURNAL OF ECOLOGY
+VL 102
+IS 4
+BP 845
+EP 856
+DI 10.1111/1365-2745.12232
+PD JUL 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0022-0477
+UT WOS:000338027500003
+ER
+
+PT J
+AU Brown, D. D.
+   Montgomery, R. A.
+   Millspaugh, J. J.
+   Jansen, P. A.
+   Garzon-Lopez, C. X.
+   Kays, R.
+TI Selection and spatial arrangement of rest sites within northern tamandua
+   home ranges
+SO JOURNAL OF ZOOLOGY
+VL 293
+IS 3
+BP 160
+EP 170
+DI 10.1111/jzo.12131
+PD JUL 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0952-8369
+UT WOS:000337972800003
+ER
+
+PT J
+AU Chisholm, Ryan A.
+   Condit, Richard
+   Abd Rahman, K.
+   Baker, Patrick J.
+   Bunyavejchewin, Sarayudh
+   Chen, Yu-Yun
+   Chuyong, George
+   Dattaraja, H. S.
+   Davies, Stuart
+   Ewango, Corneille E. N.
+   Gunatilleke, C. V. S.
+   Gunatilleke, I. A. U. Nimal
+   Hubbell, Stephen
+   Kenfack, David
+   Kiratiprayoon, Somboon
+   Lin, Yiching
+   Makana, Jean-Remy
+   Pongpattananurak, Nantachai
+   Pulla, Sandeep
+   Punchi-Manage, Ruwan
+   Sukumar, Raman
+   Su, Sheng-Hsin
+   Sun, I-Fang
+   Suresh, H. S.
+   Tan, Sylvester
+   Thomas, Duncan
+   Yap, Sandra
+TI Temporal variability of forest communities: empirical estimates of
+   population change in 4000 tree species
+SO ECOLOGY LETTERS
+VL 17
+IS 7
+BP 855
+EP 865
+DI 10.1111/ele.12296
+PD JUL 2014
+PY 2014
+RI Chisholm, Ryan/H-8033-2012
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1461-023X
+UT WOS:000337534600010
+PM 24805976
+ER
+
+PT J
+AU Pizano, Camila
+   Mangan, Scott A.
+   Graham, James H.
+   Kitajima, Kaoru
+TI Habitat-specific positive and negative effects of soil biota on seedling
+   growth in a fragmented tropical montane landscape
+SO OIKOS
+VL 123
+IS 7
+BP 846
+EP 856
+DI 10.1111/oik.01032
+PD JUL 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0030-1299
+UT WOS:000337744900010
+ER
+
+PT J
+AU Smith, Tyler B.
+   Glynn, Peter W.
+   Mate, Juan L.
+   Toth, Lauren T.
+   Gyory, Joanna
+TI A depth refugium from catastrophic coral bleaching prevents regional
+   extinction
+SO ECOLOGY
+VL 95
+IS 6
+BP 1663
+EP 1673
+PD JUN 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000337218500024
+PM 25039230
+ER
+
+PT J
+AU Talbot, Joey
+   Lewis, Simon L.
+   Lopez-Gonzalez, Gabriela
+   Brienen, Roe J. W.
+   Monteagudo, Abel
+   Baker, Timothy R.
+   Feldpausch, Ted R.
+   Malhi, Yadvinder
+   Vanderwel, Mark
+   Murakami, Alejandro Araujo
+   Arroyo, Luzmila P.
+   Chao, Kuo-Jung
+   Erwin, Terry
+   van der Heijden, Geertje
+   Keeling, Helen
+   Killeen, Tim
+   Neill, David
+   Nunez Vargas, Percy
+   Gutierrez, Germaine Alexander Parada
+   Pitman, Nigel
+   Quesada, Carlos Alberto
+   Silveira, Marcos
+   Stropp, Juliana
+   Phillips, Oliver L.
+TI Methods to estimate aboveground wood productivity from long-term forest
+   inventory plots
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 320
+BP 30
+EP 38
+DI 10.1016/j.foreco.2014.02.021
+PD MAY 15 2014
+PY 2014
+RI Phillips, Oliver/A-1523-2011; Feldpausch, Ted/D-3436-2009; Silveira, Marcos/H-7906-2013
+OI Phillips, Oliver/0000-0002-8993-6168; Feldpausch,
+   Ted/0000-0002-6631-7962; 
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0378-1127
+UT WOS:000336110600005
+ER
+
+PT J
+AU Ryan, Michael J.
+TI When seeing is deceiving: a comment on Kelley and Kelley
+SO BEHAVIORAL ECOLOGY
+VL 25
+IS 3
+BP 466
+EP 467
+DI 10.1093/beheco/aru036
+PD MAY-JUN 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1045-2249
+UT WOS:000336486100007
+ER
+
+PT J
+AU Martinson, Ellen O.
+   Jander, K. Charlotte
+   Peng, Yan-Qiong
+   Chen, Huan-Huan
+   Machado, Carlos A.
+   Arnold, A. Elizabeth
+   Allen Herre, Edward
+TI Relative investment in egg load and poison sac in fig wasps:
+   Implications for physiological mechanisms underlying seed and wasp
+   production in figs
+SO ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY
+VL 57
+SI SI
+BP 58
+EP 66
+DI 10.1016/j.actao.2013.07.009
+PD MAY 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1146-609X
+UT WOS:000336191000009
+ER
+
+PT J
+AU Ceron-Souza, Ivania
+   Turner, Benjamin L.
+   Winter, Klaus
+   Medina, Ernesto
+   Bermingham, Eldredge
+   Feliner, Gonzalo N.
+TI Reproductive phenology and physiological traits in the red mangrove
+   hybrid complex (Rhizophora mangle and R-racemosa) across a natural
+   gradient of nutrients and salinity
+SO PLANT ECOLOGY
+VL 215
+IS 5
+BP 481
+EP 493
+DI 10.1007/s11258-014-0315-1
+PD MAY 2014
+PY 2014
+RI Turner, Benjamin/E-5940-2011
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000334413900001
+ER
+
+PT J
+AU Baker, Timothy R.
+   Pennington, R. Toby
+   Magallon, Susana
+   Gloor, Emanuel
+   Laurance, William F.
+   Alexiades, Miguel
+   Alvarez, Esteban
+   Araujo, Alejandro
+   Arets, Eric J. M. M.
+   Aymard, Gerardo
+   de Oliveira, Atila Alves
+   Amaral, Ieda
+   Arroyo, Luzmila
+   Bonal, Damien
+   Brienen, Roel J. W.
+   Chave, Jerome
+   Dexter, Kyle G.
+   Di Fiore, Anthony
+   Eler, Eduardo
+   Feldpausch, Ted R.
+   Ferreira, Leandro
+   Lopez-Gonzalez, Gabriela
+   van der Heijden, Geertje
+   Higuchi, Niro
+   Honorio, Euridice
+   Huamantupa, Isau
+   Killeen, Tim J.
+   Laurance, Susan
+   Leano, Claudio
+   Lewis, Simon L.
+   Malhi, Yadvinder
+   Marimon, Beatriz Schwantes
+   Marimon Junior, Ben Hur
+   Monteagudo Mendoza, Abel
+   Neill, David
+   Cristina Penuela-Mora, Maria
+   Pitman, Nigel
+   Prieto, Adriana
+   Quesada, Carlos A.
+   Ramirez, Fredy
+   Ramirez Angulo, Hirma
+   Rudas, Agustin
+   Ruschel, Ademir R.
+   Salomao, Rafael P.
+   de Andrade, Ana Segalin
+   Silva, J. Natalino M.
+   Silveira, Marcos
+   Simon, Marcelo F.
+   Spironello, Wilson
+   ter Steege, Hans
+   Terborgh, John
+   Toledo, Marisol
+   Torres-Lezama, Armando
+   Vasquez, Rodolfo
+   Guimaraes Vieira, Ima Celia
+   Vilanova, Emilio
+   Vos, Vincent A.
+   Phillips, Oliver L.
+TI Fast demographic traits promote high diversification rates of Amazonian
+   trees
+SO ECOLOGY LETTERS
+VL 17
+IS 5
+BP 527
+EP 536
+DI 10.1111/ele.12252
+PD MAY 2014
+PY 2014
+RI ter Steege, Amaz/B-5866-2011; Phillips, Oliver/A-1523-2011; Feldpausch, Ted/D-3436-2009; Silveira, Marcos/H-7906-2013; Marimon Junior, Ben Hur/E-7330-2013; James Cook University, TESS/B-8171-2012; Research ID, CTBCC /O-3564-2014
+OI ter Steege, Amaz/0000-0002-8738-2659; Phillips,
+   Oliver/0000-0002-8993-6168; Feldpausch, Ted/0000-0002-6631-7962; 
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1461-023X
+UT WOS:000333568600001
+PM 24589190
+ER
+
+PT J
+AU Cavanaugh, Kyle C.
+   Gosnell, J. Stephen
+   Davis, Samantha L.
+   Ahumada, Jorge
+   Boundja, Patrick
+   Clark, David B.
+   Mugerwa, Badru
+   Jansen, Patrick A.
+   O'Brien, Timothy G.
+   Rovero, Francesco
+   Sheil, Douglas
+   Vasquez, Rodolfo
+   Andelman, Sandy
+TI Carbon storage in tropical forests correlates with taxonomic diversity
+   and functional dominance on a global scale
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 23
+IS 5
+BP 563
+EP 573
+DI 10.1111/geb.12143
+PD MAY 2014
+PY 2014
+RI Sheil, Douglas/A-3867-2015
+OI Sheil, Douglas/0000-0002-1166-6591
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 1466-822X
+UT WOS:000333417100005
+ER
+
+PT J
+AU Kaspari, Michael
+   Clay, Natalie A.
+   Donoso, David A.
+   Yanoviak, Steven P.
+TI Sodium fertilization increases termites and enhances decomposition in an
+   Amazonian forest
+SO ECOLOGY
+VL 95
+IS 4
+BP 795
+EP 800
+DI 10.1890/13-1274.1
+PD APR 2014
+PY 2014
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0012-9658
+UT WOS:000334573600001
+PM 24933800
+ER
+
+PT J
+AU Lebrija-Trejos, Edwin
+   Wright, S. Joseph
+   Hernandez, Andres
+   Reich, Peter B.
+TI Does relatedness matter? Phylogenetic density-dependent survival of
+   seedlings in a tropical forest
+SO ECOLOGY
+VL 95
+IS 4
+BP 940
+EP 951
+DI 10.1890/13-0623.1
+PD APR 2014
+PY 2014
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0012-9658
+UT WOS:000334573600014
+PM 24933813
+ER
+
+PT J
+AU Sattler, T.
+   Pezzatti, G. B.
+   Nobis, M. P.
+   Obrist, M. K.
+   Roth, T.
+   Moretti, M.
+TI Selection of Multiple Umbrella Species for Functional and Taxonomic
+   Diversity to Represent Urban Biodiversity
+SO CONSERVATION BIOLOGY
+VL 28
+IS 2
+BP 414
+EP 426
+DI 10.1111/cobi.12213
+PD APR 2014
+PY 2014
+RI Nobis, Michael/F-6176-2010
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0888-8892
+UT WOS:000332923500013
+PM 24372620
+ER
+
+PT J
+AU Jones, Patricia L.
+   Ryan, Michael J.
+   Page, Rachel A.
+TI Population and seasonal variation in response to prey calls by an
+   eavesdropping bat
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 68
+IS 4
+BP 605
+EP 615
+DI 10.1007/s00265-013-1675-6
+PD APR 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0340-5443
+UT WOS:000332979400008
+ER
+
+PT J
+AU Negron-Ortiz, Vivian
+TI Pattern of expenditures for plant conservation under the Endangered
+   Species Act
+SO BIOLOGICAL CONSERVATION
+VL 171
+BP 36
+EP 43
+DI 10.1016/j.biocon.2014.01.018
+PD MAR 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3207
+UT WOS:000335486400005
+ER
+
+PT J
+AU Garzon-Lopez, Carol X.
+   Jansen, Patrick A.
+   Bohlman, Stephanie A.
+   Ordonez, Alejandro
+   Olff, Han
+TI Effects of sampling scale on patterns of habitat association in tropical
+   trees
+SO JOURNAL OF VEGETATION SCIENCE
+VL 25
+IS 2
+BP 349
+EP 362
+DI 10.1111/jvs.12090
+PD MAR 2014
+PY 2014
+RI Olff, Han/A-8516-2008; Garzon-Lopez, Carol/G-6251-2014
+OI Olff, Han/0000-0003-2154-3576; Garzon-Lopez, Carol/0000-0002-4099-2740
+TC 5
+ZB 3
+Z8 0
+ZS 0
+Z9 5
+SN 1100-9233
+UT WOS:000331693300005
+ER
+
+PT J
+AU Bryson, Robert W., Jr.
+   Chaves, Jaime
+   Smith, Brian Tilston
+   Miller, Matthew J.
+   Winker, Kevin
+   Perez-Eman, Jorge L.
+   Klicka, John
+TI Diversification across the New World within the 'blue' cardinalids
+   (Aves: Cardinalidae)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 41
+IS 3
+BP 587
+EP 599
+DI 10.1111/jbi.12218
+PD MAR 2014
+PY 2014
+RI Winker, Kevin/M-2042-2014; caputo, carlo/N-3747-2014
+OI Winker, Kevin/0000-0002-8985-8104; 
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0305-0270
+UT WOS:000330907800015
+ER
+
+PT J
+AU Hayes, Patrick
+   Turner, Benjamin L.
+   Lambers, Hans
+   Laliberte, Etienne
+TI Foliar nutrient concentrations and resorption efficiency in plants of
+   contrasting nutrient-acquisition strategies along a 2-million-year dune
+   chronosequence
+SO JOURNAL OF ECOLOGY
+VL 102
+IS 2
+BP 396
+EP 410
+PD MAR 2014
+PY 2014
+RI Hayes, Patrick/D-4679-2014; Turner, Benjamin/E-5940-2011; Lambers, Hans/A-1544-2008; Laliberte, Etienne/B-6855-2008
+OI Hayes, Patrick/0000-0001-7554-4588; Lambers, Hans/0000-0002-4118-2272; 
+TC 10
+ZB 10
+Z8 0
+ZS 0
+Z9 10
+SN 0022-0477
+UT WOS:000331467300011
+ER
+
+PT J
+AU Carlson, J. K.
+   Gulak, S. J. B.
+   Simpfendorfer, C. A.
+   Grubbs, R. D.
+   Romine, J. G.
+   Burgess, G. H.
+TI Movement patterns and habitat use of smalltooth sawfish, Pristis
+   pectinata, determined using pop-up satellite archival tags
+SO AQUATIC CONSERVATION-MARINE AND FRESHWATER ECOSYSTEMS
+VL 24
+IS 1
+BP 104
+EP 117
+DI 10.1002/aqc.2382
+PD FEB 2014
+PY 2014
+RI Simpfendorfer, Colin/G-9681-2011
+OI Simpfendorfer, Colin/0000-0002-0295-2238
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1052-7613
+UT WOS:000330802700011
+ER
+
+PT J
+AU Levitan, Don R.
+   Boudreau, William
+   Jara, Javier
+   Knowlton, Nancy
+TI Long-term reduced spawning in Orbicella coral species due to temperature
+   stress
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 515
+BP 1
+EP 10
+DI 10.3354/meps11063
+PD 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0171-8630
+UT WOS:000345703500001
+ER
+
+PT J
+AU Zhang, Hongyan
+   Mason, Doran M.
+   Stow, Craig A.
+   Adamack, Aaron T.
+   Brandt, Stephen B.
+   Zhang, Xinsheng
+   Kimmel, David G.
+   Roman, Michael R.
+   Boicourt, William C.
+   Ludsin, Stuart A.
+TI Effects of hypoxia on habitat quality of pelagic planktivorous fishes in
+   the northern Gulf of Mexico
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 505
+BP 209
+EP 226
+DI 10.3354/meps10768
+PD 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0171-8630
+UT WOS:000336913000016
+ER
+
+PT J
+AU Kerr, K. A.
+   Cornejo, A.
+   Guichard, F.
+   Collin, R.
+TI Planktonic predation risk varies with prey life history stage and
+   diurnal phase
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 503
+BP 99
+EP 109
+DI 10.3354/meps10735
+PD 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0171-8630
+UT WOS:000335581700007
+ER
+
+PT J
+AU Audino, Livia Dorneles
+   Louzada, Julio
+   Comita, Liza
+TI Dung beetles as indicators of tropical forest restoration success: Is it
+   possible to recover species and functional diversity?
+SO BIOLOGICAL CONSERVATION
+VL 169
+BP 248
+EP 257
+DI 10.1016/j.biocon.2013.11.023
+PD JAN 2014
+PY 2014
+RI Santos Pompeu, Paulo/G-8032-2014; Louzada, Julio/F-1265-2010
+OI Louzada, Julio/0000-0002-1481-3112
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0006-3207
+UT WOS:000333574400028
+ER
+
+PT J
+AU Baldeck, C. A.
+   Colgan, M. S.
+   Feret, J-B
+   Levicx, S. R.
+   Martin, R. E.
+   Asner, G. P.
+TI Landscape-scale variation in plant community composition of an African
+   savanna from airborne species mapping
+SO ECOLOGICAL APPLICATIONS
+VL 24
+IS 1
+BP 84
+EP 93
+DI 10.1890/13-0307.1
+PD JAN 2014
+PY 2014
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 2
+ZB 1
+Z8 0
+ZS 0
+Z9 2
+SN 1051-0761
+UT WOS:000329836900009
+PM 24640536
+ER
+
+PT J
+AU Srygley, Robert B.
+   Dudley, Robert
+   Oliveira, Evandro G.
+   Riveros, Andre J.
+TI El Nino, Host Plant Growth, and Migratory Butterfly Abundance in a
+   Changing Climate
+SO BIOTROPICA
+VL 46
+IS 1
+BP 90
+EP 97
+DI 10.1111/btp.12081
+PD JAN 2014
+PY 2014
+TC 1
+ZB 1
+Z8 1
+ZS 0
+Z9 2
+SN 0006-3606
+UT WOS:000329289900012
+ER
+
+PT J
+AU Willink, B.
+   Palmer, M. S.
+   Landberg, T.
+   Vonesh, J. R.
+   Warkentin, K. M.
+TI Environmental context shapes immediate and cumulative costs of
+   risk-induced early hatching
+SO EVOLUTIONARY ECOLOGY
+VL 28
+IS 1
+BP 103
+EP 116
+DI 10.1007/s10682-013-9661-z
+PD JAN 2014
+PY 2014
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0269-7653
+UT WOS:000329323400007
+ER
+
+PT J
+AU Riveros, Andre J.
+   Esquivel, Darci M. S.
+   Wajnberg, Eliane
+   Srygley, Robert B.
+TI Do leaf-cutter ants Atta colombica obtain their magnetic sensors from
+   soil?
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 68
+IS 1
+BP 55
+EP 62
+DI 10.1007/s00265-013-1621-7
+PD JAN 2014
+PY 2014
+RI Esquivel, Darci/G-1581-2012; Wajnberg, Eliane /G-7446-2014
+TC 1
+ZB 0
+Z8 0
+ZS 0
+Z9 1
+SN 0340-5443
+UT WOS:000329100100006
+ER
+
+PT J
+AU Mayor, Jordan R.
+   Joseph Wright, S.
+   Turner, Benjamin L.
+TI Species-specific responses of foliar nutrients to longterm nitrogen and
+   phosphorus additions in a lowland tropical forest
+SO JOURNAL OF ECOLOGY
+VL 102
+IS 1
+BP 36
+EP 44
+DI 10.1111/1365-2745.12190
+PD JAN 2014
+PY 2014
+RI Turner, Benjamin/E-5940-2011; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 2
+ZB 1
+Z8 0
+ZS 0
+Z9 2
+SN 0022-0477
+UT WOS:000328555600006
+ER
+
+PT J
+AU Vencl, Fredric V.
+   Plata C, Camila A.
+   Srygley, Robert B.
+TI Proximate effects of maternal oviposition preferences on defence
+   efficacy and larval survival in a diet-specialised tortoise beetle. Who
+   knows best: mothers or their progeny?
+SO ECOLOGICAL ENTOMOLOGY
+VL 38
+IS 6
+BP 596
+EP 607
+DI 10.1111/een.12052
+PD DEC 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0307-6946
+UT WOS:000330126600010
+ER
+
+PT J
+AU Lessios, H. A.
+   Robertson, D. R.
+TI Speciation on a round planet: phylogeography of the goatfish genus
+   Mulloidichthys
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 12
+BP 2373
+EP 2384
+DI 10.1111/jbi.12176
+PD DEC 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0305-0270
+UT WOS:000330102600015
+ER
+
+PT J
+AU Sprenger, Matthias
+   Oelmann, Yvonne
+   Weihermueller, Lutz
+   Wolf, Sebastian
+   Wilcke, Wolfgang
+   Potvin, Catherine
+TI Tree species and diversity effects on soil water seepage in a tropical
+   plantation
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 309
+SI SI
+BP 76
+EP 86
+DI 10.1016/j.foreco.2013.03.022
+PD DEC 1 2013
+PY 2013
+RI Wolf, Sebastian/B-4580-2010
+OI Wolf, Sebastian/0000-0001-7717-6993
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0378-1127
+UT WOS:000328526900009
+ER
+
+PT J
+AU Baldeck, Claire A.
+   Kembel, Steven W.
+   Harms, Kyle E.
+   Yavitt, Joseph B.
+   John, Robert
+   Turner, Benjamin L.
+   Chuyong, George B.
+   Kenfack, David
+   Thomas, Duncan W.
+   Madawala, Sumedha
+   Gunatilleke, Nimal
+   Gunatilleke, Savitri
+   Bunyavejchewin, Sarayudh
+   Kiratiprayoon, Somboon
+   Yaacob, Adzmi
+   Supardi, Mohd. N. Nur
+   Valencia, Renato
+   Navarrete, Hugo
+   Davies, Stuart J.
+   Hubbell, Stephen P.
+   Dalling, James W.
+TI A taxonomic comparison of local habitat niches of tropical trees
+SO OECOLOGIA
+VL 173
+IS 4
+BP 1491
+EP 1498
+DI 10.1007/s00442-013-2709-5
+PD DEC 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0029-8549
+UT WOS:000328210000030
+PM 23851985
+ER
+
+PT J
+AU Wright, Emma L.
+   Black, Colin R.
+   Turner, Benjamin L.
+   Sjoegersten, Sofie
+TI Environmental controls of temporal and spatial variability in CO2 and
+   CH4 fluxes in a neotropical peatland
+SO GLOBAL CHANGE BIOLOGY
+VL 19
+IS 12
+BP 3775
+EP 3789
+DI 10.1111/gcb.12330
+PD DEC 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1354-1013
+UT WOS:000326836000019
+PM 23873747
+ER
+
+PT J
+AU Slik, J. W. Ferry
+   Paoli, Gary
+   McGuire, Krista
+   Amaral, Ieda
+   Barroso, Jorcely
+   Bastian, Meredith
+   Blanc, Lilian
+   Bongers, Frans
+   Boundja, Patrick
+   Clark, Connie
+   Collins, Murray
+   Dauby, Gilles
+   Ding, Yi
+   Doucet, Jean-Louis
+   Eler, Eduardo
+   Ferreira, Leandro
+   Forshed, Olle
+   Fredriksson, Gabriella
+   Gillet, Jean-Francois
+   Harris, David
+   Leal, Miguel
+   Laumonier, Yves
+   Malhi, Yadvinder
+   Mansor, Asyraf
+   Martin, Emanuel
+   Miyamoto, Kazuki
+   Araujo-Murakami, Alejandro
+   Nagamasu, Hidetoshi
+   Nilus, Reuben
+   Nurtjahya, Eddy
+   Oliveira, Atila
+   Onrizal, Onrizal
+   Parada-Gutierrez, Alexander
+   Permana, Andrea
+   Poorter, Lourens
+   Poulsen, John
+   Ramirez-Angulo, Hirma
+   Reitsma, Jan
+   Rovero, Francesco
+   Rozak, Andes
+   Sheil, Douglas
+   Silva-Espejo, Javier
+   Silveira, Marcos
+   Spironelo, Wilson
+   ter Steege, Hans
+   Stevart, Tariq
+   Navarro-Aguilar, Gilberto Enrique
+   Sunderland, Terry
+   Suzuki, Eizi
+   Tang, Jianwei
+   Theilade, Ida
+   van der Heijden, Geertje
+   van Valkenburg, Johan
+   Van Do, Tran
+   Vilanova, Emilio
+   Vos, Vincent
+   Wich, Serge
+   Woell, Hannsjoerg
+   Yoneda, Tsuyoshi
+   Zang, Runguo
+   Zhang, Ming Gang
+   Zweifel, Nicole
+TI Large trees drive forest aboveground biomass variation in moist lowland
+   forests across the tropics
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 22
+IS 12
+BP 1261
+EP 1271
+DI 10.1111/geb.12092
+PD DEC 2013
+PY 2013
+RI Theilade, Ida/A-6498-2010; ter Steege, Amaz/B-5866-2011; Oliveira, Alexandre/G-8830-2012; Silveira, Marcos/H-7906-2013; Sheil, Douglas/A-3867-2015
+OI Theilade, Ida/0000-0003-3502-1277; ter Steege, Amaz/0000-0002-8738-2659;
+   Sheil, Douglas/0000-0002-1166-6591
+TC 11
+ZB 11
+Z8 0
+ZS 0
+Z9 11
+SN 1466-822X
+UT WOS:000326649100003
+ER
+
+PT J
+AU van der Heijden, Geertje M.
+   Schnitzer, Stefan A.
+   Powers, Jennifer S.
+   Phillips, Oliver L.
+TI Liana Impacts on Carbon Cycling, Storage and Sequestration in Tropical
+   Forests
+SO BIOTROPICA
+VL 45
+IS 6
+SI SI
+BP 682
+EP 692
+DI 10.1111/btp.12060
+PD NOV 2013
+PY 2013
+RI Phillips, Oliver/A-1523-2011
+OI Phillips, Oliver/0000-0002-8993-6168
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0006-3606
+UT WOS:000326333400004
+ER
+
+PT J
+AU Touchon, Justin C.
+   Jimenez, Randall R.
+   Abinette, Shane H.
+   Vonesh, James R.
+   Warkentin, Karen M.
+TI Behavioral plasticity mitigates risk across environments and predators
+   during anuran metamorphosis
+SO OECOLOGIA
+VL 173
+IS 3
+BP 801
+EP 811
+DI 10.1007/s00442-013-2714-8
+PD NOV 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0029-8549
+UT WOS:000325819700016
+PM 23824140
+ER
+
+PT J
+AU Shik, Jonathan Z.
+   Donoso, David A.
+   Kaspari, Michael
+TI The life history continuum hypothesis links traits of male ants with
+   life outside the nest
+SO ENTOMOLOGIA EXPERIMENTALIS ET APPLICATA
+VL 149
+IS 2
+BP 99
+EP 109
+DI 10.1111/eea.12117
+PD NOV 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0013-8703
+UT WOS:000325356200001
+ER
+
+PT J
+AU Hammerschlag, Neil
+   Gallagher, Austin J.
+   Carlson, John K.
+TI A revised estimate of daily ration in the tiger shark with implication
+   for assessing ecosystem impacts of apex predators
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 5
+BP 1273
+EP 1274
+DI 10.1111/1365-2435.12157
+PD OCT 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0269-8463
+UT WOS:000325366500019
+ER
+
+PT J
+AU Alda, Fernando
+   Gonzalez, Manuel A.
+   Olea, Pedro P.
+   Ena, Vicente
+   Godinho, Raquel
+   Drovetski, Sergei V.
+TI Genetic diversity, structure and conservation of the endangered
+   Cantabrian Capercaillie in a unique peripheral habitat
+SO EUROPEAN JOURNAL OF WILDLIFE RESEARCH
+VL 59
+IS 5
+BP 719
+EP 728
+DI 10.1007/s10344-013-0727-6
+PD OCT 2013
+PY 2013
+RI Godinho, Raquel/L-6804-2013; Drovetski, Sergei/A-6002-2011
+OI Godinho, Raquel/0000-0002-4260-4799; 
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 1612-4642
+UT WOS:000324276700012
+ER
+
+PT J
+AU He, Fangliang
+   Hubbell, Stephen
+TI Estimating extinction from species-area relationships: why the numbers
+   do not add up
+SO ECOLOGY
+VL 94
+IS 9
+BP 1905
+EP 1912
+DI 10.1890/12-1795.1
+PD SEP 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0012-9658
+UT WOS:000324532900003
+PM 24279261
+ER
+
+PT J
+AU Chisholm, Ryan A.
+   Muller-Landau, Helene C.
+   Abdul Rahman, Kassim
+   Bebber, Daniel P.
+   Bin, Yue
+   Bohlman, Stephanie A.
+   Bourg, Norman A.
+   Brinks, Joshua
+   Bunyavejchewin, Sarayudh
+   Butt, Nathalie
+   Cao, Honglin
+   Cao, Min
+   Cardenas, Dairon
+   Chang, Li-Wan
+   Chiang, Jyh-Min
+   Chuyong, George
+   Condit, Richard
+   Dattaraja, Handanakere S.
+   Davies, Stuart
+   Duque, Alvaro
+   Fletcher, Christine
+   Gunatilleke, Nimal
+   Gunatilleke, Savitri
+   Hao, Zhanqing
+   Harrison, Rhett D.
+   Howe, Robert
+   Hsieh, Chang-Fu
+   Hubbell, Stephen P.
+   Itoh, Akira
+   Kenfack, David
+   Kiratiprayoon, Somboon
+   Larson, Andrew J.
+   Lian, Juyu
+   Lin, Dunmei
+   Liu, Haifeng
+   Lutz, James A.
+   Ma, Keping
+   Malhi, Yadvinder
+   McMahon, Sean
+   McShea, William
+   Meegaskumbura, Madhava
+   Razman, Salim Mohd
+   Morecroft, Michael D.
+   Nytch, Christopher J.
+   Oliveira, Alexandre
+   Parker, Geoffrey G.
+   Pulla, Sandeep
+   Punchi-Manage, Ruwan
+   Romero-Saltos, Hugo
+   Sang, Weiguo
+   Schurman, Jon
+   Su, Sheng-Hsin
+   Sukumar, Raman
+   Sun, I-Fang
+   Suresh, Hebbalalu S.
+   Tan, Sylvester
+   Thomas, Duncan
+   Thomas, Sean
+   Thompson, Jill
+   Valencia, Renato
+   Wolf, Amy
+   Yap, Sandra
+   Ye, Wanhui
+   Yuan, Zuoqiang
+   Zimmerman, Jess K.
+TI Scale-dependent relationships between tree species richness and
+   ecosystem function in forests
+SO JOURNAL OF ECOLOGY
+VL 101
+IS 5
+DI 10.1111/1365-2745.12132
+PD SEP 2013
+PY 2013
+RI Butt, Nathalie/B-3558-2014; Thompson, Jill/K-2200-2012; Oliveira, Alexandre/G-8830-2012; Chisholm, Ryan/H-8033-2012
+OI Thompson, Jill/0000-0002-4370-2593; 
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0022-0477
+UT WOS:000323699000013
+ER
+
+PT J
+AU Laliberte, Etienne
+   Turner, Benjamin L.
+   Zemunik, Graham
+   Wyrwoll, Karl-Heinz
+   Pearse, Stuart J.
+   Lambers, Hans
+TI Nutrient limitation along the Jurien Bay dune chronosequence: response
+   to Uren & Parsons (2013)
+SO JOURNAL OF ECOLOGY
+VL 101
+IS 5
+BP 1088
+EP 1092
+DI 10.1111/1365-2745.12123
+PD SEP 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011; Laliberte, Etienne/B-6855-2008; Lambers, Hans/A-1544-2008
+OI Lambers, Hans/0000-0002-4118-2272
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0022-0477
+UT WOS:000323699000002
+ER
+
+PT J
+AU McCleery, R.
+   Oli, M. K.
+   Hostetler, J. A.
+   Karmacharya, B.
+   Greene, D.
+   Winchester, C.
+   Gore, J.
+   Sneckenberger, S.
+   Castleberry, S. B.
+   Mengak, M. T.
+TI Are declines of an endangered mammal predation-driven, and can a
+   captive-breeding and release program aid their recovery?
+SO JOURNAL OF ZOOLOGY
+VL 291
+IS 1
+BP 59
+EP 68
+DI 10.1111/jzo.12046
+PD SEP 2013
+PY 2013
+RI Hostetler, Jeffrey/A-3345-2011
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0952-8369
+UT WOS:000323541900008
+ER
+
+PT J
+AU Gillner, Sten
+   Rueger, Nadja
+   Roloff, Andreas
+   Berger, Uta
+TI Low relative growth rates predict future mortality of common beech
+   (Fagus sylvatica L.)
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 302
+BP 372
+EP 378
+DI 10.1016/j.foreco.2013.03.032
+PD AUG 15 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0378-1127
+UT WOS:000320741300039
+ER
+
+PT J
+AU Hodgkison, Robert
+   Ayasse, Manfred
+   Haeberlein, Christopher
+   Schulz, Stefan
+   Zubaid, Akbar
+   Mustapha, Wan Aida W.
+   Kunz, Thomas H.
+   Kalko, Elisabeth K. V.
+TI Fruit bats and bat fruits: the evolution of fruit scent in relation to
+   the foraging behaviour of bats in the New and Old World tropics
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 4
+SI SI
+BP 1075
+EP 1084
+DI 10.1111/1365-2435.12101
+PD AUG 2013
+PY 2013
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 0269-8463
+UT WOS:000329303900024
+ER
+
+PT J
+AU van der Sande, Masha T.
+   Poorter, Lourens
+   Schnitzer, Stefan A.
+   Markesteijn, Lars
+TI Are lianas more drought-tolerant than trees? A test for the role of
+   hydraulic architecture and other stem and leaf traits
+SO OECOLOGIA
+VL 172
+IS 4
+BP 961
+EP 972
+DI 10.1007/s00442-012-2563-x
+PD AUG 2013
+PY 2013
+TC 4
+ZB 5
+Z8 1
+ZS 0
+Z9 5
+SN 0029-8549
+UT WOS:000322180000005
+PM 23277211
+ER
+
+PT J
+AU Fronhofer, Emanuel A.
+   Sperr, Ellen B.
+   Kreis, Anna
+   Ayasse, Manfred
+   Poethke, Hans Joachim
+   Tschapka, Marco
+TI Picky hitch-hikers: vector choice leads to directed dispersal and
+   fat-tailed kernels in a passively dispersing mite
+SO OIKOS
+VL 122
+IS 8
+BP 1254
+EP 1264
+DI 10.1111/j.1600-0706.2013.00503.x
+PD AUG 2013
+PY 2013
+RI Fronhofer, Emanuel/J-9784-2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0030-1299
+UT WOS:000321823300015
+ER
+
+PT J
+AU Puerta-Pinero, Carolina
+   Muller-Landau, Helene C.
+   Calderon, Osvaldo
+   Joseph Wright, S.
+TI Seed arrival in tropical forest tree fall gaps
+SO ECOLOGY
+VL 94
+IS 7
+BP 1552
+EP 1562
+DI 10.1890/12-1012.1
+PD JUL 2013
+PY 2013
+RI Puerta Pinero, Carolina/B-3186-2012; Wright, Stuart/M-3311-2013
+OI Puerta Pinero, Carolina/0000-0002-0584-7548; Wright,
+   Stuart/0000-0003-4260-5676
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 0012-9658
+UT WOS:000321618400013
+PM 23951715
+ER
+
+PT J
+AU Altieri, Andrew H.
+   Bertness, Mark D.
+   Coverdale, Tyler C.
+   Axelman, Eric E.
+   Herrmann, Nicholas C.
+   Szathmary, P. Lauren
+TI Feedbacks underlie the resilience of salt marshes and rapid reversal of
+   consumer-driven die-off
+SO ECOLOGY
+VL 94
+IS 7
+BP 1647
+EP 1657
+DI 10.1890/12-1781.1
+PD JUL 2013
+PY 2013
+TC 7
+ZB 5
+Z8 0
+ZS 0
+Z9 7
+SN 0012-9658
+UT WOS:000321618400022
+PM 23951724
+ER
+
+PT J
+AU Richards-Zawacki, Corinne L.
+   Yeager, Justin
+   Bart, Henry P. S.
+TI No evidence for differential survival or predation between sympatric
+   color morphs of an aposematic poison frog
+SO EVOLUTIONARY ECOLOGY
+VL 27
+IS 4
+SI SI
+BP 783
+EP 795
+DI 10.1007/s10682-013-9636-0
+PD JUL 2013
+PY 2013
+RI Richards-Zawacki, Corinne/F-2731-2011
+OI Richards-Zawacki, Corinne/0000-0002-4212-041X
+TC 6
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0269-7653
+UT WOS:000321262800010
+ER
+
+PT J
+AU Cerqueira, Marconi C.
+   Cohn-Haft, Mario
+   Vargas, Claudeir F.
+   Nader, Carlos E.
+   Andretti, Christian B.
+   Costa, Thiago V. V.
+   Sberze, Monica
+   Hines, James E.
+   Ferraz, Goncalo
+TI Rare or elusive? A test of expert knowledge about rarity of Amazon
+   forest birds
+SO DIVERSITY AND DISTRIBUTIONS
+VL 19
+IS 7
+BP 710
+EP 721
+DI 10.1111/ddi.12033
+PD JUL 2013
+PY 2013
+RI Costa, Thiago/F-7931-2013; Ferraz, Goncalo/C-3860-2008
+OI Ferraz, Goncalo/0000-0001-8748-0462
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1366-9516
+UT WOS:000320327500006
+ER
+
+PT J
+AU Wagner, Katrin
+   Bogusch, Wiebke
+   Zotz, Gerhard
+TI The role of the regeneration niche for the vertical stratification of
+   vascular epiphytes
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 29
+BP 277
+EP 290
+DI 10.1017/S0266467413000291
+PN 4
+PD JUL 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 1
+Z9 3
+SN 0266-4674
+UT WOS:000321203600001
+ER
+
+PT J
+AU Zalamea, Paul-Camilo
+   Sarmiento, Carolina
+   Stevenson, Pablo R.
+   Rodriguez, Manuel
+   Nicolini, Eric
+   Heuret, Patrick
+TI Effect of rainfall seasonality on the growth of Cecropia sciadophylla:
+   intra-annual variation in leaf production and node length
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 29
+BP 361
+EP 365
+DI 10.1017/S0266467413000394
+PN 4
+PD JUL 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0266-4674
+UT WOS:000321203600010
+ER
+
+PT J
+AU Anderson-Teixeira, Kristina J.
+   Miller, Adam D.
+   Mohan, Jacqueline E.
+   Hudiburg, Tara W.
+   Duval, Benjamin D.
+   DeLucia, Evan H.
+TI Altered dynamics of forest recovery under a changing climate
+SO GLOBAL CHANGE BIOLOGY
+VL 19
+IS 7
+BP 2001
+EP 2021
+DI 10.1111/gcb.12194
+PD JUL 2013
+PY 2013
+TC 9
+ZB 7
+Z8 0
+ZS 0
+Z9 9
+SN 1354-1013
+UT WOS:000319963500004
+PM 23529980
+ER
+
+PT J
+AU Lohbeck, Madelon
+   Poorter, Lourens
+   Lebrija-Trejos, Edwin
+   Martinez-Ramos, Miguel
+   Meave, Jorge A.
+   Paz, Horacio
+   Perez-Garcia, Eduardo A.
+   Eunice Romero-Perez, I.
+   Tauro, Alejandra
+   Bongers, Frans
+TI Successional changes in functional composition contrast for dry and wet
+   tropical forest
+SO ECOLOGY
+VL 94
+IS 6
+BP 1211
+EP 1216
+PD JUN 2013
+PY 2013
+RI Lohbeck, Madelon/M-6390-2014
+OI Lohbeck, Madelon/0000-0002-3959-1800
+TC 7
+ZB 8
+Z8 1
+ZS 0
+Z9 8
+SN 0012-9658
+UT WOS:000320714800001
+PM 23923479
+ER
+
+PT J
+AU Freestone, Amy L.
+   Ruiz, Gregory M.
+   Torchin, Mark E.
+TI Stronger biotic resistance in tropics relative to temperate zone:
+   effects of predation on marine invasion dynamics
+SO ECOLOGY
+VL 94
+IS 6
+BP 1370
+EP 1377
+PD JUN 2013
+PY 2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0012-9658
+UT WOS:000320714800022
+PM 23923500
+ER
+
+PT J
+AU Hietz, Peter
+   Valencia, Renato
+   Joseph Wright, S.
+TI Strong radial variation in wood density follows a uniform pattern in two
+   neotropical rain forests
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 3
+SI SI
+BP 684
+EP 692
+DI 10.1111/1365-2435.12085
+PD JUN 2013
+PY 2013
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0269-8463
+UT WOS:000319420500011
+ER
+
+PT J
+AU Riedel, Judith
+   Dorn, Silvia
+   Plath, Mirco
+   Potvin, Catherine
+   Mody, Karsten
+TI Time matters: Temporally changing effects of planting schemes and
+   insecticide treatment on native timber tree performance on former
+   pasture
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 297
+BP 49
+EP 56
+DI 10.1016/j.foreco.2013.02.003
+PD JUN 1 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0378-1127
+UT WOS:000318835600005
+ER
+
+PT J
+AU Schweizer, Daniella
+   Gilbert, Gregory S.
+   Holl, Karen D.
+TI Phylogenetic ecology applied to enrichment planting of tropical native
+   tree species
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 297
+BP 57
+EP 66
+DI 10.1016/j.foreco.2013.02.012
+PD JUN 1 2013
+PY 2013
+RI Holl, Karen/D-8033-2014
+OI Holl, Karen/0000-0003-2893-6161
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0378-1127
+UT WOS:000318835600006
+ER
+
+PT J
+AU Larjavaara, Markku
+   Muller-Landau, Helene C.
+TI Temperature explains global variation in biomass among humid old-growth
+   forests (vol 21, pg 998, 2012)
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 22
+IS 6
+BP 772
+EP 772
+DI 10.1111/geb.12037
+PD JUN 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 1466-822X
+UT WOS:000318512900013
+ER
+
+PT J
+AU Kang Min Ngo
+   Turner, Benjamin L.
+   Muller-Landau, Helene C.
+   Davies, Stuart J.
+   Larjavaara, Markku
+   Hassan, Nik Faizu bin Nik
+   Lum, Shawn
+TI Carbon stocks in primary and secondary tropical forests in Singapore
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 296
+BP 81
+EP 89
+DI 10.1016/j.foreco.2013.02.004
+PD MAY 15 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 5
+ZB 3
+Z8 0
+ZS 0
+Z9 5
+SN 0378-1127
+UT WOS:000318210900009
+ER
+
+PT J
+AU Tiansawat, Pimonrat
+   Dalling, James W.
+TI Differential seed germination responses to the ratio of red to far-red
+   light in temperate and tropical species
+SO PLANT ECOLOGY
+VL 214
+IS 5
+BP 751
+EP 764
+DI 10.1007/s11258-013-0205-y
+PD MAY 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000319069600007
+ER
+
+PT J
+AU Parker, John D.
+   Torchin, Mark E.
+   Hufbauer, Ruth A.
+   Lemoine, Nathan P.
+   Alba, Christina
+   Blumenthal, Dana M.
+   Bossdorf, Oliver
+   Byers, James E.
+   Dunn, Alison M.
+   Heckman, Robert W.
+   Hejda, Martin
+   Jarosik, Vojtech
+   Kanarek, Andrew R.
+   Martin, Lynn B.
+   Perkins, Sarah E.
+   Pysek, Petr
+   Schierenbeck, Kristina
+   Schloeder, Carmen
+   van Klinken, Rieks
+   Vaughn, Kurt J.
+   Williams, Wyatt
+   Wolfe, Lorne M.
+TI Do invasive species perform better in their new ranges?
+SO ECOLOGY
+VL 94
+IS 5
+BP 985
+EP 994
+PD MAY 2013
+PY 2013
+RI van Klinken, Rieks/B-1772-2009; Perkins, Sarah/B-1817-2010; Pysek, Petr/B-1957-2012; Bossdorf, Oliver/A-8328-2008; Alba, Christina/H-1579-2014; Hejda, Martin/H-1589-2014
+OI Alba, Christina/0000-0001-7040-8480; 
+TC 13
+ZB 12
+Z8 0
+ZS 0
+Z9 13
+SN 0012-9658
+UT WOS:000318969800001
+PM 23858639
+ER
+
+PT J
+AU Piao, Tiefeng
+   Comita, Liza S.
+   Jin, Guangze
+   Kim, Ji Hong
+TI Density dependence across multiple life stages in a temperate old-growth
+   forest of northeast China
+SO OECOLOGIA
+VL 172
+IS 1
+BP 207
+EP 217
+DI 10.1007/s00442-012-2481-y
+PD MAY 2013
+PY 2013
+TC 7
+ZB 7
+Z8 1
+ZS 0
+Z9 8
+SN 0029-8549
+UT WOS:000317686800019
+PM 23053238
+ER
+
+PT J
+AU Garzon-Lopez, Carol X.
+   Bohlman, Stephanie A.
+   Olff, Han
+   Jansen, Patrick A.
+TI Mapping Tropical Forest Trees Using High-Resolution Aerial Digital
+   Photographs
+SO BIOTROPICA
+VL 45
+IS 3
+BP 308
+EP 316
+DI 10.1111/btp.12009
+PD MAY 2013
+PY 2013
+RI Olff, Han/A-8516-2008; Garzon-Lopez, Carol/G-6251-2014
+OI Olff, Han/0000-0003-2154-3576; Garzon-Lopez, Carol/0000-0002-4099-2740
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3606
+UT WOS:000318314900006
+ER
+
+PT J
+AU Yorke, Suzanne R.
+   Schnitzer, Stefan A.
+   Mascaro, Joseph
+   Letcher, Susan G.
+   Carson, Walter P.
+TI Increasing Liana Abundance and Basal Area in a Tropical Forest: The
+   Contribution of Long-distance Clonal Colonization
+SO BIOTROPICA
+VL 45
+IS 3
+BP 317
+EP 324
+DI 10.1111/btp.12015
+PD MAY 2013
+PY 2013
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0006-3606
+UT WOS:000318314900007
+ER
+
+PT J
+AU Harrison, Rhett D.
+   Tan, Sylvester
+   Plotkin, Joshua B.
+   Slik, Ferry
+   Detto, Matteo
+   Brenes, Tania
+   Itoh, Akira
+   Davies, Stuart J.
+TI Consequences of defaunation for a tropical tree community
+SO ECOLOGY LETTERS
+VL 16
+IS 5
+BP 687
+EP 694
+DI 10.1111/ele.12102
+PD MAY 2013
+PY 2013
+RI Plotkin, Joshua/E-6947-2013
+TC 16
+ZB 15
+Z8 0
+ZS 0
+Z9 16
+SN 1461-023X
+UT WOS:000318077200015
+PM 23489437
+ER
+
+PT J
+AU Andersen, Kelly M.
+   Turner, Benjamin L.
+TI Preferences or plasticity in nitrogen acquisition by understorey palms
+   in a tropical montane forest
+SO JOURNAL OF ECOLOGY
+VL 101
+IS 3
+BP 819
+EP 825
+DI 10.1111/1365-2745.12070
+PD MAY 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0022-0477
+UT WOS:000318186800027
+ER
+
+PT J
+AU Dent, Daisy H.
+   DeWalt, Saara J.
+   Denslow, Julie S.
+TI Secondary forests of central Panama increase in similarity to old-growth
+   forest over time in shade tolerance but not species composition
+SO JOURNAL OF VEGETATION SCIENCE
+VL 24
+IS 3
+BP 530
+EP 542
+DI 10.1111/j.1654-1103.2012.01482.x
+PD MAY 2013
+PY 2013
+TC 8
+ZB 9
+Z8 2
+ZS 0
+Z9 11
+SN 1100-9233
+UT WOS:000317018300013
+ER
+
+PT J
+AU Andraka, Sandra
+   Mug, Moises
+   Hall, Martin
+   Pons, Maite
+   Pacheco, Lucas
+   Parrales, Manuel
+   Rendon, Liliana
+   Parga, Maria L.
+   Mituhasi, Takahisa
+   Segura, Alvaro
+   Ortega, David
+   Villagran, Erick
+   Perez, Sara
+   de Paz, Celina
+   Siu, Salvador
+   Gadea, Velkiss
+   Caicedo, Julian
+   Zapata, Luis A.
+   Martinez, Jimmy
+   Guerrero, Pablo
+   Valqui, Michael
+   Vogel, Nick
+TI Circle hooks: Developing better fishing practices in the artisanal
+   longline fisheries of the Eastern Pacific Ocean
+SO BIOLOGICAL CONSERVATION
+VL 160
+BP 214
+EP 224
+DI 10.1016/j.biocon.2013.01.019
+PD APR 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3207
+UT WOS:000320684700024
+ER
+
+PT J
+AU Touchon, Justin C.
+   McCoy, Michael W.
+   Vonesh, James R.
+   Warkentin, Karen M.
+TI Effects of plastic hatching timing carry over through metamorphosis in
+   red-eyed treefrogs
+SO ECOLOGY
+VL 94
+IS 4
+BP 850
+EP 860
+PD APR 2013
+PY 2013
+TC 8
+ZB 8
+Z8 0
+ZS 0
+Z9 8
+SN 0012-9658
+UT WOS:000317964900010
+ER
+
+PT J
+AU Sapijanskas, Jurgis
+   Potvin, Catherine
+   Loreau, Michel
+TI Beyond shading: Litter production by neighbors contributes to
+   overyielding in tropical trees
+SO ECOLOGY
+VL 94
+IS 4
+BP 941
+EP 952
+PD APR 2013
+PY 2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0012-9658
+UT WOS:000317964900018
+ER
+
+PT J
+AU Brenes-Arguedas, Tania
+   Roddy, Adam B.
+   Kursar, Thomas A.
+TI Plant traits in relation to the performance and distribution of woody
+   species in wet and dry tropical forest types in Panama
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 2
+BP 392
+EP 402
+DI 10.1111/1365-2435.12036
+PD APR 2013
+PY 2013
+RI Roddy, Adam/M-4523-2013
+OI Roddy, Adam/0000-0002-4423-8729
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0269-8463
+UT WOS:000317306000012
+ER
+
+PT J
+AU Fernandez-Marin, Hermogenes
+   Bruner, Gaspar
+   Gomez, Ernesto B.
+   Nash, David R.
+   Boomsma, Jacobus J.
+   Wcislo, William T.
+TI Dynamic Disease Management in Trachymyrmex Fungus-Growing Ants (Attini:
+   Formicidae)
+SO AMERICAN NATURALIST
+VL 181
+IS 4
+BP 571
+EP 582
+DI 10.1086/669664
+PD APR 2013
+PY 2013
+RI Nash, David/B-2916-2009; Nash, David/H-4433-2012; Boomsma, Jacobus/M-2785-2014
+OI Nash, David/0000-0002-0462-6794; Nash, David/0000-0002-0462-6794;
+   Boomsma, Jacobus/0000-0002-3598-1609
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0003-0147
+UT WOS:000316797200014
+PM 23535621
+ER
+
+PT J
+AU Detto, Matteo
+   Muller-Landau, Helene C.
+TI Fitting Ecological Process Models to Spatial Patterns Using Scalewise
+   Variances and Moment Equations
+SO AMERICAN NATURALIST
+VL 181
+IS 4
+BP E68
+EP E82
+DI 10.1086/669678
+PD APR 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0003-0147
+UT WOS:000316797200001
+PM 23535623
+ER
+
+PT J
+AU Cavers, Stephen
+   Dick, Christopher W.
+TI Phylogeography of Neotropical trees
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 615
+EP 617
+DI 10.1111/jbi.12097
+PD APR 2013
+PY 2013
+RI Dick, Christopher/A-8744-2008; Cavers, Stephen/B-7806-2010
+OI Cavers, Stephen/0000-0003-2139-9236
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0305-0270
+UT WOS:000316325500001
+ER
+
+PT J
+AU Scotti-Saintagne, Caroline
+   Dick, Christopher W.
+   Caron, Henri
+   Vendramin, Giovanni G.
+   Guichoux, Erwan
+   Buonamici, Anna
+   Duret, Caroline
+   Sire, Pierre
+   Valencia, Renato
+   Lemes, Maristerra R.
+   Gribel, Rogerio
+   Scotti, Ivan
+TI Phylogeography of a species complex of lowland Neotropical rain forest
+   trees (Carapa, Meliaceae)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 676
+EP 692
+DI 10.1111/j.1365-2699.2011.02678.x
+PD APR 2013
+PY 2013
+RI Dick, Christopher/A-8744-2008; Scotti-Saintagne, Caroline/C-3119-2009; Adapta, Inct/J-8371-2013; Gribel, Rogerio/C-5392-2013
+OI Gribel, Rogerio/0000-0002-0850-5578
+TC 8
+ZB 8
+Z8 0
+ZS 0
+Z9 8
+SN 0305-0270
+UT WOS:000316325500006
+ER
+
+PT J
+AU Rymer, Paul D.
+   Dick, Christopher W.
+   Vendramin, Giovanni G.
+   Buonamici, Anna
+   Boshier, David
+TI Recent phylogeographic structure in a widespread 'weedy' Neotropical
+   tree species, Cordia alliodora (Boraginaceae)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 693
+EP 706
+DI 10.1111/j.1365-2699.2012.02727.x
+PD APR 2013
+PY 2013
+RI Dick, Christopher/A-8744-2008
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0305-0270
+UT WOS:000316325500007
+ER
+
+PT J
+AU Scotti-Saintagne, Caroline
+   Dick, Christopher W.
+   Caron, Henri
+   Vendramin, Giovanni G.
+   Troispoux, Valerie
+   Sire, Pierre
+   Casalis, Maxime
+   Buonamici, Anna
+   Valencia, Renato
+   Lemes, Maristerra R.
+   Gribel, Rogerio
+   Scotti, Ivan
+TI Amazon diversification and cross-Andean dispersal of the widespread
+   Neotropical tree species Jacaranda copaia (Bignoniaceae)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 707
+EP 719
+DI 10.1111/j.1365-2699.2012.02797.x
+PD APR 2013
+PY 2013
+RI Dick, Christopher/A-8744-2008; Scotti-Saintagne, Caroline/C-3119-2009; Adapta, Inct/J-8371-2013; Gribel, Rogerio/C-5392-2013
+OI Gribel, Rogerio/0000-0002-0850-5578
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0305-0270
+UT WOS:000316325500008
+ER
+
+PT J
+AU Jones, F. Andrew
+   Ceron-Souza, Ivania
+   Hardesty, Britta Denise
+   Dick, Christopher W.
+TI Genetic evidence of Quaternary demographic changes in four rain forest
+   tree species sampled across the Isthmus of Panama
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 4
+BP 720
+EP 731
+DI 10.1111/jbi.12037
+PD APR 2013
+PY 2013
+RI Dick, Christopher/A-8744-2008
+TC 8
+ZB 7
+Z8 0
+ZS 0
+Z9 8
+SN 0305-0270
+UT WOS:000316325500009
+ER
+
+PT J
+AU Jones, Mirkka M.
+   Ferrier, Simon
+   Condit, Richard
+   Manion, Glenn
+   Aguilar, Salomon
+   Perez, Rolando
+TI Strong congruence in tree and fern community turnover in response to
+   soils and climate in central Panama
+SO JOURNAL OF ECOLOGY
+VL 101
+IS 2
+BP 506
+EP 516
+DI 10.1111/1365-2745.12053
+PD MAR 2013
+PY 2013
+RI Ferrier, Simon/C-1490-2009
+TC 12
+ZB 12
+Z8 0
+ZS 0
+Z9 12
+SN 0022-0477
+UT WOS:000317923300024
+ER
+
+PT J
+AU Bixenmann, Ryan J.
+   Coley, Phyllis D.
+   Kursar, Tom A.
+TI Developmental Changes in Direct and Indirect Defenses in the Young
+   Leaves of the Neotropical Tree Genus Inga (Fabaceae)
+SO BIOTROPICA
+VL 45
+IS 2
+BP 175
+EP 184
+DI 10.1111/j.1744-7429.2012.00914.x
+PD MAR 2013
+PY 2013
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0006-3606
+UT WOS:000315643900004
+ER
+
+PT J
+AU Becker, N. I.
+   Encarnacao, J. A.
+   Tschapka, M.
+   Kalko, E. K. V.
+TI Energetics and life-history of bats in comparison to small mammals
+SO ECOLOGICAL RESEARCH
+VL 28
+IS 2
+BP 249
+EP 258
+DI 10.1007/s11284-012-1010-0
+PD MAR 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0912-3814
+UT WOS:000316002800014
+ER
+
+PT J
+AU Shen, Yong
+   Santiago, Louis S.
+   Ma, Lei
+   Lin, Guo-Jun
+   Lian, Ju-Yu
+   Cao, Hong-Lin
+   Ye, Wan-Hui
+TI Forest dynamics of a subtropical monsoon forest in Dinghushan, China:
+   recruitment, mortality and the pace of community change
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 29
+BP 131
+EP 145
+DI 10.1017/S0266467413000059
+PN 2
+PD MAR 2013
+PY 2013
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0266-4674
+UT WOS:000316277900005
+ER
+
+PT J
+AU Zotz, Gerhard
+   Winkler, Uwe
+TI Aerial roots of epiphytic orchids: the velamen radicum and its role in
+   water and nutrient uptake
+SO OECOLOGIA
+VL 171
+IS 3
+SI SI
+BP 733
+EP 741
+DI 10.1007/s00442-012-2575-6
+PD MAR 2013
+PY 2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0029-8549
+UT WOS:000316339900012
+PM 23292456
+ER
+
+PT J
+AU Alda, Fernando
+   Jose Ruiz-Lopez, Maria
+   Jose Garcia, Francisco
+   Gompper, Matthew E.
+   Eggert, Lori S.
+   Garcia, Jesus T.
+TI Genetic evidence for multiple introduction events of raccoons (Procyon
+   lotor) in Spain
+SO BIOLOGICAL INVASIONS
+VL 15
+IS 3
+BP 687
+EP 698
+DI 10.1007/s10530-012-0318-6
+PD MAR 2013
+PY 2013
+RI GARCIA, JESUS/M-1503-2014
+OI GARCIA, JESUS/0000-0003-4126-9658
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 1387-3547
+UT WOS:000315290100019
+ER
+
+PT J
+AU Vencl, Fredric V.
+   Srygley, Robert B.
+TI Enemy targeting, trade-offs, and the evolutionary assembly of a tortoise
+   beetle defense arsenal
+SO EVOLUTIONARY ECOLOGY
+VL 27
+IS 2
+BP 237
+EP 252
+DI 10.1007/s10682-012-9603-1
+PD MAR 2013
+PY 2013
+TC 3
+ZB 2
+Z8 0
+ZS 0
+Z9 3
+SN 0269-7653
+UT WOS:000314524900001
+ER
+
+PT J
+AU Dalling, J. W.
+   Winter, K.
+   Andersen, K. M.
+   Turner, B. L.
+TI Artefacts of the pot environment on soil nutrient availability:
+   implications for the interpretation of ecological studies
+SO PLANT ECOLOGY
+VL 214
+IS 2
+BP 329
+EP 338
+DI 10.1007/s11258-013-0172-3
+PD FEB 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000314781600014
+ER
+
+PT J
+AU Maurer, Kyle D.
+   Bohrer, Gil
+   Medvigy, David
+   Joseph Wright, S.
+TI The timing of abscission affects dispersal distance in a wind-dispersed
+   tropical tree
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 1
+BP 208
+EP 218
+DI 10.1111/1365-2435.12028
+PD FEB 2013
+PY 2013
+RI Bohrer, Gil/A-9731-2008; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0269-8463
+UT WOS:000314166500022
+ER
+
+PT J
+AU Sapir, Nir
+   Dudley, Robert
+TI Implications of floral orientation for flight kinematics and metabolic
+   expenditure of hover-feeding hummingbirds
+SO FUNCTIONAL ECOLOGY
+VL 27
+IS 1
+BP 227
+EP 235
+DI 10.1111/1365-2435.12024
+PD FEB 2013
+PY 2013
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0269-8463
+UT WOS:000314166500024
+ER
+
+PT J
+AU Wright, Stuart Joseph
+TI The carbon sink in intact tropical forests
+SO GLOBAL CHANGE BIOLOGY
+VL 19
+IS 2
+BP 337
+EP 339
+DI 10.1111/gcb.12052
+PD FEB 2013
+PY 2013
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 5
+ZB 3
+Z8 0
+ZS 0
+Z9 5
+SN 1354-1013
+UT WOS:000314219200001
+PM 23504773
+ER
+
+PT J
+AU Lebuhn, Gretchen
+   Droege, Sam
+   Connor, Edward F.
+   Gemmill-Herren, Barbara
+   Potts, Simon G.
+   Minckley, Robert L.
+   Griswold, Terry
+   Jean, Robert
+   Kula, Emanuel
+   Roubik, David W.
+   Cane, Jim
+   Wright, Karen W.
+   Frankie, Gordon
+   Parker, Frank
+TI Detecting Insect Pollinator Declines on Regional and Global Scales
+SO CONSERVATION BIOLOGY
+VL 27
+IS 1
+BP 113
+EP 120
+DI 10.1111/j.1523-1739.2012.01962.x
+PD FEB 2013
+PY 2013
+RI Kula, Emanuel/A-9984-2014
+TC 10
+ZB 11
+Z8 0
+ZS 0
+Z9 11
+SN 0888-8892
+UT WOS:000313781600013
+PM 23240651
+ER
+
+PT J
+AU McMichael, Crystal H.
+   Bush, Mark B.
+   Silman, Miles R.
+   Piperno, Dolores R.
+   Raczka, Marco
+   Lobato, Luiz C.
+   Zimmerman, Monica
+   Hagen, Stephen
+   Palace, Michael
+TI Historical fire and bamboo dynamics in western Amazonia
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 2
+BP 299
+EP 309
+DI 10.1111/jbi.12002
+PD FEB 2013
+PY 2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0305-0270
+UT WOS:000313813100008
+ER
+
+PT J
+AU Hamilton, Andrew J.
+   Novotny, Vojtech
+   Waters, Edward K.
+   Basset, Yves
+   Benke, Kurt K.
+   Grimbacher, Peter S.
+   Miller, Scott E.
+   Samuelson, G. Allan
+   Weiblen, George D.
+   Yen, Jian D. L.
+   Stork, Nigel E.
+TI Estimating global arthropod species richness: refining probabilistic
+   models using probability bounds analysis
+SO OECOLOGIA
+VL 171
+IS 2
+BP 357
+EP 365
+DI 10.1007/s00442-012-2434-5
+PD FEB 2013
+PY 2013
+RI Basset, Yves/B-6642-2014; Novotny, Vojtech/G-9434-2014
+OI Novotny, Vojtech/0000-0001-7918-8023
+TC 7
+ZB 6
+Z8 0
+ZS 0
+Z9 7
+SN 0029-8549
+UT WOS:000313800600006
+PM 22968292
+ER
+
+PT J
+AU Kapheim, Karen M.
+   Smith, Adam R.
+   Nonacs, Peter
+   Wcislo, William T.
+   Wayne, Robert K.
+TI Foundress polyphenism and the origins of eusociality in a facultatively
+   eusocial sweat bee, Megalopta genalis (Halictidae)
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 67
+IS 2
+BP 331
+EP 340
+DI 10.1007/s00265-012-1453-x
+PD FEB 2013
+PY 2013
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0340-5443
+UT WOS:000313650600017
+ER
+
+PT J
+AU Ryan, Michael J.
+   Cummings, Molly E.
+BE Futuyma, DJ
+TI Perceptual Biases and Mate Choice
+SO ANNUAL REVIEW OF ECOLOGY, EVOLUTION, AND SYSTEMATICS, VOL 44
+SE Annual Review of Ecology Evolution and Systematics
+VL 44
+BP 437
+EP +
+DI 10.1146/annurev-ecolsys-110512-135901
+PD 2013
+PY 2013
+TC 13
+ZB 13
+Z8 0
+ZS 0
+Z9 13
+SN 1543-592X
+BN 978-0-8243-1444-6
+UT WOS:000329821800021
+ER
+
+PT J
+AU Muscarella, Robert
+   Uriarte, Maria
+   Forero-Montana, Jimena
+   Comita, Liza S.
+   Swenson, Nathan G.
+   Thompson, Jill
+   Nytch, Christopher J.
+   Jonckheere, Inge
+   Zimmerman, Jess K.
+TI Life-history trade-offs during the seed-to-seedling transition in a
+   subtropical wet forest community
+SO JOURNAL OF ECOLOGY
+VL 101
+IS 1
+BP 171
+EP 182
+DI 10.1111/1365-2745.12027
+PD JAN 2013
+PY 2013
+RI Uriarte, Maria/L-8944-2013; Thompson, Jill/K-2200-2012
+OI Thompson, Jill/0000-0002-4370-2593
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0022-0477
+UT WOS:000317922200019
+ER
+
+PT J
+AU Levick, Shaun R.
+   Asner, Gregory P.
+TI The rate and spatial pattern of treefall in a savanna landscape
+SO BIOLOGICAL CONSERVATION
+VL 157
+BP 121
+EP 127
+DI 10.1016/j.biocon.2012.07.009
+PD JAN 2013
+PY 2013
+RI Levick, Shaun/A-5853-2013; Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 6
+ZB 2
+Z8 0
+ZS 0
+Z9 6
+SN 0006-3207
+UT WOS:000316651200014
+ER
+
+PT J
+AU Schreeg, Laura A.
+   Mack, Michelle C.
+   Turner, Benjamin L.
+TI Nutrient-specific solubility patterns of leaf litter across 41 lowland
+   tropical woody species
+SO ECOLOGY
+VL 94
+IS 1
+BP 94
+EP 105
+PD JAN 2013
+PY 2013
+RI Turner, Benjamin/E-5940-2011
+TC 6
+ZB 4
+Z8 0
+ZS 0
+Z9 6
+SN 0012-9658
+UT WOS:000316186900012
+PM 23600244
+ER
+
+PT J
+AU Powers, Jennifer S.
+   Perez-Aviles, Daniel
+TI Edaphic Factors are a More Important Control on Surface Fine Roots than
+   Stand Age in Secondary Tropical Dry Forests
+SO BIOTROPICA
+VL 45
+IS 1
+BP 1
+EP 9
+DI 10.1111/j.1744-7429.2012.00881.x
+PD JAN 2013
+PY 2013
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0006-3606
+UT WOS:000312993900001
+ER
+
+PT J
+AU Emsens, Willem-Jan
+   Suselbeek, Lennart
+   Hirsch, Ben T.
+   Kays, Roland
+   Winkelhagen, Annemarie J. S.
+   Jansen, Patrick A.
+TI Effects of Food Availability on Space and Refuge Use by a Neotropical
+   Scatterhoarding Rodent
+SO BIOTROPICA
+VL 45
+IS 1
+BP 88
+EP 93
+DI 10.1111/j.1744-7429.2012.00888.x
+PD JAN 2013
+PY 2013
+TC 7
+ZB 7
+Z8 0
+ZS 0
+Z9 7
+SN 0006-3606
+UT WOS:000312993900011
+ER
+
+PT J
+AU Lasso, Eloisa
+   Ackerman, James D.
+TI Nutrient limitation restricts growth and reproductive output in a
+   tropical montane cloud forest bromeliad: findings from a long-term
+   forest fertilization experiment
+SO OECOLOGIA
+VL 171
+IS 1
+BP 165
+EP 174
+DI 10.1007/s00442-012-2403-z
+PD JAN 2013
+PY 2013
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0029-8549
+UT WOS:000313079100015
+PM 22767363
+ER
+
+PT J
+AU Gomes, Ana C. S.
+   Andrade, Ana
+   Barreto-Silva, Juan S.
+   Brenes-Arguedas, Tania
+   Lopez, Dairon C.
+   de Freitas, Camila C.
+   Lang, Carla
+   de Oliveira, Alexandre A.
+   Perez, Alvaro J.
+   Perez, Rolando
+   da Silva, Joao B.
+   Silveira, Alexandra M. F.
+   Vaz, Marcel C.
+   Vendrami, Juliana
+   Vicentini, Alberto
+TI Local plant species delimitation in a highly diverse Amazonian forest:
+   do we all see the same species?
+SO JOURNAL OF VEGETATION SCIENCE
+VL 24
+IS 1
+BP 70
+EP 79
+DI 10.1111/j.1654-1103.2012.01441.x
+PD JAN 2013
+PY 2013
+RI Vicentini, Alberto/F-7479-2012; Oliveira, Alexandre/G-8830-2012
+OI Vicentini, Alberto/0000-0002-5906-9358; 
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 1100-9233
+UT WOS:000312156600009
+ER
+
+PT J
+AU Rueger, Nadja
+   Wirth, Christian
+   Wright, S. Joseph
+   Condit, Richard
+TI Functional traits explain light and size response of growth rates in
+   tropical tree species
+SO ECOLOGY
+VL 93
+IS 12
+BP 2626
+EP 2636
+PD DEC 2012
+PY 2012
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 14
+ZB 13
+Z8 0
+ZS 0
+Z9 14
+SN 0012-9658
+UT WOS:000312892500013
+PM 23431593
+ER
+
+PT J
+AU Cummings, Justin A.
+   Parker, Ingrid M.
+   Gilbert, Gregory S.
+TI Allelopathy: a tool for weed management in forest restoration
+SO PLANT ECOLOGY
+VL 213
+IS 12
+SI SI
+BP 1975
+EP 1989
+DI 10.1007/s11258-012-0154-x
+PD DEC 2012
+PY 2012
+TC 5
+ZB 4
+Z8 0
+ZS 0
+Z9 5
+SN 1385-0237
+UT WOS:000313031200013
+ER
+
+PT J
+AU Wells, K.
+   O'Hara, R. B.
+   Boehm, S. M.
+   Gockel, S.
+   Hemp, A.
+   Renner, S. C.
+   Pfeiffer, S.
+   Boehning-Gaese, K.
+   Kalko, E. K. V.
+TI Trait-dependent occupancy dynamics of birds in temperate forest
+   landscapes: fine-scale observations in a hierarchical multi-species
+   framework
+SO ANIMAL CONSERVATION
+VL 15
+IS 6
+BP 626
+EP 637
+DI 10.1111/j.1469-1795.2012.00560.x
+PD DEC 2012
+PY 2012
+RI Wells, Konstans/A-7232-2010; O'Hara, Robert/A-7499-2008; Renner, Swen C/J-3502-2014
+OI Wells, Konstans/0000-0003-0377-2463; O'Hara, Robert/0000-0001-9737-3724;
+   Renner, Swen C/0000-0002-6893-4219
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1367-9430
+UT WOS:000312533400011
+ER
+
+PT J
+AU Levick, Shaun R.
+   Asner, Gregory P.
+   Smit, Izak P. J.
+TI Spatial patterns in the effects of fire on savanna vegetation
+   three-dimensional structure
+SO ECOLOGICAL APPLICATIONS
+VL 22
+IS 8
+BP 2110
+EP 2121
+PD DEC 2012
+PY 2012
+RI Levick, Shaun/A-5853-2013; Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1051-0761
+UT WOS:000312587300006
+PM 23387113
+ER
+
+PT J
+AU Dunn, Alison M.
+   Torchin, Mark E.
+   Hatcher, Melanie J.
+   Kotanen, Peter M.
+   Blumenthal, Dana M.
+   Byers, James E.
+   Coon, Courtney A. C.
+   Frankel, Victor M.
+   Holt, Robert D.
+   Hufbauer, Ruth A.
+   Kanarek, Andrew R.
+   Schierenbeck, Kristina A.
+   Wolfe, Lorne M.
+   Perkins, Sarah E.
+TI Indirect effects of parasites in invasions
+SO FUNCTIONAL ECOLOGY
+VL 26
+IS 6
+BP 1262
+EP 1274
+DI 10.1111/j.1365-2435.2012.02041.x
+PD DEC 2012
+PY 2012
+RI Perkins, Sarah/B-1817-2010
+TC 15
+ZB 14
+Z8 0
+ZS 0
+Z9 15
+SN 0269-8463
+UT WOS:000311433600005
+ER
+
+PT J
+AU Banin, L.
+   Feldpausch, T. R.
+   Phillips, O. L.
+   Baker, T. R.
+   Lloyd, J.
+   Affum-Baffoe, K.
+   Arets, E. J. M. M.
+   Berry, N. J.
+   Bradford, M.
+   Brienen, R. J. W.
+   Davies, S.
+   Drescher, M.
+   Higuchi, N.
+   Hilbert, D. W.
+   Hladik, A.
+   Iida, Y.
+   Abu Salim, K.
+   Kassim, A. R.
+   King, D. A.
+   Lopez-Gonzalez, G.
+   Metcalfe, D.
+   Nilus, R.
+   Peh, K. S. -H.
+   Reitsma, J. M.
+   Sonke, B.
+   Taedoumg, H.
+   Tan, S.
+   White, L.
+   Woell, H.
+   Lewis, S. L.
+TI What controls tropical forest architecture? Testing environmental,
+   structural and floristic drivers
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 21
+IS 12
+BP 1179
+EP 1190
+DI 10.1111/j.1466-8238.2012.00778.x
+PD DEC 2012
+PY 2012
+RI Phillips, Oliver/A-1523-2011; Metcalfe, Daniel/G-3305-2010; Lloyd, Jonathan/F-8893-2010; James Cook University, TESS/B-8171-2012; Peh, Kelvin/C-3408-2013; Hilbert, David/A-3796-2008; Feldpausch, Ted/D-3436-2009; Arets, Eric/C-1050-2008; Bradford, Matt/D-3389-2011
+OI Phillips, Oliver/0000-0002-8993-6168; Metcalfe,
+   Daniel/0000-0001-6853-7072; Lloyd, Jonathan/0000-0002-5458-9960;
+   Feldpausch, Ted/0000-0002-6631-7962; Arets, Eric/0000-0001-7209-9028; 
+TC 15
+ZB 15
+Z8 0
+ZS 0
+Z9 15
+SN 1466-822X
+UT WOS:000311613000005
+ER
+
+PT J
+AU De Caceres, Miquel
+   Legendre, Pierre
+   Valencia, Renato
+   Cao, Min
+   Chang, Li-Wan
+   Chuyong, George
+   Condit, Richard
+   Hao, Zhanqing
+   Hsieh, Chang-Fu
+   Hubbell, Stephen
+   Kenfack, David
+   Ma, Keping
+   Mi, Xiangcheng
+   Noor, Md. Nur Supardi
+   Kassim, Abdul Rahman
+   Ren, Haibao
+   Su, Sheng-Hsin
+   Sun, I-Fang
+   Thomas, Duncan
+   Ye, Wanhui
+   He, Fangliang
+TI The variation of tree beta diversity across a global network of forest
+   plots
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 21
+IS 12
+BP 1191
+EP 1202
+DI 10.1111/j.1466-8238.2012.00770.x
+PD DEC 2012
+PY 2012
+TC 13
+ZB 12
+Z8 1
+ZS 0
+Z9 14
+SN 1466-822X
+UT WOS:000311613000006
+ER
+
+PT J
+AU Touchon, Justin C.
+TI A Treefrog with Reproductive Mode Plasticity Reveals a Changing Balance
+   of Selection for Nonaquatic Egg Laying
+SO AMERICAN NATURALIST
+VL 180
+IS 6
+BP 733
+EP 743
+DI 10.1086/668079
+PD DEC 2012
+PY 2012
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0003-0147
+UT WOS:000311090100006
+PM 23149398
+ER
+
+PT J
+AU Plath, Mirco
+   Dorn, Silvia
+   Barrios, Hector
+   Mody, Karsten
+TI Diversity and composition of arboreal beetle assemblages in tropical
+   pasture afforestations: effects of planting schemes and tree species
+   identity
+SO BIODIVERSITY AND CONSERVATION
+VL 21
+IS 13
+BP 3423
+EP 3444
+DI 10.1007/s10531-012-0372-5
+PD DEC 2012
+PY 2012
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0960-3115
+UT WOS:000310586500010
+ER
+
+PT J
+AU Markl, Julia S.
+   Schleuning, Matthias
+   Forget, Pierre Michel
+   Jordano, Pedro
+   Lambert, Joanna E.
+   Traveset, Anna
+   Wright, S. Joseph
+   Boehning-Gaese, Katrin
+TI Meta-Analysis of the Effects of Human Disturbance on Seed Dispersal by
+   Animals
+SO CONSERVATION BIOLOGY
+VL 26
+IS 6
+BP 1072
+EP 1081
+DI 10.1111/j.1523-1739.2012.01927.x
+PD DEC 2012
+PY 2012
+RI Forget, Pierre-Michel/B-4355-2009; CSIC, EBD Donana/C-4157-2011; Jordano, Pedro/A-5162-2008; Jordano, Pedro/B-6678-2014; Wright, Stuart/M-3311-2013
+OI Forget, Pierre-Michel/0000-0002-9252-974X; CSIC, EBD
+   Donana/0000-0003-4318-6602; Jordano, Pedro/0000-0003-2142-9116; Jordano,
+   Pedro/0000-0003-2142-9116; Wright, Stuart/0000-0003-4260-5676
+TC 29
+ZB 29
+Z8 1
+ZS 0
+Z9 30
+SN 0888-8892
+UT WOS:000310798400014
+PM 22971077
+ER
+
+PT J
+AU Stark, Scott C.
+   Leitold, Veronika
+   Wu, Jin L.
+   Hunter, Maria O.
+   de Castilho, Carolina V.
+   Costa, Flavia R. C.
+   McMahon, Sean M.
+   Parker, Geoffrey G.
+   Shimabukuro, Monica Takako
+   Lefsky, Michael A.
+   Keller, Michael
+   Alves, Luciana F.
+   Schietti, Juliana
+   Shimabukuro, Yosio Edemir
+   Brandao, Diego O.
+   Woodcock, Tara K.
+   Higuchi, Niro
+   de Camargo, Plinio B.
+   de Oliveira, Raimundo C.
+   Saleska, Scott R.
+TI Amazon forest carbon dynamics predicted by profiles of canopy leaf area
+   and light environment
+SO ECOLOGY LETTERS
+VL 15
+IS 12
+BP 1406
+EP 1414
+DI 10.1111/j.1461-0248.2012.01864.x
+PD DEC 2012
+PY 2012
+RI Alves, Luciana/E-1141-2012; Camargo, Plinio/D-6635-2012; Cenbam, Inct/J-9844-2013
+OI Alves, Luciana/0000-0002-8944-1851; 
+TC 12
+ZB 10
+Z8 0
+ZS 0
+Z9 12
+SN 1461-023X
+UT WOS:000310250600007
+PM 22994288
+ER
+
+PT J
+AU Hirsch, Ben T.
+   Kays, Roland
+   Pereira, Veronica E.
+   Jansen, Patrick A.
+TI Directed seed dispersal towards areas with low conspecific tree density
+   by a scatter-hoarding rodent
+SO ECOLOGY LETTERS
+VL 15
+IS 12
+BP 1423
+EP 1429
+DI 10.1111/ele.12000
+PD DEC 2012
+PY 2012
+TC 18
+ZB 18
+Z8 0
+ZS 0
+Z9 18
+SN 1461-023X
+UT WOS:000310250600009
+PM 22958079
+ER
+
+PT J
+AU Pelletier, Johanne
+   Codjia, Claude
+   Potvin, Catherine
+TI Traditional shifting agriculture: tracking forest carbon stock and
+   biodiversity through time in western Panama
+SO GLOBAL CHANGE BIOLOGY
+VL 18
+IS 12
+BP 3581
+EP 3595
+DI 10.1111/j.1365-2486.2012.02788.x
+PD DEC 2012
+PY 2012
+TC 1
+ZB 2
+Z8 1
+ZS 0
+Z9 2
+SN 1354-1013
+UT WOS:000310564200010
+ER
+
+PT J
+AU Saltonstall, Kristin
+   Bonnett, Graham D.
+TI Fire promotes growth and reproduction of Saccharum spontaneum (L.) in
+   Panama
+SO BIOLOGICAL INVASIONS
+VL 14
+IS 12
+BP 2479
+EP 2488
+DI 10.1007/s10530-012-0245-6
+PD DEC 2012
+PY 2012
+RI Bonnett, Graham/A-2295-2010
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 1387-3547
+UT WOS:000310464500003
+ER
+
+PT J
+AU Jakobsen, Lasse
+   Kalko, Elisabeth K. V.
+   Surlykke, Annemarie
+TI Echolocation beam shape in emballonurid bats, Saccopteryx bilineata and
+   Cormura brevirostris
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 66
+IS 11
+BP 1493
+EP 1502
+DI 10.1007/s00265-012-1404-6
+PD NOV 2012
+PY 2012
+TC 4
+ZB 4
+Z8 1
+ZS 0
+Z9 5
+SN 0340-5443
+UT WOS:000310991100006
+ER
+
+PT J
+AU Martinson, Ellen O.
+   Herre, Edward Allen
+   Machado, Carlos A.
+   Arnold, A. Elizabeth
+TI Culture-Free Survey Reveals Diverse and Distinctive Fungal Communities
+   Associated with Developing Figs (Ficus spp.) in Panama
+SO MICROBIAL ECOLOGY
+VL 64
+IS 4
+BP 1073
+EP 1084
+DI 10.1007/s00248-012-0079-x
+PD NOV 2012
+PY 2012
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0095-3628
+UT WOS:000310127900022
+PM 22729017
+ER
+
+PT J
+AU Ackerman, James D.
+   Roubik, David W.
+TI Can extinction risk help explain plant-pollinator specificity among
+   euglossine bee pollinated plants?
+SO OIKOS
+VL 121
+IS 11
+BP 1821
+EP 1827
+DI 10.1111/j.1600-0706.2011.20193.x
+PD NOV 2012
+PY 2012
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0030-1299
+UT WOS:000310066600011
+ER
+
+PT J
+AU Sinimbu, G.
+   Coley, P. D.
+   Lemes, M. R.
+   Lokvam, J.
+   Kursar, T. A.
+TI Do the antiherbivore traits of expanding leaves in the Neotropical tree
+   Inga paraensis (Fabaceae) vary with light availability?
+SO OECOLOGIA
+VL 170
+IS 3
+BP 669
+EP 676
+DI 10.1007/s00442-012-2353-5
+PD NOV 2012
+PY 2012
+TC 2
+ZB 1
+Z8 0
+ZS 0
+Z9 2
+SN 0029-8549
+UT WOS:000309866200008
+PM 22614262
+ER
+
+PT J
+AU Asner, Gregory P.
+   Levick, Shaun R.
+TI Landscape-scale effects of herbivores on treefall in African savannas
+SO ECOLOGY LETTERS
+VL 15
+IS 11
+BP 1211
+EP 1217
+DI 10.1111/j.1461-0248.2012.01842.x
+PD NOV 2012
+PY 2012
+RI Levick, Shaun/A-5853-2013; Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 15
+ZB 11
+Z8 0
+ZS 1
+Z9 16
+SN 1461-023X
+UT WOS:000309395800001
+PM 22863324
+ER
+
+PT J
+AU Turner, Benjamin L.
+   Wells, Andrew
+   Andersen, Kelly M.
+   Condron, Leo M.
+TI Patterns of tree community composition along a coastal dune
+   chronosequence in lowland temperate rain forest in New Zealand
+SO PLANT ECOLOGY
+VL 213
+IS 10
+BP 1525
+EP 1541
+DI 10.1007/s11258-012-0108-3
+PD OCT 2012
+PY 2012
+RI Turner, Benjamin/E-5940-2011; Condron, Leo/E-9458-2013
+TC 6
+ZB 7
+Z8 1
+ZS 0
+Z9 8
+SN 1385-0237
+UT WOS:000309561400001
+ER
+
+PT J
+AU Palow, Danielle T.
+   Nolting, Kristen
+   Kitajima, Kaoru
+TI Functional trait divergence of juveniles and adults of nine Inga species
+   with contrasting soil preference in a tropical rain forest
+SO FUNCTIONAL ECOLOGY
+VL 26
+IS 5
+BP 1144
+EP 1152
+DI 10.1111/j.1365-2435.2012.02019.x
+PD OCT 2012
+PY 2012
+TC 6
+ZB 5
+Z8 0
+ZS 0
+Z9 6
+SN 0269-8463
+UT WOS:000309391500017
+ER
+
+PT J
+AU Larjavaara, Markku
+   Muller-Landau, Helene C.
+TI Temperature explains global variation in biomass among humid old-growth
+   forests
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 21
+IS 10
+BP 998
+EP 1006
+DI 10.1111/j.1466-8238.2011.00740.x
+PD OCT 2012
+PY 2012
+TC 15
+ZB 13
+Z8 0
+ZS 0
+Z9 15
+SN 1466-822X
+UT WOS:000308641500005
+ER
+
+PT J
+AU Walters, Charlotte L.
+   Freeman, Robin
+   Collen, Alanna
+   Dietz, Christian
+   Fenton, M. Brock
+   Jones, Gareth
+   Obrist, Martin K.
+   Puechmaille, Sebastien J.
+   Sattler, Thomas
+   Siemers, Bjoern M.
+   Parsons, Stuart
+   Jones, Kate E.
+TI A continental-scale tool for acoustic identification of European bats
+SO JOURNAL OF APPLIED ECOLOGY
+VL 49
+IS 5
+BP 1064
+EP 1074
+DI 10.1111/j.1365-2664.2012.02182.x
+PD OCT 2012
+PY 2012
+RI Jones, Kate/G-4768-2010; Puechmaille, Sebastien/D-1612-2010
+OI Jones, Kate/0000-0001-5231-3293; Puechmaille,
+   Sebastien/0000-0001-9517-5775
+TC 16
+ZB 15
+Z8 1
+ZS 4
+Z9 23
+SN 0021-8901
+UT WOS:000308932600011
+ER
+
+PT J
+AU Usinowicz, Jacob
+   Wright, S. Joseph
+   Ives, Anthony R.
+TI Coexistence in tropical forests through asynchronous variation in annual
+   seed production
+SO ECOLOGY
+VL 93
+IS 9
+BP 2073
+EP 2084
+PD SEP 2012
+PY 2012
+RI Ives, Anthony/A-5698-2008; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 2
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0012-9658
+UT WOS:000309517200011
+PM 23094379
+ER
+
+PT J
+AU Coverdale, Tyler C.
+   Altieri, Andrew H.
+   Bertness, Mark D.
+TI Belowground herbivory increases vulnerability of New England salt
+   marshes to die-off
+SO ECOLOGY
+VL 93
+IS 9
+BP 2085
+EP 2094
+PD SEP 2012
+PY 2012
+TC 15
+ZB 14
+Z8 0
+ZS 0
+Z9 15
+SN 0012-9658
+UT WOS:000309517200012
+PM 23094380
+ER
+
+PT J
+AU Sedio, Brian E.
+   Joseph Wright, S.
+   Dick, Christopher W.
+TI Trait evolution and the coexistence of a species swarm in the tropical
+   forest understorey
+SO JOURNAL OF ECOLOGY
+VL 100
+IS 5
+BP 1183
+EP 1193
+DI 10.1111/j.1365-2745.2012.01993.x
+PD SEP 2012
+PY 2012
+RI Dick, Christopher/A-8744-2008; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 10
+ZB 9
+Z8 0
+ZS 0
+Z9 10
+SN 0022-0477
+UT WOS:000307554300014
+ER
+
+PT J
+AU Asner, Gregory P.
+   Martin, Roberta E.
+TI Contrasting leaf chemical traits in tropical lianas and trees:
+   implications for future forest composition
+SO ECOLOGY LETTERS
+VL 15
+IS 9
+BP 1001
+EP 1007
+DI 10.1111/j.1461-0248.2012.01821.x
+PD SEP 2012
+PY 2012
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 1461-023X
+UT WOS:000306475600010
+PM 22690783
+ER
+
+PT J
+AU Piepenbring, M.
+   Hofmann, T. A.
+   Unterseher, M.
+   Kost, G.
+TI Species richness of plants and fungi in western Panama: towards a fungal
+   inventory in the tropics
+SO BIODIVERSITY AND CONSERVATION
+VL 21
+IS 9
+SI SI
+BP 2181
+EP 2193
+DI 10.1007/s10531-011-0213-y
+PD AUG 2012
+PY 2012
+RI Unterseher, Martin/B-2381-2014
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0960-3115
+UT WOS:000307295400002
+ER
+
+PT J
+AU Swenson, Nathan G.
+   Erickson, David L.
+   Mi, Xiangcheng
+   Bourg, Norman A.
+   Forero-Montana, Jimena
+   Ge, Xuejun
+   Howe, Robert
+   Lake, Jeffrey K.
+   Liu, Xiaojuan
+   Ma, Keping
+   Pei, Nancai
+   Thompson, Jill
+   Uriarte, Maria
+   Wolf, Amy
+   Wright, S. Joseph
+   Ye, Wanhui
+   Zhang, Jinlong
+   Zimmerman, Jess K.
+   Kress, W. John
+TI Phylogenetic and functional alpha and beta diversity in temperate and
+   tropical tree communities
+SO ECOLOGY
+VL 93
+IS 8
+BP S112
+EP S125
+SU S
+PD AUG 2012
+PY 2012
+RI Thompson, Jill/K-2200-2012; Swenson, Nathan/A-3514-2012; Uriarte, Maria/L-8944-2013; Wright, Stuart/M-3311-2013
+OI Thompson, Jill/0000-0002-4370-2593; Wright, Stuart/0000-0003-4260-5676
+TC 20
+ZB 19
+Z8 6
+ZS 0
+Z9 26
+SN 0012-9658
+UT WOS:000307302400010
+ER
+
+PT J
+AU Mayor, Jordan R.
+   Schuur, Edward A. G.
+   Mack, Michelle C.
+   Hollingsworth, Terresa N.
+   Baath, Erland
+TI Nitrogen Isotope Patterns in Alaskan Black Spruce Reflect Organic
+   Nitrogen Sources and the Activity of Ectomycorrhizal Fungi
+SO ECOSYSTEMS
+VL 15
+IS 5
+BP 819
+EP 831
+DI 10.1007/s10021-012-9548-9
+PD AUG 2012
+PY 2012
+TC 6
+ZB 6
+Z8 1
+ZS 0
+Z9 7
+SN 1432-9840
+UT WOS:000306952400010
+ER
+
+PT J
+AU Gschweng, Marion
+   Kalko, Elisabeth K. V.
+   Berthold, Peter
+   Fiedler, Wolfgang
+   Fahr, Jakob
+TI Multi-temporal distribution modelling with satellite tracking data:
+   predicting responses of a long-distance migrant to changing
+   environmental conditions
+SO JOURNAL OF APPLIED ECOLOGY
+VL 49
+IS 4
+BP 803
+EP 813
+DI 10.1111/j.1365-2664.2012.02170.x
+PD AUG 2012
+PY 2012
+RI Fahr, Jakob/E-8831-2012
+OI Fahr, Jakob/0000-0002-9174-1204
+TC 6
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0021-8901
+UT WOS:000306477000007
+ER
+
+PT J
+AU Swenson, Nathan G.
+   Enquist, Brian J.
+   Pither, Jason
+   Kerkhoff, Andrew J.
+   Boyle, Brad
+   Weiser, Michael D.
+   Elser, James J.
+   Fagan, William F.
+   Forero-Montana, Jimena
+   Fyllas, Nikolaos
+   Kraft, Nathan J. B.
+   Lake, Jeffrey K.
+   Moles, Angela T.
+   Patino, Sandra
+   Phillips, Oliver L.
+   Price, Charles A.
+   Reich, Peter B.
+   Quesada, Carlos A.
+   Stegen, James C.
+   Valencia, Renato
+   Wright, Ian J.
+   Wright, S. Joseph
+   Andelman, Sandy
+   Jorgensen, Peter M.
+   Lacher, Thomas E., Jr.
+   Monteagudo, Abel
+   Percy Nunez-Vargas, M.
+   Vasquez-Martinez, Rodolfo
+   Nolting, Kristen M.
+TI The biogeography and filtering of woody plant functional diversity in
+   North and South America
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 21
+IS 8
+BP 798
+EP 808
+DI 10.1111/j.1466-8238.2011.00727.x
+PD AUG 2012
+PY 2012
+RI Kraft, Nathan/A-2817-2012; Phillips, Oliver/A-1523-2011; Price, Charles/B-1171-2011; Elser, James/A-7082-2008; Weiser, Michael/E-6215-2011; Swenson, Nathan/A-3514-2012; Wright, Ian/G-4979-2012; Wright, Stuart/M-3311-2013
+OI Phillips, Oliver/0000-0002-8993-6168; Elser, James/0000-0002-1460-2155;
+   Wright, Ian/0000-0001-8338-9143; Wright, Stuart/0000-0003-4260-5676
+TC 18
+ZB 17
+Z8 0
+ZS 0
+Z9 18
+SN 1466-822X
+UT WOS:000306274400003
+ER
+
+PT J
+AU Smith, Adam R.
+   Lopez Quintero, Isis J.
+   Moreno Patino, Jorge Enrique
+   Roubik, David W.
+   Wcislo, William T.
+TI Pollen use by Megalopta sweat bees in relation to resource availability
+   in a tropical forest
+SO ECOLOGICAL ENTOMOLOGY
+VL 37
+IS 4
+BP 309
+EP 317
+DI 10.1111/j.1365-2311.2012.01367.x
+PD AUG 2012
+PY 2012
+TC 6
+ZB 5
+Z8 0
+ZS 0
+Z9 6
+SN 0307-6946
+UT WOS:000306222200006
+ER
+
+PT J
+AU Van Bael, Sunshine A.
+   Seid, Marc A.
+   Wcislo, William T.
+TI Endophytic fungi increase the processing rate of leaves by leaf-cutting
+   ants (Atta)
+SO ECOLOGICAL ENTOMOLOGY
+VL 37
+IS 4
+BP 318
+EP 321
+DI 10.1111/j.1365-2311.2012.01364.x
+PD AUG 2012
+PY 2012
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0307-6946
+UT WOS:000306222200007
+ER
+
+PT J
+AU Mascaro, Joseph
+   Asner, Gregory P.
+   Dent, Daisy H.
+   DeWalt, Saara J.
+   Denslow, Julie S.
+TI Scale-dependence of aboveground carbon accumulation in secondary forests
+   of Panama: A test of the intermediate peak hypothesis
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 276
+BP 62
+EP 70
+DI 10.1016/j.foreco.2012.03.032
+PD JUL 15 2012
+PY 2012
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 7
+ZB 8
+Z8 1
+ZS 0
+Z9 9
+SN 0378-1127
+UT WOS:000305719800007
+ER
+
+PT J
+AU Lin, Luxiang
+   Comita, Liza S.
+   Zheng, Zheng
+   Cao, Min
+TI Seasonal differentiation in density-dependent seedling survival in a
+   tropical rain forest
+SO JOURNAL OF ECOLOGY
+VL 100
+IS 4
+BP 905
+EP 914
+DI 10.1111/j.1365-2745.2012.01964.x
+PD JUL 2012
+PY 2012
+TC 8
+ZB 9
+Z8 2
+ZS 1
+Z9 10
+SN 0022-0477
+UT WOS:000305335400007
+ER
+
+PT J
+AU McManus, Kelly M.
+   Morton, Douglas C.
+   Masek, Jeffrey G.
+   Wang, Dongdong
+   Sexton, Joseph O.
+   Nagol, Jyoteshwar R.
+   Ropars, Pascale
+   Boudreau, Stephane
+TI Satellite-based evidence for shrub and graminoid tundra expansion in
+   northern Quebec from 1986 to 2010
+SO GLOBAL CHANGE BIOLOGY
+VL 18
+IS 7
+BP 2313
+EP 2323
+DI 10.1111/j.1365-2486.2012.02708.x
+PD JUL 2012
+PY 2012
+RI Morton, Douglas/D-5044-2012; Masek, Jeffrey/D-7673-2012; Boudreau, Stephane/I-7838-2012; Wang, Dongdong/M-1969-2014
+OI Wang, Dongdong/0000-0002-2076-576X
+TC 15
+ZB 12
+Z8 1
+ZS 0
+Z9 16
+SN 1354-1013
+UT WOS:000304820300020
+ER
+
+PT J
+AU Altieri, Andrew H.
+   Bertness, Mark D.
+   Coverdale, Tyler C.
+   Herrmann, Nicholas C.
+   Angelini, Christine
+TI A trophic cascade triggers collapse of a salt-marsh ecosystem with
+   intensive recreational fishing
+SO ECOLOGY
+VL 93
+IS 6
+BP 1402
+EP 1410
+PD JUN 2012
+PY 2012
+TC 29
+ZB 21
+Z8 0
+ZS 0
+Z9 29
+SN 0012-9658
+UT WOS:000305296600017
+PM 22834380
+ER
+
+PT J
+AU Hirsch, Ben T.
+   Kays, Roland
+   Jansen, Patrick A.
+TI A telemetric thread tag for tracking seed dispersal by scatter-hoarding
+   rodents
+SO PLANT ECOLOGY
+VL 213
+IS 6
+BP 933
+EP 943
+DI 10.1007/s11258-012-0054-0
+PD JUN 2012
+PY 2012
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 1385-0237
+UT WOS:000305235100005
+ER
+
+PT J
+AU Borda-de-Agua, Luis
+   Borges, Paulo A. V.
+   Hubbell, Stephen P.
+   Pereira, Henrique M.
+TI Spatial scaling of species abundance distributions
+SO ECOGRAPHY
+VL 35
+IS 6
+BP 549
+EP 556
+DI 10.1111/j.1600-0587.2011.07128.x
+PD JUN 2012
+PY 2012
+RI Pereira, Henrique/B-3975-2009; Borges, Paulo/B-2780-2008; Borda-de-Agua, Luis/D-6063-2011
+OI Pereira, Henrique/0000-0003-1043-1675; Borges,
+   Paulo/0000-0002-8448-7623; Borda-de-Agua, Luis/0000-0002-0802-6235
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0906-7590
+UT WOS:000304765800008
+ER
+
+PT J
+AU Estrada-Villegas, Sergio
+   McGill, Brian J.
+   Kalko, Elisabeth K. V.
+TI Determinants of species evenness in a neotropical bat ensemble
+SO OIKOS
+VL 121
+IS 6
+BP 927
+EP 941
+DI 10.1111/j.1600-0706.2011.19837.x
+PD JUN 2012
+PY 2012
+RI McGill, Brian/A-3476-2008
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0030-1299
+UT WOS:000304389900014
+ER
+
+PT J
+AU Rueger, Nadja
+   Condit, Richard
+TI Testing metabolic theory with models of tree growth that include light
+   competition
+SO FUNCTIONAL ECOLOGY
+VL 26
+IS 3
+BP 759
+EP 765
+DI 10.1111/j.1365-2435.2012.01981.x
+PD JUN 2012
+PY 2012
+TC 6
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0269-8463
+UT WOS:000304256500023
+ER
+
+PT J
+AU Ogada, D. L.
+   Torchin, M. E.
+   Kinnaird, M. F.
+   Ezenwa, V. O.
+TI Effects of Vulture Declines on Facultative Scavengers and Potential
+   Implications for Mammalian Disease Transmission
+SO CONSERVATION BIOLOGY
+VL 26
+IS 3
+BP 453
+EP 460
+DI 10.1111/j.1523-1739.2012.01827.x
+PD JUN 2012
+PY 2012
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 0888-8892
+UT WOS:000304135300009
+PM 22443166
+ER
+
+PT J
+AU Plath, Mirco
+   Dorn, Silvia
+   Riedel, Judith
+   Barrios, Hector
+   Mody, Karsten
+TI Associational resistance and associational susceptibility: specialist
+   herbivores show contrasting responses to tree stand diversification
+SO OECOLOGIA
+VL 169
+IS 2
+BP 477
+EP 487
+DI 10.1007/s00442-011-2215-6
+PD JUN 2012
+PY 2012
+TC 10
+ZB 10
+Z8 0
+ZS 0
+Z9 10
+SN 0029-8549
+UT WOS:000304166600018
+PM 22159991
+ER
+
+PT J
+AU Cramer, Katie L.
+   Jackson, Jeremy B. C.
+   Angioletti, Christopher V.
+   Leonard-Pingel, Jill
+   Guilderson, Thomas P.
+TI Anthropogenic mortality on coral reefs in Caribbean Panama predates
+   coral disease and bleaching
+SO ECOLOGY LETTERS
+VL 15
+IS 6
+BP 561
+EP 567
+DI 10.1111/j.1461-0248.2012.01768.x
+PD JUN 2012
+PY 2012
+TC 16
+ZB 13
+Z8 0
+ZS 1
+Z9 16
+SN 1461-023X
+UT WOS:000303666200007
+PM 22462739
+ER
+
+PT J
+AU McGuire, Krista L.
+   Fierer, Noah
+   Bateman, Carling
+   Treseder, Kathleen K.
+   Turner, Benjamin L.
+TI Fungal Community Composition in Neotropical Rain Forests: the Influence
+   of Tree Diversity and Precipitation
+SO MICROBIAL ECOLOGY
+VL 63
+IS 4
+BP 804
+EP 812
+DI 10.1007/s00248-011-9973-x
+PD MAY 2012
+PY 2012
+RI Turner, Benjamin/E-5940-2011; Treseder, Kathleen/E-5148-2011
+TC 17
+ZB 16
+Z8 1
+ZS 0
+Z9 18
+SN 0095-3628
+UT WOS:000306127300010
+PM 22080256
+ER
+
+PT J
+AU Mascaro, Joseph
+   Hughes, R. Flint
+   Schnitzer, Stefan A.
+TI Novel forests maintain ecosystem processes after the decline of native
+   tree species
+SO ECOLOGICAL MONOGRAPHS
+VL 82
+IS 2
+BP 221
+EP 238
+PD MAY 2012
+PY 2012
+TC 28
+ZB 26
+Z8 0
+ZS 0
+Z9 28
+SN 0012-9615
+UT WOS:000304370800005
+ER
+
+PT J
+AU Estrada-Villegas, Sergio
+   Mcgill, Brian J.
+   Kalko, Elisabeth K. V.
+TI Climate, habitat, and species interactions at different scales determine
+   the structure of a Neotropical bat community
+SO ECOLOGY
+VL 93
+IS 5
+BP 1183
+EP 1193
+PD MAY 2012
+PY 2012
+RI McGill, Brian/A-3476-2008
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0012-9658
+UT WOS:000304368100023
+PM 22764504
+ER
+
+PT J
+AU Broadbent, Eben N.
+   Zambrano, Angelica M. Almeyda
+   Dirzo, Rodolfo
+   Durham, William H.
+   Driscoll, Laura
+   Gallagher, Patrick
+   Salters, Rosalyn
+   Schultz, Jared
+   Colmenares, Angelica
+   Randolph, Shannon G.
+TI The effect of land use change and ecotourism on biodiversity: a case
+   study of Manuel Antonio, Costa Rica, from 1985 to 2008
+SO LANDSCAPE ECOLOGY
+VL 27
+IS 5
+BP 731
+EP 744
+DI 10.1007/s10980-012-9722-7
+PD MAY 2012
+PY 2012
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 2
+SN 0921-2973
+UT WOS:000303056100009
+ER
+
+PT J
+AU Laliberte, Etienne
+   Turner, Benjamin L.
+   Costes, Thomas
+   Pearse, Stuart J.
+   Wyrwoll, Karl-Heinz
+   Zemunik, Graham
+   Lambers, Hans
+TI Experimental assessment of nutrient limitation along a 2-million-year
+   dune chronosequence in the south-western Australia biodiversity hotspot
+SO JOURNAL OF ECOLOGY
+VL 100
+IS 3
+BP 631
+EP 642
+DI 10.1111/j.1365-2745.2012.01962.x
+PD MAY 2012
+PY 2012
+RI Laliberte, Etienne/B-6855-2008; Lambers, Hans/A-1544-2008; Turner, Benjamin/E-5940-2011
+OI Lambers, Hans/0000-0002-4118-2272; 
+TC 24
+ZB 24
+Z8 0
+ZS 0
+Z9 24
+SN 0022-0477
+UT WOS:000302623200006
+ER
+
+PT J
+AU Sayer, Emma J.
+   Wright, S. Joseph
+   Tanner, Edmund V. J.
+   Yavitt, Joseph B.
+   Harms, Kyle E.
+   Powers, Jennifer S.
+   Kaspari, Michael
+   Garcia, Milton N.
+   Turner, Benjamin L.
+TI Variable Responses of Lowland Tropical Forest Nutrient Status to
+   Fertilization and Litter Manipulation
+SO ECOSYSTEMS
+VL 15
+IS 3
+BP 387
+EP 400
+DI 10.1007/s10021-011-9516-9
+PD APR 2012
+PY 2012
+RI Turner, Benjamin/E-5940-2011; Sayer, Emma/B-2514-2010; Wright, Stuart/M-3311-2013
+OI Sayer, Emma/0000-0002-3322-4487; Wright, Stuart/0000-0003-4260-5676
+TC 17
+ZB 15
+Z8 2
+ZS 0
+Z9 20
+SN 1432-9840
+UT WOS:000303601800003
+ER
+
+PT J
+AU Asner, Gregory P.
+   Martin, Roberta E.
+   Bin Suhaili, Affendi
+TI Sources of Canopy Chemical and Spectral Diversity in Lowland Bornean
+   Forest
+SO ECOSYSTEMS
+VL 15
+IS 3
+BP 504
+EP 517
+DI 10.1007/s10021-012-9526-2
+PD APR 2012
+PY 2012
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 10
+ZB 6
+Z8 0
+ZS 0
+Z9 10
+SN 1432-9840
+UT WOS:000303601800011
+ER
+
+PT J
+AU Jung, Kirsten
+   Kaiser, Sonja
+   Boehm, Stefan
+   Nieschulze, Jens
+   Kalko, Elisabeth K. V.
+TI Moving in three dimensions: effects of structural complexity on
+   occurrence and activity of insectivorous bats in managed forest stands
+SO JOURNAL OF APPLIED ECOLOGY
+VL 49
+IS 2
+BP 523
+EP 531
+DI 10.1111/j.1365-2664.2012.02116.x
+PD APR 2012
+PY 2012
+TC 19
+ZB 16
+Z8 0
+ZS 1
+Z9 19
+SN 0021-8901
+UT WOS:000302070900025
+ER
+
+PT J
+AU Kay, Adam D.
+   Shik, Jonathan Z.
+   Van Alst, Andy
+   Miller, Katie A.
+   Kaspari, Michael
+TI Diet composition does not affect ant colony tempo
+SO FUNCTIONAL ECOLOGY
+VL 26
+IS 2
+BP 317
+EP 323
+DI 10.1111/j.1365-2435.2011.01944.x
+PD APR 2012
+PY 2012
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0269-8463
+UT WOS:000302011400003
+ER
+
+PT J
+AU Detto, Matteo
+   Molini, Annalisa
+   Katul, Gabriel
+   Stoy, Paul
+   Palmroth, Sari
+   Baldocchi, Dennis
+TI Causality and Persistence in Ecological Systems: A Nonparametric
+   Spectral Granger Causality Approach
+SO AMERICAN NATURALIST
+VL 179
+IS 4
+BP 524
+EP 535
+DI 10.1086/664628
+PD APR 2012
+PY 2012
+RI Katul, Gabriel/A-7210-2008; Baldocchi, Dennis/A-1625-2009
+OI Baldocchi, Dennis/0000-0003-3496-4919
+TC 14
+ZB 9
+Z8 1
+ZS 0
+Z9 15
+SN 0003-0147
+UT WOS:000301975200011
+PM 22437181
+ER
+
+PT J
+AU Hughey, Myra C.
+   Nicolas, Angie
+   Vonesh, James R.
+   Warkentin, Karen M.
+TI Wasp predation drives the assembly of fungal and fly communities on frog
+   egg masses
+SO OECOLOGIA
+VL 168
+IS 4
+BP 1057
+EP 1068
+DI 10.1007/s00442-011-2137-3
+PD APR 2012
+PY 2012
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0029-8549
+UT WOS:000301604200016
+PM 22011841
+ER
+
+PT J
+AU Asner, Gregory P.
+   Mascaro, Joseph
+   Muller-Landau, Helene C.
+   Vieilledent, Ghislain
+   Vaudry, Romuald
+   Rasamoelina, Maminiaina
+   Hall, Jefferson S.
+   van Breugel, Michiel
+TI A universal airborne LiDAR approach for tropical forest carbon mapping
+SO OECOLOGIA
+VL 168
+IS 4
+BP 1147
+EP 1160
+DI 10.1007/s00442-011-2165-z
+PD APR 2012
+PY 2012
+RI Vieilledent, Ghislain/D-8323-2011; Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 35
+ZB 21
+Z8 3
+ZS 1
+Z9 38
+SN 0029-8549
+UT WOS:000301604200024
+PM 22033763
+ER
+
+PT J
+AU Swenson, Nathan G.
+   Stegen, James C.
+   Davies, Stuart J.
+   Erickson, David L.
+   Forero-Montana, Jimena
+   Hurlbert, Allen H.
+   Kress, W. John
+   Thompson, Jill
+   Uriarte, Maria
+   Wright, S. Joseph
+   Zimmerman, Jess K.
+TI Temporal turnover in the composition of tropical tree communities:
+   functional determinism and phylogenetic stochasticity
+SO ECOLOGY
+VL 93
+IS 3
+BP 490
+EP 499
+PD MAR 2012
+PY 2012
+RI Thompson, Jill/K-2200-2012; Swenson, Nathan/A-3514-2012; Uriarte, Maria/L-8944-2013; Wright, Stuart/M-3311-2013
+OI Thompson, Jill/0000-0002-4370-2593; Wright, Stuart/0000-0003-4260-5676
+TC 19
+ZB 18
+Z8 1
+ZS 0
+Z9 20
+SN 0012-9658
+UT WOS:000302957300007
+PM 22624204
+ER
+
+PT J
+AU Alonso, Roberto
+   Crawford, Andrew J.
+   Bermingham, Eldredge
+TI Molecular phylogeny of an endemic radiation of Cuban toads (Bufonidae:
+   Peltophryne) based on mitochondrial and nuclear genes
+SO JOURNAL OF BIOGEOGRAPHY
+VL 39
+IS 3
+BP 434
+EP 451
+DI 10.1111/j.1365-2699.2011.02594.x
+PD MAR 2012
+PY 2012
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 0305-0270
+UT WOS:000300665400002
+ER
+
+PT J
+AU Jagadeeshan, Santosh
+   O'Dea, Aaron
+TI Integrating fossils and molecules to study cupuladriid evolution in an
+   emerging Isthmus
+SO EVOLUTIONARY ECOLOGY
+VL 26
+IS 2
+SI SI
+BP 337
+EP 355
+DI 10.1007/s10682-011-9522-6
+PD MAR 2012
+PY 2012
+RI O'Dea, Aaron/D-4114-2011
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0269-7653
+UT WOS:000300549800007
+ER
+
+PT J
+AU Santiago, Louis S.
+   Wright, S. Joseph
+   Harms, Kyle E.
+   Yavitt, Joseph B.
+   Korine, Carmi
+   Garcia, Milton N.
+   Turner, Benjamin L.
+TI Tropical tree seedling growth responses to nitrogen, phosphorus and
+   potassium addition
+SO JOURNAL OF ECOLOGY
+VL 100
+IS 2
+BP 309
+EP 316
+DI 10.1111/j.1365-2745.2011.01904.x
+PD MAR 2012
+PY 2012
+RI Turner, Benjamin/E-5940-2011; Korine, Carmi/F-4116-2012; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 27
+ZB 28
+Z8 3
+ZS 1
+Z9 31
+SN 0022-0477
+UT WOS:000300500800002
+ER
+
+PT J
+AU Andersen, Kelly M.
+   Endara, Maria Jose
+   Turner, Benjamin L.
+   Dalling, James W.
+TI Trait-based community assembly of understory palms along a soil nutrient
+   gradient in a lower montane tropical forest
+SO OECOLOGIA
+VL 168
+IS 2
+BP 519
+EP 531
+DI 10.1007/s00442-011-2112-z
+PD FEB 2012
+PY 2012
+RI Turner, Benjamin/E-5940-2011
+TC 10
+ZB 10
+Z8 0
+ZS 0
+Z9 10
+SN 0029-8549
+UT WOS:000301705700022
+PM 21894517
+ER
+
+PT J
+AU Boyero, Luz
+   Pearson, Richard G.
+   Dudgeon, David
+   Ferreira, Veronica
+   Graca, Manuel A. S.
+   Gessner, Mark O.
+   Boulton, Andrew J.
+   Chauvet, Eric
+   Yule, Catherine M.
+   Albarino, Ricardo J.
+   Ramirez, Alonso
+   Helson, Julie E.
+   Callisto, Marcos
+   Arunachalam, Muthukumarasamy
+   Chara, Julian
+   Figueroa, Ricardo
+   Mathooko, Jude M.
+   Goncalves, Jose F., Jr.
+   Moretti, Marcelo S.
+   Chara-Serna, Ana Marcela
+   Davies, Judy N.
+   Encalada, Andrea
+   Lamothe, Sylvain
+   Buria, Leonardo M.
+   Castela, Jose
+   Cornejo, Aydee
+   Li, Aggie O. Y.
+   M'Erimba, Charles
+   Diaz Villanueva, Veronica
+   del Carmen Zuniga, Maria
+   Swan, Christopher M.
+   Barmuta, Leon A.
+TI Global patterns of stream detritivore distribution: implications for
+   biodiversity loss in changing climates
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 21
+IS 2
+BP 134
+EP 141
+DI 10.1111/j.1466-8238.2011.00673.x
+PD FEB 2012
+PY 2012
+RI Ramirez, Alonso/E-4462-2012; Moretti, Marcelo/H-6148-2012; Goncalves Junior, Jose /G-3910-2012; Ferreira, Veronica/I-6457-2013; Boyero, Luz/L-5822-2014; Research ID, CTBCC /O-3564-2014; TropWATER, Research ID/P-1401-2014
+OI Ramirez, Alonso/0000-0001-9985-5719; Goncalves Junior, Jose
+   /0000-0001-8191-2113; Ferreira, Veronica/0000-0001-7688-2626; Boyero,
+   Luz/0000-0001-7366-9299; 
+TC 15
+ZB 16
+Z8 0
+ZS 1
+Z9 16
+SN 1466-822X
+UT WOS:000298912900004
+ER
+
+PT J
+AU Kerr, K. A.
+   Christy, J. H.
+   Collin, R.
+   Guichard, F.
+TI Reducing error in reproductive timing caused by temperature variation:
+   interspecific differences in behavioural adjustment by fiddler crabs
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 459
+BP 1
+EP 16
+DI 10.3354/meps09832
+PD 2012
+PY 2012
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0171-8630
+UT WOS:000306322300001
+ER
+
+PT J
+AU Merot, Claire
+   Collin, Rachel
+TI Effects of food availability on sex change in two species of Crepidula
+   (Gastropoda: Calyptraeidae)
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 449
+BP 173
+EP 181
+DI 10.3354/meps09536
+PD 2012
+PY 2012
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0171-8630
+UT WOS:000301231500014
+ER
+
+PT J
+AU Polidoro, B. A.
+   Brooks, T.
+   Carpenter, K. E.
+   Edgar, G. J.
+   Henderson, S.
+   Sanciangco, J.
+   Robertson, D. R.
+TI Patterns of extinction risk and threat for marine vertebrates and
+   habitat-forming species in the Tropical Eastern Pacific
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 448
+BP 93
+EP U165
+DI 10.3354/meps09545
+PD 2012
+PY 2012
+RI Edgar, Graham/C-8341-2013
+OI Edgar, Graham/0000-0003-0833-9001
+TC 7
+ZB 6
+Z8 0
+ZS 2
+Z9 9
+SN 0171-8630
+UT WOS:000300661800008
+ER
+
+PT J
+AU Kaspari, Michael
+   Weiser, Michael D.
+TI Energy, taxonomic aggregation, and the geography of ant abundance
+SO ECOGRAPHY
+VL 35
+IS 1
+BP 65
+EP 72
+DI 10.1111/j.1600-0587.2011.06971.x
+PD JAN 2012
+PY 2012
+RI Weiser, Michael/E-6215-2011
+TC 7
+ZB 7
+Z8 0
+ZS 0
+Z9 7
+SN 0906-7590
+UT WOS:000298915300009
+ER
+
+PT J
+AU Dudley, Robert
+   Kaspari, Michael
+   Yanoviak, Stephen P.
+TI Lust for Salt in the Western Amazon
+SO BIOTROPICA
+VL 44
+IS 1
+BP 6
+EP 9
+DI 10.1111/j.1744-7429.2011.00818.x
+PD JAN 2012
+PY 2012
+TC 9
+ZB 9
+Z8 0
+ZS 0
+Z9 9
+SN 0006-3606
+UT WOS:000298944400002
+ER
+
+PT J
+AU Lasso, Eloisa
+   Dalling, James W.
+   Bermingham, Eldredge
+TI Tropical Understory Piper Shrubs Maintain High Levels of Genotypic
+   Diversity Despite Frequent Asexual Recruitment
+SO BIOTROPICA
+VL 44
+IS 1
+BP 35
+EP 43
+DI 10.1111/j.1744-7429.2011.00763.x
+PD JAN 2012
+PY 2012
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0006-3606
+UT WOS:000298944400006
+ER
+
+PT J
+AU van Breugel, Michiel
+   van Breugel, Paulo
+   Jansen, Patrick A.
+   Martinez-Ramos, Miguel
+   Bongers, Frans
+TI The relative importance of above- versus belowground competition for
+   tree growth during early succession of a tropical moist forest
+SO PLANT ECOLOGY
+VL 213
+IS 1
+BP 25
+EP 34
+DI 10.1007/s11258-011-0003-3
+PD JAN 2012
+PY 2012
+TC 5
+ZB 4
+Z8 0
+ZS 0
+Z9 5
+SN 1385-0237
+UT WOS:000298331300003
+ER
+
+PT J
+AU Cleveland, Cory C.
+   Townsend, Alan R.
+   Taylor, Philip
+   Alvarez-Clare, Silvia
+   Bustamante, Mercedes M. C.
+   Chuyong, George
+   Dobrowski, Solomon Z.
+   Grierson, Pauline
+   Harms, Kyle E.
+   Houlton, Benjamin Z.
+   Marklein, Alison
+   Parton, William
+   Porder, Stephen
+   Reed, Sasha C.
+   Sierra, Carlos A.
+   Silver, Whendee L.
+   Tanner, Edmund V. J.
+   Wieder, William R.
+TI Relationships among net primary productivity, nutrients and climate in
+   tropical rain forest: a pan-tropical analysis (vol 14, pg 939, 2011)
+SO ECOLOGY LETTERS
+VL 14
+IS 12
+BP 1313
+EP 1317
+DI 10.1111/j.1461-0248.2011.01711.x
+PD DEC 2011
+PY 2011
+RI Grierson, Pauline/A-9240-2008; Silver, Whendee/H-1118-2012
+TC 5
+ZB 4
+Z8 3
+ZS 0
+Z9 8
+SN 1461-023X
+UT WOS:000297147500014
+ER
+
+PT J
+AU Kellner, James R.
+   Asner, Gregory P.
+   Vitousek, Peter M.
+   Tweiten, Michael A.
+   Hotchkiss, Sara
+   Chadwick, Oliver A.
+TI Dependence of Forest Structure and Dynamics on Substrate Age and
+   Ecosystem Development
+SO ECOSYSTEMS
+VL 14
+IS 7
+BP 1156
+EP 1167
+DI 10.1007/s10021-011-9472-4
+PD NOV 2011
+PY 2011
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 1432-9840
+UT WOS:000300144100009
+ER
+
+PT J
+AU Kanagaraj, Rajapandian
+   Wiegand, Thorsten
+   Comita, Liza S.
+   Huth, Andreas
+TI Tropical tree species assemblages in topographical habitats change in
+   time and with life stage
+SO JOURNAL OF ECOLOGY
+VL 99
+IS 6
+BP 1441
+EP 1452
+DI 10.1111/j.1365-2745.2011.01878.x
+PD NOV 2011
+PY 2011
+TC 16
+ZB 16
+Z8 0
+ZS 0
+Z9 16
+SN 0022-0477
+UT WOS:000296425000015
+ER
+
+PT J
+AU Mascaro, Joseph
+   Litton, Creighton M.
+   Hughes, R. Flint
+   Uowolo, Amanda
+   Schnitzer, Stefan A.
+TI Minimizing Bias in Biomass Allometry: Model Selection and
+   Log-transformation of Data
+SO BIOTROPICA
+VL 43
+IS 6
+BP 649
+EP 653
+DI 10.1111/j.1744-7429.2011.00798.x
+PD NOV 2011
+PY 2011
+TC 18
+ZB 15
+Z8 0
+ZS 0
+Z9 18
+SN 0006-3606
+UT WOS:000296909800001
+ER
+
+PT J
+AU Yanoviak, Stephen P.
+   Berghoff, Stefanie M.
+   Linsenmair, K. Eduard
+   Zotz, Gerhard
+TI Effects of an Epiphytic Orchid on Arboreal Ant Community Structure in
+   Panama
+SO BIOTROPICA
+VL 43
+IS 6
+BP 731
+EP 737
+DI 10.1111/j.1744-7429.2011.00764.x
+PD NOV 2011
+PY 2011
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0006-3606
+UT WOS:000296909800011
+ER
+
+PT J
+AU Visser, Marco D.
+   Muller-Landau, Helene C.
+   Wright, S. Joseph
+   Rutten, Gemma
+   Jansen, Patrick A.
+TI Tri-trophic interactions affect density dependence of seed fate in a
+   tropical forest palm
+SO ECOLOGY LETTERS
+VL 14
+IS 11
+BP 1093
+EP 1100
+DI 10.1111/j.1461-0248.2011.01677.x
+PD NOV 2011
+PY 2011
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 10
+ZB 9
+Z8 0
+ZS 0
+Z9 10
+SN 1461-023X
+UT WOS:000296263200003
+PM 21899693
+ER
+
+PT J
+AU Hosaka, Tetsuro
+   Yumoto, Takakazu
+   Chen, Yu-Yun
+   Sun, I-Fang
+   Wright, S. Joseph
+   Noor, Nur Supardi Md
+TI Abundance of insect seed predators and intensity of seed predation on
+   Shorea (Dipterocarpaceae) in two consecutive masting events in
+   Peninsular Malaysia
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 651
+EP 655
+DI 10.1017/S0266467411000393
+PN 6
+PD NOV 2011
+PY 2011
+RI Yumoto, Takakazu/B-6215-2013; Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0266-4674
+UT WOS:000296208500011
+ER
+
+PT J
+AU van Breugel, Michiel
+   Ransijn, Johannes
+   Craven, Dylan
+   Bongers, Frans
+   Hall, Jefferson S.
+TI Estimating carbon stock in secondary forests: Decisions and
+   uncertainties associated with allometric biomass models
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 262
+IS 8
+BP 1648
+EP 1657
+DI 10.1016/j.foreco.2011.07.018
+PD OCT 15 2011
+PY 2011
+RI Craven, Dylan/K-2717-2012
+OI Craven, Dylan/0000-0003-3940-833X
+TC 30
+ZB 21
+Z8 0
+ZS 2
+Z9 30
+SN 0378-1127
+UT WOS:000295297300034
+ER
+
+PT J
+AU Jiao, Yan
+   Cortes, Enric
+   Andrews, Kate
+   Guo, Feng
+TI Poor-data and data-poor species stock assessment using a Bayesian
+   hierarchical approach
+SO ECOLOGICAL APPLICATIONS
+VL 21
+IS 7
+BP 2691
+EP 2708
+PD OCT 2011
+PY 2011
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 1051-0761
+UT WOS:000296139200027
+PM 22073653
+ER
+
+PT J
+AU Piepenbring, M.
+   Caballero, E.
+   Fournier, J.
+   Guzman, G.
+   Hou, C. -L.
+   Kirschner, R.
+   Serrano, E.
+   Trampe, T.
+   Caceres, O.
+TI Pioneer forays for fungi in the Darien Province in Eastern Panama:
+   quintuplicating the knowledge on fungi in this area by five days of
+   fieldwork
+SO BIODIVERSITY AND CONSERVATION
+VL 20
+IS 11
+BP 2511
+EP 2526
+DI 10.1007/s10531-011-0085-1
+PD OCT 2011
+PY 2011
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0960-3115
+UT WOS:000294814300012
+ER
+
+PT J
+AU Kellner, James R.
+   Asner, Gregory P.
+   Kinney, Kealoha M.
+   Loarie, Scott R.
+   Knapp, David E.
+   Kennedy-Bowdoin, Ty
+   Questad, Erin J.
+   Cordell, Susan
+   Thaxton, Jarrod M.
+TI Remote analysis of biological invasion and the impact of enemy release
+SO ECOLOGICAL APPLICATIONS
+VL 21
+IS 6
+BP 2094
+EP 2104
+DI 10.1890/10-0859.1
+PD SEP 2011
+PY 2011
+RI Asner, Gregory/G-9268-2013
+OI Asner, Gregory/0000-0001-7893-6421
+TC 7
+ZB 7
+Z8 1
+ZS 0
+Z9 8
+SN 1051-0761
+UT WOS:000294155900017
+PM 21939046
+ER
+
+PT J
+AU Boyero, Luz
+   Pearson, Richard G.
+   Dudgeon, David
+   Graca, Manuel A. S.
+   Gessner, Mark O.
+   Albarino, Ricardo J.
+   Ferreira, Veronica
+   Yule, Catherine M.
+   Boulton, Andrew J.
+   Arunachalam, Muthukumarasamy
+   Callisto, Marcos
+   Chauvet, Eric
+   Ramirez, Alonso
+   Chara, Julian
+   Moretti, Marcelo S.
+   Goncalves, Jose F., Jr.
+   Helson, Julie E.
+   Chara-Serna, Ana M.
+   Encalada, Andrea C.
+   Davies, Judy N.
+   Lamothe, Sylvain
+   Cornejo, Aydee
+   Li, Aggie O. Y.
+   Buria, Leonardo M.
+   Villanueva, Veronica D.
+   Zuniga, Maria C.
+   Pringle, Catherine M.
+TI Global distribution of a key trophic guild contrasts with common
+   latitudinal diversity patterns
+SO ECOLOGY
+VL 92
+IS 9
+BP 1839
+EP 1848
+PD SEP 2011
+PY 2011
+RI Ramirez, Alonso/E-4462-2012; CSIC, EBD Donana/C-4157-2011; Moretti, Marcelo/H-6148-2012; Pringle, Catherine/I-1841-2012; Goncalves Junior, Jose /G-3910-2012; Ferreira, Veronica/I-6457-2013; Boyero, Luz/L-5822-2014; Research ID, CTBCC /O-3564-2014; TropWATER, Research ID/P-1401-2014
+OI Ramirez, Alonso/0000-0001-9985-5719; CSIC, EBD
+   Donana/0000-0003-4318-6602; Goncalves Junior, Jose /0000-0001-8191-2113;
+   Ferreira, Veronica/0000-0001-7688-2626; Boyero, Luz/0000-0001-7366-9299;
+   
+TC 21
+ZB 22
+Z8 0
+ZS 1
+Z9 22
+SN 0012-9658
+UT WOS:000294152800015
+PM 21939080
+ER
+
+PT J
+AU Wolf, Sebastian
+   Eugster, Werner
+   Potvin, Catherine
+   Turner, Benjamin L.
+   Buchmann, Nina
+TI Carbon sequestration potential of tropical pasture compared with
+   afforestation in Panama
+SO GLOBAL CHANGE BIOLOGY
+VL 17
+IS 9
+BP 2763
+EP 2780
+DI 10.1111/j.1365-2486.2011.02460.x
+PD SEP 2011
+PY 2011
+RI Turner, Benjamin/E-5940-2011; daorui, han/G-3767-2011; Wolf, Sebastian/B-4580-2010; Buchmann, Nina/E-6095-2011; Eugster, Werner/E-5116-2010
+OI Wolf, Sebastian/0000-0001-7717-6993; Eugster, Werner/0000-0001-6067-0741
+TC 13
+ZB 9
+Z8 0
+ZS 0
+Z9 13
+SN 1354-1013
+UT WOS:000293399000001
+ER
+
+PT J
+AU Wright, Emma L.
+   Black, Colin R.
+   Cheesman, Alexander W.
+   Drage, Trevor
+   Large, David
+   Turner, Benjamin L.
+   Sjoegersten, Sofie
+TI Contribution of subsurface peat to CO2 and CH4 fluxes in a neotropical
+   peatland
+SO GLOBAL CHANGE BIOLOGY
+VL 17
+IS 9
+BP 2867
+EP 2881
+DI 10.1111/j.1365-2486.2011.02448.x
+PD SEP 2011
+PY 2011
+RI Turner, Benjamin/E-5940-2011; Cheesman, Alexander/H-5918-2013
+OI Cheesman, Alexander/0000-0003-3931-5766
+TC 9
+ZB 9
+Z8 0
+ZS 0
+Z9 9
+SN 1354-1013
+UT WOS:000293399000008
+ER
+
+PT J
+AU Kattge, J.
+   Diaz, S.
+   Lavorel, S.
+   Prentice, C.
+   Leadley, P.
+   Boenisch, G.
+   Garnier, E.
+   Westoby, M.
+   Reich, P. B.
+   Wright, I. J.
+   Cornelissen, J. H. C.
+   Violle, C.
+   Harrison, S. P.
+   van Bodegom, P. M.
+   Reichstein, M.
+   Enquist, B. J.
+   Soudzilovskaia, N. A.
+   Ackerly, D. D.
+   Anand, M.
+   Atkin, O.
+   Bahn, M.
+   Baker, T. R.
+   Baldocchi, D.
+   Bekker, R.
+   Blanco, C. C.
+   Blonder, B.
+   Bond, W. J.
+   Bradstock, R.
+   Bunker, D. E.
+   Casanoves, F.
+   Cavender-Bares, J.
+   Chambers, J. Q.
+   Chapin, F. S., III
+   Chave, J.
+   Coomes, D.
+   Cornwell, W. K.
+   Craine, J. M.
+   Dobrin, B. H.
+   Duarte, L.
+   Durka, W.
+   Elser, J.
+   Esser, G.
+   Estiarte, M.
+   Fagan, W. F.
+   Fang, J.
+   Fernandez-Mendez, F.
+   Fidelis, A.
+   Finegan, B.
+   Flores, O.
+   Ford, H.
+   Frank, D.
+   Freschet, G. T.
+   Fyllas, N. M.
+   Gallagher, R. V.
+   Green, W. A.
+   Gutierrez, A. G.
+   Hickler, T.
+   Higgins, S. I.
+   Hodgson, J. G.
+   Jalili, A.
+   Jansen, S.
+   Joly, C. A.
+   Kerkhoff, A. J.
+   Kirkup, D.
+   Kitajima, K.
+   Kleyer, M.
+   Klotz, S.
+   Knops, J. M. H.
+   Kramer, K.
+   Kuehn, I.
+   Kurokawa, H.
+   Laughlin, D.
+   Lee, T. D.
+   Leishman, M.
+   Lens, F.
+   Lenz, T.
+   Lewis, S. L.
+   Lloyd, J.
+   Llusia, J.
+   Louault, F.
+   Ma, S.
+   Mahecha, M. D.
+   Manning, P.
+   Massad, T.
+   Medlyn, B. E.
+   Messier, J.
+   Moles, A. T.
+   Mueller, S. C.
+   Nadrowski, K.
+   Naeem, S.
+   Niinemets, Ue.
+   Noellert, S.
+   Nueske, A.
+   Ogaya, R.
+   Oleksyn, J.
+   Onipchenko, V. G.
+   Onoda, Y.
+   Ordonez, J.
+   Overbeck, G.
+   Ozinga, W. A.
+   Patino, S.
+   Paula, S.
+   Pausas, J. G.
+   Penuelas, J.
+   Phillips, O. L.
+   Pillar, V.
+   Poorter, H.
+   Poorter, L.
+   Poschlod, P.
+   Prinzing, A.
+   Proulx, R.
+   Rammig, A.
+   Reinsch, S.
+   Reu, B.
+   Sack, L.
+   Salgado-Negre, B.
+   Sardans, J.
+   Shiodera, S.
+   Shipley, B.
+   Siefert, A.
+   Sosinski, E.
+   Soussana, J. -F.
+   Swaine, E.
+   Swenson, N.
+   Thompson, K.
+   Thornton, P.
+   Waldram, M.
+   Weiher, E.
+   White, M.
+   White, S.
+   Wright, S. J.
+   Yguel, B.
+   Zaehle, S.
+   Zanne, A. E.
+   Wirth, C.
+TI TRY - a global database of plant traits
+SO GLOBAL CHANGE BIOLOGY
+VL 17
+IS 9
+BP 2905
+EP 2935
+DI 10.1111/j.1365-2486.2011.02451.x
+PD SEP 2011
+PY 2011
+RI Kuhn, Ingolf /B-9756-2009; Craine, Joseph/D-4569-2009; Gutierrez, Alvaro/C-1979-2009; Mahecha, Miguel/F-2443-2010; Lens, Frederic/B-8482-2011; Ozinga, Wim/F-1640-2011; Elser, James/A-7082-2008; Poorter, Hendrik/B-8062-2010; Coomes, David/H-5630-2011; Swenson, Nathan/A-3514-2012; Higgins, Steven/A-5138-2012; Jansen, Steven/A-9868-2012; James Cook University, TESS/B-8171-2012; Thornton, Peter/B-9145-2012; Fidelis, Alessandra/B-9769-2012; Biodiversity & Climate Res Ctr, BiK-F/C-4266-2012; Garnier, Eric/D-1650-2012; Lloyd, Jonathan/F-8893-2010; Leadley, Paul/E-4773-2012; Kitajima, Kaoru/E-8877-2012; Laughlin, Daniel/G-8855-2012; Muller, Sandra/G-3739-2012; Durka, Walter/E-4667-2010; JOLY, Carlos/H-7925-2012; Pillar, Valerio/B-9872-2008; Oleksyn, Jacek/I-4539-2012; Manning, Peter/I-6523-2012; Penuelas, Josep/D-9704-2011; Messier, Julie/K-3133-2012; Niinemets, Ulo/A-3816-2008; Reichstein, Markus/A-7494-2011; JOLY, Carlos/C-4523-2012; Duarte, Leandro/B-6552-2012; Overbeck, Gerhard/D-8695-2013; Leishman, Michelle/G-9726-2012; Bahn, Michael/I-3536-2013; Cavender-Bares, Jeannine/K-5716-2013; Phillips, Oliver/A-1523-2011; Wright, Ian/G-4979-2012; Ackerly, David/A-1247-2009; Wright, Stuart/M-3311-2013; Atkin, Owen/C-8415-2009; Baldocchi, Dennis/A-1625-2009; Pausas, Juli/C-5794-2008; Chambers, Jeffrey/J-9021-2014
+OI Kuhn, Ingolf /0000-0003-1691-8249; Craine, Joseph/0000-0001-6561-3244;
+   Mahecha, Miguel/0000-0003-3031-613X; Lens, Frederic/0000-0002-5001-0149;
+   Elser, James/0000-0002-1460-2155; Poorter, Hendrik/0000-0001-9900-2433;
+   Higgins, Steven/0000-0001-5695-9665; Lloyd,
+   Jonathan/0000-0002-5458-9960; Muller, Sandra/0000-0002-6316-2897;
+   Pillar, Valerio/0000-0001-6408-2891; Manning, Peter/0000-0002-7940-2023;
+   Niinemets, Ulo/0000-0002-3078-2192; Reichstein,
+   Markus/0000-0001-5736-1112; Duarte, Leandro/0000-0003-1771-0407;
+   Overbeck, Gerhard/0000-0002-8716-5136; Leishman,
+   Michelle/0000-0003-4830-5797; Phillips, Oliver/0000-0002-8993-6168;
+   Wright, Ian/0000-0001-8338-9143; Ackerly, David/0000-0002-1847-7398;
+   Wright, Stuart/0000-0003-4260-5676; Atkin, Owen/0000-0003-1041-5202;
+   Baldocchi, Dennis/0000-0003-3496-4919; 
+TC 218
+ZB 193
+Z8 9
+ZS 0
+Z9 230
+SN 1354-1013
+UT WOS:000293399000011
+ER
+
+PT J
+AU Ribeiro Mello, Marco Aurelio
+   Darcie Marquitti, Flavia Maria
+   Guimaraes, Paulo R., Jr.
+   Viktoria Kalko, Elisabeth Klara
+   Jordano, Pedro
+   Martinez de Aguiar, Marcus Aloizio
+TI The modularity of seed dispersal: differences in structure and
+   robustness between bat- and bird-fruit networks
+SO OECOLOGIA
+VL 167
+IS 1
+BP 131
+EP 140
+DI 10.1007/s00442-011-1984-2
+PD SEP 2011
+PY 2011
+RI Mello, Marco/B-1095-2008; de Aguiar, Marcus/C-9137-2012; CSIC, EBD Donana/C-4157-2011; Guimaraes, Paulo/B-1099-2008; Jordano, Pedro/A-5162-2008; Jordano, Pedro/B-6678-2014
+OI Mello, Marco/0000-0002-9098-9427; de Aguiar, Marcus/0000-0003-1379-7568;
+   CSIC, EBD Donana/0000-0003-4318-6602; Jordano,
+   Pedro/0000-0003-2142-9116; Jordano, Pedro/0000-0003-2142-9116
+TC 13
+ZB 14
+Z8 0
+ZS 1
+Z9 14
+SN 0029-8549
+UT WOS:000293914000013
+PM 21479592
+ER
+
+PT J
+AU Cleveland, Cory C.
+   Townsend, Alan R.
+   Taylor, Philip
+   Alvarez-Clare, Silvia
+   Bustamante, Mercedes M. C.
+   Chuyong, George
+   Dobrowski, Solomon Z.
+   Grierson, Pauline
+   Harms, Kyle E.
+   Houlton, Benjamin Z.
+   Marklein, Alison
+   Parton, William
+   Porder, Stephen
+   Reed, Sasha C.
+   Sierra, Carlos A.
+   Silver, Whendee L.
+   Tanner, Edmund V. J.
+   Wieder, William R.
+TI Relationships among net primary productivity, nutrients and climate in
+   tropical rain forest: a pan-tropical analysis
+SO ECOLOGY LETTERS
+VL 14
+IS 9
+BP 939
+EP 947
+DI 10.1111/j.1461-0248.2011.01658.x
+PD SEP 2011
+PY 2011
+RI Sierra, Carlos/A-5694-2009; Grierson, Pauline/A-9240-2008; Silver, Whendee/H-1118-2012
+OI Sierra, Carlos/0000-0003-0009-4169; 
+TC 61
+ZB 51
+Z8 2
+ZS 1
+Z9 64
+SN 1461-023X
+UT WOS:000293628300014
+PM 21749602
+ER
+
+PT J
+AU Edgar, Graham J.
+   Banks, Stuart A.
+   Bessudo, Sandra
+   Cortes, Jorge
+   Guzman, Hector M.
+   Henderson, Scott
+   Martinez, Camilo
+   Rivera, Fernando
+   Soler, German
+   Ruiz, Diego
+   Zapata, Fernando A.
+TI Variation in reef fish and invertebrate communities with level of
+   protection from fishing across the Eastern Tropical Pacific seascape
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+VL 20
+IS 5
+BP 730
+EP 743
+DI 10.1111/j.1466-8238.2010.00642.x
+PD SEP 2011
+PY 2011
+RI Edgar, Graham/C-8341-2013
+OI Edgar, Graham/0000-0003-0833-9001
+TC 8
+ZB 8
+Z8 0
+ZS 2
+Z9 10
+SN 1466-822X
+UT WOS:000293701300008
+ER
+
+PT J
+AU Wright, S. Joseph
+   Yavitt, Joseph B.
+   Wurzburger, Nina
+   Turner, Benjamin L.
+   Tanner, Edmund V. J.
+   Sayer, Emma J.
+   Santiago, Louis S.
+   Kaspari, Michael
+   Hedin, Lars O.
+   Harms, Kyle E.
+   Garcia, Milton N.
+   Corre, Marife D.
+TI Potassium, phosphorus, or nitrogen limit root allocation, tree growth,
+   or litter production in a lowland tropical forest
+SO ECOLOGY
+VL 92
+IS 8
+BP 1616
+EP 1625
+PD AUG 2011
+PY 2011
+RI Turner, Benjamin/E-5940-2011; Sayer, Emma/B-2514-2010; Wright, Stuart/M-3311-2013
+OI Sayer, Emma/0000-0002-3322-4487; Wright, Stuart/0000-0003-4260-5676
+TC 73
+ZB 70
+Z8 4
+ZS 1
+Z9 79
+SN 0012-9658
+UT WOS:000293459100008
+PM 21905428
+ER
+
+PT J
+AU Chuyong, George B.
+   Kenfack, David
+   Harms, Kyle E.
+   Thomas, Duncan W.
+   Condit, Richard
+   Comita, Liza S.
+TI Habitat specificity and diversity of tree species in an African wet
+   tropical forest
+SO PLANT ECOLOGY
+VL 212
+IS 8
+BP 1363
+EP 1374
+DI 10.1007/s11258-011-9912-4
+PD AUG 2011
+PY 2011
+TC 10
+ZB 11
+Z8 1
+ZS 0
+Z9 11
+SN 1385-0237
+UT WOS:000292820600011
+ER
+
+PT J
+AU Meskens, Christophe
+   Mckenna, Duane
+   Hance, Thierry
+   Windsor, Donald
+TI Host plant taxonomy and phenotype influence the structure of a
+   neotropical host plant-hispine beetle food web
+SO ECOLOGICAL ENTOMOLOGY
+VL 36
+IS 4
+BP 480
+EP 489
+DI 10.1111/j.1365-2311.2011.01294.x
+PD AUG 2011
+PY 2011
+RI McKenna, Duane/H-2252-2011
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 0307-6946
+UT WOS:000292689900010
+ER
+
+PT J
+AU Schroth, Goetz
+   Faria, Deborah
+   Araujo, Marcelo
+   Bede, Lucio
+   Van Bael, Sunshine A.
+   Cassano, Camila R.
+   Oliveira, Leonardo C.
+   Delabie, Jacques H. C.
+TI Conservation in tropical landscape mosaics: the case of the cacao
+   landscape of southern Bahia, Brazil
+SO BIODIVERSITY AND CONSERVATION
+VL 20
+IS 8
+BP 1635
+EP 1654
+DI 10.1007/s10531-011-0052-x
+PD JUL 2011
+PY 2011
+RI Faria, Deborah/F-2879-2010; Oliveira, Leonardo/G-1290-2012; Delabie, Jacques/F-3405-2010; Cassano, Camila/E-6761-2014
+OI Delabie, Jacques/0000-0002-2695-1061; 
+TC 18
+ZB 15
+Z8 0
+ZS 2
+Z9 19
+SN 0960-3115
+UT WOS:000293287700003
+ER
+
+PT J
+AU Walke, Jenifer B.
+   Harris, Reid N.
+   Reinert, Laura K.
+   Rollins-Smith, Louise A.
+   Woodhams, Douglas C.
+TI Social Immunity in Amphibians: Evidence for Vertical Transmission of
+   Innate Defenses
+SO BIOTROPICA
+VL 43
+IS 4
+BP 396
+EP 400
+DI 10.1111/j.1744-7429.2011.00787.x
+PD JUL 2011
+PY 2011
+RI Woodhams, Douglas/B-1962-2012
+TC 21
+ZB 20
+Z8 0
+ZS 0
+Z9 21
+SN 0006-3606
+UT WOS:000292804100002
+ER
+
+PT J
+AU Visser, Marco D.
+   Jongejans, Eelke
+   van Breugel, Michiel
+   Zuidema, Pieter A.
+   Chen, Yu-Yun
+   Kassim, Abdul Rahman
+   de Kroon, Hans
+TI Strict mast fruiting for a tropical dipterocarp tree: a demographic
+   cost-benefit analysis of delayed reproduction and seed predation
+SO JOURNAL OF ECOLOGY
+VL 99
+IS 4
+BP 1033
+EP 1044
+DI 10.1111/j.1365-2745.2011.01825.x
+PD JUL 2011
+PY 2011
+RI Zuidema, Pieter/C-8951-2009; de Kroon, Hans/B-3359-2009; Jongejans, Eelke/B-4832-2008
+OI Zuidema, Pieter/0000-0001-8100-1168; de Kroon, Hans/0000-0001-6151-3561;
+   Jongejans, Eelke/0000-0003-1148-7419
+TC 11
+ZB 10
+Z8 0
+ZS 0
+Z9 11
+SN 0022-0477
+UT WOS:000292419800016
+ER
+
+PT J
+AU Akre, Karin L.
+   Ryan, Michael J.
+TI Female tungara frogs elicit more complex mating signals from males
+SO BEHAVIORAL ECOLOGY
+VL 22
+IS 4
+BP 846
+EP 853
+DI 10.1093/beheco/arr065
+PD JUL-AUG 2011
+PY 2011
+TC 10
+ZB 10
+Z8 0
+ZS 0
+Z9 10
+SN 1045-2249
+UT WOS:000291750000022
+ER
+
+PT J
+AU Kaspari, Michael
+   Powell, Scott
+   Lattke, John
+   O'Donnell, Sean
+TI Predation and patchiness in the tropical litter: do swarm-raiding army
+   ants skim the cream or drain the bottle?
+SO JOURNAL OF ANIMAL ECOLOGY
+VL 80
+IS 4
+BP 818
+EP 823
+DI 10.1111/j.1365-2656.2011.01826.x
+PD JUL 2011
+PY 2011
+TC 8
+ZB 8
+Z8 0
+ZS 0
+Z9 8
+SN 0021-8790
+UT WOS:000291309500011
+PM 21388371
+ER
+
+PT J
+AU Yavitt, Joseph B.
+   Harms, Kyle E.
+   Garcia, Milton N.
+   Mirabello, Matt J.
+   Wright, S. Joseph
+TI Soil fertility and fine root dynamics in response to 4 years of nutrient
+   (N, P, K) fertilization in a lowland tropical moist forest, Panama
+SO AUSTRAL ECOLOGY
+VL 36
+IS 4
+BP 433
+EP 445
+DI 10.1111/j.1442-9993.2010.02157.x
+PD JUN 2011
+PY 2011
+RI Wright, Stuart/M-3311-2013
+OI Wright, Stuart/0000-0003-4260-5676
+TC 18
+ZB 18
+Z8 2
+ZS 1
+Z9 19
+SN 1442-9985
+UT WOS:000291055400009
+ER
+
+PT J
+AU Meyer, Christoph F. J.
+   Aguiar, Ludmilla M. S.
+   Aguirre, Luis F.
+   Baumgarten, Julio
+   Clarke, Frank M.
+   Cosson, Jean-Francois
+   Villegas, Sergio Estrada
+   Fahr, Jakob
+   Faria, Deborah
+   Furey, Neil
+   Henry, Mickael
+   Hodgkison, Robert
+   Jenkins, Richard K. B.
+   Jung, Kirsten G.
+   Kingston, Tigga
+   Kunz, Thomas H.
+   MacSwiney, Maria Cristina
+   Moya, Isabel
+   Patterson, Bruce D.
+   Pons, Jean-Marc
+   Racey, Paul A.
+   Rex, Katja
+   Sampaio, Erica M.
+   Solari, Sergio
+   Stoner, Kathryn E.
+   Voigt, Christian C.
+   von Staden, Dietrich
+   Weise, Christa D.
+   Kalko, Elisabeth K. V.
+TI Accounting for detectability improves estimates of species richness in
+   tropical bat surveys
+SO JOURNAL OF APPLIED ECOLOGY
+VL 48
+IS 3
+BP 777
+EP 787
+DI 10.1111/j.1365-2664.2011.01976.x
+PD JUN 2011
+PY 2011
+RI Meyer, Christoph/A-4363-2012; Jenkins, Richard/A-4567-2012; Faria, Deborah/F-2879-2010; Fahr, Jakob/E-8831-2012; Aguiar, Ludmilla /J-7659-2012
+OI Meyer, Christoph/0000-0001-9958-8913; Fahr, Jakob/0000-0002-9174-1204;
+   Aguiar, Ludmilla /0000-0002-9180-5052
+TC 13
+ZB 12
+Z8 0
+ZS 1
+Z9 14
+SN 0021-8901
+UT WOS:000290587100031
+ER
+
+PT J
+AU Brenes-Arguedas, T.
+   Roddy, A. B.
+   Coley, P. D.
+   Kursar, Thomas A.
+TI Do differences in understory light contribute to species distributions
+   along a tropical rainfall gradient?
+SO OECOLOGIA
+VL 166
+IS 2
+BP 443
+EP 456
+DI 10.1007/s00442-010-1832-9
+PD JUN 2011
+PY 2011
+RI Roddy, Adam/M-4523-2013
+OI Roddy, Adam/0000-0002-4423-8729
+TC 11
+ZB 11
+Z8 1
+ZS 0
+Z9 12
+SN 0029-8549
+UT WOS:000290587600015
+PM 21120671
+ER
+
+PT J
+AU Hall, Jefferson S.
+   Ashton, Mark S.
+   Garen, Eva J.
+   Jose, Shibu
+TI The ecology and ecosystem services of native trees: Implications for
+   reforestation and land restoration in Mesoamerica
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1553
+EP 1557
+DI 10.1016/j.foreco.2010.12.011
+PD MAY 15 2011
+PY 2011
+TC 14
+ZB 14
+Z8 0
+ZS 1
+Z9 17
+SN 0378-1127
+UT WOS:000290924400001
+ER
+
+PT J
+AU van Breugel, Michiel
+   Hall, Jefferson S.
+   Craven, Dylan J.
+   Gregoire, Timothy G.
+   Park, Andrew
+   Dent, Daisy H.
+   Wishnie, Mark H.
+   Mariscal, Emilio
+   Deago, Jose
+   Ibarra, Diogenes
+   Cedeno, Norma
+   Ashton, Mark S.
+TI Early growth and survival of 49 tropical tree species across sites
+   differing in soil fertility and rainfall in Panama
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1580
+EP 1589
+DI 10.1016/j.foreco.2010.08.019
+PD MAY 15 2011
+PY 2011
+RI Craven, Dylan/K-2717-2012
+OI Craven, Dylan/0000-0003-3940-833X
+TC 14
+ZB 15
+Z8 0
+ZS 1
+Z9 16
+SN 0378-1127
+UT WOS:000290924400004
+ER
+
+PT J
+AU Potvin, Catherine
+   Mancilla, Lady
+   Buchmann, Nina
+   Monteza, Jose
+   Moore, Tim
+   Murphy, Meaghan
+   Oelmann, Yvonne
+   Scherer-Lorenzen, Michael
+   Turner, Benjamin L.
+   Wilcke, Wolfgang
+   Zeugin, Fabienne
+   Wolf, Sebastian
+TI An ecosystem approach to biodiversity effects: Carbon pools in a
+   tropical tree plantation
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1614
+EP 1624
+DI 10.1016/j.foreco.2010.11.015
+PD MAY 15 2011
+PY 2011
+RI Turner, Benjamin/E-5940-2011; Buchmann, Nina/E-6095-2011; Wolf, Sebastian/B-4580-2010; Wilcke, Wolfgang/A-1573-2008
+OI Wolf, Sebastian/0000-0001-7717-6993; Wilcke,
+   Wolfgang/0000-0002-6031-4613
+TC 17
+ZB 16
+Z8 0
+ZS 0
+Z9 19
+SN 0378-1127
+UT WOS:000290924400008
+ER
+
+PT J
+AU Neumann-Cosel, Luisa
+   Zimmermann, Beate
+   Hall, Jefferson S.
+   van Breugel, Michiel
+   Elsenbeer, Helmut
+TI Soil carbon dynamics under young tropical secondary forests on former
+   pastures-A case study from Panama
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1625
+EP 1633
+DI 10.1016/j.foreco.2010.07.023
+PD MAY 15 2011
+PY 2011
+RI Zimmermann, Beate/B-5164-2012
+TC 13
+ZB 12
+Z8 1
+ZS 0
+Z9 15
+SN 0378-1127
+UT WOS:000290924400009
+ER
+
+PT J
+AU Hassler, Sibylle K.
+   Zimmermann, Beate
+   van Breugel, Michiel
+   Hall, Jefferson S.
+   Elsenbeer, Helmut
+TI Recovery of saturated hydraulic conductivity under secondary succession
+   on former pasture in the humid tropics
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1634
+EP 1642
+DI 10.1016/j.foreco.2010.06.031
+PD MAY 15 2011
+PY 2011
+RI Zimmermann, Beate/B-5164-2012; Hassler, Sibylle/N-6342-2013
+OI Hassler, Sibylle/0000-0001-5411-8491
+TC 26
+ZB 16
+Z8 1
+ZS 1
+Z9 28
+SN 0378-1127
+UT WOS:000290924400010
+ER
+
+PT J
+AU Craven, D.
+   Dent, D.
+   Braden, D.
+   Ashton, M. S.
+   Berlyn, G. P.
+   Hall, J. S.
+TI Seasonal variability of photosynthetic characteristics influences growth
+   of eight tropical tree species at two sites with contrasting
+   precipitation in Panama
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1643
+EP 1653
+DI 10.1016/j.foreco.2010.09.017
+PD MAY 15 2011
+PY 2011
+RI Craven, Dylan/K-2717-2012
+OI Craven, Dylan/0000-0003-3940-833X
+TC 10
+ZB 9
+Z8 1
+ZS 1
+Z9 11
+SN 0378-1127
+UT WOS:000290924400011
+ER
+
+PT J
+AU Hall, Jefferson S.
+   Love, Brian E.
+   Garen, Eva J.
+   Slusser, Jacob L.
+   Saltonstall, Kristin
+   Mathias, Shane
+   van Breugel, Michiel
+   Ibarra, Diogenes
+   Bork, Edward W.
+   Spaner, Dean
+   Wishnie, Mark H.
+   Ashton, Mark S.
+TI Tree plantations on farms: Evaluating growth and potential for success
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1675
+EP 1683
+DI 10.1016/j.foreco.2010.09.042
+PD MAY 15 2011
+PY 2011
+TC 6
+ZB 5
+Z8 0
+ZS 0
+Z9 6
+SN 0378-1127
+UT WOS:000290924400014
+ER
+
+PT J
+AU Garen, Eva J.
+   Saltonstall, Kristin
+   Ashton, Mark S.
+   Slusser, Jacob L.
+   Mathias, Shane
+   Hall, Jefferson S.
+TI The tree planting and protecting culture of cattle ranchers and
+   small-scale agriculturalists in rural Panama: Opportunities for
+   reforestation and land restoration
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 10
+SI SI
+BP 1684
+EP 1695
+DI 10.1016/j.foreco.2010.10.011
+PD MAY 15 2011
+PY 2011
+TC 9
+ZB 9
+Z8 0
+ZS 0
+Z9 9
+SN 0378-1127
+UT WOS:000290924400015
+ER
+
+PT J
+AU Hirsch, Ben T.
+   Morrell, Lesley J.
+TI Measuring marginal predation in animal groups
+SO BEHAVIORAL ECOLOGY
+VL 22
+IS 3
+BP 648
+EP 656
+DI 10.1093/beheco/arr026
+PD MAY-JUN 2011
+PY 2011
+RI Morrell, Lesley/A-4311-2008
+OI Morrell, Lesley/0000-0003-0256-7871
+TC 9
+ZB 7
+Z8 0
+ZS 0
+Z9 9
+SN 1045-2249
+UT WOS:000289839600029
+ER
+
+PT J
+AU Dapper, Amy L.
+   Baugh, Alexander T.
+   Ryan, Michael J.
+TI The Sounds of Silence as an Alarm Cue in Tungara Frogs, Physalaemus
+   pustulosus
+SO BIOTROPICA
+VL 43
+IS 3
+BP 380
+EP 385
+DI 10.1111/j.1744-7429.2010.00707.x
+PD MAY 2011
+PY 2011
+RI Baugh, Alexander/E-4777-2010
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0006-3606
+UT WOS:000289902000015
+ER
+
+PT J
+AU Goldsmith, Gregory R.
+   Comita, Liza S.
+   Chua, Siew Chin
+TI Evidence for arrested succession within a tropical forest fragment in
+   Singapore
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 323
+EP 326
+DI 10.1017/S0266467411000010
+PN 3
+PD MAY 2011
+PY 2011
+TC 6
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0266-4674
+UT WOS:000288619200011
+ER
+
+PT J
+AU Freestone, Amy L.
+   Osman, Richard W.
+   Ruiz, Gregory M.
+   Torchin, Mark E.
+TI Stronger predation in the tropics shapes species richness patterns in
+   marine communities
+SO ECOLOGY
+VL 92
+IS 4
+BP 983
+EP 993
+DI 10.1890/09-2379.1
+PD APR 2011
+PY 2011
+TC 19
+ZB 18
+Z8 0
+ZS 0
+Z9 20
+SN 0012-9658
+UT WOS:000290533700018
+PM 21661559
+ER
+
+PT J
+AU Fahr, Jakob
+   Kalko, Elisabeth K. V.
+TI Biome transitions as centres of diversity: habitat heterogeneity and
+   diversity patterns of West African bat assemblages across spatial scales
+SO ECOGRAPHY
+VL 34
+IS 2
+BP 177
+EP 195
+DI 10.1111/j.1600-0587.2010.05510.x
+PD APR 2011
+PY 2011
+RI Fahr, Jakob/E-8831-2012
+OI Fahr, Jakob/0000-0002-9174-1204
+TC 19
+ZB 18
+Z8 0
+ZS 1
+Z9 19
+SN 0906-7590
+UT WOS:000289150000001
+ER
+
+PT J
+AU Hirsch, Ben T.
+TI Spatial position and feeding success in ring-tailed coatis
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 65
+IS 4
+BP 581
+EP 591
+DI 10.1007/s00265-010-1058-1
+PD APR 2011
+PY 2011
+TC 7
+ZB 7
+Z8 0
+ZS 0
+Z9 7
+SN 0340-5443
+UT WOS:000288448000003
+ER
+
+PT J
+AU Endara, Maria-Jose
+   Coley, Phyllis D.
+TI The resource availability hypothesis revisited: a meta-analysis
+SO FUNCTIONAL ECOLOGY
+VL 25
+IS 2
+BP 389
+EP 398
+DI 10.1111/j.1365-2435.2010.01803.x
+PD APR 2011
+PY 2011
+TC 19
+ZB 17
+Z8 0
+ZS 0
+Z9 19
+SN 0269-8463
+UT WOS:000288501100009
+ER
+
+PT J
+AU Schnitzer, Stefan A.
+   Bongers, Frans
+TI Increasing liana abundance and biomass in tropical forests: emerging
+   patterns and putative mechanisms
+SO ECOLOGY LETTERS
+VL 14
+IS 4
+BP 397
+EP 406
+DI 10.1111/j.1461-0248.2011.01590.x
+PD APR 2011
+PY 2011
+TC 65
+ZB 61
+Z8 4
+ZS 1
+Z9 70
+SN 1461-023X
+UT WOS:000288211000010
+PM 21314879
+ER
+
+PT J
+AU Buermann, Wolfgang
+   Chaves, Jaime A.
+   Dudley, Robert
+   McGuire, Jimmy A.
+   Smith, Thomas B.
+   Altshuler, Douglas L.
+TI Projected changes in elevational distribution and flight performance of
+   montane Neotropical hummingbirds in response to climate change
+SO GLOBAL CHANGE BIOLOGY
+VL 17
+IS 4
+BP 1671
+EP 1680
+DI 10.1111/j.1365-2486.2010.02330.x
+PD APR 2011
+PY 2011
+TC 6
+ZB 5
+Z8 1
+ZS 0
+Z9 7
+SN 1354-1013
+UT WOS:000287853000014
+ER
+
+PT J
+AU Myers, Jonathan A.
+   Harms, Kyle E.
+TI Seed arrival and ecological filters interact to assemble high-diversity
+   plant communities
+SO ECOLOGY
+VL 92
+IS 3
+BP 676
+EP 686
+DI 10.1890/10-1001.1
+PD MAR 2011
+PY 2011
+TC 20
+ZB 20
+Z8 0
+ZS 0
+Z9 20
+SN 0012-9658
+UT WOS:000290529800017
+PM 21608476
+ER
+
+PT J
+AU Poltz, Kerstin
+   Zotz, Gerhard
+TI Vascular Epiphytes on Isolated Pasture Trees Along a Rainfall Gradient
+   in the Lowlands of Panama
+SO BIOTROPICA
+VL 43
+IS 2
+BP 165
+EP 172
+DI 10.1111/j.1744-7429.2010.00669.x
+PD MAR 2011
+PY 2011
+TC 2
+ZB 3
+Z8 0
+ZS 1
+Z9 3
+SN 0006-3606
+UT WOS:000287851700005
+ER
+
+PT J
+AU Jung, Kirsten
+   Kalko, Elisabeth K. V.
+TI Adaptability and vulnerability of high flying Neotropical aerial
+   insectivorous bats to urbanization
+SO DIVERSITY AND DISTRIBUTIONS
+VL 17
+IS 2
+BP 262
+EP 274
+DI 10.1111/j.1472-4642.2010.00738.x
+PD MAR 2011
+PY 2011
+TC 17
+ZB 17
+Z8 0
+ZS 0
+Z9 17
+SN 1366-9516
+UT WOS:000287448100008
+ER
+
+PT J
+AU Boyero, Luz
+   Pearson, Richard G.
+   Gessner, Mark O.
+   Barmuta, Leon A.
+   Ferreira, Veronica
+   Graca, Manuel A. S.
+   Dudgeon, David
+   Boulton, Andrew J.
+   Callisto, Marcos
+   Chauvet, Eric
+   Helson, Julie E.
+   Bruder, Andreas
+   Albarino, Ricardo J.
+   Yule, Catherine M.
+   Arunachalam, Muthukumarasamy
+   Davies, Judy N.
+   Figueroa, Ricardo
+   Flecker, Alexander S.
+   Rarnirez, Alonso
+   Death, Russell G.
+   Iwata, Tomoya
+   Mathooko, Jude M.
+   Mathuriau, Catherine
+   Goncalves, Jose F., Jr.
+   Moretti, Marcelo S.
+   Jinggut, Tajang
+   Lamothe, Sylvain
+   M'Erimba, Charles
+   Ratnarajah, Lavenia
+   Schindler, Markus H.
+   Castela, Jose
+   Buria, Leonardo M.
+   Cornejo, Aydee
+   Villanueva, Veronica D.
+   West, Derek C.
+TI A global experiment suggests climate warming will not accelerate litter
+   decomposition in streams but might reduce carbon sequestration
+SO ECOLOGY LETTERS
+VL 14
+IS 3
+BP 289
+EP 294
+DI 10.1111/j.1461-0248.2010.01578.x
+PD MAR 2011
+PY 2011
+RI CSIC, EBD Donana/C-4157-2011; Moretti, Marcelo/H-6148-2012; Ramirez, Alonso/E-4462-2012; Goncalves Junior, Jose /G-3910-2012; Ferreira, Veronica/I-6457-2013; Boyero, Luz/L-5822-2014; Research ID, CTBCC /O-3564-2014; TropWATER, Research ID/P-1401-2014
+OI CSIC, EBD Donana/0000-0003-4318-6602; Ramirez,
+   Alonso/0000-0001-9985-5719; Goncalves Junior, Jose /0000-0001-8191-2113;
+   Ferreira, Veronica/0000-0001-7688-2626; Boyero, Luz/0000-0001-7366-9299;
+   
+TC 33
+ZB 34
+Z8 1
+ZS 3
+Z9 37
+SN 1461-023X
+UT WOS:000287528600011
+PM 21299824
+ER
+
+PT J
+AU Onoda, Yusuke
+   Westoby, Mark
+   Adler, Peter B.
+   Choong, Amy M. F.
+   Clissold, Fiona J.
+   Cornelissen, Johannes H. C.
+   Diaz, Sandra
+   Dominy, Nathaniel J.
+   Elgart, Alison
+   Enrico, Lucas
+   Fine, Paul V. A.
+   Howard, Jerome J.
+   Jalili, Adel
+   Kitajima, Kaoru
+   Kurokawa, Hiroko
+   McArthur, Clare
+   Lucas, Peter W.
+   Markesteijn, Lars
+   Perez-Harguindeguy, Natalia
+   Poorter, Lourens
+   Richards, Lora
+   Santiago, Louis S.
+   Sosinski, Enio E., Jr.
+   Van Bael, Sunshine A.
+   Warton, David I.
+   Wright, Ian J.
+   Wright, S. Joseph
+   Yamashita, Nayuta
+TI Global patterns of leaf mechanical properties
+SO ECOLOGY LETTERS
+VL 14
+IS 3
+BP 301
+EP 312
+DI 10.1111/j.1461-0248.2010.01582.x
+PD MAR 2011
+PY 2011
+RI Warton, David/B-5791-2009; Adler, Peter/D-3781-2009; McArthur, Clare/A-3637-2011; Kitajima, Kaoru/E-8877-2012; Choong, Amy/J-4492-2012; Wright, Ian/G-4979-2012; Wright, Stuart/M-3311-2013
+OI McArthur, Clare/0000-0002-7867-414X; Wright, Ian/0000-0001-8338-9143;
+   Wright, Stuart/0000-0003-4260-5676
+TC 61
+ZB 58
+Z8 2
+ZS 0
+Z9 65
+SN 1461-023X
+UT WOS:000287528600013
+PM 21265976
+ER
+
+PT J
+AU Vencl, Fredric V.
+   Trillo, Paula A.
+   Geeta, R.
+TI Functional interactions among tortoise beetle larval defenses reveal
+   trait suites and escalation
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 65
+IS 2
+BP 227
+EP 239
+DI 10.1007/s00265-010-1031-z
+PD FEB 2011
+PY 2011
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0340-5443
+UT WOS:000286322200011
+ER
+
+PT J
+AU Jones, Patricia L.
+   Page, Rachel A.
+   Hartbauer, Manfred
+   Siemers, Bjoern M.
+TI Behavioral evidence for eavesdropping on prey song in two Palearctic
+   sibling bat species
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 65
+IS 2
+BP 333
+EP 340
+DI 10.1007/s00265-010-1050-9
+PD FEB 2011
+PY 2011
+TC 9
+ZB 9
+Z8 0
+ZS 0
+Z9 9
+SN 0340-5443
+UT WOS:000286322200022
+ER
+
+PT J
+AU Baugh, Alexander T.
+   Ryan, Michael J.
+TI The relative value of call embellishment in tungara frogs
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 65
+IS 2
+BP 359
+EP 367
+DI 10.1007/s00265-010-1053-6
+PD FEB 2011
+PY 2011
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0340-5443
+UT WOS:000286322200025
+ER
+
+PT J
+AU Hirsch, Ben T.
+TI Within-group spatial position in ring-tailed coatis: balancing
+   predation, feeding competition, and social competition
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+VL 65
+IS 2
+BP 391
+EP 399
+DI 10.1007/s00265-010-1056-3
+PD FEB 2011
+PY 2011
+TC 13
+ZB 12
+Z8 0
+ZS 1
+Z9 13
+SN 0340-5443
+UT WOS:000286322200028
+ER
+
+PT J
+AU Mascaro, Joseph
+   Schnitzer, Stefan A.
+TI Dominance by the introduced tree Rhamnus cathartica (common buckthorn)
+   may limit aboveground carbon storage in Southern Wisconsin forests
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 3
+BP 545
+EP 550
+DI 10.1016/j.foreco.2010.11.005
+PD FEB 1 2011
+PY 2011
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0378-1127
+UT WOS:000287333000023
+ER
+
+PT J
+AU Plath, Mirco
+   Mody, Karsten
+   Potvin, Catherine
+   Dorn, Silvia
+TI Establishment of native tropical timber trees in monoculture and
+   mixed-species plantations: Small-scale effects on tree performance and
+   insect herbivory
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 261
+IS 3
+BP 741
+EP 750
+DI 10.1016/j.foreco.2010.12.004
+PD FEB 1 2011
+PY 2011
+TC 18
+ZB 16
+Z8 0
+ZS 0
+Z9 18
+SN 0378-1127
+UT WOS:000287333000043
+ER
+
+PT J
+AU Schnitzer, Stefan A.
+   Klironomos, John N.
+   HilleRisLambers, Janneke
+   Kinkel, Linda L.
+   Reich, Peter B.
+   Xiao, Kun
+   Rillig, Matthias C.
+   Sikes, Benjamin A.
+   Callaway, Ragan M.
+   Mangan, Scott A.
+   van Nes, Egbert H.
+   Scheffer, Marten
+TI Soil microbes drive the classic plant diversity-productivity pattern
+SO ECOLOGY
+VL 92
+IS 2
+BP 296
+EP 303
+DI 10.1890/10-0773.1
+PD FEB 2011
+PY 2011
+RI van Nes, Egbert/F-2681-2011; Scheffer, Marten/C-1852-2012
+OI van Nes, Egbert/0000-0002-6345-104X; 
+TC 71
+ZB 70
+Z8 2
+ZS 1
+Z9 74
+SN 0012-9658
+UT WOS:000289553600005
+PM 21618909
+ER
+
+PT J
+AU Connahs, Heidi
+   Aiello, Annette
+   Van Bael, Sunshine
+   Rodriguez-Castaneda, Genoveva
+TI Caterpillar abundance and parasitism in a seasonally dry versus wet
+   tropical forest of Panama
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 51
+EP 58
+DI 10.1017/S0266467410000568
+PN 1
+PD JAN 2011
+PY 2011
+TC 5
+ZB 3
+Z8 0
+ZS 0
+Z9 5
+SN 0266-4674
+UT WOS:000285722500005
+ER
+
+PT J
+AU Wester, Stefan
+   Zotz, Gerhard
+TI Seed comas of bromeliads promote germination and early seedling growth
+   by wick-like water uptake
+SO JOURNAL OF TROPICAL ECOLOGY
+VL 27
+BP 115
+EP 119
+DI 10.1017/S0266467410000593
+PN 1
+PD JAN 2011
+PY 2011
+TC 4
+ZB 4
+Z8 0
+ZS 1
+Z9 4
+SN 0266-4674
+UT WOS:000285722500014
+ER
+
+PT J
+AU Wells, Konstans
+   Boehm, Stefan M.
+   Boch, Steffen
+   Fischer, Markus
+   Kalko, Elisabeth K. V.
+TI Local and landscape-scale forest attributes differ in their impact on
+   bird assemblages across years in forest production landscapes
+SO BASIC AND APPLIED ECOLOGY
+VL 12
+IS 2
+BP 97
+EP 106
+DI 10.1016/j.baae.2011.01.002
+PD 2011
+PY 2011
+RI Fischer, Markus/C-6411-2008; Biodiversity & Climate Res Ctr, BiK-F/C-4266-2012; Wells, Konstans/A-7232-2010
+OI Wells, Konstans/0000-0003-0377-2463
+TC 5
+ZB 5
+Z8 0
+ZS 0
+Z9 5
+SN 1439-1791
+UT WOS:000290502800001
+ER
+
+PT J
+AU Touchon, Justin C.
+   Urbina, Jenny
+   Warkentin, Karen M.
+TI Habitat-specific constraints on induced hatching in a treefrog with
+   reproductive mode plasticity
+SO BEHAVIORAL ECOLOGY
+VL 22
+IS 1
+BP 169
+EP 175
+DI 10.1093/beheco/arq192
+PD JAN-FEB 2011
+PY 2011
+TC 5
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 1045-2249
+UT WOS:000288276100028
+ER
+
+PT J
+AU Laurance, William F.
+   Useche, D. Carolina
+   Shoo, Luke P.
+   Herzog, Sebastian K.
+   Kessler, Michael
+   Escobar, Federico
+   Brehm, Gunnar
+   Axmacher, Jan C.
+   Chen, I-Ching
+   Arellano Gamez, Lucrecia
+   Hietz, Peter
+   Fiedler, Konrad
+   Pyrcz, Tomasz
+   Wolf, Jan
+   Merkord, Christopher L.
+   Cardelus, Catherine
+   Marshall, Andrew R.
+   Ah-Peng, Claudine
+   Aplet, Gregory H.
+   del Coro Arizmendi, M.
+   Baker, William J.
+   Barone, John
+   Bruehl, Carsten A.
+   Bussmann, Rainer W.
+   Cicuzza, Daniele
+   Eilu, Gerald
+   Favila, Mario E.
+   Hemp, Andreas
+   Hemp, Claudia
+   Homeier, Juergen
+   Hurtado, Johanna
+   Jankowski, Jill
+   Kattan, Gustavo
+   Kluge, Juergen
+   Kroemer, Thorsten
+   Lees, David C.
+   Lehnert, Marcus
+   Longino, John T.
+   Lovett, Jon
+   Martin, Patrick H.
+   Patterson, Bruce D.
+   Pearson, Richard G.
+   Peh, Kelvin S-H
+   Richardson, Barbara
+   Richardson, Michael
+   Samways, Michael J.
+   Senbeta, Feyera
+   Smith, Thomas B.
+   Utteridge, Timothy M. A.
+   Watkins, James E.
+   Wilson, Rohan
+   Williams, Stephen E.
+   Thomas, Chris D.
+TI Global warming, elevational ranges and the vulnerability of tropical
+   biota
+SO BIOLOGICAL CONSERVATION
+VL 144
+IS 1
+BP 548
+EP 557
+DI 10.1016/j.biocon.2010.10.010
+PD JAN 2011
+PY 2011
+RI Williams, Stephen/A-7250-2008; Escobar, Federico/C-1396-2011; Baker, William/B-1244-2011; Axmacher, Jan/C-4412-2008; Homeier, Jurgen/G-1662-2011; Thomas, Chris/A-1894-2012; Laurance, William/B-2709-2012; James Cook University, TESS/B-8171-2012; Jankowski, Jill/D-4754-2012; Bruhl, Carsten/F-3385-2012; Kluge, Jurgen/D-6200-2011; Lehnert, Marcus/F-3288-2011; Peh, Kelvin/C-3408-2013; Brehm, Gunnar/D-5831-2013; AH-PENG, Claudine/N-6431-2013; Shoo, Luke/A-2715-2009; Thomas, Chris/A-1460-2014; Kessler, Michael/A-3605-2009; Research ID, CTBCC /O-3564-2014; TropWATER, Research ID/P-1401-2014
+OI Williams, Stephen/0000-0002-2510-7408; Baker,
+   William/0000-0001-6727-1831; Axmacher, Jan/0000-0003-1406-928X; Homeier,
+   Jurgen/0000-0001-5676-3267; 
+TC 44
+ZB 44
+Z8 2
+ZS 1
+Z9 47
+SN 0006-3207
+UT WOS:000287168100059
+ER
+
+PT J
+AU Asner, Gregory P.
+   Martin, Roberta E.
+   Tupayachi, Raul
+   Emerson, Ruth
+   Martinez, Paola
+   Sinca, Felipe
+   Powell, George V. N.
+   Wright, S. Joseph
+   Lugo, Ariel E.
+TI Taxonomy and remote sensing of leaf mass per area (LMA) in humid
+   tropical forests
+SO ECOLOGICAL APPLICATIONS
+VL 21
+IS 1
+BP 85
+EP 98
+PD JAN 2011
+PY 2011
+RI Wright, Stuart/M-3311-2013; Asner, Gregory/G-9268-2013
+OI Wright, Stuart/0000-0003-4260-5676; Asner, Gregory/0000-0001-7893-6421
+TC 18
+ZB 13
+Z8 0
+ZS 0
+Z9 18
+SN 1051-0761
+UT WOS:000288850200009
+PM 21516890
+ER
+
+PT J
+AU Touchon, Justin Charles
+   Warkentin, Karen Michelle
+TI Thermally contingent plasticity: temperature alters expression of
+   predator-induced colour and morphology in a Neotropical treefrog tadpole
+SO JOURNAL OF ANIMAL ECOLOGY
+VL 80
+IS 1
+BP 79
+EP 88
+DI 10.1111/j.1365-2656.2010.01765.x
+PD JAN 2011
+PY 2011
+TC 10
+ZB 9
+Z8 0
+ZS 0
+Z9 10
+SN 0021-8790
+UT WOS:000285110600008
+PM 20964684
+ER
+
+PT J
+AU Okamura, Beth
+   O'Dea, Aaron
+   Knowles, Tanya
+TI Bryozoan growth and environmental reconstruction by zooid size variation
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 430
+BP 133
+EP 146
+DI 10.3354/meps08965
+PD 2011
+PY 2011
+RI O'Dea, Aaron/D-4114-2011
+TC 12
+ZB 9
+Z8 0
+ZS 0
+Z9 12
+SN 0171-8630
+UT WOS:000291826600012
+ER
+
+EF

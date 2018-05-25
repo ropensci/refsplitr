@@ -1,0 +1,548 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Andraka, Sandra
+   Mug, Moises
+   Hall, Martin
+   Pons, Maite
+   Pacheco, Lucas
+   Parrales, Manuel
+   Rendon, Liliana
+   Parga, Maria L.
+   Mituhasi, Takahisa
+   Segura, Alvaro
+   Ortega, David
+   Villagran, Erick
+   Perez, Sara
+   de Paz, Celina
+   Siu, Salvador
+   Gadea, Velkiss
+   Caicedo, Julian
+   Zapata, Luis A.
+   Martinez, Jimmy
+   Guerrero, Pablo
+   Valqui, Michael
+   Vogel, Nick
+TI Circle hooks: Developing better fishing practices in the artisanal
+   longline fisheries of the Eastern Pacific Ocean
+SO BIOLOGICAL CONSERVATION
+VL 160
+BP 214
+EP 224
+DI 10.1016/j.biocon.2013.01.019
+PD APR 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3207
+UT WOS:000320684700024
+ER
+
+PT J
+AU Soto-Shoender, Jose R.
+   Main, Martin B.
+TI Differences in stakeholder perceptions of the jaguar Panthera onca and
+   puma Puma concolor in the tropical lowlands of Guatemala
+SO ORYX
+VL 47
+IS 1
+BP 109
+EP 112
+DI 10.1017/S003060531200107X
+PD JAN 2013
+PY 2013
+TC 2
+ZB 1
+Z8 0
+ZS 0
+Z9 2
+SN 0030-6053
+UT WOS:000319726600022
+ER
+
+PT J
+AU Boehm, Monika
+   Collen, Ben
+   Baillie, Jonathan E. M.
+   Bowles, Philip
+   Chanson, Janice
+   Cox, Neil
+   Hammerson, Geoffrey
+   Hoffmann, Michael
+   Livingstone, Suzanne R.
+   Ram, Mala
+   Rhodin, Anders G. J.
+   Stuart, Simon N.
+   van Dijk, Peter Paul
+   Young, Bruce E.
+   Afuang, Leticia E.
+   Aghasyan, Aram
+   Garcia, Andres
+   Aguilar, Cesar
+   Ajtic, Rastko
+   Akarsu, Ferdi
+   Alencar, Laura R. V.
+   Allison, Allen
+   Ananjeva, Natalia
+   Anderson, Steve
+   Andren, Claes
+   Ariano-Sanchez, Daniel
+   Arredondo, Juan Camilo
+   Auliya, Mark
+   Austin, Christopher C.
+   Avci, Aziz
+   Baker, Patrick J.
+   Barreto-Lima, Andre F.
+   Barrio-Amoros, Cesar L.
+   Basu, Dhruvayothi
+   Bates, Michael F.
+   Batistella, Alexandre
+   Bauer, Aaron
+   Bennett, Daniel
+   Boehme, Wolfgang
+   Broadley, Don
+   Brown, Rafe
+   Burgess, Joseph
+   Captain, Ashok
+   Carreira, Santiago
+   Castaneda, Maria del Rosario
+   Castro, Fernando
+   Catenazzi, Alessandro
+   Cedeno-Vazquez, Jose R.
+   Chapple, David G.
+   Cheylan, Marc
+   Cisneros-Heredia, Diego F.
+   Cogalniceanu, Dan
+   Cogger, Hal
+   Corti, Claudia
+   Costa, Gabriel C.
+   Couper, Patrick J.
+   Courtney, Tony
+   Crnobrnja-Isailovic, Jelka
+   Crochet, Pierre-Andre
+   Crother, Brian
+   Cruz, Felix
+   Daltry, Jennifer C.
+   Daniels, R. I. Ranjit
+   Das, Indraneil
+   de Silva, Anslem
+   Diesmos, Arvin C.
+   Dirksen, Lutz
+   Doan, Tiffany M.
+   Dodd, C. Kenneth, Jr.
+   Doody, J. Sean
+   Dorcas, Michael E.
+   de Barros Filho, Jose Duarte
+   Egan, Vincent T.
+   El Mouden, El Hassan
+   Embert, Dirk
+   Espinoza, Robert E.
+   Fallabrino, Alejandro
+   Feng, Xie
+   Feng, Zhao-Jun
+   Fitzgerald, Lee
+   Flores-Villela, Oscar
+   Franca, Frederico G. R.
+   Frost, Darrell
+   Gadsden, Hector
+   Gamble, Tony
+   Ganesh, S. R.
+   Garcia, Miguel A.
+   Garcia-Perez, Juan E.
+   Gatus, Joey
+   Gaulke, Maren
+   Geniez, Philippe
+   Georges, Arthur
+   Gerlach, Justin
+   Goldberg, Stephen
+   Gonzalez, Juan-Carlos T.
+   Gower, David J.
+   Grant, Tandora
+   Greenbaum, Eli
+   Grieco, Cristina
+   Guo, Peng
+   Hamilton, Alison M.
+   Hare, Kelly
+   Hedges, S. Blair
+   Heideman, Neil
+   Hilton-Taylor, Craig
+   Hitchmough, Rod
+   Hollingsworth, Bradford
+   Hutchinson, Mark
+   Ineich, Ivan
+   Iverson, John
+   Jaksic, Fabian M.
+   Jenkins, Richard
+   Joger, Ulrich
+   Jose, Reizl
+   Kaska, Yakup
+   Kaya, Ugur
+   Keogh, J. Scott
+   Koehler, Gunther
+   Kuchling, Gerald
+   Kumlutas, Yusuf
+   Kwet, Axel
+   La Marca, Enrique
+   Lamar, William
+   Lane, Amanda
+   Lardner, Bjorn
+   Latta, Craig
+   Latta, Gabrielle
+   Lau, Michael
+   Lavin, Pablo
+   Lawson, Dwight
+   LeBreton, Matthew
+   Lehr, Edgar
+   Limpus, Duncan
+   Lipczynski, Nicola
+   Lobo, Aaron S.
+   Lopez-Luna, Marco A.
+   Luiselli, Luca
+   Lukoschek, Vimoksalehi
+   Lundberg, Mikael
+   Lymberakis, Petros
+   Macey, Robert
+   Magnusson, William E.
+   Mahler, D. Luke
+   Malhotra, Anita
+   Mariaux, Jean
+   Maritz, Bryan
+   Marques, Otavio A. V.
+   Marquez, Rafael
+   Martins, Marcio
+   Masterson, Gavin
+   Mateo, Jose A.
+   Mathew, Rosamma
+   Mathews, Nixon
+   Mayer, Gregory
+   McCranie, James R.
+   Measey, G. John
+   Mendoza-Quijano, Fernando
+   Menegon, Michele
+   Metrailler, Sebastien
+   Milton, David A.
+   Montgomery, Chad
+   Morato, Sergio A. A.
+   Mott, Tami
+   Munoz-Alonso, Antonio
+   Murphy, John
+   Nguyen, Truong Q.
+   Nilson, Goeran
+   Nogueira, Cristiano
+   Nunez, Herman
+   Orlov, Nikolai
+   Ota, Hidetoshi
+   Ottenwalder, Jose
+   Papenfuss, Theodore
+   Pasachnik, Stesha
+   Passos, Paulo
+   Pauwels, Olivier S. G.
+   Perez-Buitrago, Nestor
+   Perez-Mellado, Valentin
+   Pianka, Eric R.
+   Pleguezuelos, Juan
+   Pollock, Caroline
+   Ponce-Campos, Paulino
+   Powell, Robert
+   Pupin, Fabio
+   Quintero Diaz, Gustavo E.
+   Radder, Raju
+   Ramer, Jan
+   Rasmussen, Arne R.
+   Raxworthy, Chris
+   Reynolds, Robert
+   Richman, Nadia
+   Rico, Edmund L.
+   Riservato, Elisa
+   Rivas, Gilson
+   da Rocha, Pedro L. B.
+   Roedel, Mark-Oliver
+   Rodriguez Schettino, Lourdes
+   Roosenburg, Willem M.
+   Ross, James P.
+   Sadek, Riyad
+   Sanders, Kate
+   Santos-Barrera, Georgina
+   Schleich, Hermann H.
+   Schmidt, Benedikt R.
+   Schmitz, Andreas
+   Sharifi, Mozafar
+   Shea, Glenn
+   Shi, Hai-Tao
+   Shine, Richard
+   Sindaco, Roberto
+   Slimani, Tahar
+   Somaweera, Ruchira
+   Spawls, Steve
+   Stafford, Peter
+   Stuebing, Rob
+   Sweet, Sam
+   Sy, Emerson
+   Temple, Helen J.
+   Tognelli, Marcelo F.
+   Tolley, Krystal
+   Tolson, Peter J.
+   Tuniyev, Boris
+   Tuniyev, Sako
+   Uzum, Nazan
+   van Buurt, Gerard
+   Van Sluys, Monique
+   Velasco, Alvaro
+   Vences, Miguel
+   Vesely, Milan
+   Vinke, Sabine
+   Vinke, Thomas
+   Vogel, Gernot
+   Vogrin, Milan
+   Vogt, Richard C.
+   Wearn, Oliver R.
+   Werner, Yehudah L.
+   Whiting, Martin J.
+   Wiewandt, Thomas
+   Wilkinson, John
+   Wilson, Byron
+   Wren, Sally
+   Zamin, Tara
+   Zhou, Kaiya
+   Zug, George
+TI The conservation status of the world's reptiles
+SO BIOLOGICAL CONSERVATION
+VL 157
+BP 372
+EP 385
+DI 10.1016/j.biocon.2012.07.015
+PD JAN 2013
+PY 2013
+RI Schmidt, Benedikt/B-8491-2008; Marquez, Rafael/E-4454-2013; Martins, Marcio/C-1150-2011; Costa, Gabriel/A-4147-2008; Measey, G John/F-2028-2010; Cogalniceanu, Dan/B-7065-2011; Chapple, David/B-9073-2008; Franca, Frederico/M-6718-2013; Nogueira, Cristiano/I-5100-2012; Nguyen, Truong/F-3730-2012; jaksic, Fabian/G-1705-2014; Whiting, Martin/E-2999-2010; Somaweera, Ruchira/G-7531-2014; Hoffmann, Michael/E-6419-2010; Magnusson, William/J-9408-2014; Catenazzi, Alessandro/C-8615-2009; Keogh, Scott/C-8441-2009; Gadsden, Hector/A-2066-2015; Cisneros-Heredia, Diego/D-1744-2011
+OI Costa, Gabriel/0000-0002-6777-6706; Measey, G John/0000-0001-9939-7615;
+   Cogalniceanu, Dan/0000-0003-2959-014X; Franca,
+   Frederico/0000-0001-6989-2455; Whiting, Martin/0000-0002-4662-0227;
+   Catenazzi, Alessandro/0000-0002-3650-4783; Cisneros-Heredia,
+   Diego/0000-0002-6132-2738
+TC 58
+ZB 56
+Z8 0
+ZS 0
+Z9 59
+SN 0006-3207
+UT WOS:000316651200043
+ER
+
+PT J
+AU Perez, Mervin E.
+   Sastre-De Jesus, Ines
+   Lugo, Ariel E.
+   Martinez, Oscar J. Abelleira
+TI Bryophyte Species Diversity in Secondary Forests Dominated by the
+   Introduced Species Spathodea campanulata Beauv. in Puerto Rico
+SO BIOTROPICA
+VL 44
+IS 6
+BP 763
+EP 770
+DI 10.1111/j.1744-7429.2012.00879.x
+PD NOV 2012
+PY 2012
+TC 1
+ZB 1
+Z8 0
+ZS 0
+Z9 1
+SN 0006-3606
+UT WOS:000310729200007
+ER
+
+PT J
+AU Rovito, Sean M.
+   Wake, David B.
+   Papenfuss, Theodore J.
+   Parra-Olea, Gabriela
+   Munoz-Alonso, Antonio
+   Vasquez-Almazan, Carlos R.
+TI Species formation and geographical range evolution in a genus of Central
+   American cloud forest salamanders (Dendrotriton)
+SO JOURNAL OF BIOGEOGRAPHY
+VL 39
+IS 7
+BP 1251
+EP 1265
+DI 10.1111/j.1365-2699.2012.02696.x
+PD JUL 2012
+PY 2012
+TC 4
+ZB 4
+Z8 0
+ZS 0
+Z9 4
+SN 0305-0270
+UT WOS:000305452500005
+ER
+
+PT J
+AU Yokoyama, Victoria Y.
+   Wang, Xin-Geng
+   Aldana, Alicia
+   Caceres, Carlos E.
+   Yokoyama-Hatch, Hana A.
+   Rendon, Pedro A.
+   Johnson, Marshall W.
+   Daane, Kent M.
+TI Performance Of Psyttalia Humilis (Hymenoptera: Braconidae) Reared From
+   Irradiated Host on Olive Fruit Fly ( Diptera: Tephritidae) In California
+SO ENVIRONMENTAL ENTOMOLOGY
+VL 41
+IS 3
+BP 497
+EP 507
+DI 10.1603/EN11252
+PD JUN 2012
+PY 2012
+TC 3
+ZB 3
+Z8 0
+ZS 0
+Z9 3
+SN 0046-225X
+UT WOS:000305475600011
+PM 22732607
+ER
+
+PT J
+AU Radachowsky, Jeremy
+   Ramos, Victor H.
+   McNab, Roan
+   Baur, Erick H.
+   Kazakov, Nikolay
+TI Forest concessions in the Maya Biosphere Reserve, Guatemala: A decade
+   later
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 268
+SI SI
+BP 18
+EP 28
+DI 10.1016/j.foreco.2011.08.043
+PD MAR 15 2012
+PY 2012
+TC 7
+ZB 4
+Z8 0
+ZS 0
+Z9 7
+SN 0378-1127
+UT WOS:000301750400003
+ER
+
+PT J
+AU Baur, Erick H.
+   McNab, Roan B.
+   Williams, Lovett E., Jr.
+   Ramos, Victor H.
+   Radachowsky, Jeremy
+   Guariguata, Manuel R.
+TI Multiple forest use through commercial sport hunting: Lessons from a
+   community-based model from the Peten, Guatemala
+SO FOREST ECOLOGY AND MANAGEMENT
+VL 268
+SI SI
+BP 112
+EP 120
+DI 10.1016/j.foreco.2011.06.005
+PD MAR 15 2012
+PY 2012
+TC 4
+ZB 3
+Z8 0
+ZS 0
+Z9 4
+SN 0378-1127
+UT WOS:000301750400012
+ER
+
+PT J
+AU Soto-Shoender, Jose R.
+   Giuliano, William M.
+TI Predation on livestock by large carnivores in the tropical lowlands of
+   Guatemala
+SO ORYX
+VL 45
+IS 4
+BP 561
+EP 568
+DI 10.1017/S0030605310001845
+PD OCT 2011
+PY 2011
+TC 1
+ZB 2
+Z8 0
+ZS 0
+Z9 2
+SN 0030-6053
+UT WOS:000297883300019
+ER
+
+PT J
+AU Torres-Leguizamon, M.
+   Dupas, S.
+   Dardon, D.
+   Gomez, Y.
+   Nino, L.
+   Carnero, A.
+   Padilla, A.
+   Merlin, I.
+   Fossoud, A.
+   Zeddam, J. -L.
+   Lery, X.
+   Capdevielle-Dulac, C.
+   Dangles, O.
+   Silvain, J. -F.
+TI Inferring native range and invasion scenarios with mitochondrial DNA:
+   the case of T. solanivora successive north-south step-wise introductions
+   across Central and South America
+SO BIOLOGICAL INVASIONS
+VL 13
+IS 7
+BP 1505
+EP 1519
+DI 10.1007/s10530-010-9909-2
+PD JUL 2011
+PY 2011
+RI Dangles, Olivier/C-4924-2009
+TC 4
+ZB 4
+Z8 0
+ZS 1
+Z9 5
+SN 1387-3547
+UT WOS:000291164300003
+ER
+
+PT J
+AU Yokoyama, Victoria Y.
+   Rendon, Pedro A.
+   Wang, Xin-Geng
+   Opp, Susan B.
+   Johnson, Marshall W.
+   Daane, Kent M.
+TI Response of Psyttalia humilis (Hymenoptera: Braconidae) to Olive Fruit
+   Fly (Diptera: Tephritidae) and Conditions in California Olive Orchards
+SO ENVIRONMENTAL ENTOMOLOGY
+VL 40
+IS 2
+BP 315
+EP 323
+DI 10.1603/EN10186
+PD APR 2011
+PY 2011
+TC 7
+ZB 6
+Z8 0
+ZS 0
+Z9 7
+SN 0046-225X
+UT WOS:000294109900014
+ER
+
+EF
