@@ -126,5 +126,7 @@ address_lat_long <- function(data,
   
   outputlist$addresses <- addresses
   outputlist$missing_addresses <- missingaddresses
+  outputlist$not_missing_addresses <-  addresses[!is.na(addresses$lat),]
+  
   return(outputlist)
 }

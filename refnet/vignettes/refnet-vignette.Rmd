@@ -121,8 +121,17 @@ The output is a modified data.frame with new columns for the latitude and longit
 
 NEED TO ADD DETAILS ON RESOLUTION OF GEOREFERENCES
 
-`address_lat_long()`
+To create an output of the entries that `refnet2` was unable to georeference set the **write_out_missing** argument to **TRUE**. Then the user can fill in any they are able to determine and the newly populated address entries can be brought back into R. 
 
+```
+addresses <- address_lat_long(data)
+
+new_address <- read.csv("missing_addresses.csv", 
+                          stringsAsFactors = FALSE)
+
+masteraddresses <- rbind(addresses$not_missing_addresses,
+                          new_address)
+```
 
 **warning** This function parses out addresses from the web of science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
 
