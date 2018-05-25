@@ -39,6 +39,8 @@ save(eb_refined, file="./output/eb_refined.Rdata")
 ```{r}
 load("./output/eb_refined.Rdata")
 
+
+
 dat <- separate(data=eb_refined, col = address, 
          into=c("university","department","short_address"),
          sep=",",extra = "merge", remove=FALSE) %>%
@@ -48,6 +50,9 @@ dat <- separate(data=eb_refined, col = address,
         city_state = str_extract(string=short_address,
                 pattern="[:alnum:]{1,20}[,][ ][A-Z][A-Z]") ) %>%
       select(address, short_address, city_state, zip, country, university, department)
+
+#write.csv(dat, file = "dat_parsed_addresses.csv")
+
 ```
 
 \newpage
