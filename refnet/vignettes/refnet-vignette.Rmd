@@ -19,35 +19,26 @@ knitr::opts_chunk$set(
 ##1 Introduction
 
 
-The generation and dissemination of knoweldge...(e.g., The Science of Science). One central tool in this discipline is the analysis of bibliometric data. Define, their history, typical analyses and what they tell us. In recent decades, the increased availibility of data from large bibliometric databases, such as SCOPUS and the WOS, coupled with increases in computational power, has made it possible to conduct analyses on datasets of unprecedented sizes...
+The generation and dissemination of knowledge has recently become its own subject of research, as digital data on academic outputs are more available, we have an unprecedented oppurtunity to understand how scientists do their work, who they work with, and what kinds of questions they ask (The Science of Science, Fortunato et al. 2018). One central tool in this field is the analysis of bibliometric data. **Define, their history, typical analyses and what they tell us.** In recent decades, the increased availibility of data from large bibliometric databases, such as SCOPUS and the WOS, coupled with increases in computational power, has made it possible to conduct analyses on datasets of unprecedented sizes. Researchers using data from bibliometric databases such as Sci2 Team (2009) face three major challenges. 
 
-Researchers using data from bibliometric databases for research face three major challenges. First, ... (i.e., "name disambiguation"). Second, the way in which data are recorded in article records makes it difficult to carry out analyses based on institution (institution is mixed up in a single cell with dept, center, etc with little conistency of format). Third, it is difficult to carry out spatially explicit analyses at sub-national levels, again because of the way author data is recorded in each article's record.   
+- 1 - Name disambiguation, aka, matching up the authors in a dataset which are the same, and not matching up those who aren't. This can be especially challenging since different journals record author names in different ways (abbrevaited first names, middle initials, etc). 
 
-RefNet is an R package that helps users import, correct, and organize bibliographic records from the Web of Science (WOS) and SCOPUS. It includes tools for disambiguating author names, identifying and georeferencing author institutions, and visualizing coauthorship networks. Finally, it allows users to save or export the data in tidy formats for calculating summary statistics, visulaizing data, and conducting more in-dpeth scientometric analyses with their own code or with packages such as 'revtools' and 'bibliometrix' (is this true...would be great if we could!).
+- 2 - The way in which data are recorded in article records makes it difficult to carry out analyses based on institution. There is high variability among journals on how addresses are reported, which makes extracting departments, research centers and even institutions challenging. 
 
-- **EB Note**: Key is to emphasize what makes RefNet different: It does two things these packages don't: (1) assist in name disambiguation and (2) ID and georeference author institutions to allow for spatial visualization and analysis)
+- 3 - It is difficult to carry out spatially explicit analyses at sub-national levels because of the variability in how addresses are reported. 
 
-- **EB Note**: Sci^2^ https://sci2.cns.iu.edu/user/index.php isn't an R package but should be cited...it is extremely comprehensive but can be challenging to extract data files and manipulate graphical results http://ivl.cns.iu.edu/km/pres/2012-borner-sci2tutorial-nih.pdf)  
+`refnet` is an R package that helps users import, correct, and organize bibliographic records from the [Web of Science (WOS)](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri). It aids the user in two ways other packages do not, disambiguating author names, and georeferencing author institutions. Finally, it allows users to save or export the data in tidy formats for calculating summary statistics, visulaizing data, and conducting more in-dpeth scientometric analyses with their own code or with packages such as 'revtools' and 'bibliometrix' (Aria & Cuccurullo 2017, Westgate 2018a,b).
 
-(Sci2 Team 2009)
-
-- **EB Note**: Package 'revtools: https://cran.r-project.org/web/packages/revtools/index.html and https://www.biorxiv.org/content/early/2018/02/12/262881 
-
-(Westgate 2018a, b)
-
-- **EB Note**: Package 'bibliometrix': https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html and https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf 
-
-(Aria & Cuccurullo 2017)
-
-
-##2 Using RefNet
+## Using RefNet
 
 Refnet's tools are applied in a three step process (Fig 1). The first step is data import and tidying, the second is author name disambiguation, and the third is georeferencing of author institutions. Some users will only require Steps 1 and 2, while for others will require all three. Refnet can also visualize the geographic distributions of authors and coauthorship networks and calculate some summary bibliometric statistics.       
 
+<img src="flowchart.jpg" height="300" /> 
+**Figure 1 - The Steps of _refnet_**
 
-###2.1 Importing Search Results 
+###Step 1 - Importing Search Results 
 
-This package can import Web of Science data, from multiple sources if necessary. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function which has three arguments:  
+The `refnet` package can import raw a Web of Science data file, or a directory of Web of science files. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function which has three arguments:  
 
 - **data**: The directory location of the web of science files. If left blank it assumes the files are in the working directory. If it's in a separate directory, the absolute file name or relative file paths can be used.  
 - **dir**: This is a true false whether you're loading from a directory (multiple web of science files in one folder, or a single file)
@@ -70,9 +61,9 @@ The output of this file is a cleaned and combined file with all relevant fields 
 
 <!--  <img src="C:/Users/birde/Dropbox/refnet/Reference.PNG" height="300" /> --> 
 
-###2.2  Author Disambiguation
+###Step 2 - Author Disambiguation
 
-###2.2.1 Step 1: Refnet Disambiguation Algorithm
+####Refnet Disambiguation Algorithm
 The next step in the process is to use the newly made reference sheet to identify authors names and identify what authors are the same person. This can be difficult because different journals publish names in different formats. Sometimes with First names, sometimes only initials, sometimes with middle names, sometimes with no middle initial. It is because of this the function attempts to match names that are similar. However, these matches need to be hand checked for accuracy.
 
 For this we'll use the `read_authors()` function. It takes the reference sheet we created and outputs a file of matched authors, and a master list. It has two arguments:  
@@ -81,7 +72,7 @@ For this we'll use the `read_authors()` function. It takes the reference sheet w
 - **filename_root**: This is used to specify the location and prefix of the two objects. It works the exact same way as read_references. 
 
 
-###2.2.2 Step 2: Manual verification and correction of author names
+####Manual verification and correction of author names
 
 Now that the algorithm has attempted to match similar names the user needs to hand check the matches. Open up the 'authors' output from the previous function. There are two important pieces of information in these files:  
 
@@ -101,7 +92,7 @@ Conversely, if you find authors that should be grouped (difficult to find), then
 
 When you're done, save this .csv file, load it back into R and we'll merge the change records in the next step.
 
-###2.2.3 Step 3: Uploading and merging corrections   
+####Uploading and merging corrections   
 
 After making final assignments of similar authors, we want to merge the changes together for use in the final analysis. For this we'll use the `refine_authors()` function. It has four arguments:  
  
@@ -110,7 +101,7 @@ After making final assignments of similar authors, we want to merge the changes 
 - **sim_score**: If you would like to set a threshold for the similarity score, where all scores below a threshold are assigned novel groupIDs, set the cut off here. By default this is turned off.  
 - **filename_root**: The location and prefix of the output, works the same as the other functions.  
 
-##3 Identifying and georeferencing author institutions 
+###Step 3 Identifying and georeferencing author institutions 
 
 Now that we've identified matching authors we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the `address_lat_long()` function. It has 2 arguments:  
 
@@ -119,7 +110,7 @@ Now that we've identified matching authors we will calculate the authors locatio
 
 The output is a modified data.frame with new columns for the latitude and longitude as well as various pieces of the address the algorithm could correctly parse out.  
 
-NEED TO ADD DETAILS ON RESOLUTION OF GEOREFERENCES
+> **warning** in the current version has trouble differentiating between separte campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus). Depending on the resolution of your analysis this may be problematic, and we are working to address it **warning**
 
 To create an output of the entries that `refnet2` was unable to georeference set the **write_out_missing** argument to **TRUE**. Then the user can fill in any they are able to determine and the newly populated address entries can be brought back into R. 
 
@@ -133,52 +124,52 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
                           new_address)
 ```
 
-**warning** This function parses out addresses from the web of science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
+> **warning** This function parses out addresses from the web of science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
 
-##4 Data Visualization: Mapping author locations and co-authorship networks    
+###Step 4 - Data Visualization
 
-Now that we've successfully imported, wrangled, and checked the data. We can begin plotting the data. There five kinds of plots you can make. They are in two categories **World plots** and **Net Plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
+Now that we've successfully imported, cleaned, disambiguated and georeferenced the data. We can begin plotting the data. There five kinds of plots you can make. They are in two categories **World plots** and **Net Plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
 
-###4.1 World Plots (by country)
+####World Plots (by country)
 To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
 <!-- #<img src="C:/Users/birde/Dropbox/refnet/WorldCountry.png" height="400" /> -->
 
-###4.2 World Plots (points)
+####World Plots (points)
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
-- **data**: This is the output from addresses_lat_long. Must be an object.
+- **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
 <!-- #<img src="C:/Users/birde/Dropbox/refnet/WorldPoint.png" height="400" /> -->
 
-###4.3 Net Plots (base)
+####Net Plots (base)
 To plot a network diagram of co-author countries of origins and how they're connected we'll use the `net_plot_coauthor()` function. The function has one argument:  
 
-- **data**: This is the output from addresses_lat_long. Must be an object.
+- **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
 This function has two outputs, in the form of a list. $plot is the plot, $data is the dataframe that was used to the build the plot. listname$plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 <!-- #<img src="C:/Users/birde/Dropbox/refnet/NetPlotBase.png" height="400" />  -->
 
 
-###4.4 Net Plots (Country)
+####Net Plots (Country)
 To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **net_plot_coauthor_country()** function. The function has one argument:  
 
-- **data**: This is the output from addresses_lat_long. Must be an object.  
+- **data**: This is the output from `addresses_lat_long()`. Must be an object.  
 
-The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console. $data is the dataframe that was used to the build the plot. $plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console. `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
 
 <!--#<img src="C:/Users/birde/Dropbox/refnet/NetPlotCountry.png" height="400" /> -->
 
 
-###4.5 Net Plots (Addresses)
+####Net Plots (Addresses)
 To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `net_plot_coauthor_addresses()` function. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
-The net plot analysis returns an object that allows the plotting of these complex connections. $plot will plot the output to your plotting console.  $data is the dataframe that was used to the build the plot. $plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
 
@@ -192,24 +183,15 @@ This function can create a large data set (100's of MB), and may takes several m
 
 Support for the development of RefNet was provided by grants from the University of Florida's Center for Latin American Studies and Informatics Institute.
 
-
-
 ##References
 
-Aria, M. & Cuccurullo,
-  C. (2017) bibliometrix:
-  An R-tool for
-  comprehensive science
-  mapping analysis,
-  Journal of Informetrics,
-  11(4), pp 959-975,
-  Elsevier.
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics,  11(4), pp 959-975, Elsevier.
+
+Fortunato, S., C. T. Bergstrom, K. Börner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabási. 2018. Science of science 359:eaao0185.
 
 Sci2 Team. (2009). Science of Science (Sci2) Tool. Indiana University and SciTech Strategies, https://sci2.cns.iu.edu. 
 
-Westgate, M. J. (2018a). revtools: Tools
-  to Support Evidence Synthesis. R package
-  version 0.2.2.
+Westgate, M. J. (2018a). revtools: Tools to Support Evidence Synthesis. R package version 0.2.2.
   https://CRAN.R-project.org/package=revtools
   
-  Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
+Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881

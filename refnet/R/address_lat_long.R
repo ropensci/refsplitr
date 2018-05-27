@@ -57,8 +57,8 @@ address_lat_long <- function(data,
       suppressWarnings(result <- geocode(address, output = "latlona", 
                                          source = "dsk",
                                          messaging = TRUE))
-      uniquead$lat[i]<-result$lat
-      uniquead$lon[i]<-result$lon
+      uniquead$lat[i]<-result[1]
+      uniquead$lon[i]<-result[2]
     
     }
     # We can delete the clock if it's just not working visually
