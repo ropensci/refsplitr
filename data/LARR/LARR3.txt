@@ -1,0 +1,9755 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Schneider, BR
+AF Schneider, BR
+TI Why is Mexican business so organized?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID NEOLIBERALISM; CORPORATISM; DEMOCRACY
+C1 Northwestern Univ, Evanston, IL 60208 USA.
+RP Schneider, BR (reprint author), Northwestern Univ, Evanston, IL 60208 USA.
+TC 26
+Z9 30
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 77
+EP 118
+UT WOS:000174045800004
+ER
+
+PT J
+AU Stephenson, M
+AF Stephenson, M
+TI Forging an indigenous counterpublic sphere: The Taller de Historia Oral
+   Andina in Bolivia
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Purdue Univ, W Lafayette, IN 47907 USA.
+RP Stephenson, M (reprint author), Purdue Univ, W Lafayette, IN 47907 USA.
+TC 23
+Z9 23
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 99
+EP 118
+UT WOS:000175351700004
+ER
+
+PT J
+AU Rojas, RR
+AF Rojas, RR
+TI From creolism to regionalism - Enunciation and representation in
+   19th-century Venezuela
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Univ Simon Bolivar, Caracas, Venezuela.
+RP Rojas, RR (reprint author), Univ Simon Bolivar, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 101
+EP 128
+UT WOS:000178533900004
+ER
+
+PT J
+AU Bixler, JE
+AF Bixler, JE
+TI Re-membering the past: Memory-theatre and Tlatelolco
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Virginia Tech, Blacksburg, VA 24061 USA.
+RP Bixler, JE (reprint author), Virginia Tech, Blacksburg, VA 24061 USA.
+TC 9
+Z9 9
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 119
+EP 135
+UT WOS:000175351700005
+ER
+
+PT J
+AU Hamilton, S
+AF Hamilton, S
+TI Neoliberalism, gender, and property rights in rural Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Denver, Denver, CO 80208 USA.
+RP Hamilton, S (reprint author), Univ Denver, Denver, CO 80208 USA.
+TC 36
+Z9 37
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 119
+EP 143
+UT WOS:000174045800005
+ER
+
+PT J
+AU Reber, VB
+AF Reber, VB
+TI Comment on "the Paraguayan rosetta stone"
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID CENSUS
+C1 Shippensburg Univ, Shippensburg, PA 17257 USA.
+RP Reber, VB (reprint author), Shippensburg Univ, Shippensburg, PA 17257 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 129
+EP 136
+UT WOS:000178533900005
+ER
+
+PT J
+AU Knight, A
+AF Knight, A
+TI Subalterns, signifiers, and statistics: Perspectives on Mexican
+   historiography
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID CULTURAL HISTORY; POLITICS
+C1 Univ Oxford, Latin Amer Ctr, Oxford OX1 2JD, England.
+RP Knight, A (reprint author), Univ Oxford, Latin Amer Ctr, Oxford OX1 2JD, England.
+TC 13
+Z9 16
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 136
+EP 158
+UT WOS:000175351700006
+ER
+
+PT J
+AU Kleinpenning, JMG
+AF Kleinpenning, JMG
+TI Strong reservations about "new insights into the demographics of the
+   Paraguayan war"
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Nijmegen, Nijmegen, Netherlands.
+RP Kleinpenning, JMG (reprint author), Univ Nijmegen, Nijmegen, Netherlands.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 137
+EP 142
+UT WOS:000178533900006
+ER
+
+PT J
+AU Whigham, T
+   Potthast, B
+AF Whigham, T
+   Potthast, B
+TI Refining the numbers: A response to Reber and Meinpenning
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Georgia, Athens, GA 30602 USA.
+   Univ Cologne, D-5000 Cologne 41, Germany.
+RP Whigham, T (reprint author), Univ Georgia, Athens, GA 30602 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 143
+EP 148
+UT WOS:000178533900007
+ER
+
+PT J
+AU Rudel, TK
+   Bates, D
+   Machinguiasli, R
+AF Rudel, TK
+   Bates, D
+   Machinguiasli, R
+TI Ecologically noble Amerindians? Cattle, ranching and cash cropping among
+   Shuar and colonists in Ecuador
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID PERUVIAN AMAZON; FOREST; INTENSIFICATION; SUSTAINABILITY; CONSERVATION;
+   INDIANS
+C1 Rutgers State Univ, Piscataway, NJ 08855 USA.
+   Sam Houston State Univ, Huntsville, TX 77341 USA.
+RP Rudel, TK (reprint author), Rutgers State Univ, Piscataway, NJ 08855 USA.
+TC 46
+Z9 46
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 144
+EP 159
+UT WOS:000174045800006
+ER
+
+PT J
+AU Beer, CC
+AF Beer, CC
+TI Institutional change in mexico: Politics after one-party rule
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Vermont, Burlington, VT 05405 USA.
+RP Beer, CC (reprint author), Univ Vermont, Burlington, VT 05405 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 149
+EP 161
+UT WOS:000178533900008
+ER
+
+PT J
+AU Madrid, R
+AF Madrid, R
+TI The politics and economics of pension privatization in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID SOCIAL-SECURITY; REFORM; WELFARE; SCHEME; CHILE
+C1 Univ Texas, Dept Govt, Austin, TX 78712 USA.
+RP Madrid, R (reprint author), Univ Texas, Dept Govt, Austin, TX 78712 USA.
+TC 12
+Z9 14
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 159
+EP 182
+UT WOS:000175351700007
+ER
+
+PT J
+AU Seligson, MA
+AF Seligson, MA
+TI Trouble in paradise? The erosion of system support in Costa Rica,
+   1978-1999
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Annual Meeting of the American-Political-Science-Association
+CY AUG 31-SEP 03, 2000
+CL WASHINGTON, D.C.
+ID ECONOMIC-CRISIS; CONFIDENCE; DEMOCRACY; MEXICO
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Seligson, MA (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 39
+Z9 42
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 160
+EP 185
+UT WOS:000174045800007
+ER
+
+PT J
+AU Taylor, SL
+AF Taylor, SL
+TI Democratization in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Troy State Univ, Troy, NY USA.
+RP Taylor, SL (reprint author), Troy State Univ, Troy, NY USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 162
+EP 175
+UT WOS:000178533900009
+ER
+
+PT J
+AU Jones, MP
+AF Jones, MP
+TI Legislator behavior and executive-legislative relations in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Michigan State Univ, E Lansing, MI 48824 USA.
+RP Jones, MP (reprint author), Michigan State Univ, E Lansing, MI 48824 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 176
+EP 188
+UT WOS:000178533900010
+ER
+
+PT J
+AU Starr, PK
+AF Starr, PK
+TI Perfecting reform in Latin America: What role for the state?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Inst Tecnol Autonoma Mexico, Mexico City, DF, Mexico.
+RP Starr, PK (reprint author), Inst Tecnol Autonoma Mexico, Mexico City, DF, Mexico.
+TC 4
+Z9 4
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 183
+EP 199
+UT WOS:000175351700008
+ER
+
+PT J
+AU Velazquez, MO
+   Yannakakis, Y
+AF Velazquez, MO
+   Yannakakis, Y
+TI The renaissance of Oaxaca City's historical archives
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Yale Univ, New Haven, CT 06520 USA.
+   Univ Penn, Philadelphia, PA 19104 USA.
+RP Velazquez, MO (reprint author), Yale Univ, New Haven, CT 06520 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 186
+EP 198
+UT WOS:000174045800008
+ER
+
+PT J
+AU Arce, M
+AF Arce, M
+TI Social-sector reform, Latin American style
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Louisiana State Univ, Baton Rouge, LA 70803 USA.
+RP Arce, M (reprint author), Louisiana State Univ, Baton Rouge, LA 70803 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 189
+EP 200
+UT WOS:000178533900011
+ER
+
+PT J
+AU Salvatore, RD
+AF Salvatore, RD
+TI Immigration, society, and culture in modern Argentina
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 199
+EP 214
+UT WOS:000174045800009
+ER
+
+PT J
+AU Dodson, M
+AF Dodson, M
+TI Assessing judicial reform in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Texas Christian Univ, Ft Worth, TX 76129 USA.
+RP Dodson, M (reprint author), Texas Christian Univ, Ft Worth, TX 76129 USA.
+TC 9
+Z9 9
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 200
+EP 220
+UT WOS:000175351700009
+ER
+
+PT J
+AU Aldama, FL
+AF Aldama, FL
+TI Poststructural sand castles in Latin American postcolonial theory today
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Colorado, Boulder, CO 80309 USA.
+RP Aldama, FL (reprint author), Univ Colorado, Boulder, CO 80309 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 201
+EP 216
+UT WOS:000178533900012
+ER
+
+PT J
+AU Diaz, JO
+AF Diaz, JO
+TI Gender, ethnicity, and power: Recent studies on Puerto Rican history
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Ohio State Univ, Columbus, OH 43210 USA.
+RP Diaz, JO (reprint author), Ohio State Univ, Columbus, OH 43210 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 215
+EP 229
+UT WOS:000174045800010
+ER
+
+PT J
+AU Holmes, JS
+AF Holmes, JS
+TI Terrorism, drugs, and violence in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas Dallas, Dallas, TX 75230 USA.
+RP Holmes, JS (reprint author), Univ Texas Dallas, Dallas, TX 75230 USA.
+TC 0
+Z9 0
+SN 0023-8791
+EI 1542-4278
+PY 2002
+VL 37
+IS 3
+BP 217
+EP 230
+UT WOS:000178533900013
+ER
+
+PT J
+AU Kaimowitz, D
+AF Kaimowitz, D
+TI Amazon deforestation revisited
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Ctr Int Forestry Res, CIFOR, Bogor, Indonesia.
+RP Kaimowitz, D (reprint author), Ctr Int Forestry Res, CIFOR, Bogor, Indonesia.
+RI Oktafian, Yuan/B-8757-2013
+OI Oktafian, Yuan/0000-0002-4309-6386
+TC 11
+Z9 11
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 221
+EP 235
+UT WOS:000175351700010
+ER
+
+PT J
+AU Cleary, EL
+AF Cleary, EL
+TI Examining Guatemalan processes of violence and peace: A review of recent
+   research
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Providence Coll, Providence, RI 02918 USA.
+   Univ Calif Berkeley, Berkeley, CA 94720 USA.
+RP Cleary, EL (reprint author), Providence Coll, Providence, RI 02918 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 230
+EP 244
+UT WOS:000174045800011
+ER
+
+PT J
+AU Caulfield, C
+AF Caulfield, C
+TI Cuban literature and culture: Critical junctures
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Mills Coll, Oakland, CA 94613 USA.
+RP Caulfield, C (reprint author), Mills Coll, Oakland, CA 94613 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 231
+EP 246
+UT WOS:000178533900014
+ER
+
+PT J
+AU Krippner-Martinez, J
+AF Krippner-Martinez, J
+TI Late-colonial Mexico: Institutional, social, and cultural history
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Haverford Coll, Haverford, PA 19041 USA.
+RP Krippner-Martinez, J (reprint author), Haverford Coll, Haverford, PA 19041 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 236
+EP 243
+UT WOS:000175351700011
+ER
+
+PT J
+AU Wolfe, J
+AF Wolfe, J
+TI The social subject versus the political: Latin American labor studies at
+   a crossroads
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Rice Univ, Houston, TX 77251 USA.
+RP Wolfe, J (reprint author), Rice Univ, Houston, TX 77251 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 244
+EP 262
+UT WOS:000175351700012
+ER
+
+PT J
+AU Rugeley, T
+AF Rugeley, T
+TI Indians meet the state, regions meet the center: Nineteenth-century
+   Mexico revisited
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Oklahoma, Norman, OK 73019 USA.
+RP Rugeley, T (reprint author), Univ Oklahoma, Norman, OK 73019 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2002
+VL 37
+IS 1
+BP 245
+EP 258
+UT WOS:000174045800012
+ER
+
+PT J
+AU Szok, P
+AF Szok, P
+TI Beyond the canal: Recent scholarship on Panama
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Eastern Kentucky Univ, Richmond, KY 40475 USA.
+RP Szok, P (reprint author), Eastern Kentucky Univ, Richmond, KY 40475 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 247
+EP 259
+UT WOS:000178533900015
+ER
+
+PT J
+AU Johnson, B
+AF Johnson, B
+TI Engendering nation and race in the borderlands
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas San Antonio, San Antonio, TX 78285 USA.
+RP Johnson, B (reprint author), Univ Texas San Antonio, San Antonio, TX 78285 USA.
+TC 7
+Z9 7
+SN 0023-8791
+EI 1542-4278
+PY 2002
+VL 37
+IS 1
+BP 259
+EP 271
+UT WOS:000174045800013
+ER
+
+PT J
+AU Eakin, MC
+AF Eakin, MC
+TI Expanding the boundaries of imperial Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Eakin, MC (reprint author), Vanderbilt Univ, Dept Hist, 221 Kirkland Hall, Nashville, TN 37232 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 3
+BP 260
+EP 268
+UT WOS:000178533900016
+ER
+
+PT J
+AU Hunefeldt, C
+AF Hunefeldt, C
+TI Inka Ri again: Contradictory views of the Andean past and future
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif San Diego, Dept Hist, San Diego, CA 92103 USA.
+RP Hunefeldt, C (reprint author), Univ Calif San Diego, Dept Hist, San Diego, CA 92103 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2002
+VL 37
+IS 2
+BP 263
+EP 272
+UT WOS:000175351700013
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 3
+EP 6
+UT WOS:000166996200001
+ER
+
+PT J
+AU Schurman, RA
+AF Schurman, RA
+TI Uncertain gains: Labor in Chile's new export sectors
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID NONTRADITIONAL AGRICULTURAL EXPORTS; ENVIRONMENT; GROWTH; EQUITY; ISSUES
+C1 Univ Illinois, Chicago, IL 60680 USA.
+RP Schurman, RA (reprint author), Univ Illinois, Chicago, IL 60680 USA.
+TC 39
+Z9 42
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 3
+EP 29
+UT WOS:000168508900001
+ER
+
+PT J
+AU Friedman, EJ
+   Hochstetler, K
+   Clark, AM
+AF Friedman, EJ
+   Hochstetler, K
+   Clark, AM
+TI Sovereign limits and regional opportunities for global civil society in
+   Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID HUMAN-RIGHTS; CONFERENCES; ENVIRONMENT; POLITICS; WOMEN
+C1 Columbia Univ Barnard Coll, New York, NY 10027 USA.
+   Colorado State Univ, Ft Collins, CO 80523 USA.
+   Purdue Univ, W Lafayette, IN 47907 USA.
+RP Friedman, EJ (reprint author), Columbia Univ Barnard Coll, New York, NY 10027 USA.
+RI Hochstetler, Kathryn/K-8482-2012
+OI Hochstetler, Kathryn/0000-0003-2960-058X
+TC 12
+Z9 13
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 7
+EP 35
+UT WOS:000171480900001
+ER
+
+PT J
+AU Lyons, BJ
+AF Lyons, BJ
+TI Religion, authority, and identity: Intergenerational politics, ethnic
+   resurgence, and respect in Chimborazo, Ecuador
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID HIGHLANDS
+C1 Wayne State Univ, Detroit, MI 48202 USA.
+RP Lyons, BJ (reprint author), Wayne State Univ, Detroit, MI 48202 USA.
+TC 13
+Z9 13
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 7
+EP 48
+UT WOS:000166996200002
+ER
+
+PT J
+AU Deere, CD
+   Leon, M
+AF Deere, CD
+   Leon, M
+TI Institutional reform of agriculture under neoliberalism: The impact of
+   the women's and indigenous movements
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Massachusetts, Ctr Latin Amer Caribbean & Latino Studies, Amherst, MA 01003 USA.
+   Univ Nacl Colombia, Fac Human & Social Sci, Bogota, Colombia.
+RP Deere, CD (reprint author), Univ Massachusetts, Ctr Latin Amer Caribbean & Latino Studies, Amherst, MA 01003 USA.
+TC 12
+Z9 13
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 31
+EP 64
+UT WOS:000168508900002
+PM 17607868
+ER
+
+PT J
+AU Korovkin, T
+AF Korovkin, T
+TI Reinventing the communal tradition: Indigenous peoples, civil society,
+   and democratization in Andean Ecuador
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LATIN-AMERICA; BOLIVIA; RESISTANCE; IDENTITY; CULTURE; STATE
+C1 Univ Waterloo, Waterloo, ON N2L 3G1, Canada.
+RP Korovkin, T (reprint author), Univ Waterloo, Waterloo, ON N2L 3G1, Canada.
+TC 26
+Z9 27
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 37
+EP 67
+UT WOS:000171480900002
+ER
+
+PT J
+AU Frank, ZL
+AF Frank, ZL
+TI Elite families and oligarchic politics on the Brazilian frontier: Mato
+   Grosso, 1889-1937
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Stanford Univ, Stanford, CA 94305 USA.
+RP Frank, ZL (reprint author), Stanford Univ, Stanford, CA 94305 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 49
+EP 74
+UT WOS:000166996200003
+ER
+
+PT J
+AU Cleary, D
+AF Cleary, D
+TI Towards an environmental history of the Amazon: From prehistory to the
+   nineteenth century
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID ARCHAEOLOGY
+C1 Nature Conservancy, Nat Conservancys Program, Brasilia, DF, Brazil.
+RP Cleary, D (reprint author), Nature Conservancy, Nat Conservancys Program, Brasilia, DF, Brazil.
+EM dcleary@tnc.org
+TC 27
+Z9 28
+SN 0023-8791
+EI 1542-4278
+PY 2001
+VL 36
+IS 2
+BP 65
+EP 96
+UT WOS:000168508900003
+ER
+
+PT J
+AU Pearce, AJ
+AF Pearce, AJ
+TI The Peruvian population census of 1725-1740
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Liverpool, Liverpool L69 3BX, Merseyside, England.
+RP Pearce, AJ (reprint author), Univ Liverpool, Liverpool L69 3BX, Merseyside, England.
+TC 8
+Z9 11
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 69
+EP 104
+UT WOS:000171480900003
+PM 18792461
+ER
+
+PT J
+AU Russell-Wood, AJR
+AF Russell-Wood, AJR
+TI Brazilian archives and recent historiography on colonial Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT International Seminar on Documentary Sources for the History of Colonial
+   Brazil
+CY OCT   19, 1998
+CL RIO DE JANEIRO, BRAZIL
+ID SLAVERY
+C1 Johns Hopkins Univ, Baltimore, MD 21218 USA.
+RP Russell-Wood, AJR (reprint author), Johns Hopkins Univ, Baltimore, MD 21218 USA.
+TC 1
+Z9 2
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 75
+EP 105
+UT WOS:000166996200004
+ER
+
+PT J
+AU Eaton, K
+AF Eaton, K
+TI The logic of congressional delegation: Explaining Argentine economic
+   reform
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Princeton Univ, Woodrow Wilson Sch, Princeton, NJ 08544 USA.
+RP Eaton, K (reprint author), Princeton Univ, Woodrow Wilson Sch, Princeton, NJ 08544 USA.
+TC 8
+Z9 8
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 97
+EP 117
+UT WOS:000168508900004
+ER
+
+PT J
+AU Marcelli, EA
+   Cornelius, WA
+AF Marcelli, EA
+   Cornelius, WA
+TI The changing profile of Mexican migrants to the United States: New
+   evidence from California and Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Annual Meeting of the Population-Association-of-America
+CY MAR 25-27, 1999
+CL NEW YORK, NEW YORK
+ID LOS-ANGELES-COUNTY; MIGRATION
+C1 Univ Massachusetts, Boston, MA 02125 USA.
+   Univ Calif San Diego, San Diego, CA 92103 USA.
+RP Marcelli, EA (reprint author), Univ Massachusetts, Boston, MA 02125 USA.
+TC 97
+Z9 104
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 105
+EP 131
+UT WOS:000171480900004
+ER
+
+PT J
+AU Durand, J
+   Massey, DS
+   Zenteno, RM
+AF Durand, J
+   Massey, DS
+   Zenteno, RM
+TI Mexican immigration to the United States: Continuities and changes
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID MIGRATION; COMMUNITIES; EMIGRATION; MIGRANTS; NAFTA; LABOR
+C1 Univ Guadalajara, Guadalajara, Spain.
+   Univ Penn, Dept Sociol, Philadelphia, PA 19104 USA.
+   Tech Inst Monterrey, Ctr Estudios Estrategicos, Guadalajara, Spain.
+RP Durand, J (reprint author), Univ Guadalajara, Guadalajara, Spain.
+TC 185
+Z9 200
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 107
+EP 127
+UT WOS:000166996200005
+PM 17595734
+ER
+
+PT J
+AU Maio, MC
+AF Maio, MC
+TI Unesco and the study of race relations in Brazil: Regional or national
+   issue?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Oswaldo Cruz Fdn, Rio De Janeiro, Brazil.
+RP Maio, MC (reprint author), Oswaldo Cruz Fdn, Rio De Janeiro, Brazil.
+TC 24
+Z9 32
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 118
+EP 136
+UT WOS:000168508900005
+PM 18087798
+ER
+
+PT J
+AU Clancy, M
+AF Clancy, M
+TI Mexican tourism: Export growth and structural change since 1970
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Hartford, W Hartford, CT 06117 USA.
+RP Clancy, M (reprint author), Univ Hartford, W Hartford, CT 06117 USA.
+OI Clancy, Michael/0000-0002-5608-5256
+TC 15
+Z9 16
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 128
+EP 150
+UT WOS:000166996200006
+ER
+
+PT J
+AU Needell, JD
+AF Needell, JD
+TI Provincial origins of the Brazilian state: Rio de Janeiro, the monarchy,
+   and national political organization, 1808-1853
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Conference on Latin American History
+CY JAN 05-09, 2000
+CL CHICAGO, ILLINOIS
+C1 Univ Florida, Gainesville, FL 32611 USA.
+RP Needell, JD (reprint author), Univ Florida, Gainesville, FL 32611 USA.
+TC 1
+Z9 3
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 132
+EP 153
+UT WOS:000171480900005
+ER
+
+PT J
+AU Sanabria, H
+AF Sanabria, H
+TI Exploring kinship in anthropology and history: Surnames and social
+   transformations in the Bolivian Andes
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Sanabria, H (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 137
+EP 155
+UT WOS:000168508900006
+ER
+
+PT J
+AU Perissinotto, RM
+AF Perissinotto, RM
+TI State, coffee capital and fiacal policy in the exporting Paulist Economy
+   1889-1930
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Univ Fed Parana, Dept Ciencias Sociais, BR-80060000 Curitiba, Parana, Brazil.
+RP Perissinotto, RM (reprint author), Univ Fed Parana, Dept Ciencias Sociais, BR-80060000 Curitiba, Parana, Brazil.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 151
+EP 169
+UT WOS:000166996200007
+ER
+
+PT J
+AU Wall, CE
+AF Wall, CE
+TI The Jorge Luis Borges collection at the University of Texas at Austin
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Riverside, Riverside, CA 92521 USA.
+RP Wall, CE (reprint author), Univ Calif Riverside, Riverside, CA 92521 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 154
+EP 162
+UT WOS:000171480900006
+ER
+
+PT J
+AU Dugas, JC
+AF Dugas, JC
+TI Drugs, lies, and audiotape: The Samper crisis in Colombia
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Kalamazoo Coll, Kalamazoo, MI 49007 USA.
+RP Dugas, JC (reprint author), Kalamazoo Coll, Kalamazoo, MI 49007 USA.
+TC 8
+Z9 8
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 157
+EP 174
+UT WOS:000168508900007
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI From human rights to citizenship rights? Recent trends in the study of
+   Latin American social movements
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ, Canada.
+TC 8
+Z9 9
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 163
+EP 182
+UT WOS:000171480900007
+ER
+
+PT J
+AU Selbin, E
+AF Selbin, E
+TI Resistance, rebellion, and revolution in Latin America and the Caribbean
+   at the millennium
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Southwestern Univ, Georgetown, TX 78626 USA.
+RP Selbin, E (reprint author), Southwestern Univ, Georgetown, TX 78626 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 171
+EP 192
+UT WOS:000166996200008
+ER
+
+PT J
+AU Crisp, BF
+   Escobar-Lemmon, MC
+AF Crisp, BF
+   Escobar-Lemmon, MC
+TI Democracy in Latin America: Individuals in institutional contexts
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Arizona, Dept Polit Sci, Tucson, AZ 85721 USA.
+   Texas A&M Univ, Dept Polit Sci, College Stn, TX 77843 USA.
+RP Crisp, BF (reprint author), Univ Arizona, Dept Polit Sci, Tucson, AZ 85721 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 175
+EP 192
+UT WOS:000168508900008
+ER
+
+PT J
+AU Tiano, S
+AF Tiano, S
+TI From victims to agents: A new generation of literature on women in Latin
+   America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Tiano, S (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 6
+Z9 6
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 183
+EP 203
+UT WOS:000171480900008
+ER
+
+PT J
+AU Beattie, PM
+AF Beattie, PM
+TI Class politics and class identity in mid-twentieth-century Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Michigan State Univ, E Lansing, MI 48824 USA.
+RP Beattie, PM (reprint author), Michigan State Univ, E Lansing, MI 48824 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 193
+EP 201
+UT WOS:000168508900009
+ER
+
+PT J
+AU Stewart-Gambino, HW
+AF Stewart-Gambino, HW
+TI "Religious consumers" in a changing "religious marketplace"
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Lehigh Univ, Dept Polit Sci, Bethlehem, PA 18015 USA.
+RP Stewart-Gambino, HW (reprint author), Lehigh Univ, Dept Polit Sci, Bethlehem, PA 18015 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 193
+EP 206
+UT WOS:000166996200009
+ER
+
+PT J
+AU Swanson, P
+AF Swanson, P
+TI Back to the boom? Recent trends in Spanish American literary studies
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Aberdeen, Dept Hispan Studies, Aberdeen AB9 1FX, Scotland.
+   Univ Aberdeen, Ctr Study Culture & Power Global Syst, Aberdeen AB9 1FX, Scotland.
+RP Swanson, P (reprint author), Univ Aberdeen, Dept Hispan Studies, Aberdeen AB9 1FX, Scotland.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 202
+EP 208
+UT WOS:000168508900010
+ER
+
+PT J
+AU Snodgrass, M
+AF Snodgrass, M
+TI Assessing everyday life in post-Soviet Cuba
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ Purdue Univ, Indianapolis, IN 46202 USA.
+RP Snodgrass, M (reprint author), Indiana Univ Purdue Univ, Indianapolis, IN 46202 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 204
+EP 220
+UT WOS:000171480900009
+ER
+
+PT J
+AU Resende-Santos, J
+AF Resende-Santos, J
+TI Democracy, equity, and governance in Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Penn, Dept Polit Sci, Philadelphia, PA 19104 USA.
+RP Resende-Santos, J (reprint author), Univ Penn, Dept Polit Sci, Philadelphia, PA 19104 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 207
+EP 237
+UT WOS:000166996200010
+ER
+
+PT J
+AU Kaminsky, A
+AF Kaminsky, A
+TI The queering of Latin American literary studies
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Minnesota, Minneapolis, MN 55455 USA.
+RP Kaminsky, A (reprint author), Univ Minnesota, Minneapolis, MN 55455 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 209
+EP 219
+UT WOS:000168508900011
+ER
+
+PT J
+AU Whitney, R
+AF Whitney, R
+TI History or teleology? Recent scholarship on Cuba before 1959
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Brunswick, Latin Amer Hist & Int Studies, St John, NB E2L 4L5, Canada.
+RP Whitney, R (reprint author), Univ New Brunswick, Latin Amer Hist & Int Studies, St John, NB E2L 4L5, Canada.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 220
+EP 236
+UT WOS:000168508900012
+ER
+
+PT J
+AU Craven, D
+AF Craven, D
+TI Recent literature on Diego Rivera and Mexican Muralism
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Craven, D (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 221
+EP 237
+UT WOS:000171480900010
+ER
+
+PT J
+AU Peterson, AL
+AF Peterson, AL
+TI Indigenous culture and religion before and since the conquest
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Florida, Dept Relig, Gainesville, FL 32611 USA.
+RP Peterson, AL (reprint author), Univ Florida, Dept Relig, Gainesville, FL 32611 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 237
+EP 254
+UT WOS:000168508900013
+ER
+
+PT J
+AU Branche, J
+AF Branche, J
+TI Reorienting the metropolis: Caribbean letters and the autonomist thrust
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Dept Hispan Languages & Literature, Pittsburgh, PA 15260 USA.
+RP Branche, J (reprint author), Univ Pittsburgh, Dept Hispan Languages & Literature, Pittsburgh, PA 15260 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 238
+EP 246
+UT WOS:000166996200011
+ER
+
+PT J
+AU Thompson, AT
+AF Thompson, AT
+TI "TODOS QUIEREN SER PRESIDENTES": Mexico from independence to revolution
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 E Carolina Univ, Greenville, NC 27858 USA.
+RP Thompson, AT (reprint author), E Carolina Univ, Greenville, NC 27858 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 238
+EP 254
+UT WOS:000171480900011
+ER
+
+PT J
+AU Bliss, KE
+AF Bliss, KE
+TI The sexual revolution in Mexican studies: New perspectives on gender,
+   sexuality, and culture in modern Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID PROSTITUTES
+C1 Univ Massachusetts, Amherst, MA 01003 USA.
+RP Bliss, KE (reprint author), Univ Massachusetts, Amherst, MA 01003 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2001
+VL 36
+IS 1
+BP 247
+EP 268
+UT WOS:000166996200012
+PM 17595742
+ER
+
+PT J
+AU Cameron, MA
+   Major, F
+AF Cameron, MA
+   Major, F
+TI Venezuela's Hugo Chavez: Savior or threat to democracy?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ British Columbia, Vancouver, BC V5Z 1M9, Canada.
+RP Cameron, MA (reprint author), Univ British Columbia, Vancouver, BC V5Z 1M9, Canada.
+TC 4
+Z9 4
+SN 0023-8791
+PY 2001
+VL 36
+IS 3
+BP 255
+EP 266
+UT WOS:000171480900012
+ER
+
+PT J
+AU Palti, EJ
+AF Palti, EJ
+TI Recent studies on the emergence of a public sphere in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Nacl Quilmes, CONICET, Buenos Aires, DF, Argentina.
+RP Palti, EJ (reprint author), Univ Nacl Quilmes, CONICET, Buenos Aires, DF, Argentina.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2001
+VL 36
+IS 2
+BP 255
+EP 266
+UT WOS:000168508900014
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 3
+EP 5
+UT WOS:000089869800001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 3
+EP 6
+UT WOS:000085344600001
+ER
+
+PT J
+AU Sawers, L
+AF Sawers, L
+TI Income distribution and environmental degradation in the Argentine
+   interior
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID SUSTAINABLE DEVELOPMENT
+C1 American Univ, Washington, DC 20016 USA.
+RP Sawers, L (reprint author), American Univ, Washington, DC 20016 USA.
+TC 3
+Z9 4
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 3
+EP 33
+UT WOS:000086799000001
+ER
+
+PT J
+AU Craib, RB
+AF Craib, RB
+TI Cartography and power in the conquest and creation of new Spain
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID MAPS
+C1 Yale Univ, New Haven, CT 06520 USA.
+RP Craib, RB (reprint author), Yale Univ, New Haven, CT 06520 USA.
+TC 41
+Z9 43
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 7
+EP 36
+UT WOS:000085344600002
+ER
+
+PT J
+AU Korzeniewicz, RP
+   Smith, WC
+AF Korzeniewicz, RP
+   Smith, WC
+TI Poverty, inequality, and growth in Latin America: Searching for the high
+   road to globalization
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID ECONOMIC-DEVELOPMENT; INCOME INEQUALITY; DEMOCRACY; LESSONS;
+   NEOLIBERALISM; PERSPECTIVE; EQUITY; MEXICO; NGOS
+C1 Univ Maryland, College Pk, MD 20742 USA.
+   Univ Miami, Coral Gables, FL 33124 USA.
+RP Korzeniewicz, RP (reprint author), Univ Maryland, College Pk, MD 20742 USA.
+TC 57
+Z9 67
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 7
+EP 54
+UT WOS:000089869800002
+ER
+
+PT J
+AU Unzueta, F
+AF Unzueta, F
+TI Newspapers and nation building: Bolivia in its early years
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Ohio State Univ, Columbus, OH 43210 USA.
+RP Unzueta, F (reprint author), Ohio State Univ, Columbus, OH 43210 USA.
+TC 8
+Z9 8
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 35
+EP 72
+UT WOS:000086799000002
+ER
+
+PT J
+AU Tokatlian, JG
+AF Tokatlian, JG
+TI Debates over the legalization of drugs in Colombia, President Samper and
+   the United States
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Univ Nacl Colombia, Inst Estudios Polit & Relac Int, Bogota, Colombia.
+RP Tokatlian, JG (reprint author), Univ Nacl Colombia, Inst Estudios Polit & Relac Int, Bogota, Colombia.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 37
+EP 83
+UT WOS:000085344600003
+PM 17876952
+ER
+
+PT J
+AU Auyero, J
+AF Auyero, J
+TI The logic of clientelism in Argentina: An ethnographic account
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID DEMOCRATIC CONSOLIDATION; ILLUSIONS; MARGINALITY; POLICY; DEBATE; SLUM
+C1 SUNY Stony Brook, Stony Brook, NY 11794 USA.
+RP Auyero, J (reprint author), SUNY Stony Brook, Stony Brook, NY 11794 USA.
+TC 92
+Z9 103
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 55
+EP 81
+UT WOS:000089869800003
+ER
+
+PT J
+AU Shadlen, KC
+AF Shadlen, KC
+TI Neoliberalism, corporatism, and small business political activism in
+   contemporary Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID FREE-TRADE; STATE
+C1 Brown Univ, Providence, RI 02912 USA.
+RP Shadlen, KC (reprint author), Brown Univ, Providence, RI 02912 USA.
+TC 18
+Z9 19
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 73
+EP 106
+UT WOS:000086799000003
+ER
+
+PT J
+AU Bak, J
+AF Bak, J
+TI Class, ethnicity, and gender in Brazil: The negotiation of workers'
+   identities in Porto Alegre's 1906 strike
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Richmond, Richmond, VA 23173 USA.
+RP Bak, J (reprint author), Univ Richmond, Richmond, VA 23173 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 83
+EP 123
+UT WOS:000089869800004
+ER
+
+PT J
+AU Green, WJ
+AF Green, WJ
+TI Sibling rivalry on the left and labor struggles in Colombia during the
+   1940s
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT 1995 Southern Labor Studies Conference
+CY OCT, 1995
+CL AUSTIN, TEXAS
+TC 1
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 85
+EP 117
+UT WOS:000085344600004
+ER
+
+PT J
+AU Zulawski, A
+AF Zulawski, A
+TI Hygiene and "the Indian problem": Ethnicity and medicine in Bolivia,
+   1910-1920
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Smith Coll, Northampton, MA 01063 USA.
+RP Zulawski, A (reprint author), Smith Coll, Northampton, MA 01063 USA.
+TC 6
+Z9 7
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 107
+EP 129
+UT WOS:000086799000004
+ER
+
+PT J
+AU Beck, SH
+   Mijeski, KJ
+AF Beck, SH
+   Mijeski, KJ
+TI Indigena self-identity in ecuador and the rejection of Mestizaje
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Meeting of the South Eastern Council on Latin American Studies
+CY FEB 27-MAR 01, 1997
+CL SAN JOSE, COSTA RICA
+C1 E Tennessee State Univ, Johnson City, TN 37614 USA.
+RP Beck, SH (reprint author), E Tennessee State Univ, Johnson City, TN 37614 USA.
+TC 8
+Z9 10
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 119
+EP 137
+UT WOS:000085344600005
+ER
+
+PT J
+AU Rodrigues, MG
+AF Rodrigues, MG
+TI Environmental protection issue networks in Amazonia
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Coll Holy Cross, Worcester, MA 01610 USA.
+RP Rodrigues, MG (reprint author), Coll Holy Cross, Worcester, MA 01610 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 125
+EP 153
+UT WOS:000089869800005
+ER
+
+PT J
+AU Di Stefano, R
+AF Di Stefano, R
+TI Between God and Cesar; Secular clergy of Rio de la Plata from the
+   Bourbon reforms to the Revolution for Independence
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Italian
+C1 CONICET, RA-1033 Buenos Aires, DF, Argentina.
+   Univ Buenos Aires, Fac Social Sci, RA-1053 Buenos Aires, DF, Argentina.
+RP Di Stefano, R (reprint author), CONICET, RA-1033 Buenos Aires, DF, Argentina.
+TC 6
+Z9 6
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 130
+EP 159
+UT WOS:000086799000005
+ER
+
+PT J
+AU Ching, E
+   Pakkasvirta, J
+AF Ching, E
+   Pakkasvirta, J
+TI Latin American materials in the Comintern Archive
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID WORKERS
+C1 Furman Univ, Greenville, SC USA.
+   Univ Helsinki, Ibero Amer Ctr, FIN-00014 Helsinki, Finland.
+RP Ching, E (reprint author), Furman Univ, Greenville, SC USA.
+OI Pakkasvirta, Jussi/0000-0001-8081-8985
+TC 5
+Z9 5
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 138
+EP 149
+UT WOS:000085344600006
+ER
+
+PT J
+AU Berger, MT
+AF Berger, MT
+TI Specters of colonialism: Building postcolonial states and making modern
+   nations in the Americas
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LATIN-AMERICA
+C1 Univ New S Wales, Sydney, NSW, Australia.
+RP Berger, MT (reprint author), Univ New S Wales, Sydney, NSW, Australia.
+TC 3
+Z9 3
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 151
+EP 171
+UT WOS:000085344600007
+ER
+
+PT J
+AU Delpar, H
+AF Delpar, H
+TI Inter-American relations and encounters: Recent directions in the
+   literature
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Delpar, H (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 155
+EP 172
+UT WOS:000089869800006
+ER
+
+PT J
+AU Bickford, L
+AF Bickford, L
+TI Human rights archives and research on historical memory: Argentina,
+   Chile, and Uruguay
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID DEMOCRATIC CONSOLIDATION; TRANSITION
+C1 Univ Wisconsin, Global Studies Program, Madison, WI 53706 USA.
+RP Bickford, L (reprint author), Univ Wisconsin, Global Studies Program, Madison, WI 53706 USA.
+TC 11
+Z9 12
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 160
+EP 182
+UT WOS:000086799000006
+ER
+
+PT J
+AU Wells, A
+AF Wells, A
+TI Out from the shadows: Recent scholarship on late-nineteenth-century
+   Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Bowdoin Coll, Brunswick, ME 04011 USA.
+RP Wells, A (reprint author), Bowdoin Coll, Brunswick, ME 04011 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 172
+EP 186
+UT WOS:000085344600008
+ER
+
+PT J
+AU Tuman, JP
+AF Tuman, JP
+TI Labor markets and economic reform in Latin America: A review of recent
+   research
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID INDUSTRIAL
+C1 Texas Tech Univ, Lubbock, TX 79409 USA.
+RP Tuman, JP (reprint author), Texas Tech Univ, Lubbock, TX 79409 USA.
+TC 3
+Z9 4
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 173
+EP 187
+UT WOS:000089869800007
+ER
+
+PT J
+AU Fox, J
+AF Fox, J
+TI State-society relations in Mexico: Historical legacies and contemporary
+   trends
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Santa Cruz, Latin Amer & Latino Studies Program, Santa Cruz, CA 95064 USA.
+RP Fox, J (reprint author), Univ Calif Santa Cruz, Latin Amer & Latino Studies Program, Santa Cruz, CA 95064 USA.
+TC 6
+Z9 6
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 183
+EP 203
+UT WOS:000086799000007
+ER
+
+PT J
+AU Otero, G
+AF Otero, G
+TI Neoliberal reform in rural Mexico: Social structural and political
+   dimensions
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Simon Fraser Univ, Dept Sociol & Anthropol, Burnaby, BC V5A 1S6, Canada.
+RP Otero, G (reprint author), Simon Fraser Univ, Dept Sociol & Anthropol, Burnaby, BC V5A 1S6, Canada.
+TC 4
+Z9 4
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 187
+EP 207
+UT WOS:000085344600009
+ER
+
+PT J
+AU Davila, J
+AF Davila, J
+TI Expanding perspectives on race in Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Gustavus Adolphus Coll, St Peter, MN 56082 USA.
+RP Davila, J (reprint author), Gustavus Adolphus Coll, St Peter, MN 56082 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 188
+EP 198
+UT WOS:000089869800008
+ER
+
+PT J
+AU de la Fuente, A
+AF de la Fuente, A
+TI Race, ideology, and culture in Cuba: Recent scholarship
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP de la Fuente, A (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 1
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 199
+EP 210
+UT WOS:000089869800009
+ER
+
+PT J
+AU Hopgood, JF
+AF Hopgood, JF
+TI Identity, gender, and myth: Expressions of Mesoamerican change and
+   continuity
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 No Kentucky Univ, Highland Heights, KY 41076 USA.
+RP Hopgood, JF (reprint author), No Kentucky Univ, Highland Heights, KY 41076 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 204
+EP 215
+UT WOS:000086799000008
+ER
+
+PT J
+AU Epstein, EC
+AF Epstein, EC
+TI Changing Latin American labor relations amidst economic and political
+   liberalization
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Utah, Salt Lake City, UT 84112 USA.
+RP Epstein, EC (reprint author), Univ Utah, Salt Lake City, UT 84112 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 208
+EP 218
+UT WOS:000085344600010
+ER
+
+PT J
+AU Gros, JG
+AF Gros, JG
+TI Haiti: The political economy and sociology of decay and renewal
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, St Louis, MO 63121 USA.
+RP Gros, JG (reprint author), Univ Missouri, St Louis, MO 63121 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 211
+EP 226
+UT WOS:000089869800010
+ER
+
+PT J
+AU Fitzsimmons, T
+AF Fitzsimmons, T
+TI A monstrous regiment of women? State, regime, and women's political
+   organizing in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Redlands, Redlands, CA 92373 USA.
+RP Fitzsimmons, T (reprint author), Univ Redlands, Redlands, CA 92373 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 216
+EP 229
+UT WOS:000086799000009
+ER
+
+PT J
+AU Booth, JA
+AF Booth, JA
+TI After the fall: Recent scholarship on Nicaragua and the revolution
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ N Texas, Denton, TX 76203 USA.
+RP Booth, JA (reprint author), Univ N Texas, Denton, TX 76203 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 219
+EP 226
+UT WOS:000085344600011
+ER
+
+PT J
+AU Armstrong, P
+AF Armstrong, P
+TI The Brazilianists' Brazil: Interdisciplinary portraits of Brazilian
+   society and culture
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Los Angeles, Los Angeles, CA 90024 USA.
+RP Armstrong, P (reprint author), Univ Calif Los Angeles, Los Angeles, CA 90024 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 227
+EP 242
+UT WOS:000085344600012
+ER
+
+PT J
+AU Pantojas-Garcia, E
+AF Pantojas-Garcia, E
+TI End-of-the-century studies of Puerto Rico's economy, politics, and
+   culture: What lies ahead?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Puerto Rico, Rio Piedras, PR 00931 USA.
+RP Pantojas-Garcia, E (reprint author), Univ Puerto Rico, Rio Piedras, PR 00931 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 227
+EP 240
+UT WOS:000089869800011
+ER
+
+PT J
+AU Cummins, VH
+   Cummins, LT
+AF Cummins, VH
+   Cummins, LT
+TI Building on Bolton: The Spanish borderlands seventy-five years later
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Austin Coll, Sherman, TX 75090 USA.
+RP Cummins, VH (reprint author), Austin Coll, Sherman, TX 75090 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 230
+EP 243
+UT WOS:000086799000010
+ER
+
+PT J
+AU Estill, A
+AF Estill, A
+TI Mapping the minefield: The state of Chicano and US Latino literary and
+   cultural studies
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Estill, A (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 241
+EP 250
+UT WOS:000089869800012
+ER
+
+PT J
+AU Maloof, J
+AF Maloof, J
+TI Recovering and discovering another perspective: Recent books on Latin
+   American women writers
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Maloof, J (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 243
+EP 255
+UT WOS:000085344600013
+ER
+
+PT J
+AU Cline, S
+AF Cline, S
+TI Competition and fluidity in Latin American Christianity
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Santa Barbara, Dept Religious Studies, Santa Barbara, CA 93106 USA.
+   Univ Calif Santa Barbara, Program Latin Amer Iberian Studies, Santa Barbara, CA 93106 USA.
+RP Cline, S (reprint author), Univ Calif Santa Barbara, Dept Religious Studies, Santa Barbara, CA 93106 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 244
+EP 251
+UT WOS:000086799000011
+ER
+
+PT J
+AU Wood, AG
+AF Wood, AG
+TI Writing transnationalism: Recent publications on the US-Mexico
+   borderlands
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Tulsa, Tulsa, OK 74104 USA.
+RP Wood, AG (reprint author), Univ Tulsa, Tulsa, OK 74104 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 3
+BP 251
+EP 265
+UT WOS:000089869800013
+ER
+
+PT J
+AU Cardenas, S
+AF Cardenas, S
+TI Combining legal and political approaches: Recent scholarship on human
+   rights in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Notre Dame, Dept Govt & Int Studies, Notre Dame, IN 46556 USA.
+RP Cardenas, S (reprint author), Univ Notre Dame, Dept Govt & Int Studies, Notre Dame, IN 46556 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 2000
+VL 35
+IS 2
+BP 252
+EP 267
+UT WOS:000086799000012
+ER
+
+PT J
+AU Valdes, DN
+AF Valdes, DN
+TI The Spanish-Mexican borderlands and Chicano history
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Minnesota, Minneapolis, MN 55455 USA.
+RP Valdes, DN (reprint author), Univ Minnesota, Minneapolis, MN 55455 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 256
+EP 260
+UT WOS:000085344600014
+ER
+
+PT J
+AU Drogus, CA
+AF Drogus, CA
+TI Religious pluralism and social change: Coming to terms with complexity
+   and convergence
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Hamilton Coll, Clinton, NY 13323 USA.
+RP Drogus, CA (reprint author), Hamilton Coll, Clinton, NY 13323 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 2000
+VL 35
+IS 1
+BP 261
+EP 270
+UT WOS:000085344600015
+ER
+
+PT J
+AU Helfand, SM
+AF Helfand, SM
+TI The political economy of agricultural policy in Brazil: Decision Making
+   and Influence from 1964 to 1992
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Riverside, Riverside, CA 92521 USA.
+RP Helfand, SM (reprint author), Univ Calif Riverside, Riverside, CA 92521 USA.
+TC 16
+Z9 17
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 3
+EP 41
+UT WOS:000084076300001
+PM 22003566
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 3
+EP 6
+UT WOS:000083155300001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 3
+EP 6
+UT WOS:000078724200001
+ER
+
+PT J
+AU de Mesa, AA
+   Montecinos, V
+AF de Mesa, AA
+   Montecinos, V
+TI The privatization of social security and women's welfare: Gender effects
+   of the Chilean reform
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Meeting of the Latin-American-Studies-Association
+CY SEP 28-30, 1995
+CL WASHINGTON, D.C.
+C1 Penn State Univ, University Pk, PA 16802 USA.
+TC 28
+Z9 29
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 7
+EP 37
+UT WOS:000083155300002
+PM 22003567
+ER
+
+PT J
+AU Willis, E
+   Garman, CD
+   Haggard, S
+AF Willis, E
+   Garman, CD
+   Haggard, S
+TI The politics of decentralization in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Annual Meeting of the American-Political-Science-Association
+CY AUG 28-SEP 01, 1996
+CL SAN FRANCISCO, CALIFORNIA
+ID ELECTORAL SYSTEMS; GOVERNMENT; BRAZIL; DEMOCRACY; VENEZUELA
+C1 Grinnell Coll, Grinnell, IA 50112 USA.
+   Univ Calif San Diego, San Diego, CA 92103 USA.
+RP Willis, E (reprint author), Grinnell Coll, Grinnell, IA 50112 USA.
+TC 106
+Z9 122
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 7
+EP 56
+UT WOS:000078724200002
+ER
+
+PT J
+AU de la Fuente, A
+AF de la Fuente, A
+TI Myths of racial democracy: Cuba, 1900-1912
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID BRAZIL; RACE
+C1 Univ S Florida, Tampa, FL 33620 USA.
+RP de la Fuente, A (reprint author), Univ S Florida, Tampa, FL 33620 USA.
+TC 29
+Z9 29
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 39
+EP 73
+UT WOS:000083155300003
+ER
+
+PT J
+AU Zaverucha, J
+AF Zaverucha, J
+TI Military justice in the State of Pernambuco after the Brazilian military
+   regime: An authoritarian legacy
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Fed Pernambuco, Recife, PE, Brazil.
+RP Zaverucha, J (reprint author), Univ Fed Pernambuco, Recife, PE, Brazil.
+TC 11
+Z9 12
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 43
+EP 73
+UT WOS:000084076300002
+ER
+
+PT J
+AU Martinez, S
+AF Martinez, S
+TI From hidden hand to heavy hand: Sugar, the state, and migrant labor in
+   Haiti and the Dominican Republic
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT NEH Summer Seminar on Slavery and Freedom in Caribbean History
+CY JUN 10-JUL 19, 1996
+CL UNIV WISCONSIN, MADISON, WISCONSIN
+HO UNIV WISCONSIN
+ID MIGRATION; SOCIETY
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Martinez, S (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 14
+Z9 14
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 57
+EP 84
+UT WOS:000078724200003
+ER
+
+PT J
+AU Ewig, C
+AF Ewig, C
+TI The strengths and limits of the NGO women's movement model: Shaping
+   Nicaragua's democratic institutions
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ N Carolina, Chapel Hill, NC 27514 USA.
+RP Ewig, C (reprint author), Univ N Carolina, Chapel Hill, NC 27514 USA.
+TC 30
+Z9 30
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 75
+EP 102
+UT WOS:000083155300004
+ER
+
+PT J
+AU Poblete, J
+AF Poblete, J
+TI Social construct of reading and the national novel - The case of Chile
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Univ Calif Santa Cruz, Santa Cruz, CA 95064 USA.
+RP Poblete, J (reprint author), Univ Calif Santa Cruz, Santa Cruz, CA 95064 USA.
+TC 6
+Z9 7
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 75
+EP 108
+UT WOS:000084076300003
+ER
+
+PT J
+AU Purnell, J
+AF Purnell, J
+TI With all due respect: Popular resistance to the privatization of
+   communal lands in nineteenth-century Michoacan
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Purnell, J (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 7
+Z9 9
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 85
+EP 121
+UT WOS:000078724200004
+ER
+
+PT J
+AU Fitzsimmons, T
+   Anner, M
+AF Fitzsimmons, T
+   Anner, M
+TI Civil society in a postwar period: Labor in the Salvadoran democratic
+   transition
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT 1997 Meeting of the Latin-American-Studies-Association
+CY APR 17-19, 1997
+CL GUADALAJARA, MEXICO
+ID EL-SALVADOR
+C1 Univ Redlands, Redlands, CA 92373 USA.
+   Cornell Univ, Ithaca, NY 14853 USA.
+RP Fitzsimmons, T (reprint author), Univ Redlands, Redlands, CA 92373 USA.
+TC 6
+Z9 6
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 103
+EP 128
+UT WOS:000083155300005
+ER
+
+PT J
+AU Burdick, J
+AF Burdick, J
+TI What is the color of the holy spirit? Pentecostalism and black identity
+   in Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Syracuse Univ, Syracuse, NY 13210 USA.
+RP Burdick, J (reprint author), Syracuse Univ, Syracuse, NY 13210 USA.
+TC 11
+Z9 12
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 109
+EP 131
+UT WOS:000084076300004
+ER
+
+PT J
+AU Eakin, MC
+AF Eakin, MC
+TI The origins of modern science in Costa Rica: The Instituto
+   Fisico-Geografico Nacional, 1887-1904
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Vanderbilt Univ, Nashville, TN 37240 USA.
+RP Eakin, MC (reprint author), Vanderbilt Univ, 221 Kirkland Hall, Nashville, TN 37240 USA.
+TC 10
+Z9 13
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 123
+EP 150
+UT WOS:000078724200005
+PM 22003565
+ER
+
+PT J
+AU Meding, HM
+AF Meding, HM
+TI Historical archives of the Republic of Panama
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Cologne, D-5000 Cologne 41, Germany.
+RP Meding, HM (reprint author), Univ Cologne, D-5000 Cologne 41, Germany.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 129
+EP 142
+UT WOS:000083155300006
+ER
+
+PT J
+AU Villarreal, A
+AF Villarreal, A
+TI Public opinion of the economy and the President among Mexico City
+   residents: The Salinas sexenio
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID BEHAVIOR; SUPPORT
+C1 Univ Chicago, Dept Sociol, Chicago, IL 60637 USA.
+RP Villarreal, A (reprint author), Univ Chicago, Dept Sociol, Chicago, IL 60637 USA.
+TC 8
+Z9 11
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 132
+EP 151
+UT WOS:000084076300005
+ER
+
+PT J
+AU Van Young, E
+AF Van Young, E
+TI Making leviathan sneeze: Recent works on Mexico and the Mexican
+   revolution
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif San Diego, Ctr US Mexican Studies, La Jolla, CA 92093 USA.
+RP Van Young, E (reprint author), Univ Calif San Diego, Ctr US Mexican Studies, La Jolla, CA 92093 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 143
+EP 165
+UT WOS:000083155300007
+ER
+
+PT J
+AU Urraca, B
+AF Urraca, B
+TI Juana Manuela Gorriti and the persistence of memory
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 3
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 151
+EP 173
+UT WOS:000078724200006
+ER
+
+PT J
+AU Bieber, LE
+AF Bieber, LE
+TI A society protecting Israeli immigrants - Its contribution to the
+   economic integration of Jews in Bolivia, 1939-1945
+SO LATIN AMERICAN RESEARCH REVIEW
+LA Spanish
+C1 Ibero Amer Inst, Berlin, Germany.
+RP Bieber, LE (reprint author), Ibero Amer Inst, Berlin, Germany.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 152
+EP 178
+UT WOS:000084076300006
+ER
+
+PT J
+AU Manzetti, L
+AF Manzetti, L
+TI The politics of socioeconomic change in Argentina
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 So Methodist Univ, Dallas, TX 75275 USA.
+RP Manzetti, L (reprint author), So Methodist Univ, Dallas, TX 75275 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 166
+EP 178
+UT WOS:000083155300008
+ER
+
+PT J
+AU Whigham, TL
+   Potthast, B
+AF Whigham, TL
+   Potthast, B
+TI The Paraguayan rosetta Stone: New insights into the demographics of the
+   Paraguayan War, 1864-1870
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Georgia, Athens, GA 30602 USA.
+   Univ Bielefeld, D-4800 Bielefeld, Germany.
+RP Whigham, TL (reprint author), Univ Georgia, Athens, GA 30602 USA.
+TC 12
+Z9 12
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 174
+EP 186
+UT WOS:000078724200007
+ER
+
+PT J
+AU Hammergren, L
+AF Hammergren, L
+TI The development wars: Analyzing foreign assistance impact and policy
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LATIN-AMERICA
+TC 1
+Z9 1
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 179
+EP 197
+UT WOS:000084076300007
+ER
+
+PT J
+AU Mason, TD
+AF Mason, TD
+TI The civil war in El Salvador: A retrospective analysis
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID PEASANT
+C1 Univ Memphis, Memphis, TN 38152 USA.
+RP Mason, TD (reprint author), Univ Memphis, Memphis, TN 38152 USA.
+TC 8
+Z9 8
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 179
+EP 196
+UT WOS:000083155300009
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Musical repercussions of 1492: Encounters in text and performance.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200013
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Moving away from silence: Music of the Peruvian altiplano and the
+   experience of urban migration
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200014
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Caribbean currents: Caribbean music from rumba to reggae.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200011
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Bachata: A social history of a Dominican popular music.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200012
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Music and black ethnicity
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200008
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Samba: Resistance in motion.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200009
+ER
+
+PT J
+AU Morris, N
+AF Morris, N
+TI Rumba: Dance and social change in contemporary Cuba.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Temple Univ, Philadelphia, PA 19122 USA.
+RP Morris, N (reprint author), Temple Univ, Philadelphia, PA 19122 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 187
+EP 200
+UT WOS:000078724200010
+ER
+
+PT J
+AU Zimmermann, M
+AF Zimmermann, M
+TI Che Guevara and the Cuban revolution
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Vassar Coll, Poughkeepsie, NY 12601 USA.
+RP Zimmermann, M (reprint author), Vassar Coll, Poughkeepsie, NY 12601 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 197
+EP 208
+UT WOS:000083155300010
+ER
+
+PT J
+AU Hunter, W
+AF Hunter, W
+TI The Dirty War and its aftermath: Recent contributions on the military
+   and politics in Argentina
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Vanderbilt Univ, Nashville, TN 37240 USA.
+RP Hunter, W (reprint author), Vanderbilt Univ, Nashville, TN 37240 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 198
+EP 213
+UT WOS:000084076300008
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Phyllis Shand Allfrey, a Caribbean life.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200018
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Puerto Rican women and work.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200017
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Daughters of Caliban: Caribbean women in the twentieth century.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200020
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Sister Jamaica: A study of women, work, and households in Kingston,
+   Jamaica.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200015
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Women, labour, and politics in Trinidad and Tobago.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200019
+ER
+
+PT J
+AU Berleant-Schiller, R
+AF Berleant-Schiller, R
+TI Women of Belize: Gender and change in central America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Connecticut, Storrs, CT 06269 USA.
+RP Berleant-Schiller, R (reprint author), Univ Connecticut, Storrs, CT 06269 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 201
+EP 211
+UT WOS:000078724200016
+ER
+
+PT J
+AU Klak, T
+   Das, R
+AF Klak, T
+   Das, R
+TI The underdevelopment of the Caribbean and its scholarship
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Miami Univ, Oxford, OH 45056 USA.
+   Univ Dundee, Dundee DD1 4HN, Scotland.
+RP Klak, T (reprint author), Miami Univ, Oxford, OH 45056 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 209
+EP 224
+UT WOS:000083155300011
+ER
+
+PT J
+AU Arce, DGM
+AF Arce, DGM
+TI Public finances, stabilization, and structural reform in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Arce, DGM (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 212
+EP 220
+UT WOS:000078724200024
+ER
+
+PT J
+AU Arce, DGM
+AF Arce, DGM
+TI Democracy, markets, and structural reform in Latin America: Argentina,
+   Bolivia, Brazil, Chile, and Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Arce, DGM (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 212
+EP 220
+UT WOS:000078724200021
+ER
+
+PT J
+AU Arce, DGM
+AF Arce, DGM
+TI Inflation, stabilization, and debt: Macroeconomic experiments in Peru
+   and Bolivia.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Arce, DGM (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 212
+EP 220
+UT WOS:000078724200022
+ER
+
+PT J
+AU Arce, DGM
+AF Arce, DGM
+TI The political economy of policy reform in developing countries.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Arce, DGM (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 212
+EP 220
+UT WOS:000078724200023
+ER
+
+PT J
+AU Arce, DGM
+AF Arce, DGM
+TI Reform, recovery, and growth: Latin America and the Middle East.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Alabama, Tuscaloosa, AL 35487 USA.
+RP Arce, DGM (reprint author), Univ Alabama, Tuscaloosa, AL 35487 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 212
+EP 220
+UT WOS:000078724200025
+ER
+
+PT J
+AU Kirk, JM
+   McKenna, P
+AF Kirk, JM
+   McKenna, P
+TI Trying to address the Cuban paradox
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dalhousie Univ, Halifax, NS B3H 3J5, Canada.
+   Mt St Vincent Univ, Halifax, NS B3M 2J6, Canada.
+RP Kirk, JM (reprint author), Dalhousie Univ, Halifax, NS B3H 3J5, Canada.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 214
+EP 226
+UT WOS:000084076300009
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Building democracy in Brazil: The politics of constitutional change,
+   1985-95.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200026
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Term limits and legislative representation
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200049
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Presidentialism or parliamentarianism: Perspectives on Brazilian
+   institutional reorganization.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200031
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI The global resurgence of democracy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200030
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Electoral laws and the survival of presidential democracies.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200027
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Federalismos LatinoAmericanos: Mexico, Brasil, Argentina.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200029
+ER
+
+PT J
+AU Ames, B
+AF Ames, B
+TI Local government in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+RP Ames, B (reprint author), Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 221
+EP 236
+UT WOS:000078724200032
+ER
+
+PT J
+AU Dosal, P
+AF Dosal, P
+TI Recent developments in Central American studies: A review of trends and
+   prospects
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ S Florida, Tampa, FL 33620 USA.
+RP Dosal, P (reprint author), Univ S Florida, Tampa, FL 33620 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 225
+EP 240
+UT WOS:000083155300012
+ER
+
+PT J
+AU Spenser, D
+   Levinson, BA
+AF Spenser, D
+   Levinson, BA
+TI Linking state and society in discourse and action: Political and
+   cultural studies of the Cardenas era in Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Invest Estudios Super Antropol Social, Mexico City, DF, Mexico.
+   Indiana Univ, Bloomington, IN 47405 USA.
+RP Spenser, D (reprint author), Cent Invest Estudios Super Antropol Social, Mexico City, DF, Mexico.
+TC 3
+Z9 4
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 227
+EP 245
+UT WOS:000084076300010
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI Industrial restructuring in Mexico: Corporate adaptation, technological
+   innovation, and changing patterns of industrial relations in Monterrey.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200038
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI The breakdown in labor relations
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200033
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI Latin American trade unionism: Between renovation and resignation
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200036
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI Neoliberal model and trade unions in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200037
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI Industrial work in transition: Experiences in Latin America and Europe.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200034
+ER
+
+PT J
+AU Cook, ML
+AF Cook, ML
+TI Restructuring of production and responses of labor unions in Mexico
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cornell Univ, Ithaca, NY 14853 USA.
+RP Cook, ML (reprint author), Cornell Univ, Ithaca, NY 14853 USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 237
+EP 254
+UT WOS:000078724200035
+ER
+
+PT J
+AU Zulawski, A
+AF Zulawski, A
+TI New trends in studies of science and medicine in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Smith Coll, Northampton, MA 01063 USA.
+RP Zulawski, A (reprint author), Smith Coll, Northampton, MA 01063 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 241
+EP 251
+UT WOS:000083155300013
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Encoded behaviors: Society, the church, and cultural history in early
+   colonial Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Montana, Missoula, MT 59812 USA.
+RP Schwaller, JF (reprint author), Univ Montana, Missoula, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 2
+BP 246
+EP 270
+UT WOS:000084076300011
+ER
+
+PT J
+AU Albin, MC
+   Marrero-Fente, R
+AF Albin, MC
+   Marrero-Fente, R
+TI Celebrating the millennium: Latin American literature and criticism
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Miami Univ, Oxford, OH 45056 USA.
+RP Albin, MC (reprint author), Miami Univ, Oxford, OH 45056 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1999
+VL 34
+IS 3
+BP 252
+EP 264
+UT WOS:000083155300014
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Neoliberalism with a human face? The politics and economics of the
+   Chilean model.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200041
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Tapestries of hope, threads of love: The arpillera movement in Chile,
+   1974-1994.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200039
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Thinking politics: Intellectuals and democracy in Chile, 1973-1988.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200044
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Soldiers in a narrow land: The Pinochet regime in Chile.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200046
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI The state and capital in Chile: Business elites, technocrats, and market
+   economics.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200045
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Moral opposition to authoritarian rule, 1973-90.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200042
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI National defense, Chile, 1990-1994 - Modernization and development
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200047
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Chile: The great transformation.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200043
+ER
+
+PT J
+AU Oxhorn, P
+AF Oxhorn, P
+TI Toward a new political era: Study on democratization
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 McGill Univ, Montreal, PQ H3A 2T5, Canada.
+RP Oxhorn, P (reprint author), McGill Univ, Montreal, PQ H3A 2T5, Canada.
+TC 2
+Z9 3
+SN 0023-8791
+PY 1999
+VL 34
+IS 1
+BP 255
+EP 271
+UT WOS:000078724200040
+ER
+
+PT J
+AU Clapp, RA
+AF Clapp, RA
+TI Waiting for the forest law: Resource-led development and environmental
+   politics in Chile
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID DYNAMICS; GROWTH
+C1 Univ Toronto, Toronto, ON, Canada.
+RP Clapp, RA (reprint author), Univ Toronto, Toronto, ON, Canada.
+TC 18
+Z9 19
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 3
+EP 36
+UT WOS:000073525100001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 3
+EP 6
+UT WOS:000072220400001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 3
+EP 6
+UT WOS:000076462700001
+ER
+
+PT J
+AU Crisp, BF
+AF Crisp, BF
+TI Lessons from economic reform in the Venezuelan democracy
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Arizona, Tucson, AZ 85721 USA.
+RP Crisp, BF (reprint author), Univ Arizona, Tucson, AZ 85721 USA.
+TC 11
+Z9 11
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 7
+EP 41
+UT WOS:000072220400002
+ER
+
+PT J
+AU Green, C
+AF Green, C
+TI The Asian connection: The US-Caribbean apparel circuit and a new model
+   of industrial relations
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Bowling Green State Univ, Dept Ethn Studies, Bowling Green, OH 43403 USA.
+RP Green, C (reprint author), Bowling Green State Univ, Dept Ethn Studies, Bowling Green, OH 43403 USA.
+OI Green, Cecilia/0000-0002-5617-729X
+TC 7
+Z9 7
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 7
+EP 47
+UT WOS:000076462700002
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI Postmodern ethnographer in the backlands: An imperial bureaucrat's
+   perceptions of post-independence Brazil
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Bieber, J (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 37
+EP 72
+UT WOS:000073525100002
+ER
+
+PT J
+AU Pereira, AW
+AF Pereira, AW
+TI "Persecution and farce": The origins and transformation of Brazil's
+   political trials, 1964-1979
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 New Sch Social Res, New York, NY 10011 USA.
+RP Pereira, AW (reprint author), New Sch Social Res, New York, NY 10011 USA.
+TC 6
+Z9 6
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 43
+EP 66
+UT WOS:000072220400003
+ER
+
+PT J
+AU Edelman, M
+AF Edelman, M
+TI Transnational peasant politics in Central America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Meeting of the Latin-American-Studies-Association
+CY SEP 28-30, 1995
+CL WASHINGTON, D.C.
+ID SOCIAL-MOVEMENTS; ANTHROPOLOGY; RIGHTS
+C1 CUNY Hunter Coll, New York, NY 10021 USA.
+   CUNY, Grad Ctr, New York, NY USA.
+RP Edelman, M (reprint author), CUNY Hunter Coll, New York, NY 10021 USA.
+TC 34
+Z9 35
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 49
+EP 86
+UT WOS:000076462700003
+ER
+
+PT J
+AU Graham, C
+   Kane, C
+AF Graham, C
+   Kane, C
+TI Opportunistic government or sustaining reform? Electoral trends and
+   public-expenditure patterns in Peru, 1990-1995
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID POLITICAL-ECONOMY; LATIN-AMERICA; GROWTH; ELECTIONS
+C1 Brookings Inst, Washington, DC 20036 USA.
+   World Bank, Washington, DC 20001 USA.
+RP Graham, C (reprint author), Brookings Inst, Washington, DC 20036 USA.
+TC 26
+Z9 26
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 67
+EP 104
+UT WOS:000072220400004
+ER
+
+PT J
+AU Schonwalder, G
+AF Schonwalder, G
+TI Local politics and the Peruvian left: The case of El Agustino
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schonwalder, G (reprint author), Council European Union, Brussels, Belgium.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 73
+EP 102
+UT WOS:000073525100003
+ER
+
+PT J
+AU Friedman, EJ
+AF Friedman, EJ
+TI Paradoxes of gendered political opportunity in the venezuelan transition
+   to democracy
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID SOCIAL-MOVEMENTS; LATIN-AMERICA; DEMOCRATIZATION; CHALLENGE; IDENTITY;
+   BRAZIL; PACTS; WOMEN
+C1 Columbia Univ, Barnard Coll, New York, NY 10027 USA.
+RP Friedman, EJ (reprint author), Columbia Univ, Barnard Coll, New York, NY 10027 USA.
+TC 24
+Z9 25
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 87
+EP 135
+UT WOS:000076462700004
+ER
+
+PT J
+AU Houtzager, PP
+AF Houtzager, PP
+TI State and unions in the transformation of the Brazilian countryside,
+   1964-1979
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Calif Berkeley, Berkeley, CA 94720 USA.
+RP Houtzager, PP (reprint author), Univ Calif Berkeley, Berkeley, CA 94720 USA.
+TC 19
+Z9 20
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 103
+EP 142
+UT WOS:000073525100004
+ER
+
+PT J
+AU Skidmore, TE
+AF Skidmore, TE
+TI Studying the history of Latin America: A case of hemispheric convergence
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT 1995 Conference on the State of Historical Writing in North-America
+CY JUN, 1995
+CL MARINEO, ITALY
+C1 Brown Univ, Providence, RI 02912 USA.
+RP Skidmore, TE (reprint author), Brown Univ, Providence, RI 02912 USA.
+TC 4
+Z9 6
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 105
+EP 127
+UT WOS:000072220400005
+ER
+
+PT J
+AU Harris, J
+AF Harris, J
+TI Bernardino Rivadavia and Benthamite "discipleship"
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 5
+Z9 5
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 129
+EP 149
+UT WOS:000072220400006
+ER
+
+PT J
+AU Canton, D
+   Jorrat, JR
+AF Canton, D
+   Jorrat, JR
+TI Continuity and change in elections in the city of Buenos Aires,
+   1931-1954
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Buenos Aires, Buenos Aires, DF, Argentina.
+RP Canton, D (reprint author), Univ Buenos Aires, Buenos Aires, DF, Argentina.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 137
+EP 160
+UT WOS:000076462700005
+ER
+
+PT J
+AU Norden, DL
+AF Norden, DL
+TI Democracy and military control in Venezuela: From subordination to
+   insurrection
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT International-Studies-Association Annual Meeting
+CY FEB 21-25, 1995
+CL CHICAGO, ILLINOIS
+C1 Univ Calif Riverside, Riverside, CA 92521 USA.
+RP Norden, DL (reprint author), Univ Calif Riverside, Riverside, CA 92521 USA.
+TC 7
+Z9 8
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 143
+EP 165
+UT WOS:000073525100005
+ER
+
+PT J
+AU Mumford, J
+AF Mumford, J
+TI The Taki Onqoy and the Andean nation: Sources and interpretations
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Yale Univ, New Haven, CT 06520 USA.
+RP Mumford, J (reprint author), Yale Univ, New Haven, CT 06520 USA.
+TC 10
+Z9 10
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 150
+EP 165
+UT WOS:000072220400007
+ER
+
+PT J
+AU Umlas, E
+AF Umlas, E
+TI Environmental networking in Mexico: The Comite Nacional para la Defensa
+   de los Chimalapas
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Meeting of the Latin-American-Studies-Association
+CY SEP 28-30, 1995
+CL WASHINGTON, D.C.
+C1 Off UN High Commissioner Refugees, Geneva, Switzerland.
+RP Umlas, E (reprint author), Off UN High Commissioner Refugees, Geneva, Switzerland.
+TC 6
+Z9 6
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 161
+EP 189
+UT WOS:000076462700006
+ER
+
+PT J
+AU Iglesias, F
+AF Iglesias, F
+TI A collective biography of the Rio de la Plata clergy, 1806-1827
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Eastern Kentucky Univ, Richmond, KY 40475 USA.
+RP Iglesias, F (reprint author), Eastern Kentucky Univ, Richmond, KY 40475 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 166
+EP 183
+UT WOS:000073525100006
+ER
+
+PT J
+AU Chernela, JM
+AF Chernela, JM
+TI Sanuma memories: Yanomami ethnography in in times of crisis
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Florida Int Univ, Miami, FL 33199 USA.
+RP Chernela, JM (reprint author), Florida Int Univ, Miami, FL 33199 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 167
+EP 192
+UT WOS:000072220400012
+ER
+
+PT J
+AU Chernela, JM
+AF Chernela, JM
+TI Yanomami warfare: A political history
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Florida Int Univ, Miami, FL 33199 USA.
+RP Chernela, JM (reprint author), Florida Int Univ, Miami, FL 33199 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 167
+EP 192
+UT WOS:000072220400010
+ER
+
+PT J
+AU Chernela, JM
+AF Chernela, JM
+TI To drink of death: The narrative of a Shuar warrior
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Florida Int Univ, Miami, FL 33199 USA.
+RP Chernela, JM (reprint author), Florida Int Univ, Miami, FL 33199 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 167
+EP 192
+UT WOS:000072220400011
+ER
+
+PT J
+AU Chernela, JM
+AF Chernela, JM
+TI The last cannibals: A South American oral history.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Florida Int Univ, Miami, FL 33199 USA.
+RP Chernela, JM (reprint author), Florida Int Univ, Miami, FL 33199 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 167
+EP 192
+UT WOS:000072220400008
+ER
+
+PT J
+AU Chernela, JM
+AF Chernela, JM
+TI From the enemy's point of view: Humanity and divinity in an Amazonian
+   Society.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Florida Int Univ, Miami, FL 33199 USA.
+RP Chernela, JM (reprint author), Florida Int Univ, Miami, FL 33199 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 167
+EP 192
+UT WOS:000072220400009
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Administering targeted social programs in Latin America: From platitudes
+   to practice.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 185
+EP 196
+UT WOS:000073525100007
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Privatization amidst poverty - Contemporary challenges in Latin American
+   political economy
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 185
+EP 196
+UT WOS:000073525100011
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Government spending and income distribution in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 185
+EP 196
+UT WOS:000073525100008
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Strategies to combat poverty in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 185
+EP 196
+UT WOS:000073525100009
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Safety nets, politics, and the poor: Transitions to market economies.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 185
+EP 196
+UT WOS:000073525100010
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Social equity and changing production patterns: An integrated approach
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 186
+EP 196
+UT WOS:000073525100013
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI The new economic model in Latin America and its impact on income
+   distribution and poverty.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Williams Coll, Williamstown, MA 01267 USA.
+RP Sheahan, J (reprint author), Williams Coll, Williamstown, MA 01267 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 186
+EP 196
+UT WOS:000073525100012
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Mobile capital and Latin American development.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700015
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI The tobin tax: Coping with financial volatility.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700017
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Global change, regional response: The new international context of
+   development.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700010
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Latin America's new insertion in the world economy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700013
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Latin America in the world economy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700012
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Lessons in economic policy for Eastern Europe from Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700014
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Developing nations and the politics of global integration.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700008
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI The allure of the foreign imported goods in postcolonial Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700007
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Globalization, urbanization, and the state: Selected studies on
+   contemporary Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700011
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Regionalization in the world economy: NAFTA, the Americas, and Asia
+   Pacific.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700016
+ER
+
+PT J
+AU Felix, D
+AF Felix, D
+TI Exchange rate parity for trade and development: Theory, tests, and case
+   studies.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Washington Univ, St Louis, MO 63130 USA.
+RP Felix, D (reprint author), Washington Univ, St Louis, MO 63130 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 191
+EP 216
+UT WOS:000076462700009
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Caciques and their people: A volume in honor of Ronald Spores
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400018
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Agricultural rituals and other customs of Guerrero (16th-20th centuries)
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400013
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Between the alligator and the jaguar: The indigenous peoples of Guerrero
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400015
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Seeds of industry: Transformations of native technologies in the
+   Americas
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400017
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Indigenous agriculture: Past and present
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400016
+ER
+
+PT J
+AU Radding, C
+AF Radding, C
+TI Lending and borrowing: Social relations in Mexico from the 16th to the
+   20th century
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Illinois, Urbana, IL 61801 USA.
+RP Radding, C (reprint author), Univ Illinois, Urbana, IL 61801 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 193
+EP 211
+UT WOS:000072220400014
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI The madness of things Peruvian: Democracy under siege.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100023
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Democracy and authoritarianism in Peru: Political coalitions and social
+   change.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100015
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Violence in the Andean region.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100017
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Peru under fire: Human rights since the return to democracy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100014
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Peru in crisis: Dictatorship or democracy?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100022
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Between reform and revolution: Political struggles in the Peruvian
+   Andes, 1969-1991.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100020
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Theologies and liberation in Peru: The role of ideas in social
+   movements.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100018
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Unruly order: Violence, power, and cultural identity in the high
+   provinces of southern Peru.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100019
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI The Peru reader: History, culture, politics.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100021
+ER
+
+PT J
+AU Dietz, HA
+AF Dietz, HA
+TI Peru: A country study.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Dietz, HA (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 197
+EP 206
+UT WOS:000073525100016
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI The frontier mission and social transformation in western Honduras: The
+   order of Our Lady of Mercy, 1525-1773.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100024
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Encomienda politics in early colonial Guatemala, 1524-1544: Dividing the
+   spoils.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100027
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Guatemala in the Spanish colonial period.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100026
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Architecture and urbanization of colonial Central America, vol 1,
+   Primary documentation and literary sources.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100030
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Demography and empire: A guide to the population history of Spanish
+   central America, 1500-1821.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100028
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Santiago de Guatemala, 1541-1773: City, caste, and the colonial
+   experience.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100029
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Imperial Panama: Commerce and conflict in Isthmian America, 1550-1800.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100031
+ER
+
+PT J
+AU Restall, M
+AF Restall, M
+TI Indian payment in kind: The sixteenth-century encomiendas of Guatemala.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Boston Coll, Chestnut Hill, MA 02167 USA.
+RP Restall, M (reprint author), Boston Coll, Chestnut Hill, MA 02167 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 207
+EP 220
+UT WOS:000073525100025
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI State, capitalism, and democracy in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400023
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Democratizing Mexico: Public opinion and electoral choices.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400027
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Development and democratization in the Third World: Myths, hopes, and
+   realities.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400022
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Business and democracy in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400026
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Limitations of democratic consolidation in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400024
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Politics in developing countries: Comparing experiences with democracy,
+   2nd edition
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400019
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI The social construction of democracy, 1870-1990.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400021
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Democracy in Latin America: Patterns and cycles.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400020
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI The consolidation of democracy in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400025
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Transition to democracy in Latin America: The role of the judiciary.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400029
+ER
+
+PT J
+AU Kelly, J
+AF Kelly, J
+TI Fragile democracies: The legacies of authoritarian rule.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 212
+EP 225
+UT WOS:000072220400028
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI Zapotec Renaissance: Ethnic politics and cultural revivalism in Southern
+   Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700022
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI Rebellion from the roots: Indian uprising in Chiapas.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700018
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI Chiapas - Between the tower of Babel and the national language
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700020
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI A rich land, a poor people: Politics and society in modern Chiapas.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700023
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI Shadows of tender fury: The letters and communiques of Subcomandante
+   Marcos and the Zapatista Army of National Liberation.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700021
+ER
+
+PT J
+AU Brown, P
+AF Brown, P
+TI The Chiapas Rebellion.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Wisconsin, Oshkosh, WI 54901 USA.
+RP Brown, P (reprint author), Univ Wisconsin, Oshkosh, WI 54901 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 217
+EP 229
+UT WOS:000076462700019
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI From "green hell" to "green" hell: Amazonia and the sustainability
+   thesis.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100036
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI The social causes of environmental destruction in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100037
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Economic progress and the environment one developing country's policy
+   crisis.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100039
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Green guerrillas: Environmental conflicts and initiatives in Latin
+   America and the Caribbean.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100033
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Floods of fortune: Ecology and economy along the Amazon.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100035
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI In the society of nature: A native ecology in Amazonia.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100034
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Culture and global change: Social perceptions of deforestation in the
+   Lacandona rain forest in Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100032
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Rio maria: Song of the earth.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100038
+ER
+
+PT J
+AU Place, SE
+AF Place, SE
+TI Breakfast of biodiversity: The truth about rain forest destruction
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Calif State Univ Los Angeles, Chico, CA 95929 USA.
+RP Place, SE (reprint author), Calif State Univ Los Angeles, Chico, CA 95929 USA.
+TC 3
+Z9 3
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 221
+EP 236
+UT WOS:000073525100040
+ER
+
+PT J
+AU Korzeniewicz, M
+   Macias, T
+AF Korzeniewicz, M
+   Macias, T
+TI Brazil, a new regional power in the world economy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Korzeniewicz, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 226
+EP 238
+UT WOS:000072220400034
+ER
+
+PT J
+AU Korzeniewicz, M
+   Macias, T
+AF Korzeniewicz, M
+   Macias, T
+TI Growth and development in Brazil: Cardoso's real challenge
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Korzeniewicz, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 226
+EP 238
+UT WOS:000072220400032
+ER
+
+PT J
+AU Korzeniewicz, M
+   Macias, T
+AF Korzeniewicz, M
+   Macias, T
+TI Fighting for the soul of Brazil.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Korzeniewicz, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 226
+EP 238
+UT WOS:000072220400033
+ER
+
+PT J
+AU Korzeniewicz, M
+   Macias, T
+AF Korzeniewicz, M
+   Macias, T
+TI Neglected road: Fiscal and financial crisis of the state
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Korzeniewicz, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 226
+EP 238
+UT WOS:000072220400030
+ER
+
+PT J
+AU Korzeniewicz, M
+   Macias, T
+AF Korzeniewicz, M
+   Macias, T
+TI Economic crisis and state reform in Brazil: Toward a new interpretation
+   of Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Korzeniewicz, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 226
+EP 238
+UT WOS:000072220400031
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Forests and livelihoods: The social dynamics of deforestation in
+   developing countries.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700025
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Sustainable settlement in the Brazilian Amazon.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700030
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI The road from Rio: Sustainable development and the non-governmental
+   movement in the third world.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700028
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI A conservation assessment of the terrestrial ecoregions of Latin America
+   and the Caribbean.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700027
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Promised land: Base Christian Communities and the struggle for the
+   Amazon.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700026
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Forests in international environmental politics: International
+   organizations, NGOs, and the Brazilian Amazon.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700029
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Contested frontiers in Amazonia.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700031
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Poverty natural resources, and public policy in central America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700024
+ER
+
+PT J
+AU Silva, E
+AF Silva, E
+TI Defending the land of the Jaguar: A history of conservation in Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+RP Silva, E (reprint author), Univ Missouri, Ctr Int Studies, St Louis, MO 63121 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 230
+EP 247
+UT WOS:000076462700032
+ER
+
+PT J
+AU Milleret, M
+AF Milleret, M
+TI The modern Brazilian stage.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Milleret, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 237
+EP 244
+UT WOS:000073525100041
+ER
+
+PT J
+AU Milleret, M
+AF Milleret, M
+TI Latin American popular theatre: The first five centuries.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Milleret, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 237
+EP 244
+UT WOS:000073525100044
+ER
+
+PT J
+AU Milleret, M
+AF Milleret, M
+TI Negotiating performance: Gender, sexuality, and theatricality in Latin/o
+   America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Milleret, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 237
+EP 244
+UT WOS:000073525100042
+ER
+
+PT J
+AU Milleret, M
+AF Milleret, M
+TI Theatre in Latin America: Religion politics, and culture from cortes to
+   the 1980s.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ New Mexico, Albuquerque, NM 87131 USA.
+RP Milleret, M (reprint author), Univ New Mexico, Albuquerque, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 237
+EP 244
+UT WOS:000073525100043
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Cuba in crisis: Economic and political perspectives
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400037
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Cuba, economic restructuring: Proposal for a debate
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400035
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Democracy in Cuba and the contention with the United States
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400036
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Joint ventures in Cuba
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400041
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Cuba and the Caribbean after the Cold War
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400040
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Cuba after the Soviet era
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400039
+ER
+
+PT J
+AU Parker, D
+AF Parker, D
+TI Cuba, openness and economic reform: Outline of a debate
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Cent Univ Venezuela, Caracas, Venezuela.
+RP Parker, D (reprint author), Cent Univ Venezuela, Caracas, Venezuela.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 239
+EP 256
+UT WOS:000072220400038
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Patriarchy on the line: Labor, gender, and ideology in the Mexican
+   maquila industry
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100053
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Unequal burden: Economic crises, persistent poverty, and women's work.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100046
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Researching women in Latin America and the Caribbean.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100045
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Women in the Latin American development process.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100047
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Dolor y Alegria: Women and social change in urban Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100052
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Precarious dependencies: Gender, class, and domestic service in Bolivia.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100049
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Gender transitions: Mexican experiences of immigration.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100050
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Engendering wealth and well-being: Empowerment for global change.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100048
+ER
+
+PT J
+AU Flora, CB
+AF Flora, CB
+TI Women in the Americas: Bridging the gender gap
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Iowa State Univ, Ames, IA 50011 USA.
+RP Flora, CB (reprint author), Iowa State Univ, Ames, IA 50011 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 245
+EP 257
+UT WOS:000073525100051
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI Power and violence in the colonial city: Oruro from the mining
+   Renaissance to the rebellion of Tupac Amaru (1740-1782).
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY Bernard M Baruch Coll, New York, NY 10010 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY Bernard M Baruch Coll, 17 Lexington Ave, New York, NY 10010 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700034
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI They eat from their labor: Work and social change in colonial Bolivia.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY, Baruch Coll, New York, NY 10021 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY, Baruch Coll, New York, NY 10021 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700039
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI Andean journeys: Migration, ethnogenesis, and the state in colonial
+   Quito.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY, Baruch Coll, New York, NY 10021 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY, Baruch Coll, New York, NY 10021 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700038
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI Mirages of transition: The Peruvian Altiplano, 1780-1930.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY, Baruch Coll, New York, NY 10021 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY, Baruch Coll, New York, NY 10021 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700036
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI Ethnicity, markets, and migration in the Andes: At the crossroads of
+   history and anthropology
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY, Baruch Coll, New York, NY 10021 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY, Baruch Coll, New York, NY 10021 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700037
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI Paying the price of freedom: Family and labor among Lima's slaves,
+   1800-1854.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY, Baruch Coll, New York, NY 10021 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY, Baruch Coll, New York, NY 10021 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700035
+ER
+
+PT J
+AU Quiroz, AW
+AF Quiroz, AW
+TI The kingdom of Quito, 1690-1830: The state and regional development.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 CUNY Bernard M Baruch Coll, New York, NY 10010 USA.
+   CUNY, Grad Sch, New York, NY USA.
+RP Quiroz, AW (reprint author), CUNY Bernard M Baruch Coll, 17 Lexington Ave, New York, NY 10010 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 248
+EP 256
+UT WOS:000076462700033
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI The limits of racial domination: Plebeian society in colonial Mexico
+   City, 1660-1720.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400046
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI The secret history of gender: Women, men, and power in late colonial
+   Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400047
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI Our lady of Guadalupe: The origins and sources of a Mexican national
+   symbol, 1531-1797.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400044
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI Church and state in Bourbon Mexico: The diocese of Michoacan, 1749-1810.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400049
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI The legal culture of Northern New Spain, 1700-1810.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400048
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI A plague of sheep: Environmental consequences of the Conquest of Mexico.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400042
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI Memory myth, and time in Mexico: From the Aztecs to independence.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400043
+ER
+
+PT J
+AU Deans-Smith, S
+AF Deans-Smith, S
+TI Mexican manuscript painting of the early colonial period: The
+   metropolitan schools.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Univ Texas, Austin, TX 78712 USA.
+RP Deans-Smith, S (reprint author), Univ Texas, Austin, TX 78712 USA.
+TC 2
+Z9 2
+SN 0023-8791
+PY 1998
+VL 33
+IS 1
+BP 257
+EP 277
+UT WOS:000072220400045
+ER
+
+PT J
+AU Ruhl, JM
+AF Ruhl, JM
+TI Warriors in peacetime: The military and democracy in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700044
+ER
+
+PT J
+AU Ruhl, JM
+AF Ruhl, JM
+TI Eroding military influence in Brazil: Politicians against soldiers.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700042
+ER
+
+PT J
+AU Ruhl, JM
+   Loveman, B
+   Davies, TM
+AF Ruhl, JM
+   Loveman, B
+   Davies, TM
+TI The politics of anti-politics: The military in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700043
+ER
+
+PT J
+AU Ruhl, JM
+AF Ruhl, JM
+TI Beyond Praetorianism: The Latin American military in transition.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700045
+ER
+
+PT J
+AU Ruhl, JM
+AF Ruhl, JM
+TI Civil-military relations and democracy.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700040
+ER
+
+PT J
+AU Ruhl, JM
+AF Ruhl, JM
+TI The transition to democracy in Latin America: The role of the military.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Dickinson Coll, Carlisle, PA 17013 USA.
+RP Ruhl, JM (reprint author), Dickinson Coll, Carlisle, PA 17013 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 3
+BP 257
+EP 269
+UT WOS:000076462700041
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Castaways: The narrative of Alvar Nunez Cabeza de Vaca.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100058
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Between two waters: Narratives of transculturation in Latin America.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100060
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Christian psalmody.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100059
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI The literature of new Spain: Review, critique and methodological
+   proposals
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100055
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Coded encounters: Writing, gender, and ethnicity in colonial Latin
+   America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100056
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Critique and decolonization: The colonial subject in Latin American
+   culture
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100057
+ER
+
+PT J
+AU Myers, KA
+AF Myers, KA
+TI Book of the fourth world: Reading the native Americas through their
+   literature.
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Indiana Univ, Bloomington, IN 47405 USA.
+RP Myers, KA (reprint author), Indiana Univ, Bloomington, IN 47405 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 258
+EP 270
+UT WOS:000073525100054
+ER
+
+PT J
+AU Plotkin, M
+AF Plotkin, M
+TI Freud's adventures in the country of the Argentines: From Jose
+   Ingenieros to Enrique Pichon Riviere
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Colby Coll, Waterville, ME 04901 USA.
+RP Plotkin, M (reprint author), Colby Coll, Waterville, ME 04901 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 271
+EP 277
+UT WOS:000073525100063
+ER
+
+PT J
+AU Plotkin, M
+AF Plotkin, M
+TI Freud in Buenos Aires, 1910-1939
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Colby Coll, Waterville, ME 04901 USA.
+RP Plotkin, M (reprint author), Colby Coll, Waterville, ME 04901 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 271
+EP 277
+UT WOS:000073525100062
+ER
+
+PT J
+AU Plotkin, M
+AF Plotkin, M
+TI The arrival of psychoanalysis of Argentina: Obstacles and perspectives
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Colby Coll, Waterville, ME 04901 USA.
+RP Plotkin, M (reprint author), Colby Coll, Waterville, ME 04901 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 271
+EP 277
+UT WOS:000073525100061
+ER
+
+PT J
+AU Plotkin, M
+AF Plotkin, M
+TI Tell me about your life: A collective biography of psychoanalysis in
+   Argentina
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 Colby Coll, Waterville, ME 04901 USA.
+RP Plotkin, M (reprint author), Colby Coll, Waterville, ME 04901 USA.
+TC 4
+Z9 4
+SN 0023-8791
+PY 1998
+VL 33
+IS 2
+BP 271
+EP 277
+UT WOS:000073525100064
+ER
+
+PT J
+AU Berry, A
+AF Berry, A
+TI The income distribution threat in Latin America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LABOR
+RP Berry, A (reprint author), UNIV TORONTO,CTR INT STUDIES,PROGRAMME LATIN AMER,100 COLL ST,TORONTO,ON,CANADA.
+TC 19
+Z9 19
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 3
+EP 40
+UT WOS:A1997WY47500001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 3
+EP 6
+UT WOS:A1997YC22700001
+ER
+
+PT J
+AU Merkx, GW
+AF Merkx, GW
+TI Editor's foreword
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Merkx, GW (reprint author), UNIV NEW MEXICO, DEPT SOCIOL, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 3
+EP 5
+UT WOS:A1997WJ85900001
+ER
+
+PT J
+AU Romero, A
+AF Romero, A
+TI Rearranging the deck chairs on the Titanic: The agony of democracy in
+   Venezuela
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT Meeting of the Latin-American-Studies-Association
+CY SEP 28-30, 1995
+CL WASHINGTON, DC
+RP Romero, A (reprint author), UNIV SIMON BOLIVAR,CARACAS,VENEZUELA.
+TC 28
+Z9 28
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 7
+EP 36
+UT WOS:A1997WJ85900002
+ER
+
+PT J
+AU Sheahan, J
+AF Sheahan, J
+TI Effects of liberalization programs on poverty and inequality: Chile,
+   Mexico, and Peru
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LATIN-AMERICA; ADJUSTMENT
+RP Sheahan, J (reprint author), WILLIAMS COLL,WILLIAMSTOWN,MA 01267, USA.
+TC 15
+Z9 16
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 7
+EP 37
+UT WOS:A1997YC22700002
+ER
+
+PT J
+AU Weyland, K
+AF Weyland, K
+TI ''Growth with equity'' in Chile's new democracy?
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LATIN-AMERICA; DEMOCRATIZATION; REGIME; BRAZIL
+RP Weyland, K (reprint author), VANDERBILT UNIV,NASHVILLE,TN 37240, USA.
+TC 39
+Z9 41
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 37
+EP 67
+UT WOS:A1997WJ85900003
+ER
+
+PT J
+AU Smallman, SC
+AF Smallman, SC
+TI Shady business: Corruption in the Brazilian Army before 1954
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID TRANSITION; DEMOCRACY; PARAGUAY
+RP Smallman, SC (reprint author), PORTLAND STATE UNIV,INT STUDIES DEPT,PORTLAND,OR 97207, USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 39
+EP 62
+UT WOS:A1997YC22700003
+ER
+
+PT J
+AU Stephen, L
+AF Stephen, L
+TI Pro-Zapatista and pro-PRI: Resolving the contradictions of Zapatismo in
+   rural Oaxaca
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Stephen, L (reprint author), NORTHEASTERN UNIV,BOSTON,MA 02115, USA.
+TC 21
+Z9 21
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 41
+EP 70
+UT WOS:A1997WY47500002
+ER
+
+PT J
+AU Woods, LA
+   Perry, JM
+   Steagall, JW
+AF Woods, LA
+   Perry, JM
+   Steagall, JW
+TI The composition and distribution of ethnic groups in Belize: Immigration
+   and emigration patterns, 1980-1991
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Woods, LA (reprint author), UNIV N FLORIDA, DEPT ECON & GEOG, JACKSONVILLE, FL 32224 USA.
+TC 1
+Z9 1
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 63
+EP 88
+UT WOS:A1997YC22700004
+ER
+
+PT J
+AU Evans, S
+AF Evans, S
+TI At Union's brink: Ideals and problems in restoring the United Provinces
+   of Central America, 1920-1922
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Evans, S (reprint author), UNIV KANSAS,LAWRENCE,KS 66045, USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 69
+EP 87
+UT WOS:A1997WJ85900004
+ER
+
+PT J
+AU Clark, MA
+AF Clark, MA
+TI Transnational alliances and development policy in Latin America:
+   Nontraditional export promotion in Costa Rica
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LED GROWTH
+RP Clark, MA (reprint author), TULANE UNIV,NEW ORLEANS,LA 70118, USA.
+TC 21
+Z9 21
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 71
+EP 97
+UT WOS:A1997WY47500003
+ER
+
+PT J
+AU Libby, DC
+AF Libby, DC
+TI Reconsidering textile production in late colonial Brazil: New evidence
+   from Minas Gerais
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Libby, DC (reprint author), UNIV FED MINAS GERAIS,DEPT HIST,BELO HORIZONT,MG,BRAZIL.
+TC 5
+Z9 6
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 88
+EP 108
+UT WOS:A1997WJ85900005
+ER
+
+PT J
+AU Korovkin, T
+AF Korovkin, T
+TI Taming capitalism: The evolution of the indigenous peasant economy in
+   Northern Ecuador
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+ID LABOR
+RP Korovkin, T (reprint author), UNIV WATERLOO,DEPT POLIT SCI,WATERLOO,ON N2L 3G1,CANADA.
+TC 17
+Z9 17
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 89
+EP 110
+UT WOS:A1997YC22700005
+ER
+
+PT J
+AU Berger, SA
+AF Berger, SA
+TI Environmentalism in Guatemala: When fish have ears
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Berger, SA (reprint author), FORDHAM UNIV,LATIN AMER & LATINO STUDIES,BRONX,NY 10458, USA.
+TC 5
+Z9 5
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 99
+EP 116
+UT WOS:A1997WY47500004
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Where north meets south: Cities, space, and politics on the US-Mexico
+   border - Herzog,LA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900016
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Urban Leviathan: Mexico city in the twentieth century - Davis,DE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900015
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Caracas: How its people view it - Spanish - Mejias,LA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900006
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI In search of a home: Rental and shared housing Latin America - Gilbert,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900009
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI City government - Spanish - Kelly,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900008
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Latin American urbanization: Historical profiles of major cities -
+   Greenfield,GM
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900010
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI The Mexican border cities: Landscape anatomy and place personality -
+   Arreola,D, Curtis,JR
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900014
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Caracas: New scenarios for local power - Spanish - Vallmitjana,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900007
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Mexico city: The production and reproduction of an urban environment -
+   Ward,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900011
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Rethinking the Latin American city - Morse,RM, Hardoy,JE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900013
+ER
+
+PT J
+AU Myers, DJ
+AF Myers, DJ
+TI Policing Rio de Janeiro: Repression and resistance in a
+   nineteenth-century city - Holloway,TH
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Myers, DJ (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 109
+EP 123
+UT WOS:A1997WJ85900012
+ER
+
+PT J
+AU Pino, JC
+AF Pino, JC
+TI Sources on the history of favelas in Rio de Janeiro
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Pino, JC (reprint author), KENT STATE UNIV,KENT,OH 44242, USA.
+TC 8
+Z9 10
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 111
+EP 122
+UT WOS:A1997YC22700006
+ER
+
+PT J
+AU Talbot, JM
+AF Talbot, JM
+TI The struggle for control of a commodity chain: Instant coffee from Latin
+   America
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+CT 19th Annual Conference on the Political Economy of the World System
+CY APR 21-22, 1995
+CL UNIV MIAMI, CORAL GABLES, FL
+HO UNIV MIAMI
+RP Talbot, JM (reprint author), UNIV CALIF BERKELEY, BERKELEY, CA 94720 USA.
+TC 17
+Z9 18
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 117
+EP 135
+UT WOS:A1997WY47500005
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Working women, working men: Sao Paulo and the rise of Brazil's
+   industrial working class, 1900-1955 - Wolfe,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700011
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Democracy or reforms? Democratic alternatives to political crisis,
+   1961-1964 - Portuguese - Figueiredo,AC
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700012
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Politician's dilemma: Building state capacity in Latin America -
+   Geddes,B
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700008
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Politics within the state: Elite bureaucrats and industrial policy in
+   authoritarian Brazil - Schneider,BR
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700009
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Embedded autonomy: States and industrial transformation - Evans,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700010
+ER
+
+PT J
+AU Addis, C
+AF Addis, C
+TI Industrialization, trade, and market failures: The role of government
+   intervention in Brazil and South Korea - Moreira,MM
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Addis, C (reprint author), RUTGERS STATE UNIV, CAMDEN, NJ 08102 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 123
+EP 139
+UT WOS:A1997YC22700007
+ER
+
+PT J
+AU Topik, SC
+AF Topik, SC
+TI Women of the Mexican countryside, 1850-1990 - FowlerSalamini,H,
+   Vaughn,MK
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Topik, SC (reprint author), UNIV CALIF IRVINE, IRVINE, CA 92717 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 124
+EP 138
+UT WOS:A1997WJ85900019
+ER
+
+PT J
+AU Topik, SC
+AF Topik, SC
+TI With broadax and firebrand: The destruction of the Brazilian Atlantic
+   forest - Dean,W
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Topik, SC (reprint author), UNIV CALIF IRVINE, IRVINE, CA 92717 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 124
+EP 138
+UT WOS:A1997WJ85900020
+ER
+
+PT J
+AU Topik, SC
+AF Topik, SC
+TI Basta! Land and the Zapatista rebellion in Chiapas - Collier,G,
+   Quaratiello,EL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Topik, SC (reprint author), UNIV CALIF IRVINE, IRVINE, CA 92717 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 124
+EP 138
+UT WOS:A1997WJ85900021
+ER
+
+PT J
+AU Topik, SC
+AF Topik, SC
+TI Tastes of paradise: A social history of spices, stimulants, and
+   intoxicants - Schivelbusch,W
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Topik, SC (reprint author), UNIV CALIF IRVINE, IRVINE, CA 92717 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 124
+EP 138
+UT WOS:A1997WJ85900017
+ER
+
+PT J
+AU Topik, SC
+AF Topik, SC
+TI Coffee, society, and power in Latin America - Roseberry,W, Gudmundson,L,
+   Kutschbach,MS
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Topik, SC (reprint author), UNIV CALIF IRVINE, IRVINE, CA 92717 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 124
+EP 138
+UT WOS:A1997WJ85900018
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Cultures in conflict: Social movements and the state in Peru - Stokes,SC
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500016
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI New social movements in the south: Empowering the people - Wignaraja,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500017
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Shantytown protest in Pinochet's Chile - Schneider,CL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500015
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI The other side of the moon: New social actors in Peru - Spanish -
+   Pasara,L, Delpino,N, Valdeavellano,R, Zarzar,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500011
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Class democracy, and labor in contemporary Argentina - Ranis,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500014
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Organizing civil society: The popular sectors and the struggle for
+   democracy in Chile - Oxhorn,PD
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500012
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Fighting capital: Crisis and recomposition of the working class in
+   Argentina 1985-1993 - Spanish - Pozzi,P, Schneider,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500013
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Revolutionizing motherhood: The mothers of the Plaza de Mayo -
+   Bouvard,MG
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500010
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI The struggle for democracy in Chile - Drake,PW, Jaksic,I
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500009
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI The politics of human rights in Argentina: Protest, change, and
+   democratization - Brysk,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500007
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI Social movements and politics: The eighties in Latin America - Spanish -
+   Calderon,F
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500008
+ER
+
+PT J
+AU Roberts, KM
+AF Roberts, KM
+TI What's popular in Latin America: A vision in crisis - Spanish -
+   Adrianzen,A, Ballon,E
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Roberts, KM (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 137
+EP 151
+UT WOS:A1997WY47500006
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI Chile's free-market miracle: A second look - Collins,J, Lear,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900024
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI Pinochet's economists: The Chicago school in Chile - Valdes,JG
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900027
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI Democracy and poverty in Chile - Petras,J, Leiva,FI, Veltmeyer,H
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900026
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI Politics in Chile: Democracy, authoritarianism, and the search for
+   development - Oppenheim,LH
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900025
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI The Chilean economy: Policy lessons and challenges - Bosworth,BP,
+   Dornbusch,R, Laban,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900023
+ER
+
+PT J
+AU Richards, DG
+AF Richards, DG
+TI Chile: The political economy of development and democracy in the 1990s -
+   Hojman,DE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Richards, DG (reprint author), INDIANA STATE UNIV, DEPT ECON, TERRE HAUTE, IN 47809 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 139
+EP 159
+UT WOS:A1997WJ85900022
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Remaking the Argentine economy - delaBalze,F
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700021
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Frontier development: Land, labour, and capital on the wheatlands of
+   Argentina and Canada, 1890-1914 - Adelman,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700015
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI The labor wars in Cordoba, 1955-1976: Ideology, work, and labor politics
+   in an Argentine industrial city - Brennan,JP
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700019
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI The International Monetary Fund and economic stabilization: The
+   Argentine case - Manzetti,L
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700020
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Frondizi and the politics of developmentalism in Argentina, 1955-1962 -
+   Szusterman,C
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700018
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Workers in Buenos Aires: The market experience 1850-1880 - Spanish -
+   Sabato,H, Romero,LA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700013
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Frontier development: Land, labour, and capital on the wheat-lands of
+   Argentina and Canada, 1890-1914 - Adelman,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700014
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI The United States and Peronismo: North American policy in Argentina,
+   1949-1955 - Spanish - Rapoport,M, Spiguel,C
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700016
+ER
+
+PT J
+AU Heras, RG
+AF Heras, RG
+TI Politics and urban growth in Buenos Aires, 1910-1942 - Walter,RJ
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Heras, RG (reprint author), UNIV BUENOS AIRES, RA-1053 BUENOS AIRES, DF, ARGENTINA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 140
+EP 151
+UT WOS:A1997YC22700017
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI ''The hour of eugenics'': Race, gender, and nation in Latin America -
+   Stepan,NL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700026
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI Blackness and race mixture: The dynamics of racial identity in Colombia
+   - Wade,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700024
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI Prince of the people: The life and times of a Brazilian free man of
+   colour - Silva,E
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700028
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI The life and death of Carolina Maria De Jesus - Levine,R, Meihy,JCSB
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700027
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI The city of women - Landes,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700025
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI Black into white: Race and nationalism in Brazilian thought - Skidmore,T
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700023
+ER
+
+PT J
+AU Bieber, J
+AF Bieber, J
+TI African-American reflections on Brazil's racial paradise - Hellwig,DJ
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Bieber, J (reprint author), UNIV NEW MEXICO, ALBUQUERQUE, NM 87131 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 152
+EP 168
+UT WOS:A1997YC22700022
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Broken promises: Agrarian reform and the Latin American Campesino -
+   Thiesenhusen,WC
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500027
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Structural adjustment: Retrospect and prospect - Schydlowsky,DM
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500026
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Structural adjustment and the agricultural sector in Latin America -
+   Weeks,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500028
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Poverty and inequality in Latin America: The impact of adjustment and
+   recovery in the 1980s - Morley,SA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500024
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Free trade and economic restructuring in Latin America - Rosen,F,
+   McFadyen,D, Zamora,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500025
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Coping with capital surges: The return of finance to Latin America -
+   FfrenchDavis,R, GriffithJones,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500021
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Unshackling the private sector: Poverty and inequality in Latin America
+   - Holden,P, Rajapatirana,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500022
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Crisis and reform in Latin America: From despair to hope - Edwards,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500020
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Latin America's economic development: Confronting crisis - Dietz,JL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500019
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Coping with austerity: Poverty and inequality in Latin America -
+   Lustig,N
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500023
+ER
+
+PT J
+AU Zuvekas, C
+AF Zuvekas, C
+TI Meeting the infrastructure challenge in Latin America and the Caribbean
+   - Burki,SJ
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 152
+EP 169
+UT WOS:A1997WY47500018
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Columbian consequences, volume 3: The Spanish borderlands in
+   pan-American perspective - Thomas,DH
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900033
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Indians and intruders in central California, 1769-1849 - Phillips,GH
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900032
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Indians, Franciscans, and Spanish colonization: The impact of the
+   mission system on California Indians - Jackson,RH, Castillo,E
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900030
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI The Pueblo revolt of 1680: Conquest and resistance in
+   seventeenth-century New Mexico - Knaut,AL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900031
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI The Spanish frontier in North America - Weber,DJ
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900034
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Indian population decline: The missions of Northwestern New Spain,
+   1687-1840 - Jackson,RR
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900029
+ER
+
+PT J
+AU Schwaller, JF
+AF Schwaller, JF
+TI Antigua California: Mission and colony on the peninsular frontier,
+   1697-1768 - Crosby,HW
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Schwaller, JF (reprint author), UNIV MONTANA, MISSOULA, MT 59812 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 160
+EP 170
+UT WOS:A1997WJ85900028
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Of the manners of speaking that the old ones had: The metaphors of
+   Andres de Olmos in the Tulal manuscript - Maxwell,JM, Hanson,CA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700032
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Codex Telleriano-Remensis: Ritual, divination, and history in a
+   pictorial Aztec manuscript - Keber,EQ
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700035
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Archaeological research at Aztec-period rural sites in Morelos, Mexico,
+   vol 1, excavations and architecture - Smith,ME
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700036
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Life and labor in ancient Mexico: The brief and summary relation of the
+   Lords of New Spain - deZorita,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700037
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Mixteca-Puebla: Discoveries and research in mesoamerican art and
+   archaeology - Nicholson,HB, Quinones,E
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700034
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI The darker side of the Renaissance: Literacy, territoriality, and
+   colonization - Mignolo,WD
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700033
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Economies and polities in the Aztec realm - Hodge,MG, Smith,ME
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700029
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI They are coming ... The conquest of Mexico - Pacheco,JLPY
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700031
+ER
+
+PT J
+AU Zeitlin, JF
+AF Zeitlin, JF
+TI Three studies on the tax system of the Mexicas - Spanish - Kobayashi,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Zeitlin, JF (reprint author), UNIV MASSACHUSETTS, BOSTON, MA 02125 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 169
+EP 186
+UT WOS:A1997YC22700030
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Elections and political economy in Ecuador 1993-1994 - Spanish -
+   Schuldt,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500039
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Ecuador, a budding nation, 2nd edition - Spanish - Lopez,RQ, Charvet,ES
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500036
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Theory of the state in Ecuador: Study in constitutional law - Spanish -
+   Vasquez,JCT
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500040
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI The deputies, a legislative elite - Spanish - Pachano,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500033
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI The public and the citizenry in the building of a democracy - Spanish -
+   SanchezParga,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500038
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Ventures and misadventures of power - Spanish - Lara,RR
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500037
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Military rule and transition in Ecuador, 1972-1992 - Isaacs,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500031
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Theories of dependent foreign policy and the case of Ecuador in the
+   1980s - Hey,JAK
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500030
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Paquetazo - Spanish - Paredes,P
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500034
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI The elections in Ecuador: Cantonal officials 1978-1990 - Spanish -
+   Velasco,JBL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500032
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI Social and economic reform in Ecuador: Life and work in Guayaquil -
+   Pineo,RF
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500035
+ER
+
+PT J
+AU Martz, JD
+AF Martz, JD
+TI University, state and society - Spanish - Vazquez,TC
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Martz, JD (reprint author), PENN STATE UNIV, UNIVERSITY PK, PA 16802 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 170
+EP 183
+UT WOS:A1997WY47500029
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI The Comanchero frontier: A history of New Mexican Plains Indian
+   relations - Kenner,CL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV LAS AMERICAS, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900042
+ER
+
+PT J
+AU Shadow, RD
+   RodriquezShadow, MJ
+AF Shadow, RD
+   RodriquezShadow, MJ
+TI Land, water, and culture: New perspectives on Hispanic land grants -
+   Briggs,CL, VanNess,JR
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900040
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI Mercedes reales: Hispanic land grants of the upper Rio Grande region -
+   Westphall,V
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV LAS AMERICAS, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900041
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI No separate refuge: Culture, class, and gender on an Anglo-Hispanic
+   frontier in the American Southwest, 1880-1940 - Deutsch,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV LAS AMERICAS, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900039
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI The preservation of the village: New Mexico's hispanics and the New Deal
+   - Forrest,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV LAS AMERICAS, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900038
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI Land grants and lawsuits in Northern New Mexico - Ebright,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV AMERICAS PUEBLA, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900035
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI The Hispano homeland - Nostrand,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV AMERICAS PUEBLA, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900036
+ER
+
+PT J
+AU Shadow, RD
+   RodriguezShadow, MJ
+AF Shadow, RD
+   RodriguezShadow, MJ
+TI The Spanish-American homeland - Carlson,AW
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+C1 INST NACL ANTROPOL & HIST, DIRECC ETNOL & ANTROPOL SOCIAL, MEXICO CITY, DF, MEXICO.
+RP Shadow, RD (reprint author), UNIV LAS AMERICAS, PUEBLA, MEXICO.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 171
+EP 198
+UT WOS:A1997WJ85900037
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI The evolution of the Mexican political system - Rodriguez,JE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500047
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI The Mexican political system in transition - Cornelius,WA, Craig,AL
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500043
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI The presidency in Mexican politics - Philip,G
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500046
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI The deterioration of the Mexican presidency: The years of Luis
+   Echeverria - Schmidt,S
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500048
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI Exits from the Labyrinth: Culture and ideology in Mexican national space
+   - LomnitzAdler,C
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500044
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI Corruption and politics in contemporary Mexico - Morris,SD
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500045
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI Mexico's alternative political futures - Cornelius,WA, Gentleman,J,
+   Smith,PH
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500042
+ER
+
+PT J
+AU Klesner, JL
+AF Klesner, JL
+TI Generals in the Palacio: The military in modern Mexico - Camp,RA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Klesner, JL (reprint author), KENYON COLL, DEPT POLIT SCI, GAMBIER, OH 43022 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 184
+EP 200
+UT WOS:A1997WY47500041
+ER
+
+PT J
+AU Murray, P
+AF Murray, P
+TI The republican tradition of good government - Spanish - Chavez,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Murray, P (reprint author), UNIV ALABAMA, BIRMINGHAM, AL 35294 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 187
+EP 192
+UT WOS:A1997YC22700041
+ER
+
+PT J
+AU Murray, P
+AF Murray, P
+TI Maximilian's lieutenant: A personal history of the Mexican campaign,
+   1864-1867 - EtheringtonSmith,G
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Murray, P (reprint author), UNIV ALABAMA, BIRMINGHAM, AL 35294 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 187
+EP 192
+UT WOS:A1997YC22700042
+ER
+
+PT J
+AU Murray, P
+AF Murray, P
+TI Rituals of rule, rituals of resistance: Public celebrations and popular
+   culture in Mexico - Beezley,WH, Martin,CE, French,WE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Murray, P (reprint author), UNIV ALABAMA, BIRMINGHAM, AL 35294 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 187
+EP 192
+UT WOS:A1997YC22700038
+ER
+
+PT J
+AU Murray, P
+AF Murray, P
+TI The Central Republic in Mexico, 1835-1846: Hombres de bien in the age of
+   Santa Anna - Costeloe,MP
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Murray, P (reprint author), UNIV ALABAMA, BIRMINGHAM, AL 35294 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 187
+EP 192
+UT WOS:A1997YC22700039
+ER
+
+PT J
+AU Murray, P
+AF Murray, P
+TI A peaceful and working people: Manners, morals, and class formation in
+   Northern Mexico - French,WE
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Murray, P (reprint author), UNIV ALABAMA, BIRMINGHAM, AL 35294 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 187
+EP 192
+UT WOS:A1997YC22700040
+ER
+
+PT J
+AU Rodriguez, FVM
+AF Rodriguez, FVM
+TI The least expected day: History of inmates in Puerto Rico (1793-1993) -
+   Spanish - Pico,F
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Rodriguez, FVM (reprint author), NORTHEASTERN UNIV, BOSTON, MA 02115 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 193
+EP 208
+UT WOS:A1997YC22700045
+ER
+
+PT J
+AU Rodriguez, FVM
+AF Rodriguez, FVM
+TI My music is my flag: Puerto Rican musicians and their New York
+   communities, 1917-1940 - Glasser,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Rodriguez, FVM (reprint author), NORTHEASTERN UNIV, BOSTON, MA 02115 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 193
+EP 208
+UT WOS:A1997YC22700046
+ER
+
+PT J
+AU Rodriguez, FVM
+AF Rodriguez, FVM
+TI Tradition of the future: One hundred years of the Banco Popular de
+   Puerto Rico (1890-1993) - Spanish - Baralt,GA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Rodriguez, FVM (reprint author), NORTHEASTERN UNIV, BOSTON, MA 02115 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 193
+EP 208
+UT WOS:A1997YC22700043
+ER
+
+PT J
+AU Rodriguez, FVM
+AF Rodriguez, FVM
+TI Against the current: Six microbiographies from the time of Spain -
+   Spanish - Pico,F
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Rodriguez, FVM (reprint author), NORTHEASTERN UNIV, BOSTON, MA 02115 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 193
+EP 208
+UT WOS:A1997YC22700044
+ER
+
+PT J
+AU Rodriguez, FVM
+AF Rodriguez, FVM
+TI Social control and political attitudes in Puerto Rico (1823-1837) -
+   Spanish - Garcia,JRN
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Rodriguez, FVM (reprint author), NORTHEASTERN UNIV, BOSTON, MA 02115 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 193
+EP 208
+UT WOS:A1997YC22700047
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Si me permiten hablar: A testimony by Domitila, a woman from the
+   Bolivian mines - Spanish - Viezzer,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900052
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Guatemalan women speak - Hooks,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900048
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Celsa's world: Conversations with a Mexican peasant woman - Tirado,TC
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900051
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI A dream compels us: Voices of Salvadoran women - Carter,B, Insko,K,
+   Loeb,D, Tobias,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900049
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Hear my testimony: Maria Teresa Tula, human rights activist of El
+   Salvador - Stephen,L
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900050
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Mothers of the disappeared - Fisher,J
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900046
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Women and revolution in Nicaragua - Collinson,H
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900045
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI The hour of the poor, the hour of women - Golden,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900047
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI My name is Rigoberta Menchu and this is how my consciousness was born -
+   Spanish - Burgos,E
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900044
+ER
+
+PT J
+AU Logan, K
+AF Logan, K
+TI Translated woman: Crossing the border with Esperanza's story - Behar,R
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Logan, K (reprint author), FLORIDA INT UNIV, DEPT SOCIOL & ANTHROPOL, MIAMI, FL 33199 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 1
+BP 199
+EP 211
+UT WOS:A1997WJ85900043
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Paper tigers and minotaurs: The politics of Venezuela's economic reforms
+   - Naim,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500053
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Decadence and crisis of democracy - Spanish - Romero,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500055
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Venezuela in the wake of radical reform - Tulchin,JS, Bland,G
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500054
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Lessons of the Venezuelan experience - Goodman,LW, Forman,JM, Naim,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500050
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Venezuelan democracy under stress - McCoy,J, Serbin,A, Smith,WC,
+   Stambouli,A
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500052
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Democracy for the privileged: Crisis and transition in Venezuela -
+   Hillman,RS
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500051
+ER
+
+PT J
+AU Ellner, S
+AF Ellner, S
+TI Strong parties and lame ducks: Presidential partyarchy and factionalism
+   in Venezuela - Coppedge,M
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Ellner, S (reprint author), UNIV ORIENTE, PUERTO LA CRUZ, VENEZUELA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 2
+BP 201
+EP 218
+UT WOS:A1997WY47500049
+ER
+
+PT J
+AU Hoskin, G
+AF Hoskin, G
+TI Legislatures and the new democracies in Latin America - Close,D
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Hoskin, G (reprint author), SUNY BUFFALO, BUFFALO, NY 14260 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 209
+EP 223
+UT WOS:A1997YC22700049
+ER
+
+PT J
+AU Hoskin, G
+AF Hoskin, G
+TI New paths to democratic development in Latin America - Reilly,CA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Hoskin, G (reprint author), SUNY BUFFALO, BUFFALO, NY 14260 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 209
+EP 223
+UT WOS:A1997YC22700055
+ER
+
+PT J
+AU Hoskin, G
+AF Hoskin, G
+TI A new moment in the Americas - Leiken,RS
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Hoskin, G (reprint author), SUNY BUFFALO, BUFFALO, NY 14260 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 209
+EP 223
+UT WOS:A1997YC22700050
+ER
+
+PT J
+AU Hoskin, G
+AF Hoskin, G
+TI Parties and political class in Latin America in the nineties - Spanish -
+   Perelli,C, Picado,S, Zovatto,D
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Hoskin, G (reprint author), SUNY BUFFALO, BUFFALO, NY 14260 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 209
+EP 223
+UT WOS:A1997YC22700054
+ER
+
+PT J
+AU Hoskin, G
+AF Hoskin, G
+TI Latin America's Christian democratic parties: A political economy -
+   Lynch,EA
+SO LATIN AMERICAN RESEARCH REVIEW
+LA English
+RP Hoskin, G (reprint author), SUNY BUFFALO, BUFFALO, NY 14260 USA.
+TC 0
+Z9 0
+SN 0023-8791
+PY 1997
+VL 32
+IS 3
+BP 209
+EP 223
+UT WOS:A1997YC22700052
+ER
+
+EF

@@ -1,0 +1,126 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Amador-Vargas, Sabrina
+   Dominguez, Marisol
+   Leon, Gunnary
+   Maldonado, Belen
+   Murillo, Johanna
+   Vides, Gabriel L.
+TI Leaf-folding response of a sensitive plant shows context-dependent
+   behavioral plasticity
+SO PLANT ECOLOGY
+VL 215
+IS 12
+BP 1445
+EP 1454
+DI 10.1007/s11258-014-0401-4
+PD DEC 2014
+PY 2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 1385-0237
+UT WOS:000344810900007
+ER
+
+PT J
+AU Andraka, Sandra
+   Mug, Moises
+   Hall, Martin
+   Pons, Maite
+   Pacheco, Lucas
+   Parrales, Manuel
+   Rendon, Liliana
+   Parga, Maria L.
+   Mituhasi, Takahisa
+   Segura, Alvaro
+   Ortega, David
+   Villagran, Erick
+   Perez, Sara
+   de Paz, Celina
+   Siu, Salvador
+   Gadea, Velkiss
+   Caicedo, Julian
+   Zapata, Luis A.
+   Martinez, Jimmy
+   Guerrero, Pablo
+   Valqui, Michael
+   Vogel, Nick
+TI Circle hooks: Developing better fishing practices in the artisanal
+   longline fisheries of the Eastern Pacific Ocean
+SO BIOLOGICAL CONSERVATION
+VL 160
+BP 214
+EP 224
+DI 10.1016/j.biocon.2013.01.019
+PD APR 2013
+PY 2013
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0006-3207
+UT WOS:000320684700024
+ER
+
+PT J
+AU Stephen, Catherine L.
+   Reynoso, Victor H.
+   Collett, William S.
+   Hasbun, Carlos R.
+   Breinholt, Jesse W.
+TI Geographical structure and cryptic lineages within common green iguanas,
+   Iguana iguana
+SO JOURNAL OF BIOGEOGRAPHY
+VL 40
+IS 1
+BP 50
+EP 62
+DI 10.1111/j.1365-2699.2012.02780.x
+PD JAN 2013
+PY 2013
+RI Breinholt, Jesse/F-4330-2014
+TC 0
+ZB 0
+Z8 0
+ZS 0
+Z9 0
+SN 0305-0270
+UT WOS:000312646800005
+ER
+
+PT J
+AU Gaos, Alexander R.
+   Lewison, Rebecca L.
+   Wallace, Bryan P.
+   Yanez, Ingrid L.
+   Liles, Michael J.
+   Nichols, Wallace J.
+   Baquero, Andres
+   Hasbun, Carlos R.
+   Vasquez, Mauricio
+   Urteaga, Jose
+   Seminoff, Jeffrey A.
+TI Spatial ecology of critically endangered hawksbill turtles Eretmochelys
+   imbricata: implications for management and conservation
+SO MARINE ECOLOGY PROGRESS SERIES
+VL 450
+BP 181
+EP U198
+DI 10.3354/meps09591
+PD 2012
+PY 2012
+TC 4
+ZB 6
+Z8 0
+ZS 0
+Z9 6
+SN 0171-8630
+UT WOS:000302066000014
+ER
+
+EF

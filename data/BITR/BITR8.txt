@@ -1,0 +1,4403 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU GASTONY G J
+   HAUFLER C H
+TI CHROMOSOME NUMBERS AND APOMIXIS IN THE FERN GENUS BOMMERIA
+   GYMNOCRAMMACEAE
+SO Biotropica
+VL 8
+IS 1
+BP 1
+EP 11
+DI 10.2307/2387815
+PD 1976
+PY 1976
+AB Species of the fern genus Bommeria occur from the southwestern USA,
+   throughout much of Mexico and into Guatemala, Honduras, Nicaragua and
+   Costa Rica. Acetocarmine squashes of spore mother cells, root tips and
+   gametophyte meristems yielded chromosome counts for the 5 putative
+   species: n = 30, 2n = 60 in B. hispida (Mett.) Underw., B. subpaleacea
+   Maxon, B. ehrenbergiana (Kl.) Fourn. and B. knoblochii Maxon; n = 2n =
+   90 in B. pedata (Sw.) Fourn. The first 4 of these species are sexual,
+   producing 64 functional spores per sporangium and requiring the addition
+   of free water to gametophyte cultures for sporophyte initiation. B.
+   pedata produces both well developed sporangia containing 32 functional
+   spores and shrunken sporangia with aborted contents. Although
+   gametophytes of B. pedata produce structurally complete archegonia and
+   functional antheridia, culturing and sectioning data indicate that
+   sporophytes arise apogamously near archegonia whose contents are
+   necrotic. The generally greater geographic distribution of B. pedata
+   relative to its sexual congeners may be taken to indicate the present
+   success of this apogamous species.
+ZR 0
+ZB 24
+ZS 0
+TC 25
+Z8 0
+Z9 29
+SN 0006-3606
+UT BCI:BCI197662029841
+ER
+
+PT J
+AU FREELAND W J
+TI PATHOGENS AND THE EVOLUTION OF PRIMATE SOCIALITY
+SO Biotropica
+VL 8
+IS 1
+BP 12
+EP 24
+DI 10.2307/2387816
+PD 1976
+PY 1976
+AB It is hypothesized that individual primates increase their fitness by
+   patterning their behavior and social interaction so that they minimize
+   the probability of acquiring new pathogens and minimize the
+   pathogenicity of diseases they already harbor. Selection for disease
+   control and avoidance may be a potent force in determining parameters
+   such as the level of integrity exhibited by a social group's individual
+   composition, the size of social groups and patterns of movement. The
+   problems posed by disease and, perhaps as a consequence, the precise
+   forms of the social parameters, are largely dependent on the particular
+   physical environment and the nature of food resources exploited.
+   [Presbytis entellus, P. senex, Colobus guereza, C. badius, Cercopithecus
+   aethiops, Ateles belzebuth, Papio anubis, P. hamadryas and Cebus are
+   mentioned.].
+ZB 203
+ZR 0
+ZS 1
+TC 257
+Z8 1
+Z9 260
+SN 0006-3606
+UT BCI:BCI197662048361
+ER
+
+PT J
+AU SCHWASSMANN H O
+TI ECOLOGY AND TAXONOMIC STATUS OF DIFFERENT GEOGRAPHIC POPULATIONS OF
+   GYMNORHAMPHICHTHYS-HYPOSTOMUS PISCES CYPRINIFORMES GYMNOTOIDEI
+SO Biotropica
+VL 8
+IS 1
+BP 25
+EP 40
+DI 10.2307/2387817
+PD 1976
+PY 1976
+AB G. hypostomus Ellis, 1 of the weakly electric gymnotoid fishes, inhabits
+   small streams in the Amazon drainage basin. Specimens collected in 3
+   principal areas, Belem (Para), Manaus (Amazonas) and Rondonia, reveal
+   that the 3 geographic populations are distinct from each other in
+   certain morphologic characters: Urumara rondoni A. Miranda Ribeiro
+   should be considered invalid since the type, the only existing specimen,
+   is shown to be an immature individual of Gymnorphamphichthys.
+   Gymnorhamphichthys is active at night and spends the daytime hours
+   buried in sand. The frequency of electric discharge is high during
+   activity (70-100 Hz), but low while resting in the sandy substrate
+   (10-15 Hz). It is a suctorial feeder, specializing on small trichopteran
+   and dipteran larvae. The few data available suggest the species to have
+   a life of 2 yr, at the end of the 1st yr the fish are nearly adult size
+   and enter into a prolonged pre-spawning phase. A noted absence of
+   spawned-out specimens after the end of reproduction would indicate that
+   they apparently die soon after spawning, which occurs near the end of
+   their 2nd yr of life. The presence of 4 distinct size classes of eggs in
+   ripe females suggests 4 successful spawning bouts during the
+   reproductive season; however, the timing of these bouts is not known,
+   and actual spawning could not be observed. Reproduction seems to take
+   place during the rainy season near Belem (Feb.-April) and Manaus
+   (May-July), but must occur during the dry period in the Rondonia
+   population where it appeared to commence in July.
+ZB 15
+Z8 0
+ZR 0
+ZS 5
+TC 15
+Z9 19
+SN 0006-3606
+UT BCI:BCI197662030159
+ER
+
+PT J
+AU Scott, N. J., Jr.
+TI The abundance and diversity of the herpetofaunas of tropical forest
+   litter.
+SO Biotropica
+VL 8
+IS 1
+BP 41
+EP 58
+PD 1976
+PY 1976
+AB Compares quantitative and qualitative samples of amphibian and lizard
+   faunas taken from forest litter in Costa Rica, Sarawak, the Philippines
+   and Panama.
+TC 0
+ZB 0
+ZS 0
+Z8 0
+ZR 0
+Z9 0
+SN 0006-3606
+UT CABI:19760632225
+ER
+
+PT J
+AU SCOTT N J JR
+TI THE ABUNDANCE AND DIVERSITY OF THE HERPETO FAUNAS OF TROPICAL FOREST
+   LITTER
+SO Biotropica
+VL 8
+IS 1
+BP 41
+EP 58
+DI 10.2307/2387818
+PD 1976
+PY 1976
+AB Quantitative and qualitative samples of amphibian and lizard faunas were
+   taken from forest litter in Costa Rica and compared with similar samples
+   collected in Borneo, the Philippines and Panama. Animal abundance is
+   about 10 times greater in Costa Rican lowland wet forest than in Borneo.
+   Radically different routes and rates of energy flow are postulated to
+   account for the difference. In a series of upland (1010-1425 m) samples
+   in the Philippines, the number of litter lizards and frogs increases
+   with elevation. A single upland (1200 m) Costa Rican sample contains
+   about 3 times as many animals per 100 m2 as 2 lowland sites. This
+   increase with altitude correlates well with hypotheses that overall
+   tropical forest productivity is greatest at intermediate elevations.
+   Herpetofaunal densities are greater in wet areas compared to dry sites
+   and flat terrain compared to slopes. These observations are linked to
+   the greater variations and lesser total litter fall in dry sites and/or
+   slopes. The number of species of amphibians and lizards regularly
+   inhabiting the litter is similar in all wet lowland forests studied.
+   Increasing elevation and decreasing rainfall correlate with faunas
+   having fewer species. The former is seen as the result of the
+   differential ability of lowland species to invade uplands, and the
+   latter as a decrease in the kind and duration of frog-spawning sites.
+   Reduced equitability with increasing elevation is principally due to the
+   much greater proportional increase of the commonest species. In the
+   evolution of American and Bornean-Philippine wet lowland faunas, frogs
+   with direct development (Eleutherodactylus) have radiated in the former
+   in the same fashion that skinks have in the latter.
+ZR 0
+ZS 17
+TC 116
+Z8 0
+ZB 121
+Z9 137
+SN 0006-3606
+UT BCI:BCI197662030481
+ER
+
+PT J
+AU GOTWALD W H JR
+TI BEHAVIORAL OBSERVATIONS ON AFRICAN ARMY ANTS OF THE GENUS AENICTUS
+   HYMENOPTERA FORMICIDAE
+SO Biotropica
+VL 8
+IS 1
+BP 59
+EP 65
+DI 10.2307/2387819
+PD 1976
+PY 1976
+AB African army ants of the genus Aenictus are column raiders and are
+   generally hypogaeic. The species thus far observed [A. bidentatus, A.
+   congolensis, A. weissi and 5 unidentified Aenictus spp.] are specialized
+   predators of other ants, especially of the immature stages. Prey
+   individuals are small, equal or subequal to the predator workers, and
+   are not usually dissected by the foragers for transport to the nest. The
+   foraging behavior of African and Asian Aenictus is compared. Emigration
+   behavior of African Aenictus closely resembles that of Asian species,
+   although the frequency and regularity of emigration and the intra-colony
+   stimuli for nomadic behavior in African species and in hypogaeic species
+   in general are unknown.
+ZR 0
+ZS 0
+Z8 0
+TC 8
+ZB 7
+Z9 8
+SN 0006-3606
+UT BCI:BCI197662029424
+ER
+
+PT J
+AU DOWNHOWER J F
+   RACINE C H
+TI DARWINS FINCHES AND CROTON-SCOULERI AN ANALYSIS OF THE CONSEQUENCES OF
+   SEED PREDATION
+SO Biotropica
+VL 8
+IS 1
+BP 66
+EP 70
+DI 10.2307/2387820
+PD 1976
+PY 1976
+AB Four species of finches [Platyspiza crassirostris, Geospiza fortis, G.
+   fuliginosa, G. scandens] eat the seeds of C. scouleri, a small,
+   widespread tree in the arid zone of Santa Cruz, the Galapagos [Ecuador].
+   The seeds are contained within tripartite capsules that are borne on
+   spikes. All of the capsules on a given spike tend to ripen
+   synchronously. The capsules are crushed by 2 spp. of finches. When this
+   occurs at least 1 of the seeds is dropped by the finch. The finches that
+   can crush the ripe seed capsules do not fly to the ground in search of
+   the expelled seeds, but continue to take the adjacent ripe capsules. The
+   3-seeded capsule and its arrangement on the tree seem to insure that
+   some seeds escape predation. The other 2 spp. of finches are unable to
+   crack the ripe capsules, but they do forage on the ground for the
+   scattered seeds.
+ZS 0
+ZB 11
+ZR 0
+TC 12
+Z8 1
+Z9 12
+SN 0006-3606
+UT BCI:BCI197662030498
+ER
+
+PT J
+AU JANZEN M J
+   JANZEN D H
+   POND C M
+TI TOOL USING BY THE AFRICAN GRAY PARROT PSITTACUS-ERITHACUS
+SO Biotropica
+VL 8
+IS 1
+BP 70
+EP 70
+DI 10.2307/2387821
+PD 1976
+PY 1976
+ZS 0
+Z8 0
+ZR 0
+ZB 1
+TC 1
+Z9 1
+SN 0006-3606
+UT BCI:BCI197612091706
+ER
+
+PT J
+AU BULTMAN J D
+   SOUTHWELL C R
+TI NATURAL RESISTANCE OF TROPICAL AMERICAN WOODS TO TERRESTRIAL WOOD
+   DESTROYING ORGANISMS
+SO Biotropica
+VL 8
+IS 2
+BP 71
+EP 95
+DI 10.2307/2989627
+PD 1976
+PY 1976
+AB Half-buried heartwood stakes of 112 tropical woods and 2 domestic woods,
+   southern yellow pine and Douglas fir, were evaluated in the Panamanian
+   jungle for natural resistance to infestation by subterranean termites
+   and to fungal decay. Thirty-nine of the 112 woods survived the 158 mo.
+   of exposure; of these only 6 were considered to be highly resistant to
+   all wood-destroying organisms present. The most severe fungal damage to
+   the stakes was caused by attack at or below the groundline; aboveground
+   fungal decay was somewhat less severe. Subterranean termites destroyed
+   susceptible woods much more rapidly than did the fungi, however, many
+   woods showed a higher resistance to termites than to fungi. Generally,
+   the denser woods were more durable than the lighter woods, however,
+   density was not an absolute requirement for resistance. Many of the most
+   resistant woods contained extractives known to confer protection against
+   termites or fungi. One of these, obtusaquinone, subsequently isolated
+   from Dalbergia retusa, is effective against marine borers and marine
+   fungi as well as against terrestrial organisms. As yet unidentified
+   extractives undoubtedly contributed significantly to the natural
+   resistance of other woods in this study. Silica inclusions, effective
+   against depredation by some marine borers, did not contribute to
+   terrestrial durability.
+Z8 0
+TC 54
+ZB 36
+ZS 2
+ZR 0
+Z9 54
+SN 0006-3606
+UT BCI:BCI197763001922
+ER
+
+PT J
+AU WILSON D S
+TI DEDUCING THE ENERGY AVAILABLE IN THE ENVIRONMENT AN APPLICATION OF
+   OPTIMAL FORAGING THEORY
+SO Biotropica
+VL 8
+IS 2
+BP 96
+EP 103
+DI 10.2307/2989628
+PD 1976
+PY 1976
+AB Optimal foraging theory predicts that the energy value of a marginally
+   acceptable item equals the overall energy available to the animal in the
+   environment (calories per unit time). If true, then the selective
+   behavior of the consumer may be used as a measure of this important
+   parameter. In many arthropod predators the time spent feeding on an
+   individual item should vary inversely with energy availability. This
+   hypothesis is successfully tested using 2 spp. of tiger beetles
+   [Cicindela patruela, C. repanda] (Cicindelidae). In many vertebrate
+   predators the minimal acceptable food size should vary directly with
+   energy availability. This hypothesis is not tested here, although some
+   support for it exists in the literature. If valid, the simplicity of the
+   method described allows the assessment of global patterns of energy
+   availability for some taxa. Preliminary information on
+   tropical-temperate gradients for birds is given.
+ZR 0
+ZB 22
+TC 25
+ZS 0
+Z8 1
+Z9 26
+SN 0006-3606
+UT BCI:BCI197763001224
+ER
+
+PT J
+AU FENTON M B
+   FLEMING T H
+TI ECOLOGICAL INTERACTIONS BETWEEN BATS AND NOCTURNAL BIRDS
+SO Biotropica
+VL 8
+IS 2
+BP 104
+EP 110
+DI 10.2307/2989629
+PD 1976
+PY 1976
+AB Bats and about 230 spp. of birds are nocturnal and all rely to varying
+   degrees on insects, insects and vertebrates, or fruit as principal food
+   supplies. Bats appear to dominate the aerial nocturnal adaptive zones of
+   fruit and insect eating, although they are more effective as small
+   rather than as large insectivores. In most tropical locations, either
+   owls or bats are regular consumers of fish; bats which feed on
+   terrestrial vetebrates and the bird families Podargidae, Aegothelidae
+   and Nyctibiidae seem to occupy the adaptive zone of small owls, but
+   these bats and birds are limited anatomically from replacing larger
+   owls. Bat hawks (Falco rufigularis and Macheiramphus alcinus) and some
+   carnivorous bats may be the only regular aerial predators of bats. The
+   use that many bats make of night roosts as locations for food
+   consumption, and the nocturnal roosting habits of some diurnal birds may
+   represent adaptations for avoiding nocturnal, volant predators.
+TC 30
+ZR 0
+Z8 1
+ZS 0
+ZB 25
+Z9 31
+SN 0006-3606
+UT BCI:BCI197763001225
+ER
+
+PT J
+AU JANZEN D H
+TI WHY TROPICAL TREES HAVE ROTTEN CORES
+SO Biotropica
+VL 8
+IS 2
+BP 110
+EP 110
+DI 10.2307/2989630
+PD 1976
+PY 1976
+ZS 0
+ZB 15
+ZR 0
+Z8 0
+TC 20
+Z9 20
+SN 0006-3606
+UT BCI:BCI197612091657
+ER
+
+PT J
+AU WINDSOR D M
+TI BIRDS AS PREDATORS ON THE BROOD OF POLYBIA WASPS HYMENOPTERA VESPIDAE
+   POLISTINAE IN A COSTA-RICAN DECIDUOUS FOREST
+SO Biotropica
+VL 8
+IS 2
+BP 111
+EP 116
+DI 10.2307/2989631
+PD 1976
+PY 1976
+AB The carton nests of the polistine wasps, P. occidentalis and P.
+   barbouri, are frequently destroyed by predators feeding on wasp broods
+   in NW Costa Rica. The remains of these nests and the signs left by the
+   predators closely matched those observed after several nests were
+   destroyed by the gray-headed kite, Leptodon cayanensis. The frequency of
+   bird predation appeared lowest during the wet season, increased through
+   the dry season, and reached a peak of 50% nest destruction in May 1973.
+   In constrast to observations from wetter tropical habitats, ants appear
+   to be a minor source of nest destruction for highly social wasps in a
+   lowland deciduous forest-savanna habitat.
+ZR 0
+ZB 14
+TC 19
+Z8 0
+ZS 0
+Z9 19
+SN 0006-3606
+UT BCI:BCI197763001269
+ER
+
+PT J
+AU GENTRY A H
+TI BIGNONIACEAE OF SOUTHERN CENTRAL AMERICA DISTRIBUTION AND ECOLOGICAL
+   SPECIFICITY
+SO Biotropica
+VL 8
+IS 2
+BP 117
+EP 131
+DI 10.2307/2989632
+PD 1976
+PY 1976
+AB This study describes the distributional patterns of Costa Rican and
+   Panamanian species of Bignoniaceae. These species tend to be
+   wide-ranging but restricted to certain climatic zones. Abundance and
+   ecological importance of Bignoniaceae are greatest in dry areas, but
+   species diversity is generally constant in lowland dry, moist and wet
+   forest habitats. About 20 of the 80 Costa Rican/Panamanian species occur
+   at any suitable site. A comparison of pollination strategies with
+   species distributions suggests unique pollination niches for the
+   strictly sympatric species. In any given area only 1 (uncommonly 2)
+   species with a given pollination strategy is in flower at any one time.
+ZR 0
+ZB 26
+Z8 0
+ZS 3
+TC 31
+Z9 33
+SN 0006-3606
+UT BCI:BCI197763000509
+ER
+
+PT J
+AU BARROWS E M
+TI NECTAR ROBBING AND POLLINATION OF LANTANA-CAMARA VERBENACEAE
+SO Biotropica
+VL 8
+IS 2
+BP 132
+EP 135
+DI 10.2307/2989633
+PD 1976
+PY 1976
+AB Floral robbers are categorized as nectar-foraging,
+   nector-foraging-perforating and pollen-foraging. Trigona fulviventris is
+   a nectar-foraging-perforating robber of yellow flowers of L. camara.
+   Flower head maturation of L. camara is centripetal and flowers turn from
+   yellow to reddish-orange, resulting in inflorescences of central yellow
+   flowers with peripheral orange and reddish-orange ones. In the
+   laboratory, seed set occurs only after cross-pollination; in the field,
+   the presence of orange and reddish-orange flowers is related to
+   decreased nectar robbery of yellow flowers. Co-evolution of L. camara,
+   its butterfly pollinators, and T. fulviventris has presumably involved
+   increased nectar production of this plant to feed both its pollinators
+   and robber.
+TC 59
+Z8 2
+ZS 3
+ZB 59
+ZR 0
+Z9 68
+SN 0006-3606
+UT BCI:BCI197763001284
+ER
+
+PT J
+AU Brown, K.S.
+   Neto, J.V.
+TI Predation on aposematic ithomiine butterflies by tanagens (Pipraeidea
+   melanonota).
+SO Biotropica
+VL 8
+IS 2
+BP 136
+EP 141
+PD 1976
+PY 1976
+ZS 0
+Z8 0
+TC 0
+ZB 0
+ZR 0
+Z9 0
+UT ZOOREC:ZOOR11300010423
+ER
+
+PT J
+AU Brown, K.S.
+   Neto, J.V.
+TI Predation on aposematic ithomiine butterflies by tanagers (Pipraeidea
+   melanonota).
+SO Biotropica
+VL 8
+IS 2
+BP 136
+EP 141
+PD 1976
+PY 1976
+ZS 1
+ZB 10
+TC 9
+ZR 0
+Z8 0
+Z9 10
+UT ZOOREC:ZOOR11300010421
+ER
+
+PT J
+AU BROWN K S JR
+   NETO J V
+TI PREDATION ON APOSEMATIC ITHOMIINE BUTTERFLIES BY TANAGERS
+   PIPRAEIDEA-MELANONOTA
+SO Biotropica
+VL 8
+IS 2
+BP 136
+EP 141
+DI 10.2307/2989634
+PD 1976
+PY 1976
+AB Tanagers (P. melanonota) were found preying heavily and selectively on
+   winter concentrations of 22 spp. of ithomiine butterflies in the region
+   of Sumare, Sao Paulo [Brazil]. Flying birds catch resting butterflies in
+   the cold of the early morning, take them to favored perches, and squeeze
+   out and eat the abdominal contents, leaving the remainder of the
+   butterfly as testimony to predation. No other insectivorous birds in the
+   region have been observed to attack these butterflies, nor are any
+   literature reports known for such predation on ithomiines, which are
+   well-known aposematic models for mimicry rings throughout the
+   Neotropics. The commonest ithomiine species in the colonies, Mechanitis
+   polymnia, is attacked in far greater proportion than its true abundance,
+   probably because of its conspicuous coloration and roosting habits, and
+   its more sluggish behavior than the other 2 common larger species, which
+   are taken in proportions lower than expected from analysis of net
+   captures. This behavior pattern is probably a function of abundance in
+   the butterflies, thereby leading to the density-dependent predation
+   observed in the system.
+Z8 0
+ZR 0
+ZB 25
+ZS 1
+TC 26
+Z9 26
+SN 0006-3606
+UT BCI:BCI197763001226
+ER
+
+PT J
+AU FOWLER H
+TI AN UNUSUAL TRAIL MODIFICATION OBSERVED IN THE LEAF-CUTTING ANT
+   ACROMYRMEX-CRASSISPINUS
+SO Biotropica
+VL 8
+IS 2
+BP 142
+EP 142
+DI 10.2307/2989635
+PD 1976
+PY 1976
+ZR 0
+Z8 0
+ZS 0
+TC 1
+ZB 0
+Z9 1
+SN 0006-3606
+UT BCI:BCI197612091658
+ER
+
+PT J
+AU SLATER J A
+TI MONOCOTS AND CHINCH BUGS A STUDY OF HOST PLANT RELATIONSHIPS IN THE
+   LYGAEID SUBFAMILY BLISSINAE HEMIPTERA HETEROPTERA LYGAEIDAE
+SO Biotropica
+VL 8
+IS 3
+BP 143
+EP 165
+DI 10.2307/2989681
+PD 1976
+PY 1976
+AB The host plant relationships of the lygaeid subfamily Blissinae are
+   analyzed. Members of the subfamily breed only upon monocotyledonous
+   plants. They have been reported from Gramineae, Cyperaceae,
+   Restionaceae, Zingiberaceae, Juncaceae, Sparaganiaceae, Typhaceae and
+   Haemodoraceae. The majority of breeding records are from species of
+   Gramineae. Host plant information is given for 21 genera and 111 spp. of
+   insects. An analysis of all insect-host plant associations is included.
+   Blissine species appear to be restricted to 1 or a few closely related
+   species of plants, and there is usually no correlation between the
+   utilization of the plant and its relative abundance in a given habitat.
+   In some cases the growth form of the plant may be a factor in its
+   utilization. The hostplants utilized by blissine bugs are compared with
+   the plant phylogenies of Hutchinson, Cronquist, Thorne, and Takhtajan
+   and interpretive cladograms of the latter developed. Cronquist's system
+   appears to agree most closely with the feeding habits of the insects,
+   particularly the sister group relationship of the Cyperaceae and
+   Gramineae. An hypothesis is advanced that the Blissinae originated as a
+   group feeding upon the seeds of ancestral Liliales with a subsequent
+   adaptation to sap feeding on species of Restionaceae and subsequent
+   radiation and diversification on Gramineae, Cyperaceae and Zingiberales.
+   Within the Gramineae, species of the chiefly tropical tribes Panicoideae
+   and Eragrostoideae are most extensively utilized as host plants. The
+   predominately temperate festucoid grasses are relatively little
+   utilized. Blissinae diversification and radiation was probably
+   coincident with the Cretaceous radiation of the angiosperms. A
+   discussion is given of morphological modifications of the insects to the
+   host plants in body shape, body vestiture, head projections, nymphal
+   sclerotization and fore-leg armature. A classification of Blissinae body
+   shapes is presented. One graph and 4 tables of grass-blissine
+   relationships, 4 interpretive cladograms of monocot higher relationships
+   and 12 figures of morphological modifications of blissines are included.
+ZB 33
+ZR 0
+TC 35
+ZS 1
+Z8 0
+Z9 36
+SN 0006-3606
+UT BCI:BCI197764067921
+ER
+
+PT J
+AU PADGETT D E
+TI LEAF DECOMPOSITION BY FUNGI IN A TROPICAL RAIN FOREST STREAM
+SO Biotropica
+VL 8
+IS 3
+BP 166
+EP 178
+DI 10.2307/2989682
+PD 1976
+PY 1976
+AB Disks cut from leaves of 5 tropical dicotyledons were submerged in a
+   small Puerto Rican stream and samples harvested bi-weekly to determine
+   the nature and rate of decomposition. Disks of Buchenavia capitata,
+   Manilkara bidentata and Dacryodes excelsa disintegrated in 26 wk; those
+   of Sloanea berteriana and Cordia borinquensis disintegrated in 32 wk. In
+   each species disintegration was restricted to localized areas on the
+   disks. Spores of 16 spp. of freshwater hyphomycetes were found in stream
+   foam or on submerged leaves. Of these species, Campylospora
+   chaetocladia, Triscelophorus monosporus and Pyramidospora casuarinae
+   were probably involved in decomposition. Statistically significant
+   changes were noted over time in total N and caloric content of leaf
+   disks but could not be related conclusively to changes in fungal biomass
+   as indexed by spore production.
+ZS 2
+TC 40
+ZR 0
+ZB 36
+Z8 0
+Z9 42
+SN 0006-3606
+UT BCI:BCI197763031592
+ER
+
+PT J
+AU MCCLURE M S
+TI SPATIAL DISTRIBUTION OF PIT MAKING ANT-LION LARVAE NEUROPTERA
+   MYRMELEONTIDAE DENSITY EFFECTS
+SO Biotropica
+VL 8
+IS 3
+BP 179
+EP 183
+DI 10.2307/2989683
+PD 1976
+PY 1976
+AB The spatial distribution of larvae of a tropical pit-making ant lion,
+   Myrmeleon sp. (Neuroptera: Myrmeleontidae) was responsive to changes in
+   population density in experimental plots. With increasing larval density
+   the spatial distribution of pits became increasingly regular and
+   approached maximum uniformity at the highest density (5 larvae/100 cm2).
+   This uniform spatial arrangement of pits maximizes the distance between
+   competitors. The diameters of ant lion pits were not significantly
+   affected by changes in larval density. At high densities there was a 20%
+   reduction in the number of larvae which built pits, suggesting that
+   space became limiting. Only at the lowest experimental density (1.1
+   larvae/100 cm2) was there a significant difference in the sizes of
+   larvae which built pits in central vs. peripheral areas of the plots. At
+   higher densities this apparent size-specific habitat selection and
+   dominance were less evident as all available space became occupied.
+   There was no evidence that larval pits were constructed in a doughnut
+   configuration; instead, an ant lion larva apparently optimizes prey
+   capture by constructing its pit at a maximum distance from neighboring
+   pits. This mode of construction results in the uniform spatial
+   distribution observed at high densities.
+ZR 0
+Z8 0
+ZS 0
+ZB 23
+TC 26
+Z9 26
+SN 0006-3606
+UT BCI:BCI197763050137
+ER
+
+PT J
+AU MORI S A
+   KALLUNKI J A
+TI PHENOLOGY AND FLORAL BIOLOGY OF GUSTAVIA-SUPERBA LECYTHIDACEAE IN
+   CENTRAL PANAMA
+SO Biotropica
+VL 8
+IS 3
+BP 184
+EP 192
+DI 10.2307/2989684
+PD 1976
+PY 1976
+AB Leaf fall, leaf production, flower and fruit production, and floral
+   biology of G. superba (Kunth) Berg were studied for 1 yr in the tropical
+   moist forest of central Panama. Although leaves fall throughout the
+   year, peak fall occurs in the 1st mo. of the wet season. Leaf production
+   on any branch is possible throughout the year, but within the population
+   studied, 2 pronounced peaks were observed, one in the late wet-early dry
+   season and the other after the 1st rains of the wet season. Flowering
+   began about 1 mo. after the rains ceased and continued throughout the
+   dry season into the 1st mo. of the following wet season. Fruits reached
+   maturity at the end of the dry season and into the early wet season. The
+   severity of the dry season of 1974-1975 may have altered the normal
+   flowering pattern and reduced fruit production in this species.
+   Observations revealed that the flowers are diurnal, without odor and
+   nectar, and are visited by bees for their pollen. A limited number of
+   crosses show that this species is self-incompatible.
+ZS 2
+Z8 0
+ZR 0
+ZB 14
+TC 14
+Z9 15
+SN 0006-3606
+UT BCI:BCI197764013702
+ER
+
+PT J
+AU JANZEN D H
+   ATAROFF M
+   FARINAS M
+   REYES S
+   RINCON N
+   SOLER A
+   SORIANO P
+   VERA M
+TI CHANGES IN THE ARTHROPOD COMMUNITY ALONG AN ELEVATIONAL TRANSECT IN THE
+   VENEZUELAN ANDES
+SO Biotropica
+VL 8
+IS 3
+BP 193
+EP 203
+DI 10.2307/2989685
+PD 1976
+PY 1976
+AB Sweep samples of insects at 200, 1600, 3550 and 3600 m elevation in
+   secondary vegetation in the Venezuelan Andes near Merida show that the
+   greatest number of insect species and dry weight occurs at the
+   intermediate elevation, that the species richness of Diptera and
+   parasitic Hymenoptera is not as proportionately reduced by elevation as
+   is the species richness of other insect groups, that at higher
+   elevations there are a reduced number of species and an increasingly
+   unequal distribution of the individuals among the species and that large
+   insects are much less abundant at high than low elevations. These
+   results confirm trends first indicated in an earlier transect of Costa
+   Rican insects.
+TC 116
+Z8 1
+ZR 0
+ZB 113
+ZS 8
+Z9 127
+SN 0006-3606
+UT BCI:BCI197763031471
+ER
+
+PT J
+AU CRUDEN R W
+   KINSMAN S
+   STOCKHOUSE R E II
+   LINHART Y B
+TI POLLINATION FECUNDITY AND THE DISTRIBUTION OF MOTH FLOWERED PLANTS
+SO Biotropica
+VL 8
+IS 3
+BP 204
+EP 210
+DI 10.2307/2989686
+PD 1976
+PY 1976
+AB The upper altitudinal limits of moth-pollinated plants are correlated
+   with temperatures that restrict the activity of their crepuscular
+   pollinators. The activity of hawkmoths decreases with temperature below
+   15.degree. C. The number of Calliandra flowers visited and pollinated
+   and the amount of pollen on Oenothera stigmas decrease with elevation.
+   Fruit set and fecundity of most Calliandra populations and fruit set of
+   Yucca are also negatively correlated with elevation. The upper
+   altitudinal limits of hawkmoth-flowered plants in tropical montane
+   regions are probably restricted by low temperatures which restrict the
+   activity of their pollinators. Because the hawkmoth-flower interaction
+   may be diurnal in temperate regions and tropical habitats without
+   hummingbirds, a shift in the interaction from a nocturnal to a diurnal
+   rhythm in New World tropical montane regions may be inhibited by
+   competitive interactions with hummingbirds.
+ZR 0
+ZB 44
+TC 47
+ZS 0
+Z8 1
+Z9 47
+SN 0006-3606
+UT BCI:BCI197763031514
+ER
+
+PT J
+AU JANZEN D H
+TI THE OCCURRENCE OF THE HUMAN WARBLE FLY DERMATOBIA-HOMINIS IN THE DRY
+   DECIDUOUS FOREST LOWLANDS OF COSTA-RICA
+SO Biotropica
+VL 8
+IS 3
+BP 210
+EP 210
+DI 10.2307/2989687
+PD 1976
+PY 1976
+TC 3
+ZR 0
+ZS 0
+ZB 2
+Z8 0
+Z9 3
+SN 0006-3606
+UT BCI:BCI197713031541
+ER
+
+PT J
+AU STRUHSAKER T T
+TI A FURTHER DECLINE IN NUMBERS OF AMBOSELI VERVET MONKEYS
+SO Biotropica
+VL 8
+IS 3
+BP 211
+EP 214
+DI 10.2307/2989688
+PD 1976
+PY 1976
+AB A recensus of the Amboseli vervets [Cercopithecus aethiops] in 1975
+   revealed a significant decline of about 43% in their numbers since 1964.
+   The young juvenile age class showed the greatest decrease; the juvenile
+   age class had declined less. Numbers of adults and subadults seemed
+   unaffected, although there was a suggestion of an incipient decline in
+   the males of these 2 age classes. This decrease in vervets is attributed
+   to a natural reduction in their food resources. Natality remained high,
+   and the birth season had not changed.
+TC 76
+ZR 0
+Z8 0
+ZB 64
+ZS 0
+Z9 79
+SN 0006-3606
+UT BCI:BCI197763031472
+ER
+
+PT J
+AU ERWIN, TL
+   ERWIN, LVJM
+TI RELATIONSHIPS OF PREDACEOUS BEETLES TO TROPICAL FOREST WOOD DECAY .2.
+   NATURAL-HISTORY OF NEOTROPICAL EURYCOLEUS-MACULARIS-CHEVROLAT
+   (CARABIDAE-LEBIINI) AND ITS IMPLICATIONS IN EVOLUTION OF
+   ECTO-PARASITOIDISM
+SO BIOTROPICA
+VL 8
+IS 4
+BP 215
+EP 224
+DI 10.2307/2989713
+PD 1976
+PY 1976
+ZR 0
+ZB 19
+Z8 0
+TC 18
+ZS 1
+Z9 20
+SN 0006-3606
+UT WOS:A1976DE38100001
+ER
+
+PT J
+AU SEIDENSTICKER, J
+TI ECOLOGICAL SEPARATION BETWEEN TIGERS AND LEOPARDS
+SO BIOTROPICA
+VL 8
+IS 4
+BP 225
+EP 234
+DI 10.2307/2989714
+PD 1976
+PY 1976
+ZB 110
+TC 113
+ZR 0
+ZS 1
+Z8 3
+Z9 120
+SN 0006-3606
+UT WOS:A1976DE38100002
+ER
+
+PT J
+AU PRANCE, GT
+TI POLLINATION AND ANDROPHORE STRUCTURE OF SOME AMAZONIAN LECYTHIDACEAE
+SO BIOTROPICA
+VL 8
+IS 4
+BP 235
+EP 241
+DI 10.2307/2989715
+PD 1976
+PY 1976
+ZR 0
+ZS 2
+Z8 1
+ZB 26
+TC 31
+Z9 32
+SN 0006-3606
+UT WOS:A1976DE38100003
+ER
+
+PT J
+AU RODRIGUEZ T C A
+   GUERRERO B S
+TI NATURAL HISTORY AND BEHAVIOR OF ZYGOPACHYLUS-ALBOMARGINIS ARACHNIDA
+   OPILIONES GONYLEPTIDAE
+SO Biotropica
+VL 8
+IS 4
+BP 242
+EP 247
+PD 1976
+PY 1976
+AB Males of the phalangid Zygopachylus albomarginis construct nests which
+   females visit to copulate and/or lay eggs. This type of behavior is
+   unknown in other members of the order Opiliones. The males remain in
+   their nests almost continuously for up to several months, and are
+   capable of relocating their nests from distances of several meters; they
+   defend the nests against other males, which occupy and defend vacated
+   nests. Females lay only a few eggs during a given visit to a nest, and
+   may restrict their visits to only 1 or 2 nests. Neither parasitism nor
+   predation of eggs in nests was observed. Possible functions of the nests
+   are discussed.
+ZS 0
+Z8 0
+ZB 1
+TC 1
+ZR 0
+Z9 1
+SN 0006-3606
+UT BCI:BCI197763069490
+ER
+
+PT J
+AU RODRIGUEZT, CA
+   GUERREROB, S
+TI NATURAL-HISTORY AND BEHAVIOR OF ZYGOPACHYLUS-ALBOMARGINIS (CHAMBERLAIN)
+   (ARACHNIDA, OPILIONES, GONYLEPTIDAE)
+SO BIOTROPICA
+VL 8
+IS 4
+BP 242
+EP 247
+DI 10.2307/2989716
+PD 1976
+PY 1976
+ZR 0
+Z8 0
+ZS 0
+TC 19
+ZB 16
+Z9 19
+SN 0006-3606
+UT WOS:A1976DE38100004
+ER
+
+PT J
+AU CARLQUIST, S
+   BISSING, DR
+TI LEAF ANATOMY OF HAWAIIAN GERANIUMS IN RELATION TO ECOLOGY AND TAXONOMY
+SO BIOTROPICA
+VL 8
+IS 4
+BP 248
+EP 259
+DI 10.2307/2989717
+PD 1976
+PY 1976
+ZB 13
+ZR 0
+ZS 0
+Z8 0
+TC 12
+Z9 13
+SN 0006-3606
+UT WOS:A1976DE38100005
+ER
+
+PT J
+AU SCHEMSKE, DW
+TI POLLINATOR SPECIFICITY IN LANTANA-CAMARA AND TRIFOLIA L (VERBENACEAE)
+SO BIOTROPICA
+VL 8
+IS 4
+BP 260
+EP 264
+DI 10.2307/2989718
+PD 1976
+PY 1976
+Z8 0
+ZS 3
+ZB 43
+ZR 0
+TC 41
+Z9 47
+SN 0006-3606
+UT WOS:A1976DE38100006
+ER
+
+PT J
+AU FISHER, JB
+TI ADAPTIVE VALUE OF ROTTEN TREE CORES
+SO BIOTROPICA
+VL 8
+IS 4
+BP 264
+EP 264
+DI 10.2307/2989719
+PD 1976
+PY 1976
+ZR 0
+Z8 0
+ZB 2
+ZS 0
+TC 3
+Z9 3
+SN 0006-3606
+UT WOS:A1976DE38100007
+ER
+
+PT J
+AU FOSTER, MS
+   TIMM, RM
+TI TENT-MAKING BY ARTIBEUS-JAMAICENSIS (CHIROPTERA-PHYLLOSTOMATIDAE) WITH
+   COMMENTS ON PLANTS USED BY BATS FOR TENTS
+SO BIOTROPICA
+VL 8
+IS 4
+BP 265
+EP 269
+DI 10.2307/2989720
+PD 1976
+PY 1976
+ZB 25
+Z8 0
+ZR 0
+TC 27
+ZS 1
+Z9 28
+SN 0006-3606
+UT WOS:A1976DE38100008
+ER
+
+PT J
+AU RAW, A
+TI SEASONAL-CHANGES IN NUMBERS AND FORAGING ACTIVITIES OF 2 JAMAICAN
+   EXOMALOPSIS SPECIES (HYMENOPTERA, ANTHOPHORIDAE)
+SO BIOTROPICA
+VL 8
+IS 4
+BP 270
+EP 277
+DI 10.2307/2989721
+PD 1976
+PY 1976
+ZS 0
+Z8 0
+ZR 0
+TC 1
+ZB 1
+Z9 1
+SN 0006-3606
+UT WOS:A1976DE38100009
+ER
+
+PT J
+AU FREESE, CH
+TI PREDATION ON SWOLLEN-THORN ACACIA ANTS BY WHITE-FACED MONKEYS,
+   CEBUS-CAPUCINUS
+SO BIOTROPICA
+VL 8
+IS 4
+BP 278
+EP 281
+DI 10.2307/2989722
+PD 1976
+PY 1976
+Z8 0
+ZR 0
+TC 5
+ZS 0
+ZB 4
+Z9 5
+SN 0006-3606
+UT WOS:A1976DE38100010
+ER
+
+PT J
+AU GILBERT, LE
+TI ADULT RESOURCES IN BUTTERFLIES - AFRICAN LYCAENID MEGALOPALPUS FEEDS ON
+   LARVAL NECTARY
+SO BIOTROPICA
+VL 8
+IS 4
+BP 282
+EP 283
+DI 10.2307/2989723
+PD 1976
+PY 1976
+Z8 0
+ZR 0
+TC 4
+ZB 4
+ZS 1
+Z9 5
+SN 0006-3606
+UT WOS:A1976DE38100011
+ER
+
+PT J
+AU KARR, JR
+TI ASSOCIATION BETWEEN A GRASS (PASPALUM-VIRGATUM) AND MOTHS
+SO BIOTROPICA
+VL 8
+IS 4
+BP 284
+EP 285
+DI 10.2307/2989724
+PD 1976
+PY 1976
+ZR 0
+ZS 0
+ZB 2
+Z8 0
+TC 2
+Z9 2
+SN 0006-3606
+UT WOS:A1976DE38100012
+ER
+
+PT J
+AU Windsor, D.M.
+TI Birds as predators on the brood of Polybia wasps (Hymenoptera: Vespidae:
+   Polistinae) in a Costa Rican deciduous forest.
+SO Biotropica
+VL 8
+IS 2
+BP Il1
+EP 116
+PD 1976
+PY 1976
+ZS 0
+Z8 0
+ZB 0
+TC 0
+ZR 0
+Z9 0
+UT ZOOREC:ZOOR11300010418
+ER
+
+PT J
+AU Heyer, W.R.
+   McDiarmid, R.W.
+   Weigmann, D.L.
+TI Tadpoles, predation and pond habitats in the tropics.
+SO Biotopica
+VL 7
+IS 2
+BP 100
+EP 111
+PD 1975
+PY 1975
+ZB 37
+ZR 1
+TC 36
+Z8 1
+ZS 8
+Z9 43
+UT ZOOREC:ZOOR11200011132
+ER
+
+PT J
+AU FENTON M B
+TI ACUITY OF ECHO LOCATION IN COLLOCALIA-HIRUNDINACEA AVES APODIDAE WITH
+   COMMENTS ON THE DISTRIBUTIONS OF ECHO LOCATING SWIFTLETS AND MOLOSSID
+   BATS
+SO Biotropica
+VL 7
+IS 1
+BP 1
+EP 7
+DI 10.2307/2989792
+PD 1975
+PY 1975
+ZR 0
+ZB 20
+Z8 1
+TC 24
+ZS 0
+Z9 25
+SN 0006-3606
+UT BCI:BCI197560040501
+ER
+
+PT J
+AU STANTON N
+TI HERBIVORE PRESSURE ON 2 TYPES OF TROPICAL FORESTS
+SO Biotropica
+VL 7
+IS 1
+BP 8
+EP 11
+DI 10.2307/2989794
+PD 1975
+PY 1975
+TC 13
+ZB 10
+ZS 1
+ZR 0
+Z8 0
+Z9 14
+SN 0006-3606
+UT BCI:BCI197560036459
+ER
+
+PT J
+AU YAMAGUCHI M
+TI CORAL REEF ASTEROIDS OF GUAM
+SO Biotropica
+VL 7
+IS 1
+BP 12
+EP 23
+DI 10.2307/2989795
+PD 1975
+PY 1975
+ZS 0
+ZR 0
+Z8 0
+TC 38
+ZB 39
+Z9 41
+SN 0006-3606
+UT BCI:BCI197560038224
+ER
+
+PT J
+AU WESLEY D J
+   EMMEL T C
+TI THE CHROMOSOMES OF NEOTROPICAL BUTTERFLIES FROM TRINIDAD AND TOBAGO
+   WEST-INDIES
+SO Biotropica
+VL 7
+IS 1
+BP 24
+EP 31
+DI 10.2307/2989796
+PD 1975
+PY 1975
+Z8 0
+TC 9
+ZB 9
+ZS 0
+ZR 0
+Z9 10
+SN 0006-3606
+UT BCI:BCI197560037408
+ER
+
+PT J
+AU FURLEY P A
+TI THE SIGNIFICANCE OF THE COHUNE PALM ORBIGNYA-COHUNE ON THE NATURE AND IN
+   THE DEVELOPMENT OF THE SOIL PROFILE
+SO Biotropica
+VL 7
+IS 1
+BP 32
+EP 36
+DI 10.2307/2989797
+PD 1975
+PY 1975
+TC 9
+ZS 0
+ZB 3
+Z8 0
+ZR 0
+Z9 9
+SN 0006-3606
+UT BCI:BCI197560036533
+ER
+
+PT J
+AU BAKER H G
+TI SUGAR CONCENTRATIONS IN NECTARS FROM HUMMINGBIRD FLOWERS
+SO Biotropica
+VL 7
+IS 1
+BP 37
+EP 41
+DI 10.2307/2989798
+PD 1975
+PY 1975
+ZB 187
+TC 192
+Z8 2
+ZR 0
+ZS 16
+Z9 212
+SN 0006-3606
+UT BCI:BCI197560036456
+ER
+
+PT J
+AU PICKERSGILL B
+   BARRETT S C H
+   DE ANDRADE-LIMA D
+TI WILD COTTON IN NORTHEAST BRAZIL
+SO Biotropica
+VL 7
+IS 1
+BP 42
+EP 54
+DI 10.2307/2989799
+PD 1975
+PY 1975
+ZS 0
+ZR 0
+TC 15
+ZB 11
+Z8 0
+Z9 16
+SN 0006-3606
+UT BCI:BCI197560035664
+ER
+
+PT J
+AU PRIMACK R B
+   HOWE H F
+TI INTERFERENCE COMPETITION BETWEEN A HUMMINGBIRD AMAZILIA-TZACATL AND
+   SKIPPER BUTTERFLIES HESPERIIDAE
+SO Biotropica
+VL 7
+IS 1
+BP 55
+EP 58
+DI 10.2307/2989800
+PD 1975
+PY 1975
+Z8 1
+ZB 28
+ZS 0
+ZR 0
+TC 29
+Z9 29
+SN 0006-3606
+UT BCI:BCI197560036386
+ER
+
+PT J
+AU DOWNHOWER J F
+TI THE DISTRIBUTION OF ANTS ON CECROPIA LEAVES
+SO Biotropica
+VL 7
+IS 1
+BP 59
+EP 62
+DI 10.2307/2989801
+PD 1975
+PY 1975
+ZR 0
+ZS 1
+ZB 17
+Z8 0
+TC 23
+Z9 23
+SN 0006-3606
+UT BCI:BCI197560036452
+ER
+
+PT J
+AU TOLEDO V M
+TI THE FLOWERING SEASON OF FLOWERS USED BY HUMMINGBIRDS IN HUMID TROPICAL
+   FOREST IN MEXICO
+SO Biotropica
+VL 7
+IS 1
+BP 63
+EP 70
+DI 10.2307/2989802
+PD 1975
+PY 1975
+TC 11
+ZB 10
+ZS 2
+Z8 0
+ZR 0
+Z9 12
+SN 0006-3606
+UT BCI:BCI197560036453
+ER
+
+PT J
+AU KROODSMA D E
+TI FLIGHT DISTANCES OF MALE EUGLOSSINE BEES IN ORCHID POLLINATION
+SO Biotropica
+VL 7
+IS 1
+BP 71
+EP 72
+DI 10.2307/2989803
+PD 1975
+PY 1975
+ZR 0
+Z8 0
+TC 26
+ZB 19
+ZS 3
+Z9 26
+SN 0006-3606
+UT BCI:BCI197560036445
+ER
+
+PT J
+AU VAZQUEZ-YANES C
+   OROZCO A
+   FRANCOIS G
+   TREJO L
+TI OBSERVATIONS ON SEED DISPERSAL BY BATS IN A TROPICAL HUMID REGION IN
+   VERACRUZ MEXICO
+SO Biotropica
+VL 7
+IS 2
+BP 73
+EP 76
+DI 10.2307/2989749
+PD 1975
+PY 1975
+ZS 3
+TC 29
+Z8 0
+ZB 23
+ZR 0
+Z9 31
+SN 0006-3606
+UT BCI:BCI197560065555
+ER
+
+PT J
+AU HOWDEN H F
+   NEALIS V G
+TI EFFECTS OF CLEARING IN A TROPICAL RAIN FOREST ON THE COMPOSITION OF THE
+   COPROPHAGOUS SCARAB BEETLE FAUNA COLEOPTERA
+SO Biotropica
+VL 7
+IS 2
+BP 77
+EP 83
+DI 10.2307/2989750
+PD 1975
+PY 1975
+ZR 0
+ZS 21
+ZB 129
+TC 120
+Z8 0
+Z9 138
+SN 0006-3606
+UT BCI:BCI197560065513
+ER
+
+PT J
+AU LASEBIKAN B A
+TI THE EFFECT OF CLEARING ON THE SOIL ARTHROPODS OF A NIGERIAN RAIN FOREST
+SO Biotropica
+VL 7
+IS 2
+BP 84
+EP 89
+DI 10.2307/2989751
+PD 1975
+PY 1975
+ZR 0
+ZB 15
+ZS 0
+TC 18
+Z8 0
+Z9 18
+SN 0006-3606
+UT BCI:BCI197560065486
+ER
+
+PT J
+AU BREITSPRECHER A
+   HUGHES W
+TI A RECORDING DENDROMETER FOR HUMID ENVIRONMENTS
+SO Biotropica
+VL 7
+IS 2
+BP 90
+EP 99
+DI 10.2307/2989752
+PD 1975
+PY 1975
+ZS 0
+ZB 3
+Z8 1
+TC 4
+ZR 0
+Z9 5
+SN 0006-3606
+UT BCI:BCI197560065661
+ER
+
+PT J
+AU Heyer, W.R.
+   McDiarmid, R.W.
+   Weigmann, D.L.
+TI Tadpoles, predation and habitats in the tropics.
+SO Biotropica
+VL 7
+IS 2
+BP 100
+EP 111
+PD 1975
+PY 1975
+ZR 0
+Z8 0
+TC 0
+ZB 0
+ZS 0
+Z9 0
+UT ZOOREC:ZOOR11200011138
+ER
+
+PT J
+AU HEYER W R
+   MCDIARMID R W
+   WEIGMANN D L
+TI TADPOLES PREDATION AND POND HABITATS IN THE TROPICS
+SO Biotropica
+VL 7
+IS 2
+BP 100
+EP 111
+DI 10.2307/2989753
+PD 1975
+PY 1975
+ZR 0
+TC 265
+ZB 255
+Z8 0
+ZS 5
+Z9 277
+SN 0006-3606
+UT BCI:BCI197560065512
+ER
+
+PT J
+AU EITEN G
+TI THE VEGETATION OF THE SERRA-DO-RONCADOR BRAZIL
+SO Biotropica
+VL 7
+IS 2
+BP 112
+EP 135
+DI 10.2307/2989754
+PD 1975
+PY 1975
+Z8 0
+ZS 5
+ZR 0
+ZB 30
+TC 30
+Z9 35
+SN 0006-3606
+UT BCI:BCI197560065662
+ER
+
+PT J
+AU KIRKPATRICK R D
+   CARTWRIGHT A M
+TI LIST OF MAMMALS KNOWN TO OCCUR IN BELIZE
+SO Biotropica
+VL 7
+IS 2
+BP 136
+EP 140
+DI 10.2307/2989755
+PD 1975
+PY 1975
+ZS 0
+ZR 0
+TC 4
+ZB 3
+Z8 0
+Z9 4
+SN 0006-3606
+UT BCI:BCI197560065177
+ER
+
+PT J
+AU MEGGERS B J
+TI APPLICATION OF THE BIOLOGICAL MODEL OF DIVERSIFICATION TO CULTURAL
+   DISTRIBUTIONS IN TROPICAL LOWLAND SOUTH AMERICA
+SO Biotropica
+VL 7
+IS 3
+BP 141
+EP 161
+DI 10.2307/2989620
+PD 1975
+PY 1975
+ZB 7
+ZS 2
+TC 27
+ZR 0
+Z8 0
+Z9 28
+SN 0006-3606
+UT BCI:BCI197661016290
+ER
+
+PT J
+AU REEDER W G
+   REICHERT S E
+TI VEGETATION CHANGE ALONG AN ALTITUDINAL GRADIENT SANTA-CRUZ ISLAND
+   GALAPAGOS
+SO Biotropica
+VL 7
+IS 3
+BP 162
+EP 175
+DI 10.2307/2989621
+PD 1975
+PY 1975
+ZR 0
+TC 8
+ZB 8
+ZS 0
+Z8 0
+Z9 10
+SN 0006-3606
+UT BCI:BCI197661013250
+ER
+
+PT J
+AU ROCKWOOD L L
+TI THE EFFECTS OF SEASONALITY ON FORAGING IN 2 SPECIES OF LEAF-CUTTING ANTS
+   ATTA IN GUANACASTE PROVINCE COSTA-RICA
+SO Biotropica
+VL 7
+IS 3
+BP 176
+EP 193
+DI 10.2307/2989622
+PD 1975
+PY 1975
+Z8 1
+ZR 0
+ZS 1
+TC 58
+ZB 43
+Z9 59
+SN 0006-3606
+UT BCI:BCI197661013103
+ER
+
+PT J
+AU SHERBROOKE W C
+TI REPRODUCTIVE CYCLE OF A TROPICAL TEIID LIZARD NEUSTICURUS-ECPLEOPUS IN
+   PERU
+SO Biotropica
+VL 7
+IS 3
+BP 194
+EP 207
+DI 10.2307/2989623
+PD 1975
+PY 1975
+Z8 0
+ZR 0
+TC 45
+ZS 4
+ZB 48
+Z9 51
+SN 0006-3606
+UT BCI:BCI197661013104
+ER
+
+PT J
+AU JOHNSON D
+   COLE D W
+   GESSEL S P
+TI PROCESSES OF NUTRIENT TRANSFER IN A TROPICAL RAIN FOREST
+SO Biotropica
+VL 7
+IS 3
+BP 208
+EP 215
+DI 10.2307/2989624
+PD 1975
+PY 1975
+TC 11
+ZR 0
+ZS 0
+ZB 8
+Z8 0
+Z9 11
+SN 0006-3606
+UT BCI:BCI197661017321
+ER
+
+PT J
+AU USHER M B
+TI STUDIES ON A WOOD FEEDING TERMITE COMMUNITY IN GHANA WEST AFRICA
+SO Biotropica
+VL 7
+IS 4
+BP 217
+EP 233
+DI 10.2307/2989735
+PD 1975
+PY 1975
+ZR 0
+ZS 1
+ZB 17
+TC 21
+Z8 0
+Z9 22
+SN 0006-3606
+UT BCI:BCI197661047762
+ER
+
+PT J
+AU OPLER P A
+   BAKER H G
+   FRANKIE G W
+TI REPRODUCTIVE BIOLOGY OF SOME COSTA-RICAN CORDIA-SPP BORAGINACEAE
+SO Biotropica
+VL 7
+IS 4
+BP 234
+EP 247
+DI 10.2307/2989736
+PD 1975
+PY 1975
+ZS 8
+Z8 0
+ZB 88
+ZR 0
+TC 91
+Z9 99
+SN 0006-3606
+UT BCI:BCI197661047253
+ER
+
+PT J
+AU YOUNG A M
+TI THE POPULATION BIOLOGY OF NEOTROPICAL CICADAS PART 1 EMERGENCES OF
+   PROCOLLINA AND CARINETA-SP IN A MOUNTAIN FOREST
+SO Biotropica
+VL 7
+IS 4
+BP 248
+EP 258
+DI 10.2307/2989737
+PD 1975
+PY 1975
+ZS 1
+ZR 0
+Z8 0
+TC 10
+ZB 10
+Z9 10
+SN 0006-3606
+UT BCI:BCI197661049403
+ER
+
+PT J
+AU VAN VALEN L
+TI LIFE DEATH AND ENERGY OF A TREE
+SO Biotropica
+VL 7
+IS 4
+BP 259
+EP 269
+PD 1975
+PY 1975
+ZS 0
+ZR 0
+TC 0
+Z8 0
+ZB 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197661047873
+ER
+
+PT J
+AU Valen, L. van
+TI Life, death, and energy of a tree.
+SO Biotropica
+VL 7
+IS 4
+BP 260
+EP 269
+PD 1975
+PY 1975
+AB Analyses population data for Euterpe globosa, a Palm common in the
+   canopy of the Luquillo montane rain forest of eastern Puerto Rico. The
+   data are taken from a paper by B.A. Bannister (Ecological life cycle of
+   Euterpe globosa) in a work already noticed [see FA 33, 2321]. A life
+   table is presented and its applications are discussed. The resources
+   consumed by the Palm in reaching different ages and in reproduction are
+   also estimated and presented in the form of an energy table, for which a
+   set of theoretical parameters is proposed. The 'realized fitness' (total
+   energy flow) of this species is compared with that of mankind.
+Z8 0
+ZS 0
+ZB 0
+TC 0
+ZR 0
+Z9 0
+SN 0006-3606
+UT CABI:19760630470
+ER
+
+PT J
+AU CROAT T B
+TI PHENOLOGICAL BEHAVIOR OF HABIT AND HABITAT CLASSES ON BARRO-COLORADO
+   ISLAND PANAMA CANAL ZONE
+SO Biotropica
+VL 7
+IS 4
+BP 270
+EP 277
+DI 10.2307/2989739
+PD 1975
+PY 1975
+Z8 0
+ZS 12
+ZB 72
+TC 75
+ZR 0
+Z9 89
+SN 0006-3606
+UT BCI:BCI197661047874
+ER
+
+PT J
+AU HOWE H F
+   PRIMACK R B
+TI DIFFERENTIAL SEED DISPERSAL BY BIRDS OF THE TREE CASEARIA-NITIDA
+   FLACOURTIACEAE
+SO Biotropica
+VL 7
+IS 4
+BP 278
+EP 283
+DI 10.2307/2989740
+PD 1975
+PY 1975
+ZB 73
+Z8 2
+ZR 0
+ZS 5
+TC 87
+Z9 92
+SN 0006-3606
+UT BCI:BCI197661047786
+ER
+
+PT J
+AU SMITH A P
+TI INSECT POLLINATION AND HELIOP TROPISM IN ORITROPHIUM-LIMNOPHILUM
+   COMPOSITAE OF THE ANDEAN PARAMO
+SO Biotropica
+VL 7
+IS 4
+BP 284
+EP 286
+DI 10.2307/2989741
+PD 1975
+PY 1975
+Z8 1
+TC 25
+ZS 0
+ZR 0
+ZB 21
+Z9 26
+SN 0006-3606
+UT BCI:BCI197661047785
+ER
+
+PT J
+AU HOWDEN H F
+TI PROBLEMS IN INTERPRETING DISPERSAL OF TERRESTRIAL ORGANISMS AS RELATED
+   TO CONTINENTAL DRIFT
+SO Biotropica
+VL 6
+IS 1
+BP 1
+EP 6
+DI 10.2307/2989691
+PD 1974
+PY 1974
+ZR 0
+TC 2
+ZS 0
+Z8 0
+ZB 2
+Z9 2
+SN 0006-3606
+UT BCI:BCI197661021339
+ER
+
+PT J
+AU STEYERMARK J A
+TI THE SUMMIT VEGETATION OF CERRO AUTANA
+SO Biotropica
+VL 6
+IS 1
+BP 7
+EP 13
+DI 10.2307/2989692
+PD 1974
+PY 1974
+ZS 1
+ZR 0
+Z8 0
+TC 10
+ZB 8
+Z9 11
+SN 0006-3606
+UT BCI:BCI197458064934
+ER
+
+PT J
+AU PECK S B
+TI THE INVERTEBRATE FAUNA OF TROPICAL AMERICAN CAVES PART 2 PUERTO-RICO AN
+   ECOLOGICAL AND ZOO GEOGRAPHIC ANALYSIS
+SO Biotropica
+VL 6
+IS 1
+BP 14
+EP 31
+DI 10.2307/2989693
+PD 1974
+PY 1974
+ZS 0
+Z8 1
+ZB 19
+TC 21
+ZR 0
+Z9 24
+SN 0006-3606
+UT BCI:BCI197560030558
+ER
+
+PT J
+AU SCHWANER T D
+   DIXON C F
+TI HELMINTHIASIS AS A MEASURE OF CULTURAL CHANGE IN THE AMAZON BASIN
+SO Biotropica
+VL 6
+IS 1
+BP 32
+EP 37
+DI 10.2307/2989694
+PD 1974
+PY 1974
+ZR 0
+Z8 0
+ZB 10
+ZS 2
+TC 11
+Z9 11
+SN 0006-3606
+UT BCI:BCI197559034350
+ER
+
+PT J
+AU BURGER W C
+TI FLOWERING PERIODICITY AT 4 ALTITUDINAL LEVELS IN EASTERN ETHIOPIA
+SO Biotropica
+VL 6
+IS 1
+BP 38
+EP 42
+DI 10.2307/2989695
+PD 1974
+PY 1974
+ZR 0
+TC 13
+ZS 1
+Z8 0
+ZB 13
+Z9 14
+SN 0006-3606
+UT BCI:BCI197458065667
+ER
+
+PT J
+AU HALLE F
+TI ARCHITECTURE OF TREES IN THE RAIN FOREST OF MOROBE DISTRICT NEW-GUINEA
+SO Biotropica
+VL 6
+IS 1
+BP 43
+EP 50
+DI 10.2307/2989696
+PD 1974
+PY 1974
+Z8 0
+ZB 5
+ZS 0
+ZR 0
+TC 5
+Z9 6
+SN 0006-3606
+UT BCI:BCI197458065668
+ER
+
+PT J
+AU CORNABY B W
+TI CARRION REDUCTION BY ANIMALS IN CONTRASTING TROPICAL HABITATS
+SO Biotropica
+VL 6
+IS 1
+BP 51
+EP 63
+DI 10.2307/2989697
+PD 1974
+PY 1974
+TC 87
+ZB 79
+ZS 8
+ZR 0
+Z8 0
+Z9 92
+SN 0006-3606
+UT BCI:BCI197458065498
+ER
+
+PT J
+AU GENTRY A H
+TI FLOWERING PHENOLOGY AND DIVERSITY IN TROPICAL BIGNONIACEAE
+SO Biotropica
+VL 6
+IS 1
+BP 64
+EP 68
+DI 10.2307/2989698
+PD 1974
+PY 1974
+ZR 0
+Z8 8
+ZS 69
+TC 274
+ZB 275
+Z9 342
+SN 0006-3606
+UT BCI:BCI197458064895
+ER
+
+PT J
+AU JANZEN D H
+TI TROPICAL BLACK WATER RIVERS ANIMALS AND MAST FRUITING BY THE
+   DIPTEROCARPACEAE
+SO Biotropica
+VL 6
+IS 2
+BP 69
+EP 103
+DI 10.2307/2989823
+PD 1974
+PY 1974
+ZR 0
+ZB 494
+ZS 11
+Z8 2
+TC 574
+Z9 589
+SN 0006-3606
+UT BCI:BCI197458065576
+ER
+
+PT J
+AU PERCIVAL M
+TI FLORAL ECOLOGY OF COASTAL SCRUB IN SOUTHEAST JAMAICA
+SO Biotropica
+VL 6
+IS 2
+BP 104
+EP 129
+DI 10.2307/2989824
+PD 1974
+PY 1974
+Z8 0
+ZS 6
+TC 69
+ZR 0
+ZB 63
+Z9 73
+SN 0006-3606
+UT BCI:BCI197559001455
+ER
+
+PT J
+AU EVANS H E
+   MATTHEWS R W
+TI OBSERVATIONS ON THE NESTING BEHAVIOR OF SOUTH AMERICAN SAND WASPS
+   HYMENOPTERA
+SO Biotropica
+VL 6
+IS 2
+BP 130
+EP 134
+DI 10.2307/2989825
+PD 1974
+PY 1974
+Z8 0
+ZR 0
+ZS 2
+ZB 4
+TC 7
+Z9 8
+SN 0006-3606
+UT BCI:BCI197559001315
+ER
+
+PT J
+AU Croat, T. B.
+TI A case for selection for delayed fruit maturation in Spondias
+   (Anacardiaceae).
+SO Biotropica
+VL 6
+IS 2
+BP 135
+EP 137
+PD 1974
+PY 1974
+AB It is believed that S. radlkoferi, of lower Central America and Panama,
+   is derived from the more widespread S. mombin. The fruits of S.
+   radlkoferi are green and are not sweet or tasty, whereas those of S.
+   mombin and other species of the genus are colourful and sweet.
+   Populations of both S. mombin and S. radlkoferi are common on Barro
+   Colorado Island. The two species differ in flowering and in fruiting
+   periods. Selection in S. radlkoferi appears to have favoured longer
+   periods of fruit maturation to extend the time of maturation into a
+   period of the year marked by low food supplies. Despite the overlap in
+   flowering periods of S. radlkoferi and S. mombin, there is no evidence
+   that the two species hybridize.
+ZR 0
+Z8 0
+ZB 0
+ZS 0
+TC 0
+Z9 0
+SN 0006-3606
+UT CABI:19741621936
+ER
+
+PT J
+AU CROAT T B
+TI A CASE FOR SELECTION FOR DELAYED FRUIT MATURATION IN SPONDIAS-SPP
+   ANACARDIACEAE
+SO Biotropica
+VL 6
+IS 2
+BP 135
+EP 137
+DI 10.2307/2989826
+PD 1974
+PY 1974
+ZS 0
+ZR 0
+Z8 0
+ZB 7
+TC 7
+Z9 7
+SN 0006-3606
+UT BCI:BCI197559001456
+ER
+
+PT J
+AU SCHUSTER J C
+TI SALTATORIAL ORTHOPTERA AS COMMON VISITORS TO TROPICAL FLOWERS
+SO Biotropica
+VL 6
+IS 2
+BP 138
+EP 140
+DI 10.2307/2989827
+PD 1974
+PY 1974
+ZR 0
+Z8 0
+ZS 0
+TC 9
+ZB 10
+Z9 11
+SN 0006-3606
+UT BCI:BCI197559001330
+ER
+
+PT J
+AU Soderstrom, T. R.
+   Calderon, C. E.
+TI Primitive forest grasses and evolution of the Bambusoideae.
+SO Biotropica
+VL 6
+IS 3
+BP 141
+EP 153
+PD 1974
+PY 1974
+AB A preliminary survey is presented of the distribution of some primitive
+   herbaceous bambusoid grasses in the Bahian region of eastern Brazil. It
+   appears that migration proceeded from this region southward along the
+   Serra do Mar and north-westward into the Amazon basin.
+ZS 0
+ZB 0
+ZR 0
+Z8 0
+TC 0
+Z9 0
+SN 0006-3606
+UT CABI:19741624211
+ER
+
+PT J
+AU SODERSTROM T R
+   CALDERON C E
+TI PRIMITIVE FOREST GRASSES AND EVOLUTION OF THE BAMBUSOIDEAE
+SO Biotropica
+VL 6
+IS 3
+BP 141
+EP 153
+DI 10.2307/2989646
+PD 1974
+PY 1974
+ZS 3
+Z8 0
+TC 35
+ZB 31
+ZR 0
+Z9 40
+SN 0006-3606
+UT BCI:BCI197559018420
+ER
+
+PT J
+AU USHER M B
+TI RUNWAY BUILDING AND FOOD EXPLORATION STRATEGY OF
+   PSEUDACANTHOTERMES-MILITARIS INSECTA ISOPTERA
+SO Biotropica
+VL 6
+IS 3
+BP 154
+EP 157
+DI 10.2307/2989647
+PD 1974
+PY 1974
+Z8 0
+ZS 0
+ZR 0
+TC 2
+ZB 1
+Z9 2
+SN 0006-3606
+UT BCI:BCI197559024867
+ER
+
+PT J
+AU LEE M A B
+TI DISTRIBUTION OF NATIVE AND INVADER PLANT SPECIES ON THE ISLAND OF GUAM
+SO Biotropica
+VL 6
+IS 3
+BP 158
+EP 164
+DI 10.2307/2989648
+PD 1974
+PY 1974
+Z8 0
+ZS 0
+ZB 5
+TC 5
+ZR 0
+Z9 6
+SN 0006-3606
+UT BCI:BCI197559019232
+ER
+
+PT J
+AU DUNN D F
+TI ZOO GEOGRAPHY OF THE IRENIDAE AVES PASSERES
+SO Biotropica
+VL 6
+IS 3
+BP 165
+EP 174
+DI 10.2307/2989649
+PD 1974
+PY 1974
+ZS 0
+Z8 0
+ZR 0
+TC 0
+ZB 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197559024239
+ER
+
+PT J
+AU RACINE C H
+   DOWNHOWER J F
+TI VEGETATIVE AND REPRODUCTIVE STRATEGIES OF OPUNTIA CACTACEAE IN THE
+   GALAPAGOS ISLANDS
+SO Biotropica
+VL 6
+IS 3
+BP 175
+EP 186
+DI 10.2307/2989650
+PD 1974
+PY 1974
+Z8 1
+ZS 1
+TC 34
+ZB 29
+ZR 0
+Z9 35
+SN 0006-3606
+UT BCI:BCI197559019231
+ER
+
+PT J
+AU WILSON D S
+TI PREY CAPTURE AND COMPETITION IN THE ANT-LION
+SO Biotropica
+VL 6
+IS 3
+BP 187
+EP 193
+DI 10.2307/2989651
+PD 1974
+PY 1974
+Z8 0
+ZB 58
+TC 61
+ZS 3
+ZR 0
+Z9 63
+SN 0006-3606
+UT BCI:BCI197559024605
+ER
+
+PT J
+AU STEPHENS S G
+TI THE USE OF 2 POLYMORPHIC SYSTEMS NECTARY FRINGE HAIRS AND CORKY ALLELES
+   AS INDICATORS OF PHYLOGENETIC RELATIONSHIPS IN NEW-WORLD COTTONS
+SO Biotropica
+VL 6
+IS 3
+BP 194
+EP 201
+DI 10.2307/2989652
+PD 1974
+PY 1974
+Z8 0
+ZS 0
+ZR 0
+ZB 6
+TC 7
+Z9 7
+SN 0006-3606
+UT BCI:BCI197559018322
+ER
+
+PT J
+AU PARSONS R F
+   CAMERON D G
+TI MAXIMUM PLANT SPECIES DIVERSITY IN TERRESTRIAL COMMUNITIES
+SO Biotropica
+VL 6
+IS 3
+BP 202
+EP 203
+DI 10.2307/2989653
+PD 1974
+PY 1974
+ZS 1
+ZB 9
+Z8 0
+ZR 0
+TC 10
+Z9 12
+SN 0006-3606
+UT BCI:BCI197559019226
+ER
+
+PT J
+AU BROWN K S JR
+   BENSON W W
+TI ADAPTIVE POLYMORPHISM ASSOCIATED WITH MULTIPLE MUELLERIAN MIMICRY IN
+   HELICONIUS-NUMATA LEPIDOPTERA NYMPHALIDAE
+SO Biotropica
+VL 6
+IS 4
+BP 205
+EP 228
+DI 10.2307/2989666
+PD 1974
+PY 1974
+Z8 0
+ZB 88
+ZR 0
+TC 92
+ZS 4
+Z9 95
+SN 0006-3606
+UT BCI:BCI197559065513
+ER
+
+PT J
+AU BAKUS G J
+TI TOXICITY IN HOLOTHURIANS A GEOGRAPHICAL PATTERN
+SO Biotropica
+VL 6
+IS 4
+BP 229
+EP 236
+DI 10.2307/2989667
+PD 1974
+PY 1974
+Z8 0
+ZB 40
+ZS 1
+TC 46
+ZR 0
+Z9 48
+SN 0006-3606
+UT BCI:BCI197560046463
+ER
+
+PT J
+AU JANZEN D H
+TI EPIPHYTIC MYRMECOPHYTES IN SARAWAK INDONESIA MUTUALISM THROUGH THE
+   FEEDING OF PLANTS BY ANTS
+SO Biotropica
+VL 6
+IS 4
+BP 237
+EP 259
+DI 10.2307/2989668
+PD 1974
+PY 1974
+ZS 3
+ZR 1
+ZB 83
+Z8 0
+TC 96
+Z9 101
+SN 0006-3606
+UT BCI:BCI197559065561
+ER
+
+PT J
+AU Janzen, D. H.
+   Wilson, D. E.
+TI The cost of being dormant in the tropics.
+SO Biotropica
+VL 6
+IS 4
+BP 260
+EP 262
+PD 1974
+PY 1974
+AB In a study in 50-year-old deciduous forest in Costa Rica, samples of the
+   shoot, stem and tap-root of the common understorey shrub Jacquinia
+   pungens (1.5-2.0 m tall), which is leafless during the relatively cool
+   rainy season (May-Oct.), were dried and analysed for total available
+   carbohydrate (TAC) at intervals from Oct. 1970 to July 1971. The TAC in
+   the whole plant after leaf production in Dec. was only one-third of its
+   value in May. It is concluded that dormancy of a poikilothermic species
+   in the tropics may have a greater adverse effect than during a
+   temperate-zone winter.
+ZR 0
+ZS 0
+Z8 0
+ZB 0
+TC 0
+Z9 0
+SN 0006-3606
+UT CABI:19760630077
+ER
+
+PT J
+AU JANZEN D H
+   WILSON D E
+TI THE COST OF BEING DORMANT IN THE TROPICS
+SO Biotropica
+VL 6
+IS 4
+BP 260
+EP 262
+DI 10.2307/2989669
+PD 1974
+PY 1974
+ZR 0
+ZB 12
+ZS 0
+Z8 0
+TC 14
+Z9 14
+SN 0006-3606
+UT BCI:BCI197559065677
+ER
+
+PT J
+AU SMITH A P
+TI BUD TEMPERATURE IN RELATION TO NYCTI NASTIC LEAF MOVEMENT IN AN ANDEAN
+   GIANT ROSETTE PLANT
+SO Biotropica
+VL 6
+IS 4
+BP 263
+EP 266
+DI 10.2307/2989670
+PD 1974
+PY 1974
+ZR 0
+ZS 1
+TC 43
+ZB 42
+Z8 0
+Z9 44
+SN 0006-3606
+UT BCI:BCI197559065675
+ER
+
+PT J
+AU VANDERMEER J H
+TI RELATIVE ISOLATION AND SEED PREDATION IN CALEIANDRA-GRANDIFLORA A
+   MIMOSACEOUS LEGUME FROM THE HIGHLANDS OF GUATEMALA
+SO Biotropica
+VL 6
+IS 4
+BP 267
+EP 268
+DI 10.2307/2989671
+PD 1974
+PY 1974
+ZB 14
+ZS 0
+ZR 0
+Z8 0
+TC 16
+Z9 16
+SN 0006-3606
+UT BCI:BCI197559065563
+ER
+
+PT J
+AU MCKEY D
+TI ANT PLANTS SELECTIVE EATING OF AN UNOCCUPIED BARTERIA BY A COLOBUS
+   MONKEY
+SO Biotropica
+VL 6
+IS 4
+BP 269
+EP 270
+DI 10.2307/2989672
+PD 1974
+PY 1974
+ZR 0
+Z8 0
+ZS 0
+TC 18
+ZB 16
+Z9 18
+SN 0006-3606
+UT BCI:BCI197560030616
+ER
+
+PT J
+AU FITTKAU E J
+   KLINGE H
+TI ON BIOMASS AND TROPHIC STRUCTURE OF THE CENTRAL AMAZONIAN RAIN FOREST
+   ECOSYSTEM
+SO Biotropica
+VL 5
+IS 1
+BP 2
+EP 14
+DI 10.2307/2989676
+PD 1973
+PY 1973
+ZS 16
+Z8 1
+ZB 214
+TC 256
+ZR 0
+Z9 270
+SN 0006-3606
+UT BCI:BCI197457048244
+ER
+
+PT J
+AU Janzen, D. H.
+TI Dissolution of mutualism between Cecropia and its Azteca ants.
+SO Biotropica
+VL 5
+IS 1
+BP 15
+EP 28
+PD 1973
+PY 1973
+AB A survey of the habitat, morphological characteristics, and mutualistic
+   occupation by Azteca ants, of Cecropia species in the mainland of
+   Central and S. America, and in the Caribbean Is. The normal
+   food-producing trichilia (hairy glands at the petiole base) of
+   ant-occupied species are described, and examples are given of
+   non-occupied species with no trichilia or only rudimentary ones. C.
+   peltata was not occupied by ants on Puerto Rico and most other Caribbean
+   islands. On the mainland of S. America (Columbia, Brazil) some high-alt.
+   species and the lowland C. sciadophylla also lacked ants. The reasons
+   for the dissolution of mutualism, and the various habitats of Cecropia
+   spp., are discussed in detail.
+ZB 0
+ZR 0
+TC 0
+ZS 0
+Z8 0
+Z9 0
+SN 0006-3606
+UT CABI:19780648899
+ER
+
+PT J
+AU JANZEN D H
+TI DISSOLUTION OF MUTUALISM BETWEEN CECROPIA AND ITS AZTECA ANTS
+SO Biotropica
+VL 5
+IS 1
+BP 15
+EP 28
+DI 10.2307/2989677
+PD 1973
+PY 1973
+TC 85
+ZB 80
+ZR 0
+ZS 1
+Z8 0
+Z9 88
+SN 0006-3606
+UT BCI:BCI197457024805
+ER
+
+PT J
+AU GIBSON A C
+TI COMPARATIVE ANATOMY OF SECONDARY XYLEM IN CACTOIDEAE CACTACEAE
+SO Biotropica
+VL 5
+IS 1
+BP 29
+EP 65
+DI 10.2307/2989678
+PD 1973
+PY 1973
+ZS 9
+ZR 0
+Z8 0
+ZB 69
+TC 71
+Z9 77
+SN 0006-3606
+UT BCI:BCI197457041564
+ER
+
+PT J
+AU Gibson, A. C.
+TI Comparative anatomy of secondary xylem in Cactoideae (Cactaceae).
+SO Biotropica
+VL 5
+IS 1
+BP 29
+EP 65
+PD 1973
+PY 1973
+AB The results are presented of studies on 119 spp. including many
+   ornamental cacti.
+ZR 0
+Z8 0
+ZS 0
+ZB 0
+TC 0
+Z9 0
+SN 0006-3606
+UT CABI:19740320471
+ER
+
+PT J
+AU EHRLICH P R
+   GILBERT L E
+TI POPULATION STRUCTURE AND DYNAMICS OF THE TROPICAL BUTTERFLY
+   HELICONIUS-ETHILLA
+SO Biotropica
+VL 5
+IS 2
+BP 69
+EP 82
+DI 10.2307/2989656
+PD 1973
+PY 1973
+ZS 3
+Z8 0
+ZR 0
+TC 120
+ZB 109
+Z9 125
+SN 0006-3606
+UT BCI:BCI197457038149
+ER
+
+PT J
+AU HENWOOD K
+TI A STRUCTURAL MODEL OF FORCES IN BUTTRESSED TROPICAL RAIN FOREST TREES
+SO Biotropica
+VL 5
+IS 2
+BP 83
+EP 93
+DI 10.2307/2989657
+PD 1973
+PY 1973
+Z8 0
+ZB 33
+TC 34
+ZS 1
+ZR 0
+Z9 38
+SN 0006-3606
+UT BCI:BCI197457036531
+ER
+
+PT J
+AU RUDDLE K
+TI THE HUMAN USE OF INSECTS EXAMPLES FROM THE YUKPA
+SO Biotropica
+VL 5
+IS 2
+BP 94
+EP 101
+DI 10.2307/2989658
+PD 1973
+PY 1973
+ZS 3
+ZB 25
+ZR 0
+Z8 0
+TC 40
+Z9 49
+SN 0006-3606
+UT BCI:BCI197559015763
+ER
+
+PT J
+AU STONE B C
+   LOWRY J B
+   SCORA R W
+   JONG K
+TI CITRUS-HALIMII NEW-SPECIES FROM MALAYA AND PENINSULAR THAILAND
+SO Biotropica
+VL 5
+IS 2
+BP 102
+EP 110
+DI 10.2307/2989659
+PD 1973
+PY 1973
+ZR 0
+ZS 0
+Z8 0
+TC 11
+ZB 10
+Z9 11
+SN 0006-3606
+UT BCI:BCI197457041576
+ER
+
+PT J
+AU HINCKLEY A D
+TI ECOLOGY OF THE COCONUT RHINOCEROS BEETLE ORYCTES-RHINOCEROS COLEOPTERA
+   DYNASTIDAE
+SO Biotropica
+VL 5
+IS 2
+BP 111
+EP 116
+DI 10.2307/2989660
+PD 1973
+PY 1973
+Z8 0
+ZR 0
+ZB 12
+TC 13
+ZS 0
+Z9 15
+SN 0006-3606
+UT BCI:BCI197457036734
+ER
+
+PT J
+AU JANZEN D H
+TI RATE OF REGENERATION AFTER A TROPICAL HIGH ELEVATION FIRE
+SO Biotropica
+VL 5
+IS 2
+BP 117
+EP 122
+DI 10.2307/2989661
+PD 1973
+PY 1973
+ZR 0
+ZS 0
+TC 28
+Z8 0
+ZB 23
+Z9 29
+SN 0006-3606
+UT BCI:BCI197457036528
+ER
+
+PT J
+AU PETER L W
+   BYER M D
+   BRUCK D L
+TI TRANSPIRATION RATES IN THE LUQUILLO MOUNTAINS OF PUERTO-RICO
+SO Biotropica
+VL 5
+IS 2
+BP 123
+EP 133
+PD 1973
+PY 1973
+ZR 0
+Z8 0
+ZB 0
+ZS 0
+TC 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197457036527
+ER
+
+PT J
+AU Weaver, P. L.
+   Byer, M. D.
+   Bruck, D. L.
+TI Transpiration rates in the Luquillo Mountains of Puerto Rico.
+SO Biotropica
+VL 5
+IS 2
+BP 123
+EP 133
+DI 10.2307/2989662
+PD 1973
+PY 1973
+AB Reports studies in (a) elfin forest on a peak at 1000 m [cf. FA 33,
+   4141] and (b) montane rain forest at 550 m : the transpiration rate
+   (measured with potometers) was extremely low compared with most other
+   rates reported in the literature, regardless of habitat. This result is
+   probably due to a combination of factors, namely (1) the low saturation
+   deficit of the air, (2) the frequent deposition of cloud moisture, and
+   (3) reduced insolation reaching the leaves because of frequent fog and a
+   closed canopy; inefficient xylem and a scarcity of certain minerals may
+   also be involved. Transpiration of sclerophyllous-leaved species
+   characteristic of (a) was similar to that of membranaceous-leaved
+   species from (b), although leaves in (a) had a relatively greater
+   stomatal area. In this study, sclerophylly appeared to be an adaptation
+   to strong mountain winds (to resist defoliation), rather than a
+   mechanism for reducing transpiration. It is suggested that the reduced
+   height of trees in elfin forest is caused largely by inefficient base
+   pumping due to slow transpiration, combined with mechanical pruning by
+   wind.
+ZR 0
+ZS 0
+Z8 0
+ZB 19
+TC 27
+Z9 27
+SN 0006-3606
+UT CABI:19740617196
+ER
+
+PT J
+AU AYENSU E S
+TI BIOLOGICAL AND MORPHOLOGICAL ASPECTS OF THE VELLOZIACEAE
+SO Biotropica
+VL 5
+IS 3
+BP 135
+EP 149
+DI 10.2307/2989806
+PD 1973
+PY 1973
+ZS 5
+ZR 0
+Z8 0
+TC 20
+ZB 17
+Z9 26
+SN 0006-3606
+UT BCI:BCI197458006499
+ER
+
+PT J
+AU EISENBERG J F
+   THORINGTON R W JR
+TI A PRELIMINARY ANALYSIS OF A NEOTROPICAL MAMMAL FAUNA
+SO Biotropica
+VL 5
+IS 3
+BP 150
+EP 161
+DI 10.2307/2989807
+PD 1973
+PY 1973
+ZB 107
+TC 126
+ZS 10
+Z8 1
+ZR 0
+Z9 137
+SN 0006-3606
+UT BCI:BCI197458006955
+ER
+
+PT J
+AU DAVIDSE G
+   MORTON E
+TI BIRD MEDIATED FRUIT DISPERSAL IN THE TROPICAL GRASS GENUS LASIACIS
+   GRAMINEAE PANICEAE
+SO Biotropica
+VL 5
+IS 3
+BP 162
+EP 167
+DI 10.2307/2989808
+PD 1973
+PY 1973
+Z8 0
+TC 9
+ZB 7
+ZS 0
+ZR 0
+Z9 9
+SN 0006-3606
+UT BCI:BCI197458007060
+ER
+
+PT J
+AU LLOYD J E
+TI A FIREFLY INHABITANT OF COASTAL REEFS IN NEW-GUINEA COLEOPTERA
+   LAMPYRIDAE
+SO Biotropica
+VL 5
+IS 3
+BP 168
+EP 174
+DI 10.2307/2989809
+PD 1973
+PY 1973
+Z8 0
+ZB 4
+ZS 0
+TC 6
+ZR 0
+Z9 6
+SN 0006-3606
+UT BCI:BCI197458002953
+ER
+
+PT J
+AU CLEWELL A F
+TI FLORISTIC COMPOSITION OF A STAND OF PINUS-OOCARPA IN HONDURAS
+SO Biotropica
+VL 5
+IS 3
+BP 175
+EP 182
+DI 10.2307/2989810
+PD 1973
+PY 1973
+ZR 0
+ZS 0
+TC 3
+Z8 0
+ZB 1
+Z9 3
+SN 0006-3606
+UT BCI:BCI197458013194
+ER
+
+PT J
+AU JEANNE R L
+TI ASPECTS OF THE BIOLOGY OF STELOPOLYBIA-AREATA HYMENOPTERA VESPIDAE
+SO Biotropica
+VL 5
+IS 3
+BP 183
+EP 198
+DI 10.2307/2989811
+PD 1973
+PY 1973
+ZB 9
+ZR 0
+Z8 0
+ZS 0
+TC 13
+Z9 13
+SN 0006-3606
+UT BCI:BCI197458003044
+ER
+
+PT J
+AU WINDSOR D M
+TI NESTING ASSOCIATION BETWEEN 2 NEOTROPICAL POLYBIINE WASPS HYMENOPTERA
+   VESPIDAE
+SO Biotropica
+VL 4
+IS 1
+BP 1
+EP 3
+DI 10.2307/2989638
+PD 1972
+PY 1972
+ZB 9
+TC 10
+Z8 0
+ZS 2
+ZR 0
+Z9 11
+SN 0006-3606
+UT BCI:BCI197356037780
+ER
+
+PT J
+AU SMITH A R
+TI COMPARISON OF FERN AND FLOWERING PLANT DISTRIBUTIONS WITH SOME
+   EVOLUTIONARY INTERPRETATIONS FOR FERNS
+SO Biotropica
+VL 4
+IS 1
+BP 4
+EP 9
+DI 10.2307/2989639
+PD 1972
+PY 1972
+ZR 0
+ZB 79
+Z8 4
+TC 81
+ZS 3
+Z9 89
+SN 0006-3606
+UT BCI:BCI197356035751
+ER
+
+PT J
+AU SMITH A P
+TI NOTES ON WIND RELATED GROWTH PATTERNS OF PARAMO PLANTS IN VENEZUELA
+SO Biotropica
+VL 4
+IS 1
+BP 10
+EP 16
+DI 10.2307/2989640
+PD 1972
+PY 1972
+ZR 0
+Z8 0
+ZB 13
+TC 16
+ZS 0
+Z9 16
+SN 0006-3606
+UT BCI:BCI197356036397
+ER
+
+PT J
+AU YOUNG A M
+TI MIMETIC ASSOCIATIONS IN POPULATIONS OF TROPICAL BUTTERFLIES PART 2
+   MIMETIC INTERACTIONS OF BATTUS-POLYDAMUS AND BATTUS-BELLUS
+SO Biotropica
+VL 4
+IS 1
+BP 17
+EP 27
+DI 10.2307/2989641
+PD 1972
+PY 1972
+ZR 0
+ZS 0
+ZB 3
+Z8 0
+TC 2
+Z9 3
+SN 0006-3606
+UT BCI:BCI197356048751
+ER
+
+PT J
+AU Borrero, H.J.I.
+TI Explotacion de las Bores de Guayacan (Tabebuia chrysantha) por varias
+   especies de aves e insectos.
+SO Biotropica
+VL 4
+IS 1
+BP 28
+EP 31
+PD 1972
+PY 1972
+ZR 0
+ZS 0
+Z8 0
+ZB 0
+TC 0
+Z9 0
+UT ZOOREC:ZOOR10900009851
+ER
+
+PT J
+AU Borrero, H.J.I.
+TI Explotacion de las flores de guayacan (Tabebuia chrysantha) por varias
+   especies de aves e insectos.
+SO Biotropica
+VL 4
+IS 1
+BP 28
+EP 31
+PD 1972
+PY 1972
+Z8 0
+ZR 0
+ZB 0
+ZS 0
+TC 0
+Z9 0
+UT ZOOREC:ZOOR10900009852
+ER
+
+PT J
+AU BORRERO H J I
+TI EXPLOITATION OF THE FLOWERS OF THE LIGNUM-VITAE TREE TABEBUIA-CHRYSANTHA
+   BY VARIOUS SPECIES OF BIRDS AND INSECTS
+SO Biotropica
+VL 4
+IS 1
+BP 28
+EP 31
+PD 1972
+PY 1972
+ZS 0
+Z8 0
+TC 0
+ZB 0
+ZR 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197356053947
+ER
+
+PT J
+AU SCOTT J A
+TI BIO GEOGRAPHY OF ANTILLEAN BUTTERFLIES
+SO Biotropica
+VL 4
+IS 1
+BP 32
+EP 45
+DI 10.2307/2989643
+PD 1972
+PY 1972
+ZR 0
+ZB 19
+Z8 0
+TC 23
+ZS 0
+Z9 24
+SN 0006-3606
+UT BCI:BCI197356037793
+ER
+
+PT J
+AU STEPHENS S G
+   PHILLIPS L L
+TI THE HISTORY AND GEOGRAPHICAL DISTRIBUTION OF A POLYMORPHIC SYSTEM IN
+   NEW-WORLD COTTONS
+SO Biotropica
+VL 4
+IS 2
+BP 49
+EP 60
+DI 10.2307/2989727
+PD 1972
+PY 1972
+ZB 11
+Z8 0
+TC 13
+ZS 0
+ZR 0
+Z9 14
+SN 0006-3606
+UT BCI:BCI197356059036
+ER
+
+PT J
+AU HILLS H G
+   WILLIAMS N H
+   DODSON C H
+TI FLORAL FRAGRANCES AND ISOLATING MECHANISMS IN THE GENUS CATESETUM
+   ORCHIDACEAE
+SO Biotropica
+VL 4
+IS 2
+BP 61
+EP 76
+DI 10.2307/2989728
+PD 1972
+PY 1972
+ZS 3
+TC 56
+ZR 0
+ZB 50
+Z8 0
+Z9 59
+SN 0006-3606
+UT BCI:BCI197356064898
+ER
+
+PT J
+AU HEISER C B JR
+TI THE RELATIONSHIPS OF THE NARANJILLA SOLANUM-QUITOENSE
+SO Biotropica
+VL 4
+IS 2
+BP 77
+EP 84
+DI 10.2307/2989729
+PD 1972
+PY 1972
+Z8 0
+TC 21
+ZR 0
+ZB 16
+ZS 5
+Z9 25
+SN 0006-3606
+UT BCI:BCI197356064793
+ER
+
+PT J
+AU MISKIMEN G W
+TI ENVIRONMENTAL FACTORS AFFECTING SOLDIER BEETLE DISTRIBUTION AND
+   COLORATION IN COLOMBIA
+SO Biotropica
+VL 4
+IS 2
+BP 85
+EP 92
+DI 10.2307/2989730
+PD 1972
+PY 1972
+TC 2
+Z8 0
+ZS 0
+ZB 2
+ZR 0
+Z9 2
+SN 0006-3606
+UT BCI:BCI197356059943
+ER
+
+PT J
+AU HOSHIZAKI B J
+TI MORPHOLOGY AND PHYLOGENY OF PLATYCERIUM SPECIES
+SO Biotropica
+VL 4
+IS 2
+BP 93
+EP 117
+DI 10.2307/2989731
+PD 1972
+PY 1972
+Z8 0
+ZR 0
+TC 17
+ZB 13
+ZS 0
+Z9 17
+SN 0006-3606
+UT BCI:BCI197356064907
+ER
+
+PT J
+AU TRYON R
+TI ENDEMIC AREAS AND GEOGRAPHIC SPECIATION IN TROPICAL AMERICAN FERNS
+SO Biotropica
+VL 4
+IS 3
+BP 121
+EP 131
+DI 10.2307/2989774
+PD 1972
+PY 1972
+Z8 5
+ZS 19
+ZR 0
+TC 70
+ZB 66
+Z9 88
+SN 0006-3606
+UT BCI:BCI197356064906
+ER
+
+PT J
+AU RANDALL J E
+TI CHEMICAL POLLUTION IN THE SEA AND THE CROWN-OF-THORNS STARFISH
+   ACANTHASTER-PLANCI
+SO Biotropica
+VL 4
+IS 3
+BP 132
+EP 144
+DI 10.2307/2989775
+PD 1972
+PY 1972
+Z8 0
+ZS 0
+ZR 0
+ZB 16
+TC 17
+Z9 20
+SN 0006-3606
+UT BCI:BCI197457013157
+ER
+
+PT J
+AU SLATER J A
+TI LYGAEID BUGS HEMIPTERA HETEROPTERA LYGAEIDAE AS SEED PREDATORS OF FIGS
+SO Biotropica
+VL 4
+IS 3
+BP 145
+EP 151
+DI 10.2307/2989776
+PD 1972
+PY 1972
+ZB 26
+ZS 2
+Z8 0
+ZR 0
+TC 31
+Z9 33
+SN 0006-3606
+UT BCI:BCI197356065915
+ER
+
+PT J
+AU YOUNG A M
+TI CICADA ECOLOGY IN A COSTA-RICAN TROPICAL RAIN FOREST
+SO Biotropica
+VL 4
+IS 3
+BP 152
+EP 159
+DI 10.2307/2989777
+PD 1972
+PY 1972
+ZR 0
+ZB 15
+ZS 0
+TC 16
+Z8 0
+Z9 16
+SN 0006-3606
+UT BCI:BCI197356065570
+ER
+
+PT J
+AU SODERSTROM T R
+   CALDERON C E
+TI INSECT POLLINATION IN TROPICAL RAIN FOREST GRASSES-M
+SO Biotropica
+VL 3
+IS 1
+BP 1
+EP 16
+DI 10.2307/2989701
+PD 1971
+PY 1971
+Z8 1
+ZB 64
+TC 70
+ZS 3
+ZR 0
+Z9 73
+SN 0006-3606
+UT BCI:BCI197254065332
+ER
+
+PT J
+AU COOK L M
+   FRANK K
+   BROWER L P
+TI EXPERIMENTS ON THE DEMOGRAPHY OF TROPICAL BUTTERFLIES PART 1 SURVIVAL
+   RATE AND DENSITY IN 2 SPECIES OF PARIDES
+SO Biotropica
+VL 3
+IS 1
+BP 17
+EP 20
+DI 10.2307/2989702
+PD 1971
+PY 1971
+ZR 0
+ZB 13
+Z8 0
+TC 14
+ZS 0
+Z9 14
+SN 0006-3606
+UT BCI:BCI197254060946
+ER
+
+PT J
+AU TURNER J R G
+TI EXPERIMENTS ON THE DEMOGRAPHY OF TROPICAL BUTTERFLIES PART 2 LONGEVITY
+   AND HOME RANGE BEHAVIOR IN HELICONIUS-ERATO
+SO Biotropica
+VL 3
+IS 1
+BP 21
+EP 31
+DI 10.2307/2989703
+PD 1971
+PY 1971
+ZB 41
+ZR 0
+ZS 2
+Z8 0
+TC 42
+Z9 47
+SN 0006-3606
+UT BCI:BCI197254060945
+ER
+
+PT J
+AU AUSTIN D F
+TI RELATIONS OF ITZAEA-SERICEA-D CONVOLVULACEAE-D
+SO Biotropica
+VL 3
+IS 1
+BP 32
+EP 35
+DI 10.2307/2989704
+PD 1971
+PY 1971
+TC 2
+ZR 0
+Z8 0
+ZS 0
+ZB 2
+Z9 2
+SN 0006-3606
+UT BCI:BCI197254064610
+ER
+
+PT J
+AU RENAUD-MORNANT J C
+   SALAT B
+   BOSSY C
+TI MACRO BENTHOS AND MEIO BENTHOS FROM THE CLOSED LAGOON OF A POLYNESIAN
+   ATOLL MATUREI VAVAO TUAMOTU
+SO Biotropica
+VL 3
+IS 1
+BP 36
+EP 55
+DI 10.2307/2989705
+PD 1971
+PY 1971
+ZS 0
+ZR 0
+Z8 0
+ZB 17
+TC 20
+Z9 20
+SN 0006-3606
+UT BCI:BCI197254065361
+ER
+
+PT J
+AU Halle, F.
+TI Architecture and growth of tropical trees exemplified by the
+   Euphorbiaceae.
+SO Biotropica
+VL 3
+IS 1
+BP 56
+EP 62
+DI 10.2307/2989706
+PD 1971
+PY 1971
+AB [See FA 33, 397] A general discussion of the determination of tree
+   architecture by meristematic activity (the following features are
+   discussed with particular reference to tropical trees: symmetry;
+   sequence of differentiation; longevity; and rhythm of activity) is
+   followed by a discussion of the relationship between architecture,
+   taxonomy, and geography in tropical genera. There is an illustrated
+   description of 2 families: the Myristicaceae, which are poor in
+   architectural types; and the Euphorbiaceae, which are especially rich.
+ZB 11
+TC 11
+ZS 0
+ZR 0
+Z8 0
+Z9 12
+SN 0006-3606
+UT CABI:19780649308
+ER
+
+PT J
+AU Gill, A. M.
+   Tomlinson, P. B.
+TI Studies on the growth of red mangrove (Rhizophora mangle L.) 2. Growth
+   and differentation of aerial roots 3. Phenology of the shoot.
+SO Biotropica
+VL 3
+IS 1; 2
+BP 63
+EP 77; 109-124
+DI 10.2307/2989707
+PD 1971
+PY 1971
+AB [See FA 31, 6027] (2) Observations were made on small trees up to 5 m
+   ht. in Miami, Florida, during active growth in May 1969. Illustrated
+   data describe the anatomy and development of aerial roots, which arise
+   initially on the hypocotyl or lower internodes of seedlings, and
+   subsequently on higher branches. The most distinctive feature of the
+   method of root growth is the extended zone of elongation (usually 10-16
+   cm long). The apical initial region is short with clearly differentiated
+   tissues; further cell divisions occur within the elongating zone.
+   Trichosclereids give mechanical strength. Vascular differentiation (soon
+   changing from a root-like to a stem-like pattern) is unlike the normal
+   angiosperm sequence.(3) Shoot extension growth was measured on 22 shoots
+   in 1968-70. Descriptions are given of the apical bud (which is uniform
+   throughout the year, and includes leaves, flowers, and precocious
+   branches), vegetative growth, and reproduction. Phenological variations
+   occurred throughout the year despite the lack of distinct periodicity in
+   growth processes. A diagram shows hypothetical interrelations between
+   various organs, processes, and environmental factors. The growth pattern
+   is that of an ever-flowering tropical plant, modified by a seasonal
+   climate.
+TC 24
+ZR 0
+ZB 23
+Z8 0
+ZS 2
+Z9 26
+SN 0006-3606
+UT CABI:19780648958
+ER
+
+PT J
+AU Lewis, W. H.
+TI High floristic endemism in low cloud forests in Panama.
+SO Biotropica
+VL 3
+IS 1
+BP 78
+EP 80
+DI 10.2307/2989708
+PD 1971
+PY 1971
+AB Cloud forests with a high frequency of endemic plants occur among
+   unusually low (500-1000 m alt.) isolated ridges and peaks of volcanic
+   origin in this area. Exploration of these botanically ignored forests is
+   urgently needed in face of their impending destruction. From author's
+   summary.
+ZS 2
+ZB 13
+ZR 0
+Z8 0
+TC 14
+Z9 15
+SN 0006-3606
+UT CABI:19780649309
+ER
+
+PT J
+AU Southwell, C. R
+   Bultman, J. D.
+TI Marine borer resistance of untreated woods over long periods of
+   immersion in tropical waters.
+SO Biotropica
+VL 3
+BP 81
+EP pis
+DI 10.2307/2989709
+PD 1971
+PY 1971
+ZR 0
+ZB 41
+ZS 2
+TC 55
+Z8 0
+Z9 57
+UT ZOOREC:ZOOR10800007790
+ER
+
+PT J
+AU GILL A M
+   TOMLINSON P B
+TI STUDIES ON THE GROWTH OF RED MANGROVE-D RHIZOPHORA-MANGLE-D PART 3
+   PHENOLOGY OF THE SHOOT
+SO Biotropica
+VL 3
+IS 2
+BP 109
+EP 124
+DI 10.2307/2989815
+PD 1971
+PY 1971
+Z8 1
+ZS 2
+ZR 0
+TC 90
+ZB 82
+Z9 95
+SN 0006-3606
+UT BCI:BCI197254048154
+ER
+
+PT J
+AU GOMEZ-POMPA A
+TI POSSIBLE ROLE OF SECONDARY VEGETATION IN THE EVOLUTION OF THE TROPICAL
+   FLORA
+SO Biotropica
+VL 3
+IS 2
+BP 125
+EP 135
+DI 10.2307/2989816
+PD 1971
+PY 1971
+ZR 0
+ZB 12
+ZS 11
+Z8 0
+TC 12
+Z9 20
+SN 0006-3606
+UT BCI:BCI197254048155
+ER
+
+PT J
+AU GREENHALL A M
+   SCHMIDT U
+   LOPEZ-FORMENT W
+TI ATTACKING BEHAVIOR OF THE VAMPIRE BAT DESMODUS-ROTUNDUS UNDER FIELD
+   CONDITIONS IN MEXICO
+SO Biotropica
+VL 3
+IS 2
+BP 136
+EP 141
+DI 10.2307/2989817
+PD 1971
+PY 1971
+ZR 0
+Z8 0
+TC 15
+ZB 13
+ZS 2
+Z9 17
+SN 0006-3606
+UT BCI:BCI197355029312
+ER
+
+PT J
+AU PORTER D M
+TI BUTTRESSING IN A TROPICAL XEROPHYTE
+SO Biotropica
+VL 3
+IS 2
+BP 142
+EP 144
+DI 10.2307/2989818
+PD 1971
+PY 1971
+Z8 0
+ZR 0
+ZB 1
+TC 2
+ZS 0
+Z9 2
+SN 0006-3606
+UT BCI:BCI197254048156
+ER
+
+PT J
+AU GARRIDO O H
+TI THE EXCRETIONS OF CAPROMYS RODENTIA CAVIOMORPHA AND THEIR TAXONOMIC
+   IMPORTANCE
+SO Biotropica
+VL 3
+IS 2
+BP 145
+EP 150
+DI 10.2307/2989819
+PD 1971
+PY 1971
+ZR 0
+ZS 0
+TC 1
+ZB 1
+Z8 0
+Z9 1
+SN 0006-3606
+UT BCI:BCI197254047661
+ER
+
+PT J
+AU BURUGA J H
+   OLEMBO R J
+TI PLANT FOOD PREFERENCES OF SOME SYMPATRIC DROSOPHILIDS OF TROPICAL AFRICA
+SO Biotropica
+VL 3
+IS 2
+BP 151
+EP 158
+DI 10.2307/2989820
+PD 1971
+PY 1971
+Z8 0
+TC 11
+ZB 8
+ZS 0
+ZR 0
+Z9 11
+SN 0006-3606
+UT BCI:BCI197254055236
+ER
+
+PT J
+AU CARSON H L
+TI CHROMOSOMAL TRACERS OF FOUNDER EVENTS
+SO Biotropica
+VL 2
+IS 1
+BP 3
+EP 6
+DI 10.2307/2989781
+PD 1970
+PY 1970
+ZB 0
+Z8 0
+ZS 0
+TC 3
+ZR 0
+Z9 3
+SN 0006-3606
+UT BCI:BCI197152026175
+ER
+
+PT J
+AU DARLINGTON P J JR
+TI CARABIDAE ON TROPICAL ISLANDS ESPECIALLY THE WEST-INDIES
+SO Biotropica
+VL 2
+IS 1
+BP 7
+EP 15
+DI 10.2307/2989782
+PD 1970
+PY 1970
+ZS 0
+TC 25
+ZR 0
+ZB 19
+Z8 0
+Z9 26
+SN 0006-3606
+UT BCI:BCI197152026151
+ER
+
+PT J
+AU HEDBERG O
+TI EVOLUTION OF THE AFRO ALPINE FLORA
+SO Biotropica
+VL 2
+IS 1
+BP 16
+EP 23
+DI 10.2307/2989783
+PD 1970
+PY 1970
+ZB 42
+Z8 2
+ZR 0
+TC 40
+ZS 0
+Z9 45
+SN 0006-3606
+UT BCI:BCI197152024115
+ER
+
+PT J
+AU HOWARD R A
+TI THE ALPINE PLANTS OF THE ANTILLES
+SO Biotropica
+VL 2
+IS 1
+BP 24
+EP 28
+DI 10.2307/2989784
+PD 1970
+PY 1970
+ZR 0
+Z8 0
+TC 7
+ZS 0
+ZB 6
+Z9 7
+SN 0006-3606
+UT BCI:BCI197152025025
+ER
+
+PT J
+AU LACK D
+TI ISLAND BIRDS
+SO Biotropica
+VL 2
+IS 1
+BP 29
+EP 31
+DI 10.2307/2989785
+PD 1970
+PY 1970
+ZR 0
+ZS 0
+Z8 0
+TC 15
+ZB 9
+Z9 15
+SN 0006-3606
+UT BCI:BCI197152036216
+ER
+
+PT J
+AU ZIMMERMAN E C
+TI ADAPTIVE RADIATION IN HAWAII WITH SPECIAL REFERENCE TO INSECTS
+SO Biotropica
+VL 2
+IS 1
+BP 32
+EP 38
+DI 10.2307/2989786
+PD 1970
+PY 1970
+ZR 0
+Z8 0
+ZS 0
+ZB 49
+TC 54
+Z9 56
+SN 0006-3606
+UT BCI:BCI197152048531
+ER
+
+PT J
+AU CUATRECASAS J
+TI REINSTATEMENT OF THE GENUS LLERASIA-D COMPOSITAE-D
+SO Biotropica
+VL 2
+IS 1
+BP 39
+EP 45
+DI 10.2307/2989787
+PD 1970
+PY 1970
+ZB 7
+Z8 0
+ZR 0
+TC 6
+ZS 0
+Z9 7
+SN 0006-3606
+UT BCI:BCI197152024094
+ER
+
+PT J
+AU WOODS F W
+   GALLEGOS C M
+TI LITTER ACCUMULATION IN SELECTED FORESTS OF THE REPUBLIC OF PANAMA
+SO Biotropica
+VL 2
+IS 1
+BP 46
+EP 50
+DI 10.2307/2989788
+PD 1970
+PY 1970
+Z8 0
+ZB 5
+ZR 0
+ZS 0
+TC 7
+Z9 7
+SN 0006-3606
+UT BCI:BCI197152025024
+ER
+
+PT J
+AU STARK N
+TI THE NUTRIENT CONTENT OF PLANTS AND SOILS FROM BRAZIL AND SURINAM
+SO Biotropica
+VL 2
+IS 1
+BP 51
+EP 60
+DI 10.2307/2989789
+PD 1970
+PY 1970
+TC 43
+ZS 2
+ZB 35
+Z8 0
+ZR 0
+Z9 44
+SN 0006-3606
+UT BCI:BCI197152034576
+ER
+
+PT J
+AU KEAST A
+TI ADAPTIVE EVOLUTION AND SHIFTS IN NICHE OCCUPATION IN ISLAND BIRDS
+SO Biotropica
+VL 2
+IS 2
+BP 61
+EP 75
+DI 10.2307/2989764
+PD 1970
+PY 1970
+ZB 39
+ZS 0
+TC 44
+ZR 0
+Z8 0
+Z9 45
+SN 0006-3606
+UT BCI:BCI197152135758
+ER
+
+PT J
+AU TRYON R
+TI DEVELOPMENT AND EVOLUTION OF FERN-P FLORAS OF OCEANIC ISLANDS
+SO Biotropica
+VL 2
+IS 2
+BP 76
+EP 84
+DI 10.2307/2989765
+PD 1970
+PY 1970
+ZR 0
+ZS 12
+Z8 1
+TC 92
+ZB 88
+Z9 105
+SN 0006-3606
+UT BCI:BCI197152128833
+ER
+
+PT J
+AU MAGUIRE B
+TI ON THE FLORA OF THE GUAYANA HIGHLAND
+SO Biotropica
+VL 2
+IS 2
+BP 85
+EP 100
+DI 10.2307/2989766
+PD 1970
+PY 1970
+ZS 4
+TC 81
+ZR 0
+ZB 69
+Z8 0
+Z9 85
+SN 0006-3606
+UT BCI:BCI197152128832
+ER
+
+PT J
+AU BAKER H G
+TI EVOLUTION IN THE TROPICS
+SO Biotropica
+VL 2
+IS 2
+BP 101
+EP 111
+DI 10.2307/2989767
+PD 1970
+PY 1970
+TC 39
+ZR 0
+Z8 0
+ZB 31
+ZS 0
+Z9 40
+SN 0006-3606
+UT BCI:BCI197152136254
+ER
+
+PT J
+AU JANZEN D H
+TI JACQUINIA-PUNGENS-D A HELIOPHILE FROM THE UNDERSTORY OF TROPICAL
+   DECIDUOUS FOREST
+SO Biotropica
+VL 2
+IS 2
+BP 112
+EP 119
+DI 10.2307/2989768
+PD 1970
+PY 1970
+Z8 0
+ZB 23
+ZS 2
+TC 27
+ZR 0
+Z9 27
+SN 0006-3606
+UT BCI:BCI197152129655
+ER
+
+PT J
+AU WILLIS E R
+TI MATING BEHAVIOR OF 3 COCKROACHES LATIBLATTELLA FROM HONDURAS
+SO Biotropica
+VL 2
+IS 2
+BP 120
+EP 128
+DI 10.2307/2989769
+PD 1970
+PY 1970
+Z8 0
+TC 15
+ZB 13
+ZS 0
+ZR 0
+Z9 15
+SN 0006-3606
+UT BCI:BCI197253000258
+ER
+
+PT J
+AU GILL A M
+   TOMLINSON P B
+TI STUDIES ON THE GROWTH OF RED MANGROVE-D RHIZOPHORA-MANGLE-D PART 1 HABIT
+   AND GENERAL MORPHOLOGY
+SO Biotropica
+VL 1
+IS 1
+BP 1
+EP 9
+DI 10.2307/2989744
+PD 1969
+PY 1969
+Z8 0
+TC 43
+ZS 1
+ZR 0
+ZB 38
+Z9 44
+SN 0006-3606
+UT BCI:BCI197051127552
+ER
+
+PT J
+AU TABOADA G S
+   PINE R H
+TI MORPHOLOGICAL AND BEHAVIORAL EVIDENCE FOR THE RELATIONSHIP BETWEEN THE
+   BAT GENUS BRACHYPHYLLA AND THE PHYLLONYCTERINAE
+SO Biotropica
+VL 1
+IS 1
+BP 10
+EP 19
+DI 10.2307/2989745
+PD 1969
+PY 1969
+ZR 0
+Z8 0
+ZB 12
+ZS 0
+TC 13
+Z9 14
+SN 0006-3606
+UT BCI:BCI197051134128
+ER
+
+PT J
+AU Barbehenn, K. R.
+TI Host-parasite relationships and species diversity in mammals: an
+   hypothesis.
+SO Biotropica
+VL 1
+BP 29
+EP 35
+PD 1969
+PY 1969
+ZR 0
+ZS 0
+TC 6
+Z8 0
+ZB 4
+Z9 6
+UT ZOOREC:ZOOR10700005879
+ER
+
+PT J
+AU BARBEHENN K R
+TI HOST PARASITE RELATIONSHIPS AND SPECIES DIVERSITY IN MAMMALS AN
+   HYPOTHESIS
+SO Biotropica
+VL 1
+IS 2
+BP 29
+EP 35
+DI 10.2307/2989758
+PD 1969
+PY 1969
+ZS 0
+TC 40
+Z8 0
+ZB 37
+ZR 0
+Z9 41
+SN 0006-3606
+UT BCI:BCI197051123005
+ER
+
+PT J
+AU Barbeheun, K.
+TI IL Host-parasite relationships and species diversity in mammals: an
+   hypothesis.
+SO Biotropica
+VL 1
+BP 29
+EP 35
+PD 1969
+PY 1969
+ZS 0
+ZR 0
+Z8 0
+ZB 0
+TC 0
+Z9 0
+UT ZOOREC:ZOOR10700010000
+ER
+
+PT J
+AU CONNOR D J
+TI GROWTH OF GRAY MANGROVE-D AVICENNIA-MARINA-D IN NUTRIENT CULTURE
+SO Biotropica
+VL 1
+IS 2
+BP 36
+EP 40
+DI 10.2307/2989759
+PD 1969
+PY 1969
+ZR 0
+Z8 1
+ZB 17
+ZS 1
+TC 20
+Z9 21
+SN 0006-3606
+UT BCI:BCI197051127097
+ER
+
+PT J
+AU WILLIS E R
+TI BIONOMICS OF 3 COCKROACHES LATIBLATTELLA FROM HONDURAS
+SO Biotropica
+VL 1
+IS 2
+BP 41
+EP 46
+DI 10.2307/2989760
+PD 1969
+PY 1969
+ZS 0
+Z8 0
+ZB 0
+TC 0
+ZR 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197051122178
+ER
+
+PT J
+AU CARIQUIST S
+TI WOOD ANATOMY OF LOBELIOIDEAE-D CAMPANULACEAE-D
+SO Biotropica
+VL 1
+IS 2
+BP 47
+EP 72
+PD 1969
+PY 1969
+ZR 0
+ZS 0
+ZB 0
+Z8 0
+TC 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197051127085
+ER
+
+PT J
+AU Carlquist, S.
+TI Wood anatomy of Lobelioideae (Campanulaceae).
+SO Biotropica
+VL 1
+IS 2
+BP 47
+EP 72
+DI 10.2307/2989761
+PD 1969
+PY 1969
+AB This tribe is represented by woody species in certain insular and
+   island-like areas, notably the Hawaiian Islands, the mountains of East
+   Africa, and the Andes. Because the lobelioids are basically an
+   herbaceous group in which increase in woodiness is a response to
+   uniform, often tropical conditions, they have developed wood of a type
+   unlike that found in basically woody groups of dicotyledons.
+   Vessel-element length and diameter are greatest in species of very wet
+   areas. Ray size appears to be related to the size of plant: taller,
+   wider rays occur in larger shrubs and trees. Scalariform pitting on
+   lateral vessel walls is common in many lobelioids, especially those of a
+   somewhat succulent nature, in which mechanical strength seems less
+   important. To explain how long vessel elements, predominantly erect ray
+   cells, and the presence of scalariform lateral wall pitting of vessels
+   can occur in such a specialized group, the concept of paedomorphosis
+   (juvenilism, neoteny) is invoked. Data on 56 species (several
+   collections for many of these) are summarized in chart form, and
+   anatomical features are discussed in relation to both taxonomy and
+   ecology. KEYWORDS: Cambium \ cambial activity elements, proportions \
+   Cambium \ cambial activity taxonomlc value \ Campanulaceae, wood \ wood
+   anatomy
+ZB 43
+ZR 0
+Z8 0
+TC 42
+ZS 0
+Z9 44
+SN 0006-3606
+UT CABI:19690607068
+ER
+
+PT J
+AU STERN W L
+TI BIOTROPICA
+SO Biotropica
+VL 1
+IS 1
+BP NO
+EP NO
+PD 1969
+PY 1969
+ZS 0
+ZR 0
+TC 0
+Z8 0
+ZB 0
+Z9 0
+SN 0006-3606
+UT BCI:BCI197051099247
+ER
+
+PT J
+CA USA, Association for Tropical Biology
+TI Biotropica
+SO Biotropica
+PD 1969
+PY 1969
+AB Half-yearly, price $15 per annum. The journal, which supersedes the
+   Bulletin of the Association, is intended for articles on any aspect of
+   tropical biology, with emphasis on original research, reviews or
+   interpretation. Citation in F.A. : Biotropica. KEYWORDS: Periodicals \
+   serials plant ecology \ Tropical forest \ USA periodicals \ serials \
+   USA
+Z8 0
+ZS 0
+ZR 0
+ZB 0
+TC 0
+Z9 0
+SN 0006-3606
+UT CABI:19696605744
+ER
+
+EF

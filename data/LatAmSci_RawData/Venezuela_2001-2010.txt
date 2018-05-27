@@ -1,0 +1,5124 @@
+﻿FN ISI Export Format
+VR 1.0
+PT J
+AU Pereira, HM
+   Belnap, J
+   Brummitt, N
+   Collen, B
+   Ding, H
+   Gonzalez-Espinosa, M
+   Gregory, RD
+   Honrado, J
+   Jongman, RHG
+   Julliard, R
+   McRae, L
+   Proenca, V
+   Rodrigues, P
+   Opige, M
+   Rodriguez, JP
+   Schmeller, DS
+   van Swaay, C
+   Vieira, C
+AF Pereira, Henrique M.
+   Belnap, Jayne
+   Brummitt, Neil
+   Collen, Ben
+   Ding, Hui
+   Gonzalez-Espinosa, Mario
+   Gregory, Richard D.
+   Honrado, Joao
+   Jongman, Rob H. G.
+   Julliard, Romain
+   McRae, Louise
+   Proenca, Vania
+   Rodrigues, Patricia
+   Opige, Michael
+   Rodriguez, Jon P.
+   Schmeller, Dirk S.
+   van Swaay, Chris
+   Vieira, Cristiana
+TI Global biodiversity monitoring
+RID B-3975-2009
+RID D-5055-2011
+RID A-1491-2009
+RID F-4324-2010
+SO FRONTIERS IN ECOLOGY AND THE ENVIRONMENT
+C1 [Pereira, HM; Proenca, V; Rodrigues, P] Univ Lisbon, P-1699 Lisbon, Portugal.
+   [Brummitt, N] Nat Hist Museum, London, England.
+   [Collen, B; McRae, L] Zool Soc London, London, England.
+   [Gonzalez-Espinosa, M] Colegio Frontera Sur, Mexico City, DF, Mexico.
+   [Honrado, J; Vieira, C] Univ Porto, Oporto, Portugal.
+   [Rodriguez, JP] Inst Venezolano Invest Cient, Caracas, Venezuela.
+   [Schmeller, DS] CNRS, F-75700 Paris, France.
+RP Pereira, HM (reprint author), Univ Lisbon, P-1699 Lisbon, Portugal
+EM hpereira@fc.ul.pt
+TC 1
+Z9 1
+SN 1540-9295
+PD NOV
+PY 2010
+VL 8
+IS 9
+BP 458
+EP 460
+DI 10.1890/10.WB.23
+UT WOS:000284159700014
+ER
+
+PT J
+AU Jaffe, K
+AF Jaffe, Klaus
+TI Quantifying social synergy in insect and human societies
+SO BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY
+C1 Univ Simon Bolivar, Caracas 1080, Venezuela.
+RP Jaffe, K (reprint author), Univ Simon Bolivar, Apartado 89000, Caracas 1080, Venezuela
+EM kjaffe@usb.ve
+TC 0
+Z9 0
+SN 0340-5443
+PD NOV
+PY 2010
+VL 64
+IS 11
+BP 1721
+EP 1724
+DI 10.1007/s00265-010-1059-0
+UT WOS:000282823800001
+ER
+
+PT J
+AU Malhado, ACM
+   Whittaker, RJ
+   Malhi, Y
+   Ladle, RJ
+   ter Steege, H
+   Phillips, O
+   Aragao, LEOC
+   Baker, TR
+   Arroyo, L
+   Almeida, S
+   Higuchi, N
+   Killeen, TJ
+   Monteagudo, A
+   Pitman, NCA
+   Prieto, A
+   Salomao, RP
+   Vasquez-Martinez, R
+   Laurance, WF
+   Ramirez-Angulo, H
+AF Malhado, Ana C. M.
+   Whittaker, Robert J.
+   Malhi, Yadvinder
+   Ladle, Richard J.
+   ter Steege, Hans
+   Phillips, Oliver
+   Aragao, L. E. O. C.
+   Baker, Timothy R.
+   Arroyo, Luzmilla
+   Almeida, Samuel
+   Higuchi, Niro
+   Killeen, Tim J.
+   Monteagudo, Abel
+   Pitman, Nigel C. A.
+   Prieto, Adriana
+   Salomao, Rafael P.
+   Vasquez-Martinez, Rodolfo
+   Laurance, William F.
+   Ramirez-Angulo, Hirma
+TI Are compound leaves an adaptation to seasonal drought or to rapid
+   growth? Evidence from the Amazon rain forest
+RID B-5866-2011
+RID A-1523-2011
+RID A-7681-2008
+SO GLOBAL ECOLOGY AND BIOGEOGRAPHY
+C1 [Malhado, ACM; Whittaker, RJ; Malhi, Y; Ladle, RJ; Aragao, LEOC] Univ Oxford, Sch Geog & Environm, Oxford OX1 2JD, England.
+   [ter Steege, H] Univ Utrecht, Dept Ecol & Biodivers, NL-3508 TC Utrecht, Netherlands.
+   [Phillips, O; Baker, TR] Univ Leeds, Sch Geog, Earth & Biosphere Inst, Leeds LS2 9JT, W Yorkshire, England.
+   [Arroyo, L] Museo Hist Nat Noel Kempff Mercado, Santa Cruz, Bolivia.
+   [Almeida, S; Salomao, RP] Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   [Higuchi, N; Laurance, WF] Inst Nacl de Pesquisas da Amazonia, Manaus, Amazonas, Brazil.
+   [Killeen, TJ; Vasquez-Martinez, R] Conservat Int, Ctr Appl Biodivers Sci, Washington, DC USA.
+   [Monteagudo, A] Univ Nacl San Antonio Abad Cusco, Herbario Vargas, Cuzco, Peru.
+   [Pitman, NCA] Duke Univ, Ctr Trop Conservat, Durham, NC USA.
+   [Ramirez-Angulo, H] Univ Los Andes, Fac Ciencias Forestales & Ambientales, Merida, Venezuela.
+RP Malhado, ACM (reprint author), Univ Fed Vicosa, Biosphere Atmosphere Grp, BR-36570000 Vicosa, MG, Brazil
+EM anaclaudiamalhado@gmail.com
+TC 1
+Z9 1
+SN 1466-822X
+PD NOV
+PY 2010
+VL 19
+IS 6
+BP 852
+EP 862
+DI 10.1111/j.1466-8238.2010.00567.x
+UT WOS:000282982300009
+ER
+
+PT J
+AU Zamin, TJ
+   Baillie, JEM
+   Miller, RM
+   Rodriguez, JP
+   Ardid, A
+   Collen, B
+AF Zamin, Tara J.
+   Baillie, Jonathan E. M.
+   Miller, Rebecca M.
+   Rodriguez, Jon Paul
+   Ardid, Ana
+   Collen, Ben
+TI National Red Listing Beyond the 2010 Target
+RID A-1491-2009
+RID D-5055-2011
+SO CONSERVATION BIOLOGY
+C1 [Zamin, TJ; Collen, B] Zool Soc London, Inst Zool, London NW1 4RY, England.
+   [Baillie, JEM] Zool Soc London, Conservat Programmes, London NW1 4RY, England.
+   [Miller, RM; Rodriguez, JP] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Rodriguez, JP] Provita, Caracas 1041A, Venezuela.
+   [Ardid, A] Univ London Imperial Coll Sci Technol & Med, Div Biol, Ascot SL5 7PY, Berks, England.
+RP Zamin, TJ (reprint author), Queens Univ, Dept Biol, Kingston, ON K7L 3N6, Canada
+EM tara.zamin@queensu.ca
+TC 5
+Z9 5
+SN 0888-8892
+PD AUG
+PY 2010
+VL 24
+IS 4
+BP 1012
+EP 1020
+DI 10.1111/j.1523-1739.2010.01492.x
+UT WOS:000280148600013
+ER
+
+PT J
+AU Lotters, S
+   van der Meijden, A
+   Rodder, D
+   Koster, TE
+   Kraus, T
+   La Marca, E
+   Haddad, CFB
+   Veith, M
+AF Loetters, Stefan
+   van der Meijden, Arie
+   Roedder, Dennis
+   Koester, Timo E.
+   Kraus, Tanja
+   La Marca, Enrique
+   Haddad, Celio F. B.
+   Veith, Michael
+TI Reinforcing and expanding the predictions of the disturbance vicariance
+   hypothesis in Amazonian harlequin frogs: a molecular phylogenetic and
+   climate envelope modelling approach
+SO BIODIVERSITY AND CONSERVATION
+C1 [Lotters, S; van der Meijden, A; Rodder, D; Veith, M] Univ Trier, Dept Biogeog, D-54286 Trier, Germany.
+   [Lotters, S; van der Meijden, A; Veith, M] Univ Amsterdam, Inst Biodivers & Ecosyst Dynam, NL-1098 SM Amsterdam, Netherlands.
+   [van der Meijden, A] Ctr Invest Biodiversidade & Recursos Genet, CIBIO, P-4485661 Vairao, Portugal.
+   [Koster, TE] Johannes Gutenberg Univ Mainz, Dept Zool, D-55099 Mainz, Germany.
+   [Kraus, T] German Aerosp Ctr DLR, German Remote Sensing Data Ctr, D-82230 Wessling, Germany.
+   [La Marca, E] Univ Los Andes, Lab Biogeog, Escuela Geog, Fac Ciencias Forestales & Ambientales, Merida 5101A, Venezuela.
+   [Haddad, CFB] Univ Estadual Paulista, Inst Biociencias, Dept Zool, BR-13506900 Rio Claro, SP, Brazil.
+RP Lotters, S (reprint author), Univ Trier, Dept Biogeog, D-54286 Trier, Germany
+EM loetters@uni-trier.de
+   frog@arievandermeijden.nl
+   roedder@uni-trier.de
+   koestert@students.uni-mainz.de
+   tanja.kraus@dlr.de
+   enrique.lamarca@gmail.com
+   haddad1000@gmail.com
+   veith@uni-trier.de
+TC 3
+Z9 3
+SN 0960-3115
+PD JUL
+PY 2010
+VL 19
+IS 8
+BP 2125
+EP 2146
+DI 10.1007/s10531-010-9869-y
+UT WOS:000279682600001
+ER
+
+PT J
+AU San-Jose, J
+   Montes, R
+   Mazorra, MA
+   Matute, N
+AF San-Jose, Jose
+   Montes, Ruben
+   Angel Mazorra, Miguel
+   Matute, Nathaly
+TI Heterogeneity of the inland water-land palm ecotones (morichals) in the
+   Orinoco lowlands, South America
+SO PLANT ECOLOGY
+C1 [San-Jose, J; Matute, N] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020, Venezuela.
+   [Montes, R] Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1020, Venezuela.
+   [Mazorra, MA] Fedepalma, Bogota 13772, DC, Colombia.
+RP San-Jose, J (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020, Venezuela
+EM jsanjose@ivic.ve
+TC 0
+Z9 0
+SN 1385-0237
+PD JUN
+PY 2010
+VL 208
+IS 2
+BP 259
+EP 269
+DI 10.1007/s11258-009-9703-3
+UT WOS:000277182100007
+ER
+
+PT J
+AU Brito, D
+   Ambal, RG
+   Brooks, T
+   De Silva, N
+   Foster, M
+   Hao, W
+   Hilton-Taylor, C
+   Paglia, A
+   Rodriguez, JP
+   Rodriguez, JV
+AF Brito, Daniel
+   Grace Ambal, Ruth
+   Brooks, Thomas
+   De Silva, Naamal
+   Foster, Matthew
+   Hao, Wang
+   Hilton-Taylor, Craig
+   Paglia, Adriano
+   Paul Rodriguez, Jon
+   Vicente Rodriguez, Jose
+TI How similar are national red lists and the IUCN Red List?
+RID A-4014-2008
+RID A-1491-2009
+SO BIOLOGICAL CONSERVATION
+C1 [Brito, D] Univ Fed Goias, Inst Ciencias Biol, Dept Ecol, BR-74001970 Goiania, Go, Brazil.
+   [Brito, D] Univ Estadual Santa Cruz, Programa Posgrad Ecol & Conservacao Biodiversidad, BR-45662000 Ilheus, BA, Brazil.
+   [Ambal, RG] Wildlife Conservat Soc Philippines, Quezon City 1101, Philippines.
+   [Brooks, T; De Silva, N; Foster, M] Conservat Int, Ctr Appl Biodivers Sci, Arlington, VA 22202 USA.
+   [Hao, W] Peking Univ, Sch Life Sci, Ctr Nat & Soc, Beijing 100871, Peoples R China.
+   [Hilton-Taylor, C] IUCN Red List Unit, Species Programme, Cambridge, England.
+   [Paglia, A] Conservacao Int Brasil, BR-30112021 Belo Horizonte, MG, Brazil.
+   [Rodriguez, JP] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Rodriguez, JV] Conservat Int CBC Andes, Bogota, Colombia.
+RP Brito, D (reprint author), Univ Fed Goias, Inst Ciencias Biol, Dept Ecol, Caixa Postal 131, BR-74001970 Goiania, Go, Brazil
+EM brito.dan@gmail.com
+TC 3
+Z9 3
+SN 0006-3207
+PD MAY
+PY 2010
+VL 143
+IS 5
+BP 1154
+EP 1158
+DI 10.1016/j.biocon.2010.02.015
+UT WOS:000278427700016
+ER
+
+PT J
+AU Medina, E
+   Cuevas, E
+   Lugo, AE
+AF Medina, Ernesto
+   Cuevas, Elvira
+   Lugo, Ariel E.
+TI Nutrient relations of dwarf Rhizophora mangle L. mangroves on peat in
+   eastern Puerto Rico
+SO PLANT ECOLOGY
+C1 [Medina, E] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Medina, E; Lugo, AE] US Forest Serv, Int Inst Trop Forestry, USDA, Jardin Bot, San Juan, PR 00926 USA.
+   [Cuevas, E] Univ Puerto Rico, Dept Biol, San Juan, PR 00931 USA.
+RP Medina, E (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Aptdo 21827, Caracas 1020A, Venezuela
+EM medinage@gmail.com
+TC 3
+Z9 4
+SN 1385-0237
+PD MAR
+PY 2010
+VL 207
+IS 1
+BP 13
+EP 24
+DI 10.1007/s11258-009-9650-z
+UT WOS:000274211800002
+ER
+
+PT J
+AU Gonzalez-Rodriguez, AM
+   Baruch, Z
+   Palomo, D
+   Cruz-Trujillo, G
+   Jimenez, MS
+   Morales, D
+AF Ma Gonzalez-Rodriguez, Agueda
+   Baruch, Zdravko
+   Palomo, Debora
+   Cruz-Trujillo, Gilberto
+   Soledad Jimenez, Ma
+   Morales, Domingo
+TI Ecophysiology of the invader Pennisetum setaceum and three native
+   grasses in the Canary Islands
+SO ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY
+C1 [Baruch, Z] Univ Simon Bolivar, Dpto Estudios Ambientales, Caracas 1080, Venezuela.
+   [Gonzalez-Rodriguez, AM; Palomo, D; Cruz-Trujillo, G; Jimenez, MS; Morales, D] Univ La Laguna, Dpto Biol Vegetal Fisiol Vegetal, E-38207 Tenerife, Spain.
+RP Baruch, Z (reprint author), Univ Simon Bolivar, Dpto Estudios Ambientales, Apartado 89000, Caracas 1080, Venezuela
+EM zbaruc@usb.ve
+TC 0
+Z9 0
+SN 1146-609X
+PD MAR-APR
+PY 2010
+VL 36
+IS 2
+BP 248
+EP 254
+DI 10.1016/j.actao.2010.01.004
+UT WOS:000276055000015
+ER
+
+PT J
+AU Sobrado, MA
+AF Sobrado, M. A.
+TI Leaf characteristics, wood anatomy and hydraulic properties in tree
+   species from contrasting habitats within upper Rio Negro forests in the
+   Amazon region
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Simon Bolivar, Dept Biol Organismos, Lab Biol Ambiental Plantas, Caracas 1080A, Venezuela.
+RP Sobrado, MA (reprint author), Univ Simon Bolivar, Dept Biol Organismos, Lab Biol Ambiental Plantas, Apartado 89-000, Caracas 1080A, Venezuela
+EM msobrado@usb.ve
+TC 0
+Z9 0
+SN 0266-4674
+PD MAR
+PY 2010
+VL 26
+PN Part 2
+BP 215
+EP 226
+DI 10.1017/S0266467409990538
+UT WOS:000274986000009
+ER
+
+PT J
+AU San-Jose, J
+   Montes, R
+   Mazorra, MA
+   Ruiz, EA
+   Matute, N
+AF San-Jose, Jose
+   Montes, Ruben
+   Angel Mazorra, Miguel
+   Aguirre Ruiz, Ernesto
+   Matute, Nathaly
+TI Patterns and carbon accumulation in the inland water-land palm ecotone
+   (morichal) across the Orinoco lowlands, South America
+SO PLANT ECOLOGY
+C1 [San-Jose, J; Ruiz, EA; Matute, N] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020, Venezuela.
+   [Montes, R] Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080, Venezuela.
+   [Mazorra, MA] Fedepalma, Bogota 13772, DC, Colombia.
+RP San-Jose, J (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020, Venezuela
+EM jsanjose@ivic.ve
+TC 1
+Z9 1
+SN 1385-0237
+PD FEB
+PY 2010
+VL 206
+IS 2
+BP 361
+EP 374
+DI 10.1007/s11258-009-9648-6
+UT WOS:000273086400015
+ER
+
+PT J
+AU Rada, F
+   Garcia-Nunez, C
+   Ataroff, M
+AF Rada, Fermin
+   Garcia-Nunez, Carlos
+   Ataroff, Michele
+TI Leaf Gas Exchange in Canopy Species of a Venezuelan Cloud Forest
+SO BIOTROPICA
+C1 [Rada, F; Garcia-Nunez, C; Ataroff, M] Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela.
+RP Rada, F (reprint author), Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela
+EM frada@ula.ve
+TC 1
+Z9 1
+SN 0006-3606
+PD NOV
+PY 2009
+VL 41
+IS 6
+BP 659
+EP 664
+DI 10.1111/j.1744-7429.2009.00537.x
+UT WOS:000271627600007
+ER
+
+PT J
+AU Bakermans, MH
+   Vitz, AC
+   Rodewald, AD
+   Rengifo, CG
+AF Bakermans, Marja H.
+   Vitz, Andrew C.
+   Rodewald, Amanda D.
+   Rengifo, Carlos G.
+TI Migratory songbird use of shade coffee in the Venezuelan Andes with
+   implications for conservation of cerulean warbler
+SO BIOLOGICAL CONSERVATION
+C1 [Bakermans, MH; Vitz, AC; Rodewald, AD] Ohio State Univ, Sch Environm & Nat Resources, Columbus, OH 43210 USA.
+   [Rengifo, CG] Univ Los Andes, Estac Ornitol La Mucuy, Merida, Venezuela.
+RP Bakermans, MH (reprint author), Ohio State Univ, Sch Environm & Nat Resources, Columbus, OH 43210 USA
+EM bakermans.1@osu.edu
+   vitza@carnegiemn-h.org
+   rodewald.1@osu.edu
+   crengifo@ula.ve
+TC 2
+Z9 2
+SN 0006-3207
+PD NOV
+PY 2009
+VL 142
+IS 11
+BP 2476
+EP 2483
+DI 10.1016/j.biocon.2009.05.018
+UT WOS:000270203100012
+ER
+
+PT J
+AU Rull, V
+   Vegas-Vilarrubia, T
+   Nogue, S
+   Huber, O
+AF Rull, Valenti
+   Vegas-Vilarrubia, Teresa
+   Nogue, Sandra
+   Huber, Otto
+TI Conservation of the Unique Neotropical Vascular Flora of the Guayana
+   Highlands in the Face of Global Warming
+SO CONSERVATION BIOLOGY
+C1 [Rull, V; Nogue, S] CSIC, Bot Inst Barcelona Palynol & Paleoecol, Barcelona 08038, Spain.
+   [Vegas-Vilarrubia, T] Univ Barcelona, Dept Ecol, E-08028 Barcelona, Spain.
+   [Nogue, S] Autonomous Univ Barcelona, Dept Anim Biol Plant Biol & Ecol, E-08193 Barcelona, Spain.
+   [Huber, O] Trauttmansdorff Bot Gardens, I-39012 Merano, Italy.
+   [Huber, O] Bot Inst Venezuela Dr Tobias Lasser, Caracas 1050, Venezuela.
+RP Rull, V (reprint author), CSIC, Bot Inst Barcelona Palynol & Paleoecol, Pg Migdia S-N, Barcelona 08038, Spain
+EM vrull@ibb.csic.es
+TC 2
+Z9 2
+SN 0888-8892
+PD OCT
+PY 2009
+VL 23
+IS 5
+BP 1323
+EP 1327
+DI 10.1111/j.1523-1739.2009.01266.x
+UT WOS:000269802200036
+ER
+
+PT J
+AU Gloor, M
+   Phillips, OL
+   Lloyd, JJ
+   Lewis, SL
+   Malhi, Y
+   Baker, TR
+   Lopez-Gonzalez, G
+   Peacock, J
+   Almeida, S
+   de Oliveira, ACA
+   Alvarez, E
+   Amaral, I
+   Arroyo, L
+   Aymard, G
+   Banki, O
+   Blanc, L
+   Bonal, D
+   Brando, P
+   Chao, KJ
+   Chave, J
+   Davila, N
+   Erwin, T
+   Silva, J
+   Di Fiore, A
+   Feldpausch, TR
+   Freitas, A
+   Herrera, R
+   Higuchi, N
+   Honorio, E
+   Jimenez, E
+   Killeen, T
+   Laurance, W
+   Mendoza, C
+   Monteagudo, A
+   Andrade, A
+   Neill, D
+   Nepstad, D
+   Vargas, PN
+   Penuela, MC
+   Cruz, AP
+   Prieto, A
+   Pitman, N
+   Quesada, C
+   Salomao, R
+   Silveira, M
+   Schwarz, M
+   Stropp, J
+   Ramirez, F
+   Ramirez, H
+   Rudas, A
+   ter Steege, H
+   Silva, N
+   Torres, A
+   Terborgh, J
+   Vasquez, R
+   van der Heijden, G
+AF Gloor, M.
+   Phillips, O. L.
+   Lloyd, J. J.
+   Lewis, S. L.
+   Malhi, Y.
+   Baker, T. R.
+   Lopez-Gonzalez, G.
+   Peacock, J.
+   Almeida, S.
+   Alves de Oliveira, A. C.
+   Alvarez, E.
+   Amaral, I.
+   Arroyo, L.
+   Aymard, G.
+   Banki, O.
+   Blanc, L.
+   Bonal, D.
+   Brando, P.
+   Chao, K. -J.
+   Chave, J.
+   Davila, N.
+   Erwin, T.
+   Silva, J.
+   Di Fiore, A.
+   Feldpausch, T. R.
+   Freitas, A.
+   Herrera, R.
+   Higuchi, N.
+   Honorio, E.
+   Jimenez, E.
+   Killeen, T.
+   Laurance, W.
+   Mendoza, C.
+   Monteagudo, A.
+   Andrade, A.
+   Neill, D.
+   Nepstad, D.
+   Nunez Vargas, P.
+   Penuela, M. C.
+   Pena Cruz, A.
+   Prieto, A.
+   Pitman, N.
+   Quesada, C.
+   Salomao, R.
+   Silveira, Marcos
+   Schwarz, M.
+   Stropp, J.
+   Ramirez, F.
+   Ramirez, H.
+   Rudas, A.
+   ter Steege, H.
+   Silva, N.
+   Torres, A.
+   Terborgh, J.
+   Vasquez, R.
+   van der Heijden, G.
+TI Does the disturbance hypothesis explain the biomass increase in
+   basin-wide Amazon forest plot data?
+RID A-1523-2011
+RID D-3436-2009
+RID A-7681-2008
+RID B-5866-2011
+SO GLOBAL CHANGE BIOLOGY
+C1 [Gloor, M; Phillips, OL; Lloyd, JJ; Lewis, SL; Baker, TR; Lopez-Gonzalez, G; Peacock, J; Feldpausch, TR] Univ Leeds, Sch Geog, Leeds LS2 9JT, W Yorkshire, England.
+   [Malhi, Y] Univ Oxford, Oxford, England.
+   [Almeida, S] Paraense Emilio Goeldi, Belem, Para, Brazil.
+   [de Oliveira, ACA; Amaral, I] Team INPA, Manaus, Amazonas, Brazil.
+   [Alvarez, E] Columbia Univ, Medellin, Colombia.
+   [Arroyo, L] Missouri Bot Garden, Santa Cruz, Bolivia.
+   [Arroyo, L] Museo Hist Nat Noel Kempff Mercado, Santa Cruz, Bolivia.
+   [Aymard, G] UNELLEZ Guanare, Guanare, Venezuela.
+   [Banki, O; Stropp, J] Univ Utrecht, NL-3508 TC Utrecht, Netherlands.
+   [Blanc, L; Bonal, D] UMR, Kourou, French Guiana.
+   [Erwin, T] Smithsonian Inst, Washington, DC 20560 USA.
+   [Silva, J] Univ San Abad Cusco, Cuzco, Peru.
+   [Di Fiore, A] NYU, New York, NY USA.
+   [Freitas, A] Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   [Herrera, R] IVIC, Caracas, Venezuela.
+   [Higuchi, N] Inst Natl Pesquisas Amazonia, Manaus, Amazonas, Brazil.
+   [Honorio, E] IIAP, Iquitos, Peru.
+   [Jimenez, E] Univ Nacl Colombia, Leticia, Colombia.
+   [Killeen, T] Conservat Int, Washington, DC USA.
+   [Laurance, W] Smithsonian Trop Res Inst, Ancon, Panama.
+   [Mendoza, C] Manejo Forestal Tierras Trop Bolivia, Fomabo, Sacta, Bolivia.
+   [Monteagudo, A; Cruz, AP; Vasquez, R] Jardin Bot Missouri, Proyecto Flora Peru, Oxapampa, Peru.
+   [Andrade, A] INPA, Manaus, Amazonas, Brazil.
+   [Neill, D] Fdn Jatun Sacha, Quito, Ecuador.
+   [Neill, D] Missouri Bot Garden, Quito, Ecuador.
+   [Nepstad, D] Woods Hole Res Ctr, Woods Hole, MA USA.
+   [Vargas, PN] Univ San Antonio Abad Cusco, Cuzco, Peru.
+   [Penuela, MC] Univ Nacl Colombia, Leticia, Amazonas, Brazil.
+   [Prieto, A; Rudas, A] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   [Pitman, N] Duke Univ, Ctr Trop Conservat, Durham, NC 27706 USA.
+   [Silveira, M] Univ Fed Acre, Acre, Brazil.
+   [Ramirez, F] Univ Nacl Amazonia Peruana, Iquitos, Peru.
+   [Ramirez, H; Torres, A] Univ Los Andes, Merida, Venezuela.
+   [ter Steege, H] NHN Utrecht, Utrecht, Netherlands.
+   [Silva, N] CIFOR, Tapajos, Brazil.
+   [Silva, N] EMBRAPA Amazonia Oriental, Belem, Para, Brazil.
+RP Gloor, M (reprint author), Univ Leeds, Sch Geog, Leeds LS2 9JT, W Yorkshire, England
+EM eugloor@googlemail.com
+TC 14
+Z9 15
+SN 1354-1013
+PD OCT
+PY 2009
+VL 15
+IS 10
+BP 2418
+EP 2430
+DI 10.1111/j.1365-2486.2009.01891.x
+UT WOS:000269577800006
+ER
+
+PT J
+AU Rada, F
+   Garcia-Nunez, C
+   Rangel, S
+AF Rada, Fermin
+   Garcia-Nunez, Carlos
+   Rangel, Sairo
+TI Low temperature resistance in saplings and ramets of Polylepis sericea
+   in the Venezuelan Andes
+SO ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY
+C1 [Rada, F; Garcia-Nunez, C] Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela.
+   [Rangel, S] Univ Expt Sur Lago, Lab Microbiol & Fisiopatol, Santa Barbara, Zulia, Venezuela.
+RP Rada, F (reprint author), Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela
+EM frada@ula.ve
+TC 1
+Z9 1
+SN 1146-609X
+PD SEP-OCT
+PY 2009
+VL 35
+IS 5
+BP 610
+EP 613
+DI 10.1016/j.actao.2009.05.009
+UT WOS:000270748300007
+ER
+
+PT J
+AU Abreu, Z
+   Llambi, LD
+   Sarmiento, L
+AF Abreu, Zoraida
+   Llambi, Luis D.
+   Sarmiento, Lina
+TI Sensitivity of Soil Restoration Indicators during Paramo Succession in
+   the High Tropical Andes: Chronosequence and Permanent Plot Approaches
+SO RESTORATION ECOLOGY
+C1 [Abreu, Z; Llambi, LD; Sarmiento, L] Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela.
+RP Llambi, LD (reprint author), Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela
+EM llambi@ula.ve
+TC 0
+Z9 0
+SN 1061-2971
+PD SEP
+PY 2009
+VL 17
+IS 5
+BP 619
+EP 628
+DI 10.1111/j.1526-100X.2008.00406.x
+UT WOS:000269978600007
+ER
+
+PT J
+AU O'Donnell, S
+   Lattke, J
+   Powell, S
+   Kaspari, M
+AF O'Donnell, Sean
+   Lattke, John
+   Powell, Scott
+   Kaspari, Michael
+TI Species and site differences in Neotropical army ant emigration
+   behaviour
+SO ECOLOGICAL ENTOMOLOGY
+C1 [O'Donnell, S] Univ Washington, Anim Behav Program, Dept Psychol, Seattle, WA 98195 USA.
+   [Lattke, J] Cent Univ Venezuela, Museo Inst Zool Agr, Maracay, Venezuela.
+   [Powell, S] Univ Bristol, Sch Biol Sci, Bristol, Avon, England.
+   [Kaspari, M] Univ Oklahoma, Dept Zool, Norman, OK USA.
+RP O'Donnell, S (reprint author), Univ Washington, Anim Behav Program, Dept Psychol, Box 351525, Seattle, WA 98195 USA
+EM sodonnel@u.washington.edu
+TC 3
+Z9 3
+SN 0307-6946
+PD AUG
+PY 2009
+VL 34
+IS 4
+BP 476
+EP 482
+DI 10.1111/j.1365-2311.2008.01074.x
+UT WOS:000267659900007
+ER
+
+PT J
+AU Rodriguez, JP
+AF Paul Rodriguez, Jon
+TI Conservation Focus: Priorities for Policy-Relevant Conservation
+   Research: a View from SCB Regional Sections - Introduction
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 20632, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 1
+Z9 1
+SN 0888-8892
+PD AUG
+PY 2009
+VL 23
+IS 4
+BP 797
+EP 798
+DI 10.1111/j.1523-1739.2009.01288.x
+UT WOS:000268028800007
+ER
+
+PT J
+AU Ceballos, G
+   Vale, MM
+   Bonacic, C
+   Calvo-Alvarado, J
+   List, R
+   Bynum, N
+   Medellin, RA
+   Simonetti, JA
+   Rodriguez, JP
+AF Ceballos, Gerardo
+   Vale, Mariana M.
+   Bonacic, Cristian
+   Calvo-Alvarado, Julio
+   List, Rurik
+   Bynum, Nora
+   Medellin, Rodrigo A.
+   Simonetti, Javier A.
+   Rodriguez, Jon Paul
+TI Conservation Challenges for the Austral and Neotropical America Section
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 [Ceballos, G; List, R; Medellin, RA] Univ Nacl Autonoma Mexico, Inst Ecol, Mexico City 04510, DF, Mexico.
+   [Vale, MM] Univ Estado Rio de Janeiro, Dept Ecol, BR-20550011 Rio De Janeiro, Brazil.
+   [Bonacic, C] Pontificia Univ Catolica Chile, Fac Agron & Ingn Forestal, Santiago, Chile.
+   [Calvo-Alvarado, J] Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   [Bynum, N] Amer Museum Nat Hist, Ctr Biodivers & Conservat, New York, NY 10024 USA.
+   [Simonetti, JA] Univ Chile, Fac Ciencias, Santiago, Chile.
+   [Rodriguez, JP] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Ceballos, G (reprint author), Univ Nacl Autonoma Mexico, Inst Ecol, Apartado Postal 70-275, Mexico City 04510, DF, Mexico
+EM gceballo@ecologia.unam.mx
+TC 2
+Z9 2
+SN 0888-8892
+PD AUG
+PY 2009
+VL 23
+IS 4
+BP 811
+EP 817
+DI 10.1111/j.1523-1739.2009.01286.x
+UT WOS:000268028800010
+ER
+
+PT J
+AU Parenti, LR
+   Viloria, AL
+   Ebach, MC
+   Morrone, JJ
+AF Parenti, Lynne R.
+   Viloria, Angel L.
+   Ebach, Malte C.
+   Morrone, Juan J.
+TI On the International Code of Area Nomenclature (ICAN): a reply to
+   Zaragueta-Bagils et al.
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Parenti, LR] Smithsonian Inst, Natl Museum Nat Hist, Dept Vertebrate Zool, Washington, DC 20013 USA.
+   [Viloria, AL] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Ebach, MC] Arizona State Univ, Coll Liberal Arts & Sci, Int Inst Species Explorat, Tempe, AZ 85287 USA.
+   [Ebach, MC] Arizona State Univ, Coll Liberal Arts & Sci, Sch Life Sci, Tempe, AZ 85287 USA.
+   [Morrone, JJ] Univ Nacl Autonoma Mexico, Fac Ciencias, Dept Evolut Biol, Museo Zool Alfonso L Herrera, Mexico City 04510, DF, Mexico.
+RP Parenti, LR (reprint author), Smithsonian Inst, Natl Museum Nat Hist, Dept Vertebrate Zool, POB 37012,MRC 159, Washington, DC 20013 USA
+EM parentil@si.edu
+TC 0
+Z9 0
+SN 0305-0270
+PD AUG
+PY 2009
+VL 36
+IS 8
+BP 1620
+EP 1621
+DI 10.1111/j.1365-2699.2009.02171.x
+UT WOS:000268056000020
+ER
+
+PT J
+AU Sutherland, WJ
+   Adams, WM
+   Aronson, RB
+   Aveling, R
+   Blackburn, TM
+   Broad, S
+   Ceballos, G
+   Cote, IM
+   Cowling, RM
+   Da Fonseca, GAB
+   Dinerstein, E
+   Ferraro, PJ
+   Fleishman, E
+   Gascon, C
+   Hunter, M
+   Hutton, J
+   Kareiva, P
+   Kuria, A
+   MacDonald, DW
+   MacKinnon, K
+   Madgwick, FJ
+   Mascia, MB
+   McNeely, J
+   Milner-Gulland, EJ
+   Moon, S
+   Morley, CG
+   Nelson, S
+   Osborn, D
+   Pai, M
+   Parsons, ECM
+   Peck, LS
+   Possingham, H
+   Prior, SV
+   Pullin, AS
+   Rands, MRW
+   Ranganathan, J
+   Redford, KH
+   Rodriguez, JP
+   Seymour, F
+   Sobel, J
+   Sodhi, NS
+   Stott, A
+   Vance-Borland, K
+   Watkinson, AR
+AF Sutherland, W. J.
+   Adams, W. M.
+   Aronson, R. B.
+   Aveling, R.
+   Blackburn, T. M.
+   Broad, S.
+   Ceballos, G.
+   Cote, I. M.
+   Cowling, R. M.
+   Da Fonseca, G. A. B.
+   Dinerstein, E.
+   Ferraro, P. J.
+   Fleishman, E.
+   Gascon, C.
+   Hunter, M., Jr.
+   Hutton, J.
+   Kareiva, P.
+   Kuria, A.
+   Macdonald, D. W.
+   Mackinnon, K.
+   Madgwick, F. J.
+   Mascia, M. B.
+   Mcneely, J.
+   Milner-Gulland, E. J.
+   Moon, S.
+   Morley, C. G.
+   Nelson, S.
+   Osborn, D.
+   Pai, M.
+   Parsons, E. C. M.
+   Peck, L. S.
+   Possingham, H.
+   Prior, S. V.
+   Pullin, A. S.
+   Rands, M. R. W.
+   Ranganathan, J.
+   Redford, K. H.
+   Rodriguez, J. P.
+   Seymour, F.
+   Sobel, J.
+   Sodhi, N. S.
+   Stott, A.
+   Vance-Borland, K.
+   Watkinson, A. R.
+TI One Hundred Questions of Importance to the Conservation of Global
+   Biological Diversity
+RID A-7685-2011
+RID A-5718-2010
+RID B-1337-2008
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 [Sutherland, WJ; Prior, SV] Univ Cambridge, Dept Zool, Conservat Sci Grp, Cambridge CB2 3EJ, England.
+   [Adams, WM] Univ Cambridge, Dept Geog, Cambridge CB2 3EJ, England.
+   [Aronson, RB] Florida Inst Technol, Dept Biol Sci, Int Soc Reef Studies, Melbourne, FL 32901 USA.
+   [Aveling, R] Fauna & Flora Int, Cambridge CB1 2JD, England.
+   [Blackburn, TM] Zool Soc London, Inst Zool, London NW1 4RY, England.
+   [Broad, S] Traff Int, Cambridge CB3 0DL, England.
+   [Ceballos, G] Univ Nacl Autonoma Mexico, Inst Ecol, SCB Austral & Neotrop Amer Sect, Mexico City 04510, DF, Mexico.
+   [Cote, IM] Simon Fraser Univ, Dept Biol Sci, Burnaby, BC V5A 1S6, Canada.
+   [Cowling, RM] Nelson Mandela Metropolitan Univ, Dept Bot, ZA-6031 Port Elizabeth, South Africa.
+   [Da Fonseca, GAB] GEF Secretariat, Washington, DC 20433 USA.
+   [Dinerstein, E] World Wildlife Fund, Washington, DC 20037 USA.
+   [Ferraro, PJ] Georgia State Univ, Dept Econ, Andrew Young Sch Policy Studies, Atlanta, GA 30302 USA.
+   [Fleishman, E] Natl Ctr Ecol Anal & Synth, SCB N Amer Sect, Santa Barbara, CA 93101 USA.
+   [Gascon, C] Off Programs & Sci, Arlington, VA 22202 USA.
+   [Hunter, M] Univ Maine, Dept Wildlife Ecol, Orono, ME 04469 USA.
+   [Hutton, J] UNEP WCMC, Cambridge CB3 0DL, England.
+   [Kareiva, P] Nature Conservancy, Seattle, WA 98105 USA.
+   [Kuria, A] Trop Biol Assoc, Nat Kenya, Nairobi 00100, Kenya.
+   [MacDonald, DW] Univ Oxford, Wildlife Conservat Res Unit, Tubney OX13 5QL, Oxon, England.
+   [MacKinnon, K] World Bank, Dept Environm, Washington, DC 20433 USA.
+   [Madgwick, FJ] Wetlands Int, NL-6700 AL Wageningen, Netherlands.
+   [Mascia, MB] World Wildlife Fund, SCB Social Sci Working Grp, Washington, DC 20037 USA.
+   [McNeely, J] IUCN, CH-1196 Gland, Switzerland.
+   [Milner-Gulland, EJ] Imperial Coll London, Div Biol, Ascot SL5 7PY, Berks, England.
+   [Moon, S] Univ Cambridge, Dept Zool, Cambridge Conservat Initiat, Cambridge CB2 3EJ, England.
+   [Morley, CG] Kauri Coast Area Off, Dept Conservat, SCB Australasia Sect, Dargaville 0377, New Zealand.
+   [Nelson, S] Darwin Initiat Secretariat, Dept Environm Food & Rural Affairs, London SW1P 3JR, England.
+   [Osborn, D] NERC, Swindon SN2 1EU, Wilts, England.
+   [Pai, M] Clemson Univ, Dept Forestry & Nat Resources, SCB Asia Sect, Clemson, SC 29634 USA.
+   [Parsons, ECM] George Mason Univ, Dept Environm Sci & Policy, SCB Marine Sect, Fairfax, VA 22030 USA.
+   [Peck, LS] British Antarctic Survey, NERC, Cambridge CB3 0ET, England.
+   [Possingham, H] Univ Queensland, Brisbane, Qld 4072, Australia.
+   [Pullin, AS] Bangor Univ, Sch Environm & Nat Resources, Ctr Evidence Based Conservat, SCB Europe Sect, Bangor LL57 2UW, Gwynedd, Wales.
+   [Rands, MRW] BirdLife Int, Wellbrook Court, Cambridge CB3 0NA, England.
+   [Ranganathan, J] World Resources Inst, Washington, DC 20002 USA.
+   [Redford, KH] Wildlife Conservat Soc, WCS Inst, Bronx, NY 10460 USA.
+   [Rodriguez, JP] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Seymour, F] Jalan Ctr Int Forestry Res, Bogor Barat 16115, Indonesia.
+   [Sobel, J] Ocean Conservancy, Washington, DC 20036 USA.
+   [Sodhi, NS] Natl Univ Singapore, Dept Biol Sci, Singapore 117543, Singapore.
+   [Sodhi, NS] Harvard Univ, Dept Organism & Evolut Biol, Cambridge, MA 02138 USA.
+   [Stott, A] Dept Environm Food & Rural Affairs, Nat Environm Sci Div, Bristol BS1 6EB, Avon, England.
+   [Vance-Borland, K] Oregon State Univ, SCB Freshwater Working Grp, Dept Forest Ecosyst & Soc, Corvallis, OR 97331 USA.
+   [Watkinson, AR] Univ E Anglia, Sch Environm Sci, Norwich NR4 7TJ, Norfolk, England.
+RP Sutherland, WJ (reprint author), Univ Cambridge, Dept Zool, Conservat Sci Grp, Downing St, Cambridge CB2 3EJ, England
+EM w.sutherland@zoo.cam.ac.uk
+TC 65
+Z9 69
+SN 0888-8892
+PD JUN
+PY 2009
+VL 23
+IS 3
+BP 557
+EP 567
+DI 10.1111/j.1523-1739.2009.01212.x
+UT WOS:000266071200010
+ER
+
+PT J
+AU Farji-Brener, AG
+   Chinchilla, FA
+   Magrach, A
+   Romero, V
+   Rios, M
+   Velilla, M
+   Serrano, JM
+   Amador-Vargas, S
+AF Farji-Brener, Alejandro G.
+   Chinchilla, Federico A.
+   Magrach, Ainhoa
+   Romero, Victor
+   Rios, Marcos
+   Velilla, Marianela
+   Manuel Serrano, Jose
+   Amador-Vargas, Sabrina
+TI Slope orientation enhances the nurse effect of a paramo shrub, Hypericum
+   irazuense (Hypericaceae) in Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 [Farji-Brener, AG] CRUB UNCOma, INIBIOMA Conicet, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   [Chinchilla, FA] Estn Biol Monteverde, Puntarenas, Costa Rica.
+   [Magrach, A] Univ Santiago de Compostela, Depto Biol Celular & Ecol, Fac Biol, Santiago De Compostela, Spain.
+   [Romero, V] Univ Simon Bolivar, Lab Ecol Evolut, Caracas, Venezuela.
+   [Rios, M] Univ Amazonia Peruana, Iquitos, Peru.
+   [Velilla, M] Guido Spano 2820, Asuncion, Paraguay.
+   [Serrano, JM] Inst Ecol AC, Xalapa, Veracruz, Mexico.
+   [Amador-Vargas, S] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+RP Farji-Brener, AG (reprint author), CRUB UNCOma, INIBIOMA Conicet, Lab Ecotono, Pasaje Gutierrez 1125, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+EM alefarji@crub.uncoma.edu.ar
+TC 1
+Z9 1
+SN 0266-4674
+PD MAY
+PY 2009
+VL 25
+BP 331
+EP 335
+DI 10.1017/S0266467409005999
+UT WOS:000265504100010
+ER
+
+PT J
+AU Sobrado, MA
+AF Sobrado, M. A.
+TI Leaf tissue water relations and hydraulic properties of sclerophyllous
+   vegetation on white sands of the upper Rio Negro in the Amazon region
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Simon Bolivar, Dept Biol Organismos, Lab Biol Ambiental Plantas, Caracas 1080A, Venezuela.
+RP Sobrado, MA (reprint author), Univ Simon Bolivar, Dept Biol Organismos, Lab Biol Ambiental Plantas, Apartado 89-000, Caracas 1080A, Venezuela
+EM msobrado@usb.ve
+TC 1
+Z9 1
+SN 0266-4674
+PD MAY
+PY 2009
+VL 25
+BP 271
+EP 280
+DI 10.1017/S026646740900604X
+UT WOS:000265504100005
+ER
+
+PT J
+AU Chao, KJ
+   Phillips, OL
+   Monteagudo, A
+   Torres-Lezama, A
+   Martinez, RV
+AF Chao Kuo-Jung
+   Phillips, Oliver L.
+   Monteagudo, Abel
+   Torres-Lezama, Armando
+   Vasquez Martinez, Rodolfo
+TI How do trees die? Mode of death in northern Amazonia
+RID A-1523-2011
+SO JOURNAL OF VEGETATION SCIENCE
+C1 [Chao, KJ; Phillips, OL] Univ Leeds, Sch Geog, Earth & Biosphere Inst, RAINFOR Project, Leeds LS2 9JT, W Yorkshire, England.
+   [Monteagudo, A] Univ Nacl San Antonio Abad Cusco, Herbario Vargas, Cuzco, Peru.
+   [Torres-Lezama, A] Univ Los Andes, Fac Ciencias Forestales & Ambientales, INDEFOR, Merida, Venezuela.
+   [Martinez, RV] Jardin Bot Missouri, Proyecto Flora Peru, Oxapampa, Peru.
+   [Chao, KJ] Natl Chung Hsing Univ, Grad Inst Int Agr, Taichung 40227, Taiwan.
+RP Chao, KJ (reprint author), Univ Leeds, Sch Geog, Earth & Biosphere Inst, RAINFOR Project, Leeds LS2 9JT, W Yorkshire, England
+EM kjungchao@googlemail.com
+   O.Phillips@leeds.ac.uk
+   tamarainfor@latinmail.com
+   torres@ula.ve
+   rodolfo.vasquez@mobot.org
+TC 3
+Z9 3
+SN 1100-9233
+PD APR
+PY 2009
+VL 20
+IS 2
+BP 260
+EP 268
+DI 10.1111/j.1654-1103.2009.05755.x
+UT WOS:000264568200008
+ER
+
+PT J
+AU Martinuzzi, S
+   Gould, WA
+   Lugo, AE
+   Medina, E
+AF Martinuzzi, Sebastian
+   Gould, William A.
+   Lugo, Ariel E.
+   Medina, Ernesto
+TI Conversion and recovery of Puerto Rican mangroves: 200 years of change
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 [Martinuzzi, S] Univ Idaho, Coll Nat Resources, Dept Rangeland Ecol & Management, Geospatial Lab Environm Dynam, Moscow, ID 83844 USA.
+   [Martinuzzi, S; Gould, WA; Lugo, AE] US Forest Serv, USDA, Int Inst Trop Forestry, Rio Piedras, PR 00926 USA.
+   [Medina, E] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Martinuzzi, S (reprint author), Univ Idaho, Coll Nat Resources, Dept Rangeland Ecol & Management, Geospatial Lab Environm Dynam, 975 W 6th St, Moscow, ID 83844 USA
+EM smartinuzzi@vandals.uidaho.edu
+TC 1
+Z9 1
+SN 0378-1127
+PD JAN 20
+PY 2009
+VL 257
+IS 1
+BP 75
+EP 84
+DI 10.1016/j.foreco.2008.08.037
+UT WOS:000261856000009
+ER
+
+PT J
+AU Bordes, F
+   Morand, S
+   Ricardo, G
+AF Bordes, Frederic
+   Morand, Serge
+   Ricardo, Guerrero
+TI Bat fly species richness in Neotropical bats: correlations with host
+   ecology and host brain
+SO OECOLOGIA
+C1 [Bordes, F; Morand, S] Univ Montpellier 2, CNRS UM2, Inst Sci Evolut, CC065, F-34095 Montpellier 05, France.
+   [Ricardo, G] Cent Univ Venezuela, Fac Ciencias, Inst Zool Trop, Lab Ecol & Sistemat Parasitos, Caracas, Venezuela.
+RP Morand, S (reprint author), Univ Montpellier 2, CNRS UM2, Inst Sci Evolut, CC065, F-34095 Montpellier 05, France
+EM morand@isem.univ-montp2.fr
+TC 4
+Z9 4
+SN 0029-8549
+PD NOV
+PY 2008
+VL 158
+IS 1
+BP 109
+EP 116
+DI 10.1007/s00442-008-1115-x
+UT WOS:000259819800011
+ER
+
+PT J
+AU Sanchez, D
+   Chacon-Ortiz, A
+   Leon, F
+   Han, BA
+   Lampo, M
+AF Sanchez, Dinora
+   Chacon-Ortiz, Andres
+   Leon, Fabiola
+   Han, Barbara A.
+   Lampo, Margarita
+TI Widespread occurrence of an emerging pathogen in amphibian communities
+   of the Venezuelan Andes
+SO BIOLOGICAL CONSERVATION
+C1 [Sanchez, D; Chacon-Ortiz, A; Leon, F; Lampo, M] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Chacon-Ortiz, A] Univ Nacl Expt Tachira, Dept Ingn Prod Anim, San Cristobal 5001, Venezuela.
+   [Han, BA] Oregon State Univ, Dept Zool, Corvallis, OR 97331 USA.
+RP Sanchez, D (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+EM dasanche@ivic.ve
+   aecortiz@unet.edu.ve
+   fleon@ivic.ve
+   hanba@science.oregonstate.edu
+   mlampo@ivic.ve
+TC 2
+Z9 4
+SN 0006-3207
+PD NOV
+PY 2008
+VL 141
+IS 11
+BP 2898
+EP 2905
+DI 10.1016/j.biocon.2008.08.009
+UT WOS:000260939200021
+ER
+
+PT J
+AU Winemiller, KO
+   Lopez-Fernandez, H
+   Taphorn, DC
+   Nico, LG
+   Duque, AB
+AF Winemiller, Kirk O.
+   Lopez-Fernandez, Herman
+   Taphorn, Donald C.
+   Nico, Leo G.
+   Duque, Aniello Barbarino
+TI Fish assemblages of the Casiquiare River, a corridor and zoogeographical
+   filter for dispersal between the Orinoco and Amazon basins
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Winemiller, KO; Lopez-Fernandez, H] Texas A&M Univ, Dept Wildlife & Fisheries Sci, Sect Ecol Evolutionary Biol & Systemat, College Stn, TX 77843 USA.
+   [Taphorn, DC] UNELLEZ, Museo Ciencias Nat, Bioctr, Guanare, Portuguesa, Venezuela.
+   [Nico, LG] US Geol Survey, Florida Integrated Sci Ctr, Gainesville, FL USA.
+   [Duque, AB] Inst Nacl Invest Agr, Estac Expt Apure, San Fernando De Apure, Apure, Venezuela.
+RP Winemiller, KO (reprint author), Texas A&M Univ, Dept Wildlife & Fisheries Sci, Sect Ecol Evolutionary Biol & Systemat, College Stn, TX 77843 USA
+EM k-winemiller@tamu.edu
+TC 10
+Z9 11
+SN 0305-0270
+PD SEP
+PY 2008
+VL 35
+IS 9
+BP 1551
+EP 1563
+DI 10.1111/j.1365-2699.2008.01917.x
+UT WOS:000258357500002
+ER
+
+PT J
+AU Gianoli, E
+   Sendoya, S
+   Vargas, F
+   Mejia, P
+   Jaffe, R
+   Rodriguez, M
+   Gutierrez, A
+AF Gianoli, Ernesto
+   Sendoya, Sebastian
+   Vargas, Fernando
+   Mejia, Paula
+   Jaffe, Rodolfo
+   Rodriguez, Mayanin
+   Gutierrez, Adrian
+TI Patterns of Azteca ants' defence of Cecropia trees in a tropical
+   rainforest: support for optimal defence theory
+SO ECOLOGICAL RESEARCH
+C1 [Gianoli, E] Univ Concepcion, Dept Bot, Concepcion, Chile.
+   [Gianoli, E] P Univ Catolica, Ctr Adv Studies Ecol & Biodivers, Santiago, Chile.
+   [Sendoya, S] Univ Nacl Colombia, Bogota, Colombia.
+   [Vargas, F] Univ Los Andes, Bogota, Colombia.
+   [Mejia, P] Univ Antioquia, Medellin, Colombia.
+   [Jaffe, R] Univ Halle Wittenberg, Halle, Germany.
+   [Rodriguez, M] Univ Los Andes, Merida, Venezuela.
+   [Gutierrez, A] Univ Nacl Autonoma Mexico, Mexico City 04510, DF, Mexico.
+RP Gianoli, E (reprint author), Univ Concepcion, Dept Bot, Casilla 160-C, Concepcion, Chile
+EM egianoli@udec.cl
+TC 2
+Z9 2
+SN 0912-3814
+PD SEP
+PY 2008
+VL 23
+IS 5
+BP 905
+EP 908
+DI 10.1007/s11284-007-0454-0
+UT WOS:000258758000013
+ER
+
+PT J
+AU Sanchez-Mercado, A
+   Ferrer-Paris, JR
+   Yerena, E
+   Garcia-Rangel, S
+   Rodriguez-Clark, KM
+AF Sanchez-Mercado, Ada
+   Ferrer-Paris, Jose R.
+   Yerena, Edgard
+   Garcia-Rangel, Shaenandhoa
+   Rodriguez-Clark, Kathryn M.
+TI Factors affecting poaching risk to Vulnerable Andean bears Tremarctos
+   ornatus in the Cordillera de Merida, Venezuela: space, parks and people
+SO ORYX
+C1 [Sanchez-Mercado, A; Rodriguez-Clark, KM] Inst Venezolano Invest Cient, Ctr Ecol, Lab Ecol & Genet Poblac, Caracas 1020A, Venezuela.
+   [Ferrer-Paris, JR] IVIC, Ctr Ecol, Lab Biol Organ, Caracas, Venezuela.
+   [Yerena, E] Univ Simon Bolivar, Dept Estudios Ambientales, Caracas, Venezuela.
+   [Garcia-Rangel, S] Univ Cambridge, Sch Anat, Wildlife Res Grp, Cambridge CB2 3DY, England.
+RP Rodriguez-Clark, KM (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Lab Ecol & Genet Poblac, Apartado 20632, Caracas 1020A, Venezuela
+EM kmrc@ivic.ve
+TC 2
+Z9 2
+SN 0030-6053
+PD JUL
+PY 2008
+VL 42
+IS 3
+BP 437
+EP 447
+DI 10.1017/S0030605308006996
+UT WOS:000258862300022
+ER
+
+PT J
+AU Ebach, MC
+   Morrone, JJ
+   Parenti, LR
+   Viloria, AL
+AF Ebach, Malte C.
+   Morrone, Juan J.
+   Parenti, Lynne R.
+   Viloria, Angel L.
+TI International code of area nomenclature
+SO JOURNAL OF BIOGEOGRAPHY
+C1 [Ebach, MC] Arizona State Univ, Sch Life Sci, Int Inst Species Explorat, Tempe, AZ 85287 USA.
+   [Morrone, JJ] Univ Nacl Autonoma Mexico, Fac Ciencias, Dept Evolut Biol, Museo Zool Alfonso L Herrera, Mexico City 04510, DF, Mexico.
+   [Parenti, LR] Smithsonian Inst, Natl Museum Nat Hist, Dept Vertebrate Zool, Washington, DC 20560 USA.
+   [Viloria, AL] Inst Venezolano Invest Cient, Ctr Ecol, Caracas, Venezuela.
+RP Ebach, MC (reprint author), Arizona State Univ, Sch Life Sci, Int Inst Species Explorat, POB 874501, Tempe, AZ 85287 USA
+EM mcebach@gmail.com
+TC 10
+Z9 10
+SN 0305-0270
+PD JUL
+PY 2008
+VL 35
+IS 7
+BP 1153
+EP 1157
+DI 10.1111/j.1365-2699.2008.01920.x
+UT WOS:000256842900001
+ER
+
+PT J
+AU Larrea-Alcazar, DM
+   Soriano, PJ
+AF Larrea-Alcazar, Daniel M.
+   Soriano, Pascual J.
+TI Columnar cacti-shrub relationships in an Andean semiarid valley in
+   western Venezuela
+SO PLANT ECOLOGY
+C1 [Larrea-Alcazar, DM; Soriano, PJ] Univ Los Andes, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela.
+RP Larrea-Alcazar, DM (reprint author), Univ Mayor San Andres, Inst Ecol, POB 10077, La Paz, Bolivia
+EM totaizal@yahoo.com
+TC 2
+Z9 2
+SN 1385-0237
+PD JUN
+PY 2008
+VL 196
+IS 2
+BP 153
+EP 161
+DI 10.1007/s11258-007-9344-3
+UT WOS:000255197400001
+ER
+
+PT J
+AU Rodriguez, JP
+   Rodriguez-Clark, KM
+AF Rodriguez, Jon Paul
+   Rodriguez-Clark, Kathryn M.
+TI Venezuelan Red Listed animals are now in everyone's hands
+SO ORYX
+C1 [Rodriguez, JP; Rodriguez-Clark, KM] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 20632, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 0
+Z9 0
+SN 0030-6053
+PD APR
+PY 2008
+VL 42
+IS 2
+BP 171
+EP 171
+UT WOS:000256127900002
+ER
+
+PT J
+AU Rodriguez-Contreras, A
+   Senaris, JC
+   Lampo, M
+   Rivero, R
+AF Rodriguez-Contreras, Argelia
+   Senaris, J. Celsa
+   Lampo, Margarita
+   Rivero, Ramon
+TI Rediscovery of Atelopus cruciger (Anura : Bufonidae): current status in
+   the Cordillera de La Costa, Venezuela
+SO ORYX
+C1 [Rodriguez-Contreras, A; Senaris, JC] Fdn La Salle Ciencias Nat, Museo Hist Nat La Salle, Caracas 1010A, Venezuela.
+   [Lampo, M] Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   [Rivero, R] Museo Estac Biol Rancho Grande, Maracay 2101A, Estado Aragua, Venezuela.
+RP Rodriguez-Contreras, A (reprint author), Fdn La Salle Ciencias Nat, Museo Hist Nat La Salle, Apartado 1930, Caracas 1010A, Venezuela
+EM argelopus@yahoo.es
+TC 4
+Z9 4
+SN 0030-6053
+PD APR
+PY 2008
+VL 42
+IS 2
+BP 301
+EP 304
+DI 10.1017/S0030605308000082
+UT WOS:000256127900024
+ER
+
+PT J
+AU Chao, KJ
+   Phillips, OL
+   Gloor, E
+   Monteagudo, A
+   Torres-Lezama, A
+   Martinez, RV
+AF Chao, Kuo-Jung
+   Phillips, Oliver L.
+   Gloor, Emanuel
+   Monteagudo, Abel
+   Torres-Lezama, Armando
+   Vasquez Martinez, Rodolfo
+TI Growth and wood density predict tree mortality in Amazon forests
+RID A-1523-2011
+SO JOURNAL OF ECOLOGY
+C1 [Chao, KJ; Phillips, OL; Gloor, E] Univ Leeds, Sch Geog, Earth & Biosphere Inst, RAINFOR Project, Leeds LS2 9JT, W Yorkshire, England.
+   [Monteagudo, A; Martinez, RV] Jardin Bot Missouri, Proyecto Flora Peru, Oxapampa, Peru.
+   [Monteagudo, A] Univ Nacl San Antonio Abad Cusco, Cuzco, Peru.
+   [Torres-Lezama, A] Univ Los Andes, Fac Ciencias Forestales & Ambientales, INDEFOR, Merida, Venezuela.
+RP Chao, KJ (reprint author), Natl Taiwan Univ, Coll Life Sci, Inst Ecol & Evolut Biol, Taipei 10617, Taiwan
+EM kjungchao@googlemail.com
+TC 24
+Z9 26
+SN 0022-0477
+PD MAR
+PY 2008
+VL 96
+IS 2
+BP 281
+EP 292
+DI 10.1111/j.1365-2745.2007.01343.x
+UT WOS:000252899300005
+ER
+
+PT J
+AU Hernandez, MJ
+AF Hernandez, Maria-Josefina
+TI Spatiotemporal dynamics in variable population interactions with
+   density-dependent interaction coefficients
+SO ECOLOGICAL MODELLING
+CT 4th Latin American Congress on Mathematical Biology
+CY NOV, 2005
+CL Tandil, ARGENTINA
+C1 Cent Univ Venezuela, Fac Ciencias, Lab Biol Teor, Inst Zool Trop, Caracas 1041A, Venezuela.
+RP Hernandez, MJ (reprint author), Cent Univ Venezuela, Fac Ciencias, Lab Biol Teor, Inst Zool Trop, Apartado 47058, Caracas 1041A, Venezuela
+EM mariaj.hernandez@ciens.ucv.ve
+TC 2
+Z9 2
+SN 0304-3800
+PD JAN 10
+PY 2008
+VL 214
+IS 1
+BP 3
+EP 16
+DI 10.1016/j.ecolmodel.2008.01.007
+UT WOS:000256959700002
+ER
+
+PT J
+AU Izagirre, U
+   Ramos, RR
+   Marigomez, I
+AF Izagirre, Urtzi
+   Ramos, Ruth R.
+   Marigomez, Ionan
+TI Natural variability in size and membrane stability of lysosomes in
+   mussel digestive cells: seasonal and tidal zonation
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 [Izagirre, U; Marigomez, I] Univ Basque Country, Sch Sci & Technol, Dept Zool & Anim Cell Biol, Cell Biol & Histol Lab, Bilbao 48080, Basque Country, Spain.
+   [Ramos, RR] Univ Simon Bolivar, Dpto Biol Organismos, Caracas 1080A, Venezuela.
+RP Marigomez, I (reprint author), Univ Basque Country, Sch Sci & Technol, Dept Zool & Anim Cell Biol, Cell Biol & Histol Lab, 644 PK, Bilbao 48080, Basque Country, Spain
+EM ionan.marigomez@ehu.es
+TC 6
+Z9 6
+SN 0171-8630
+PY 2008
+VL 372
+BP 105
+EP 117
+DI 10.3354/meps07656
+UT WOS:000262418100011
+ER
+
+PT J
+AU Jose, JJS
+   Montes, RA
+AF Jose, J. San Jose
+   Montes, Ruben A.
+TI Resource apportionment and net primary production across the Orinoco
+   savanna-woodland continuum, Venezuela
+SO ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080A, Venezuela.
+RP Jose, JJS (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+EM jsanjose@ivic.ve
+TC 0
+Z9 0
+SN 1146-609X
+PD SEP-OCT
+PY 2007
+VL 32
+IS 2
+BP 243
+EP 253
+DI 10.1016/j.actao.2007.05.005
+UT WOS:000250113300014
+ER
+
+PT J
+AU Chaves, LF
+   Bianchi, G
+   Skwierinski, R
+AF Fernando Chaves, Luis
+   Bianchi, Guillermo
+   Skwierinski, Roberto
+TI Morphotypes and germination of strangler seeds, Ficus maitin (Moraceae)
+RID F-3448-2010
+SO BIOTROPICA
+C1 Univ Los Andes, Fac Human & Educ, Dept Med & Evaluat, Merida 5101, Venezuela.
+   Univ Los Andes, Fac Sci, Dept Biol, Merida 5101, Venezuela.
+RP Chaves, LF (reprint author), Univ Michigan, Dept Ecol & Evolut Biol, 830 N Univ, Ann Arbor, MI 48109 USA
+EM lfchaves@umich.edu
+TC 0
+Z9 0
+SN 0006-3606
+PD JUL
+PY 2007
+VL 39
+IS 4
+BP 546
+EP 548
+DI 10.1111/j.1744-7429.2006.00297.x
+UT WOS:000247779400015
+ER
+
+PT J
+AU Miller, RM
+   Rodriguez, JP
+   Aniskowicz-Fowler, T
+   Bambaradeniya, C
+   Boles, R
+   Eaton, MA
+   Gardenfors, U
+   Keller, V
+   Molur, S
+   Walker, S
+   Pollock, C
+AF Miller, Rebecca M.
+   Rodriguez, Jon Paul
+   Aniskowicz-Fowler, Theresa
+   Bambaradeniya, Channa
+   Boles, Ruben
+   Eaton, Mark A.
+   Gardenfors, Ulf
+   Keller, Verena
+   Molur, Sanjay
+   Walker, Sally
+   Pollock, Caroline
+TI National threatened species listing based on IUCN criteria and regional
+   guidelines: Current status and future perspectives
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1041A, Venezuela.
+   Provita, Caracas 1041A, Venezuela.
+   Environm Canada, Canadian Wildlife Serv, Species Risk Branch, Ottawa, ON K1A 0H3, Canada.
+   IUCN, World Conservat Union, Sri Lanka Country Off, Colombo 07, Sri Lanka.
+   Canadian Wildlife Serv, COSEWIC Secretariat, Ottawa, ON K1A 0H3, Canada.
+   Royal Soc Protect Birds, Sandy SG19 2DL, Beds, England.
+   ArtDatabanken, Swedish Species Informat Ctr, S-75007 Uppsala, Sweden.
+   Swiss Ornithol Inst, CH-6204 Sempach, Switzerland.
+   Zoo Outreach Org, Coimbatore 641004, Tamil Nadu, India.
+   IUCN, SSC Red List Programme, Cambridge CB3 0DL, England.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1041A, Venezuela
+EM jonpaul@ivic.ve
+TC 34
+Z9 43
+SN 0888-8892
+PD JUN
+PY 2007
+VL 21
+IS 3
+BP 684
+EP 696
+DI 10.1111/j.1523-1739.2007.00656.x
+UT WOS:000246843200015
+ER
+
+PT J
+AU Scheldeman, X
+   Willemen, L
+   d'Eeckenbrugge, GC
+   Romeijn-Peeters, E
+   Restrepo, MT
+   Motoche, JR
+   Jimenez, D
+   Lobo, M
+   Medina, CI
+   Reyes, C
+   Rodriguez, D
+   Ocampo, JA
+   Van Damme, P
+   Goetgebeur, P
+AF Scheldeman, X.
+   Willemen, L.
+   d'Eeckenbrugge, G. Coppens
+   Romeijn-Peeters, E.
+   Restrepo, M. T.
+   Motoche, J. Romero
+   Jimenez, D.
+   Lobo, M.
+   Medina, C. I.
+   Reyes, C.
+   Rodriguez, D.
+   Ocampo, J. A.
+   Van Damme, P.
+   Goetgebeur, P.
+TI Distribution, diversity and environmental adaptation of highland papayas
+   (Vasconcellea spp.) in tropical and subtropical America
+SO BIODIVERSITY AND CONSERVATION
+C1 Int Plant Genet Resources Inst, Reg Off Amer, Cali, Colombia.
+   Univ Ghent, Fac Sci, Dept Biol, B-9000 Ghent, Belgium.
+   Nat & Cultura Int, Loja, Ecuador.
+   Ctr Invest La Selva, CORPOICA, Antioquia, Colombia.
+   Univ Nacl Colombia, Medellin, Colombia.
+   Minist Ambiente, Ctr Nacl Conservac Recursos Genet, Oficina Nacl Divers Biol, Maracay, Venezuela.
+   Univ Ghent, Lab Subtrop & Trop Agr & Ethnobot, Dept Plant Protect, Fac Agr & Appl Biol Sci, B-9000 Ghent, Belgium.
+   CNRS CEFE, CIRAD, FLHOR, UPR Gest Ressources Genet & Dynam Sociales, F-34293 Montpellier, France.
+RP Scheldeman, X (reprint author), Int Plant Genet Resources Inst, Reg Off Amer, Apartado Aereo 6713, Cali, Colombia
+EM x.scheldeman@cgiar.org
+TC 0
+Z9 0
+SN 0960-3115
+PD JUN
+PY 2007
+VL 16
+IS 6
+BP 1867
+EP 1884
+DI 10.1007/s10531-006-9086-x
+UT WOS:000247152800019
+ER
+
+PT J
+AU O'Donnell, S
+   Lattke, J
+   Powell, S
+   Kaspari, M
+AF O'Donnell, Sean
+   Lattke, John
+   Powell, Scott
+   Kaspari, Michael
+TI Army ants in four forests: geographic variation in raid rates and
+   species composition
+SO JOURNAL OF ANIMAL ECOLOGY
+C1 Univ Washington, Dept Psychol, Anim Behav Program, Seattle, WA 98195 USA.
+   Cent Univ Venezuela, Museo Inst Zool Agr, Maracay 2101A, Venezuela.
+   Univ Bristol, Sch Biol Sci, Bristol BS8 1UG, Avon, England.
+   Univ Oklahoma, Dept Zool, Norman, OK 73019 USA.
+RP O'Donnell, S (reprint author), Univ Washington, Dept Psychol, Anim Behav Program, Box 351525, Seattle, WA 98195 USA
+EM sodonnel@u.washington.edu
+TC 18
+Z9 18
+SN 0021-8790
+PD MAY
+PY 2007
+VL 76
+IS 3
+BP 580
+EP 589
+DI 10.1111/j.1365-2656.2007.01221.x
+UT WOS:000245608900016
+ER
+
+PT J
+AU Post, DM
+   Layman, CA
+   Arrington, DA
+   Takimoto, G
+   Quattrochi, J
+   Montana, CG
+AF Post, David M.
+   Layman, Craig A.
+   Arrington, D. Albrey
+   Takimoto, Gaku
+   Quattrochi, John
+   Montana, Carman G.
+TI Getting to the fat of the matter: models, methods and assumptions for
+   dealing with lipids in stable isotope analyses
+RID A-6987-2009
+SO OECOLOGIA
+C1 Yale Univ, Dept Ecol & Evolutionary Biol, New Haven, CT 06520 USA.
+   Florida Int Univ, Dept Biol Sci, Marine Sci Program, N Miami, FL 33181 USA.
+   UNELLEZ, Guanare 3310, Venezuela.
+RP Post, DM (reprint author), Yale Univ, Dept Ecol & Evolutionary Biol, New Haven, CT 06520 USA
+EM david.post@yale.edu
+TC 175
+Z9 177
+SN 0029-8549
+PD MAY
+PY 2007
+VL 152
+IS 1
+BP 179
+EP 189
+DI 10.1007/s00442-006-0630-x
+UT WOS:000245808100019
+ER
+
+PT J
+AU MacSwiney, MC
+   Vilchis, P
+   Clarke, FM
+   Racey, PA
+AF MacSwiney, M. Cristina G.
+   Vilchis, Patricia L.
+   Clarke, Frank M.
+   Racey, Paul A.
+TI The importance of cenotes in conserving bat assemblages in the Yucatan,
+   Mexico
+SO BIOLOGICAL CONSERVATION
+C1 Autonomous Univ Yucatan, Dept Zool, Merida, Yucatan, Venezuela.
+   Univ Aberdeen, Sch Biol Sci, Aberdeen AB24 2TZ, Scotland.
+RP MacSwiney, MC (reprint author), Univ Aberdeen, Sch Biol Sci, Aberdeen AB24 2TZ, Scotland
+EM m.c.macswiney@abdn.ac.uk
+   dendrobatidae@hotmail.com
+   f.clarke@abdn.ac.uk
+   p.racey@abdn.ac.uk
+TC 5
+Z9 5
+SN 0006-3207
+PD MAY
+PY 2007
+VL 136
+IS 4
+BP 499
+EP 509
+DI 10.1016/j.biocon.2006.12.021
+UT WOS:000247228800001
+ER
+
+PT J
+AU Rodriguez, JP
+   Brotons, L
+   Bustamante, J
+   Seoane, J
+AF Paul Rodriguez, Jon
+   Brotons, Lluis
+   Bustamante, Javier
+   Seoane, Javier
+TI The application of predictive modelling of species distribution to
+   biodiversity conservation
+RID A-1491-2009
+RID D-1570-2009
+RID C-2735-2008
+RID B-6833-2008
+SO DIVERSITY AND DISTRIBUTIONS
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Ctr Tecnol Forestal Catalunya, Area Biodiversitat, Solsona 25280, Spain.
+   Inst Catala Ornitol, Museu Zool, Barcelona 08003, Catalonia, Spain.
+   CSIC, Dept Appl Biol, Estac Biol Donana, Seville 41013, Spain.
+   Univ Autonoma Madrid, Fac Ciencias, Dept Interuniv Ecol, E-28049 Madrid, Spain.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 41
+Z9 42
+SN 1366-9516
+PD MAY
+PY 2007
+VL 13
+IS 3
+BP 243
+EP 251
+DI 10.1111/j.1472-4642.2007.00356.x
+UT WOS:000245812100001
+ER
+
+PT J
+AU Layman, CA
+   Arrington, DA
+   Montana, CG
+   Post, DM
+AF Layman, Craig A.
+   Arrington, D. Albrey
+   Montana, Carmen G.
+   Post, David M.
+TI Can stable isotope ratios provide for community-wide measures of trophic
+   structure?
+RID A-6987-2009
+SO ECOLOGY
+C1 Dept Biol Sci, Marine Sci Program, N Miami, FL 33181 USA.
+   Yale Univ, Dept Ecol & Evolutionary Biol, New Haven, CT 06520 USA.
+   UNELLEZ, Guanare 3310A, Venezuela.
+RP Layman, CA (reprint author), Dept Biol Sci, Marine Sci Program, 3000 NE 151st St, N Miami, FL 33181 USA
+EM cal1634@yahoo.com
+TC 70
+Z9 72
+SN 0012-9658
+PD JAN
+PY 2007
+VL 88
+IS 1
+BP 42
+EP 48
+DI 10.1890/0012-9658(2007)88[42:CSIRPF]2.0.CO;2
+UT WOS:000245668300007
+ER
+
+PT J
+AU Brehmer, P
+   Gerlotto, F
+   Laurent, C
+   Cotel, P
+   Achury, A
+   Samb, B
+AF Brehmer, Patrice
+   Gerlotto, Francois
+   Laurent, Charline
+   Cotel, Pascal
+   Achury, Alina
+   Samb, Birane
+TI Schooling behaviour of small pelagic fish: phenotypic expression of
+   independent stimuli
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Ctr Rech Halieut Mediterraneenne & Trop, IRD, IFREMER, F-34203 Sete, France.
+   Univ Montpellier 2, F-34203 Sete, France.
+   Inst Mar Peru, Inst Rech Dev, La Punta, Callao, Peru.
+   Inst Rech Dev, St Clotilde 97490, Reunion.
+   Fdn La Salle, Estac Invest Marinas Isla Margarita, Punta De Piedras 6318, Venezuela.
+   Ctr Rech Oceanog Dakar Thiaroye, Inst Senegalais Rech Agron, Dakar Thiaroye, Senegal.
+RP Brehmer, P (reprint author), Ctr Rech Halieut Mediterraneenne & Trop, IRD, IFREMER, 1 Ave Jean Monnet,BP 171, F-34203 Sete, France
+EM patrice.brehmer@ifremer.fr
+TC 7
+Z9 7
+SN 0171-8630
+PY 2007
+VL 334
+BP 263
+EP 272
+DI 10.3354/meps334263
+UT WOS:000245862000025
+ER
+
+PT J
+AU Rodriguez, JP
+   Balch, JK
+   Rodriguez-Clark, KM
+AF Rodriguez, Jon Paul
+   Balch, Jennifer K.
+   Rodriguez-Clark, Kathryn M.
+TI Assessing extinction risk in the absence of species-level data:
+   quantitative criteria for terrestrial ecosystems
+SO BIODIVERSITY AND CONSERVATION
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Provita, Caracas 1041A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 13
+Z9 14
+SN 0960-3115
+PD JAN
+PY 2007
+VL 16
+IS 1
+BP 183
+EP 209
+DI 10.1007/s10531-006-9102-1
+UT WOS:000244185900013
+ER
+
+PT J
+AU Mueller, GM
+   Schmit, JP
+   Leacock, PR
+   Buyck, B
+   Cifuentes, J
+   Desjardin, DE
+   Halling, RE
+   Hjortstam, K
+   Iturriaga, T
+   Larsson, KH
+   Lodge, DJ
+   May, TW
+   Minter, D
+   Rajchenberg, M
+   Redhead, SA
+   Ryvarden, L
+   Trappe, JM
+   Watling, R
+   Wu, QW
+AF Mueller, Gregory M.
+   Schmit, John P.
+   Leacock, Patrick R.
+   Buyck, Bart
+   Cifuentes, Joaquin
+   Desjardin, Dennis E.
+   Halling, Roy E.
+   Hjortstam, Kurt
+   Iturriaga, Teresa
+   Larsson, Karl-Henrik
+   Lodge, D. Jean
+   May, Tom W.
+   Minter, David
+   Rajchenberg, Mario
+   Redhead, Scott A.
+   Ryvarden, Leif
+   Trappe, James M.
+   Watling, Roy
+   Wu, Qiuxin
+TI Global diversity and distribution of macrofungi
+SO BIODIVERSITY AND CONSERVATION
+C1 Field Museum Nat Hist, Dept Bot, Chicago, IL 60605 USA.
+   Univ Illinois, Dept Plant Biol, Urbana, IL 61801 USA.
+   Museum Natl Hist Nat, Lab Cryptogamie, F-75005 Paris, France.
+   Univ Nacl Autonoma Mexico, Secc Micol, Herbario FCME, Fac Ciencias, Mexico City 04510, DF, Mexico.
+   San Francisco State Univ, Dept Biol, San Francisco, CA 94132 USA.
+   New York Bot Garden, Inst Systemat Bot, Bronx, NY 10458 USA.
+   Univ Simon Bolivar, Dept Biol Organismos, Baruta, Edo Miranda, Venezuela.
+RP Mueller, GM (reprint author), Field Museum Nat Hist, Dept Bot, 1400 S Lake Shore Dr, Chicago, IL 60605 USA
+EM gmueller@fieldmuseum.org
+TC 25
+Z9 28
+SN 0960-3115
+PD JAN
+PY 2007
+VL 16
+IS 1
+BP 37
+EP 48
+DI 10.1007/s10531-006-9108-8
+UT WOS:000244185900003
+ER
+
+PT J
+AU Perez, T
+   Garcia-Montiel, D
+   Trumbore, S
+   Tyler, S
+   De Camargo, P
+   Moreira, M
+   Piccolo, M
+   Cerri, C
+AF Perez, Tibisay
+   Garcia-Montiel, Diana
+   Trumbore, Susan
+   Tyler, Stanley
+   De Camargo, Plino
+   Moreira, Marcelo
+   Piccolo, Marisa
+   Cerri, Carlos
+TI Nitrous oxide nitrification and denitrification (15)N enrichment factors
+   from Amazon forest soils
+SO ECOLOGICAL APPLICATIONS
+C1 Inst Venezolano Invest Cient, Atmospher Chem Lab, Caracas 1020A, Venezuela.
+   Univ Calif Irvine, Dept Earth Syst Sci, Irvine, CA 92697 USA.
+   Marine Biol Lab, Ctr Ecosyst, Woods Hole, MA 02543 USA.
+   Univ Sao Paulo, BR-13400970 Piracicaba, SP, Brazil.
+   Ctr Energia Nucl Agr, Lab Ecol Isotop, BR-13400970 Piracicaba, SP, Brazil.
+   Ctr Energia Nucl Agr, Lab Biogeoquim Ambiental, BR-13400970 Piracicaba, SP, Brazil.
+RP Perez, T (reprint author), Inst Venezolano Invest Cient, Atmospher Chem Lab, Apartado 21827, Caracas 1020A, Venezuela
+EM tperez@ivic.ve
+TC 25
+Z9 25
+SN 1051-0761
+PD DEC
+PY 2006
+VL 16
+IS 6
+BP 2153
+EP 2167
+DI 10.1890/1051-0761(2006)016[2153:NONADN]2.0.CO;2
+UT WOS:000242849300008
+ER
+
+PT J
+AU Marquez, EJ
+   Rada, F
+   Farinas, MR
+AF Marquez, Edjuly J.
+   Rada, Fermin
+   Farinas, Mario R.
+TI Freezing tolerance in grasses along an altitudinal gradient in the
+   Venezuelan Andes
+SO OECOLOGIA
+C1 Univ Nacl Expt Francisco Miranda, Ctr Invest Ecol & Zonas Aridas, Coro 4101A, Edo Falcon, Venezuela.
+   Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela.
+RP Marquez, EJ (reprint author), Univ Nacl Expt Francisco Miranda, Ctr Invest Ecol & Zonas Aridas, Calle Maparati,Entre Callejon Flores & Cristal, Coro 4101A, Edo Falcon, Venezuela
+EM edjuly@gmail.com
+TC 10
+Z9 11
+SN 0029-8549
+PD DEC
+PY 2006
+VL 150
+IS 3
+BP 393
+EP 397
+DI 10.1007/s00442-006-0556-3
+UT WOS:000242060700005
+ER
+
+PT J
+AU Lopez-Hoffman, L
+   Monroe, IE
+   Narvaez, E
+   Martinez-Ramos, M
+   Ackerly, DD
+AF Lopez-Hoffman, Laura
+   Monroe, Ian E.
+   Narvaez, Enrique
+   Martinez-Ramos, Miguel
+   Ackerly, David D.
+TI Sustainability of mangrove harvesting: How do harvesters' perceptions
+   differ from ecological analysis?
+SO ECOLOGY AND SOCIETY
+C1 Univ Nacl Autonoma Mexico, Mexico City 04510, DF, Mexico.
+   Inst Conservac Lago Maracaibo, Maracaibo, Venezuela.
+   Univ Calif Berkeley, Berkeley, CA 94720 USA.
+RP Lopez-Hoffman, L (reprint author), Univ Nacl Autonoma Mexico, Mexico City 04510, DF, Mexico
+TC 10
+Z9 11
+SN 1708-3087
+PD DEC
+PY 2006
+VL 11
+IS 2
+AR 14
+UT WOS:000243280800015
+ER
+
+PT J
+AU Rengifo, C
+   Cornejo, L
+   Akirov, I
+AF Rengifo, Carlos
+   Cornejo, Luis
+   Akirov, Ivan
+TI One size fits all: corolla compression in Aphelandra runcinata
+   (Acanthaceae), an adaptation to short-billed hummingbirds
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Estac Ornitol La Mucuy, Merida 5101, Venezuela.
+   Univ Los Andes, Fac Ciencias, Merida 5101, Venezuela.
+RP Rengifo, C (reprint author), Estac Ornitol La Mucuy, Parque Nacl Sierra Nevada,Apartado Postal 229, Merida 5101, Venezuela
+EM crengifo@ula.ve
+TC 1
+Z9 1
+SN 0266-4674
+PD NOV
+PY 2006
+VL 22
+PN Part 6
+BP 613
+EP 619
+DI 10.1017/S0266467406003476
+UT WOS:000242132900001
+ER
+
+PT J
+AU Rodriguez-Clark, KM
+   Rodriguez, JP
+AF Rodriguez-Clark, Kathryn M.
+   Rodriguez, Jon Paul
+TI First successful fledging of blue-headed conures on Margarita Island,
+   Venezuela, in 8 years
+RID A-1491-2009
+SO ORYX
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Rodriguez-Clark, KM (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM kmrc@ivic.ve
+TC 1
+Z9 1
+SN 0030-6053
+PD OCT
+PY 2006
+VL 40
+IS 4
+BP 383
+EP 383
+UT WOS:000243833100004
+ER
+
+PT J
+AU Dezzeo, N
+   Chacon, N
+AF Dezzeo, Nelda
+   Chacon, Noemi
+TI Nutrient fluxes in incident rainfall, throughfall, and stemflow in
+   adjacent primary and secondary forests of the Gran Sabana, southern
+   Venezuela
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Dezzeo, N (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21-827, Caracas 1020A, Venezuela
+EM ndzzeo@oikos.ivic.ve
+TC 7
+Z9 9
+SN 0378-1127
+PD OCT 1
+PY 2006
+VL 234
+IS 1-3
+BP 218
+EP 226
+DI 10.1016/j.foreco.2006.07.003
+UT WOS:000241292000021
+ER
+
+PT J
+AU Rodriguez, JP
+   Rodriguez-Clark, KM
+   Oliveira-Miranda, MA
+   Good, T
+   Grajal, A
+AF Rodriguez, Jon Paul
+   Rodriguez-Clark, Kathryn M.
+   Oliveira-Miranda, Maria A.
+   Good, Tatjana
+   Grajal, Alejandro
+TI Professional capacity building: the missing agenda in conservation
+   priority setting
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, bioDISCOVERY, Diversitas, Caracas 1020A, Venezuela.
+   Ctr Int Ecol Trop, IVIC, Caracas 1020A, Venezuela.
+   Chicago Zool Soc, Brookfield, IL 60513 USA.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, bioDISCOVERY, Diversitas, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 8
+Z9 8
+SN 0888-8892
+PD OCT
+PY 2006
+VL 20
+IS 5
+BP 1340
+EP 1340
+DI 10.1111/j.1523-1739.2006.00535_1.x
+UT WOS:000241031600002
+ER
+
+PT J
+AU Larrea-Alcazar, DM
+   Soriano, PJ
+AF Larrea-Alcazar, Daniel M.
+   Soriano, Pascual J.
+TI Spatial associations, size-distance relationships and population
+   structure of two dominant life forms in a semiarid enclave of the
+   Venezuelan Andes
+SO PLANT ECOLOGY
+C1 Univ Los Andes, Inst Ciencias Ambientales & Ecol, Merida 5101, La Hechicera, Venezuela.
+RP Larrea-Alcazar, DM (reprint author), Univ Los Andes, Inst Ciencias Ambientales & Ecol, Merida 5101, La Hechicera, Venezuela
+EM larrea@ula.ve
+TC 8
+Z9 9
+SN 1385-0237
+PD SEP
+PY 2006
+VL 186
+IS 1
+BP 137
+EP 149
+DI 10.1007/s11258-006-9118-3
+UT WOS:000239652300012
+ER
+
+PT J
+AU Good, TC
+   Zjhra, ML
+   Kremen, C
+AF Good, Tatjana C.
+   Zjhra, Michelle L.
+   Kremen, Claire
+TI Addressing data deficiency in classifying extinction risk: a case study
+   of a radiation of Bignoniaceae from Madagascar
+SO CONSERVATION BIOLOGY
+C1 Princeton Univ, Dept Ecol & Evolutionary Biol, Princeton, NJ 08544 USA.
+   Georgia So Univ, Dept Biol, Statesboro, GA 30460 USA.
+   Univ Calif Berkeley, Dept Environm Sci Policy & Management, Berkeley, CA 94720 USA.
+RP Good, TC (reprint author), Inst Venezolano Invest Cient, Ctr Int Ecol Trop, Apartado 21827, Caracas 1020A, Venezuela
+EM tgood@ivic.ve
+TC 12
+Z9 12
+SN 0888-8892
+PD AUG
+PY 2006
+VL 20
+IS 4
+BP 1099
+EP 1110
+DI 10.1111/j.1523-1739.2006.00473.x
+UT WOS:000239545500021
+ER
+
+PT J
+AU Perez, JE
+   Nirchio, M
+   Alfonsi, C
+   Munoz, C
+AF Perez, Julio E.
+   Nirchio, Mauro
+   Alfonsi, Carmen
+   Munoz, Carlos
+TI The biology of invasions: The genetic adaptation paradox
+SO BIOLOGICAL INVASIONS
+C1 Univ Oriente, Inst Oceanog Venezuela, Cumana, Venezuela.
+   Univ Oriente, Esculea Ciencias Aplicadas Mar, Nueva Esparta, Venezuela.
+   Univ Arturo Prat, Dept Ciencias Mar, Iquique, Chile.
+RP Perez, JE (reprint author), Univ Oriente, Inst Oceanog Venezuela, Cumana, Venezuela
+EM jeperezr@yahoo.com
+TC 11
+Z9 12
+SN 1387-3547
+PD JUL
+PY 2006
+VL 8
+IS 5
+BP 1115
+EP 1121
+DI 10.1007/s10530-005-8281-0
+UT WOS:000239742900013
+ER
+
+PT J
+AU Malhi, Y
+   Wood, D
+   Baker, TR
+   Wright, J
+   Phillips, OL
+   Cochrane, T
+   Meir, P
+   Chave, J
+   Almeida, S
+   Arroyo, L
+   Higuchi, N
+   Killeen, TJ
+   Laurance, SG
+   Laurance, WF
+   Lewis, SL
+   Monteagudo, A
+   Neill, DA
+   Vargas, PN
+   Pitman, NCA
+   Quesada, CA
+   Salomao, R
+   Silva, JNM
+   Lezama, AT
+   Terborgh, J
+   Martinez, RV
+   Vinceti, B
+AF Malhi, Y
+   Wood, D
+   Baker, TR
+   Wright, J
+   Phillips, OL
+   Cochrane, T
+   Meir, P
+   Chave, J
+   Almeida, S
+   Arroyo, L
+   Higuchi, N
+   Killeen, TJ
+   Laurance, SG
+   Laurance, WF
+   Lewis, SL
+   Monteagudo, A
+   Neill, DA
+   Vargas, PN
+   Pitman, NCA
+   Quesada, CA
+   Salomao, R
+   Silva, JNM
+   Lezama, AT
+   Terborgh, J
+   Martinez, RV
+   Vinceti, B
+TI The regional variation of aboveground live biomass in old-growth
+   Amazonian forests
+RID A-1523-2011
+RID A-7681-2008
+SO GLOBAL CHANGE BIOLOGY
+C1 Univ Oxford, Ctr Environm, Oxford OX1 3QY, England.
+   Univ Edinburgh, Sch Geosci, Edinburgh EH8 9YL, Midlothian, Scotland.
+   Univ Leeds, Earth & Biosphere Inst, Leeds LS2 9JT, W Yorkshire, England.
+   Univ Southampton, Dept Geog, Southampton SO9 5NH, Hants, England.
+   Agteca, Santa Cruz, Bolivia.
+   CNRS, UPS, Lab Evolut & Divers Biol, Toulouse, France.
+   Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   Museo Noel Kempff Mercado, Santa Clara, Bolivia.
+   Inst Natl Pesquisas Amazonicas, Manaus, Amazonas, Brazil.
+   Conservat Int, Ctr Appl Biodivers Sci, Washington, DC USA.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Univ Nacl San Antonio Abad Cusco, Herbardio Vargas, Cuzco, Peru.
+   Jardin Bot Missouri, Proyecto Flora Peru, Oxapampa, Peru.
+   Fdn Jatun Sacha, Quito, Ecuador.
+   Univ Nacl San Antonio Cusco, Herbario Vargas, Cuzco, Peru.
+   Duke Univ, Ctr Trop Conservat, Durham, NC USA.
+   CIFOR, Tapajos, Brazil.
+   EMBRAPA Amazonia Oriental, Belem, Para, Brazil.
+   Univ Los Andes, INDEFOR, Fac Ciencias Forestales & Ambientale, Merida 5101, Venezuela.
+   Int Plant Genet Resources Inst, Rome, Italy.
+RP Malhi, Y (reprint author), Univ Oxford, Ctr Environm, S Parks Rd, Oxford OX1 3QY, England
+EM ymalhi@ouce.ox.ac.uk
+TC 71
+Z9 74
+SN 1354-1013
+PD JUL
+PY 2006
+VL 12
+IS 7
+BP 1107
+EP 1138
+DI 10.1111/j.1365-2486.2006.01120.x
+UT WOS:000238352800001
+ER
+
+PT J
+AU Leon-Vargas, Y
+   Engwald, S
+   Proctor, MCF
+AF Leon-Vargas, Y
+   Engwald, S
+   Proctor, MCF
+TI Microclimate, light adaptation and desiccation tolerance of epiphytic
+   bryophytes in two Venezuelan cloud forests
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Exeter, Sch Biosci, Exeter EX4 4QD, Devon, England.
+   Univ Los Andes, Ctr Jardin Bot, Merida, Venezuela.
+   Philipp Holzman Schule, Dept Hort, Frankfurt, Germany.
+RP Proctor, MCF (reprint author), Univ Exeter, Sch Biosci, Geoffrey Pope Bldg,Perry Rd, Exeter EX4 4QD, Devon, England
+EM m.c.f.proctor@exeter.ac.uk
+TC 12
+Z9 14
+SN 0305-0270
+PD MAY
+PY 2006
+VL 33
+IS 5
+BP 901
+EP 913
+DI 10.1111/j.1365-2699.2006.01468.x
+UT WOS:000236943100014
+ER
+
+PT J
+AU Perez, EM
+   Weisz, MD
+   Lau, P
+   Bulla, L
+AF Perez, EM
+   Weisz, MD
+   Lau, P
+   Bulla, L
+TI Granivory, seed dynamics and suitability of the seed-dish technique for
+   granivory estimations in a neotropical savanna
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Simon Rodriguez, IDECYT, Caracas 1041A, Venezuela.
+   Cent Univ Venezuela, Fac Ciencias, Inst Zool Trop, Caracas 1041A, Venezuela.
+RP Perez, EM (reprint author), Univ Simon Rodriguez, IDECYT, Apdo 47-925, Caracas 1041A, Venezuela
+EM eliperez1@cantv.net
+TC 7
+Z9 7
+SN 0266-4674
+PD MAY
+PY 2006
+VL 22
+PN Part 3
+BP 255
+EP 265
+DI 10.1017/S0266467405003093
+UT WOS:000237584300003
+ER
+
+PT J
+AU Montiel, S
+   Estrada, A
+   Leon, P
+AF Montiel, S
+   Estrada, A
+   Leon, P
+TI Bat assemblages in a naturally fragmented ecosystem in the Yucatan
+   Peninsula, Mexico: species richness, diversity and spatio-temporal
+   dynamics
+RID A-4738-2008
+RID A-1443-2008
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 IPN, Ctr Invest & Estud Avanzados, Dept Human Ecol, Merida 97310, Venezuela.
+   Univ Nacl Autonoma Mexico, Inst Biol, Estac Biol Trop Los Tuxtlas, San Andres Tuxtla Veracr, Mexico.
+RP Montiel, S (reprint author), IPN, Ctr Invest & Estud Avanzados, Dept Human Ecol, Unidad Merida,Apartado Postal 73, Merida 97310, Venezuela
+EM montiels@mda.cinvestav.mx
+TC 14
+Z9 15
+SN 0266-4674
+PD MAY
+PY 2006
+VL 22
+PN Part 3
+BP 267
+EP 276
+DI 10.1017/S026646740500307X
+UT WOS:000237584300004
+ER
+
+PT J
+AU Moreno, LL
+   Tuxill, J
+   Moo, EY
+   Reyes, LA
+   Alejo, JC
+   Jarvis, DI
+AF Moreno, LL
+   Tuxill, J
+   Moo, EY
+   Reyes, LA
+   Alejo, JC
+   Jarvis, DI
+TI Traditional maize storage methods of mayan farmers in Yucatan, Mexico:
+   Implications for seed selection and crop diversity
+SO BIODIVERSITY AND CONSERVATION
+C1 ITA2, SIGA, Yucatan 97345, Mexico.
+   Yale Sch Forestry & Environm Studies, Joint Program Econ Bot, New Haven, CT 06520 USA.
+   New York Bot Garden, New Haven, CT 06520 USA.
+   IPN, Ctr Invest & Estud Avanzados, Merida, Venezuela.
+   Int Plant Genet Resources Inst, Rome, Italy.
+RP Moreno, LL (reprint author), ITA2, SIGA, Km 16-3 Ant Carr, Yucatan 97345, Mexico
+EM napoleon@itaconkal.edu.mx
+TC 5
+Z9 5
+SN 0960-3115
+PD MAY
+PY 2006
+VL 15
+IS 5
+BP 1771
+EP 1795
+DI 10.1007/s10531-004-6679-0
+UT WOS:000237666300010
+ER
+
+PT J
+AU Rodriguez-Clark, KM
+   Sanchez-Mercado, A
+AF Rodriguez-Clark, KM
+   Sanchez-Mercado, A
+TI Population management of threatened taxa in captivity within their
+   natural ranges: Lessons from Andean bears (Tremarctos ornatus) in
+   Venezuela
+SO BIOLOGICAL CONSERVATION
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Lab Ecol & Genet Poblac, Caracas 1020A, Venezuela.
+RP Rodriguez-Clark, KM (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Lab Ecol & Genet Poblac, Apartado 21827, Caracas 1020A, Venezuela,Venezuela
+EM kmrodriguezclark@gmail.com
+TC 5
+Z9 6
+SN 0006-3207
+PD APR
+PY 2006
+VL 129
+IS 1
+BP 134
+EP 148
+DI 10.1016/j.biocon.2005.10.037
+UT WOS:000236261000015
+ER
+
+PT J
+AU Kjonaas, C
+   Rengifo, C
+AF Kjonaas, C
+   Rengifo, C
+TI Differential effects of avian nectar-robbing on fruit set of two
+   Venezuelan Andean cloud forest plants
+SO BIOTROPICA
+C1 La Mucuy Bird Observ, Parque Nacl Sierra Nevada, Merida 5101, Venezuela.
+   Colecc Vertebrados Univ Los Andes, Merida, Venezuela.
+RP Kjonaas, C (reprint author), La Mucuy Bird Observ, Parque Nacl Sierra Nevada, Apartado Postal 229, Merida 5101, Venezuela
+EM chris.kjonaas@mail.sit.edu
+TC 2
+Z9 2
+SN 0006-3606
+PD MAR
+PY 2006
+VL 38
+IS 2
+BP 276
+EP 279
+DI 10.1111/j.1744-7429.2006.00119.x
+UT WOS:000235210600016
+ER
+
+PT J
+AU Grace, J
+   San Jose, J
+   Meir, P
+   Miranda, HS
+   Montes, RA
+AF Grace, J
+   San Jose, J
+   Meir, P
+   Miranda, HS
+   Montes, RA
+TI Productivity and carbon fluxes of tropical savannas
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Edinburgh, Sch Geosci, Inst Atmospher & Environm Sci, Edinburgh EH9 3JN, Midlothian, Scotland.
+   Inst Venezolano Invest Cient, Caracas, Venezuela.
+   Univ Brasilia, BR-70910900 Brasilia, DF, Brazil.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas, Venezuela.
+RP Grace, J (reprint author), Univ Edinburgh, Sch Geosci, Inst Atmospher & Environm Sci, Crew Bldg,Kings Bldgs, Edinburgh EH9 3JN, Midlothian, Scotland
+EM jgrace@ed.ac.uk
+TC 47
+Z9 51
+SN 0305-0270
+PD MAR
+PY 2006
+VL 33
+IS 3
+BP 387
+EP 400
+DI 10.1111/j.1365-2699.2005.01448.x
+UT WOS:000235256700002
+ER
+
+PT J
+AU Huber, O
+AF Huber, O
+TI Herbaceous ecosystems on the Guayana Shield, a regional overview
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Inst Venezolano Invest Cient, CIET, CoroLab Humboldt, Caracas 1020A, Venezuela.
+RP Huber, O (reprint author), Inst Venezolano Invest Cient, CIET, CoroLab Humboldt, Apartado 21 827, Caracas 1020A, Venezuela
+EM ohuber@mac.com
+TC 10
+Z9 12
+SN 0305-0270
+PD MAR
+PY 2006
+VL 33
+IS 3
+BP 464
+EP 475
+DI 10.1111/j.1365-2699.2005.01454.x
+UT WOS:000235256700008
+ER
+
+PT J
+AU Silva, JF
+   Farinas, MR
+   Felfili, JM
+   Klink, CA
+AF Silva, JF
+   Farinas, MR
+   Felfili, JM
+   Klink, CA
+TI Spatial heterogeneity, land use and conservation in the cerrado region
+   of Brazil
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela.
+   Harvard Univ, Ctr Int Dev, Cambridge, MA 02138 USA.
+   Univ Brasilia, Dept Engn Florestal, BR-04357 Brasilia, DF, Brazil.
+   Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+RP Silva, JF (reprint author), Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela
+EM juan_silva004@hotmail.com
+TC 40
+Z9 42
+SN 0305-0270
+PD MAR
+PY 2006
+VL 33
+IS 3
+BP 536
+EP 548
+DI 10.1111/j.1365-2699.2005.01422.x
+UT WOS:000235256700014
+ER
+
+PT J
+AU Sarmiento, G
+   da Silva, MP
+   Naranjo, ME
+   Pinillos, M
+AF Sarmiento, G
+   da Silva, MP
+   Naranjo, ME
+   Pinillos, M
+TI Nitrogen and phosphorus as limiting factors for growth and primary
+   production in a flooded savanna in the Venezuelan Llanos
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela.
+RP Sarmiento, G (reprint author), Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Nucleo La Hechicera, Merida 5101, Venezuela, Venezuela
+EM sguille@ula.ve
+TC 2
+Z9 2
+SN 0266-4674
+PD MAR
+PY 2006
+VL 22
+PN Part 2
+BP 203
+EP 212
+DI 10.1017/S0266467405003068
+UT WOS:000235417600009
+ER
+
+PT J
+AU Thorbjarnarson, J
+   Mazzotti, F
+   Sanderson, E
+   Buitrago, F
+   Lazcano, M
+   Minkowski, K
+   Muniz, M
+   Ponce, P
+   Sigler, L
+   Soberon, R
+   Trelancia, AM
+   Velasco, A
+AF Thorbjarnarson, J
+   Mazzotti, F
+   Sanderson, E
+   Buitrago, F
+   Lazcano, M
+   Minkowski, K
+   Muniz, M
+   Ponce, P
+   Sigler, L
+   Soberon, R
+   Trelancia, AM
+   Velasco, A
+TI Regional habitat conservation priorities for the American crocodile
+SO BIOLOGICAL CONSERVATION
+C1 Wildlife Conservat Soc, Gainesville, FL 32635 USA.
+   Univ Florida, Ft Lauderdale Res & Educ Ctr, Ft Lauderdale, FL 33314 USA.
+   Wildlife Conservat Soc, Bronx, NY 10460 USA.
+   FUNDAR, Managua, Nicaragua.
+   Amigos Sian Kan, Quintana Roo 77500, Cancun, Mexico.
+   SECOCOM, Mexico City 11000, DF, Mexico.
+   Bosque Trop AC, Mexico City 45042, DF, Mexico.
+   Miguel Alvarez Toro Zoo, Crocodile Museum, Nat Hist Inst, Tuxtla Gutierrez 29000, Chiapas, Mexico.
+   Empresa Nacl Para Protecc Flora & Fauna, Havana, Cuba.
+   Cent Univ Venezuela, Fac Ciencias, Caracas 66597, Venezuela.
+RP Thorbjarnarson, J (reprint author), Wildlife Conservat Soc, POB 357265, Gainesville, FL 32635 USA
+EM jthorbjarnarson@wcs.org
+TC 14
+Z9 16
+SN 0006-3207
+PD FEB
+PY 2006
+VL 128
+IS 1
+BP 25
+EP 36
+DI 10.1016/j.biocon.2005.09.013
+UT WOS:000235405000003
+ER
+
+PT J
+AU Dahl, M
+   Wilson, DI
+   Hakanson, L
+AF Dahl, M
+   Wilson, DI
+   Hakanson, L
+TI A combined suspended particle and phosphorus water quality model:
+   Application to Lake Vanern
+SO ECOLOGICAL MODELLING
+C1 Uppsala Univ, Dept Earth Sci, SE-75236 Uppsala, Sweden.
+   Karlstad Univ, Dept Chem Engn, SE-65188 Karlstad, Sweden.
+   Univ Auckland, Dept Elect & Elect Engn, Caracas 1020, Venezuela.
+RP Hakanson, L (reprint author), Uppsala Univ, Dept Earth Sci, Villav 16, SE-75236 Uppsala, Sweden
+EM lars.hakanson@geo.uu.se
+TC 4
+Z9 4
+SN 0304-3800
+PD JAN 10
+PY 2006
+VL 190
+IS 1-2
+BP 55
+EP 71
+DI 10.1016/j.ecolmodel.2005.02.019
+UT WOS:000233859500004
+ER
+
+PT J
+AU Dupuy, JM
+   Chazdon, RL
+AF Dupuy, JM
+   Chazdon, RL
+TI Effects of vegetation cover on seedling and sapling dynamics in
+   secondary tropical wet forests in Costa Rica
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT 06269 USA.
+RP Dupuy, JM (reprint author), Ctr Invest Cienif Yucatan, Calle 43 130,Colonia Chuburna Hidalgo, Merida 97200, Yucatan, Venezuela
+EM jmdupuy@cicy.mx
+TC 13
+Z9 15
+SN 0266-4674
+PD JAN
+PY 2006
+VL 22
+PN Part 1
+BP 65
+EP 76
+DI 10.1017/S0266467405002890
+UT WOS:000234740700007
+ER
+
+PT J
+AU Sanchez-Azofeifa, GA
+   Quesada, M
+   Rodriguez, JP
+   Nassar, JM
+   Stoner, KE
+   Castillo, A
+   Garvin, T
+   Zent, EL
+   Calvo-Alvarado, JC
+   Kalacska, MER
+   Fajardo, L
+   Gamon, JA
+   Cuevas-Reyes, P
+AF Sanchez-Azofeifa, GA
+   Quesada, M
+   Rodriguez, JP
+   Nassar, JM
+   Stoner, KE
+   Castillo, A
+   Garvin, T
+   Zent, EL
+   Calvo-Alvarado, JC
+   Kalacska, MER
+   Fajardo, L
+   Gamon, JA
+   Cuevas-Reyes, P
+TI Research priorities for neotropical dry forests
+SO BIOTROPICA
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Edmonton, AB T6G 2E3, Canada.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia 58089, Michoacan, Mexico.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Inst Venezolano Invest Cient, Ctr Antropol, Caracas 1020A, Venezuela.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Programa Manejo & Conservac Recursos Nat, Cartago, Costa Rica.
+   Calif State Univ Los Angeles, Dept Biol Sci, Los Angeles, CA 90032 USA.
+   Univ Michoacana, Fac Biol, Morelia, Michoacan, Mexico.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 40
+Z9 44
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 477
+EP 485
+DI 10.1046/j.0950-091x.2001.00153.x-i1
+UT WOS:000233766800001
+ER
+
+PT J
+AU Fajardo, L
+   Gonzalez, V
+   Nassar, JM
+   Lacabana, P
+   Portillo, CA
+   Carrasquel, F
+   Rodriguez, JP
+AF Fajardo, L
+   Gonzalez, V
+   Nassar, JM
+   Lacabana, P
+   Portillo, CA
+   Carrasquel, F
+   Rodriguez, JP
+TI Tropical dry forests of Venezuela: Characterization and current
+   conservation status
+RID A-1491-2009
+SO BIOTROPICA
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Cent Univ Venezuela, Fac Ciencias, Inst Zool Trop, Caracas 1041A, Venezuela.
+   Provita, Caracas 1041A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 17
+Z9 19
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 531
+EP 546
+DI 10.1111/j.1744-7429.2005.00071.x
+UT WOS:000233766800006
+ER
+
+PT J
+AU O'Donnell, S
+   Kaspari, M
+   Lattke, J
+AF O'Donnell, S
+   Kaspari, M
+   Lattke, J
+TI Extraordinary predation by the neotropical army ant Cheliomyrmex
+   andicola: Implications for the evolution of the army ant syndrome
+SO BIOTROPICA
+C1 Univ Washington, Dept Psychol, Seattle, WA 98195 USA.
+   Univ Oklahoma, Dept Zool, Norman, OK 73019 USA.
+   Cent Univ Venezuela, Museo Inst Zool Agr, Maracay, Venezuela.
+RP O'Donnell, S (reprint author), Univ Washington, Dept Psychol, Box 351525, Seattle, WA 98195 USA, USA
+EM sodonnel@u.washington.edu
+TC 7
+Z9 7
+SN 0006-3606
+PD DEC
+PY 2005
+VL 37
+IS 4
+BP 706
+EP 709
+DI 10.1111/j.1744-7429.2005.00091.x
+UT WOS:000233766800026
+ER
+
+PT J
+AU Tedesco, PA
+   Oberdorff, T
+   Lasso, CA
+   Zapata, M
+   Hugueny, B
+AF Tedesco, PA
+   Oberdorff, T
+   Lasso, CA
+   Zapata, M
+   Hugueny, B
+TI Evidence of history in explaining diversity patterns in tropical
+   riverine fish
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Lyon 1, CNRS, UMR 5023, Inst Rech Dev, F-69622 Villeurbanne, France.
+   Museum Natl Hist Nat, Dept Milieux & Peuplements Aquat, Inst Rech Dev, F-75231 Paris, France.
+   Museo Hist Nat Salle, Caracas, Venezuela.
+   Univ Mayor San Simon, Unidad Limnol & Recursos Acuat, Cochabamba, Bolivia.
+RP Tedesco, PA (reprint author), Univ Lyon 1, CNRS, UMR 5023, Inst Rech Dev, UR 0131,43 Bd 11Novembre 1918, F-69622 Villeurbanne, France
+EM pablo.tedesco@univ-lyon1.fr
+TC 17
+Z9 17
+SN 0305-0270
+PD NOV
+PY 2005
+VL 32
+IS 11
+BP 1899
+EP 1907
+DI 10.1111/j.1365-2699.2005.01345.x
+UT WOS:000232493500004
+ER
+
+PT J
+AU Baruch, Z
+   Jackson, RB
+AF Baruch, Z
+   Jackson, RB
+TI Responses of tropical native and invader C-4 grasses to water stress,
+   clipping and increased atmospheric CO2 concentration
+SO OECOLOGIA
+C1 Univ Simon Bolivar, Dept Estudios Ambientales, Caracas, Venezuela.
+   Duke Univ, Dept Biol, Durham, NC 27708 USA.
+RP Baruch, Z (reprint author), Univ Simon Bolivar, Dept Estudios Ambientales, Aptdo 89000, Caracas, Venezuela
+EM zbaruc@usb.ve
+TC 5
+Z9 7
+SN 0029-8549
+PD OCT
+PY 2005
+VL 145
+IS 4
+BP 522
+EP 532
+DI 10.1007/s00442-005-0153-x
+UT WOS:000232559900002
+ER
+
+PT J
+AU Abelho, M
+   Cressa, C
+   Graca, MAS
+AF Abelho, M
+   Cressa, C
+   Graca, MAS
+TI Microbial biomass, respiration, and decomposition of Hura crepitans L.
+   (Euphorbiaceae) leaves in a tropical stream
+SO BIOTROPICA
+C1 Escola Super Agraria Coimbra, Dept Ciencias Exatas Ambiente, P-3040316 Coimbra, Portugal.
+   Cent Univ Venezuela, Ctr Biol Celular, Lab Biol Expt, Caracas 1041A, Venezuela.
+   Univ Coimbra, CO Dept Zool, IMAR, P-3004517 Coimbra, Portugal.
+RP Abelho, M (reprint author), Escola Super Agraria Coimbra, Dept Ciencias Exatas Ambiente, P-3040316 Coimbra, Portugal
+TC 9
+Z9 9
+SN 0006-3606
+PD SEP
+PY 2005
+VL 37
+IS 3
+BP 397
+EP 402
+DI 10.1111/j.1744-7429.2005.00052.x
+UT WOS:000231304500011
+ER
+
+PT J
+AU Rodriguez, JP
+AF Rodriguez, JP
+TI Threatened Species Initiative funds conservation projects on behalf of
+   Venezuelan animals and plants
+RID A-1491-2009
+SO ORYX
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Provita, Caracas 1041A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 0
+Z9 0
+SN 0030-6053
+PD JUL
+PY 2005
+VL 39
+IS 3
+BP 246
+EP 247
+UT WOS:000231649300003
+ER
+
+PT J
+AU Lopez, GO
+   Terborgh, J
+   Ceballos, N
+AF Lopez, GO
+   Terborgh, J
+   Ceballos, N
+TI Food selection by a hyperdense population of red howler monkeys
+   (Alouatta seniculus)
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Duke Univ, Ctr Trop Conservat, Nicholas Sch Environm & Earth Sci, Durham, NC 27705 USA.
+   Cent Univ Venezuela, Fauna Terr IZT, Lab Comportamiento Anim, IBE, Caracas, Venezuela.
+RP Lopez, GO (reprint author), Duke Univ, Ctr Trop Conservat, Nicholas Sch Environm & Earth Sci, 3705-C Erwin Rd, Durham, NC 27705 USA
+TC 6
+Z9 6
+SN 0266-4674
+PD JUL
+PY 2005
+VL 21
+PN Part 4
+BP 445
+EP 450
+DI 10.1017/S0266467405002415
+UT WOS:000231009300010
+ER
+
+PT J
+AU Larrea-Alcazar, D
+   Lopez, RP
+AF Larrea-Alcazar, D
+   Lopez, RP
+TI An estimation of the floristic richness of Bolivia's Andean dry valleys
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Mayor San Andres, Herbario Nacl Bolivia, La Paz 10077, Bolivia.
+   Univ Los Andes, ICAE, Posgrad Ecol Trop, Merida 5101, Venezuela.
+RP Larrea-Alcazar, D (reprint author), Univ Mayor San Andres, Herbario Nacl Bolivia, La Paz 10077, Bolivia
+EM larrea@ula.ve
+TC 3
+Z9 3
+SN 0960-3115
+PD JUL
+PY 2005
+VL 14
+IS 8
+BP 1923
+EP 1927
+DI 10.1007/s10531-004-2122-9
+UT WOS:000229939500009
+ER
+
+PT J
+AU La Marca, E
+   Lips, KR
+   Lotters, S
+   Puschendorf, R
+   Ibanez, R
+   Rueda-Almonacid, JV
+   Schulte, R
+   Marty, C
+   Castro, F
+   Manzanilla-Puppo, J
+   Garcia-Perez, JE
+   Bolanos, F
+   Chaves, G
+   Pounds, JA
+   Toral, E
+   Young, BE
+AF La Marca, E
+   Lips, KR
+   Lotters, S
+   Puschendorf, R
+   Ibanez, R
+   Rueda-Almonacid, JV
+   Schulte, R
+   Marty, C
+   Castro, F
+   Manzanilla-Puppo, J
+   Garcia-Perez, JE
+   Bolanos, F
+   Chaves, G
+   Pounds, JA
+   Toral, E
+   Young, BE
+TI Catastrophic population declines and extinctions in neotropical
+   harlequin frogs (Bufonidae : Atelopus)
+RID B-6280-2011
+SO BIOTROPICA
+C1 Univ Los Andes, Fac Ciencias Forestales & Ambientales, Escuela Geog, Lab Biogeog, Merida 5101A, Venezuela.
+   So Illinois Univ, Dept Zool, Carbondale, IL 62901 USA.
+   Univ Mainz, Dept Ecol, Inst Zool, D-55099 Mainz, Germany.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ Panama, Dept Zool, Panama City, Panama.
+   Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   Conservac Int, Programa Especies Amenazadas, Bogota, Colombia.
+   Inst Invest Biol Cordilleras Orientales, INIBICO, Tarapoto, Peru.
+   Impasse Jean Galot, Montjoly 097354, Guyana.
+   Univ Valle, Dept Biol, Fac Ciencias, Secc Zool,Lab Herpetol, Cali, Colombia.
+   Museo Nacl Ciencias Nat, Madrid, Spain.
+   Cent Univ Venezuela, Museo Inst Zool Agr, Maracay, Venezuela.
+   UNELLEZ, Vice Rectorado Prod Agr, Programa Recursos Nat Renovables, Museo Zool, Guanare, Estado Portugue, Venezuela.
+   Monteverde Cloud Forest Preserve & Trop Sci Ctr, Golden Toad Lab Conservat, Santa Elena 565573, Puntarenas, Costa Rica.
+   NatureServe, Monteverde 5655, Puntarenas, Costa Rica.
+RP La Marca, E (reprint author), Univ Los Andes, Fac Ciencias Forestales & Ambientales, Escuela Geog, Lab Biogeog, Apartado Postal 116, Merida 5101A, Venezuela
+TC 76
+Z9 88
+SN 0006-3606
+PD JUN
+PY 2005
+VL 37
+IS 2
+BP 190
+EP 201
+DI 10.1111/j.1744-7429.2005.00026.x
+UT WOS:000229355500006
+ER
+
+PT J
+AU Rodriguez, JP
+   Simonetti, JA
+   Premoli, A
+   Marini, MA
+AF Rodriguez, JP
+   Simonetti, JA
+   Premoli, A
+   Marini, MA
+TI Conservation in Austral and Neotropical America: Building scientific
+   capacity equal to the challenges
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Chile, Fac Ciencias, Dept Ciencias Ecol, Santiago, Chile.
+   Univ Nacl Comahue, CRUB, Lab Ecotono, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   Univ Brasilia, Dept Zool, IB, BR-70910900 Brasilia, DF, Brazil.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 12
+Z9 13
+SN 0888-8892
+PD JUN
+PY 2005
+VL 19
+IS 3
+BP 969
+EP 972
+DI 10.1111/j.1523-1739.2005.00555.x
+UT WOS:000229448100051
+ER
+
+PT J
+AU Dezzeo, N
+   Chacon, N
+AF Dezzeo, N
+   Chacon, N
+TI Carbon and nutrients loos in aboveground biomass along a fire induced
+   forest-savanna gradient in the Gran Sabana, southern Venezuela
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Venezolano Invest Cient, Ctr Ecol, A-1020 Vienna, Austria.
+RP Dezzeo, N (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21-827, A-1020 Vienna, Austria
+EM ndzzeo@oikos.ivic.ve
+TC 11
+Z9 12
+SN 0378-1127
+PD MAY 2
+PY 2005
+VL 209
+IS 3
+BP 343
+EP 352
+DI 10.1016/j.foreco.2005.02.008
+UT WOS:000228504800011
+ER
+
+PT J
+AU Shahabuddin, G
+   Ponte, CA
+AF Shahabuddin, G
+   Ponte, CA
+TI Frugivorous butterfly species in tropical forest fragments: correlates
+   of vulnerability to extinction
+SO BIODIVERSITY AND CONSERVATION
+C1 Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas, Venezuela.
+RP Shahabuddin, G (reprint author), Council Social dev, Environm Studies Grp, Sangha Rachna 53,Lodhi Estate, New Delhi 110003, India
+EM ghazalafarzin@yahoo.com
+TC 14
+Z9 16
+SN 0960-3115
+PD MAY
+PY 2005
+VL 14
+IS 5
+BP 1137
+EP 1152
+DI 10.1007/s10531-004-7842-3
+UT WOS:000228507100008
+ER
+
+PT J
+AU Sanchez-Azofeifa, GA
+   Kalacska, M
+   Quesada, M
+   Calvo-Alvarado, JC
+   Nassar, JM
+   Rodriguez, JP
+AF Sanchez-Azofeifa, GA
+   Kalacska, M
+   Quesada, M
+   Calvo-Alvarado, JC
+   Nassar, JM
+   Rodriguez, JP
+TI Need for integrated research for a sustainable future in tropical dry
+   forests
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 Univ Alberta, Dept Earth & Atmospher Sci, Earth Observat Syst Lab, Edmonton, AB T6G 2E3, Canada.
+   Univ Nacl Autonoma Mexico, Ctr Invest Ecosistemas, Morelia, Michoacan, Mexico.
+   Inst Tecnol Costa Rica, Escuela Ingn Forestal, Cartago, Costa Rica.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Sanchez-Azofeifa, GA (reprint author), Univ Alberta, Dept Earth & Atmospher Sci, Earth Observat Syst Lab, Edmonton, AB T6G 2E3, Canada
+EM arturo.sanchez@ualberta.ca
+TC 26
+Z9 27
+SN 0888-8892
+PD APR
+PY 2005
+VL 19
+IS 2
+BP 285
+EP 286
+DI 10.1111/j.1523-1739.2005.s01_1.x
+UT WOS:000227647600001
+ER
+
+PT J
+AU Trewhella, WJ
+   Rodriguez-Clark, KM
+   Corp, N
+   Entwistle, A
+   Garrett, SRT
+   Granek, E
+   Lengel, KL
+   Raboude, MJ
+   Reason, PF
+   Sewall, BJ
+AF Trewhella, WJ
+   Rodriguez-Clark, KM
+   Corp, N
+   Entwistle, A
+   Garrett, SRT
+   Granek, E
+   Lengel, KL
+   Raboude, MJ
+   Reason, PF
+   Sewall, BJ
+TI Environmental education as a component of multidisciplinary conservation
+   programs: Lessons from conservation initiatives for critically
+   endangered fruit bats in the western Indian Ocean
+SO CONSERVATION BIOLOGY
+C1 Univ Hong Kong, Dept Ecol & Biodivers, Hong Kong, Hong Kong, Peoples R China.
+   Inst Venezolano Invest Cient, Ctr Ecol, Lab Ecol & Genet Poblac, Caracas 1020A, Venezuela.
+   C Austin Inst Dev Policy & Management, Precinct Ctr, Manchester M13 9GH, Lancs, England.
+   Fauna & Flora Int, Cambridge CB1 2DT, England.
+   Bristol Zoo Gardens, Bristol BS8 3HA, Avon, England.
+   Projet Conservat Biodiver & Dev Durable Comores, Fomboni, Moheli, Comoros.
+   Philadelphia Zoo, Philadelphia, PA 19104 USA.
+   Mauritian Wildlife Fdn, Forestry Quarters, Solitude, Rodrigues, Mauritius.
+   Act Comores Int, Stansfield CO10 8LT, Suffolk, England.
+   Univ Minnesota, St Paul, MN 55108 USA.
+RP Trewhella, WJ (reprint author), Act Comores Int, Old Rectory, Stansfield CO10 8LT, Suffolk, England
+EM will.trewhella@nottingham.ac.uk
+TC 8
+Z9 9
+SN 0888-8892
+PD FEB
+PY 2005
+VL 19
+IS 1
+BP 75
+EP 85
+DI 10.1111/j.1523-1739.2005.00548.x
+UT WOS:000226438600014
+ER
+
+PT J
+AU Robertson, DR
+   Ackerman, JL
+   Choat, JH
+   Posada, JM
+   Pitt, J
+AF Robertson, DR
+   Ackerman, JL
+   Choat, JH
+   Posada, JM
+   Pitt, J
+TI Ocean surgeonfish Acanthurus bahianus. I. The geography of demography
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Smithsonian Trop Res Inst Panama, STRI, Unit 0948, APO, AA 34002 USA.
+   James Cook Univ N Queensland, Sch Marine Biol & Aquaculture, Townsville, Qld 4811, Australia.
+   Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080A, Venezuela.
+   Bermuda Biol Stn Res, Benth Ecol Lab, Ferry Reach, Bermuda.
+RP Robertson, DR (reprint author), Smithsonian Trop Res Inst Panama, STRI, Unit 0948, APO, AA 34002 USA
+EM drr@stri.org
+TC 18
+Z9 19
+SN 0171-8630
+PY 2005
+VL 295
+BP 229
+EP 244
+DI 10.3354/meps295229
+UT WOS:000230671800020
+ER
+
+PT J
+AU Robertson, DR
+   Choat, JH
+   Posada, JM
+   Pitt, J
+   Ackerman, JL
+AF Robertson, DR
+   Choat, JH
+   Posada, JM
+   Pitt, J
+   Ackerman, JL
+TI Ocean surgeonfish Acanthurus bahianus. II. Fishing effects on longevity,
+   size and abundance?
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Smithsonian Trop Res Inst Panama, STRI, Unit 0948, APO, AA 34002 USA.
+   James Cook Univ N Queensland, Sch Marine Biol & Aquaculture, Townsville, Qld 4811, Australia.
+   Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080A, Venezuela.
+   Bermuda Biol Stn Res, Benth Ecol Lab, Ferry Reach, Bermuda.
+RP Robertson, DR (reprint author), Smithsonian Trop Res Inst Panama, STRI, Unit 0948, APO, AA 34002 USA
+EM drr@stri.org
+TC 9
+Z9 9
+SN 0171-8630
+PY 2005
+VL 295
+BP 245
+EP 256
+DI 10.3354/meps295245
+UT WOS:000230671800021
+ER
+
+PT J
+AU Cruz-Motta, JJ
+AF Cruz-Motta, JJ
+TI Diel and tidal variations of benthic assemblages in sediments associated
+   with boulder fields
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080A, Venezuela.
+   Univ Sydney, Ctr Res Ecol Impacts Coastal Cities, Marine Ecol Labs, Sydney, NSW 2006, Australia.
+RP Cruz-Motta, JJ (reprint author), Univ Simon Bolivar, Dept Estudios Ambientales, Apado Post 89000, Caracas 1080A, Venezuela
+EM juancruz@usb.ve
+TC 1
+Z9 1
+SN 0171-8630
+PY 2005
+VL 290
+BP 97
+EP 107
+DI 10.3354/meps290097
+UT WOS:000229079800009
+ER
+
+PT J
+AU Zent, EL
+   Zent, S
+AF Zent, EL
+   Zent, S
+TI Floristic composition, structure, and diversity of four forest plots in
+   the Sierra Maigualida, Venezuelan Guayana
+SO BIODIVERSITY AND CONSERVATION
+C1 Inst Venezolano Invest Cient, Dept Antropol, A-1020 Vienna, Austria.
+RP Zent, EL (reprint author), Inst Venezolano Invest Cient, Dept Antropol, Carretera Panamer Km 11,Apartado 21827, A-1020 Vienna, Austria
+EM elzent@ivic.ve
+TC 6
+Z9 8
+SN 0960-3115
+PD DEC
+PY 2004
+VL 13
+IS 13
+BP 2453
+EP 2484
+DI 10.1023/B:BIOC.0000048447.40238.f2
+UT WOS:000225178400005
+ER
+
+PT J
+AU Kelly, DL
+   O'Donovan, G
+   Feehan, J
+   Murphy, S
+   Drangeid, SO
+   Marcano-Berti, L
+AF Kelly, DL
+   O'Donovan, G
+   Feehan, J
+   Murphy, S
+   Drangeid, SO
+   Marcano-Berti, L
+TI The epiphyte communities of a montane rain forest in the Andes of
+   Venezuela: patterns in the distribution of the flora
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Dublin Trinity Coll, Dept Bot, Dublin 2, Ireland.
+   Natl Univ Ireland Univ Coll Cork, Dept Plant Sci, Cork, Ireland.
+   Univ Oxford, St Hildas Coll, Oxford, England.
+   Univ Los Andes, Fac Ciencias Forestales, Merida 5101, Venezuela.
+RP Kelly, DL (reprint author), Univ Dublin Trinity Coll, Dept Bot, Dublin 2, Ireland
+EM dkelly@tcd.ie
+TC 14
+Z9 18
+SN 0266-4674
+PD NOV
+PY 2004
+VL 20
+PN Part 6
+BP 643
+EP 666
+DI 10.1017/S0266467404001671
+UT WOS:000225524400005
+ER
+
+PT J
+AU Hanselmann, R
+   Rodriguez, A
+   Lampo, M
+   Fajardo-Ramos, L
+   Aguirre, AA
+   Kilpatrick, AM
+   Rodriguez, JP
+   Daszak, P
+AF Hanselmann, R
+   Rodriguez, A
+   Lampo, M
+   Fajardo-Ramos, L
+   Aguirre, AA
+   Kilpatrick, AM
+   Rodriguez, JP
+   Daszak, P
+TI Presence of an emerging pathogen of amphibians in introduced bullfrogs
+   Rana catesbeiana in Venezuela
+RID A-1491-2009
+SO BIOLOGICAL CONSERVATION
+C1 Inst Venezolano Invest Cientificas, Ctr Ecol, Caracas 1020 A, Venezuela.
+   Tufts Univ, Sch Vet Med, North Grafton, MA 01536 USA.
+   Wildlife Trust, Consortium Conservat Med, Palisades, NY 10964 USA.
+   Univ Los Andes, Fac Ciencias Nucl Hechicera, Merida 5101, Venezuela.
+RP Lampo, M (reprint author), Inst Venezolano Invest Cientificas, Ctr Ecol, Apdo 21827, Caracas 1020 A, Venezuela
+EM mlampo@ivic.ve
+   daszak@conservationmedicine.org
+TC 64
+Z9 81
+SN 0006-3207
+PD NOV
+PY 2004
+VL 120
+IS 1
+BP 115
+EP 119
+DI 10.1016/j.biocon.2004.02.013
+UT WOS:000223381700011
+ER
+
+PT J
+AU Simona, C
+   Ariangelo, DPR
+   John, G
+   Nina, N
+   Ruben, M
+   Jose, SJ
+AF Simona, C
+   Ariangelo, DPR
+   John, G
+   Nina, N
+   Ruben, M
+   Jose, SJ
+TI Nitrous oxide and methane fluxes from soils of the Orinoco savanna under
+   different land uses
+SO GLOBAL CHANGE BIOLOGY
+C1 Seconda Univ Napoli, Dipartimento Sci Ambientali, I-81100 Caserta, Italy.
+   Univ Edinburgh, Sch Geosci, Edinburgh, Midlothian, Scotland.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1020A, Venezuela.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Simona, C (reprint author), Seconda Univ Napoli, Dipartimento Sci Ambientali, Via Vivaldi 43, I-81100 Caserta, Italy
+EM simona.castaldi@unina2.it
+TC 4
+Z9 5
+SN 1354-1013
+PD NOV
+PY 2004
+VL 10
+IS 11
+BP 1947
+EP 1960
+DI 10.1111/j.1365-2486.2004.00871.x
+UT WOS:000225077600012
+ER
+
+PT J
+AU Dezzeo, N
+   Chacon, N
+   Sanoja, E
+   Picon, G
+AF Dezzeo, N
+   Chacon, N
+   Sanoja, E
+   Picon, G
+TI Changes in soil properties and vegetation characteristics along a
+   forest-savanna gradient in southern Venezuela
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Expt Guayana, Puero Ordaz, Venezuela.
+   CVG Autoridad Gran Sabana, Estac Cientif Parupa, Puerto Ordaz, Venezuela.
+RP Dezzeo, N (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21-827, Caracas 1020A, Venezuela
+EM ndzzeo@oikos.ivic.ve
+TC 22
+Z9 27
+SN 0378-1127
+PD OCT 25
+PY 2004
+VL 200
+IS 1-3
+BP 183
+EP 193
+DI 10.1016/j.foreco.2004.06.016
+UT WOS:000224682400015
+ER
+
+PT J
+AU Rodriguez, JP
+   Rojas-Suarez, F
+   Sharpe, CJ
+AF Rodriguez, JP
+   Rojas-Suarez, F
+   Sharpe, CJ
+TI Setting priorities for the conservation of Venezuela's threatened birds
+RID A-1491-2009
+SO ORYX
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Conservat Int Venezuela, Caracas, Venezuela.
+   PROVITA, Caracas 1041A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 11
+Z9 11
+SN 0030-6053
+PD OCT
+PY 2004
+VL 38
+IS 4
+BP 373
+EP 382
+DI 10.1017/S0030605304000730
+UT WOS:000225339900010
+ER
+
+PT J
+AU Ramirez, N
+AF Ramirez, N
+TI Ecology of pollination in a tropical Venezuelan savanna
+SO PLANT ECOLOGY
+C1 Cent Univ Venezuela, Fac Ciencias, Inst Expt Biol, Ctr Bot Trop, Caracas 1041A, Venezuela.
+RP Ramirez, N (reprint author), Cent Univ Venezuela, Fac Ciencias, Inst Expt Biol, Ctr Bot Trop, Aptdo 48312, Caracas 1041A, Venezuela
+EM nramirez@reacciun.ve
+TC 17
+Z9 19
+SN 1385-0237
+PD AUG
+PY 2004
+VL 173
+IS 2
+BP 171
+EP 189
+DI 10.1023/B:VEGE.0000029320.34895.7d
+UT WOS:000221685500003
+ER
+
+PT J
+AU Baruch, Z
+   Nassar, JM
+   Bubis, J
+AF Baruch, Z
+   Nassar, JM
+   Bubis, J
+TI Quantitative trait, genetic, environmental, and geographical distances
+   among populations of the C(4) grass Trachypogon plumosus in Neotropical
+   savannas
+SO DIVERSITY AND DISTRIBUTIONS
+C1 Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080, Venezuela.
+   Univ Simon Bolivar, Dept Biol Celular, Caracas 1080, Venezuela.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Baruch, Z (reprint author), Univ Simon Bolivar, Dept Estudios Ambientales, Apdo 89000, Caracas 1080, Venezuela
+EM zbaruc@usb.ve
+TC 8
+Z9 8
+SN 1366-9516
+PD JUL
+PY 2004
+VL 10
+IS 4
+BP 283
+EP 292
+DI 10.1111/j.1366-9516.2004.00102.x
+UT WOS:000222261400007
+ER
+
+PT J
+AU Malhi, Y
+   Baker, TR
+   Phillips, OL
+   Almeida, S
+   Alvarez, E
+   Arroyo, L
+   Chave, J
+   Czimczik, CI
+   Di Fiore, A
+   Higuchi, N
+   Killeen, TJ
+   Laurance, SG
+   Laurance, WF
+   Lewis, SL
+   Montoya, LMM
+   Monteagudo, A
+   Neill, DA
+   Vargas, PN
+   Patino, S
+   Pitman, NCA
+   Quesada, CA
+   Salomao, R
+   Silva, JNM
+   Lezama, AT
+   Martinez, RV
+   Terborgh, J
+   Vinceti, B
+   Lloyd, J
+AF Malhi, Y
+   Baker, TR
+   Phillips, OL
+   Almeida, S
+   Alvarez, E
+   Arroyo, L
+   Chave, J
+   Czimczik, CI
+   Di Fiore, A
+   Higuchi, N
+   Killeen, TJ
+   Laurance, SG
+   Laurance, WF
+   Lewis, SL
+   Montoya, LMM
+   Monteagudo, A
+   Neill, DA
+   Vargas, PN
+   Patino, S
+   Pitman, NCA
+   Quesada, CA
+   Salomao, R
+   Silva, JNM
+   Lezama, AT
+   Martinez, RV
+   Terborgh, J
+   Vinceti, B
+   Lloyd, J
+TI The above-ground coarse wood productivity of 104 Neotropical forest
+   plots
+RID A-1523-2011
+RID A-7681-2008
+SO GLOBAL CHANGE BIOLOGY
+C1 Univ Edinburgh, Sch Geosci, Edinburgh, Midlothian, Scotland.
+   Max Planck Inst Biogeochem, D-07701 Jena, Germany.
+   Univ Leeds, Earth & Biosphere Inst, Leeds LS2 9JT, W Yorkshire, England.
+   Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   Interconex Elect SA ISA, Equipo Gest Ambiental, Medellin, Colombia.
+   Museo Noel Kempff Mercado, Santa Cruz, Bolivia.
+   CNRS UPS, Lab Evolut & Divers Biol, Toulouse, France.
+   NYU, Dept Anthropol, New York, NY 10003 USA.
+   Inst Natl Pesquisas Amazon, Manaus, Amazonas, Brazil.
+   Conservat Int, Ctr Appl Biodivers Sci, Washington, DC USA.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Univ Nacl San Antonio Abad Cusco, Herbario Vargas, Cuzco, Peru.
+   Jardin Bot Missouri, Proyecto Flora Peru, Oxapampa, Peru.
+   Fdn Jatun Sacha, Quito, Ecuador.
+   Duke Univ, Ctr Trop Conservat, Durham, NC 27706 USA.
+   Univ Brasilia, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+   CIFOR, Tapajos, Brazil.
+   EMBRAPA Amazonia Oriental, Belem, Para, Brazil.
+   Univ Los Andes, Fac Ciencias Forestales & Ambientale, INDEFOR, Merida, Venezuela.
+   Int Plant Genet Resources Inst, Rome, Italy.
+RP Malhi, Y (reprint author), Univ Edinburgh, Sch Geosci, Darwin Bldg,Mayfield Rd, Edinburgh, Midlothian, Scotland
+EM ymalhi@ed.ac.uk
+TC 114
+Z9 122
+SN 1354-1013
+PD MAY
+PY 2004
+VL 10
+IS 5
+BP 563
+EP 591
+DI 10.1111/j.1529-8817.2003.00778.x
+UT WOS:000221421600004
+ER
+
+PT J
+AU Eva, HD
+   Belward, AS
+   De Miranda, EE
+   Di Bella, CM
+   Gond, V
+   Huber, O
+   Jones, S
+   Sgrenzaroli, M
+   Fritz, S
+AF Eva, HD
+   Belward, AS
+   De Miranda, EE
+   Di Bella, CM
+   Gond, V
+   Huber, O
+   Jones, S
+   Sgrenzaroli, M
+   Fritz, S
+TI A land cover map of South America
+SO GLOBAL CHANGE BIOLOGY
+C1 Commiss European Communities, Joint Res Ctr, Inst Environm & Sustainabil, TP 440, I-21020 Ispra, Italy.
+   EMBRAPA, CNPM, BR-13088300 Campinas, SP, Brazil.
+   INTA, Inst Clima & Agua, RA-1712 Buenos Aires, DF, Argentina.
+   CIRAD, UMR ECOFOG, Cayenne 97323, French Guiana.
+   IVIC, CoroLab Humboldt, Caracas, Venezuela.
+   RMIT Univ, Sch Math & Geospatial Sci, Melbourne, Vic, Australia.
+RP Eva, HD (reprint author), Commiss European Communities, Joint Res Ctr, Inst Environm & Sustainabil, TP 440, I-21020 Ispra, Italy
+EM hugh.eva@jrc.it
+TC 56
+Z9 60
+SN 1354-1013
+PD MAY
+PY 2004
+VL 10
+IS 5
+BP 731
+EP 744
+DI 10.1111/j.1529-8817.2003.00774.x
+UT WOS:000221421600015
+ER
+
+PT J
+AU Kattan, G
+   Hernandez, OL
+   Goldstein, I
+   Rojas, V
+   Murillo, O
+   Gomez, C
+   Restrepo, H
+   Cuesta, F
+AF Kattan, G
+   Hernandez, OL
+   Goldstein, I
+   Rojas, V
+   Murillo, O
+   Gomez, C
+   Restrepo, H
+   Cuesta, F
+TI Range fragmentation in the spectacled bear Tremarctos ornatus in the
+   northern Andes
+SO ORYX
+C1 Wildlife Conservat Soc, Colombia Program, Cali, Colombia.
+   World Wildlife Fund, Cali, Colombia.
+   Wildlife Conservat Soc, Venezuela Program, Merida, Venezuela.
+   Univ Valle, Dept Biol, Cali, Colombia.
+   Unidad Parques Nacl Secc Noroccidental, Medellin, Colombia.
+   Fdn EcoCiencia, Quito, Ecuador.
+RP Kattan, G (reprint author), Wildlife Conservat Soc, Colombia Program, Apartado 25527, Cali, Colombia
+EM gkattan@wcs.org
+TC 8
+Z9 9
+SN 0030-6053
+PD APR
+PY 2004
+VL 38
+IS 2
+BP 155
+EP 163
+DI 10.1017/S0030605304000298
+UT WOS:000221639400016
+ER
+
+PT J
+AU Sarmiento, G
+   Pinillos, M
+   da Silva, MP
+   Acevedo, D
+AF Sarmiento, G
+   Pinillos, M
+   da Silva, MP
+   Acevedo, D
+TI Effects of soil water regime and grazing on vegetation diversity and
+   production in a hyperseasonal savanna in the Apure Llanos, Venezuela
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Los Andes, Inst Ciencias Ambientales & Ecol, Merida, Venezuela.
+RP Sarmiento, G (reprint author), Univ Fed Rio de Janeiro, Dept Bot, CCS Bloco A,Sala 100, Rio De Janeiro, Brazil
+TC 10
+Z9 10
+SN 0266-4674
+PD MAR
+PY 2004
+VL 20
+PN Part 2
+BP 209
+EP 220
+DI 10.1017/S0266467403001299
+UT WOS:000220913000009
+ER
+
+PT J
+AU Manickchand-Heileman, S
+   Mendoza-Hill, J
+   Kong, AL
+   Arocha, F
+AF Manickchand-Heileman, S
+   Mendoza-Hill, J
+   Kong, AL
+   Arocha, F
+TI A trophic model for exploring possible ecosystem impacts of fishing in
+   the Gulf of Paria, between Venezuela and Trinidad
+SO ECOLOGICAL MODELLING
+C1 Div Technol Ind & Econ, UN Environm Programme, F-75739 Paris 15, France.
+   Univ Oriente, Inst Oceanog Venezuela, Cumana, Venezuela.
+   Inst Marine Affairs, Chaguaramas, Trinid & Tobago.
+RP Manickchand-Heileman, S (reprint author), Div Technol Ind & Econ, UN Environm Programme, 39-43 Quai Andre Citroen, F-75739 Paris 15, France
+EM sh_heileman@yahoo.com
+TC 14
+Z9 16
+SN 0304-3800
+PD MAR 1
+PY 2004
+VL 172
+IS 2-4
+BP 307
+EP 322
+DI 10.1016/j.ecolmodel.2003.09.013
+UT WOS:000189226500012
+ER
+
+PT J
+AU Llambi, LD
+   Law, R
+   Hodge, A
+AF Llambi, LD
+   Law, R
+   Hodge, A
+TI Temporal changes in local spatial structure of late-successional
+   species: establishment of an Andean caulescent rosette plant
+SO JOURNAL OF ECOLOGY
+C1 Univ York, Dept Biol, York YO10 5YW, N Yorkshire, England.
+RP Llambi, LD (reprint author), Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, La Hechicera, Merida 5101, Venezuela, Venezuela
+TC 3
+Z9 3
+SN 0022-0477
+PD FEB
+PY 2004
+VL 92
+IS 1
+BP 122
+EP 131
+DI 10.1111/j.1365-2745.2004.00837.x
+UT WOS:000187891600011
+ER
+
+PT J
+AU Escalante, S
+   Montana, C
+   Orellana, R
+AF Escalante, S
+   Montana, C
+   Orellana, R
+TI Demography and potential extractive use of the liana palm, Desmoncus
+   orthacanthos Martius (Arecaceae), in southern Quintana Roo, Mexico
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Ctr Invest Cient Yucatan, Merida 97310, Yucatan, Venezuela.
+   Inst Ecol, Xalapa 91000, Veracruz, Mexico.
+RP Escalante, S (reprint author), Ctr Invest Cient Yucatan, AC Apartado Postal 87, Merida 97310, Yucatan, Venezuela
+TC 11
+Z9 13
+SN 0378-1127
+PD JAN 9
+PY 2004
+VL 187
+IS 1
+BP 3
+EP 18
+DI 10.1016/S0378-1127(03)00228-7
+UT WOS:000187914800001
+ER
+
+PT J
+AU Bastidas, C
+   Garcia, EM
+AF Bastidas, C
+   Garcia, EM
+TI Sublethal effects of mercury and its distribution in the coral Porites
+   astreoides
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080, Venezuela.
+RP Bastidas, C (reprint author), Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080, Venezuela, Venezuela
+EM cbastidas@usb.ve
+TC 4
+Z9 4
+SN 0171-8630
+PY 2004
+VL 267
+BP 133
+EP 143
+DI 10.3354/meps267133
+UT WOS:000220562100011
+ER
+
+PT J
+AU Mondragon, D
+   Calvo-Irabien, LM
+   Benzing, DH
+AF Mondragon, D
+   Calvo-Irabien, LM
+   Benzing, DH
+TI The basis for obligate epiphytism in Tillandsia brachycaulos
+   (Bromeliaceae) in a Mexican tropical dry forest
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Ctr Invest Cient Yucatan, Merida 97200, Yucatan, Venezuela.
+   Oberlin Coll, Dept Biol, Oberlin, OH 44044 USA.
+RP Calvo-Irabien, LM (reprint author), Ctr Invest Cient Yucatan, Calle 43 130 Col Chuburna de Hidalgo, Merida 97200, Yucatan, Venezuela
+EM lumali@cicy.mx
+TC 0
+Z9 3
+SN 0266-4674
+PD JAN
+PY 2004
+VL 20
+PN Part 1
+BP 97
+EP 104
+DI 10.1017/S0266467403001007
+UT WOS:000188953600009
+ER
+
+PT J
+AU Aponte, C
+   Barret, GR
+   Terborgh, J
+AF Aponte, C
+   Barret, GR
+   Terborgh, J
+TI Consequences of habitat fragmentation on age structure and life history
+   in a tortoise population
+SO BIOTROPICA
+C1 Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080A, Venezuela.
+   Duke Univ, Ctr Trop Conservat, Durham, NC 27705 USA.
+RP Barret, GR (reprint author), Univ Simon Bolivar, Dept Biol Organismos, Apto 89000, Caracas 1080A, Venezuela
+EM guibarre@usb.ve
+TC 6
+Z9 6
+SN 0006-3606
+PD DEC
+PY 2003
+VL 35
+IS 4
+BP 550
+EP 555
+DI 10.1111/j.1744-7429.2003.tb00612.x
+UT WOS:000188002400011
+ER
+
+PT J
+AU Ter Steege, H
+   Pitman, N
+   Sabatier, D
+   Castellanos, H
+   Van der Hout, P
+   Daly, DC
+   Silveira, M
+   Phillips, O
+   Vasquez, R
+   Van Andel, T
+   Duivenvoorden, J
+   De Oliveira, AA
+   Ek, R
+   Lilwah, R
+   Thomas, R
+   Van Essen, J
+   Baider, C
+   Maas, P
+   Mori, S
+   Terborgh, J
+   Vargas, PN
+   Mogollon, H
+   Morawetz, W
+AF Ter Steege, H
+   Pitman, N
+   Sabatier, D
+   Castellanos, H
+   Van der Hout, P
+   Daly, DC
+   Silveira, M
+   Phillips, O
+   Vasquez, R
+   Van Andel, T
+   Duivenvoorden, J
+   De Oliveira, AA
+   Ek, R
+   Lilwah, R
+   Thomas, R
+   Van Essen, J
+   Baider, C
+   Maas, P
+   Mori, S
+   Terborgh, J
+   Vargas, PN
+   Mogollon, H
+   Morawetz, W
+TI A spatial model of tree alpha-diversity and tree density for the Amazon
+RID B-5866-2011
+RID A-7681-2008
+RID D-9117-2011
+RID A-1523-2011
+RID A-7614-2011
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Utrecht, NHN, NL-3584 CS Utrecht, Netherlands.
+   ITC, Dept Nat Resources, NL-7500 AA Enschede, Netherlands.
+   Duke Univ, Ctr Trop Conservat, Durham, NC 27708 USA.
+   IRD, F-34032 Rennes 1, France.
+   Univ Nacl Expt Guayana, Puerto Ordaz, Edo Bolivar, Venezuela.
+   Univ Utrecht, Dept Plant Ecol, NL-3504 TB Utrecht, Netherlands.
+   New York Bot Garden, Inst Systemat Bot, Bronx, NY 10458 USA.
+   Univ Fed Acre, Dept Ciencias Nat Parque Zoobot, BR-69915900 Rio Branco, Acre, Brazil.
+   Univ Leeds, Sch Geog, Ctr Biodivers & Conservat, Leeds LS2 9JT, W Yorkshire, England.
+   Jardin Bot Missouri, Jaen, Cajamarca, Spain.
+   Univ Amsterdam, Inst Biodivers & Ecosyst Dynam, NL-1098 SM Amsterdam, Netherlands.
+   Univ Paulista, Lab Bot, BR-01310100 Sao Paulo, Brazil.
+   Environm Protect Agcy, Greater Georgetown, Guyana.
+   Iwokrama Int Ctr Rain Forest Conservat & Dev, Georgetown, Guyana.
+   Univ Utrecht, Dept Comparat Physiol, NL-3584 CH Utrecht, Netherlands.
+   Univ Sao Paulo, IB Ecol, BR-05508900 Sao Paulo, Brazil.
+   Univ Nacl San Antonio Abad Cusco, Cuzco, Peru.
+   Fdn Conservac Ecosistemas Amenazados, NUMASHIR, Quito, Ecuador.
+   Univ Leipzig, Inst Bot Spezielle Bot, D-04103 Leipzig, Germany.
+RP Ter Steege, H (reprint author), Univ Utrecht, NHN, Heidelberglaan 2, NL-3584 CS Utrecht, Netherlands
+TC 88
+Z9 94
+SN 0960-3115
+PD NOV
+PY 2003
+VL 12
+IS 11
+BP 2255
+EP 2277
+DI 10.1023/A:1024593414624
+UT WOS:000183903600007
+ER
+
+PT J
+AU San Jose, JJ
+   Montes, RA
+   Rocha, C
+AF San Jose, JJ
+   Montes, RA
+   Rocha, C
+TI Neotropical savanna converted to food cropping and cattle feeding
+   systems: soil carbon and nitrogen changes over 30 years
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080A, Venezuela.
+   Univ Simon Bolivar, Dept Biol Celular, Caracas 1080A, Venezuela.
+RP San Jose, JJ (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+TC 8
+Z9 8
+SN 0378-1127
+PD OCT 3
+PY 2003
+VL 184
+IS 1-3
+BP 17
+EP 32
+DI 10.1016/S0378-1127(03)00144-0
+UT WOS:000185170600002
+ER
+
+PT J
+AU Rodriguez, JP
+AF Rodriguez, JP
+TI Challenges and opportunities for surveying and monitoring tropical
+   biodiversity - a response to Danielsen et al.
+RID A-1491-2009
+SO ORYX
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21827, Caracas 1020A, Venezuela
+TC 12
+Z9 12
+SN 0030-6053
+PD OCT
+PY 2003
+VL 37
+IS 4
+BP 411
+EP 411
+DI 10.1017/S0030605303000759
+UT WOS:000186977300016
+ER
+
+PT J
+AU Penaloza, C
+   Farji-Brener, AG
+AF Penaloza, C
+   Farji-Brener, AG
+TI The importance of treefall gaps as foraging sites for leaf-cutting ants
+   depends on forest age
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Comahue, Lab Ecotono, Unidad Postal, CRUB, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina.
+   Univ Simon Bolivar, Lab Manejo & Conservac Fauna, Caracas, Venezuela.
+RP Farji-Brener, AG (reprint author), Univ Comahue, Lab Ecotono, Unidad Postal, CRUB, RA-8400 San Carlos De Bariloche, Rio Negro, Argentina
+TC 2
+Z9 3
+SN 0266-4674
+PD SEP
+PY 2003
+VL 19
+PN Part 5
+BP 603
+EP 605
+DI 10.1017/S0266467403003675
+UT WOS:000186326600015
+ER
+
+PT J
+AU Gordon, E
+   van der Valk, AG
+AF Gordon, E
+   van der Valk, AG
+TI Secondary seed dispersal in Montrichardia arborescens (L.) schott
+   dominated wetlands in laguna grande, Venezuela
+SO PLANT ECOLOGY
+C1 Iowa State Univ, Dept Bot, Ames, IA 50011 USA.
+   Cent Univ Venezuela, Fac Ciencias, Inst Zool Trop, Caracas 1041A, Venezuela.
+RP van der Valk, AG (reprint author), Iowa State Univ, Dept Bot, 141 Bessey Hall, Ames, IA 50011 USA
+TC 5
+Z9 5
+SN 1385-0237
+PD SEP
+PY 2003
+VL 168
+IS 2
+BP 177
+EP 190
+DI 10.1023/A:1024421324294
+UT WOS:000183836200001
+ER
+
+PT J
+AU Dezzeo, N
+   Worbes, M
+   Ishii, I
+   Herrera, R
+AF Dezzeo, N
+   Worbes, M
+   Ishii, I
+   Herrera, R
+TI Annual tree rings revealed by radiocarbon dating in seasonally flooded
+   forest of the Mapire River, a tributary of the lower Orinoco River,
+   Venezuela
+SO PLANT ECOLOGY
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Gottingen, Inst Forstbot, D-37075 Gottingen, Germany.
+   Univ Fed Mato Grosso do Sul, BR-79304020 Corumba, MS, Brazil.
+RP Dezzeo, N (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apdo 21-827, Caracas 1020A, Venezuela
+TC 14
+Z9 15
+SN 1385-0237
+PD AUG
+PY 2003
+VL 168
+IS 1
+BP 165
+EP 175
+DI 10.1023/A:1024417610776
+UT WOS:000183835900013
+ER
+
+PT J
+AU Barger, NN
+   D'Antonio, CM
+   Ghneim, T
+   Cuevas, E
+AF Barger, NN
+   D'Antonio, CM
+   Ghneim, T
+   Cuevas, E
+TI Constraints to colonization and growth of the African grass, Melinis
+   minutiflora, in a Venezuelan savanna
+SO PLANT ECOLOGY
+C1 Univ Calif Berkeley, Grad Grp Range Sci, Berkeley, CA 94720 USA.
+   Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   Univ Exeter, Dept Biol Sci, Exeter EX4 4RJ, Devon, England.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Barger, NN (reprint author), Colorado State Univ, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA
+TC 12
+Z9 13
+SN 1385-0237
+PD JUL
+PY 2003
+VL 167
+IS 1
+BP 31
+EP 43
+DI 10.1023/A:1023903901286
+UT WOS:000183204200004
+ER
+
+PT J
+AU Lambert, TD
+   Adler, GH
+   Riveros, CM
+   Lopez, L
+   Ascanio, R
+   Terborgh, J
+AF Lambert, TD
+   Adler, GH
+   Riveros, CM
+   Lopez, L
+   Ascanio, R
+   Terborgh, J
+TI Rodents on tropical land-bridge islands
+SO JOURNAL OF ZOOLOGY
+C1 Univ Wisconsin, Dept Biol & Microbiol, Oshkosh, WI 54901 USA.
+   Museo Ciencias, Caracas 1010, Venezuela.
+   Museo Ciencias, Sede Colecc, Caracas 1010, Venezuela.
+   Duke Univ, Ctr Trop Conservat, Durham, NC 27705 USA.
+RP Adler, GH (reprint author), Univ Wisconsin, Dept Biol & Microbiol, Oshkosh, WI 54901 USA
+TC 19
+Z9 19
+SN 0952-8369
+PD JUN
+PY 2003
+VL 260
+PN Part 2
+BP 179
+EP 187
+DI 10.1017/S0952836903003637
+UT WOS:000183813400011
+ER
+
+PT J
+AU Sarmiento, L
+   Llambi, LD
+   Escalona, A
+   Marquez, N
+AF Sarmiento, L
+   Llambi, LD
+   Escalona, A
+   Marquez, N
+TI Vegetation patterns, regeneration rates and divergence in an old-field
+   succession of the high tropical Andes
+SO PLANT ECOLOGY
+C1 Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela.
+   Univ York, Dept Biol, York YO10 5YW, N Yorkshire, England.
+RP Sarmiento, L (reprint author), Univ Los Andes, Fac Ciencias, ICAE, Merida 5101, Venezuela
+TC 27
+Z9 29
+SN 1385-0237
+PD MAY
+PY 2003
+VL 166
+IS 1
+BP 63
+EP 74
+UT WOS:000182132400006
+ER
+
+PT J
+AU Lau, P
+   Bosque, C
+AF Lau, P
+   Bosque, C
+TI Pollen flow in the distylous Palicourea fendleri (Rubiaceae): an
+   experimental test of the Disassortative Pollen Flow Hypothesis
+SO OECOLOGIA
+C1 Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080, Venezuela.
+RP Lau, P (reprint author), Univ Simon Rodriguez, Inst Estudios Cient & Tecnol, Apartado 47925, Caracas 1042A, Venezuela
+TC 27
+Z9 32
+SN 0029-8549
+PD MAY
+PY 2003
+VL 135
+IS 4
+BP 593
+EP 600
+DI 10.1007/s00442-003-1216-5
+UT WOS:000183722700013
+ER
+
+PT J
+AU Parra-Tabla, V
+   Bullock, SH
+AF Parra-Tabla, V
+   Bullock, SH
+TI Exploring the limiting causes of fruit production in the tropical tree
+   Ipomoea wolcottiana Rose (Convolvulaceae)
+SO PLANT ECOLOGY
+C1 Univ Autonoma Yucatan, Dept Ecol, FMVZ, Merida, Yucatan, Venezuela.
+   CICESE, Dept Ecol, Ensenada 22800, Baja California, Mexico.
+RP Parra-Tabla, V (reprint author), Univ Autonoma Yucatan, Dept Ecol, FMVZ, Apartado Postal 4-116, Merida, Yucatan, Venezuela
+TC 1
+Z9 1
+SN 1385-0237
+PD MAY
+PY 2003
+VL 166
+IS 1
+BP 107
+EP 115
+DI 10.1023/A:1023216220227
+UT WOS:000182132400009
+ER
+
+PT J
+AU Anderson, RP
+   Lew, D
+   Peterson, AT
+AF Anderson, RP
+   Lew, D
+   Peterson, AT
+TI Evaluating predictive models of species' distributions: criteria for
+   selecting optimal models
+SO ECOLOGICAL MODELLING
+C1 Amer Museum Nat Hist, Div Vertebrate Zool Mammal, New York, NY 10024 USA.
+   Univ Kansas, Museum Nat Hist, Lawrence, KS 66045 USA.
+   Univ Kansas, Biodivers Res Ctr, Lawrence, KS 66045 USA.
+   Univ Kansas, Dept Ecol & Evolutionary Biol, Lawrence, KS 66045 USA.
+   Museo Hist Nat La Salle, Fundac La Salle, Caracas 1010A, Venezuela.
+RP Anderson, RP (reprint author), Amer Museum Nat Hist, Div Vertebrate Zool Mammal, Cent Pk W & 79th St, New York, NY 10024 USA
+TC 321
+Z9 354
+SN 0304-3800
+PD APR 15
+PY 2003
+VL 162
+IS 3
+BP 211
+EP 232
+DI 10.1016/S0304-3800(02)00349-6
+UT WOS:000182470200003
+ER
+
+PT J
+AU Torres-Sorando, LJ
+   Zacarias, D
+   de Roa, EZ
+   Rodriguez, DJ
+AF Torres-Sorando, LJ
+   Zacarias, D
+   de Roa, EZ
+   Rodriguez, DJ
+TI Population dynamics of Oithona hebes (Copepoda : Cyclopoida) in a
+   coastal estuarine lagoon of Venezuela: a stage-dependent matrix growth
+   model
+SO ECOLOGICAL MODELLING
+C1 Cent Univ Venezuela, Inst Zool Trop, Caracas 1041A, Venezuela.
+   Univ Hawaii, Pacific Biomed Res Ctr, Honolulu, HI 96822 USA.
+RP Rodriguez, DJ (reprint author), Cent Univ Venezuela, Inst Zool Trop, Apartado 47058, Caracas 1041A, Venezuela
+TC 2
+Z9 2
+SN 0304-3800
+PD MAR 15
+PY 2003
+VL 161
+IS 3
+BP 159
+EP 168
+UT WOS:000181657400002
+ER
+
+PT J
+AU Sayyed, AH
+   Cerda, H
+   Wright, DJ
+AF Sayyed, AH
+   Cerda, H
+   Wright, DJ
+TI Could Bt transgenic crops have nutritionally favourable effects on
+   resistant insects?
+SO ECOLOGY LETTERS
+C1 Univ London Imperial Coll Sci Technol & Med, Dept Sci Biol, Ascot SL5 7PY, Berks, England.
+   Univ Simon Rodriguez, IDECYT, Caracas, Venezuela.
+RP Cerda, H (reprint author), Univ London Imperial Coll Sci Technol & Med, Dept Sci Biol, Silwood Pk Campus, Ascot SL5 7PY, Berks, England
+TC 10
+Z9 12
+SN 1461-023X
+PD MAR
+PY 2003
+VL 6
+IS 3
+BP 167
+EP 169
+DI 10.1046/j.1461-0248.2003.00424.x
+UT WOS:000181272100002
+ER
+
+PT J
+AU Lasso, E
+   Naranjo, ME
+AF Lasso, E
+   Naranjo, ME
+TI Effect of pollinators and nectar robbers on nectar production and pollen
+   deposition in Hamelia patens (Rubiaceae)
+SO BIOTROPICA
+C1 Smithsonian Trop Res Inst, Ancon, Panama.
+   Univ Los Andes Hechicera, Fac Ciencias, Dept Biol, Merida, Venezuela.
+RP Lasso, E (reprint author), Univ Illinois, Dept Plant Biol, 265 Morrill Hall,505 Goodwin Ave, Urbana, IL 61801 USA
+TC 13
+Z9 13
+SN 0006-3606
+PD MAR
+PY 2003
+VL 35
+IS 1
+BP 57
+EP 66
+DI 10.1111/j.1744-7429.2003.tb00262.x
+UT WOS:000182530700007
+ER
+
+PT J
+AU Choat, JH
+   Robertson, DR
+   Ackerman, JL
+   Posada, JM
+AF Choat, JH
+   Robertson, DR
+   Ackerman, JL
+   Posada, JM
+TI An age-based demographic analysis of the Caribbean stoplight parrotfish
+   Sparisoma viride
+SO MARINE ECOLOGY-PROGRESS SERIES
+C1 James Cook Univ N Queensland, Sch Marine Biol & Aquaculture, Townsville, Qld 4811, Australia.
+   Smithsonian Trop Res Inst, APO, AA 34002 USA.
+   Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080A, Venezuela.
+RP Choat, JH (reprint author), James Cook Univ N Queensland, Sch Marine Biol & Aquaculture, Townsville, Qld 4811, Australia
+TC 27
+Z9 27
+SN 0171-8630
+PY 2003
+VL 246
+BP 265
+EP 277
+DI 10.3354/meps246265
+UT WOS:000181085100021
+ER
+
+PT J
+AU Naranjo, ME
+   Rengifo, C
+   Soriano, PJ
+AF Naranjo, ME
+   Rengifo, C
+   Soriano, PJ
+TI Effect of ingestion by bats and birds on seed germination of Stenocereus
+   griseus and Subpilocereus repandus (Cactaceae)
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Los Andes, Fac Ciencias, Dept Biol, Merida 5101, Venezuela.
+RP Soriano, PJ (reprint author), Univ Los Andes, Fac Ciencias, Dept Biol, Merida 5101, Venezuela
+TC 12
+Z9 16
+SN 0266-4674
+PD JAN
+PY 2003
+VL 19
+PN Part 1
+BP 19
+EP 25
+DI 10.1017/S0266467403003031
+UT WOS:000182606300003
+ER
+
+PT J
+AU Barger, NN
+   D'Antonio, CM
+   Ghneim, T
+   Brink, K
+   Cuevas, E
+AF Barger, NN
+   D'Antonio, CM
+   Ghneim, T
+   Brink, K
+   Cuevas, E
+TI Nutrient limitation to primary productivity in a secondary savanna in
+   Venezuela
+SO BIOTROPICA
+C1 Univ Calif Berkeley, Grad Grp Range Sci, Berkeley, CA 94720 USA.
+   Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas, Venezuela.
+   Univ Calif Berkeley, Energy & Resources Grp, Berkeley, CA 94720 USA.
+RP Barger, NN (reprint author), Colorado State Univ, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA
+EM nichole@nrel.colostate.edu
+TC 9
+Z9 9
+SN 0006-3606
+PD DEC
+PY 2002
+VL 34
+IS 4
+BP 493
+EP 501
+DI 10.1111/j.1744-7429.2002.tb00569.x
+UT WOS:000180539800003
+ER
+
+PT J
+AU Torres, AN
+   Hoy, CW
+AF Torres, AN
+   Hoy, CW
+TI Sampling scheme for carrot weevil (Coleoptera : Curculionidae) in
+   parsley
+SO ENVIRONMENTAL ENTOMOLOGY
+C1 Ohio State Univ, Ohio Agr Res & Dev Ctr, Dept Entomol, Wooster, OH 44691 USA.
+RP Torres, AN (reprint author), INIA, Ctr Invest Agropecuarias Tachira, Carretera Rubio Delicias, Bramon, Tachira, Venezuela, Venezuela
+TC 1
+Z9 1
+SN 0046-225X
+PD DEC
+PY 2002
+VL 31
+IS 6
+BP 1251
+EP 1258
+DI 10.1603/0046-225X-31.6.1251
+UT WOS:000180507400044
+ER
+
+PT J
+AU Marconi, S
+   Manzi, P
+   Pizzoferrato, L
+   Buscardo, E
+   Cerda, H
+   Hernandez, DL
+   Paoletti, MG
+AF Marconi, S
+   Manzi, P
+   Pizzoferrato, L
+   Buscardo, E
+   Cerda, H
+   Hernandez, DL
+   Paoletti, MG
+TI Nutritional evaluation of terrestrial invertebrates as traditional food
+   in Amazonia
+SO BIOTROPICA
+C1 Natl Inst Food & Nutr Res, I-00178 Rome, Italy.
+   Univ Padua, Dept Biol, I-35100 Padua, Italy.
+   Simon Rodriguez Univ, Caracas 1041A, Venezuela.
+   Cent Univ Venezuela, Fac Ciencias, Trop Zool Dept, Caracas, Venezuela.
+RP Pizzoferrato, L (reprint author), Natl Inst Food & Nutr Res, Via Ardeatina 546, I-00178 Rome, Italy
+TC 6
+Z9 6
+SN 0006-3606
+PD JUN
+PY 2002
+VL 34
+IS 2
+BP 273
+EP 280
+DI 10.1111/j.1744-7429.2002.tb00538.x
+UT WOS:000176587000009
+ER
+
+PT J
+AU Allan, JD
+   Brenner, AJ
+   Erazo, J
+   Fernandez, L
+   Flecker, AS
+   Karwan, DL
+   Segnini, S
+   Taphorn, DC
+AF Allan, JD
+   Brenner, AJ
+   Erazo, J
+   Fernandez, L
+   Flecker, AS
+   Karwan, DL
+   Segnini, S
+   Taphorn, DC
+TI Land use in watersheds of the Venezuelan Andes: a comparative analysis
+RID E-1162-2011
+SO CONSERVATION BIOLOGY
+C1 Univ Michigan, Sch Nat Resources & Environm, Ann Arbor, MI 48109 USA.
+   Pacific Meridian, Ann Arbor, MI 48108 USA.
+   Cornell Univ, Dept Ecol & Evolut Biol, Ithaca, NY 14853 USA.
+   Univ Los Andes, Dept Biol, Merida 5251, Venezuela.
+   Univ Nacl Expt Llanos Occidentales Ezequiel Zamor, Museo Zool, Guanare 3310, Portuguesa, Venezuela.
+RP Allan, JD (reprint author), Univ Michigan, Sch Nat Resources & Environm, Ann Arbor, MI 48109 USA
+TC 11
+Z9 12
+SN 0888-8892
+PD APR
+PY 2002
+VL 16
+IS 2
+BP 527
+EP 538
+DI 10.1046/j.1523-1739.2002.02301.x
+UT WOS:000174750800030
+ER
+
+PT J
+AU Hodge, GR
+   Dvorak, WS
+   Uruena, H
+   Rosales, L
+AF Hodge, GR
+   Dvorak, WS
+   Uruena, H
+   Rosales, L
+TI Growth, provenance effects and genetic variation of Bombacopsis quinata
+   in field tests in Venezuela and Colombia
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 N Carolina State Univ, Coll Nat Resources, Raleigh, NC 27695 USA.
+   Pizano Monterrey Forestal SA, Cartegena, Colombia.
+   Smurfit Carton Venezuela, Acarigua, Venezuela.
+RP Hodge, GR (reprint author), N Carolina State Univ, Coll Nat Resources, Raleigh, NC 27695 USA
+TC 16
+Z9 18
+SN 0378-1127
+PD MAR 15
+PY 2002
+VL 158
+IS 1-3
+BP 273
+EP 289
+DI 10.1016/S0378-1127(00)00720-9
+UT WOS:000174640200022
+ER
+
+PT J
+AU Rodriguez, JP
+AF Rodriguez, JP
+TI Range contraction in declining North American bird populations
+RID A-1491-2009
+SO ECOLOGICAL APPLICATIONS
+C1 Princeton Univ, Dept Ecol & Evolutionary Biol, Princeton, NJ 08544 USA.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 27
+Z9 27
+SN 1051-0761
+PD FEB
+PY 2002
+VL 12
+IS 1
+BP 238
+EP 248
+DI 10.2307/3061149
+UT WOS:000173549600019
+ER
+
+PT J
+AU Gardenfors, U
+   Hilton-Taylor, C
+   Mace, GM
+   Rodriguez, JP
+AF Gardenfors, U
+   Hilton-Taylor, C
+   Mace, GM
+   Rodriguez, JP
+TI The application of IUCN Red List criteria at regional levels
+RID A-1491-2009
+SO CONSERVATION BIOLOGY
+C1 SLU, Swedish Threatened Species Unit, S-75007 Uppsala, Sweden.
+   World Conservat Union, Species Survival Commiss, UK Off, Cambridge CB3 0DL, England.
+   Zool Soc London, Inst Zool, London NW1 4RY, England.
+   Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Gardenfors, U (reprint author), SLU, Swedish Threatened Species Unit, Box 7007, S-75007 Uppsala, Sweden
+TC 107
+Z9 129
+SN 0888-8892
+PD OCT
+PY 2001
+VL 15
+IS 5
+BP 1206
+EP 1212
+DI 10.1046/j.1523-1739.2001.00112.x
+UT WOS:000171501100003
+ER
+
+PT J
+AU Young, BE
+   Lips, KR
+   Reaser, JK
+   Ibanez, R
+   Salas, AW
+   Cedeno, JR
+   Coloma, LA
+   Ron, S
+   La Marca, E
+   Meyer, JR
+   Munoz, A
+   Bolanos, F
+   Chaves, G
+   Romo, D
+AF Young, BE
+   Lips, KR
+   Reaser, JK
+   Ibanez, R
+   Salas, AW
+   Cedeno, JR
+   Coloma, LA
+   Ron, S
+   La Marca, E
+   Meyer, JR
+   Munoz, A
+   Bolanos, F
+   Chaves, G
+   Romo, D
+TI Population declines and priorities for amphibian conservation in Latin
+   America
+SO CONSERVATION BIOLOGY
+C1 Assoc Biodivers Informat, Arlington, VA 22209 USA.
+   So Illinois Univ, Dept Zool, Carbondale, IL 62901 USA.
+   US Dept State, Off Ecol & Terr Conservat, Washington, DC 20520 USA.
+   Smithsonian Trop Res Inst, Balboa, Panama.
+   Univ Ricardo Palma, Museo Hist Nat, Lima 33, Peru.
+   El Colegio Frontera Sur, Chetumal, Quintana Roo, Mexico.
+   Pontificia Univ Catolica Ecuador, Museo Zool, Quito, Ecuador.
+   Univ Los Andes, Fac Ciencias Forestales & Ambientales, Lab Biogeog, Merida 5101A, Venezuela.
+   Navajo Nat Heritage Program, Window Rock, AZ 86515 USA.
+   El Colegio Frontera Sur, Chiapas, Mexico.
+   Univ Costa Rica, Escuela Biol, San Pedro, Costa Rica.
+   Univ San Francisco Quito, Colegio Ciencias Ambientales, Quito, Ecuador.
+RP Young, BE (reprint author), Assoc Biodivers Informat, 1101 Wilson Blvd, Arlington, VA 22209 USA
+TC 111
+Z9 123
+SN 0888-8892
+PD OCT
+PY 2001
+VL 15
+IS 5
+BP 1213
+EP 1223
+DI 10.1046/j.1523-1739.2001.00218.x
+UT WOS:000171501100004
+ER
+
+PT J
+AU San Jose, JJ
+   Montes, RA
+AF San Jose, JJ
+   Montes, RA
+TI Management effects on carbon stocks and fluxes across the Orinoco
+   Savannas
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080A, Venezuela.
+RP San Jose, JJ (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela, Venezuela
+TC 13
+Z9 13
+SN 0378-1127
+PD SEP 15
+PY 2001
+VL 150
+IS 3
+BP 293
+EP 311
+DI 10.1016/S0378-1127(00)00588-0
+UT WOS:000170578400008
+ER
+
+PT J
+AU Perez, EM
+   Santiago, ET
+AF Perez, EM
+   Santiago, ET
+TI Seasonal dynamics of the seed bank is a Savanna on the Central Eastern
+   Plains of Venezuela
+SO BIOTROPICA
+C1 Univ Simon Rodriguez, IDECYT, Caracas 1041A, Venezuela.
+RP Perez, EM (reprint author), Univ Simon Rodriguez, IDECYT, Apartado 47-925, Caracas 1041A, Venezuela
+TC 5
+Z9 6
+SN 0006-3606
+PD SEP
+PY 2001
+VL 33
+IS 3
+BP 435
+EP 446
+DI 10.1646/0006-3606(2001)033[0435:DMEDBD]2.0.CO;2
+UT WOS:000171709800006
+ER
+
+PT J
+AU Ewel, KC
+   Cressa, C
+   Kneib, RT
+   Lake, PS
+   Levin, LA
+   Palmer, MA
+   Snelgrove, P
+   Wall, DH
+AF Ewel, KC
+   Cressa, C
+   Kneib, RT
+   Lake, PS
+   Levin, LA
+   Palmer, MA
+   Snelgrove, P
+   Wall, DH
+TI Managing critical transition zones
+RID F-5491-2011
+SO ECOSYSTEMS
+C1 US Forest Serv, USDA, Pacific Res Stn, Honolulu, HI 96813 USA.
+   Cent Univ Venezuela, Fac Ciencias, Inst Zool Trop, Caracas 1041A, Venezuela.
+   Univ Georgia, Inst Marine, Sapelo Isl, GA 31327 USA.
+   Monash Univ, Cooperat Res Ctr Freshwater Ecol, Clayton, Vic 3168, Australia.
+   Scripps Inst Oceanog, Marine Life Res Grp, La Jolla, CA 92093 USA.
+   Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   Mem Univ Newfoundland, Inst Marine, Fisheries Conservat Chair, St Johns, NF A1C 5R3, Canada.
+   Colorado State Univ, Coll Nat Resources, Nat Resource Ecol Lab, Ft Collins, CO 80523 USA.
+RP Ewel, KC (reprint author), US Forest Serv, USDA, Pacific Res Stn, 1151 Punchbowl St,Suite 323, Honolulu, HI 96813 USA
+TC 29
+Z9 29
+SN 1432-9840
+PD AUG
+PY 2001
+VL 4
+IS 5
+BP 452
+EP 460
+DI 10.1007/s10021-001-0106-0
+UT WOS:000170563400007
+ER
+
+PT J
+AU Silva, JF
+   Zambrano, A
+   Farinas, MR
+AF Silva, JF
+   Zambrano, A
+   Farinas, MR
+TI Increase in the woody component of seasonal savannas under different
+   fire regimes in Calabozo, Venezuela
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Los Andes, Fac Ciencias, Inst ciencias Ambientales & Ecol, Merida 5101, Venezuela.
+RP Silva, JF (reprint author), 22 Divin Ave, Cambridge, MA 02138 USA
+EM jfsilva@fas.harvard.edu
+TC 28
+Z9 28
+SN 0305-0270
+PD AUG
+PY 2001
+VL 28
+IS 8
+BP 977
+EP 983
+DI 10.1046/j.1365-2699.2001.00614.x
+UT WOS:000172540400004
+ER
+
+PT J
+AU Sarmiento, G
+   Pinillos, M
+AF Sarmiento, G
+   Pinillos, M
+TI Patterns and processes in a seasonally flooded tropical plain: the Apure
+   Llanos, Venezuela
+SO JOURNAL OF BIOGEOGRAPHY
+C1 Univ Los Andes, ICAE, Merida 5101, Venezuela.
+RP Sarmiento, G (reprint author), Blanco Encalada 2614, RA-1428 Buenos Aires, DF, Argentina
+EM marygui@arnet.com.ar
+TC 11
+Z9 11
+SN 0305-0270
+PD AUG
+PY 2001
+VL 28
+IS 8
+BP 985
+EP 996
+DI 10.1046/j.1365-2699.2001.00601.x
+UT WOS:000172540400005
+ER
+
+PT J
+AU Garcia-Nunez, C
+   Azocar, A
+   Silva, JF
+AF Garcia-Nunez, C
+   Azocar, A
+   Silva, JF
+TI Seed production and soil seed bank in three evergreen woody species from
+   a neotropical savanna
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela.
+RP Garcia-Nunez, C (reprint author), Univ Los Andes, Fac Ciencias, Inst Ciencias Ambientales & Ecol, Merida 5101, Venezuela
+TC 4
+Z9 6
+SN 0266-4674
+PD JUL
+PY 2001
+VL 17
+PN Part 4
+BP 563
+EP 576
+DI 10.1017/S0266467401001420
+UT WOS:000170112400007
+ER
+
+PT J
+AU Kammesheidt, L
+   Lezama, AT
+   Franco, W
+   Plonczak, M
+AF Kammesheidt, L
+   Lezama, AT
+   Franco, W
+   Plonczak, M
+TI History of logging and silvicultural treatments in the western
+   Venezuelan plain forests and the prospect for sustainable forest
+   management
+SO FOREST ECOLOGY AND MANAGEMENT
+C1 Univ Gottingen, Inst Waldbau, Abt Waldbau Tropen 2, D-37077 Gottingen, Germany.
+   Univ Los Andes, Fac Ciencias Forestale Y Ambientales, INDEFOR,BIODESUS, Merida, Venezuela.
+   Univ Los Andes, Ctr Estud Forest & Ambientales Postgrad, Fac Ciencias Forest & Ambientales, Merida, Venezuela.
+RP Kammesheidt, L (reprint author), Univ Gottingen, Inst Waldbau, Abt Waldbau Tropen 2, Busgenweg 1, D-37077 Gottingen, Germany
+TC 4
+Z9 5
+SN 0378-1127
+PD JUL 1
+PY 2001
+VL 148
+IS 1-3
+BP 1
+EP 20
+DI 10.1016/S0378-1127(00)00529-6
+UT WOS:000169328200001
+ER
+
+PT J
+AU Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+AF Wright, TF
+   Toft, CA
+   Enkerlin-Hoeflich, E
+   Gonzalez-Elizondo, J
+   Albornoz, M
+   Rodriguez-Ferraro, A
+   Rojas-Suarez, F
+   Sanz, V
+   Trujillo, A
+   Beissinger, SR
+   Berovides, V
+   Galvez, X
+   Brice, AT
+   Joyner, K
+   Eberhard, J
+   Gilardi, J
+   Koenig, SE
+   Stoleson, S
+   Martuscelli, P
+   Meyers, JM
+   Renton, K
+   Rodriguez, AM
+   Sosa-Asanza, AC
+   Vilella, FJ
+   Wiley, JW
+TI Nest poaching in neotropical parrots
+SO CONSERVATION BIOLOGY
+C1 Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   Univ Calif Davis, Ctr Populat Biol, Davis, CA 95616 USA.
+   Ctr Calidad Ambiental, Monterey 64849, NL, Mexico.
+   Provita, Caracas 1041A, Venezuela.
+   Univ Calif Berkeley, Ecosyst Sci Div, Berkeley, CA 94720 USA.
+   Univ La Habana, Fac Biol, Habana, Cuba.
+   Univ Calif Davis, Dept Avian Sci, Davis, CA 95616 USA.
+   Princeton Univ, Dept Ecol & Evolutionary Biol, Princeton, NJ 08540 USA.
+   Wildlife Preservat Trust Int, St Lucia, W Ind Assoc St.
+   Yale Univ, Sch Forestry & Environm Studies, New Haven, CT 06511 USA.
+   Inst Insularis, BR-11750970 Peruibe, SP, Brazil.
+   Univ Kent, Durrell Inst Conservat & Ecol, Canterbury CT2 7NS, Kent, England.
+   Natl Biol Serv, Patuxent Wildlife Res Ctr, Palmer, PR 00721 USA.
+   Univ Autonoma Chiriqui, Escuela Biol, David, Panama.
+   Univ Georgia, Inst Ecol, Athens, GA 30602 USA.
+   Mississippi State Univ, Dept Wildlife & Fisheries, Mississippi State, MS 39762 USA.
+   Grambling State Univ, Grambling Cooperat Wildlife Project, Grambling, LA 71245 USA.
+RP Wright, TF (reprint author), Univ Maryland, Dept Biol, College Pk, MD 20742 USA
+TC 47
+Z9 48
+SN 0888-8892
+PD JUN
+PY 2001
+VL 15
+IS 3
+BP 710
+EP 720
+DI 10.1046/j.1523-1739.2001.015003710.x
+UT WOS:000169226000018
+ER
+
+PT J
+AU Wutherich, D
+   Azocar, A
+   Garcia-Nunez, C
+   Silva, JF
+AF Wutherich, D
+   Azocar, A
+   Garcia-Nunez, C
+   Silva, JF
+TI Seed dispersal in Palicourea rigida, a common treelet species from
+   neotropical savannas
+SO JOURNAL OF TROPICAL ECOLOGY
+C1 Univ Los Andes, Fac Ciencias, ICAE, CIELAT, Merida 5101, Venezuela.
+   Univ Tubingen, Fak Biol, Tubingen, Germany.
+RP Silva, JF (reprint author), Univ Los Andes, Fac Ciencias, ICAE, CIELAT, Merida 5101, Venezuela
+TC 6
+Z9 6
+SN 0266-4674
+PD MAY
+PY 2001
+VL 17
+PN Part 3
+BP 449
+EP 458
+DI 10.1017/S0266467401001304
+UT WOS:000168921800008
+ER
+
+PT J
+AU Corti, M
+   Aguilera, M
+   Capanna, E
+AF Corti, M
+   Aguilera, M
+   Capanna, E
+TI Size and shape changes in the skull accompanying speciation of South
+   American spiny rats (Rodentia : Proechimys spp.)
+SO JOURNAL OF ZOOLOGY
+C1 Univ Roma La Sapienza, Dipartimento Biol Anim & Uomo, I-00161 Rome, Italy.
+   Univ Simon Bolivar, Dept Estudios Ambientales, Caracas 1080 A, Venezuela.
+RP Corti, M (reprint author), Univ Roma La Sapienza, Dipartimento Biol Anim & Uomo, Via A Borelli 50, I-00161 Rome, Italy
+EM marco.corti@uniromal.it
+TC 11
+Z9 12
+SN 0952-8369
+PD APR
+PY 2001
+VL 253
+PN Part 4
+BP 537
+EP 547
+DI 10.1017/S0952836901000498
+UT WOS:000168615500011
+ER
+
+PT J
+AU Rosales, J
+   Petts, G
+   Knab-Vispo, C
+AF Rosales, J
+   Petts, G
+   Knab-Vispo, C
+TI Ecological gradients within the riparian forests of the lower Caura
+   River, Venezuela
+SO PLANT ECOLOGY
+C1 Univ Nacl Expt Guayana, Ctr Invest Ecol Guayana, Puerto Ordaz, Edo Bolivar, Venezuela.
+   Univ Birmingham, Sch Geog & Environm Sci, Birmingham B15 2TT, W Midlands, England.
+   Fdn Salle, Inst Invest Ecol Orinoco Esequibo, Tumeremo, Edo Bolivar, Venezuela.
+RP Rosales, J (reprint author), Univ Nacl Expt Guayana, Ctr Invest Ecol Guayana, Avda Americas, Puerto Ordaz, Edo Bolivar, Venezuela
+TC 10
+Z9 16
+SN 1385-0237
+PY 2001
+VL 152
+IS 1
+BP 101
+EP 118
+DI 10.1023/A:1011411020040
+UT WOS:000168353400008
+ER
+
+PT J
+AU Huber, O
+AF Huber, O
+TI Conservation and environmental concerns in the Venezuelan Amazon
+SO BIODIVERSITY AND CONSERVATION
+C1 Univ Simon Bolivar, Dept Biol Organismos, Caracas 1080A, Venezuela.
+RP Huber, O (reprint author), Univ Simon Bolivar, Dept Biol Organismos, POB 89000, Caracas 1080A, Venezuela
+TC 5
+Z9 5
+SN 0960-3115
+PY 2001
+VL 10
+IS 10
+BP 1627
+EP 1643
+DI 10.1023/A:1012042628406
+UT WOS:000171533900002
+ER
+
+PT J
+AU Rodriguez, JP
+AF Rodriguez, JP
+TI Exotic species introductions into South America: an underestimated
+   threat?
+RID A-1491-2009
+SO BIODIVERSITY AND CONSERVATION
+C1 Inst Venezolano Invest Cient, Ctr Ecol, Caracas 1020A, Venezuela.
+RP Rodriguez, JP (reprint author), Inst Venezolano Invest Cient, Ctr Ecol, Apartado 21827, Caracas 1020A, Venezuela
+EM jonpaul@ivic.ve
+TC 20
+Z9 25
+SN 0960-3115
+PY 2001
+VL 10
+IS 11
+BP 1983
+EP 1996
+UT WOS:000172590200011
+ER
+
+EF
