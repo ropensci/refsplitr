@@ -108,6 +108,9 @@ read_authors <- function(references,
     new$TA<-references$TI[ref]
     new$SO<-references$SO[ref]
     new$UT<-references$UT[ref]
+    new$PT<-references$PT[ref]
+    new$PU<-references$PU[ref]
+    new$PY<-references$PY[ref]
     #########################3
     #
     # Matching emails is an imprecise science, as emails dont have to match names in any reliable way or at all
@@ -296,7 +299,7 @@ read_authors <- function(references,
     #################################################################################
   }
   
-  final<-final[,c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','RP_address','RI','OI','EM','UT','refID')]
+  final<-final[,c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
   #final$groupID[!is.na(final$similarity)]
   sub<-final[!is.na(final$similarity) | final$authorID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','address','RI','OI','EM')]
   sub<-sub[order(sub$groupID, sub$authorID),]
