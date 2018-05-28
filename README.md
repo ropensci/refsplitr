@@ -26,10 +26,7 @@ Issues, Feature Requests and Pull Requests Welcome
 
 
 ## Contributors
-
-This package was developed at rOpenSci's 2018 unconf by (in alphabetical order):
-
-* [Forest Stevens]
+* Forest Stevens
 * [Auriel Fournier](https://github.com/aurielfournier)
 * [Matt Boone](https://github.com/birderboone)
 * [Emilio Bruna](https://github.com/embruna)
