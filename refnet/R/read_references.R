@@ -300,13 +300,15 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
+  
+  dupe_output<-distinct(output, UT, .keep_all = TRUE)
 ############################################  
   if(filename_root != "") {
-    write.csv(output, file=paste(filename_root, 
+    write.csv(dupe_output, file=paste(filename_root, 
                                  "_references.csv", sep=""), 
               row.names=FALSE)
   }
-  return(output)
+  return(dupe_output)
 }	
 
 ##	END: read_references():
