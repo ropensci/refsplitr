@@ -65,18 +65,20 @@ This will save the file under the root directory as "/newpath/newprefix_referenc
 
 ###Step 2 - Author Disambiguation
 
-####Refnet Disambiguation Algorithm
-The next step in the process is to use the newly made reference sheet to identify authors names and identify what authors are the same person. This can be difficult because different journals publish names in different formats. Sometimes with First names, sometimes only initials, sometimes with middle names, sometimes with no middle initial. It is because of this the function attempts to match names that are similar. However, these matches need to be hand checked for accuracy.
+The next step in the process is to gather identify all unique authors in the dataset and assign them a unique identification number. This requires identifying any authors whose name is represented in different ways on different publications (e.g., "JC Smith" and "Jennifer C Smith") and identifying different authors with identical names. The function `read_authors()` does this by compiling the names of all authors, identifying any putative variants of an author's name, tentatively assigning each author a unique ID number, and flagging individuals for manual verification of this tentative assignment.   
 
-For this we'll use the `read_authors()` function. It takes the reference sheet we created and outputs a file of matched authors, and a master list. It has two arguments:  
+####2.1 Name Disambiguation
+This disambiguation process will be conducted using the function `read_authors()`. This function takes the compilation of references created  `read_references()` and uses it to generate a file of matched authors, and a master list. It has two arguments:  
 
-- **references**: This is an object created from read_references. You can load in a previous reference sheet as long as it's an output from read_references and is saved to an object  
-- **filename_root**: This is used to specify the location and prefix of the two objects. It works the exact same way as read_references. 
+- **references**: This is an object created by `read_references()`. A previously genetated file can be used as long as it is the output from `read_references()` and is saved to an object  
+- **filename_root**: This specifies the location and prefix of the two objects. It works wth the same syntax as `read_references()`. 
 
+The output of `read_authors()` is .....
 
-####Manual verification and correction of author names
+Example: eb_authors <- read_authors(eb_references, filename_root="./output/eb")
 
-Now that the algorithm has attempted to match similar names the user needs to hand check the matches. Open up the 'authors' output from the previous function. There are two important pieces of information in these files:  
+####2.2 Verifying Name Disambiguation
+Once this is complete, users have the option of manually verifying and correcting author names. To do so one opens the output from `read_authors()`. This file contains two important pieces of information in these files:  
 
 - **AuthorID/GroupID**: There are two ID fields, AuthorID and GroupID. AuthorID is the unique identifier for each entry. GroupID is the ID that identifies what records are the same person.  
 
@@ -94,8 +96,7 @@ Conversely, if you find authors that should be grouped (difficult to find), then
 
 When you're done, save this .csv file, load it back into R and we'll merge the change records in the next step.
 
-####Uploading and merging corrections   
-
+####2.3 Uploading and merging corrections   
 After making final assignments of similar authors, we want to merge the changes together for use in the final analysis. For this we'll use the `refine_authors()` function. It has four arguments:  
  
 - **authors**: This is the new fixed authors object we saved previously. Must be in an object  
