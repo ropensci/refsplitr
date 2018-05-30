@@ -30,35 +30,38 @@ Finally, all of this (highly variable) data is pooled under a single code of the
 
 ## Using RefNet
 
-Refnet's tools are applied in a three-step process: (1) data import and tidying, (2) author name disambiguation, and (3) identifying and  georeferencing author institutions  (Fig 1).  
+Refnet's tools are applied in four steps: (1) data import and tidying, (2) disambiguation of author names, (3) parsing author addresses to extract and georeference author institutions, and (4) data analysis and visualization (Fig 1).  Each of these steps is described below.
 
 <img src="flowchart.jpg" height="300" /> 
 **Figure 1 - The Steps of _refnet_**
 
 ###Step 1 - Importing Search Results 
 
-The `refnet` package can import raw a Web of Science data file, or a directory of Web of science files. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function which has three arguments:  
+The `refnet` package can import a single Web of Science data file or import and combine multiple files saved in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function, which has three arguments:  
 
-- **data**: The directory location of the web of science files. If left blank it assumes the files are in the working directory. If it's in a separate directory, the absolute file name or relative file paths can be used.  
-- **dir**: This is a true false whether you're loading from a directory (multiple web of science files in one folder, or a single file)
-- **filename_root**: This specifies the output and the prefix of the output reference file. If you do not want to write a file leave this field blank. To save to a location with a prefix write the folder path followed by a '/' and then the prefix. For example:  
+- **data**: The directory location of the Web of Science file(s). If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
+- **dir**: This is TRUE when loading multiple files stored in a folder and FALSE when loading a single file.
+- **filename_root**: This specifies the location in which the output - a csv file of processed references - is to be saved and the prefix used to name this file. If you do not want to write a file leave this field blank.
 
-`"./newpath/newprefix".`  
+The output of `read_references()` is a file in which each line is a WOS record with its respective value for each WOS field tag. If the directory contained multiple WOS files, the files were merged and any duplictae records were removed. This resulting output file is used as a base for subsequent processing by `refnet`.
 
-Will save the file under the root directory + "/newpath/newprefix_references.csv"
+<img src="Reference.PNG" height="300" /> 
 
+Examples: 
 
-An example of loading from a directory:  
+a) To import and process a single file located in a folder named "data" and save the output as a file named "Brazil" it in a folder named "output":
+
+`read_references(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')` 
+
+b) To import and process multiple files located in a folder named "data" and save the output as "WOS" in a folder named "output":  
 
 `read_references(data = './data', dir = T, filename_root = './output/WOS')`
 
-And loading from a single file:
+c) To save to a location with a prefix, write the folder path followed by a '/' and then the prefix:  
+`"./newpath/newprefix".`
 
-`read_references(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')`
+This will save the file under the root directory as "/newpath/newprefix_references.csv". 
 
-The output of this file is a cleaned and combined file with all relevant fields merged. This is used as a base file for later analysis:
-
-<img src="Reference.PNG" height="300" /> 
 
 ###Step 2 - Author Disambiguation
 
