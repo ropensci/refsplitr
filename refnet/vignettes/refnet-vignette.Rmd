@@ -73,13 +73,13 @@ To assist users in disambiguating names, `read_authors()` uses the compilation o
 - **references**: This is an object created by `read_references()` from which author names for comparison will be extracted. Any previously generated output from `read_references()` that has been saved to an object can be used.
 - **filename_root**: This specifies the prefix that will be used in the name of the output and the location to which the output will be saved. The syntax is the same as for `read_references()`. 
 
-Example: eb_authors <- read_authors(eb_references, filename_root="./output/eb")
+Example: `eb_authors <- read_authors(eb_references, filename_root="./output/eb")`
 
-The output of `read_authors()` is two files: 1) a "master list"" with all putative unique authors and 2) a subset of this list called "authors" with all name variants putatively grouped as the same author.
+The output of `read_authors()` is two files: 1) a "master list"" with all putative unique authors and 2) a subset of this list called "authors" with all name variants putatively grouped as the same author. Once `read_authors()` has generated the two output files, users can either manually review and correct (if necessary) the results of the RefNet's name disambiguation algorithm (Step 2.2) OR accepting the result and finalizing the list of author names (Step 2.3).
 
 
-####2.2 Verifying Name Disambiguation
-Once `read_authors()` has generated the two output files, users have the option of manually verifying and correcting author names or accepting the result of RefNet's name disambiguation algorithm. To review the names that have been grouped as a unique author use the "------_authors.csv" file, which contains the following information: 
+####2.2 Reviewing the disambiguation results
+To review the names that have been grouped as a unique author by `read_authors()` use the "------_authors.csv" file, which contains the following information: 
 
 - **AuthorID/GroupID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of RefNet's disambiguation algorithm is that all authors of all articles are different individiuals).    
 
@@ -101,33 +101,33 @@ Once `read_authors()` has generated the two output files, users have the option 
 
 - **EM**:the author's email address in the WOS record for an article (if it lists one) [which one? AU or AF?]
 
-The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is the one you want to hand check matches, because it does it this iteratively the **groupID will always be the smallest authorID** of the group.
+The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is with which to manually review results; because disambiguation is performed iteratively the **groupID will always be the lowest authorID number** in a group.
 
 <img src="AuthorMatch.PNG" height="300" /> 
 
-The sheet is ordered by groupID and then authorID. Users can review the grouping of author names using the similarity score, author address, ORCID AND Researcher ID numbers, and ayuthor email address. They can also use the original record for the authors and articles to search for them online. 
+Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
 
 To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value in the **authorID** column (be sure to use the value from the same row). 
 
 To correct cases where names that should have been grouped as the same author were not, then replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. We recommend using the lowest authorID number among the cohort of name variants being pooled. 
 
-Once revision is completed, save this .csv file [with the same name?] in the same location as the original file. 
+Once the revision is complete, save the file as a .csv file [with the same name?] in the same location as the original file. 
 
 ####2.3 Uploading and merging corrections   
-
-To merge the corretions made to the author list into the Master List", use the `refine_authors()` function. It has four arguments:  
+Corrections made to the "author list" are merged into the "Master List" using the `refine_authors()` function. It has four arguments:  
  
 - **authors**: This is the corrected version of the "authors" object. Must be in an object  
 - **master**: This is the unedited master file created with `read_authors()`. Must be in an object   
-- **sim_score**: If you would like to set a threshold for the similarity score, where all scores below a threshold are assigned novel groupIDs, set the cut off here. By default this is turned off.  
-- **filename_root**: The location and prefix of the output, using the same syntax as previous functions. 
+- **sim_score**: users can set a threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
+- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as previous functions. 
 
-Example: eb_authors <- refine_authors(eb_authors, eb_authors_master, filename_root="./output/eb")
+Example: `eb_authors <- refine_authors(eb_authors, eb_authors_master, filename_root="./output/eb")`
 
+The output of `refine_authors()` is a file......This file can be used for many analyses, including....  
 
 ###Step 3 Identifying and georeferencing author institutions 
-
-Now that we've identified matching authors we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the `address_lat_long()` function. It has 2 arguments:  
+ 
+Following disambiguation we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the `address_lat_long()` function. It has 2 arguments:  
 
 - data: This is the output created from refine_authors. Must be an object.  
 - address_column: This is a quoted character identifying what the column name that the addresses are stored in.  
