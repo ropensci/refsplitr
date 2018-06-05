@@ -3,6 +3,7 @@ title: "RefNet"
 author: "Forest Stevens, Auriel Fournier, Matt Boone, Emilio Bruna (order of 1&2 TBD)"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+fig_caption: yes
 vignette: >
   %\VignetteIndexEntry{RefNet}
   %\VignetteEngine{knitr::rmarkdown}
@@ -24,26 +25,30 @@ Bibliometric databases such as the [Web of Science](https://login.webofknowledge
 
 2. **Parsing author addresses**. The structure of author affiliations is complex and idosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address. The affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"); the same is true of the institution ("UC Davis", "University of California-Davis","University of California") or country in which it is based ("USA", "United States", "United States of America"). Researchers working for the same institution could be based at units in geographically disparate locations. Finally, these complex affiliations are all recorded in a single field of a reference's bibliographic record. In concert, these factors can make it challenging to carry out analyses for which author affiliation or location is of particular interest.     
 
-`Refnet` is an R package designed to help users -- especially those new to bibliometric analyses -- address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
+`RefNet` is an R package designed to help users -- especially those new to bibliometric analyses -- address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
 
 
 ## Using RefNet
 
-Once bibliographic records have been downlaoded (for guidance see Appendinx 1), Refnet's tools are applied in four steps: (1) importing and tidying reference records, (2) parsing of author addresses and author name disambiguation, (3) georeferencing of author institutions, and (4) data analysis and visualization (Fig 1).  Each of these steps is described below; Appendix 2 guides users through the entire process with a sample dataset.
+Once bibliographic records have been downlaoded (for guidance see Appendinx 1), RefNet's tools are applied in four steps: (1) importing and tidying reference records, (2) parsing of author addresses and author name disambiguation, (3) georeferencing of author institutions, and (4) data analysis and visualization (Fig 1).  Each of these steps is described below; Appendix 2 guides users through the entire process with a sample dataset.  
 
-<img src="refnet_fig1_eb.jpg" height="300" /> 
 
-**Figure 1 - The Steps of _refnet_**
+<p align="center">
+<img src="RefNet_fig1_eb.jpg" height="300" /> 
+</p>
+<p align="center">
+**Figure 1:** _RefNet_ allows users to import, organize, and visualize bibliographic data in 4 simple steps.
+</p>
 
 ###Step 1 - Importing Search Results 
 
-The `refnet` package can import a single Web of Science data file combine and import multiple files in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function, which has three arguments:  
+The `RefNet` package can import a single Web of Science data file combine and import multiple files in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function, which has three arguments:  
 
 - **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
-- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refnet` identifies and removes any duplictae reference records.
+- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `RefNet` identifies and removes any duplictae reference records.
 - **filename_root**: The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `read_references()` is a an object (also saved as a .csv file) in which each line is a WOS record and columns are the different parts of the bibliographic record (author name, journal name, article title, etc). This file is used by `refnet` for Step 2.
+The output of `read_references()` is a an object (also saved as a .csv file) in which each line is a WOS record and columns are the different parts of the bibliographic record (author name, journal name, article title, etc). This file is used by `RefNet` for Step 2.
 
 <img src="Reference.PNG" height="300" /> 
 
@@ -110,17 +115,19 @@ If users wish to review the names that have been grouped as a unique author by `
 
 - **EM**:the author's email address in the WOS record for an article (if it lists one) [which one? AU or AF?]
 
-The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is with which to manually review results; 
+The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is with which to manually review results.  
 
+<p align="center">  
 <img src="AuthorMatch.PNG" height="300" /> 
-
+</p>
+  
 Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
 
 To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value from the **authorID** column (be sure to use the authorID value from the same row). 
 
 To correct cases where names weren't grouped together but should have been (i.e., they represent variants of the same author's name), replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. *italics*We recommend using the lowest authorID number of the name variants being pooled*italics*.
 
-Once the revision is complete, save the file as a .csv file *bold*[EB: with the same name?]*bold* in the same location as the original file. 
+Once the revision is complete, save the file as a .csv file *[EB: with the same name?]* in the same location as the original file. 
 
 ####2.4 Uploading and merging corrections   
 Corrections made to the "author list" are merged into the "Master List" using the `refine_authors()` function. It has four arguments:  
@@ -142,11 +149,11 @@ Users can georeference (latitude & longitude) author's institutions using the `a
 
 - **data**: The output created by `refine_authors()`. Must be an object.  
 - **address_column**: A quoted character identifying the column name in which addresses are stored. 
-- **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
+- **write_out_missing**: if TRUE creates a file with the author addresses that that `RefNet` was unable to georeference; set to FALSE by default
 
-The output of `address_lat_long()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations *bold*HOW?*bold*. 
+The output of `address_lat_long()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and an output/file of references that RefNet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations *HOW?*. 
 
-> **warning** this version of refnet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses**warning**
+> **Warning**: this version of RefNet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses
 
 
 ```
@@ -165,7 +172,7 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
 ###Step 4 - Bibliometric analyses and Data Visualization
 RefNet includes some basic summary analyses and data visualization tools.  
 
-####4.2 Bibliometric analyses *bold*(EB: I HAVE CODE TO DO ALL OF THIS!*bold*
+####4.2 Bibliometric analyses *EB: I HAVE CODE TO DO ALL OF THIS!*
 1. OVERALL
 + total number of articles
 + total number of authors
@@ -189,14 +196,18 @@ To make a colored plot of all authors country of residency we'll use the `plot_a
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
+<p align="center">
 <img src="WorldCountry.png" height="300" /> 
+</p>
 
 ####4.2.2.1 World Plots (points)
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
+<p align="center">
 <img src="WorldPoint.png" height="300" /> 
+</p>
 
 ####4.2.2.1 Net Plots (base)
 To plot a network diagram of co-author countries of origins and how they're connected we'll use the `net_plot_coauthor()` function. The function has one argument:  
@@ -205,7 +216,9 @@ To plot a network diagram of co-author countries of origins and how they're conn
 
 This function has two outputs, in the form of a list. $plot is the plot, $data is the dataframe that was used to the build the plot. listname$plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
+<p align="center">
 <img src="NetPlotBase.png" height="300" /> 
+</p>
 
 
 ####4.2.2.2 Net Plots (Country)
@@ -215,7 +228,9 @@ To plot a network diagram of co-author countries of origins overlayed on a world
 
 The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console. `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
 
+<p align="center">
 <img src="NetPlotCountry.png" height="300" /> 
+</p>
 
 
 ####4.2.2.3 Net Plots (Addresses)
@@ -226,9 +241,9 @@ To plot a network diagram of co-author using their individual addresses overlaye
 The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
-
+<p align="center">
 <img src="NetPlotAddress.png" height="300" /> 
-
+</p>
 
 
 ##Summary
