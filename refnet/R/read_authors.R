@@ -299,13 +299,44 @@ read_authors <- function(references,
     #################################################################################
   }
   
-  final<-final[,c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
+  ###############################
+  # address parsing
+  ###############################
+  
+  origAddress <- separate(data=final, 
+                          col = address,
+                          into=c("university","department","short_address"),
+                          sep=",",extra = "merge", remove=FALSE) %>%
+    mutate(postal_code = str_extract(string=short_address, 
+                                     pattern="[:alpha:]{2}[:punct:]{1}[:digit:]{1,8}|[:space:][:upper:][:digit:][:upper:][:space:][:digit:][:upper:][:digit:]|[:alpha:][:punct:][:digit:]{4}")) %>%
+    mutate(postal_code = ifelse(is.na(postal_code), 
+                                str_extract(string=short_address,
+                                            pattern="[:space:][:digit:]{5}"), postal_code)) %>%
+    mutate(postal_code = ifelse(is.na(postal_code), 
+                                str_extract(string=short_address,
+                                            pattern="[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"),
+                                postal_code))
+  
+  
+  finalad <- extract_country_name(origAddress)
+  
+  
+  
+  
+  
+  finalad<-finalad[,c('authorID','AU','AF','groupID',
+                  'match_name','similarity','author_order',
+                  'address','university','department',
+                  'short_address','postal_code',"country",
+                  'RP_address','RI','OI','EM','UT',
+                  'refID',"PT","PY","PU")]
+  
   #final$groupID[!is.na(final$similarity)]
-  sub<-final[!is.na(final$similarity) | final$authorID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','address','RI','OI','EM')]
+  sub<-finalad[!is.na(finalad$similarity) | (finalad$authorID %in% (finalad$groupID[!is.na(finalad$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
   sub<-sub[order(sub$groupID, sub$authorID),]
   
   #write it out
-    write.csv(subset(final,select=-c(match_name,similarity)), 
+    write.csv(subset(finalad,select=-c(match_name,similarity)), 
               file=paste0(filename_root, "_authors_master.csv"), 
               row.names=FALSE)
     
@@ -313,5 +344,5 @@ read_authors <- function(references,
               file=paste0(filename_root, "_authors.csv"), 
               row.names=FALSE)
   #
-  return(list(master=final,authors=sub))
+  return(list(master=finalad,authors=sub))
 } #end function
