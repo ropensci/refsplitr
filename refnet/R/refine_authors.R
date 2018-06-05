@@ -29,7 +29,7 @@ for(p in unique(master$groupID)){
 master$AF[master$groupID==p]<-master$AF[sort(master$authorID[master$groupID==p])[1]]
 }
 colnames(master)
-data1<-master[,c('authorID','groupID','AF','author_order','address','RP_address','RI','OI','UT','refID')]
+data1<-master[,c('authorID','groupID','AF','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','UT','refID',"PT","PY","PU")]
 colnames(data1)[colnames(data1)=='AF']<-'author_name'
 
 #write it out
