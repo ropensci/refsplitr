@@ -18,76 +18,85 @@ knitr::opts_chunk$set(
 
 ##1 Introduction
 
-Bibliometric databases, such as SCOPUS and the Web of Science, are a rich source of data for quantifying scientific productivity and studying factors shaping the emergence, disemination, and impact of research (Sugimoto and Larivière 2018). In recent years the type and scope of questions that researchers could address with these databases has expanded tremendously (Forutnato et al. 2018), in part because of their broader coverage, greater accessibility, and advances in computational power. Neverthtless, the ability to do so continues to be hampered - especially as the size of datasets increases - by two major and persistent challenges:
+Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri) are rich sources of data for studying factors shaping the emergence, disemination, and impact of scientific research (Sugimoto and Larivière 2018). In recent years the type and scope of questions that researchers can address with data gathered from these databases has expanded tremendously (Forutnato et al. 2018), in part because of their expanding coverage, greater accessibility, and advances in computational power that make it possible to analyze datasets comprising millions of bibliographic records (e.g., Larivière et al. 2013, Smith et al. 2014). Neverthtless, conducting these analyses continues to be hampered by two major and persistent challenges:
 
-- 1 - Name disambiguation. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to an author all of their scholarly output. However, this seemingly simple task can often be extremely complicated (reviewed in Smalheiser and Torvik 2009), even when using the nominally high-quality data extracted from bibliometric databases. The most obvious case is when different authors have identical names, which in some countries is quite common (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions for reporting author names; for instance, one could erroneously conclude that there are two authors when there is only one (e.g., "JC Smith" and "Jennifer C Smith") or vice versa (e.g., "Enrique Gonzalez" and "Emilio Gonzalez" both abbrevaited as "E Gonzales"). Although failure to disambiguate author names can seriously undermine the conclusions of analyses,  verifying author identity manually quickly becomes impractical as the number of authors in a dataset increases. 
+1. **Name disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to an author all of their scholarly output. However, this seemingly simple task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one could erroneously conclude that "J.C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, while papers by "E. González" could have been written be written by a single author or by two different oneso whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of analyses, but verifying author identity manually quickly becomes impractical as the number of authors in a dataset increases. 
 
-- 2 - Parsing author addresses. The structure of author affiliations is complex and idosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might be associated with a Center, Institute, College, Department, or Programs.  These affiliations might be presented in different ways (e.g., Dept. of Biology vs. Department of Biology vs. Departamento de Biologia); the same is true of the institutions themselvees (UC Davis vs. University of California-Davis) and even the countries in which they are based (USA vs. United States of America). Furthermore, the same institution can have researchers working in different - often geographically disparate locations. 
-Finally, all of this (highly variable) data is pooled under a single code of the reference record. In concert, these factors make analyses for which author institution or affiliation is of particular interest -- including spatially explict ones -- especially challenging.     
+2. **Parsing author addresses**. The structure of author affiliations is complex and idosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address. The affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"); the same is true of the institution ("UC Davis", "University of California-Davis","University of California") or country in which it is based ("USA", "United States", "United States of America"). Researchers working for the same institution could be based at units in geographically disparate locations. Finally, these complex affiliations are all recorded in a single field of a reference's bibliographic record. In concert, these factors can make it challenging to carry out analyses for which author affiliation or location is of particular interest.     
 
-`refnet` is an R package designed to help users address these challenges. It imports and organizes the output from [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri) searches, disambiguates author names and flags any needing additional scrutiny, and parses author addresses to extract and georeference the institution at which they are based. Authors can also use it to generate simple summary bibliometric statistics and map author locations and coauthorships. Finally, authors can export the data in tidy formats for more in-dpeth analyses with their own code or packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017). 
+`Refnet` is an R package designed to help users -- especially those new to bibliometric analyses -- address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
 
 
 ## Using RefNet
 
-Refnet's tools are applied in four steps: (1) data import and tidying, (2) disambiguation of author names, (3) parsing author addresses to extract and georeference author institutions, and (4) data analysis and visualization (Fig 1).  Each of these steps is described below.
+Once bibliographic records have been downlaoded (for guidance see Appendinx 1), Refnet's tools are applied in four steps: (1) importing and tidying reference records, (2) parsing of author addresses and author name disambiguation, (3) georeferencing of author institutions, and (4) data analysis and visualization (Fig 1).  Each of these steps is described below; Appendix 2 guides users through the entire process with a sample dataset.
 
-<img src="flowchart.jpg" height="300" /> 
+<img src="refnet_fig1_eb.jpg" height="300" /> 
+
 **Figure 1 - The Steps of _refnet_**
 
 ###Step 1 - Importing Search Results 
 
-The `refnet` package can import a single Web of Science data file or import and combine multiple files saved in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function, which has three arguments:  
+The `refnet` package can import a single Web of Science data file combine and import multiple files in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `read_references()` function, which has three arguments:  
 
-- **data**: The directory location of the Web of Science file(s). If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
-- **dir**: This is TRUE when loading multiple files stored in a folder and FALSE when loading a single file.
-- **filename_root**: This specifies the location in which the output - a csv file of processed references - is to be saved and the prefix used to name this file. If you do not want to write a file leave this field blank.
+- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
+- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refnet` identifies and removes any duplictae reference records.
+- **filename_root**: The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `read_references()` is a file in which each line is a WOS record with its respective value for each WOS field tag. If the directory contained multiple WOS files, the files were merged and any duplictae records were removed. This resulting output file is used as a base for subsequent processing by `refnet`.
+The output of `read_references()` is a an object (also saved as a .csv file) in which each line is a WOS record and columns are the different parts of the bibliographic record (author name, journal name, article title, etc). This file is used by `refnet` for Step 2.
 
 <img src="Reference.PNG" height="300" /> 
 
-Examples: 
+####1.1 Examples
 
-a) To import and process a single file located in a folder named "data" and save the output as a file named "Brazil" it in a folder named "output":
+1. To import and process a single file located in a folder named "data" and save the output as a file named "Brazil" it in a folder named "output": 
 
-`read_references(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')` 
+> `read_references(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')` 
 
-b) To import and process multiple files located in a folder named "data" and save the output as "WOS" in a folder named "output":  
+2. To import and process multiple files located in a folder named "data" and save the output as "WOS" in a folder named "output": 
 
-`read_references(data = './data', dir = T, filename_root = './output/WOS')`
+> `read_references(data = './data', dir = T, filename_root = './output/WOS')`
 
-c) To save to a location with a prefix, write the folder path followed by a '/' and then the prefix:  
-`"./newpath/newprefix".`
+3. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
-This will save the file under the root directory as "/newpath/newprefix_references.csv". 
-
-
-###Step 2 - Identifying and Disambiguating Author Names
-
-The next step is to identify all unique authors in the dataset. This requires identifying any authors whose name appears to be represented in different ways on different publications (e.g., "JC Smith" and "Jennifer C Smith") as well as attempting to identify different authors with identical names. The function `read_authors()` helps users do this by assigning each author of each paper an ID number, comparing the names of authors and other information about them in the publication's record (e.g., ORCID ID, Thomson-Reuters Researcher ID) to group all of the different names used by a single author under one ID number, and generating a list of any names/name variants that have been putatively identified as a single author. This list can be reviewed by users and, if they wish, used to correct the Master List.
-
-####2.1 Name Disambiguation
-To assist users in disambiguating names, `read_authors()` uses the compilation of references created with  `read_references()`. The `read_authors()` function has two arguments:  
-
-- **references**: This is an object created by `read_references()` from which author names for comparison will be extracted. Any previously generated output from `read_references()` that has been saved to an object can be used.
-- **filename_root**: This specifies the prefix that will be used in the name of the output and the location to which the output will be saved. The syntax is the same as for `read_references()`. 
-
-Example: `eb_authors <- read_authors(eb_references, filename_root="./output/eb")`
-
-The output of `read_authors()` is two files: 1) a "master list"" with all putative unique authors and 2) a subset of this list called "authors" with all name variants putatively grouped as the same author. Once `read_authors()` has generated the two output files, users can either manually review and correct (if necessary) the results of the RefNet's name disambiguation algorithm (Step 2.2) OR accepting the result and finalizing the list of author names (Step 2.3).
+> `"./newpath/newprefix".`
 
 
-####2.2 Reviewing the disambiguation results
-To review the names that have been grouped as a unique author by `read_authors()` use the "------_authors.csv" file, which contains the following information: 
+###Step 2 - Parsing author addresses and disambiguation of author names
 
-- **AuthorID/GroupID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of RefNet's disambiguation algorithm is that all authors of all articles are different individiuals).    
+The next step is to identify all unique authors in the dataset. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). `read_authors()` uses a simple algorithm that assigns each author of each paper an ID number, then draws the similarity of author names and  any other information provided in a publication's record (e.g., ORCID ID, Thomson-Reuters Researcher ID, email address) to putatively group the name variants representing a single author under one group ID number (for a brief overview see Appendinx 3). It also generates a list of any name variants that have been putatively assigned to a single author. Users can accept the results of `refent`'s disambiguation (step 2.4) and move on, or review the list of putative groupings and merge any necessary corrections (Step 2.3).
+
+####2.1 Parsing author addresses
+
+The first step in disambiguating author names is parsing author addresses. To do so ---------
+
+
+
+####2.2 Name Disambiguation
+
+
+Once addresses have been parsed the function `read_authors()` is used to disambiguate author names. `read_authors()` has two arguments:  
+
+- **references**: The object created by `read_references()`, from which author names will be extracted. Any previously generated output from `read_references()` that has been saved to an object can be used.
+- **filename_root**:  The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. The syntax is the same as for `read_references()`. 
+
+The output of `read_authors()` is two objects (also saved as .csv files): 1) a "master list" of all the putatively unique authors and 2) a subset of this ("authors") listing all name variants putatively grouped together as the same author. 
+
+####2.2.1 Example
+
+> `eb_authors <- read_authors(eb_references, filename_root="./output/eb")`
+
+####2.3 Reviewing the disambiguation results
+
+If users wish to review the names that have been grouped as a unique author by `read_authors()`, they can do so using the "------_authors.csv" file. It contains the following information: 
+
+- **AuthorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of RefNet's disambiguation algorithm is that all authors of all articles are different individiuals).    
 
 - **AU**:	
 
 - **AF**:	
 
-- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person.  
+- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively *italics*the lowest authorID number in a group will always be used as the groupID*italics*.
 
 - **Match name**: The name under which the algorithm groups all of an author's putative name variants.   
 
@@ -101,42 +110,44 @@ To review the names that have been grouped as a unique author by `read_authors()
 
 - **EM**:the author's email address in the WOS record for an article (if it lists one) [which one? AU or AF?]
 
-The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is with which to manually review results; because disambiguation is performed iteratively the **groupID will always be the lowest authorID number** in a group.
+The algorithm attempts to match similar authors and then assigns similar authors to the same groupID. It then saves all match names into a file appended with '_authors.csv'. This file is with which to manually review results; 
 
 <img src="AuthorMatch.PNG" height="300" /> 
 
 Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
 
-To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value in the **authorID** column (be sure to use the value from the same row). 
+To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value from the **authorID** column (be sure to use the authorID value from the same row). 
 
-To correct cases where names that should have been grouped as the same author were not, then replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. We recommend using the lowest authorID number among the cohort of name variants being pooled. 
+To correct cases where names weren't grouped together but should have been (i.e., they represent variants of the same author's name), replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. *italics*We recommend using the lowest authorID number of the name variants being pooled*italics*.
 
-Once the revision is complete, save the file as a .csv file [with the same name?] in the same location as the original file. 
+Once the revision is complete, save the file as a .csv file *bold*[EB: with the same name?]*bold* in the same location as the original file. 
 
-####2.3 Uploading and merging corrections   
+####2.4 Uploading and merging corrections   
 Corrections made to the "author list" are merged into the "Master List" using the `refine_authors()` function. It has four arguments:  
  
-- **authors**: This is the corrected version of the "authors" object. Must be in an object  
-- **master**: This is the unedited master file created with `read_authors()`. Must be in an object   
-- **sim_score**: users can set a threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
-- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as previous functions. 
-
-Example: `eb_authors <- refine_authors(eb_authors, eb_authors_master, filename_root="./output/eb")`
+- **authors**: The corrected version of the "authors" object. Must be in an object.  
+- **master**: The unedited master file created with `read_authors()`. Must be in an object   
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
+- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
 The output of `refine_authors()` is a file......This file can be used for many analyses, including....  
 
-###Step 3 Identifying and georeferencing author institutions 
- 
-Following disambiguation we will calculate the authors location including their latitudes and longitudes for later mapping. We will use the `address_lat_long()` function. It has 2 arguments:  
+####2.2.2 Example
 
-- data: This is the output created from refine_authors. Must be an object.  
-- address_column: This is a quoted character identifying what the column name that the addresses are stored in.  
+> `eb_authors <- refine_authors(eb_authors, eb_authors_master, filename_root="./output/eb")`
 
-The output is a modified data.frame with new columns for the latitude and longitude as well as various pieces of the address the algorithm could correctly parse out.  
+###Step 3 Georeferencing author institutions 
 
-> **warning** in the current version has trouble differentiating between separte campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus). Depending on the resolution of your analysis this may be problematic, and we are working to address it **warning**
+Users can georeference (latitude & longitude) author's institutions using the `address_lat_long()` function. This function has has 2 arguments:  
 
-To create an output of the entries that `refnet2` was unable to georeference set the **write_out_missing** argument to **TRUE**. Then the user can fill in any they are able to determine and the newly populated address entries can be brought back into R. 
+- **data**: The output created by `refine_authors()`. Must be an object.  
+- **address_column**: A quoted character identifying the column name in which addresses are stored. 
+- **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
+
+The output of `address_lat_long()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations *bold*HOW?*bold*. 
+
+> **warning** this version of refnet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses**warning**
+
 
 ```
 addresses <- address_lat_long(data)
@@ -148,27 +159,46 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
                           new_address)
 ```
 
-> **warning** This function parses out addresses from the web of science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
+> **warning** This function parses out addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
 
-###Step 4 - Data Visualization
 
-Now that we've successfully imported, cleaned, disambiguated and georeferenced the data. We can begin plotting the data. There five kinds of plots you can make. They are in two categories **World plots** and **Net Plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
+###Step 4 - Bibliometric analyses and Data Visualization
+RefNet includes some basic summary analyses and data visualization tools.  
 
-####World Plots (by country)
+####4.2 Bibliometric analyses *bold*(EB: I HAVE CODE TO DO ALL OF THIS!*bold*
+1. OVERALL
++ total number of articles
++ total number of authors
++ Average number of authors per article (+/-SD or SE)
++ Histogram of authors per article
++ total number of countries
+
+2. BY YEAR
++ total number of articles
++ total number of authors
++ cumulative number of authors
++ average number of authors per article (+/-SD or SE)
++ number of countries per year
++ cumulative number of countries
+
+####4.2 Visualizing Productivity and Collaboration 
+There five kinds of plots you can make. They are in two categories **World plots** and **Net Plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
+
+####4.2.1.1 World Plots (by country)
 To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
 <img src="WorldCountry.png" height="300" /> 
 
-####World Plots (points)
+####4.2.2.1 World Plots (points)
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
 <img src="WorldPoint.png" height="300" /> 
 
-####Net Plots (base)
+####4.2.2.1 Net Plots (base)
 To plot a network diagram of co-author countries of origins and how they're connected we'll use the `net_plot_coauthor()` function. The function has one argument:  
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.
@@ -178,7 +208,7 @@ This function has two outputs, in the form of a list. $plot is the plot, $data i
 <img src="NetPlotBase.png" height="300" /> 
 
 
-####Net Plots (Country)
+####4.2.2.2 Net Plots (Country)
 To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **net_plot_coauthor_country()** function. The function has one argument:  
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.  
@@ -188,7 +218,7 @@ The net plot analysis returns an object that allows the plotting of these comple
 <img src="NetPlotCountry.png" height="300" /> 
 
 
-####Net Plots (Addresses)
+####4.2.2.3 Net Plots (Addresses)
 To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `net_plot_coauthor_addresses()` function. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
@@ -206,19 +236,23 @@ This function can create a large data set (100's of MB), and may takes several m
 
 ##Acknowledgments
 
-Support for the development of RefNet was provided by grants from the University of Florida's Center for Latin American Studies and Informatics Institute.
+Support for the development of RefNet was provided by grants from the University of Florida Center for Latin American Studies and the niversity of Florida Informatics Institute.
 
 ##References
 
-Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics,  11(4), pp 959-975, Elsevier.
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics. 11(4): 959-975.
 
-Fortunato, S., C. T. Bergstrom, K. B?rner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barab?si. 2018. Science of science 359:eaao0185.
+Fortunato, S., C. T. Bergstrom, K. B?rner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barab?si (2018). Science of science. Science, 359:eaao0185.
 
-Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual review of information science and technology, 43(1), 1-43.
+Larivière, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213
 
-Strotmann, A. and Zhao, D., 2012. Author name disambiguation: What difference does it make in author‐based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
+Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology 43(1): 1-43.
 
-Sugimoto CR, Larivière V. 2018. Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
+Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance. PLoS One 9(10): e109195.
+
+Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author‐based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
+
+Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
 
 Sci2 Team. (2009). Science of Science (Sci2) Tool. Indiana University and SciTech Strategies, https://sci2.cns.iu.edu. 
 
@@ -226,3 +260,19 @@ Westgate, M. J. (2018a). revtools: Tools to Support Evidence Synthesis. R packag
   https://CRAN.R-project.org/package=revtools
   
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
+
+
+***
+
+Appendix 1: How to download records from WOS
+
+***
+
+
+Appendix 2 guides users through the entire process with a sample dataset
+
+
+***
+
+Appendix 3: brief overview of disambiguation algorithm
+
