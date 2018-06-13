@@ -1,1 +1,9 @@
-"authorID","AU","AF","groupID","match_name","similarity","address","RI","OI","EM"
+"authorID","AU","AF","groupID","match_name","similarity","author_order","address","university","department","short_address","postal_code","country","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
+2,"Lopes, AV","Lopes, Ariadna V.",2,NA,NA,6,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","Univ Fed Pernambuco"," Dept Bot"," BR-50372970 Recife, PE, Brazil.","BR-50372970","Brazil","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,"WOS:000388274700005
+",1,"J
+","2016
+",NA
+239,"Lopes, AV","Lopes, Ariadna Valentina",2,"Lopes, Ariadna V.",0.923809523809524,2,NA,NA,NA,NA,NA,NA,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","E-8432-2010",NA,NA,"WOS:000207455700016
+",47,"J
+","2007
+",NA
