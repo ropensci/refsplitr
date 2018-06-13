@@ -26,7 +26,7 @@ refine_authors is doing what merge_records and remove_duplicates did before
 authors_final<-refine_authors(authors, sim_score=0.94)
 
 ```{r, message=FALSE, eval=FALSE}
-eb_references <- read_references("~/refnet2/data/Ecology.txt", dir=FALSE, 
+eb_references <- read_references("~/refnet2/data/EBpubs.txt", dir=FALSE, 
                                 filename_root="~/refnet2/output/eb")
 
 eb_authors <- read_authors(eb_references, filename_root="~/refnet2/output/eb")

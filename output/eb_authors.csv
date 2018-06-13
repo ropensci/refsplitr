@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "authorID","AU","AF","groupID","match_name","similarity","author_order","address","university","department","short_address","postal_code","country","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
 2,"Lopes, AV","Lopes, Ariadna V.",2,NA,NA,6,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","Univ Fed Pernambuco"," Dept Bot"," BR-50372970 Recife, PE, Brazil.","BR-50372970","Brazil","Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA,"WOS:000388274700005
 ",1,"J
@@ -7,3 +8,8 @@
 ",47,"J
 ","2007
 ",NA
+=======
+"authorID","AU","AF","groupID","match_name","similarity","address","RI","OI","EM"
+2,"Lopes, AV","Lopes, Ariadna V.",2,NA,NA,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.",NA,NA,NA
+239,"Lopes, AV","Lopes, Ariadna Valentina",2,"Lopes, Ariadna V.",0.923809523809524,NA,"E-8432-2010",NA,NA
+>>>>>>> 5088327b3051a40e916d8b6d346b802be70289dd
