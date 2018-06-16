@@ -35,6 +35,8 @@ LARR_references <- read_references("~/refnet2/data/LARR/",
 
 LARR_authors <- read_authors(LARR_references, filename_root="~/refnet2/output/LARR")
 
+eb_authors <- read_authors(eb_references, filename_root="~/refnet2/output/eb")
+
 eb_refined <- refine_authors(authors=eb_authors$authors, master=eb_authors$master)
 
 save(eb_refined, file="./output/eb_refined.Rdata")
