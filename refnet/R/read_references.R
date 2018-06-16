@@ -298,6 +298,8 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$OI <- gsub("; ", ";", output$OI, fixed=TRUE)
   
+  output$PY <- gsub("\n", "", output$PY, fixed=TRUE)  
+
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
   
