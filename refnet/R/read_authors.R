@@ -47,7 +47,11 @@ read_authors <- function(references,
     
     #create a dataframe of all unique addresses and their matching affiliations
     dd<-data.frame(C1_names,C1_address,stringsAsFactors=F)
-    dd1<-data.frame(names=unique(unlist(strsplit(C1_names,'; '))),address=sapply(unique(unlist(strsplit(C1_names,'; '))),function(x)
+    dd1<-data.frame(names=unique(unlist(strsplit(C1_names,
+                                                 '; '))),
+                    address=sapply(unique(unlist(strsplit(C1_names,
+                                                          '; '))),
+                                   function(x)
       dd$C1_address[grepl(x,dd$C1_names)][1]))
     if(nrow(dd1)==0 & length(C1_address)==length(authors_AU)){dd1<-data.frame(names=authors_AU,address=C1_address)}
     if(nrow(dd1)==0){dd1<-data.frame(names='',address='')}
