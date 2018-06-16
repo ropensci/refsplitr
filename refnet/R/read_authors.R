@@ -317,6 +317,8 @@ read_authors <- function(references,
                                             pattern="[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"),
                                 postal_code)))
   
+  origAddress[is.na(origAddress$short_address),"short_address"] <- "No Affiliation" 
+  
   
   finalad <- extract_country_name(origAddress)
   
