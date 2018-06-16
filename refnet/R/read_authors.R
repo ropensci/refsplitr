@@ -303,7 +303,7 @@ read_authors <- function(references,
   # address parsing
   ###############################
   
-  origAddress <- separate(data=final, 
+  suppressWarnings(origAddress <- separate(data=final, 
                           col = address,
                           into=c("university","department","short_address"),
                           sep=",",extra = "merge", remove=FALSE) %>%
@@ -315,7 +315,7 @@ read_authors <- function(references,
     mutate(postal_code = ifelse(is.na(postal_code), 
                                 str_extract(string=short_address,
                                             pattern="[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"),
-                                postal_code))
+                                postal_code)))
   
   
   finalad <- extract_country_name(origAddress)
