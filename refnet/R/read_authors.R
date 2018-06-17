@@ -226,7 +226,7 @@ read_authors <- function(references,
   novel<-list('1'=1) # the novel list is a list of novel authors who get their own GROUPID
   #we start on the 2nd record as we assume the 1st record is novel
   for(i in 2:nrow(final)){
-   for(i in 15659:nrow(final)){
+   #for(i in 15659:nrow(final)){
     if(i==2){print('Matching similar authors names')}
     #i<-64
     changeID<-NA
