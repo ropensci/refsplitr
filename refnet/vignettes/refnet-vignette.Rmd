@@ -25,7 +25,7 @@ The first of these challenges is **Author Name Disambiguation (AND)**. Correctly
 
 The second challenge is correctly **parsing author addresses**. The structure of author affiliations is complex and idosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address. The affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"); the same is true of the institution ("UC Davis", "University of California-Davis","University of California") or country in which it is based ("USA", "United States", "United States of America"). Researchers working for the same institution could be based at units in geographically disparate locations. Finally, these complex affiliations are all recorded in a single field of a reference's bibliographic record. In concert, these factors can make it challenging to carry out analyses for which author affiliation or location is of particular interest.     
 
-Package [**`RefNet`**](https://CRAN.R-project.org/package=XXXXX) was written to help users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
+Package [**`RefNet`**](https://CRAN.R-project.org/package=XXXXX) was written to help users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
 
 
 ##2. Using RefNet
@@ -85,9 +85,7 @@ The output of `read_authors()` is two objects: (1) "master", which is the comple
 
 ####2.2.1. Accepting the results of disambiguation
 
-If the users wish to accept the result of the disambiguation algorithm without revieing the names results can be accepted with `refine_authors()`, the output of which is an object....  
-
-
+If the users wish to accept the result of the disambiguation algorithm without reviewing the names results can be accepted with `refine_authors()`, the output of which is an object.  
 
 ####2.2.2. Reviewing the results of disambiguation
 
@@ -99,21 +97,19 @@ Users that prefer to manually reivew the results of the disambiguation can do so
 
 - **AF**:	
 
-- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively *italics*the lowest authorID number in a group will always be used as the groupID*italics*.
+- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively. *The lowest authorID number in a group will always be used as the groupID*.
 
 - **Match name**: The name under which the algorithm groups all of an author's putative name variants.   
 
 - **Similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. [this needs a better explanation]
 
-- **address**: the author's address in the WOS record for an article [which one? AU or AF?]
+- **address**: the author's address in the WOS record for an article.
 
-- **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article  (if they have one) [which one? AU or AF?]
+- **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article(if they have one).
 
-- **OI**:	the author's ORCID ID number in the WOS record for an article  (if they have one) [which one? AU or AF?]
+- **OI**:	the author's ORCID ID number in the WOS record for an article  (if they have one).
 
-- **EM**:the author's email address in the WOS record for an article (if it lists one) [which one? AU or AF?]
-
-
+- **EM**:the author's email address in the WOS record for an article (if it lists one).
 
 <p align="center">  
 <img src="AuthorMatch.PNG" height="300" /> 
@@ -125,7 +121,7 @@ Users can assess if the validity of grouping different author name variants unde
 
 To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value from the **authorID** column (be sure to use the authorID value from the same row). 
 
-To correct cases where names weren't grouped together but should have been (i.e., they represent variants of the same author's name), replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. *italics*We recommend using the lowest authorID number of the name variants being pooled*italics*.
+To correct cases where names weren't grouped together but should have been (i.e., they represent variants of the same author's name), replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
 Once the revision is complete, save the file as a .csv file *[EB: with the same name?]* in the same location as the original file. 
 
@@ -138,12 +134,11 @@ Corrections made to the "Author" file are merged into the "Master List" file usi
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
-The output of `refine_authors()` is a file......This file can be used for many analyses, including....  
+The output of `refine_authors()` is a file. This file can be used for many analyses, including.
 
 ####Example
 
 > `eb_authors <- refine_authors(eb_authors, eb_authors_master, filename_root="./output/eb")`
-
 
 ###3. Georeferencing author institutions 
 
@@ -217,15 +212,14 @@ To plot a network diagram of co-author countries of origins and how they're conn
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
-This function has two outputs, in the form of a list. $plot is the plot, $data is the dataframe that was used to the build the plot. listname$plot is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+This function has two outputs, in the form of a list. `$plot` is the plot, `$data` is the dataframe that was used to the build the plot. `listname$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
 
 <p align="center">
 <img src="NetPlotBase.png" height="300" /> 
 </p>
 
-
 ####4.2.4. Net Plots (Country)
-To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **net_plot_coauthor_country()** function. The function has one argument:  
+To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **`net_plot_coauthor_country()`** function. The function has one argument:  
 
 - **data**: This is the output from `addresses_lat_long()`. Must be an object.  
 
@@ -239,7 +233,7 @@ The net plot analysis returns an object that allows the plotting of these comple
 ####4.2.5. Net Plots (Addresses)
 To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `net_plot_coauthor_addresses()` function. The function has one argument:  
 
-- **data**: This is the output from addresses_lat_long. Must be an object.
+- **data**: This is the output from `addresses_lat_long()`. Must be an object.
 
 The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
@@ -254,7 +248,7 @@ This function can create a large data set (100's of MB), and may takes several m
 
 ##Acknowledgments
 
-Support for the development of RefNet was provided by grants from the University of Florida Center for Latin American Studies and the niversity of Florida Informatics Institute.
+Support for the development of RefNet was provided by grants from the University of Florida Center for Latin American Studies and the University of Florida Informatics Institute.
 
 ##References
 
@@ -270,7 +264,7 @@ Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Re
 
 Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance. PLoS One 9(10): e109195.
 
-Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author‐based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
+Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
 
 Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
 
