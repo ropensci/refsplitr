@@ -311,7 +311,7 @@ read_authors <- function(references,
   }
   
   #final$groupID[!is.na(final$similarity)]
-  sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
+  sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','address',"country",'RI','OI','EM','UT',)]
   sub<-sub[order(sub$groupID, sub$authorID),]
   
   #write it out
