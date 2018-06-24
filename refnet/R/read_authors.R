@@ -167,14 +167,16 @@ read_authors <- function(references,
   
   
   finalad <- extract_country_name(origAddress)
+  finalad$institution <- finalad$university
   finalad<-finalad[,c('authorID','AU','AF','groupID',
                       'match_name','similarity','author_order',
-                      'address','university','department',
+                      'address','institution','department',
                       'short_address','postal_code',"country",
                       'RP_address','RI','OI','EM','UT',
                       'refID',"PT","PY","PU")]
   final<-finalad
   
+
   
   
   ############################################
@@ -183,7 +185,7 @@ read_authors <- function(references,
   # 
   # Because we are matching names, we're going to split the author names into their first,last,middle component.
   # This does this for the first entry and creates a list of novel names that we will step through later
-  novel.df<-data.frame(id=rep(NA,nrow(final)),first=NA,middle=NA,last=NA,university=NA,email=NA)
+  novel.df<-data.frame(id=rep(NA,nrow(final)),first=NA,middle=NA,last=NA,institution=NA,email=NA)
   
   ############################################
   # Split Names function
@@ -221,7 +223,7 @@ read_authors <- function(references,
   }
  ###########################################
   
-  novel.df[1,c('id','first','middle','last','university','email')]<- c(1,split.names(final$AF[1]),final$university[1],final$EM[1])
+  novel.df[1,c('id','first','middle','last','institution','email')]<- c(1,split.names(final$AF[1]),final$institution[1],final$EM[1])
   
   novel<-list('1'=1) # the novel list is a list of novel authors who get their own GROUPID
   #we start on the 2nd record as we assume the 1st record is novel
@@ -232,11 +234,11 @@ read_authors <- function(references,
     changeID<-NA
     novelids<-unlist(novel) #every iteration we rebuild the list of novelIDs and authors
     name<-final$AF[i]
-    university<-final$university[i]
+    institution<-final$institution[i]
     email<-final$EM[i]
     indicesAF<-final$AF[novelids]
     indicesAU<-final$AU[novelids]
-    indicesUni<-final$university[novelids]
+    indicesUni<-final$institution[novelids]
     #Author matching is done heirarchical starting with simple solutions and then leading to matching using jaro winkler methods
     # in this instance changeID will guide us through the hierarchy, if changeID is anything but NA we skip to the next record unitl a match has been found
     #match by exact OI matches
@@ -252,7 +254,7 @@ read_authors <- function(references,
 
     # split name into its first, middle, last component
     name.df<-split.names(final$AF[i])
-    name.df<-data.frame(first=name.df[1],middle=name.df[2],last=name.df[3],university=university,email=email,stringsAsFactors=F)
+    name.df<-data.frame(first=name.df[1],middle=name.df[2],last=name.df[3],institution=institution,email=email,stringsAsFactors=F)
     
     #Check name matches
     #Create a novel names df to compare against
@@ -263,16 +265,16 @@ read_authors <- function(references,
     colnames(novel.names)
     
     novel.names1<-novel.names[substr(name.df$first,1,1)==substr(novel.names$first,1,1) & name.df$last==novel.names$last,]
-    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,university=NA,email=NA)}
+    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,institution=NA,email=NA)}
     if(!is.na(name.df$first) & nchar(name.df$first)==1){novel.names1<-novel.names1[substr(novel.names1$first,1,1)==name.df$first,]}
     if(!is.na(name.df$first) & nchar(name.df$first)>1){novel.names1<-novel.names1[nchar(novel.names1$first)==1 | novel.names1$first==name.df$first,]}
     if(!is.na(name.df$middle) & nchar(name.df$middle)==1){novel.names1<-novel.names1[is.na(novel.names1$middle) | substr(novel.names1$middle,1,1)==name.df$middle,]}
-    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,university=NA,email=NA)}
+    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,institution=NA,email=NA)}
     if(nrow(novel.names1)>0){
     
     match1<-!is.na(name.df$middle) | novel.names1$middle==name.df$middle
     #match addresses
-    match2<-(!is.na(novel.names1$university)& !is.na(name.df$university)) & name.df$university==novel.names1$university
+    match2<-(!is.na(novel.names1$institution)& !is.na(name.df$institution)) & name.df$institution==novel.names1$institution
     #match emails
     match3<-(!is.na(novel.names1$email)& !is.na(name.df$email)) & name.df$email==novel.names1$email
     }
@@ -299,7 +301,7 @@ read_authors <- function(references,
       final$match_name[i]<-final$AF[changeID==final$authorID]}
     #If we still never found a match, we can assume the author is novel.
     if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]
-    novel.df[i,c('id','first','middle','last','university','email')]<-c(final$authorID[i],name.df)
+    novel.df[i,c('id','first','middle','last','institution','email')]<-c(final$authorID[i],name.df)
     }
     
     ###############################Clock#############################################
