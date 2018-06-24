@@ -286,7 +286,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$RI <- gsub(" ", "", output$RI, fixed=TRUE)
   
-  output$RI <- gsub("\n"," ", output$RI, fixed=TRUE)
+  output$RI <- gsub("\n","", output$RI, fixed=TRUE)
   
   output$RI <- gsub("; ", ";", output$RI, fixed=TRUE)
   
@@ -294,7 +294,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$OI <- gsub(" ", "", output$OI, fixed=TRUE)
   
-  output$OI <- gsub("\n"," ", output$OI, fixed=TRUE)
+  output$OI <- gsub("\n","", output$OI, fixed=TRUE)
   
   output$OI <- gsub("; ", ";", output$OI, fixed=TRUE)
   
