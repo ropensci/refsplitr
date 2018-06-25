@@ -1,26 +1,47 @@
-##################################################
-##################################################
-##	BEGIN: read_authors():
-
-#' Processes the output of read_references() to extract authors
-#' 
-#' \code{read_authors} This function extracts authors from a read_references format data.frame object, uses a Jaro-Winkler comparison of first names to try to match authors with multiple Last Name, Initial combinations, filling in potential matches using the AU_ID_Dupe and Similarity fields in the resulting output.  The output is a list containing two data.frame objects, one named authors and the other authors__references, which is a linking table that links authors by the AU_ID field to references data via the UT (Web of Knowledge ID) field.
-#' 
-#' @param references output from the read_references() function
-#' @param  sim_score similarity score cut off point. Number between 0-1. Default is 88 (liberal)
-#' @param filename_root the filename root, can include relative or absolute
-#'   path, to which "_authors.csv" and "_authors__references.csv" will be appended and the output from the
-#'   function will be saved
 read_authors <- function(references, 
                          sim_score=0.88 ,
                          filename_root="./",
                          write_out_data=FALSE) {
-  
+  ptm <- proc.time()
   list1<-list()
+  ############################################
+  # Split Names function
+  ###########################################
+  split.names<-function(x){
+    first<-NA;middle<-NA;last<-NA
+    #x<-final$AF[1]
+    #split first by commas, as we assume this is atleast seperating the last name from the rest of the information
+    first.split<-strsplit(x,',')
+    #we are going to assume the very first split before the comma is the last name
+    last<-first.split[[1]][1]
+    
+    #Since we've already split by commas, the next most comma split is by spaces. This can be dangerous if someone has a space in their first name, for now we'll assume it doesnt
+    second.split<-strsplit(first.split[[1]][-1],' ')
+    #delete trailing spaces (maybe a better way to do that)
+    second.split<-unlist(second.split)
+    second.split<-second.split[nchar(second.split)>0]
+    
+    #now we assume that the first name after the first comma is the first name, this is pretty standard so it should be safe enough of an assumption. 
+    #However because we often have First initials and middle intials shoved together with no space we have to specify lower case
+    
+    first<- regmatches(second.split,regexpr("[A-Z][a-z]*",second.split))[1]
+    
+    # Middle names are messy because they have multiple parts, spaces, names, and jrs srs, for the sake of this analysis
+    # we'll just shove the names together. Even though this might not be 'correct'. 
+    if(length(second.split)>1){
+      third.split<-second.split[-1]
+      middle<- gsub('[\\./,]','',paste0(third.split,collapse=''))
+    }
+    #Check if first and middle names are just initials and not seperated by period
+    
+    if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))}
+    
+    return(c(first=first, middle=middle, last=last))
+  }
   #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
   for(ref in 1:nrow(references)){
     #ref<-5209
-    if(ref==1){print('Summarizing author records')}
+    if(ref==1){print('Splitting author records')}
     
     #Split out authors and author emails
     authors_AU <- as.character(unlist(strsplit(references[ref,]$AU, "\n")))
@@ -53,7 +74,7 @@ read_authors <- function(references,
                     address=sapply(unique(unlist(strsplit(C1_names,
                                                           '; '))),
                                    function(x)
-      dd$C1_address[grepl(x,dd$C1_names)][1]))
+                                     dd$C1_address[grepl(x,dd$C1_names)][1]))
     if(nrow(dd1)==0 & length(C1_address)==length(authors_AU)){dd1<-data.frame(names=authors_AU,address=C1_address)}
     if(nrow(dd1)==0){dd1<-data.frame(names='',address='')}
     ###########
@@ -142,9 +163,8 @@ read_authors <- function(references,
   #Bind all author iterations together into one large sheet that should be used for base analysis from her eon out
   final<-do.call(rbind,list1)
   final$authorID<-1:nrow(final)
-  final$groupID<-final$authorID
-  final$match_name<-NA
-  final$similarity<-NA
+  final$EM<-tolower(final$EM)
+  
   ##########################
   ###############################
   # address parsing
@@ -167,163 +187,192 @@ read_authors <- function(references,
   
   
   finalad <- extract_country_name(origAddress)
-  finalad$institution <- finalad$university
-  finalad<-finalad[,c('authorID','AU','AF','groupID',
-                      'match_name','similarity','author_order',
-                      'address','institution','department',
+  finalad<-finalad[,c('authorID','AU','AF',
+                      'author_order',
+                      'address','university','department',
                       'short_address','postal_code',"country",
                       'RP_address','RI','OI','EM','UT',
                       'refID',"PT","PY","PU")]
   final<-finalad
-  
-
-  
-  
-  ############################################
-  # This is a secondary function to match authors that are likely to be the same person. This could
-  # possibly be done in a seperate function, but it seems to make sense to nest it here
-  # 
-  # Because we are matching names, we're going to split the author names into their first,last,middle component.
-  # This does this for the first entry and creates a list of novel names that we will step through later
-  novel.df<-data.frame(id=rep(NA,nrow(final)),first=NA,middle=NA,last=NA,institution=NA,email=NA)
-  
-  ############################################
-  # Split Names function
-  ###########################################
-  split.names<-function(x){
-    first<-NA;middle<-NA;last<-NA
-    #x<-final$AF[1]
-    #split first by commas, as we assume this is atleast seperating the last name from the rest of the information
-    first.split<-strsplit(x,',')
-    #we are going to assume the very first split before the comma is the last name
-    last<-first.split[[1]][1]
-    
-    #Since we've already split by commas, the next most comma split is by spaces. This can be dangerous if someone has a space in their first name, for now we'll assume it doesnt
-    second.split<-strsplit(first.split[[1]][-1],' ')
-    #delete trailing spaces (maybe a better way to do that)
-    second.split<-unlist(second.split)
-    second.split<-second.split[nchar(second.split)>0]
-    
-    #now we assume that the first name after the first comma is the first name, this is pretty standard so it should be safe enough of an assumption. 
-    #However because we often have First initials and middle intials shoved together with no space we have to specify lower case
-    
-    first<- regmatches(second.split,regexpr("[A-Z][a-z]*",second.split))[1]
-    
-    # Middle names are messy because they have multiple parts, spaces, names, and jrs srs, for the sake of this analysis
-    # we'll just shove the names together. Even though this might not be 'correct'. 
-    if(length(second.split)>1){
-      third.split<-second.split[-1]
-      middle<- gsub('[\\./,]','',paste0(third.split,collapse=''))
-    }
-    #Check if first and middle names are just initials and not seperated by period
-    
-    if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))}
-    
-    return(c(first=first, middle=middle, last=last))
+  ##################################
+  # Now start Author Matching
+  ##################################
+  #final$groupID<-NA
+  #final<-final[1:10000,]
+  colnames(final)
+  print('Matching authors')
+  novel.names<-data.frame(ID=final$authorID,unique.name=final$AF, groupID=NA, address=final$short_address,university=final$university,RI=final$RI,OI=final$OI,email=final$EM,first=NA,middle=NA,last=NA)
+  novel.names[,c("first",'middle','last')]<-tolower(t(sapply(as.character(novel.names$unique.name), split.names)))
+  novel.names$university<-tolower(as.character(novel.names$university))
+  length(unique(novel.names$groupID))
+  unique.oi<-novel.names$OI[!is.na(novel.names$OI) & is.na(novel.names$groupID)]
+  unique.oi<-names(table(unique.oi))[table(unique.oi)>1]
+  unique.oi<-unique.oi[!is.na(unique.oi)]
+  unique.oi<-as.character(unique.oi)
+  unique.oi[nchar(unique.oi)!=19]
+  unique.oi[unique.oi=="0000-0001-9549-4178"]
+  for(l in unique.oi){
+    #l<-"0000-0003-2589-826X"
+    novel.names$groupID[which(novel.names$OI==l)]<- min(novel.names$ID[which(novel.names$OI==l)])
   }
- ###########################################
+  length(unique(novel.names$groupID))
   
-  novel.df[1,c('id','first','middle','last','institution','email')]<- c(1,split.names(final$AF[1]),final$institution[1],final$EM[1])
+  unique.ri<-novel.names$RI[!is.na(novel.names$RI) & is.na(novel.names$groupID)]
+  unique.ri<-names(table(unique.ri))[table(unique.ri)>1]
+  unique.ri<-unique.ri[!is.na(unique.ri)]
+  unique.ri<-as.character(unique.ri)
+  unique.ri[nchar(unique.ri)!=11]
+  for(l in unique.ri){
+    #l<-"E-7093-2013"
+    choice<-which(novel.names$RI==l)
+    groupid<-novel.names$groupID[choice]
+    groupid<-groupid[!is.na(groupid)]
+    if(length(groupid)>0){groupid<-min(groupid)} else {groupid<-min(novel.names$ID[choice],na.rm=T)}
+    
+    novel.names$groupID[which(novel.names$RI==l)]<-groupid
+    
+    #if(groupid==30){stop()}
+  }
+  length(unique(novel.names$groupID))
   
-  novel<-list('1'=1) # the novel list is a list of novel authors who get their own GROUPID
-  #we start on the 2nd record as we assume the 1st record is novel
-  for(i in 2:nrow(final)){
-   #for(i in 15659:nrow(final)){
-    if(i==2){print('Matching similar authors names')}
-    #i<-64
-    changeID<-NA
-    novelids<-unlist(novel) #every iteration we rebuild the list of novelIDs and authors
-    name<-final$AF[i]
-    institution<-final$institution[i]
-    email<-final$EM[i]
-    indicesAF<-final$AF[novelids]
-    indicesAU<-final$AU[novelids]
-    indicesUni<-final$institution[novelids]
-    #Author matching is done heirarchical starting with simple solutions and then leading to matching using jaro winkler methods
-    # in this instance changeID will guide us through the hierarchy, if changeID is anything but NA we skip to the next record unitl a match has been found
-    #match by exact OI matches
-    if(!is.na(final$OI[i])){  
-      changeID<-final$groupID[!is.na(final$OI[1:(i-1)]) & final$OI[1:(i-1)]==final$OI[i]][1]
-    }
+  unique.em<-novel.names$email[!is.na(novel.names$email) & is.na(novel.names$groupID)]
+  unique.em<-names(table(unique.em))[table(unique.em)>1]
+  unique.em<-unique.em[!is.na(unique.em)]
+  unique.em<-as.character(unique.em)
+  for(l in unique.em){
+    # l<-'soto@ege.fcen.uba.ar'
+    #l<-'aabril@agro.uncor.edu'
+    choice<-which(novel.names$email==l)
+    groupid<-novel.names$groupID[choice]
+    groupid<-groupid[!is.na(groupid)]
     
-    #match by exact RI matches
-    if(is.na(changeID) & !is.na(final$RI[i])){  
-      changeID<-final$groupID[!is.na(final$RI[1:(i-1)]) & final$RI[1:(i-1)]==final$RI[i]][1]
-    }
+    if(length(groupid)>0){groupid<-min(groupid)} else {groupid<-min(novel.names$ID[choice],na.rm=T)}
+    novel.names$groupID[which(novel.names$email==l)]<-groupid
     
+  }
+  
 
-    # split name into its first, middle, last component
-    name.df<-split.names(final$AF[i])
-    name.df<-data.frame(first=name.df[1],middle=name.df[2],last=name.df[3],institution=institution,email=email,stringsAsFactors=F)
-    
-    #Check name matches
-    #Create a novel names df to compare against
-    novel.names<-novel.df[!is.na(novel.df$id),]
-    
-    #First check for full name matching (first, middle, last)
-    name.df
-    colnames(novel.names)
-    
-    novel.names1<-novel.names[substr(name.df$first,1,1)==substr(novel.names$first,1,1) & name.df$last==novel.names$last,]
-    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,institution=NA,email=NA)}
-    if(!is.na(name.df$first) & nchar(name.df$first)==1){novel.names1<-novel.names1[substr(novel.names1$first,1,1)==name.df$first,]}
-    if(!is.na(name.df$first) & nchar(name.df$first)>1){novel.names1<-novel.names1[nchar(novel.names1$first)==1 | novel.names1$first==name.df$first,]}
-    if(!is.na(name.df$middle) & nchar(name.df$middle)==1){novel.names1<-novel.names1[is.na(novel.names1$middle) | substr(novel.names1$middle,1,1)==name.df$middle,]}
-    if(nrow(novel.names1)==0){novel.names1<-data.frame(id=NA,first=NA,middle=NA,last=NA,institution=NA,email=NA)}
-    if(nrow(novel.names1)>0){
-    
-    match1<-!is.na(name.df$middle) | novel.names1$middle==name.df$middle
-    #match addresses
-    match2<-(!is.na(novel.names1$institution)& !is.na(name.df$institution)) & name.df$institution==novel.names1$institution
-    #match emails
-    match3<-(!is.na(novel.names1$email)& !is.na(name.df$email)) & name.df$email==novel.names1$email
-    }
-    #if(nrow(novel.names1)==0){match1<-F;match2<-F;match3<-F}
-    if(sum(ifelse(is.na(c(match1,match2,match3)),F,c(match1,match2,match3)))>0){
-      changeID<-novel.names1$id[c(which(match1),which(match2),which(match3))[1]]
-      }
-    
-    if(is.na(changeID)  & nrow(novel.names1)>0 & !is.na(novel.names1$id)){
+  length(unique(novel.names$groupID))
+  
+  novel.names$similarity<-NA
+  novel.names$match_name<-NA
+  novel.names$f.c<-nchar(novel.names$first)
+  novel.names$m.c<-nchar(novel.names$middle)
+  novel.names$f.i<-substr(novel.names$first,1,1)
+  novel.names$m.i<-substr(novel.names$middle,1,1)
+  #match authors with the same first, last, and middle name
+  remain<-subset(novel.names,!is.na(m.i) & f.c>1)[,c('ID','groupID','first','middle','last')]
+  remain<-merge(subset(remain,is.na(groupID)), remain, by=c('first','middle','last'))
+  remain<-subset(here, ID.x!=ID.y)
+  dd<-data.frame(g.n=unique(paste(remain$first,remain$middle,remain$last,sep=';')),first=NA,middle=NA,last=NA,stringsAsFactors=F)
+  dd$id<-1:nrow(dd)
+  dd[,c('first','middle','last')]<-do.call(rbind,strsplit(dd$g.n,';'))
+  remain<-merge(remain,subset(dd,select=-g.n), by=c('first','middle','last'))
+  for(n in dd$id){
+    sub<-subset(remain1, id==n)
+    unique.id<-unique(sub$ID.x)
+    if(!sum(is.na(sub$groupID.y))==nrow(sub)){ groupid<-min(unique(sub$groupID.y),na.rm=T)}else{groupid<-min(unique.id,na.rm=T)}
       
-      
-     jw_m<-jarowinkler(paste0(novel.names1$last,novel.names1$first,novel.names1$middle),paste0(name.df$last,name.df$first,name.df$middle))
-        #choice<-(max(jw_m)==jw_m & jw_m>=sim_score)
-        choice<-(max(jw_m)==jw_m)
-        changeID<-novel.names1$id[choice][1]
-        #changeID<-final$authorID[novelids][choice][1]
-        if(sum(choice)>0){final$similarity[i]<-jw_m[choice][1]}
+    novel.names$groupID[novel.names$ID%in%unique.id]<-groupid  
+  }
+  length(unique(novel.names$groupID))
+  #
+  
+  unique.groupid<-subset(novel.names,(m.c>0 |!is.na(university) | !is.na(email)) & is.na(groupID))$ID
+  which(unique.groupid==2032)
+  
+  
+  for(p in unique.groupid){
+   #for(p in unique.groupid[1:1257]){
+    #p<-2037
+    matched<-F
+    default.frame<-data.frame(ID=NA,first=NA,middle=NA,last=NA,university=NA,email=NA,f.i=0)
+    match1<-NA;match2<-NA
+    name.df<-novel.names[novel.names$ID==p,]
+    # We need to create a dataframe of possible matching authors, so we dont run comparissons on obviously incorrect people
+    novel.names1<-subset(novel.names,(m.c>0 |!is.na(university) | !is.na(email)) & ID!=p)
+    
+    novel.names1<-novel.names1[substr(name.df$first,1,1)==novel.names1$f.i & name.df$last==novel.names1$last  ,]
+    if(nrow(novel.names1)==0){novel.names1<-default.frame}
+    if(!is.na(name.df$first) & nchar(name.df$first)==1){novel.names1<-novel.names1[novel.names1$f.i==name.df$first,]}
+    if(!is.na(name.df$first) & nchar(name.df$first)>1){novel.names1<-novel.names1[novel.names1$f.c==1 | novel.names1$first==name.df$first,]}
+    #if middle initial is 1 letter
+    if(!is.na(name.df$middle) & nchar(name.df$middle)==1){novel.names1<-novel.names1[is.na(novel.names1$middle) | novel.names1$m.i==name.df$middle,]}
+    #if has a middle name, must match
+    if(!is.na(name.df$middle) & nchar(name.df$middle)>1){novel.names1<-novel.names1[is.na(novel.names1$middle) | novel.names1$m.i==name.df$m.i,]}
+    
+    if(nrow(novel.names1)==0){novel.names1<-data.frame(ID=NA,first=NA,middle=NA,last=NA,university=NA,email=NA)}
+    if(!anyNA(novel.names1$ID)){
+      #match full middle name
+      match1<-!is.na(name.df$middle) & novel.names1$middle==name.df$middle
+      #match addresses
+      match2<-(!is.na(novel.names1$university)& !is.na(name.df$university)) & name.df$university==novel.names1$university
+      #match middle initial
+      match3<-!is.na(name.df$m.i) & novel.names1$m.i==name.df$m.i
+      #match emails
+      #if(nrow(novel.names1)==0){match1<-F;match2<-F;match3<-F}
+      if(sum(ifelse(is.na(c(match1,match2,match3)),F,c(match1,match2,match3)))>0){
+        matched<-T
+        choice<-c(which(match1),which(match2),which(match3))
+        if(sum(!is.na(novel.names1$groupID[choice]))>0){groupid<-min(novel.names1$groupID[choice],na.rm=T)} else {groupid<-min(novel.names1$ID[choice],na.rm=T)}
+        novel.names$groupID[novel.names$ID==p]<-groupid
       }
-    
-    
-    #If we found a match we'll change the groupID to it's match
-    if(!is.na(changeID)){
-      final$groupID[i]<-final$groupID[changeID==final$authorID]
-      final$match_name[i]<-final$AF[changeID==final$authorID]}
-    #If we still never found a match, we can assume the author is novel.
-    if(is.na(changeID)){novel[[paste0(i)]]<-final$authorID[i]
-    novel.df[i,c('id','first','middle','last','institution','email')]<-c(final$authorID[i],name.df)
     }
     
+    #Jaro_winkler
+    if(!matched & nrow(novel.names1)>0 & !anyNA(novel.names1$ID)) {
+      
+      jw_m<-jarowinkler(paste0(novel.names1$last,novel.names1$first,novel.names1$middle),paste0(name.df$last,name.df$first,name.df$middle))
+      choice<-(max(jw_m)==jw_m)
+      if(sum(!is.na(novel.names1$groupID[choice]))>0){groupid<-min(novel.names1$groupID[choice],na.rm=T)
+      groupname<-novel.names1$unique.name[novel.names1$groupID==groupid][1]
+      } else {
+        groupid<-min(novel.names1$ID[choice],na.rm=T)
+        groupname<-novel.names1$unique.name[novel.names1$ID==groupid]}
+      
+      novel.names$groupID[novel.names$ID==p]<-groupid
+      novel.names$match_name[novel.names$ID==p]<-as.character(groupname)
+      #changeID<-final$authorID[novelids][choice][1]
+      if(sum(choice)>0){novel.names$similarity[novel.names$ID==p]<-jw_m[choice][1]}
+    }
     ###############################Clock#############################################
-    total <- nrow(final)
+    total <- length(unique.groupid)
     pb <- txtProgressBar(min = 0, max = total, style = 3)
-    setTxtProgressBar(pb, i)
+    setTxtProgressBar(pb, which(p==unique.groupid))
     flush.console()
     #################################################################################
+    
   }
+  # Fixes a small issue where sometimes matched names using Jaro_winkler will get a groupID distinction but that the author
+  # it matched with will get a different groupID if it has a more perfect match criteria.
+  novel.names$groupID[is.na(novel.names$groupID)]<-novel.names$ID[is.na(novel.names$groupID)]
+ quick.check<-novel.names$ID[!is.na(novel.names$similarity)]
+  for(m in quick.check){
+    #m<-quick.check[1]
+    novel.names$groupID[novel.names$ID==m]<-novel.names$groupID[novel.names$ID==novel.names$groupID[novel.names$ID==m]]
+  }
+
+  length(unique(novel.names$groupID))
   
-  #final$groupID[!is.na(final$similarity)]
-  sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','address',"country",'RI','OI','EM','UT')]
-  sub<-sub[order(sub$groupID, sub$authorID),]
+  proc.time() - ptm
+  
+  final<-merge(final, novel.names[,c('ID','groupID','match_name','similarity')], by.x='authorID',by.y='ID',all.x=T)
+ final<-final[,c('authorID','AU','AF','groupID','match_name','similarity',colnames(final)[!colnames(final)%in%c('authorID','AU','AF','groupID','match_name','similarity')])]
+  
+  #This only brings in the author to be matched and its actual match
+  #sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
+  #This brings in the author to be matched and the whole groupID associated so you can have more information
+  sub<-final[final$groupID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
+  sub<-sub[order(sub$groupID, sub$similarity,sub$authorID),]
   
   #write it out
-    write.csv(subset(final,select=-c(match_name,similarity)), 
-              file=paste0(filename_root, "_authors_master.csv"), 
-              row.names=FALSE)
-    
-    write.csv(sub, 
-              file=paste0(filename_root, "_authors.csv"), 
-              row.names=FALSE)
+  write.csv(subset(final,select=-c(match_name,similarity)), 
+            file=paste0(filename_root, "_authors_master.csv"), 
+            row.names=FALSE)
+  
+  write.csv(sub, 
+            file=paste0(filename_root, "_authors.csv"), 
+            row.names=FALSE)
   #
   return(list(master=final,authors=sub))
 } #end function
