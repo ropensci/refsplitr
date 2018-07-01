@@ -300,7 +300,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$PY <- gsub("\n", "", output$PY, fixed=TRUE)  
 
-  output$C1<-gsub('\n',';',output$C1, fixed=TRUE)
+  output$C1<-gsub('\n','/',output$C1, fixed=TRUE)
   
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
