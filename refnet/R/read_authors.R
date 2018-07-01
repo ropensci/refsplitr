@@ -386,5 +386,5 @@ read_authors <- function(references,
             file=paste0(filename_root, "_authors.csv"), 
             row.names=FALSE)
   #
-  return(list(master=final,authors=sub))
+  return(list(master=final,authors=sub.authors))
 } #end function
