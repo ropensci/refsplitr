@@ -34,7 +34,7 @@ read_authors <- function(references,
     
     if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))[1]}
     
-    return(c(first=first, middle=middle, last=last,stringsAsFactors=F))
+    return(c(first=first, middle=middle, last=last))
   }
   
   #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
