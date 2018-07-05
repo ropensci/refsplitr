@@ -5,8 +5,6 @@ read_authors <- function(references,
   ptm <- proc.time()
   list1<-list()
   ############################################
-  # Split Names function
-  ###########################################
   split.names<-function(x){
     first<-NA;middle<-NA;last<-NA
     #x<-final$AF[1]
@@ -34,10 +32,11 @@ read_authors <- function(references,
     }
     #Check if first and middle names are just initials and not seperated by period
     
-    if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))}
+    if( length(second.split)>0 && grepl("[A-Z][A-Z]", second.split)){middle<-substr(second.split,2,nchar(second.split))[1]}
     
-    return(c(first=first, middle=middle, last=last))
+    return(c(first=first, middle=middle, last=last,stringsAsFactors=F))
   }
+  
   #if(sim_score>1){print('Similarity score can not be greater than 1! Using default value (0.88)'); sim_score<-0.88}
   for(ref in 1:nrow(references)){
     #ref<-5209
@@ -77,6 +76,7 @@ read_authors <- function(references,
                                      dd$C1_address[grepl(x,dd$C1_names)][1]))
     if(nrow(dd1)==0 & length(C1_address)==length(authors_AU)){dd1<-data.frame(names=authors_AU,address=C1_address)}
     if(nrow(dd1)==0){dd1<-data.frame(names=authors_df$AF,address='Could not be extracted')}
+    dd1$address[dd1$address=='NA']<-NA
     ###########
     # Split out Reprint Author information 
     RP <- unlist(strsplit(references[ref,]$RP, "\n"))
@@ -172,40 +172,131 @@ read_authors <- function(references,
   ###############################
   # address parsing
   ###############################
-  suppressWarnings(origAddress <- separate(data=final, 
-                                           col = address,
-                                           into=c("university","department","short_address"),
-                                           sep=",",extra = "merge", remove=FALSE) %>%
-                     mutate(postal_code = str_extract(string=short_address, 
-                                                      pattern="[:alpha:]{2}[:punct:]{1}[:digit:]{1,8}|[:space:][:upper:][:digit:][:upper:][:space:][:digit:][:upper:][:digit:]|[:alpha:][:punct:][:digit:]{4}")) %>%
-                     mutate(postal_code = ifelse(is.na(postal_code), 
-                                                 str_extract(string=short_address,
-                                                             pattern="[:space:][:digit:]{5}"), postal_code)) %>%
-                     mutate(postal_code = ifelse(is.na(postal_code), 
-                                                 str_extract(string=short_address,
-                                                             pattern="[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"),
-                                                 postal_code)))
+
+  final$address<-as.character(final$address)
+  final$address[is.na(final$address)]<-'Could not be extracted'
+  sub.address<-final
+  list.address<-strsplit(sub.address$address,',')
+  university.list<-sapply(list.address,function(x)x[1])
+  country.list<-sapply(list.address,function(x)gsub('\\.','',x[length(x)]))
+  country.list<-trimws(country.list,which='both')
+  postal_code.list<-trimws(substr(country.list,1,(sapply(regexpr('USA',country.list),function(x)x[1]))-1),which='right')
+  state.list<-postal_code.list
   
-  origAddress[is.na(origAddress$short_address),"short_address"] <- "No Affiliation" 
+  state.list[nchar(state.list)>0]<-regmatches(state.list[nchar(state.list)>0],regexpr("[[:upper:]]{2}",state.list[nchar(state.list)>0]))
   
   
-  finalad <- extract_country_name(origAddress)
-  finalad<-finalad[,c('authorID','AU','AF',
-                      'author_order',
-                      'address','university','department',
-                      'short_address','postal_code',"country",
-                      'RP_address','RI','OI','EM','UT',
-                      'refID',"PT","PY","PU")]
-  final<-finalad
+  postal_code.list[nchar(postal_code.list)>2]<-regmatches(postal_code.list[nchar(postal_code.list)>2],regexpr("[[:digit:]]{5}",postal_code.list[nchar(postal_code.list)>2]))
+  postal_code.list[nchar(postal_code.list)<3]<-''
+  country.list<-ifelse(grepl('USA',country.list),'USA',country.list)
+  
+  list.address1<-sapply(list.address,function(x)x[-c(1,length(x))])
+  
+  
+  second.tier.list<-sapply(list.address1,function(x)x[length(x)])
+  second.tier.list<-trimws(second.tier.list,which='both')
+  second.tier.list[second.tier.list=='character(0)']<-NA
+  
+  list.address2<-sapply(list.address1,function(x)x[-c(length(x))])
+  
+  third.tier.list<-sapply(list.address2,function(x)x[length(x)])
+  third.tier.list<-trimws(third.tier.list,which='both')
+  third.tier.list[third.tier.list=='character(0)']<-NA
+  
+  remain.list<-sapply(list.address2,function(x)x[-c(length(x))][1])
+  remain.list<-trimws(remain.list,which='both')
+  remain.list[remain.list=='character(0)']<-NA
+  
+  address.df<-data.frame(adID=final$authorID,university=university.list,country=country.list,state=state.list,postal_code=postal_code.list,city=NA,department=NA,second.tier=second.tier.list,third.tier=third.tier.list,remain=remain.list,address=sub.address$address,stringsAsFactors=F)
+  
+  #try to fix the USA spots
+  address.df$city[nchar(address.df$state)>0]<-address.df$second.tier[nchar(address.df$state)>0]
+  address.df$state[nchar(address.df$state)==0]<-NA
+  address.df$postal_code[nchar(address.df$postal_code)==0]<-NA
+  address.df$department[!is.na(address.df$state)&!is.na(address.df$postal_code)&!is.na(address.df$state)]<-address.df$third.tier[!is.na(address.df$state)&!is.na(address.df$postal_code)&!is.na(address.df$state)]
+  #address.df$adID<-1:nrow(address.df)
+  ##########################
+  # reg expression postal_code search
+  int<-"[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}|[[:space:]][[:upper:]][[:digit:]][[:upper:]][[:space:]][[:digit:]][[:upper:]][[:digit:]]|[[:alpha:]][[:punct:]][[:digit:]]{4,7}|[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
+  
+  UK<-"[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
+  
+  #SO14 3ZH
+  #L69 7ZB
+  #NR33 OHT
+  Mexico<-"[[:space:]]{1}[[:digit:]]{5}" #technically US as well
+  
+  zip.search<-paste0(int,'|',UK,'|',Mexico)
+  
+  ###########################
+  id.run<-address.df$adID[is.na(address.df$state)&is.na(address.df$postal_code) & address.df$address!='Could not be extracted']
+  ###########################
+  
+  print("Parsing addresses")
+  for(i in id.run){
+    #i<-13998
+    found<-F
+    row<-which(address.df$adID==i)
+    second.tier<-address.df$second.tier[row]
+    third.tier<-address.df$third.tier[row]
+    remain<-address.df$remain[row]
+    city<-NA;state<-NA;postal_code<-NA;department<-NA
+    grepl(zip.search,second.tier)
+    grepl(zip.search,third.tier)
+    #2nd tier
+    if(grepl(zip.search,second.tier)){
+      found<-T
+      postal_code<-regmatches(second.tier,regexpr(zip.search,second.tier) )
+      city<-gsub(zip.search,'',second.tier)
+      department<-ifelse(is.na(remain),third.tier,remain)
+    }
+    
+    
+    if(grepl(zip.search,third.tier)&!found){
+      found<-T
+      postal_code<-regmatches(third.tier,regexpr(zip.search,third.tier) )
+      city<-gsub(zip.search,'',third.tier)
+      state<-second.tier
+      department<-remain
+    }
+    
+    if(!found){
+      state<-second.tier
+      city<-third.tier
+      department<-remain
+    }
+    address.df$city[row]<-gsub('[[:digit:]]','',city)
+    address.df$state[row]<-gsub('[[:digit:]]','',state)
+    address.df$postal_code[row]<-postal_code
+    address.df$department[row]<-department
+    ###############################Clock#############################################
+    total <- length(id.run)
+    pb <- txtProgressBar(min = 0, max = total, style = 3)
+    setTxtProgressBar(pb, which(id.run==i))
+    flush.console()
+    #################################################################################
+    
+  }
+  #address.df$department[is.na(address.df$department) & !is.na(address.df$third.tier)]<-address.df$third.tier[is.na(address.df$department) & !is.na(address.df$third.tier)]
+  city.fix<-is.na(address.df$city) & !is.na(address.df$state)
+  address.df$city[city.fix]<-address.df$state[city.fix]
+  address.df$state[city.fix]<-NA
+  address.df$university[address.df$university=='Could not be extracted']<-NA
+  address.df$country[address.df$country=='Could not be extracted']<-NA
+  
+  final<-merge(final,address.df[,c('university','country','state','postal_code','city','department','adID')],by.x='authorID',by.y='adID',all.x=T)
   ##################################
   # Now start Author Matching
   ##################################
-  #final$groupID<-NA
+  #address.df$groupID<-NA
   #final<-final[1:10000,]
   colnames(final)
   print('Matching authors')
-  novel.names<-data.frame(ID=final$authorID,unique.name=final$AF, groupID=NA, address=final$short_address,university=final$university,country=final$country,RI=final$RI,OI=final$OI,email=final$EM,first=NA,middle=NA,last=NA)
-  novel.names[,c("first",'middle','last')]<-tolower(t(sapply(as.character(novel.names$unique.name), split.names)))
+  novel.names<-data.frame(ID=final$authorID,unique.name=final$AF, groupID=NA, address=final$address,university=final$university,country=final$country,RI=final$RI,OI=final$OI,email=final$EM,first=NA,middle=NA,last=NA)
+  novel.names[,c("first",'middle','last')]<-t(sapply(as.character(novel.names$unique.name), split.names))
+  novel.names$first<-tolower(novel.names$first)
+  novel.names$middle<-tolower(novel.names$middle)
+  novel.names$last<-tolower(novel.names$last)
   novel.names$university[novel.names$university%in%c('No Affiliation',"Could not be extracted")]<-NA
   novel.names$university<-tolower(as.character(novel.names$university))
   novel.names$address[novel.names$address%in%c('No Affiliation',"Could not be extracted")]<-NA
@@ -374,7 +465,7 @@ read_authors <- function(references,
   #This only brings in the author to be matched and its actual match
   #sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
   #This brings in the author to be matched and the whole groupID associated so you can have more information
-  sub.authors<-final[final$groupID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','author_order','university','department','short_address','postal_code',"country",'address','RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
+  sub.authors<-final[final$groupID%in%final$groupID[!is.na(final$similarity)],c('authorID','AU','AF','groupID','match_name','similarity','author_order','university','department','postal_code',"country",'address','RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
   sub.authors<-sub.authors[order(sub.authors$groupID, sub.authors$similarity,sub.authors$authorID),]
   
   #write it out
