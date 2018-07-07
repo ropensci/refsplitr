@@ -42,6 +42,7 @@ address_lat_long <- function(data,
   # We're using the data science toolkit first because it has no maximum queery limits. 
   # The remainder of addresses will be thrown into googles api
   check.open<-NA
+  print('Trying data science toolkit first...')
   check.open<-tryCatch(scan('http://www.datasciencetoolkit.org',nlines=1),warning=function(w){w})
   if(!is.na(check.open[1])){print('data science toolkit is down right now, moving onto google API')}
   if(is.na(check.open[1])){
@@ -105,7 +106,7 @@ address_lat_long <- function(data,
     #put system to sleep for 5 seconds to allow googles query limits to reset
     if(retry==T){print('server busy, trying again in 5 seconds');Sys.sleep(5)}
   }
-  c('authorID','AF','groupID','author_order','address','university','department','RP_address','RI','OI','UT','refID','postal_code','country','lat','lon')%in%colnames(addresses)
+  #c('authorID','AF','groupID','author_order','address','university','department','RP_address','RI','OI','UT','refID','postal_code','country','lat','lon')%in%colnames(addresses)
   # merge results together
   addresses<-merge(uniqueAddress,subset(paste.frame,select=-address),by='short_address',all.x=T)
   addresses<-merge(addresses, subset(data,select=c(authorID,AF,groupID,author_order,address,department,RP_address,RI,OI,UT,refID)),by='authorID',all.x=T)
