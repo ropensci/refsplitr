@@ -286,7 +286,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$RI <- gsub(" ", "", output$RI, fixed=TRUE)
   
-  output$RI <- gsub("\n"," ", output$RI, fixed=TRUE)
+  output$RI <- gsub("\n","", output$RI, fixed=TRUE)
   
   output$RI <- gsub("; ", ";", output$RI, fixed=TRUE)
   
@@ -294,12 +294,14 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$OI <- gsub(" ", "", output$OI, fixed=TRUE)
   
-  output$OI <- gsub("\n"," ", output$OI, fixed=TRUE)
+  output$OI <- gsub("\n","", output$OI, fixed=TRUE)
   
   output$OI <- gsub("; ", ";", output$OI, fixed=TRUE)
   
   output$PY <- gsub("\n", "", output$PY, fixed=TRUE)  
 
+  output$C1<-gsub('\n','/',output$C1, fixed=TRUE)
+  
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
   
