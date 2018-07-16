@@ -314,7 +314,12 @@ read_authors <- function(references,
   
   #final$groupID[!is.na(final$similarity)]
   sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','address',"country",'RI','OI','EM','UT')]
+  
   sub<-sub[order(sub$groupID, sub$authorID),]
+  
+  
+  
+  
   
   #write it out
     write.csv(subset(final,select=-c(match_name,similarity)), 
