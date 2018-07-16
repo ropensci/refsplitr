@@ -26,15 +26,8 @@ refine_authors is doing what merge_records and remove_duplicates did before
 authors_final<-refine_authors(authors, sim_score=0.94)
 
 ```{r, message=FALSE, eval=FALSE}
-
-
-## I can't this one to work for me
-eb_references <- read_references("~/refnet2/data/EBpubs.txt", dir=FALSE, filename_root="~/refnet2/output/eb")
-
-# Biut this one does. 
-eb_references <- read_references("./data/EBpubs.txt", dir=FALSE, filename_root="./output/eb")
-# I think it's because the one above points to: '/Users/emiliobruna/refnet2/data/EBpubs.txt' and there is nothing there, whereas the second points to the local repo.
-
+eb_references <- read_references("~/refnet2/data/EBpubs.txt", dir=FALSE, 
+                                filename_root="~/refnet2/output/eb")
 
 eb_authors <- read_authors(eb_references, filename_root="~/refnet2/output/eb")
 
