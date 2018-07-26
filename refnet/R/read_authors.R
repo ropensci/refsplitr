@@ -43,10 +43,10 @@ read_authors <- function(references,
     if(ref==1){print('Splitting author records')}
     
     #Split out authors and author emails
-    authors_AU <- as.character(unlist(strsplit(references[ref,]$AU, "\n")))
-    authors_AF <- as.character(unlist(strsplit(references[ref,]$AF, "\n")))
+    authors_AU <- as.character(unlist(strsplit(references[ref,]$AU, "/")))
+    authors_AF <- as.character(unlist(strsplit(references[ref,]$AF, "/")))
     
-    authors_EM <- unlist(strsplit(references[ref,]$EM, "\n"))
+    authors_EM <- unlist(strsplit(references[ref,]$EM, "/"))
     authors_EM_strip<-substr(authors_EM,1,regexpr('@',authors_EM)-1)
     
     ###########
@@ -79,7 +79,7 @@ read_authors <- function(references,
     dd1$address[dd1$address=='NA']<-NA
     ###########
     # Split out Reprint Author information 
-    RP <- unlist(strsplit(references[ref,]$RP, "\n"))
+    RP <- unlist(strsplit(references[ref,]$RP, "/"))
     RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
     RP_df<-data.frame(AU=substr(RP,1,regexpr('(reprint author)',RP)[1]-3),RP_address)
     
