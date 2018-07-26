@@ -125,7 +125,7 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
     
     if (length(read_line) > 0) {
       ###	Check for UTF-8 encoding:
-      #if (substr(read_line, 1, 3) == "ï»¿") {
+      #if (substr(read_line, 1, 3) == "Ã¯Â»Â¿") {
       #	read_line <- substr(read_line, 4, nchar(read_line))
       #}
       ###	Check for alternate UTF-8 encoding:
@@ -282,11 +282,11 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
 # We can add to this section as we find things that need to be fixed
   output$EM <- gsub(" ", "", output$EM)
   
-  output$EM <- gsub(";", "\n", output$EM)
+  output$EM <- gsub(";", "/", output$EM)
   
   output$RI <- gsub(" ", "", output$RI, fixed=TRUE)
   
-  output$RI <- gsub("\n","", output$RI, fixed=TRUE)
+ 
   
   output$RI <- gsub("; ", ";", output$RI, fixed=TRUE)
   
@@ -294,14 +294,49 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   
   output$OI <- gsub(" ", "", output$OI, fixed=TRUE)
   
-  output$OI <- gsub("\n","", output$OI, fixed=TRUE)
+  
   
   output$OI <- gsub("; ", ";", output$OI, fixed=TRUE)
   
+  #line breaks mean different things for different columns, so we'll manually fix them as we see fit
+  output$OI <- gsub("\n","", output$OI, fixed=TRUE)
+  output$RI <- gsub("\n","", output$RI, fixed=TRUE)
   output$PY <- gsub("\n", "", output$PY, fixed=TRUE)  
-
   output$C1<-gsub('\n','/',output$C1, fixed=TRUE)
+  output$AF<-gsub('\n','/',output$AF, fixed=TRUE)
+  output$AU<-gsub('\n','/',output$AU, fixed=TRUE)
+  output$BP<-gsub('\n','',output$BP, fixed=TRUE)
+  output$DI<-gsub('\n','',output$DI, fixed=TRUE)
   
+  output$EM<-gsub('\n','/',output$EM, fixed=TRUE)
+output$EP<-gsub('\n','',output$EP, fixed=TRUE)
+output$FN<-gsub('\n','',output$FN, fixed=TRUE)
+output$FU<-gsub('\n','/',output$FU, fixed=TRUE)
+output$FX<-gsub('\n',' ',output$FX, fixed=TRUE)
+output$IS<-gsub('\n','',output$IS, fixed=TRUE)
+output$LA<-gsub('\n','',output$LA, fixed=TRUE)
+output$NR<-gsub('\n','',output$NR, fixed=TRUE)
+output$PD<-gsub('\n','',output$PD, fixed=TRUE)
+output$PM<-gsub('\n','',output$PM, fixed=TRUE)
+output$PT<-gsub('\n','',output$PT, fixed=TRUE)
+output$RP<-gsub('\n','',output$RP, fixed=TRUE)
+output$SI<-gsub('\n','',output$SI, fixed=TRUE)
+output$SN<-gsub('\n','',output$SN, fixed=TRUE)
+output$SO<-gsub('\n','',output$SO, fixed=TRUE)
+output$TC<-gsub('\n','',output$TC, fixed=TRUE)
+output$PT<-gsub('\n','',output$PT, fixed=TRUE)
+output$TI<-gsub('\n',' ',output$TI, fixed=TRUE)
+output$UT<-gsub('\n','',output$UT, fixed=TRUE)
+output$VR<-gsub('\n','',output$VR, fixed=TRUE)
+output$VL<-gsub('\n','',output$VL, fixed=TRUE)
+output$WC<-gsub('\n','',output$WC, fixed=TRUE)
+output$Z9<-gsub('\n','',output$Z9, fixed=TRUE)
+  
+ #fixes an issue where a dash is introduced with no following word 
+  for(i in colnames(output)){
+output[sapply(strsplit(output$EM,'/'),length)==1,i]<-gsub('/','',output[sapply(strsplit(output$EM,'/'),length)==1,i])}
+
+  #######
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
   
@@ -314,7 +349,3 @@ read_references <- function(data=".", dir=TRUE, filename_root="") {
   }
   return(dupe_output)
 }	
-
-##	END: read_references():
-##################################################
-##################################################
