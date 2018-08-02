@@ -1,4 +1,4 @@
-"authorID","AU","AF","groupID","author_order","address","institution","department","short_address","postal_code","country","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
+"authorID","AU","AF","groupID","author_order","address","university","department","short_address","postal_code","country","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
 1,"Bruna, EM","Bruna, Emilio M.",1,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida"," Dept Wildlife Ecol & Conservat"," Gainesville, FL 32611 USA."," 32611","USA",NA,NA,NA,NA,"WOS:000388274700005
 ",1,"J
 ","2016",NA
@@ -512,28 +512,28 @@
 171,"dos Santos, FAM","Maes dos Santos, Flavio Antonio",152,3,"Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.","Univ Estadual Campinas"," Inst Biol"," Dept Bot, BR-13083970 Campinas, SP, Brazil.","BR-13083970","Brazil",NA,NA,NA,NA,"WOS:000208242200002
 ",37,"J
 ","2010",NA
-172,"Portela, RDQ","Quitete Portela, Rita de Cassia",153,1,"Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Estadual Campinas"," Programa Posgrad Ecol"," BR-13083970 Campinas, SP, Brazil.","BR-13083970","Brazil","Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.",NA,NA,NA,"WOS:000208242200002
+172,"Portela, RDQ","Quitete Portela, Rita de Cassia",172,1,"Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.","Univ Estadual Campinas"," Programa Posgrad Ecol"," BR-13083970 Campinas, SP, Brazil.","BR-13083970","Brazil","Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.",NA,NA,NA,"WOS:000208242200002
 ",37,"J
 ","2010",NA
-173,"Bruna, EM","Bruna, Emilio M.",1,7,NA,NA,NA,"No Affiliation",NA,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000271658000007
+173,"Bruna, EM","Bruna, Emilio M.",1,7,NA,NA,NA,NA,NA,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-174,"Costa, AN","Costa, Alan N.",174,6,NA,NA,NA,"No Affiliation",NA,NA,NA,"F-2836-2014","0000-0002-7396-6370 ",NA,"WOS:000271658000007
+174,"Costa, AN","Costa, Alan N.",174,6,NA,NA,NA,NA,NA,NA,NA,"F-2836-2014","0000-0002-7396-6370 ",NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-175,"Lopes, CT","Lopes, Caue T.",175,5,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,NA,NA,"WOS:000271658000007
+175,"Lopes, CT","Lopes, Caue T.",175,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-176,"Pacheco, R","Pacheco, Renata",176,2,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,NA,NA,"WOS:000271658000007
+176,"Pacheco, R","Pacheco, Renata",176,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-177,"Silva, RC","Silva, Raphael C.",177,3,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,NA,NA,"WOS:000271658000007
+177,"Silva, RC","Silva, Raphael C.",177,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-178,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,1,NA,NA,NA,"No Affiliation",NA,NA,"Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000271658000007
+178,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,1,NA,NA,NA,NA,NA,NA,"Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
-179,"Vasconcelos, PB","Vasconcelos, Pedro B.",36,4,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,NA,NA,"WOS:000271658000007
+179,"Vasconcelos, PB","Vasconcelos, Pedro B.",36,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WOS:000271658000007
 ",38,"J
 ","2009",NA
 180,"Bruna, EM","Bruna, Emilio M.",1,5,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","Univ Florida"," Dept Wildlife Ecol & Conservat"," Gainesville, FL 32611 USA."," 32611","USA",NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000269700500018
@@ -713,27 +713,27 @@
 238,"Girao, LC","Girao, Luciana Coe",238,1,"Univ Fed Pernambuco, Dept Bot, Programa Posgrad Biol Vegetal, Recife, PE, Brazil.","Univ Fed Pernambuco"," Dept Bot"," Programa Posgrad Biol Vegetal, Recife, PE, Brazil.",NA,"Brazil",NA,NA,NA,NA,"WOS:000207455700016
 ",47,"J
 ","2007",NA
-239,"Lopes, AV","Lopes, Ariadna Valentina",2,2,NA,NA,NA,"No Affiliation",NA,NA,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","E-8432-2010",NA,NA,"WOS:000207455700016
+239,"Lopes, AV","Lopes, Ariadna Valentina",2,2,NA,NA,NA,NA,NA,NA,"Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.","E-8432-2010",NA,NA,"WOS:000207455700016
 ",47,"J
 ","2007",NA
-240,"Tabarelli, M","Tabarelli, Marcelo",6,3,NA,NA,NA,"No Affiliation",NA,NA,NA,"F-1088-2010","0000-0001-7573-7216",NA,"WOS:000207455700016
+240,"Tabarelli, M","Tabarelli, Marcelo",6,3,NA,NA,NA,NA,NA,NA,NA,"F-1088-2010","0000-0001-7573-7216",NA,"WOS:000207455700016
 ",47,"J
 ","2007",NA
-241,"Bruna, EM","Bruna, Emilio M.",1,2,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000240920400011
+241,"Bruna, EM","Bruna, Emilio M.",1,2,NA,NA,NA,NA,NA,NA,NA,NA,"0000-0003-3381-8477 ",NA,"WOS:000240920400011
 ",48,"J
 ","2006",NA
-242,"Trager, MD","Trager, Matthew D.",242,1,NA,NA,NA,"No Affiliation",NA,NA,"Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.",NA,NA,"mtrager@ufl.edu","WOS:000240920400011
+242,"Trager, MD","Trager, Matthew D.",242,1,NA,NA,NA,NA,NA,NA,"Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.",NA,NA,"mtrager@ufl.edu","WOS:000240920400011
 ",48,"J
 ","2006",NA
-243,"Bruna, EM","Bruna, Emilio M.",1,4,NA,NA,NA,"No Affiliation",NA,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000239634900010
+243,"Bruna, EM","Bruna, Emilio M.",1,4,NA,NA,NA,NA,NA,NA,NA,"H-2769-2012","0000-0003-3381-8477",NA,"WOS:000239634900010
 ",49,"J
 ","2006",NA
-244,"Mundim, FM","Mundim, Fabiane M.",8,3,NA,NA,NA,"No Affiliation",NA,NA,NA,NA,NA,NA,"WOS:000239634900010
+244,"Mundim, FM","Mundim, Fabiane M.",8,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WOS:000239634900010
 ",49,"J
 ","2006",NA
-245,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,1,NA,NA,NA,"No Affiliation",NA,NA,"Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000239634900010
+245,"Vasconcelos, HL","Vasconcelos, Heraldo L.",10,1,NA,NA,NA,NA,NA,NA,"Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.","C-3353-2013","0000-0001-6969-7131",NA,"WOS:000239634900010
 ",49,"J
 ","2006",NA
-246,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,2,NA,NA,NA,"No Affiliation",NA,NA,NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000239634900010
+246,"Vieira-Neto, EHM","Vieira-Neto, Ernane H. M.",11,2,NA,NA,NA,NA,NA,NA,NA,"B-3177-2016","0000-0002-6557-7252 ",NA,"WOS:000239634900010
 ",49,"J
 ","2006",NA

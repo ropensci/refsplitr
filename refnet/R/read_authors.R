@@ -265,6 +265,9 @@ read_authors <- function(references,
       city<-third.tier
       department<-remain
     }
+    
+    postal_code <- gsub("[A-z]-","",postal_code)
+    
     address.df$city[row]<-gsub('[[:digit:]]','',city)
     address.df$state[row]<-gsub('[[:digit:]]','',state)
     address.df$postal_code[row]<-postal_code
