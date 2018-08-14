@@ -19,7 +19,7 @@ devtools::install_github("embruna/refnet2",   subdir="refnet")
 read_references()
 read_authors()
 refine_authors()
-address_lat-long()
+address_lat_long()
 ```
 
 Issues, Feature Requests and Pull Requests Welcome
