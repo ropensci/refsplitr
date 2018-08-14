@@ -1,13 +1,1 @@
-"authorID","AU","AF","groupID","match_name","similarity","address","country","RI","OI","EM","UT"
-6,"Tabarelli, M","Tabarelli, Marcelo",6,NA,NA,"Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.","Brazil",NA,NA,NA,"WOS:000388274700005
-"
-240,"Tabarelli, M","Tabarelli, Marcelo",6,"Tabarelli, Marcelo",1,NA,NA,"F-1088-2010","0000-0001-7573-7216",NA,"WOS:000207455700016
-"
-112,"Anciaes, M","Anciaes, Marina",112,NA,NA,"Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.","USA",NA,NA,NA,"WOS:000290533700014
-"
-155,"Anciaes, M","Anciaes, Marina",112,"Anciaes, Marina",1,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.","Brazil",NA,NA,NA,"WOS:000277867600009
-"
-116,"Rubim, P","Rubim, Paulo",116,NA,NA,"Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.","Brazil",NA,NA,NA,"WOS:000290533700014
-"
-123,"Rubim, P","Rubim, Paulo",116,"Rubim, Paulo",1,"Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.","USA",NA,NA,NA,"WOS:000287897100023
-"
+"authorID","AU","AF","groupID","match_name","similarity","author_order","university","department","postal_code","country","address","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
