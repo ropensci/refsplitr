@@ -26,20 +26,24 @@ refine_authors is doing what merge_records and remove_duplicates did before
 authors_final<-refine_authors(authors, sim_score=0.94)
 
 ```{r, message=FALSE, eval=FALSE}
-eb_references <- read_references("~/refnet2/data/EBpubs.txt", dir=FALSE, 
-                                filename_root="~/refnet2/output/eb")
 
-LARR_references <- read_references("~/refnet2/data/LARR/", 
-                                   dir=TRUE, 
-       filename_root="~/refnet2/output/LARR")
+# EB Test
 
-LARR_authors <- read_authors(LARR_references, filename_root="~/refnet2/output/LARR")
+eb_references <- read_references("./data/EBpubs.txt", dir=FALSE, filename_root="./output/eb")
 
-eb_authors <- read_authors(eb_references, filename_root="~/refnet2/output/eb")
+eb_authors <- read_authors(eb_references, filename_root="./output/eb")
 
 eb_refined <- refine_authors(authors=eb_authors$authors, master=eb_authors$master)
 
 save(eb_refined, file="./output/eb_refined.Rdata")
+
+
+
+# LARR TEST
+LARR_references <- read_references("./data/LARR/", dir=TRUE,filename_root="./output/LARR")
+
+LARR_authors <- read_authors(LARR_references, filename_root="./output/LARR")
+
 ```
 
 ```{r}
