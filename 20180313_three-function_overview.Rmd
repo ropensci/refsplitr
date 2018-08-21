@@ -9,6 +9,7 @@ output:
 library(tidyverse)
 library(stringr)
 library(stringi)
+# devtools::install_github("embruna/refnet2", subdir = "refnet")  
 library(refnet)
 ```
 
@@ -66,7 +67,7 @@ WOS18_references <- read_references("./data/WOS2018", dir=TRUE,
 
 WOS18_authors <- read_authors(WOS18_references, filename_root="./output/WOS18")
 
-WOS18_references <- refine_authors(authors=WOS18_authors$authors, master=WOS18_authors$master)
+WOS18_refined <- refine_authors(authors=WOS18_authors$authors, master=WOS18_authors$master)
 
 ################
 # WOS 2011 TEST
@@ -77,7 +78,9 @@ WOS11_references <- read_references("./data/WOS2011", dir=TRUE,
 
 WOS11_authors <- read_authors(WOS11_references, filename_root="./output/WOS11")
 
-WOS11_references <- refine_authors(authors=WOS11_authors$authors, master=WOS11_authors$master)
+WOS11_refined <- refine_authors(authors=WOS11_authors$authors, master=WOS11_authors$master)
+
+address_lat_long(WOS11_refined)
 
 ################
 # ECOLOGY TEST
