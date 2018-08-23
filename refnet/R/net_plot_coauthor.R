@@ -6,7 +6,7 @@
 #' 
 #' \code{net_plot_coauthor} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for co-authorship.
 #' 
-#' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
+#' @param addresses the `address` element from the list outputted from the `georef_authors()`` function, containing geocoded address latitude and longitude locations.
 #' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
 
 net_plot_coauthor <- function(data) {

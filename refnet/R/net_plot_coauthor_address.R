@@ -6,8 +6,7 @@
 #' 
 #' \code{net_plot_coauthor_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
 #' 
-#' @param addresses output from the read_addresses() function, containing geocoded address latitude and longitude locations.
-#' @param authors__references output from the read_authors() function, which links author addresses together via AU_ID.
+#' @param addresses the `address` element from the list outputted from the `georef_authors()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' 
 net_plot_coauthor_address <- function(data,
@@ -31,8 +30,8 @@ net_plot_coauthor_address <- function(data,
   
   #data$latlonalpha <- paste0("a",1:nrow(data))
   test<-data.frame(latlon=unique(data$latlon))
-  test$LAT<-as.numeric(sapply(strsplit(as.character(test$latlon),','),function(x)x[1]))
-  test$LON<-as.numeric(sapply(strsplit(as.character(test$latlon),','),function(x)x[2]))
+  test$LAT<-as.numeric(sapply(strsplit(as.character(test$latlon),','),function(x)x[2]))
+  test$LON<-as.numeric(sapply(strsplit(as.character(test$latlon),','),function(x)x[1]))
   test$latlonalpha<-paste0('a',1:nrow(test))
   
   test1<-merge(test, data[,c('latlon','refID')],by='latlon',all.y=T)
@@ -80,19 +79,10 @@ net_plot_coauthor_address <- function(data,
   ##	Get the world map from rworldmap package:
   world_map <- getMap()
   
-  # coords_df <- data.frame("latlonalpha"=vertex_names, 
-  #                         "LON"=as.numeric(test1$lon),
-  #                         "LAT"=as.numeric(test1$lat),
-  #                         stringsAsFactors=FALSE)
-  # 
-  # coords_df <- data.frame("latlonalpha"=vertex_names, stringsAsFactors=FALSE)
+
   coords_df<-test1
-  #coords_df$LAT<-as.numeric(sapply(strsplit(substr(vertex_names,2,nchar(vertex_names)),','),function(x)x[1]))
-  #coords_df$LON<-as.numeric(sapply(strsplit(substr(vertex_names,2,nchar(vertex_names)),','),function(x)x[2]))
-  ##	One could also use ggplot to plot out the network geographically
-  
-  # Function to generate paths between each connected node
-  edgeMaker <- function(whichRow, len = 100, curved = TRUE){
+
+edgeMaker <- function(whichRow, len = 100, curved = TRUE){
     
     adjacencyList$rowname <- as.character(adjacencyList$rowname)
     adjacencyList$rownamesA <- as.character(adjacencyList$rownamesA)
@@ -160,8 +150,7 @@ net_plot_coauthor_address <- function(data,
   world_map.df <- full_join(world_map.points, world_map@data, by="id")
   
   
-  
-  products <- list()
+products <- list()
   
   products[["plot"]] <- ggplot() + 
     geom_polygon(data=world_map.df, 
