@@ -161,7 +161,7 @@ read_authors <- function(references,
     #################################################################################
   }
   
-  #Bind all author iterations together into one large sheet that should be used for base analysis from her eon out
+  #Bind all author iterations together into one large sheet that should be used for base analysis from here on out
   final<-do.call(rbind,list1)
   final$authorID<-1:nrow(final)
   final$EM<-tolower(final$EM)
