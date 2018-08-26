@@ -1,6 +1,6 @@
 ---
 title: "RefNet"
-author: "Forest Stevens, Auriel Fournier, Matt Boone, Emilio Bruna (order of 1&2 TBD)"
+author: "Auriel Fournier, Forest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 fig_caption: yes
@@ -314,7 +314,11 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ***
 
-Appendix 1: How to download records from WOS
+**Appendix 1:** Giode to downloading reference records from the Web of Science(c).
+
+<p align="center">
+<img src="WOSsearch_fig.tiff" height="1500" width="600" / > 
+</p>
 
 ***
 
