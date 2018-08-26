@@ -299,9 +299,7 @@ authors_clean <- function(references,
   ##################################
   # Now start Author Matching
   ##################################
-  #address.df$groupID<-NA
-  #final<-final[1:10000,]
-  colnames(final)
+  #colnames(final)
   print('Matching authors')
   novel.names<-data.frame(ID=final$authorID,unique.name=final$AF, groupID=NA, address=final$address,university=final$university,country=final$country,RI=final$RI,OI=final$OI,email=final$EM,first=NA,middle=NA,last=NA)
   novel.names[,c("first",'middle','last')]<-t(sapply(as.character(novel.names$unique.name), split.names))
@@ -317,19 +315,19 @@ authors_clean <- function(references,
   unique.oi<-names(table(unique.oi))[table(unique.oi)>1]
   unique.oi<-unique.oi[!is.na(unique.oi)]
   unique.oi<-as.character(unique.oi)
-  unique.oi[nchar(unique.oi)!=19]
-  unique.oi[unique.oi=="0000-0001-9549-4178"]
+  # unique.oi[nchar(unique.oi)!=19]
+  # unique.oi[unique.oi=="0000-0001-9549-4178"]
   for(l in unique.oi){
     #l<-"0000-0003-2589-826X"
     novel.names$groupID[which(novel.names$OI==l)]<- min(novel.names$ID[which(novel.names$OI==l)])
   }
-  length(unique(novel.names$groupID))
+  # length(unique(novel.names$groupID))
   
   unique.ri<-novel.names$RI[!is.na(novel.names$RI) & is.na(novel.names$groupID)]
   unique.ri<-names(table(unique.ri))[table(unique.ri)>1]
   unique.ri<-unique.ri[!is.na(unique.ri)]
   unique.ri<-as.character(unique.ri)
-  unique.ri[nchar(unique.ri)!=11]
+  # unique.ri[nchar(unique.ri)!=11]
   for(l in unique.ri){
     #l<-"E-7093-2013"
     choice<-which(novel.names$RI==l)
@@ -338,18 +336,15 @@ authors_clean <- function(references,
     if(length(groupid)>0){groupid<-min(groupid)} else {groupid<-min(novel.names$ID[choice],na.rm=T)}
     
     novel.names$groupID[which(novel.names$RI==l)]<-groupid
-    
-    #if(groupid==30){stop()}
+
   }
-  length(unique(novel.names$groupID))
+  # length(unique(novel.names$groupID))
   
   unique.em<-novel.names$email[!is.na(novel.names$email) & is.na(novel.names$groupID)]
   unique.em<-names(table(unique.em))[table(unique.em)>1]
   unique.em<-unique.em[!is.na(unique.em)]
   unique.em<-as.character(unique.em)
   for(l in unique.em){
-    # l<-'soto@ege.fcen.uba.ar'
-    #l<-'aabril@agro.uncor.edu'
     choice<-which(novel.names$email==l)
     groupid<-novel.names$groupID[choice]
     groupid<-groupid[!is.na(groupid)]
@@ -360,7 +355,7 @@ authors_clean <- function(references,
   }
   
   
-  length(unique(novel.names$groupID))
+  # length(unique(novel.names$groupID))
   
   novel.names$similarity<-NA
   novel.names$match_name<-NA
@@ -386,7 +381,7 @@ authors_clean <- function(references,
   length(unique(novel.names$groupID))
   #
   
-  unique.groupid<-subset(novel.names,(m.c>0 |!is.na(university) | !is.na(email)) & is.na(groupID))$ID
+  unique.groupid<-subset(novel.names,(m.c>0 |!is.na("university") | !is.na(email)) & is.na(groupID))$ID
   which(unique.groupid==9364)
   
   

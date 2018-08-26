@@ -1,25 +1,20 @@
 ########################################
 ########################################
-##	BEGIN: net_plot_coauthor_country():
+##	BEGIN:  plot_net_country():
 
 #' Creates a network diagram of coauthors' countries linked by reference, and with nodes arranged geographically
 #' 
-#' \code{net_plot_coauthor_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
+#' \code{plot_net_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
 #' 
-#' @param addresses the `address` element from the list outputted from the `georef_authors()`` function, containing geocoded address latitude and longitude locations.
-#' #' @param authors_references output from the read_authors() function, which links author addresses together via AU_ID.
+#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
+#' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' @param line_resolution default = 10
 
 
-net_plot_coauthor_country <- function(data,
-                                      line_resolution=10,
-                                      mapRegion="world") {
+plot_net_country <- function(data,
+     line_resolution=10,
+     mapRegion="world") {
 
-  require(Matrix)
-  require(network)
-  require(sna)
-  require(maps)
-  require(maptools)
-  
   data <- data[!is.na(data$country),]
   
   ##	Or, we could use a sparse matrix representation:
@@ -117,16 +112,10 @@ net_plot_coauthor_country <- function(data,
     return(edge)
   }
   
-  
   adjacencyMatrix <- as.matrix(linkages_countries)
   
-  ##	Instead of getting layoutCoordinates here, we get them from LON/LAT:
-  #layoutCoordinates <- gplot(adjacencyMatrix)  # Get graph layout coordinates
   layoutCoordinates <- coords_df
   
-  ##	It seems that the melt function behaves badly when row and column
-  ##		names are "NA" which happens to be a legitimate country code.  So
-  ##		we'll first fix this and then convert back:
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NA"] <- "NAstr"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NA"] <- "NAstr"
   
@@ -138,16 +127,14 @@ net_plot_coauthor_country <- function(data,
   
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
   
-  ##	Repair names:
   rownames(adjacencydf)[rownames(adjacencydf) == "NAstr"] <- "NA"
   colnames(adjacencydf)[colnames(adjacencydf) == "NAstr"] <- "NA"
 
-  # Generate a (curved) edge path for each pair of connected nodes
   allEdges <- lapply(1:nrow(adjacencyList), 
                      edgeMaker, len=line_resolution, 
                      curved = TRUE)
   
-  allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
+  allEdges <- do.call(rbind, allEdges) 
   
   
   empty_theme <- theme_bw()+
@@ -157,10 +144,11 @@ net_plot_coauthor_country <- function(data,
                   strip.text = element_blank(),
                   plot.title = element_blank(),
                   axis.title = element_blank(),
-                  plot.margin =  structure(c(0, 0, -1, -1), 
-                                           unit = "lines", 
-                                           valid.unit = 3L, 
-                                           class = "unit"))
+                  plot.margin =  structure(c(0, 0, 
+                                             -1, -1), 
+         unit = "lines", 
+         valid.unit = 3L, 
+         class = "unit"))
   
   if(mapRegion !="world"){
     world_map <- world_map[which(world_map$continent==mapRegion),]
@@ -176,15 +164,14 @@ net_plot_coauthor_country <- function(data,
   products <- list()
   
   products[["plot"]] <- ggplot() + 
-    geom_polygon(data=world_map.df, aes(long,lat,group=group), fill=gray(8/10)) +
-    geom_path(data=world_map.df, aes(long,lat,group=group), color=gray(6/10)) +
+    geom_polygon(data=world_map.df, aes_string("long","lat",group="group"), fill=gray(8/10)) +
+    geom_path(data=world_map.df, aes_string("long","lat",group="group"), color=gray(6/10)) +
     coord_equal() + 
     geom_path(data=allEdges,
-                aes(x = x, y = y, group = Group,  # Edges with gradient
-                colour = Sequence, size = -Sequence), alpha=0.1
+                aes_string(x = "x", y = "y", group = "Group",                 colour = "Sequence", size = -"Sequence"), alpha=0.1
   )  + 
     geom_point(data = data.frame(layoutCoordinates),  # Add nodes
-              aes(x = LON, y = LAT), 
+              aes_string(x = "LON", y = "LAT"), 
               size = 5+100*sna::degree(linkages_countries_net, cmode="outdegree", rescale=TRUE), pch = 21, 
               colour = rgb(8/10, 2/10, 2/10, alpha=5/10), 
               fill = rgb(9/10, 6/10, 6/10, alpha=5/10)
@@ -193,7 +180,7 @@ net_plot_coauthor_country <- function(data,
     scale_size(range = c(1, 1), guide = "none")  + 
     geom_text(
     data = coords_df,
-    aes(x = LON, y = LAT, label=ISO_A2), size=2, color=gray(2/10)
+    aes_string(x = "LON", y = "LAT", label="ISO_A2"), size=2, color=gray(2/10)
   ) + empty_theme  # Clean up plot
   
   

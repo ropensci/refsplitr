@@ -220,25 +220,7 @@ references_read <- function(data=".", dir=TRUE, filename_root="") {
         }
         
       }
-      # --------------
-      # EMB 2 December 2017: THE FOLLOWING ISSUES WERE RESOLVED BY EMB. 
-      #   OI See notes below in the section on reading in OI
-      #   Names: See the solution in this section
-      #
-      #     EMB 14 jan 2017: RI and OI fields aren't being read in properly because the text files include extra spaces 
-      #     after they carriage return the longer records to the next line. In ebpubs record WOS: "WOS:000269700500018
-      #     OI should be Dattilo, Wesley/0000-0002-4758-4379; Bruna, Emilio/0000-0003-3381-8477; Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787
-      #   
-      #     The same is true of names - only first one was being read in.
-      #     I somehow got it to read all the names and orcids in by replacing this line below:
-      #     output[i, field] <- paste(output[i, field], line_text, "\n", sep="")
-      #     with this line: 
-      #     output[i, field] <- paste(output[i, field], line_text, "\\s+", sep="")
-      #     but this left \s+ in between. After reading and experimenting I just deleted the "\n"
-      #     or "\\s+" completeley...and...voila!
-      #     Then realized wasn't being read into *_authors, so added a space as seperator after ;
-      # --------------
-      
+
       ##	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
         ##	... if it is then append this line's data to the field in our output:
@@ -305,7 +287,7 @@ references_read <- function(data=".", dir=TRUE, filename_root="") {
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
   
-  dupe_output<-distinct(output, UT, .keep_all = TRUE)
+  dupe_output<-distinct(output, "UT", .keep_all = TRUE)
 ############################################  
   if(filename_root != "") {
     write.csv(dupe_output, file=paste(filename_root, 
