@@ -1,8 +1,8 @@
 #####
-##	BEGIN: read_references():
+##	BEGIN: references_read():
 #' Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files
 #' 
-#' \code{read_references} This function reads Thomson Reuters Web of Knowledge
+#' \code{references_read} This function reads Thomson Reuters Web of Knowledge
 #' and ISI format reference data files into an R friendly data format and can
 #' optionally write the converted data to a friendly CSV format.
 #' 
@@ -15,7 +15,7 @@
 #'   path, to which "_references.csv" will be appended and the output from the
 #'   function will be saved
 
-read_references <- function(data=".", dir=TRUE, filename_root="") {
+references_read <- function(data=".", dir=TRUE, filename_root="") {
 
   ##	NOTE: The fields stored in our output table are a combination of the
   ##		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export

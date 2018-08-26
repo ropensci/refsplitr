@@ -1,13 +1,13 @@
 #' Extracts the country out of a refined author information
 #' 
-#' \code{extract_country_name} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'. 
+#' \code{country_extract} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'. 
 #' 
 #' @param data dataframe from refine_authors
 #' @param address_column name of column in quotes where the addresses are
-extract_country_name <- function(data,
-                                 address_column="address"){
+country_extract <- function(data,
+                            address_column="address"){
   # loads in country names
-  data(countries)
+  load("data/countries.rda")
   
   # creates an empty column for country names
   data$country <- NA

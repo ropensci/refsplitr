@@ -1,4 +1,15 @@
-read_authors <- function(references, 
+#' Extracts the lat and long for each address
+#' 
+#' \code{authors_clean} This function takes the output from `references_read()` and cleans the author information. 
+#' 
+#' @param references output from `references_read()`
+#' @param sim_score default is 0.88
+#' @param filename_root the filename root, can include relative or absolute
+#' @param write_out_data TRUE or FALSE, do you want a .csv file written out? 
+#'   
+
+
+authors_clean <- function(references, 
                          sim_score=0.88 ,
                          filename_root="./",
                          write_out_data=FALSE) {

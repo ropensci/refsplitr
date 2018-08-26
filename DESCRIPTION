@@ -15,6 +15,7 @@ Author: Auriel M.V. Fournier [aut],
 Maintainer: Emilio Bruna <embruna@ufl.edu>
 Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
 License: GPL-3
-Depends: maptools, maps, rworldmap, RecordLinkage, Matrix, igraph, network, sna, Hmisc, tidyverse, ggplot2, stringi, stringr, ggmap, Rdpack
+Imports: maptools, maps, rworldmap, RecordLinkage, Matrix, igraph, network, sna, Hmisc, tidyverse, ggplot2, stringi, stringr, ggmap, Rdpack
 RoxygenNote: 6.1.0
 RdMacros: Rdpack
+Suggests: testthat
