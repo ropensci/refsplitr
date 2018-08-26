@@ -364,13 +364,23 @@ authors_clean <- function(references,
   novel.names$f.i<-substr(novel.names$first,1,1)
   novel.names$m.i<-substr(novel.names$middle,1,1)
   #match authors with the same first, last, and middle name
-  remain<-subset(novel.names,!is.na(m.i) & f.c>1)[,c('ID','groupID','first','middle','last')]
+  remain<-subset(novel.names,!is.na(m.i) & f.c>=1)[,c('ID','groupID','first','middle','last')]
   remain<-merge(subset(remain,is.na(groupID)), remain, by=c('first','middle','last'))
   remain<-subset(remain, ID.x!=ID.y)
-  dd<-data.frame(g.n=unique(paste(remain$first,remain$middle,remain$last,sep=';')),first=NA,middle=NA,last=NA,stringsAsFactors=F)
+  
+
+  dd<-data.frame(g.n=unique(paste(remain$first,remain$middle,remain$last,sep=';')),
+                 first=NA,
+                 middle=NA,
+                 last=NA,
+                 stringsAsFactors=F)
+  
   dd$id<-1:nrow(dd)
+  
   dd[,c('first','middle','last')]<-do.call(rbind,strsplit(dd$g.n,';'))
+  
   remain<-merge(remain,subset(dd,select=-g.n), by=c('first','middle','last'))
+
   for(n in dd$id){
     sub<-subset(remain, id==n)
     unique.id<-unique(sub$ID.x)
