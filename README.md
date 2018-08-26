@@ -21,10 +21,10 @@ devtools::install_github("embruna/refnet2")
 ## Workflow
 
 ```{r example, eval=FALSE}
-read_references()
-read_authors()
-refine_authors()
-address_lat_long()
+references_read()
+authors_clean()
+authors_refine()
+authors_georef()
 ```
 
 Issues, Feature Requests and Pull Requests Welcome
