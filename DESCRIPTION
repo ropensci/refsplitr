@@ -1,0 +1,21 @@
+Package: refnet
+Type: Package
+Title: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools
+Version: 0.6
+Date: 2018-08-26
+Authors@R: c(person("Auriel M.V. Fournier", "Developer", role = c("aut"),
+                     email = "aurielfournier@gmail.com"),
+              person("Forrest R. Stevens", "Developer", role = "aut"),
+              person("Matthew E. Boone", "Developer", role = "aut"),
+              person("Emilio Bruna", "Developer", role="aut"))
+Author: Auriel M.V. Fournier [aut],
+  Forrest R. Stevens [aut],
+  Matthew E. Boone [aut],
+  Emilio Bruna [aut]
+Maintainer: Emilio Bruna <embruna@ufl.edu>
+Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
+License: GPL-3
+Imports: maptools, maps, rworldmap, RecordLinkage, Matrix, igraph, network, sna, Hmisc, tidyverse, ggplot2, stringi, stringr, ggmap, Rdpack
+RoxygenNote: 6.1.0
+RdMacros: Rdpack
+Suggests: testthat

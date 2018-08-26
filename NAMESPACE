@@ -1,0 +1,18 @@
+exportPattern("^[[:alpha:]]+")
+
+import(sna)
+import(ggplot2)
+import(igraph)
+import(Matrix)
+importFrom(stringr, str_extract)
+importFrom(stringr, str_detect)
+importFrom(ggmap, geocode)
+importFrom(RecordLinkage, jarowinkler)
+importFrom(rworldmap, getMap)
+importFrom(rworldmap, joinCountryData2Map)
+importFrom(rworldmap, mapCountryData)
+importFrom(rworldmap, addMapLegend)
+importFrom(Matrix, spMatrix)
+importFrom(network, network)
+importFrom(Hmisc, bezier)
+
