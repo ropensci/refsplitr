@@ -33,29 +33,33 @@ authors_final<-refine_authors(authors, sim_score=0.94)
 # EB TEST
 ################
 
-eb_references <- read_references("./data/EBpubs.txt", dir=FALSE, filename_root="./output/eb")
+eb_references <- read_references("~/refnet_materials/data/EBpubs.txt", dir=FALSE, filename_root="~/refnet_materials/output/eb")
 
-eb_authors <- read_authors(eb_references, filename_root="./output/eb")
+eb_authors <- read_authors(eb_references, filename_root="~/refnet_materials/output/eb")
 
 eb_refined <- refine_authors(authors=eb_authors$authors, master=eb_authors$master)
 
-save(eb_refined, file="./output/eb_refined.Rdata")
+save(eb_refined, file="~/refnet_materials/output/eb_refined.Rdata")
 
-address_lat_long(eb_refined)
+eb_addresses <- address_lat_long(eb_refined)
 
+a <- plot_addresses_points(data=eb_addresses$addresses)
 
 ########
 # LARR
 ########
 
-LARR_references <- read_references("./data/LARR/", 
+LARR_references <- read_references("~/refnet_materials/data/LARR/", 
                                    dir=TRUE, 
-                                   filename_root="./output/LARR")
+                                   filename_root="~/refnet_materials/output/LARR")
 
-LARR_authors <- read_authors(LARR_references, filename_root="~/refnet2/output/LARR")
+
+LARR_authors <- read_authors(LARR_references, filename_root="~/refnet_materials/output/LARR")
 
 
 LARR_refined <- refine_authors(authors=LARR_authors$authors, master=LARR_authors$master)
+
+LARR_addresses <- address_lat_long(LARR_refined)
 
 ################
 # WOS 2018 TEST
