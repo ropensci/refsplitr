@@ -287,7 +287,8 @@ references_read <- function(data=".", dir=TRUE, filename_root="") {
   output$AF[is.na(output$AF)]<-output$AU[is.na(output$AF)] # when AF is empty fill in with AU
   output$refID<-1:nrow(output)
   
-  dupe_output<-distinct(output, "UT", .keep_all = TRUE)
+# now done in base R, runs slower
+  dupe_output<-do.call(rbind,lapply(unique(output$UT), function(x)output[output$UT==x,][1,]))
 ############################################  
   if(filename_root != "") {
     write.csv(dupe_output, file=paste(filename_root, 
