@@ -7,7 +7,9 @@
 plot_addresses_country(data, mapRegion = "world")
 }
 \arguments{
-\item{addresses}{the `address` element from the list outputted from the `georef_authors()`` function, containing geocoded address latitude and longitude locations.}
+\item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
+
+\item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
 \code{plot_addresses_country} This function plots an addresses data.frame object by country name.

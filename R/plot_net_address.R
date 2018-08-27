@@ -1,15 +1,15 @@
 ########################################
 ########################################
-##	BEGIN: net_plot_coauthor_address():
+##	BEGIN: plot_net_address():
 
 #' Creates a network diagram of coauthors' addresses linked by reference, and with nodes arranged geographically
 #' 
-#' \code{net_plot_coauthor_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
+#' \code{plot_net_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
 #' 
-#' @param addresses the `address` element from the list outputted from the `georef_authors()`` function, containing geocoded address latitude and longitude locations.
+#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
-#' 
-net_plot_coauthor_address <- function(data,
+#' @param line_resolution default = 10
+plot_net_address <- function(data,
                                       line_resolution=10,
                                       mapRegion="world") {
   
