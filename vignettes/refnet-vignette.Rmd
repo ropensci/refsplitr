@@ -314,10 +314,10 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ***
 
-**Appendix 1:** Giode to downloading reference records from the Web of Science(c).
+**Appendix 1:** Giode to downloading reference records from the Web of Science&copy;.
 
 <p align="center">
-<img src="WOSsearch_fig.tiff" height="1500" width="600" / > 
+<img src="WOSsearch_fig.tiff" width="1200" / > 
 </p>
 
 ***
