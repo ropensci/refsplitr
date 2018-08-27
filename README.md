@@ -5,9 +5,9 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-Update to refnet package for processing Web of Science Records
+refnet: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
-refnet was v1.0 of a R package to read, analyze and visualize Thomson-Reuters Web of Knowledge/Science, ISI and SCOPUS format reference data files. Social network analyses, geocoding of addresses and spatial visualization are supported. The original package development was by Forrest Stevens and Emilio Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/), but in December 2017 Bruna moved it to github to update the package as refnet2.  <b>Please make all future changes via this Github repo! Do *not* make a repo mirror of the R-forge version.</b> 
+refnet (v1.0) is an R package to read, organize, geocode, analyze, and visualize Clarivate Web of Knowledge/Web of Science, ISI, and SCOPUS format reference data files for scientometric, social network, and Science of Science analyses. The original package development was by Forrest Stevens and Emilio M. Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/); in December 2017 Bruna moved it to Github to facilitate updating the package for submission to CRAN.  <b>Please make all future changes via this Github repo! Do *not* make a repo mirror of the R-forge version.</b> 
 
 ## Installation
 
@@ -32,7 +32,7 @@ Issues, Feature Requests and Pull Requests Welcome
 
 ## Contributors
 * [Auriel Fournier](https://github.com/aurielfournier)
-* Forrest Stevens
+* [Forrest Stevens] (http://forreststevens.com/teaching/research.html)
 * [Matt Boone](https://github.com/birderboone)
 * [Emilio Bruna](https://github.com/embruna)
 
@@ -42,7 +42,7 @@ Issues, Feature Requests and Pull Requests Welcome
 Auriel M.V. Fournier Developer, Forrest R.
   Stevens Developer, Matthew E. Boone Developer
   and Emilio Bruna Developer (2018). refnet:
-  Thomson Reuters Web of Knowledge/Science and
+  Clarivate Web of Knowledge / Web of Science and
   ISI Reference Data Tools. R package version
   0.6.
   
