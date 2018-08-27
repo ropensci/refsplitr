@@ -32,7 +32,7 @@ Issues, Feature Requests and Pull Requests Welcome
 
 ## Contributors
 * [Auriel Fournier](https://github.com/aurielfournier)
-* [Forrest Stevens] (http://forreststevens.com/teaching/research.html)
+* [Forrest Stevens](http://forreststevens.com/teaching/research.html)
 * [Matt Boone](https://github.com/birderboone)
 * [Emilio Bruna](https://github.com/embruna)
 
