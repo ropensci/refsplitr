@@ -9,6 +9,8 @@ refnet: an R package for processing Web of Science Records and mapping georefere
 
 refnet (v1.0) is an R package to read, organize, geocode, analyze, and visualize Clarivate Web of Knowledge/Web of Science, ISI, and SCOPUS format reference data files for scientometric, social network, and Science of Science analyses. The original package development was by Forrest Stevens and Emilio M. Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/); in December 2017 Bruna moved it to Github to facilitate updating the package and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  <b>Please make all future changes via this Github repo! Do *not* make a repo mirror of the R-forge version.</b> 
 
+Support for the development of refnet was provided by grants from the [University of Florida Center for Latin American Studies](http://www.latam.ufl.edu/) and the [University of Florida Informatics Institute](https://informatics.institute.ufl.edu/).
+
 ## Installation
 
 You can install the development version from [GitHub](https://github.com/) with:
