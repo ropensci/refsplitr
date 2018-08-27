@@ -31,10 +31,10 @@ Issues, Feature Requests and Pull Requests Welcome
 
 
 ## Contributors
-* [Auriel Fournier](https://github.com/aurielfournier), [Porzana Solutions](https://porzanasolutions.wordpress.com/)
-* [Forrest Stevens, University of Louisville](http://forreststevens.com/teaching/research.html),
-* [Matt Boone](https://github.com/birderboone),[Porzana Solutions](https://porzanasolutions.wordpress.com/)
-* [Emilio Bruna](https://github.com/embruna), [University of Florida](http://brunalab.org/)
+* [Auriel Fournier](https://github.com/aurielfournier), Porzana Solutions
+* [Forrest Stevens](http://forreststevens.com/teaching/research.html), University of Louisville
+* [Matt Boone](https://github.com/birderboone), Porzana Solutions
+* [Emilio Bruna](https://github.com/embruna), University of Florida
 
 ## Citation
 
