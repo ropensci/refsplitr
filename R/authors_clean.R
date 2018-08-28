@@ -363,6 +363,7 @@ authors_clean <- function(references,
   novel.names$m.c<-nchar(novel.names$middle)
   novel.names$f.i<-substr(novel.names$first,1,1)
   novel.names$m.i<-substr(novel.names$middle,1,1)
+  novel.names$m.c[is.na(novel.names$m.c)]<-0
   #match authors with the same first, last, and middle name
   remain<-subset(novel.names,!is.na(m.i) & f.c>=1)[,c('ID','groupID','first','middle','last')]
   remain<-merge(subset(remain,is.na(groupID)), remain, by=c('first','middle','last'))
@@ -390,10 +391,10 @@ authors_clean <- function(references,
   }
   length(unique(novel.names$groupID))
   #
+  unique.groupid<-novel.names$ID[(novel.names$m.c>0 |!is.na(novel.names$university) | !is.na(novel.names$email)) & is.na(novel.names$groupID)]
   
-  unique.groupid<-subset(novel.names,(m.c>0 |!is.na("university") | !is.na(email)) & is.na(groupID))$ID
   which(unique.groupid==9364)
-  
+  sum(unique.groupid==20565)
   
   for(p in unique.groupid){
     #for(p in unique.groupid[1:5654]){
@@ -473,6 +474,36 @@ authors_clean <- function(references,
   
   length(unique(novel.names$groupID))
   
+  #Time to prune the results. Weve used the vast network of knowledge to match up complexes, now we'll trim them by splitting any complexes with non matching First and last initials
+  #novel.names<-novel.names1
+  unique.names.over1<-unique(novel.names$groupID)[table(novel.names$groupID)>1]
+  print('Pruning groupings...')
+  for (n in unique.names.over1){
+    #n<-312
+    sub<-subset(novel.names,groupID==n & is.na(similarity))
+    #check first names
+    #including the NAs
+    fi.check<-unique(sub$f.i)
+    if(length(fi.check)>1){
+      newfi<-fi.check[2:length(fi.check)]
+      newGroupID<-sapply(newfi,function(x)sub$ID[sub$f.i==x][1])
+      for(p in 1:length(newfi) ){
+        novel.names$groupID[novel.names$ID%in%sub$ID & novel.names$f.i==newfi[p] & novel.names$groupID==n]<-newGroupID[p]
+      }
+    }
+      #now handle Middle initials without NA. 
+      sub<-subset(sub, !is.na(m.i))
+      
+      mi.check<-unique(paste(sub$f.i,sub$m.i))
+      if(length(mi.check)>1){
+        newmi<-mi.check[2:length(mi.check)]
+        newGroupID1<-sapply(newmi,function(x)sub$ID[sub$f.i==substr(x,1,1) & sub$m.i==substr(x,3,3)][1])
+        for(q in 1:length(newfi) ){
+          novel.names$groupID[novel.names$ID%in%sub$ID &novel.names$f.i==substr(newmi[q],1,1) & novel.names$m.i==substr(newmi[q],3,3)]<-newGroupID[q]
+         
+          }
+        }
+  }
   proc.time() - ptm
   
   final<-merge(final, novel.names[,c('ID','groupID','match_name','similarity')], by.x='authorID',by.y='ID',all.x=T)
