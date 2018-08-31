@@ -35,10 +35,10 @@ plot_addresses_points <- function(data,
 
 
   ggplot() +
-    geom_point(data = points, aes(x = lat, y = lon)) +
+    geom_point(data = points, aes_string(x = "lat", y = "lon")) +
     geom_map(
       data = world, map = world,
-      aes(map_id = region),
+      aes_string(map_id = "region"),
       color = "gray", fill = "#7f7f7f", size = 0.05, alpha = 1 / 4
     ) +
     ylim(-80, 80) +

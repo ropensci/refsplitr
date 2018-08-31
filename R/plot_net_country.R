@@ -132,7 +132,7 @@ plot_net_country <- function(data,
 
   adjacencydf$country <- row.names(adjacencydf)
 
-  adjacencyList <- gather(data = adjacencydf, countryA, value, -country) # Convert to list of ties only
+  adjacencyList <- gather(data = adjacencydf, key="countryA", value="value", -"country") 
 
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
 

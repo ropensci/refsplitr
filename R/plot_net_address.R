@@ -114,7 +114,7 @@ plot_net_address <- function(data,
 
   adjacencydf <- data.frame(adjacencyMatrix) %>%
     rownames_to_column() %>%
-    gather(rownamesA, value, -rowname)
+    gather(key="rownamesA", value="value", -"rowname")
 
   adjacencyList <- adjacencydf[adjacencydf$value > 0, ]
 
@@ -163,28 +163,28 @@ plot_net_address <- function(data,
   products[["plot"]] <- ggplot() +
     geom_polygon(
       data = world_map.df,
-      aes(long, lat, group = group),
+      aes_string("long", "lat", group = "group"),
       fill = gray(8 / 10)
     ) +
     geom_path(
       data = world_map.df,
-      aes(long, lat, group = group),
+      aes_string("long", "lat", group = "group"),
       color = gray(6 / 10)
     ) +
     coord_equal() +
     geom_path(
       data = allEdges,
-      aes(
-        x = x, y = y,
-        group = Group, # Edges with gradient
-        colour = Sequence,
-        size = -Sequence
+      aes_string(
+        x = "x", y = "y",
+        group = "Group", # Edges with gradient
+        colour = "Sequence",
+        size = -"Sequence"
       ),
       alpha = 0.1
     ) +
     geom_point(
       data = data.frame(layoutCoordinates),
-      aes(x = LON, y = LAT),
+      aes_string(x = "LON", y = "LAT"),
       size = 3 + 100 * sna::degree(linkages_points_net,
         cmode = "outdegree", rescale = T
       ),
