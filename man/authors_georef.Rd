@@ -14,7 +14,7 @@ authors_georef(data, address_column = "address", filename_root = "",
 
 \item{filename_root}{the filename root, can include relative or absolute}
 
-\item{write_out_missing}{TRUE or FALSE, do you want a .csv file written out that has all the entries where we could not determine the lat/long? 
+\item{write_out_missing}{TRUE or FALSE, do you want a .csv file written out that has all the entries where we could not determine the lat/long?
 path, to which "_addresses.csv" will be appended and the output from the
 function will be saved}
 }
