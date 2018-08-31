@@ -124,11 +124,11 @@ authors_georef <- function(data,
       Sys.sleep(5)
     }
   }
-  # c('authorID','AF','groupID','author_order','address','university','department','RP_address','RI','OI','UT','refID','postal_code','country','lat','lon')%in%colnames(addresses)
+
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
-  addresses <- merge(addresses, subset(data, select = c(authorID, AF, groupID, author_order, address, department, RP_address, RI, OI, UT, refID)), by = "authorID", all.x = T)
-  addresses <- subset(addresses, select = c(authorID, AF, groupID, author_order, address, university, department, RP_address, RI, OI, UT, refID, postal_code, country, lat, lon))
+  addresses <- merge(addresses, subset(data, select = c("authorID", "AF", "groupID", "author_order", "address", "department", "RP_address", "RI", "OI", "UT", "refID")), by = "authorID", all.x = T)
+  addresses <- subset(addresses, select = c("authorID", "AF", "groupID", "author_order", "address", "university", "department", "RP_address", "RI", "OI", "UT", "refID", "postal_code", "country", "lat", "lon"))
 
   missingaddresses <- addresses[is.na(addresses$lat), ]
 
