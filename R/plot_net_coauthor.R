@@ -19,16 +19,21 @@ plot_net_coauthor <- function(data) {
     i = as.numeric(factor(data$country)),
     j = as.numeric(factor(data$UT)),
     x = rep(1, length(data$country))))
+  
+  
+  links <- matrix(data=linkages, 
+                  nrow=length(unique(data$country)),
+                  ncol=length(unique(data$UT)))
 
-  row.names(linkages) <- levels(factor(data$country))
+  row.names(links) <- levels(factor(data$country))
 
-  colnames(linkages) <- levels(factor(data$UT))
+  colnames(links) <- levels(factor(data$UT))
 
   ## 	Convert to a one-mode representation of countries:
-  linkages_countries <- linkages %*% base::t(linkages)
+  linkages_countries <- links %*% base::t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(linkages) %*% linkages
+  linkages_references <- t(links) %*% links
 
   ## 	Create an igraph object from our countries linkages:
 
@@ -47,8 +52,8 @@ plot_net_coauthor <- function(data) {
   ## 	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
   linkages_countries_net <- simplify(linkages_countries_net)
 
-return(plot(linkages_countries_net, 
-     layout = layout.fruchterman.reingold))
+plot(linkages_countries_net, 
+     layout = layout.fruchterman.reingold)
 
 }
 
