@@ -2,19 +2,19 @@
 % Please edit documentation in R/authors_refine.R
 \name{authors_refine}
 \alias{authors_refine}
-\title{Refines the authors code output from read_authors()}
+\title{Refines the authors code output from authors_clean()}
 \usage{
 authors_refine(authors, master, sim_score = NULL, filename_root = "")
 }
 \arguments{
-\item{authors}{authors list that need to be check from read_authors() function}
+\item{authors}{the `authors` element from the list outputted by `authors_clean()`}
 
-\item{master}{master output from the read_authors() function}
+\item{master}{the `master` element from the list outputted by `authors_clean()`}
 
 \item{sim_score}{similarity score cut off point. Number between 0-1.}
 
 \item{filename_root}{the filename root, can include relative or absolute
-path, to which "_authors.csv" and "_authors__references.csv" will be appended and the}
+path, to which "_authors.csv" and "_authors_references.csv" will be appended and the}
 }
 \description{
 \code{authors_refine} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'.

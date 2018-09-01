@@ -2,7 +2,7 @@
 #'
 #' \code{authors_georef} This function takes the final author list from refine_authors, and calculates the lat long of the addresses. It does this by feeding the addresses into data science toolkit and then googles api. The output is a data.frame of all information from refine_authors plus new location columns and calculated lat longs.
 #'
-#' @param data master dataframe from refine_authors
+#' @param data dataframe from `authors_refine()`
 #' @param address_column name of column in quotes where the addresses are
 #' @param filename_root the filename root, can include relative or absolute
 #' @param write_out_missing TRUE or FALSE, do you want a .csv file written out that has all the entries where we could not determine the lat/long?
@@ -15,21 +15,12 @@ authors_georef <- function(data,
                            write_out_missing = FALSE) {
   # Read in the CSV data and store it in a variable
   paste.frame <- data[, c("university", "country", "postal_code", "authorID", "address")]
-  #  paste.frame$state[is.na(paste.frame$state)]<-''
-  #  paste.frame$city[is.na(paste.frame$city)]<-''
   paste.frame$university[is.na(paste.frame$university)] <- ""
   paste.frame$country[is.na(paste.frame$country)] <- ""
   paste.frame$postal_code[is.na(paste.frame$postal_code)] <- ""
-
-  # ddd<-subset(final,address!='Could not be extracted')
-
-  # make short address
-  # with university
-  # paste.frame$short_address[paste.frame$address!='Could not be extracted']<-paste0(paste.frame$university[paste.frame$address!='Could not be extracted'],', ',paste.frame$city[paste.frame$address!='Could not be extracted'],', ',paste.frame$state[paste.frame$address!='Could not be extracted'],', ',paste.frame$postal_code[paste.frame$address!='Could not be extracted'],' ',paste.frame$country[paste.frame$address!='Could not be extracted'])
-  #
   # without university
   paste.frame$short_address[paste.frame$address != "Could not be extracted"] <- paste0(paste.frame$city[paste.frame$address != "Could not be extracted"], ", ", paste.frame$state[paste.frame$address != "Could not be extracted"], ", ", paste.frame$postal_code[paste.frame$address != "Could not be extracted"], " ", paste.frame$country[paste.frame$address != "Could not be extracted"])
-  # grepl(',  ,',paste.frame$short_address[1])
+
   paste.frame$short_address <- gsub(", ,|,,|,  ,", ", ", paste.frame$short_address)
   paste.frame$short_address <- trimws(paste.frame$short_address, which = "both")
   paste.frame$short_address <- as.character(paste.frame$short_address)
@@ -45,9 +36,9 @@ authors_georef <- function(data,
   print("Trying data science toolkit first...")
   ping <- function(x, stderr = FALSE, stdout = FALSE, ...){
   pingvec <- system2("ping", x, stderr = FALSE,stdout = FALSE,...)
-  if (pingvec == 0) TRUE else FALSEf}
+  if (pingvec == 0) TRUE else FALSE}
     
-check.open<-ping('www.datasciencetoolkit.org')
+check.open<-suppressWarnings(ping('www.datasciencetoolkit.org'))
 
   if (!check.open) {
     print("data science toolkit is down right now, moving onto google API")
@@ -58,7 +49,7 @@ check.open<-ping('www.datasciencetoolkit.org')
       print(paste("Working... ", address))
 
       if (!is.na(address)) {
-        suppressWarnings(result <- geocode(address,
+        suppressWarnings(result <- ggmap::geocode(address,
           output = "latlona",
           source = "dsk",
           messaging = TRUE
@@ -93,7 +84,7 @@ check.open<-ping('www.datasciencetoolkit.org')
     for (p in 1:nrow(faileddsk)) {
       # p<-1
       paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
-      result <- tryCatch(geocode(paste_address,
+      result <- tryCatch(ggmap::geocode(paste_address,
         output = "latlona",
         source = "google"
       ), warning = function(w) {
@@ -114,7 +105,7 @@ check.open<-ping('www.datasciencetoolkit.org')
     }
     # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
 
-    if (geocodeQueryCheck(userType = "free") == 0) {
+    if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
       retry <- F
       print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
     }
@@ -128,8 +119,12 @@ check.open<-ping('www.datasciencetoolkit.org')
 
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
-  addresses <- merge(addresses, subset(data, select = c("authorID", "AF", "groupID", "author_order", "address", "department", "RP_address", "RI", "OI", "UT", "refID")), by = "authorID", all.x = T)
-  addresses <- subset(addresses, select = c("authorID", "AF", "groupID", "author_order", "address", "university", "department", "RP_address", "RI", "OI", "UT", "refID", "postal_code", "country", "lat", "lon"))
+  
+  
+  addresses <- merge(addresses, subset(data, select = c("authorID",  "groupID", "author_order", "address", "department", "RP_address", "RI", "OI", "UT", "refID")), by = "authorID", all.x = T)
+  
+  
+  addresses <- subset(addresses, select = c("authorID",  "groupID", "author_order", "address", "university", "department", "RP_address", "RI", "OI", "UT", "refID", "postal_code", "country", "lat", "lon"))
 
   missingaddresses <- addresses[is.na(addresses$lat), ]
 

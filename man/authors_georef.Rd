@@ -8,7 +8,7 @@ authors_georef(data, address_column = "address", filename_root = "",
   write_out_missing = FALSE)
 }
 \arguments{
-\item{data}{master dataframe from refine_authors}
+\item{data}{dataframe from `authors_refine()`}
 
 \item{address_column}{name of column in quotes where the addresses are}
 
