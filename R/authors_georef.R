@@ -43,15 +43,16 @@ authors_georef <- function(data,
   # The remainder of addresses will be thrown into googles api
   check.open <- NA
   print("Trying data science toolkit first...")
-  check.open <- tryCatch(scan("http://www.datasciencetoolkit.org", nlines = 1), warning = function(w) {
-    w
-  })
+  ping <- function(x, stderr = FALSE, stdout = FALSE, ...){
+  pingvec <- system2("ping", x, stderr = FALSE,stdout = FALSE,...)
+  if (pingvec == 0) TRUE else FALSEf}
+    
+check.open<-ping('www.datasciencetoolkit.org')
 
-
-  if (!is.na(check.open[1])) {
+  if (!check.open) {
     print("data science toolkit is down right now, moving onto google API")
   }
-  if (is.na(check.open[1])) {
+  if (check.open) {
     for (i in 1:nrow(uniqueAddress)) {
       address <- as.character(uniqueAddress$short_address[i])
       print(paste("Working... ", address))
