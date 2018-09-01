@@ -322,7 +322,7 @@ authors_clean <- function(references,
     flush.console()
     #################################################################################
   }
-  # address.df$department[is.na(address.df$department) & !is.na(address.df$third.tier)]<-address.df$third.tier[is.na(address.df$department) & !is.na(address.df$third.tier)]
+
   city.fix <- is.na(address.df$city) & !is.na(address.df$state)
   address.df$city[city.fix] <- address.df$state[city.fix]
   address.df$state[city.fix] <- NA
@@ -443,8 +443,7 @@ authors_clean <- function(references,
   sum(unique.groupid == 20565)
 
   for (p in unique.groupid) {
-    # for(p in unique.groupid[1:5654]){
-    # p<-9364
+
     matched <- F
     default.frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA, university = NA, email = NA, f.i = 0, address = NA, country = NA)
     match1 <- NA
