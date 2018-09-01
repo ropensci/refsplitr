@@ -37,29 +37,28 @@ plot_net_address <- function(data,
   test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", all.y = T)
   # data$latlonalpha <- paste0("a",1:nrow(data))
 
-  # linkages <- spMatrix(nrow=length(unique(data$latlonalpha)),
-  #                      ncol=length(unique(data$UT)),
-  #                      i = as.numeric(factor(data$latlonalpha)),
-  #                      j = as.numeric(factor(data$UT)),
-  #                      x = rep(1, length(data$latlonalpha))
-  # )
-  #
-  linkages <- spMatrix(
+
+  linkages <- Matrix::spMatrix(
     nrow = length(unique(test1$latlonalpha)),
     ncol = length(unique(test1$refID)),
     i = as.numeric(factor(test1$latlonalpha)),
     j = as.numeric(factor(test1$refID)),
     x = rep(1, length(test1$latlonalpha))
   )
+  
+  
+  links <- matrix(data=linkages, 
+                  nrow=length(unique(test1$latlonalpha)),
+                  ncol=length(unique(test1$refID)))
 
-  rownames(linkages) <- levels(factor(test1$latlonalpha))
-  colnames(linkages) <- levels(factor(test1$refID))
+  rownames(links) <- levels(factor(test1$latlonalpha))
+  colnames(links) <- levels(factor(test1$refID))
 
   ## 	Convert to a one-mode representation of countries:
-  linkages_points <- linkages %*% t(linkages)
+  linkages_points <- links %*% t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(linkages) %*% linkages
+  linkages_references <- t(links) %*% links
 
 
   ## 	Or we might be interested in using the network package instead of igraph:
@@ -79,7 +78,7 @@ plot_net_address <- function(data,
   vertex_names <- (linkages_points_net %v% "vertex.names")
 
   ## 	Get the world map from rworldmap package:
-  world_map <- getMap()
+  world_map <- rworldmap::getMap()
 
 
   coords_df <- test1
@@ -178,7 +177,7 @@ plot_net_address <- function(data,
         x = "x", y = "y",
         group = "Group", # Edges with gradient
         colour = "Sequence",
-        size = -"Sequence"
+        size = "Sequence"
       ),
       alpha = 0.1
     ) +

@@ -14,8 +14,8 @@ plot_addresses_points <- function(data,
 
   ## 	Remove any addresses that have NA values:
   points <- data.frame(
-    lat = do.call(rbind, data$lat),
-    lon = do.call(rbind, data$lon)
+    lat = data$lat,
+    lon = data$lon
   )
 
   points <- points[!is.na(points$lat), ]
@@ -25,7 +25,7 @@ plot_addresses_points <- function(data,
 
 
   ## 	Get the world map from rworldmap package:
-  world <- map_data("world")
+  world <- ggplot2::map_data("world")
   world <- world[world$region != "Antarctica", ]
 
 

@@ -9,22 +9,23 @@
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 
 plot_net_coauthor <- function(data) {
+  
   data <- data[!is.na(data$country), ]
 
-  linkages <- spMatrix(
-    nrow = length(unique(data$country)),
-    ncol = length(unique(data$UT)),
+  
+  linkages <- as.matrix(Matrix::sparseMatrix(
+    dims=c(length(unique(data$country)), 
+           length(unique(data$UT))),
     i = as.numeric(factor(data$country)),
     j = as.numeric(factor(data$UT)),
-    x = rep(1, length(data$country))
-  )
+    x = rep(1, length(data$country))))
 
   row.names(linkages) <- levels(factor(data$country))
 
   colnames(linkages) <- levels(factor(data$UT))
 
   ## 	Convert to a one-mode representation of countries:
-  linkages_countries <- linkages %*% t(linkages)
+  linkages_countries <- linkages %*% base::t(linkages)
 
   ## 	Convert to a one-mode representation of references:
   linkages_references <- t(linkages) %*% linkages
@@ -46,12 +47,9 @@ plot_net_coauthor <- function(data) {
   ## 	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
   linkages_countries_net <- simplify(linkages_countries_net)
 
-  products <- list()
+return(plot(linkages_countries_net, 
+     layout = layout.fruchterman.reingold))
 
-  products[["plot"]] <- plot(linkages_countries_net, layout = layout.fruchterman.reingold)
-  products[["data"]] <- linkages_countries_net
-
-  return(products)
 }
 
 ## 	END: net_plot_coauthor():

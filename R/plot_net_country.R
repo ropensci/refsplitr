@@ -18,23 +18,28 @@ plot_net_country <- function(data,
 
   ## 	Or, we could use a sparse matrix representation:
 
-  linkages <- spMatrix(
+  linkages <- Matrix::spMatrix(
     nrow = length(unique(data$country)),
     ncol = length(unique(data$UT)),
     i = as.numeric(factor(data$country)),
     j = as.numeric(factor(data$UT)),
     x = rep(1, length(data$country))
   )
+  
+  
+  links <- matrix(data=linkages, 
+                  nrow=length(unique(data$country)),
+                  ncol=length(unique(data$UT)))
 
-  rownames(linkages) <- levels(factor(data$country))
+  rownames(links) <- levels(factor(data$country))
 
-  colnames(linkages) <- levels(factor(data$UT))
+  colnames(links) <- levels(factor(data$UT))
 
   ## 	Convert to a one-mode representation of countries:
-  linkages_countries <- linkages %*% t(linkages)
+  linkages_countries <- links %*% t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(linkages) %*% linkages
+  linkages_references <- t(links) %*% links
 
 
 
@@ -61,10 +66,10 @@ plot_net_country <- function(data,
 
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
 
-  coords_df <- left_join(vertexdf,
+  coords_df <- suppressWarnings(left_join(vertexdf,
     world_map[c("ADMIN.1", "LON", "LAT")]@data,
     by = c("ISO_A2" = "ADMIN.1")
-  )
+  ))
 
   ## 	It seems there are two "AU" codes, so we'll aggregate and mean them:
   coords_df <- aggregate(coords_df[c("LON", "LAT")],
@@ -78,7 +83,7 @@ plot_net_country <- function(data,
 
   ## 	One could also use ggplot to plot out the network geographically:
 
-  gpclibPermit()
+  maptools::gpclibPermit()
 
 
   # Function to generate paths between each connected node
@@ -185,7 +190,7 @@ plot_net_country <- function(data,
     coord_equal() +
     geom_path(
       data = allEdges,
-      aes_string(x = "x", y = "y", group = "Group", colour = "Sequence", size = -"Sequence"), alpha = 0.1
+      aes_string(x = "x", y = "y", group = "Group", colour = "Sequence", size = "Sequence"), alpha = 0.1
     ) +
     geom_point(
       data = data.frame(layoutCoordinates), # Add nodes

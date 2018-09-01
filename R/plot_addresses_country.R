@@ -7,7 +7,7 @@
 #'
 #' \code{plot_addresses_country} This function plots an addresses data.frame object by country name.
 #'
-#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
+#' @param data output from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #
 plot_addresses_country <- function(data,
