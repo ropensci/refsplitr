@@ -2,12 +2,18 @@
 title: "RefNet"
 author: "Auriel Fournier, Forest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
 fig_caption: yes
+output:
+  pdf_document:
+    highlight: tango
+  html_document:
+    standalone: true
+    highlight: tango
+    self-contained: true
 vignette: >
-  %\VignetteIndexEntry{RefNet}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+  %\VignetteIndexEntry{Multi-format vignettes}
+  \usepackage[utf8]{inputenc}
+  %\VignetteEngine{knitr::multiformat}
 ---
 
 ```{r setup, include = FALSE}
