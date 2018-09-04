@@ -376,7 +376,7 @@ authors_clean <- function(references,
     novel.names$groupID[which(novel.names$RI == l)] <- groupid
   }
   # length(unique(novel.names$groupID))
-
+  # Need to place this later. Its currently a weak point, or atleast force a last name check.
   unique.em <- novel.names$email[!is.na(novel.names$email) & is.na(novel.names$groupID)]
   unique.em <- names(table(unique.em))[table(unique.em) > 1]
   unique.em <- unique.em[!is.na(unique.em)]

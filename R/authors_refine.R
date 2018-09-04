@@ -18,7 +18,7 @@ authors_refine <- function(authors, master, sim_score = NULL, filename_root = ""
   ##########################################
   # Beginning Checks
   ##########################################
-  if(nrow(authors)==0){  print('Authors data.frame is empty. This means either there are no authors that need to be handchecked, or you inputed an incorrect data.frame in the "authors" argument.'); break}
+  if(nrow(authors)==0){  print('Authors data.frame is empty. This likely means there are no authors that need to be handchecked, outputting the master file'); return(output<-master)}
   
   ##########################################
   authors$groupID[!is.na(authors$similarity) & authors$similarity < sim_score] <- authors$authorID[!is.na(authors$similarity) & authors$similarity < sim_score]
