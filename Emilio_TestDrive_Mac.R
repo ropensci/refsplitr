@@ -44,3 +44,21 @@ WOS2018_authors_short<-head(WOS2018_authors,300)
 authors_georef(WOS2018_authors_short)
 #Gets hung up with this on the screen: [1] "Trying data science toolkit first..."
 
+#######################################
+#######################################
+
+# put your working directory into the folder where your refnet folder is located. 
+setwd("~/Dropbox (UFL)/RESEARCH/refnet2")
+library(devtools)
+logs <- check('refnet')
+
+# ‘roxygen2’ >= 5.0.0 must be installed for this functionality.
+# Would you like to install it?
+#   
+# 1: Yes
+# 2: No
+# 
+# Selection: 1
+
+save(logs, file="mac_logs.Rdata")
+
