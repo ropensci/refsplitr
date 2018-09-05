@@ -33,6 +33,7 @@ authors_georef <- function(data,
   # We're using the data science toolkit first because it has no maximum queery limits.
   # The remainder of addresses will be thrown into googles api
   check.open <- NA
+  print("This may take awhile...")
   print("Trying data science toolkit first...")
   ping <- function(x, stderr = FALSE, stdout = FALSE, ...){
   pingvec <- system2("ping", x, stderr = FALSE,stdout = FALSE,...)

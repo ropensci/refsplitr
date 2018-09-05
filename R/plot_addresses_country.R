@@ -7,7 +7,7 @@
 #'
 #' \code{plot_addresses_country} This function plots an addresses data.frame object by country name.
 #'
-#' @param data output from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
+#' @param data address element from the output from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #
 plot_addresses_country <- function(data,
@@ -16,10 +16,10 @@ plot_addresses_country <- function(data,
 
   country_name_table <- as.data.frame(table(country_name))
 
-  mapdata <- joinCountryData2Map(country_name_table, joinCode = "NAME", nameJoinColumn = "country_name", verbose = TRUE)
+  mapdata <- rworldmap::joinCountryData2Map(country_name_table, joinCode = "NAME", nameJoinColumn = "country_name", verbose = TRUE)
 
   par(mai = c(0, 0, 0.2, 0), xaxs = "i", yaxs = "i")
-  mapParams <- mapCountryData(mapdata, nameColumnToPlot = "Freq", addLegend = FALSE, mapTitle = "Authors Records by Country", catMethod = "pretty", mapRegion = mapRegion)
+  mapParams <- rworldmap::mapCountryData(mapdata, nameColumnToPlot = "Freq", addLegend = FALSE, mapTitle = "Authors Records by Country", catMethod = "pretty", mapRegion = mapRegion)
   do.call(addMapLegend, c(mapParams, legendWidth = 0.5, legendMar = 2))
 }
 
