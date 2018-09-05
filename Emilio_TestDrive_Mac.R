@@ -96,9 +96,9 @@ save(logs, file="mac_logs.Rdata")
 # SOME SUGGESTIONS
 # 1) Tweak names of saved csv outputs and data frames:
 #     XX_references: this is fine
-#     XX_authors_master -> XX_authors_preliminary or XX_authors_initial.  Master list sounds like the supreme, correct, list. It's actually the first pass, and may include some mistakes (that's why we generate a list of names to review)    
+#     `XX_authors_master` -> `XX_authors_prelim` or `XX_authors_initial`.  `Master list` sounds like the supreme, total correct, list (plus it vaguely reminds me of Master Race, which is a  very depressing sign of the times). This file is not the Master, it’s actually the First Pass, and may include some mistakes - that’s why we generate a list of names to review). Sometyhing that still needs to be reviewed is Preliminary or Initial, no?    
 #     XX_authors -> XX_authors_review  This is the list of groupings to review (and possibly correct) 
-#     XX_authors_final -> XX_authors_refined.  Nothing is ever final (raise your hnd if you have manuscript drafts called "final2, final3, final_really"). It's the list of authors after the "refine" and manual check'
+#     XX_authors_final -> XX_authors_refined.  Nothing is ever final (raise your hnd if you have manuscript drafts called "final2, final3, final_really"). This file is not the Master, it’s actually the First Pass, and may include some mistakes - that’s why we generate a list of names to review). Sometyhing that still needs to be reviewed is Preliminary or Initial, no?
 # 
 # 
 # 2) eb_authors <- authors_refine(eb_authors$authors... completely replaces the original eb_authors (2 lists) - both of which are useful (and if you need them you'd have to rerun the whole analysis)')  
