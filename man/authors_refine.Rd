@@ -7,9 +7,9 @@
 authors_refine(authors, master, sim_score = NULL, filename_root = "")
 }
 \arguments{
-\item{authors}{the `authors` element from the list outputted by `authors_clean()`}
+\item{authors}{the `prelim` element from the list outputted by `authors_clean()`}
 
-\item{master}{the `master` element from the list outputted by `authors_clean()`}
+\item{master}{the `review` element from the list outputted by `authors_clean()`}
 
 \item{sim_score}{similarity score cut off point. Number between 0-1.}
 

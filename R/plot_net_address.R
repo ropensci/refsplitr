@@ -13,11 +13,6 @@ plot_net_address <- function(data,
                              line_resolution = 10,
                              mapRegion = "world") {
 
-  # require(Matrix)
-  # require(network)
-  # require(sna)
-  # require(maps)
-  # require(maptools)
 
   data <- data[!is.na(data$country), ]
 
@@ -130,7 +125,7 @@ plot_net_address <- function(data,
 
   allEdges <- do.call(rbind, allEdges) # a fine-grained path ^, with bend ^
 
-  require(ggplot2)
+  requireNamespace(ggplot2, quietly=TRUE)
   
   
   empty_theme <- theme_bw() +

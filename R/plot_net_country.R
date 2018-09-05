@@ -55,7 +55,7 @@ plot_net_country <- function(data,
     names.eval = "value"
   )
 
-  suppressPackageStartupMessages(library(network))
+  suppressPackageStartupMessages(requireNamespace(network))
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
@@ -152,7 +152,7 @@ plot_net_country <- function(data,
 
   allEdges <- do.call(rbind, allEdges)
 
-  library(ggplot2)
+  requireNamespace(ggplot2, quietly=TRUE)
   
   empty_theme <- theme_bw() +
     theme(

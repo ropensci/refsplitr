@@ -17,3 +17,4 @@ RoxygenNote: 6.1.0
 RdMacros: Rdpack
 Suggests: testthat, utils
 VignetteBuilder: utils
+Encoding: UTF-8
