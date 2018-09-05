@@ -30,8 +30,8 @@ plot_net_address <- function(data,
 
   # data$latlonalpha <- paste0("a",1:nrow(data))
   test <- data.frame(latlon = unique(data$latlon))
-  test$LAT <- as.numeric(sapply(strsplit(as.character(test$latlon), ","), function(x) x[2]))
-  test$LON <- as.numeric(sapply(strsplit(as.character(test$latlon), ","), function(x) x[1]))
+  test$LAT <- as.numeric(sapply(strsplit(as.character(test$latlon), ","), function(x) x[1]))
+  test$LON <- as.numeric(sapply(strsplit(as.character(test$latlon), ","), function(x) x[2]))
   test$latlonalpha <- paste0("a", 1:nrow(test))
 
   test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", all.y = T)
@@ -111,9 +111,11 @@ plot_net_address <- function(data,
 
   layoutCoordinates <- test
 
-  adjacencydf <- data.frame(adjacencyMatrix) %>%
-    rownames_to_column() %>%
-    gather(key="rownamesA", value="value", -"rowname")
+  adjacencydf <- data.frame(adjacencyMatrix) 
+  adjacencydf <- tibble::rownames_to_column(adjacencydf)
+  adjacencydf <- tidyr::gather(data=adjacencydf, 
+                    key="rownamesA", 
+                    value="value", -"rowname")
 
   adjacencyList <- adjacencydf[adjacencydf$value > 0, ]
 
@@ -128,7 +130,9 @@ plot_net_address <- function(data,
 
   allEdges <- do.call(rbind, allEdges) # a fine-grained path ^, with bend ^
 
-
+  require(ggplot2)
+  
+  
   empty_theme <- theme_bw() +
     theme(
       line = element_blank(),
@@ -154,7 +158,7 @@ plot_net_address <- function(data,
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- fortify(world_map)
-  world_map.df <- full_join(world_map.points, world_map@data, by = "id")
+  world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
 
 
   products <- list()

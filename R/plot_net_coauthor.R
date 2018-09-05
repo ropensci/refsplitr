@@ -33,28 +33,29 @@ plot_net_coauthor <- function(data) {
   linkages_countries <- links %*% base::t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(links) %*% links
+  linkages_references <- base::t(links) %*% links
 
   ## 	Create an igraph object from our countries linkages:
 
-  linkages_countries_net <- graph.adjacency(linkages_countries,
+  linkages_countries_net <- igraph::graph.adjacency(linkages_countries,
     mode = "undirected",
     weighted = TRUE
   )
 
-  V(linkages_countries_net)$label <- V(linkages_countries_net)$name
-  V(linkages_countries_net)$label.color <- rgb(0, 0, .2, .5)
-  V(linkages_countries_net)$label.cex <- 0.5
-  V(linkages_countries_net)$size <- 12
-  V(linkages_countries_net)$frame.color <- NA
-  V(linkages_countries_net)$color <- rgb(0, 0.6, 0, 0.7)
+  igraph::V(linkages_countries_net)$label <- igraph::V(linkages_countries_net)$name
+  igraph::V(linkages_countries_net)$label.color <- rgb(0, 0, .2, .5)
+  igraph::V(linkages_countries_net)$label.cex <- 0.5
+  igraph::V(linkages_countries_net)$size <- 12
+  igraph::V(linkages_countries_net)$frame.color <- NA
+  igraph::V(linkages_countries_net)$color <- rgb(0, 0.6, 0, 0.7)
 
   ## 	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
-  linkages_countries_net <- simplify(linkages_countries_net)
+  linkages_countries_net <- igraph::simplify(linkages_countries_net)
+  
+  co <- igraph::layout_with_fr(linkages_countries_net)
 
 plot(linkages_countries_net, 
-     layout = layout.fruchterman.reingold)
-
+     layout = co)
 }
 
 ## 	END: net_plot_coauthor():

@@ -48,14 +48,14 @@ plot_net_country <- function(data,
   ## 		and names.eval="value" arguments it will load our edge counts in as
   ## 		an edge attribute named "value" which we can then use as a weighting
   ## 		or plotting attribute:
-  linkages_countries_net <- network(as.matrix(linkages_countries),
+  linkages_countries_net <- network::network(as.matrix(linkages_countries),
     directed = FALSE,
     loops = FALSE,
     ignore.eval = FALSE,
     names.eval = "value"
   )
 
-
+  suppressPackageStartupMessages(library(network))
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
@@ -66,7 +66,7 @@ plot_net_country <- function(data,
 
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
 
-  coords_df <- suppressWarnings(left_join(vertexdf,
+  coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
     world_map[c("ADMIN.1", "LON", "LAT")]@data,
     by = c("ISO_A2" = "ADMIN.1")
   ))
@@ -137,7 +137,7 @@ plot_net_country <- function(data,
 
   adjacencydf$country <- row.names(adjacencydf)
 
-  adjacencyList <- gather(data = adjacencydf, key="countryA", value="value", -"country") 
+  adjacencyList <- tidyr::gather(data = adjacencydf, key="countryA", value="value", -"country") 
 
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
 
@@ -152,7 +152,8 @@ plot_net_country <- function(data,
 
   allEdges <- do.call(rbind, allEdges)
 
-
+  library(ggplot2)
+  
   empty_theme <- theme_bw() +
     theme(
       line = element_blank(),
@@ -180,7 +181,7 @@ plot_net_country <- function(data,
 
   world_map.points <- fortify(world_map)
 
-  world_map.df <- full_join(world_map.points, world_map@data, by = "id")
+  world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
 
   products <- list()
 
