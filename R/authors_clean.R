@@ -582,14 +582,14 @@ authors_clean <- function(references,
 
   # write it out
   write.csv(subset(final, select = -c(match_name, similarity)),
-    file = paste0(filename_root, "_authors_master.csv"),
+    file = paste0(filename_root, "_authors_prelim.csv"),
     row.names = FALSE
   )
 
   write.csv(sub.authors,
-    file = paste0(filename_root, "_authors.csv"),
+    file = paste0(filename_root, "_authors_review.csv"),
     row.names = FALSE
   )
   #
-  return(list(master = final, authors = sub.authors))
+  return(list(prelim = final, review = sub.authors))
 } # end function

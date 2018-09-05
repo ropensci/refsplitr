@@ -122,19 +122,10 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "") {
     ## 		readLines() function after bringing a UTF-8 file in, in that
     ## 		it doesn't respsect the BOM characters.  So we'll just read
     ## 		the files in with no encoding specified and strip the BOM if
-    ## 		it's there:
-    # read_line <- readLines(in_file, n=1, warn=FALSE, encoding="UTF-8")
+
     read_line <- readLines(in_file, n = 1, warn = FALSE)
 
     if (length(read_line) > 0) {
-      ### 	Check for UTF-8 encoding:
-      # if (substr(read_line, 1, 3) == "ï»¿") {
-      # 	read_line <- substr(read_line, 4, nchar(read_line))
-      # }
-      ### 	Check for alternate UTF-8 encoding:
-      # if (substr(read_line, 1, 3) == "???") {
-      # 	read_line <- substr(read_line, 4, nchar(read_line))
-      # }
 
       ## 	NOTE: The above is inconsistent across files and download
       ## 		types, so we could try the following:
