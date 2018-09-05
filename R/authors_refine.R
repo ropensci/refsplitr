@@ -12,14 +12,16 @@
 #'   path, to which "_authors.csv" and "_authors_references.csv" will be appended and the
 ## so what you need to do is take the authors file and change the names (no au and af), with addresses, title, and authors
 authors_refine <- function(authors, master, sim_score = NULL, filename_root = "") {
-  if (is.null(sim_score)) {
-    sim_score <- min(authors$similarity, na.rm = T)
-  }
   ##########################################
   # Beginning Checks
   ##########################################
-  if(nrow(authors)==0){  print('Authors data.frame is empty. This likely means there are no authors that need to be handchecked, outputting the master file. You can use the $master output from authors_clean() for your next task.'); return(output<-master)}
+  if(is.null(nrow(authors))){  print('Authors data.frame is empty. This likely means there are no authors that need to be handchecked, outputting the master file. You can use the $master output from authors_clean() for your next task.'); 
+    return(output<-master)}
   
+    if (is.null(sim_score)) {
+    sim_score <- min(authors$similarity, na.rm = T)
+  }
+
   ##########################################
   authors$groupID[!is.na(authors$similarity) & authors$similarity < sim_score] <- authors$authorID[!is.na(authors$similarity) & authors$similarity < sim_score]
 
