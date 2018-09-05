@@ -12,8 +12,9 @@
 plot_net_address <- function(data,
                              line_resolution = 10,
                              mapRegion = "world") {
-
-
+  requireNamespace(package="ggplot2", quietly=TRUE)
+  requireNamespace(package="network", quietly=TRUE)
+  
   data <- data[!is.na(data$country), ]
 
   data <- data[!is.na(data$lat), ]
@@ -63,14 +64,14 @@ plot_net_address <- function(data,
   ## 		and names.eval="value" arguments it will load our edge counts in as
   ## 		an edge attribute named "value" which we can then use as a weighting
   ## 		or plotting attribute:
-  linkages_points_net <- network(as.matrix(linkages_points),
+  linkages_points_net <- network::network(as.matrix(linkages_points),
     directed = FALSE,
     loops = FALSE,
     ignore.eval = FALSE,
     names.eval = "value"
   )
 
-  vertex_names <- (linkages_points_net %v% "vertex.names")
+  #vertex_names <- (linkages_points_net %v% "vertex.names")
 
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
@@ -125,17 +126,16 @@ plot_net_address <- function(data,
 
   allEdges <- do.call(rbind, allEdges) # a fine-grained path ^, with bend ^
 
-  requireNamespace(ggplot2, quietly=TRUE)
   
   
-  empty_theme <- theme_bw() +
-    theme(
-      line = element_blank(),
-      rect = element_blank(),
-      axis.text = element_blank(),
-      strip.text = element_blank(),
-      plot.title = element_blank(),
-      axis.title = element_blank(),
+  empty_theme <- ggplot2::theme_bw() +
+    ggplot2::theme(
+      line = ggplot2::element_blank(),
+      rect = ggplot2::element_blank(),
+      axis.text = ggplot2::element_blank(),
+      strip.text = ggplot2::element_blank(),
+      plot.title = ggplot2::element_blank(),
+      axis.title = ggplot2::element_blank(),
       plot.margin = structure(c(0, 0, -1, -1),
         unit = "lines",
         valid.unit = 3L,
@@ -152,27 +152,27 @@ plot_net_address <- function(data,
 
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
-  world_map.points <- fortify(world_map)
+  world_map.points <- ggplot2::fortify(world_map)
   world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
 
 
   products <- list()
 
-  products[["plot"]] <- ggplot() +
-    geom_polygon(
+  products[["plot"]] <- ggplot2::ggplot() +
+    ggplot2::geom_polygon(
       data = world_map.df,
-      aes_string("long", "lat", group = "group"),
+      ggplot2::aes_string("long", "lat", group = "group"),
       fill = gray(8 / 10)
     ) +
-    geom_path(
+    ggplot2::geom_path(
       data = world_map.df,
-      aes_string("long", "lat", group = "group"),
+      ggplot2::aes_string("long", "lat", group = "group"),
       color = gray(6 / 10)
     ) +
-    coord_equal() +
-    geom_path(
+    ggplot2::coord_equal() +
+    ggplot2::geom_path(
       data = allEdges,
-      aes_string(
+      ggplot2::aes_string(
         x = "x", y = "y",
         group = "Group", # Edges with gradient
         colour = "Sequence",
@@ -180,9 +180,9 @@ plot_net_address <- function(data,
       ),
       alpha = 0.1
     ) +
-    geom_point(
+    ggplot2::geom_point(
       data = data.frame(layoutCoordinates),
-      aes_string(x = "LON", y = "LAT"),
+      ggplot2::aes_string(x = "LON", y = "LAT"),
       size = 3 + 100 * sna::degree(linkages_points_net,
         cmode = "outdegree", rescale = T
       ),
@@ -190,12 +190,12 @@ plot_net_address <- function(data,
       colour = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       fill = rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
-    scale_colour_gradient(
+    ggplot2::scale_colour_gradient(
       low = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       high = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       guide = "none"
     ) +
-    scale_size(range = c(5 / 10, 5 / 10), guide = "none") + # Customize taper
+    ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + # Customize taper
     empty_theme
 
 

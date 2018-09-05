@@ -55,7 +55,7 @@ plot_net_country <- function(data,
     names.eval = "value"
   )
 
-  suppressPackageStartupMessages(requireNamespace(network))
+  requireNamespace(package="network", quietly=TRUE)
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
@@ -152,16 +152,16 @@ plot_net_country <- function(data,
 
   allEdges <- do.call(rbind, allEdges)
 
-  requireNamespace(ggplot2, quietly=TRUE)
+  requireNamespace(package="ggplot2", quietly=TRUE)
   
-  empty_theme <- theme_bw() +
-    theme(
-      line = element_blank(),
-      rect = element_blank(),
-      axis.text = element_blank(),
-      strip.text = element_blank(),
-      plot.title = element_blank(),
-      axis.title = element_blank(),
+  empty_theme <- ggplot2::theme_bw() +
+    ggplot2::theme(
+      line = ggplot2::element_blank(),
+      rect = ggplot2::element_blank(),
+      axis.text = ggplot2::element_blank(),
+      strip.text = ggplot2::element_blank(),
+      plot.title = ggplot2::element_blank(),
+      axis.title = ggplot2::element_blank(),
       plot.margin = structure(c(
         0, 0,
         -1, -1
@@ -179,32 +179,32 @@ plot_net_country <- function(data,
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
 
-  world_map.points <- fortify(world_map)
+  world_map.points <- ggplot2::fortify(world_map)
 
   world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
 
   products <- list()
 
-  products[["plot"]] <- ggplot() +
-    geom_polygon(data = world_map.df, aes_string("long", "lat", group = "group"), fill = gray(8 / 10)) +
-    geom_path(data = world_map.df, aes_string("long", "lat", group = "group"), color = gray(6 / 10)) +
-    coord_equal() +
-    geom_path(
+  products[["plot"]] <- ggplot2::ggplot() +
+    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), fill = gray(8 / 10)) +
+    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), color = gray(6 / 10)) +
+    ggplot2::coord_equal() +
+    ggplot2::geom_path(
       data = allEdges,
-      aes_string(x = "x", y = "y", group = "Group", colour = "Sequence", size = "Sequence"), alpha = 0.1
+      ggplot2::aes_string(x = "x", y = "y", group = "Group", colour = "Sequence", size = "Sequence"), alpha = 0.1
     ) +
-    geom_point(
+    ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes
-      aes_string(x = "LON", y = "LAT"),
+      ggplot2::aes_string(x = "LON", y = "LAT"),
       size = 5 + 100 * sna::degree(linkages_countries_net, cmode = "outdegree", rescale = TRUE), pch = 21,
       colour = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       fill = rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
-    scale_colour_gradient(low = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), high = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), guide = "none") +
-    scale_size(range = c(1, 1), guide = "none") +
-    geom_text(
+    ggplot2::scale_colour_gradient(low = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), high = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), guide = "none") +
+    ggplot2::scale_size(range = c(1, 1), guide = "none") +
+    ggplot2::geom_text(
       data = coords_df,
-      aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, color = gray(2 / 10)
+      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, color = gray(2 / 10)
     ) + empty_theme # Clean up plot
 
 
