@@ -574,9 +574,7 @@ authors_clean <- function(references,
   final <- merge(final, novel.names[, c("ID", "groupID", "match_name", "similarity")], by.x = "authorID", by.y = "ID", all.x = T)
   final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", "similarity", colnames(final)[!colnames(final) %in% c("authorID", "AU", "AF", "groupID", "match_name", "similarity")])]
 
-  # This only brings in the author to be matched and its actual match
-  # sub<-final[!is.na(final$similarity) | (final$authorID %in% (final$groupID[!is.na(final$similarity)])),c('authorID','AU','AF','groupID','match_name','similarity','author_order','address','university','department','short_address','postal_code',"country",'RP_address','RI','OI','EM','UT','refID',"PT","PY","PU")]
-  # This brings in the author to be matched and the whole groupID associated so you can have more information
+
   sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity)], c("authorID", "AU", "AF", "groupID", "match_name", "similarity", "author_order", "university", "department", "postal_code", "country", "address", "RP_address", "RI", "OI", "EM", "UT", "refID", "PT", "PY", "PU")]
   sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity, sub.authors$authorID), ]
 
