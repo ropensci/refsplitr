@@ -15,7 +15,7 @@ authors_refine <- function(review, prelim, sim_score = NULL, filename_root = "")
   ##########################################
   # Beginning Checks
   ##########################################
-  if(nrow(review)==0){  print('Authors data.frame is empty. This likely means there are no authors that need to be handchecked, outputting the prelim file. You can use the $prelim output from authors_clean() for your next task.');
+  if(length(review)==0 || is.null(review) || nrow(review)==0){  print('Authors data.frame is empty. This likely means there are no authors that need to be handchecked, outputting the prelim file.');
     output<-prelim
     return(output)}
   

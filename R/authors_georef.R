@@ -33,13 +33,10 @@ authors_georef <- function(data,
   # We're using the data science toolkit first because it has no maximum queery limits.
   # The remainder of addresses will be thrown into googles api
   check.open <- NA
-  print("This may take awhile...")
+  
   print("Trying data science toolkit first...")
-  ping <- function(x, stderr = FALSE, stdout = FALSE, ...){
-  pingvec <- system2("ping", x, stderr = FALSE,stdout = FALSE,...)
-  if (pingvec == 0) TRUE else FALSE}
-    
-check.open<-suppressWarnings(ping('www.datasciencetoolkit.org'))
+  # we'll check if data science toolkit is working, by pinging a known address 
+check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source='dsk')), messaging=F)==0
 
   if (!check.open) {
     print("data science toolkit is down right now, moving onto google API")
@@ -79,9 +76,11 @@ check.open<-suppressWarnings(ping('www.datasciencetoolkit.org'))
   # that store warnings in strange ways I havent completely grasped yet.
 
   retry <- T
+  if(nrow(faileddsk)>0){
   while (retry == T) {
     faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
     warn.list <- list()
+    
     for (p in 1:nrow(faileddsk)) {
       # p<-1
       paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
@@ -117,7 +116,7 @@ check.open<-suppressWarnings(ping('www.datasciencetoolkit.org'))
       Sys.sleep(5)
     }
   }
-
+}
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
   
