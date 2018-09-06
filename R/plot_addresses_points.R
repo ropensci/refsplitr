@@ -14,8 +14,8 @@ plot_addresses_points <- function(data,
 
   ## 	Remove any addresses that have NA values:
   points <- data.frame(
-    lat = data$lat,
-    lon = data$lon
+    lat = do.call(rbind, data$lat),
+    lon = do.call(rbind, data$lon)
   )
 
   points <- points[!is.na(points$lat), ]
@@ -34,21 +34,21 @@ plot_addresses_points <- function(data,
   }
 
 
-  ggplot() +
-    geom_point(data = points, aes_string(x = "lon", y = "lat")) +
-    geom_map(
+  ggplot2::ggplot() +
+    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lat", y = "lon")) +
+    ggplot2::geom_map(
       data = world, map = world,
-      aes_string(map_id = "region"),
+      ggplot2::aes_string(map_id = "region"),
       color = "gray", fill = "#7f7f7f", size = 0.05, alpha = 1 / 4
     ) +
-    ylim(-80, 80) +
-    xlim(-180, 180) +
-    ylab("longitude") +
-    xlab("latitude") +
-    theme_bw() +
-    theme(
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank()
+    ggplot2::ylim(-80, 80) +
+    ggplot2::xlim(-180, 180) +
+    ggplot2::ylab("longitude") +
+    ggplot2::xlab("latitude") +
+    ggplot2::theme_bw() +
+    ggplot2::theme(
+      panel.grid.major = ggplot2::element_blank(),
+      panel.grid.minor = ggplot2::element_blank()
     )
 }
 
