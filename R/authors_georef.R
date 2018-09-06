@@ -76,9 +76,10 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
   # that store warnings in strange ways I havent completely grasped yet.
 
   retry <- T
+  faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
   if(nrow(faileddsk)>0){
   while (retry == T) {
-    faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
+    
     warn.list <- list()
     
     for (p in 1:nrow(faileddsk)) {
