@@ -47,7 +47,7 @@ These steps are described in greater detail below; Appendix 2 guides users throu
 
 
 <p align="center">
-<img src="RefNet_fig1_eb.jpg" height="300" /> 
+<img src="refnet_fig1_eb.jpg" height="300" /> 
 </p>
 <p align="center">
 **Figure 1:** _refnet_ allows users to import, organize, and visualize bibliographic data in 4 simple steps.
@@ -59,7 +59,7 @@ The `refnet` package can import a single Web of Science data file combine and im
 
 - **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
 
-- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `RefNet` identifies and removes any duplicate reference records.
+- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refnet` identifies and removes any duplicate reference records.
 
 - **filename_root**: The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
@@ -114,7 +114,7 @@ If the users wish to accept the result of the disambiguation algorithm without m
 
 Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv file, which contain the following information:
 
-- **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of RefNet's disambiguation algorithm is that all authors of all articles are different individuals).    
+- **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals).    
 
 - **AU**:	
 
@@ -187,7 +187,7 @@ The output of `authors_refine()` is a file. This file can be used for many analy
 
 > `eb_authors <- authors_refine(eb_authors, eb_authors_master, filename_root="./output/eb")`
 
-###3. Georeferencing author institutions 
+###2.3. Georeferencing author institutions 
 
 Users can georeference (latitude & longitude) author's institutions using the `authors_georef()` function. This function has has 2 arguments:  
 
@@ -195,9 +195,9 @@ Users can georeference (latitude & longitude) author's institutions using the `a
 - **address_column**: A quoted character identifying the column name in which addresses are stored. 
 - **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
 
-The output of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and an output/file of references that RefNet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations *HOW?*. 
+The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations **HOW?**. 
 
-> **Warning**: this version of RefNet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses
+> **Warning**: this version of refnet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses
 
 
 ```
@@ -215,9 +215,9 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
 
 ###4. Bibliometric analyses and Data Visualization
 
-RefNet includes some basic summary analyses and data visualization tools....  
+refnet includes some basic summary analyses and data visualization tools....  
 
-####4.1 Bibliometric analyses *EB: I HAVE CODE TO DO ALL OF THIS!*
+####4.1 Bibliometric analyses *EB: I HAVE CODE TO DO ALL OF THIS BUT:  IT IS ALL IN TIDYVERSE. SHOULD WE INCLUDE AS AN APPENDINX OR HERE?*
 1. OVERALL
 + total number of articles
 + total number of authors
@@ -234,7 +234,7 @@ RefNet includes some basic summary analyses and data visualization tools....
 + cumulative number of countries
 
 ####4.2 Visualizing Productivity and Collaboration 
-There five kinds of plots you can make. They are in two categories **World plots** and **Net Plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
+`refnet` can generate five visualizations of productivity and collaboration. These are either **World plots** or **Net plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
 
 ####4.2.1. World Plots (by country)
 To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. The function has one argument:  
@@ -292,10 +292,13 @@ This function can create a large data set (100's of MB), and may takes several m
 
 ##Summary
 
+The refnet package greatly simplifies the process of organizing, correcting, and visualizing data from the Web of Science and other bibliometric databases.  
+
+
 
 ##Acknowledgments
 
-Support for the development of RefNet was provided by grants from the University of Florida Center for Latin American Studies and the University of Florida Informatics Institute.
+Support for the development of refnet was provided by grants from the University of Florida Center for Latin American Studies and the University of Florida Informatics Institute.
 
 ##References
 
@@ -325,7 +328,7 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ***
 
-**Appendix 1:** Giode to downloading reference records from the Web of Science&copy;.
+**Appendix 1:** Guide to downloading reference records from the Web of Science&copy;.
 
 <p align="center">
 <img src="WOSsearch_fig.tiff" width="1200" / > 
@@ -334,10 +337,10 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 ***
 
 
-Appendix 2 guides users through the entire process with a sample dataset
+**Appendix 2:** Ste-by-step guide to processing, reviewing, and visualizing data with `refnet`. 
 
 
 ***
 
-Appendix 3: brief overview of disambiguation algorithm
+**Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
 
