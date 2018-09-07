@@ -14,16 +14,22 @@ authors_georef <- function(data,
                            filename_root = "",
                            write_out_missing = FALSE) {
   # Read in the CSV data and store it in a variable
-  paste.frame <- data[, c("university", "country", "postal_code", "authorID", "address")]
+  paste.frame <- data[, c("university",'city','state', "country", "postal_code", "authorID", "address")]
+  
   paste.frame$university[is.na(paste.frame$university)] <- ""
   paste.frame$country[is.na(paste.frame$country)] <- ""
   paste.frame$postal_code[is.na(paste.frame$postal_code)] <- ""
+  paste.frame$city[is.na(paste.frame$city)] <- ""
+  paste.frame$state[is.na(paste.frame$state)] <- ""
   # without university
-  paste.frame$short_address[paste.frame$address != "Could not be extracted"] <- paste0(paste.frame$city[paste.frame$address != "Could not be extracted"], ", ", paste.frame$state[paste.frame$address != "Could not be extracted"], ", ", paste.frame$postal_code[paste.frame$address != "Could not be extracted"], " ", paste.frame$country[paste.frame$address != "Could not be extracted"])
-
-  paste.frame$short_address <- gsub(", ,|,,|,  ,", ", ", paste.frame$short_address)
+  paste.frame$short_address<-NA
+  
+  paste.frame$short_address<-paste(paste.frame$university,paste.frame$city,paste.frame$state,paste.frame$country,paste.frame$postal_code,sep=',')
+  paste.frame$short_address<-gsub(",,,|,,,,|,,,,",'',paste.frame$short_address)
+  paste.frame$short_address<-gsub(",,",',',paste.frame$short_address)
   paste.frame$short_address <- trimws(paste.frame$short_address, which = "both")
   paste.frame$short_address <- as.character(paste.frame$short_address)
+ 
   uniqueAddress <- data.frame(short_address = unique(paste.frame$short_address), lat = NA, lon = NA, stringsAsFactors = F)
   uniqueAddress <- uniqueAddress[!is.na(uniqueAddress), ]
   uniqueAddress$adID <- 1:nrow(uniqueAddress)
@@ -143,6 +149,9 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
     )
   }
 
+  #
+  addresses$lat<-unlist(addresses$lat)
+  addresses$lon<-unlist(addresses$lon)
   outputlist <- list()
 
   outputlist$addresses <- addresses

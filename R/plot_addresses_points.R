@@ -13,11 +13,11 @@ plot_addresses_points <- function(data,
                                   mapRegion = "world") {
 
   ## 	Remove any addresses that have NA values:
-  points <- data.frame(
-    lat = do.call(rbind, data$lat),
-    lon = do.call(rbind, data$lon)
-  )
-
+ # points <- data.frame(
+ #    lat = do.call(rbind, data$lat),
+ #    lon = do.call(rbind, data$lon)
+ #  )
+  points <- data.frame(lat=data$lat,lon=data$lon)
   points <- points[!is.na(points$lat), ]
 
   points <- points[!is.na(points$lon), ]
