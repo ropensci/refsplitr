@@ -1,5 +1,5 @@
 ---
-title: 'Refnet: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools'
+title: 'refnet: Tools for organization and visualization of data from the Web of Science (Clarivate Analytics) and Scopus (Elsevier) bibliometric databases'
 tags:
   - tagone
   - tagtwo
@@ -69,7 +69,7 @@ Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientifi
 
 Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
 
-Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
+Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
 
 Westgate, M. J. (2018a). revtools: Tools to Support Evidence Synthesis. R package version 0.2.2.
   https://CRAN.R-project.org/package=revtools
