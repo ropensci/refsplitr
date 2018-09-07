@@ -31,18 +31,19 @@ The rapidly increasing size of bibliometric datasets available to researchers ha
 
 The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address. The affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"); the same is true of the institution ("UC Davis", "University of California-Davis","University of California") or country in which it is based ("USA", "United States", "United States of America"). Researchers working for the same institution could be based at units in geographically disparate locations. Finally, these complex and affiliations are all recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to carry out analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) was written to help users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguate author names and flags any needing additional scrutiny, parses author addresses, and georeferences author institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the data can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as 'revtools' (Westgate 2018a,b) or 'bibliometrix' (Aria & Cuccurullo 2017).
+Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018a,b) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
-##2. Using RefNet
+##2. Using refnet
 
-Once bibliographic records have been downloaded (for guidance see Appendix 1), `refnet`'s tools are applied in four steps:   
-- (1) importing and tidying reference records,   
-- (2) parsing of author addresses and author name disambiguation,  
-- (3) georeferencing of author institutions, and   
-- (4) data analysis and visualization (Fig 1).    
+After bibliographic records have been downloaded (see Appendix 1 for guidance on how to download records in the proper format), `refnet`'s tools are applied in four steps (Fig 1):   
 
-Each of these steps is described below; Appendix 2 guides users through the entire process with a sample dataset.  
+1. importing and tidying reference records (Section 2.1)
+2. author name disambiguation and parsing of author addresses (Section 2.2)
+3. georeferencing of author institutions (Section 2.3)
+4. data analysis and visualization (Section 2.4)
+
+These steps are described in greater detail below; Appendix 2 guides users through the entire process with a sample dataset.  
 
 
 <p align="center">
@@ -54,10 +55,12 @@ Each of these steps is described below; Appendix 2 guides users through the enti
 
 ###2.1. Importing Search Results 
 
-The `refnet` package can import a single Web of Science data file combine and import multiple files in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `references_read()` function, which has three arguments:  
+The `refnet` package can import a single Web of Science data file combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `references_read()` function, which has three arguments:  
 
 - **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
+
 - **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `RefNet` identifies and removes any duplicate reference records.
+
 - **filename_root**: The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
 The output of `references_read()` is a an object in the R Workspace, which is also written out into a .csv file, in which each line is a WOS record and columns are the different parts of the bibliographic record (author name, journal name, article title, etc). This file is used by `refnet` for Step 2.
@@ -84,26 +87,28 @@ c. To save to a location with a prefix, write the folder path followed by a '/' 
 
 ###2.2. Author address parsing and name disambiguation 
 
-The next step is to identify all unique authors in the dataset and parse the affiliation for every article they wrote. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number (see Appendix 3). 
+The next step is to identify all unique authors in the dataset and parse the affiliation for every article they wrote. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
 
-The function `authors_clean()` has two arguments:  
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
+
 - **filename_root**:  The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. The syntax is the same as for `references_read()`. 
 
-The output of `authors_clean()` is two objects:  
+The output of `authors_clean()` is two objects: (1) "prelim", which is the initial list of disambiguated author names, and   
+(2) "review", the subset of authors with putative name variants suggested for verification.   
 
-(1) "master", which is the complete list of disambiguated author names, and   
-(2) "authors", the subset of authors with putative name variants.   
-
-Users can either accept the results of the disambiguation or review the groups of names, make any necessary corrections, and merge the corrections into the master list.  
+Once disambiguation is complete, users can accept the results without manually reviewing names flagged for additional inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make any necessary corrections (Section 2.2.3). These corrections are then used to generate a refined dataset for analyses (Section 2.2.4). 
 
 ####Example
 
+a. To disambiguate the authors of all references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
+
 > `eb_authors <- authors_clean(eb_references, filename_root="./output/eb")`
 
-####2.2.1. Accepting the results of disambiguation
+####2.2.1. Accepting the results of author disambiguation without manual review
 
-If the users wish to accept the result of the disambiguation algorithm without reviewing the names results can be accepted with `authors_refine()`, the output of which is an object.  
+If the users wish to accept the result of the disambiguation algorithm without manually reviewing names, they can do the results can be accepted with `authors_refine()`. The output of this function is an object.....**MORE DETAILS**  
+
+> `eb_authors <- authors_refine(eb_authors, eb_authors_master, filename_root="./output/eb")`
 
 ####2.2.2. Reviewing the results of disambiguation
 
@@ -125,17 +130,17 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 - **address**: the author's address in the WOS record for an article.
 
-- **university** - the author's institution, if present from the address
+- **university**: the author's institution, if present from the address
 
-- **department** - the author's department, if present, from the address
+- **department**: the author's department, if present, from the address
 
-- **short_address** - the author's street address 
+- **short_address**: the author's street address 
 
-- **postal_code** - the author's postal code
+- **postal_code**: the author's postal code
 
-- **country** - the author's country 
+- **country**: the author's country 
 
-- **RP_address** - the reprint address, if present
+- **RP_address**: the reprint address, if present
 
 - **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article(if they have one).
 
@@ -145,13 +150,13 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 - **UT**: Accession Number
 
-- **refID**
+- **refID**: 
 
 - **PT**: Publication Type (J=Journal; B=Book; S=Series; P=Patent)
 
 - **PY**: Publication Year
 
-- **PU**
+- **PU**: 
 
 <p align="center">  
 <img src="AuthorMatch.PNG" height="300" /> 
