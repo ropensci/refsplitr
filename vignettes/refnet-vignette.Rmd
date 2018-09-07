@@ -31,7 +31,7 @@ The rapidly increasing size of bibliometric datasets available to researchers ha
 
 The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide as well as the way in which they present it. For instance, researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address. The affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"); the same is true of the institution ("UC Davis", "University of California-Davis","University of California") or country in which it is based ("USA", "United States", "United States of America"). Researchers working for the same institution could be based at units in geographically disparate locations. Finally, these complex and affiliations are all recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to carry out analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018a,b) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
+Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
 ##2. Using refnet
@@ -213,11 +213,11 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
 > **warning** This function parses out addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
 
 
-###4. Bibliometric analyses and Data Visualization
+###2.4. Bibliometric analyses and Data Visualization
 
 refnet includes some basic summary analyses and data visualization tools....  
 
-####4.1 Bibliometric analyses *EB: I HAVE CODE TO DO ALL OF THIS BUT:  IT IS ALL IN TIDYVERSE. SHOULD WE INCLUDE AS AN APPENDINX OR HERE?*
+####2.4.1 Bibliometric analyses *EB: I HAVE CODE TO DO ALL OF THIS BUT:  IT IS ALL IN TIDYVERSE. SHOULD WE INCLUDE AS AN APPENDINX OR HERE?*
 1. OVERALL
 + total number of articles
 + total number of authors
@@ -233,10 +233,10 @@ refnet includes some basic summary analyses and data visualization tools....
 + number of countries per year
 + cumulative number of countries
 
-####4.2 Visualizing Productivity and Collaboration 
+####2.4.2 Visualizing Productivity and Collaboration 
 `refnet` can generate five visualizations of productivity and collaboration. These are either **World plots** or **Net plots**. World plots simply plot author locations on a world map. Net plots use network analysis to plot connections of co-authorship on papers. We'll go from simple to complex. It's important to note that the rendering of these plots may take time, particularly if the amount of individual authors is >1000, depending on your computers processing power. So give it time if you are using an older computer or attempting to map a large number of points
 
-####4.2.1. World Plots (by country)
+####2.4.2.1. World Plots (by country)
 To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. The function has one argument:  
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
@@ -245,7 +245,7 @@ To make a colored plot of all authors country of residency we'll use the `plot_a
 <img src="WorldCountry.png" height="300" /> 
 </p>
 
-####4.2.2. World Plots (points)
+####2.4.2.2. World Plots (points)
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
@@ -254,7 +254,7 @@ To individual plot points of each authors location we'll use the `plot_addresses
 <img src="WorldPoint.png" height="300" /> 
 </p>
 
-####4.2.3. Net Plots (base)
+####2.4.2.3. Net Plots (base)
 To plot a network diagram of co-author countries of origins and how they're connected we'll use the `net_plot_coauthor()` function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
@@ -265,7 +265,7 @@ This function has two outputs, in the form of a list. `$plot` is the plot, `$dat
 <img src="NetPlotBase.png" height="300" /> 
 </p>
 
-####4.2.4. Net Plots (Country)
+####2.4.2.4. Net Plots (Country)
 To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **`net_plot_coauthor_country()`** function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.  
@@ -277,7 +277,7 @@ The net plot analysis returns an object that allows the plotting of these comple
 </p>
 
 
-####4.2.5. Net Plots (Addresses)
+####2.4.2.5. Net Plots (Addresses)
 To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `net_plot_coauthor_addresses()` function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
@@ -302,27 +302,22 @@ Support for the development of refnet was provided by grants from the University
 
 ##References
 
-Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics. 11(4): 959-975.
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4): 959-975.
 
-Fortunato, S., C. T. Bergstrom, K. Barner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabasi (2018). Science of science. Science, 359:eaao0185.
+Fortunato, S., C. T. Bergstrom, K. Barner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabasi (2018). Science of science. Science, 359: eaao0185.
 
 Lariviare, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213
 
 R Core Team (2017). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 
-Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology 43(1): 1-43.
+Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology, 43(1): 1-43.
 
-Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance. PLoS One 9(10): e109195.
+Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance, PLOS One 9(10): e109195.
 
-Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
+Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
 
 Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
 
-Sci2 Team. (2009). Science of Science (Sci2) Tool. Indiana University and SciTech Strategies, https://sci2.cns.iu.edu. 
-
-Westgate, M. J. (2018a). revtools: Tools to Support Evidence Synthesis. R package version 0.2.2.
-  https://CRAN.R-project.org/package=revtools
-  
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
 
 
