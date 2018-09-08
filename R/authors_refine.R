@@ -41,7 +41,7 @@ authors_refine <- function(review, prelim, sim_score = NULL, filename_root = "")
     prelim$AF[prelim$groupID == p] <- prelim$AF[sort(prelim$authorID[prelim$groupID == p])[1]]
   }
   colnames(prelim)
-  data1 <- prelim[, c("authorID", "groupID", "AF", "author_order", "address", "university", "department", "postal_code", "country", "RP_address", "RI", "OI", "UT", "refID", "PT", "PY", "PU")]
+  data1 <- prelim[, c("authorID", "groupID", "AF", "author_order", "address", "university", "department", "postal_code",'city','state', "country", "RP_address", "RI", "OI", "UT", "refID", "PT", "PY", "PU")]
   colnames(data1)[colnames(data1) == "AF"] <- "author_name"
 
   # write it out
