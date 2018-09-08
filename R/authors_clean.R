@@ -328,6 +328,7 @@ authors_clean <- function(references,
   address.df$state[city.fix] <- NA
   address.df$university[address.df$university == "Could not be extracted"] <- NA
   address.df$country[address.df$country == "Could not be extracted"] <- NA
+  address.df$country[address.df$country=='Peoples R China']<-'China'
   address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)]<-sapply(strsplit(address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)],'-'),function(x)x[2])
   final <- merge(final, address.df[, c("university", "country", "state", "postal_code", "city", "department", "adID")], by.x = "authorID", by.y = "adID", all.x = T)
   ##################################

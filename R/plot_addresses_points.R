@@ -35,7 +35,7 @@ plot_addresses_points <- function(data,
 
 
   ggplot2::ggplot() +
-    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lat", y = "lon")) +
+    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon", y = "lat")) +
     ggplot2::geom_map(
       data = world, map = world,
       ggplot2::aes_string(map_id = "region"),

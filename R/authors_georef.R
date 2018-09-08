@@ -12,7 +12,8 @@
 authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
-                           write_out_missing = FALSE) {
+                           write_out_missing = FALSE,
+                           retry_limit=10) {
   # Read in the CSV data and store it in a variable
   paste.frame <- data[, c("university",'city','state', "country", "postal_code", "authorID", "address")]
   
@@ -21,17 +22,32 @@ authors_georef <- function(data,
   paste.frame$postal_code[is.na(paste.frame$postal_code)] <- ""
   paste.frame$city[is.na(paste.frame$city)] <- ""
   paste.frame$state[is.na(paste.frame$state)] <- ""
+  paste.frame$country<-trimws(paste.frame$country,which='both')
+  paste.frame$city<-trimws(paste.frame$city,which='both')
+  paste.frame$state<-trimws(paste.frame$state,which='both')
+  paste.frame$university<-trimws(paste.frame$university,which='both')
   # without university
-  paste.frame$short_address<-NA
+  # create these piece meal
+  paste.frame$base<-paste.frame$country
+  paste.frame$base[paste.frame$postal_code!='']<-paste0(paste.frame$base[paste.frame$postal_code!=''],', ',paste.frame$postal_code[paste.frame$postal_code!=''])
   
-  paste.frame$short_address<-paste(paste.frame$university,paste.frame$city,paste.frame$state,paste.frame$country,paste.frame$postal_code,sep=',')
-  paste.frame$short_address<-gsub(",,,|,,,,|,,,,",'',paste.frame$short_address)
-  paste.frame$short_address<-gsub(",,",',',paste.frame$short_address)
-  paste.frame$short_address <- trimws(paste.frame$short_address, which = "both")
-  paste.frame$short_address <- as.character(paste.frame$short_address)
- 
+  paste.frame$base[paste.frame$state!='']<-paste0(paste.frame$state[paste.frame$state!=''],', ',paste.frame$country[paste.frame$state!=''])
+  # second tier, city > zip > university
+  paste.frame$second<-NA
+  paste.frame$second[paste.frame$city!='']<-paste.frame$city[paste.frame$city!='']
+  paste.frame$second[is.na(paste.frame$second) & paste.frame$university!='']<-paste.frame$university[is.na(paste.frame$second) & paste.frame$university!='']
+  
+  paste.frame$short_address<-paste.frame$base
+  paste.frame$short_address[!is.na(paste.frame$second)]<-paste0(paste.frame$second[!is.na(paste.frame$second)],', ',paste.frame$short_address[!is.na(paste.frame$second)])
+  
+  # paste.frame$short_address<-paste(paste.frame$university,paste.frame$city,paste.frame$state,paste.frame$country,paste.frame$postal_code,sep=',')
+  # paste.frame$short_address<-gsub(",,,|,,,,|,,,,",'',paste.frame$short_address)
+  # paste.frame$short_address<-gsub(",,",',',paste.frame$short_address)
+  # paste.frame$short_address <- trimws(paste.frame$short_address, which = "both")
+  # paste.frame$short_address <- as.character(paste.frame$short_address)
+  # 
   uniqueAddress <- data.frame(short_address = unique(paste.frame$short_address), lat = NA, lon = NA, stringsAsFactors = F)
-  uniqueAddress <- uniqueAddress[!is.na(uniqueAddress), ]
+  uniqueAddress <- uniqueAddress[!is.na(uniqueAddress$short_address) & uniqueAddress$short_address!='', ]
   uniqueAddress$adID <- 1:nrow(uniqueAddress)
 
   # add lat long for later calculation
@@ -58,8 +74,8 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
           source = "dsk",
           messaging = TRUE
         ))
-        uniqueAddress$lat[i] <- result[1]
-        uniqueAddress$lon[i] <- result[2]
+        uniqueAddress$lat[i] <- result[[2]]
+        uniqueAddress$lon[i] <- result[[1]]
         # if(is.na(result[1])){error.counter<-error.counter+1}else{error.counter<-1}
         # if(error.counter==10){break;print('Data science tooklit seems to be down or your internet is out, trying google api')}
       }
@@ -83,13 +99,15 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
 
   retry <- T
   faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
+  counter<-1
   if(nrow(faileddsk)>0){
+    uniqueAddress$noresult<-F
   while (retry == T) {
     
     warn.list <- list()
-    
+    faileddsk <- uniqueAddress[is.na(uniqueAddress$lat) & uniqueAddress$noresult==F, c("short_address", "adID")]
     for (p in 1:nrow(faileddsk)) {
-      # p<-1
+      #p<-1
       paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
       result <- tryCatch(ggmap::geocode(paste_address,
         output = "latlona",
@@ -97,31 +115,36 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
       ), warning = function(w) {
         w
       })
+      result
       if (!is.data.frame(result)) {
         warn.list[[paste0(p)]] <- result
+        if(grepl('ZERO_RESULTS',result)){uniqueAddress$noresult[uniqueAddress$adID == faileddsk$adID[p]]<-T}
         next
       }
       result$adID <- faileddsk$adID[p]
       uniqueAddress$lat[uniqueAddress$adID == result$adID] <- result$lat
       uniqueAddress$lon[uniqueAddress$adID == result$adID] <- result$lon
+      
     }
     # check if all addresses ran or were stopped by a sever limit
     retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
-    if (nrow(faileddsk) == 1 & paste_address == " ") {
-      retry <- F
-    }
+    # if (nrow(faileddsk) == 1 & paste_address == " ") {
+    #   retry <- F
+    # }
     # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
 
     if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
       retry <- F
       print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
     }
-
+    if(counter==retry_limit & nrow(faileddsk)>20){break}
     # put system to sleep for 5 seconds to allow googles query limits to reset
     if (retry == T) {
       print("server busy, trying again in 5 seconds")
       Sys.sleep(5)
     }
+    
+    counter<-counter+1
   }
 }
   # merge results together
