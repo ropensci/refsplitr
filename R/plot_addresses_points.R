@@ -14,8 +14,8 @@ plot_addresses_points <- function(data,
 
   ## 	Remove any addresses that have NA values:
   points <- data.frame(
-    lat = do.call(rbind, data$lat),
-    lon = do.call(rbind, data$lon)
+    lat = as.numeric(as.character(data$lat)),
+    lon = as.numeric(as.character(data$lon))
   )
 
   points <- points[!is.na(points$lat), ]
