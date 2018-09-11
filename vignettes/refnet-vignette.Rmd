@@ -110,61 +110,9 @@ If the users wish to accept the result of the disambiguation algorithm without m
 
 > `eb_authors <- authors_refine(eb_authors, eb_authors_master, filename_root="./output/eb")`
 
-####2.2.2. Reviewing the results of disambiguation
+####2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files (for additional details see Appendix 2).
-
-- **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals).    
-
-- **AU**:	Authors
-
-- **AF**:	Author Full Name
-
-- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively. *The lowest authorID number in a group will always be used as the groupID*.
-
-- **match_name**: The name under which the algorithm groups all of an author's putative name variants.   
-
-- **similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. [this needs a better explanation]
-
-- **author_order** the location on the article's list of authors where the specific author is found 
-
-- **address**: the author's address in the WOS record for an article.
-
-- **university**: the author's institution, if present from the address
-
-- **department**: the author's department, if present, from the address
-
-- **short_address**: the author's street address 
-
-- **postal_code**: the author's postal code
-
-- **country**: the author's country 
-
-- **RP_address**: the reprint address, if present
-
-- **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article(if they have one).
-
-- **OI**:	the author's ORCID ID number in the WOS record for an article  (if they have one).
-
-- **EM**:the author's email address in the WOS record for an article (if it lists one).
-
-- **UT**: Accession Number
-
-- **refID**: An id number given to each reference (HOW IS IT DEFINED? ORDER READ INTO file by READ_AUTHORS????)
-
-- **PT**: Publication Type (J=Journal; B=Book; S=Series; P=Patent)
-
-- **PY**: Publication Year
-
-- **PU**: Publisher
-
-<p align="center">  
-<img src="AuthorMatch.PNG" height="300" /> 
-</p>
-  
-Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
-
-####2.2.3. Correcting the results of disambiguation
+Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files Complete details on the information provided in these files and how to use it to review and correct author name assignments are provided in Appendix 2).
 
 To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value from the **authorID** column (be sure to use the authorID value from the same row). 
 
@@ -172,7 +120,7 @@ To correct cases where names weren't grouped together but should have been (i.e.
 
 Once the revision is complete, save the file as a .csv file *[EB: with the same name?]* in the same location as the original file. 
 
-####2.2.4. Merging corrections
+####2.2.3. Uploading and merging the results of disambiguation
 
 Corrections made to the "Author" file are merged into the "Master List" file using the `authors_refine()` function. It has four arguments:  
  
@@ -335,6 +283,8 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 **Appendix 2:** Ste-by-step guide to processing, reviewing, and visualizing data with `refnet`. 
 
 
+IMPORTING REFERENCE RECORDS
+
 
 
 
@@ -427,6 +377,72 @@ OA Open Access Indicator
 HP ESI Hot Paper. Note that this field is valued only for ESI subscribers.
 HC ESI Highly Cited Paper. Note that this field is valued only for ESI subscribers.
 DA Date this report was generated.
+
+
+################
+PROCESSING REFERNCE RECORDS
+
+
+
+##################
+REVIEWING AND CORRECTING NAMES
+
+
+- **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals).    
+
+- **AU**:	Authors
+
+- **AF**:	Author Full Name
+
+- **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively. *The lowest authorID number in a group will always be used as the groupID*.
+
+- **match_name**: The name under which the algorithm groups all of an author's putative name variants.   
+
+- **similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. [this needs a better explanation]
+
+- **author_order** the location on the article's list of authors where the specific author is found 
+
+- **address**: the author's address in the WOS record for an article.
+
+- **university**: the author's institution, if present from the address
+
+- **department**: the author's department, if present, from the address
+
+- **short_address**: the author's street address 
+
+- **postal_code**: the author's postal code
+
+- **country**: the author's country 
+
+- **RP_address**: the reprint address, if present
+
+- **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article(if they have one).
+
+- **OI**:	the author's ORCID ID number in the WOS record for an article  (if they have one).
+
+- **EM**:the author's email address in the WOS record for an article (if it lists one).
+
+- **UT**: Accession Number
+
+- **refID**: An id number given to each reference (HOW IS IT DEFINED? ORDER READ INTO file by READ_AUTHORS????)
+
+- **PT**: Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+
+- **PY**: Publication Year
+
+- **PU**: Publisher
+
+<p align="center">  
+<img src="AuthorMatch.PNG" height="300" /> 
+</p>
+  
+Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
+
+
+##############
+VISUALIZING RESULTS
+
+
 
 
 **Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
