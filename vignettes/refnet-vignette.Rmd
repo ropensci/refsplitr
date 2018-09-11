@@ -29,7 +29,7 @@ The Science of Science (SciSci) is an emerging, transdisciplinary approach for u
 
 The rapidly increasing size of bibliometric datasets available to researchers has exascerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
-The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, these complex and affiliations are all recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
+The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
 Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
@@ -45,35 +45,28 @@ After bibliographic records have been downloaded (see Appendix 1 for guidance on
 
 These steps are described in greater detail below; Appendix 2 guides users through the entire process with a sample dataset. The instructions below assume one has created two folders in the working directory or Rstudio Project Folder - one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder.    
 
+![With `refnet` users can import, organize, and visualize bibliographic data in four simple steps.](refnet_fig1.jpg) 
 
-
-
-
-
-
-
-
-
-<p align="center">
-<img src="vignettes/refnet_fig1.jpg" height="300" /> 
-</p>
-<p align="center">
-**Figure 1:** _refnet_ allows users to import, organize, and visualize bibliographic data in 4 simple steps.
-</p>
+<!-- <p align="center"> -->
+<!-- !<img src="refnet_fig1.jpg" height="300"/> -->
+<!-- </p> -->
+<!-- <p align="center"> -->
+<!-- **Figure 1:** With `refnet` users can import, organize, and visualize bibliographic data in four simple steps. -->
+<!-- </p> -->
 
 ###2.1. Importing Search Results 
 
-The `refnet` package can import a single Web of Science data file combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. For this step we will use the `references_read()` function, which has three arguments:  
+The `refnet` package can either import a single Web of Science/SCOPUS search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
 
-- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory, the absolute file name or relative file paths can be used.  
+- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., 'data'), the absolute file name or relative file paths can be used.  
 
 - **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refnet` identifies and removes any duplicate reference records.
 
-- **filename_root**: The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. 
+- **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder') and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is a an object in the R Workspace, which is also written out into a .csv file, in which each line is a WOS record and columns are the different parts of the bibliographic record (author name, journal name, article title, etc). This file is used by `refnet` for Step 2.
+The output of `references_read()` is an object in the R Workspace and a .csv file. Each line is a WOS record, columns are the different fields of the bibliographic record (e.g., AU: author name, SO: article source, TI: article title; a complete list is in Appendix 2). This file is used by `refnet` for Step 2.
 
-<img src="Reference.PNG" height="300" /> 
+<!-- <img src="Reference.PNG" height="300" />  -->
 
 ####Example
 
@@ -95,14 +88,13 @@ c. To save to a location with a prefix, write the folder path followed by a '/' 
 
 ###2.2. Author address parsing and name disambiguation 
 
-The next step is to identify all unique authors in the dataset and parse the affiliation for every article they wrote. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
+The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
 - **filename_root**:  The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. The syntax is the same as for `references_read()`. 
 
-The output of `authors_clean()` is two objects: (1) "prelim", which is the initial list of disambiguated author names, and   
-(2) "review", the subset of authors with putative name variants suggested for verification.   
+The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements is also saved as a separate .csv file in the location specified in the function.  
 
 Once disambiguation is complete, users can accept the results without manually reviewing names flagged for additional inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make any necessary corrections (Section 2.2.3). These corrections are then used to generate a refined dataset for analyses (Section 2.2.4). 
 
@@ -120,13 +112,13 @@ If the users wish to accept the result of the disambiguation algorithm without m
 
 ####2.2.2. Reviewing the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv file, which contain the following information:
+Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files (for additional details see Appendix 2).
 
 - **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals).    
 
-- **AU**:	
+- **AU**:	Authors
 
-- **AF**:	
+- **AF**:	Author Full Name
 
 - **groupID**: This indicates which names (i.e., AuthorID numbers) have been grouped together under a single groupID number because they are believed to be the same person. Because disambiguation is performed iteratively. *The lowest authorID number in a group will always be used as the groupID*.
 
@@ -134,7 +126,7 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 - **similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. [this needs a better explanation]
 
-- **author_order**
+- **author_order** the location on the article's list of authors where the specific author is found 
 
 - **address**: the author's address in the WOS record for an article.
 
@@ -158,13 +150,13 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 - **UT**: Accession Number
 
-- **refID**: 
+- **refID**: An id number given to each reference (HOW IS IT DEFINED? ORDER READ INTO file by READ_AUTHORS????)
 
 - **PT**: Publication Type (J=Journal; B=Book; S=Series; P=Patent)
 
 - **PY**: Publication Year
 
-- **PU**: 
+- **PU**: Publisher
 
 <p align="center">  
 <img src="AuthorMatch.PNG" height="300" /> 
@@ -343,7 +335,99 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 **Appendix 2:** Ste-by-step guide to processing, reviewing, and visualizing data with `refnet`. 
 
 
-***
+
+
+
+Are these all in the list below? We need to define filename and refID, whihc are added by our functions.
+"filename" "AB"       "AF"       "AU"       "BP"      
+"C1"       "CC"       "CH"       "CL"       "CR"      
+"CT"       "CY"       "DE"       "DI"       "DT"      
+"EM"       "EP"       "FN"       "FU"       "FX"      
+"GA"       "GE"       "ID"       "IS"       "J9"      
+"JI"       "LA"       "LT"       "MC"       "MI"      
+"NR"       "PA"       "PD"       "PG"       "PI"      
+"PN"       "PS"       "PT"       "PU"       "PY"      
+"RI"       "RID"      "OI"       "PM"       "RP"      
+"SC"       "SI"       "SN"       "SO"       "SU"      
+"TA"       "TC"       "TI"       "UT"       "VR"      
+"VL"       "WC"       "Z9"       "refID"   
+
+
+
+[Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html)" two-character tags that identify fields in records selected for export.
+
+FN File Name
+VR Version Number
+PT Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+AU Authors
+AF Author Full Name
+BA Book Authors
+BF Book Authors Full Name
+CA Group Authors
+GP Book Group Authors
+BE Editors
+TI Document Title
+SO Publication Name
+SE Book Series Title
+BS Book Series Subtitle
+LA Language
+DT Document Type
+CT Conference Title
+CY Conference Date
+CL Conference Location
+SP Conference Sponsors
+HO Conference Host
+DE Author Keywords
+ID Keywords Plus®
+AB Abstract
+C1 Author Address
+RP Reprint Address
+EM E-mail Address
+RI ResearcherID Number
+OI ORCID Identifier (Open Researcher and Contributor ID)
+FU Funding Agency and Grant Number
+FX Funding Text
+CR Cited References
+NR Cited Reference Count
+TC Web of Science Core Collection Times Cited Count
+Z9 Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)
+U1 Usage Count (Last 180 Days)
+U2 Usage Count (Since 2013)
+PU Publisher
+PI Publisher City
+PA Publisher Address
+SN International Standard Serial Number (ISSN)
+EI Electronic International Standard Serial Number (eISSN)
+BN International Standard Book Number (ISBN)
+J9 29-Character Source Abbreviation
+JI ISO Source Abbreviation
+PD Publication Date
+PY Year Published
+VL Volume
+IS Issue
+SI Special Issue
+PN Part Number
+SU Supplement
+MA Meeting Abstract
+BP Beginning Page
+EP Ending Page
+AR Article Number
+DI Digital Object Identifier (DOI)
+D2 Book Digital Object Identifier (DOI)
+EA Early access date
+EY Early access year
+PG Page Count
+P2 Chapter Count (Book Citation Index)
+WC Web of Science Categories
+SC Research Areas
+GA Document Delivery Number
+PM PubMed ID
+UT Accession Number
+OA Open Access Indicator
+HP ESI Hot Paper. Note that this field is valued only for ESI subscribers.
+HC ESI Highly Cited Paper. Note that this field is valued only for ESI subscribers.
+DA Date this report was generated.
+
 
 **Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
 
