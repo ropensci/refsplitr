@@ -133,9 +133,9 @@ Once the revision is complete, save the file as a .csv file in the same location
 
 Corrections made to the "Author" file are merged into the "Master List" file using the `authors_refine()` function. It has four arguments:  
  
-- **corrected**: The corrected version of the "review" object. Must be in an object.  
-- **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object   
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
+- **corrected**: The corrected version of the "review" object. Must be in an object.
+- **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
 The output of `authors_refine()` is a file. This file can be used for many analyses, including.
