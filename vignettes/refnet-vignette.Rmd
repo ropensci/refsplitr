@@ -115,7 +115,7 @@ The output of `authors_refine()` is **--------------------** .
 
 ####Example
 
-a. To accept the results of author disambigiuation without manual review: 
+a. To accept the results of author disambiguation without manual review: 
 
 > `Brazil_authors_refined <- authors_refine(Brazil_review, Brazil_authors_prelim, filename_root="./output/Brazil")`
 
@@ -127,18 +127,18 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 > **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
-Once the revision is complete, save the file as a .csv file in the same location as the original file with the name "----authors_corrected.csv" **[NOTE: we should explain to save with a different name to avoid writing over the original groupings. otherwise they would need to redisambiguate if they later discovered they made any mistakes (also to keep all original files)**. 
+Once the revision is complete, save the file as a .csv file in the same location as the original file with the name "----_authors_corrected.csv" **[NOTE: we should explain to save with a different name to avoid writing over the original groupings. otherwise they would need to redisambiguate if they later discovered they made any mistakes (also to keep all original files)**. 
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
-Corrections made to the "Author" file are merged into the "Master List" file using the `authors_refine()` function. It has four arguments:  
+Corrections made to the "review" file are merged into the "preview" file using the `authors_refine()` function. It has four arguments:  
  
 - **corrected**: The corrected version of the "review" object. Must be in an object.
 - **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
-The output of `authors_refine()` is a file. This file can be used for many analyses, including.
+The output of `authors_refine()` is a file. This file can be used for many analyses, including.....
 
 ####Example
 
