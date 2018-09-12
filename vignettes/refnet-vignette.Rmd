@@ -31,19 +31,19 @@ The rapidly increasing size of bibliometric datasets available to researchers ha
 
 The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
+Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions (Fig 1). It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
 ##2. Using refnet
 
-After bibliographic records have been downloaded (see Appendix 1 for guidance on how to download records in the proper format), `refnet`'s tools are applied in four steps (Fig 1):   
+Appendix 1 provides guidance on downloading records from the Web of Science in the proper format for use in `refnet`.  Once bibliographic records have been downloaded, `refnet`'s tools are applied in four steps:   
 
 1. importing and tidying reference records (Section 2.1)
 2. author name disambiguation and parsing of author addresses (Section 2.2)
 3. georeferencing of author institutions (Section 2.3)
 4. data analysis and visualization (Section 2.4)
 
-These steps are described in greater detail below; Appendix 2 guides users through the entire process with a sample dataset. The instructions below assume one has created two folders in the working directory or Rstudio Project Folder - one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder.    
+These steps are described in greater detail below; Appendix 2 guides users through the entire process with a sample dataset. *The instructions below assume one has created two folders in ones working directory or Rstudio Project Folder: one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder*.    
 
 ![With `refnet` users can import, organize, and visualize bibliographic data in four simple steps.](refnet_fig1.jpg) 
 
@@ -58,11 +58,11 @@ These steps are described in greater detail below; Appendix 2 guides users throu
 
 The `refnet` package can either import a single Web of Science/SCOPUS search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
 
-- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., 'data'), the absolute file name or relative file paths can be used.  
+- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., the 'data' folder in the working directory), the absolute file name or relative file paths can be used.  
 
 - **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refnet` identifies and removes any duplicate reference records.
 
-- **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder') and the prefix used to name it. If you do not want to write a file leave this field blank. 
+- **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
 The output of `references_read()` is an object in the R Workspace and a .csv file. Each line is a WOS record, columns are the different fields of the bibliographic record (e.g., AU: author name, SO: article source, TI: article title; a complete list is in Appendix 2). This file is used by `refnet` for Step 2.
 
@@ -72,14 +72,12 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 
 a. To import and process a single file located in a folder named "data" and save the output as a file named "Brazil" it in a folder named "output": 
 
-> `references_read(data = './data/Brazil.txt', 
-                    dir = F, 
-                    filename_root = './output/Brazil')
-`
+> `Brazil_references <- references_read(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')`
+
 
 b. To import and process multiple files located in a folder named "data" and save the output as "WOS" in a folder named "output": 
 
-> `references_read(data = './data', dir = T, filename_root = './output/WOS')`
+> `WOS_references <- references_read(data = './data', dir = T, filename_root = './output/WOS')`
 
 c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
@@ -94,38 +92,49 @@ The next step is to identify all unique authors in the dataset and parse their a
 
 - **filename_root**:  The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. The syntax is the same as for `references_read()`. 
 
-The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements is also saved as a separate .csv file in the location specified in the function.  
+The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements is also saved as a separate .csv file in the location specified in the function (e.g., the output folder in the working directory).  
 
-Once disambiguation is complete, users can accept the results without manually reviewing names flagged for additional inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make any necessary corrections (Section 2.2.3). These corrections are then used to generate a refined dataset for analyses (Section 2.2.4). 
+Once disambiguation is complete, users can accept the results without manually reviewing names flagged for additional inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make any necessary corrections (Section 2.2.2). These corrections are then used to generate a refined dataset for analyses (Section 2.2.3). 
 
 ####Example
 
 a. To disambiguate the authors of all references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
-> `eb_authors <- authors_clean(eb_references, filename_root="./output/eb")`
+> `Brazil_authors <- authors_clean(Brazil_references, filename_root="./output/Brazil")`
 
-####2.2.1. Accepting the results of author disambiguation without manual review
+####2.2.1. Accepting the results of author disambiguation *without* manual review
 
-If the users wish to accept the result of the disambiguation algorithm without manually reviewing names, they can do the results can be accepted with `authors_refine()`. The output of this function is an object.....**MORE DETAILS**  
+If the users wish to accept the result of the disambiguation algorithm without manually reviewing names, they can do the results can be accepted with the `authors_refine()` function. It has four arguments:  
+ 
+- **review**: The names proposed for manual review. Must be in an object.  
+- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be in an object   
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs.  By default this is turned off. Users can set sim_score values to make name group assignment based on name similarity more or less stringent (range: 0-1, with 1 = names identical). **[EB note: too much info? clear? correct?]**
+- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
-> `eb_authors <- authors_refine(eb_authors, eb_authors_master, filename_root="./output/eb")`
+The output of `authors_refine()` is **--------------------** .   
+
+####Example
+
+a. To accept the results of author disambigiuation without manual review: 
+
+> `Brazil_authors_refined <- authors_refine(Brazil_review, Brazil_authors_prelim, filename_root="./output/Brazil")`
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files Complete details on the information provided in these files and how to use it to review and correct author name assignments are provided in Appendix 2).
+Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files. An overvire of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 2).
 
-To correct cases where authors that are **NOT** the same person were erroneously assigned the same groupID, simply replace the number in the **groupID** column with the value from the **authorID** column (be sure to use the authorID value from the same row). 
+> **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the unique author with the value from that person's **authorID** column. *Be sure to use the authorID value from the same row.* 
 
-To correct cases where names weren't grouped together but should have been (i.e., they represent variants of the same author's name), replace the value in the **GroupID** column of each name to be grouped together with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
+> **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
-Once the revision is complete, save the file as a .csv file *[EB: with the same name?]* in the same location as the original file. 
+Once the revision is complete, save the file as a .csv file in the same location as the original file with the name "----authors_corrected.csv" **[NOTE: we should explain to save with a different name to avoid writing over the original groupings. otherwise they would need to redisambiguate if they later discovered they made any mistakes (also to keep all original files)**. 
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
 Corrections made to the "Author" file are merged into the "Master List" file using the `authors_refine()` function. It has four arguments:  
  
-- **authors**: The corrected version of the "authors" object. Must be in an object.  
-- **master**: The unedited master file created with `authors_clean()`. Must be in an object   
+- **corrected**: The corrected version of the "review" object. Must be in an object.  
+- **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object   
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. By default this is turned off.  
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
@@ -133,17 +142,17 @@ The output of `authors_refine()` is a file. This file can be used for many analy
 
 ####Example
 
-> `eb_authors <- authors_refine(eb_authors, eb_authors_master, filename_root="./output/eb")`
+> `Brazil_authors_refined <- authors_refine(Brazil_authors_corrected, Brazil_authors_prelim, filename_root="./output/Brazil")`
 
 ###2.3. Georeferencing author institutions 
 
 Users can georeference (latitude & longitude) author's institutions using the `authors_georef()` function. This function has has 2 arguments:  
 
-- **data**: The output created by `authors_refine()`. Must be an object.  
-- **address_column**: A quoted character identifying the column name in which addresses are stored. 
+- **data**: The output created by `authors_refine()`. Must be an object.
+- **address_column**: A quoted character identifying the column name in which addresses are stored.
 - **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
 
-The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations **HOW?**. 
+The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations **[HOW? DETAILS NEEDED]**. 
 
 > **Warning**: this version of refnet (1.0) has trouble differentiating between campuses with similar names (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus [better (actual) example]), which can be problemaic for some analyses
 
@@ -160,6 +169,10 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
 
 > **warning** This function parses out addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude using the datascience toolkit or Google maps API. This means it needs to use the internet and may take a rather long time to process depending on the amount of addresses it has to calculate. **warning**  
 
+
+####Example
+
+> `Brazil_georef <-authors_georef(------,------,-----)`
 
 ###2.4. Bibliometric analyses and Data Visualization
 
@@ -189,6 +202,11 @@ To make a colored plot of all authors country of residency we'll use the `plot_a
 
 - **data**: This is the output from addresses_lat_long. Must be an object.
 
+The output of `plot_addresses_country()` is a .....[need to add to be consistent with prior steps]
+
+####Example
+
+
 <p align="center">
 <img src="WorldCountry.png" height="300" /> 
 </p>
@@ -197,6 +215,11 @@ To make a colored plot of all authors country of residency we'll use the `plot_a
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
+
+The output of `authors_georef()` is a .....[need to add to be consistent with prior steps]
+
+####Example
+
 
 <p align="center">
 <img src="WorldPoint.png" height="300" /> 
@@ -209,6 +232,11 @@ To plot a network diagram of co-author countries of origins and how they're conn
 
 This function has two outputs, in the form of a list. `$plot` is the plot, `$data` is the dataframe that was used to the build the plot. `listname$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
 
+The output of `net_plot_coauthor()` is a .....[need to add to be consistent with prior steps]
+
+####Example
+
+
 <p align="center">
 <img src="NetPlotBase.png" height="300" /> 
 </p>
@@ -218,7 +246,9 @@ To plot a network diagram of co-author countries of origins overlayed on a world
 
 - **data**: This is the output from `authors_georef()`. Must be an object.  
 
-The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console. `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
+The output of`net_plot_coauthor_country()` is an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console. `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
+
+####Example
 
 <p align="center">
 <img src="NetPlotCountry.png" height="300" /> 
@@ -230,9 +260,13 @@ To plot a network diagram of co-author using their individual addresses overlaye
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
 
-The net plot analysis returns an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+The output of `net_plot_coauthor_addresses()` is an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
 
 This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
+
+
+####Example
+
 <p align="center">
 <img src="NetPlotAddress.png" height="300" /> 
 </p>
