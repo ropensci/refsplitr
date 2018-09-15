@@ -1,6 +1,6 @@
 ---
 title: "refnet"
-author: "Auriel Fournier, Forest Stevens, Matt Boone, Emilio M. Bruna"
+author: "Auriel M.V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 fig_caption: yes
 output:
@@ -25,13 +25,13 @@ knitr::opts_chunk$set(
 
 ##1. Introduction
 
-The Science of Science (SciSci) is an emerging, transdisciplinary approach for using large and disparate datasets to study the emergence, disemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri) are rich sources of data for SciSci studies (Sugimoto and Lariviare 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze datasets comprising millions of bibliographic records (e.g., Lariviare et al. 2013, Smith et al. 2014). 
+The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri) are rich sources of data for SciSci studies (Sugimoto and Lariviare 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Lariviare et al. 2013, Smith et al. 2014). 
 
-The rapidly increasing size of bibliometric datasets available to researchers has exascerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
+The rapidly increasing size of bibliometric data-sets available to researchers has exascerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
-The second challenge to working with large bibliometric datasets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
+The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions (Fig 1). It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed datasets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
+Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions (Fig 1). It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed data-sets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
 ##2. Using refnet
@@ -49,13 +49,6 @@ These steps are described in greater detail below; Appendix 2 guides users throu
 knitr::include_graphics("images/refnet_fig1.jpg")
 ```
 
-<!-- <p align="center"> -->
-<!-- !<img src="refnet_fig1.jpg" height="300"/> -->
-<!-- </p> -->
-<!-- <p align="center"> -->
-<!-- **Figure 1:** With `refnet` users can import, organize, and visualize bibliographic data in four simple steps. -->
-<!-- </p> -->
-
 ###2.1. Importing Search Results 
 
 The `refnet` package can either import a single Web of Science/SCOPUS search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
@@ -68,14 +61,11 @@ The `refnet` package can either import a single Web of Science/SCOPUS search res
 
 The output of `references_read()` is an object in the R Workspace and a .csv file. Each line is a WOS record, columns are the different fields of the bibliographic record (e.g., AU: author name, SO: article source, TI: article title; a complete list is in Appendix 2). This file is used by `refnet` for Step 2.
 
-<!-- <img src="Reference.PNG" height="300" />  -->
-
 ####Example
 
 a. To import and process a single file located in a folder named "data" and save the output as a file named "Brazil_references" in the "output" folder: 
 
 > `Brazil_references <- references_read(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')`
-
 
 b. To import and process multiple files located in a folder named "data" and save the output as "WOS_references" in the "output" folder: 
 
@@ -84,7 +74,6 @@ b. To import and process multiple files located in a folder named "data" and sav
 c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
 > `"./newpath/newprefix".`
-
 
 ###2.2. Author address parsing and name disambiguation 
 
@@ -129,13 +118,13 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 > **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
-Once the revision is complete, save the file as a .csv file in the same location as the original file with the name "----_authors_corrected.csv" **[NOTE: we should explain to save with a different name to avoid writing over the original groupings. otherwise they would need to redisambiguate if they later discovered they made any mistakes (also to keep all original files)**. 
+Once the revision is complete, save the file as a .csv file in the same location as the original file with the name "----_authors_corrected.csv" 
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
 Corrections made to the "review" file are merged into the "preview" file using the `authors_refine()` function. It has four arguments:  
  
-- **corrected**: The corrected version of the "review" object. Must be in an object.
+- **corrected**: The corrected version of the "review" object. Must be in an object. So read in corrected .csv file first.
 - **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
@@ -154,27 +143,11 @@ Users can georeference author's institutions (latitude & longitude) using the `a
 - **address_column**: A quoted character identifying the column name in which addresses are stored.
 - **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
 
-The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations **[DETAILS NEEDED, ALSO DOES THIS SAVE CSV TO OUTPUT FOLDER AUTHOMATICALLY]**. 
+The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations. Output is saved as `filename_addresses.csv`. 
 
+> **Warning #1**: it can be difficult for this version of `refnet` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
-> **Warning #1**: it can be difficult for this version of `refnet` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. University of Florida Main Campus, vs University of Florida Sattellite Campus. **[WHY? ALSO, NEED A BETTER EXAMPLE]**
-
-> **warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the (Datascience Toolkit)**[LINK]** or (Google Maps API)**[LINK]**. The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
-
->**[what about api limits and working aground them, either by setting up a local DSTK server or purchaisng API access?]**
-
-
-
-```
-<!-- WHAT IS THIS ALL ABOUT? -->
-addresses <- authors_georef(data)
-
-new_address <- read.csv("missing_addresses.csv", 
-                          stringsAsFactors = FALSE)
-
-masteraddresses <- rbind(addresses$not_missing_addresses,
-                          new_address)
-```
+> **warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit) or [https://developers.google.com/maps/documentation/](Google Maps API). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
 
 
 ####Example
@@ -183,90 +156,98 @@ masteraddresses <- rbind(addresses$not_missing_addresses,
 
 ###2.4. Data Visualization: Productivity and Collaboration 
 
-`refnet` can generate five visualizations of productivity and collaboration. **World plots** indicate the locations of authors on a map of the world, whiile **Net plots** are visualizations of co-authorship networks. **Warning**: The time required to render these plots is highly dependent on the nunmber of authors in the dataset and the processing power of the computer on which analyses are being carried out. **[are these done with RworldMapper,ggplot2,etc.? It might be worth mentioning so people can dibve in and manipulate as needed (add titles, change colors, zoom on regions, etc.)]**
+`refnet` can generate five visualizations of productivity and collaboration. **World plots** indicate the locations of authors on a map of the world, while **Net plots** are visualizations of co-authorship networks. **Warning**: The time required to render these plots is highly dependent on the number of authors in the dataset and the processing power of the computer on which analyses are being carried out. 
 
-####2.4.1. World Plot 1: National Productivity **[not sure this is correct, could be Authors by Country]**.
-To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. **[QUESTION: does this plot authors only once? or does it count how many papers have an author in country a, country b, country c, etc., which means a paper by E Bruna gets the USA 3 checkmarks? and along those lines, does each author count as 1 for a country, or does it take the number of authors of a paper and give a fraction of the credit to a country (i.e., fractional authorship?)]**
+`plot_addresses_country()` uses `rworldmap`.
+`plot_addresses_points()` and `plot_net_address()` and `plot_net_country()` uses `ggplot2`.
+`plot_net_coauthor()` uses `igraph`.
+
+
+####2.4.1. World Plot 1: Authors By Country.
+
+To make a colored plot of all authors country of residency we'll use the `plot_addresses_country()`. Each author is counted for however many papers they have. So if one author from the US has 3 paper in this dataset, the US will receive a count of 3 from them. 
 
 The function has one argument:  
 
-- **data**: This is the output from addresses_lat_long. Must be an object.
+- **data**: This is the output from `authors_georef()`
 
-The output of `plot_addresses_country()` is a .....[need to add to be consistent with prior steps]
+The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
 
 ####Example
 
-
-<p align="center">
-<img src="WorldCountry.png" height="300" /> 
-</p>
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/plot_addresses_country.png")
+``` 
 
 ####2.4.2. World Plots (points)
+
 To individual plot points of each authors location we'll use the `plot_addresses_points()`. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
 
-The output of `authors_georef()` is a .....[need to add to be consistent with prior steps]
+The output of `authors_georef()` is a ggplot object. 
 
 ####Example
 
-
-<p align="center">
-<img src="WorldPoint.png" height="300" /> 
-</p>
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/plot_addresses_points.png")
+``` 
 
 ####2.4.3. Net Plots (base)
-To plot a network diagram of co-author countries of origins and how they're connected we'll use the `net_plot_coauthor()` function. The function has one argument:  
+To plot a network diagram of co-author countries of origins and how they're connected we'll use the `plot_net_coauthor()` function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
 
-This function has two outputs, in the form of a list. `$plot` is the plot, `$data` is the dataframe that was used to the build the plot. `listname$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
-
-The output of `net_plot_coauthor()` is a .....[need to add to be consistent with prior steps]
+This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-
-<p align="center">
-<img src="NetPlotBase.png" height="300" /> 
-</p>
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/plot_net_coauthor.png")
+``` 
 
 ####2.4.4. Net Plots (Country)
-To plot a network diagram of co-author countries of origins overlayed on a world map we'll use **`net_plot_coauthor_country()`** function. The function has one argument:  
+To plot a network diagram of co-author countries of origins overlayed on a world map we'll use `plot_net_country()` function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.  
 
-The output of`net_plot_coauthor_country()` is an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console. `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why `$data` is provided, so the user can build their own plot to their specific needs. 
+The output of `plot_net_country()` is an list.  
+The `$plot` element contains ggplot object.   
+Since `$plot` is not very customizable, the three datasets are provided so the user can customize their own plot.  
+
+The `$data_path` element contains the data for the connecting lines. 
+The `$data_polygon` element contains the data for the country outlines.  
+The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
 
-The output of `net_plot_coauthor_country()` is a .....[need to add to be consistent with prior steps]
 
-
-<p align="center">
-<img src="NetPlotCountry.png" height="300" /> 
-</p>
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/plot_net_country.png")
+``` 
 
 
 ####2.4.5. Net Plots (Addresses)
-To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `net_plot_coauthor_addresses()` function. The function has one argument:  
+To plot a network diagram of co-author using their individual addresses overlayed on a world map we'll use `plot_net_addresses()` function. The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
 
-The output of `net_plot_coauthor_addresses()` is an object that allows the plotting of these complex connections. `$plot` will plot the output to your plotting console.  `$data` is the dataframe that was used to the build the plot. `$plot` is not very customizable, which is why $data is provided, so the user can build their own plot to their specific needs. 
+The output of `plot_net_addresses()` is an list.  
+
+The `$plot` element contains ggplot object.   
+Since `$plot` is not very customizable, the three datasets are provided so the user can customize their own plot.  
+
+The `$data_path` element contains the data for the connecting lines. 
+The `$data_polygon` element contains the data for the country outlines.  
+The `$data_point` element contains the data for the circles on the map. 
 
 **Warning:** This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
 
-
 ####Example
 
-
-
-<p align="center">
-<img src="NetPlotAddress.png" height="300" /> 
-</p>
-
-
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/plot_net_address.png")
+``` 
 
 ##Acknowledgments
 
@@ -288,30 +269,22 @@ Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientifi
 
 Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
 
-Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to KnowÂ®. Oxford University Press, Oxford, UK. 149 pp.
+Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
 
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
 
 
-***
-
-**Appendix 1:** Guide to downloading reference records from the Web of Science.
+# **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/Appendix1b.jpg")
 ```
 
-***
-
-
-**Appendix 2:** Ste-by-step guide to processing, reviewing, and visualizing data with `refnet`. 
+# **Appendix 2:** Step-by-step guide to processing, reviewing, and visualizing data with `refnet`. 
 
 ##1. IMPORTING REFERENCE RECORDS
 
-
-
-
-Are these all in the list below? We need to define filename and refID, whihc are added by our functions.
+Are these all in the list below? We need to define filename and refID, which are added by our functions.
 "filename" "AB"       "AF"       "AU"       "BP"      
 "C1"       "CC"       "CH"       "CL"       "CR"      
 "CT"       "CY"       "DE"       "DI"       "DT"      
@@ -351,7 +324,7 @@ CL Conference Location
 SP Conference Sponsors
 HO Conference Host
 DE Author Keywords
-ID Keywords PlusÂ®
+ID Keywords Plus®
 AB Abstract
 C1 Author Address
 RP Reprint Address
@@ -402,7 +375,7 @@ HC ESI Highly Cited Paper. Note that this field is valued only for ESI subscribe
 DA Date this report was generated.
 
 
-##2. PROCESSING REFERNCE RECORDS
+##2. PROCESSING REFERENCE RECORDS
 
 
 
@@ -453,9 +426,10 @@ DA Date this report was generated.
 
 - **PU**: Publisher
 
-<p align="center">  
-<img src="AuthorMatch.PNG" height="300" /> 
-</p>
+
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/AuthorMatch.PNG")
+``` 
   
 Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
 
@@ -463,8 +437,102 @@ Users can assess if the validity of grouping different author name variants unde
 ##4. VISUALIZING AUTHOR LOCATIONS & COAUTHORSHIP NETWORKS 
 
 
+# **Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
 
-***
+Parsing out authors using `authors_clean()` is a fairly in depth process that deserves a deeper discussion. We hope by describing how authors are grouped together will help the user understand the outputs better. The main difficulty in matching authors in Web of Science data is that journals do not save data in Web of Science in a consistent manner. Data may be missing or vague from one journal but complete in the other. The common issues when pulling info from this data is as follows:
 
-**Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
+- *Author names* - Author names are not stored consistently in references. Authors always have last names, but first names may only be initials, middle names may not exist,, or just stored as a middle initial.
+
+- *Addresses* - Addresses are stored inconsistently in the reference and may lack a reference to their owner. The most useful method reference contains an address and a corresponding number or name that describes who the address is relating to. Frequently addresses are listed but there is no reference to which author it is referring to. In these cases, we have no way to reliably match addresses to authors and insert 'Could not be extracted' in the address field. This does not mean an address was not listed, but there was no way to discern which author the address belongs too. 
+
+- *Emails* - Similar to addresses, emails are often stored inconsistently with no reference as to who the email belongs to. In these cases, we run a Jaro Winkler distance measurement, that calculates the amount of transpositions required to turn one string into another. This allows us to calculate a percentage of similarity between the author name and the email. This works very well when emails are in a standard format like : "lastname"."firstname" @ university.edu. We match author names to each email and use a threshold percentage of 0.70. If no names match up below this threshold we disregard the email and leave the field blank in the author name.
+
+## Author groupings
+
+One of the biggest difficulties in matching authors to each other is the lack of consistent information stored in references (and as mentioned earlier the ability to pull that information from the reference). This creates a complicated structure where each author entry has a large spread of existing or missing information (Full or initial only first names and middle names, addresses missing or not extractable, email addresses unable to match to a name). Adding to complexity, people moving institutions (and subsequently emails) makes tracking them through the authors through these changes very difficult. 
+
+To help solve this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way, we don't require an entry to contain all relevant fields but can create likely groupings and then trim them down by throwing out obvious spurious connections. In the case of authors with ORCIDS and RI IDS, identifying commonalities is quite easy, and we hope that as more people sign up for these that algorithms like these become less important. The first step in our process is matching all groups together with common ORC and RI IDs. The remaining entries go through a series of logical rules and steps to help match the author with only LIKELY entries. Throughout this analysis we assume that every author has a Full last name, and require it to contain two more pieces of qualifying information to match it up to groups. These can include first name, middle name, address, or email. Where we understand that the first and middle name may also just be initials. Requiring this type of information means we cannot match authors that do not contain any of this extra information, and so we do not group entries with no middle name, address, AND email, but instead call them their own group and skip them from the following analysis.
+
+To lower calculation times, as we attempt to match each entry we create a subset of possible matching last, and first combinations, and then attempt to match against middle initials, address, and email.
+
+We'll walk through an example using the following test data.
+ 
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.1.png")
+``` 
+ 
+In this dataset we have 10 authors, with a mixture of incomplete columns for each row. Rows 2 and 5 were given the same groupID priori because of their matching ORCIDs. We'll walk through the remaining entries and how the algorithm matches names together.
+
+To lower the amount of type ii errors we build a dataset of possible matchings for each author, each entry in this subset must constrict to the following guidelines:
+
+1.	In all cases last names must match exactly (case insensitive). This means misspelling will likely not get matched unless they have an OI or RI to match against.
+
+2.	First names must match or in the case they only have an initial then that initial must match.
+
+3.	Middle names must match or in the case they only have an initial they must match. If no middle name exists it is allowed in given that it has another piece of identifying information (an address or email address)
+
+**Entry 1.** In our test data we will start trying to match the first entry "Smith, J" in row 1. By subsetting with the above rules, we'd be matching the first row against rows 2, 3, 4, 5, 6, 7, 9:
+
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.2.png")
+``` 
+
+Once we have our subset of possible similar entries, we match the existing info of row 1 against the subset. The entry only needs to match one extra piece of information (address, email, or middle name). If it matches we assume it's a similar person and change the groupIDs to reflect this. 
+
+In our test data, there is only one piece of information we can match against (among middle name, address, or email), and that is address. This makes the obvious match row 5. And we change the groupID for our entry to groupID 2. This gives us three entries with the groupID of 2.
+
+**Entry 2.**  Row 2 was already matched to another group using ORCID prior, so it is skipped.
+
+**Entry 3.** Row 3 has 2 unique identifying pieces of information: A middle initial and an email. This subset is smaller because we have a middle initial to filter out the Smith, J.L entries: 
+ 
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.3.png")
+```  
+ 
+Matching this information against our subset, the two possible matches are row 2 and 7. And in these cases we choose the lowest numbered entry as its likely to have been grouped already. However, even if entry 7 was chosen as a match, entry 7 will eventually be matched up to groupID 2. When a parent groupID is changed like this, we change all the children entries to match the new ID as well. So, the decision is partially arbitrary.
+
+**Entry 4** - This entry gets assigned groupID 2 as well because it has a matching middle initial with row 2 and 3:
+
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.4.png")
+``` 
+
+**Entry 5** - Row 5 has already been matched by ORCID so it is skipped.
+
+**Entry 6** - Row 6 has no additional matching information, no middle name, address, or email. Because of there is no way to reliably know which Smith, J it belongs to, so the entry is assumed to be its own group and skipped.
+
+**Entry 7** - Entry 7 has one unique identifier, an email address. It gets matched up to the entry in row 3 and therefore gets groupID 2. 
+
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.5.png")
+```  
+
+After these first 7 entries, we've correctly matched all likely Smith, Jon Karl's together and created the Jon Karl Smith complex. Now we'll move onto a situation where we'll have inadequate information and are forced to run a Jaro Winkler distance analysis to decide the likely match.
+
+**Entry 8** - This novel entry has 2 unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries prior, and the middle initial does not match up with any Smiths in our record. 
+ 
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.6.png")
+```  
+
+Because we do not have any adequate matches, we match the entry by calculating a jaro winkler distance between row 8 and the author names in our subset. The following matching results were: 0.9[1], 0.9[5],0.9[6], 0.96[9]. Therefore, the most likely match is row 9. We change the groupID to 9, and set aside this entry for the user to hand check later. 
+
+**Entry 9** - Results in the same result as 8 and is matched to entry 8 which already has the groupID of 9. 
+
+**Entry 10** - This entry has no matching names and results in no change to the groupID number.
+
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.7.png")
+``` 
+
+Thus our final results are:
+ 
+As a final check against our created groupings, we attempt to prune groupings by reanalyzing if First name, last name, and middle names match. This is because matching entries using incomplete info occasionally creates novel situations where two similar names are called the same groupID if they have similar other information like same first name and the same address. Additionally, the imperfect matching of email addresses occasionally matches up relatives or significant others who publish together with the incorrect email creating a mismatched complex. This final pruning step separates the groups entirely by name. It should be noted this situation in general is rare. 
+
+This step is not necessary in our example data as all names in each grouping were logical. So in our final data set we have identified 4 likely complexes ( Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
+ 
+```{r, echo=FALSE, fig.pos="H"}
+knitr::include_graphics("images/appendix3.8.png")
+``` 
+
 

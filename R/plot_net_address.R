@@ -179,7 +179,7 @@ plot_net_address <- function(data,
         colour = "Sequence",
         size = "Sequence"
       ),
-      alpha = 0.1
+      alpha = 1
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates),
