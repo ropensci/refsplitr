@@ -241,7 +241,7 @@ The `$data_path` element contains the data for the connecting lines.
 The `$data_polygon` element contains the data for the country outlines.  
 The `$data_point` element contains the data for the circles on the map. 
 
-**Warning:** This function can create a large data set (100's of MB), and may takes several minutes, so be patient and take the size of resources into account when running.  
+**Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
 
 ####Example
 
@@ -269,7 +269,7 @@ Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientifi
 
 Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
 
-Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know®. Oxford University Press, Oxford, UK. 149 pp.
+Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
 
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
 
@@ -284,95 +284,96 @@ knitr::include_graphics("images/Appendix1b.jpg")
 
 ##1. IMPORTING REFERENCE RECORDS
 
-Are these all in the list below? We need to define filename and refID, which are added by our functions.
-"filename" "AB"       "AF"       "AU"       "BP"      
-"C1"       "CC"       "CH"       "CL"       "CR"      
-"CT"       "CY"       "DE"       "DI"       "DT"      
-"EM"       "EP"       "FN"       "FU"       "FX"      
-"GA"       "GE"       "ID"       "IS"       "J9"      
-"JI"       "LA"       "LT"       "MC"       "MI"      
-"NR"       "PA"       "PD"       "PG"       "PI"      
-"PN"       "PS"       "PT"       "PU"       "PY"      
-"RI"       "RID"      "OI"       "PM"       "RP"      
-"SC"       "SI"       "SN"       "SO"       "SU"      
-"TA"       "TC"       "TI"       "UT"       "VR"      
-"VL"       "WC"       "Z9"       "refID"   
-
-
+**[Are these all in the list below? We need to define filename and refID, which are added by our functions. Also check to see if some are from SCOPUS]**
 
 [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html)" two-character tags that identify fields in records selected for export.
-
-FN File Name
-VR Version Number
-PT Publication Type (J=Journal; B=Book; S=Series; P=Patent)
-AU Authors
+filename
 AF Author Full Name
+AB Abstract
+AU Authors
+BP Beginning Page
+C1 Author Address
+CC
+CH
+CL Conference Location
+CR Cited References
+CT Conference Title
+CY Conference Date
+DE Author Keywords
+DI Digital Object Identifier (DOI)
+DT Document Type
+EM E-mail Address
+EP Ending Page
+FN File Name
+FU Funding Agency and Grant Number
+FX Funding Text
+GA Group Authors
+GE
+ID Keywords Plus?
+IS
+J9 29-Character Source Abbreviation
+JI ISO Source Abbreviation
+LA 
+LT
+MC
+MI
+NR
+PA Publisher Address
+PD Publication Date
+PG Page Count
+PI Publisher City
+PN Part Number
+PS
+PT Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+PU Publisher
+RI ResearcherID Number
+RID
+OI ORCID Identifier (Open Researcher and Contributor ID)
+PM PubMed ID
+RP Reprint Address
+SC Research Areas
+SI Special Issue
+SN International Standard Serial Number (ISSN)
+SO Publication Name
+SU Supplement
+TA
+TC Web of Science Core Collection Times Cited Count
+TI Document Title
+UT Accession Number
+VR Version Number
+VL Volume
+WC Web of Science Categories
+Z9 Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)
+refID
+-----
+PY Year Published
 BA Book Authors
 BF Book Authors Full Name
-CA Group Authors
 GP Book Group Authors
 BE Editors
-TI Document Title
-SO Publication Name
 SE Book Series Title
 BS Book Series Subtitle
 LA Language
-DT Document Type
-CT Conference Title
-CY Conference Date
-CL Conference Location
+NR Cited Reference Count
 SP Conference Sponsors
 HO Conference Host
-DE Author Keywords
-ID Keywords Plus®
-AB Abstract
-C1 Author Address
-RP Reprint Address
-EM E-mail Address
-RI ResearcherID Number
-OI ORCID Identifier (Open Researcher and Contributor ID)
-FU Funding Agency and Grant Number
-FX Funding Text
-CR Cited References
-NR Cited Reference Count
-TC Web of Science Core Collection Times Cited Count
-Z9 Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)
 U1 Usage Count (Last 180 Days)
 U2 Usage Count (Since 2013)
-PU Publisher
-PI Publisher City
-PA Publisher Address
-SN International Standard Serial Number (ISSN)
 EI Electronic International Standard Serial Number (eISSN)
 BN International Standard Book Number (ISBN)
-J9 29-Character Source Abbreviation
-JI ISO Source Abbreviation
-PD Publication Date
-PY Year Published
-VL Volume
 IS Issue
-SI Special Issue
-PN Part Number
-SU Supplement
 MA Meeting Abstract
-BP Beginning Page
-EP Ending Page
 AR Article Number
-DI Digital Object Identifier (DOI)
 D2 Book Digital Object Identifier (DOI)
 EA Early access date
 EY Early access year
-PG Page Count
 P2 Chapter Count (Book Citation Index)
-WC Web of Science Categories
-SC Research Areas
 GA Document Delivery Number
-PM PubMed ID
-UT Accession Number
 OA Open Access Indicator
 HP ESI Hot Paper. Note that this field is valued only for ESI subscribers.
 HC ESI Highly Cited Paper. Note that this field is valued only for ESI subscribers.
 DA Date this report was generated.
+
 
 
 ##2. PROCESSING REFERENCE RECORDS
@@ -381,6 +382,14 @@ DA Date this report was generated.
 
 ##3. REVIEWING AND CORRECTING AUTHOR NAME DISAMBIGUATION
 
+Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, author email address, or other data extracted from the bibliographic records by the the `authors_clean()` function. A complete list of these fields, with a description of the information they include, is below.  Users can also search for them online using the original record for the authors and articles. 
+
+
+```{r echo = FALSE, results = 'asis'}
+library(knitr)
+App2Table2<-read.csv("./vignettes/App2_Table2.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE) 
+kable(App2Table2, caption = "Information provided by the `authors_clean()` function to help users assess the validity of groupings generated by `refnet`'s disambiguation algorithm.")
+```
 
 - **authorID**: AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals).    
 
@@ -392,33 +401,33 @@ DA Date this report was generated.
 
 - **match_name**: The name under which the algorithm groups all of an author's putative name variants.   
 
-- **similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. [this needs a better explanation]
+- **similarity**: The Jaro-Winkler similarity score when comparing ---- and --- (range = 1-100, with a score of 100 indicating an exact match). We do not perform this analysis on name that are identical or matches without similar last name, first name, middle combinations. **[this needs a better explanation]**
 
-- **author_order** the location on the article's list of authors where the specific author is found 
+- **author_order** the location on the article's list of authors where this specific author is found 
 
-- **address**: the author's address in the WOS record for an article.
+- **address**: the author's complete address as listed in the record for an article.
 
-- **university**: the author's institution, if present from the address
+- **university**: the author's institution, if one is listed in the address
 
-- **department**: the author's department, if present, from the address
+- **department**: the author's department, if one is listed in the address
 
 - **short_address**: the author's street address 
 
 - **postal_code**: the author's postal code
 
-- **country**: the author's country 
+- **country**: the country in which an author's institution is based 
 
 - **RP_address**: the reprint address, if present
 
-- **RI**: the author's Thomson-Reuters Researcher ID number in the WOS record for an article(if they have one).
+- **RI**: the author's Thomson-Reuters **[2x if should be Clarivate instead of T-R]** Researcher ID number in the WOS record for an article(if they have one).
 
-- **OI**:	the author's ORCID ID number in the WOS record for an article  (if they have one).
+- **OI**:	the author's ORCID ID number in the record for an article  (if they have one).
 
-- **EM**:the author's email address in the WOS record for an article (if it lists one).
+- **EM**: the author's email address in the WOS record for an article (if it lists one).
 
 - **UT**: Accession Number
 
-- **refID**: An id number given to each reference (HOW IS IT DEFINED? ORDER READ INTO file by READ_AUTHORS????)
+- **refID**: An id number given to each reference **(HOW IS IT DEFINED? ORDER READ INTO file by READ_AUTHORS????)**
 
 - **PT**: Publication Type (J=Journal; B=Book; S=Series; P=Patent)
 
@@ -431,15 +440,16 @@ DA Date this report was generated.
 knitr::include_graphics("images/AuthorMatch.PNG")
 ``` 
   
-Users can assess if the validity of grouping different author name variants under a single groupID using the similarity score, author address, ORCID AND Researcher ID numbers, and author email address. They can also use the original record for the authors and articles to search for them online. 
 
 
 ##4. VISUALIZING AUTHOR LOCATIONS & COAUTHORSHIP NETWORKS 
 
 
 # **Appendix 3:** Overview of the `refnet` algorithm for author name disambiguation.
+Name disambiguation is a complex process that is the subject of active research. There are a variuety of approaches to disambiguation in large datasets; here we describe the alogorithm for parsing author adresses and disambiguating author names with the `authors_clean()` function. 
 
-Parsing out authors using `authors_clean()` is a fairly in depth process that deserves a deeper discussion. We hope by describing how authors are grouped together will help the user understand the outputs better. The main difficulty in matching authors in Web of Science data is that journals do not save data in Web of Science in a consistent manner. Data may be missing or vague from one journal but complete in the other. The common issues when pulling info from this data is as follows:
+The primary difficulty in assigning authors to their products in bibliometric databases matching authors in Web of Science data is that journals do not save data in Web of Science in a consistent manner. Data may be missing or vague from one journal but complete in the other. The common issues when pulling info from this data is as follows:
+
 
 - *Author names* - Author names are not stored consistently in references. Authors always have last names, but first names may only be initials, middle names may not exist,, or just stored as a middle initial.
 
