@@ -1,60 +1,33 @@
-Column Heading,Definition,
-filename,file from which records were imported,
-AB,Abstract,
-AF,Author Full Name,
-AU,Authors,
-BP,Beginning Page,
-C1,Author Address,
-CC,,*
-CH,,*
-CL,Conference Location,*
-CR,Cited References,*
-CT,Conference Title,*
-CY,Conference Date,*
-DE,Author Keywords,
-DI,Digital Object Identifier (DOI),
-DT,Document Type,*
-EM,E-mail Address,
-EP,Ending Page,
-FN,File Name,
-FU,Funding Agency and Grant Number,
-FX,Funding Text,*
-GA,Group Authors,*
-GE,,*
-ID,,*
-IS,,*
-J9,29-Character Source Abbreviation,*
-JI,ISO Source Abbreviation,*
-LA,,*
-LT,,*
-MC,,*
-MI,,*
-NR,,*
-PA,Publisher Address,*
-PD,Publication Date,
-PG,Page Count,
-PI,Publisher City,*
-PN,Part Number,*
-PS,,*
-PT,Publication Type (J=Journal; B=Book; S=Series; P=Patent),
-PU,Publisher,
-PY,,
-RI,ResearcherID Number,
-RID,,*
-OI,Open Researcher and Contributor ID Number (ORCID ID),
-PM,PubMed ID,
-RP,Reprint Address,
-SC,Research Areas,
-SI,Special Issue,*
-SN,International Standard Serial Number (ISSN),
-SO,Publication Name,
-SU,Supplement,*
-TA,,*
-TC,Web of Science Core Collection Times Cited Count,
-TI,Document Title,
-UT,Accession Number,
-VR,Version Number,*
-VL,Volume,
-WC,Web of Science Categories,
-Z9,"Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)",
-refID,a unique identifier for each article in the dataset assigned by refnet,
+Column Heading,Definition
+filename,file from which records were imported
+AB,Abstract
+AF,Author Full Name
+AU,Authors
+BP,Beginning Page
+C1,Author Address
+CR,Cited References
+DE,Author Keywords
+DI,Digital Object Identifier (DOI)
+EM,E-mail Address
+EP,Ending Page
+FN,File Name
+FU,Funding Agency and Grant Number
+PD,Publication Date
+PG,Page Count
+PT,Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+PU,Publisher
+PY,Publication Year
+RI,ResearcherID Number
+OI,Open Researcher and Contributor ID Number (ORCID ID)
+PM,PubMed ID
+RP,Reprint Address
+SC,Research Areas
+SN,International Standard Serial Number (ISSN)
+SO,Publication Name
+TC,Web of Science Core Collection Times Cited Count
+TI,Document Title
+UT,Accession Number
+VL,Volume
+WC,Web of Science Categories
+Z9,Total Times Cited Count^2^
+refID,a unique identifier for each article in the dataset assigned by refnet
