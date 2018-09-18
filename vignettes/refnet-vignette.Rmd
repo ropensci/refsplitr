@@ -299,29 +299,50 @@ Each line of the resulting R object and .csv file is a reference, with the colum
 <!-- ```{r echo = FALSE, results = 'asis'} -->
 <!-- library(knitr) -->
 <!-- App2Table1<-read.csv("./vignettes/App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)  -->
-<!-- kable(App2Table2, caption = "Table 1. Field tags from Web of Science/Scopus records used as column headings in the output of read_references(). ) -->
+<!-- kable(App2Table1, caption = "Table 1. Definition of column headings in the output of read_references(). Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) associated with different data types.) -->
 <!-- ``` -->
 
-**[Are these all in the list below? We need to define filename and refID, which are added by our functions. Also check to see if some are from SCOPUS]**
 filename
 AF Author Full Name
 AB Abstract
 AU Authors
 BP Beginning Page
 C1 Author Address
+DE Author Keywords
+DI Digital Object Identifier (DOI)
+EM E-mail Address
+EP Ending Page
+FN File Name
+FU Funding Agency and Grant Number
+PD Publication Date
+PG Page Count
+PT Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+PU Publisher
+PY Year Published
+RI ResearcherID Number
+OI Open Researcher and Contributor ID Number (ORCID ID)
+PM PubMed ID
+RP Reprint Address
+SC Research Areas
+SN International Standard Serial Number (ISSN)
+SO Publication Name
+TC Web of Science Core Collection Times Cited Count
+TI Document Title
+UT Accession Number
+VL Volume
+WC Web of Science Categories
+Z9 Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)
+refID
+-----
+<!-- CONSIDER DELETING FROM OUTPUT OF references_read() OR ONLY INLUDING IN A "FULL RECORD" OPTION?  -->
+
 CC
 CH
 CL Conference Location
 CR Cited References
 CT Conference Title
 CY Conference Date
-DE Author Keywords
-DI Digital Object Identifier (DOI)
 DT Document Type
-EM E-mail Address
-EP Ending Page
-FN File Name
-FU Funding Agency and Grant Number
 FX Funding Text
 GA Group Authors
 GE
@@ -335,60 +356,15 @@ MC
 MI
 NR
 PA Publisher Address
-PD Publication Date
-PG Page Count
 PI Publisher City
 PN Part Number
 PS
-PT Publication Type (J=Journal; B=Book; S=Series; P=Patent)
-PU Publisher
-RI ResearcherID Number
-RID
-OI ORCID Identifier (Open Researcher and Contributor ID)
-PM PubMed ID
-RP Reprint Address
-SC Research Areas
+RID (discontinued field tag for ResearcherID Number
 SI Special Issue
-SN International Standard Serial Number (ISSN)
-SO Publication Name
 SU Supplement
 TA
-TC Web of Science Core Collection Times Cited Count
-TI Document Title
-UT Accession Number
 VR Version Number
-VL Volume
-WC Web of Science Categories
-Z9 Total Times Cited Count (Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, SciELO Citation Index)
-refID
------
-PY Year Published
-BA Book Authors
-BF Book Authors Full Name
-GP Book Group Authors
-BE Editors
-SE Book Series Title
-BS Book Series Subtitle
-LA Language
-NR Cited Reference Count
-SP Conference Sponsors
-HO Conference Host
-U1 Usage Count (Last 180 Days)
-U2 Usage Count (Since 2013)
-EI Electronic International Standard Serial Number (eISSN)
-BN International Standard Book Number (ISBN)
-IS Issue
-MA Meeting Abstract
-AR Article Number
-D2 Book Digital Object Identifier (DOI)
-EA Early access date
-EY Early access year
-P2 Chapter Count (Book Citation Index)
-GA Document Delivery Number
-OA Open Access Indicator
-HP ESI Hot Paper. Note that this field is valued only for ESI subscribers.
-HC ESI Highly Cited Paper. Note that this field is valued only for ESI subscribers.
-DA Date this report was generated.
+
 
 
 ###2. Processing reference records
