@@ -316,6 +316,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
   rdo <- dupe_output[,!(names(dupe_output) %in% dropnames)]  
     
   return(rdo)}
+  
+}
 
 ## 	END: read_references():
 ##################################################
