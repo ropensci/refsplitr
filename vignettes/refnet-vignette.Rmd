@@ -4,12 +4,12 @@ author: "Auriel M.V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 fig_caption: yes
 output:
+  pdf_document:
+    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
-  pdf_document:
-    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -43,9 +43,9 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 3. georeferencing of author institutions (Section 2.3)
 4. data visualization (Section 2.4)
 
-```{r, echo=FALSE, fig.pos="H"}
-knitr::include_graphics("images/refnet_fig1.jpg")
-```
+# ```{r, echo=FALSE, fig.pos="H"}
+# knitr::include_graphics("images/refnet_fig1.jpg")
+# ```
 
 These examples below use the sample dataset 'Brazil.txt' included with the refnet package. *The examples assume one has created two folders in ones working directory or Rstudio Project Folder: one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder*.    
 
