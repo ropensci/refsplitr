@@ -14,8 +14,9 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_references.csv" will be appended and the output from the
 #'   function will be saved
+#'   @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
 
-references_read <- function(data = ".", dir = TRUE, filename_root = "") {
+references_read <- function(data = ".", dir = TRUE, filename_root = "", include_all=FALSE) {
 
   ## 	NOTE: The fields stored in our output table are a combination of the
   ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
@@ -285,6 +286,9 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "") {
 
   # now done in base R, runs slower
   dupe_output <- do.call(rbind, lapply(unique(output$UT), function(x) output[output$UT == x, ][1, ]))
+  
+
+  
   ############################################
   if (filename_root != "") {
     write.csv(dupe_output,
@@ -295,8 +299,23 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "") {
       row.names = FALSE
     )
   }
-  return(dupe_output)
-}
+
+  if(include_all==TRUE){
+    return(dupe_output)
+  }
+  
+  if(include_all!=TRUE){
+
+  dropnames <- c("CC","CH","CL","CT","CY",
+                 "DT","FX","GA","GE","ID",
+                 "IS","J9","JI","LA","LT",
+                 "MC","MI",'NR',"PA","PI",
+                 "PN","PS","RID","SI","SU",
+                 "TA","VR")
+    
+  rdo <- dupe_output[,!(names(dupe_output) %in% dropnames)]  
+    
+  return(rdo)}
 
 ## 	END: read_references():
 ##################################################
