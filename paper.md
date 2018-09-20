@@ -1,5 +1,5 @@
 ---
-title: 'refnet: Tools for organization and visualization of data from the Web of Science (Clarivate Analytics) and Scopus (Elsevier) bibliometric databases'
+title: 'refnet: Tools for organization and visualization of bibliometric data from the Web of Science (Clarivate Analytics)'
 tags:
   - tagone
   - tagtwo
