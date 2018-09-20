@@ -25,13 +25,13 @@ knitr::opts_chunk$set(
 
 ##1. Introduction
 
-The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) and [SCOPUS](https://www.scopus.com/home.uri) are rich sources of data for SciSci studies (Sugimoto and Lariviare 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Lariviare et al. 2013, Smith et al. 2014). 
+The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) are rich sources of data for SciSci studies (Sugimoto and Lariviare 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Lariviare et al. 2013, Smith et al. 2014). 
 
 The rapidly increasing size of bibliometric data-sets available to researchers has exascerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
 The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science and SCOPUS searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions (Fig 1). It also generates simple summary bibliometric statistics and maps author locations and coauthorships. Finally, the processed data-sets can be exported in tidy formats for more in-depth analyses with user-written code or imported into packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
+Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for more in-depth analyses with user-written code packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
 ##2. Using refnet
@@ -43,16 +43,12 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 3. georeferencing of author institutions (Section 2.3)
 4. data visualization (Section 2.4)
 
-# ```{r, echo=FALSE, fig.pos="H"}
-# knitr::include_graphics("images/refnet_fig1.jpg")
-# ```
-
-These examples below use the sample dataset 'Brazil.txt' included with the refnet package. *The examples assume one has created two folders in ones working directory or Rstudio Project Folder: one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder*.    
+These examples below use the sample dataset 'example_data.txt' included with the `refnet` package. *The examples assume one has created two folders in ones working directory or Rstudio Project Folder: one named 'data' and one names 'output' - and that the exported bibliographic records are saved in the 'data' folder*.    
 
 
 ###2.1. Importing Search Results 
 
-The `refnet` package can either import a single Web of Science/SCOPUS search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
+The `refnet` package can either import a single Web of Science search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
 
 - **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., the 'data' folder in the working directory), the absolute file name or relative file paths can be used.  
 
@@ -60,18 +56,18 @@ The `refnet` package can either import a single Web of Science/SCOPUS search res
 
 - **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is an object in the R Workspace and a .csv file. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refnet` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) or [SCOPUS](https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/#) codes for different data types (Appendix 2). This file is used by `refnet` for Step 2.
+The output of `references_read()` is an object in the R Workspace and a .csv file. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refnet` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refnet` for Step 2.
 
 
 ####Example
 
-a. To import and process a single file located in a folder named "data" and save the output as a file named "Brazil_references" in the "output" folder: 
+a. To import and process a single file located in a folder named "data" and save the output as a file named "example_references" in the "output" folder: 
 
-> `Brazil_references <- references_read(data = './data/Brazil.txt', dir = F, filename_root = './output/Brazil')`
+> `example_references <- references_read(data = './data/example_data.txr', dir = F, filename_root = './output/example')`
 
 b. To import and process multiple files located in a folder named "data" and save the output as "WOS_references" in the "output" folder: 
 
-> `WOS_references <- references_read(data = './data', dir = T, filename_root = './output/WOS')`
+> `example_references <- references_read(data = './data', dir = T, filename_root = './output/example')`
 
 c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
@@ -99,7 +95,7 @@ Once disambiguation is complete, users can accept `refnet`'s results without rev
 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
-> `Brazil_authors <- authors_clean(Brazil_references, filename_root="./output/Brazil")`
+> `example_authors <- authors_clean(example_references, filename_root="./output/example")`
 
 
 <!-- Figure showing output of authors_clean() -->
@@ -124,7 +120,7 @@ The output of `authors_refine()` is an object in the R Workspace and a .csv file
 
 a. To accept the results of author disambiguation without manual review: 
 
-> `Brazil_authors_refined <- authors_refine(Brazil_review, Brazil_authors_prelim, filename_root="./output/Brazil")`
+> `example_authors_refined <- authors_refine(example_review, example_authors_prelim, filename_root="./output/example")`
 
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
@@ -159,7 +155,7 @@ The output of `authors_refine()` is a file is an object in the R Workspace and a
 
 ####Example
 
-> `Brazil_authors_refined <- authors_refine(Brazil_authors_corrected, Brazil_authors_prelim, filename_root="./output/Brazil")`
+> `example_authors_refined <- authors_refine(example_authors_corrected, example_authors_prelim, filename_root="./output/example")`
 
 
 ```{r, echo=FALSE, fig.pos="H"}
@@ -172,7 +168,9 @@ knitr::include_graphics("images/AuthorMatch.PNG")
 Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 2 arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object.
+
 - **address_column**: A quoted character identifying the column name in which addresses are stored.
+
 - **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
 
 The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations. Output is saved as `filename_addresses.csv`. 
@@ -184,7 +182,7 @@ The outputs of `authors_georef()` are (1) a modified data.frame with new columns
 
 ####Example
 
-> `Brazil_georef <-authors_georef(------,------,-----)`
+> `example_georef <-authors_georef(------,------,-----)`
 
 
 
@@ -204,7 +202,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 ####Example
 
-> `plot_addresses_country <- plot_addresses_country(data, filename_root="./output/Brazil")`
+> `plot_addresses_country <- plot_addresses_country(data, filename_root="./output/example")`
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/plot_addresses_country.png")
@@ -222,7 +220,7 @@ The output of `authors_georef()` is a ggplot object.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/Brazil")`
+> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
 
 
 ```{r, echo=FALSE, fig.pos="H"}
@@ -240,7 +238,7 @@ This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/Brazil")`
+> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/plot_net_coauthor.png")
@@ -261,7 +259,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 ####Example
 
-> `plot_net_country <- plot_net_country(data, filename_root="./output/Brazil")`
+> `plot_net_country <- plot_net_country(data, filename_root="./output/example")`
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/plot_net_country.png")
@@ -282,7 +280,7 @@ The output of `plot_net_addresses()` is an list. The `$plot` element contains gg
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
-> `plot_net_addresses <- plot_net_addresses(data, filename_root="./output/Brazil")`
+> `plot_net_addresses <- plot_net_addresses(data, filename_root="./output/example")`
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/plot_net_address.png")
@@ -353,7 +351,7 @@ knitr::kable(App2Table2, caption = "Table 2. Information provided by the `author
 
 Name disambiguation is a complex process that is the subject of active research. There are a variety of approaches to disambiguation in large datasets; here we describe the alogorithm for parsing author adresses and disambiguating author names with the `authors_clean()` function. 
 
-There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science or SCOPUS. First, not all authors have an ORCID ID or other unique identifier. Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
+There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have an ORCID ID or other unique identifier. Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
 
 To address this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way, we don't require an entry to contain all relevant fields, but can neverthtless create likely groupings and then refine them by throwing out obvious spurious connections. In the case of authors with ORCIDS and RI IDS, identifying commonalities is quite easy, and we hope that authors will contune to sign up for these identifiers to facilitate disambiguation. 
 
