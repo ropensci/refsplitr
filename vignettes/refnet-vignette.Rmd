@@ -133,13 +133,14 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 ####Example
 
-Image of the reivew file:
+**IMAGES MISSING
+1) Image of the reivew file:
 
-Same image indicating author grouped incorrectly 
+2) Same image indicating author grouped incorrectly 
 
-Same image name not grouped that should have been
+3) Same image name not grouped that should have been
 
-Image showing final refined with corrections and instructions to same as "----_authors_corrected.csv" in the output folder
+4) Image showing final refined with corrections and instructions to same as "----_authors_corrected.csv" in the output folder** 
 
 
 ####2.2.3. Uploading and merging the results of disambiguation
@@ -147,8 +148,11 @@ Image showing final refined with corrections and instructions to same as "----_a
 Corrections made to the "review" file are merged into the "preview" file using the `authors_refine()` function. It has four arguments:  
  
 - **corrected**: The corrected version of the "review" object. Must be in an object. So read in corrected .csv file first.
+
 - **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
+
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
+
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
 The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
