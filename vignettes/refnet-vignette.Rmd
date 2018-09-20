@@ -1,15 +1,15 @@
 ---
 title: "refnet"
-author: "Auriel M.V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
+author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 fig_caption: yes
 output:
-  pdf_document:
-    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
+  pdf_document:
+    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -313,7 +313,7 @@ Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Kno
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
 
 
-# **Appendix 1:** Guide to downloading reference records from the Web of Science.
+## **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/Appendix1b.jpg")
@@ -325,18 +325,15 @@ knitr::include_graphics("images/Appendix1b.jpg")
 # library(knitr)
 App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
 knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) associated with different data types.")
+
 ```
+
+
 ^1^the following Web of Science data fields are only included if users select the `all.fields=T` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 
 ^2^Includes sitations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 
-<<<<<<< HEAD
-^1^The following Web of Science data fields are only included if users select the `all.fields=T` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 
-^2^Includes sitations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
-
-=======
->>>>>>> d8ee45e84ee21e97b8577b3dee550199fa36b92d
 
 
 ```{r echo = FALSE, results = 'asis'}
@@ -351,13 +348,13 @@ knitr::kable(App2Table2, caption = "Table 2. Information provided by the `author
 
 Name disambiguation is a complex process that is the subject of active research. There are a variety of approaches to disambiguation in large datasets; here we describe the alogorithm for parsing author adresses and disambiguating author names with the `authors_clean()` function. 
 
-There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have an ORCID ID or other unique identifier. Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
+There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have a unique identifier such as an [ORCID iD (ORCID)](https://orcid.org/) or [ResearcherID (RID)](http://www.researcherid.com/Home.action?returnCode=ROUTER.Success&Init=Yes&SrcApp=CR&SID=6CmSYQQpa1DmjP5Mo3H). Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
 
-To address this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way, we don't require an entry to contain all relevant fields, but can neverthtless create likely groupings and then refine them by throwing out obvious spurious connections. In the case of authors with ORCIDS and RI IDS, identifying commonalities is quite easy, and we hope that authors will contune to sign up for these identifiers to facilitate disambiguation. 
+To address this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way we do not require an entry to contain all relevant fields, but can neverthtless create likely groupings and then refine them by throwing out obvious spurious connections. In the case of authors with ORCID and RID numbers, identifying commonalities is quite easy, and we hope that authors will contune to sign up for these identifiers to facilitate disambiguation. 
 
-The first step in our disambiguation process is matching all groups together with common ORCID and RI IDs. The remaining entries go through a series of logical rules to help match the author with only LIKELY entries. Throughout this analysis we assume that every author has a complete last name, and require it to contain two additional pieces of qualifying information to match it up to groups. These can include first name, middle name, address, or email. Where we understand that the first and middle name may also just be initials. Requiring this type of information means we cannot match authors that do not contain any of this extra information, and so we do not group entries with no middle name, address, AND email, but instead call them their own group and skip them from the following analysis. To lower calculation times, as the algorithm attempts to match each entry it creates a subset of possible matching combinations of last and first names, and then attempts to match them against middle initials, address, and email addresses.
+The first step in our disambiguation process is matching all groups together with common ORCID and RID nunmbers. The remaining entries go through a series of logical rules to help match the author with only *likely* entries. Throughout this analysis we assume that every author has a complete last name and require the author's record contain any two of the following: first name, middle name, address, or email (the first and middle name can be initials). Requiring this type of information means we cannot match authors that do not contain any of this extra information, and so we do not group entries with no middle name, address, AND email, but instead call them their own group and skip them from the following analysis. To lower calculation times, as the algorithm attempts to match each entry it creates a subset of possible matching combinations of last and first names, and then attempts to match them against middle initials, address, and email addresses.
 
-- *note regarding email addresses* - Similar to street addresses, email addresses are often stored inconsistently with no direct link between author and email address. In these cases, we run a Jaro Winkler distance measurement that calculates the amount of transpositions required to turn one string (an author name) into another (an email address). This works very well when email addresses are in a standard format (e.g., "lastname"."firstname" @ university.edu). We match author names to each email and use a threshold percentage of 0.70. If no names match up below this threshold we disregard the email and leave the field blank in the author name.
+- *note regarding email addresses* - Similar to street addresses, email addresses are often stored inconsistently with no direct link between a specific author and specific email address. In these cases, we run a Jaro-Winkler distance measurement that calculates the amount of transpositions required to turn one string (an author name) into another (an email address). This works very well when email addresses are in a standard format (e.g., "lastname"."firstname" @ university.edu). We match author names to each email and use a threshold percentage of 0.70. If no names match up below this threshold we disregard the email and leave the field blank in the author name.
 
 
 Below is an example of how the algorithm processes a sample data set.
@@ -366,15 +363,15 @@ Below is an example of how the algorithm processes a sample data set.
 knitr::include_graphics("images/appendix3.1.png")
 ``` 
  
-In this dataset we have 10 authors, with a mixture of incomplete columns for each row. Rows 2 and 5 were given the same groupID priori because of their matching ORCIDs. We'll walk through the remaining entries and how the algorithm matches names together.
+In this dataset we have 10 authors, with a mixture of incomplete columns for each row. Rows 2 and 5 were given the same groupID priori because of their matching ORCID. We'll walk through the remaining entries and how the algorithm matches names together.
 
-To lower the amount of Type II errors we build a dataset of possible matchings for each author, each entry in this subset must constrict to the following guidelines:
+To lower the number of Type II errors we build a dataset of possible matches for each author; each entry in this subset must adhere to the following guidelines:
 
-1.	In all cases last names must match exactly (case insensitive). This means misspelling will likely not get matched unless they have an OI or RI to match against.
+1.	In all cases last names must match exactly (case insensitive). This means misspelled names will likely not get matched *unless* they have an ORCID or RID against which to match.
 
-2.	First names must match or in the case they only have an initial then that initial must match.
+2.	First names must match; in the case they only have an initial then that initial must match.
 
-3.	Middle names must match or in the case they only have an initial they must match. If no middle name exists it is allowed in given that it has another piece of identifying information (an address or email address)
+3.	Middle names must match; in the case they only have an initial they must match. Cases of authors with no middle name are allowed if the author's record has another piece of identifying information (e.g., an address or email address).
 
 **Entry 1.** In our test data we will start trying to match the first entry "Smith, J" in row 1. By subsetting with the above rules, we'd be matching the first row against rows 2, 3, 4, 5, 6, 7, 9:
 
