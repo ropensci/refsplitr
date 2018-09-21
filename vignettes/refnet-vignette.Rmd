@@ -109,9 +109,12 @@ a. To disambiguate the authors of the references in the dataset and place the "p
 
 Accepting the result of `refnet`'s disambiguation algorithm without inspecting names flagged for review is done with the `authors_refine()` function. It has four arguments:  
  
-- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object.  
-- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object   
+- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object.
+
+- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
+
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
+
 - **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
@@ -181,7 +184,7 @@ The outputs of `authors_georef()` are (1) a modified data.frame with new columns
 
 - **Warning #1**: it can be difficult for this version of `refnet` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
-- **warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit) or [https://developers.google.com/maps/documentation/](Google Maps API). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
+- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit) or [https://developers.google.com/maps/documentation/](Google Maps API). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
 
 
 ####Example
@@ -257,8 +260,10 @@ The function has one argument:
 
 The output of `plot_net_country()` is an list.  The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
-1. The `$data_path` element contains the data for the connecting lines. 
+1. The `$data_path` element contains the data for the connecting lines.
+
 2. The `$data_polygon` element contains the data for the country outlines.  
+
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
@@ -383,9 +388,9 @@ To lower the number of Type II errors we build a dataset of possible matches for
 knitr::include_graphics("images/appendix3.2.png")
 ``` 
 
-Once we have our subset of possible similar entries, we match the existing info of row 1 against the subset. The entry only needs to match one extra piece of information (address, email, or middle name). If it matches we assume it's a similar person and change the groupIDs to reflect this. 
+Once we have our subset of possible similar entries, we match the existing info of row 1 against the subset. The entry only needs to match one extra piece of information - either address, email, or middle name. If it matches we assume it is the same person, and change the groupID numbers to reflect this. 
 
-In our test data, there is only one piece of information we can match against (among middle name, address, or email), and that is address. This makes the obvious match row 5. And we change the groupID for our entry to groupID 2. This gives us three entries with the groupID of 2.
+In our test data, there is only one piece of information we can match against - address, which makes the obvious match Row 5. We therefore change the groupID for our entry to groupID = 2. This gives us three entries with groupID = 2.
 
 **Entry 2.**  Row 2 was already matched to another group using ORCID prior, so it is skipped.
 
@@ -395,33 +400,33 @@ In our test data, there is only one piece of information we can match against (a
 knitr::include_graphics("images/appendix3.3.png")
 ```  
  
-Matching this information against our subset, the two possible matches are row 2 and 7. And in these cases we choose the lowest numbered entry as its likely to have been grouped already. However, even if entry 7 was chosen as a match, entry 7 will eventually be matched up to groupID 2. When a parent groupID is changed like this, we change all the children entries to match the new ID as well. So, the decision is partially arbitrary.
+Matching this information against our subset, the two possible matches are Row 2 and Row 7. In cases with multiple matches we choose the entry with the lowest number, as it is likely to have been grouped already. However, even if the entry in Row 7 was chosen as a match, it  will eventually be matched up to groupID = 2. When a 'parent' groupID is changed in this way, all the 'child' entries are changed to match the new groupID as well. As such, the decision is partially arbitrary.
 
-**Entry 4** - This entry gets assigned groupID 2 as well because it has a matching middle initial with row 2 and 3:
+**Entry 4** - This entry gets assigned groupID = 2 as well because it has a matching middle initial with Row 2 and Row 3:
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/appendix3.4.png")
 ``` 
 
-**Entry 5** - Row 5 has already been matched by ORCID so it is skipped.
+**Entry 5** - Row 5 has already been matched with ORCID, so it is skipped.
 
-**Entry 6** - Row 6 has no additional matching information, no middle name, address, or email. Because of there is no way to reliably know which Smith, J it belongs to, so the entry is assumed to be its own group and skipped.
+**Entry 6** - Row 6 has no additional matching information - no middle name, address, or email. There is therefore no way to reliably know which 'Smith, J` it belongs to, so the entry is assumed to be its own unique group and skipped.
 
-**Entry 7** - Entry 7 has one unique identifier, an email address. It gets matched up to the entry in row 3 and therefore gets groupID 2. 
+**Entry 7** - Entry 7 has one unique identifier: an email address. It gets matched to the entry in Row 3 and therefore is assigned groupID = 2. 
 
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/appendix3.5.png")
 ```  
 
-After these first 7 entries, we've correctly matched all likely Smith, Jon Karl's together and created the Jon Karl Smith complex. Now we'll move onto a situation where we'll have inadequate information and are forced to run a Jaro Winkler distance analysis to decide the likely match.
+After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl' together and created the 'Jon Karl Smith' complex. Now we'll move onto a situation where we have inadequate information, and must therefore run a Jaro-Winkler distance analysis to decide the likely match.
 
-**Entry 8** - This novel entry has 2 unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries prior, and the middle initial does not match up with any Smiths in our record. 
+**Entry 8** - This novel entry has two unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries, and the middle initial does not match up with any of the 'Smith' names in our record. 
  
 ```{r, echo=FALSE, fig.pos="H"}
 knitr::include_graphics("images/appendix3.6.png")
 ```  
 
-Because we do not have any adequate matches, we match the entry by calculating a jaro winkler distance between row 8 and the author names in our subset. The following matching results were: 0.9[1], 0.9[5],0.9[6], 0.96[9]. Therefore, the most likely match is row 9. We change the groupID to 9, and set aside this entry for the user to hand check later. 
+Because there are no suitable matches using initial criteria, we instead match the entry by calculating a Jaro-Winkler distance between the name in Row 8 and the author names in our subset. The results are: 0.9 [Row 1], 0.9 [Row 5], 0.9 [Row 6], and 0.96 [Row 9]. Therefore, the most likely match for the name 'Smith, James L' is the name in Row 9 ('Smith, James'). We change the  groupID to 9, and set aside this entry for the user to manually review later. 
 
 **Entry 9** - Results in the same result as 8 and is matched to entry 8 which already has the groupID of 9. 
 
