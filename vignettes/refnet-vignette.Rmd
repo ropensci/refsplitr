@@ -5,12 +5,12 @@ date: "`r Sys.Date()`"
 fig_caption: yes
 geometry: margin=2cm
 output:
-  pdf_document:
-    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
+  pdf_document:
+    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -87,6 +87,8 @@ c. To save to a location with a prefix, write the folder path followed by a '/' 
 knitr::include_graphics("images/references_read.png")
 ``` 
 
+**Figure 1** Output from `references_read()`
+
 ###2.2. Author address parsing and name disambiguation 
 
 The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
@@ -113,7 +115,7 @@ example_a_clean <- authors_clean(example_refs,
 knitr::include_graphics("images/authors_clean_prelim.png") 
 ``` 
 
-
+**Figure 2** Prelim element output from `authors_clean()`
 
 ####2.2.1. Accepting the results of author disambiguation *without* manual review
 
@@ -149,15 +151,29 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 ####Example
 
-**IMAGES MISSING
-1) Image of the reivew file:
+```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
+knitr::include_graphics("images/review_file.png") 
+``` 
 
-2) Same image indicating author grouped incorrectly 
+**Figure 3:** First few rows and columns from the review element of `authors_clean()`
 
-3) Same image name not grouped that should have been
+```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
+knitr::include_graphics("images/grouped_should_not_be.png")
+``` 
 
-4) Image showing final refined with corrections and instructions to same as "----_authors_corrected.csv" in the output folder** 
+**Figure 4:** Here we can see that the three Bailey's that have the first initial J were grouped together. But, due to our knowledge of the field, we know that the one at Moon University is a different person. 
 
+```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
+knitr::include_graphics("images/not_grouped_should_be.png") 
+``` 
+
+**Figure 5:** Here we can see that Lauren Wise changed universities, but she is the same person, so these should have been grouped together, but they weren't. 
+
+```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
+knitr::include_graphics("images/corrected_review.png") 
+``` 
+
+**Figure 6:** Here we can see that the group numbers have been changed so that all the Lauren Wise's are the same group, and J Bailey from Moon University is in a separate group. 
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
@@ -188,6 +204,7 @@ example_a_refined <-authors_refine(example_a_corrected,
 knitr::include_graphics("images/AuthorMatch.PNG")
 ``` 
   
+**Figure 7:** `authors_refine()` output.   
   
 ###2.3. Georeferencing author institutions 
 
@@ -234,6 +251,8 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 knitr::include_graphics("images/plot_addresses_country.png")
 ``` 
 
+**Figure 8:** Plot of how many authors in the dataset are from each country. 
+
 ####2.4.2. World Plots (points)
 
 The `plot_addresses_points()` function plots the location of all authors in the dataset. 
@@ -253,6 +272,8 @@ The output of `authors_georef()` is a ggplot object.
 knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
+**Figure 9:** Figure showing where all the georeferenced authors are based. 
+
 ####2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
 
@@ -269,6 +290,8 @@ This function has one output, a plot, built in `igraph`.
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
 ``` 
+
+**Figure 10:** Network plot of the authors in the dataset. 
 
 ####2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
@@ -293,6 +316,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 knitr::include_graphics("images/plot_net_country.png")
 ``` 
 
+**Figure 11:** Network showing how the different countries are connected. 
 
 ####2.4.5. Net Plots (Addresses)
 The `plot_net_addresses()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
@@ -314,7 +338,7 @@ The output of `plot_net_addresses()` is an list. The `$plot` element contains gg
 knitr::include_graphics("images/plot_net_address.png")
 ``` 
 
-
+**Figure 12:** Plot showing the network between individual author locations.
 
 ##Acknowledgments
 
@@ -346,6 +370,8 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/Appendix1b.jpg")
 ```
+
+**Figure 13:** Web of Science Download Instructions
 
 ## **Appendix 2:** Web of Science Data Field Definitions
 
@@ -392,6 +418,8 @@ Below is an example of how the algorithm processes a sample data set.
 knitr::include_graphics("images/appendix3.1.png")
 ``` 
  
+**Figure 14:** Example dataset. 
+ 
 In this dataset we have 10 authors, with a mixture of incomplete columns for each row. Rows 2 and 5 were given the same groupID priori because of their matching ORCID. We'll walk through the remaining entries and how the algorithm matches names together.
 
 To lower the number of Type II errors we build a dataset of possible matches for each author; each entry in this subset must adhere to the following guidelines:
@@ -408,6 +436,8 @@ To lower the number of Type II errors we build a dataset of possible matches for
 knitr::include_graphics("images/appendix3.2.png")
 ``` 
 
+**Figure 15:** Figure for entry 1 
+
 Once we have our subset of possible similar entries, we match the existing info of row 1 against the subset. The entry only needs to match one extra piece of information - either address, email, or middle name. If it matches we assume it is the same person, and change the groupID numbers to reflect this. 
 
 In our test data, there is only one piece of information we can match against - address, which makes the obvious match Row 5. We therefore change the groupID for our entry to groupID = 2. This gives us three entries with groupID = 2.
@@ -420,6 +450,8 @@ In our test data, there is only one piece of information we can match against - 
 knitr::include_graphics("images/appendix3.3.png")
 ```  
  
+**Figure 16:** Figure for entry 3
+ 
 Matching this information against our subset, the two possible matches are Row 2 and Row 7. In cases with multiple matches we choose the entry with the lowest number, as it is likely to have been grouped already. However, even if the entry in Row 7 was chosen as a match, it  will eventually be matched up to groupID = 2. When a 'parent' groupID is changed in this way, all the 'child' entries are changed to match the new groupID as well. As such, the decision is partially arbitrary.
 
 **Entry 4** - This entry gets assigned groupID = 2 as well because it has a matching middle initial with Row 2 and Row 3:
@@ -427,6 +459,8 @@ Matching this information against our subset, the two possible matches are Row 2
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.4.png")
 ``` 
+
+**Figure 16:** Figure for entry 4
 
 **Entry 5** - Row 5 has already been matched with ORCID, so it is skipped.
 
@@ -438,6 +472,8 @@ knitr::include_graphics("images/appendix3.4.png")
 knitr::include_graphics("images/appendix3.5.png")
 ```  
 
+**Figure 17:** Figure for entry 7
+
 After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl' together and created the 'Jon Karl Smith' complex. Now we'll move onto a situation where we have inadequate information, and must therefore run a Jaro-Winkler distance analysis to decide the likely match.
 
 **Entry 8** - This novel entry has two unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries, and the middle initial does not match up with any of the 'Smith' names in our record. 
@@ -445,6 +481,8 @@ After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.6.png")
 ```  
+
+**Figure 18:** Figure for entry 8
 
 Because there are no suitable matches using initial criteria, we instead match the entry by calculating a Jaro-Winkler distance between the name in Row 8 and the author names in our subset. The results are: 0.9 [Row 1], 0.9 [Row 5], 0.9 [Row 6], and 0.96 [Row 9]. Therefore, the most likely match for the name 'Smith, James L' is the name in Row 9 ('Smith, James'). We change the  groupID to 9, and set aside this entry for the user to manually review later. 
 
@@ -456,14 +494,18 @@ Because there are no suitable matches using initial criteria, we instead match t
 knitr::include_graphics("images/appendix3.7.png")
 ``` 
 
-Thus our final results are: **[is something missing here?]**
- 
-As a final check against our created groupings, we attempt to prune groupings by reanalyzing if First name, last name, and middle names match. This is because matching entries using incomplete info occasionally creates novel situations where two similar names are called the same groupID if they have similar other information like same first name and the same address. Additionally, the imperfect matching of email addresses occasionally matches up relatives or significant others who publish together with the incorrect email creating a mismatched complex. This final pruning step separates the groups entirely by name. It should be noted this situation in general is rare. 
+**Figure 19:** Figure for Entry 10
 
-This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
+Thus our final results are: 
  
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.8.png")
-``` 
+```  
+ 
+**Figure 20:** Final Results. 
+
+As a final check against our created groupings, we attempt to prune groupings by reanalyzing if First name, last name, and middle names match. This is because matching entries using incomplete info occasionally creates novel situations where two similar names are called the same groupID if they have similar other information like same first name and the same address. Additionally, the imperfect matching of email addresses occasionally matches up relatives or significant others who publish together with the incorrect email creating a mismatched complex. This final pruning step separates the groups entirely by name. It should be noted this situation in general is rare. 
+
+This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
 
 
