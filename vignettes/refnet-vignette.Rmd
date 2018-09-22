@@ -4,12 +4,12 @@ author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 fig_caption: yes
 output:
+  pdf_document:
+    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
-  pdf_document:
-    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -165,7 +165,7 @@ The output of `authors_refine()` is a file is an object in the R Workspace and a
 > `example_authors_refined <- authors_refine(example_authors_corrected, example_authors_prelim, filename_root="./output/example")`
 
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/AuthorMatch.PNG")
 ``` 
   
@@ -211,7 +211,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 > `plot_addresses_country <- plot_addresses_country(data, filename_root="./output/example")`
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_addresses_country.png")
 ``` 
 
@@ -230,7 +230,7 @@ The output of `authors_georef()` is a ggplot object.
 > `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
 
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
@@ -247,7 +247,7 @@ This function has one output, a plot, built in `igraph`.
 
 > `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
 ``` 
 
@@ -270,7 +270,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 > `plot_net_country <- plot_net_country(data, filename_root="./output/example")`
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_country.png")
 ``` 
 
@@ -291,7 +291,7 @@ The output of `plot_net_addresses()` is an list. The `$plot` element contains gg
 ####Example
 > `plot_net_addresses <- plot_net_addresses(data, filename_root="./output/example")`
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_address.png")
 ``` 
 
@@ -324,7 +324,7 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/Appendix1b.jpg")
 ```
 
@@ -368,7 +368,7 @@ The first step in our disambiguation process is matching all groups together wit
 
 Below is an example of how the algorithm processes a sample data set.
  
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.1.png")
 ``` 
  
@@ -384,7 +384,7 @@ To lower the number of Type II errors we build a dataset of possible matches for
 
 **Entry 1.** In our test data we will start trying to match the first entry "Smith, J" in row 1. By subsetting with the above rules, we'd be matching the first row against rows 2, 3, 4, 5, 6, 7, 9:
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.2.png")
 ``` 
 
@@ -396,7 +396,7 @@ In our test data, there is only one piece of information we can match against - 
 
 **Entry 3.** Row 3 has 2 unique identifying pieces of information: A middle initial and an email. This subset is smaller because we have a middle initial to filter out the Smith, J.L entries: 
  
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.3.png")
 ```  
  
@@ -404,7 +404,7 @@ Matching this information against our subset, the two possible matches are Row 2
 
 **Entry 4** - This entry gets assigned groupID = 2 as well because it has a matching middle initial with Row 2 and Row 3:
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.4.png")
 ``` 
 
@@ -414,7 +414,7 @@ knitr::include_graphics("images/appendix3.4.png")
 
 **Entry 7** - Entry 7 has one unique identifier: an email address. It gets matched to the entry in Row 3 and therefore is assigned groupID = 2. 
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.5.png")
 ```  
 
@@ -422,7 +422,7 @@ After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl
 
 **Entry 8** - This novel entry has two unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries, and the middle initial does not match up with any of the 'Smith' names in our record. 
  
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.6.png")
 ```  
 
@@ -432,7 +432,7 @@ Because there are no suitable matches using initial criteria, we instead match t
 
 **Entry 10** - This entry has no matching names and results in no change to the groupID number.
 
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.7.png")
 ``` 
 
@@ -442,7 +442,7 @@ As a final check against our created groupings, we attempt to prune groupings by
 
 This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
  
-```{r, echo=FALSE, fig.pos="H"}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.8.png")
 ``` 
 
