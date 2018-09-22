@@ -1,4 +1,4 @@
-﻿Field,Defiition
+Field,Defiition
 authorID,"AuthorID is a unique identifier for each name in the database (i.e., every author of every paper; the initial assumption of refnet's disambiguation algorithm is that all authors of all articles are different individuals). "
 AU,Authors
 AF,Author Full Name
