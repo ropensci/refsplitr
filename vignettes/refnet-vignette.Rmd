@@ -3,6 +3,7 @@ title: "refnet"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 fig_caption: yes
+geometry: margin=2cm
 output:
   pdf_document:
     highlight: tango
