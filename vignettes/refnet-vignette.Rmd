@@ -64,11 +64,19 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 
 a. To import and process a single file located in a folder named "data" and save the output as a file named "example_references" in the "output" folder: 
 
-> `example_references <- references_read(data = './data/example_data.txr', dir = F, filename_root = './output/example')`
+```r
+example_refs <- references_read(data = './data/example_data.txr',
+                                    dir = F, 
+                                    filename_root = './output/example')
+```
 
 b. To import and process multiple files located in a folder named "data" and save the output as "WOS_references" in the "output" folder: 
 
-> `example_references <- references_read(data = './data', dir = T, filename_root = './output/example')`
+```r 
+example_refs <- references_read(data = './data', 
+                                      dir = T, 
+                                filename_root = './output/example')
+```
 
 c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
@@ -96,7 +104,10 @@ Once disambiguation is complete, users can accept `refnet`'s results without rev
 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
-> `example_authors <- authors_clean(example_references, filename_root="./output/example")`
+```r 
+example_a_clean <- authors_clean(example_refs,     
+                          filename_root="./output/example")
+```
 
 
 <!-- Figure showing output of authors_clean() -->
@@ -124,8 +135,11 @@ The output of `authors_refine()` is an object in the R Workspace and a .csv file
 
 a. To accept the results of author disambiguation without manual review: 
 
-> `example_authors_refined <- authors_refine(example_review, example_authors_prelim, filename_root="./output/example")`
-
+```r 
+example_a_refined <- authors_refine(example_a_clean$review, 
+                                    example_a_clean$prelim,
+                                  filename_root="./output/example")
+```
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
 
@@ -151,7 +165,7 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 Corrections made to the "review" file are merged into the "preview" file using the `authors_refine()` function. It has four arguments:  
  
-- **corrected**: The corrected version of the "review" object. Must be in an object. So read in corrected .csv file first.
+- **corrected**: The corrected version of the "review" object. Must be an object. So read in the the corrected .csv file before using this function.
 
 - **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
 
@@ -163,7 +177,13 @@ The output of `authors_refine()` is a file is an object in the R Workspace and a
 
 ####Example
 
-> `example_authors_refined <- authors_refine(example_authors_corrected, example_authors_prelim, filename_root="./output/example")`
+```r
+example_a_corrected <- read.csv("correctedfile.csv")
+
+example_a_refined <-authors_refine(example_a_corrected, 
+                                example_a_clean$prelim,
+                                filename_root="./output/example")
+```
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -173,13 +193,13 @@ knitr::include_graphics("images/AuthorMatch.PNG")
   
 ###2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 2 arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 3 arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object.
 
 - **address_column**: A quoted character identifying the column name in which addresses are stored.
 
-- **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to FALSE by default
+- **write_out_missing**: if TRUE creates a file with the author addresses that that `refnet` was unable to georeference; set to TRUE by default
 
 The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refnet was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations. Output is saved as `filename_addresses.csv`. 
 
