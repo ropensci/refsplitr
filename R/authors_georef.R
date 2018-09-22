@@ -12,7 +12,7 @@
 authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
-                           write_out_missing = FALSE,
+                           write_out_missing = TRUE,
                            retry_limit=10) {
   # Read in the CSV data and store it in a variable
   paste.frame <- data[, c("university",'city','state', "country", "postal_code", "authorID", "address")]
