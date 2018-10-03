@@ -40,12 +40,11 @@ Issues, Feature Requests and Pull Requests Welcome
 Auriel M.V. Fournier Developer, Forrest R.
   Stevens Developer, Matthew E. Boone Developer
   and Emilio Bruna Developer (2018). refnet:
-  Clarivate Web of Knowledge / Web of Science and
-  ISI Reference Data Tools. R package version
+  Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
   0.6.
   
     @Manual{,
-    title = {refnet: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools},
+    title = {refnet: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
     author = {Auriel M.V. Fournier Developer and Forrest R. Stevens Developer and Matthew E. Boone Developer and Emilio Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
