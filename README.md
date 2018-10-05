@@ -51,4 +51,4 @@ Auriel M.V. Fournier Developer, Forrest R.
   }
   
   
-  [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
+[![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
