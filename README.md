@@ -49,3 +49,6 @@ Auriel M.V. Fournier Developer, Forrest R.
     year = {2018},
     note = {R package version 0.6},
   }
+  
+  
+  [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
