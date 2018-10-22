@@ -6,7 +6,7 @@
 #' @param sim_score default is 0.88
 #' @param filename_root the filename root, can include relative or absolute
 #' @param write_out_data TRUE or FALSE, do you want a .csv file written out?
-#'
+#' @importFrom RecordLinkage jarowinkler
 
 
 authors_clean <- function(references,
@@ -130,7 +130,7 @@ authors_clean <- function(references,
       colnames(RI_df) <- c("RI_names", "RI")
 
       match_ri <- sapply(RI_df[, 1], function(x) {
-        jw <- jarowinkler(x, authors_AU)
+        jw <- RecordLinkage::jarowinkler(x, authors_AU)
         jw == max(jw) & jw > 0.8
       })
       if (length(authors_AU) > 1) {
@@ -150,7 +150,7 @@ authors_clean <- function(references,
       OI_df <- as.data.frame(do.call(rbind, strsplit(OI, "/")), stringsAsFactors = F)
       colnames(OI_df) <- c("OI_names", "OI")
       match_OI <- sapply(OI_df[, 1], function(x) {
-        jw <- jarowinkler(x, authors_AU)
+        jw <- RecordLinkage::jarowinkler(x, authors_AU)
         jw == max(jw) & jw > 0.8
       })
 
@@ -183,7 +183,7 @@ authors_clean <- function(references,
     #
     # Matching emails is an imprecise science, as emails dont have to match names in any reliable way or at all
     # I feel its better to leave these alone as much as possible, analyzing the resulting matches will lead to issues
-    match_em <- sapply(authors_EM_strip, function(x) apply(data.frame(jarowinkler(x, new$AU), jarowinkler(x, new$AF)), 1, max))
+    match_em <- sapply(authors_EM_strip, function(x) apply(data.frame(RecordLinkage::jarowinkler(x, new$AU), RecordLinkage::jarowinkler(x, new$AF)), 1, max))
 
     for (i in 1:length(authors_EM)) {
       # i<-1
@@ -506,7 +506,7 @@ authors_clean <- function(references,
 
     # Jaro_winkler
     if (!matched & nrow(novel.names1) > 0 & !anyNA(novel.names1$ID)) {
-      jw_m <- jarowinkler(paste0(novel.names1$last, novel.names1$first, novel.names1$middle), paste0(name.df$last, name.df$first, name.df$middle))
+      jw_m <- RecordLinkage::jarowinkler(paste0(novel.names1$last, novel.names1$first, novel.names1$middle), paste0(name.df$last, name.df$first, name.df$middle))
       choice <- which(max(jw_m) == jw_m)[1]
 
       if (sum(!is.na(novel.names1$groupID[choice])) > 0) {

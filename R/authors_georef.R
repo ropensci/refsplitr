@@ -10,6 +10,8 @@
 #'   function will be saved
 #'
 #' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querrying the google api when its busy. 
+#' @importFrom dplyr full_join
+#' 
 authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
