@@ -127,27 +127,28 @@ authors_georef <- function(data,
         uniqueAddress$lon[uniqueAddress$adID == result$adID] <- result$lon
         
       }
-      # check if all addresses ran or were stopped by a sever limit
-      retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
-      # if (nrow(faileddsk) == 1 & paste_address == " ") {
-      #   retry <- F
-      # }
-      # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
-      
-      if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
-        retry <- F
-        print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
-      }
-      #if(counter==retry_limit & nrow(faileddsk)>20){break}
-      if(counter==retry_limit){break}
-      # put system to sleep for 5 seconds to allow googles query limits to reset
-      if (retry == T) {
-        print("server busy, trying again in 5 seconds")
-        Sys.sleep(5)
-      }
-      
-      counter<-counter+1
+
+    # check if all addresses ran or were stopped by a sever limit
+    retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
+    # if (nrow(faileddsk) == 1 & paste_address == " ") {
+    #   retry <- F
+    # }
+    # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
+
+    if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
+      retry <- F
+      print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
     }
+    #if(counter==retry_limit & nrow(faileddsk)>20){break}
+    if(counter==retry_limit){break}
+    # put system to sleep for 5 seconds to allow googles query limits to reset
+    if (retry == T) {
+      print("server busy, trying again in 5 seconds")
+      Sys.sleep(5)
+    }
+    
+    counter<-counter+1
+
   }
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
