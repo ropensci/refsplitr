@@ -10,6 +10,7 @@
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' @param line_resolution default = 10
 #' @export plot_net_country
+#' @importFrom network %v%
 
 plot_net_country <- function(data,
                              line_resolution = 10,
