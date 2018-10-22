@@ -410,7 +410,7 @@ authors_clean <- function(references,
   remain <- merge(subset(remain, is.na(groupID)), remain, by = c("first", "middle", "last"))
   remain <- subset(remain, ID.x != ID.y)
 
-
+  if(nrow(remain)>0){
   dd <- data.frame(
     g.n = unique(paste(remain$first, remain$middle, remain$last, sep = ";")),
     first = NA,
@@ -438,6 +438,7 @@ authors_clean <- function(references,
   }
   length(unique(novel.names$groupID))
   #
+  }
   unique.groupid <- novel.names$ID[(novel.names$m.c > 0 | !is.na(novel.names$university) | !is.na(novel.names$email)) & is.na(novel.names$groupID)]
 
   which(unique.groupid == 9364)
@@ -580,15 +581,18 @@ authors_clean <- function(references,
   sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity, sub.authors$authorID), ]
 
   # write it out
+  if( write_out_data == T & nrow(sub.authors)>0){
   write.csv(subset(final, select = -c(match_name, similarity)),
     file = paste0(filename_root, "_authors_prelim.csv"),
     row.names = FALSE
   )
-
+  }
+  if( write_out_data == T){
   write.csv(sub.authors,
     file = paste0(filename_root, "_authors_review.csv"),
     row.names = FALSE
   )
+  }
   #
   return(list(prelim = final, review = sub.authors))
 } # end function

@@ -1,0 +1,1780 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Sobrinho, MS
+   Tabarelli, M
+   Machado, IC
+   Sfair, JC
+   Bruna, EM
+   Lopes, AV
+AF Sobrinho, Mellissa S.
+   Tabarelli, Marcelo
+   Machado, Isabel C.
+   Sfair, Julia C.
+   Bruna, Emilio M.
+   Lopes, Ariadna V.
+TI Land use, fallow period and the recovery of a Caatinga forest
+SO BIOTROPICA
+C1 [Sobrinho, Mellissa S.] Univ Fed Pernambuco, Programa Posgrad Biol Vegetal, BR-50372970 Recife, PE, Brazil.
+   [Tabarelli, Marcelo; Machado, Isabel C.; Sfair, Julia C.; Lopes, Ariadna V.] Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Sobrinho, Mellissa S.] Univ Fed Amapa, BR-68940000 Mazagao, AP, Brazil.
+RP Lopes, AV (reprint author), Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.
+EM avflopes@ufpe.br
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD SEP
+PY 2016
+VL 48
+IS 5
+BP 586
+EP 597
+DI 10.1111/btp.12334
+UT WOS:000388274700005
+ER
+
+PT J
+AU Mundim, FM
+   Bruna, EM
+AF Mundim, Fabiane M.
+   Bruna, Emilio M.
+TI Is There a Temperate Bias in Our Understanding of How Climate Change
+   Will Alter Plant- Herbivore Interactions? A Meta- analysis of
+   Experimental Studies
+SO AMERICAN NATURALIST
+C1 [Mundim, Fabiane M.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Mundim, FM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM fabianemundim@ufl.edu
+TC 0
+Z9 0
+SN 0003-0147
+EI 1537-5323
+PD SEP
+PY 2016
+VL 188
+SU 1
+BP S74
+EP S89
+DI 10.1086/687530
+UT WOS:000381285900006
+PM 27513912
+ER
+
+PT J
+AU Vieira-Neto, EHM
+   Vasconcelos, HL
+   Bruna, EM
+AF Vieira-Neto, Ernane H. M.
+   Vasconcelos, Heraldo L.
+   Bruna, Emilio M.
+TI Roads increase population growth rates of a native leaf-cutter ant in
+   Neotropical savannahs
+SO JOURNAL OF APPLIED ECOLOGY
+C1 [Vieira-Neto, Ernane H. M.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, Ave Para 1720, BR-38405320 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Vieira-Neto, EHM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.
+EM ernane.vieiraneto@yahoo.com
+TC 0
+Z9 0
+SN 0021-8901
+EI 1365-2664
+PD AUG
+PY 2016
+VL 53
+IS 4
+BP 983
+EP 992
+DI 10.1111/1365-2664.12651
+UT WOS:000380065600003
+ER
+
+PT J
+AU Bruna, EM
+   Pena-Claros, M
+   Finegan, B
+   Kaplin, BA
+AF Bruna, Emilio M.
+   Pena-Claros, Marielos
+   Finegan, Bryan
+   Kaplin, Beth A.
+TI A new data archiving policy for Biotropica
+SO BIOTROPICA
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Pena-Claros, Marielos] Wageningen Univ & Res Ctr, Forest Ecol & Forest Management Grp, Wageningen, Netherlands.
+   [Pena-Claros, Marielos] IBIF, Santa Cruz, Bolivia.
+   [Finegan, Bryan] Trop Agr Ctr Res & Higher Educ CATIE, Prod & Conservat Forests Programme, 7170 Cartago, Turrialba 30501, Costa Rica.
+   [Kaplin, Beth A.] Antioch Univ New England, Dept Environm Studies, Ctr Trop Ecol & Conservat, 40 Avon St, Keene, NH 03431 USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.; Bruna, EM (reprint author), Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+EM embruna@ufl.edu
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD MAR
+PY 2016
+VL 48
+IS 2
+BP 139
+EP 140
+DI 10.1111/btp.12318
+UT WOS:000372510600001
+ER
+
+PT J
+AU Whitlock, MC
+   Bronstein, JL
+   Bruna, EM
+   Ellison, AM
+   Fox, CW
+   McPeek, MA
+   Moore, AJ
+   Noor, MAF
+   Rausher, MD
+   Rieseberg, LH
+   Ritchie, MG
+   Shaw, RG
+AF Whitlock, Michael C.
+   Bronstein, Judith L.
+   Bruna, Emilio M.
+   Ellison, Aaron M.
+   Fox, Charles W.
+   McPeek, Mark A.
+   Moore, Allen J.
+   Noor, Mohamed A. F.
+   Rausher, Mark D.
+   Rieseberg, Loren H.
+   Ritchie, Michael G.
+   Shaw, Ruth G.
+TI A Balanced Data Archiving Policy for Long-Term Studies
+SO TRENDS IN ECOLOGY & EVOLUTION
+C1 [Whitlock, Michael C.] Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.
+   [Bronstein, Judith L.] Univ Arizona, Dept Ecol & Evolutionary Biol, Tucson, AZ 85721 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, POB 11530, Gainesville, FL 32611 USA.
+   [Ellison, Aaron M.] Harvard Univ, Harvard Forest, Petersham, MA 01366 USA.
+   [Fox, Charles W.] Univ Kentucky, Dept Entomol, Lexington, KY 40546 USA.
+   [McPeek, Mark A.] Dartmouth Coll, Dept Biol Sci, Hanover, NH 03755 USA.
+   [Moore, Allen J.] Univ Georgia, Dept Genet, Athens, GA 30602 USA.
+   [Noor, Mohamed A. F.; Rausher, Mark D.] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Rieseberg, Loren H.] Univ British Columbia, Dept Bot, Vancouver, BC V6T 1Z4, Canada.
+   [Ritchie, Michael G.] Univ St Andrews, Sch Biol, St Andrews KY16 9AJ, Fife, Scotland.
+   [Shaw, Ruth G.] Univ Minnesota, Dept Ecol Evolut & Behav, Minneapolis, MN 55108 USA.
+RP Whitlock, MC (reprint author), Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.
+EM whitlock@zoology.ubc.ca
+RI Ritchie, Michael/F-7055-2013; Bruna, Emilio/H-2769-2012; Fox,
+   Charles/I-5274-2012; 
+OI Ritchie, Michael/0000-0001-7913-8675; Bruna, Emilio/0000-0003-3381-8477;
+   Fox, Charles/0000-0002-7545-7967; Rieseberg, Loren/0000-0002-2712-2417;
+   Ellison, Aaron/0000-0003-4151-6081
+TC 2
+Z9 2
+SN 0169-5347
+PD FEB
+PY 2016
+VL 31
+IS 2
+BP 84
+EP 85
+DI 10.1016/j.tree.2015.12.001
+UT WOS:000369462400003
+PM 26708957
+ER
+
+PT J
+AU Fine, PVA
+   Bruna, EM
+AF Fine, Paul V. A.
+   Bruna, Emilio M.
+TI Neotropical White-sand Forests: Origins, Ecology and Conservation of a
+   Unique Rain Forest Environment
+SO BIOTROPICA
+C1 [Fine, Paul V. A.] Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   [Fine, Paul V. A.] Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Fine, PVA (reprint author), Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.; Fine, PVA (reprint author), Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.
+EM paulfine@berkeley.edu
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD JAN
+PY 2016
+VL 48
+IS 1
+SI SI
+BP 5
+EP 6
+DI 10.1111/btp.12305
+UT WOS:000372510300001
+ER
+
+PT J
+AU Bruna, EM
+   Izzo, TJ
+   Inouye, BD
+   Vasconcelos, HL
+AF Bruna, Emilio M.
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Vasconcelos, Heraldo L.
+TI Effect of mutualist partner identity on plant demography
+SO ECOLOGY
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Izzo, Thiago J.] Univ Fed Mato Grosso, IB, Dept Bot & Ecol, BR-78060900 Cuiaba, MT, Brazil.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia UFU, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.; Izzo, Thiago J.; Inouye, Brian D.; Vasconcelos, Heraldo L.] INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Izzo, Thiago/K-7405-2012; Bruna, Emilio/H-2769-2012
+OI Izzo, Thiago/0000-0002-4613-3787; Bruna, Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0012-9658
+EI 1939-9170
+PD DEC
+PY 2014
+VL 95
+IS 12
+BP 3237
+EP 3243
+UT WOS:000346851400001
+ER
+
+PT J
+AU Vasconcelos, PB
+   Araujo, GM
+   Bruna, EM
+AF Vasconcelos, Pedro B.
+   Araujo, Glein M.
+   Bruna, Emilio M.
+TI The role of roadsides in conserving Cerrado plant diversity
+SO BIODIVERSITY AND CONSERVATION
+C1 [Vasconcelos, Pedro B.; Araujo, Glein M.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Vasconcelos, PB (reprint author), Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+EM pedrobraunger@gmail.com
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0960-3115
+EI 1572-9710
+PD NOV
+PY 2014
+VL 23
+IS 12
+BP 3035
+EP 3050
+DI 10.1007/s10531-014-0762-y
+UT WOS:000343908600008
+ER
+
+PT J
+AU Smith, MJ
+   Weinberger, C
+   Bruna, EM
+   Allesina, S
+AF Smith, Matthew J.
+   Weinberger, Cody
+   Bruna, Emilio M.
+   Allesina, Stefano
+TI The Scientific Impact of Nations: Journal Placement and Citation
+   Performance
+SO PLOS ONE
+C1 [Smith, Matthew J.; Weinberger, Cody; Allesina, Stefano] Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Allesina, Stefano] Univ Chicago, Computat Inst, Chicago, IL 60637 USA.
+   [Smith, Matthew J.; Allesina, Stefano] Northern Plains Ctr Human Potential, St Paul, MN USA.
+RP Smith, MJ (reprint author), Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.
+EM mjsmith@uchicago.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 11
+Z9 11
+SN 1932-6203
+PD OCT 8
+PY 2014
+VL 9
+IS 10
+AR e109195
+DI 10.1371/journal.pone.0109195
+UT WOS:000345204000044
+PM 25296039
+ER
+
+PT J
+AU Christianini, AV
+   Oliveira, PS
+   Bruna, EM
+   Vasconcelos, HL
+AF Christianini, Alexander V.
+   Oliveira, Paulo S.
+   Bruna, Emilio M.
+   Vasconcelos, Heraldo L.
+TI Fauna in decline: Meek shall inherit
+SO SCIENCE
+C1 [Christianini, Alexander V.] Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.
+   [Oliveira, Paulo S.] Univ Estadual Campinas, Dept Biol Anim, BR-13083970 Campinas, SP, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Christianini, AV (reprint author), Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.
+EM avchrist@ufscar.br
+RI Oliveira, Paulo/E-1910-2013; Christianini, Alexander/G-9486-2012; Bruna,
+   Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 2
+Z9 2
+SN 0036-8075
+EI 1095-9203
+PD SEP 5
+PY 2014
+VL 345
+IS 6201
+BP 1129
+EP 1129
+UT WOS:000341179800029
+PM 25190784
+ER
+
+PT J
+AU Cho, AH
+   Johnson, SA
+   Schuman, CE
+   Adler, JM
+   Gonzalez, O
+   Graves, SJ
+   Huebner, JR
+   Marchant, DB
+   Rifai, SW
+   Skinner, I
+   Bruna, EM
+AF Cho, Alyssa H.
+   Johnson, Shelly A.
+   Schuman, Carrie E.
+   Adler, Jennifer M.
+   Gonzalez, Oscar
+   Graves, Sarah J.
+   Huebner, Jana R.
+   Marchant, D. Blaine
+   Rifai, Sami W.
+   Skinner, Irina
+   Bruna, Emilio M.
+TI Women are underrepresented on the editorial boards of journals in
+   environmental biology and natural resource management
+SO PEERJ
+C1 [Cho, Alyssa H.] Univ Florida, Dept Agron, Gainesville, FL 32611 USA.
+   [Johnson, Shelly A.; Graves, Sarah J.; Rifai, Sami W.] Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Schuman, Carrie E.; Adler, Jennifer M.; Gonzalez, Oscar; Huebner, Jana R.] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL USA.
+   [Marchant, D. Blaine] Univ Florida, Dept Biol, Gainesville, FL USA.
+   [Skinner, Irina; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Duello, Theresa/P-5752-2015; Marchant, Daniel Blaine/D-7026-2014; Bruna,
+   Emilio/H-2769-2012; Gonzalez, Oscar/D-7631-2014
+OI Marchant, Daniel Blaine/0000-0003-1733-3381; Bruna,
+   Emilio/0000-0003-3381-8477; Gonzalez, Oscar/0000-0002-8686-3119
+TC 7
+Z9 7
+SN 2167-8359
+PD AUG 21
+PY 2014
+VL 2
+AR e542
+DI 10.7717/peerj.542
+UT WOS:000347618000002
+PM 25177537
+ER
+
+PT J
+AU Bruna, EM
+AF Bruna, Emilio M.
+TI A Word from the Editor-in-Chief
+SO BIOTROPICA
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD JUL
+PY 2014
+VL 46
+IS 4
+BP 377
+EP 377
+DI 10.1111/btp.12129
+UT WOS:000338766100001
+ER
+
+PT J
+AU Bruna, EM
+AF Bruna, Emilio M.
+TI On Identifying Rising Stars in Ecology
+SO BIOSCIENCE
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 0
+Z9 0
+SN 0006-3568
+EI 1525-3244
+PD MAR
+PY 2014
+VL 64
+IS 3
+BP 169
+EP 169
+DI 10.1093/biosci/biu003
+UT WOS:000332754900002
+ER
+
+PT J
+AU Araujo, GM
+   Amaral, AF
+   Bruna, EM
+   Vasconcelos, HL
+AF Araujo, Glein M.
+   Amaral, Alice F.
+   Bruna, Emilio M.
+   Vasconcelos, Heraldo L.
+TI Fire drives the reproductive responses of herbaceous plants in a
+   Neotropical swamp
+SO PLANT ECOLOGY
+C1 [Araujo, Glein M.; Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Amaral, Alice F.] Univ Fed Tocantins, BR-77330000 Arraias, TO, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 1385-0237
+EI 1573-5052
+PD DEC
+PY 2013
+VL 214
+IS 12
+BP 1479
+EP 1484
+DI 10.1007/s11258-013-0268-9
+UT WOS:000327093200007
+ER
+
+PT J
+AU Cortes, MC
+   Uriarte, M
+   Lemes, MR
+   Gribel, R
+   Kress, WJ
+   Smouse, PE
+   Bruna, EM
+AF Cortes, Marina C.
+   Uriarte, Maria
+   Lemes, Maristerra R.
+   Gribel, Rogerio
+   Kress, W. John
+   Smouse, Peter E.
+   Bruna, Emilio M.
+TI Low plant density enhances gene dispersal in the Amazonian understory
+   herb Heliconia acuminata
+SO MOLECULAR ECOLOGY
+C1 [Cortes, Marina C.; Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Cortes, Marina C.; Bruna, Emilio M.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.
+   [Cortes, Marina C.; Bruna, Emilio M.] Smithsonian Trop Res Inst, BR-69083000 Manaus, Amazonas, Brazil.
+   [Gribel, Rogerio] Inst Nacl de Pesquisas da Amazonia, Lab Genet & Biol Reprod Plantas, BR-69083000 Manaus, Amazonas, Brazil.
+   [Lemes, Maristerra R.; Gribel, Rogerio] Inst Pesquisas Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, RJ, Brazil.
+   [Kress, W. John] Smithsonian Inst, Natl Museum Nat Hist, Dept Bot, Washington, DC 20560 USA.
+   [Smouse, Peter E.] Rutgers State Univ, Dept Ecol Evolut & Nat Resources, New Brunswick, NJ 08901 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Cortes, MC (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM marina.ccortes@gmail.com
+RI cortes, marina/I-2155-2012; Bruna, Elena/C-4939-2014; Gribel,
+   Rogerio/C-5392-2013; Bruna, Emilio/H-2769-2012
+OI Bruna, Elena/0000-0001-5427-1461; Gribel, Rogerio/0000-0002-0850-5578;
+   Bruna, Emilio/0000-0003-3381-8477
+TC 9
+Z9 9
+SN 0962-1083
+EI 1365-294X
+PD NOV
+PY 2013
+VL 22
+IS 22
+BP 5716
+EP 5729
+DI 10.1111/mec.12495
+UT WOS:000329786700016
+PM 24730040
+ER
+
+PT J
+AU Jurinitz, CF
+   de Oliveira, AA
+   Bruna, EM
+AF Jurinitz, Cristiane F.
+   de Oliveira, Alexandre A.
+   Bruna, Emilio M.
+TI Abiotic and Biotic Influences on Early-Stage Survival in Two
+   Shade-Tolerant Tree Species in Brazil's Atlantic Forest
+SO BIOTROPICA
+C1 [Jurinitz, Cristiane F.; de Oliveira, Alexandre A.] Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Jurinitz, CF (reprint author), Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.
+EM cristiane.jurinitz@gmail.com
+RI Oliveira, Alexandre/G-8830-2012; Bruna, Emilio/H-2769-2012
+OI Oliveira, Alexandre/0000-0001-5526-8109; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 1
+Z9 1
+SN 0006-3606
+EI 1744-7429
+PD NOV
+PY 2013
+VL 45
+IS 6
+SI SI
+BP 728
+EP 736
+DI 10.1111/btp.12058
+UT WOS:000326333400008
+ER
+
+PT J
+AU Lucas, CM
+   Bruna, EM
+   Nascimento, CMN
+AF Lucas, Christine M.
+   Bruna, Emilio M.
+   Nascimento, Cristiane M. N.
+TI Seedling co-tolerance of multiple stressors in a disturbed tropical
+   floodplain forest
+SO ECOSPHERE
+C1 [Lucas, Christine M.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Nascimento, Cristiane M. N.] Inst Pesquisa Ambiental Amazonia, BR-68005080 Santarem, PA, Brazil.
+RP Lucas, CM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM lucas.christine2@gmail.com
+RI Bruna, Elena/C-4939-2014; Bruna, Emilio/H-2769-2012
+OI Bruna, Elena/0000-0001-5427-1461; Bruna, Emilio/0000-0003-3381-8477
+TC 4
+Z9 4
+SN 2150-8925
+PD JAN
+PY 2013
+VL 4
+IS 1
+AR UNSP 3
+DI 10.1890/ES12-00287.1
+UT WOS:000327305900003
+ER
+
+PT J
+AU Vasconcelos, HL
+   Bruna, EM
+AF Vasconcelos, Heraldo L.
+   Bruna, Emilio M.
+TI Arthropod responses to the experimental isolation of Amazonian forest
+   fragments
+SO ZOOLOGIA
+C1 [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 5
+Z9 5
+SN 1984-4670
+PD DEC
+PY 2012
+VL 29
+IS 6
+BP 515
+EP 530
+UT WOS:000313228500003
+ER
+
+PT J
+AU Passmore, HA
+   Bruna, EM
+   Heredia, SM
+   Vasconcelos, HL
+AF Passmore, Heather A.
+   Bruna, Emilio M.
+   Heredia, Sylvia M.
+   Vasconcelos, Heraldo L.
+TI Resilient Networks of Ant-Plant Mutualists in Amazonian Forest Fragments
+SO PLOS ONE
+C1 [Passmore, Heather A.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Heredia, Sylvia M.] Univ Calif Riverside, Dept Bot & Plant Sci, Riverside, CA 92521 USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.; Heredia, Sylvia M.; Vasconcelos, Heraldo L.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.; Heredia, Sylvia M.; Vasconcelos, Heraldo L.] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+RP Passmore, HA (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131
+TC 11
+Z9 11
+SN 1932-6203
+PD AUG 9
+PY 2012
+VL 7
+IS 8
+AR e40803
+DI 10.1371/journal.pone.0040803
+UT WOS:000307378500003
+PM 22912666
+ER
+
+PT J
+AU Iacona, GD
+   Kirkman, LK
+   Bruna, EM
+AF Iacona, Gwenllian D.
+   Kirkman, L. Katherine
+   Bruna, Emilio M.
+TI Experimental Test for Facilitation of Seedling Recruitment by the
+   Dominant Bunchgrass in a Fire-Maintained Savanna
+SO PLOS ONE
+C1 [Iacona, Gwenllian D.; Kirkman, L. Katherine] JW Jones Ecol Res Ctr, Newton, GA USA.
+   [Iacona, Gwenllian D.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Iacona, GD (reprint author), Univ Tennessee, Dept Ecol & Evolutionary Biol, Knoxville, TN 37996 USA.
+EM giacona@utk.edu
+RI Bruna, Emilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
+OI Bruna, Emilio/0000-0003-3381-8477; 
+TC 3
+Z9 3
+SN 1932-6203
+PD JUL 6
+PY 2012
+VL 7
+IS 7
+AR e39108
+DI 10.1371/journal.pone.0039108
+UT WOS:000306461800007
+PM 22792165
+ER
+
+PT J
+AU Copeland, SM
+   Bruna, EM
+   Silva, LVB
+   Mack, MC
+   Vasconcelos, HL
+AF Copeland, Stella M.
+   Bruna, Emilio M.
+   Barbosa Silva, Laura V.
+   Mack, Michelle C.
+   Vasconcelos, Heraldo L.
+TI Short-term effects of elevated precipitation and nitrogen on soil
+   fertility and plant growth in a Neotropical savanna
+SO ECOSPHERE
+C1 [Copeland, Stella M.; Bruna, Emilio M.; Barbosa Silva, Laura V.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Mack, Michelle C.] Univ Florida, Dept Biol, Gainesville, FL 32611 USA.
+   [Barbosa Silva, Laura V.; Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Copeland, SM (reprint author), Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
+EM scopeland@ucdavis.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 2150-8925
+PD APR
+PY 2012
+VL 3
+IS 4
+AR UNSP 31
+DI 10.1890/ES11-00305.1
+UT WOS:000327301200004
+ER
+
+PT J
+AU Mundim, FM
+   Bruna, EM
+   Vieira-Neto, EHM
+   Vasconcelos, HL
+AF Mundim, Fabiane M.
+   Bruna, Emilio M.
+   Vieira-Neto, Ernane H. M.
+   Vasconcelos, Heraldo L.
+TI Attack frequency and the tolerance to herbivory of Neotropical savanna
+   trees
+SO OECOLOGIA
+C1 [Mundim, Fabiane M.; Bruna, Emilio M.; Vieira-Neto, Ernane H. M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Mundim, Fabiane M.; Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Mundim, FM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM fabianemundim@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
+   Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 10
+Z9 10
+SN 0029-8549
+PD FEB
+PY 2012
+VL 168
+IS 2
+BP 405
+EP 414
+DI 10.1007/s00442-011-2088-8
+UT WOS:000301705700011
+PM 21809118
+ER
+
+PT J
+AU Bruna, EM
+   de Andrade, AS
+AF Bruna, Emilio M.
+   de Andrade, Ana Segalin
+TI EDGE EFFECTS ON GROWTH AND BIOMASS PARTITIONING OF AN AMAZONIAN
+   UNDERSTORY HERB (HELICONIA ACUMINATA; HELICONIACEAE)
+SO AMERICAN JOURNAL OF BOTANY
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.; de Andrade, Ana Segalin] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+   [Bruna, Emilio M.; de Andrade, Ana Segalin] Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 1
+Z9 1
+SN 0002-9122
+PD OCT
+PY 2011
+VL 98
+IS 10
+BP 1727
+EP 1734
+DI 10.3732/ajb.1000290
+UT WOS:000295888800026
+PM 21965134
+ER
+
+PT J
+AU Bruna, EM
+   Izzo, TJ
+   Inouye, BD
+   Uriarte, M
+   Vasconcelos, HL
+AF Bruna, Emilio M.
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Uriarte, Maria
+   Vasconcelos, Heraldo L.
+TI Asymmetric Dispersal and Colonization Success of Amazonian Plant-Ants
+   Queens
+SO PLOS ONE
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Izzo, Thiago J.] Univ Fed Mato Grosso, Dept Bot & Ecol, Cuiaba, Mato Grosso, Brazil.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.; Izzo, Thiago J.; Inouye, Brian D.; Uriarte, Maria; Vasconcelos, Heraldo L.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.; Izzo, Thiago J.; Inouye, Brian D.; Uriarte, Maria; Vasconcelos, Heraldo L.] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Izzo,
+   Thiago/K-7405-2012; Uriarte, Maria/L-8944-2013; Bruna, Elena/C-4939-2014
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787; Bruna,
+   Elena/0000-0001-5427-1461
+TC 8
+Z9 8
+SN 1932-6203
+PD AUG 3
+PY 2011
+VL 6
+IS 8
+AR e22937
+DI 10.1371/journal.pone.0022937
+UT WOS:000293558900045
+PM 21826219
+ER
+
+PT J
+AU Ferreira, AV
+   Bruna, EM
+   Vasconcelos, HL
+AF Ferreira, Alana Vaz
+   Bruna, Emilio M.
+   Vasconcelos, Heraldo L.
+TI Seed predators limit plant recruitment in Neotropical savannas
+SO OIKOS
+C1 [Ferreira, Alana Vaz; Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Ferreira, AV (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131
+TC 19
+Z9 21
+SN 0030-1299
+PD JUL
+PY 2011
+VL 120
+IS 7
+BP 1013
+EP 1022
+DI 10.1111/j.1600-0706.2010.19052.x
+UT WOS:000292114300008
+ER
+
+PT J
+AU Uriarte, M
+   Anciaes, M
+   da Silva, MTB
+   Rubim, P
+   Johnson, E
+   Bruna, EM
+AF Uriarte, Maria
+   Anciaes, Marina
+   da Silva, Mariana T. B.
+   Rubim, Paulo
+   Johnson, Erik
+   Bruna, Emilio M.
+TI Disentangling the drivers of reduced long-distance seed dispersal by
+   birds in an experimentally fragmented landscape
+SO ECOLOGY
+C1 [Uriarte, Maria; Anciaes, Marina] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Anciaes, Marina; da Silva, Mariana T. B.; Rubim, Paulo] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Anciaes, Marina; da Silva, Mariana T. B.; Rubim, Paulo] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Johnson, Erik] Louisiana State Univ, Sch Renewable Resources, Baton Rouge, LA 70803 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM mu2126@columbia.edu
+RI Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Bruna, Emilio/0000-0003-3381-8477; 
+TC 37
+Z9 38
+SN 0012-9658
+PD APR
+PY 2011
+VL 92
+IS 4
+BP 924
+EP 937
+UT WOS:000290533700014
+PM 21661555
+ER
+
+PT J
+AU Gagnon, PR
+   Bruna, EM
+   Rubim, P
+   Darrigo, MR
+   Littell, RC
+   Uriarte, M
+   Kress, WJ
+AF Gagnon, Paul R.
+   Bruna, Emilio M.
+   Rubim, Paulo
+   Darrigo, Maria Rosa
+   Littell, Ramon C.
+   Uriarte, Maria
+   Kress, W. John
+TI Growth of an understory herb is chronically reduced in Amazonian forest
+   fragments
+SO BIOLOGICAL CONSERVATION
+C1 [Gagnon, Paul R.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Gagnon, Paul R.; Bruna, Emilio M.] INPA PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.; Rubim, Paulo; Darrigo, Maria Rosa; Uriarte, Maria] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Littell, Ramon C.] Univ Florida, Dept Stat, Gainesville, FL 32611 USA.
+   [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Kress, W. John] Smithsonian Inst, NMNH Dept Bot, Washington, DC 20013 USA.
+RP Gagnon, PR (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM pgagnon@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Bruna, Emilio/0000-0003-3381-8477; 
+TC 9
+Z9 9
+SN 0006-3207
+PD FEB
+PY 2011
+VL 144
+IS 2
+BP 830
+EP 835
+DI 10.1016/j.biocon.2010.11.015
+UT WOS:000287897100023
+ER
+
+PT J
+AU Pitman, NCA
+   Widmer, J
+   Jenkins, CN
+   Stocks, G
+   Seales, L
+   Paniagua, F
+   Bruna, EM
+AF Pitman, Nigel C. A.
+   Widmer, Jocelyn
+   Jenkins, Clinton N.
+   Stocks, Gabriela
+   Seales, Lisa
+   Paniagua, Franklin
+   Bruna, Emilio M.
+TI Volume and Geographical Distribution of Ecological Research in the Andes
+   and the Amazon, 1995-2008
+SO TROPICAL CONSERVATION SCIENCE
+C1 [Pitman, Nigel C. A.] Amazon Conservat Assoc, Puerto Maldonado, Madre De Dios, Peru.
+   [Widmer, Jocelyn] Univ Florida, Dept Urban & Reg Planning, Gainesville, FL 32611 USA.
+   [Jenkins, Clinton N.] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   [Stocks, Gabriela] Univ Florida, Dept Anthropol, Gainesville, FL 32611 USA.
+   [Stocks, Gabriela] Univ Florida, Land Use & Environm Change Inst, Gainesville, FL 32611 USA.
+   [Seales, Lisa; Paniagua, Franklin] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Pitman, NCA (reprint author), Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.
+EM ncp@duke.edu
+RI Pitman, Nigel/A-7681-2008; Bruna, Emilio/H-2769-2012; Jenkins,
+   Clinton/D-6134-2011
+OI Pitman, Nigel/0000-0002-9211-2880; Bruna, Emilio/0000-0003-3381-8477;
+   Jenkins, Clinton/0000-0003-2198-0637
+TC 19
+Z9 19
+SN 1940-0829
+PY 2011
+VL 4
+IS 1
+BP 64
+EP 81
+UT WOS:000300900600007
+ER
+
+PT J
+AU Laurance, WF
+   Camargo, JLC
+   Luizao, RCC
+   Laurance, SG
+   Pimm, SL
+   Bruna, EM
+   Stouffer, PC
+   Williamson, GB
+   Benitez-Malvido, J
+   Vasconcelos, HL
+   Van Houtan, KS
+   Zartman, CE
+   Boyle, SA
+   Didham, RK
+   Andrade, A
+   Lovejoy, TE
+AF Laurance, William F.
+   Camargo, Jose L. C.
+   Luizao, Regina C. C.
+   Laurance, Susan G.
+   Pimm, Stuart L.
+   Bruna, Emilio M.
+   Stouffer, Philip C.
+   Williamson, G. Bruce
+   Benitez-Malvido, Julieta
+   Vasconcelos, Heraldo L.
+   Van Houtan, Kyle S.
+   Zartman, Charles E.
+   Boyle, Sarah A.
+   Didham, Raphael K.
+   Andrade, Ana
+   Lovejoy, Thomas E.
+TI The fate of Amazonian forest fragments: A 32-year investigation
+SO BIOLOGICAL CONSERVATION
+C1 [Laurance, William F.; Laurance, Susan G.] James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
+   [Laurance, William F.; Camargo, Jose L. C.; Luizao, Regina C. C.; Laurance, Susan G.; Andrade, Ana] Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Laurance, William F.; Camargo, Jose L. C.; Luizao, Regina C. C.; Laurance, Susan G.; Andrade, Ana] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Luizao, Regina C. C.] Natl Inst Amazonian Res INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   [Pimm, Stuart L.; Van Houtan, Kyle S.] Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Stouffer, Philip C.] Louisiana State Univ, Sch Renewable Nat Resources, Baton Rouge, LA 70803 USA.
+   [Stouffer, Philip C.] Louisiana State Univ, LSU AgCtr, Baton Rouge, LA 70803 USA.
+   [Williamson, G. Bruce] Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.
+   [Benitez-Malvido, Julieta] Univ Nacl Autonoma Mexico, Ecosyst Res Ctr, Morelia, Michoacan, Mexico.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Van Houtan, Kyle S.] NOAA Fisheries, Marine Turtle Assessment Program, Honolulu, HI 96822 USA.
+   [Zartman, Charles E.] Natl Inst far Amazonian Res INPA, Dept Bot, BR-69011970 Manaus, Amazonas, Brazil.
+   [Boyle, Sarah A.] Rhodes Coll, Dept Biol, Memphis, TN 38112 USA.
+   [Didham, Raphael K.] Univ Western Australia, Sch Anim Biol, Crawley, WA 6009, Australia.
+   [Didham, Raphael K.] CSIRO Ecosyst Sci, Ctr Environm & Life Sci, Floreat, WA 6014, Australia.
+   [Lovejoy, Thomas E.] Heinz Ctr, Washington, DC 20006 USA.
+   [Lovejoy, Thomas E.] George Mason Univ, Dept Environm Sci & Policy, Fairfax, VA 22030 USA.
+RP Laurance, WF (reprint author), James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
+EM bill.laurance@jcu.edu.au; lovejoy@heinzctr.org
+RI Research ID, CTBCC /O-3564-2014; Laurance, Susan/G-6021-2011; Camargo,
+   Jose Luis/C-3137-2015; Didham, Raphael/B-5953-2011; Laurance,
+   William/B-2709-2012; James Cook University, TESS/B-8171-2012; Bruna,
+   Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Laurance, Susan/0000-0002-2831-2933; Van Houtan,
+   Kyle/0000-0001-5725-1773; Bruna, Emilio/0000-0003-3381-8477;
+   Vasconcelos, Heraldo/0000-0001-6969-7131
+TC 218
+Z9 225
+SN 0006-3207
+PD JAN
+PY 2011
+VL 144
+IS 1
+BP 56
+EP 67
+DI 10.1016/j.biocon.2010.09.021
+UT WOS:000287168100006
+ER
+
+PT J
+AU Ribeiro, MBN
+   Bruna, EM
+   Mantovani, W
+AF Ribeiro, Maria Beatriz N.
+   Bruna, Emilio M.
+   Mantovani, Waldir
+TI Influence of Post-Clearing Treatment on the Recovery of Herbaceous Plant
+   Communities in Amazonian Secondary Forests
+SO RESTORATION ECOLOGY
+C1 [Ribeiro, Maria Beatriz N.; Bruna, Emilio M.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Ribeiro, Maria Beatriz N.; Mantovani, Waldir] Univ Sao Paulo, Dept Ecol, BR-05508900 Sao Paulo, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Ribeiro, MBN (reprint author), Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.
+EM bianr@hotmail.com
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 6
+Z9 6
+SN 1061-2971
+PD SEP
+PY 2010
+VL 18
+SU 1
+BP 50
+EP 58
+DI 10.1111/j.1526-100X.2010.00715.x
+UT WOS:000281717200006
+ER
+
+PT J
+AU Portela, RDQ
+   Bruna, EM
+   dos Santos, FAM
+AF Quitete Portela, Rita De Cassia
+   Bruna, Emilio M.
+   Maes dos Santos, Flavio Antonio
+TI Demography of palm species in Brazil's Atlantic forest: a comparison of
+   harvested and unharvested species using matrix models
+SO BIODIVERSITY AND CONSERVATION
+C1 [Quitete Portela, Rita De Cassia] Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Maes dos Santos, Flavio Antonio] Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+RP Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.
+EM rita@quiteteportela.com.br
+RI Bruna, Emilio/H-2769-2012; Santos, Flavio/C-1611-2012
+OI Bruna, Emilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
+TC 14
+Z9 15
+SN 0960-3115
+EI 1572-9710
+PD JUL
+PY 2010
+VL 19
+IS 8
+BP 2389
+EP 2403
+DI 10.1007/s10531-010-9846-5
+UT WOS:000279682600016
+ER
+
+PT J
+AU Bruna, EM
+AF Bruna, Emilio M.
+TI Scientific Journals can Advance Tropical Biology and Conservation by
+   Requiring Data Archiving
+SO BIOTROPICA
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 10
+Z9 10
+SN 0006-3606
+PD JUL
+PY 2010
+VL 42
+IS 4
+BP 399
+EP 401
+DI 10.1111/j.1744-7429.2010.00652.x
+UT WOS:000279438900001
+ER
+
+PT J
+AU Uriarte, M
+   Bruna, EM
+   Rubim, P
+   Anciaes, M
+   Jonckheere, I
+AF Uriarte, Maria
+   Bruna, Emilio M.
+   Rubim, Paulo
+   Anciaes, Marina
+   Jonckheere, Inge
+TI Effects of forest fragmentation on the seedling recruitment of a
+   tropical herb: assessing seed vs. safe-site limitation
+SO ECOLOGY
+C1 [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.; Rubim, Paulo; Anciaes, Marina] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.; Rubim, Paulo; Anciaes, Marina] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Jonckheere, Inge] Katholieke Univ Leuven, Biosyst Dept, Geomat Grp, B-3001 Louvain, Belgium.
+RP Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM mu2126@columbia.edu
+RI Bruna, Emilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Bruna, Emilio/0000-0003-3381-8477; 
+TC 26
+Z9 26
+SN 0012-9658
+PD MAY
+PY 2010
+VL 91
+IS 5
+BP 1317
+EP 1328
+DI 10.1890/09-0785.1
+UT WOS:000277867600009
+PM 20503865
+ER
+
+PT J
+AU Iacona, GD
+   Kirkman, LK
+   Bruna, EM
+AF Iacona, Gwenllian D.
+   Kirkman, L. Katherine
+   Bruna, Emilio M.
+TI Effects of resource availability on seedling recruitment in a
+   fire-maintained savanna
+SO OECOLOGIA
+C1 [Iacona, Gwenllian D.; Kirkman, L. Katherine] JW Jones Ecol Res Ctr, Newton, GA 39870 USA.
+   [Iacona, Gwenllian D.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Iacona, GD (reprint author), JW Jones Ecol Res Ctr, 3988 Jones Ctr Dr, Newton, GA 39870 USA.
+EM gdiacona@gmail.com
+RI Bruna, Emilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
+OI Bruna, Emilio/0000-0003-3381-8477; 
+TC 14
+Z9 14
+SN 0029-8549
+PD MAY
+PY 2010
+VL 163
+IS 1
+BP 171
+EP 180
+DI 10.1007/s00442-009-1502-y
+UT WOS:000276615100017
+PM 19921271
+ER
+
+PT J
+AU Fortini, LB
+   Bruna, EM
+   Zarin, DJ
+   Vasconcelos, SS
+   Miranda, IS
+AF Fortini, Lucas Berio
+   Bruna, Emilio M.
+   Zarin, Daniel J.
+   Vasconcelos, Steel S.
+   Miranda, Izildinha S.
+TI Altered resource availability and the population dynamics of tree
+   species in Amazonian secondary forests
+SO OECOLOGIA
+C1 [Fortini, Lucas Berio; Zarin, Daniel J.] Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Vasconcelos, Steel S.] Embrapa Amazonia Oriental, Lab Ecofisiol & Propagacao Plantas, BR-66095100 Belem, PA, Brazil.
+   [Miranda, Izildinha S.] Univ Fed Rural Amazonia, BR-66077530 Belem, PA, Brazil.
+RP Fortini, LB (reprint author), Univ Florida, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA.
+EM lfortini@ufl.edu
+RI Vasconcelos, Steel/I-2067-2012; Bruna, Emilio/H-2769-2012
+OI Vasconcelos, Steel/0000-0003-2364-8822; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0029-8549
+PD APR
+PY 2010
+VL 162
+IS 4
+BP 923
+EP 934
+DI 10.1007/s00442-009-1524-5
+UT WOS:000275749600011
+PM 19997929
+ER
+
+PT J
+AU Fiske, IJ
+   Bruna, EM
+AF Fiske, Ian J.
+   Bruna, Emilio M.
+TI Alternative spatial sampling in studies of plant demography:
+   consequences for estimates of population growth rate
+SO PLANT ECOLOGY
+C1 [Fiske, Ian J.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+   [Bruna, Emilio M.] Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 2
+Z9 2
+SN 1385-0237
+PD APR
+PY 2010
+VL 207
+IS 2
+BP 213
+EP 225
+DI 10.1007/s11258-009-9666-4
+UT WOS:000275123700003
+ER
+
+PT J
+AU Portela, RDQ
+   Bruna, EM
+   dos Santos, FAM
+AF Quitete Portela, Rita de Cassia
+   Bruna, Emilio M.
+   Maes dos Santos, Flavio Antonio
+TI Are protected areas really protecting populations? A test with an
+   Atlantic rain forest palm
+SO TROPICAL CONSERVATION SCIENCE
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Maes dos Santos, Flavio Antonio] Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+   [Quitete Portela, Rita de Cassia] Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.
+RP Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.
+EM rita@quiteteportela.com.br
+RI Bruna, Emilio/H-2769-2012; Santos, Flavio/C-1611-2012
+OI Bruna, Emilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
+TC 2
+Z9 2
+SN 1940-0829
+PY 2010
+VL 3
+IS 4
+BP 361
+EP 372
+UT WOS:000208242200002
+ER
+
+PT J
+AU Vasconcelos, HL
+   Pacheco, R
+   Silva, RC
+   Vasconcelos, PB
+   Lopes, CT
+   Costa, AN
+   Bruna, EM
+AF Vasconcelos, Heraldo L.
+   Pacheco, Renata
+   Silva, Raphael C.
+   Vasconcelos, Pedro B.
+   Lopes, Caue T.
+   Costa, Alan N.
+   Bruna, Emilio M.
+TI Dynamics of the Leaf-Litter Arthropod Fauna Following Fire in a
+   Neotropical Woodland Savanna
+SO PLOS ONE
+RP Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
+   Alan/F-2836-2014
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370
+TC 33
+Z9 34
+SN 1932-6203
+PD NOV 9
+PY 2009
+VL 4
+IS 11
+AR e7762
+DI 10.1371/journal.pone.0007762
+UT WOS:000271658000007
+PM 19898619
+ER
+
+PT J
+AU Dattilo, W
+   Izzo, TJ
+   Inouye, BD
+   Vasconcelos, HL
+   Bruna, EM
+AF Dattilo, Wesley
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Vasconcelos, Heraldo L.
+   Bruna, Emilio M.
+TI Recognition of Host Plant Volatiles by Pheidole minutula Mayr
+   (Myrmicinae), an Amazonian Ant-Plant Specialist
+SO BIOTROPICA
+C1 [Dattilo, Wesley; Izzo, Thiago J.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Dattilo, Wesley; Izzo, Thiago J.] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+   [Izzo, Thiago J.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Dattilo, Wesley] Univ Estadual Norte Fluminense, Ctr Biociencias & Biotecnol, Campos, RJ, Brazil.
+RP Izzo, TJ (reprint author), Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+EM izzothiago@gmail.com
+RI Dattilo, Wesley/A-6371-2012; Bruna, Emilio/H-2769-2012; Vasconcelos,
+   Heraldo/C-3353-2013; Izzo, Thiago/K-7405-2012
+OI Dattilo, Wesley/0000-0002-4758-4379; Bruna, Emilio/0000-0003-3381-8477;
+   Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo,
+   Thiago/0000-0002-4613-3787
+TC 9
+Z9 10
+SN 0006-3606
+PD SEP
+PY 2009
+VL 41
+IS 5
+BP 642
+EP 646
+DI 10.1111/j.1744-7429.2009.00518.x
+UT WOS:000269700500018
+ER
+
+PT J
+AU Bruna, EM
+   Fiske, IJ
+   Trager, MD
+AF Bruna, Emilio M.
+   Fiske, Ian J.
+   Trager, Mathew D.
+TI Habitat fragmentation and plant populations: is what we know
+   demographically irrelevant?
+SO JOURNAL OF VEGETATION SCIENCE
+C1 [Bruna, Emilio M.; Fiske, Ian J.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011 Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.] Smithsonian Trop Res Inst, BR-69011 Manaus, Amazonas, Brazil.
+   [Trager, Mathew D.] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 26
+Z9 28
+SN 1100-9233
+PD JUN
+PY 2009
+VL 20
+IS 3
+BP 569
+EP 576
+DI 10.1111/j.1654-1103.2009.01060.x
+UT WOS:000266244100019
+ER
+
+PT J
+AU Callis, KL
+   Christ, LR
+   Resasco, J
+   Armitage, DW
+   Ash, JD
+   Caughlin, TT
+   Clemmensen, SF
+   Copeland, SM
+   Fullman, TJ
+   Lynch, RL
+   Olson, C
+   Pruner, RA
+   Vieira-Neto, EHM
+   West-Singh, R
+   Bruna, EM
+AF Callis, Kristine L.
+   Christ, Lindsey R.
+   Resasco, Julian
+   Armitage, David W.
+   Ash, Jeremy D.
+   Caughlin, Timothy T.
+   Clemmensen, Sharon F.
+   Copeland, Stella M.
+   Fullman, Timothy J.
+   Lynch, Ryan L.
+   Olson, Charley
+   Pruner, Raya A.
+   Vieira-Neto, Ernane H. M.
+   West-Singh, Raneve
+   Bruna, Emilio M.
+TI Improving Wikipedia: educational opportunity and professional
+   responsibility
+SO TRENDS IN ECOLOGY & EVOLUTION
+C1 [Callis, Kristine L.; Christ, Lindsey R.; Resasco, Julian; Armitage, David W.; Ash, Jeremy D.; Caughlin, Timothy T.; Clemmensen, Sharon F.; Copeland, Stella M.; Fullman, Timothy J.; Lynch, Ryan L.; Olson, Charley; Pruner, Raya A.; Vieira-Neto, Ernane H. M.; West-Singh, Raneve; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Bruna, Emilio/0000-0003-3381-8477; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 12
+Z9 16
+SN 0169-5347
+PD APR
+PY 2009
+VL 24
+IS 4
+BP 177
+EP 179
+DI 10.1016/j.tree.2009.01.003
+UT WOS:000265358900002
+PM 19269059
+ER
+
+PT J
+AU Costa, AN
+   Vasconcelos, HL
+   Vieira-Neto, EHM
+   Bruna, EM
+AF Costa, Alan N.
+   Vasconcelos, Heraldo L.
+   Vieira-Neto, Ernane H. M.
+   Bruna, Emilio M.
+TI Do herbivores exert top-down effects in Neotropical savannas? Estimates
+   of biomass consumption by leaf-cutter ants
+SO JOURNAL OF VEGETATION SCIENCE
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Costa, Alan N.; Vasconcelos, Heraldo L.; Vieira-Neto, Ernane H. M.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
+   Alan/F-2836-2014; Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370;
+   Vieira-Neto, Ernane Henrique/0000-0002-6557-7252
+TC 42
+Z9 43
+SN 1100-9233
+PD DEC
+PY 2008
+VL 19
+IS 6
+BP 849
+EP U14
+DI 10.3170/2008-8-18461
+UT WOS:000264001900012
+ER
+
+PT J
+AU Fiske, IJ
+   Bruna, EM
+   Bolker, BM
+AF Fiske, Ian J.
+   Bruna, Emilio M.
+   Bolker, Benjamin M.
+TI Effects of Sample Size on Estimates of Population Growth Rates
+   Calculated with Matrix Models
+SO PLOS ONE
+C1 [Fiske, Ian J.; Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin American Stud, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Smithsonian Trop Res Inst, Inst Nacl Pesquisas Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Bolker, Benjamin M.] Univ Florida, Dept Zool, Gainesville, FL 32611 USA.
+RP Fiske, IJ (reprint author), N Carolina State Univ, Dept Stat, Raleigh, NC 27695 USA.
+EM ianfiske@gmail.com
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 10
+Z9 10
+SN 1932-6203
+PD AUG 28
+PY 2008
+VL 3
+IS 8
+AR e3080
+DI 10.1371/journal.pone.0003080
+UT WOS:000264796600002
+PM 18769483
+ER
+
+PT J
+AU Stocks, G
+   Seales, L
+   Paniagua, F
+   Maehr, E
+   Bruna, EM
+AF Stocks, Gabriela
+   Seales, Lisa
+   Paniagua, Franklin
+   Maehr, Erin
+   Bruna, Emilio M.
+TI The geographical and institutional distribution of ecological research
+   in the tropics
+SO BIOTROPICA
+C1 [Stocks, Gabriela] Univ Florida, Dept Anthropol & Land Use, Gainesville, FL 32611 USA.
+   [Stocks, Gabriela] Univ Florida, Environm Change Inst, Gainesville, FL 32611 USA.
+   [Seales, Lisa; Paniagua, Franklin] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   [Maehr, Erin] Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Stocks, G (reprint author), Univ Florida, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.
+EM gstocks@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 35
+Z9 35
+SN 0006-3606
+PD JUL
+PY 2008
+VL 40
+IS 4
+BP 397
+EP 404
+DI 10.1111/j.1744-7429.2007.00393.x
+UT WOS:000257717500001
+ER
+
+PT J
+AU Bruna, EM
+   Darrigo, MR
+   Pacheco, AMF
+   Vasconcelos, HL
+AF Bruna, Emilio M.
+   Darrigo, Maria Rosa
+   Furuya Pacheco, Angela Midori
+   Vasconcelos, Heraldo L.
+TI Interspecific variation in the defensive responses of ant mutualists to
+   plant volatiles
+SO BIOLOGICAL JOURNAL OF THE LINNEAN SOCIETY
+C1 [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.; Darrigo, Maria Rosa; Furuya Pacheco, Angela Midori] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Bruna, Emilio M.; Darrigo, Maria Rosa; Furuya Pacheco, Angela Midori] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Vasconcelos, Heraldo L.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Bruna, EM (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 7
+Z9 7
+SN 0024-4066
+PD JUN
+PY 2008
+VL 94
+IS 2
+BP 241
+EP 249
+DI 10.1111/j.1095-8312.2008.00962.x
+UT WOS:000256350300003
+ER
+
+PT J
+AU Morris, WF
+   Pfister, CA
+   Tuljapurkar, S
+   Haridas, CV
+   Boggs, CL
+   Boyce, MS
+   Bruna, EM
+   Church, DR
+   Coulson, T
+   Doak, DF
+   Forsyth, S
+   Gaillard, JM
+   Horvitz, CC
+   Kalisz, S
+   Kendall, BE
+   Knight, TM
+   Lee, CT
+   Menges, ES
+AF Morris, William F.
+   Pfister, Catherine A.
+   Tuljapurkar, Shripad
+   Haridas, Chirrakal V.
+   Boggs, Carol L.
+   Boyce, Mark S.
+   Bruna, Emilio M.
+   Church, Don R.
+   Coulson, Tim
+   Doak, Daniel F.
+   Forsyth, Stacey
+   Gaillard, Jean-Michel
+   Horvitz, Carol C.
+   Kalisz, Susan
+   Kendall, Bruce E.
+   Knight, Tiffany M.
+   Lee, Charlotte T.
+   Menges, Eric S.
+TI Longevity can buffer plant and animal populations against changing
+   climatic variability
+SO ECOLOGY
+C1 [Morris, William F.] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Pfister, Catherine A.] Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   [Tuljapurkar, Shripad; Haridas, Chirrakal V.; Boggs, Carol L.; Lee, Charlotte T.] Stanford Univ, Stanford, CA 94305 USA.
+   [Boyce, Mark S.] Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Bruna, Emilio M.] Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Church, Don R.] Univ Virginia, Dept Biol, Charlottesville, VA 22904 USA.
+   [Coulson, Tim] Univ London Imperial Coll Sci Technol & Med, Div Biol, Ascot SL5 7PY, Berks, England.
+   [Doak, Daniel F.] Univ Calif Santa Cruz, Dept Ecol & Evolutionary Biol, Santa Cruz, CA 95064 USA.
+   [Forsyth, Stacey] Univ Arizona, Inst BIO5, Tucson, AZ 85721 USA.
+   [Gaillard, Jean-Michel] Univ Lyon 1, Lab Biometrie & Biol Evolut, Unite Mixte Rech N5558, F-69622 Villeurbanne, France.
+   [Horvitz, Carol C.] Univ Miami, Dept Biol, Coral Gables, FL 33124 USA.
+   [Kalisz, Susan] Univ Pittsburgh, Dept Biol Sci, Pittsburgh, PA 15260 USA.
+   [Kendall, Bruce E.] Univ Calif Santa Barbara, Donald Bren Environm Sci & Management, Santa Barbara, CA 93106 USA.
+   [Knight, Tiffany M.] Washington Univ, Dept Biol, St Louis, MO 63130 USA.
+   [Menges, Eric S.] Archbold Biol Stn, Lake Placid, FL 33862 USA.
+RP Morris, WF (reprint author), Duke Univ, Dept Biol, BOx 90339, Durham, NC 27708 USA.
+EM wfmorris@duke.edu
+RI Kendall, Bruce/C-1871-2008; Bruna, Emilio/H-2769-2012; Boyce,
+   Mark/A-2620-2014; 
+OI Kendall, Bruce/0000-0003-1782-8106; Bruna, Emilio/0000-0003-3381-8477;
+   Boyce, Mark/0000-0001-5811-325X; Coulson, Tim/0000-0001-9371-9003
+TC 184
+Z9 187
+SN 0012-9658
+PD JAN
+PY 2008
+VL 89
+IS 1
+BP 19
+EP 25
+DI 10.1890/07-0774.1
+UT WOS:000253717200003
+PM 18376542
+ER
+
+PT J
+AU Girao, LC
+   Lopes, AV
+   Tabarelli, M
+   Bruna, EM
+AF Girao, Luciana Coe
+   Lopes, Ariadna Valentina
+   Tabarelli, Marcelo
+   Bruna, Emilio M.
+TI Changes in Tree Reproductive Traits Reduce Functional Diversity in a
+   Fragmented Atlantic Forest Landscape
+SO PLOS ONE
+C1 [Girao, Luciana Coe] Univ Fed Pernambuco, Dept Bot, Programa Posgrad Biol Vegetal, Recife, PE, Brazil.
+   [Bruna, Emilio M.] Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Lopes, AV (reprint author), Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM avflopes@ufpe.br
+RI Tabarelli, Marcelo/F-1088-2010; Lopes, Ariadna/E-8432-2010; Bruna,
+   Emilio/H-2769-2012
+OI Tabarelli, Marcelo/0000-0001-7573-7216; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 54
+Z9 56
+SN 1932-6203
+PD SEP 19
+PY 2007
+VL 2
+IS 9
+AR e908
+DI 10.1371/journal.pone.0000908
+UT WOS:000207455700016
+PM 17878943
+ER
+
+PT J
+AU Trager, MD
+   Bruna, EM
+AF Trager, Matthew D.
+   Bruna, Emilio M.
+TI Effects of plant age, experimental nutrient addition and ant occupancy
+   on herbivory in a neotropical myrmecophyte
+SO JOURNAL OF ECOLOGY
+C1 Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Trager, MD (reprint author), Univ Florida, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.
+EM mtrager@ufl.edu
+RI Bruna, Emilio/H-2769-2012
+OI Bruna, Emilio/0000-0003-3381-8477
+TC 22
+Z9 23
+SN 0022-0477
+PD NOV
+PY 2006
+VL 94
+IS 6
+BP 1156
+EP 1163
+DI 10.1111/j.1365-2745.2006.01165.x
+UT WOS:000240920400011
+ER
+
+PT J
+AU Vasconcelos, HL
+   Vieira-Neto, EHM
+   Mundim, FM
+   Bruna, EM
+AF Vasconcelos, Heraldo L.
+   Vieira-Neto, Ernane H. M.
+   Mundim, Fabiane M.
+   Bruna, Emilio M.
+TI Roads alter the colonization dynamics of a keystone herbivore in
+   neotropical savannas
+SO BIOTROPICA
+C1 Univ Fed Uberlandia, Inst Biol, BR-38900402 Uberlandia, MG, Brazil.
+   Univ Florida, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   Univ Florida, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Vasconcelos, HL (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Bruna, Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
+   Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Bruna, Emilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 27
+Z9 29
+SN 0006-3606
+EI 1744-7429
+PD SEP
+PY 2006
+VL 38
+IS 5
+BP 661
+EP 665
+DI 10.1111/j.1744-7429.2006.00180.x
+UT WOS:000239634900010
+ER
+
+EF
