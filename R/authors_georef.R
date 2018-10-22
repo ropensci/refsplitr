@@ -9,6 +9,7 @@
 #'   path, to which "_addresses.csv" will be appended and the output from the
 #'   function will be saved
 #'
+#' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querrying the google api when its busy. 
 authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
@@ -49,7 +50,7 @@ authors_georef <- function(data,
   uniqueAddress <- data.frame(short_address = unique(paste.frame$short_address), lat = NA, lon = NA, stringsAsFactors = F)
   uniqueAddress <- uniqueAddress[!is.na(uniqueAddress$short_address) & uniqueAddress$short_address!='', ]
   uniqueAddress$adID <- 1:nrow(uniqueAddress)
-
+  
   # add lat long for later calculation
   # Loop through the addresses to get the latitude and longitude of each address and add it to the
   # We're using the data science toolkit first because it has no maximum queery limits.
@@ -58,8 +59,8 @@ authors_georef <- function(data,
   
   print("Trying data science toolkit first...")
   # we'll check if data science toolkit is working, by pinging a known address 
-check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source='dsk')), messaging=F)==0
-
+  check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source='dsk')), messaging=F)==0
+  
   if (!check.open) {
     print("data science toolkit is down right now, moving onto google API")
   }
@@ -67,12 +68,12 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
     for (i in 1:nrow(uniqueAddress)) {
       address <- as.character(uniqueAddress$short_address[i])
       print(paste("Working... ", address))
-
+      
       if (!is.na(address)) {
         suppressWarnings(result <- ggmap::geocode(address,
-          output = "latlona",
-          source = "dsk",
-          messaging = TRUE
+                                                  output = "latlona",
+                                                  source = "dsk",
+                                                  messaging = TRUE
         ))
         uniqueAddress$lat[i] <- result[[2]]
         uniqueAddress$lon[i] <- result[[1]]
@@ -86,7 +87,7 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
       flush.console()
     }
   }
-
+  
   # Now we'll run the failed addresses into googles api.
   # 1. The keys here are theres a maximum of 2500 querries per day
   # 2. The server often gets overloaded which results in addresses not being run
@@ -96,57 +97,58 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
   # if the 'OVER_QUERY_LIMIT' warning was retrieved.
   # We have to use a tryCatch to check for warnings because of scoping/environment rules
   # that store warnings in strange ways I havent completely grasped yet.
-
+  
   retry <- T
   faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
   counter<-1
   if(nrow(faileddsk)>0){
     uniqueAddress$noresult<-F
-  while (retry == T) {
-    
-    warn.list <- list()
-    faileddsk <- uniqueAddress[is.na(uniqueAddress$lat) & uniqueAddress$noresult==F, c("short_address", "adID")]
-    for (p in 1:nrow(faileddsk)) {
-      #p<-1
-      paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
-      result <- tryCatch(ggmap::geocode(paste_address,
-        output = "latlona",
-        source = "google"
-      ), warning = function(w) {
-        w
-      })
-      result
-      if (!is.data.frame(result)) {
-        warn.list[[paste0(p)]] <- result
-        if(grepl('ZERO_RESULTS',result)){uniqueAddress$noresult[uniqueAddress$adID == faileddsk$adID[p]]<-T}
-        next
-      }
-      result$adID <- faileddsk$adID[p]
-      uniqueAddress$lat[uniqueAddress$adID == result$adID] <- result$lat
-      uniqueAddress$lon[uniqueAddress$adID == result$adID] <- result$lon
+    while (retry == T) {
       
+      warn.list <- list()
+      faileddsk <- uniqueAddress[is.na(uniqueAddress$lat) & uniqueAddress$noresult==F, c("short_address", "adID")]
+      for (p in 1:nrow(faileddsk)) {
+        #p<-1
+        paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
+        result <- tryCatch(ggmap::geocode(paste_address,
+                                          output = "latlona",
+                                          source = "google"
+        ), warning = function(w) {
+          w
+        })
+        result
+        if (!is.data.frame(result)) {
+          warn.list[[paste0(p)]] <- result
+          if(grepl('ZERO_RESULTS',result)){uniqueAddress$noresult[uniqueAddress$adID == faileddsk$adID[p]]<-T}
+          next
+        }
+        result$adID <- faileddsk$adID[p]
+        uniqueAddress$lat[uniqueAddress$adID == result$adID] <- result$lat
+        uniqueAddress$lon[uniqueAddress$adID == result$adID] <- result$lon
+        
+      }
+      # check if all addresses ran or were stopped by a sever limit
+      retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
+      # if (nrow(faileddsk) == 1 & paste_address == " ") {
+      #   retry <- F
+      # }
+      # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
+      
+      if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
+        retry <- F
+        print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
+      }
+      #if(counter==retry_limit & nrow(faileddsk)>20){break}
+      if(counter==retry_limit){break}
+      # put system to sleep for 5 seconds to allow googles query limits to reset
+      if (retry == T) {
+        print("server busy, trying again in 5 seconds")
+        Sys.sleep(5)
+      }
+      
+      counter<-counter+1
     }
-    # check if all addresses ran or were stopped by a sever limit
-    retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
-    # if (nrow(faileddsk) == 1 & paste_address == " ") {
-    #   retry <- F
-    # }
-    # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
-
-    if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
-      retry <- F
-      print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
-    }
-    if(counter==retry_limit & nrow(faileddsk)>20){break}
-    # put system to sleep for 5 seconds to allow googles query limits to reset
-    if (retry == T) {
-      print("server busy, trying again in 5 seconds")
-      Sys.sleep(5)
-    }
-    
-    counter<-counter+1
   }
-}
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
   
@@ -155,31 +157,32 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
   
   
   addresses <- subset(addresses, select = c("authorID",  "groupID", "author_order", "address", "university", "department", "RP_address", "RI", "OI", "UT", "refID", "postal_code", "country", "lat", "lon"))
-
+  
   missingaddresses <- addresses[is.na(addresses$lat), ]
-
+  
   if (write_out_missing) {
     write.csv(missingaddresses, file = "missing_addresses.csv", row.names = FALSE)
   }
   # write out if necessary
   if (filename_root != "") {
     write.csv(addresses,
-      file = paste(filename_root,
-        "_addresses.csv",
-        sep = ""
-      ),
-      row.names = FALSE
+              file = paste(filename_root,
+                           "_addresses.csv",
+                           sep = ""
+              ),
+              row.names = FALSE
     )
   }
-
+  
   #
   addresses$lat<-unlist(addresses$lat)
   addresses$lon<-unlist(addresses$lon)
   outputlist <- list()
-
+  
   outputlist$addresses <- addresses
   outputlist$missing_addresses <- missingaddresses
   outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
-
+  
   return(outputlist)
 }
+
