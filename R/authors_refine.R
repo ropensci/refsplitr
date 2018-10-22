@@ -11,6 +11,8 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_authors.csv" and "_authors_references.csv" will be appended and the
 ## so what you need to do is take the authors file and change the names (no au and af), with addresses, title, and authors
+#' @export authors_refine
+
 authors_refine <- function(review, prelim, sim_score = NULL, filename_root = "") {
   ##########################################
   # Beginning Checks

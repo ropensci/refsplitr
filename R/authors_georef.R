@@ -11,12 +11,13 @@
 #'
 #' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querrying the google api when its busy. 
 #' @importFrom dplyr full_join
+#' @export authors_georef 
 #' 
 authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
                            write_out_missing = TRUE,
-                           retry_limit=10) {
+                           retry_limit=10) { # a 
   # Read in the CSV data and store it in a variable
   paste.frame <- data[, c("university",'city','state', "country", 
                           "postal_code", "authorID", "address")]
@@ -182,4 +183,6 @@ authors_georef <- function(data,
   outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
   
   return(outputlist)
-}}
+}
+  
+  } #a

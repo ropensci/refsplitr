@@ -16,6 +16,8 @@
 #'   function will be saved
 #'   @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
 
+#' @export references_read
+#' 
 references_read <- function(data = ".", dir = TRUE, filename_root = "", include_all=FALSE) {
 
   ## 	NOTE: The fields stored in our output table are a combination of the

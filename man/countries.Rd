@@ -7,7 +7,8 @@
 \format{a character vector of country names
 \describe{
   \item{countries}{a character vector of country names}
-  }}
+  }
+  @export countries}
 \usage{
 countries
 }

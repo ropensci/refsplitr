@@ -8,7 +8,8 @@
 #'
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
-
+#' @export plot_addresses_points 
+#' 
 plot_addresses_points <- function(data,
                                   mapRegion = "world") {
 
