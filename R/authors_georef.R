@@ -17,10 +17,9 @@ authors_georef <- function(data,
                            address_column = "address",
                            filename_root = "",
                            write_out_missing = TRUE,
-                           retry_limit=10) { # a 
+                           retry_limit=10) {
   # Read in the CSV data and store it in a variable
-  paste.frame <- data[, c("university",'city','state', "country", 
-                          "postal_code", "authorID", "address")]
+  paste.frame <- data[, c("university",'city','state', "country", "postal_code", "authorID", "address")]
   
   paste.frame$university[is.na(paste.frame$university)] <- ""
   paste.frame$country[is.na(paste.frame$country)] <- ""
@@ -45,7 +44,12 @@ authors_georef <- function(data,
   paste.frame$short_address<-paste.frame$base
   paste.frame$short_address[!is.na(paste.frame$second)]<-paste0(paste.frame$second[!is.na(paste.frame$second)],', ',paste.frame$short_address[!is.na(paste.frame$second)])
   
-
+  # paste.frame$short_address<-paste(paste.frame$university,paste.frame$city,paste.frame$state,paste.frame$country,paste.frame$postal_code,sep=',')
+  # paste.frame$short_address<-gsub(",,,|,,,,|,,,,",'',paste.frame$short_address)
+  # paste.frame$short_address<-gsub(",,",',',paste.frame$short_address)
+  # paste.frame$short_address <- trimws(paste.frame$short_address, which = "both")
+  # paste.frame$short_address <- as.character(paste.frame$short_address)
+  # 
   uniqueAddress <- data.frame(short_address = unique(paste.frame$short_address), lat = NA, lon = NA, stringsAsFactors = F)
   uniqueAddress <- uniqueAddress[!is.na(uniqueAddress$short_address) & uniqueAddress$short_address!='', ]
   uniqueAddress$adID <- 1:nrow(uniqueAddress)
@@ -98,8 +102,7 @@ authors_georef <- function(data,
   # that store warnings in strange ways I havent completely grasped yet.
   
   retry <- T
-  faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), 
-                             c("short_address", "adID")]
+  faileddsk <- uniqueAddress[is.na(uniqueAddress$lat), c("short_address", "adID")]
   counter<-1
   if(nrow(faileddsk)>0){
     uniqueAddress$noresult<-F
@@ -108,7 +111,7 @@ authors_georef <- function(data,
       warn.list <- list()
       faileddsk <- uniqueAddress[is.na(uniqueAddress$lat) & uniqueAddress$noresult==F, c("short_address", "adID")]
       for (p in 1:nrow(faileddsk)) {
-        
+        #p<-1
         paste_address <- uniqueAddress$short_address[faileddsk$adID[p] == uniqueAddress$adID][1]
         result <- tryCatch(ggmap::geocode(paste_address,
                                           output = "latlona",
@@ -127,33 +130,34 @@ authors_georef <- function(data,
         uniqueAddress$lon[uniqueAddress$adID == result$adID] <- result$lon
         
       }
-
-    # check if all addresses ran or were stopped by a sever limit
-    retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
-    # if (nrow(faileddsk) == 1 & paste_address == " ") {
-    #   retry <- F
-    # }
-    # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
-
-    if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
-      retry <- F
-      print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
+      # check if all addresses ran or were stopped by a sever limit
+      retry <- sum(grepl("OVER_QUERY_LIMIT", warn.list)) > 0
+      # if (nrow(faileddsk) == 1 & paste_address == " ") {
+      #   retry <- F
+      # }
+      # we need to cehck if the 2500 limit is being reached. Hopefully this never happens.
+      
+      if (ggmap::geocodeQueryCheck(userType = "free") == 0) {
+        retry <- F
+        print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
+      }
+      #if(counter==retry_limit & nrow(faileddsk)>20){break}
+      if(counter==retry_limit){break}
+      # put system to sleep for 5 seconds to allow googles query limits to reset
+      if (retry == T) {
+        print("server busy, trying again in 5 seconds")
+        Sys.sleep(5)
+      }
+      
+      counter<-counter+1
     }
-    #if(counter==retry_limit & nrow(faileddsk)>20){break}
-    if(counter==retry_limit){break}
-    # put system to sleep for 5 seconds to allow googles query limits to reset
-    if (retry == T) {
-      print("server busy, trying again in 5 seconds")
-      Sys.sleep(5)
-    }
-    
-    counter<-counter+1
-
   }
   # merge results together
   addresses <- merge(uniqueAddress, subset(paste.frame, select = -address), by = "short_address", all.x = T)
   
+  
   addresses <- merge(addresses, subset(data, select = c("authorID",  "groupID", "author_order", "address", "department", "RP_address", "RI", "OI", "UT", "refID")), by = "authorID", all.x = T)
+  
   
   addresses <- subset(addresses, select = c("authorID",  "groupID", "author_order", "address", "university", "department", "RP_address", "RI", "OI", "UT", "refID", "postal_code", "country", "lat", "lon"))
   
@@ -184,5 +188,3 @@ authors_georef <- function(data,
   
   return(outputlist)
 }
-  
-  } #a
