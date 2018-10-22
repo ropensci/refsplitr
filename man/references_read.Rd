@@ -4,7 +4,8 @@
 \alias{references_read}
 \title{Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files}
 \usage{
-references_read(data = ".", dir = TRUE, filename_root = "")
+references_read(data = ".", dir = TRUE, filename_root = "",
+  include_all = FALSE)
 }
 \arguments{
 \item{data}{either a directory, used in conjuction with dir=TRUE, or a file
@@ -16,7 +17,8 @@ to read}
 
 \item{filename_root}{the filename root, can include relative or absolute
 path, to which "_references.csv" will be appended and the output from the
-function will be saved}
+function will be saved
+@param include_all should all columns be included, or just the most commonly recorded. default=FALSE}
 }
 \description{
 \code{references_read} This function reads Thomson Reuters Web of Knowledge

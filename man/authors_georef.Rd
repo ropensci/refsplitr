@@ -5,7 +5,7 @@
 \title{Extracts the lat and long for each address}
 \usage{
 authors_georef(data, address_column = "address", filename_root = "",
-  write_out_missing = FALSE)
+  write_out_missing = TRUE, retry_limit = 10)
 }
 \arguments{
 \item{data}{dataframe from `authors_refine()`}
