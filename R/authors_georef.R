@@ -137,7 +137,8 @@ check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 2
       retry <- F
       print("You've run out of server queries today. Max is 2500. Try again tomorrow with a subsetted data set to finish addresses.")
     }
-    if(counter==retry_limit & nrow(faileddsk)>20){break}
+    #if(counter==retry_limit & nrow(faileddsk)>20){break}
+    if(counter==retry_limit){break}
     # put system to sleep for 5 seconds to allow googles query limits to reset
     if (retry == T) {
       print("server busy, trying again in 5 seconds")
