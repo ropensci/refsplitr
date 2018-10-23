@@ -14,7 +14,11 @@
 #' 
 plot_addresses_country <- function(data,
                                    mapRegion = "world") {
-  country_name <- data$country
+  country_name <- data$country 
+  
+  country_name <- ifelse(country_name=="England","United Kingdom",country_name)
+  
+  country_name <- ifelse(country_name=="Scotland","United Kingdom",country_name)
 
   country_name_table <- as.data.frame(table(country_name))
 
