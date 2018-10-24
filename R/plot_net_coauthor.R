@@ -48,7 +48,7 @@ plot_net_coauthor <- function(data) {
   igraph::V(linkages_countries_net)$label.cex <- 0.5
   igraph::V(linkages_countries_net)$size <- 12
   igraph::V(linkages_countries_net)$frame.color <- NA
-  igraph::V(linkages_countries_net)$color <- rgb(0, 0.6, 0, 0.7)
+  igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
 
   ## 	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
   linkages_countries_net <- igraph::simplify(linkages_countries_net)
