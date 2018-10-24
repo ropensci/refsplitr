@@ -24,7 +24,7 @@ plot_addresses_country <- function(data,
 
   mapdata <- rworldmap::joinCountryData2Map(country_name_table, joinCode = "NAME", nameJoinColumn = "country_name", verbose = TRUE)
 
-  par(mai = c(0, 0, 0.2, 0), xaxs = "i", yaxs = "i")
+  graphics::par(mai = c(0, 0, 0.2, 0), xaxs = "i", yaxs = "i")
   mapParams <- rworldmap::mapCountryData(mapdata, nameColumnToPlot = "Freq", addLegend = FALSE, mapTitle = "Authors Records by Country", catMethod = "pretty", mapRegion = mapRegion)
   do.call(addMapLegend, c(mapParams, legendWidth = 0.5, legendMar = 2))
 }

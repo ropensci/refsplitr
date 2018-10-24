@@ -73,7 +73,7 @@ plot_net_country <- function(data,
   ))
 
   ## 	It seems there are two "AU" codes, so we'll aggregate and mean them:
-  coords_df <- aggregate(coords_df[c("LON", "LAT")],
+  coords_df <- stats::aggregate(coords_df[c("LON", "LAT")],
     by = list(factor(coords_df$ISO_A2)),
     FUN = mean
   )
@@ -187,8 +187,8 @@ plot_net_country <- function(data,
   products <- list()
 
   products[["plot"]] <- ggplot2::ggplot() +
-    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), fill = gray(8 / 10)) +
-    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), color = gray(6 / 10)) +
+    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
+    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), color = grDevices::gray(6 / 10)) +
     ggplot2::coord_equal() +
     ggplot2::geom_path(
       data = allEdges,
@@ -198,10 +198,10 @@ plot_net_country <- function(data,
       data = data.frame(layoutCoordinates), # Add nodes
       ggplot2::aes_string(x = "LON", y = "LAT"),
       size = 5 + 100 * sna::degree(linkages_countries_net, cmode = "outdegree", rescale = TRUE), pch = 21,
-      colour = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
-      fill = rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
+      colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
+      fill = grDevices::rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
-    ggplot2::scale_colour_gradient(low = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), high = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), guide = "none") +
+    ggplot2::scale_colour_gradient(low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), guide = "none") +
     ggplot2::scale_size(range = c(1, 1), guide = "none") +
     ggplot2::geom_text(
       data = coords_df,

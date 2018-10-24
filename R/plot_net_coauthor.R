@@ -55,7 +55,7 @@ plot_net_coauthor <- function(data) {
   
   co <- igraph::layout_with_fr(linkages_countries_net)
 
-plot(linkages_countries_net, 
+graphics::plot(linkages_countries_net, 
      layout = co)
 }
 

@@ -196,7 +196,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
     } else {
       print("WARNING:  Nothing contained in the specified file!")
 
-      flush.console()
+      utils::flush.console()
       break
     }
 
@@ -249,10 +249,10 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
     close(in_file)
     ############################### Clock#############################################
     total <- length(file_list)
-    pb <- txtProgressBar(min = 0, max = total, style = 3)
-    setTxtProgressBar(pb, counter)
+    pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
+    utils::setTxtProgressBar(pb, counter)
     counter <- counter + 1
-    flush.console()
+    utils::flush.console()
     #################################################################################
   }
   ############################################## 3
@@ -293,7 +293,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
   
   ############################################
   if (filename_root != "") {
-    write.csv(dupe_output,
+    utils::write.csv(dupe_output,
       file = paste(filename_root,
         "_references.csv",
         sep = ""

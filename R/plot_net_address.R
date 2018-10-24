@@ -165,12 +165,12 @@ plot_net_address <- function(data,
     ggplot2::geom_polygon(
       data = world_map.df,
       ggplot2::aes_string("long", "lat", group = "group"),
-      fill = gray(8 / 10)
+      fill = grDevices::gray(8 / 10)
     ) +
     ggplot2::geom_path(
       data = world_map.df,
       ggplot2::aes_string("long", "lat", group = "group"),
-      color = gray(6 / 10)
+      color = grDevices::gray(6 / 10)
     ) +
     ggplot2::coord_equal() +
     ggplot2::geom_path(
@@ -190,12 +190,12 @@ plot_net_address <- function(data,
         cmode = "outdegree", rescale = T
       ),
       pch = 21,
-      colour = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
-      fill = rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
+      colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
+      fill = grDevices::rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
     ggplot2::scale_colour_gradient(
-      low = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
-      high = rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
+      low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
+      high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       guide = "none"
     ) +
     ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + # Customize taper
