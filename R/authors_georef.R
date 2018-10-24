@@ -164,11 +164,11 @@ authors_georef <- function(data,
   missingaddresses <- addresses[is.na(addresses$lat), ]
   
   if (write_out_missing) {
-    write.csv(missingaddresses, file = "missing_addresses.csv", row.names = FALSE)
+    utils::write.csv(missingaddresses, file = "missing_addresses.csv", row.names = FALSE)
   }
   # write out if necessary
   if (filename_root != "") {
-    write.csv(addresses,
+    utils::write.csv(addresses,
               file = paste(filename_root,
                            "_addresses.csv",
                            sep = ""
