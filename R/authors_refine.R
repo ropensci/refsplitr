@@ -48,7 +48,7 @@ authors_refine <- function(review, prelim, sim_score = NULL, filename_root = "")
 
   # write it out
   if (filename_root != "") {
-    write.csv(data1,
+    utils::write.csv(data1,
       file = paste0(filename_root, "_authors_refined.csv"),
       row.names = FALSE
     )
