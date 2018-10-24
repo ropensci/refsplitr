@@ -198,9 +198,9 @@ authors_clean <- function(references,
     ############################### Clock#############################################
 
     total <- nrow(references)
-    pb <- txtProgressBar(min = 0, max = total, style = 3)
-    setTxtProgressBar(pb, ref)
-    flush.console()
+    pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
+    utils::setTxtProgressBar(pb, ref)
+    utils::flush.console()
     #################################################################################
   }
 
@@ -582,13 +582,13 @@ authors_clean <- function(references,
 
   # write it out
   if( write_out_data == T & nrow(sub.authors)>0){
-  write.csv(subset(final, select = -c(match_name, similarity)),
+  utils::write.csv(subset(final, select = -c(match_name, similarity)),
     file = paste0(filename_root, "_authors_prelim.csv"),
     row.names = FALSE
   )
   }
   if( write_out_data == T){
-  write.csv(sub.authors,
+  utils::write.csv(sub.authors,
     file = paste0(filename_root, "_authors_review.csv"),
     row.names = FALSE
   )
