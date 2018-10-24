@@ -27,7 +27,7 @@ authors_refine()
 authors_georef()
 ```
 
-Issues, Feature Requests and Pull Requests Welcome
+Issues, Feature Requests and Pull Requests Welcome. We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refnet/blob/master/CODE_OF_CONDUCT.md). 
 
 
 ## Contributors
