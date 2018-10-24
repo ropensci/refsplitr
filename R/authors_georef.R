@@ -85,9 +85,9 @@ authors_georef <- function(data,
       }
       # We can delete the clock if it's just not working visually
       total <- nrow(uniqueAddress)
-      pb <- txtProgressBar(min = 0, max = total, style = 3)
-      setTxtProgressBar(pb, i)
-      flush.console()
+      pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
+      utils::setTxtProgressBar(pb, i)
+      utils::flush.console()
     }
   }
   
