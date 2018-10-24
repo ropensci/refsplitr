@@ -44,7 +44,7 @@ plot_net_coauthor <- function(data) {
   )
 
   igraph::V(linkages_countries_net)$label <- igraph::V(linkages_countries_net)$name
-  igraph::V(linkages_countries_net)$label.color <- rgb(0, 0, .2, .5)
+  igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 0, .2, .5)
   igraph::V(linkages_countries_net)$label.cex <- 0.5
   igraph::V(linkages_countries_net)$size <- 12
   igraph::V(linkages_countries_net)$frame.color <- NA
