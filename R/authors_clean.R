@@ -317,9 +317,9 @@ authors_clean <- function(references,
     address.df$department[row] <- department
     ############################### Clock#############################################
     total <- length(id.run)
-    pb <- txtProgressBar(min = 0, max = total, style = 3)
-    setTxtProgressBar(pb, which(id.run == i))
-    flush.console()
+    pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
+    utils::setTxtProgressBar(pb, which(id.run == i))
+    utils::flush.console()
     #################################################################################
   }
 
@@ -526,9 +526,9 @@ authors_clean <- function(references,
     }
     ############################### Clock#############################################
     total <- length(unique.groupid)
-    pb <- txtProgressBar(min = 0, max = total, style = 3)
-    setTxtProgressBar(pb, which(p == unique.groupid))
-    flush.console()
+    pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
+    utils::setTxtProgressBar(pb, which(p == unique.groupid))
+    utils::flush.console()
     #################################################################################
   }
   # Fixes a small issue where sometimes matched names using Jaro_winkler will get a groupID distinction but that the author
