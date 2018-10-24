@@ -1,6 +1,7 @@
 # refnet <img src="man/figures/refnethex.png" height="200" align="right">
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
 
 refnet: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
@@ -51,4 +52,3 @@ Auriel M.V. Fournier Developer, Forrest R.
   }
   
   
-[![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
