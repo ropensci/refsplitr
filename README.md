@@ -1,6 +1,7 @@
 # refnet <img src="man/figures/refnethex.png" height="200" align="right">
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)  
+
 [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)
 
 refnet: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
@@ -27,7 +28,7 @@ authors_refine()
 authors_georef()
 ```
 
-Issues, Feature Requests and Pull Requests Welcome. We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refnet/blob/master/CODE_OF_CONDUCT.md). 
+Issues, Feature Requests and Pull Requests Welcome, see here for more details on [how to contribute](https://github.com/embruna/refnet/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refnet/blob/master/CODE_OF_CONDUCT.md). 
 
 
 ## Contributors
