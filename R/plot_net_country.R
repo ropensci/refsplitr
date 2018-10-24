@@ -205,7 +205,7 @@ plot_net_country <- function(data,
     ggplot2::scale_size(range = c(1, 1), guide = "none") +
     ggplot2::geom_text(
       data = coords_df,
-      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, color = gray(2 / 10)
+      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, color = grDevices::gray(2 / 10)
     ) + empty_theme # Clean up plot
 
 
