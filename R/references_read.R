@@ -14,7 +14,7 @@
 #' @param filename_root the filename root, can include relative or absolute
 #'   path, to which "_references.csv" will be appended and the output from the
 #'   function will be saved
-#'   @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
+#' @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
 
 #' @export references_read
 #' 

@@ -17,8 +17,9 @@ to read}
 
 \item{filename_root}{the filename root, can include relative or absolute
 path, to which "_references.csv" will be appended and the output from the
-function will be saved
-@param include_all should all columns be included, or just the most commonly recorded. default=FALSE}
+function will be saved}
+
+\item{include_all}{should all columns be included, or just the most commonly recorded. default=FALSE}
 }
 \description{
 \code{references_read} This function reads Thomson Reuters Web of Knowledge
