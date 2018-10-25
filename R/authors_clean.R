@@ -68,7 +68,7 @@ authors_clean <- function(references,
 
     ###########
     # makes a datframe of authors as they will be used as a reference later
-    authors_df <- data.frame(AU = authors_AU, AF = authors_AF, author_order = 1:length(authors_AU), stringsAsFactors = F)
+    authors_df <- data.frame(AU = authors_AU, AF = authors_AF, author_order = 1:length(authors_AU), stringsAsFactors = FALSE)
     ###########
     # Split out Addresses
     C1 <- unlist(strsplit(references[ref, ]$C1, "/"))
@@ -88,7 +88,7 @@ authors_clean <- function(references,
     C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)
 
     # create a dataframe of all unique addresses and their matching affiliations
-    dd <- data.frame(C1_names, C1_address, stringsAsFactors = F)
+    dd <- data.frame(C1_names, C1_address, stringsAsFactors = FALSE)
     dd1 <- data.frame(
       names = unique(unlist(strsplit(
         C1_names,
@@ -125,7 +125,7 @@ authors_clean <- function(references,
     }
 
     if (length(strsplit(RI, "/")) > 1) {
-      RI_df <- data.frame(do.call(rbind, lapply(strsplit(RI, "/"), function(x) x[1:2])), stringsAsFactors = F)
+      RI_df <- data.frame(do.call(rbind, lapply(strsplit(RI, "/"), function(x) x[1:2])), stringsAsFactors = FALSE)
       # Match the author names to the RIs affiliations, this is not as exact as you think it would be
       colnames(RI_df) <- c("RI_names", "RI")
 
@@ -147,7 +147,7 @@ authors_clean <- function(references,
     OI <- unlist(strsplit(references[ref, ]$OI, ";"))
 
     if (sum(is.na(OI)) == 0) {
-      OI_df <- as.data.frame(do.call(rbind, strsplit(OI, "/")), stringsAsFactors = F)
+      OI_df <- as.data.frame(do.call(rbind, strsplit(OI, "/")), stringsAsFactors = FALSE)
       colnames(OI_df) <- c("OI_names", "OI")
       match_OI <- sapply(OI_df[, 1], function(x) {
         jw <- RecordLinkage::jarowinkler(x, authors_AU)
@@ -163,13 +163,13 @@ authors_clean <- function(references,
     ############
     # merge all this information together by author name, some journals use the full name some the shortend name
     #########
-    new <- merge(authors_df, dd1, by.x = "AU", by.y = "names", all.x = T)
+    new <- merge(authors_df, dd1, by.x = "AU", by.y = "names", all.x = TRUE)
     if (sum(is.na(new$address)) == length(new$address)) {
-      new <- merge(authors_df, dd1, by.x = "AF", by.y = "names", all.x = T)
+      new <- merge(authors_df, dd1, by.x = "AF", by.y = "names", all.x = TRUE)
     }
-    new <- merge(new, RP_df, by = "AU", all.x = T)
-    new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU", by.y = "matchname", all.x = T)
-    new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AU", by.y = "matchname", all.x = T)
+    new <- merge(new, RP_df, by = "AU", all.x = TRUE)
+    new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU", by.y = "matchname", all.x = TRUE)
+    new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AU", by.y = "matchname", all.x = TRUE)
     new$EM <- NA
     new$refID <- references$refID[ref]
     new$TA <- references$TI[ref]
@@ -250,7 +250,7 @@ authors_clean <- function(references,
   remain.list <- trimws(remain.list, which = "both")
   remain.list[remain.list == "character(0)"] <- NA
 
-  address.df <- data.frame(adID = final$authorID, university = university.list, country = country.list, state = state.list, postal_code = postal_code.list, city = NA, department = NA, second.tier = second.tier.list, third.tier = third.tier.list, remain = remain.list, address = sub.address$address, stringsAsFactors = F)
+  address.df <- data.frame(adID = final$authorID, university = university.list, country = country.list, state = state.list, postal_code = postal_code.list, city = NA, department = NA, second.tier = second.tier.list, third.tier = third.tier.list, remain = remain.list, address = sub.address$address, stringsAsFactors = FALSE)
 
   # try to fix the USA spots
   address.df$city[nchar(address.df$state) > 0] <- address.df$second.tier[nchar(address.df$state) > 0]
@@ -330,7 +330,7 @@ authors_clean <- function(references,
   address.df$country[address.df$country == "Could not be extracted"] <- NA
   address.df$country[address.df$country=='Peoples R China']<-'China'
   address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)]<-sapply(strsplit(address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)],'-'),function(x)x[2])
-  final <- merge(final, address.df[, c("university", "country", "state", "postal_code", "city", "department", "adID")], by.x = "authorID", by.y = "adID", all.x = T)
+  final <- merge(final, address.df[, c("university", "country", "state", "postal_code", "city", "department", "adID")], by.x = "authorID", by.y = "adID", all.x = TRUE)
   ##################################
   # Now start Author Matching
   ##################################
@@ -371,7 +371,7 @@ authors_clean <- function(references,
     if (length(groupid) > 0) {
       groupid <- min(groupid)
     } else {
-      groupid <- min(novel.names$ID[choice], na.rm = T)
+      groupid <- min(novel.names$ID[choice], na.rm = TRUE)
     }
 
     novel.names$groupID[which(novel.names$RI == l)] <- groupid
@@ -390,7 +390,7 @@ authors_clean <- function(references,
     if (length(groupid) > 0) {
       groupid <- min(groupid)
     } else {
-      groupid <- min(novel.names$ID[choice], na.rm = T)
+      groupid <- min(novel.names$ID[choice], na.rm = TRUE)
     }
     novel.names$groupID[which(novel.names$email == l)] <- groupid
   }
@@ -416,7 +416,7 @@ authors_clean <- function(references,
     first = NA,
     middle = NA,
     last = NA,
-    stringsAsFactors = F
+    stringsAsFactors = FALSE
   )
 
   dd$id <- 1:nrow(dd)
@@ -429,9 +429,9 @@ authors_clean <- function(references,
     sub <- subset(remain, id == n)
     unique.id <- unique(sub$ID.x)
     if (!sum(is.na(sub$groupID.y)) == nrow(sub)) {
-      groupid <- min(unique(sub$groupID.y), na.rm = T)
+      groupid <- min(unique(sub$groupID.y), na.rm = TRUE)
     } else {
-      groupid <- min(unique.id, na.rm = T)
+      groupid <- min(unique.id, na.rm = TRUE)
     }
 
     novel.names$groupID[novel.names$ID %in% unique.id] <- groupid
@@ -492,13 +492,13 @@ authors_clean <- function(references,
       match4 <- is.na(name.df$address) & novel.names1$address == name.df$address
       # match emails
       # if(nrow(novel.names1)==0){match1<-F;match2<-F;match3<-F}
-      if (sum(ifelse(is.na(c(match1, match2, match3, match4)), F, c(match1, match2, match3, match4))) > 0) {
+      if (sum(ifelse(is.na(c(match1, match2, match3, match4)), FALSE, c(match1, match2, match3, match4))) > 0) {
         matched <- T
         choice <- c(which(match1), which(match2), which(match3), which(match4))
         if (sum(!is.na(novel.names1$groupID[choice])) > 0) {
-          groupid <- min(novel.names1$groupID[choice], na.rm = T)
+          groupid <- min(novel.names1$groupID[choice], na.rm = TRUE)
         } else {
-          groupid <- min(novel.names1$ID[choice], na.rm = T)
+          groupid <- min(novel.names1$ID[choice], na.rm = TRUE)
         }
         novel.names$groupID[novel.names$ID == p] <- groupid
       }
@@ -510,10 +510,10 @@ authors_clean <- function(references,
       choice <- which(max(jw_m) == jw_m)[1]
 
       if (sum(!is.na(novel.names1$groupID[choice])) > 0) {
-        groupid <- min(novel.names1$groupID[choice], na.rm = T)
+        groupid <- min(novel.names1$groupID[choice], na.rm = TRUE)
         groupname <- novel.names1$unique.name[novel.names1$groupID == groupid][1]
       } else {
-        groupid <- min(novel.names1$ID[choice], na.rm = T)
+        groupid <- min(novel.names1$ID[choice], na.rm = TRUE)
         groupname <- novel.names1$unique.name[novel.names1$ID == groupid]
       }
 
@@ -573,7 +573,7 @@ authors_clean <- function(references,
   }
   proc.time() - ptm
 
-  final <- merge(final, novel.names[, c("ID", "groupID", "match_name", "similarity")], by.x = "authorID", by.y = "ID", all.x = T)
+  final <- merge(final, novel.names[, c("ID", "groupID", "match_name", "similarity")], by.x = "authorID", by.y = "ID", all.x = TRUE)
   final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", "similarity", colnames(final)[!colnames(final) %in% c("authorID", "AU", "AF", "groupID", "match_name", "similarity")])]
 
 
@@ -581,13 +581,13 @@ authors_clean <- function(references,
   sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity, sub.authors$authorID), ]
 
   # write it out
-  if( write_out_data == T & nrow(sub.authors)>0){
+  if( write_out_data == TRUE & nrow(sub.authors)>0){
   utils::write.csv(subset(final, select = -c(match_name, similarity)),
     file = paste0(filename_root, "_authors_prelim.csv"),
     row.names = FALSE
   )
   }
-  if( write_out_data == T){
+  if( write_out_data == TRUE){
   utils::write.csv(sub.authors,
     file = paste0(filename_root, "_authors_review.csv"),
     row.names = FALSE
