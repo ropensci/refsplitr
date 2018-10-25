@@ -2,7 +2,6 @@ Package: refnet
 Type: Package
 Title: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools
 Version: 0.6
-Date: 2018-08-26
 Authors@R: c(person("Auriel M.V. Fournier", "Developer", role = c("aut"),
                      email = "aurielfournier@gmail.com"),
               person("Forrest R. Stevens", "Developer", role = "aut"),
