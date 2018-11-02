@@ -13,14 +13,12 @@ authors_clean <- function(references,
                           sim_score = 0.88,
                           filename_root = "./",
                           write_out_data = FALSE) {
-  ptm <- proc.time()
-
   # address parsing
   ###############################
-  
+  print("Parsing addresses")
   final<-.authors_parse(references)
   
-  print("Parsing addresses")
+  
   address.df<-.authors_address(final$address,final$authorID)
   final <- merge(final, address.df[, c("university", "country", "state", "postal_code", "city", "department", "adID")], by.x = "authorID", by.y = "adID", all.x = TRUE)
   
