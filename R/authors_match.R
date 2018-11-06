@@ -5,8 +5,13 @@
 #' @param references output from `references_read()`
 .authors_match<-function(data, sim_score){
   #data=final;sim_score=0.88
-novel.names <- data.frame(ID = data$authorID, unique.name = data$AF, groupID = NA, address = data$address, university = data$university, country = data$country, RI = data$RI, OI = data$OI, email = data$EM, first = NA, middle = NA, last = NA)
-novel.names[, c("first", "middle", "last")] <- t(vapply(as.character(novel.names$unique.name), .split_names,character(3)))
+novel.names <- data.frame(ID = data$authorID, unique.name = data$AF, groupID = NA, 
+                          address = data$address, university = data$university, 
+                          country = data$country, RI = data$RI, OI = data$OI, 
+                          email = data$EM, first = NA, middle = NA, last = NA,
+                          stringsAsFactors=F)
+novel.names[, c("first", "middle", "last")] <- 
+  t(vapply(as.character(novel.names$unique.name), .split_names,character(3)))
 novel.names$first <- tolower(novel.names$first)
 novel.names$middle <- tolower(novel.names$middle)
 novel.names$last <- tolower(novel.names$last)
@@ -113,7 +118,8 @@ unique.groupid <- novel.names$ID[(novel.names$m.c > 0 | !is.na(novel.names$unive
 for (p in unique.groupid) {
   #p<-1
   matched <- F
-  default.frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA, university = NA, email = NA, f.i = 0, address = NA, country = NA)
+  default.frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA, 
+                              university = NA, email = NA, f.i = 0, address = NA, country = NA)
   match1 <- NA
   match2 <- NA
   match3 <- NA

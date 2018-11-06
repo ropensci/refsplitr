@@ -22,8 +22,9 @@ for (ref in seq_along(references$refID)) {
   
   ###########
   # makes a datframe of authors as they will be used as a reference later
-  
-  authors_df <- data.frame(AU = authors_AU, AF = authors_AF, author_order = seq_along(authors_AU), stringsAsFactors = FALSE)
+  ################################################################################
+  authors_df <- data.frame(AU = authors_AU, AF = authors_AF, 
+                           author_order = seq_along(authors_AU), stringsAsFactors = FALSE)
   ###########
   # Split out Addresses
   C1 <- unlist(strsplit(references[ref, ]$C1, "/"))
@@ -69,36 +70,58 @@ for (ref in seq_along(references$refID)) {
   # Split out Reprint Author information
   RP <- unlist(strsplit(references[ref, ]$RP, "\n"))
   RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
-  RP_df <- data.frame(AU = substr(RP, 1, regexpr("(reprint author)", RP)[1] - 3), RP_address)
+  ################################################################################
+  RP_df <- data.frame(AU = substr(RP, 1, regexpr("(reprint author)", RP)[1] - 3), 
+                      RP_address)
   
   ##########
   # Split out RI information
+  # 
+  # 
+  # if (length(strsplit(RI, "/")) < 2) {
+  #   RI_df <- data.frame(RI_names = "", RI = "", matchname = "")
+  # }
+  # 
+  # if (length(strsplit(RI, "/")) > 1) {
+  #   RI_df <- data.frame(do.call(rbind, lapply(strsplit(RI, "/"), function(x) x[1:2])), stringsAsFactors = FALSE)
+  #   # Match the author names to the RIs affiliations, this is not as exact as you think it would be
+  #   colnames(RI_df) <- c("RI_names", "RI")
+  #   
+  #   match_ri <- vapply(RI_df[, 1], function(x) {
+  #     jw <- RecordLinkage::jarowinkler(x, authors_AU)
+  #     jw == max(jw) & jw > 0.8
+  #   },logical(length(authors_AU)))
+  #   
+  #   
+  #   if (length(authors_AU) > 1) {
+  #     RI_df$matchname <- unlist(apply(match_ri, 2, function(x) ifelse(sum(x) == 0, "", authors_AU[x])))
+  #   }
+  #   if (length(authors_AU) == 1) {
+  #     RI_df$matchname <- ifelse(sum(match_ri) == 0, "", authors_AU[match_ri])
+  #   }
+  # }
+  # 
+  # RI
+  # I might have messed up RI is not matching OI
   RI <- unlist(strsplit(references[ref, ]$RI, ";"))
-  
-  if (length(strsplit(RI, "/")) < 2) {
-    RI_df <- data.frame(RI_names = "", RI = "", matchname = "")
-  }
-  
-  if (length(strsplit(RI, "/")) > 1) {
-    RI_df <- data.frame(do.call(rbind, lapply(strsplit(RI, "/"), function(x) x[1:2])), stringsAsFactors = FALSE)
-    # Match the author names to the RIs affiliations, this is not as exact as you think it would be
-    colnames(RI_df) <- c("RI_names", "RI")
+  if (sum(is.na(RI)) == 0) {
+    RI_check<-strsplit(RI, "/")
     
-    match_ri <- vapply(RI_df[, 1], function(x) {
+    RI_df <- as.data.frame(do.call(rbind, RI_check[vapply(RI_check,length,numeric(1))==2]), stringsAsFactors = FALSE)
+    colnames(RI_df) <- c("RI_names", "RI")
+    match_RI <- vapply(RI_df[, 1], function(x) {
       jw <- RecordLinkage::jarowinkler(x, authors_AU)
       jw == max(jw) & jw > 0.8
     },logical(length(authors_AU)))
     
-    
-    if (length(authors_AU) > 1) {
-      RI_df$matchname <- unlist(apply(match_ri, 2, function(x) ifelse(sum(x) == 0, "", authors_AU[x])))
-    }
-    if (length(authors_AU) == 1) {
-      RI_df$matchname <- ifelse(sum(match_ri) == 0, "", authors_AU[match_ri])
-    }
+    RI_df$matchname <- unlist(apply(data.frame(match_RI), 2, 
+                                    function(x) ifelse(sum(x) == 0, "", authors_AU[x])))
   }
   
-  # RI
+  if (sum(is.na(RI)) > 0) {
+    RI_df <- data.frame(RI_names = "", RI = "", matchname = "")
+  }
+  #####
   ##########
   # split out the OI and do the same thing we did with the RI
   OI <- unlist(strsplit(references[ref, ]$OI, ";"))
@@ -111,22 +134,26 @@ for (ref in seq_along(references$refID)) {
       jw == max(jw) & jw > 0.8
     },logical(length(authors_AU)))
     
-    OI_df$matchname <- unlist(apply(data.frame(match_OI), 2, function(x) ifelse(sum(x) == 0, "", authors_AU[x])))
+    OI_df$matchname <- unlist(apply(data.frame(match_OI), 2,
+                                    function(x) ifelse(sum(x) == 0, "", authors_AU[x])))
   }
   
   if (sum(is.na(OI)) > 0) {
     OI_df <- data.frame(OI_names = "", OI = "", matchname = "")
   }
-  ############
-  # merge all this information together by author name, some journals use the full name some the shortend name
-  #########
+  ################################################################################
+  # merge all this information together by author name, some journals use 
+  # the full name some the shortend name
+  ################################################################################
   new <- merge(authors_df, dd1, by.x = "AU", by.y = "names", all.x = TRUE)
   if (sum(is.na(new$address)) == length(new$address)) {
     new <- merge(authors_df, dd1, by.x = "AF", by.y = "names", all.x = TRUE)
   }
   new <- merge(new, RP_df, by = "AU", all.x = TRUE)
-  new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU", by.y = "matchname", all.x = TRUE)
-  new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AU", by.y = "matchname", all.x = TRUE)
+  new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU", 
+               by.y = "matchname", all.x = TRUE)
+  new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AU",
+               by.y = "matchname", all.x = TRUE)
   new$EM <- NA
   new$refID <- references$refID[ref]
   new$TA <- references$TI[ref]
@@ -136,15 +163,19 @@ for (ref in seq_along(references$refID)) {
   new$PU <- references$PU[ref]
   new$PY <- references$PY[ref]
   
-  ######################### 3
-  #
-  # Matching emails is an imprecise science, as emails dont have to match names in any reliable way or at all
-  # I feel its better to leave these alone as much as possible, analyzing the resulting matches will lead to issues
-  match_em <- vapply(authors_EM_strip, function(x) apply(data.frame(RecordLinkage::jarowinkler(x, new$AU), RecordLinkage::jarowinkler(x, new$AF)), 1, max),double(length(new$AU)))
+  ################################################################################
+  # Matching emails is an imprecise science, as emails dont have to 
+  # match names in any reliable way or at all
+  # I feel its better to leave these alone as much as possible, 
+  # analyzing the resulting matches will lead to issues
+  match_em <- vapply(authors_EM_strip, function(x) 
+    apply(data.frame(RecordLinkage::jarowinkler(x, new$AU), 
+                     RecordLinkage::jarowinkler(x, new$AF)), 1, max),double(length(new$AU)))
   
   for (i in seq_along(authors_EM)) {
     # i<-1
-    new$EM[as.data.frame(apply(as.matrix(match_em), 2, function(x) x > 0.7 & max(x) == x))[, i]] <- authors_EM[i]
+    new$EM[as.data.frame(apply(as.matrix(match_em), 2, 
+                               function(x) x > 0.7 & max(x) == x))[, i]] <- authors_EM[i]
   }
   
   if (nrow(new) == 1) {
@@ -167,7 +198,8 @@ final$authorID <- seq_len(nrow(final))
 final$EM <- tolower(final$EM)
 final$address <- as.character(final$address)
 final$RP_address <- as.character(final$RP_address)
-final$address[!is.na(final$address) & final$address == "Could not be extracted" & !is.na(final$RP_address)] <- final$RP_address[!is.na(final$address) & final$address == "Could not be extracted" & !is.na(final$RP_address)]
+final$address[!is.na(final$address) & final$address == "Could not be extracted" & !is.na(final$RP_address)] <-
+  final$RP_address[!is.na(final$address) & final$address == "Could not be extracted" & !is.na(final$RP_address)]
 final$address <- as.character(final$address)
 final$address[is.na(final$address)] <- "Could not be extracted"
 return(final)

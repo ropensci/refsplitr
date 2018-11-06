@@ -37,13 +37,17 @@ remain.list <- lapply(list.address2, function(x) x[-c(length(x))][1])
 remain.list <- trimws(remain.list, which = "both")
 remain.list[remain.list == "character(0)"] <- NA
 
-address.df <- data.frame(adID = ID, university = university.list, country = country.list, state = state.list, postal_code = postal_code.list, city = NA, department = NA, second.tier = second.tier.list, third.tier = third.tier.list, remain = remain.list, address = addresses, stringsAsFactors = FALSE)
+address.df <- data.frame(adID = ID, university = university.list, country = country.list,
+                         state = state.list, postal_code = postal_code.list, city = NA,
+                         department = NA, second.tier = second.tier.list, third.tier = third.tier.list,
+                         remain = remain.list, address = addresses, stringsAsFactors = FALSE)
 
 # try to fix the USA spots
 address.df$city[nchar(address.df$state) > 0] <- address.df$second.tier[nchar(address.df$state) > 0]
 address.df$state[nchar(address.df$state) == 0] <- NA
 address.df$postal_code[nchar(address.df$postal_code) == 0] <- NA
-address.df$department[!is.na(address.df$state) & !is.na(address.df$postal_code) & !is.na(address.df$state)] <- address.df$third.tier[!is.na(address.df$state) & !is.na(address.df$postal_code) & !is.na(address.df$state)]
+address.df$department[!is.na(address.df$state) & !is.na(address.df$postal_code) & !is.na(address.df$state)] <- 
+  address.df$third.tier[!is.na(address.df$state) & !is.na(address.df$postal_code) & !is.na(address.df$state)]
 # address.df$adID<-1:nrow(address.df)
 ##########################
 # reg expression postal_code search
@@ -116,7 +120,9 @@ address.df$state[city.fix] <- NA
 address.df$university[address.df$university == "Could not be extracted"] <- NA
 address.df$country[address.df$country == "Could not be extracted"] <- NA
 address.df$country[address.df$country=='Peoples R China']<-'China'
-address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)]<-vapply(strsplit(address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)],'-'),function(x)x[2],character(1))
+address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)]<-
+  vapply(strsplit(address.df$postal_code[grepl("[[:alpha:]]{1,2}-",address.df$postal_code)],
+                  '-'),function(x)x[2],character(1))
 
 return(address.df)
 }
