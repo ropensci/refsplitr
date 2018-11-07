@@ -164,7 +164,7 @@ for (p in unique.groupid) {
     match2 <- (!is.na(novel.names1$university) & !is.na(name.df$university)) & name.df$university == novel.names1$university
     # match middle initial
     match3 <- !is.na(name.df$m.i) & novel.names1$m.i == name.df$m.i
-    match4 <- is.na(name.df$address) & novel.names1$address == name.df$address
+    match4 <- !is.na(name.df$address) & RecordLinkage::jarowinkler(name.df$address, novel.names1$address) > 0.9
     # match emails
     # if(nrow(novel.names1)==0){match1<-F;match2<-F;match3<-F}
     if (sum(ifelse(is.na(c(match1, match2, match3, match4)), FALSE, c(match1, match2, match3, match4))) > 0) {
