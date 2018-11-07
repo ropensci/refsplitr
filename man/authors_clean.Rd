@@ -20,7 +20,18 @@ authors_clean(references, sim_score = 0.88, filename_root = "./",
 \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
 }
 \examples{
-  references <-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), BP=NA , C1=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA),CR=NA,DE=NA, DI=NA, EM=c("j.smithufl.edu",NA,'jsmithusgs.gov'), EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, PY=NA, RI=NA, OI=NA,PM=NA, RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA), SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=F)
-df[]<-lapply(df, as.character)
-authors_clean(references=references)
+ references <-data.frame(filename=NA, AB=NA,
+ AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), 
+ AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), 
+ BP=NA , C1=c("Univ Florida, Gainesville, FL USA",
+ "University of Texas, Austin, TX, USA",NA),
+ CR=NA,DE=NA, DI=NA, EM=c("j.smithufl.edu",NA,'jsmithusgs.gov'), 
+ EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, 
+ PY=NA, RI=NA, OI=NA,PM=NA, 
+ RP=c("Univ Florida, Gainesville, FL USA",
+ "University of Texas, Austin, TX, USA",NA), 
+ SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, 
+ WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=FALSE)
+ df[]<-lapply(df, as.character)
+ authors_clean(references=references)
 }
