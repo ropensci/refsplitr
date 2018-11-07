@@ -14,6 +14,3 @@ plot_addresses_points(data, mapRegion = "world")
 \description{
 \code{plot_addresses_points} This function plots an addresses data.frame object by point overlaid on the countries of the world.
 }
-\examples{
-plot_addresses_points()
-}

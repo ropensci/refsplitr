@@ -16,6 +16,3 @@ plot_net_country(data, line_resolution = 10, mapRegion = "world")
 \description{
 \code{plot_net_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
 }
-\examples{
-plot_net_country()
-}

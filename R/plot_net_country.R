@@ -9,8 +9,6 @@
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' @param line_resolution default = 10
-#' @examples plot_net_country()
-
 #' @export plot_net_country
 #' @importFrom network %v%
 

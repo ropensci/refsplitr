@@ -14,6 +14,3 @@ plot_addresses_country(data, mapRegion = "world")
 \description{
 \code{plot_addresses_country} This function plots an addresses data.frame object by country name.
 }
-\examples{
-plot_addresses_country()
-}

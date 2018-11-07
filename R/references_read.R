@@ -15,7 +15,6 @@
 #'   path, to which "_references.csv" will be appended and the output from the
 #'   function will be saved
 #' @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
-#' @examples references_read()
 #' @export references_read
 #' 
 references_read <- function(data = ".", dir = TRUE, filename_root = "", include_all=FALSE) {
