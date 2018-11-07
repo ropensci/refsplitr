@@ -23,3 +23,6 @@ function will be saved}
 \description{
 \code{authors_georef} This function takes the final author list from refine_authors, and calculates the lat long of the addresses. It does this by feeding the addresses into data science toolkit and then googles api. The output is a data.frame of all information from refine_authors plus new location columns and calculated lat longs.
 }
+\examples{
+authors_georef()
+}

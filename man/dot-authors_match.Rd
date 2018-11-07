@@ -12,3 +12,7 @@
 \description{
 \code{authors_parse} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people
 }
+\examples{
+authors_match()
+
+}

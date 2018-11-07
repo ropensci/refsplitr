@@ -12,3 +12,7 @@
 \description{
 \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
 }
+\examples{
+authors_parse()
+
+}

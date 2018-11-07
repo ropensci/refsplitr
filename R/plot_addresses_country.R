@@ -9,6 +9,7 @@
 #'
 #' @param data address element from the output from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' @examples plot_addresses_country()
 #' @export plot_addresses_country 
 #' @importFrom rworldmap addMapLegend
 #' 

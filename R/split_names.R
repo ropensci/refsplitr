@@ -5,7 +5,10 @@
 #' @param x simply a vector containing a character of a name in the form 'last, first, middle'. Can parse out names with no middle names.
 #' 
 #' Currently it does not reliably distinguish between a second last names and middle names. In most cases it will call the first last name an additional middle name. Also jrs, srs, etc are considered middle names for the sake of ease.
-#' 
+#' @examples split_names()
+
+
+
 .split_names <- function(x) {
   first <- NA
   middle <- NA

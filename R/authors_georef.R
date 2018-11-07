@@ -11,6 +11,7 @@
 #'
 #' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querying the google api when its busy. 
 #' @importFrom dplyr full_join
+#' @examples authors_georef()
 #' @export authors_georef 
 #' 
 authors_georef <- function(data,

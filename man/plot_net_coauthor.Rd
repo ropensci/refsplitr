@@ -12,3 +12,6 @@ plot_net_coauthor(data)
 \description{
 \code{plot_net_coauthor} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for co-authorship.
 }
+\examples{
+plot_net_coauthor()
+}

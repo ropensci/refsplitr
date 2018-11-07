@@ -16,3 +16,6 @@ plot_net_address(data, line_resolution = 10, mapRegion = "world")
 \description{
 \code{plot_net_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
 }
+\examples{
+plot_net_address()
+}

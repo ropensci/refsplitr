@@ -26,3 +26,6 @@ function will be saved}
 and ISI format reference data files into an R friendly data format and can
 optionally write the converted data to a friendly CSV format.
 }
+\examples{
+references_read()
+}

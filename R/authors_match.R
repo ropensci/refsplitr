@@ -3,6 +3,9 @@
 #' \code{authors_parse} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people
 #'
 #' @param references output from `references_read()`
+#' @examples authors_match()
+
+#' 
 .authors_match<-function(data, sim_score){
   #data=final;sim_score=0.88
 novel.names <- data.frame(ID = data$authorID, unique.name = data$AF, groupID = NA, 

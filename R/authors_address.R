@@ -3,6 +3,8 @@
 #' \code{authors_address} This function takes the output from `references_read()` and cleans the author information.
 #'
 #' @param references output from `references_read()`
+#' #' @examples authors_address()
+
 .authors_address<-function(addresses, ID){
   
 #addresses=final$address; ID=final$authorID
