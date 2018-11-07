@@ -32,6 +32,6 @@ authors_clean(references, sim_score = 0.88, filename_root = "./",
  "University of Texas, Austin, TX, USA",NA), 
  SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, 
  WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=FALSE)
- df[]<-lapply(df, as.character)
+ references[]<-lapply(references, as.character)
  authors_clean(references=references)
 }
