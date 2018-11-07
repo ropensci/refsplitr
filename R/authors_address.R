@@ -5,7 +5,7 @@
 #' @param references output from `references_read()`
 #' #' @examples authors_address()
 
-.authors_address<-function(addresses, ID){
+authors_address<-function(addresses, ID){
   
 #addresses=final$address; ID=final$authorID
 list.address <- strsplit(addresses, ",")

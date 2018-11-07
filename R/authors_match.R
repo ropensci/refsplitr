@@ -6,7 +6,7 @@
 #' @examples authors_match()
 
 #' 
-.authors_match<-function(data, sim_score){
+authors_match<-function(data, sim_score){
   #data=final;sim_score=0.88
 novel.names <- data.frame(ID = data$authorID, unique.name = data$AF, groupID = NA, 
                           address = data$address, university = data$university, 
