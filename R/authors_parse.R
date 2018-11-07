@@ -3,7 +3,6 @@
 #' \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
 #'
 #' @param references output from `references_read()`
-#' @examples authors_parse()
 #' 
 authors_parse<-function(references){
 list1 <- list()
