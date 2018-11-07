@@ -14,6 +14,3 @@ Currently it does not reliably distinguish between a second last names and middl
 \description{
 \code{.split_names} This is an internal function to split names into their respective parts. It can not be called directly by the user
 }
-\examples{
-split_names()
-}
