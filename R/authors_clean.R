@@ -2,7 +2,7 @@
 #'
 #' \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
 #'
-#' @param references output from `references_read()`
+#' @param refs output from `references_read()`
 #' @param sim_score default is 0.88
 #' @param filename_root the filename root, can include relative or absolute
 #' @param write_out_data TRUE or FALSE, do you want a .csv file written out?
@@ -12,14 +12,14 @@
 
 
 
-authors_clean <- function(references,
+authors_clean <- function(refs,
                           sim_score = 0.88,
                           filename_root = "./",
                           write_out_data = FALSE) {
   # address parsing
   ###############################
   print("Parsing addresses")
-  final<-.authors_parse(references)
+  final<-.authors_parse(references=refs)
   
   
   address.df<-.authors_address(final$address,final$authorID)
