@@ -7,7 +7,7 @@
 #' @param filename_root the filename root, can include relative or absolute
 #' @param write_out_data TRUE or FALSE, do you want a .csv file written out?
 #' @importFrom RecordLinkage jarowinkler
-#' @examples authors_clean()
+#' @examples authors_clean(references=references)
 #' @export authors_clean
 
 
