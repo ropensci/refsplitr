@@ -244,7 +244,6 @@ for (n in unique.names.over1) {
     }
   }
 }
-proc.time() - ptm
 
 
 
