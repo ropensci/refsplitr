@@ -7,8 +7,9 @@
 authors_address(addresses, ID)
 }
 \arguments{
-\item{references}{output from `references_read()`
-#' @examples authors_address()}
+\item{addresses}{the addresses}
+
+\item{ID}{the authorID}
 }
 \description{
 \code{authors_address} This function takes the output from `references_read()` and cleans the author information.

@@ -7,12 +7,8 @@
 authors_parse(references)
 }
 \arguments{
-\item{references}{output from `references_read()`}
+\item{references}{input}
 }
 \description{
-\code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
-}
-\examples{
-authors_parse()
-
+\code{authors_clean}
 }

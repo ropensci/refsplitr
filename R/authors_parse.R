@@ -1,9 +1,9 @@
 #' Parses out each individual authors information from the reference information created by references_read. This is the first step in parsing out author information.
 #'
-#' \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
+#' \code{authors_clean} 
 #'
-#' @param references output from `references_read()`
-#' 
+#' @param references input 
+#'  
 authors_parse<-function(references){
 list1 <- list()
 ############################################
