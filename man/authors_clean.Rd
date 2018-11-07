@@ -19,3 +19,6 @@ authors_clean(references, sim_score = 0.88, filename_root = "./",
 \description{
 \code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
 }
+\examples{
+authors_clean()
+}

@@ -18,7 +18,7 @@ authors_georef(data, address_column = "address", filename_root = "",
 path, to which "_addresses.csv" will be appended and the output from the
 function will be saved}
 
-\item{retry_limit}{the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querrying the google api when its busy.}
+\item{retry_limit}{the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querying the google api when its busy.}
 }
 \description{
 \code{authors_georef} This function takes the final author list from refine_authors, and calculates the lat long of the addresses. It does this by feeding the addresses into data science toolkit and then googles api. The output is a data.frame of all information from refine_authors plus new location columns and calculated lat longs.
