@@ -19,7 +19,7 @@ authors_clean <- function(references,
   # address parsing
   ###############################
   print("Parsing addresses")
-  final<-.authors_parse(references)
+  final<-.authors_parse(references=references)
   
   
   address.df<-.authors_address(final$address,final$authorID)
