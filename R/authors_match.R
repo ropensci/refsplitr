@@ -1,6 +1,6 @@
 #' Matches authors together by considering common last names, university affiliations, and emails.
 #'
-#' \code{authors_parse} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people
+#' \code{authors_match} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people
 #'
 #' @param data data inpiut
 #' @param sim_score sim score input

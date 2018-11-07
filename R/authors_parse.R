@@ -1,6 +1,6 @@
 #' Parses out each individual authors information from the reference information created by references_read. This is the first step in parsing out author information.
 #'
-#' \code{authors_clean} 
+#' \code{authors_parse} 
 #'
 #' @param references input 
 #'  
