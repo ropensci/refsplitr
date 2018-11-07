@@ -15,7 +15,7 @@ test_that("Output of clean_authors makes sense", {
   RP= "Senior, AM (reprint author), Univ Sydney, Charles Perkins Ctr, Sydney, NSW, Australia.; Senior, AM (reprint author), Univ Sydney, Sch Math & Stat, Sydney, NSW, Australia.\n",
   SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,refID=1 ,stringsAsFactors=F)
   df[]<-lapply(df, as.character)
-  actual <- .authors_parse(df)
+  actual <- .authors_parse(references=df)
   expect_equal(nrow(actual),7)
   expect_equal(length(na.omit(unique(actual$OI))),2) 
   expect_equal(length(na.omit(unique(actual$RI))),1)
