@@ -5,7 +5,7 @@
 #' @param references output from `references_read()`
 #' @examples authors_parse()
 #' 
-.authors_parse<-function(references){
+authors_parse<-function(references){
 list1 <- list()
 ############################################
 
