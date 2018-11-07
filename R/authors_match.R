@@ -242,7 +242,7 @@ for (n in unique.names.over1) {
   if (length(mi.check) > 1) {
     newmi <- mi.check[2:length(mi.check)]
     newGroupID1 <- vapply(newmi, function(x) sub$ID[sub$f.i == substr(x, 1, 1) & sub$m.i == substr(x, 3, 3)][1],numeric(1))
-    for (q in seq_len(length(newfi))) {
+    for (q in seq_len(length(newmi))) {
       novel.names$groupID[novel.names$ID %in% sub$ID & novel.names$f.i == substr(newmi[q], 1, 1) & novel.names$m.i == substr(newmi[q], 3, 3)] <- newGroupID[q]
     }
   }
