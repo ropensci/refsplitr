@@ -10,5 +10,5 @@ authors_parse(references)
 \item{references}{input}
 }
 \description{
-\code{authors_clean}
+\code{authors_parse}
 }

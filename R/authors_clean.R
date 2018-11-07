@@ -7,7 +7,10 @@
 #' @param filename_root the filename root, can include relative or absolute
 #' @param write_out_data TRUE or FALSE, do you want a .csv file written out?
 #' @importFrom RecordLinkage jarowinkler
-#' @examples authors_clean(references=references)
+#' @examples 
+#'   references <-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), BP=NA , C1=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA),CR=NA,DE=NA, DI=NA, EM=c("j.smithufl.edu",NA,'jsmithusgs.gov'), EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, PY=NA, RI=NA, OI=NA,PM=NA, RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA), SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=F)
+#' df[]<-lapply(df, as.character)
+#' authors_clean(references=references)
 #' @export authors_clean
 
 
