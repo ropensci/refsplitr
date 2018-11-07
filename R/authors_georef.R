@@ -9,7 +9,7 @@
 #'   path, to which "_addresses.csv" will be appended and the output from the
 #'   function will be saved
 #'
-#' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querrying the google api when its busy. 
+#' @param retry_limit the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querying the google api when its busy. 
 #' @importFrom dplyr full_join
 #' @export authors_georef 
 #' 
