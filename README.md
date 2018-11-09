@@ -1,6 +1,6 @@
 # refnet <img src="man/figures/refnethex.png" height="200" align="right">
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage status](https://coveralls.io/repos/github/embruna/refnet/badge.svg)](https://coveralls.io/r/embruna/refnet?branch=master)
 
 refnet: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
