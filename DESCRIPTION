@@ -21,3 +21,4 @@ Suggests:
     covr
 VignetteBuilder: utils
 Encoding: UTF-8
+BugReports: https://github.com/embruna/refnet/issues
