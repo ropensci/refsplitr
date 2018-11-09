@@ -7,6 +7,6 @@ expect_equal(ncol(d),32)
 expect_false(any(is.na(d$AF)))
 expect_false(any(is.na(d$TI)))
 expect_equal(d$refID,1:10)
-expect_true(any(sapply(d,class)!='factor'))
+expect_true(any(vapply(d,class,character(1))!='factor'))
 
 })
