@@ -2,12 +2,18 @@
 ########################################
 ## 	BEGIN:  plot_net_country():
 
-#' Creates a network diagram of coauthors' countries linked by reference, and with nodes arranged geographically
+#' Creates a network diagram of coauthors' countries linked by reference, 
+#' #and with nodes arranged geographically
 #'
-#' \code{plot_net_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
+#' \code{plot_net_country} This function takes an addresses data.frame, 
+#' #links it to an authors_references dataset and plots a network diagram 
+#' generated for countries of co-authorship.
 #'
-#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
-#' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' @param data the `address` element from the list outputted from 
+#' the `authors_georef()`` function, containing geocoded address 
+#' latitude and longitude locations.
+#' @param mapRegion what portion of the world map to show. possible 
+#' values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' @param line_resolution default = 10
 #' @export plot_net_country
 #' @importFrom network %v%
@@ -60,7 +66,8 @@ plot_net_country <- function(data,
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
-  vertex_names <- ifelse(vertex_names == "USA", "United States of America", vertex_names)
+  vertex_names <- ifelse(vertex_names == "USA", "United States of America", 
+                         vertex_names)
 
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
@@ -93,9 +100,11 @@ plot_net_country <- function(data,
     adjacencyList$countryA <- as.character(adjacencyList$countryA)
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
 
-    adjacencyList$country <- ifelse(adjacencyList$country == "USA", "United States of America", adjacencyList$country)
+    adjacencyList$country <- ifelse(adjacencyList$country == "USA", 
+                            "United States of America", adjacencyList$country)
 
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "USA", "United States of America", adjacencyList$countryA)
+    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "USA", 
+                          "United States of America", adjacencyList$countryA)
 
     adjacencyList$country <- gsub(
       pattern = "\\.", replacement = " ",
@@ -107,11 +116,13 @@ plot_net_country <- function(data,
       x = adjacencyList$countryA
     )
 
-    fromC <- layoutCoordinates[layoutCoordinates$ISO_A2 == adjacencyList[whichRow, 1], 2:3 ] # Origin
-    toC <- layoutCoordinates[layoutCoordinates$ISO_A2 == adjacencyList[whichRow, 2], 2:3 ] # Terminus
+    fromC <- layoutCoordinates[layoutCoordinates$ISO_A2 == 
+                                 adjacencyList[whichRow, 1], 2:3 ] # Origin
+    toC <- layoutCoordinates[layoutCoordinates$ISO_A2 == 
+                               adjacencyList[whichRow, 2], 2:3 ] # Terminus
 
     # Add curve:
-    graphCenter <- colMeans(layoutCoordinates[, 2:3]) # Center of the overall graph
+    graphCenter <- colMeans(layoutCoordinates[, 2:3]) # Center of  overall graph
     bezierMid <- as.numeric(c(fromC[1], toC[2])) # A midpoint, for bended edges
     bezierMid <- (fromC + toC + bezierMid) / 3 # Moderate the Bezier midpoint
     if (curved == FALSE) {
@@ -138,7 +149,8 @@ plot_net_country <- function(data,
 
   adjacencydf$country <- row.names(adjacencydf)
 
-  adjacencyList <- tidyr::gather(data = adjacencydf, key="countryA", value="value", -"country") 
+  adjacencyList <- tidyr::gather(data = adjacencydf, key="countryA", 
+                                 value="value", -"country") 
 
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
 
@@ -187,25 +199,32 @@ plot_net_country <- function(data,
   products <- list()
 
   products[["plot"]] <- ggplot2::ggplot() +
-    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
-    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", "lat", group = "group"), color = grDevices::gray(6 / 10)) +
+    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", 
+                "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
+    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", 
+              "lat", group = "group"), color = grDevices::gray(6 / 10)) +
     ggplot2::coord_equal() +
     ggplot2::geom_path(
       data = allEdges,
-      ggplot2::aes_string(x = "x", y = "y", group = "Group", colour = "Sequence", size = "Sequence"), alpha = 1
+      ggplot2::aes_string(x = "x", y = "y", group = "Group", 
+                    colour = "Sequence", size = "Sequence"), alpha = 1
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes
       ggplot2::aes_string(x = "LON", y = "LAT"),
-      size = 5 + 100 * sna::degree(linkages_countries_net, cmode = "outdegree", rescale = TRUE), pch = 21,
+      size = 5 + 100 * sna::degree(linkages_countries_net, 
+                            cmode = "outdegree", rescale = TRUE), pch = 21,
       colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       fill = grDevices::rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
-    ggplot2::scale_colour_gradient(low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10), guide = "none") +
+    ggplot2::scale_colour_gradient(low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, 
+                  alpha = 5 / 10), high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10,
+                    alpha = 5 / 10), guide = "none") +
     ggplot2::scale_size(range = c(1, 1), guide = "none") +
     ggplot2::geom_text(
       data = coords_df,
-      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, color = grDevices::gray(2 / 10)
+      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, 
+    color = grDevices::gray(2 / 10)
     ) + empty_theme # Clean up plot
 
 

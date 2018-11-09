@@ -17,7 +17,8 @@
 #' @param include_all should all columns be included, or just the most commonly recorded. default=FALSE
 #' @export references_read
 #' 
-references_read <- function(data = ".", dir = TRUE, filename_root = "", include_all=FALSE) {
+references_read <- function(data = ".", dir = TRUE, filename_root = "", 
+                            include_all=FALSE) {
 
   ## 	NOTE: The fields stored in our output table are a combination of the
   ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
@@ -66,7 +67,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
     "PU" = character(0),
     "PY" = character(0),
     "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
-    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
+    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID 
+    # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
     "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
     "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
     "RP" = character(0),
@@ -88,7 +90,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
   )
 
 
-  ## 	This is an index for the current record, it gets iterated for each record we advance through:
+  ## 	This is an index for the current record, it gets iterated for each 
+  # record we advance through:
   i <- 1
 
   if (dir) {
@@ -102,7 +105,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
 
   if (length(file_list) == 0) {
     # close(in_file)
-    stop("ERROR:  The specified file or directory does not contain any Web of Knowledge or ISI Export Format records!")
+    stop("ERROR:  The specified file or directory does not contain any 
+         Web of Knowledge or ISI Export Format records!")
   }
   print("Now processing all references files")
   filename <- file_list[1]
@@ -150,7 +154,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
         close(in_file)
 
         stop(
-          "ERROR:  The file ", filename, " doesn't appear to be a valid ISI or Thomson Reuters reference library file!\n\nThe first line is:\n",
+          "ERROR:  The file ", filename, " doesn't appear to be a valid 
+      ISI or Thomson Reuters reference library file!\n\nThe first line is:\n",
           pre_text, " ", line_text
         )
       }
@@ -246,18 +251,20 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
     }
 
     close(in_file)
-    ############################### Clock#############################################
+    ############################### Clock######################################
     total <- length(file_list)
     pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
     utils::setTxtProgressBar(pb, counter)
     counter <- counter + 1
     utils::flush.console()
-    #################################################################################
+    ############################################################################
   }
   ############################################## 3
   # Post Processing
-  # We need to clean this file, remove trailing spaces where necessary on important sections
-  # I moved this over from the Author code as it was unecessarily complicating the program
+  # We need to clean this file, remove trailing spaces where necessary on 
+  # important sections
+  # I moved this over from the Author code as it was unecessarily 
+  # complicating the program
   # email list
   # We can add to this section as we find things that need to be fixed
   output$EM <- gsub(" ", "", output$EM)
@@ -282,11 +289,13 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "", include_
 
   output$C1 <- gsub("\n", "/", output$C1, fixed = TRUE)
 
-  output$AF[is.na(output$AF)] <- output$AU[is.na(output$AF)] # when AF is empty fill in with AU
+  output$AF[is.na(output$AF)] <- output$AU[is.na(output$AF)] 
+  
   output$refID <- seq_len(nrow(output)) 
 
   # now done in base R, runs slower
-  dupe_output <- do.call(rbind, lapply(unique(output$UT), function(x) output[output$UT == x, ][1, ]))
+  dupe_output <- do.call(rbind, lapply(unique(output$UT), 
+                                  function(x) output[output$UT == x, ][1, ]))
   
 
   

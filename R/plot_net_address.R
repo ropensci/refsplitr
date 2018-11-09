@@ -2,9 +2,12 @@
 ########################################
 ## 	BEGIN: plot_net_address():
 
-#' Creates a network diagram of coauthors' addresses linked by reference, and with nodes arranged geographically
+#' Creates a network diagram of coauthors' addresses linked by reference, 
+#' and with nodes arranged geographically
 #'
-#' \code{plot_net_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
+#' \code{plot_net_address} This function takes an addresses data.frame,
+#'  links it to an authors__references dataset and plots a network diagram 
+#'  generated for individual points of co-authorship.
 #'
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
@@ -29,11 +32,14 @@ plot_net_address <- function(data,
 
   # data$latlonalpha <- paste0("a",1:nrow(data))
   test <- data.frame(latlon = unique(data$latlon))
-  test$LAT <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), function(x) x[1]))
-  test$LON <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), function(x) x[2]))
+  test$LAT <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
+                                function(x) x[1]))
+  test$LON <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
+                                function(x) x[2]))
   test$latlonalpha <- paste0("a", 1:nrow(test))
 
-  test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", all.y = T)
+  test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", 
+                 all.y = TRUE)
   # data$latlonalpha <- paste0("a",1:nrow(data))
 
 
@@ -86,11 +92,13 @@ plot_net_address <- function(data,
     adjacencyList$rowname <- as.character(adjacencyList$rowname)
     adjacencyList$rownamesA <- as.character(adjacencyList$rownamesA)
 
-    fromC <- layoutCoordinates[layoutCoordinates$latlonalpha == adjacencyList[whichRow, 1], 2:3 ][1, ] # Origin
-    toC <- layoutCoordinates[layoutCoordinates$latlonalpha == adjacencyList[whichRow, 2], 2:3 ][1, ] # Terminus
+    fromC <- layoutCoordinates[layoutCoordinates$latlonalpha == 
+                                adjacencyList[whichRow, 1], 2:3 ][1, ] # Origin
+    toC <- layoutCoordinates[layoutCoordinates$latlonalpha == 
+                               adjacencyList[whichRow, 2], 2:3 ][1, ] # Terminus
 
     # Add curve:
-    graphCenter <- colMeans(layoutCoordinates[, 2:3]) # Center of the overall graph
+    graphCenter <- colMeans(layoutCoordinates[, 2:3]) #Center of overall graph
     bezierMid <- as.numeric(c(fromC[1], toC[2])) # A midpoint, for bended edges
     bezierMid <- (fromC + toC + bezierMid) / 3 # Moderate the Bezier midpoint
     if (curved == FALSE) {
@@ -198,7 +206,7 @@ plot_net_address <- function(data,
       high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       guide = "none"
     ) +
-    ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + # Customize taper
+    ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + 
     empty_theme
 
 

@@ -38,7 +38,9 @@ authors_clean <- function(references,
   
   address.df<-authors_address(final$address,final$authorID)
 
-  final <- merge(final, address.df[, c("university", "country", "state", "postal_code", "city", "department", "adID")], by.x = "authorID", by.y = "adID", all.x = TRUE)
+  final <- merge(final, address.df[, c("university", "country", "state", 
+        "postal_code", "city", "department", "adID")], 
+        by.x = "authorID", by.y = "adID", all.x = TRUE)
   
   ##################################
   # Now start Author Matching
@@ -48,13 +50,21 @@ authors_clean <- function(references,
   
   novel.names<-authors_match(final,sim_score=sim_score)
   
-  final <- merge(final, novel.names[, c("ID", "groupID", "match_name", "similarity")], by.x = "authorID", by.y = "ID", all.x = TRUE)
+  final <- merge(final, novel.names[, c("ID", "groupID", "match_name", 
+                  "similarity")], by.x = "authorID", by.y = "ID", all.x = TRUE)
   
-  final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", "similarity", colnames(final)[!colnames(final) %in% c("authorID", "AU", "AF", "groupID", "match_name", "similarity")])]
+  final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", 
+        "similarity", colnames(final)[!colnames(final) %in% c("authorID", 
+                        "AU", "AF", "groupID", "match_name", "similarity")])]
 
-  sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity)], c("authorID", "AU", "AF", "groupID", "match_name", "similarity", "author_order", "university", "department", "postal_code", "country", "address", "RP_address", "RI", "OI", "EM", "UT", "refID", "PT", "PY", "PU")]
+sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity)],
+              c("authorID", "AU", "AF", "groupID", "match_name", "similarity", 
+            "author_order", "university", "department", "postal_code", 
+            "country", "address", "RP_address", "RI", "OI", "EM", "UT",
+            "refID", "PT", "PY", "PU")]
   
-  sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity, sub.authors$authorID), ]
+  sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity, 
+                                   sub.authors$authorID), ]
 
   # write it out
   if( write_out_data == TRUE & nrow(sub.authors)>0){

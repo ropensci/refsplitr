@@ -4,9 +4,13 @@
 
 #' Creates a network diagram of coauthors' countries linked by reference
 #'
-#' \code{plot_net_coauthor} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for co-authorship.
+#' \code{plot_net_coauthor} This function takes an addresses data.frame, 
+#' links it to an authors_references dataset and plots a network diagram 
+#' generated for co-authorship.
 #'
-#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
+#' @param data the `address` element from the list outputted from 
+#' the `authors_georef()`` function, containing geocoded address 
+#' latitude and longitude locations.
 #' @export plot_net_coauthor
 #' 
 plot_net_coauthor <- function(data) {
@@ -43,14 +47,15 @@ plot_net_coauthor <- function(data) {
     weighted = TRUE
   )
 
-  igraph::V(linkages_countries_net)$label <- igraph::V(linkages_countries_net)$name
-  igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 0, .2, .5)
-  igraph::V(linkages_countries_net)$label.cex <- 0.5
-  igraph::V(linkages_countries_net)$size <- 12
-  igraph::V(linkages_countries_net)$frame.color <- NA
-  igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
+igraph::V(linkages_countries_net)$label<-igraph::V(linkages_countries_net)$name
+igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 0, .2, .5)
+igraph::V(linkages_countries_net)$label.cex <- 0.5
+igraph::V(linkages_countries_net)$size <- 12
+igraph::V(linkages_countries_net)$frame.color <- NA
+igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
 
-  ## 	Simplify the network edges by removing the diagonal and other half (assuming it's symmetric/undirected:
+  ## 	Simplify the network edges by removing the diagonal and other half 
+# (assuming it's symmetric/undirected:
   linkages_countries_net <- igraph::simplify(linkages_countries_net)
   
   co <- igraph::layout_with_fr(linkages_countries_net)

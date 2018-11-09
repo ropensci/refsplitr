@@ -4,7 +4,8 @@
 
 #' Plot address point locations on world map
 #'
-#' \code{plot_addresses_points} This function plots an addresses data.frame object by point overlaid on the countries of the world.
+#' \code{plot_addresses_points} This function plots an addresses data.frame 
+#' object by point overlaid on the countries of the world.
 #'
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
@@ -32,7 +33,8 @@ plot_addresses_points <- function(data,
 
 
   ggplot2::ggplot() +
-    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon", y = "lat")) +
+    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
+                                                        y = "lat")) +
     ggplot2::geom_map(
       data = world, map = world,
       ggplot2::aes_string(map_id = "region"),
