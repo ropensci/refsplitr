@@ -1,7 +1,7 @@
 context("authors match")
 
 test_that("Authors match correctly", {
-  # AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), BP=NA , C1=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA","Louisiana State Univeristy, Baton Rouge, LA, USA"),CR=NA,DE=NA, DI=NA, EM=c("j.smith@ufl.edu",NA,'jsmith@lsu.edu'), EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, PY=NA, RI=NA, OI=NA,PM=NA, RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA)
+
 
   df <- data.frame(
     authorID = 1:4,
