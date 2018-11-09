@@ -30,17 +30,16 @@ plot_net_address <- function(data,
   ## 	Link all authors at a particular point location:
   data$latlon <- paste0(data$lat, ",", data$lon)
 
-  # data$latlonalpha <- paste0("a",1:nrow(data))
+
   test <- data.frame(latlon = unique(data$latlon))
   test$LAT <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
                                 function(x) x[1]))
   test$LON <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
                                 function(x) x[2]))
-  test$latlonalpha <- paste0("a", 1:nrow(test))
+  test$latlonalpha <- paste0("a", seq_len(nrow(test)))
 
   test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", 
                  all.y = TRUE)
-  # data$latlonalpha <- paste0("a",1:nrow(data))
 
 
   linkages <- Matrix::spMatrix(
@@ -128,7 +127,7 @@ plot_net_address <- function(data,
 
 
   # Generate a (curved) edge path for each pair of connected nodes
-  allEdges <- lapply(1:nrow(adjacencyList),
+  allEdges <- lapply(seq_len(nrow(adjacencyList)),
     edgeMaker,
     len = line_resolution,
     curved = TRUE

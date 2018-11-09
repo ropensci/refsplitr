@@ -60,7 +60,7 @@ authors_georef <- function(data,
   uadd <- data.frame(short_address = unique(p.f$short_address), lat = NA, 
                      lon = NA, stringsAsFactors = FALSE)
   uadd <- uadd[!is.na(uadd$short_address) & uadd$short_address!='', ]
-  uadd$adID <- 1:nrow(uadd)
+  uadd$adID <- nrow(uadd)
   
   # add lat long for later calculation
   # Loop through the addresses to get the latitude and longitude of each 
@@ -79,7 +79,7 @@ authors_georef <- function(data,
     print("data science toolkit is down right now, moving onto google API")
   }
   if (check.open) {
-    for (i in 1:nrow(uadd)) {
+    for (i in seq_len(nrow(uadd))) {
       address <- as.character(uadd$short_address[i])
       print(paste("Working... ", address))
       
@@ -124,7 +124,7 @@ authors_georef <- function(data,
       warn.list <- list()
       faileddsk <- uadd[is.na(uadd$lat) & uadd$noresult==FALSE, 
                         c("short_address", "adID")]
-      for (p in 1:nrow(faileddsk)) {
+      for (p in seq_len(nrow(faileddsk))) {
         #p<-1
         paste_address <- uadd$short_address[faileddsk$adID[p] == uadd$adID][1]
         result <- tryCatch(ggmap::geocode(paste_address,

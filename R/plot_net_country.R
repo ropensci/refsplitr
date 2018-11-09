@@ -157,7 +157,7 @@ plot_net_country <- function(data,
   rownames(adjacencydf)[rownames(adjacencydf) == "NAstr"] <- "NA"
   colnames(adjacencydf)[colnames(adjacencydf) == "NAstr"] <- "NA"
 
-  allEdges <- lapply(1:nrow(adjacencyList),
+  allEdges <- lapply(seq_along(nrow(adjacencyList)),
     edgeMaker,
     len = line_resolution,
     curved = TRUE
