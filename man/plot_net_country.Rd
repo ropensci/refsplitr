@@ -2,17 +2,23 @@
 % Please edit documentation in R/plot_net_country.R
 \name{plot_net_country}
 \alias{plot_net_country}
-\title{Creates a network diagram of coauthors' countries linked by reference, and with nodes arranged geographically}
+\title{Creates a network diagram of coauthors' countries linked by reference, 
+#and with nodes arranged geographically}
 \usage{
 plot_net_country(data, line_resolution = 10, mapRegion = "world")
 }
 \arguments{
-\item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
+\item{data}{the `address` element from the list outputted from 
+the `authors_georef()`` function, containing geocoded address 
+latitude and longitude locations.}
 
 \item{line_resolution}{default = 10}
 
-\item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
+\item{mapRegion}{what portion of the world map to show. possible 
+values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
-\code{plot_net_country} This function takes an addresses data.frame, links it to an authors_references dataset and plots a network diagram generated for countries of co-authorship.
+\code{plot_net_country} This function takes an addresses data.frame, 
+#links it to an authors_references dataset and plots a network diagram 
+generated for countries of co-authorship.
 }

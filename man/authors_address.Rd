@@ -12,5 +12,6 @@ authors_address(addresses, ID)
 \item{ID}{the authorID}
 }
 \description{
-\code{authors_address} This function takes the output from `references_read()` and cleans the author information.
+\code{authors_address} This function takes the output from 
+`references_read()` and cleans the author information.
 }

@@ -2,7 +2,9 @@
 % Please edit documentation in R/authors_parse.R
 \name{authors_parse}
 \alias{authors_parse}
-\title{Parses out each individual authors information from the reference information created by references_read. This is the first step in parsing out author information.}
+\title{Parses out each individual authors information from the reference 
+information created by references_read. This is the first step in 
+parsing out author information.}
 \usage{
 authors_parse(references)
 }

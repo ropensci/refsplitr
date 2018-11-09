@@ -12,5 +12,6 @@ plot_addresses_points(data, mapRegion = "world")
 \item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
-\code{plot_addresses_points} This function plots an addresses data.frame object by point overlaid on the countries of the world.
+\code{plot_addresses_points} This function plots an addresses data.frame 
+object by point overlaid on the countries of the world.
 }

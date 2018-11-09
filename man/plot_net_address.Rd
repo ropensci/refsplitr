@@ -2,7 +2,8 @@
 % Please edit documentation in R/plot_net_address.R
 \name{plot_net_address}
 \alias{plot_net_address}
-\title{Creates a network diagram of coauthors' addresses linked by reference, and with nodes arranged geographically}
+\title{Creates a network diagram of coauthors' addresses linked by reference, 
+and with nodes arranged geographically}
 \usage{
 plot_net_address(data, line_resolution = 10, mapRegion = "world")
 }
@@ -14,5 +15,7 @@ plot_net_address(data, line_resolution = 10, mapRegion = "world")
 \item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
-\code{plot_net_address} This function takes an addresses data.frame, links it to an authors__references dataset and plots a network diagram generated for individual points of co-authorship.
+\code{plot_net_address} This function takes an addresses data.frame,
+ links it to an authors__references dataset and plots a network diagram 
+ generated for individual points of co-authorship.
 }

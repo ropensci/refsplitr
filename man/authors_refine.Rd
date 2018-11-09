@@ -9,12 +9,15 @@ authors_refine(review, prelim, sim_score = NULL, filename_root = "")
 \arguments{
 \item{review}{the `review` element from the list outputted by `authors_clean()`}
 
-\item{prelim}{the `prelim` element from the list outputted by `authors_clean()`}
+\item{prelim}{the `prelim` element from the list outputted by 
+`authors_clean()`}
 
 \item{sim_score}{similarity score cut off point. Number between 0-1.}
 
 \item{filename_root}{the filename root, can include relative or absolute
-path, to which "_authors.csv" and "_authors_references.csv" will be appended and the}
+path, to which "_authors.csv" and "_authors_references.csv" will be 
+appended and the so what you need to do is take the authors file 
+and change the names (no au and af), with addresses, title, and authors}
 }
 \description{
 \code{authors_refine} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'.
