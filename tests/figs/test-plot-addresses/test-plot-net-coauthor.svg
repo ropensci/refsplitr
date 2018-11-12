@@ -1,1 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    line, polyline, path, rect, circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpNTkuMDR8Njg5Ljc2fDUwMi41Nnw1OS4wNA=='>
+    <rect x='59.04' y='59.04' width='630.72' height='443.52' />
+  </clipPath>
+</defs>
+<line x1='188.91' y1='466.29' x2='559.89' y2='95.31' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpNTkuMDR8Njg5Ljc2fDUwMi41Nnw1OS4wNA==)' />
+<circle cx='180.69' cy='474.51' r='11.62pt' style='stroke-width: 0.75; stroke: none; fill: #009900; fill-opacity: 0.70;' clip-path='url(#cpNTkuMDR8Njg5Ljc2fDUwMi41Nnw1OS4wNA==)' />
+<circle cx='568.11' cy='87.09' r='11.62pt' style='stroke-width: 0.75; stroke: none; fill: #009900; fill-opacity: 0.70;' clip-path='url(#cpNTkuMDR8Njg5Ljc2fDUwMi41Nnw1OS4wNA==)' />
+<defs>
+  <clipPath id='cpMHw3MjB8NTc2fDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMHw3MjB8NTc2fDA=)'><text x='160.44' y='475.94' style='font-size: 6.00px; fill: #000033; fill-opacity: 0.50; font-family: Liberation Serif;' textLength='40.50px' lengthAdjust='spacingAndGlyphs'>United Kingdom</text></g>
+<g clip-path='url(#cpMHw3MjB8NTc2fDA=)'><text x='562.11' y='89.04' style='font-size: 6.00px; fill: #000033; fill-opacity: 0.50; font-family: Liberation Serif;' textLength='12.00px' lengthAdjust='spacingAndGlyphs'>USA</text></g>
 </svg>
