@@ -35,14 +35,15 @@ test_that("Plotting Addresses works", {
   
   a<-plot_addresses_points(data=df)
   vdiffr::expect_doppelganger("test_plot_addresses",a)
-  b<-plot_addresses_country(data=df)
-  vdiffr::expect_doppelganger("test_plot_country",b)
+  
+  vdiffr::expect_doppelganger("test_plot_country",plot_addresses_country(data=df))
+  
   c<-plot_net_address(data=df)
-  vdiffr::expect_doppelganger("test_plot_net_address",c)
-  d<-plot_net_coauthor(data=df)
-  vdiffr::expect_doppelganger("test_plot_net_coauthor",d)
+  vdiffr::expect_doppelganger("test_plot_net_address",c$plot)
+  
+  vdiffr::expect_doppelganger("test_plot_net_coauthor",plot_net_coauthor(data=df))
   e<-plot_net_country(data=df)  
-  vdiffr::expect_doppelganger("test_plot_net_country",e)
+  vdiffr::expect_doppelganger("test_plot_net_country",e$plot)
 })
   
   
