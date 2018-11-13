@@ -10,8 +10,10 @@ df.prelim<-data.frame("authorID"=c(1,2,3),
                "match_name"=c('Smith,J',NA,'Smith, Jon J'),
                "similarity"= c(0.8833333,NA,0.8833333),   
                "author_order"= c(1,1,1),
-               "address"=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA),      
-               "RP_address"=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA),   
+               "address"=c("Univ Florida, Gainesville, FL USA",
+                           "University of Texas, Austin, TX, USA",NA),      
+               "RP_address"=c("Univ Florida, Gainesville, FL USA",
+                              "University of Texas, Austin, TX, USA",NA),   
                "RI"=NA,          
                "OI"=NA,      
                "EM"=c("j.smith@ufl.edu",NA,'jsmith@usgs.gov'),          
@@ -53,7 +55,8 @@ df.review<-data.frame("authorID"=c(1,3),
 
   actual <-authors_refine(df.review, df.prelim, sim_score=0.88)
 
-  expect_equal(actual$author_name, c("Smith, Jon J.", "Thompson, Bob B.", "Smith, Jon J."))
+  expect_equal(actual$author_name, c("Smith, Jon J.", "Thompson, Bob B.", 
+                                     "Smith, Jon J."))
   expect_equal(nrow(df.prelim),nrow(actual))
   expect_equal(unique(actual[df.review$groupID[1]==actual$groupID,'author_name']),'Smith, Jon J.')
   expect_equal(df.prelim[is.na(df.prelim$similarity) | df.prelim$similarity>0.88,'authorID'],actual$authorID)

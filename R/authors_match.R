@@ -108,7 +108,7 @@ authors_match<-function(data, sim_score){
     #p<-1
     matched <- FALSE
     default.frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA, 
-                                university = NA, email = NA, f.i = 0, address = NA, country = NA)
+            university = NA, email = NA, f.i = 0, address = NA, country = NA)
     match1 <- NA
     match2 <- NA
     match3 <- NA

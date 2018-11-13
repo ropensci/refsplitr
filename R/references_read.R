@@ -146,7 +146,8 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
       read_line <- gsub("^[^A-Z]*([A-Z]+)(.*)$", "\\1\\2", read_line)
 
 
-      ## 	Strip the first two characters from the text line, skip the third (should be a space) and store the rest:
+      ## 	Strip the first two characters from the text line, 
+      # skip the third (should be a space) and store the rest:
       pre_text <- substr(read_line, 1, 2)
       line_text <- substr(read_line, 4, nchar(read_line))
 
@@ -226,7 +227,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
 
       ## 	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
-        ## 	... if it is then append this line's data to the field in our output:
+  ## 	... if it is then append this line's data to the field in our output:
         output[i, field] <- paste(output[i, field],
           line_text, "\n",
           sep = ""

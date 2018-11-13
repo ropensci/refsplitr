@@ -175,7 +175,8 @@ for (ref in seq_along(references$refID)) {
   ############################################################################
 }
 
-# Bind all author iterations together into one large sheet that should be used for base analysis from here on out
+# Bind all author iterations together into one large sheet that should be used 
+# for base analysis from here on out
 final <- do.call(rbind, list1)
 final$authorID <- seq_len(nrow(final))
 final$EM <- tolower(final$EM)

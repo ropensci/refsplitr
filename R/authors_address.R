@@ -14,12 +14,11 @@ country.list <- vapply(list.address, function(x) gsub("\\.", "", x[length(x)]),
                        character(1))
 country.list <- trimws(country.list, which = "both")
 pc.list <- trimws(substr(country.list, 1, (vapply(regexpr("USA", 
-                                                                  country.list), 
-                            function(x) x[1],numeric(1))) - 1), which = "right")
+            country.list), function(x) x[1],numeric(1))) - 1), which = "right")
 state.list <- pc.list
 
 state.list[nchar(state.list) > 0] <- regmatches(state.list[nchar(state.list)>0], 
-                  regexpr("[[:upper:]]{2}", state.list[nchar(state.list) > 0]))
+         regexpr("[[:upper:]]{2}", state.list[nchar(state.list) > 0]))
 
 pc.list[nchar(pc.list) > 2] <- regmatches(pc.list[nchar(pc.list) > 2], 
       regexpr("[[:digit:]]{5}", pc.list[nchar(pc.list) > 2]))
@@ -63,7 +62,7 @@ a.df$department[!is.na(a.df$state) & !is.na(a.df$postal_code)&
 # reg expression postal_code search
 int <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}|[[:space:]][[:upper:]][[:digit:]][[:upper:]][[:space:]][[:digit:]][[:upper:]][[:digit:]]|[[:alpha:]][[:punct:]][[:digit:]]{4,7}|[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
 
-UK <- "[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
+UK<-"[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
 
 # SO14 3ZH
 # L69 7ZB

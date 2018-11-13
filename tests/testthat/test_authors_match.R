@@ -10,13 +10,17 @@ test_that("Authors match correctly", {
     EM = c("j.smith@ufl.edu", NA, "jsmith@lsu.edu", NA),
     RI = c("B-5571-2011", NA, NA, NA),
     OI = c(NA, "1234-5678-9012-3456", NA, NA),
-    university = c("Univ Florida", "University of Texas", "Louisiana State Univeristy", "University of Florida"),
+    university = c("Univ Florida", "University of Texas",
+                   "Louisiana State Univeristy", "University of Florida"),
     country = c("USA", "USA", "USA", "USA"),
     state = c("FL", "TX", "LA", "FL"),
     postal_code = c(NA, NA, NA, NA),
     city = c("Gainesville", "Austin", "Baton Rouge", "Gainesville"),
     department = c(NA, NA, NA, NA),
-    address = c("Univ Florida, Gainesville, FL USA", "University of Texas, Austin, TX, USA", "Louisiana State Univeristy, Baton Rouge, LA, USA", "University Florida, Gainesville, FL USA"),
+    address = c("Univ Florida, Gainesville, FL USA", 
+                "University of Texas, Austin, TX, USA", 
+                "Louisiana State Univeristy, Baton Rouge, LA, USA", 
+                "University Florida, Gainesville, FL USA"),
     stringsAsFactors = FALSE
   )
   df[] <- lapply(df, as.character)

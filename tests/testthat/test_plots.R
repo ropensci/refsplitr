@@ -11,8 +11,11 @@ test_that("Plotting Addresses works", {
                  "match_name"=c('Smith,J',NA,'Smith, Jon J'),
                  "similarity"= c(0.8833333,NA,0.8833333),   
                  "author_order"= c(1,2,1),
-                 "address"=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",NA),      
-                 "RP_address"=c("Univ Florida, Gainesville, FL USA","University of Oxford, Oxfordshire, UK","University of California Berkley, Berkley, CA, USA"),   
+                 "address"=c("Univ Florida, Gainesville, FL USA",
+                             "University of Texas, Austin, TX, USA",NA),      
+                 "RP_address"=c("Univ Florida, Gainesville, FL USA",
+                                "University of Oxford, Oxfordshire, UK",
+                      "University of California Berkley, Berkley, CA, USA"),   
                  "RI"=NA,          
                  "OI"=NA,      
                  "EM"=c("j.smith@ufl.edu",NA,'jsmith@usgs.gov'),          
@@ -23,7 +26,8 @@ test_that("Plotting Addresses works", {
                  "PT"=NA,
                  "PU"=NA,
                  "PY"=NA,
-                 "university"=c('Univ Florida','University of Oxford',"University of California"),  
+                 "university"=c('Univ Florida','University of Oxford',
+                                "University of California"),  
                  "country"=c('USA','United Kingdom',"USA"),
                  "state"=c('FL','Oxfordshire',"CA"),
                  "postal_code"=NA,
@@ -36,15 +40,17 @@ test_that("Plotting Addresses works", {
 #  a<-plot_addresses_points(data=df)
 #  vdiffr::expect_doppelganger("test_plot_addresses",a)
   
-  vdiffr::expect_doppelganger("test_plot_country",plot_addresses_country(data=df))
+  vdiffr::expect_doppelganger("test_plot_country",
+                              plot_addresses_country(data=df))
   
   c<-plot_net_address(data=df)
   vdiffr::expect_doppelganger("test_plot_net_address",c$plot)
-  # At this moment we'cant create the test_plot_net_coauthors in a way that always shows
+  # At this moment we'cant create the test_plot_net_coauthors in a
+  # way that always shows
   # the same plot. 
   # df1<-data.frame("authorID"=c(1,2,3,4,5),
-  #                     "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy,P','Dummy,L'),          
-  #                     "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy, P','Dummy L'),          
+  # "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy,P','Dummy,L'),          
+  # "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy, P','Dummy L'),          
   #                     "groupID"= c(3,2,3,5,6),      
   # 
   #                     "author_order"= c(1,2,1,2,3),
@@ -52,10 +58,11 @@ test_that("Plotting Addresses works", {
   #                     "refID"=c(1,1,3,1,3),
   #                     "UT"=c('test1','test1','test2','test2','test2'),
   #                    
-  #                     "country"=c('USA','United Kingdom',"USA",'Brazil','France'),
+  #              "country"=c('USA','United Kingdom',"USA",'Brazil','France'),
   #                     stringsAsFactors=FALSE )
   # plot_net_coauthor(data=df1)
-  # vdiffr::expect_doppelganger("test_plot_net_coauthor",plot_net_coauthor(data=df1))
+  # vdiffr::expect_doppelganger("test_plot_net_coauthor",
+  # plot_net_coauthor(data=df1))
 })
   
   
