@@ -33,8 +33,8 @@ test_that("Plotting Addresses works", {
                  "lon"=c(-100,1.2577,-80),
                  stringsAsFactors=FALSE )
   
-#  a<-plot_addresses_points(data=df)
-#  vdiffr::expect_doppelganger("test_plot_addresses",a)
+  a<-plot_addresses_points(data=df)
+  vdiffr::expect_doppelganger("test_plot_addresses",a)
   
   vdiffr::expect_doppelganger("test_plot_country",plot_addresses_country(data=df))
   
