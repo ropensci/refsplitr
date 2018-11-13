@@ -27,7 +27,7 @@ authors_refine <- function(review, prelim, sim_score = NULL, filename_root="") {
     return(output)}
   
     if (is.null(sim_score)) {
-    sim_score <- min(review$similarity, na.rm = T)
+    sim_score <- min(review$similarity, na.rm = TRUE)
   }
 
   ##########################################
