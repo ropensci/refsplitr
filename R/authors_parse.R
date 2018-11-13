@@ -5,7 +5,7 @@
 #' \code{authors_parse} 
 #'
 #' @param references input 
-#'  
+#' @export authors_parse
 authors_parse<-function(references){
   list1 <- list()
   ############################################
