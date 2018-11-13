@@ -194,7 +194,7 @@ plot_net_address <- function(data,
       data = data.frame(layoutCoordinates),
       ggplot2::aes_string(x = "LON", y = "LAT"),
       size = 3 + 100 * sna::degree(linkages_points_net,
-        cmode = "outdegree", rescale = T
+        cmode = "outdegree", rescale = TRUE
       ),
       pch = 21,
       colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
