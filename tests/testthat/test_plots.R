@@ -34,7 +34,7 @@ test_that("Plotting Addresses works", {
                  stringsAsFactors=FALSE )
   
   a<-plot_addresses_points(data=df)
-#  vdiffr::expect_doppelganger("test_plot_addresses",a)
+  vdiffr::expect_doppelganger("test_plot_addresses",a)
   
   vdiffr::expect_doppelganger("test_plot_country",plot_addresses_country(data=df))
   
