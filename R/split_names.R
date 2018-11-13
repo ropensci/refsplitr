@@ -6,9 +6,6 @@
 #' 
 #' Currently it does not reliably distinguish between a second last names and middle names. In most cases it will call the first last name an additional middle name. Also jrs, srs, etc are considered middle names for the sake of ease.
 
-
-
-
 .split_names <- function(x) {
   first <- NA
   middle <- NA
@@ -53,4 +50,3 @@
   
   return(c(first = first, middle = middle, last = last))
 }
-

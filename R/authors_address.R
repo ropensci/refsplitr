@@ -18,7 +18,7 @@ pc.list <- trimws(substr(country.list, 1, (vapply(regexpr("USA",
 state.list <- pc.list
 
 state.list[nchar(state.list) > 0] <- regmatches(state.list[nchar(state.list)>0], 
-         regexpr("[[:upper:]]{2}", state.list[nchar(state.list) > 0]))
+  regexpr("[[:upper:]]{2}", state.list[nchar(state.list) > 0]))
 
 pc.list[nchar(pc.list) > 2] <- regmatches(pc.list[nchar(pc.list) > 2], 
       regexpr("[[:digit:]]{5}", pc.list[nchar(pc.list) > 2]))

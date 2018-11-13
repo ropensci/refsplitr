@@ -49,8 +49,8 @@ test_that("Plotting Addresses works", {
   # way that always shows
   # the same plot. 
   # df1<-data.frame("authorID"=c(1,2,3,4,5),
-  # "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy,P','Dummy,L'),          
-  # "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy, P','Dummy L'),          
+  # "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy,P','Dummy,L'),      
+  # "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy, P','Dummy L'),     
   #                     "groupID"= c(3,2,3,5,6),      
   # 
   #                     "author_order"= c(1,2,1,2,3),

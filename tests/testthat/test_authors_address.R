@@ -17,5 +17,7 @@ expect_false(any(is.na(actual$country)))
 expect_false(grepl('BR',actual$postal_code[actual$country=='Brazil']))
 expect_equal(sum(grepl("[A-Z]{1}[0-9]{1}[A-Z]{1}\\s[0-9]{1}[A-Z]{1}[0-9]{1}",
                        actual$postal_code)),2)
-expect_equal(unique(actual$country[grepl("[A-Z]{1}[0-9]{1}[A-Z]{1}\\s[0-9]{1}[A-Z]{1}[0-9]{1}", actual$postal_code)]),'Canada')
+expect_equal(unique(actual$country[grepl(
+  "[A-Z]{1}[0-9]{1}[A-Z]{1}\\s[0-9]{1}[A-Z]{1}[0-9]{1}", 
+  actual$postal_code)]),'Canada')
 })

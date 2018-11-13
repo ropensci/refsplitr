@@ -58,7 +58,9 @@ df.review<-data.frame("authorID"=c(1,3),
   expect_equal(actual$author_name, c("Smith, Jon J.", "Thompson, Bob B.", 
                                      "Smith, Jon J."))
   expect_equal(nrow(df.prelim),nrow(actual))
-  expect_equal(unique(actual[df.review$groupID[1]==actual$groupID,'author_name']),'Smith, Jon J.')
-  expect_equal(df.prelim[is.na(df.prelim$similarity) | df.prelim$similarity>0.88,'authorID'],actual$authorID)
+  expect_equal(unique(actual[df.review$groupID[1]==actual$groupID,
+                             'author_name']),'Smith, Jon J.')
+  expect_equal(df.prelim[is.na(df.prelim$similarity) | 
+                        df.prelim$similarity>0.88,'authorID'],actual$authorID)
   
 })

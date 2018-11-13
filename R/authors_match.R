@@ -71,25 +71,43 @@ authors_match<-function(data, sim_score){
     n.n$groupID[which(n.n$email == l)] <- groupid
   }
   
-  if (nrow(n.n1) == 0) {
-    n.n1 <- default.frame
-  }
-  if (!anyNA(n.n1$ID)) {
-    # match full middle name
-    match1 <- !is.na(name.df$middle) & n.n1$middle == name.df$middle
-    # match addresses
-    match2 <- (!is.na(n.n1$university) & !is.na(name.df$university)) & 
-      name.df$university == n.n1$university
-    # match middle initial
-    match3 <- !is.na(name.df$m.i) & n.n1$m.i == name.df$m.i
-    match4 <- is.na(name.df$address) & n.n1$address == name.df$address
-    if (sum(ifelse(is.na(c(match1, match2, match3, match4)), FALSE, 
-                   c(match1, match2, match3, match4))) > 0) {
-      matched <- TRUE
-      choice <- c(which(match1), which(match2), which(match3), which(match4))
-      if (sum(!is.na(n.n1$groupID[choice])) > 0) {
-        groupid <- min(n.n1$groupID[choice], na.rm = TRUE)
-
+  
+  
+  n.n$similarity <- NA
+  n.n$match_name <- NA
+  n.n$f.c <- nchar(n.n$first)
+  n.n$m.c <- nchar(n.n$middle)
+  n.n$f.i <- substr(n.n$first, 1, 1)
+  n.n$m.i <- substr(n.n$middle, 1, 1)
+  n.n$m.c[is.na(n.n$m.c)] <- 0
+  # match authors with the same first, last, and middle name
+  remain <- subset(n.n, !is.na(m.i) & f.c >= 1)[, c("ID", 
+                                                    "groupID", "first", "middle", "last")]
+  remain <- merge(subset(remain, is.na(groupID)), remain, by = c("first", 
+                                                                 "middle", "last"))
+  remain <- subset(remain, ID.x != ID.y)
+  
+  if(nrow(remain)>0){
+    dd <- data.frame(
+      g.n = unique(paste(remain$first, remain$middle, remain$last, sep = ";")),
+      first = NA,
+      middle = NA,
+      last = NA,
+      stringsAsFactors = FALSE
+    )
+    
+    dd$id <- seq_len(nrow(dd))
+    
+    dd[, c("first", "middle", "last")] <- do.call(rbind, strsplit(dd$g.n, ";"))
+    
+    remain <- merge(remain, subset(dd, select = -g.n), by = c("first", 
+                                                              "middle", "last"))
+    
+    for (n in dd$id) {
+      sub <- subset(remain, id == n)
+      unique.id <- unique(sub$ID.x)
+      if (!sum(is.na(sub$groupID.y)) == nrow(sub)) {
+        groupid <- min(unique(sub$groupID.y), na.rm = TRUE)
       } else {
         groupid <- min(unique.id, na.rm = TRUE)
       }
@@ -108,7 +126,7 @@ authors_match<-function(data, sim_score){
     #p<-1
     matched <- FALSE
     default.frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA, 
-            university = NA, email = NA, f.i = 0, address = NA, country = NA)
+                                university = NA, email = NA, f.i = 0, address = NA, country = NA)
     match1 <- NA
     match2 <- NA
     match3 <- NA
@@ -149,13 +167,6 @@ authors_match<-function(data, sim_score){
                      n.n1$country == name.df$country, ]
     }
     
-<<<<<<< HEAD
-    n.n$groupID[n.n$ID == p] <- groupid
-    n.n$match_name[n.n$ID == p] <- as.character(groupname)
-
-    if (sum(choice) > 0) {
-      n.n$similarity[n.n$ID == p] <- jw_m[choice][1]
-=======
     if (nrow(n.n1) == 0) {
       n.n1 <- default.frame
     }
@@ -179,7 +190,6 @@ authors_match<-function(data, sim_score){
         }
         n.n$groupID[n.n$ID == p] <- groupid
       }
->>>>>>> tmp
     }
     
     # Jaro_winkler
