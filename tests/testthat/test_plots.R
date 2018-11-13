@@ -56,6 +56,8 @@ test_that("Plotting Addresses works", {
   #                     stringsAsFactors=FALSE )
   # plot_net_coauthor(data=df1)
   # vdiffr::expect_doppelganger("test_plot_net_coauthor",plot_net_coauthor(data=df1))
+  e<-plot_net_country(data=df)  
+  vdiffr::expect_doppelganger("test_plot_net_country",e$plot)
 })
   
   
