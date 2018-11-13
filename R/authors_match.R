@@ -179,11 +179,9 @@ for (p in unique.groupid) {
     # match middle initial
     match3 <- !is.na(name.df$m.i) & n.n1$m.i == name.df$m.i
     match4 <- is.na(name.df$address) & n.n1$address == name.df$address
-    # match emails
-    # if(nrow(n.n1)==0){match1<-F;match2<-F;match3<-F}
     if (sum(ifelse(is.na(c(match1, match2, match3, match4)), FALSE, 
                    c(match1, match2, match3, match4))) > 0) {
-      matched <- T
+      matched <- TRUE
       choice <- c(which(match1), which(match2), which(match3), which(match4))
       if (sum(!is.na(n.n1$groupID[choice])) > 0) {
         groupid <- min(n.n1$groupID[choice], na.rm = TRUE)
@@ -211,7 +209,7 @@ for (p in unique.groupid) {
     
     n.n$groupID[n.n$ID == p] <- groupid
     n.n$match_name[n.n$ID == p] <- as.character(groupname)
-    # changeID<-final$authorID[novelids][choice][1]
+
     if (sum(choice) > 0) {
       n.n$similarity[n.n$ID == p] <- jw_m[choice][1]
     }
