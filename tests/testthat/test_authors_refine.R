@@ -96,9 +96,10 @@ df.review<-data.frame("authorID"=c(1,3),
 
   colnames(df.review2) <- colnames(df.review)
 
-  expect_output(authors_refine(df.review2, df.prelim, sim_score=0.88),"Authors data.frame is empty. \n           This likely means there are no authors that need to be handchecked, \n                              outputting the prelim file.")
-  
+actual <- authors_refine(df.review2, df.prelim, sim_score=0.88)
 
-  
+expect_equal(actual$authorID, c(1,2,3))
+expect_equal(nrow(df.prelim),nrow(actual))
+
   
 })
