@@ -60,7 +60,7 @@ test_that("Authors match correctly", {
   actual <- authors_match(df, sim_score = 0.88)
   
   
-  expect_equal(actual$groupID, c(4, 2, 4, 4))
+  expect_equal(actual$groupID, c(1, 2, 1, 1))
   expect_equal(which(!is.na(actual$similarity)), 3)
   expect_gte(min(actual$similarity[!is.na(actual$similarity)]), 0.88)
   
