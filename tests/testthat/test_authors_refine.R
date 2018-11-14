@@ -53,8 +53,10 @@ df.review<-data.frame("authorID"=c(1,3),
                "postal_code"=NA,
                "department"=NA , stringsAsFactors=F )
 
-  actual <-authors_refine(df.review, df.prelim, sim_score=0.88)
+  actual <-authors_refine(df.review, df.prelim, sim_score=0.88,
+                          filename_root = "test")
 
+  expect(file.exists("test_authors_refined.csv"))
   expect_equal(actual$author_name, c("Smith, Jon J.", "Thompson, Bob B.", 
                                      "Smith, Jon J."))
   expect_equal(nrow(df.prelim),nrow(actual))
