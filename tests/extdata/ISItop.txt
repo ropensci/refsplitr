@@ -1,0 +1,59 @@
+FN ISI Export Format VR 1.0 
+
+PT J
+AU Trueman, M
+   Atkinson, R
+   Guezou, A
+   Wurm, P
+AF Trueman, Mandy
+   Atkinson, Rachel
+   Guezou, Anne
+   Wurm, Penny
+TI Residence time and human-mediated propagule pressure at work in the
+   alien flora of Galapagos
+SO BIOLOGICAL INVASIONS
+C1 [Trueman, M; Atkinson, R; Guezou, A] Charles Darwin Fdn, Puerto Ayora, Galapagos, Ecuador.
+   [Trueman, M; Wurm, P] Charles Darwin Univ, Darwin, NT 0909, Australia.
+RP Trueman, M (reprint author), Univ Western Australia, 35 Stirling Highway, Crawley, WA 6009, Australia
+EM mandy.trueman@fcdarwin.org.ec
+TC 2
+Z9 2
+SN 1387-3547
+PD DEC
+PY 2010
+VL 12
+IS 12
+SI SI
+BP 3949
+EP 3960
+DI 10.1007/s10530-010-9822-8
+UT WOS:000286581800004
+ER
+
+PT J
+AU Metz, MR
+   Sousa, WP
+   Valencia, R
+AF Metz, Margaret R.
+   Sousa, Wayne P.
+   Valencia, Renato
+TI Widespread density-dependent seedling mortality promotes species
+   coexistence in a highly diverse Amazonian rain forest
+SO ECOLOGY
+C1 [Metz, MR; Sousa, WP] Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   [Valencia, R] Pontificia Univ Catolica Ecuador, Escuela Ciencias Biol, Lab Ecol Plantas, Quito, Ecuador.
+   [Valencia, R] Pontificia Univ Catolica Ecuador, Escuela Ciencias Biol, Herbario QCA, Quito, Ecuador.
+RP Metz, MR (reprint author), Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA
+EM mrmetz@ucdavis.edu
+TC 1
+Z9 1
+SN 0012-9658
+PD DEC
+PY 2010
+VL 91
+IS 12
+BP 3675
+EP 3685
+DI 10.1890/08-2323.1
+UT WOS:000285635100028
+ER
