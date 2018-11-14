@@ -5,6 +5,7 @@
 #'
 #' @param addresses the addresses
 #' @param ID the authorID
+#' @export authors_address
 authors_address<-function(addresses, ID){
   
 #addresses=final$address; ID=final$authorID

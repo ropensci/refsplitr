@@ -4,7 +4,7 @@
 #'
 #' @param data data inpiut
 #' @param sim_score sim score input
-
+#' @export authors_match
 #' 
 authors_match<-function(data, sim_score){
   
