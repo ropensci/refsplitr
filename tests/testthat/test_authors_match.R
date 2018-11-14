@@ -126,5 +126,45 @@ test_that("Authors match correctly", {
   expect_equal(actual$groupID, c(1,2,2,1))
   expect_equal(which(is.na(actual$similarity)), c(1,2,3,4))
 
+  # if statement line 90
+  
+  df <- data.frame(
+    authorID = 1:7,
+    AF = c("Smith, Jon J.", "Thompson, Bob B.", "Thompson, B. B.", 
+           "Smith, Jon James", "Thompson, Bob B.", "Thompson, B. B.", 
+           "Smith, Jon James"),
+    AU = c("Smith, Jon J.", "Thompson, Bob", "Thompson, B", "Smith, Jon James", 
+           "Thompson, B.", "Thompson, Bob", "Smith, J. J."),
+    EM = c("j.smith@ufl.edu", NA, NA, "j.smith@ufl.edu", NA, NA, 
+           "j.smith@ufl.edu"),
+    RI = NA,
+    OI = NA,
+    university = c("Univ Florida", "University of Texas",
+                   "Louisiana State Univeristy", "University of Florida"
+                   , "University of Texas",
+                   "Louisiana State Univeristy", "University of Florida"),
+    country = "USA",
+    state = c("FL", "TX", "LA", "FL", "TX", "LA", "FL"),
+    postal_code = NA,
+    city = c("Gainesville", "Austin", "Baton Rouge", "Gainesville", 
+             "Austin", "Baton Rouge", "Gainesville"),
+    department = NA,
+    address = c("Univ Florida, Gainesville, FL USA", 
+                "University of Texas, Austin, TX, USA", 
+                "Louisiana State Univeristy, Baton Rouge, LA, USA", 
+                "University Florida, Gainesville, FL USA", 
+                "University of Texas, Austin, TX, USA", 
+                "Louisiana State Univeristy, Baton Rouge, LA, USA", 
+                "University Florida, Gainesville, FL USA"),
+    stringsAsFactors = FALSE
+  )
+  df[] <- lapply(df, as.character)
+  df$authorID <- as.numeric(df$authorID)
+  actual <- authors_match(df, sim_score = 0.88)
+  
+  
+  expect_equal(actual$groupID, c(1,2,3,1,2,3,1))
+  expect_equal(which(is.na(actual$similarity)), c(1,2,3,4,5,6,7))
+  
   
 })
