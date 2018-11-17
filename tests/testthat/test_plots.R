@@ -38,10 +38,7 @@ test_that("Plotting Addresses works", {
                  stringsAsFactors=FALSE )
   a<-ggplot(df, aes(x=lon,y=lat)) +geom_point()
   a
-  ver <- gdtools::version_freetype()
-  print(ver)
-  vdiffr::expect_doppelganger('testplot',ggplot(df, aes(x=lon,y=lat)) +geom_point(),path='tests/figs/',verbose=T)
-  vdiffr::expect_doppelganger('testplot',a)
+  vdiffr::expect_doppelganger('testplot',a,verbose=T)
   
  #  a<-plot_addresses_points(data=df)
  # vdiffr::expect_doppelganger("test_plot_addresses",a)
