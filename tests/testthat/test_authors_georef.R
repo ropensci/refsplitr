@@ -36,6 +36,6 @@ test_that("Geo ref is gathered", {
   
   result<-authors_georef(data=df)
   expect_equal(length(result),3)
-  
-
+  expect_false(any(is.na(result$addresses$lat)))
+  expect_false(any(is.na(result$addresses$lon)))
 })
