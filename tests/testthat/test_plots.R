@@ -49,25 +49,17 @@ test_that("Plotting Addresses works", {
      failedCodes failedCountries
 241 codes from the map weren't represented in your data")
  
+ c<-plot_net_address(data=df)
+ 
+ expect_output(plot_net_address(data=df),regexp='Regions defined for each Polygons')
+ c$data_points$latlon
+ expect_equal(c$data_points$latlon, factor(c("35,-100","51.752,1.2577" ,"39,-80")))
+ expect_equal(length(c$data_polygon$long),12576)
 
- #  c<-plot_net_address(data=df)
- #  vdiffr::expect_doppelganger("test_plot_net_address",c$plot)
-  # At this moment we'cant create the test_plot_net_coauthors in a
-  # way that always shows
-  # the same plot. 
-  # df1<-data.frame("authorID"=c(1,2,3,4,5),
-  # "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy,P','Dummy,L'),      
-  # "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J','Dummy, P','Dummy L'),     
-  #                     "groupID"= c(3,2,3,5,6),      
-  # 
-  #                     "author_order"= c(1,2,1,2,3),
-  #                             
-  #                     "refID"=c(1,1,3,1,3),
-  #                     "UT"=c('test1','test1','test2','test2','test2'),
-  #                    
-  #              "country"=c('USA','United Kingdom',"USA",'Brazil','France'),
-  #                     stringsAsFactors=FALSE )
-  # plot_net_coauthor(data=df1)
+ d<-plot_net_coauthor(data=df)
+ expect_equal(d[1],c("United Kingdom"=0,"USA"=1))
+ expect_equal(d[2],c("United Kingdom"=1,"USA"=0))
+ 
   # vdiffr::expect_doppelganger("test_plot_net_coauthor",
   # plot_net_coauthor(data=df1))
 })

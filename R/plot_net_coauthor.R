@@ -62,6 +62,7 @@ igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
 
 graphics::plot(linkages_countries_net, 
      layout = co)
+return(linkages_countries_net)
 }
 
 ## 	END: net_plot_coauthor():
