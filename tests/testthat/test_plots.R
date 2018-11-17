@@ -36,8 +36,8 @@ test_that("Plotting Addresses works", {
                  "lat"=c(35,51.7520,39),
                  "lon"=c(-100,1.2577,-80),
                  stringsAsFactors=FALSE )
-  
-
+  a<-ggplot(df, aes(x=lon,y=lat)) +geom_point()
+  a
   vdiffr::expect_doppelganger('testplot',ggplot(df, aes(x=lon,y=lat)) +geom_point())
  #  a<-plot_addresses_points(data=df)
  # vdiffr::expect_doppelganger("test_plot_addresses",a)
@@ -67,4 +67,5 @@ test_that("Plotting Addresses works", {
   # plot_net_coauthor(data=df1))
 })
   
+
   
