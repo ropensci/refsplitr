@@ -16,7 +16,6 @@ Imports: maptools,  rworldmap, vdiffr, RecordLinkage, Matrix, igraph, network, s
 RoxygenNote: 6.1.0
 RdMacros: Rdpack
 Remotes: lionel-/vdiffr
-r_github_packages: lionel-/vdiffr
 Suggests: 
     testthat,
     utils,
