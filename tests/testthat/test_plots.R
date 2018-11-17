@@ -3,7 +3,7 @@ context("test plot addresses")
 test_that("Plotting Addresses works", {
   
 
-  #require(ggplot2)
+  require(ggplot2)
   df<-data.frame("authorID"=c(1,2,3),
                  "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J'),          
                  "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J'),          
@@ -36,15 +36,20 @@ test_that("Plotting Addresses works", {
                  "lat"=c(35,51.7520,39),
                  "lon"=c(-100,1.2577,-80),
                  stringsAsFactors=FALSE )
-  a<-ggplot(df, aes(x=lon,y=lat)) +geom_point()
-  b<-a
-  vdiffr::expect_doppelganger("testplot",b,verbose=TRUE)
- #  a<-plot_addresses_points(data=df)
- # vdiffr::expect_doppelganger("test_plot_addresses",a)
- #  
- #  vdiffr::expect_doppelganger("test_plot_country",
- #                              plot_addresses_country(data=df))
- #  
+  #a<-ggplot(df, aes(x=lon,y=lat)) +geom_point()
+  #b<-a
+  #vdiffr::expect_doppelganger("testplot",b,verbose=TRUE)
+  a<-plot_addresses_points(data=df)
+  names(a)
+ expect_equal( a$layers[[1]]$data$lat, c(35.00,51.752,39.00))
+ expect_equal( a$layers[[1]]$data$lon, c(-100.00,1.2577,-80.000))
+ 
+ expect_output(plot_addresses_country(data=df), regexp = "2 codes from your data successfully matched countries in the map
+0 codes from your data failed to match with a country code in the map
+     failedCodes failedCountries
+241 codes from the map weren't represented in your data")
+ 
+
  #  c<-plot_net_address(data=df)
  #  vdiffr::expect_doppelganger("test_plot_net_address",c$plot)
   # At this moment we'cant create the test_plot_net_coauthors in a
