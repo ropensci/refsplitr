@@ -3,7 +3,7 @@ context("test plot addresses")
 test_that("Plotting Addresses works", {
   
 
-  require(ggplot2)
+  #require(ggplot2)
   df<-data.frame("authorID"=c(1,2,3),
                  "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J'),          
                  "AF"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J'),          
