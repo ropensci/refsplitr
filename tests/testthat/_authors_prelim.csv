@@ -1,0 +1,4 @@
+"authorID","AU","AF","groupID","author_order","address","RP_address","RI","OI","EM","refID","TA","SO","UT","PT","PU","PY","university","country","state","postal_code","city","department"
+1,"Smith, Jon J.","Smith, Jon J.",3,1,"Univ Florida, Gainesville, FL USA",NA,"H-9999-2012",NA,"j.smith@ufl.edu","1",NA,NA,NA,NA,NA,NA,"Univ Florida","USA","FL",NA,"Gainesville",NA
+2,"Thompson, Bob","Thompson, Bob B.",2,1,"University of Texas, Austin, TX, USA",NA,"H-2222-2012",NA,NA,"2",NA,NA,NA,NA,NA,NA,"University of Texas","USA","TX",NA,"Austin",NA
+3,"Smith, J","Smith,J",3,1,"Could not be extracted",NA,"H-2769-2012",NA,"jsmith@usgs.gov","3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

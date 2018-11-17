@@ -1,0 +1,3 @@
+"authorID","AU","AF","groupID","match_name","similarity","author_order","university","department","postal_code","country","address","RP_address","RI","OI","EM","UT","refID","PT","PY","PU"
+1,"Smith, Jon J.","Smith, Jon J.",3,"Smith,J",0.883333333333333,1,"Univ Florida",NA,NA,"USA","Univ Florida, Gainesville, FL USA",NA,"H-9999-2012",NA,"j.smith@ufl.edu",NA,"1",NA,NA,NA
+3,"Smith, J","Smith,J",3,"Smith, Jon J.",0.883333333333333,1,NA,NA,NA,NA,"Could not be extracted",NA,"H-2769-2012",NA,"jsmith@usgs.gov",NA,"3",NA,NA,NA
