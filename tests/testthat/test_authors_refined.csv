@@ -1,4 +1,0 @@
-"authorID","groupID","author_name","author_order","address","university","department","postal_code","city","state","country","RP_address","RI","OI","UT","refID","PT","PY","PU"
-1,3,"Smith, Jon J.",1,"Univ Florida, Gainesville, FL USA","Univ Florida",NA,NA,"Gainesville","FL","USA","Univ Florida, Gainesville, FL USA",NA,NA,NA,1,NA,NA,NA
-2,2,"Thompson, Bob B.",1,"University of Texas, Austin, TX, USA","University of Texas",NA,NA,"Austin","TX","USA","University of Texas, Austin, TX, USA",NA,NA,NA,2,NA,NA,NA
-3,3,"Smith, Jon J.",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA
