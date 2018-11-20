@@ -31,21 +31,20 @@ Issues, Feature Requests and Pull Requests Welcome, see here for more details on
 
 ## Contributors
 * [Auriel Fournier](https://github.com/aurielfournier), Porzana Solutions
-* [Forrest Stevens](http://forreststevens.com/teaching/research.html), University of Louisville
 * [Matt Boone](https://github.com/birderboone), Porzana Solutions
+* [Forrest Stevens](http://forreststevens.com/teaching/research.html), University of Louisville
 * [Emilio Bruna](https://github.com/embruna), University of Florida
 
 ## Citation
 
-Auriel M.V. Fournier Developer, Forrest R.
-  Stevens Developer, Matthew E. Boone Developer
-  and Emilio Bruna Developer (2018). refnet:
+Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
+  Stevens Developer and Emilio Bruna Developer (2018). refnet:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
   0.6.
   
     @Manual{,
     title = {refnet: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
-    author = {Auriel M.V. Fournier Developer and Forrest R. Stevens Developer and Matthew E. Boone Developer and Emilio Bruna Developer},
+    author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
   }
