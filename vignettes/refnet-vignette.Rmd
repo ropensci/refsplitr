@@ -245,7 +245,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 ####Example
 
-> `plot_addresses_country <- plot_addresses_country(data, filename_root="./output/example")`
+> `plot_addresses_country <- plot_addresses_country(data)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_addresses_country.png")
@@ -265,7 +265,7 @@ The output of `authors_georef()` is a ggplot object.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
+> `plot_addresses_points <- plot_addresses_points(data)`
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -285,7 +285,7 @@ This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data, filename_root="./output/example")`
+> `plot_addresses_points <- plot_addresses_points(data)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
@@ -310,7 +310,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 ####Example
 
-> `plot_net_country <- plot_net_country(data, filename_root="./output/example")`
+> `plot_net_country <- plot_net_country(data)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_country.png")
@@ -319,20 +319,20 @@ knitr::include_graphics("images/plot_net_country.png")
 **Figure 11:** Network showing how the different countries are connected. 
 
 ####2.4.5. Net Plots (Addresses)
-The `plot_net_addresses()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
+The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
 
 The function has one argument:  
 
 - **data**: This is the output from `authors_georef()`. Must be an object.
 
-The output of `plot_net_addresses()` is an list. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_address()` is an list. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines. 
 2. The `$data_polygon` element contains the data for the country outlines.  
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
-> `plot_net_addresses <- plot_net_addresses(data, filename_root="./output/example")`
+> `plot_net_address <- plot_net_address(data)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_address.png")
