@@ -45,3 +45,5 @@ expect(file.exists("_authors_prelim.csv"))
 expect(file.exists("_authors_review.csv"))
 })
 
+unlink("_authors_prelim.csv")
+unlink("_authors_review.csv")

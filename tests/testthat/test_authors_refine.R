@@ -105,3 +105,5 @@ expect_equal(nrow(df.prelim),nrow(actual))
 
   
 })
+
+unlink("test_authors_refined.csv")
