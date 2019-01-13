@@ -65,7 +65,7 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 a. To import and process a single file located in a folder named "data" and save the output as a file named "example_references" in the "output" folder: 
 
 ```r
-example_refs <- references_read(data = './data/example_data.txr',
+example_refs <- references_read(data = './data/example_data.txt',
                                     dir = F, 
                                     filename_root = './output/example')
 ```
@@ -75,13 +75,16 @@ b. To import and process multiple files located in a folder named "data" and sav
 ```r 
 example_refs <- references_read(data = './data', 
                                       dir = T, 
-                                filename_root = './output/example',)
+                                filename_root = './output/example')
 ```
 
 c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
 
-> `"./newpath/newprefix".`
-
+```r
+example_refs <- references_read(data = './data', 
+                                      dir = T, 
+                                filename_root = "./newpath/newprefix")`
+```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/references_read.png")
@@ -143,7 +146,7 @@ example_a_refined <- authors_refine(example_a_clean$review,
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the "authors" object and .csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 2).
+Users that prefer to manually review the results of the disambiguation can do so with the output from `authors_refine` and _review.csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 3).
 
 - **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the unique author with the value from that person's **authorID** column. *Be sure to use the authorID value from the same row.* 
 
@@ -177,7 +180,7 @@ knitr::include_graphics("images/corrected_review.png")
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
-Corrections made to the "review" file are merged into the "preview" file using the `authors_refine()` function. It has four arguments:  
+Corrections made to the "review" file are merged into the "prelim" file using the `authors_refine()` function. It has four arguments:  
  
 - **corrected**: The corrected version of the "review" object. Must be an object. So read in the the corrected .csv file before using this function.
 
@@ -383,7 +386,7 @@ knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in th
 ```
 
 
-^1^the following Web of Science data fields are only included if users select the `all.fields=T` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
+^1^the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 
 ^2^Includes sitations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 
