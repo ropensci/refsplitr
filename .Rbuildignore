@@ -1,3 +1,4 @@
+^missing_addresses\.csv$
 ^appveyor\.yml$
 ^codecov\.yml$
 ^CONTRIBUTING\.md$
