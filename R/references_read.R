@@ -19,81 +19,77 @@
 #' 
 references_read <- function(data = ".", dir = TRUE, filename_root = "", 
                             include_all=FALSE) {
-
-  ## 	NOTE: The fields stored in our output table are a combination of the
-  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
-  ## 		Format" both of which are version 1.0:
+ ## 	NOTE: The fields stored in our output table are a combination of the
+ ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
+ ## 		Format" both of which are version 1.0:
   output <- data.frame(
-    "filename" = character(0),
-    "AB" = character(0),
-    "AF" = character(0),
-    "AU" = character(0),
-    "BP" = character(0),
-    "C1" = character(0),
-    "CC" = character(0),
-    "CH" = character(0),
-    "CL" = character(0),
-    "CR" = character(0),
-    "CT" = character(0),
-    "CY" = character(0),
-    "DE" = character(0),
-    "DI" = character(0),
-    "DT" = character(0),
-    # 	"EF" = character(0),	##	End file
-    "EM" = character(0),
-    "EP" = character(0),
-    # 	"ER" = character(0),	##	End record
-    "FN" = character(0),
-    "FU" = character(0),
-    "FX" = character(0),
-    "GA" = character(0),
-    "GE" = character(0),
-    "ID" = character(0),
-    "IS" = character(0),
-    "J9" = character(0),
-    "JI" = character(0),
-    "LA" = character(0),
-    "LT" = character(0),
-    "MC" = character(0),
-    "MI" = character(0),
-    "NR" = character(0),
-    "PA" = character(0),
-    "PD" = character(0),
-    "PG" = character(0),
-    "PI" = character(0),
-    "PN" = character(0),
-    "PS" = character(0),
-    "PT" = character(0),
-    "PU" = character(0),
-    "PY" = character(0),
-    "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
-    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID 
-    # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
-    "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
-    "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
-    "RP" = character(0),
-    "SC" = character(0),
-    "SI" = character(0),
-    "SN" = character(0),
-    "SO" = character(0),
-    "SU" = character(0),
-    "TA" = character(0),
-    "TC" = character(0),
-    "TI" = character(0),
-    "UT" = character(0),
-    "VR" = character(0),
-    "VL" = character(0),
-    "WC" = character(0),
-    "Z9" = character(0),
-
-    stringsAsFactors = FALSE
+  "filename" = character(0),
+  "AB" = character(0),
+  "AF" = character(0),
+  "AU" = character(0),
+  "BP" = character(0),
+  "C1" = character(0),
+  "CC" = character(0),
+  "CH" = character(0),
+  "CL" = character(0),
+  "CR" = character(0),
+  "CT" = character(0),
+  "CY" = character(0),
+  "DE" = character(0),
+  "DI" = character(0),
+  "DT" = character(0),
+  # 	"EF" = character(0),	##	End file
+  "EM" = character(0),
+  "EP" = character(0),
+  # 	"ER" = character(0),	##	End record
+  "FN" = character(0),
+  "FU" = character(0),
+  "FX" = character(0),
+  "GA" = character(0),
+  "GE" = character(0),
+  "ID" = character(0),
+  "IS" = character(0),
+  "J9" = character(0),
+  "JI" = character(0),
+  "LA" = character(0),
+  "LT" = character(0),
+  "MC" = character(0),
+  "MI" = character(0),
+  "NR" = character(0),
+  "PA" = character(0),
+  "PD" = character(0),
+  "PG" = character(0),
+  "PI" = character(0),
+  "PN" = character(0),
+  "PS" = character(0),
+  "PT" = character(0),
+  "PU" = character(0),
+  "PY" = character(0),
+  "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
+  "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID
+  # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
+  "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
+  "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
+  "RP" = character(0),
+  "SC" = character(0),
+  "SI" = character(0),
+  "SN" = character(0),
+  "SO" = character(0),
+  "SU" = character(0),
+  "TA" = character(0),
+  "TC" = character(0),
+  "TI" = character(0),
+  "UT" = character(0),
+  "VR" = character(0),
+  "VL" = character(0),
+  "WC" = character(0),
+  "Z9" = character(0),
+  stringsAsFactors = FALSE
   )
-
 
   ## 	This is an index for the current record, it gets iterated for each 
   # record we advance through:
   i <- 1
-
   if (dir) {
     file_list <- dir(path = data)
   } else {
@@ -106,9 +102,9 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
   if (length(file_list) == 0) {
     # close(in_file)
     stop("ERROR:  The specified file or directory does not contain any 
-         Web of Knowledge or ISI Export Format records!")
+          Web of Knowledge or ISI Export Format records!")
   }
-  print("Now processing all references files")
+  message("Now processing all references files")
   filename <- file_list[1]
   counter <- 1
   for (filename in file_list) {
@@ -192,14 +188,15 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
         if (field %in% names(output)) {
           output[i, field] <- ""
 
-          output[i, field] <- paste(output[i, field],
-            line_text, "\n",
-            sep = ""
-          )
+          
+          output[i, field] <-trimws(ifelse(length(line_text)==1, paste(output[i, field],
+                                                                       line_text,
+                                                                       sep = "\n"
+          )),'both')
         }
       }
     } else {
-      print("WARNING:  Nothing contained in the specified file!")
+      message("WARNING:  Nothing contained in the specified file!")
 
       utils::flush.console()
       break
@@ -228,10 +225,10 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
       ## 	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
   ## 	... if it is then append this line's data to the field in our output:
-        output[i, field] <- paste(output[i, field],
-          line_text, "\n",
-          sep = ""
-        )
+        output[i, field] <- trimws(ifelse(length(line_text)==1, paste(output[i, field],
+                                                                      line_text,
+                                                                      sep = "\n"
+        )),'both')
         # output[i, field] <- paste(output[i, field], line_text, sep=" ")
       }
 
@@ -268,19 +265,21 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
   # complicating the program
   # email list
   # We can add to this section as we find things that need to be fixed
-  output$EM <- gsub(" ", "", output$EM)
+
+  #output$EM <- gsub(" ", "", output$EM)
 
   output$EM <- gsub(";", "\n", output$EM)
 
-  output$RI <- gsub(" ", "", output$RI, fixed = TRUE)
+  #output$RI <- gsub(" ", "", output$RI, fixed = TRUE)
 
   output$RI <- gsub("\n", "", output$RI, fixed = TRUE)
 
   output$RI <- gsub("; ", ";", output$RI, fixed = TRUE)
+  output$RI[!grepl('/',output$RI)]<-NA #This fixes a problem where in earlier WOS pulls RI is stored as RID with no name associated
 
-  output$RI <- trimws(output$RI, which = "both")
+  #output$RI <- trimws(output$RI, which = "both")
 
-  output$OI <- gsub(" ", "", output$OI, fixed = TRUE)
+  #output$OI <- gsub(" ", "", output$OI, fixed = TRUE)
 
   output$OI <- gsub("\n", "", output$OI, fixed = TRUE)
 

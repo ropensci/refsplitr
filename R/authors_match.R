@@ -248,6 +248,7 @@ authors_match<-function(data, sim_score){
     # check first names
     # including the NAs
     fi.check <- unique(sub$f.i)
+    newfi<-NA
     if (length(fi.check) > 1) {
       newfi <- fi.check[2:length(fi.check)]
       newGroupID <- vapply(newfi, function(x) sub$ID[sub$f.i == x][1],numeric(1))
@@ -263,7 +264,7 @@ authors_match<-function(data, sim_score){
     mi.check <- unique(paste(sub$f.i, sub$m.i))
     if (length(mi.check) > 1) {
       newmi <- mi.check[2:length(mi.check)]
-      newGroupID1 <- vapply(newmi, function(x) sub$ID[sub$f.i == substr(x, 1, 1) &
+      newGroupID <- vapply(newmi, function(x) sub$ID[sub$f.i == substr(x, 1, 1) &
                                                         sub$m.i == substr(x, 3, 3)][1],
                             numeric(1))
       for (q in seq_len(length(newfi))) {

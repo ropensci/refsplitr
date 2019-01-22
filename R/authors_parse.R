@@ -13,7 +13,7 @@ authors_parse<-function(references){
   for (ref in seq_along(references$refID)) {
     #ref<-1
     if (ref == 1) {
-      print("Splitting author records")
+      message("Splitting author records")
     }
     
     # Split out authors and author emails
@@ -81,7 +81,7 @@ authors_parse<-function(references){
     
     # RI
     RI <- unlist(strsplit(references[ref, ]$RI, ";"))
-    if (sum(is.na(RI)) == 0) {
+    if (!any(is.na(RI))) {
       RI_check<-strsplit(RI, "/")
       
       RI_df <- as.data.frame(do.call(rbind, RI_check[vapply(RI_check,length,
