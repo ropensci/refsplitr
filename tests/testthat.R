@@ -1,5 +1,5 @@
 library(testthat)
-library(refnet)
+library(refsplitr)
 library(vdiffr)
 library(ggplot2)
-test_check("refnet")
+test_check("refsplitr")

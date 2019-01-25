@@ -1,6 +1,6 @@
 # refsplitr <img src="man/figures/refnethex.png" height="200" align="right">
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/embruna/refnet/badge.svg?branch=master)](https://coveralls.io/github/embruna/refnet?branch=master)
+[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Travis-CI Build Status](https://travis-ci.org/embruna/refnet.svg?branch=master)](https://travis-ci.org/embruna/refnet)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/embruna/refnet/badge.svg?branch=master)](https://coveralls.io/github/embruna/refnet?branch=master)
 
 refsplitr: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
@@ -14,7 +14,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("embruna/refnet")
+devtools::install_github("embruna/refsplitr")
 ```
 
 ## Workflow
@@ -26,7 +26,7 @@ authors_refine()
 authors_georef()
 ```
 
-Issues, Feature Requests and Pull Requests Welcome, see here for more details on [how to contribute](https://github.com/embruna/refnet/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refnet/blob/master/CODE_OF_CONDUCT.md). 
+Issues, Feature Requests and Pull Requests Welcome, see here for more details on [how to contribute](https://github.com/embruna/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
 
 
 ## Contributors
@@ -38,12 +38,12 @@ Issues, Feature Requests and Pull Requests Welcome, see here for more details on
 ## Citation
 
 Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
-  Stevens Developer and Emilio Bruna Developer (2018). refnet:
+  Stevens Developer and Emilio Bruna Developer (2018). refsplitr:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
   0.6.
   
     @Manual{,
-    title = {refnet: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
+    title = {refsplitr: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
     author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
