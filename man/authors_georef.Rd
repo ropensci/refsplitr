@@ -2,31 +2,28 @@
 % Please edit documentation in R/authors_georef.R
 \name{authors_georef}
 \alias{authors_georef}
-\title{Extracts the lat and long for each address}
+\title{Extracts the lat and long for each address from authors_clean}
 \usage{
-authors_georef(data, address_column = "address", filename_root = "",
-  write_out_missing = TRUE, retry_limit = 10)
+authors_georef(data, address_column = "address")
 }
 \arguments{
 \item{data}{dataframe from `authors_refine()`}
 
 \item{address_column}{name of column in quotes where the addresses are}
-
-\item{filename_root}{the filename root, can include relative or absolute}
-
-\item{write_out_missing}{TRUE or FALSE, do you want a .csv file written 
-out that has all the entries where we could not determine the lat/long?
-  path, to which "_addresses.csv" will be appended and the output from the
-  function will be saved}
-
-\item{retry_limit}{the amount of times you want to retry querying the 
-remaining addresses through the google api. We recommend doing it 
-multiple times to bypass common errors querying the google api when its busy.}
 }
 \description{
 \code{authors_georef} This function takes the final author list from 
 refine_authors, and calculates the lat long of the addresses. 
-It does this by feeding the addresses into data science toolkit and 
-then googles api. The output is a data.frame of all information from 
+It does this by feeding the addresses into data science toolkit. 
+In order to maximize effectiveness and mitigate errors in parsing addresses
+We run this multiple times creating addresses in different ways
+in hopes that the data science toolkit can recognize an address
+1st. University, city, zipcode, country
+2nd. City, zipcode, country
+3rd. city, country
+4th. University, country
+}
+\details{
+The output is a data.frame of all information from 
 refine_authors plus new location columns and calculated lat longs.
 }

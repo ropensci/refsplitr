@@ -2,22 +2,26 @@
 % Please edit documentation in R/authors_clean.R
 \name{authors_clean}
 \alias{authors_clean}
-\title{Extracts the lat and long for each address}
+\title{Seperates author information in references files from \code{references_read}}
 \usage{
-authors_clean(references, sim_score = 0.88, filename_root = "./",
-  write_out_data = FALSE)
+authors_clean(references, sim_score = 0.88)
 }
 \arguments{
-\item{references}{output from `references_read()`}
+\item{references}{output from \code{references_read}}
 
-\item{sim_score}{default is 0.88}
-
-\item{filename_root}{the filename root, can include relative or absolute}
-
-\item{write_out_data}{TRUE or FALSE, do you want a .csv file written out?}
+\item{sim_score}{Jaro-winkler similarity cut off, default is 0.88.}
 }
 \description{
-\code{authors_clean} This function takes the output from `references_read()` and cleans the author information.
+\code{authors_clean} This function takes the output from \code{references_read} and cleans the author information.
+Information on addresses, emails, ORCIDs, etc are matched.
+It then attempts to match same author entries together into likely author groups based on common full names, addresses, emails, ORCIDs etc.
+}
+\details{
+Records that are not matched this way have a jaro winkler similiarty analysis metric calculated
+for all possible matching author names.
+This calculates the amount of character similarities based on distance of similar character.
+You can set a similarity score cut off 0 to 1.0 (default is 0.88), higher numbers are more conservative. 
+Numbers below 0.75 are very unlikely to be similar, and we do not recommend using.
 }
 \examples{
  references <-data.frame(filename=NA, AB=NA,
@@ -32,6 +36,8 @@ authors_clean(references, sim_score = 0.88, filename_root = "./",
  "University of Texas, Austin, TX, USA",NA), 
  SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, 
  WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=FALSE)
+ 
  references[]<-lapply(references, as.character)
+ 
  authors_clean(references=references)
 }

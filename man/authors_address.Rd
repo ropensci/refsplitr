@@ -2,7 +2,8 @@
 % Please edit documentation in R/authors_address.R
 \name{authors_address}
 \alias{authors_address}
-\title{Parses out address information and splits it into its respective parts.}
+\title{Parses out address information and splits it into its respective parts.
+This is an internal function used by \code{authors_clean}}
 \usage{
 authors_address(addresses, ID)
 }
@@ -13,5 +14,6 @@ authors_address(addresses, ID)
 }
 \description{
 \code{authors_address} This function takes the output from 
-`references_read()` and cleans the author information.
+\code{references_read} and pulls out address information. Splitting it into
+university, department, city, state, etc.
 }

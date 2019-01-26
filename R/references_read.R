@@ -1,26 +1,19 @@
-#####
-## 	BEGIN: references_read():
-#' Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files
+#' Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files (.txt and .ciw)
 #'
 #' \code{references_read} This function reads Thomson Reuters Web of Knowledge
-#' and ISI format reference data files into an R friendly data format and can
-#' optionally write the converted data to a friendly CSV format.
+#' and ISI format reference data files into an R friendly data format.
 #'
 #' @param data either a directory, used in conjuction with dir=TRUE, or a file
-#'   name to load
+#'   name to load.
 #' @param dir if TRUE then data is assumed to be a directory name from which all
 #'   files will be read, but if FALSE then data is assumed to be a single file
 #'   to read, defaults to TRUE
-#' @param filename_root the filename root, can include relative or absolute
-#'   path, to which "_references.csv" will be appended and the output from the
-#'   function will be saved
 #' @param include_all should all columns be included, or just the most commonly recorded. 
-#'  default=FALSE
+#'  default=FALSE.
 #'  the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 #' @export references_read
 #' 
-references_read <- function(data = ".", dir = TRUE, filename_root = "", 
-                            include_all=FALSE) {
+references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
  ## 	NOTE: The fields stored in our output table are a combination of the
  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
  ## 		Format" both of which are version 1.0:
@@ -89,7 +82,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
   stringsAsFactors = FALSE
   )
 
-  ## 	This is an index for the current record, it gets iterated for each 
+  ## 	This is an index for the current record, it gets iterated for each
   # record we advance through:
   i <- 1
   if (dir) {
@@ -102,8 +95,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
   file_list <- file_list[ grep(".ciw|.txt", file_list) ]
 
   if (length(file_list) == 0) {
-    # close(in_file)
-    stop("ERROR:  The specified file or directory does not contain any 
+    stop("ERROR:  The specified file or directory does not contain any
           Web of Knowledge or ISI Export Format records!")
   }
   message("Now processing all references files")
@@ -131,32 +123,20 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
 
     if (length(read_line) > 0) {
 
-      ## 	NOTE: The above is inconsistent across files and download
-      ## 		types, so we could try the following:
-      # read_line <- enc2native(read_line)
-
-      ## 	The enc2native() function doesn't work all the time either,
-      ## 		so we'll have to strip the leading text.  To strip the leading
-      ## 		characters from the line we can't just pull white space as the
-      ## 		BOM will cause us problems for certain formatted files, so
-      ## 		we'll use a regular expression to just pull the line after
-      ## 		eliminating the preceding non-capital letters:
       read_line <- gsub("^[^A-Z]*([A-Z]+)(.*)$", "\\1\\2", read_line)
 
 
-      ## 	Strip the first two characters from the text line, 
+      ## 	Strip the first two characters from the text line,
       # skip the third (should be a space) and store the rest:
       pre_text <- substr(read_line, 1, 2)
       line_text <- substr(read_line, 4, nchar(read_line))
 
       if (pre_text != "FN") {
         close(in_file)
-
-        stop(
-          "ERROR:  The file ", filename, " doesn't appear to be a valid 
+        message(paste0("ERROR:  The file ", filename, " doesn't appear to be a valid
       ISI or Thomson Reuters reference library file!\n\nThe first line is:\n",
-          pre_text, " ", line_text
-        )
+                       pre_text, " ", line_text))
+        stop('Ending references_read...')
       }
 
       ## 	Check to see if this is a "ISI Export Format" file, in which
@@ -189,12 +169,9 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
         field <- pre_text
         if (field %in% names(output)) {
           output[i, field] <- ""
-
-          
-          output[i, field] <-trimws(ifelse(length(line_text)==1, paste(output[i, field],
-                                                                       line_text,
-                                                                       sep = "\n"
-          )),'both')
+          output[i, field] <- trimws(ifelse(length(line_text) == 1,
+                                    paste(output[i, field], line_text,
+                                    sep = "\n")), "both")
         }
       }
     } else {
@@ -206,7 +183,7 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
 
 
     ## 	Process the remaining lines in the file (see the note above about
-    ## 		the encoding= flag and necessity for it, but why we didn't use it:
+    ## 		the encoding= flag and necessity for it, but why we didn't use it):
     while (length(read_line <- readLines(in_file, n = 1, warn = FALSE)) > 0) {
       ## 	Strip the first three characters from the text line:
       pre_text <- substr(read_line, 1, 2)
@@ -227,23 +204,21 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
       ## 	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
   ## 	... if it is then append this line's data to the field in our output:
-        output[i, field] <- trimws(ifelse(length(line_text)==1, paste(output[i, field],
-                                                                      line_text,
-                                                                      sep = "\n"
-        )),'both')
-        # output[i, field] <- paste(output[i, field], line_text, sep=" ")
+
+        output[i, field] <- trimws(ifelse(length(line_text) == 1,
+                              paste(output[i, field], line_text, sep = "\n"
+        )), "both")
       }
 
-
-      ## 	If this is the end of a record then add any per-record items and
-      ## 		advance our row:
+      # 	If this is the end of a record then add any per-record items and
+      # 		advance our row:
       if (field == "ER") {
         output[i, "filename"] <- filename
 
         ## 	These fields are not repeated for every record, so we set them
         ## 		from the first record where they were recorded:
-        output[i, "FN"] <- output[1, "FN"]
 
+        output[i, "FN"] <- output[1, "FN"]
         output[i, "VR"] <- output[1, "VR"]
 
         i <- i + 1
@@ -261,76 +236,43 @@ references_read <- function(data = ".", dir = TRUE, filename_root = "",
   }
   ############################################## 3
   # Post Processing
-  # We need to clean this file, remove trailing spaces where necessary on 
-  # important sections
-  # I moved this over from the Author code as it was unecessarily 
-  # complicating the program
-  # email list
-  # We can add to this section as we find things that need to be fixed
-
-  #output$EM <- gsub(" ", "", output$EM)
-
-  output$EM <- gsub(";", "\n", output$EM)
-
-  #output$RI <- gsub(" ", "", output$RI, fixed = TRUE)
+  # We need to clean this file, page breaks are inserted in the raw file
+  # These are problematic because they mean
+  # different things for different fields
 
   output$RI <- gsub("\n", "", output$RI, fixed = TRUE)
-
   output$RI <- gsub("; ", ";", output$RI, fixed = TRUE)
-  output$RI[!grepl('/',output$RI)]<-NA #This fixes a problem where in earlier WOS pulls RI is stored as RID with no name associated
-
-  #output$RI <- trimws(output$RI, which = "both")
-
-  #output$OI <- gsub(" ", "", output$OI, fixed = TRUE)
-
+  #This fixes a problem where in earlier WOS pulls RI is stored
+  # as RID with no name associated
+  output$RI[!grepl("/", output$RI)] < -NA
   output$OI <- gsub("\n", "", output$OI, fixed = TRUE)
-
   output$OI <- gsub("; ", ";", output$OI, fixed = TRUE)
-
   output$PY <- gsub("\n", "", output$PY, fixed = TRUE)
-
   output$C1 <- gsub("\n", "/", output$C1, fixed = TRUE)
-
-  output$AF[is.na(output$AF)] <- output$AU[is.na(output$AF)] 
-  
-  output$refID <- seq_len(nrow(output)) 
+  output$AF[is.na(output$AF)] <- output$AU[is.na(output$AF)]
+  output$refID <- seq_len(nrow(output))
 
   # now done in base R, runs slower
-  dupe_output <- do.call(rbind, lapply(unique(output$UT), 
+  dupe_output <- do.call(rbind, lapply(unique(output$UT),
                                   function(x) output[output$UT == x, ][1, ]))
-  
-
-  
   ############################################
-  if (filename_root != "") {
-    utils::write.csv(dupe_output,
-      file = paste(filename_root,
-        "_references.csv",
-        sep = ""
-      ),
-      row.names = FALSE
-    )
-  }
+  # Prepare for printing
 
-  if(include_all==TRUE){
+  if ( include_all == TRUE ){
     return(dupe_output)
   }
-  
-  if(include_all!=TRUE){
 
-  dropnames <- c("CC","CH","CL","CT","CY",
-                 "DT","FX","GA","GE","ID",
-                 "IS","J9","JI","LA","LT",
-                 "MC","MI",'NR',"PA","PI",
-                 "PN","PS","RID","SI","SU",
-                 "TA","VR")
-    
-  rdo <- dupe_output[,!(names(dupe_output) %in% dropnames)]  
-    
-  return(rdo)}
-  
+  if ( include_all != TRUE ){
+
+  dropnames <- c("CC", "CH", "CL", "CT", "CY",
+                 "DT", "FX", "GA", "GE", "ID",
+                 "IS", "J9", "JI", "LA", "LT",
+                 "MC", "MI", "NR", "PA", "PI",
+                 "PN", "PS", "RID", "SI", "SU",
+                 "TA", "VR")
+
+  rdo <- dupe_output[, !(names(dupe_output) %in% dropnames) ]
+
+  return(rdo)
+  }
 }
-
-## 	END: read_references():
-##################################################
-##################################################

@@ -1,139 +1,154 @@
 #' Parses out address information and splits it into its respective parts.
-#'
+#' This is an internal function used by \code{authors_clean}
+#' 
 #' \code{authors_address} This function takes the output from 
-#' `references_read()` and cleans the author information.
-#'
+#' \code{references_read} and pulls out address information. Splitting it into
+#' university, department, city, state, etc. 
 #' @param addresses the addresses
 #' @param ID the authorID
-#' @export authors_address
-authors_address<-function(addresses, ID){
-  
-#addresses=final$address; ID=final$authorID
-list.address <- strsplit(addresses, ",")
-university.list <- vapply(list.address, function(x) x[1],character(1))
-country.list <- vapply(list.address, function(x) gsub("\\.", "", x[length(x)]),
+#' 
+authors_address <- function(addresses, ID){
+message('Splitting addresses\n')
+
+list_address <- strsplit(addresses, ",")
+university_list <- vapply(list_address, function(x) x[1], character(1))
+country_list <- vapply(list_address, function(x) gsub("\\_", "", x[length(x)]),
                        character(1))
-country.list <- trimws(country.list, which = "both")
-pc.list <- trimws(substr(country.list, 1, (vapply(regexpr("USA", 
-            country.list), function(x) x[1],numeric(1))) - 1), which = "right")
-state.list <- pc.list
+country_list <- trimws(country_list, which = "both")
+pc_list <- trimws(substr(country_list, 1, (vapply(regexpr("USA",
+            country_list), function(x) x[1], numeric(1))) - 1), which = "right")
+state_list <- pc_list
 
-state.list[nchar(state.list) > 0] <- regmatches(state.list[nchar(state.list)>0], 
-  regexpr("[[:upper:]]{2}", state.list[nchar(state.list) > 0]))
+state_list[nchar(state_list) > 0] <- regmatches(
+  state_list[nchar(state_list) > 0],
+  regexpr("[[:upper:]]{2}", state_list[nchar(state_list) > 0])
+  )
 
-pc.list[nchar(pc.list) > 2] <- regmatches(pc.list[nchar(pc.list) > 2], 
-      regexpr("[[:digit:]]{5}", pc.list[nchar(pc.list) > 2]))
-pc.list[nchar(pc.list) < 3] <- ""
-country.list <- ifelse(grepl("USA", country.list), "USA", country.list)
+pc_list[nchar(pc_list) > 2] <- regmatches(pc_list[nchar(pc_list) > 2],
+      regexpr("[[:digit:]]{5}", pc_list[nchar(pc_list) > 2]))
+pc_list[nchar(pc_list) < 3] <- ""
+country_list <- ifelse(grepl("USA", country_list), "USA", country_list)
 
-list.address1 <- lapply(list.address, function(x) x[-c(1, length(x))])
+list_address1 <- lapply(list_address, function(x) x[-c(1, length(x))])
 
+# Because formats of address printing is different across platforms
+# We are going to split using a tier system assuming first and last
+# info is somewhat reliable and guess the other info from the
+# remaining position of the info
 
-second.tier.list <- lapply(list.address1, function(x) x[length(x)])
-second.tier.list <- trimws(second.tier.list, which = "both")
-second.tier.list[second.tier.list == "character(0)"] <- NA
+second_tier_list <- lapply(list_address1, function(x) x[length(x)])
+second_tier_list <- trimws(second_tier_list, which = "both")
+second_tier_list[second_tier_list == "character(0)"] <- NA
 
-list.address2 <- lapply(list.address1, function(x) x[-c(length(x))])
+list_address2 <- lapply(list_address1, function(x) x[-c(length(x))])
 
-third.tier.list <- lapply(list.address2, function(x) x[length(x)])
-third.tier.list <- trimws(third.tier.list, which = "both")
-third.tier.list[third.tier.list == "character(0)"] <- NA
+third_tier_list <- lapply(list_address2, function(x) x[length(x)])
+third_tier_list <- trimws(third_tier_list, which = "both")
+third_tier_list[third_tier_list == "character(0)"] <- NA
 
-remain.list <- lapply(list.address2, function(x) x[-c(length(x))][1])
-remain.list <- trimws(remain.list, which = "both")
-remain.list[remain.list == "character(0)"] <- NA
+# All remaining info is just shoved in this category
+remain_list <- lapply(list_address2, function(x) x[-c(length(x))][1])
+remain_list <- trimws(remain_list, which = "both")
+remain_list[remain_list == "character(0)"] <- NA
 
-a.df <- data.frame(adID = ID, university = university.list, 
-                         country = country.list,
-                         state = state.list, postal_code = pc.list, city = NA,
-                         department = NA, second.tier = second.tier.list,
-                         third.tier = third.tier.list,
-                         remain = remain.list, address = addresses, 
+a_df <- data.frame(adID = ID, university = university_list,
+                         country = country_list,
+                         state = state_list, postal_code = pc_list, city = NA,
+                         department = NA, second_tier = second_tier_list,
+                         third_tier = third_tier_list,
+                         remain = remain_list, address = addresses,
                          stringsAsFactors = FALSE)
 
-# try to fix the USA spots
-a.df$city[nchar(a.df$state) > 0] <- a.df$second.tier[nchar(a.df$state) > 0]
-a.df$state[nchar(a.df$state) == 0] <- NA
-a.df$postal_code[nchar(a.df$postal_code) == 0] <- NA
-a.df$department[!is.na(a.df$state) & !is.na(a.df$postal_code)&
-  !is.na(a.df$state)] <- a.df$third.tier[!is.na(a.df$state) & 
-  !is.na(a.df$postal_code) & !is.na(a.df$state)]
-# a.df$adID<-1:nrow(a.df)
+# try to fix the USA spots, which vary in format than other countries
+a_df$city[nchar(a_df$state) > 0] <- a_df$second_tier[nchar(a_df$state) > 0]
+a_df$state[nchar(a_df$state) == 0] <- NA
+a_df$postal_code[nchar(a_df$postal_code) == 0] <- NA
+a_df$department[!is.na(a_df$state) & !is.na(a_df$postal_code) &
+  !is.na(a_df$state)] <- a_df$third_tier[!is.na(a_df$state) &
+  !is.na(a_df$postal_code) & !is.na(a_df$state)]
+
 ##########################
-# reg expression postal_code search
+# We'll use regular expression to pull zipcodes
+# These formats differ by region
 int <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}|[[:space:]][[:upper:]][[:digit:]][[:upper:]][[:space:]][[:digit:]][[:upper:]][[:digit:]]|[[:alpha:]][[:punct:]][[:digit:]]{4,7}|[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
 
-UK<-"[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
+UK <- "[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
 
-# SO14 3ZH
-# L69 7ZB
-# NR33 OHT
 Mexico <- "[[:space:]]{1}[[:digit:]]{5}" # technically US as well
 
-zip.search <- paste0(int, "|", UK, "|", Mexico)
+zip_search <- paste0(int, "|", UK, "|", Mexico)
 
 ###########################
-id.run <- a.df$adID[is.na(a.df$state) & is.na(a.df$postal_code) & 
-                      a.df$address != "Could not be extracted"]
+id_run <- a_df$adID[is.na(a_df$state) & is.na(a_df$postal_code) &
+                      a_df$address != "Could not be extracted"]
 ###########################
 
-
-for (i in id.run) {
-  # i<-13998
+# We now iteratively run through the addresses using the concept that
+# certain information always exists next to each other.
+# Ex. city, state, country tend to exist next to each other.
+# We use the position of the zipcode also to help guide us
+# in where the information lies as well as how many fields were
+# given to us.
+for (i in id_run) {
   found <- FALSE
-  row <- which(a.df$adID == i)
-  second.tier <- a.df$second.tier[row]
-  third.tier <- a.df$third.tier[row]
-  remain <- a.df$remain[row]
+  row <- which(a_df$adID == i)
+  second_tier <- a_df$second_tier[row]
+  third_tier <- a_df$third_tier[row]
+  remain <- a_df$remain[row]
   city <- NA
   state <- NA
   postal_code <- NA
   department <- NA
-  grepl(zip.search, second.tier)
-  grepl(zip.search, third.tier)
+  grepl(zip_search, second_tier)
+  grepl(zip_search, third_tier)
   # 2nd tier
-  if (grepl(zip.search, second.tier)) {
+  if (grepl(zip_search, second_tier)) {
     found <- TRUE
-    postal_code <- regmatches(second.tier, regexpr(zip.search, second.tier))
-    city <- gsub(zip.search, "", second.tier)
-    department <- ifelse(is.na(remain), third.tier, remain)
+    postal_code <- regmatches(second_tier, regexpr(zip_search, second_tier))
+    city <- gsub(zip_search, "", second_tier)
+    department <- ifelse(is.na(remain), third_tier, remain)
   }
-  
-  
-  if (grepl(zip.search, third.tier) & !found) {
+  # 3RD tiers
+  if (grepl(zip_search, third_tier) & !found) {
     found <- TRUE
-    postal_code <- regmatches(third.tier, regexpr(zip.search, third.tier))
-    city <- gsub(zip.search, "", third.tier)
-    state <- second.tier
+    postal_code <- regmatches(third_tier, regexpr(zip_search, third_tier))
+    city <- gsub(zip_search, "", third_tier)
+    state <- second_tier
     department <- remain
   }
-  
+
   if (!found) {
-    state <- second.tier
-    city <- third.tier
+    state <- second_tier
+    city <- third_tier
     department <- remain
   }
-  a.df$city[row] <- gsub("[[:digit:]]", "", city)
-  a.df$state[row] <- gsub("[[:digit:]]", "", state)
-  a.df$postal_code[row] <- postal_code
-  a.df$department[row] <- department
-  ############################### Clock########################################
-  total <- length(id.run)
+  a_df$city[row] <- gsub("[[:digit:]]", "", city)
+  a_df$state[row] <- gsub("[[:digit:]]", "", state)
+  a_df$postal_code[row] <- postal_code
+  a_df$department[row] <- department
+
+  #########################Clock###############################
+  total <- length(id_run)
   pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
-  utils::setTxtProgressBar(pb, which(id.run == i))
+  utils::setTxtProgressBar(pb, which(id_run == i))
   utils::flush.console()
-  #############################################################################
+  #############################################################
 }
 
-city.fix <- is.na(a.df$city) & !is.na(a.df$state)
-a.df$city[city.fix] <- a.df$state[city.fix]
-a.df$state[city.fix] <- NA
-a.df$university[a.df$university == "Could not be extracted"] <- NA
-a.df$country[a.df$country == "Could not be extracted"] <- NA
-a.df$country[a.df$country=='Peoples R China']<-'China'
-a.df$postal_code[grepl("[[:alpha:]]{1,2}-",a.df$postal_code)]<-
-  vapply(strsplit(a.df$postal_code[grepl("[[:alpha:]]{1,2}-",a.df$postal_code)],
-                  '-'),function(x)x[2],character(1))
+city_fix <- is.na(a_df$city) & !is.na(a_df$state)
+a_df$city[city_fix] <- a_df$state[city_fix]
+a_df$state[city_fix] <- NA
+a_df$university[a_df$university == "Could not be extracted"] <- NA
+a_df$country[a_df$country == "Could not be extracted"] <- NA
+a_df$country[a_df$country == "Peoples R China"] <- "China"
+a_df$postal_code[grepl("[[:alpha:]]{1,2}-", a_df$postal_code)] <-
+  vapply(strsplit(a_df$postal_code[grepl("[[:alpha:]]{1,2}-", a_df$postal_code)], "-"),
+         function(x) x[2], character(1)
+         )
+#strip periods from the ends of city,state,country
+a_df$city <- gsub("\\.","",a_df$city)
+a_df$state <- gsub("\\.","",a_df$state)
+a_df$country <- gsub("\\.","",a_df$country)
 
-return(a.df)
+return(a_df)
 }

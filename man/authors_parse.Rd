@@ -3,8 +3,7 @@
 \name{authors_parse}
 \alias{authors_parse}
 \title{Parses out each individual authors information from the reference 
-information created by references_read. This is the first step in 
-parsing out author information.}
+information created by references_read.}
 \usage{
 authors_parse(references)
 }
@@ -12,5 +11,11 @@ authors_parse(references)
 \item{references}{input}
 }
 \description{
-\code{authors_parse}
+\code{authors_parse}  This is the first step in 
+parsing out author information.
+In cases of emails, RIDS, and ORCIDS, Jarowinkler similarity
+matching is used to match up names with no identifying key
+}
+\details{
+This is an internal function used by `authors_clean()``
 }
