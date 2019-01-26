@@ -26,42 +26,42 @@ authors_georef <- function(data,
                            write_out_missing = TRUE,
                            retry_limit=10) {
   # Read in the CSV data and store it in a variable
-  uadd <- data[, c("university",'city','state', "country", 
+  addresses <- data[, c("university",'city','state', "country", 
                   "postal_code", "authorID", "address")]
   
-  uadd$university[is.na(uadd$university)] <- ""
-  uadd$country[is.na(uadd$country)] <- ""
-  uadd$postal_code[is.na(uadd$postal_code)] <- ""
-  uadd$city[is.na(uadd$city)] <- ""
-  uadd$state[is.na(uadd$state)] <- ""
-  uadd$country<-trimws(uadd$country,which='both')
-  uadd$city<-trimws(uadd$city,which='both')
-  uadd$state<-trimws(uadd$state,which='both')
-  uadd$university<-trimws(uadd$university,which='both')
+  addresses$university[is.na(addresses$university)] <- ""
+  addresses$country[is.na(addresses$country)] <- ""
+  addresses$postal_code[is.na(addresses$postal_code)] <- ""
+  addresses$city[is.na(addresses$city)] <- ""
+  addresses$state[is.na(addresses$state)] <- ""
+  addresses$country<-trimws(addresses$country,which='both')
+  addresses$city<-trimws(addresses$city,which='both')
+  addresses$state<-trimws(addresses$state,which='both')
+  addresses$university<-trimws(addresses$university,which='both')
   # without university
   # create these piece meal
-  uadd$base<-uadd$country
-  uadd$base[uadd$postal_code!='']<-paste0(uadd$base[uadd$postal_code!=''],', ',
-                                        uadd$postal_code[uadd$postal_code!=''])
+  addresses$base<-addresses$country
+  addresses$base[addresses$postal_code!='']<-paste0(addresses$base[addresses$postal_code!=''],', ',
+                                        addresses$postal_code[addresses$postal_code!=''])
   
-  uadd$base[uadd$state!='']<-paste0(uadd$state[uadd$state!=''],', ',
-                                  uadd$country[uadd$state!=''])
+  addresses$base[addresses$state!='']<-paste0(addresses$state[addresses$state!=''],', ',
+                                  addresses$country[addresses$state!=''])
   # second tier, city > zip > university
-  uadd$second<-NA
-  uadd$second[uadd$city!='']<-uadd$city[uadd$city!='']
-  uadd$second[is.na(uadd$second) & 
-               uadd$university!='']<-uadd$university[is.na(uadd$second) & 
-                                                     uadd$university!='']
+  addresses$second<-NA
+  addresses$second[addresses$city!='']<-addresses$city[addresses$city!='']
+  addresses$second[is.na(addresses$second) & 
+               addresses$university!='']<-addresses$university[is.na(addresses$second) & 
+                                                     addresses$university!='']
   
-  uadd$short_address<-uadd$base
-  uadd$short_address[!is.na(uadd$second)]<-paste0(uadd$second[!is.na(uadd$second)],
-                                                ', ',uadd$short_address[!is.na(uadd$second)])
-  uadd$lat<-NA
-  uadd$lon<-NA
-  #uadd <- data.frame(short_address = unique(uadd$short_address), lat = NA, 
+  addresses$short_address<-addresses$base
+  addresses$short_address[!is.na(addresses$second)]<-paste0(addresses$second[!is.na(addresses$second)],
+                                                ', ',addresses$short_address[!is.na(addresses$second)])
+  addresses$lat<-NA
+  addresses$lon<-NA
+  #addresses <- data.frame(short_address = unique(addresses$short_address), lat = NA, 
   #                   lon = NA, stringsAsFactors = FALSE)
-  #uadd <- uadd[!is.na(uadd$short_address) & uadd$short_address!='', ]
-  uadd$adID <- seq_len(nrow(uadd))
+  #addresses <- addresses[!is.na(addresses$short_address) & addresses$short_address!='', ]
+  addresses$adID <- seq_len(nrow(addresses))
   
   # add lat long for later calculation
   # Loop through the addresses to get the latitude and longitude of each 
@@ -72,7 +72,7 @@ authors_georef <- function(data,
   check.open <- NA
   
   
-  print("Trying data science toolkit first...")
+  message("Trying data science toolkit first...")
   # we'll check if data science toolkit is working, by pinging a known address 
   check.open<-sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, 
                                        DC 20500", source='dsk')))==0
@@ -83,21 +83,21 @@ authors_georef <- function(data,
   }
   
   #Lets try broad strokes first.
-  for (i in uadd$adID) {
-    address <- as.character(uadd$short_address[i])
+  for (i in addresses$adID) {
+    address <- as.character(addresses$short_address[i])
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
                                               output = "latlona",
                                               source = "dsk",
                                               messaging = TRUE
     ))
-    uadd$lat[uadd$adID==i] <- result[[2]]
-    uadd$lon[uadd$adID==i] <- result[[1]]
+    addresses$lat[addresses$adID==i] <- result[[2]]
+    addresses$lon[addresses$adID==i] <- result[[1]]
   }
   
   
   # see if you can find lat lons using a shorter code (city, state, country)
-  remain<-uadd[is.na(uadd$lat),]
+  remain<-addresses[is.na(addresses$lat),]
   
   remain$short_address<-ifelse(!(is.na(remain$state)|is.na(remain$country)),paste0(remain$city,', ',remain$state,', ',remain$country),NA)
   remain<-remain[!is.na(remain$short_address),]
@@ -110,8 +110,8 @@ authors_georef <- function(data,
                                               source = "dsk",
                                               messaging = TRUE
     ))
-    uadd$lat[uadd$adID==i] <- result[[2]]
-    uadd$lon[uadd$adID==i] <- result[[1]]
+    addresses$lat[addresses$adID==i] <- result[[2]]
+    addresses$lon[addresses$adID==i] <- result[[1]]
   }
   
   
@@ -119,7 +119,7 @@ authors_georef <- function(data,
   
   ####################
   # try city, country
-  remain<-uadd[is.na(uadd$lat),]
+  remain<-addresses[is.na(addresses$lat),]
   
   remain$short_address<-ifelse(!(is.na(remain$city)|is.na(remain$country)),paste0(remain$city,', ',remain$country),NA)
   remain<-remain[!is.na(remain$short_address),]
@@ -131,12 +131,12 @@ authors_georef <- function(data,
                                               source = "dsk",
                                               messaging = TRUE
     ))
-    uadd$lat[uadd$adID==i] <- result[[2]]
-    uadd$lon[uadd$adID==i] <- result[[1]]
+    addresses$lat[addresses$adID==i] <- result[[2]]
+    addresses$lon[addresses$adID==i] <- result[[1]]
   }
   
   # try using university, country
-  remain<-uadd[is.na(uadd$lat),]
+  remain<-addresses[is.na(addresses$lat),]
   remain$short_address<-ifelse(!(is.na(remain$university)|is.na(remain$country)),paste0(remain$university,', ',remain$country),NA)
   remain<-remain[!is.na(remain$short_address),]
   for (i in remain$adID) {
@@ -147,23 +147,13 @@ authors_georef <- function(data,
                                               source = "dsk",
                                               messaging = TRUE
     ))
-    uadd$lat[uadd$adID==i] <- result[[2]]
-    uadd$lon[uadd$adID==i] <- result[[1]]
+    addresses$lat[addresses$adID==i] <- result[[2]]
+    addresses$lon[addresses$adID==i] <- result[[1]]
   }
-  
-  addresses <- merge(uadd, subset(uadd, select = -address), 
-                     by = "short_address", all.x = TRUE)
-  
-  
-  addresses <- merge(addresses, subset(data, select = c("authorID",  
-                                                        "groupID", "author_order", "address", "department", "RP_address",
-                                                        "RI", "OI", "UT", "refID")), by = "authorID", all.x = TRUE)
-  
-  
-  addresses <- subset(addresses, select = c("authorID",  "groupID", 
-                                            "author_order", "address", 
-                                            "university", "department", "RP_address", "RI", "OI", "UT", "refID",
-                                            "postal_code", "country", "lat", "lon"))
+
+  addresses <- merge(addresses[,c('authorID','university','postal_code','country','lat','lon')], 
+                     data[,c("authorID","groupID", "author_order", "address", "department", "RP_address",
+                    "RI", "OI", "UT", "refID")], by = "authorID", all.y = TRUE)
   
   missingaddresses <- addresses[is.na(addresses$lat), ]
   

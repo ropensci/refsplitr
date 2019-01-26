@@ -52,7 +52,7 @@ test_that("Map plots work", {
 
  test_that("Net plots work", {
    
-   
+   skip_on_cran()
    require(ggplot2)
    df<-data.frame("authorID"=c(1,2,3),
                   "AU"= c('Smith, Jon J.','Thompson, Bob B.','Smith,J'),          
