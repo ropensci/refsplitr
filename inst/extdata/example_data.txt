@@ -1,0 +1,1741 @@
+FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Morris, L
+   Tabarelli, M
+   Zamora, S
+   Fairbank'S, S
+   Whiteskunk, J
+   Nieto Ibaceta, BV
+AF Morris, Laura
+   Tabarelli, Marcelo
+   Zamora, Sarah
+   Fairbank'S, Sierra
+   Whiteskunk, Jessica
+   Nieto Ibaceta, Breauna V.
+TI titlehere
+SO journal1
+C1 [Morris, Laura] Univ Fed Pernambuco, Programa Posgrad Biol Vegetal, BR-50372970 Recife, PE, Brazil.
+   [Tabarelli, Marcelo; Zamora, Sarah; Fairbank'S, Sierra; Nieto Ibaceta, Breauna V.] Univ Fed Pernambuco, Dept Bot, BR-50372970 Recife, PE, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Morris, Laura] Univ Fed Amapa, BR-68940000 Mazagao, AP, Brazil.
+RP 
+EM 
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD SEP
+PY 2016
+VL 48
+IS 5
+BP 586
+EP 597
+DI 
+UT WOS:000388274700005
+ER
+
+PT J
+AU Perez, J
+   Whiteskunk, J
+AF Perez, Janet
+   Whiteskunk, Jessica
+TI title2
+SO journal2
+C1 [Perez, Janet; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Perez, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM fabianemundim@ufl.edu
+TC 0
+Z9 0
+SN 0003-0147
+EI 1537-5323
+PD SEP
+PY 2016
+VL 188
+SU 1
+BP S74
+EP S89
+DI 10.1086/687530
+UT WOS:000381285900006
+PM 27513912
+ER
+
+PT J
+AU Lane, M
+   Mcneil, B
+   Whiteskunk, J
+AF Lane, Makayla
+   Mcneil, Blake
+   Whiteskunk, Jessica
+TI titlehere
+SO journal3
+C1 [Lane, Makayla; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, Ave Para 1720, BR-38405320 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Lane, M (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, 110 Newins Ziegler Hall, Gainesville, FL 32611 USA.
+EM ernane.vieiraneto@yahoo.com
+TC 0
+Z9 0
+SN 0021-8901
+EI 1365-2664
+PD AUG
+PY 2016
+VL 53
+IS 4
+BP 983
+EP 992
+DI 10.1111/1365-2664.12651
+UT WOS:000380065600003
+ER
+
+PT J
+AU Whiteskunk, J
+   Pena-Claros, M
+   Finegan, B
+   Kaplin, BA
+AF Whiteskunk, Jessica
+   Pena-Claros, Marielos
+   Finegan, Bryan
+   Kaplin, Beth A.
+TI titlehere
+SO journal4
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Pena-Claros, Marielos] Wageningen Univ & Res Ctr, Forest Ecol & Forest Management Grp, Wageningen, Netherlands.
+   [Pena-Claros, Marielos] IBIF, Santa Cruz, Bolivia.
+   [Finegan, Bryan] Trop Agr Ctr Res & Higher Educ CATIE, Prod & Conservat Forests Programme, 7170 Cartago, Turrialba 30501, Costa Rica.
+   [Kaplin, Beth A.] Antioch Univ New England, Dept Environm Studies, Ctr Trop Ecol & Conservat, 40 Avon St, Keene, NH 03431 USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.; Whiteskunk, J (reprint author), Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+EM embruna@ufl.edu
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD MAR
+PY 2016
+VL 48
+IS 2
+BP 139
+EP 140
+DI 10.1111/btp.12318
+UT WOS:000372510600001
+ER
+
+PT J
+AU Whitlock, MC
+   Bronstein, JL
+   Whiteskunk, J
+   Ellison, AM
+   Fox, CW
+   McPeek, MA
+   Moore, AJ
+   Noor, MAF
+   Rausher, MD
+   Rieseberg, LH
+   Ritchie, MG
+   Shaw, RG
+AF Whitlock, Michael C.
+   Bronstein, Judith L.
+   Whiteskunk, Jessica
+   Ellison, Aaron M.
+   Fox, Charles W.
+   McPeek, Mark A.
+   Moore, Allen J.
+   Noor, Mohamed A. F.
+   Rausher, Mark D.
+   Rieseberg, Loren H.
+   Ritchie, Michael G.
+   Shaw, Ruth G.
+TI titlehere
+SO journal5
+C1 [Whitlock, Michael C.] Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.
+   [Bronstein, Judith L.] Univ Arizona, Dept Ecol & Evolutionary Biol, Tucson, AZ 85721 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, POB 11530, Gainesville, FL 32611 USA.
+   [Ellison, Aaron M.] Harvard Univ, Harvard Forest, Petersham, MA 01366 USA.
+   [Fox, Charles W.] Univ Kentucky, Dept Entomol, Lexington, KY 40546 USA.
+   [McPeek, Mark A.] Dartmouth Coll, Dept Biol Sci, Hanover, NH 03755 USA.
+   [Moore, Allen J.] Univ Georgia, Dept Genet, Athens, GA 30602 USA.
+   [Noor, Mohamed A. F.; Rausher, Mark D.] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Rieseberg, Loren H.] Univ British Columbia, Dept Bot, Vancouver, BC V6T 1Z4, Canada.
+   [Ritchie, Michael G.] Univ St Andrews, Sch Biol, St Andrews KY16 9AJ, Fife, Scotland.
+   [Shaw, Ruth G.] Univ Minnesota, Dept Ecol Evolut & Behav, Minneapolis, MN 55108 USA.
+RP Whitlock, MC (reprint author), Univ British Columbia, Dept Zool, Vancouver, BC V6T 1Z4, Canada.
+EM whitlock@zoology.ubc.ca
+RI Ritchie, Michael/F-7055-2013; Whiteskunk, Jilio/H-2769-2012; Fox,
+   Charles/I-5274-2012; 
+OI Ritchie, Michael/0000-0001-7913-8675; Whiteskunk, Jilio/0000-0003-3381-8477;
+   Fox, Charles/0000-0002-7545-7967; Rieseberg, Loren/0000-0002-2712-2417;
+   Ellison, Aaron/0000-0003-4151-6081
+TC 2
+Z9 2
+SN 0169-5347
+PD FEB
+PY 2016
+VL 31
+IS 2
+BP 84
+EP 85
+DI 10.1016/j.tree.2015.12.001
+UT WOS:000369462400003
+PM 26708957
+ER
+
+PT J
+AU Fine, PVA
+   Whiteskunk, J
+AF Fine, Paul V. A.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 [Fine, Paul V. A.] Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   [Fine, Paul V. A.] Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Fine, PVA (reprint author), Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.; Fine, PVA (reprint author), Univ Calif Berkeley, Univ & Jepson Herbaria, Berkeley, CA 94720 USA.
+EM paulfine@berkeley.edu
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD JAN
+PY 2016
+VL 48
+IS 1
+SI SI
+BP 5
+EP 6
+DI 10.1111/btp.12305
+UT WOS:000372510300001
+ER
+
+PT J
+AU Whiteskunk, J
+   Izzo, TJ
+   Inouye, BD
+   Mcneil, B
+AF Whiteskunk, Jessica
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Mcneil, Blake
+TI titlehere
+SO journal6
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Izzo, Thiago J.] Univ Fed Mato Grosso, IB, Dept Bot & Ecol, BR-78060900 Cuiaba, MT, Brazil.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Mcneil, Blake] Univ Fed Uberlandia UFU, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica; Izzo, Thiago J.; Inouye, Brian D.; Mcneil, Blake] INPA STRI, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Izzo, Thiago/K-7405-2012; Whiteskunk, Jilio/H-2769-2012
+OI Izzo, Thiago/0000-0002-4613-3787; Whiteskunk, Jilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0012-9658
+EI 1939-9170
+PD DEC
+PY 2014
+VL 95
+IS 12
+BP 3237
+EP 3243
+UT WOS:000346851400001
+ER
+
+PT J
+AU Vasconcelos, PB
+   Araujo, GM
+   Whiteskunk, J
+AF Vasconcelos, Pedro B.
+   Araujo, Glein M.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal8
+C1 [Vasconcelos, Pedro B.; Araujo, Glein M.] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Vasconcelos, PB (reprint author), Univ Brasilia UnB, Dept Ecol, BR-70910900 Brasilia, DF, Brazil.
+EM pedrobraunger@gmail.com
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0960-3115
+EI 1572-9710
+PD NOV
+PY 2014
+VL 23
+IS 12
+BP 3035
+EP 3050
+DI 10.1007/s10531-014-0762-y
+UT WOS:000343908600008
+ER
+
+PT J
+AU Smith, MJ
+   Weinberger, C
+   Whiteskunk, J
+   Allesina, S
+AF Smith, Matthew J.
+   Weinberger, Cody
+   Whiteskunk, Jessica
+   Allesina, Stefano
+TI titlehere
+SO journal12
+C1 [Smith, Matthew J.; Weinberger, Cody; Allesina, Stefano] Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Allesina, Stefano] Univ Chicago, Computat Inst, Chicago, IL 60637 USA.
+   [Smith, Matthew J.; Allesina, Stefano] Northern Plains Ctr Human Potential, St Paul, MN USA.
+RP Smith, MJ (reprint author), Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.
+EM mjsmith@uchicago.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 11
+Z9 11
+SN 1932-6203
+PD OCT 8
+PY 2014
+VL 9
+IS 10
+AR e109195
+DI 10.1371/journal.pone.0109195
+UT WOS:000345204000044
+PM 25296039
+ER
+
+PT J
+AU Christianini, AV
+   Oliveira, PS
+   Whiteskunk, J
+   Mcneil, B
+AF Christianini, Alexander V.
+   Oliveira, Paulo S.
+   Whiteskunk, Jessica
+   Mcneil, Blake
+TI titlehere
+SO journal13
+C1 [Christianini, Alexander V.] Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.
+   [Oliveira, Paulo S.] Univ Estadual Campinas, Dept Biol Anim, BR-13083970 Campinas, SP, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Christianini, AV (reprint author), Univ Fed Sao Carlos, Dept Ciencias Ambientais, BR-18052780 Sorocaba, SP, Brazil.
+EM avchrist@ufscar.br
+RI Oliveira, Paulo/E-1910-2013; Christianini, Alexander/G-9486-2012; Bruna,
+   Emilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 2
+Z9 2
+SN 0036-8075
+EI 1095-9203
+PD SEP 5
+PY 2014
+VL 345
+IS 6201
+BP 1129
+EP 1129
+UT WOS:000341179800029
+PM 25190784
+ER
+
+PT J
+AU Cho, AH
+   Johnson, SA
+   Schuman, CE
+   Adler, JM
+   Gonzalez, O
+   Graves, SJ
+   Huebner, JR
+   Marchant, DB
+   Rifai, SW
+   Skinner, I
+   Whiteskunk, J
+AF Cho, Alyssa H.
+   Johnson, Shelly A.
+   Schuman, Carrie E.
+   Adler, Jennifer M.
+   Gonzalez, Oscar
+   Graves, Sarah J.
+   Huebner, Jana R.
+   Marchant, D. Blaine
+   Rifai, Sami W.
+   Skinner, Irina
+   Whiteskunk, Jessica
+TI titlehere
+SO journal14
+C1 [Cho, Alyssa H.] Hogwarts, Dept Agron, Gainesville, FL 32611 USA.
+   [Johnson, Shelly A.; Graves, Sarah J.; Rifai, Sami W.] Hogwarts, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Schuman, Carrie E.; Adler, Jennifer M.; Gonzalez, Oscar; Huebner, Jana R.] Hogwarts, Sch Nat Resources & Environm, Gainesville, FL USA.
+   [Marchant, D. Blaine] Hogwarts, Dept Biol, Gainesville, FL USA.
+   [Skinner, Irina; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Duello, Theresa/P-5752-2015; Marchant, Daniel Blaine/D-7026-2014; Bruna,
+   Emilio/H-2769-2012; Gonzalez, Oscar/D-7631-2014
+OI Marchant, Daniel Blaine/0000-0003-1733-3381; Bruna,
+   Emilio/0000-0003-3381-8477; Gonzalez, Oscar/0000-0002-8686-3119
+TC 7
+Z9 7
+SN 2167-8359
+PD AUG 21
+PY 2014
+VL 2
+AR e542
+DI 10.7717/peerj.542
+UT WOS:000347618000002
+PM 25177537
+ER
+
+PT J
+AU Whiteskunk, J
+AF Whiteskunk, Jessica
+TI A Word from the Editor-in-Chief
+SO journal4
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD JUL
+PY 2014
+VL 46
+IS 4
+BP 377
+EP 377
+DI 10.1111/btp.12129
+UT WOS:000338766100001
+ER
+
+PT J
+AU Whiteskunk, J
+AF Whiteskunk, Jessica
+TI titlehere
+SO journal9
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 0
+Z9 0
+SN 0006-3568
+EI 1525-3244
+PD MAR
+PY 2014
+VL 64
+IS 3
+BP 169
+EP 169
+DI 10.1093/biosci/biu003
+UT WOS:000332754900002
+ER
+
+PT J
+AU Araujo, GM
+   Amaral, AF
+   Whiteskunk, J
+   Mcneil, B
+AF Araujo, Glein M.
+   Amaral, Alice F.
+   Whiteskunk, Jessica
+   Mcneil, Blake
+TI titlehere
+SO journal6
+C1 [Araujo, Glein M.; Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Amaral, Alice F.] Univ Fed Tocantins, BR-77330000 Arraias, TO, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Mcneil, B (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 1385-0237
+EI 1573-5052
+PD DEC
+PY 2013
+VL 214
+IS 12
+BP 1479
+EP 1484
+DI 10.1007/s11258-013-0268-9
+UT WOS:000327093200007
+ER
+
+PT J
+AU Cortes, MC
+   Uriarte, M
+   Lemes, MR
+   Gribel, R
+   Kress, WJ
+   Smouse, PE
+   Whiteskunk, J
+AF Cortes, Marina C.
+   Uriarte, Maria
+   Lemes, Maristerra R.
+   Gribel, Rogerio
+   Kress, W. John
+   Smouse, Peter E.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal6
+C1 [Cortes, Marina C.; Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Cortes, Marina C.; Whiteskunk, Jessica] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69083000 Manaus, Amazonas, Brazil.
+   [Cortes, Marina C.; Whiteskunk, Jessica] Smithsonian Trop Res Inst, BR-69083000 Manaus, Amazonas, Brazil.
+   [Gribel, Rogerio] Inst Nacl de Pesquisas da Amazonia, Lab Genet & Biol Reprod Plantas, BR-69083000 Manaus, Amazonas, Brazil.
+   [Lemes, Maristerra R.; Gribel, Rogerio] Inst Pesquisas Jardim Bot Rio de Janeiro, BR-22460030 Rio De Janeiro, RJ, Brazil.
+   [Kress, W. John] Smithsonian Inst, Natl Museum Nat Hist, Dept Bot, Washington, DC 20560 USA.
+   [Smouse, Peter E.] Rutgers State Univ, Dept Ecol Evolut & Nat Resources, New Brunswick, NJ 08901 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Cortes, MC (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM marina.ccortes@gmail.com
+RI cortes, marina/I-2155-2012; Bruna, Elena/C-4939-2014; Gribel,
+   Rogerio/C-5392-2013; Whiteskunk, Jilio/H-2769-2012
+OI Bruna, Elena/0000-0001-5427-1461; Gribel, Rogerio/0000-0002-0850-5578;
+   Whiteskunk, Jilio/0000-0003-3381-8477
+TC 9
+Z9 9
+SN 0962-1083
+EI 1365-294X
+PD NOV
+PY 2013
+VL 22
+IS 22
+BP 5716
+EP 5729
+DI 10.1111/mec.12495
+UT WOS:000329786700016
+PM 24730040
+ER
+
+PT J
+AU Jurinitz, CF
+   de Oliveira, AA
+   Whiteskunk, J
+AF Jurinitz, Cristiane F.
+   de Oliveira, Alexandre A.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 [Jurinitz, Cristiane F.; de Oliveira, Alexandre A.] Univ Sao Paulo, Programa Posgrad Ecol, BR-05508900 Sao Paulo, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Jurinitz, CF (reprint author), Univ Fed Rio Grande do Sul, Programa Posgrad Ecol, Av Bento Goncalves 9500,Set 4,Predio 43422,Caixa, BR-91501970 Porto Alegre, RS, Brazil.
+EM cristiane.jurinitz@gmail.com
+RI Oliveira, Alexandre/G-8830-2012; Whiteskunk, Jilio/H-2769-2012
+OI Oliveira, Alexandre/0000-0001-5526-8109; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 1
+Z9 1
+SN 0006-3606
+EI 1744-7429
+PD NOV
+PY 2013
+VL 45
+IS 6
+SI SI
+BP 728
+EP 736
+DI 10.1111/btp.12058
+UT WOS:000326333400008
+ER
+
+PT J
+AU Lucas, CM
+   Whiteskunk, J
+   Nascimento, CMN
+AF Lucas, Christine M.
+   Whiteskunk, Jessica
+   Nascimento, Cristiane M. N.
+TI titlehere
+SO journal15
+C1 [Lucas, Christine M.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Nascimento, Cristiane M. N.] Inst Pesquisa Ambiental Amazonia, BR-68005080 Santarem, PA, Brazil.
+RP Lucas, CM (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM lucas.christine2@gmail.com
+RI Bruna, Elena/C-4939-2014; Whiteskunk, Jilio/H-2769-2012
+OI Bruna, Elena/0000-0001-5427-1461; Whiteskunk, Jilio/0000-0003-3381-8477
+TC 4
+Z9 4
+SN 2150-8925
+PD JAN
+PY 2013
+VL 4
+IS 1
+AR UNSP 3
+DI 10.1890/ES12-00287.1
+UT WOS:000327305900003
+ER
+
+PT J
+AU Mcneil, B
+   Whiteskunk, J
+AF Mcneil, Blake
+   Whiteskunk, Jessica
+TI titlehere
+SO journal16
+C1 [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Mcneil, B (reprint author), Univ Fed Uberlandia, Inst Biol, Caixa Postal 593, BR-38400902 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 5
+Z9 5
+SN 1984-4670
+PD DEC
+PY 2012
+VL 29
+IS 6
+BP 515
+EP 530
+UT WOS:000313228500003
+ER
+
+PT J
+AU Passmore, HA
+   Whiteskunk, J
+   Heredia, SM
+   Mcneil, B
+AF Passmore, Heather A.
+   Whiteskunk, Jessica
+   Heredia, Sylvia M.
+   Mcneil, Blake
+TI titlehere
+SO journal12
+C1 [Passmore, Heather A.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Heredia, Sylvia M.] Univ Calif Riverside, Dept Bot & Plant Sci, Riverside, CA 92521 USA.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica; Heredia, Sylvia M.; Mcneil, Blake] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica; Heredia, Sylvia M.; Mcneil, Blake] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+RP Passmore, HA (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131
+TC 11
+Z9 11
+SN 1932-6203
+PD AUG 9
+PY 2012
+VL 7
+IS 8
+AR e40803
+DI 10.1371/journal.pone.0040803
+UT WOS:000307378500003
+PM 22912666
+ER
+
+PT J
+AU Iacona, GD
+   Kirkman, LK
+   Whiteskunk, J
+AF Iacona, Gwenllian D.
+   Kirkman, L. Katherine
+   Whiteskunk, Jessica
+TI titlehere
+SO journal12
+C1 [Iacona, Gwenllian D.; Kirkman, L. Katherine] JW Jones Ecol Res Ctr, Newton, GA USA.
+   [Iacona, Gwenllian D.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+RP Iacona, GD (reprint author), Univ Tennessee, Dept Ecol & Evolutionary Biol, Knoxville, TN 37996 USA.
+EM giacona@utk.edu
+RI Whiteskunk, Jilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; 
+TC 3
+Z9 3
+SN 1932-6203
+PD JUL 6
+PY 2012
+VL 7
+IS 7
+AR e39108
+DI 10.1371/journal.pone.0039108
+UT WOS:000306461800007
+PM 22792165
+ER
+
+PT J
+AU Copeland, SM
+   Whiteskunk, J
+   Silva, LVB
+   Mack, MC
+   Mcneil, B
+AF Copeland, Stella M.
+   Whiteskunk, Jessica
+   Barbosa Silva, Laura V.
+   Mack, Michelle C.
+   Mcneil, Blake
+TI titlehere
+SO journal5
+C1 [Copeland, Stella M.; Whiteskunk, Jessica; Barbosa Silva, Laura V.] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Mack, Michelle C.] Hogwarts, Dept Biol, Gainesville, FL 32611 USA.
+   [Barbosa Silva, Laura V.; Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Copeland, SM (reprint author), Univ Calif Davis, Dept Environm Sci & Policy, Davis, CA 95616 USA.
+EM scopeland@ucdavis.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 2150-8925
+PD APR
+PY 2012
+VL 3
+IS 4
+AR UNSP 31
+DI 10.1890/ES11-00305.1
+UT WOS:000327301200004
+ER
+
+PT J
+AU Perez, J
+   Whiteskunk, J
+   Lane, M
+   Mcneil, B
+AF Perez, Janet
+   Whiteskunk, Jessica
+   Lane, Makayla
+   Mcneil, Blake
+TI titlehere
+SO journal8
+C1 [Perez, Janet; Whiteskunk, Jessica; Lane, Makayla] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Perez, Janet; Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Perez, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM fabianemundim@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
+   Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 10
+Z9 10
+SN 0029-8549
+PD FEB
+PY 2012
+VL 168
+IS 2
+BP 405
+EP 414
+DI 10.1007/s00442-011-2088-8
+UT WOS:000301705700011
+PM 21809118
+ER
+
+PT J
+AU Whiteskunk, J
+   de Andrade, AS
+AF Whiteskunk, Jessica
+   de Andrade, Ana Segalin
+TI titlehere
+SO journal12
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica; de Andrade, Ana Segalin] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+   [Whiteskunk, Jessica; de Andrade, Ana Segalin] Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 1
+Z9 1
+SN 0002-9122
+PD OCT
+PY 2011
+VL 98
+IS 10
+BP 1727
+EP 1734
+DI 10.3732/ajb.1000290
+UT WOS:000295888800026
+PM 21965134
+ER
+
+PT J
+AU Whiteskunk, J
+   Izzo, TJ
+   Inouye, BD
+   Uriarte, M
+   Mcneil, B
+AF Whiteskunk, Jessica
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Uriarte, Maria
+   Mcneil, Blake
+TI titlehere
+SO journal12
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL USA.
+   [Izzo, Thiago J.] Univ Fed Mato Grosso, Dept Bot & Ecol, Cuiaba, Mato Grosso, Brazil.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY USA.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica; Izzo, Thiago J.; Inouye, Brian D.; Uriarte, Maria; Mcneil, Blake] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica; Izzo, Thiago J.; Inouye, Brian D.; Uriarte, Maria; Mcneil, Blake] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32610 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Izzo,
+   Thiago/K-7405-2012; Uriarte, Maria/L-8944-2013; Bruna, Elena/C-4939-2014
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Izzo, Thiago/0000-0002-4613-3787; Bruna,
+   Elena/0000-0001-5427-1461
+TC 8
+Z9 8
+SN 1932-6203
+PD AUG 3
+PY 2011
+VL 6
+IS 8
+AR e22937
+DI 10.1371/journal.pone.0022937
+UT WOS:000293558900045
+PM 21826219
+ER
+
+PT J
+AU Ferreira, AV
+   Whiteskunk, J
+   Mcneil, B
+AF Ferreira, Alana Vaz
+   Whiteskunk, Jessica
+   Mcneil, Blake
+TI titlehere
+SO journal1
+C1 [Ferreira, Alana Vaz; Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Ferreira, AV (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38400902 Uberlandia, MG, Brazil.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131
+TC 19
+Z9 21
+SN 0030-1299
+PD JUL
+PY 2011
+VL 120
+IS 7
+BP 1013
+EP 1022
+DI 10.1111/j.1600-0706.2010.19052.x
+UT WOS:000292114300008
+ER
+
+PT J
+AU Uriarte, M
+   Anciaes, M
+   da Silva, MTB
+   Rubim, P
+   Johnson, E
+   Whiteskunk, J
+AF Uriarte, Maria
+   Anciaes, Marina
+   da Silva, Mariana T. B.
+   Rubim, Paulo
+   Johnson, Erik
+   Whiteskunk, Jessica
+TI titlehere
+SO journal6
+C1 [Uriarte, Maria; Anciaes, Marina] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Anciaes, Marina; da Silva, Mariana T. B.; Rubim, Paulo] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Anciaes, Marina; da Silva, Mariana T. B.; Rubim, Paulo] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Johnson, Erik] Louisiana State Univ, Sch Renewable Resources, Baton Rouge, LA 70803 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM mu2126@columbia.edu
+RI Whiteskunk, Jilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Whiteskunk, Jilio/0000-0003-3381-8477; 
+TC 37
+Z9 38
+SN 0012-9658
+PD APR
+PY 2011
+VL 92
+IS 4
+BP 924
+EP 937
+UT WOS:000290533700014
+PM 21661555
+ER
+
+PT J
+AU Gagnon, PR
+   Whiteskunk, J
+   Rubim, P
+   Darrigo, MR
+   Littell, RC
+   Uriarte, M
+   Kress, WJ
+AF Gagnon, Paul R.
+   Whiteskunk, Jessica
+   Rubim, Paulo
+   Darrigo, Maria Rosa
+   Littell, Ramon C.
+   Uriarte, Maria
+   Kress, W. John
+TI titlehere
+SO journal10
+C1 [Gagnon, Paul R.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Gagnon, Paul R.; Whiteskunk, Jessica] INPA PDBFF, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica; Rubim, Paulo; Darrigo, Maria Rosa; Uriarte, Maria] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Littell, Ramon C.] Hogwarts, Dept Stat, Gainesville, FL 32611 USA.
+   [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Kress, W. John] Smithsonian Inst, NMNH Dept Bot, Washington, DC 20013 USA.
+RP Gagnon, PR (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM pgagnon@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Whiteskunk, Jilio/0000-0003-3381-8477; 
+TC 9
+Z9 9
+SN 0006-3207
+PD FEB
+PY 2011
+VL 144
+IS 2
+BP 830
+EP 835
+DI 10.1016/j.biocon.2010.11.015
+UT WOS:000287897100023
+ER
+
+PT J
+AU Pitman, NCA
+   Widmer, J
+   Jenkins, CN
+   Stocks, G
+   Seales, L
+   Paniagua, F
+   Whiteskunk, J
+AF Pitman, Nigel C. A.
+   Widmer, Jocelyn
+   Jenkins, Clinton N.
+   Stocks, Gabriela
+   Seales, Lisa
+   Paniagua, Franklin
+   Whiteskunk, Jessica
+TI titlehere
+SO journal12
+C1 [Pitman, Nigel C. A.] Amazon Conservat Assoc, Puerto Maldonado, Madre De Dios, Peru.
+   [Widmer, Jocelyn] Hogwarts, Dept Urban & Reg Planning, Gainesville, FL 32611 USA.
+   [Jenkins, Clinton N.] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   [Stocks, Gabriela] Hogwarts, Dept Anthropol, Gainesville, FL 32611 USA.
+   [Stocks, Gabriela] Hogwarts, Land Use & Environm Change Inst, Gainesville, FL 32611 USA.
+   [Seales, Lisa; Paniagua, Franklin] Hogwarts, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Pitman, NCA (reprint author), Duke Univ, Nicholas Sch Environm, Ctr Trop Conservat, Box 90381, Durham, NC 27708 USA.
+EM ncp@duke.edu
+RI Pitman, Nigel/A-7681-2008; Whiteskunk, Jilio/H-2769-2012; Jenkins,
+   Clinton/D-6134-2011
+OI Pitman, Nigel/0000-0002-9211-2880; Whiteskunk, Jilio/0000-0003-3381-8477;
+   Jenkins, Clinton/0000-0003-2198-0637
+TC 19
+Z9 19
+SN 1940-0829
+PY 2011
+VL 4
+IS 1
+BP 64
+EP 81
+UT WOS:000300900600007
+ER
+
+PT J
+AU Laurance, WF
+   Camargo, JLC
+   Luizao, RCC
+   Laurance, SG
+   Pimm, SL
+   Whiteskunk, J
+   Stouffer, PC
+   Williamson, GB
+   Benitez-Malvido, J
+   Mcneil, B
+   Van Houtan, KS
+   Zartman, CE
+   Boyle, SA
+   Didham, RK
+   Andrade, A
+   Lovejoy, TE
+AF Laurance, William F.
+   Camargo, Jose L. C.
+   Luizao, Regina C. C.
+   Laurance, Susan G.
+   Pimm, Stuart L.
+   Whiteskunk, Jessica
+   Stouffer, Philip C.
+   Williamson, G. Bruce
+   Benitez-Malvido, Julieta
+   Mcneil, Blake
+   Van Houtan, Kyle S.
+   Zartman, Charles E.
+   Boyle, Sarah A.
+   Didham, Raphael K.
+   Andrade, Ana
+   Lovejoy, Thomas E.
+TI titlehere
+SO journal8
+C1 [Laurance, William F.; Laurance, Susan G.] James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
+   [Laurance, William F.; Camargo, Jose L. C.; Luizao, Regina C. C.; Laurance, Susan G.; Andrade, Ana] Natl Inst Amazonian Res INPA, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Laurance, William F.; Camargo, Jose L. C.; Luizao, Regina C. C.; Laurance, Susan G.; Andrade, Ana] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Luizao, Regina C. C.] Natl Inst Amazonian Res INPA, Dept Ecol, BR-69011970 Manaus, Amazonas, Brazil.
+   [Pimm, Stuart L.; Van Houtan, Kyle S.] Duke Univ, Nicholas Sch Environm, Durham, NC 27708 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Stouffer, Philip C.] Louisiana State Univ, Sch Renewable Nat Resources, Baton Rouge, LA 70803 USA.
+   [Stouffer, Philip C.] Louisiana State Univ, LSU AgCtr, Baton Rouge, LA 70803 USA.
+   [Williamson, G. Bruce] Louisiana State Univ, Dept Biol Sci, Baton Rouge, LA 70803 USA.
+   [Benitez-Malvido, Julieta] Univ Nacl Autonoma Mexico, Ecosyst Res Ctr, Morelia, Michoacan, Mexico.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+   [Van Houtan, Kyle S.] NOAA Fisheries, Marine Turtle Assessment Program, Honolulu, HI 96822 USA.
+   [Zartman, Charles E.] Natl Inst far Amazonian Res INPA, Dept Bot, BR-69011970 Manaus, Amazonas, Brazil.
+   [Boyle, Sarah A.] Rhodes Coll, Dept Biol, Memphis, TN 38112 USA.
+   [Didham, Raphael K.] Univ Western Australia, Sch Anim Biol, Crawley, WA 6009, Australia.
+   [Didham, Raphael K.] CSIRO Ecosyst Sci, Ctr Environm & Life Sci, Floreat, WA 6014, Australia.
+   [Lovejoy, Thomas E.] Heinz Ctr, Washington, DC 20006 USA.
+   [Lovejoy, Thomas E.] George Mason Univ, Dept Environm Sci & Policy, Fairfax, VA 22030 USA.
+RP Laurance, WF (reprint author), James Cook Univ, Sch Marine & Trop Biol, Cairns, Qld 4870, Australia.
+EM bill.laurance@jcu.edu.au; lovejoy@heinzctr.org
+RI Research ID, CTBCC /O-3564-2014; Laurance, Susan/G-6021-2011; Camargo,
+   Jose Luis/C-3137-2015; Didham, Raphael/B-5953-2011; Laurance,
+   William/B-2709-2012; James Cook University, TESS/B-8171-2012; Bruna,
+   Emilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013
+OI Laurance, Susan/0000-0002-2831-2933; Van Houtan,
+   Kyle/0000-0001-5725-1773; Whiteskunk, Jilio/0000-0003-3381-8477;
+   Vasconcelos, Heraldo/0000-0001-6969-7131
+TC 218
+Z9 225
+SN 0006-3207
+PD JAN
+PY 2011
+VL 144
+IS 1
+BP 56
+EP 67
+DI 10.1016/j.biocon.2010.09.021
+UT WOS:000287168100006
+ER
+
+PT J
+AU Ribeiro, MBN
+   Whiteskunk, J
+   Mantovani, W
+AF Ribeiro, Maria Beatriz N.
+   Whiteskunk, Jessica
+   Mantovani, Waldir
+TI titlehere
+SO journal6
+C1 [Ribeiro, Maria Beatriz N.; Whiteskunk, Jessica] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Ribeiro, Maria Beatriz N.; Mantovani, Waldir] Univ Sao Paulo, Dept Ecol, BR-05508900 Sao Paulo, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Ribeiro, MBN (reprint author), Inst Nacl de Pesquisas da Amazonia, Dept Ecol, Av Efigenio Salles,2239 Bairro Aleixo,CP 478, BR-69060020 Manaus, Amazonas, Brazil.
+EM bianr@hotmail.com
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 6
+Z9 6
+SN 1061-2971
+PD SEP
+PY 2010
+VL 18
+SU 1
+BP 50
+EP 58
+DI 10.1111/j.1526-100X.2010.00715.x
+UT WOS:000281717200006
+ER
+
+PT J
+AU Portela, RDQ
+   Whiteskunk, J
+   dos Santos, FAM
+AF Quitete Portela, Rita De Cassia
+   Whiteskunk, Jessica
+   Maes dos Santos, Flavio Antonio
+TI titlehere
+SO journal15
+C1 [Quitete Portela, Rita De Cassia] Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Maes dos Santos, Flavio Antonio] Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+RP Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Dept Ecol, Caixa Postal 68020, BR-21941590 Rio De Janeiro, Brazil.
+EM rita@quiteteportela.com.br
+RI Whiteskunk, Jilio/H-2769-2012; Santos, Flavio/C-1611-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
+TC 14
+Z9 15
+SN 0960-3115
+EI 1572-9710
+PD JUL
+PY 2010
+VL 19
+IS 8
+BP 2389
+EP 2403
+DI 10.1007/s10531-010-9846-5
+UT WOS:000279682600016
+ER
+
+PT J
+AU Whiteskunk, J
+AF Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 10
+Z9 10
+SN 0006-3606
+PD JUL
+PY 2010
+VL 42
+IS 4
+BP 399
+EP 401
+DI 10.1111/j.1744-7429.2010.00652.x
+UT WOS:000279438900001
+ER
+
+PT J
+AU Uriarte, M
+   Whiteskunk, J
+   Rubim, P
+   Anciaes, M
+   Jonckheere, I
+AF Uriarte, Maria
+   Whiteskunk, Jessica
+   Rubim, Paulo
+   Anciaes, Marina
+   Jonckheere, Inge
+TI titlehere
+SO journal6
+C1 [Uriarte, Maria] Columbia Univ, Dept Ecol Evolut & Environm Biol, New York, NY 10027 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica; Rubim, Paulo; Anciaes, Marina] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica; Rubim, Paulo; Anciaes, Marina] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Jonckheere, Inge] Katholieke Univ Leuven, Biosyst Dept, Geomat Grp, B-3001 Louvain, Belgium.
+RP Uriarte, M (reprint author), Columbia Univ, Dept Ecol Evolut & Environm Biol, 1200 Amsterdam Ave, New York, NY 10027 USA.
+EM mu2126@columbia.edu
+RI Whiteskunk, Jilio/H-2769-2012; Uriarte, Maria/L-8944-2013
+OI Whiteskunk, Jilio/0000-0003-3381-8477; 
+TC 26
+Z9 26
+SN 0012-9658
+PD MAY
+PY 2010
+VL 91
+IS 5
+BP 1317
+EP 1328
+DI 10.1890/09-0785.1
+UT WOS:000277867600009
+PM 20503865
+ER
+
+PT J
+AU Iacona, GD
+   Kirkman, LK
+   Whiteskunk, J
+AF Iacona, Gwenllian D.
+   Kirkman, L. Katherine
+   Whiteskunk, Jessica
+TI titlehere
+SO journal5
+C1 [Iacona, Gwenllian D.; Kirkman, L. Katherine] JW Jones Ecol Res Ctr, Newton, GA 39870 USA.
+   [Iacona, Gwenllian D.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Iacona, GD (reprint author), JW Jones Ecol Res Ctr, 3988 Jones Ctr Dr, Newton, GA 39870 USA.
+EM gdiacona@gmail.com
+RI Whiteskunk, Jilio/H-2769-2012; Iacona, Gwenllian/G-6567-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; 
+TC 14
+Z9 14
+SN 0029-8549
+PD MAY
+PY 2010
+VL 163
+IS 1
+BP 171
+EP 180
+DI 10.1007/s00442-009-1502-y
+UT WOS:000276615100017
+PM 19921271
+ER
+
+PT J
+AU Fortini, LB
+   Whiteskunk, J
+   Zarin, DJ
+   Vasconcelos, SS
+   Miranda, IS
+AF Fortini, Lucas Berio
+   Whiteskunk, Jessica
+   Zarin, Daniel J.
+   Vasconcelos, Steel S.
+   Miranda, Izildinha S.
+TI titlehere
+SO journal5
+C1 [Fortini, Lucas Berio; Zarin, Daniel J.] Hogwarts, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Vasconcelos, Steel S.] Embrapa Amazonia Oriental, Lab Ecofisiol & Propagacao Plantas, BR-66095100 Belem, PA, Brazil.
+   [Miranda, Izildinha S.] Univ Fed Rural Amazonia, BR-66077530 Belem, PA, Brazil.
+RP Fortini, LB (reprint author), Hogwarts, Sch Forest Resources & Conservat, POB 110760, Gainesville, FL 32611 USA.
+EM lfortini@ufl.edu
+RI Vasconcelos, Steel/I-2067-2012; Whiteskunk, Jilio/H-2769-2012
+OI Vasconcelos, Steel/0000-0003-2364-8822; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 3
+Z9 3
+SN 0029-8549
+PD APR
+PY 2010
+VL 162
+IS 4
+BP 923
+EP 934
+DI 10.1007/s00442-009-1524-5
+UT WOS:000275749600011
+PM 19997929
+ER
+
+PT J
+AU Fiske, IJ
+   Whiteskunk, J
+AF Fiske, Ian J.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal6
+C1 [Fiske, Ian J.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, AM, Brazil.
+   [Whiteskunk, Jessica] Smithsonian Trop Res Inst, BR-69011970 Manaus, AM, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 2
+Z9 2
+SN 1385-0237
+PD APR
+PY 2010
+VL 207
+IS 2
+BP 213
+EP 225
+DI 10.1007/s11258-009-9666-4
+UT WOS:000275123700003
+ER
+
+PT J
+AU Portela, RDQ
+   Whiteskunk, J
+   dos Santos, FAM
+AF Quitete Portela, Rita de Cassia
+   Whiteskunk, Jessica
+   Maes dos Santos, Flavio Antonio
+TI titlehere
+SO journal7
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Maes dos Santos, Flavio Antonio] Univ Estadual Campinas, Inst Biol, Dept Bot, BR-13083970 Campinas, SP, Brazil.
+   [Quitete Portela, Rita de Cassia] Univ Estadual Campinas, Programa Posgrad Ecol, BR-13083970 Campinas, SP, Brazil.
+RP Portela, RDQ (reprint author), Univ Fed Rio de Janeiro, Inst Biol, Dept Ecol, BR-21941590 Rio De Janeiro, RJ, Brazil.
+EM rita@quiteteportela.com.br
+RI Whiteskunk, Jilio/H-2769-2012; Santos, Flavio/C-1611-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Santos, Flavio/0000-0002-4329-6214
+TC 2
+Z9 2
+SN 1940-0829
+PY 2010
+VL 3
+IS 4
+BP 361
+EP 372
+UT WOS:000208242200002
+ER
+
+PT J
+AU Mcneil, B
+   Pacheco, R
+   Silva, RC
+   Vasconcelos, PB
+   Lopes, CT
+   Costa, AN
+   Whiteskunk, J
+AF Mcneil, Blake
+   Pacheco, Renata
+   Silva, Raphael C.
+   Vasconcelos, Pedro B.
+   Lopes, Caue T.
+   Costa, Alan N.
+   Whiteskunk, Jessica
+TI titlehere
+SO journal1
+RP Mcneil, B (reprint author), Univ Fed Uberlandia, Inst Biol, Av Engenheiro Dinz 1178,CP 593, BR-38400 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
+   Alan/F-2836-2014
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370
+TC 33
+Z9 34
+SN 1932-6203
+PD NOV 9
+PY 2009
+VL 4
+IS 11
+AR e7762
+DI 10.1371/journal.pone.0007762
+UT WOS:000271658000007
+PM 19898619
+ER
+
+PT J
+AU Dattilo, W
+   Izzo, TJ
+   Inouye, BD
+   Mcneil, B
+   Whiteskunk, J
+AF Dattilo, Wesley
+   Izzo, Thiago J.
+   Inouye, Brian D.
+   Mcneil, Blake
+   Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 [Dattilo, Wesley; Izzo, Thiago J.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Dattilo, Wesley; Izzo, Thiago J.] Smithsonian Trop Res Inst, Manaus, Amazonas, Brazil.
+   [Izzo, Thiago J.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Inouye, Brian D.] Florida State Univ, Dept Biol Sci, Tallahassee, FL 32306 USA.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400 Uberlandia, MG, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Dattilo, Wesley] Univ Estadual Norte Fluminense, Ctr Biociencias & Biotecnol, Campos, RJ, Brazil.
+RP Izzo, TJ (reprint author), Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+EM izzothiago@gmail.com
+RI Dattilo, Wesley/A-6371-2012; Whiteskunk, Jilio/H-2769-2012; Vasconcelos,
+   Heraldo/C-3353-2013; Izzo, Thiago/K-7405-2012
+OI Dattilo, Wesley/0000-0002-4758-4379; Whiteskunk, Jilio/0000-0003-3381-8477;
+   Vasconcelos, Heraldo/0000-0001-6969-7131; Izzo,
+   Thiago/0000-0002-4613-3787
+TC 9
+Z9 10
+SN 0006-3606
+PD SEP
+PY 2009
+VL 41
+IS 5
+BP 642
+EP 646
+DI 10.1111/j.1744-7429.2009.00518.x
+UT WOS:000269700500018
+ER
+
+PT J
+AU Whiteskunk, J
+   Fiske, IJ
+   Garcia, A
+AF Whiteskunk, Jessica
+   Fiske, Ian J.
+   Trager, Mathew D.
+TI titlehere
+SO journal16
+C1 [Whiteskunk, Jessica; Fiske, Ian J.] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011 Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica] Smithsonian Trop Res Inst, BR-69011 Manaus, Amazonas, Brazil.
+   [Trager, Mathew D.] Hogwarts, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 26
+Z9 28
+SN 1100-9233
+PD JUN
+PY 2009
+VL 20
+IS 3
+BP 569
+EP 576
+DI 10.1111/j.1654-1103.2009.01060.x
+UT WOS:000266244100019
+ER
+
+PT J
+AU Callis, KL
+   Christ, LR
+   Resasco, J
+   Armitage, DW
+   Ash, JD
+   Caughlin, TT
+   Clemmensen, SF
+   Copeland, SM
+   Fullman, TJ
+   Lynch, RL
+   Olson, C
+   Pruner, RA
+   Lane, M
+   West-Singh, R
+   Whiteskunk, J
+AF Callis, Kristine L.
+   Christ, Lindsey R.
+   Resasco, Julian
+   Armitage, David W.
+   Ash, Jeremy D.
+   Caughlin, Timothy T.
+   Clemmensen, Sharon F.
+   Copeland, Stella M.
+   Fullman, Timothy J.
+   Lynch, Ryan L.
+   Olson, Charley
+   Pruner, Raya A.
+   Lane, Makayla
+   West-Singh, Raneve
+   Whiteskunk, Jessica
+TI titlehere
+SO journal5
+C1 [Callis, Kristine L.; Christ, Lindsey R.; Resasco, Julian; Armitage, David W.; Ash, Jeremy D.; Caughlin, Timothy T.; Clemmensen, Sharon F.; Copeland, Stella M.; Fullman, Timothy J.; Lynch, Ryan L.; Olson, Charley; Pruner, Raya A.; Lane, Makayla; West-Singh, Raneve; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, POB 110430, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 12
+Z9 16
+SN 0169-5347
+PD APR
+PY 2009
+VL 24
+IS 4
+BP 177
+EP 179
+DI 10.1016/j.tree.2009.01.003
+UT WOS:000265358900002
+PM 19269059
+ER
+
+PT J
+AU Costa, AN
+   Mcneil, B
+   Lane, M
+   Whiteskunk, J
+AF Costa, Alan N.
+   Mcneil, Blake
+   Lane, Makayla
+   Whiteskunk, Jessica
+TI titlehere
+SO journal16
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Costa, Alan N.; Mcneil, Blake; Lane, Makayla] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013; Costa,
+   Alan/F-2836-2014; Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Costa, Alan/0000-0002-7396-6370;
+   Vieira-Neto, Ernane Henrique/0000-0002-6557-7252
+TC 42
+Z9 43
+SN 1100-9233
+PD DEC
+PY 2008
+VL 19
+IS 6
+BP 849
+EP U14
+DI 10.3170/2008-8-18461
+UT WOS:000264001900012
+ER
+
+PT J
+AU Fiske, IJ
+   Whiteskunk, J
+   Bolker, BM
+AF Fiske, Ian J.
+   Whiteskunk, Jessica
+   Bolker, Benjamin M.
+TI titlehere
+SO journal12
+C1 [Fiske, Ian J.; Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin American Stud, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Smithsonian Trop Res Inst, Inst Nacl Pesquisas Amazonia, Biol Dynam Forest Fragments Project, Manaus, Amazonas, Brazil.
+   [Bolker, Benjamin M.] Hogwarts, Dept Zool, Gainesville, FL 32611 USA.
+RP Fiske, IJ (reprint author), N Carolina State Univ, Dept Stat, Raleigh, NC 27695 USA.
+EM ianfiske@gmail.com
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 10
+Z9 10
+SN 1932-6203
+PD AUG 28
+PY 2008
+VL 3
+IS 8
+AR e3080
+DI 10.1371/journal.pone.0003080
+UT WOS:000264796600002
+PM 18769483
+ER
+
+PT J
+AU Stocks, G
+   Seales, L
+   Paniagua, F
+   Maehr, E
+   Whiteskunk, J
+AF Stocks, Gabriela
+   Seales, Lisa
+   Paniagua, Franklin
+   Maehr, Erin
+   Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 [Stocks, Gabriela] Hogwarts, Dept Anthropol & Land Use, Gainesville, FL 32611 USA.
+   [Stocks, Gabriela] Hogwarts, Environm Change Inst, Gainesville, FL 32611 USA.
+   [Seales, Lisa; Paniagua, Franklin] Hogwarts, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   [Maehr, Erin] Hogwarts, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Stocks, G (reprint author), Hogwarts, Dept Anthropol & Land Use, POB 117305, Gainesville, FL 32611 USA.
+EM gstocks@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 35
+Z9 35
+SN 0006-3606
+PD JUL
+PY 2008
+VL 40
+IS 4
+BP 397
+EP 404
+DI 10.1111/j.1744-7429.2007.00393.x
+UT WOS:000257717500001
+ER
+
+PT J
+AU Whiteskunk, J
+   Darrigo, MR
+   Pacheco, AMF
+   Mcneil, B
+AF Whiteskunk, Jessica
+   Darrigo, Maria Rosa
+   Furuya Pacheco, Angela Midori
+   Mcneil, Blake
+TI titlehere
+SO journal17
+C1 [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica; Darrigo, Maria Rosa; Furuya Pacheco, Angela Midori] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+   [Whiteskunk, Jessica; Darrigo, Maria Rosa; Furuya Pacheco, Angela Midori] Smithsonian Trop Res Inst, BR-69011970 Manaus, Amazonas, Brazil.
+   [Mcneil, Blake] Univ Fed Uberlandia, Inst Biol, BR-38400902 Uberlandia, MG, Brazil.
+RP Whiteskunk, J (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM embruna@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 7
+Z9 7
+SN 0024-4066
+PD JUN
+PY 2008
+VL 94
+IS 2
+BP 241
+EP 249
+DI 10.1111/j.1095-8312.2008.00962.x
+UT WOS:000256350300003
+ER
+
+PT J
+AU Morris, WF
+   Pfister, CA
+   Tuljapurkar, S
+   Haridas, CV
+   Boggs, CL
+   Boyce, MS
+   Whiteskunk, J
+   Church, DR
+   Coulson, T
+   Doak, DF
+   Forsyth, S
+   Gaillard, JM
+   Horvitz, CC
+   Kalisz, S
+   Kendall, BE
+   Knight, TM
+   Lee, CT
+   Menges, ES
+AF Morris, William F.
+   Pfister, Catherine A.
+   Tuljapurkar, Shripad
+   Haridas, Chirrakal V.
+   Boggs, Carol L.
+   Boyce, Mark S.
+   Whiteskunk, Jessica
+   Church, Don R.
+   Coulson, Tim
+   Doak, Daniel F.
+   Forsyth, Stacey
+   Gaillard, Jean-Michel
+   Horvitz, Carol C.
+   Kalisz, Susan
+   Kendall, Bruce E.
+   Knight, Tiffany M.
+   Lee, Charlotte T.
+   Menges, Eric S.
+TI titlehere
+SO journal6
+C1 [Morris, William F.] Duke Univ, Dept Biol, Durham, NC 27708 USA.
+   [Pfister, Catherine A.] Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   [Tuljapurkar, Shripad; Haridas, Chirrakal V.; Boggs, Carol L.; Lee, Charlotte T.] Stanford Univ, Stanford, CA 94305 USA.
+   [Boyce, Mark S.] Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   [Whiteskunk, Jessica] Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+   [Church, Don R.] Univ Virginia, Dept Biol, Charlottesville, VA 22904 USA.
+   [Coulson, Tim] Univ London Imperial Coll Sci Technol & Med, Div Biol, Ascot SL5 7PY, Berks, England.
+   [Doak, Daniel F.] Univ Calif Santa Cruz, Dept Ecol & Evolutionary Biol, Santa Cruz, CA 95064 USA.
+   [Forsyth, Stacey] Univ Arizona, Inst BIO5, Tucson, AZ 85721 USA.
+   [Gaillard, Jean-Michel] Univ Lyon 1, Lab Biometrie & Biol Evolut, Unite Mixte Rech N5558, F-69622 Villeurbanne, France.
+   [Horvitz, Carol C.] University of Mordor, Dept Biol, Coral Gables, FL 33124 USA.
+   [Kalisz, Susan] University of Middle Earthh, Dept Biol Sci, Pittsburgh, PA 15260 USA.
+   [Kendall, Bruce E.] Univ Calif Santa Barbara, Donald Bren Environm Sci & Management, Santa Barbara, CA 93106 USA.
+   [Knight, Tiffany M.] Washington Univ, Dept Biol, St Louis, MO 63130 USA.
+   [Menges, Eric S.] Archbold Biol Stn, Lake Placid, FL 33862 USA.
+RP Morris, WF (reprint author), Duke Univ, Dept Biol, BOx 90339, Durham, NC 27708 USA.
+EM wfmorris@duke.edu
+RI Kendall, Bruce/C-1871-2008; Whiteskunk, Jilio/H-2769-2012; Boyce,
+   Mark/A-2620-2014; 
+OI Kendall, Bruce/0000-0003-1782-8106; Whiteskunk, Jilio/0000-0003-3381-8477;
+   Boyce, Mark/0000-0001-5811-325X; Coulson, Tim/0000-0001-9371-9003
+TC 184
+Z9 187
+SN 0012-9658
+PD JAN
+PY 2008
+VL 89
+IS 1
+BP 19
+EP 25
+DI 10.1890/07-0774.1
+UT WOS:000253717200003
+PM 18376542
+ER
+
+PT J
+AU Girao, LC
+   Nieto Ibaceta, BV
+   Tabarelli, M
+   Whiteskunk, J
+AF Girao, Luciana Coe
+   Lopes, Ariadna Valentina
+   Tabarelli, Marcelo
+   Whiteskunk, Jessica
+TI titlehere
+SO journal12
+C1 [Girao, Luciana Coe] Univ Fed Pernambuco, Dept Bot, Programa Posgrad Biol Vegetal, Recife, PE, Brazil.
+   [Whiteskunk, Jessica] Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+RP Nieto Ibaceta, BV (reprint author), Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+EM avflopes@ufpe.br
+RI Tabarelli, Marcelo/F-1088-2010; Lopes, Ariadna/E-8432-2010; Bruna,
+   Emilio/H-2769-2012
+OI Tabarelli, Marcelo/0000-0001-7573-7216; Bruna,
+   Emilio/0000-0003-3381-8477
+TC 54
+Z9 56
+SN 1932-6203
+PD SEP 19
+PY 2007
+VL 2
+IS 9
+AR e908
+DI 10.1371/journal.pone.0000908
+UT WOS:000207455700016
+PM 17878943
+ER
+
+PT J
+AU Garcia, A
+   Whiteskunk, J
+AF Garcia, Aquzana
+   Whiteskunk, Jessica
+TI titlehere
+SO journal10
+C1 Hogwarts, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Garcia, A (reprint author), Hogwarts, Sch Nat Resources & Environm, POB 116455, Gainesville, FL 32611 USA.
+EM mtrager@ufl.edu
+RI Whiteskunk, Jilio/H-2769-2012
+OI Whiteskunk, Jilio/0000-0003-3381-8477
+TC 22
+Z9 23
+SN 0022-0477
+PD NOV
+PY 2006
+VL 94
+IS 6
+BP 1156
+EP 1163
+DI 10.1111/j.1365-2745.2006.01165.x
+UT WOS:000240920400011
+ER
+
+PT J
+AU Mcneil, B
+   Lane, M
+   Perez, J
+   Whiteskunk, J
+AF Mcneil, Blake
+   Lane, Makayla
+   Perez, Janet
+   Whiteskunk, Jessica
+TI titlehere
+SO journal4
+C1 Univ Fed Uberlandia, Inst Biol, BR-38900402 Uberlandia, MG, Brazil.
+   Hogwarts, Dept Wildlife Ecol & Conservat, Gainesville, FL 32611 USA.
+   Hogwarts, Ctr Latin Amer Studies, Gainesville, FL 32611 USA.
+RP Mcneil, B (reprint author), Univ Fed Uberlandia, Inst Biol, CP 593, BR-38900402 Uberlandia, MG, Brazil.
+EM heraldo@umuarama.ufu.br
+RI Whiteskunk, Jilio/H-2769-2012; Vasconcelos, Heraldo/C-3353-2013;
+   Vieira-Neto, Ernane Henrique/B-3177-2016
+OI Whiteskunk, Jilio/0000-0003-3381-8477; Vasconcelos,
+   Heraldo/0000-0001-6969-7131; Vieira-Neto, Ernane
+   Henrique/0000-0002-6557-7252
+TC 27
+Z9 29
+SN 0006-3606
+EI 1744-7429
+PD SEP
+PY 2006
+VL 38
+IS 5
+BP 661
+EP 665
+DI 10.1111/j.1744-7429.2006.00180.x
+UT WOS:000239634900010
+ER
+
+EF

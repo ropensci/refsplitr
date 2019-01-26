@@ -1,4 +1,4 @@
-Package: refnet
+Package: refsplitr
 Type: Package
 Title: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools
 Version: 0.6
@@ -8,7 +8,7 @@ Authors@R: c(person("Auriel M.V.", "Fournier", role = c("aut"),
               person("Matthew E.", "Boone", role = "aut"),
               person("Emilio", "Bruna", role=c("aut","cre"), 
               email="embruna@ufl.edu"))
-URL: https://github.com/embruna/refnet
+URL: https://github.com/embruna/refsplitr
 Maintainer: Emilio Bruna <embruna@ufl.edu>
 Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
 License: GPL-3
@@ -22,4 +22,4 @@ Suggests:
     covr
 VignetteBuilder: utils
 Encoding: UTF-8
-BugReports: https://github.com/embruna/refnet/issues
+BugReports: https://github.com/embruna/refsplitr/issues

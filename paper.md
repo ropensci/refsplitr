@@ -1,5 +1,5 @@
 ---
-title: 'refnet: Tools for organization and visualization of bibliometric data from the Web of Science (Clarivate Analytics)'
+title: 'refsplitr: Tools for organization and visualization of bibliometric data from the Web of Science (Clarivate Analytics)'
 tags:
   - tagone
   - tagtwo
@@ -33,10 +33,10 @@ The rapidly increasing size of bibliometric data-sets available to researchers h
 
 The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., a [University of Florida researcher could be based at one of 12 statewide Research and Education Centers, five research laboratories, 67 county extension offices, or the main campus in Gainesville](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/)). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
-Package [**`refnet`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for more in-depth analyses with user-written code packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
+Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for more in-depth analyses with user-written code packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
-Once bibliographic records have been downloaded (for guidance see Appendix 1), `refnet`'s tools are applied in four steps:   
+Once bibliographic records have been downloaded (for guidance see Appendix 1), `refsplitr`'s tools are applied in four steps:   
 - (1) importing and tidying reference records,   
 - (2) parsing of author addresses and author name disambiguation,  
 - (3) georeferencing of author institutions, and   
@@ -45,10 +45,10 @@ Once bibliographic records have been downloaded (for guidance see Appendix 1), `
 Each of these steps is described below; Appendix 2 guides users through the entire process with a sample dataset.  
 
 <p align="center">
-<img src="vignettes/RefNet_fig1_eb.jpg" height="300" /> 
+<img src="vignettes/refsplitr_fig1_eb.jpg" height="300" /> 
 </p>
 <p align="center">
-**Figure 1:** _refnet_ allows users to import, organize, and visualize bibliographic data in 4 simple steps.
+**Figure 1:** _refsplitr_ allows users to import, organize, and visualize bibliographic data in 4 simple steps.
 </p>
 
 
@@ -66,7 +66,7 @@ R Core Team (2017). R: A Language and Environment for Statistical Computing. R F
 Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology 43(1): 1-43.
 
 Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance. PLoS One 9(10): e109195.
-
+s
 Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology. 63(9): 1820-1833.
 
 Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
