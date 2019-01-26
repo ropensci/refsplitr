@@ -7,7 +7,7 @@
 #' @param  sim_score similarity score cut off point. Number between 0-1.
 #' @export authors_refine
 
-authors_refine <- function(review, prelim, sim_score = NULL, filename_root="") {
+authors_refine <- function(review, prelim, sim_score = NULL) {
 
   if (length(review) == 0 || is.null(review) ||
      nrow(review) == 0){
