@@ -95,8 +95,8 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
   file_list <- file_list[ grep(".ciw|.txt", file_list) ]
 
   if (length(file_list) == 0) {
-    #stop("ERROR:  The specified file or directory does not contain any
-          #Web of Knowledge or ISI Export Format records!")
+    stop("ERROR:  The specified file or directory does not contain any
+          Web of Knowledge or ISI Export Format records!")
   }
   message("Now processing all references files")
   filename <- file_list[1]
@@ -133,10 +133,9 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
 
       if (pre_text != "FN") {
         close(in_file)
-        message(paste0("ERROR:  The file ", filename, " doesn't appear to be a valid
-      ISI or Thomson Reuters reference library file!\n\nThe first line is:\n",
-                       pre_text, " ", line_text))
-        #stop("Ending references_read...")
+        error<-paste0("ERROR:  The file ", filename, " doesn't appear to be a valid
+      ISI or Thomson Reuters reference library file!")
+        stop(error)
       }
 
       ## 	Check to see if this is a "ISI Export Format" file, in which
@@ -175,10 +174,8 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
         }
       }
     } else {
-      message("WARNING:  Nothing contained in the specified file!")
-
       utils::flush.console()
-      #stop('quitting...')
+      stop("WARNING:  Nothing contained in the specified file!")
     }
 
 

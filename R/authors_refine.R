@@ -6,12 +6,12 @@
 #' @param prelim the `prelim` element from the list outputted by \code{authors_clean}
 #' @param  sim_score similarity score cut off point. Number between 0-1.
 #' @export authors_refine
-
+#' 
 authors_refine <- function(review, prelim, sim_score = NULL) {
 
   if (length(review) == 0 || is.null(review) ||
      nrow(review) == 0){
-message("Authors data.frame is empty.
+warning("Authors data.frame is empty.
 This likely means there are no authors that need to be handchecked.
 Outputting the prelim file.")
     output <- prelim
@@ -28,9 +28,8 @@ Outputting the prelim file.")
 
   for (i in unique(review$authorID)) {
     if (length(review$authorID[review$authorID == i]) > 1) {
-      message(paste0("Author ID: ", i, " is duplicated please change
-                   in the author file and re run"))
-      #stop("stopping function...")
+      error<-paste0("Author ID: ", i, " is duplicated please change in the author file and re run")
+      stop(error)
     }
 
     prelim$groupID[prelim$authorID == i] <- review$groupID[review$authorID == i]
