@@ -70,8 +70,7 @@ authors_georef <- function(data,
                                        DC 20500", source = "dsk"))) == 0
 
   if (!check.open) {
-    warning("data science toolkit is down right now, please try again later")
-    break
+    stop("data science toolkit is down right now, please try again later")
   }
 
   #Lets try broad strokes first. Our 4 layered address

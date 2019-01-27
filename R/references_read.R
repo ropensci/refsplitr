@@ -95,8 +95,8 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
   file_list <- file_list[ grep(".ciw|.txt", file_list) ]
 
   if (length(file_list) == 0) {
-    stop("ERROR:  The specified file or directory does not contain any
-          Web of Knowledge or ISI Export Format records!")
+    #stop("ERROR:  The specified file or directory does not contain any
+          #Web of Knowledge or ISI Export Format records!")
   }
   message("Now processing all references files")
   filename <- file_list[1]
@@ -178,7 +178,7 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
       message("WARNING:  Nothing contained in the specified file!")
 
       utils::flush.console()
-      stop('quitting...')
+      #stop('quitting...')
     }
 
 

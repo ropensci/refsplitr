@@ -30,7 +30,7 @@ Outputting the prelim file.")
     if (length(review$authorID[review$authorID == i]) > 1) {
       message(paste0("Author ID: ", i, " is duplicated please change
                    in the author file and re run"))
-      stop("stopping function...")
+      #stop("stopping function...")
     }
 
     prelim$groupID[prelim$authorID == i] <- review$groupID[review$authorID == i]
