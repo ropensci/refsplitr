@@ -8,7 +8,7 @@
 #' @param ID the authorID
 #' 
 authors_address <- function(addresses, ID){
-message('Splitting addresses\n')
+message("Splitting addresses\n")
 
 list_address <- strsplit(addresses, ",")
 university_list <- vapply(list_address, function(x) x[1], character(1))
@@ -131,7 +131,6 @@ for (i in id_run) {
   total <- length(id_run)
   pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
   utils::setTxtProgressBar(pb, which(id_run == i))
-  utils::flush.console()
   #############################################################
 }
 
@@ -146,9 +145,9 @@ a_df$postal_code[grepl("[[:alpha:]]{1,2}-", a_df$postal_code)] <-
          function(x) x[2], character(1)
          )
 #strip periods from the ends of city,state,country
-a_df$city <- gsub("\\.","",a_df$city)
-a_df$state <- gsub("\\.","",a_df$state)
-a_df$country <- gsub("\\.","",a_df$country)
+a_df$city <- gsub("\\.", "", a_df$city)
+a_df$state <- gsub("\\.", "", a_df$state)
+a_df$country <- gsub("\\.", "", a_df$country)
 
 return(a_df)
 }

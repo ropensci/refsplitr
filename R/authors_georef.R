@@ -150,7 +150,7 @@ authors_georef <- function(data,
   addresses <-
     merge(addresses[, c("authorID", "university", "postal_code", "country", "lat", "lon")],
           data[, c("authorID", "groupID", "author_order", "address",
-                   "department", "RP_address","RI", "OI", "UT", "refID")],
+                   "department", "RP_address", "RI", "OI", "UT", "refID")],
           by = "authorID", all.y = TRUE)
 
   missingaddresses <- addresses[is.na(addresses$lat), ]

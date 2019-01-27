@@ -136,7 +136,7 @@ references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
         message(paste0("ERROR:  The file ", filename, " doesn't appear to be a valid
       ISI or Thomson Reuters reference library file!\n\nThe first line is:\n",
                        pre_text, " ", line_text))
-        stop('Ending references_read...')
+        stop("Ending references_read...")
       }
 
       ## 	Check to see if this is a "ISI Export Format" file, in which

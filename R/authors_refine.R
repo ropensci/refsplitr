@@ -11,7 +11,7 @@ authors_refine <- function(review, prelim, sim_score = NULL) {
 
   if (length(review) == 0 || is.null(review) ||
      nrow(review) == 0){
-warning("Authors data.frame is empty.
+message("Authors data.frame is empty.
 This likely means there are no authors that need to be handchecked.
 Outputting the prelim file.")
     output <- prelim
@@ -28,8 +28,9 @@ Outputting the prelim file.")
 
   for (i in unique(review$authorID)) {
     if (length(review$authorID[review$authorID == i]) > 1) {
-      stop(paste0("Author ID: ", i, " is duplicated please change
+      message(paste0("Author ID: ", i, " is duplicated please change
                    in the author file and re run"))
+      stop("stopping function...")
     }
 
     prelim$groupID[prelim$authorID == i] <- review$groupID[review$authorID == i]

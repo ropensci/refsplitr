@@ -7,7 +7,7 @@
 #' @param sim_score sim score input
  
 authors_match <- function(data, sim_score){
-  message('Matching authors\n')
+  message("Matching authors\n")
   # Get the data.frame ready to be analyzed. Convert, change to NAs, etc
   n_n <- data.frame(ID = data$authorID,
                     unique_name = data$AF, groupID = NA,
@@ -29,7 +29,7 @@ authors_match <- function(data, sim_score){
   # Now time to match by orcID first. This seems most logical
   unique_oi <- n_n$OI[!is.na(n_n$OI) & is.na(n_n$groupID)]
   unique_oi <- names(table(unique_oi))[table(unique_oi) > 1]
-  if ( is.null(unique_oi) ){ unique_oi<-NA }
+  if ( is.null(unique_oi) ){ unique_oi <- NA }
   unique_oi <- unique_oi[!is.na(unique_oi)]
   unique_oi <- as.character(unique_oi)
 
@@ -40,7 +40,7 @@ authors_match <- function(data, sim_score){
   # Now match by much less used RI
   unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
   unique_ri <- names(table(unique_ri))[table(unique_ri) > 1]
-  if ( is.null(unique_ri) ){ unique_ri<-NA }
+  if ( is.null(unique_ri) ){ unique_ri <- NA }
   unique_ri <- unique_ri[!is.na(unique_ri)]
   unique_ri <- as.character(unique_ri)
   for (l in unique_ri) {
@@ -59,7 +59,7 @@ authors_match <- function(data, sim_score){
   # On the same level as a middle initial etc. Currently is major variable
   unique_em <- n_n$email[!is.na(n_n$email) & is.na(n_n$groupID)]
   unique_em <- names(table(unique_em))[table(unique_em) > 1]
-  if ( is.null(unique_em) ){ unique_em<-NA }
+  if ( is.null(unique_em) ){ unique_em <- NA }
   unique_em <- unique_em[!is.na(unique_em)]
   unique_em <- as.character(unique_em)
   for (l in unique_em) {
