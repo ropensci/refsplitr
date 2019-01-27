@@ -4,7 +4,7 @@
 \alias{authors_refine}
 \title{Refines the authors code output from authors_clean()}
 \usage{
-authors_refine(review, prelim, sim_score = NULL, filename_root = "")
+authors_refine(review, prelim, sim_score = NULL)
 }
 \arguments{
 \item{review}{the `review` element from the list outputted by \code{authors_clean}}
