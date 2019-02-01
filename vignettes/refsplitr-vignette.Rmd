@@ -337,7 +337,7 @@ knitr::include_graphics("images/plot_net_address.png")
 
 ##Acknowledgments
 
-Support for the development of refsplitr was provided by grants from the University of Florida Center for Latin American Studies and the University of Florida Informatics Institute.
+Support for the development of [**`refsplitr`**] was provided by grants from the University of Florida's Center for Latin American Studies and the University of Florida Informatics Institute.
 
 ##References
 
