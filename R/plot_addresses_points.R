@@ -33,22 +33,24 @@ plot_addresses_points <- function(data,
 
 
   ggplot2::ggplot() +
-    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
-                                                        y = "lat")) +
     ggplot2::geom_map(
       data = world, map = world,
       ggplot2::aes_string(map_id = "region"),
       color = "gray", fill = "#7f7f7f", size = 0.05, alpha = 1 / 4
     ) +
-    ggplot2::ylim(-80, 80) +
-    ggplot2::xlim(-180, 180) +
+    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
+                                                           y = "lat")) +
+    ggplot2::coord_map(ylim=c(-60,80), xlim=c(-185, 185))+
     ggplot2::ylab("longitude") +
     ggplot2::xlab("latitude") +
     ggplot2::theme_bw() +
     ggplot2::theme(
       panel.grid.major = ggplot2::element_blank(),
-      panel.grid.minor = ggplot2::element_blank()
+      panel.grid.minor = ggplot2::element_blank(),
+      axis.text=ggplot2::element_blank(),
+      axis.ticks = ggplot2::element_blank()
     )
+  
 }
 
 ## 	END: plot_addresses_points():

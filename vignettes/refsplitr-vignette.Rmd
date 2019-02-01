@@ -263,8 +263,8 @@ The `plot_addresses_country()` makes a plot whose shading indicates the number o
 
 The function has one argument:  
 
-- **data**: This is the output from `authors_georef()`
-
+- **data**: This is the addresses element from the `authors_georef()` object
+ 
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
 
 ####Example
