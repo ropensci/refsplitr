@@ -39,11 +39,5 @@ df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
 
 df[]<-lapply(df, as.character)
 
-actual <- authors_clean(references=df,sim_score, write_out_data = TRUE)
-
-expect(file.exists("_authors_prelim.csv"))
-expect(file.exists("_authors_review.csv"))
+actual <- authors_clean(references=df,sim_score)
 })
-
-unlink("_authors_prelim.csv")
-unlink("_authors_review.csv")

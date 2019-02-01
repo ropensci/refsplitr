@@ -53,10 +53,7 @@ df.review<-data.frame("authorID"=c(1,3),
                "postal_code"=NA,
                "department"=NA , stringsAsFactors=F )
 
-  actual <-authors_refine(df.review, df.prelim, sim_score=0.88,
-                          filename_root = "test")
-
-  expect(file.exists("test_authors_refined.csv"))
+  actual <-authors_refine(df.review, df.prelim, sim_score=0.88)
   expect_equal(actual$author_name, c("Smith, Jon J.", "Thompson, Bob B.", 
                                      "Smith, Jon J."))
   expect_equal(nrow(df.prelim),nrow(actual))
@@ -97,13 +94,9 @@ df.review<-data.frame("authorID"=c(1,3),
   df.review2<-as.data.frame(matrix(ncol=ncol(df.review), nrow=0))
 
   colnames(df.review2) <- colnames(df.review)
+  expect_warning(authors_refine(df.review2, df.prelim, sim_score=0.88),"Authors data.frame is empty.
+This likely means there are no authors that need to be handchecked.
+Outputting the prelim file")
 
-actual <- authors_refine(df.review2, df.prelim, sim_score=0.88)
-
-expect_equal(actual$authorID, c(1,2,3))
-expect_equal(nrow(df.prelim),nrow(actual))
-
-  
 })
 
-unlink("test_authors_refined.csv")
