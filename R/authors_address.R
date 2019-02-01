@@ -6,7 +6,6 @@
 #' university, department, city, state, etc. 
 #' @param addresses the addresses
 #' @param ID the authorID
-#' 
 authors_address <- function(addresses, ID){
 message("Splitting addresses\n")
 
