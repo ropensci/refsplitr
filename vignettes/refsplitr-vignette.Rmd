@@ -62,29 +62,22 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 
 ####Example
 
-a. To import and process a single file located in a folder named "data" and save the output as a file named "example_references" in the "output" folder: 
+a. To import and process a single file located in a folder named "data":
 
 ```r
-example_refs <- references_read(data = './data/example_data.txt',
-                                    dir = F, 
-                                    filename_root = './output/example')
+# https://github.com/embruna/refsplitr/blob/master/inst/extdata/example_data.txt
+
+example_refs <- references_read(data = 'inst/extdata/example_data.txt',
+                                    dir = FALSE)
 ```
 
-b. To import and process multiple files located in a folder named "data" and save the output as "WOS_references" in the "output" folder: 
+b. To import and process multiple files located in a folder named "data":
 
 ```r 
-example_refs <- references_read(data = './data', 
-                                      dir = T, 
-                                filename_root = './output/example')
+example_refs <- references_read(data = 'inst/extdata', 
+                                      dir = TRUE)
 ```
 
-c. To save to a location with a prefix, write the folder path followed by a '/' and then the prefix. This will save the file under the root directory as "/newpath/newprefix_references.csv": 
-
-```r
-example_refs <- references_read(data = './data', 
-                                      dir = T, 
-                                filename_root = "./newpath/newprefix")`
-```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/references_read.png")
@@ -98,7 +91,6 @@ The next step is to identify all unique authors in the dataset and parse their a
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
-- **filename_root**:  The location in which the output file is to be saved and the prefix used to name it. If you do not want to write a file leave this field blank. The syntax is the same as for `references_read()`. 
 
 The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements is also saved as a separate .csv file in the location specified in the function (e.g., the output folder in the working directory).  
 
@@ -109,13 +101,10 @@ Once disambiguation is complete, users can accept `refsplitr`'s results without 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
 ```r 
-example_a_clean <- authors_clean(example_refs,     
-                          filename_root="./output/example",
-                          write_out_data=FALSE,
+example_a_clean <- authors_clean(example_refs,
                           sim_score=0.88)
 ```
 
-If you want to review the preliminary cleaned authors and the master file, set `write_out_data=TRUE` and two .csv files will be written to your working directory, so you can check it by hand if you like. 
 `authors_clean()` defaults to matching authors with a similarity score of 0.88 or higher, but this score can be adjusted if the user desires. 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
@@ -134,7 +123,6 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
 
-- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
 
@@ -144,8 +132,7 @@ a. To accept the results of author disambiguation without manual review:
 
 ```r 
 example_a_refined <- authors_refine(example_a_clean$review, 
-                                    example_a_clean$prelim,
-                                  filename_root="./output/example")
+                                    example_a_clean$prelim)
 ```
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
@@ -192,8 +179,6 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
 
-- **filename_root**: The prefix for the resulting output and locations to which it will be saved, using the same syntax as for previous functions. 
-
 The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
 
 ####Example
@@ -202,8 +187,7 @@ The output of `authors_refine()` is a file is an object in the R Workspace and a
 example_a_corrected <- read.csv("correctedfile.csv")
 
 example_a_refined <-authors_refine(example_a_corrected, 
-                                example_a_clean$prelim,
-                                filename_root="./output/example")
+                                example_a_clean$prelim)
 ```
 
 
@@ -221,30 +205,23 @@ Users can georeference author's institutions (latitude & longitude) using the `a
 
 - **address_column**: A quoted character identifying the column name in which addresses are stored.
 
-- **write_out_missing**: if TRUE creates a file with the author addresses that that `refsplitr` was unable to georeference; set to TRUE by default
-
-The outputs of `authors_georef()` are (1) a modified data.frame with new columns for the latitude and longitude of each authors institution and the parts of the author's address that could be parsed out from the WOS record, and (2) an output/file of references that refsplitr was unable to georeference, which the user can review, manually correct, and import back into the file of georeferenced author locations. Output is saved as `filename_addresses.csv`. 
+The output of `authors_georef()` is a 3 element list. The first element `addresses` contains all the records. The second element `missing_addresses` contains the records it was unable to georeference. The third element `not_missing_addresses` contains only the records with georeferenced addresses. 
 
 - **Warning #1**: it can be difficult for this version of `refsplitr` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
-- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit) or [https://developers.google.com/maps/documentation/](Google Maps API). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
+- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
 
 
 ####Example
 
 ```r
 example_georef <-authors_georef(data=example_refine, 
-                                address_column = "address", 
-                                retry_limit = 10)
+                                address_column = "address")
 ```
 
 The data arguments needs to be the output object from `authors_refine()`. 
 
 `address_column` defaults to the `address` column from the `authors_refine()` output. 
-
-`retry_limit` is the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querying the google api when its busy. 
-
-
 
 
 ###2.4. Data Visualization: Productivity and Collaboration 
@@ -263,7 +240,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 ####Example
 
-> `plot_addresses_country <- plot_addresses_country(data$addresses)`
+> `plot_addresses_country <- plot_addresses_country(example_georef$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_addresses_country.png")
@@ -283,7 +260,7 @@ The output of `authors_georef()` is a ggplot object.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data$addresses)`
+> `plot_addresses_points <- plot_addresses_points(example_georef$addresses)`
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -303,7 +280,7 @@ This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data$addresses)`
+> `plot_addresses_points <- plot_addresses_points(example_georef$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
@@ -328,7 +305,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 ####Example
 
-> `plot_net_country <- plot_net_country(data$addresses)`
+> `plot_net_country <- plot_net_country(example_georef$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_country.png")
@@ -350,7 +327,7 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
-> `plot_net_address <- plot_net_address(data$addresses)`
+> `plot_net_address <- plot_net_address(example_georef$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_address.png")
@@ -364,23 +341,23 @@ Support for the development of refsplitr was provided by grants from the Univers
 
 ##References
 
-Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4): 959-975.
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4): 959-975. DOI: 10.1016/j.joi.2017.08.007 
 
-Fortunato, S., C. T. Bergstrom, K. Barner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabasi (2018). Science of science. Science, 359: eaao0185.
+Fortunato, S., C. T. Bergstrom, K. Barner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabasi (2018). Science of science. Science, 359: eaao0185. DOI: 10.1126/science.aao0185 
 
-Larivière, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213
+Larivière, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213. DOI: 10.1038/504211a
 
-R Core Team (2017). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+R Core Team (2019). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 
-Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology, 43(1): 1-43.
+Smalheiser, N. R., & Torvik, V. I. (2009). Author name disambiguation. Annual Review of Information Science and Technology, 43(1): 1-43. DOI: 10.1002/aris.2009.1440430113
 
-Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance, PLOS One 9(10): e109195.
+Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientific impact of nations: Journal placement and citation performance, PLOS One 9(10): e109195. DOI: 10.1371/journal.pone.0109195
 
-Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
+Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833. DOI: 10.1002/asi.22695
 
-Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
+Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp. ISBN-10: 9780190640125 
 
-Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
+Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. DOI: 10.1101/262881
 
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
