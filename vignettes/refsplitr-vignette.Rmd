@@ -5,12 +5,12 @@ date: "`r Sys.Date()`"
 fig_caption: yes
 geometry: margin=2cm
 output:
+  pdf_document:
+    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
-  pdf_document:
-    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -64,17 +64,14 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 a. To import and process a single file located in a folder named "data":
 
 ```r
-# https://github.com/embruna/refsplitr/blob/master/inst/extdata/example_data.txt
-
-example_refs <- references_read(data = 'inst/extdata/example_data.txt',
+example_refs <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"),
                                     dir = FALSE)
 ```
 
 b. To import and process multiple files located in a folder named "data":
 
 ```r 
-example_refs <- references_read(data = 'inst/extdata', 
-                                      dir = TRUE)
+example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),dir = TRUE)
 ```
 
 
