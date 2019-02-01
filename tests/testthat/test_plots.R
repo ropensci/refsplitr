@@ -36,13 +36,10 @@ test_that("Map plots work", {
                  "lat"=c(35,51.7520,39),
                  "lon"=c(-100,1.2577,-80),
                  stringsAsFactors=FALSE )
-  #a<-ggplot(df, aes(x=lon,y=lat)) +geom_point()
-  #b<-a
-  #vdiffr::expect_doppelganger("testplot",b,verbose=TRUE)
+  
   a<-plot_addresses_points(data=df)
-  names(a)
- expect_equal( a$layers[[1]]$data$lat, c(35.00,51.752,39.00))
- expect_equal( a$layers[[1]]$data$lon, c(-100.00,1.2577,-80.000))
+ expect_equal( a$layers[[2]]$data$lat, c(35.00,51.752,39.00))
+ expect_equal( a$layers[[2]]$data$lon, c(-100.00,1.2577,-80.000))
  
  expect_output(plot_addresses_country(data=df), regexp = "2 codes from your data successfully matched countries in the map
 0 codes from your data failed to match with a country code in the map
