@@ -5,12 +5,12 @@ date: "`r Sys.Date()`"
 fig_caption: yes
 geometry: margin=2cm
 output:
-  pdf_document:
-    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
+  pdf_document:
+    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -44,8 +44,7 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 3. georeferencing of author institutions (Section 2.3)
 4. data visualization (Section 2.4)
 
-These examples below use the sample dataset 'example_data.txt' included with the `refsplitr` package. *The examples assume one has created two folders in ones working directory or Rstudio Project: one named 'data' and one named 'output' - and that the exported bibliographic records are saved in the 'data' folder*.    
-
+**Learning to use `refspliter` with the examples below:** The examples below use the dataset 'example_data.txt' included with the `refsplitr` package. To use them, first create two folders in the working directory or Rstudio Project: one named 'data' and one named 'output'. Then save the sample data 'example_data.txt' file in the 'data' folder. This is the same proceedure that would be used to process downloaded WOS output files. 
 
 ###2.1. Importing Search Results 
 
@@ -337,7 +336,7 @@ knitr::include_graphics("images/plot_net_address.png")
 
 ##Acknowledgments
 
-Support for the development of [**`refsplitr`**] was provided by grants from the University of Florida's Center for Latin American Studies and the University of Florida Informatics Institute.
+Support for the development of `refsplitr` was provided by grants from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the University of Florida.
 
 ##References
 
