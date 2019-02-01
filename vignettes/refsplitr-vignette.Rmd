@@ -280,7 +280,7 @@ This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(example_georef$addresses)`
+> `plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
