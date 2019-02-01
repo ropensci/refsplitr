@@ -5,12 +5,12 @@ date: "`r Sys.Date()`"
 fig_caption: yes
 geometry: margin=2cm
 output:
-  pdf_document:
-    highlight: tango
   html_document:
     standalone: true
     highlight: tango
     self-contained: true
+  pdf_document:
+    highlight: tango
 vignette: >
   %\VignetteIndexEntry{Multi-format vignettes}
   \usepackage[utf8]{inputenc}
@@ -61,14 +61,14 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 
 ####Example
 
-a. To import and process a single file located in a folder named "data":
+a. To import and process a single file, set dir=FALSE and set data equal to the file path, here reading in a small example dataset:
 
 ```r
 example_refs <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"),
                                     dir = FALSE)
 ```
 
-b. To import and process multiple files located in a folder named "data":
+b. To import and process multiple files located in a folder, set dir=TRUE, and set data equal to a directory containing the files. 
 
 ```r 
 example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),dir = TRUE)
