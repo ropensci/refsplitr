@@ -5,6 +5,7 @@
 #'
 #' @param data data input
 #' @param sim_score sim score input
+#' @noRd
  
 authors_match <- function(data, sim_score){
   message("Matching authors\n")

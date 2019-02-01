@@ -9,6 +9,7 @@
 #' This is an internal function used by `authors_clean()``
 #'
 #' @param references input 
+#' @noRd
 #'
 authors_parse <- function(references){
   message("Splitting author records\n")

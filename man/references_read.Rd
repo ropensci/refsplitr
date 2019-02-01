@@ -4,7 +4,7 @@
 \alias{references_read}
 \title{Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files (.txt and .ciw)}
 \usage{
-references_read(data = ".", dir = TRUE, include_all = FALSE)
+references_read(data = ".", dir = FALSE, include_all = FALSE)
 }
 \arguments{
 \item{data}{either a directory, used in conjuction with dir=TRUE, or a file
@@ -12,7 +12,7 @@ name to load.}
 
 \item{dir}{if TRUE then data is assumed to be a directory name from which all
 files will be read, but if FALSE then data is assumed to be a single file
-to read, defaults to TRUE}
+to read, defaults to FALSE}
 
 \item{include_all}{should all columns be included, or just the most commonly recorded. 
 default=FALSE.

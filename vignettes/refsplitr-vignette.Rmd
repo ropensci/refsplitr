@@ -26,7 +26,7 @@ knitr::opts_chunk$set(
 
 ##1. Introduction
 
-The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) are rich sources of data for SciSci studies (Sugimoto and Lariviare 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Lariviare et al. 2013, Smith et al. 2014). 
+The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://login.webofknowledge.com/error/Error?PathInfo=%2F&Error=IPError) are rich sources of data for SciSci studies (Sugimoto and Larivière 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Larivière et al. 2013, Smith et al. 2014). 
 
 The rapidly increasing size of bibliometric data-sets available to researchers has exascerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task can often be extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
@@ -235,18 +235,12 @@ The outputs of `authors_georef()` are (1) a modified data.frame with new columns
 ```r
 example_georef <-authors_georef(data=example_refine, 
                                 address_column = "address", 
-                                filename_root = "",
-                                write_out_missing = TRUE, 
                                 retry_limit = 10)
 ```
 
 The data arguments needs to be the output object from `authors_refine()`. 
 
 `address_column` defaults to the `address` column from the `authors_refine()` output. 
-
-The `filename_root` specifies where, if a file is written out, it will go. 
-
-If you want records which cannot be georeferenced written out, set `write_out_missing` to TRUE, defaults to FALSE. 
 
 `retry_limit` is the amount of times you want to retry querying the remaining addresses through the google api. We recommend doing it multiple times to bypass common errors querying the google api when its busy. 
 
@@ -269,7 +263,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 ####Example
 
-> `plot_addresses_country <- plot_addresses_country(data)`
+> `plot_addresses_country <- plot_addresses_country(data$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_addresses_country.png")
@@ -289,7 +283,7 @@ The output of `authors_georef()` is a ggplot object.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data)`
+> `plot_addresses_points <- plot_addresses_points(data$addresses)`
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -303,13 +297,13 @@ The `plot_net_coauthor()` function plots a co-authorship network based on the co
 
 The function has one argument:  
 
-- **data**: This is the output from `authors_georef()`. Must be an object.
+- **data**: This is the addresses element of the `authors_georef()` object.
 
 This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-> `plot_addresses_points <- plot_addresses_points(data)`
+> `plot_addresses_points <- plot_addresses_points(data$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_coauthor.png")
@@ -322,7 +316,7 @@ The `plot_net_country()` function plots a coauthorship network of the countries 
 
 The function has one argument:  
 
-- **data**: This is the output from `authors_georef()`. Must be an object.  
+- **data**: This is the addresses element from the `authors_georef()` object.  
 
 The output of `plot_net_country()` is an list.  The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
@@ -334,7 +328,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 ####Example
 
-> `plot_net_country <- plot_net_country(data)`
+> `plot_net_country <- plot_net_country(data$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_country.png")
@@ -347,7 +341,7 @@ The `plot_net_address()` function is used to plot a georeferenced coauthorship n
 
 The function has one argument:  
 
-- **data**: This is the output from `authors_georef()`. Must be an object.
+- **data**: This is the addresses element from the `authors_georef()` output. 
 
 The output of `plot_net_address()` is an list. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
@@ -356,7 +350,7 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
-> `plot_net_address <- plot_net_address(data)`
+> `plot_net_address <- plot_net_address(data$addresses)`
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/plot_net_address.png")
@@ -374,7 +368,7 @@ Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive scien
 
 Fortunato, S., C. T. Bergstrom, K. Barner, J. A. Evans, D. Helbing, S. Milojevic, A. M. Petersen, F. Radicchi, R. Sinatra, B. Uzzi, A. Vespignani, L. Waltman, D. Wang, & A.-L. Barabasi (2018). Science of science. Science, 359: eaao0185.
 
-Lariviare, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213
+Larivière, V., Ni, C., Gingras, Y., Cronin, B., & Sugimoto, C. R. (2013). Bibliometrics: Global gender disparities in science. Nature News, 504(7479): 211-213
 
 R Core Team (2017). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 
@@ -384,7 +378,7 @@ Smith, M. J., Weinberger, C., Bruna, E. M., & Allesina, S. (2014). The scientifi
 
 Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference does it make in author based citation analysis?. Journal of the Association for Information Science and Technology, 63(9): 1820-1833.
 
-Sugimoto CR, Lariviare V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
+Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp.
 
 Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. doi: 10.1101/262881
 

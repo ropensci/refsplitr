@@ -8,7 +8,8 @@
 \describe{
   \item{countries}{a character vector of country names}
   }
-  @export countries}
+  @export countries
+  @noRd}
 \usage{
 countries
 }

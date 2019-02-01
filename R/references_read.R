@@ -7,13 +7,13 @@
 #'   name to load.
 #' @param dir if TRUE then data is assumed to be a directory name from which all
 #'   files will be read, but if FALSE then data is assumed to be a single file
-#'   to read, defaults to TRUE
+#'   to read, defaults to FALSE
 #' @param include_all should all columns be included, or just the most commonly recorded. 
 #'  default=FALSE.
 #'  the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 #' @export references_read
 #' 
-references_read <- function(data = ".", dir = TRUE, include_all=FALSE) {
+references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
  ## 	NOTE: The fields stored in our output table are a combination of the
  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
  ## 		Format" both of which are version 1.0:

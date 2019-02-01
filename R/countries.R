@@ -7,4 +7,5 @@
 #'   \item{countries}{a character vector of country names}
 #'   }
 #'   @export countries
+#'   @noRd
 "countries"
