@@ -215,7 +215,7 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 ####Example
 
 ```r
-example_georef <-authors_georef(data=example_refine, 
+example_georef <-authors_georef(data=example_a_refined, 
                                 address_column = "address")
 ```
 
