@@ -20,10 +20,13 @@ devtools::install_github("embruna/refsplitr")
 ## Workflow
 
 ```{r example, eval=FALSE}
-references_read()
-authors_clean()
-authors_refine()
-authors_georef()
+# https://github.com/embruna/refsplitr/blob/master/inst/extdata/example_data.txt
+dat1 <- references_read(data="refsplitr/inst/extdata/example_data.txt", dir = FALSE)
+dat2 <- authors_clean(references = dat1)
+dat3 <- authors_refine(dat2$review, dat2$prelim)
+dat4 <- authors_georef(dat3)
+
+plot_addresses_points(dat4$addresses)
 ```
 
 Issues, Feature Requests and Pull Requests Welcome, see here for more details on [how to contribute](https://github.com/embruna/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
