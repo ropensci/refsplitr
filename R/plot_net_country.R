@@ -21,6 +21,7 @@
 plot_net_country <- function(data,
                              line_resolution = 10,
                              mapRegion = "world") {
+  
   data <- data[!is.na(data$country), ]
 
   ## 	Or, we could use a sparse matrix representation:
@@ -92,19 +93,35 @@ plot_net_country <- function(data,
   ## 	One could also use ggplot to plot out the network geographically:
 
   maptools::gpclibPermit()
+  
+  
+  layoutCoordinates <- coords_df
 
 
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE) {
     adjacencyList$country <- as.character(adjacencyList$country)
     adjacencyList$countryA <- as.character(adjacencyList$countryA)
+    
+    
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
+    
+    layoutCoordinates <- na.omit(layoutCoordinates)
 
     adjacencyList$country <- ifelse(adjacencyList$country == "USA", 
                             "United States of America", adjacencyList$country)
 
     adjacencyList$countryA <- ifelse(adjacencyList$countryA == "USA", 
                           "United States of America", adjacencyList$countryA)
+    
+    adjacencyList$country <- ifelse(adjacencyList$country == "V1", 
+                                    NA, adjacencyList$country)
+    
+    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1", 
+                                     NA, adjacencyList$countryA)
+    
+    adjacencyList <- na.omit(adjacencyList)
+    
 
     adjacencyList$country <- gsub(
       pattern = "\\.", replacement = " ",
@@ -140,7 +157,7 @@ plot_net_country <- function(data,
 
   adjacencyMatrix <- as.matrix(linkages_countries)
 
-  layoutCoordinates <- coords_df
+
 
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NA"] <- "NAstr"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NA"] <- "NAstr"
