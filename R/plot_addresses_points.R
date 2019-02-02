@@ -46,8 +46,8 @@ plot_addresses_points <- function(data,
     ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
                                                            y = "lat")) +
     ggplot2::coord_map(ylim=c(-60,80), xlim=c(-185, 185))+
-    ggplot2::ylab("longitude") +
-    ggplot2::xlab("latitude") +
+    ggplot2::ylab("latitude") +
+    ggplot2::xlab("longitude") +
     ggplot2::theme_bw() +
     ggplot2::theme(
       panel.grid.major = ggplot2::element_blank(),

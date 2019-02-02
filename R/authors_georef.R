@@ -142,8 +142,8 @@ authors_georef <- function(data,
                                               source = "dsk",
                                               messaging = TRUE
     ))
-    addresses$lat[addresses$adID == i] <- result[[2]]
-    addresses$lon[addresses$adID == i] <- result[[1]]
+    addresses$lat[addresses$adID == i] <- result[[1]]
+    addresses$lon[addresses$adID == i] <- result[[2]]
   }
 
   addresses <-
