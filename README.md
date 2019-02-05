@@ -1,4 +1,4 @@
-# refsplitr <img src="man/figures/refnethex.png" height="200" align="right">
+# refsplitr <img src="man/figures/refsplitrhex.png" height="200" align="right">
 
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Build Status](https://travis-ci.org/embruna/refsplitr.svg?branch=master)](https://travis-ci.org/embruna/refsplitr)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/embruna/refnet/badge.svg?branch=master)](https://coveralls.io/github/embruna/refnet?branch=master)
 
@@ -36,18 +36,18 @@ Issues, Feature Requests and Pull Requests Welcome, see here for more details on
 * [Auriel Fournier](https://github.com/aurielfournier), Porzana Solutions
 * [Matt Boone](https://github.com/birderboone), Porzana Solutions
 * [Forrest Stevens](http://forreststevens.com/teaching/research.html), University of Louisville
-* [Emilio Bruna](https://github.com/embruna), University of Florida
+* [Emilio M. Bruna](https://github.com/embruna), University of Florida
 
 ## Citation
 
 Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
-  Stevens Developer and Emilio Bruna Developer (2018). refsplitr:
+  Stevens Developer and Emilio M. Bruna Developer (2018). refsplitr:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
   0.6.
   
     @Manual{,
     title = {refsplitr: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
-    author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio Bruna Developer},
+    author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio M. Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
   }

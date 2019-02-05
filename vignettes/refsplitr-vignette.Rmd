@@ -3,13 +3,13 @@ title: "refsplitr"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output:
-  word_document: default
   pdf_document:
     highlight: tango
   html_document:
     highlight: tango
     self-contained: yes
     standalone: yes
+  word_document: default
 geometry: margin=2cm
 fig_caption: yes
 vignette: |
@@ -358,8 +358,13 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/Appendix1b.jpg")
+```{r, echo=FALSE, fig.pos="H", out.width="250px"}
+# knitr::include_graphics("images/Appendix1b.jpg")
+knitr::include_graphics("images/App1-1.png")
+knitr::include_graphics("images/App1-2.png")
+knitr::include_graphics("images/App1-3.png")
+knitr::include_graphics("images/App1-4.png")
+
 ```
 
 **Figure 13:** Web of Science Download Instructions
@@ -406,6 +411,7 @@ Below is an example of how the algorithm processes a sample data set.
  
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/appendix3.1.png")
+
 ``` 
  
 **Figure 14:** Example dataset. 
