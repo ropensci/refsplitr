@@ -47,7 +47,7 @@ Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
   
     @Manual{,
     title = {refsplitr: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
-    author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio Bruna Developer},
+    author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio M. Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
   }
