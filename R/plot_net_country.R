@@ -106,7 +106,7 @@ plot_net_country <- function(data,
     
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
     
-    layoutCoordinates <- na.omit(layoutCoordinates)
+    layoutCoordinates <- stats::na.omit(layoutCoordinates)
 
     adjacencyList$country <- ifelse(adjacencyList$country == "USA", 
                             "United States of America", adjacencyList$country)
@@ -120,7 +120,7 @@ plot_net_country <- function(data,
     adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1", 
                                      NA, adjacencyList$countryA)
     
-    adjacencyList <- na.omit(adjacencyList)
+    adjacencyList <- stats::na.omit(adjacencyList)
     
 
     adjacencyList$country <- gsub(
