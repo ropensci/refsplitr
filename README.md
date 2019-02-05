@@ -36,12 +36,12 @@ Issues, Feature Requests and Pull Requests Welcome, see here for more details on
 * [Auriel Fournier](https://github.com/aurielfournier), Porzana Solutions
 * [Matt Boone](https://github.com/birderboone), Porzana Solutions
 * [Forrest Stevens](http://forreststevens.com/teaching/research.html), University of Louisville
-* [Emilio Bruna](https://github.com/embruna), University of Florida
+* [Emilio M. Bruna](https://github.com/embruna), University of Florida
 
 ## Citation
 
 Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
-  Stevens Developer and Emilio Bruna Developer (2018). refsplitr:
+  Stevens Developer and Emilio M. Bruna Developer (2018). refsplitr:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
   0.6.
   
