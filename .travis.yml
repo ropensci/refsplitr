@@ -5,3 +5,4 @@ sudo: false
 cache: packages
 after_success:
     - Rscript -e 'covr::coveralls()'
+r_github_packages: dkahle/ggmap
