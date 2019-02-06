@@ -66,7 +66,11 @@ authors_georef <- function(data,
 
   # check.open <- NA
   # # we'll check if data science toolkit is working, by pinging a known address
-
+  check.open <- sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source = "dsk"))) == 0
+  # 
+  if (!check.open) {
+    stop("data science toolkit is down right now, please try again later")
+  }
 
   #Lets try broad strokes first. Our 4 layered address
   for (i in addresses$adID) {
