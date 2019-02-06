@@ -18,6 +18,7 @@
 #' @param address_column name of column in quotes where the addresses are
 #' 
 #' @importFrom dplyr full_join
+#' @importFrom ggmap geocode
 #' @export authors_georef 
 #' 
 authors_georef <- function(data,
@@ -66,7 +67,7 @@ authors_georef <- function(data,
 
   # check.open <- NA
   # # we'll check if data science toolkit is working, by pinging a known address
-  check.open <- sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source = "dsk"))) == 0
+  check.open <- sum(is.na(geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source = "dsk"))) == 0
   # 
   if (!check.open) {
     stop("data science toolkit is down right now, please try again later")
@@ -76,7 +77,7 @@ authors_georef <- function(data,
   for (i in addresses$adID) {
     address <- as.character(addresses$short_address[i])
     message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
+    suppressWarnings(result <- geocode(address,
                                               output = "latlona",
                                               source = "dsk",
                                               messaging = TRUE
@@ -96,7 +97,7 @@ authors_georef <- function(data,
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
+    suppressWarnings(result <- geocode(address,
                                               output = "latlona",
                                               source = "dsk",
                                               messaging = TRUE
@@ -116,7 +117,7 @@ authors_georef <- function(data,
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
+    suppressWarnings(result <- geocode(address,
                                               output = "latlona",
                                               source = "dsk",
                                               messaging = TRUE
@@ -136,7 +137,7 @@ authors_georef <- function(data,
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
+    suppressWarnings(result <- geocode(address,
                                               output = "latlona",
                                               source = "dsk",
                                               messaging = TRUE
