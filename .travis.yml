@@ -3,6 +3,7 @@
 language: R
 sudo: false
 cache: packages
+r_github_packages: dkahle/ggmap
 after_success:
     - Rscript -e 'covr::coveralls()'
-r_github_packages: dkahle/ggmap
+
