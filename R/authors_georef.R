@@ -24,6 +24,8 @@
 authors_georef <- function(data,
                            address_column = "address") {
 
+  options(ggmap = list(display_api_key = FALSE))
+  
   addresses <- data[, c("university", "city", "state", "country",
                   "postal_code", "authorID", "address")]
   #Change some formatting to help data science toolkit

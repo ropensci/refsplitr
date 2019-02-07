@@ -33,7 +33,7 @@ test_that("Geo ref is gathered", {
                  "lat"=c(35,51.7520,39),
                  "lon"=c(-100,1.2577,-80),
                  stringsAsFactors=FALSE )
-  
+
   expect_message(result<-authors_georef(data=df), regexp = "Working... *")
   expect_equal(length(result),3)
   expect_false(any(is.na(result$addresses$lat)))
