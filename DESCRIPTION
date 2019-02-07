@@ -4,8 +4,8 @@ Title: Thomson Reuters Web of Knowledge/Science and ISI Reference Data Tools
 Version: 0.6
 Authors@R: c(person("Auriel M.V.", "Fournier", role = c("aut"),
                      email = "aurielfournier@gmail.com"),
-              person("Forrest R.", "Stevens", role = "aut"),
               person("Matthew E.", "Boone", role = "aut"),
+              person("Forrest R.", "Stevens", role = "aut"),
               person("Emilio", "Bruna", role=c("aut","cre"), 
               email="embruna@ufl.edu"))
 URL: https://github.com/embruna/refsplitr
