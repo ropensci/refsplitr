@@ -15,7 +15,7 @@ License: GPL-3
 Imports: maptools,  rworldmap, vdiffr, RecordLinkage, Matrix, igraph, network, sna, Hmisc, ggplot2, Rdpack, ggmap, tidyr, dplyr, tibble
 RoxygenNote: 6.1.1
 RdMacros: Rdpack
-Remotes: lionel-/vdiffr
+Remotes: lionel-/vdiffr, dkahle/ggmap
 Suggests: 
     testthat,
     utils,
