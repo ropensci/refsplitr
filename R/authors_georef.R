@@ -24,7 +24,7 @@
 authors_georef <- function(data,
                            address_column = "address") {
 
-#  options(ggmap = list(display_api_key = FALSE))
+ options(ggmap = list(display_api_key = FALSE))
   
   addresses <- data[, c("university", "city", "state", "country",
                   "postal_code", "authorID", "address")]
@@ -162,6 +162,8 @@ authors_georef <- function(data,
   outputlist$addresses <- addresses
   outputlist$missing_addresses <- missingaddresses
   outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
-
+  
+  # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
+  on.exit(options(ggmap = list(display_api_key = TRUE)))
   return(outputlist)
 }
