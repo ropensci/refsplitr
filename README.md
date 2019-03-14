@@ -20,8 +20,7 @@ devtools::install_github("embruna/refsplitr")
 ## Workflow
 
 ```{r example, eval=FALSE}
-# https://github.com/embruna/refsplitr/blob/master/inst/extdata/example_data.txt
-dat1 <- references_read(data="refsplitr/inst/extdata/example_data.txt", dir = FALSE)
+dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
 dat2 <- authors_clean(references = dat1)
 dat3 <- authors_refine(dat2$review, dat2$prelim)
 dat4 <- authors_georef(dat3)
