@@ -66,6 +66,13 @@ a_df$postal_code[nchar(a_df$postal_code) == 0] <- NA
 a_df$department[!is.na(a_df$state) & !is.na(a_df$postal_code) &
   !is.na(a_df$state)] <- a_df$third_tier[!is.na(a_df$state) &
   !is.na(a_df$postal_code) & !is.na(a_df$state)]
+# fix a US problem when USA is not tacked onto the end
+a_df$state[grepl("[[:alpha:]]{2}[[:space:]]{1}[[:digit:]]{5}",a_df$country)]<-
+  substr(a_df$country[grepl("[[:alpha:]]{2}[[:space:]]{1}[[:digit:]]{5}",a_df$country)],1,2)
+a_df$postal_code[grepl("[[:alpha:]]{2}[[:space:]]{1}[[:digit:]]{5}",a_df$country)]<-
+  substr(a_df$country[grepl("[[:alpha:]]{2}[[:space:]]{1}[[:digit:]]{5}",a_df$country)],4,8)
+a_df$country[grepl("[[:alpha:]]{2}[[:space:]]{1}[[:digit:]]{5}",a_df$country)]<-'USA'
+
 
 ##########################
 # We'll use regular expression to pull zipcodes
@@ -75,8 +82,9 @@ int <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}|[[:space:]][[:upper:]][[:di
 UK <- "[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
 
 Mexico <- "[[:space:]]{1}[[:digit:]]{5}" # technically US as well
-
-zip_search <- paste0(int, "|", UK, "|", Mexico)
+0843-03092
+Panama <- "[[:digit:]]{4}-[[:digit:]]{5}"
+zip_search <- paste0(int, "|", UK, "|", Mexico,"|",Panama)
 
 ###########################
 id_run <- a_df$adID[is.na(a_df$state) & is.na(a_df$postal_code) &
