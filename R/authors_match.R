@@ -8,7 +8,7 @@
 #' @noRd
  
 authors_match <- function(data, sim_score){
-  message("Matching authors\n")
+  message("\nMatching authors\n")
   # Get the data.frame ready to be analyzed. Convert, change to NAs, etc
   n_n <- data.frame(ID = data$authorID,
                     unique_name = data$AF, groupID = NA,
@@ -27,6 +27,8 @@ authors_match <- function(data, sim_score){
   n_n$address[n_n$address %in% c("No Affiliation",
                                  "Could not be extracted")] <- NA
   n_n$address <- tolower(as.character(n_n$address))
+ 
+  n_n$email <- gsub("\\n| ",'',n_n$email)
   # Now time to match by orcID first. This seems most logical
   unique_oi <- n_n$OI[!is.na(n_n$OI) & is.na(n_n$groupID)]
   unique_oi <- names(table(unique_oi))[table(unique_oi) > 1]
@@ -63,6 +65,7 @@ authors_match <- function(data, sim_score){
   if ( is.null(unique_em) ){ unique_em <- NA }
   unique_em <- unique_em[!is.na(unique_em)]
   unique_em <- as.character(unique_em)
+  
   for (l in unique_em) {
     choice <- which(n_n$email == l)
     groupid <- n_n$groupID[choice]
@@ -127,6 +130,7 @@ authors_match <- function(data, sim_score){
                           !is.na(n_n$university) |
                           !is.na(n_n$email)) &
                           is.na(n_n$groupID)]
+  unique_groupid<-n_n$ID[is.na(n_n$groupID)]
 
   for (p in unique_groupid) {
     matched <- FALSE
@@ -145,7 +149,8 @@ authors_match <- function(data, sim_score){
                            !is.na(email) |
                            !is.na(address)) &
                            ID != p)
-
+    n_n1<-subset(n_n, ID != p)
+    
     n_n1 <- n_n1[substr(name_df$first, 1, 1) ==
                    n_n1$f_i & name_df$last == n_n1$last, ]
     if (nrow(n_n1) == 0) {
@@ -246,7 +251,7 @@ authors_match <- function(data, sim_score){
   # match up author complexes, now we'll trim them by splitting any complexes
   # with non matching first and last initials.
   unique_names_over1 <- unique(n_n$groupID)[table(n_n$groupID) > 1]
-  message("Pruning groupings...\n")
+  message("\nPruning groupings...\n")
   for (n in unique_names_over1) {
 
     sub <- subset(n_n, groupID == n & is.na(similarity))
@@ -279,6 +284,28 @@ authors_match <- function(data, sim_score){
                       substr(newmi[q], 3, 3)] <-  newGroupID[q]
       }
     }
+  }
+  
+  #Make gropuing criteria
+  n_n$confidence<-NA
+  unique_names_over2 <- n_n$ID[!is.na(n_n$similarity)]
+  for (q in unique_names_over2) {
+  #  q <- unique_names_over2[1]
+    author1<-subset(n_n, ID==q)
+    group2<-subset(n_n, groupID == author1$groupID & ID!=q & is.na(similarity))
+    sc1 <- sum(author1$f_c>1) 
+    sc2 <- sum(any(group2$f_c>1)) 
+    sc3 <- sum(!is.na(author1$country) & author1$country%in%group2$country) * 2
+    sc4 <- sum(grepl('-',author1$unique_name)) * 2
+    sc5 <- sum(c(any(!is.na(author1$address)),
+    any(!is.na(author1$univeristy)),
+    any(!is.na(author1$email)),
+    any(!is.na(group2$address)),
+    any(!is.na(group2$univeristy)),
+    any(!is.na(group2$email))))
+    confidence <- sc1 + sc2 + sc3 + sc4 + sc5
+    n_n$confidence[n_n$ID==q] <- ifelse(confidence>10, 10, confidence)
+    
   }
   return(n_n)
 }

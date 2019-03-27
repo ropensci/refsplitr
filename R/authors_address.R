@@ -8,7 +8,7 @@
 #' @param ID the authorID
 #' @noRd
 authors_address <- function(addresses, ID){
-message("Splitting addresses\n")
+message("\nSplitting addresses\n")
 
 list_address <- strsplit(addresses, ",")
 university_list <- vapply(list_address, function(x) x[1], character(1))
@@ -92,6 +92,7 @@ id_run <- a_df$adID[is.na(a_df$state) & is.na(a_df$postal_code) &
 for (i in id_run) {
   found <- FALSE
   row <- which(a_df$adID == i)
+  university <- a_df$university[row]
   second_tier <- a_df$second_tier[row]
   third_tier <- a_df$third_tier[row]
   remain <- a_df$remain[row]
@@ -122,6 +123,21 @@ for (i in id_run) {
     city <- third_tier
     department <- remain
   }
+  # To make university searching more efficient we'll override values
+  # based on if it has university/college in the name, where university overides college
+  override.univ<-grepl('\\buniv\\b|\\buniversi',c(second_tier,third_tier,remain,city,university),ignore.case=T)
+  if(any(override.univ)){university<-c(second_tier,third_tier,remain,city,university)[override.univ][1]
+  assign(c('second_tier','third_tier','remain','city','university')[override.univ][1],NA)}
+  # only if university doesnt already exist
+  override.univ.col<-grepl('\\bcol\\b|college|\\bcoll\\b',c(second_tier,third_tier,remain,city,university),ignore.case=T)
+  if(!any(override.univ) & any(override.univ.col)){university<-c(second_tier,third_tier,remain,city,university)[override.univ.col][1]
+  assign(c('second_tier','third_tier','remain','city','university')[override.univ.col][1],NA)}
+  # more risky, but institutions as well, just incase its not a university
+  override.univ.inst<-grepl('\\binst\\b|\\binstitut',c(second_tier,third_tier,remain,city,university),ignore.case=T)
+  if(!any(override.univ) &!any(override.univ.col)  & any(override.univ.inst)){department<-c(second_tier,third_tier,remain,city,university)[override.univ.inst][1]
+  assign(c('second_tier','third_tier','remain','city','university')[override.univ.inst][1],NA)}
+  
+  
   a_df$city[row] <- gsub("[[:digit:]]", "", city)
   a_df$state[row] <- gsub("[[:digit:]]", "", state)
   a_df$postal_code[row] <- postal_code

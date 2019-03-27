@@ -12,7 +12,7 @@
 #' @noRd
 #'
 authors_parse <- function(references){
-  message("Splitting author records\n")
+  message("\nSplitting author records\n")
   list1 <- list()
   for (ref in seq_along(references$refID)) {
     # Split out authors and author emails
@@ -46,15 +46,17 @@ authors_parse <- function(references){
     dd1 <- data.frame(
       names = unique(unlist(strsplit( C1_names, "; "))),
       address = vapply(unique(unlist(strsplit(C1_names, "; "))),
-        function(x) dd$C1_address[grepl(x, dd$C1_names)][1], character(1))
+        function(x) dd$C1_address[grepl(x, dd$C1_names)][1], character(1)),
+      stringsAsFactors = F
     )
 
     if (nrow(dd1) == 0 & length(C1_address) == length(authors_AU)) {
-      dd1 <- data.frame(names = authors_AU, address = C1_address)
+      dd1 <- data.frame(names = authors_AU, address = C1_address, stringsAsFactors = F)
     }
     if (nrow(dd1) == 0) {
       dd1 <- data.frame(names = authors_df$AF,
-                        address = "Could not be extracted")
+                        address = "Could not be extracted", 
+                        stringsAsFactors = F)
     }
     dd1$address[dd1$address == "NA"] <- NA
 
@@ -62,7 +64,7 @@ authors_parse <- function(references){
     RP <- unlist(strsplit(references[ref, ]$RP, "\n"))
     RP_address <- gsub("^.*\\(reprint author\\), (.*)$", "\\1", RP)
     RP_df <- data.frame(AU = substr(RP, 1,
-                        regexpr("(reprint author)", RP)[1] - 3), RP_address)
+                        regexpr("(reprint author)", RP)[1] - 3), RP_address,stringsAsFactors = F)
 
     # RI matching. Uses Jarowinkler similarity anaylsis to match
     # names. This is a overkill in most cases the names are the same
@@ -112,14 +114,17 @@ authors_parse <- function(references){
     if (sum(is.na(OI)) > 0) {
       OI_df <- data.frame(OI_names = "", OI = "", matchname = "")
     }
+    
     #######################################################################
     # merge all this information together by author name, some journals use
     # the full name some the shortend name
     #######################################################################
-    new <- merge(authors_df, dd1, by.x = "AU", by.y = "names", all.x = TRUE)
-    if (sum(is.na(new$address)) == length(new$address)) {
-      new <- merge(authors_df, dd1, by.x = "AF", by.y = "names", all.x = TRUE)
-    }
+    au.df.comp<-which.max(c(sum(authors_df$AU%in% dd1$names),sum(authors_df$AF%in% dd1$names)))[1]
+    if(au.df.comp==1){ new <- merge(authors_df, dd1, by.x = "AU", by.y = "names", all.x = TRUE)}
+    if(au.df.comp==2){new <- merge(authors_df, dd1, by.x = "AF", by.y = "names", all.x = TRUE)}
+    # use RP if needed
+    new$address[new$AU%in%RP_df$AU & is.na(new$address)]<-RP_df$RP_address
+    
     new <- merge(new, RP_df, by = "AU", all.x = TRUE)
     new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU",
                  by.y = "matchname", all.x = TRUE)
