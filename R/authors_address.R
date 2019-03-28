@@ -82,8 +82,9 @@ int <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}|[[:space:]][[:upper:]][[:di
 UK <- "[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]{1}[[:digit:]]{1}[[:upper:]]{2}"
 
 Mexico <- "[[:space:]]{1}[[:digit:]]{5}" # technically US as well
-0843-03092
+
 Panama <- "[[:digit:]]{4}-[[:digit:]]{5}"
+
 zip_search <- paste0(int, "|", UK, "|", Mexico,"|",Panama)
 
 ###########################
@@ -133,11 +134,13 @@ for (i in id_run) {
   }
   # To make university searching more efficient we'll override values
   # based on if it has university/college in the name, where university overides college
-  override.univ<-grepl('\\buniv\\b|\\buniversi',c(second_tier,third_tier,remain,city,university),ignore.case=T)
+  override.univ<-grepl('\\buniv\\b|\\buniversi',c(second_tier,third_tier,remain,city,university),ignore.case=T) &
+    !grepl('\\bdrv\\b|\\bdrive\\b',c(second_tier,third_tier,remain,city,university),ignore.case=T)
   if(any(override.univ)){university<-c(second_tier,third_tier,remain,city,university)[override.univ][1]
   assign(c('second_tier','third_tier','remain','city','university')[override.univ][1],NA)}
   # only if university doesnt already exist
-  override.univ.col<-grepl('\\bcol\\b|college|\\bcoll\\b',c(second_tier,third_tier,remain,city,university),ignore.case=T)
+  override.univ.col<-grepl('\\bcol\\b|college|\\bcoll\\b',c(second_tier,third_tier,remain,city,university),ignore.case=T) &
+    !grepl('\\bdrv\\b|\\bdrive\\b',c(second_tier,third_tier,remain,city,university),ignore.case=T)
   if(!any(override.univ) & any(override.univ.col)){university<-c(second_tier,third_tier,remain,city,university)[override.univ.col][1]
   assign(c('second_tier','third_tier','remain','city','university')[override.univ.col][1],NA)}
   # more risky, but institutions as well, just incase its not a university
