@@ -3,12 +3,12 @@ title: "refsplitr"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output:
-  pdf_document:
-    highlight: tango
   html_document:
     highlight: tango
     self-contained: yes
     standalone: yes
+  pdf_document:
+    highlight: tango
   word_document: default
 geometry: margin=2cm
 fig_caption: yes
@@ -64,14 +64,20 @@ The output of `references_read()` is an object in the R Workspace and a .csv fil
 
 a. To import and process a single file, set dir=FALSE and set data equal to the file path, here reading in a small example dataset:
 
-```{r}
-example_refs <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"),
+```{r, message=FALSE, warning=FALSE, results="hide"}
+example_refs <- references_read(data = system.file("extdata", "example_data.txt",
+                                        package = "refsplitr"),
                                     dir = FALSE)
+```
+
+
+```{r}
+str(example_refs)
 ```
 
 b. To import and process multiple files located in a folder, set dir=TRUE, and set data equal to a directory containing the files. 
 
-```{r}
+```{r, results="hide"}
 example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),dir = TRUE)
 ```
 
@@ -97,9 +103,14 @@ Once disambiguation is complete, users can accept `refsplitr`'s results without 
 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
-```{r}
+```{r, results="hide"}
 example_a_clean <- authors_clean(example_refs,
                           sim_score=0.88)
+```
+
+```{r}
+str(example_a_clean)
+
 ```
 
 `authors_clean()` defaults to matching authors with a similarity score of 0.88 or higher, but this score can be adjusted if the user desires. 
@@ -211,10 +222,17 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 
 ####Example
 
-```{r}
+```{r, results="hide"}
 example_georef <-authors_georef(data=example_a_refined, 
                                 address_column = "address")
 ```
+
+
+```{r}
+str(example_georef)
+
+```
+
 
 The data arguments needs to be the output object from `authors_refine()`. 
 
@@ -238,7 +256,9 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 ####Example
 
 ```{r}
-plot_addresses_country <- plot_addresses_country(example_georef$addresses)`
+plot_addresses_country <- plot_addresses_country(example_georef$addresses)
+
+plot_addresses_country
 ```
 
 
@@ -261,7 +281,9 @@ The output of `authors_georef()` is a ggplot object.
 ####Example
 
 ```{r}
-plot_addresses_points <- plot_addresses_points(example_georef$addresses)`
+plot_addresses_points <- plot_addresses_points(example_georef$addresses)
+
+plot_addresses_points
 ```
 
 
@@ -283,7 +305,9 @@ This function has one output, a plot, built in `igraph`.
 ####Example
 
 ```{r}
-plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)`
+plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
+
+plot_net_coauthor
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -310,7 +334,9 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 ####Example
 
 ```{r}
-plot_net_country <- plot_net_country(example_georef$addresses)`
+plot_net_country <- plot_net_country(example_georef$addresses)
+
+plot_net_country
 ```
 
 
@@ -335,7 +361,9 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 
 ####Example
 ```{r}
-plot_net_address <- plot_net_address(example_georef$addresses)`
+plot_net_address <- plot_net_address(example_georef$addresses)
+
+plot_net_address
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
