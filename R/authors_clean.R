@@ -55,14 +55,14 @@ authors_clean <- function(references,
   novel.names <- authors_match(final, sim_score = sim_score)
 
   final <- merge(final, novel.names[, c("ID", "groupID", "match_name",
-                  "similarity")], by.x = "authorID", by.y = "ID", all.x = TRUE)
+                  "similarity","confidence")], by.x = "authorID", by.y = "ID", all.x = TRUE)
 
   final <- final[, c("authorID", "AU", "AF", "groupID", "match_name",
-        "similarity", colnames(final)[!colnames(final) %in% c("authorID",
-                        "AU", "AF", "groupID", "match_name", "similarity")])]
+        "similarity","confidence", colnames(final)[!colnames(final) %in% c("authorID",
+                        "AU", "AF", "groupID", "match_name", "similarity","confidence")])]
 
   sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity)],
-              c("authorID", "AU", "AF", "groupID", "match_name", "similarity",
+              c("authorID", "AU", "AF", "groupID", "match_name", "similarity","confidence",
             "author_order", "university", "department", "postal_code",
             "country", "address", "RP_address", "RI", "OI", "EM", "UT",
             "refID", "PT", "PY", "PU")]

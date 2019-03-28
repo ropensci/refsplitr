@@ -292,7 +292,7 @@ authors_match <- function(data, sim_score){
   for (q in unique_names_over2) {
   #  q <- unique_names_over2[1]
     author1<-subset(n_n, ID==q)
-    group2<-subset(n_n, groupID == author1$groupID & ID!=q & is.na(similarity))
+    group2<-subset(n_n, groupID == author1$groupID & ID!=q )
     sc1 <- sum(author1$f_c>1) 
     sc2 <- sum(any(group2$f_c>1)) 
     sc3 <- sum(!is.na(author1$country) & author1$country%in%group2$country) * 2
