@@ -32,12 +32,19 @@ authors_parse <- function(references){
     if (length(authors_AU) == 1) {
       C1 <- paste0("[", authors_AU, "] ", C1)
     }
+    C1_full<-C1
+    
     C1 <- C1[grepl("^\\[.*\\]", C1)]
     # Split names from the addresses they're associated with
     C1_names <- regmatches(C1, regexpr("^\\[.*\\]", C1))
     C1_names <- substr(C1_names, 2, nchar(C1_names) - 1)
     if (length(authors_AU) == 1) {
       C1_names <- authors_AU
+    }
+    
+    if(length(C1_full)>length(C1)){
+      C1_names<-authors_AU[1]
+      C1<-C1_full[1]
     }
     # Split out the addresses and not the names assocated
     C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)
@@ -54,6 +61,7 @@ authors_parse <- function(references){
     if (nrow(dd1) == 0 & length(C1_address) == length(authors_AU)) {
       dd1 <- data.frame(names = authors_AU, address = C1_address, stringsAsFactors = F)
     }
+    
     if (nrow(dd1) == 0) {
       dd1 <- data.frame(names = authors_df$AF,
                         address = "Could not be extracted", 
@@ -174,8 +182,8 @@ authors_parse <- function(references){
   final <- do.call(rbind, list1)
   final$authorID <- seq_len(nrow(final))
   final$EM <- tolower(final$EM)
-  final$address <- as.character(final$address)
-  final$RP_address <- as.character(final$RP_address)
+  final$address <- tolower(as.character(final$address))
+  final$RP_address <- tolower(as.character(final$RP_address))
 
   final$address[!is.na(final$address) & final$address ==
                   "Could not be extracted" & !is.na(final$RP_address)] <-
