@@ -176,5 +176,7 @@ a_df$city <- gsub("\\.", "", a_df$city)
 a_df$state <- gsub("\\.", "", a_df$state)
 a_df$country <- gsub("\\.", "", a_df$country)
 
+#convert to lower 
+for(l in 2:ncol(a_df)){a_df[,l] <- tolower(a_df[,l])}
 return(a_df)
 }

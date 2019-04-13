@@ -182,7 +182,7 @@ authors_parse <- function(references){
   final <- do.call(rbind, list1)
   final$authorID <- seq_len(nrow(final))
   final$EM <- tolower(final$EM)
-  final$address <- tolower(as.character(final$address))
+  final$address <- as.character(final$address)
   final$RP_address <- tolower(as.character(final$RP_address))
 
   final$address[!is.na(final$address) & final$address ==
