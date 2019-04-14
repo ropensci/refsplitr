@@ -14,6 +14,10 @@ split_names <- function(x) {
   # split first by commas, as we assume this is atleast seperating the
   # last name from the rest of the information
   first.split <- strsplit(x, ",")
+  
+  # If they split them by spaces instead of commas we need to adjust
+  
+  if(length(first.split[[1]])==1){first.split <- strsplit(x, " ")}
   # we are going to assume the very first split before the comma is
   # the last name
   last <- first.split[[1]][1]

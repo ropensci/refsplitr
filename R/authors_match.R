@@ -89,7 +89,8 @@ authors_match <- function(data, sim_score){
   n_n$m_c[is.na(n_n$m_c)] <- 0
 
   # match authors with the same first, last, and middle name
-  remain <- subset(n_n, !is.na(m_i) & f_c >= 1)[,
+  
+  remain <- subset(n_n, !is.na(m_i) & f_c > 1)[,
                   c("ID", "groupID", "first", "middle", "last")
                   ]
   remain <- merge(subset(remain, is.na(groupID)),
@@ -124,6 +125,22 @@ authors_match <- function(data, sim_score){
       n_n$groupID[n_n$ID %in% unique_id] <- groupid
     }
   }
+  # Need to prune the groups a bit and merge common names
+  matched.df <- subset(n_n, !is.na(groupID))
+  matched.df$squash<-paste(matched.df$last, matched.df$f_i,sub$m_i)
+  matched.df$merged<-F
+  options(warn=2)
+  for( q in na.omit(unique(n_n$groupID))){
+    #q <- 1448
+    if(any(matched.df$merged[matched.df$groupID==q])){next}
+    sub<-subset(matched.df, groupID==q)
+    what <- matched.df[matched.df$squash%in%sub$squash & ((matched.df$f_c%in%1) | 
+                        (matched.df$f_c>1 & matched.df$first%in%sub$first )) &
+                         matched.df$groupID!=q,]
+    change<-unique(what$groupID)
+    n_n$groupID[n_n$groupID%in%change]<-q
+    matched.df$merged[matched.df$groupID%in%change] <-T
+  }
   # For the remaining names we'll use a grouping criteria
   # Where we need one more piece of information besides first and last name
   unique_groupid <- n_n$ID[(n_n$m_c > 0 |
@@ -133,10 +150,11 @@ authors_match <- function(data, sim_score){
   unique_groupid<-n_n$ID[is.na(n_n$groupID)]
 
   for (p in unique_groupid) {
+    #for (p in unique_groupid[1:(which(unique_groupid==2176)-1)]) {
     matched <- FALSE
     default_frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA,
-                                university = NA, email = NA, f_i = 0,
-                                address = NA, country = NA)
+                                university = NA, email = NA, f_i = 0, f_c = 0,
+                                m_c =0, address = NA, country = NA)
     match1 <- NA
     match2 <- NA
     match3 <- NA
@@ -149,9 +167,10 @@ authors_match <- function(data, sim_score){
                            !is.na(email) |
                            !is.na(address)) &
                            ID != p)
-    n_n1<-subset(n_n, ID != p)
-    
-    n_n1 <- n_n1[substr(name_df$first, 1, 1) ==
+    grouped <- any(n_n1$groupID == name_df$ID & is.na(n_n1$similarity),na.rm=T)
+    n_n1<-subset(n_n, (is.na(groupID) | groupID != name_df$ID) & ID !=p)
+   
+    n_n1 <- n_n1[name_df$f_i ==
                    n_n1$f_i & name_df$last == n_n1$last, ]
     if (nrow(n_n1) == 0) {
       n_n1 <- default_frame
@@ -174,22 +193,22 @@ authors_match <- function(data, sim_score){
                      n_n1$m_i == name_df$m_i, ]
     }
     # if has a country, it must match
-    if (!is.na(name_df$country)) {
-      n_n1 <- n_n1[is.na(n_n1$country) |
-                     n_n1$country == name_df$country, ]
-    }
+    # if (!is.na(name_df$country)) {
+    #   n_n1 <- n_n1[is.na(n_n1$country) |
+    #                  n_n1$country == name_df$country, ]
+    # }
 
     if (nrow(n_n1) == 0) {
       n_n1 <- default_frame
     }
     if (!anyNA(n_n1$ID)) {
       # match full middle name
-      match1 <- !is.na(name_df$middle) & n_n1$middle == name_df$middle
+      match1 <- !is.na(name_df$middle) & n_n1$middle == name_df$middle & n_n1$m_c>1
       # match addresses
       match2 <- (!is.na(n_n1$university) & !is.na(name_df$university)) &
         name_df$university == n_n1$university
       # match middle initial
-      match3 <- !is.na(name_df$m_i) & n_n1$m_i == name_df$m_i
+      match3 <- !is.na(name_df$m_i) & n_n1$m_i == name_df$m_i & n_n1$f_c>1 & name_df$f_c>1
       # match by address
       match4 <- is.na(name_df$address) & n_n1$address == name_df$address
       if (sum(ifelse(is.na(c(match1, match2, match3, match4)), FALSE,
@@ -206,13 +225,19 @@ authors_match <- function(data, sim_score){
     }
 
     # Remaining names are run with a Jaro_winkler similarity score
-    if (!matched & nrow(n_n1) > 0 & !anyNA(n_n1$ID)) {
+    if (!matched & nrow(n_n1) > 0 & !anyNA(n_n1$ID) & !grouped) {
       jw_m <- RecordLinkage::jarowinkler(paste0(n_n1$last,
                               n_n1$first, n_n1$middle),
                               paste0(name_df$last, name_df$first, name_df$middle)
                               )
-      choice <- which(max(jw_m) == jw_m)[1]
-
+      choice <- which(max(jw_m) == jw_m)
+      # Choose the one with the most information
+      if(length(choice)>1){
+        max.crit<-apply(n_n1[choice,c('address','RI','OI','email')],1,function(x)sum(!is.na(x))) +
+          as.numeric(n_n1$f_c[choice]>1) + as.numeric(n_n1$m_c[choice]>1) 
+        choice <- choice[which( max(max.crit) == max.crit)[1]]  
+      }
+      
       if (sum(!is.na(n_n1$groupID[choice])) > 0) {
         groupid <- min(n_n1$groupID[choice], na.rm = TRUE)
         groupname <- n_n1$unique_name[n_n1$groupID == groupid][1]
@@ -235,23 +260,41 @@ authors_match <- function(data, sim_score){
     utils::flush.console()
     #######################################################################
   }
+  #########################################################################
+  # Time to prune the results. Weve used the vast network of knowledge to
+  # match up author complexes, now we'll trim them by splitting any complexes
+  # with non matching first and last initials. As well as group complexes
   # Fixes a small issue where sometimes matched names using Jaro_winkler
   # will get a groupID distinction but that the author
   # it matched with will get a different groupID if it has
   # a more perfect match criteria.
   n_n$groupID[is.na(n_n$groupID)] <- n_n$ID[is.na(n_n$groupID)]
+  message("\nPruning groupings...\n")
   quick_check <- n_n$ID[!is.na(n_n$similarity)]
   for (m in quick_check) {
     n_n$groupID[n_n$ID == m] <- n_n$groupID[
                                 n_n$ID == n_n$groupID[n_n$ID == m]
                                   ]
   }
-  #########################################################################
-  # Time to prune the results. Weve used the vast network of knowledge to
-  # match up author complexes, now we'll trim them by splitting any complexes
-  # with non matching first and last initials.
+
+  # group complexes
+ 
+#n_n<-n_backup
+  #count.fields(n_n$groupID)
+  c.t<-data.frame(table(n_n$groupID))
+  c.t$Var1<-as.numeric(as.character(c.t$Var1))
+  n_n$merged<-F
+  for(r in  c.t$Var1[c.t$Freq>1]){
+  #  r<-3
+    if(!any(n_n$groupID==r)){next}
+    n_n$merged[n_n$groupID%in%c(r,n_n$ID[n_n$groupID==r])] <- T
+    n_n$groupID[n_n$groupID%in%c(r,n_n$ID[n_n$groupID==r])] <- 
+      min(n_n$groupID[n_n$groupID%in%c(r,n_n$ID[n_n$groupID==r])])
+    
+  }
+  
+  
   unique_names_over1 <- unique(n_n$groupID)[table(n_n$groupID) > 1]
-  message("\nPruning groupings...\n")
   for (n in unique_names_over1) {
 
     sub <- subset(n_n, groupID == n & is.na(similarity))
