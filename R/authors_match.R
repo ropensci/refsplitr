@@ -127,6 +127,7 @@ authors_match <- function(data, sim_score){
   }
   # Need to prune the groups a bit and merge common names
   matched.df <- subset(n_n, !is.na(groupID))
+  if(nrow(matched.df)>1){
   matched.df$squash<-paste(matched.df$last, matched.df$f_i,sub$m_i)
   matched.df$merged<-F
   options(warn=2)
@@ -141,6 +142,7 @@ authors_match <- function(data, sim_score){
     n_n$groupID[n_n$groupID%in%change]<-q
     matched.df$merged[matched.df$groupID%in%change] <-T
   }
+  } #end if
   # For the remaining names we'll use a grouping criteria
   # Where we need one more piece of information besides first and last name
   unique_groupid <- n_n$ID[(n_n$m_c > 0 |
@@ -150,7 +152,7 @@ authors_match <- function(data, sim_score){
   unique_groupid<-n_n$ID[is.na(n_n$groupID)]
 
   for (p in unique_groupid) {
-    #for (p in unique_groupid[1:(which(unique_groupid==2176)-1)]) {
+    #for (p in unique_groupid[1:(which(unique_groupid==441)-1)]) {
     matched <- FALSE
     default_frame <- data.frame(ID = NA, first = NA, middle = NA, last = NA,
                                 university = NA, email = NA, f_i = 0, f_c = 0,
@@ -225,19 +227,37 @@ authors_match <- function(data, sim_score){
     }
 
     # Remaining names are run with a Jaro_winkler similarity score
-    if (!matched & nrow(n_n1) > 0 & !anyNA(n_n1$ID) & !grouped) {
+    if (!matched & nrow(n_n1) > 0 & !anyNA(n_n1$ID)) {
+      #if (!matched & nrow(n_n1) > 0 & !anyNA(n_n1$ID) & !grouped) {
       jw_m <- RecordLinkage::jarowinkler(paste0(n_n1$last,
                               n_n1$first, n_n1$middle),
                               paste0(name_df$last, name_df$first, name_df$middle)
                               )
-      choice <- which(max(jw_m) == jw_m)
-      # Choose the one with the most information
-      if(length(choice)>1){
-        max.crit<-apply(n_n1[choice,c('address','RI','OI','email')],1,function(x)sum(!is.na(x))) +
-          as.numeric(n_n1$f_c[choice]>1) + as.numeric(n_n1$m_c[choice]>1) 
-        choice <- choice[which( max(max.crit) == max.crit)[1]]  
+      ndfc <- name_df$f_c>1
+      nnfc <- n_n1$f_c>1
+      nninf <- apply(n_n1[,c('address','RI','OI','email')],1,function(x)sum(!is.na(x))) +
+        as.numeric(n_n1$f_c>1) + as.numeric(n_n1$m_c>1) 
+      jwth <- jw_m>0.00
+      
+      if(any(nnfc)){
+        choice <- nninf[nnfc & jwth & max(jw_m[nnfc])==jw_m]
+      }
+    
+      if(!any(nnfc)){
+        choice <- nninf[jwth & max(jw_m)==jw_m]
       }
       
+      choice <- which(n_n1$ID == as.numeric(names(which.max(choice)[1])))
+# 
+#         
+#       choice <- which(max(jw_m) == jw_m)
+#       # Choose the one with the most information
+#       if(length(choice)>1){
+#         max.crit<-apply(n_n1[choice,c('address','RI','OI','email')],1,function(x)sum(!is.na(x))) +
+#           as.numeric(n_n1$f_c[choice]>1) + as.numeric(n_n1$m_c[choice]>1) 
+#         choice <- choice[which( max(max.crit) == max.crit)[1]]  
+#       }
+#       
       if (sum(!is.na(n_n1$groupID[choice])) > 0) {
         groupid <- min(n_n1$groupID[choice], na.rm = TRUE)
         groupname <- n_n1$unique_name[n_n1$groupID == groupid][1]
@@ -340,13 +360,15 @@ authors_match <- function(data, sim_score){
     sc2 <- sum(any(group2$f_c>1)) 
     sc3 <- sum(!is.na(author1$country) & author1$country%in%group2$country) * 2
     sc4 <- sum(grepl('-',author1$unique_name)) * 2
-    sc5 <- sum(c(any(!is.na(author1$address)),
+    sc5 <- sum(any(group2$m_c>0))
+    sc6 <- sum(author1$m_c>0)
+    sc7 <- sum(c(any(!is.na(author1$address)),
     any(!is.na(author1$univeristy)),
     any(!is.na(author1$email)),
     any(!is.na(group2$address)),
     any(!is.na(group2$univeristy)),
     any(!is.na(group2$email))))
-    confidence <- sc1 + sc2 + sc3 + sc4 + sc5
+    confidence <- sc1 + sc2 + sc3 + sc4 + sc5 + sc6 + sc7
     n_n$confidence[n_n$ID==q] <- ifelse(confidence>10, 10, confidence)
     
   }

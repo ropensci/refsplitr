@@ -30,6 +30,11 @@ split_names <- function(x) {
   second.split <- unlist(second.split)
   second.split <- second.split[nchar(second.split) > 0]
 
+  # Now we need to duble check there isnt a period seperator
+  if(length(second.split)==1){second.split <- strsplit(second.split[[1]], "\\.") 
+  second.split <- unlist(second.split)
+  second.split <- second.split[nchar(second.split) > 0]
+  }
   # now we assume that the first name after the first comma is
   # the first name, this is pretty standard so it should be safe
   # enough of an assumption.
