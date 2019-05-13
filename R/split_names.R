@@ -48,6 +48,11 @@ split_names <- function(x) {
   # we'll just shove the names together. Even though this might not be 'correct'
   if (length(second.split) > 1) {
     third.split <- second.split[-1]
+    grepl('jr\\b','jr.')
+    third.split <- third.split[
+        !grepl("^jr\\b|^sr\\b|^ii$|^iii|^iv\\b|^v\\b",
+        tolower(unlist(third.split)))
+      ]
     middle <- gsub("[\\./,]", "", paste0(third.split, collapse = ""))
   }
   # Check if first and middle names are just initials

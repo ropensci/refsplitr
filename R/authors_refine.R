@@ -7,7 +7,7 @@
 #' @param  sim_score similarity score cut off point. Number between 0-1.
 #' @export authors_refine
 #' 
-authors_refine <- function(review, prelim, sim_score = NULL) {
+authors_refine <- function(review, prelim, sim_score = NULL, confidence = NULL) {
 
   if (length(review) == 0 || is.null(review) ||
      nrow(review) == 0){
@@ -22,9 +22,14 @@ Outputting the prelim file.")
     sim_score <- min(review$similarity, na.rm = TRUE)
   }
 
+  if (is.null(confidence)) {
+    confidence <- 0
+  }
   ##########################################
-  review$groupID[!is.na(review$similarity) & review$similarity < sim_score] <-
-    review$authorID[!is.na(review$similarity) & review$similarity < sim_score]
+  review$groupID[!is.na(review$similarity) & review$similarity < sim_score & 
+                   !is.na(confidence) & review$confidence > confidence ] <-
+    review$authorID[!is.na(review$similarity) & review$similarity < sim_score &
+                      !is.na(confidence) & review$confidence > confidence]
 
   for (i in unique(review$authorID)) {
     if (length(review$authorID[review$authorID == i]) > 1) {
@@ -46,4 +51,4 @@ Outputting the prelim file.")
   colnames(data1)[colnames(data1) == "AF"] <- "author_name"
 
   return(data1)
-  }
+}

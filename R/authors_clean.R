@@ -32,8 +32,7 @@
 #'  authors_clean(references=references)
 #' @export authors_clean
 #' 
-authors_clean <- function(references,
-                          sim_score = 0.88) {
+authors_clean <- function(references) {
   ###############################
   # Seperate authors and attempt to match author info
 
@@ -51,21 +50,22 @@ authors_clean <- function(references,
   ##################################
   # Now start Author Matching
   ##################################
-
-  novel.names <- authors_match(final, sim_score = sim_score)
+  final_backup<-final
+  novel.names <- authors_match(final)
 
   final <- merge(final, novel.names[, c("ID", "groupID", "match_name",
-                  "similarity","confidence")], by.x = "authorID", by.y = "ID", all.x = TRUE)
+                  "matchID","similarity","confidence","flagged")], 
+                 by.x = "authorID", by.y = "ID", all.x = TRUE)
 
-  final <- final[, c("authorID", "AU", "AF", "groupID", "match_name",
-        "similarity","confidence", colnames(final)[!colnames(final) %in% c("authorID",
+  final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", "matchID",
+        "similarity","confidence","flagged" ,colnames(final)[!colnames(final) %in% c("authorID",
                         "AU", "AF", "groupID", "match_name", "similarity","confidence")])]
 
-  sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity)],
-              c("authorID", "AU", "AF", "groupID", "match_name", "similarity","confidence",
-            "author_order", "university", "department", "postal_code",
+  sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity) | final$flagged==1],
+              c("authorID", "AU", "AF", "groupID", "match_name","matchID" ,"similarity","confidence",
+             "university", "department", "postal_code",
             "country", "address", "RP_address", "RI", "OI", "EM", "UT",
-            "refID", "PT", "PY", "PU")]
+            "author_order","refID", "PT", "PY", "PU")]
 
   sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity,
                                    sub.authors$authorID), ]
