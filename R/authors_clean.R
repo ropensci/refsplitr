@@ -10,7 +10,6 @@
 #' 
 #' @param references output from \code{references_read}
 #' @importFrom RecordLinkage jarowinkler
-#' @importFrom dplyr filter select arrange
 #' @examples 
 #' 
 #' data(BITR)
@@ -50,12 +49,14 @@ authors_clean <- function(references) {
     colnames(final)[!colnames(final) %in% cols])]
 
   sub_authors <- final %>%
-    filter( groupID %in% final$groupID[!is.na(similarity) | flagged == 1]) %>%
-    select(authorID, AU, AF, groupID, match_name, matchID,
+    dplyr::filter( 
+      groupID %in% final$groupID[!is.na(similarity) | flagged == 1]
+      ) %>%
+    dplyr::select(authorID, AU, AF, groupID, match_name, matchID,
       similarity, confidence, university, department,
       postal_code, country, address, RP_address, RI,
       OI, EM, UT, author_order, refID, PT, PY, PU) %>%
-    arrange(groupID, similarity, authorID)
+    dplyr::arrange(groupID, similarity, authorID)
 
   return(list(prelim = final, review = sub_authors))
 

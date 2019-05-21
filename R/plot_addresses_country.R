@@ -23,7 +23,6 @@
 #' 
 #' @export plot_addresses_country 
 #' @importFrom rworldmap addMapLegend
-#' @importFrom rworldmap getMap
 #' 
 plot_addresses_country <- function(data,
   mapRegion = "world") {
