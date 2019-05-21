@@ -14,22 +14,10 @@
 #' @param sim_score Jaro-winkler similarity cut off, default is 0.88.
 #' @importFrom RecordLinkage jarowinkler
 #' @examples 
-#'  references <-data.frame(filename=NA, AB=NA,
-#'  AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), 
-#'  AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), 
-#'  BP=NA , C1=c("Univ Florida, Gainesville, FL USA",
-#'  "University of Texas, Austin, TX, USA",NA),
-#'  CR=NA,DE=NA, DI=NA, EM=c("j.smithufl.edu",NA,'jsmithusgs.gov'), 
-#'  EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, 
-#'  PY=NA, RI=NA, OI=NA,PM=NA, 
-#'  RP=c("Univ Florida, Gainesville, FL USA",
-#'  "University of Texas, Austin, TX, USA",NA), 
-#'  SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, 
-#'  WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=FALSE)
+#' 
+#' data(BITR)
 #'  
-#'  references[]<-lapply(references, as.character)
-#'  
-#'  authors_clean(references=references)
+#'  authors_clean(references = BITR)
 #' @export authors_clean
 #' 
 authors_clean <- function(references) {

@@ -4,7 +4,7 @@
 \alias{authors_refine}
 \title{Refines the authors code output from authors_clean()}
 \usage{
-authors_refine(review, prelim, sim_score = NULL)
+authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
 }
 \arguments{
 \item{review}{the `review` element from the list outputted by \code{authors_clean}}
@@ -12,7 +12,24 @@ authors_refine(review, prelim, sim_score = NULL)
 \item{prelim}{the `prelim` element from the list outputted by \code{authors_clean}}
 
 \item{sim_score}{similarity score cut off point. Number between 0-1.}
+
+\item{confidence}{confidence score cut off point. Number between 0 - 10.}
 }
 \description{
 \code{authors_refine} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'.
+}
+\examples{
+data(BITR)
+authors <- authors_clean(BITR)
+review_df <- authors$review
+prelim_df <- authors$prelim
+
+## In most cases you will save and open the review_df outside of R
+## And change the groupIDs for incorrect author matches
+## Then you'll read the corrected review file back into R
+
+## At that point, you can additionally filter groups by their similarity score
+## and confidence scores
+
+authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
 }

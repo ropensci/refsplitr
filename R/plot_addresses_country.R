@@ -12,8 +12,23 @@
 #' function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values 
 #' include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' 
+#' @examples 
+#' 
+#' data(BITR_geocode)
+#' 
+#' ## Plots the whole world
+#' plot_addresses_country(BITR_geocode)
+#' 
+#' ## Additioinal mapRegion names can be querried using:
+#' rworldmap::getMap()$NAME
+#' 
+#' ## Just select North America
+#' plot_addresses_country(BITR_geocode, mapRegion = 'North America')
+#' 
 #' @export plot_addresses_country 
 #' @importFrom rworldmap addMapLegend
+#' @importFrom rworldmap getMap
 #' 
 plot_addresses_country <- function(data,
                                    mapRegion = "world") {

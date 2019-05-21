@@ -5,6 +5,22 @@
 #' @param review the `review` element from the list outputted by \code{authors_clean}
 #' @param prelim the `prelim` element from the list outputted by \code{authors_clean}
 #' @param  sim_score similarity score cut off point. Number between 0-1.
+#' @param confidence confidence score cut off point. Number between 0 - 10.
+#' 
+#' @examples 
+#' data(BITR)
+#' authors <- authors_clean(BITR)
+#' review_df <- authors$review
+#' prelim_df <- authors$prelim
+#' 
+#' ## In most cases you will save and open the review_df outside of R
+#' ## And change the groupIDs for incorrect author matches
+#' ## Then you'll read the corrected review file back into R
+#' 
+#' ## At that point, you can additionally filter groups by their similarity score
+#' ## and confidence scores
+#' 
+#' authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
 #' @export authors_refine
 #' 
 authors_refine <- function(review, prelim, sim_score = NULL, confidence = NULL) {

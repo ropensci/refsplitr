@@ -13,6 +13,10 @@
 #'  the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 #' @export references_read
 #' 
+#' @examples 
+#' ## Read in Web of Science raw file
+#' data_local <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
+#' references <- references_read(data_local)
 references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
  ## 	NOTE: The fields stored in our output table are a combination of the
  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export

@@ -4,14 +4,28 @@
 \alias{plot_addresses_points}
 \title{Plot address point locations on world map}
 \usage{
-plot_addresses_points(data, mapRegion = "world")
+plot_addresses_points(data, mapCountry = NULL)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
 
-\item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
+\item{mapCountry}{What country to map. Possible values include ["USA", "Brazil", "Australia", "UK"]
+use \code{data(countries) to see possible names}. No value defaults to the world map.}
 }
 \description{
-\code{plot_addresses_points} This function plots an addresses data.frame 
+This function plots an addresses data.frame 
 object by point overlaid on the countries of the world.
+}
+\examples{
+data(BITR_geocode)
+
+## Plots the whole world
+plot_addresses_points(BITR_geocode)
+
+## mapCountry names can be querried using:
+data(countries)
+
+## Just select the United States
+plot_addresses_points(BITR_geocode, mapCountry = 'USA')
+
 }

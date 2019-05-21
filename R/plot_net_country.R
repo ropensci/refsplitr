@@ -1,11 +1,7 @@
-########################################
-########################################
-## 	BEGIN:  plot_net_country():
-
 #' Creates a network diagram of coauthors' countries linked by reference, 
 #' #and with nodes arranged geographically
 #'
-#' \code{plot_net_country} This function takes an addresses data.frame, 
+#' This function takes an addresses data.frame, 
 #' #links it to an authors_references dataset and plots a network diagram 
 #' generated for countries of co-authorship.
 #'
@@ -15,13 +11,21 @@
 #' @param mapRegion what portion of the world map to show. possible 
 #' values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' @param line_resolution default = 10
+#' @examples 
+#' data(BITR_geocode)
+#' 
+#' ## Plots the whole world
+#' plot_addresses_country(BITR_geocode)
+#' 
+#' ## Just select North America
+#' plot_net_country(BITR_geocode, mapRegion = 'North America')
 #' @export plot_net_country
 #' @importFrom network %v%
 
 plot_net_country <- function(data,
                              line_resolution = 10,
                              mapRegion = "world") {
-  
+
   data <- data[!is.na(data$country), ]
 
   ## 	Or, we could use a sparse matrix representation:
@@ -33,11 +37,10 @@ plot_net_country <- function(data,
     j = as.numeric(factor(data$UT)),
     x = rep(1, length(data$country))
   )
-  
-  
-  links <- matrix(data=linkages, 
-                  nrow=length(unique(data$country)),
-                  ncol=length(unique(data$UT)))
+
+  links <- matrix(data = linkages, 
+                  nrow = length(unique(data$country)),
+                  ncol = length(unique(data$UT)))
 
   rownames(links) <- levels(factor(data$country))
 
@@ -67,12 +70,12 @@ plot_net_country <- function(data,
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
-  vertex_names <- ifelse(vertex_names == "USA", "United States of America", 
+  vertex_names <- ifelse(vertex_names == "usa", "united states of america", 
                          vertex_names)
 
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
-
+  world_map$ADMIN.1 <- tolower(world_map$ADMIN.1)
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
 
   coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
@@ -87,8 +90,6 @@ plot_net_country <- function(data,
   )
 
   names(coords_df) <- c("ISO_A2", "LON", "LAT")
-
-
 
   ## 	One could also use ggplot to plot out the network geographically:
 
@@ -108,11 +109,11 @@ plot_net_country <- function(data,
     
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
 
-    adjacencyList$country <- ifelse(adjacencyList$country == "USA", 
-                            "United States of America", adjacencyList$country)
+    adjacencyList$country <- ifelse(adjacencyList$country == "usa", 
+                            "united states of america", adjacencyList$country)
 
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "USA", 
-                          "United States of America", adjacencyList$countryA)
+    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa", 
+                          "united states of america", adjacencyList$countryA)
     
     adjacencyList$country <- ifelse(adjacencyList$country == "V1", 
                                     NA, adjacencyList$country)
@@ -174,7 +175,7 @@ plot_net_country <- function(data,
   rownames(adjacencydf)[rownames(adjacencydf) == "NAstr"] <- "NA"
   colnames(adjacencydf)[colnames(adjacencydf) == "NAstr"] <- "NA"
 
-  allEdges <- lapply(seq_along(nrow(adjacencyList)),
+  allEdges <- lapply(seq_len(nrow(adjacencyList)),
     edgeMaker,
     len = line_resolution,
     curved = TRUE
@@ -186,33 +187,40 @@ plot_net_country <- function(data,
   
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
-      line = ggplot2::element_blank(),
-      rect = ggplot2::element_blank(),
-      axis.text = ggplot2::element_blank(),
-      strip.text = ggplot2::element_blank(),
+      #line = ggplot2::element_blank(),
+      #rect = ggplot2::element_blank(),
+      #axis.text = ggplot2::element_blank(),
+      #strip.text = ggplot2::element_blank(),
       plot.title = ggplot2::element_blank(),
       axis.title = ggplot2::element_blank(),
-      plot.margin = structure(c(
-        0, 0,
-        -1, -1
-      ),
-      unit = "lines",
-      valid.unit = 3L,
-      class = "unit"
-      )
+      # plot.margin = structure(c(0, 0, -1, -1),
+      #                         unit = "lines",
+      #                         valid.unit = 3L,
+      #                         class = "unit"
+      # )
     )
-
+  
+  world_map_sub <- world_map
+  #world_map_sub <- ggplot2::fortify(world_map)
   if (mapRegion != "world") {
-    world_map <- world_map[which(world_map$continent == mapRegion), ]
+    world_map_sub <- world_map[which(world_map$continent == mapRegion & 
+        world_map$TYPE != 'Dependency'), ]
   }
-
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
-
   world_map.points <- ggplot2::fortify(world_map)
-
-  world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
-
+  world_map.df <- dplyr::full_join(world_map.points,
+    world_map@data, by = "id")
+  
+  ## calculate min and max for plot
+  latmin <- world_map_sub@bbox['y','min']
+  latmax <- world_map_sub@bbox['y','max']
+  longmin <- world_map_sub@bbox['x','min']
+  longmax <- world_map_sub@bbox['x','max']
+  
+  if (mapRegion == 'Australia'){
+    longmin <- 100
+  }
   products <- list()
 
   products[["plot"]] <- ggplot2::ggplot() +
@@ -220,7 +228,8 @@ plot_net_country <- function(data,
                 "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
     ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", 
               "lat", group = "group"), color = grDevices::gray(6 / 10)) +
-    ggplot2::coord_equal() +
+    ggplot2::coord_equal(ylim=c(latmin, latmax),
+      xlim=c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
       ggplot2::aes_string(x = "x", y = "y", group = "Group", 
@@ -248,10 +257,5 @@ plot_net_country <- function(data,
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
-
   return(products)
 }
-
-## 	END: net_plot_coauthor_country():
-########################################
-########################################

@@ -24,6 +24,21 @@ in hopes that the data science toolkit can recognize an address
 4th. University, country
 }
 \details{
-The output is a data.frame of all information from 
+The output is a list with three data.frames
+\code{addresses} is a data frame with all information from 
 refine_authors plus new location columns and calculated lat longs.
+\code{missing addresses} is a data frame with all addresses could
+not be geocoded
+\code{addresses} is a data frame like \code{addresses} except
+the missing addresses are gone.
+}
+\examples{
+
+data(BITR)
+authors <- authors_clean(BITR)
+refined <- authors_refine(authors$review, authors$prelim, 0.9, 5)
+
+\dontrun{
+georef_df <- authors_georef(refined, 'address')
+}
 }

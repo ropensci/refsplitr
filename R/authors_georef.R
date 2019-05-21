@@ -11,21 +11,34 @@
 #' 3rd. city, country
 #' 4th. University, country
 #' 
-#' The output is a data.frame of all information from 
+#' The output is a list with three data.frames
+#' \code{addresses} is a data frame with all information from 
 #' refine_authors plus new location columns and calculated lat longs.
+#' \code{missing addresses} is a data frame with all addresses could
+#' not be geocoded
+#' \code{addresses} is a data frame like \code{addresses} except
+#' the missing addresses are gone.
 #'
 #' @param data dataframe from `authors_refine()`
 #' @param address_column name of column in quotes where the addresses are
+#' @importFrom ggmap geocode
 #' 
-#' @importFrom dplyr full_join
-#' @importFrom ggmap ggmap::geocode
+#' @examples 
+#' 
+#' data(BITR)
+#' authors <- authors_clean(BITR)
+#' refined <- authors_refine(authors$review, authors$prelim, 0.9, 5)
+#' 
+#' \dontrun{
+#' georef_df <- authors_georef(refined, 'address')
+#' }
 #' @export authors_georef 
 #' 
 authors_georef <- function(data,
                            address_column = "address") {
 
  options(ggmap = list(display_api_key = FALSE))
-  
+
   addresses <- data[, c("university", "city", "state", "country",
                   "postal_code", "authorID", "address")]
   #Change some formatting to help data science toolkit
@@ -67,10 +80,9 @@ authors_georef <- function(data,
   addresses$lon <- NA
   addresses$adID <- seq_len(nrow(addresses))
 
-  # check.open <- NA
   # # we'll check if data science toolkit is working, by pinging a known address
-  check.open <- sum(is.na(ggmap::geocode("1600 Pennsylvania Ave NW, Washington, DC 20500", source = "dsk"))) == 0
-  # 
+  check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
+  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "dsk"))) == 0
   if (!check.open) {
     stop("data science toolkit is down right now, please try again later")
   }
@@ -149,9 +161,11 @@ authors_georef <- function(data,
   }
 
   addresses <-
-    merge(addresses[, c("authorID", "university", "postal_code", "country", "lat", "lon")],
-          data[, c("authorID", "groupID", "author_order", "address",
-                   "department", "RP_address", "RI", "OI", "UT", "refID")],
+    merge(
+      addresses[, c("authorID", "university", "postal_code",
+                   "country", "lat", "lon")],
+      data[, c("authorID", "groupID", "author_order", "address",
+              "department", "RP_address", "RI", "OI", "UT", "refID")],
           by = "authorID", all.y = TRUE)
 
   missingaddresses <- addresses[is.na(addresses$lat), ]
@@ -162,7 +176,7 @@ authors_georef <- function(data,
   outputlist$addresses <- addresses
   outputlist$missing_addresses <- missingaddresses
   outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
-  
+
   # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
   on.exit(options(ggmap = list(display_api_key = TRUE)))
   return(outputlist)

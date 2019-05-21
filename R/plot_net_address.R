@@ -1,22 +1,28 @@
-########################################
-########################################
-## 	BEGIN: plot_net_address():
-
 #' Creates a network diagram of coauthors' addresses linked by reference, 
 #' and with nodes arranged geographically
 #'
-#' \code{plot_net_address} This function takes an addresses data.frame,
+#'  This function takes an addresses data.frame,
 #'  links it to an authors__references dataset and plots a network diagram 
 #'  generated for individual points of co-authorship.
 #'
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
 #' @param line_resolution default = 10
+#' 
+#' @examples 
+#' data(BITR_geocode)
+#' 
+#' ## Plots the whole world
+#' plot_addresses_country(BITR_geocode)
+#' 
+#' ## Just select North America
+#' plot_net_address(BITR_geocode, mapRegion = 'North America')
+#' 
 #' @export plot_net_address
 
 plot_net_address <- function(data,
-                             line_resolution = 10,
-                             mapRegion = "world") {
+                             mapRegion = "world",
+                             line_resolution = 10) {
   
   requireNamespace(package="ggplot2", quietly=TRUE)
   requireNamespace(package="network", quietly=TRUE)
@@ -140,32 +146,40 @@ plot_net_address <- function(data,
   
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
-      line = ggplot2::element_blank(),
-      rect = ggplot2::element_blank(),
-      axis.text = ggplot2::element_blank(),
-      strip.text = ggplot2::element_blank(),
+      #line = ggplot2::element_blank(),
+      #rect = ggplot2::element_blank(),
+      #axis.text = ggplot2::element_blank(),
+      #strip.text = ggplot2::element_blank(),
       plot.title = ggplot2::element_blank(),
       axis.title = ggplot2::element_blank(),
-      plot.margin = structure(c(0, 0, -1, -1),
-                              unit = "lines",
-                              valid.unit = 3L,
-                              class = "unit"
-      )
+      # plot.margin = structure(c(0, 0, -1, -1),
+      #                         unit = "lines",
+      #                         valid.unit = 3L,
+      #                         class = "unit"
+      # )
     )
   
-  
+  world_map_sub <- world_map
+  #world_map_sub <- ggplot2::fortify(world_map)
   if (mapRegion != "world") {
-    world_map <- world_map[which(world_map$continent == mapRegion), ]
+    world_map_sub <- world_map[which(world_map$continent == mapRegion & 
+                       world_map$TYPE != 'Dependency'), ]
   }
-  
-  
-  
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- ggplot2::fortify(world_map)
-  world_map.df <- dplyr::full_join(world_map.points, world_map@data, by = "id")
+  world_map.df <- dplyr::full_join(world_map.points,
+                           world_map@data, by = "id")
   
+  ## calculate min and max for plot
+  latmin <- world_map_sub@bbox['y','min']
+  latmax <- world_map_sub@bbox['y','max']
+  longmin <- world_map_sub@bbox['x','min']
+  longmax <- world_map_sub@bbox['x','max']
   
+  if (mapRegion == 'Australia'){
+    longmin <- 100
+  }
   products <- list()
   
   products[["plot"]] <- ggplot2::ggplot() +
@@ -179,7 +193,8 @@ plot_net_address <- function(data,
       ggplot2::aes_string("long", "lat", group = "group"),
       color = grDevices::gray(6 / 10)
     ) +
-    ggplot2::coord_equal() +
+    ggplot2::coord_equal(ylim=c(latmin, latmax),
+      xlim=c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
       ggplot2::aes_string(
@@ -209,14 +224,9 @@ plot_net_address <- function(data,
     ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + 
     empty_theme
   
-  
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
-  
+  products$plot
   return(products)
 }
-
-## 	END: net_plot_coauthor_address():
-########################################
-########################################

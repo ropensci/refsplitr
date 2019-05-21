@@ -22,3 +22,8 @@ the following Web of Science data fields are only included if users select the `
 \code{references_read} This function reads Thomson Reuters Web of Knowledge
 and ISI format reference data files into an R friendly data format.
 }
+\examples{
+## Read in Web of Science raw file
+data_local <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
+references <- references_read(data_local)
+}

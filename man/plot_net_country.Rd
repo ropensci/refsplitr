@@ -18,7 +18,16 @@ latitude and longitude locations.}
 values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
-\code{plot_net_country} This function takes an addresses data.frame, 
+This function takes an addresses data.frame, 
 #links it to an authors_references dataset and plots a network diagram 
 generated for countries of co-authorship.
+}
+\examples{
+data(BITR_geocode)
+
+## Plots the whole world
+plot_addresses_country(BITR_geocode)
+
+## Just select North America
+plot_net_country(BITR_geocode, mapRegion = 'North America')
 }

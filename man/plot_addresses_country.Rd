@@ -17,3 +17,17 @@ include ["world","North America","South America","Australia","Africa","Antarctic
 \code{plot_addresses_country} This function plots an addresses data.frame 
 object by country name.
 }
+\examples{
+
+data(BITR_geocode)
+
+## Plots the whole world
+plot_addresses_country(BITR_geocode)
+
+## Additioinal mapRegion names can be querried using:
+rworldmap::getMap()$NAME
+
+## Just select North America
+plot_addresses_country(BITR_geocode, mapRegion = 'North America')
+
+}

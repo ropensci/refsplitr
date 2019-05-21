@@ -2,7 +2,10 @@
 % Please edit documentation in R/plot_net_coauthor.R
 \name{plot_net_coauthor}
 \alias{plot_net_coauthor}
-\title{Creates a network diagram of coauthors' countries linked by reference}
+\title{Creates a network diagram of coauthors' countries linked by reference
+This function takes an addresses data.frame, 
+links it to an authors_references dataset and plots a network diagram 
+generated for co-authorship.}
 \usage{
 plot_net_coauthor(data)
 }
@@ -12,7 +15,12 @@ the `authors_georef()`` function, containing geocoded address
 latitude and longitude locations.}
 }
 \description{
-\code{plot_net_coauthor} This function takes an addresses data.frame, 
+Creates a network diagram of coauthors' countries linked by reference
+This function takes an addresses data.frame, 
 links it to an authors_references dataset and plots a network diagram 
 generated for co-authorship.
+}
+\examples{
+data(BITR_geocode)
+plot_net_coauthor(BITR_geocode)
 }

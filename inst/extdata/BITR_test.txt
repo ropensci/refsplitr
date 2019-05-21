@@ -1,0 +1,470 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Deichmann, JL
+   Acevedo-Charry, O
+   Barclay, L
+   Burivalova, Z
+   Campos-Cerqueira, M
+   d'Horta, F
+   Game, ET
+   Gottesman, BL
+   Hart, PJ
+   Kalan, AK
+   Linke, S
+   Do Nascimento, L
+   Pijanowski, B
+   Staaterman, E
+   Aide, TM
+AF Deichmann, Jessica L.
+   Acevedo-Charry, Orlando
+   Barclay, Leah
+   Burivalova, Zuzana
+   Campos-Cerqueira, Marconi
+   d'Horta, Fernando
+   Game, Edward T.
+   Gottesman, Benjamin L.
+   Hart, Patrick J.
+   Kalan, Ammie K.
+   Linke, Simon
+   Do Nascimento, Leandro
+   Pijanowski, Bryan
+   Staaterman, Erica
+   Aide, T. Mitchell
+TI It's time to listen: there is much to be learned from the sounds of
+   tropical ecosystems
+SO BIOTROPICA
+LA English
+DT Editorial Material
+DE conservation technology; ecoacoustics; passive acoustic monitoring;
+   soundscape
+ID UNDERWATER SOUNDSCAPES; CALLING BEHAVIOR; BIODIVERSITY; FOREST;
+   BIOACOUSTICS; VARIABILITY; LANDSCAPE; HABITATS; IMPACTS; SYSTEM
+AB Knowledge that can be gained from acoustic data collection in tropical ecosystems is low-hanging fruit. There is every reason to record and with every day, there are fewer excuses not to do it. In recent years, the cost of acoustic recorders has decreased substantially (some can be purchased for under US$50, e.g., Hill etal. 2018) and the technology needed to store and analyze acoustic data is continuously improving (e.g., Corrada Bravo etal. 2017, Xie etal. 2017). Soundscape recordings provide a permanent record of a site at a given time and contain a wealth of invaluable and irreplaceable information. Although challenges remain, failure to collect acoustic data now in tropical ecosystems would represent a failure to future generations of tropical researchers and the citizens that benefit from ecological research. In this commentary, we (1) argue for the need to increase acoustic monitoring in tropical systems; (2) describe the types of research questions and conservation issues that can be addressed with passive acoustic monitoring (PAM) using both short- and long-term data in terrestrial and freshwater habitats; and (3) present an initial plan for establishing a global repository of tropical recordings.
+C1 [Deichmann, Jessica L.] Smithsonian Conservat Biol Inst, Ctr Conservat & Sustainabil, Natl Zool Pk, Washington, DC 20008 USA.
+   [Acevedo-Charry, Orlando; Campos-Cerqueira, Marconi; Aide, T. Mitchell] Sieve Analyt, San Juan, PR USA.
+   [Acevedo-Charry, Orlando] Inst Invest Recursos Biol Alexander von Humboldt, Colecc Sonidos Ambientales, Bogota, Colombia.
+   [Barclay, Leah] Griffith Univ, Queensland Conservatorium Res Ctr, Nathan, Qld, Australia.
+   [Burivalova, Zuzana] Princeton Univ, Woodrow Wilson Sch Publ & Int Affairs, Princeton, NJ 08544 USA.
+   [d'Horta, Fernando] INPA, Grad Program Genet Conservat & Evolutionary Biol, Manaus, AM, Brazil.
+   [Game, Edward T.] Nature Conservancy, Global Sci, Brisbane, Qld, Australia.
+   [Gottesman, Benjamin L.; Pijanowski, Bryan] Purdue Univ, Dept Forestry & Nat Resources, W Lafayette, IN 47907 USA.
+   [Hart, Patrick J.] Univ Hawaii, Dept Biol, Hilo, HI 96720 USA.
+   [Kalan, Ammie K.] Max Planck Inst Evolutionary Anthropol, Dept Primatol, Leipzig, Germany.
+   [Linke, Simon] Griffith Univ, Australian Rivers Inst, Nathan, Qld, Australia.
+   [Do Nascimento, Leandro] Utah State Univ, Dept Wildland Resources, Logan, UT 84322 USA.
+   [Do Nascimento, Leandro] Utah State Univ, Ecol Ctr, Logan, UT 84322 USA.
+   [Staaterman, Erica] Bur Ocean Energy Management, Off Environm Programs, Sterling, VA USA.
+   [Staaterman, Erica] Beneath Waves Inc, Herndon, VA USA.
+   [Aide, T. Mitchell] Univ Puerto Rico, Dept Biol, San Juan, PR 00936 USA.
+RP Deichmann, JL (reprint author), Smithsonian Conservat Biol Inst, Ctr Conservat & Sustainabil, Natl Zool Pk, Washington, DC 20008 USA.
+EM deichmannj@si.edu
+OI Kalan, Ammie/0000-0003-1542-7077; Deichmann,
+   Jessica/0000-0002-2198-3515; Campos-Cerqueira,
+   Marconi/0000-0001-6561-5864
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD SEP
+PY 2018
+VL 50
+IS 5
+BP 713
+EP 718
+DI 10.1111/btp.12593
+PG 6
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000444459600001
+ER
+
+PT J
+AU Aide, TM
+   Clark, ML
+   Grau, HR
+   Lopez-Carr, D
+   Levy, MA
+   Redo, D
+   Bonilla-Moheno, M
+   Riner, G
+   Andrade-Nunez, MJ
+   Muniz, M
+AF Aide, T. Mitchell
+   Clark, Matthew L.
+   Ricardo Grau, H.
+   Lopez-Carr, David
+   Levy, Marc A.
+   Redo, Daniel
+   Bonilla-Moheno, Martha
+   Riner, George
+   Andrade-Nunez, Maria J.
+   Muniz, Maria
+TI Deforestation and Reforestation of Latin America and the Caribbean
+   (2001-2010)
+SO BIOTROPICA
+LA English
+DT Article
+DE food production and consumption; forest cover; globalization; land
+   change; MODIS; population; Random Forests
+ID HUMID TROPICAL FORESTS; LAND-COVER CHANGE; TIME-SERIES DATA; BRAZILIAN
+   AMAZON; NORTHERN ARGENTINA; AGRICULTURAL LAND; URBAN MIGRATION;
+   SOUTH-AMERICA; GLOBALIZATION; DYNAMICS
+AB Forest cover change directly affects biodiversity, the global carbon budget, and ecosystem function. Within Latin American and the Caribbean region (LAC), many studies have documented extensive deforestation, but there are also many local studies reporting forest recovery. These contrasting dynamics have been largely attributed to demographic and socio-economic change. For example, local population change due to migration can stimulate forest recovery, while the increasing global demand for food can drive agriculture expansion. However, as no analysis has simultaneously evaluated deforestation and reforestation from the municipal to continental scale, we lack a comprehensive assessment of the spatial distribution of these processes. We overcame this limitation by producing wall-to-wall, annual maps of change in woody vegetation and other land-cover classes between 2001 and 2010 for each of the 16,050 municipalities in LAC, and we used nonparametric Random Forest regression analyses to determine which environmental or population variables best explained the variation in woody vegetation change. Woody vegetation change was dominated by deforestation (541,835km2), particularly in the moist forest, dry forest, and savannas/shrublands biomes in South America. Extensive areas also recovered woody vegetation (+362,430km2), particularly in regions too dry or too steep for modern agriculture. Deforestation in moist forests tended to occur in lowland areas with low population density, but woody cover change was not related to municipality-scale population change. These results emphasize the importance of quantitating deforestation and reforestation at multiple spatial scales and linking these changes with global drivers such as the global demand for food. Resumen Los cambios en la cobertura de bosque tienen efectos directos sobre la biodiversidad, el ciclo global del carbono, y el funcionamiento de los ecosistemas. Muchos estudios en la region de America Latina y el Caribe han documentado extensa deforestacion; sin embargo, existen estudios locales que reportan recuperacion del bosque. Ambas dinamicas, deforestacion y reforestacion, han sido relacionadas con cambios demograficos y socioeconomicos. Por ejemplo, dinamicas poblacionales, como la migracion rural urbana, pueden estimular la recuperacion del bosque, mientras que el aumento en la demanda mundial de alimentos puede promover la expansion agricola. Dado a que ningun estudio ha evaluado conjuntamente los procesos de deforestacion y reforestacion a escala municipal o regional, no existe un analisis sobre de la distribucion espacial de estos procesos. Hemos superado esta limitacion al producir, simultaneamente, mapas del cambio en las coberturas de vegetacion lenosa y usos del suelo entre 2001 y 2010 para cada uno de los 16,050municipios de America Latina. Se utilizo el analisis no parametrico de regresion Random Forest para determinar cuales de las variables demograficas o medioambientales explican la variacion del cambio en vegetacion lenosa. Los cambios mas significativos en la cobertura de vegetacion lenosa fueron causados por procesos de deforestacion (541,835km2), particularmente en los biomas de bosque humedo, bosque seco, y en las sabanas o matorrales de America del Sur. Igualmente, se registro un aumento en la cobertura de vegetacion lenosa (362,430km2), especialmente en zonas aridas o empinados poco favorables para la agricultura industrial.
+   La deforestacion en los bosques humedos tiende a ocurrir en zonas de baja elevacion y de poca densidad poblacional, sin embargo, los cambios en vegetacion lenosa no estuvieron relacionados con cambios en poblacion a nivel de municipio. Estos resultados enfatizan la importancia de cuantificar la deforestacion y la reforestacion a multiples escalas espaciales y de vincular estos cambios con acontecimientos globales, como el incremento mundial en la demanda de alimentos.
+C1 [Aide, T. Mitchell; Redo, Daniel; Andrade-Nunez, Maria J.] Univ Puerto Rico, Dept Biol, Rio Piedras, PR 00931 USA.
+   [Clark, Matthew L.; Riner, George] Sonoma State Univ, Ctr Interdisciplinary Geospatial Anal, Dept Geog & Global Studies, Rohnert Pk, CA 94928 USA.
+   [Ricardo Grau, H.] Univ Nacl Tucuman, CONICET, Inst Ecol Reg, San Miguel De Tucuman, Argentina.
+   [Lopez-Carr, David] Univ Calif Santa Barbara, Dept Geog, Santa Barbara, CA 93106 USA.
+   [Levy, Marc A.; Muniz, Maria] Columbia Univ, Ctr Int Earth Sci Informat Network, Earth Inst, Palisades, NY 10964 USA.
+   [Bonilla-Moheno, Martha] Inst Ecol AC, Red Ambiente & Sustentabilidad, Xalapa 91070, Veracruz, Mexico.
+RP Aide, TM (reprint author), Univ Puerto Rico, Dept Biol, POB 23360, Rio Piedras, PR 00931 USA.
+EM tmaide@yahoo.com
+RI Bonilla-Moheno, Martha/Q-6757-2018
+OI Bonilla-Moheno, Martha/0000-0002-2403-2002; Levy,
+   Marc/0000-0002-1111-2222
+TC 215
+Z9 221
+SN 0006-3606
+PD MAR
+PY 2013
+VL 45
+IS 2
+BP 262
+EP 271
+DI 10.1111/j.1744-7429.2012.00908.x
+PG 10
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000315643900014
+ER
+
+PT J
+AU McGlynn, TP
+   Salinas, DJ
+   Dunn, RR
+   Wood, TE
+   Lawrence, D
+   Clark, DA
+AF McGlynn, Terrence P.
+   Salinas, Daniel J.
+   Dunn, Robert R.
+   Wood, Tana E.
+   Lawrence, Deborah
+   Clark, Deborah A.
+TI Phosphorus limits tropical rain forest litter fauna
+SO BIOTROPICA
+LA English
+DT Article
+DE bottom-up; Costa Rica; detritus; nutrient limitation; phosphorus;
+   stoichiometry; terrestrial food web; trophic cascade; tropical forest
+ID COMMUNITY STRUCTURE; TROPHIC CASCADES; SOIL NUTRIENTS; WET FOREST;
+   TOP-DOWN; ECOSYSTEM; NITROGEN; CARBON; COMPETITION; LIMITATION
+AB The stoichiometry of resources may explain bottom-up regulation of higher trophic levels. We tested the effects of soil and litter nutrient stoichiometry on the invertebrate litter fauna of a Costa Rican tropical rain forest. Animal densities were estimated from 15 sites across a phosphorus gradient. The density of the invertebrate litter fauna varied considerably, and was strongly tied to soil and litter phosphorus concentrations. An increase in phosphorus concentrations corresponded with an equally proportionate increase in animal densities. Natural variation in nutrient levels can thus serve as a predictor of density in a highly diverse tropical animal community.
+C1 Univ San Diego, Dept Biol, San Diego, CA 92110 USA.
+   N Carolina State Univ, Dept Zool, Raleigh, NC 27695 USA.
+   Univ Virginia, Dept Environm Sci, Charlottesville, VA 22902 USA.
+   Univ Missouri, Dept Biol, St Louis, MO 63121 USA.
+RP McGlynn, TP (reprint author), Univ San Diego, Dept Biol, 5998 Alcala Pk, San Diego, CA 92110 USA.
+EM tmcglynn@sandiego.edu
+RI McGlynn, Terrence/E-3405-2010; Dunn, Robert/B-1360-2013
+OI McGlynn, Terrence/0000-0002-4290-6156; Dunn, Robert/0000-0002-6030-4837
+TC 30
+Z9 31
+SN 0006-3606
+PD JAN
+PY 2007
+VL 39
+IS 1
+BP 50
+EP 53
+DI 10.1111/j.1744-7429.2006.00241.x
+PG 4
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000243294500007
+ER
+
+PT J
+AU Pascarella, JB
+   Aide, TM
+   Zimmerman, JK
+AF Pascarella, John B.
+   Aide, T. Mitchell
+   Zimmerman, Jess K.
+TI The demography of Miconia prasina (Melastomataceae) during secondary
+   succession in Puerto Rico
+SO BIOTROPICA
+LA English
+DT Article
+DE chronosequence; matrix model; Melastomataceae; Miconia prasina; pioneer;
+   Puerto Rico; succession; tropical forest regeneration
+ID LUQUILLO-EXPERIMENTAL-FOREST; TROPICAL RAIN-FORESTS; LAND-USE HISTORY;
+   HURRICANE DISTURBANCE; NATURAL REGENERATION; PERENNIAL HERB; DRY FOREST;
+   TREE; CHRONOSEQUENCE; RECOVERY
+AB Miconia prasina (Melastomataceae) is an important colonizing species during early stages of secondary succession in Puerto Rico but its abundance declines with increasing stand age. We studied its demography for 2 yr (1995-1997) in three populations across a pasture to forest chronosequence (1-, 12-, and 25-yr old) and in one population in a hurricane-disturbed older forest (> 60-yr old). Vegetative growth was positive in the two young sites, but negative in the two older sites. The highest percentage of plants that flowered occurred in the two younger sites but highest seed production occurred in the 25-yr-old site. Although seed germination occurred in the two older sites, no seedlings established. Vegetative reproduction (root sprouts) was found in all sites, with most sprouts occurring in young sites. The 2 yr of census data were used to construct stage-based transition matrices. In the two young sites, the average population growth rate was positive (lambda > 1), while average population growth was negative in the two older sites (lambda < 1). Elasticity, a measure of the effects of proportional changes in life-history transitions to the long-term population growth rate, varied across both stages and sites. Elasticity shifted from large plants in young sites to small plants in older sites. Across all sites, elasticities related to survival were more important than those of growth or vegetative reproduction. The demographic analysis supported the previous observations of changes in the density of M. prasina based on the chronosequence and also suggests that establishment via seeds must occur prior to abandonment in active pastures.
+C1 Valdosta State Univ, Dept Biol, Valdosta, GA 31698 USA.
+   Univ Puerto Rico, Dept Biol, Rio Piedras, PR 00931 USA.
+   Univ Puerto Rico, Inst Trop Ecosyst Studies, San Juan, PR 00936 USA.
+RP Pascarella, JB (reprint author), Valdosta State Univ, Dept Biol, Valdosta, GA 31698 USA.
+EM jbpascar@valdosta.edu
+TC 8
+Z9 8
+SN 0006-3606
+PD JAN
+PY 2007
+VL 39
+IS 1
+BP 54
+EP 61
+DI 10.1111/j.1744-7429.2006.00220.x
+PG 8
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000243294500008
+ER
+
+PT J
+AU Aide, TM
+   Zimmerman, JK
+   Rosario, M
+   Marcano, H
+AF Aide, TM
+   Zimmerman, JK
+   Rosario, M
+   Marcano, H
+TI Forest recovery in abandoned cattle pastures along an elevational
+   gradient in northeastern Puerto Rico
+SO BIOTROPICA
+LA English
+DT Article
+DE abandoned cattle pastures; elevation gradient; forest regeneration;
+   Puerto Rico; secondary forests; secondary succession; tropics
+ID SECONDARY SUCCESSION; RAIN-FOREST; HURRICANE; AMAZONIA; TREES;
+   MANAGEMENT; VEGETATION
+AB A major cause of tropical deforestation has been the conversion of lowland forest into pastures for cattle grazing. We studied forest structure and species composition following abandonment of cattle pastures in 23 abandoned pastures 9.5-60 yr old and seven forested sites > 60 yr old. Sires were chosen along an elevational gradient from 10-450 m and represented subtropical wet and moist forest life zones. Age since abandonment was the best predictor of stand characteristics. Woody plant density, basal area, species number, and diversity were low 10 yr after abandonment, but increased rapidly after 10 to 15 yr pose-abandonment. Although distance to nearest seed source and hurricane exposure are factors char could affect forest recovery there was little variation among sires and no effects were detected. Elevation and age were significant determinants of species composition. At higher elevations (> 100 m), the shrub Miconia prasina (Melastomataceae) was the dominant pioneer species, bur in the low elevation, a larger group of shrubs and small trees colonized abandoned pastures. At higher elevations, the species composition of recovering sires did nor include many mature forest species. After 40 yr of recovery, secondary forest stands cannot be distinguished from undisturbed sites in terms of density, basal area, species number, or diversity, but it appears that it will require centuries for these sires to return to a species composition similar to undisturbed forests.
+C1 UNIV PUERTO RICO, DIV TERR ECOL, SAN JUAN, PR 00936 USA.
+RP Aide, TM (reprint author), UNIV PUERTO RICO, DEPT BIOL, POB 23360, SAN JUAN, PR 00931 USA.
+TC 125
+Z9 136
+SN 0006-3606
+EI 1744-7429
+PD DEC
+PY 1996
+VL 28
+IS 4
+BP 537
+EP 548
+DI 10.2307/2389095
+PN A
+PG 12
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:A1996WG73500011
+ER
+
+PT J
+AU Berkov, A
+   Meurer-Grimes, B
+   Purzycki, KL
+AF Berkov, A
+   Meurer-Grimes, B
+   Purzycki, KL
+TI Do Lecythidaceae specialists (Coleoptera, Cerambycidae) shun fetid tree
+   species?
+SO BIOTROPICA
+LA English
+DT Article
+DE Corythophora amapaensis; Couratari stellata; dimethyl disulfide;
+   Eschweilera coriacea; French Guiana; Gustavia hexapetala; Lecythis
+   poiteaui; plant-insect interactions; S-methylmethionine; tropical moist
+   forest
+ID PETERSIANTHUS-MACROCARPUS; FRENCH-GUIANA; CONSTITUENTS; BIOSYNTHESIS;
+   ATTRACTANT; EVOLUTION; SAPONINS; PLANTS; FOREST; BARK
+AB Characteristic secondary metabolites are currently acknowledged to play a pivotal role in the circumscription of a plant's insect fauna. A newly discovered association between wood-boring longicorn beetles (Cerambycidae) and their host trees belonging to the Brazil nut family (Lecythidaceae) inspired a yearlong rearing project in the lowland Neotropical rain forest of central French Guiana. Branches severed from five species of Lecythidaceae yielded 1813 cerambycids belonging to 37 species. Two of the five tree species, Couratari stellata and Gustavia hexapetala, yielded impoverished complements of cerambycids that included Large percentages of generalists. Both tree species are characterized by fetid odors. Wood samples collected from the malodorous C. stellata, as well as from two well-colonized species, Lecythis poiteaui and Eschweilera coriacea, were analyzed for their volatile components. Sulfur compounds accounted For almost 15 percent of the volatiles detected From C. stellata, while they were at most minor components of the two well-colonized tree species. S-methylmethionine, isolated from a C. stellata wood sample, appeared to be the major sulfur compound contributing to the distinctive smell. We hypothesize that this foul odor is a deterrent to specialist cerambycids seeking oviposition sites.
+C1 CUNY Herbert H Lehman Coll, Grad Sch, Dept Biol Sci, Bronx, NY 10468 USA.
+   ExGenix Operat PTY LTD, Richmond, Vic 3121, Australia.
+   Givaudan Roure Corp, Teaneck, NJ 07666 USA.
+RP Berkov, A (reprint author), Amer Museum Nat Hist, Dept Ornithol, Cullman Mol Systemat Lab, Cent Pk W & 79th St, New York, NY 10024 USA.
+TC 18
+Z9 20
+SN 0006-3606
+PD SEP
+PY 2000
+VL 32
+IS 3
+BP 440
+EP 451
+DI 10.1646/0006-3606(2000)032[0440:DLSCCS]2.0.CO;2
+PG 12
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000089651700008
+ER
+
+PT J
+AU Lee, CJ
+   Baxt, A
+   Castillo, S
+   Berkov, A
+AF Lee, Christina J.
+   Baxt, Alec
+   Castillo, Suzette
+   Berkov, Amy
+TI Stratification in French Guiana: Cerambycid Beetles Go Up When Rains
+   Come Down
+SO BIOTROPICA
+LA English
+DT Article
+DE host specificity; seasonality; Lecythidaceae; Palame; tropical moist
+   forest; canopy arthropods; microclimate; climate change
+ID VERTICAL STRATIFICATION; PALAME COLEOPTERA; HOST TREES; BODY-SIZE;
+   FOREST; ASSEMBLAGES; CANOPY; ACANTHOCININI; TEMPERATURE; LAMIINAE
+AB Abstract
+   When tropical rain forest insect species are associated with a particular season or forest stratum, it can imply tolerance for heat and drought-or moisture dependence; attributes that may predict their responses to global climate change. In French Guiana (1995-1996), wood-boring cerambycid beetles made a seasonal shift in stratum. During the dry season, ground stratum bait branches were densely colonized, but during the rainy season almost all cerambycids emerged from canopy stratum branches. Because the same substrate was available at both levels, abiotic factors probably influenced branch selection. In this study, cerambycids were reared at the same site (2007-2008) to determine if the seasonal shift recurred. Microclimate data (temperature, relative humidity, and wind speed) were collected with portable weather meters to test the hypothesis that microclimate would be similar at ground stratum during the dry season, and at canopy stratum during the rainy season. The seasonal shift in stratum did recur; many cerambycid individuals (56%) belonged to species classified as 'seasonal shifters'. Temperatures in the preferred microhabitats were intermediate, but relative humidity remained high during the rainy season (regardless of stratum) and it was windier in the canopy (regardless of season). The shifters preferentially colonized branches at moderate mean temperatures (23.0-24.3 degrees C) and high mean relative humidities (91.3-100%). Shifters were considered season and stratum generalists because they were reared at both strata and were present in both seasons, but they may actually track a narrow microclimate window. Should the regional climate become warmer and drier, it would probably favor species currently restricted to the dry season or canopy stratum.
+C1 [Lee, Christina J.; Castillo, Suzette; Berkov, Amy] CUNY City Coll, Dept Biol, New York, NY 10031 USA.
+   [Lee, Christina J.; Castillo, Suzette; Berkov, Amy] CUNY, Grad Ctr, New York, NY 10031 USA.
+   [Baxt, Alec] Brooklyn Bot Garden, Brooklyn, NY 11225 USA.
+   [Berkov, Amy] Amer Museum Nat Hist, Div Invertebrate Zool, New York, NY 10024 USA.
+RP Berkov, A (reprint author), CUNY City Coll, Dept Biol, Convent Ave & 138 St, New York, NY 10031 USA.
+EM berkov@sci.ccny.cuny.edu
+TC 2
+Z9 2
+SN 0006-3606
+EI 1744-7429
+PD MAY
+PY 2014
+VL 46
+IS 3
+BP 302
+EP 311
+DI 10.1111/btp.12101
+PG 10
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000335784700008
+ER
+
+PT J
+AU Berkov, A
+   Feinstein, J
+   Small, J
+   Nkamany, M
+AF Berkov, Amy
+   Feinstein, Julie
+   Small, Jacinta
+   Nkamany, Mary
+TI Yeasts isolated from neotropical wood-boring beetles in SE Peru
+SO BIOTROPICA
+LA English
+DT Article
+DE Bertholletia excelsa; COI; DNA barcode; Eschweilera tessmannii; Gustavia
+   augusta; lowland moist forest; LSU rDNA; palame; periboeum; xylergates
+ID SPOTTED LONGICORN BEETLE; PSACOTHEA-HILARIS; PALAME COLEOPTERA; DNA
+   BARCODES; CERAMBYCIDAE; INSECTS; GUT; HOST; MICROORGANISMS;
+   IDENTIFICATION
+AB Some temperate wood-boring cerambycid beetles harbor intracellular gut yeasts believed to augment host nutrition, but species belonging to the subfamily Lamiinae are thought to lack endosymbionts. Almost 49 percent of Neotropical cerambycid species are lamiines, therefore, comparatively few rain forest species would be expected to host symbiotic gut yeasts. This study reports the isolation of gut yeasts from closely related Neotropical lamiines. We investigated species that feed on trees in the Brazil nut family (Lecythidaceae), because host plant associations are relatively well known. Our objectives were to determine if gut yeasts were present and, if possible, infer their mode of transmission. We collected and dissected 18 beetle specimens from three tree species, including 17 cerambycids and one curculionid. Every insect specimen yielded a gut yeast. DNA sequence libraries were used for a rapid identification of the yeasts and their larval hosts. The cerambycids included five lamiine species and one cerambycine. Six ascomycete yeasts were isolated from their guts; we found no evidence of strict vertical transmission. Larval gut yeasts were genetically similar to yeasts previously isolated from insects associated with wood or fungi, implying potential habitat specificity. The yeasts have not yet been localized, and potential function is not known, but they may contribute to rapid nutrient cycling or serve as the first line of defense against plant toxins.
+C1 CUNY City Coll, Dept Biol, New York, NY 10031 USA.
+   Amer Museum Nat Hist, Dept Invertebrate Zool, New York, NY 10024 USA.
+   Assoc Conservat Amazonica, Puerto Maldonado, Peru.
+RP Berkov, A (reprint author), CUNY City Coll, Dept Biol, Convent Ave at 138th St, New York, NY 10031 USA.
+EM berkov@sci.ccny.cuny.edu
+TC 15
+Z9 15
+SN 0006-3606
+PD JUL
+PY 2007
+VL 39
+IS 4
+BP 530
+EP 538
+DI 10.1111/j.1744-7429.2007.00280.x
+PG 9
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000247779400013
+ER
+
+PT J
+AU MAGNUSSON, WE
+   LIMA, AP
+AF MAGNUSSON, WE
+   LIMA, AP
+TI BLACK VULTURES (CORAGYPS-ATRATUS) - A SIDE BENEFIT FOR TREES WITH
+   BUTTRESS ROOTS
+SO BIOTROPICA
+LA English
+DT Note
+RP MAGNUSSON, WE (reprint author), INST NACL PESQUISAS AMAZONIA,DEPT ECOL,CAIXA POSTAL 478,BR-69000 MANAUS,AMAZONAS,BRAZIL.
+RI Magnusson, William/J-9408-2014
+OI Lima, Albertina/0000-0003-4586-5633
+TC 0
+Z9 0
+SN 0006-3606
+PY 1983
+VL 15
+IS 3
+BP 216
+EP 216
+DI 10.2307/2387831
+PG 1
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:A1983SP45800008
+ER
+
+PT J
+AU Capaverde, UD
+   Pereira, LGD
+   Tavares, VD
+   Magnusson, WE
+   Baccaro, FB
+   Bobrowiec, PED
+AF Capaverde, Ubirajara Dutra, Jr.
+   do Amaral Pereira, Lucas Gabriel
+   Tavares, Valeria da Cunha
+   Magnusson, William E.
+   Baccaro, Fabricio Beggiato
+   Bobrowiec, Paulo Estefano D.
+TI Subtle changes in elevation shift bat-assemblage structure in Central
+   Amazonia
+SO BIOTROPICA
+LA English
+DT Article
+DE bat assemblages; Chiroptera; diversity; environmental filter;
+   environmental heterogeneity; food availability; topography; vegetation
+   structure
+ID MESOSCALE DISTRIBUTION PATTERNS; VEGETATION STRUCTURE; SPECIES RICHNESS;
+   HABITAT HETEROGENEITY; RELATIVE IMPORTANCE; COMMUNITY STRUCTURE;
+   SPATIAL-PATTERNS; FOREST STRUCTURE; TROPICAL BAT; DIVERSITY
+AB The distribution patterns of animal species at local scales have been explained by direct influences of vegetation structure, topography, food distribution, and availability. However, these variables can also interact and operate indirectly on the distribution of species. Here, we examined the direct and indirect effects of food availability (fruits and insects), vegetation clutter, and elevation in structuring phyllostomid bat assemblages in a continuous terra firme forest in Central Amazonia. Bats were captured in 49 plots over 25-km(2) of continuous forest. We captured 1138 bats belonging to 52 species with 7056 net*hours of effort. Terrain elevation was the strongest predictor of species and guild compositions, and of bat abundance. However, changes in elevation were associated with changes in vegetation clutter, and availability of fruits and insects consumed by bats, which are likely to have had direct effects on bat assemblages. Frugivorous bat composition was more influenced by availability of food-providing plants, while gleaning-animalivore composition was more influenced by the structural complexity of the vegetation. Although probably not causal, terrain elevation may be a reliable predictor of bat-assemblage structure at local scales in other regions. In situations where it is not possible to collect local variables, terrain elevation can substitute other variables, such as vegetation structure, and availability of fruits and insects.
+   RESUMO Os padroes de distribuicAo das especies animais em escalas locais tem sido explicados pela influencia direta da estrutura da vegetacAo, topografia, distribuicAo e disponibilidade de alimento. No entanto, essas variaveis tambem podem interagir e operar indiretamente na distribuicAo das especies. Aqui, nos examinamos os efeitos diretos e indiretos da disponibilidade de alimento (frutos e insetos), da obstrucAo da vegetacAo e da elevacAo do terreno na estruturacAo das assembleias de morcegos Phyllostomidae em uma floresta continua de terra firme na Amazonia Central. Os morcegos foram capturados em 49 parcelas ao longo de 25km(2) de floresta continua. Nos capturamos 1138 morcegos pertencentes a 52 especies com um esforco de 7056 redes*hora. A elevacAo do terreno foi a preditora mais forte da composicAo de especies e guildas e da abundancia dos morcegos. No entanto, as mudancas na elevacAo foram associadas a mudancas na obstrucAo da vegetacAo e disponibilidade de frutos e insetos consumidos por morcegos, que provavelmente terAo efeitos diretos nas assembleias dos morcegos. A composicAo dos morcegos frugivoros foi mais influenciada pela disponibilidade de plantas que fornecem alimento, enquanto que a composicAo de morcegos animalivoros catadores foi mais influenciada pela complexidade estrutural da vegetacAo. Embora provavelmente nAo seja causal, a elevacAo do terreno pode ser uma variavel preditora confiavel da estrutura das assembleias dos morcegos em escalas locais em outras regioes. Em situacoes em que nAo e possivel coletar variaveis locais, a elevacAo do terreno pode substituir outras variaveis, como a estrutura da vegetacAo e a disponibilidade de frutos e insetos.
+C1 [Capaverde, Ubirajara Dutra, Jr.] Inst Nacl de Pesquisas da Amazonia, Programa Posgrad Ecol, BR-69080971 Manaus, Amazonas, Brazil.
+   [do Amaral Pereira, Lucas Gabriel] Univ Fed Amazonas, Programa Posgrad Diversidade Biol, BR-69077070 Manaus, Amazonas, Brazil.
+   [Tavares, Valeria da Cunha] Univ Fed Minas Gerais, Inst Ciencias Biol, Dept Zool, BR-31270010 Belo Horizonte, MG, Brazil.
+   [Magnusson, William E.; Bobrowiec, Paulo Estefano D.] Inst Nacl de Pesquisas da Amazonia, Coordenacao Biodiversidade, BR-69067375 Manaus, Amazonas, Brazil.
+   [Baccaro, Fabricio Beggiato] Univ Fed Amazonas, Dept Biol, BR-69077070 Manaus, Amazonas, Brazil.
+   [Bobrowiec, Paulo Estefano D.] Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+RP Capaverde, UD (reprint author), Inst Nacl de Pesquisas da Amazonia, Programa Posgrad Ecol, BR-69080971 Manaus, Amazonas, Brazil.; Bobrowiec, PED (reprint author), Inst Nacl de Pesquisas da Amazonia, Coordenacao Biodiversidade, BR-69067375 Manaus, Amazonas, Brazil.; Bobrowiec, PED (reprint author), Inst Nacl de Pesquisas da Amazonia, Biol Dynam Forest Fragments Project, BR-69011970 Manaus, Amazonas, Brazil.
+EM capaverdejunior@hotmail.com; paulobobro@gmail.com
+RI Baccaro, Fabricio/H-3885-2012
+OI Baccaro, Fabricio/0000-0003-4747-1857; Tavares,
+   Valeria/0000-0003-0966-0139
+TC 0
+Z9 0
+SN 0006-3606
+EI 1744-7429
+PD JUL
+PY 2018
+VL 50
+IS 4
+BP 674
+EP 683
+DI 10.1111/btp.12546
+PG 10
+WC Ecology
+SC Environmental Sciences & Ecology
+UT WOS:000437264200015
+ER
+
+EF

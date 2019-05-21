@@ -1,16 +1,14 @@
-########################################
-########################################
-## 	BEGIN: plot_net_coauthor():
-
 #' Creates a network diagram of coauthors' countries linked by reference
-#'
-#' \code{plot_net_coauthor} This function takes an addresses data.frame, 
+#' This function takes an addresses data.frame, 
 #' links it to an authors_references dataset and plots a network diagram 
 #' generated for co-authorship.
 #'
 #' @param data the `address` element from the list outputted from 
 #' the `authors_georef()`` function, containing geocoded address 
 #' latitude and longitude locations.
+#' @examples 
+#' data(BITR_geocode)
+#' plot_net_coauthor(BITR_geocode)
 #' @export plot_net_coauthor
 #' 
 plot_net_coauthor <- function(data) {
@@ -64,7 +62,3 @@ graphics::plot(linkages_countries_net,
      layout = co)
 return(linkages_countries_net)
 }
-
-## 	END: net_plot_coauthor():
-########################################
-########################################

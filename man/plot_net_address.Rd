@@ -5,17 +5,27 @@
 \title{Creates a network diagram of coauthors' addresses linked by reference, 
 and with nodes arranged geographically}
 \usage{
-plot_net_address(data, line_resolution = 10, mapRegion = "world")
+plot_net_address(data, mapRegion = "world", line_resolution = 10)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
 
-\item{line_resolution}{default = 10}
-
 \item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
+
+\item{line_resolution}{default = 10}
 }
 \description{
-\code{plot_net_address} This function takes an addresses data.frame,
+This function takes an addresses data.frame,
  links it to an authors__references dataset and plots a network diagram 
  generated for individual points of co-authorship.
+}
+\examples{
+data(BITR_geocode)
+
+## Plots the whole world
+plot_addresses_country(BITR_geocode)
+
+## Just select North America
+plot_net_address(BITR_geocode, mapRegion = 'North America')
+
 }

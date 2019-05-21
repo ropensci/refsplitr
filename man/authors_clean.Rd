@@ -4,7 +4,7 @@
 \alias{authors_clean}
 \title{Seperates author information in references files from \code{references_read}}
 \usage{
-authors_clean(references, sim_score = 0.88)
+authors_clean(references)
 }
 \arguments{
 \item{references}{output from \code{references_read}}
@@ -24,20 +24,8 @@ You can set a similarity score cut off 0 to 1.0 (default is 0.88), higher number
 Numbers below 0.75 are very unlikely to be similar, and we do not recommend using.
 }
 \examples{
- references <-data.frame(filename=NA, AB=NA,
- AF=c('Smith, Jon J.','Thompson, Bob B.','Smith,J'), 
- AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), 
- BP=NA , C1=c("Univ Florida, Gainesville, FL USA",
- "University of Texas, Austin, TX, USA",NA),
- CR=NA,DE=NA, DI=NA, EM=c("j.smithufl.edu",NA,'jsmithusgs.gov'), 
- EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, 
- PY=NA, RI=NA, OI=NA,PM=NA, 
- RP=c("Univ Florida, Gainesville, FL USA",
- "University of Texas, Austin, TX, USA",NA), 
- SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, 
- WC=NA,Z9=NA,refID=c(1,2,3) ,stringsAsFactors=FALSE)
+
+data(BITR)
  
- references[]<-lapply(references, as.character)
- 
- authors_clean(references=references)
+ authors_clean(references = BITR)
 }
