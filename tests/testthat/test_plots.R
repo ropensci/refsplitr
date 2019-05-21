@@ -58,7 +58,7 @@ test_that("Map plots work", {
                   "match_name"=c('Smith,J',NA,'Smith, Jon J'),
                   "similarity"= c(0.8833333,NA,0.8833333),   
                   "author_order"= c(1,2,1),
-                  "address"=c("Univ Florida, Gainesville, FL USA",
+                  "address"=c("univ Florida, Gainesville, FL USA",
                               "University of Texas, Austin, TX, USA",NA),      
                   "RP_address"=c("Univ Florida, Gainesville, FL USA",
                                  "University of Oxford, Oxfordshire, UK",
@@ -75,7 +75,7 @@ test_that("Map plots work", {
                   "PY"=NA,
                   "university"=c('Univ Florida','University of Oxford',
                                  "University of California"),  
-                  "country"=c('USA','United Kingdom',"USA"),
+                  "country"=c('usa','united kingdom',"usa"),
                   "state"=c('FL','Oxfordshire',"CA"),
                   "postal_code"=NA,
                   "city"=c('Gainesville','Oxford',"Berkley"),
@@ -89,8 +89,8 @@ test_that("Map plots work", {
  expect_equal(length(c$data_polygon$long),12576)
 
  d<-plot_net_coauthor(data=df)
- expect_equal(d[1],c("United Kingdom"=0,"USA"=1))
- expect_equal(d[2],c("United Kingdom"=1,"USA"=0))
+ expect_equal(d[1],c("united kingdom"=0,"usa"=1))
+ expect_equal(d[2],c("united kingdom"=1,"usa"=0))
  
  e<-plot_net_country(data=df)
  expect_equal(signif(e$data_points$LAT,4),c(53.88, 39.50))

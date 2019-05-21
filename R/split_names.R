@@ -14,10 +14,12 @@ split_names <- function(x) {
   # split first by commas, as we assume this is atleast seperating the
   # last name from the rest of the information
   first.split <- strsplit(x, ",")
-  
+
   # If they split them by spaces instead of commas we need to adjust
-  
-  if(length(first.split[[1]])==1){first.split <- strsplit(x, " ")}
+
+  if (length(first.split[[1]]) == 1) {
+    first.split <- strsplit(x, " ")
+  }
   # we are going to assume the very first split before the comma is
   # the last name
   last <- first.split[[1]][1]
@@ -31,26 +33,25 @@ split_names <- function(x) {
   second.split <- second.split[nchar(second.split) > 0]
 
   # Now we need to duble check there isnt a period seperator
-  if(length(second.split)==1){second.split <- strsplit(second.split[[1]], "\\.") 
-  second.split <- unlist(second.split)
-  second.split <- second.split[nchar(second.split) > 0]
+  if (length(second.split) == 1) {
+    second.split <- strsplit(second.split[[1]], "\\.")
+    second.split <- unlist(second.split)
+    second.split <- second.split[nchar(second.split) > 0]
   }
   # now we assume that the first name after the first comma is
   # the first name, this is pretty standard so it should be safe
   # enough of an assumption.
   # However because we often have First initials and middle intials
   # shoved together with no space we have to specify lower case
-
   first <- regmatches(second.split, regexpr("[A-Z][a-z]*", second.split))[1]
 
-  # Middle names are messy because they have multiple parts, spaces,
-  # names, and jrs srs, for the sake of this analysis
+  # Middle names are messy because they have multiple parts, spaces, names
   # we'll just shove the names together. Even though this might not be 'correct'
+  # We're taking out jrs and seniors for the sake of analysis
   if (length(second.split) > 1) {
     third.split <- second.split[-1]
-    grepl('jr\\b','jr.')
     third.split <- third.split[
-        !grepl("^jr\\b|^sr\\b|^ii$|^iii|^iv\\b|^v\\b",
+      !grepl("^jr\\b|^sr\\b|^ii$|^iii|^iv\\b|^v\\b",
         tolower(unlist(third.split)))
       ]
     middle <- gsub("[\\./,]", "", paste0(third.split, collapse = ""))
@@ -61,6 +62,5 @@ split_names <- function(x) {
   if (length(second.split) > 0 && grepl("[A-Z][A-Z]", second.split)) {
     middle <- substr(second.split, 2, nchar(second.split))[1]
   }
-
   return(c(first = first, middle = middle, last = last))
 }

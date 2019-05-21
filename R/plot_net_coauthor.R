@@ -12,21 +12,19 @@
 #' @export plot_net_coauthor
 #' 
 plot_net_coauthor <- function(data) {
-  
+
   data <- data[!is.na(data$country), ]
 
-  
   linkages <- as.matrix(Matrix::sparseMatrix(
-    dims=c(length(unique(data$country)), 
-           length(unique(data$UT))),
+    dims = c(length(unique(data$country)),
+    length(unique(data$UT))),
     i = as.numeric(factor(data$country)),
     j = as.numeric(factor(data$UT)),
     x = rep(1, length(data$country))))
-  
-  
-  links <- matrix(data=linkages, 
-                  nrow=length(unique(data$country)),
-                  ncol=length(unique(data$UT)))
+
+  links <- matrix(data = linkages,
+    nrow = length(unique(data$country)),
+    ncol = length(unique(data$UT)))
 
   row.names(links) <- levels(factor(data$country))
 
@@ -36,7 +34,7 @@ plot_net_coauthor <- function(data) {
   linkages_countries <- links %*% base::t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- base::t(links) %*% links
+  # linkages_references <- base::t(links) %*% links
 
   ## 	Create an igraph object from our countries linkages:
 
@@ -45,20 +43,21 @@ plot_net_coauthor <- function(data) {
     weighted = TRUE
   )
 
-igraph::V(linkages_countries_net)$label<-igraph::V(linkages_countries_net)$name
-igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 0, .2, .5)
-igraph::V(linkages_countries_net)$label.cex <- 0.5
-igraph::V(linkages_countries_net)$size <- 12
-igraph::V(linkages_countries_net)$frame.color <- NA
-igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
+  igraph::V(linkages_countries_net)$label <-
+          igraph::V(linkages_countries_net)$name
+  igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 0, .2, .5)
+  igraph::V(linkages_countries_net)$label.cex <- 0.5
+  igraph::V(linkages_countries_net)$size <- 12
+  igraph::V(linkages_countries_net)$frame.color <- NA
+  igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 0.6, 0, 0.7)
 
-  ## 	Simplify the network edges by removing the diagonal and other half 
-# (assuming it's symmetric/undirected:
+  ## 	Simplify the network edges by removing the diagonal and other half
+  # (assuming it's symmetric/undirected:
   linkages_countries_net <- igraph::simplify(linkages_countries_net)
-  
+
   co <- igraph::layout_with_fr(linkages_countries_net)
 
-graphics::plot(linkages_countries_net, 
-     layout = co)
-return(linkages_countries_net)
+  graphics::plot(linkages_countries_net,
+    layout = co)
+  return(linkages_countries_net)
 }

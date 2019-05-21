@@ -13,7 +13,7 @@
 #' data(BITR_geocode)
 #' 
 #' ## Plots the whole world
-#' plot_addresses_country(BITR_geocode)
+#' plot_net_address(BITR_geocode)
 #' 
 #' ## Just select North America
 #' plot_net_address(BITR_geocode, mapRegion = 'North America')
@@ -21,33 +21,28 @@
 #' @export plot_net_address
 
 plot_net_address <- function(data,
-                             mapRegion = "world",
-                             line_resolution = 10) {
-  
-  requireNamespace(package="ggplot2", quietly=TRUE)
-  requireNamespace(package="network", quietly=TRUE)
-  
+                      mapRegion = "world",
+                      line_resolution = 10) {
+
+  requireNamespace(package = "ggplot2", quietly = TRUE)
+  requireNamespace(package = "network", quietly = TRUE)
+
   data <- data[!is.na(data$country), ]
-  
   data <- data[!is.na(data$lat), ]
-  
   data <- data[!is.na(data$lon), ]
-  
+
   ## 	Link all authors at a particular point location:
   data$latlon <- paste0(data$lat, ",", data$lon)
-  
-  
   test <- data.frame(latlon = unique(data$latlon))
-  test$LAT <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
-                                function(x) x[1]))
-  test$LON <- as.numeric(lapply(strsplit(as.character(test$latlon), ","), 
-                                function(x) x[2]))
+  test$LAT <- as.numeric(lapply(strsplit(as.character(test$latlon), ","),
+    function(x) x[1]))
+  test$LON <- as.numeric(lapply(strsplit(as.character(test$latlon), ","),
+    function(x) x[2]))
   test$latlonalpha <- paste0("a", seq_len(nrow(test)))
-  
-  test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon", 
-                 all.y = TRUE)
-  
-  
+
+  test1 <- merge(test, data[, c("latlon", "refID")], by = "latlon",
+    all.y = TRUE)
+
   linkages <- Matrix::spMatrix(
     nrow = length(unique(test1$latlonalpha)),
     ncol = length(unique(test1$refID)),
@@ -55,55 +50,48 @@ plot_net_address <- function(data,
     j = as.numeric(factor(test1$refID)),
     x = rep(1, length(test1$latlonalpha))
   )
-  
-  
-  links <- matrix(data=linkages, 
-                  nrow=length(unique(test1$latlonalpha)),
-                  ncol=length(unique(test1$refID)))
-  
+
+  links <- matrix(data = linkages,
+    nrow = length(unique(test1$latlonalpha)),
+    ncol = length(unique(test1$refID)))
   rownames(links) <- levels(factor(test1$latlonalpha))
   colnames(links) <- levels(factor(test1$refID))
-  
-  ## 	Convert to a one-mode representation of countries:
+
+  ## Convert to a one-mode representation of countries:
   linkages_points <- links %*% t(links)
-  
-  ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(links) %*% links
-  
-  
+
+  ## Convert to a one-mode representation of references:
+  # linkages_references <- t(links) %*% links
+
   ## 	Or we might be interested in using the network package instead of igraph:
-  
   ## 	This loads our adjacency matrix into a network object, and we
   ## 		specify directed as FALSE, and because we use the ignore.eval=FALSE
   ## 		and names.eval="value" arguments it will load our edge counts in as
   ## 		an edge attribute named "value" which we can then use as a weighting
   ## 		or plotting attribute:
   linkages_points_net <- network::network(as.matrix(linkages_points),
-                                          directed = FALSE,
-                                          loops = FALSE,
-                                          ignore.eval = FALSE,
-                                          names.eval = "value"
+    directed = FALSE,
+    loops = FALSE,
+    ignore.eval = FALSE,
+    names.eval = "value"
   )
-  
+
   #vertex_names <- (linkages_points_net %v% "vertex.names")
-  
+
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
-  
-  
-  coords_df <- test1
-  
+
   edgeMaker <- function(whichRow, len = 100, curved = TRUE) {
     adjacencyList$rowname <- as.character(adjacencyList$rowname)
     adjacencyList$rownamesA <- as.character(adjacencyList$rownamesA)
-    
-    fromC <- layoutCoordinates[layoutCoordinates$latlonalpha == 
-                                 adjacencyList[whichRow, 1], 2:3 ][1, ] # Origin
-    toC <- layoutCoordinates[layoutCoordinates$latlonalpha == 
-                               adjacencyList[whichRow, 2], 2:3 ][1, ] # Terminus
-    
+
+    fromC <- layoutCoordinates[layoutCoordinates$latlonalpha ==
+        adjacencyList[whichRow, 1], 2:3 ][1, ] # Origin
+    toC <- layoutCoordinates[layoutCoordinates$latlonalpha ==
+        adjacencyList[whichRow, 2], 2:3 ][1, ] # Terminus
+
     # Add curve:
-    graphCenter <- colMeans(layoutCoordinates[, 2:3]) #Center of overall graph
+    # graphCenter <- colMeans(layoutCoordinates[, 2:3]) #Center of overall graph
     bezierMid <- as.numeric(c(fromC[1], toC[2])) # A midpoint, for bended edges
     bezierMid <- (fromC + toC + bezierMid) / 3 # Moderate the Bezier midpoint
     if (curved == FALSE) {
@@ -118,32 +106,28 @@ plot_net_address <- function(data,
     edge$Group <- paste(adjacencyList[whichRow, 1:2], collapse = ">")
     return(edge)
   }
-  
+
   adjacencyMatrix <- as.matrix(linkages_points)
-  
+
   layoutCoordinates <- test
-  
-  adjacencydf <- data.frame(adjacencyMatrix) 
+
+  adjacencydf <- data.frame(adjacencyMatrix)
   adjacencydf <- tibble::rownames_to_column(adjacencydf)
-  adjacencydf <- tidyr::gather(data=adjacencydf, 
-                               key="rownamesA", 
-                               value="value", -"rowname")
-  
+  adjacencydf <- tidyr::gather(data = adjacencydf,
+    key = "rownamesA",
+    value = "value", -"rowname")
+
   adjacencyList <- adjacencydf[adjacencydf$value > 0, ]
-  
-  
+
   # Generate a (curved) edge path for each pair of connected nodes
   allEdges <- lapply(seq_len(nrow(adjacencyList)),
-                     edgeMaker,
-                     len = line_resolution,
-                     curved = TRUE
+    edgeMaker,
+    len = line_resolution,
+    curved = TRUE
   )
-  
-  
+
   allEdges <- do.call(rbind, allEdges) # a fine-grained path ^, with bend ^
-  
-  
-  
+
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
       #line = ggplot2::element_blank(),
@@ -158,30 +142,30 @@ plot_net_address <- function(data,
       #                         class = "unit"
       # )
     )
-  
+
   world_map_sub <- world_map
   #world_map_sub <- ggplot2::fortify(world_map)
   if (mapRegion != "world") {
-    world_map_sub <- world_map[which(world_map$continent == mapRegion & 
-                       world_map$TYPE != 'Dependency'), ]
+    world_map_sub <- world_map[which(world_map$continent == mapRegion &
+        world_map$TYPE != "Dependency"), ]
   }
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- ggplot2::fortify(world_map)
   world_map.df <- dplyr::full_join(world_map.points,
-                           world_map@data, by = "id")
-  
+    world_map@data, by = "id")
+
   ## calculate min and max for plot
-  latmin <- world_map_sub@bbox['y','min']
-  latmax <- world_map_sub@bbox['y','max']
-  longmin <- world_map_sub@bbox['x','min']
-  longmax <- world_map_sub@bbox['x','max']
-  
-  if (mapRegion == 'Australia'){
+  latmin <- world_map_sub@bbox["y", "min"]
+  latmax <- world_map_sub@bbox["y", "max"]
+  longmin <- world_map_sub@bbox["x", "min"]
+  longmax <- world_map_sub@bbox["x", "max"]
+
+  if (mapRegion == "Australia"){
     longmin <- 100
   }
   products <- list()
-  
+
   products[["plot"]] <- ggplot2::ggplot() +
     ggplot2::geom_polygon(
       data = world_map.df,
@@ -193,8 +177,8 @@ plot_net_address <- function(data,
       ggplot2::aes_string("long", "lat", group = "group"),
       color = grDevices::gray(6 / 10)
     ) +
-    ggplot2::coord_equal(ylim=c(latmin, latmax),
-      xlim=c(longmin, longmax)) +
+    ggplot2::coord_equal(ylim = c(latmin, latmax),
+      xlim = c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
       ggplot2::aes_string(
@@ -210,7 +194,7 @@ plot_net_address <- function(data,
       ggplot2::aes_string(x = "LON", y = "LAT"),
       size = 3 + 100 * sna::degree(linkages_points_net,
 
-                                   cmode = "outdegree", rescale = TRUE
+        cmode = "outdegree", rescale = TRUE
       ),
       pch = 21,
       colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
@@ -221,12 +205,12 @@ plot_net_address <- function(data,
       high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       guide = "none"
     ) +
-    ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") + 
+    ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") +
     empty_theme
-  
+
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
-  products$plot
+
   return(products)
 }

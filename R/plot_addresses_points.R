@@ -34,8 +34,8 @@ plot_addresses_points <- function(data,
   world <- world[which(world$region == mapCountry), ]
   }
   ## Remove any addresses that have NA values:
-  points <- data.frame(lat=as.numeric(as.character(data$lat)),
-                       lon=as.numeric(as.character(data$lon)))
+  points <- data.frame(lat = as.numeric(as.character(data$lat)),
+                       lon = as.numeric(as.character(data$lon)))
   points <- points[!is.na(points$lat), ]
   points <- points[!is.na(points$lon), ]
 
@@ -44,8 +44,8 @@ plot_addresses_points <- function(data,
   latmax <- max(world$lat) + 2
   longmin <- min(world$long) - 2
   longmax <- max(world$long) + 2
-  
-  if( !is.null(mapCountry) && mapCountry == 'USA') {
+
+  if (!is.null(mapCountry) && mapCountry == "USA") {
     longmax <- max(world$long[world$long < 0]) + 2
   }
   ## Plot
@@ -57,8 +57,8 @@ plot_addresses_points <- function(data,
     ) +
     ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
                                                            y = "lat")) +
-    ggplot2::coord_map(ylim=c(latmin, latmax),
-      xlim=c(longmin, longmax))+
+    ggplot2::coord_map(ylim = c(latmin, latmax),
+      xlim = c(longmin, longmax))+
     ggplot2::ylab("latitude") +
     ggplot2::xlab("longitude") +
     ggplot2::theme_bw() +

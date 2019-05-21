@@ -26,7 +26,7 @@ generated for countries of co-authorship.
 data(BITR_geocode)
 
 ## Plots the whole world
-plot_addresses_country(BITR_geocode)
+plot_net_country(BITR_geocode)
 
 ## Just select North America
 plot_net_country(BITR_geocode, mapRegion = 'North America')

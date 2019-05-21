@@ -7,17 +7,15 @@
 #' Records that are not matched this way have a jaro winkler similiarty analysis metric calculated
 #' for all possible matching author names.
 #' This calculates the amount of character similarities based on distance of similar character.
-#' You can set a similarity score cut off 0 to 1.0 (default is 0.88), higher numbers are more conservative. 
-#' Numbers below 0.75 are very unlikely to be similar, and we do not recommend using.
 #' 
 #' @param references output from \code{references_read}
-#' @param sim_score Jaro-winkler similarity cut off, default is 0.88.
 #' @importFrom RecordLinkage jarowinkler
+#' @importFrom dplyr filter select arrange
 #' @examples 
 #' 
 #' data(BITR)
 #'  
-#'  authors_clean(references = BITR)
+#'authors_clean(references = BITR)
 #' @export authors_clean
 #' 
 authors_clean <- function(references) {
@@ -29,35 +27,36 @@ authors_clean <- function(references) {
   ###############################
   # Split address information into relevant fields
 
-  address.df <- authors_address(final$address,final$authorID)
+  address_df <- authors_address(final$address, final$authorID)
 
-  final <- merge(final, address.df[, c("university", "country", "state",
-        "postal_code", "city", "department", "adID")],
-        by.x = "authorID", by.y = "adID", all.x = TRUE)
+  final <- merge(final, address_df[, c("university", "country", "state",
+    "postal_code", "city", "department", "adID")],
+    by.x = "authorID", by.y = "adID", all.x = TRUE)
 
   ##################################
   # Now start Author Matching
   ##################################
-  final_backup<-final
-  novel.names <- authors_match(final)
 
-  final <- merge(final, novel.names[, c("ID", "groupID", "match_name",
-                  "matchID","similarity","confidence","flagged")], 
-                 by.x = "authorID", by.y = "ID", all.x = TRUE)
+  novel_names <- authors_match(final)
 
-  final <- final[, c("authorID", "AU", "AF", "groupID", "match_name", "matchID",
-        "similarity","confidence","flagged" ,colnames(final)[!colnames(final) %in% c("authorID",
-                        "AU", "AF", "groupID", "match_name", "similarity","confidence")])]
+  cols <-  c("ID", "groupID", "match_name", "matchID",
+    "similarity", "confidence", "flagged")
 
-  sub.authors <- final[final$groupID %in% final$groupID[!is.na(final$similarity) | final$flagged==1],
-              c("authorID", "AU", "AF", "groupID", "match_name","matchID" ,"similarity","confidence",
-             "university", "department", "postal_code",
-            "country", "address", "RP_address", "RI", "OI", "EM", "UT",
-            "author_order","refID", "PT", "PY", "PU")]
+  final <- merge(final, novel_names[, cols],
+    by.x = "authorID", by.y = "ID", all.x = TRUE)
+  cols <-  c("authorID", "groupID", "match_name", "matchID",
+    "similarity", "confidence", "flagged")
+  final <- final[, c(cols,
+    colnames(final)[!colnames(final) %in% cols])]
 
-  sub.authors <- sub.authors[order(sub.authors$groupID, sub.authors$similarity,
-                                   sub.authors$authorID), ]
+  sub_authors <- final %>%
+    filter( groupID %in% final$groupID[!is.na(similarity) | flagged == 1]) %>%
+    select(authorID, AU, AF, groupID, match_name, matchID,
+      similarity, confidence, university, department,
+      postal_code, country, address, RP_address, RI,
+      OI, EM, UT, author_order, refID, PT, PY, PU) %>%
+    arrange(groupID, similarity, authorID)
 
-  return(list(prelim = final, review = sub.authors))
+  return(list(prelim = final, review = sub_authors))
 
 }

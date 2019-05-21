@@ -15,9 +15,9 @@ test_that("Split names correctly splits names", {
 
   x<-'Boone, Matthew, E, jr'
   actual<-split_names(x)
-  expect_equivalent(actual[2],'Ejr')  
+  expect_equivalent(actual[2],'E')  
 
   x<-'Boone, Matthew, Earl, Ramos, jr,'
   actual<-split_names(x)
-  expect_equivalent(actual[2],'EarlRamosjr')  
+  expect_equivalent(actual[2],'EarlRamos')  
 })  

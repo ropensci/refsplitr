@@ -15,7 +15,7 @@ refID=c(1,2,3) ,stringsAsFactors=F)
 
 df[]<-lapply(df, as.character)
 
-actual <- authors_clean(references=df,sim_score)
+actual <- authors_clean(references=df)
 expect_is(actual, 'list')
 expect_is(actual$prelim, 'data.frame')
 expect_is(actual$review, 'data.frame')
@@ -39,5 +39,6 @@ df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
 
 df[]<-lapply(df, as.character)
 
-actual <- authors_clean(references=df,sim_score)
+actual <- authors_clean(references=df)
 })
+

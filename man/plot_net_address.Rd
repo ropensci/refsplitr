@@ -23,7 +23,7 @@ This function takes an addresses data.frame,
 data(BITR_geocode)
 
 ## Plots the whole world
-plot_addresses_country(BITR_geocode)
+plot_net_address(BITR_geocode)
 
 ## Just select North America
 plot_net_address(BITR_geocode, mapRegion = 'North America')

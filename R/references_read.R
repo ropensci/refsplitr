@@ -18,72 +18,72 @@
 #' data_local <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
 #' references <- references_read(data_local)
 references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
- ## 	NOTE: The fields stored in our output table are a combination of the
- ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
- ## 		Format" both of which are version 1.0:
+  ## 	NOTE: The fields stored in our output table are a combination of the
+  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
+  ## 		Format" both of which are version 1.0:
   output <- data.frame(
-  "filename" = character(0),
-  "AB" = character(0),
-  "AF" = character(0),
-  "AU" = character(0),
-  "BP" = character(0),
-  "C1" = character(0),
-  "CC" = character(0),
-  "CH" = character(0),
-  "CL" = character(0),
-  "CR" = character(0),
-  "CT" = character(0),
-  "CY" = character(0),
-  "DE" = character(0),
-  "DI" = character(0),
-  "DT" = character(0),
-  # 	"EF" = character(0),	##	End file
-  "EM" = character(0),
-  "EP" = character(0),
-  # 	"ER" = character(0),	##	End record
-  "FN" = character(0),
-  "FU" = character(0),
-  "FX" = character(0),
-  "GA" = character(0),
-  "GE" = character(0),
-  "ID" = character(0),
-  "IS" = character(0),
-  "J9" = character(0),
-  "JI" = character(0),
-  "LA" = character(0),
-  "LT" = character(0),
-  "MC" = character(0),
-  "MI" = character(0),
-  "NR" = character(0),
-  "PA" = character(0),
-  "PD" = character(0),
-  "PG" = character(0),
-  "PI" = character(0),
-  "PN" = character(0),
-  "PS" = character(0),
-  "PT" = character(0),
-  "PU" = character(0),
-  "PY" = character(0),
-  "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
-  "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID
-  # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
-  "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
-  "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
-  "RP" = character(0),
-  "SC" = character(0),
-  "SI" = character(0),
-  "SN" = character(0),
-  "SO" = character(0),
-  "SU" = character(0),
-  "TA" = character(0),
-  "TC" = character(0),
-  "TI" = character(0),
-  "UT" = character(0),
-  "VR" = character(0),
-  "VL" = character(0),
-  "WC" = character(0),
-  "Z9" = character(0),
-  stringsAsFactors = FALSE
+    "filename" = character(0),
+    "AB" = character(0),
+    "AF" = character(0),
+    "AU" = character(0),
+    "BP" = character(0),
+    "C1" = character(0),
+    "CC" = character(0),
+    "CH" = character(0),
+    "CL" = character(0),
+    "CR" = character(0),
+    "CT" = character(0),
+    "CY" = character(0),
+    "DE" = character(0),
+    "DI" = character(0),
+    "DT" = character(0),
+    # 	"EF" = character(0),	##	End file
+    "EM" = character(0),
+    "EP" = character(0),
+    # 	"ER" = character(0),	##	End record
+    "FN" = character(0),
+    "FU" = character(0),
+    "FX" = character(0),
+    "GA" = character(0),
+    "GE" = character(0),
+    "ID" = character(0),
+    "IS" = character(0),
+    "J9" = character(0),
+    "JI" = character(0),
+    "LA" = character(0),
+    "LT" = character(0),
+    "MC" = character(0),
+    "MI" = character(0),
+    "NR" = character(0),
+    "PA" = character(0),
+    "PD" = character(0),
+    "PG" = character(0),
+    "PI" = character(0),
+    "PN" = character(0),
+    "PS" = character(0),
+    "PT" = character(0),
+    "PU" = character(0),
+    "PY" = character(0),
+    "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
+    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID
+    # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
+    "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
+    "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
+    "RP" = character(0),
+    "SC" = character(0),
+    "SI" = character(0),
+    "SN" = character(0),
+    "SO" = character(0),
+    "SU" = character(0),
+    "TA" = character(0),
+    "TC" = character(0),
+    "TI" = character(0),
+    "UT" = character(0),
+    "VR" = character(0),
+    "VL" = character(0),
+    "WC" = character(0),
+    "Z9" = character(0),
+    stringsAsFactors = FALSE
   )
 
   ## 	This is an index for the current record, it gets iterated for each
@@ -100,7 +100,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
   if (length(file_list) == 0) {
     stop("ERROR:  The specified file or directory does not contain any
-          Web of Knowledge or ISI Export Format records!")
+      Web of Knowledge or ISI Export Format records!")
   }
   message("Now processing all references files")
   filename <- file_list[1]
@@ -115,7 +115,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
     field <- ""
 
-    ## 	Process the first line to determine what file type it is:
+    ##    Process the first line to determine what file type it is:
     ## 		NOTE:  We could add the encoding="UTF-8" flag to the readLines in
     ## 		order to remove the byte-order mark (BOM) from some exported
     ## 		files coming out of ISI, but there seems to be a bug in the
@@ -129,16 +129,17 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
       read_line <- gsub("^[^A-Z]*([A-Z]+)(.*)$", "\\1\\2", read_line)
 
-
-      ## 	Strip the first two characters from the text line,
-      # skip the third (should be a space) and store the rest:
+      ##  Strip the first two characters from the text line,
+      #   skip the third (should be a space) and store the rest:
       pre_text <- substr(read_line, 1, 2)
       line_text <- substr(read_line, 4, nchar(read_line))
 
       if (pre_text != "FN") {
         close(in_file)
-        error<-paste0("ERROR:  The file ", filename, " doesn't appear to be a valid
-      ISI or Thomson Reuters reference library file!")
+        error <- paste0("ERROR:  The file ",
+          filename,
+          " doesn't appear to be a valid ISI or
+          Thomson Reuters reference library file!")
         stop(error)
       }
 
@@ -166,22 +167,22 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
         output[i, "PT"] <- paste(match_strings[[1]][4], "\n", sep = "")
       } else {
-
         ## 	If this is not an ISI export format then just parse the first
         ## 		line normally into the FN field:
         field <- pre_text
         if (field %in% names(output)) {
           output[i, field] <- ""
-          output[i, field] <- trimws(ifelse(length(line_text) == 1,
-                                    paste(output[i, field], line_text,
-                                    sep = "\n")), "both")
+          output[i, field] <- trimws(
+            ifelse(length(line_text) == 1,
+              paste(output[i, field], line_text,
+                sep = "\n")),
+            "both")
         }
       }
     } else {
       utils::flush.console()
       stop("WARNING:  Nothing contained in the specified file!")
     }
-
 
     ## 	Process the remaining lines in the file (see the note above about
     ## 		the encoding= flag and necessity for it, but why we didn't use it):
@@ -190,7 +191,6 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
       pre_text <- substr(read_line, 1, 2)
 
       line_text <- substr(read_line, 4, nchar(read_line))
-
 
       ## 	Check to see if this is a new field:
       if (pre_text != "  ") {
@@ -204,11 +204,12 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
       ## 	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
-  ## 	... if it is then append this line's data to the field in our output:
+      ##... if it is then append this line's data to the field in our output:
 
-        output[i, field] <- trimws(ifelse(length(line_text) == 1,
-                              paste(output[i, field], line_text, sep = "\n"
-        )), "both")
+        output[i, field] <- trimws(
+          ifelse(length(line_text) == 1,
+            paste(output[i, field], line_text, sep = "\n")),
+          "both")
       }
 
       # 	If this is the end of a record then add any per-record items and
@@ -234,7 +235,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     counter <- counter + 1
     utils::flush.console()
     ############################################################################
-  }
+    }
   ############################################## 3
   # Post Processing
   # We need to clean this file, page breaks are inserted in the raw file
@@ -255,25 +256,25 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
   # now done in base R, runs slower
   dupe_output <- do.call(rbind, lapply(unique(output$UT),
-                                  function(x) output[output$UT == x, ][1, ]))
+    function(x) output[output$UT == x, ][1, ]))
   ############################################
   # Prepare for printing
 
-  if ( include_all == TRUE ){
+  if (include_all == TRUE){
     return(dupe_output)
   }
 
-  if ( include_all != TRUE ){
+  if (include_all != TRUE){
 
-  dropnames <- c("CC", "CH", "CL", "CT", "CY",
-                 "DT", "FX", "GA", "GE", "ID",
-                 "IS", "J9", "JI", "LA", "LT",
-                 "MC", "MI", "NR", "PA", "PI",
-                 "PN", "PS", "RID", "SI", "SU",
-                 "TA", "VR")
+    dropnames <- c("CC", "CH", "CL", "CT", "CY",
+      "DT", "FX", "GA", "GE", "ID",
+      "IS", "J9", "JI", "LA", "LT",
+      "MC", "MI", "NR", "PA", "PI",
+      "PN", "PS", "RID", "SI", "SU",
+      "TA", "VR")
 
-  rdo <- dupe_output[, !(names(dupe_output) %in% dropnames) ]
+    rdo <- dupe_output[, !(names(dupe_output) %in% dropnames)]
 
-  return(rdo)
+    return(rdo)
   }
-}
+  }

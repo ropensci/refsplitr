@@ -8,8 +8,6 @@ authors_clean(references)
 }
 \arguments{
 \item{references}{output from \code{references_read}}
-
-\item{sim_score}{Jaro-winkler similarity cut off, default is 0.88.}
 }
 \description{
 \code{authors_clean} This function takes the output from \code{references_read} and cleans the author information.
@@ -20,12 +18,10 @@ It then attempts to match same author entries together into likely author groups
 Records that are not matched this way have a jaro winkler similiarty analysis metric calculated
 for all possible matching author names.
 This calculates the amount of character similarities based on distance of similar character.
-You can set a similarity score cut off 0 to 1.0 (default is 0.88), higher numbers are more conservative. 
-Numbers below 0.75 are very unlikely to be similar, and we do not recommend using.
 }
 \examples{
 
 data(BITR)
  
- authors_clean(references = BITR)
+authors_clean(references = BITR)
 }

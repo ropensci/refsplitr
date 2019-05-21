@@ -14,7 +14,7 @@ function, containing geocoded address latitude and longitude locations.}
 include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 }
 \description{
-\code{plot_addresses_country} This function plots an addresses data.frame 
+This function plots an addresses data.frame 
 object by country name.
 }
 \examples{

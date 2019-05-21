@@ -15,7 +15,7 @@
 #' data(BITR_geocode)
 #' 
 #' ## Plots the whole world
-#' plot_addresses_country(BITR_geocode)
+#' plot_net_country(BITR_geocode)
 #' 
 #' ## Just select North America
 #' plot_net_country(BITR_geocode, mapRegion = 'North America')
@@ -23,8 +23,8 @@
 #' @importFrom network %v%
 
 plot_net_country <- function(data,
-                             line_resolution = 10,
-                             mapRegion = "world") {
+  line_resolution = 10,
+  mapRegion = "world") {
 
   data <- data[!is.na(data$country), ]
 
@@ -38,9 +38,9 @@ plot_net_country <- function(data,
     x = rep(1, length(data$country))
   )
 
-  links <- matrix(data = linkages, 
-                  nrow = length(unique(data$country)),
-                  ncol = length(unique(data$UT)))
+  links <- matrix(data = linkages,
+    nrow = length(unique(data$country)),
+    ncol = length(unique(data$UT)))
 
   rownames(links) <- levels(factor(data$country))
 
@@ -50,15 +50,13 @@ plot_net_country <- function(data,
   linkages_countries <- links %*% t(links)
 
   ## 	Convert to a one-mode representation of references:
-  linkages_references <- t(links) %*% links
-
-
+  ## linkages_references <- t(links) %*% links
 
   ## 	This loads our adjacency matrix into a network object, and we
-  ## 		specify directed as FALSE, and because we use the ignore.eval=FALSE
-  ## 		and names.eval="value" arguments it will load our edge counts in as
-  ## 		an edge attribute named "value" which we can then use as a weighting
-  ## 		or plotting attribute:
+  ## 	specify directed as FALSE, and because we use the ignore.eval=FALSE
+  ## 	and names.eval="value" arguments it will load our edge counts in as
+  ##  an edge attribute named "value" which we can then use as a weighting
+  ## 	or plotting attribute:
   linkages_countries_net <- network::network(as.matrix(linkages_countries),
     directed = FALSE,
     loops = FALSE,
@@ -66,12 +64,12 @@ plot_net_country <- function(data,
     names.eval = "value"
   )
 
-  requireNamespace(package="network", quietly=TRUE)
+  requireNamespace(package = "network", quietly = TRUE)
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
 
-  vertex_names <- ifelse(vertex_names == "usa", "united states of america", 
-                         vertex_names)
+  vertex_names <- ifelse(vertex_names == "usa", "united states of america",
+    vertex_names)
 
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
@@ -94,35 +92,32 @@ plot_net_country <- function(data,
   ## 	One could also use ggplot to plot out the network geographically:
 
   maptools::gpclibPermit()
-  
-  
-  layoutCoordinates <- coords_df
 
+  layoutCoordinates <- coords_df
 
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE) {
     adjacencyList$country <- as.character(adjacencyList$country)
     adjacencyList$countryA <- as.character(adjacencyList$countryA)
-    
-    
+
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
-    
+
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
 
-    adjacencyList$country <- ifelse(adjacencyList$country == "usa", 
-                            "united states of america", adjacencyList$country)
+    adjacencyList$country <- ifelse(adjacencyList$country == "usa",
+      "united states of america", adjacencyList$country)
 
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa", 
-                          "united states of america", adjacencyList$countryA)
-    
-    adjacencyList$country <- ifelse(adjacencyList$country == "V1", 
-                                    NA, adjacencyList$country)
-    
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1", 
-                                     NA, adjacencyList$countryA)
-    
+    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa",
+      "united states of america", adjacencyList$countryA)
+
+    adjacencyList$country <- ifelse(adjacencyList$country == "V1",
+      NA, adjacencyList$country)
+
+    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1",
+      NA, adjacencyList$countryA)
+
     adjacencyList <- stats::na.omit(adjacencyList)
-    
+
 
     adjacencyList$country <- gsub(
       pattern = "\\.", replacement = " ",
@@ -134,13 +129,13 @@ plot_net_country <- function(data,
       x = adjacencyList$countryA
     )
 
-    fromC <- layoutCoordinates[layoutCoordinates$ISO_A2 == 
-                                 adjacencyList[whichRow, 1], 2:3 ] # Origin
-    toC <- layoutCoordinates[layoutCoordinates$ISO_A2 == 
-                               adjacencyList[whichRow, 2], 2:3 ] # Terminus
+    fromC <- layoutCoordinates[layoutCoordinates$ISO_A2 ==
+        adjacencyList[whichRow, 1], 2:3 ] # Origin
+    toC <- layoutCoordinates[layoutCoordinates$ISO_A2 ==
+        adjacencyList[whichRow, 2], 2:3 ] # Terminus
 
-    # Add curve:
-    graphCenter <- colMeans(layoutCoordinates[, 2:3]) # Center of  overall graph
+    ## Add curve:
+    # graphCenter <- colMeans(layoutCoordinates[, 2:3]) # Center of graph
     bezierMid <- as.numeric(c(fromC[1], toC[2])) # A midpoint, for bended edges
     bezierMid <- (fromC + toC + bezierMid) / 3 # Moderate the Bezier midpoint
     if (curved == FALSE) {
@@ -158,8 +153,6 @@ plot_net_country <- function(data,
 
   adjacencyMatrix <- as.matrix(linkages_countries)
 
-
-
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NA"] <- "NAstr"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NA"] <- "NAstr"
 
@@ -167,8 +160,8 @@ plot_net_country <- function(data,
 
   adjacencydf$country <- row.names(adjacencydf)
 
-  adjacencyList <- tidyr::gather(data = adjacencydf, key="countryA", 
-                                 value="value", -"country") 
+  adjacencyList <- tidyr::gather(data = adjacencydf, key = "countryA",
+    value = "value", -"country")
 
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
 
@@ -183,8 +176,8 @@ plot_net_country <- function(data,
 
   allEdges <- do.call(rbind, allEdges)
 
-  requireNamespace(package="ggplot2", quietly=TRUE)
-  
+  requireNamespace(package = "ggplot2", quietly = TRUE)
+
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
       #line = ggplot2::element_blank(),
@@ -199,63 +192,62 @@ plot_net_country <- function(data,
       #                         class = "unit"
       # )
     )
-  
+
   world_map_sub <- world_map
-  #world_map_sub <- ggplot2::fortify(world_map)
   if (mapRegion != "world") {
-    world_map_sub <- world_map[which(world_map$continent == mapRegion & 
-        world_map$TYPE != 'Dependency'), ]
+    world_map_sub <- world_map[which(world_map$continent == mapRegion &
+        world_map$TYPE != "Dependency"), ]
   }
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- ggplot2::fortify(world_map)
   world_map.df <- dplyr::full_join(world_map.points,
     world_map@data, by = "id")
-  
+
   ## calculate min and max for plot
-  latmin <- world_map_sub@bbox['y','min']
-  latmax <- world_map_sub@bbox['y','max']
-  longmin <- world_map_sub@bbox['x','min']
-  longmax <- world_map_sub@bbox['x','max']
-  
-  if (mapRegion == 'Australia'){
+  latmin <- world_map_sub@bbox["y", "min"]
+  latmax <- world_map_sub@bbox["y", "max"]
+  longmin <- world_map_sub@bbox["x", "min"]
+  longmax <- world_map_sub@bbox["x", "max"]
+
+  if (mapRegion == "Australia"){
     longmin <- 100
   }
   products <- list()
 
   products[["plot"]] <- ggplot2::ggplot() +
-    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long", 
-                "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
-    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long", 
-              "lat", group = "group"), color = grDevices::gray(6 / 10)) +
-    ggplot2::coord_equal(ylim=c(latmin, latmax),
-      xlim=c(longmin, longmax)) +
+    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long",
+      "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
+    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long",
+      "lat", group = "group"), color = grDevices::gray(6 / 10)) +
+    ggplot2::coord_equal(ylim = c(latmin, latmax),
+      xlim = c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
-      ggplot2::aes_string(x = "x", y = "y", group = "Group", 
-                    colour = "Sequence", size = "Sequence"), alpha = 1
+      ggplot2::aes_string(x = "x", y = "y", group = "Group",
+        colour = "Sequence", size = "Sequence"), alpha = 1
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes
       ggplot2::aes_string(x = "LON", y = "LAT"),
-      size = 5 + 100 * sna::degree(linkages_countries_net, 
-                            cmode = "outdegree", rescale = TRUE), pch = 21,
+      size = 5 + 100 * sna::degree(linkages_countries_net,
+        cmode = "outdegree", rescale = TRUE), pch = 21,
       colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
       fill = grDevices::rgb(9 / 10, 6 / 10, 6 / 10, alpha = 5 / 10)
     ) +
-    ggplot2::scale_colour_gradient(low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, 
-                  alpha = 5 / 10), high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10,
-                    alpha = 5 / 10), guide = "none") +
+    ggplot2::scale_colour_gradient(low = grDevices::rgb(8 / 10, 2 / 10, 2 / 10,
+      alpha = 5 / 10), high = grDevices::rgb(8 / 10, 2 / 10, 2 / 10,
+        alpha = 5 / 10), guide = "none") +
     ggplot2::scale_size(range = c(1, 1), guide = "none") +
     ggplot2::geom_text(
       data = coords_df,
-      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2, 
-    color = grDevices::gray(2 / 10)
+      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2,
+      color = grDevices::gray(2 / 10)
     ) + empty_theme # Clean up plot
-
 
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
+
   return(products)
 }

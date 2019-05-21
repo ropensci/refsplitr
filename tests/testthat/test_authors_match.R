@@ -27,7 +27,7 @@ test_that("Authors match correctly", {
   )
   df[] <- lapply(df, as.character)
   df$authorID <- as.numeric(df$authorID)
-  actual <- authors_match(df, sim_score = 0.88)
+  actual <- authors_match(df)
 
 
   expect_equal(actual$groupID, c(4, 2, 4, 4,6,6))
@@ -59,7 +59,7 @@ test_that("Authors match correctly", {
   )
   df[] <- lapply(df, as.character)
   df$authorID <- as.numeric(df$authorID)
-  actual <- authors_match(df, sim_score = 0.88)
+  actual <- authors_match(df)
   
   
   expect_equal(actual$groupID, c(1, 2, 1, 1))
@@ -91,7 +91,7 @@ test_that("Authors match correctly", {
   )
   df[] <- lapply(df, as.character)
   df$authorID <- as.numeric(df$authorID)
-  actual <- authors_match(df, sim_score = 0.88)
+  actual <- authors_match(df)
   
   
   expect_equal(actual$groupID, c(1,2,2,1))
@@ -122,7 +122,7 @@ test_that("Authors match correctly", {
   )
   df[] <- lapply(df, as.character)
   df$authorID <- as.numeric(df$authorID)
-  actual <- authors_match(df, sim_score = 0.88)
+  actual <- authors_match(df)
   
   
   expect_equal(actual$groupID, c(1,2,2,1))
@@ -162,7 +162,7 @@ test_that("Authors match correctly", {
   )
   df[] <- lapply(df, as.character)
   df$authorID <- as.numeric(df$authorID)
-  actual <- authors_match(df, sim_score = 0.88)
+  actual <- authors_match(df)
   
   
   expect_equal(actual$groupID, c(1,2,2,1,2,2,1))

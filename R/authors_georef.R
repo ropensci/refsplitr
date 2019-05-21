@@ -35,12 +35,12 @@
 #' @export authors_georef 
 #' 
 authors_georef <- function(data,
-                           address_column = "address") {
+  address_column = "address") {
 
- options(ggmap = list(display_api_key = FALSE))
+  options(ggmap = list(display_api_key = FALSE))
 
   addresses <- data[, c("university", "city", "state", "country",
-                  "postal_code", "authorID", "address")]
+    "postal_code", "authorID", "address")]
   #Change some formatting to help data science toolkit
   addresses$university[is.na(addresses$university)] <- ""
   addresses$country[is.na(addresses$country)] <- ""
@@ -57,13 +57,13 @@ authors_georef <- function(data,
   addresses$base <- addresses$country
   addresses$base[addresses$postal_code != ""] <-
     paste0(addresses$base[addresses$postal_code != ""],
-           ", ",
-          addresses$postal_code[addresses$postal_code != ""])
+      ", ",
+      addresses$postal_code[addresses$postal_code != ""])
 
   addresses$base[addresses$state != ""] <-
     paste0(addresses$state[addresses$state != ""],
-           ", ",
-           addresses$country[addresses$state != ""])
+      ", ",
+      addresses$country[addresses$state != ""])
 
   # second tier, city > zip > university
   addresses$second <- NA
@@ -74,8 +74,8 @@ authors_georef <- function(data,
   addresses$short_address <- addresses$base
   addresses$short_address[!is.na(addresses$second)] <-
     paste0(addresses$second[!is.na(addresses$second)],
-            ", ",
-            addresses$short_address[!is.na(addresses$second)])
+      ", ",
+      addresses$short_address[!is.na(addresses$second)])
   addresses$lat <- NA
   addresses$lon <- NA
   addresses$adID <- seq_len(nrow(addresses))
@@ -92,9 +92,9 @@ authors_georef <- function(data,
     address <- as.character(addresses$short_address[i])
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
-                                              output = "latlona",
-                                              source = "dsk",
-                                              messaging = TRUE
+      output = "latlona",
+      source = "dsk",
+      messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
@@ -104,17 +104,17 @@ authors_georef <- function(data,
   remain <- addresses[is.na(addresses$lat), ]
   remain$short_address <-
     ifelse(!(is.na(remain$state) | is.na(remain$country)),
-           paste0(remain$city, ", ", remain$state, ", ", remain$country),
-           NA)
+      paste0(remain$city, ", ", remain$state, ", ", remain$country),
+      NA)
   remain <- remain[!is.na(remain$short_address), ]
 
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
-                                              output = "latlona",
-                                              source = "dsk",
-                                              messaging = TRUE
+      output = "latlona",
+      source = "dsk",
+      messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
@@ -124,17 +124,17 @@ authors_georef <- function(data,
   remain <- addresses[is.na(addresses$lat), ]
   remain$short_address <-
     ifelse(!(is.na(remain$city) | is.na(remain$country)),
-           paste0(remain$city, ", ", remain$country),
-           NA)
+      paste0(remain$city, ", ", remain$country),
+      NA)
 
   remain <- remain[!is.na(remain$short_address), ]
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
-                                              output = "latlona",
-                                              source = "dsk",
-                                              messaging = TRUE
+      output = "latlona",
+      source = "dsk",
+      messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
@@ -144,17 +144,17 @@ authors_georef <- function(data,
   remain <- addresses[is.na(addresses$lat), ]
   remain$short_address <-
     ifelse(!(is.na(remain$university) | is.na(remain$country)),
-           paste0(remain$university, ", ", remain$country),
-           NA)
+      paste0(remain$university, ", ", remain$country),
+      NA)
 
   remain <- remain[!is.na(remain$short_address), ]
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
-                                              output = "latlona",
-                                              source = "dsk",
-                                              messaging = TRUE
+      output = "latlona",
+      source = "dsk",
+      messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
@@ -163,10 +163,10 @@ authors_georef <- function(data,
   addresses <-
     merge(
       addresses[, c("authorID", "university", "postal_code",
-                   "country", "lat", "lon")],
+        "country", "lat", "lon")],
       data[, c("authorID", "groupID", "author_order", "address",
-              "department", "RP_address", "RI", "OI", "UT", "refID")],
-          by = "authorID", all.y = TRUE)
+        "department", "RP_address", "RI", "OI", "UT", "refID")],
+      by = "authorID", all.y = TRUE)
 
   missingaddresses <- addresses[is.na(addresses$lat), ]
   addresses$lat <- unlist(addresses$lat)
