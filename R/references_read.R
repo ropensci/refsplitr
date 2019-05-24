@@ -19,8 +19,8 @@
 #' references <- references_read(data_local)
 references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   ## 	NOTE: The fields stored in our output table are a combination of the
-  ## 		"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
-  ## 		Format" both of which are version 1.0:
+  ## 	"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
+  ## 	Format" both of which are version 1.0:
   output <- data.frame(
     "filename" = character(0),
     "AB" = character(0),

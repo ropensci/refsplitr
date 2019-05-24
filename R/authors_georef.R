@@ -38,7 +38,10 @@ authors_georef <- function(data,
   address_column = "address") {
 
   options(ggmap = list(display_api_key = FALSE))
-
+  if (!is.character(data$address)) {
+    stop("Address columns are not characters,
+    please change to characters and try again")
+  }
   addresses <- data[, c("university", "city", "state", "country",
     "postal_code", "authorID", "address")]
   #Change some formatting to help data science toolkit
@@ -88,8 +91,9 @@ authors_georef <- function(data,
   }
 
   #Lets try broad strokes first. Our 4 layered address
-  for (i in addresses$adID) {
+  for (i in addresses$adID[addresses$short_address != ""]) {
     address <- as.character(addresses$short_address[i])
+    #if (address == '') next
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
@@ -106,7 +110,8 @@ authors_georef <- function(data,
     ifelse(!(is.na(remain$state) | is.na(remain$country)),
       paste0(remain$city, ", ", remain$state, ", ", remain$country),
       NA)
-  remain <- remain[!is.na(remain$short_address), ]
+  remain <- remain[!is.na(remain$short_address) &
+      remain$short_address != ", , ", ]
 
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
@@ -127,7 +132,8 @@ authors_georef <- function(data,
       paste0(remain$city, ", ", remain$country),
       NA)
 
-  remain <- remain[!is.na(remain$short_address), ]
+  remain <- remain[!is.na(remain$short_address) &
+      remain$short_address != ", ", ]
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))
@@ -147,7 +153,8 @@ authors_georef <- function(data,
       paste0(remain$university, ", ", remain$country),
       NA)
 
-  remain <- remain[!is.na(remain$short_address), ]
+  remain <- remain[!is.na(remain$short_address) &
+      remain$short_address != ", ", ]
   for (i in remain$adID) {
     address <- as.character(remain$short_address[remain$adID == i])
     message(paste("Working... ", address))

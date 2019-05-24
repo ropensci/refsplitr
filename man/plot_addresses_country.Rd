@@ -24,9 +24,6 @@ data(BITR_geocode)
 ## Plots the whole world
 plot_addresses_country(BITR_geocode)
 
-## Additioinal mapRegion names can be querried using:
-rworldmap::getMap()$NAME
-
 ## Just select North America
 plot_addresses_country(BITR_geocode, mapRegion = 'North America')
 

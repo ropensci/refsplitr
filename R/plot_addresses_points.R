@@ -30,8 +30,9 @@ plot_addresses_points <- function(data,
 
   ## Filter by country
   if (!is.null(mapCountry)){
-  data <- data[data$country == tolower(mapCountry), ]
   world <- world[which(world$region == mapCountry), ]
+  if (mapCountry %in% c("UK")) mapCountry <- c("england", "wales")
+  data <- data[data$country %in% tolower(mapCountry), ]
   }
   ## Remove any addresses that have NA values:
   points <- data.frame(lat = as.numeric(as.character(data$lat)),
@@ -58,7 +59,7 @@ plot_addresses_points <- function(data,
     ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
                                                            y = "lat")) +
     ggplot2::coord_map(ylim = c(latmin, latmax),
-      xlim = c(longmin, longmax))+
+      xlim = c(longmin, longmax)) +
     ggplot2::ylab("latitude") +
     ggplot2::xlab("longitude") +
     ggplot2::theme_bw() +

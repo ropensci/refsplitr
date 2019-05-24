@@ -180,7 +180,7 @@ plot_net_country <- function(data,
 
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
-      #line = ggplot2::element_blank(),
+      line = ggplot2::element_blank(),
       #rect = ggplot2::element_blank(),
       #axis.text = ggplot2::element_blank(),
       #strip.text = ggplot2::element_blank(),
@@ -201,8 +201,10 @@ plot_net_country <- function(data,
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- ggplot2::fortify(world_map)
-  world_map.df <- dplyr::full_join(world_map.points,
-    world_map@data, by = "id")
+  world_map.df <- merge(world_map.points,
+    world_map@data, by = "id", all = TRUE)
+  # world_map.df <- dplyr::full_join(world_map.points,
+  #   world_map@data, by = "id")
 
   ## calculate min and max for plot
   latmin <- world_map_sub@bbox["y", "min"]
@@ -216,20 +218,20 @@ plot_net_country <- function(data,
   products <- list()
 
   products[["plot"]] <- ggplot2::ggplot() +
-    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_string("long",
-      "lat", group = "group"), fill = grDevices::gray(8 / 10)) +
-    ggplot2::geom_path(data = world_map.df, ggplot2::aes_string("long",
-      "lat", group = "group"), color = grDevices::gray(6 / 10)) +
+    ggplot2::geom_polygon(data = world_map.df, ggplot2::aes_(~long,
+      ~lat, group = ~group), fill = grDevices::gray(8 / 10)) +
+    ggplot2::geom_path(data = world_map.df, ggplot2::aes_(~long,
+      ~lat, group = ~group), color = grDevices::gray(6 / 10)) +
     ggplot2::coord_equal(ylim = c(latmin, latmax),
       xlim = c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
-      ggplot2::aes_string(x = "x", y = "y", group = "Group",
-        colour = "Sequence", size = "Sequence"), alpha = 1
+      ggplot2::aes_(x = ~x, y = ~y, group = ~Group,
+        colour = ~Sequence, size = ~Sequence), alpha = 1
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes
-      ggplot2::aes_string(x = "LON", y = "LAT"),
+      ggplot2::aes_(x = ~LON, y = ~LAT),
       size = 5 + 100 * sna::degree(linkages_countries_net,
         cmode = "outdegree", rescale = TRUE), pch = 21,
       colour = grDevices::rgb(8 / 10, 2 / 10, 2 / 10, alpha = 5 / 10),
@@ -241,7 +243,7 @@ plot_net_country <- function(data,
     ggplot2::scale_size(range = c(1, 1), guide = "none") +
     ggplot2::geom_text(
       data = coords_df,
-      ggplot2::aes_string(x = "LON", y = "LAT", label = "ISO_A2"), size = 2,
+      ggplot2::aes_(x = ~LON, y = ~LAT, label = ~ISO_A2), size = 2,
       color = grDevices::gray(2 / 10)
     ) + empty_theme # Clean up plot
 

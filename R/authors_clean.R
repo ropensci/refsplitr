@@ -14,13 +14,13 @@
 #' 
 #' data(BITR)
 #'  
-#'authors_clean(references = BITR)
+#' authors_clean(references = BITR)
 #' @export authors_clean
 #' 
 authors_clean <- function(references) {
   ###############################
   # Seperate authors and attempt to match author info
-
+  #requireNamespace(dplyr, quietly = TRUE)
   final <- authors_parse(references)
 
   ###############################
@@ -48,15 +48,31 @@ authors_clean <- function(references) {
   final <- final[, c(cols,
     colnames(final)[!colnames(final) %in% cols])]
 
-  sub_authors <- final %>%
-    dplyr::filter( 
-      groupID %in% final$groupID[!is.na(similarity) | flagged == 1]
-      ) %>%
-    dplyr::select(authorID, AU, AF, groupID, match_name, matchID,
+  # sub_authors <- final %>%
+  #   filter(
+  #     groupID %in% final$groupID[!is.na(similarity) | flagged == 1]
+  #   ) %>%
+  #   select(authorID, AU, AF, groupID, match_name, matchID,
+  #     similarity, confidence, university, department,
+  #     postal_code, country, address, RP_address, RI,
+  #     OI, EM, UT, author_order, refID, PT, PY, PU) %>%
+  #   arrange(groupID, similarity, authorID)
+  #
+  sub_authors <- subset(final,
+    groupID %in% groupID[!is.na(similarity) | flagged == 1],
+    select = c(
+      authorID, AU, AF, groupID, match_name, matchID,
       similarity, confidence, university, department,
       postal_code, country, address, RP_address, RI,
-      OI, EM, UT, author_order, refID, PT, PY, PU) %>%
-    dplyr::arrange(groupID, similarity, authorID)
+      OI, EM, UT, author_order, refID, PT, PY, PU
+    )
+  )
+
+  sub_authors <- sub_authors[
+    order(sub_authors$groupID,
+      sub_authors$similarity,
+      sub_authors$authorID),
+    ]
 
   return(list(prelim = final, review = sub_authors))
 

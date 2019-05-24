@@ -15,7 +15,7 @@ authors_parse <- function(references){
   message("\nSplitting author records\n")
   list1 <- list()
   for (ref in seq_along(references$refID)) {
-    if (all(is.na(references[ref, c("AU", "AF", "C1")]))) { next }
+    if (all(is.na(references[ref, c("AU", "AF", "C1")]))) next
     # Split out authors and author emails
     authors_AU <- as.character(unlist(strsplit(references[ref, ]$AU, "\n")))
     authors_AF <- as.character(unlist(strsplit(references[ref, ]$AF, "\n")))

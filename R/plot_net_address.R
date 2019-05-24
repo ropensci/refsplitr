@@ -130,7 +130,7 @@ plot_net_address <- function(data,
 
   empty_theme <- ggplot2::theme_bw() +
     ggplot2::theme(
-      #line = ggplot2::element_blank(),
+      line = ggplot2::element_blank(),
       #rect = ggplot2::element_blank(),
       #axis.text = ggplot2::element_blank(),
       #strip.text = ggplot2::element_blank(),
@@ -152,8 +152,10 @@ plot_net_address <- function(data,
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
   world_map.points <- ggplot2::fortify(world_map)
-  world_map.df <- dplyr::full_join(world_map.points,
-    world_map@data, by = "id")
+  world_map.df <- merge(world_map.points,
+    world_map@data, by = "id", all = TRUE)
+  # world_map.df <- dplyr::full_join(world_map.points,
+  #   world_map@data, by = "id")
 
   ## calculate min and max for plot
   latmin <- world_map_sub@bbox["y", "min"]

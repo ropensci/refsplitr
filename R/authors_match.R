@@ -2,12 +2,10 @@
 #' This is an internal function used by \code{authors_clean}
 #' 
 #' \code{authors_match} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people. Jaro-winkler scores are calcualted for non-easily matched names
-#' @importFrom dplyr filter select arrange
 #' @param data data input
 #' @noRd
  
 authors_match <- function(data){
-  require(dplyr)
   message("\nMatching authors\n")
   # Get the data.frame ready to be analyzed. Convert, change to NAs, etc
   n_n <- data.frame(ID = data$authorID,
@@ -134,12 +132,18 @@ authors_match <- function(data){
     for (q in na.omit(unique(n_n$groupID))){
 
       if (any(matched_df$merged[matched_df$groupID == q])) next
-      sub <- matched_df %>% filter(groupID == q)
-      common_df <- matched_df %>%
-        filter(
-          squash %in% sub$squash &
-            ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
-            groupID != q
+
+      sub <- matched_df[matched_df$groupID == q, ]
+      # common_df <- matched_df %>%
+      #   dplyr::filter(
+      #     squash %in% sub$squash &
+      #       ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
+      #       groupID != q
+      #   )
+      common_df <- subset(matched_df,
+        squash %in% sub$squash &
+          ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
+          groupID != q
         )
 
       change <- unique(common_df$groupID)
