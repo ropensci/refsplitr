@@ -15,16 +15,17 @@
 #' data(BITR_geocode)
 #' 
 #' ## Plots the whole world
-#' plot_net_country(BITR_geocode)
+#' output <- plot_net_country(BITR_geocode)
 #' 
 #' ## Just select North America
-#' plot_net_country(BITR_geocode, mapRegion = 'North America')
+#' output <- plot_net_country(BITR_geocode, mapRegion = 'North America')
 #' @export plot_net_country
 #' @importFrom network %v%
 
 plot_net_country <- function(data,
   line_resolution = 10,
-  mapRegion = "world") {
+  mapRegion = "world",
+  lineAlpha = 0.5) {
 
   data <- data[!is.na(data$country), ]
 
@@ -231,7 +232,7 @@ plot_net_country <- function(data,
     ggplot2::geom_path(
       data = allEdges,
       ggplot2::aes_(x = ~x, y = ~y, group = ~Group,
-        colour = ~Sequence, size = ~Sequence), alpha = 1
+        colour = ~Sequence, size = ~Sequence), alpha = lineAlpha
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes

@@ -14,7 +14,7 @@
 #' 
 #' data(BITR)
 #'  
-#' authors_clean(references = BITR)
+#' results <- authors_clean(references = BITR)
 #' @export authors_clean
 #' 
 authors_clean <- function(references) {

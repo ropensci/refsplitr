@@ -49,6 +49,8 @@ plot_addresses_points <- function(data,
   if (!is.null(mapCountry) && mapCountry == "USA") {
     longmax <- max(world$long[world$long < 0]) + 2
   }
+  longmin <- if (longmin < -180) longmin <- -180
+  longmax <- if (longmax > 180) longmax <- 180
   ## Plot
   ggplot2::ggplot() +
     ggplot2::geom_map(
