@@ -112,10 +112,11 @@ plot_net_address <- function(data,
   layoutCoordinates <- test
 
   adjacencydf <- data.frame(adjacencyMatrix)
-  adjacencydf <- tibble::rownames_to_column(adjacencydf)
-  adjacencydf <- tidyr::gather(data = adjacencydf,
-    key = "rownamesA",
-    value = "value", -"rowname")
+  adjacencydf <- data.frame(
+    rowname = rep(row.names(adjacencydf), times = nrow(adjacencydf)),
+    rownamesA = rep(row.names(adjacencydf), each = nrow(adjacencydf)),
+    value = c(as.matrix(adjacencydf)),
+    stringsAsFactors = FALSE)
 
   adjacencyList <- adjacencydf[adjacencydf$value > 0, ]
 

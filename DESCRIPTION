@@ -12,7 +12,7 @@ URL: https://github.com/embruna/refsplitr
 Maintainer: Emilio Bruna <embruna@ufl.edu>
 Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
 License: GPL-3
-Imports: maptools,  rworldmap, vdiffr, RecordLinkage, Matrix, igraph, network, sna, Hmisc, ggplot2, Rdpack, ggmap
+Imports: maptools,  rworldmap, RecordLinkage, Matrix, igraph, network, sna, Hmisc, ggplot2, Rdpack, ggmap
 RoxygenNote: 6.1.1
 RdMacros: Rdpack
 Remotes: lionel-/vdiffr, dkahle/ggmap
