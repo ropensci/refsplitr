@@ -59,7 +59,7 @@ split_names <- function(x) {
   # Check if first and middle names are just initials
   # and not seperated by period
 
-  if (length(second.split) > 0 && grepl("[A-Z][A-Z]", second.split)) {
+  if (length(second.split) > 0 && any(grepl("[A-Z][A-Z]", second.split))) {
     middle <- substr(second.split, 2, nchar(second.split))[1]
   }
   return(c(first = first, middle = middle, last = last))

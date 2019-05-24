@@ -76,11 +76,15 @@ plot_net_country <- function(data,
   world_map$ADMIN.1 <- tolower(world_map$ADMIN.1)
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
 
-  coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
+  # coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
+  #   world_map[c("ADMIN.1", "LON", "LAT")]@data,
+  #   by = c("ISO_A2" = "ADMIN.1")
+  # ))
+  coords_df <- suppressWarnings(merge(vertexdf,
     world_map[c("ADMIN.1", "LON", "LAT")]@data,
-    by = c("ISO_A2" = "ADMIN.1")
-  ))
-
+    by.x = "ISO_A2", by.y = "ADMIN.1", all.x = TRUE)
+  )
+  
   ## 	It seems there are two "AU" codes, so we'll aggregate and mean them:
   coords_df <- stats::aggregate(coords_df[c("LON", "LAT")],
     by = list(factor(coords_df$ISO_A2)),

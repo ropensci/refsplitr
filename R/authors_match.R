@@ -3,6 +3,7 @@
 #' 
 #' \code{authors_match} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people. Jaro-winkler scores are calcualted for non-easily matched names
 #' @param data data input
+#' @importFrom stats na.omit
 #' @noRd
  
 authors_match <- function(data){

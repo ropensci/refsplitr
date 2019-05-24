@@ -18,8 +18,7 @@
   \item{department}{department which is nested within university}
   \item{RP_address}{reprint address, pulled from the original raw WOS file}
   \item{RI}{ResearcherID number, identifier given by web of science only, less common than OrcID}
-  \item{RP_address}{OrcID, unique identifier for researcher given by https://orcid.org }
-  \item{department}{department which is nested within university}
+  \item{OI}{OrcID, unique identifier for researcher given by https://orcid.org }
   \item{UT}{unique identifier to each article, given by WOS}
   \item{refID}{unique identifier for each article, given by references_read()}
 }}
