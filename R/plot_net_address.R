@@ -172,29 +172,29 @@ plot_net_address <- function(data,
   products[["plot"]] <- ggplot2::ggplot() +
     ggplot2::geom_polygon(
       data = world_map.df,
-      ggplot2::aes_string("long", "lat", group = "group"),
+      ggplot2::aes_(~long, ~lat, group = ~group),
       fill = grDevices::gray(8 / 10)
     ) +
     ggplot2::geom_path(
       data = world_map.df,
-      ggplot2::aes_string("long", "lat", group = "group"),
+      ggplot2::aes_(~long, ~lat, group = ~group),
       color = grDevices::gray(6 / 10)
     ) +
     ggplot2::coord_equal(ylim = c(latmin, latmax),
       xlim = c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
-      ggplot2::aes_string(
-        x = "x", y = "y",
-        group = "Group", # Edges with gradient
-        colour = "Sequence",
-        size = "Sequence"
+      ggplot2::aes_(
+        x = ~x, y = ~y,
+        group = ~Group, # Edges with gradient
+        colour = ~Sequence,
+        size = ~Sequence
       ),
       alpha = 1
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates),
-      ggplot2::aes_string(x = "LON", y = "LAT"),
+      ggplot2::aes_(x = ~LON, y = ~LAT),
       size = 3 + 100 * sna::degree(linkages_points_net,
 
         cmode = "outdegree", rescale = TRUE

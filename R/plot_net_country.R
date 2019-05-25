@@ -10,7 +10,9 @@
 #' latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible 
 #' values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
-#' @param line_resolution default = 10
+#' @param line_resolution the resolution of the lines drawn, higher numbers will make smoother curves
+#' default is 10. 
+#' @param lineAlpha transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.
 #' @examples 
 #' data(BITR_geocode)
 #' 

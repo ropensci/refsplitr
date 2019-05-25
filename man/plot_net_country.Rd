@@ -13,10 +13,13 @@ plot_net_country(data, line_resolution = 10, mapRegion = "world",
 the `authors_georef()`` function, containing geocoded address 
 latitude and longitude locations.}
 
-\item{line_resolution}{default = 10}
+\item{line_resolution}{the resolution of the lines drawn, higher numbers will make smoother curves
+default is 10.}
 
 \item{mapRegion}{what portion of the world map to show. possible 
 values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
+
+\item{lineAlpha}{transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.}
 }
 \description{
 This function takes an addresses data.frame, 

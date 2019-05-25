@@ -55,11 +55,11 @@ plot_addresses_points <- function(data,
   ggplot2::ggplot() +
     ggplot2::geom_map(
       data = world, map = world,
-      ggplot2::aes_string(map_id = "region"),
+      ggplot2::aes_(map_id = ~region),
       color = "gray", fill = "#7f7f7f", size = 0.05, alpha = 1 / 4
     ) +
-    ggplot2::geom_point(data = points, ggplot2::aes_string(x = "lon",
-                                                           y = "lat")) +
+    ggplot2::geom_point(data = points, ggplot2::aes_(x = ~lon,
+                                                           y = ~lat)) +
     ggplot2::coord_map(ylim = c(latmin, latmax),
       xlim = c(longmin, longmax)) +
     ggplot2::ylab("latitude") +
