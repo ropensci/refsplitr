@@ -5,7 +5,8 @@
 \title{Creates a network diagram of coauthors' countries linked by reference, 
 #and with nodes arranged geographically}
 \usage{
-plot_net_country(data, line_resolution = 10, mapRegion = "world")
+plot_net_country(data, line_resolution = 10, mapRegion = "world",
+  lineAlpha = 0.5)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from 
@@ -26,8 +27,8 @@ generated for countries of co-authorship.
 data(BITR_geocode)
 
 ## Plots the whole world
-plot_net_country(BITR_geocode)
+output <- plot_net_country(BITR_geocode)
 
 ## Just select North America
-plot_net_country(BITR_geocode, mapRegion = 'North America')
+output <- plot_net_country(BITR_geocode, mapRegion = 'North America')
 }

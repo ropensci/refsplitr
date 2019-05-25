@@ -23,9 +23,9 @@ This function takes an addresses data.frame,
 data(BITR_geocode)
 
 ## Plots the whole world
-plot_net_address(BITR_geocode)
+output <- plot_net_address(BITR_geocode)
 
 ## Just select North America
-plot_net_address(BITR_geocode, mapRegion = 'North America')
+output <- plot_net_address(BITR_geocode, mapRegion = 'North America')
 
 }

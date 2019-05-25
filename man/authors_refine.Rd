@@ -31,5 +31,5 @@ prelim_df <- authors$prelim
 ## At that point, you can additionally filter groups by their similarity score
 ## and confidence scores
 
-authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
+refine_df <- authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
 }

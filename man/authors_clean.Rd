@@ -23,5 +23,5 @@ This calculates the amount of character similarities based on distance of simila
 
 data(BITR)
  
-authors_clean(references = BITR)
+results <- authors_clean(references = BITR)
 }
