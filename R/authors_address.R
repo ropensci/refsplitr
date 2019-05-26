@@ -226,7 +226,9 @@ authors_address <- function(addresses, ID){
   a_df$city <- gsub("\\.", "", a_df$city)
   a_df$state <- gsub("\\.", "", a_df$state)
   a_df$country <- gsub("\\.", "", a_df$country)
-
+  a_df$country[a_df$country == ""] <- NA
+  a_df$university[a_df$university == ""] <- NA
+  a_df$postal_code[a_df$postal_code == ""] <- NA
   #convert to lower
   for (l in 2:ncol(a_df)){
     a_df[, l] <- tolower(a_df[, l])

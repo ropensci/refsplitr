@@ -30,7 +30,7 @@ plot_net_country <- function(data,
   lineAlpha = 0.5) {
 
   data <- data[!is.na(data$country), ]
-
+  data$country[data$country %in% c('england', 'scotland')] <- 'united kingdom'
   ## 	Or, we could use a sparse matrix representation:
 
   linkages <- Matrix::spMatrix(
@@ -74,6 +74,7 @@ plot_net_country <- function(data,
   vertex_names <- ifelse(vertex_names == "usa", "united states of america",
     vertex_names)
 
+  
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
   world_map$ADMIN.1 <- tolower(world_map$ADMIN.1)
@@ -163,12 +164,17 @@ plot_net_country <- function(data,
   rownames(adjacencyMatrix)[rownames(adjacencyMatrix) == "NA"] <- "NAstr"
   colnames(adjacencyMatrix)[colnames(adjacencyMatrix) == "NA"] <- "NAstr"
 
+  adjacencyList <- data.frame(
+    country = rep(row.names(adjacencyMatrix), each = nrow(adjacencyMatrix)),
+    countryA = rep(colnames(adjacencyMatrix), times = nrow(adjacencyMatrix)),
+    value = c(adjacencyMatrix)
+  )
   adjacencydf <- data.frame(adjacencyMatrix)
 
   adjacencydf$country <- row.names(adjacencydf)
 
-  adjacencyList <- tidyr::gather(data = adjacencydf, key = "countryA",
-    value = "value", -"country")
+  # adjacencyList <- tidyr::gather(data = adjacencydf, key = "countryA",
+  #   value = "value", -"country")
 
   adjacencyList <- adjacencyList[adjacencyList$value > 0, ]
 

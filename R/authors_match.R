@@ -383,18 +383,19 @@ authors_match <- function(data){
     sc2 <- sum(author_lc > 6) * 1
     sc3 <- sum(author_lc > 10) * 2
     sc4 <- sum(any(group2$f_c > 1))
-    sc5 <- sum(!is.na(author1$country) &
+    sc5 <- sum(!is.na(author1$postal_code) &
+        author1$postal_code %in% group2$postal_code) * 4
+    sc6 <- sum(!is.na(author1$country) &
         author1$country %in% group2$country) * 2
-    sc6 <- sum(grepl("-", author1$unique_name)) * 2
-    sc7 <- sum(any(group2$m_c > 0)) * 1
-    sc8 <- sum(author1$m_c > 0) * 1
-    sc9 <- sum(c(any(!is.na(author1$address)),
+    sc7 <- sum(grepl("-", author1$unique_name)) * 2
+    sc8 <- sum(any(group2$m_c > 0)) * 1
+    sc9 <- sum(author1$m_c > 0) * 1
+    sc10 <- sum(c(
       any(!is.na(author1$univeristy)),
       any(!is.na(author1$email)),
-      any(!is.na(group2$address)),
       any(!is.na(group2$univeristy)),
       any(!is.na(group2$email))))
-    confidence <- sc1 + sc2 + sc3 + sc4 + sc5 + sc6 + sc7 + sc8 + sc9
+    confidence <- sc1 + sc2 + sc3 + sc4 + sc5 + sc6 + sc7 + sc8 + sc9 + sc10
     n_n$confidence[n_n$ID == q] <- ifelse(confidence > 10, 10, confidence)
   }
   return(n_n)

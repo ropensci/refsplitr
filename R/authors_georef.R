@@ -167,6 +167,11 @@ authors_georef <- function(data,
     addresses$lon[addresses$adID == i] <- result[[1]]
   }
 
+  ## Change "" back to NA
+  addresses$country[addresses$country == ""] <- NA
+  addresses$university[addresses$university == ""] <- NA
+  addresses$postal_code[addresses$postal_code == ""] <- NA
+
   addresses <-
     merge(
       addresses[, c("authorID", "university", "postal_code",

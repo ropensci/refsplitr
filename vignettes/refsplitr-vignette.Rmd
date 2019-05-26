@@ -3,12 +3,12 @@ title: "refsplitr"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output:
+  pdf_document:
+    highlight: tango
   html_document:
     highlight: tango
     self-contained: yes
     standalone: yes
-  pdf_document:
-    highlight: tango
   word_document: default
 geometry: margin=2cm
 fig_caption: yes
@@ -22,7 +22,8 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(dplyr)
-library(refsplitr)
+#library(refsplitr)
+devtools::load_all('/home/matt/r_programs/refsplitr')
 ```
 
 ##1. Introduction
@@ -104,16 +105,13 @@ Once disambiguation is complete, users can accept `refsplitr`'s results without 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
 ```{r, results="hide"}
-example_a_clean <- authors_clean(example_refs,
-                          sim_score=0.88)
+example_a_clean <- authors_clean(example_refs)
 ```
 
 ```{r}
 str(example_a_clean)
 
 ```
-
-`authors_clean()` defaults to matching authors with a similarity score of 0.88 or higher, but this score can be adjusted if the user desires. 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/authors_clean_prelim.png") 
@@ -128,8 +126,6 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 - **review**: The names proposed for manual review by `authors_clean()`. Must be in an object.
 
 - **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
-
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
 
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
@@ -187,6 +183,8 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
 
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.)
+
 The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
 
 ####Example
@@ -223,8 +221,10 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 ####Example
 
 ```{r, results="hide"}
-example_georef <-authors_georef(data=example_a_refined, 
+example_georef <-suppressMessages(
+  authors_georef(data=example_a_refined, 
                                 address_column = "address")
+  )
 ```
 
 
@@ -255,10 +255,9 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 ####Example
 
-```{r}
+```{r,fig.show='hide'}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 
-plot_addresses_country
 ```
 
 
@@ -282,8 +281,6 @@ The output of `authors_georef()` is a ggplot object.
 
 ```{r}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
-
-plot_addresses_points
 ```
 
 
@@ -304,10 +301,8 @@ This function has one output, a plot, built in `igraph`.
 
 ####Example
 
-```{r}
+```{r,fig.show='hide'}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
-
-plot_net_coauthor
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -335,8 +330,6 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 ```{r}
 plot_net_country <- plot_net_country(example_georef$addresses)
-
-plot_net_country
 ```
 
 
@@ -362,8 +355,6 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 ####Example
 ```{r}
 plot_net_address <- plot_net_address(example_georef$addresses)
-
-plot_net_address
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -401,10 +392,10 @@ Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence
 
 ```{r, echo=FALSE, fig.pos="H", out.width="250px"}
 # knitr::include_graphics("images/Appendix1b.jpg")
-knitr::include_graphics("images/App1-1.png")
-knitr::include_graphics("images/App1-2.png")
-knitr::include_graphics("images/App1-3.png")
-knitr::include_graphics("images/App1-4.png")
+knitr::include_graphics("images/app1-1.png")
+knitr::include_graphics("images/app1-2.png")
+knitr::include_graphics("images/app1-3.png")
+knitr::include_graphics("images/app1-4.png")
 
 ```
 
@@ -545,4 +536,21 @@ As a final check against our created groupings, we attempt to prune groupings by
 
 This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
 
+## **Appendix 5:** Overview of the `refsplitr` confidence score calculation.
 
+To help the user identify potential false positives and negatives of author matches, we calculate a confidence score metric. This metric is calcualted on names who could not be matched automatically by our algorithm above, but were matched using a 'best guess' approach using the available information and the Jaro Winkler textual matching. Names matched using this method suffer from higher false positive rates because we lacked proper information to match them directly. This metric is a 0 - 10 rating where 0 means we have no information that would lead us to be confident on the match, and 10 meaning based on the available information we are very confident the name is correct (but not enough to have matched automatically). Names are given a score using the following criteria:  
+
+4 - The postal code matches  
+2 - The country matches  
+2 - The last name is longer than 10 characters  
+2 - The last name contains a dash (like when there are two surnames)  
+1 - The last name is longer than 6 characters but less than 11.  
+1 - Either name has a middle initial  
+1 - Either name has a full first name  
+1 - For each instance a name or match name contains a university or email (And thus easier to find a match using Google).  
+
+The maximum score is 10 regardless of the total scores sum.  
+
+Using this score critera we find that >7 are very likely always correct, scores >=5 but <7 are nearly always correct, and <5 are variable in their accuracy.
+
+This can help guide the user when manually checking reviewed names, but can also speed up the process when running analysis. Users can set their confidence threshold in `authors_refine` depending on their tolerance for false positives in their analysis without needing to manually check all reviewed names.
