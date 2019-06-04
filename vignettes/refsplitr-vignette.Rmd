@@ -222,7 +222,6 @@ example_georef <-suppressMessages(
 
 ```{r}
 str(example_georef)
-
 ```
 
 
@@ -247,14 +246,14 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 #### Example
 
-```{r,fig.show='hide'}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
-
+plot_addresses_country
 ```
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/plot_addresses_country.png")
+#knitr::include_graphics("images/plot_addresses_country.png")
 ``` 
 
 **Figure 8:** Plot of how many authors in the dataset are from each country. 
@@ -271,13 +270,14 @@ The output of `authors_georef()` is a ggplot object.
 
 #### Example
 
-```{r}
+```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
+plot_addresses_points
 ```
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/plot_addresses_points.png")
+#knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
 **Figure 9:** Figure showing where all the georeferenced authors are based. 
@@ -293,12 +293,13 @@ This function has one output, a plot, built in `igraph`.
 
 #### Example
 
-```{r,fig.show='hide'}
+```{r,fig.show='hide', echo=FALSE, fig.pos='H', out.width='500px'}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
+plot_net_coauthor
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/plot_net_coauthor.png")
+#knitr::include_graphics("images/plot_net_coauthor.png")
 ``` 
 
 **Figure 10:** Network plot of the authors in the dataset. 
@@ -320,13 +321,14 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 #### Example
 
-```{r}
+```{r fig.pos="H", out.width="500px"}
 plot_net_country <- plot_net_country(example_georef$addresses)
+plot_net_country$plot
 ```
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/plot_net_country.png")
+#knitr::include_graphics("images/plot_net_country.png")
 ``` 
 
 **Figure 11:** Network showing how the different countries are connected. 
@@ -345,12 +347,13 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 3. The `$data_point` element contains the data for the circles on the map. 
 
 #### Example
-```{r}
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 plot_net_address <- plot_net_address(example_georef$addresses)
+plot_net_address$plot
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-knitr::include_graphics("images/plot_net_address.png")
+#knitr::include_graphics("images/plot_net_address.png")
 ``` 
 
 **Figure 12:** Plot showing the network between individual author locations.
