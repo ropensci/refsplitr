@@ -18,7 +18,7 @@ library(dplyr)
 library(refsplitr)
 ```
 
-##1. Introduction
+## 1. Introduction
 
 The Science of Science (SciSci) is an emerging, trans-disciplinary approach for using large and disparate data-sets to study the emergence, dissemination, and impact of scientific research (Fortunato et al. 2018). Bibliometric databases such as the [Web of Science](https://clarivate.com/products/web-of-science/) are rich sources of data for SciSci studies (Sugimoto and Larivière 2018). In recent years the type and scope of questions addressed with data gathered from these databases has expanded tremendously (Forutnato et al. 2018). This is due in part to their expanding coverage and greater accessibility, but also because advances in computational power make it possible to analyze data-sets comprising millions of bibliographic records (e.g., Larivière et al. 2013, Smith et al. 2014). 
 
@@ -29,7 +29,7 @@ The second challenge to working with large bibliometric data-sets is correctly *
 Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for analysis with user-written code or, after some additional formatting, packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
-##2. Using refsplitr
+## 2. Using refsplitr
 
 Appendix 1 provides guidance on downloading records from the Web of Science in the proper format for use in `refsplitr`.  Once bibliographic records have been downloaded, the `refsplitr` package's tools are applied in four steps:   
 
@@ -40,7 +40,7 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 
 **Learning to use `refspliter` with the examples below:** The examples below use the dataset 'example_data.txt' included with the `refsplitr` package. To use them, first create two folders in the working directory or Rstudio Project: one named 'data' and one named 'output'. Then save the sample data 'example_data.txt' file in the 'data' folder. This is the same proceedure that would be used to process downloaded WOS output files. 
 
-###2.1. Importing Search Results 
+### 2.1. Importing Search Results 
 
 The `refsplitr` package can either import a single Web of Science search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three arguments:  
 
@@ -53,7 +53,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 The output of `references_read()` is an object in the R Workspace and a .csv file. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
 
 
-####Example
+#### Example
 
 a. To import and process a single file, set dir=FALSE and set data equal to the file path, here reading in a small example dataset:
 
@@ -81,7 +81,7 @@ knitr::include_graphics("images/references_read.png")
 
 **Figure 1** Output from `references_read()`
 
-###2.2. Author address parsing and name disambiguation 
+### 2.2. Author address parsing and name disambiguation 
 
 The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
 
@@ -92,7 +92,7 @@ The output of `authors_clean()` is a list in the R workspace with two elements: 
 
 Once disambiguation is complete, users can accept `refsplitr`'s results without reviewing names flagged for manual inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make corrections if needed (Section 2.2.2). These corrections are then used to generate the 'refined' dataset used for analyses (Section 2.2.3). 
 
-####Example
+#### Example
 
 a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
 
@@ -111,7 +111,7 @@ knitr::include_graphics("images/authors_clean_prelim.png")
 
 **Figure 2** Prelim output from `authors_clean()`
 
-####2.2.1. Accepting the results of author disambiguation *without* manual review
+#### 2.2.1. Accepting the results of author disambiguation *without* manual review
 
 Accepting the result of `refsplitr`'s disambiguation algorithm without inspecting names flagged for review is done with the `authors_refine()` function. It has four arguments:  
  
@@ -122,7 +122,7 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
 
-####Example
+#### Example
 
 a. To accept the results of author disambiguation without manual review: 
 
@@ -131,7 +131,7 @@ example_a_refined <- authors_refine(example_a_clean$review,
                                     example_a_clean$prelim)
 ```
 
-####2.2.2. Reviewing and correcting the results of disambiguation
+#### 2.2.2. Reviewing and correcting the results of disambiguation
 
 Users that prefer to manually review the results of the disambiguation can do so with the output from `authors_refine` and _review.csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 3).
 
@@ -139,7 +139,7 @@ Users that prefer to manually review the results of the disambiguation can do so
 
 - **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
-####Example
+#### Example
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/review_file.png") 
@@ -165,7 +165,7 @@ knitr::include_graphics("images/corrected_review.png")
 
 **Figure 6:** Here we can see that the group numbers have been changed so that all the Lauren Wise's are the same group, and J Bailey from Moon University is in a separate group. 
 
-####2.2.3. Uploading and merging the results of disambiguation
+#### 2.2.3. Uploading and merging the results of disambiguation
 
 Corrections made to the "review" file are merged into the "prelim" file using the `authors_refine()` function. It has four arguments:  
  
@@ -179,7 +179,7 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
 
-####Example
+#### Example
 
 ```r
 example_a_corrected <- read.csv("correctedfile.csv")
@@ -195,7 +195,7 @@ knitr::include_graphics("images/AuthorMatch.PNG")
   
 **Figure 7:** `authors_refine()` output.   
   
-###2.3. Georeferencing author institutions 
+### 2.3. Georeferencing author institutions 
 
 Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 3 arguments:  
 
@@ -210,7 +210,7 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 - **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
 
 
-####Example
+#### Example
 
 ```{r, results="hide"}
 example_georef <-suppressMessages(
@@ -231,11 +231,11 @@ The data arguments needs to be the output object from `authors_refine()`.
 `address_column` defaults to the `address` column from the `authors_refine()` output. 
 
 
-###2.4. Data Visualization: Productivity and Collaboration 
+### 2.4. Data Visualization: Productivity and Collaboration 
 
 `refsplitr` can generate five visualizations of productivity and collaboration. **World plots** indicate the locations of authors on a map of the world, while **Net plots** are visualizations of co-authorship networks. `plot_addresses_country()` uses the `rworldmap` package, `plot_addresses_points()`, `plot_net_address()`, and `plot_net_country()` use the `ggplot2` package, and `plot_net_coauthor()` uses package `igraph`. Advanced users familiar with these packages can customize the visualizations to suit their needs.  **Warning**: The time required to render these plots is highly dependent on the number of authors in the dataset and the processing power of the computer on which analyses are being carried out. 
 
-####2.4.1. World Plot 1: Authors By Country.
+#### 2.4.1. World Plot 1: Authors By Country.
 
 The `plot_addresses_country()` makes a plot whose shading indicates the number of papers with an author based in a given country. There is no fractional authorship, e.g., if an author based in the USA has authored or coauthored 3 papers in the dataset, then the USA will be credited with 3 articles 
 
@@ -245,7 +245,7 @@ The function has one argument:
  
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
 
-####Example
+#### Example
 
 ```{r,fig.show='hide'}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
@@ -259,7 +259,7 @@ knitr::include_graphics("images/plot_addresses_country.png")
 
 **Figure 8:** Plot of how many authors in the dataset are from each country. 
 
-####2.4.2. World Plots (points)
+#### 2.4.2. World Plots (points)
 
 The `plot_addresses_points()` function plots the location of all authors in the dataset. 
 
@@ -269,7 +269,7 @@ The function has one argument:
 
 The output of `authors_georef()` is a ggplot object. 
 
-####Example
+#### Example
 
 ```{r}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
@@ -282,7 +282,7 @@ knitr::include_graphics("images/plot_addresses_points.png")
 
 **Figure 9:** Figure showing where all the georeferenced authors are based. 
 
-####2.4.3. Net Plots (base)
+#### 2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
 
 The function has one argument:  
@@ -291,7 +291,7 @@ The function has one argument:
 
 This function has one output, a plot, built in `igraph`.
 
-####Example
+#### Example
 
 ```{r,fig.show='hide'}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
@@ -303,7 +303,7 @@ knitr::include_graphics("images/plot_net_coauthor.png")
 
 **Figure 10:** Network plot of the authors in the dataset. 
 
-####2.4.4. Net Plots (Country)
+#### 2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
 
 The function has one argument:  
@@ -318,7 +318,7 @@ The output of `plot_net_country()` is an list.  The `$plot` element contains ggp
 
 3. The `$data_point` element contains the data for the circles on the map. 
 
-####Example
+#### Example
 
 ```{r}
 plot_net_country <- plot_net_country(example_georef$addresses)
@@ -331,7 +331,7 @@ knitr::include_graphics("images/plot_net_country.png")
 
 **Figure 11:** Network showing how the different countries are connected. 
 
-####2.4.5. Net Plots (Addresses)
+#### 2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
 
 The function has one argument:  
@@ -344,7 +344,7 @@ The output of `plot_net_address()` is an list. The `$plot` element contains ggpl
 2. The `$data_polygon` element contains the data for the country outlines.  
 3. The `$data_point` element contains the data for the circles on the map. 
 
-####Example
+#### Example
 ```{r}
 plot_net_address <- plot_net_address(example_georef$addresses)
 ```
@@ -355,11 +355,11 @@ knitr::include_graphics("images/plot_net_address.png")
 
 **Figure 12:** Plot showing the network between individual author locations.
 
-##Acknowledgments
+## Acknowledgments
 
 Support for the development of `refsplitr` was provided by grants from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the University of Florida.
 
-##References
+## References
 
 Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4): 959-975. DOI: 10.1016/j.joi.2017.08.007 
 
