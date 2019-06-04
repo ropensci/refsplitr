@@ -2,7 +2,10 @@
 title: "refsplitr"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: 
+  rmarkdown::html_vignette:
+    fig_width: 6
+    fig_height: 4
 vignette: >
   %\VignetteIndexEntry{refsplitr}
   %\VignetteEngine{knitr::rmarkdown}
