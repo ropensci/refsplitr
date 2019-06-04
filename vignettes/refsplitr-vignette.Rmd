@@ -15,8 +15,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(dplyr)
-#library(refsplitr)
-devtools::load_all('/home/matt/r_programs/refsplitr')
+library(refsplitr)
 ```
 
 ##1. Introduction
