@@ -383,7 +383,7 @@ Strotmann, A. and Zhao, D., (2012). Author name disambiguation: What difference 
 
 Sugimoto CR, Larivière V. (2018). Measuring Research: What Everyone Needs to Know?. Oxford University Press, Oxford, UK. 149 pp. ISBN-10: 9780190640125 
 
-Westgate, M. J. (2018b). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. DOI: 10.1101/262881
+Westgate, M. J. (2018). revtools: bibliographic data visualization for evidence synthesis in R. bioRxiv:262881. DOI: 10.1101/262881
 
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
