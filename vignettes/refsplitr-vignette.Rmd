@@ -2,18 +2,11 @@
 title: "refsplitr"
 author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
 date: "`r Sys.Date()`"
-output:
-  pdf_document:
-    highlight: tango
-  html_document:
-    highlight: tango
-    self-contained: yes
-    standalone: yes
-  word_document: default
-geometry: margin=2cm
-fig_caption: yes
-vignette: |
-  %\VignetteIndexEntry{Multi-format vignettes} \usepackage[utf8]{inputenc} %\VignetteEngine{knitr::multiformat}
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{refsplitr}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
 ---
 
 ```{r setup, include = FALSE}
