@@ -189,7 +189,7 @@ The output of `authors_refine()` is a file is an object in the R Workspace and a
 
 ####Example
 
-```r
+```{r eval=FALSE}
 example_a_corrected <- read.csv("correctedfile.csv")
 
 example_a_refined <-authors_refine(example_a_corrected, 
