@@ -1,6 +1,6 @@
 ---
 title: "refsplitr"
-author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
+author: "Auriel M. V. Fournier, Matt Boone, Forrest Stevens, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output:
   pdf_document:
@@ -91,7 +91,7 @@ knitr::include_graphics("images/references_read.png")
 
 ###2.2. Author address parsing and name disambiguation 
 
-The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
+The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 4, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
@@ -142,6 +142,7 @@ example_a_refined <- authors_refine(example_a_clean$review,
 ####2.2.2. Reviewing and correcting the results of disambiguation
 
 Users that prefer to manually review the results of the disambiguation can do so with the output from `authors_refine` and _review.csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 3).
+
 
 - **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the unique author with the value from that person's **authorID** column. *Be sure to use the authorID value from the same row.* 
 
@@ -406,7 +407,7 @@ knitr::include_graphics("images/app1-4.png")
 ```{r echo = FALSE, results = 'asis'}
 # library(knitr)
 App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
-knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) associated with different data types.")
+knitr::kable(App2Table1, caption = "Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.")
 
 ```
 
@@ -415,7 +416,14 @@ knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in th
 
 ^2^Includes sitations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 
-## **Appendix 3:** `authors_clean()` output
+## **Appendix 3:** Reviewing and correcting author name assignments by `authors_clean()`
+
+Becuase there is always some unceartainty in disambiguation -- is Emilio Bruna *really* the same person as E. Bruna? -- the ```authors$review``` output of the ```authors_clean()``` is a subset of groupID assignments flagged for review. Most of these will be correctly assigned, but because the number of name variants to review increases as the number of references (and hence authors) does, it can become quite daunting for larger datasets. When the number of author names to review is smaller, it may be straightforward to review the entire list. As the number of records in the ```authors$review``` output increase, we recommend using [code we have written to simplify the process by dividing it into more manageable subgroups](https://github.com/embruna/refsplitr_simplify_authors_review). It does so with functious that use different combinatons of author names and initials to check for cases where:
+
+1) the same author appears to have been incorrectly split into >1 groupID numbers
+2) different authors appears to have been incorrectly pooled under the same groupID
+
+Regardless of wether one uses the subsets or complete ```authors$review``` output, the process for reviewing the names is the same.  
 
 
 ```{r echo = FALSE, results = 'asis'}
@@ -535,6 +543,7 @@ knitr::include_graphics("images/appendix3.8.png")
 As a final check against our created groupings, we attempt to prune groupings by reanalyzing if First name, last name, and middle names match. This is because matching entries using incomplete info occasionally creates novel situations where two similar names are called the same groupID if they have similar other information like same first name and the same address. Additionally, the imperfect matching of email addresses occasionally matches up relatives or significant others who publish together with the incorrect email creating a mismatched complex. This final pruning step separates the groups entirely by name. It should be noted this situation in general is rare. 
 
 This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entrys 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
+
 
 ## **Appendix 5:** Overview of the `refsplitr` confidence score calculation.
 
