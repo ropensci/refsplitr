@@ -21,7 +21,7 @@ authors_clean <- function(references) {
   ###############################
   # Seperate authors and attempt to match author info
   #requireNamespace(dplyr, quietly = TRUE)
-  final <- authors_parse(references)
+  final <- authors_parse(references[1:1000,])
 
   ###############################
   # Split address information into relevant fields

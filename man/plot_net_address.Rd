@@ -5,14 +5,18 @@
 \title{Creates a network diagram of coauthors' addresses linked by reference, 
 and with nodes arranged geographically}
 \usage{
-plot_net_address(data, mapRegion = "world", line_resolution = 10)
+plot_net_address(data, mapRegion = "world", lineResolution = 10,
+  lineAlpha = 0.5)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
 
 \item{mapRegion}{what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]}
 
-\item{line_resolution}{default = 10}
+\item{lineResolution}{the resolution of the lines drawn, higher numbers will make smoother curves
+default is 10.}
+
+\item{lineAlpha}{transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.}
 }
 \description{
 This function takes an addresses data.frame,
@@ -27,5 +31,10 @@ output <- plot_net_address(BITR_geocode)
 
 ## Just select North America
 output <- plot_net_address(BITR_geocode, mapRegion = 'North America')
+
+## Change the transparency of lines by modifying the alpha parameter
+plot_net_address(BITR_geocode, mapRegion = 'North America',
+                 lineAlpha = 0.2 )$plot
+
 
 }

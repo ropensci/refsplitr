@@ -7,8 +7,9 @@
 #'
 #' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
-#' @param line_resolution default = 10
-#' 
+#' @param lineResolution the resolution of the lines drawn, higher numbers will make smoother curves
+#' default is 10. 
+#' @param lineAlpha transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.
 #' @examples 
 #' data(BITR_geocode)
 #' 
@@ -18,11 +19,17 @@
 #' ## Just select North America
 #' output <- plot_net_address(BITR_geocode, mapRegion = 'North America')
 #' 
+#' ## Change the transparency of lines by modifying the alpha parameter
+#' plot_net_address(BITR_geocode, mapRegion = 'North America',
+#'                  lineAlpha = 0.2 )$plot
+#' 
+#' 
 #' @export plot_net_address
 
 plot_net_address <- function(data,
                       mapRegion = "world",
-                      line_resolution = 10) {
+                      lineResolution = 10,
+                      lineAlpha = 0.5){
 
   requireNamespace(package = "ggplot2", quietly = TRUE)
   requireNamespace(package = "network", quietly = TRUE)
@@ -123,7 +130,7 @@ plot_net_address <- function(data,
   # Generate a (curved) edge path for each pair of connected nodes
   allEdges <- lapply(seq_len(nrow(adjacencyList)),
     edgeMaker,
-    len = line_resolution,
+    len = lineResolution,
     curved = TRUE
   )
 
@@ -155,6 +162,7 @@ plot_net_address <- function(data,
   world_map.points <- ggplot2::fortify(world_map)
   world_map.df <- merge(world_map.points,
     world_map@data, by = "id", all = TRUE)
+  world_map.df <- world_map.df[!is.na(world_map.df$lat), ]
   # world_map.df <- dplyr::full_join(world_map.points,
   #   world_map@data, by = "id")
 
@@ -168,35 +176,45 @@ plot_net_address <- function(data,
     longmin <- 100
   }
   products <- list()
-
+  lat <- quo(lat)
+  long <- quo(long)
+  group <- quo(group)
+  x <- quo(x)
+  y <- quo(y)
+  Group <- quo(Group)
+  Sequence <- quo(Sequence)
+  LAT <- quo(LAT)
+  LON <- quo(LON)
+  lineAlpha <- enexpr(lineAlpha)
+  
   products[["plot"]] <- ggplot2::ggplot() +
     ggplot2::geom_polygon(
       data = world_map.df,
-      ggplot2::aes_(~long, ~lat, group = ~group),
+      ggplot2::aes(!!long, !!lat, group = !!group),
       fill = grDevices::gray(8 / 10)
     ) +
     ggplot2::geom_path(
       data = world_map.df,
-      ggplot2::aes_(~long, ~lat, group = ~group),
+      ggplot2::aes(!!long, !!lat, group = !!group),
+      
       color = grDevices::gray(6 / 10)
     ) +
     ggplot2::coord_equal(ylim = c(latmin, latmax),
       xlim = c(longmin, longmax)) +
     ggplot2::geom_path(
       data = allEdges,
-      ggplot2::aes_(
-        x = ~x, y = ~y,
-        group = ~Group, # Edges with gradient
-        colour = ~Sequence,
-        size = ~Sequence
+      ggplot2::aes(
+        x = !!x, y = !!y,
+        group = !!Group, # Edges with gradient
+        colour = !!Sequence,
+        size = !!Sequence
       ),
-      alpha = 1
+      alpha = lineAlpha
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates),
-      ggplot2::aes_(x = ~LON, y = ~LAT),
+      ggplot2::aes(x = !!LON, y = !!LAT),
       size = 3 + 100 * sna::degree(linkages_points_net,
-
         cmode = "outdegree", rescale = TRUE
       ),
       pch = 21,
