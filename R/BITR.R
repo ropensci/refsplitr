@@ -19,12 +19,15 @@
 #'   \item{TI}{Title}
 #'   \item{UT}{Web of Knowledge Unique ID}
 #'   \item{BP}{See url below}
+#'   \item{CR}{See url below}
 #'   \item{DE}{See url below}
+#'   \item{DI}{See url below}
 #'   \item{EP}{See url below}
 #'   \item{FN}{See url below}
 #'   \item{FU}{See url below}
 #'   \item{PD}{See url below}
 #'   \item{PG}{See url below}
+#'   \item{PT}{See url below}
 #'   \item{PU}{See url below}
 #'   \item{PY}{See url below}
 #'   \item{PM}{See url below}
