@@ -31,7 +31,7 @@ plot_net_country <- function(data,
 
   data <- data[!is.na(data$country), ]
   data$country[data$country %in% c('england', 'scotland')] <- 'united kingdom'
-  ## 	Or, we could use a sparse matrix representation:
+  ## 	we could use a sparse matrix representation:
 
   linkages <- Matrix::spMatrix(
     nrow = length(unique(data$country)),
@@ -230,17 +230,17 @@ plot_net_country <- function(data,
     longmin <- 100
   }
   products <- list()
-  lat <- quo(lat)
-  long <- quo(long)
-  group <- quo(group)
-  x <- quo(x)
-  y <- quo(y)
-  Group <- quo(Group)
-  Sequence <- quo(Sequence)
-  LAT <- quo(LAT)
-  LON <- quo(LON)
-  ISO_A2 <- quo(ISO_A2)
-  lineAlpha <- enexpr(lineAlpha)
+  lat <- ggplot2::quo(lat)
+  long <- ggplot2::quo(long)
+  group <- ggplot2::quo(group)
+  x <- ggplot2::quo(x)
+  y <- ggplot2::quo(y)
+  Group <- ggplot2::quo(Group)
+  Sequence <- ggplot2::quo(Sequence)
+  LAT <- ggplot2::quo(LAT)
+  LON <- ggplot2::quo(LON)
+  ISO_A2 <- ggplot2::quo(ISO_A2)
+  lineAlpha <- ggplot2::enexpr(lineAlpha)
   products[["plot"]] <- ggplot2::ggplot() +
     ggplot2::geom_polygon(data = world_map.df, ggplot2::aes(!!long,
       !!lat, group =!!group), fill = grDevices::gray(8 / 10)) +

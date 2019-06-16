@@ -52,9 +52,9 @@ plot_addresses_points <- function(data,
   if (longmin < -180) longmin <- -180
   if (longmax > 180) longmax <- 180
   ## Plot
-  lon <- quo(lon)
-  lat <- quo(lat)
-  region <- quo(region)
+  lon <- ggplot2::quo(lon)
+  lat <- ggplot2::quo(lat)
+  region <- ggplot2::quo(region)
   
   ggplot2::ggplot() +
     ggplot2::geom_map(

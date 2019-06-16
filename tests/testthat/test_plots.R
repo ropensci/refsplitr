@@ -86,7 +86,7 @@ test_that("Map plots work", {
  c<-plot_net_address(data=df)
  c$data_points$latlon
  expect_equal(c$data_points$latlon, factor(c("35,-100","51.752,1.2577" ,"39,-80")))
- expect_equal(length(c$data_polygon$long),12576)
+ expect_equal(length(c$data_polygon$long),12333)
 
  d<-plot_net_coauthor(data=df)
  expect_equal(d[1],c("united kingdom"=0,"usa"=1))
@@ -94,7 +94,7 @@ test_that("Map plots work", {
  
  e<-plot_net_country(data=df)
  expect_equal(signif(e$data_points$LAT,4),c(53.88, 39.50))
- expect_equal(length(e$data_polygon$long),12576)
+ expect_equal(length(e$data_polygon$long),12333)
   
 })
   
