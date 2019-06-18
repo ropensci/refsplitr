@@ -141,38 +141,57 @@ example_a_refined <- authors_refine(example_a_clean$review,
 
 ####2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the output from `authors_refine` and _review.csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 3).
+Users that prefer to manually review the results of name disambiguation can do so by using the output from `authors_refine` and the _review.csv file; for a description of the information provided in these files to assist with verifying name assignments see Appendix 3.
+
+There are two kinds of potential disambiguation errors. First, diffent authors could be incorrectly assigned to the same groupID number. Second, the same author could be incorrectly assigned multiple groupID. If disambiguation errors are found, they are corrected on the _review.csv file as follows:    
+
+- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the incorrectly pooled author with the value from their **authorID** column. *Be sure to use the authorID value from the same row.* 
+
+- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the incorrectly split name variants with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
+
+Once corrections have been made to the _review.csv file, they can then be incorporated using the ```authors_refine()``` function (see 2.2.3).
 
 
-- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the unique author with the value from that person's **authorID** column. *Be sure to use the authorID value from the same row.* 
+**Note:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these rare errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. We strongly recommend using [code we have written to streamline the process of reviewing the output of ```authors_refine()```](https://github.com/embruna/refsplitr_simplify_authors_review). This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the _review.csv file as described above.
 
-- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
 
 ####Example
+
+Figure 3 is an example of the the first few rows and columns of the review element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the match_name column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/review_file.png") 
 ``` 
 
-**Figure 3:** First few rows and columns from the review element of `authors_clean()`
+**Figure 3:** First rows and columns from the review element of `authors_clean()`
+
+
+A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/grouped_should_not_be.png")
 ``` 
 
-**Figure 4:** Here we can see that the three Bailey's that have the first initial J were grouped together. But, due to our knowledge of the field, we know that the one at Moon University is a different person. 
+**Figure 4:** review element of `authors_clean()` highlighting three authors sharing the same last and assigned the same groupID. 
+
+
+Further review reveals that there are two putative authors named LW Wise -- one at U of Middle Earth (groupID 89) and one at U of the Shire (groupID 90; Figure 5). However, an online search reveals that this is actually the same author, who recently moved from one university to the other. The groupID for all of these records should therefore be changed to "89".
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/not_grouped_should_be.png") 
 ``` 
 
-**Figure 5:** Here we can see that Lauren Wise changed universities, but she is the same person, so these should have been grouped together, but they weren't. 
+**Figure 5:** review element of `authors_clean()` highlighting the same author incorrectly assigned to different groupID numbers. 
+
+
+Once these corrections have been made (Figure 6) and saved, the changes can be incorporated using the ```authors_refine()``` function (see 2.2.3).
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/corrected_review.png") 
 ``` 
 
-**Figure 6:** Here we can see that the group numbers have been changed so that all the Lauren Wise's are the same group, and J Bailey from Moon University is in a separate group. 
+**Figure 6:** Corrected review element of `authors_clean()`.
+
 
 ####2.2.3. Uploading and merging the results of disambiguation
 
