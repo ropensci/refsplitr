@@ -58,7 +58,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is an object in the R Workspace and a .csv file. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
+The output of `references_read()` is an object in the R Workspace and a .csv file in the 'output' folder. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
 
 
 ####Example
@@ -83,15 +83,16 @@ example_refs <- references_read(data = system.file("extdata",package = "refsplit
 ```
 
 
+
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/references_read.png")
 ``` 
 
-**Figure 1** Output from `references_read()`
+**Figure 1** A subset of the rows and columns in the .csv output from `references_read()`. 
 
 ###2.2. Author address parsing and name disambiguation 
 
-The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 4, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
+The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 4, first assigns every author of every article in the dataset a unique identification number ("authorID"). It then uses the information provided about the authors of each article (e.g., email addresses, ORCID numbers) to putatively pool all names and name variants representing the same author in a group. The groups of names/name variants representing different authors are then each assigned a unique identification number (i.e., the different "authorID" numbers putatively determined to be the same author are assigned the same "groupID" number). The function `authors_clean()` has two arguments:  
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
@@ -113,11 +114,12 @@ str(example_a_clean)
 
 ```
 
+
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/authors_clean_prelim.png") 
 ``` 
 
-**Figure 2** Prelim output from `authors_clean()`
+**Figure 2** A subset of the rows and columns in the "Prelim" .csv file output from `authors_clean()`
 
 ####2.2.1. Accepting the results of author disambiguation *without* manual review
 
@@ -128,7 +130,7 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 - **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
 
 
-The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
+The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder.    
 
 ####Example
 
@@ -145,9 +147,9 @@ Users that prefer to manually review the results of name disambiguation can do s
 
 There are two kinds of potential disambiguation errors. First, diffent authors could be incorrectly assigned to the same groupID number. Second, the same author could be incorrectly assigned multiple groupID. If disambiguation errors are found, they are corrected on the _review.csv file as follows:    
 
-- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the incorrectly pooled author with the value from their **authorID** column. *Be sure to use the authorID value from the same row.* 
+- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the incorrectly pooled author with the value from their **authorID** column. *Be sure to use the authorID value from the same row.* Save the corrected .csv file in the same location as "correctedfile.csv"  
 
-- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the incorrectly split name variants with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
+- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the incorrectly split name variants with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*. Save the corrected .csv file in the same location as "correctedfile.csv"  
 
 Once corrections have been made to the _review.csv file, they can then be incorporated using the ```authors_refine()``` function (see 2.2.3).
 
@@ -205,7 +207,7 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.)
 
-The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
+The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder. 
 
 ####Example
 
@@ -235,7 +237,7 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 
 - **Warning #1**: it can be difficult for this version of `refsplitr` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
-- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
+- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
 
 
 ####Example
@@ -285,7 +287,7 @@ plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 knitr::include_graphics("images/plot_addresses_country.png")
 ``` 
 
-**Figure 8:** Plot of how many authors in the dataset are from each country. 
+**Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
 
 ####2.4.2. World Plots (points)
 
@@ -308,7 +310,7 @@ plot_addresses_points <- plot_addresses_points(example_georef$addresses)
 knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
-**Figure 9:** Figure showing where all the georeferenced authors are based. 
+**Figure 9:** Figure indicating the georefeenced locations of authors in the dataset 
 
 ####2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
@@ -329,7 +331,7 @@ plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 knitr::include_graphics("images/plot_net_coauthor.png")
 ``` 
 
-**Figure 10:** Network plot of the authors in the dataset. 
+**Figure 10:** Plot of the coauthorship network for authors of articles in the dataset. 
 
 ####2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
@@ -338,7 +340,7 @@ The function has one argument:
 
 - **data**: This is the addresses element from the `authors_georef()` object.  
 
-The output of `plot_net_country()` is an list.  The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_country()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines.
 
@@ -360,16 +362,16 @@ knitr::include_graphics("images/plot_net_country.png")
 **Figure 11:** Network showing how the different countries are connected. 
 
 ####2.4.5. Net Plots (Addresses)
-The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
+The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB), and how long it takes to complete will depend and the system resources available when running it. Be patient - it may take several minutes.  
 
 The function has one argument:  
 
 - **data**: This is the addresses element from the `authors_georef()` output. 
 
-The output of `plot_net_address()` is an list. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_address()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines. 
-2. The `$data_polygon` element contains the data for the country outlines.  
+2. The `$data_polygon` element contains the data for the country outlines.
 3. The `$data_point` element contains the data for the circles on the map. 
 
 ####Example
@@ -385,7 +387,7 @@ knitr::include_graphics("images/plot_net_address.png")
 
 ##Acknowledgments
 
-Support for the development of `refsplitr` was provided by grants from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the University of Florida.
+Support for the development of `refsplitr` was provided by grants to E. M. Bruna from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the [University of Florida](http://www.ufl.edu/).
 
 ##References
 
