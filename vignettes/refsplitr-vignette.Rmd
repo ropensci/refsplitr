@@ -227,7 +227,7 @@ knitr::include_graphics("images/AuthorMatch.PNG")
   
 ###2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 3 arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object.
 
@@ -238,6 +238,8 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 - **Warning #1**: it can be difficult for this version of `refsplitr` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
 - **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
+
+- **Warning #3** The `authors_georef()`function requires address be data type = character. If importing the .csv outuput of `authors_refine()` to process with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
 
 
 ####Example
@@ -364,9 +366,10 @@ knitr::include_graphics("images/plot_net_country.png")
 ####2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB), and how long it takes to complete will depend and the system resources available when running it. Be patient - it may take several minutes.  
 
-The function has one argument:  
+The function has two arguments:  
 
 - **data**: This is the addresses element from the `authors_georef()` output. 
+- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency).
 
 The output of `plot_net_address()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
@@ -376,7 +379,7 @@ The output of `plot_net_address()` is a list in the R Workspace. The `$plot` ele
 
 ####Example
 ```{r}
-plot_net_address <- plot_net_address(example_georef$addresses)
+plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
