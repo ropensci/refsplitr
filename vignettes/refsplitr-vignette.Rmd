@@ -278,11 +278,6 @@ plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 plot_addresses_country
 ```
 
-
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-#knitr::include_graphics("images/plot_addresses_country.png")
-``` 
-
 **Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
 
 #### 2.4.2. World Plots (points)
@@ -320,14 +315,10 @@ This function has one output, a plot, built in `igraph`.
 
 #### Example
 
-```{r,fig.show='hide', echo=FALSE, fig.pos='H', out.width='500px'}
+```{r, echo=FALSE, fig.pos='H', out.width='500px'}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
-
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-#knitr::include_graphics("images/plot_net_coauthor.png")
-``` 
 
 **Figure 10:** Plot of the coauthorship network for authors of articles in the dataset. 
 
@@ -353,11 +344,6 @@ plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
 
-
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-#knitr::include_graphics("images/plot_net_country.png")
-``` 
-
 **Figure 11:** Network showing how the different countries are connected. 
 
 #### 2.4.5. Net Plots (Addresses)
@@ -375,14 +361,10 @@ The output of `plot_net_address()` is a list in the R Workspace. The `$plot` ele
 3. The `$data_point` element contains the data for the circles on the map. 
 
 #### Example
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha-0.1)
+```{r, fig.pos="H", out.width="500px"}
+plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
 plot_net_address$plot
 ```
-
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-#knitr::include_graphics("images/plot_net_address.png")
-``` 
 
 **Figure 12:** Plot showing the network between individual author locations.
 
