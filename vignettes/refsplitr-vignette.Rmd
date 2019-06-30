@@ -1,6 +1,6 @@
 ---
 title: "refsplitr"
-author: "Auriel M. V. Fournier, Forrest Stevens, Matt Boone, Emilio M. Bruna"
+author: "Auriel M. V. Fournier, Matt Boone, Forrest Stevens, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output: 
   rmarkdown::html_vignette:
@@ -53,7 +53,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is an object in the R Workspace and a .csv file. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
+The output of `references_read()` is an object in the R Workspace and a .csv file in the 'output' folder. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
 
 
 #### Example
@@ -78,15 +78,16 @@ example_refs <- references_read(data = system.file("extdata",package = "refsplit
 ```
 
 
+
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/references_read.png")
 ``` 
 
-**Figure 1** Output from `references_read()`
+**Figure 1** A subset of the rows and columns in the .csv output from `references_read()`. 
 
 ### 2.2. Author address parsing and name disambiguation 
 
-The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 3, first assigns each author of each article a unique ID number, then assigns putative name variants representing the same author a group ID number. The function `authors_clean()` has two arguments:  
+The next step is to identify all unique authors in the dataset and parse their affiliations for each of their articles. This requires identifying any authors whose name appears to be represented in different ways on different publications. Name disambiguation is a complex statistical and computational problem for which researchers have used data ranging from author affiliation to patterns of coauthorship and citation (reviewed in Smalheiser & Torvik 2009). The `authors_clean()` disambiguation algorithm, described in greater detail in Appendix 4, first assigns every author of every article in the dataset a unique identification number ("authorID"). It then uses the information provided about the authors of each article (e.g., email addresses, ORCID numbers) to putatively pool all names and name variants representing the same author in a group. The groups of names/name variants representing different authors are then each assigned a unique identification number (i.e., the different "authorID" numbers putatively determined to be the same author are assigned the same "groupID" number). The function `authors_clean()` has two arguments:  
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
@@ -108,11 +109,12 @@ str(example_a_clean)
 
 ```
 
+
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/authors_clean_prelim.png") 
 ``` 
 
-**Figure 2** Prelim output from `authors_clean()`
+**Figure 2** A subset of the rows and columns in the "Prelim" .csv file output from `authors_clean()`
 
 #### 2.2.1. Accepting the results of author disambiguation *without* manual review
 
@@ -123,7 +125,7 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 - **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
 
 
-The output of `authors_refine()` is an object in the R Workspace and a .csv file.    
+The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder.    
 
 #### Example
 
@@ -136,37 +138,57 @@ example_a_refined <- authors_refine(example_a_clean$review,
 
 #### 2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of the disambiguation can do so with the output from `authors_refine` and _review.csv files. A more thorough overview of the information provided in these files and how to use it to review and correct author name assignments is provided in Appendix 3).
+Users that prefer to manually review the results of name disambiguation can do so by using the output from `authors_refine` and the _review.csv file; for a description of the information provided in these files to assist with verifying name assignments see Appendix 3.
 
-- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the unique author with the value from that person's **authorID** column. *Be sure to use the authorID value from the same row.* 
+There are two kinds of potential disambiguation errors. First, diffent authors could be incorrectly assigned to the same groupID number. Second, the same author could be incorrectly assigned multiple groupID. If disambiguation errors are found, they are corrected on the _review.csv file as follows:    
 
-- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the name variants to be pooled with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*.
+- **If different authors were incorrectly assigned the same groupID number:** replace the number in the **groupID** column of the incorrectly pooled author with the value from their **authorID** column. *Be sure to use the authorID value from the same row.* Save the corrected .csv file in the same location as "correctedfile.csv"  
+
+- **If the same author was incorrectly assigned different groupID numbers:** replace the number in the **groupID** column of the incorrectly split name variants with a single **AuthorID** number. *We recommend using the lowest authorID number of the name variants being pooled*. Save the corrected .csv file in the same location as "correctedfile.csv"  
+
+Once corrections have been made to the _review.csv file, they can then be incorporated using the ```authors_refine()``` function (see 2.2.3).
+
+
+**Note:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these rare errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. We strongly recommend using [code we have written to streamline the process of reviewing the output of ```authors_refine()```](https://github.com/embruna/refsplitr_simplify_authors_review). This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the _review.csv file as described above.
+
 
 #### Example
+
+Figure 3 is an example of the the first few rows and columns of the review element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the match_name column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/review_file.png") 
 ``` 
 
-**Figure 3:** First few rows and columns from the review element of `authors_clean()`
+**Figure 3:** First rows and columns from the review element of `authors_clean()`
+
+
+A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/grouped_should_not_be.png")
 ``` 
 
-**Figure 4:** Here we can see that the three Bailey's that have the first initial J were grouped together. But, due to our knowledge of the field, we know that the one at Moon University is a different person. 
+**Figure 4:** review element of `authors_clean()` highlighting three authors sharing the same last and assigned the same groupID. 
+
+
+Further review reveals that there are two putative authors named LW Wise -- one at U of Middle Earth (groupID 89) and one at U of the Shire (groupID 90; Figure 5). However, an online search reveals that this is actually the same author, who recently moved from one university to the other. The groupID for all of these records should therefore be changed to "89".
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/not_grouped_should_be.png") 
 ``` 
 
-**Figure 5:** Here we can see that Lauren Wise changed universities, but she is the same person, so these should have been grouped together, but they weren't. 
+**Figure 5:** review element of `authors_clean()` highlighting the same author incorrectly assigned to different groupID numbers. 
+
+
+Once these corrections have been made (Figure 6) and saved, the changes can be incorporated using the ```authors_refine()``` function (see 2.2.3).
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/corrected_review.png") 
 ``` 
 
-**Figure 6:** Here we can see that the group numbers have been changed so that all the Lauren Wise's are the same group, and J Bailey from Moon University is in a separate group. 
+**Figure 6:** Corrected review element of `authors_clean()`.
+
 
 #### 2.2.3. Uploading and merging the results of disambiguation
 
@@ -180,11 +202,11 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.)
 
-The output of `authors_refine()` is a file is an object in the R Workspace and a .csv file. 
+The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder. 
 
 #### Example
 
-```r
+```{r eval=FALSE}
 example_a_corrected <- read.csv("correctedfile.csv")
 
 example_a_refined <-authors_refine(example_a_corrected, 
@@ -200,7 +222,7 @@ knitr::include_graphics("images/AuthorMatch.PNG")
   
 ### 2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has 3 arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object.
 
@@ -210,7 +232,9 @@ The output of `authors_georef()` is a 3 element list. The first element `address
 
 - **Warning #1**: it can be difficult for this version of `refsplitr` (v1.0) to differentiate between geographically distinct installations of the same institution (e.g. Mississippi State University Main Campus in Starkville, MS vs Mississippi State University Coastal Research and Extension in Biloxi, MS (250 miles apart)). 
 
-- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed and the speed of the internet connection. 
+- **Warning #2** The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
+
+- **Warning #3** The `authors_georef()`function requires address be data type = character. If importing the .csv outuput of `authors_refine()` to process with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
 
 
 #### Example
@@ -259,7 +283,7 @@ plot_addresses_country
 #knitr::include_graphics("images/plot_addresses_country.png")
 ``` 
 
-**Figure 8:** Plot of how many authors in the dataset are from each country. 
+**Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
 
 #### 2.4.2. World Plots (points)
 
@@ -283,7 +307,7 @@ plot_addresses_points
 #knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
-**Figure 9:** Figure showing where all the georeferenced authors are based. 
+**Figure 9:** Figure indicating the georefeenced locations of authors in the dataset 
 
 #### 2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
@@ -305,7 +329,7 @@ plot_net_coauthor
 #knitr::include_graphics("images/plot_net_coauthor.png")
 ``` 
 
-**Figure 10:** Network plot of the authors in the dataset. 
+**Figure 10:** Plot of the coauthorship network for authors of articles in the dataset. 
 
 #### 2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
@@ -314,7 +338,7 @@ The function has one argument:
 
 - **data**: This is the addresses element from the `authors_georef()` object.  
 
-The output of `plot_net_country()` is an list.  The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_country()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines.
 
@@ -339,19 +363,20 @@ plot_net_country$plot
 #### 2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
 
-The function has one argument:  
+The function has two arguments:  
 
 - **data**: This is the addresses element from the `authors_georef()` output. 
+- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency).
 
-The output of `plot_net_address()` is an list. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_address()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines. 
-2. The `$data_polygon` element contains the data for the country outlines.  
+2. The `$data_polygon` element contains the data for the country outlines.
 3. The `$data_point` element contains the data for the circles on the map. 
 
 #### Example
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
-plot_net_address <- plot_net_address(example_georef$addresses)
+plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha-0.1)
 plot_net_address$plot
 ```
 
@@ -363,7 +388,7 @@ plot_net_address$plot
 
 ## Acknowledgments
 
-Support for the development of `refsplitr` was provided by grants from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the University of Florida.
+Support for the development of `refsplitr` was provided by grants to E. M. Bruna from the [Center for Latin American Studies](http://www.latam.ufl.edu/) and [Informatics Institute](https://informatics.institute.ufl.edu/) at the [University of Florida](http://www.ufl.edu/).
 
 ## References
 
@@ -404,7 +429,7 @@ knitr::include_graphics("images/app1-4.png")
 ```{r echo = FALSE, results = 'asis'}
 # library(knitr)
 App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
-knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) associated with different data types.")
+knitr::kable(App2Table1, caption = "Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.")
 
 ```
 
@@ -413,14 +438,14 @@ knitr::kable(App2Table1, caption = "Table 1. Definition of column headings in th
 
 ^2^Includes citations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 
-## **Appendix 3:** `authors_clean()` output
+## **Appendix 3:** Reviewing and correcting author name assignments by `authors_clean()`
 
 
 ```{r echo = FALSE, results = 'asis'}
 App3Table1<-read.csv("App3_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
 
 
-knitr::kable(App3Table1, caption = " Information provided by the `authors_clean()` function to help users assess the validity of groupings generated by `refsplitr`'s disambiguation algorithm.") 
+knitr::kable(App3Table1, caption = "Information provided by the `authors_clean()` function to help users assess the validity of groupID assignments made by `refsplitr`'s disambiguation algorithm.") 
 ```
 
 
@@ -533,6 +558,7 @@ knitr::include_graphics("images/appendix3.8.png")
 As a final check against our created groupings, we attempt to prune groupings by reanalyzing if First name, last name, and middle names match. This is because matching entries using incomplete info occasionally creates novel situations where two similar names are called the same groupID if they have similar other information like same first name and the same address. Additionally, the imperfect matching of email addresses occasionally matches up relatives or significant others who publish together with the incorrect email creating a mismatched complex. This final pruning step separates the groups entirely by name. It should be noted this situation in general is rare. 
 
 This step is not necessary in our example data as all names in each grouping were logical. In our final data set, we have therefore identified 4 likely complexes (Smith, Jon Karl; Smith, J; Smith, James; and Smith Sam). Entries 8 and 9 were matched together and require hand checking as no novel information was used. This results in this data.frame being outputted separate from the master authors data.frame:
+
 
 ## **Appendix 5:** Overview of the `refsplitr` confidence score calculation.
 

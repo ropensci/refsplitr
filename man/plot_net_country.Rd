@@ -5,7 +5,7 @@
 \title{Creates a network diagram of coauthors' countries linked by reference, 
 #and with nodes arranged geographically}
 \usage{
-plot_net_country(data, line_resolution = 10, mapRegion = "world",
+plot_net_country(data, lineResolution = 10, mapRegion = "world",
   lineAlpha = 0.5)
 }
 \arguments{
@@ -13,7 +13,7 @@ plot_net_country(data, line_resolution = 10, mapRegion = "world",
 the `authors_georef()`` function, containing geocoded address 
 latitude and longitude locations.}
 
-\item{line_resolution}{the resolution of the lines drawn, higher numbers will make smoother curves
+\item{lineResolution}{the resolution of the lines drawn, higher numbers will make smoother curves
 default is 10.}
 
 \item{mapRegion}{what portion of the world map to show. possible 
