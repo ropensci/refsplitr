@@ -19,8 +19,10 @@ Remotes: dkahle/ggmap
 Suggests: 
     testthat,
     utils,
-    covr
+    covr,
+    knitr,
+    rmarkdown
 Depends: R (>= 2.10)
-VignetteBuilder: utils
+VignetteBuilder: knitr
 Encoding: UTF-8
 BugReports: https://github.com/embruna/refsplitr/issues
