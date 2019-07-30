@@ -17,7 +17,6 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
-library(dplyr)
 library(refsplitr)
 ```
 
@@ -409,7 +408,6 @@ knitr::include_graphics("images/app1-4.png")
 ## **Appendix 2:** Web of Science Data Field Definitions
 
 ```{r echo = FALSE, results = 'asis'}
-# library(knitr)
 App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
 knitr::kable(App2Table1, caption = "Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.")
 
