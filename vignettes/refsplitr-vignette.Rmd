@@ -311,7 +311,7 @@ The function has two arguments:
 
 - **data**: This is the addresses element from the `authors_georef()` object
  
-- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","north america","latin america","africa","antarctica","eurasia","uk","oceania","asia"] or individual countries. 
+- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","north america","latin america","africa","antarctica","eurasia","uk","oceania","asia"]. 
  
 
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
@@ -343,9 +343,11 @@ plot_addresses_country
 
 The `plot_addresses_points()` function plots the location of all authors in the dataset. 
 
-The function has one argument:  
+The function has two argument:  
 
-- **data**: This is the output from `authors_georef()`. Must be an object.
+- **data**: This is the addresses element from the `authors_georef()` object
+
+- **mapCountry**: a specific country whose records to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display specific countries [e.g., "USA","Brazil","Nigeria"]
 
 The output of `authors_georef()` is a ggplot object. 
 
@@ -363,6 +365,18 @@ plot_addresses_points
 
 **Figure 10:** Figure indicating the georefeenced locations of authors in the dataset 
 
+
+
+```{r, fig.pos="H", out.width="500px"}
+plot_addresses_points <- plot_addresses_points(example_georef$addresses, mapCountry = "Brazil")
+plot_addresses_points
+```
+
+
+**Figure 11:** Figure indicating the georefeenced locations of authors in the dataset wityh institutional addresses in Brazil. 
+
+
+
 #### 2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
 
@@ -379,7 +393,7 @@ plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
 
-**Figure 11:** Plot of the coauthorship network for authors of articles in the dataset. 
+**Figure 12:** Plot of the coauthorship network for authors of articles in the dataset. 
 
 #### 2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
@@ -403,7 +417,7 @@ plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
 
-**Figure 12:** Network showing how the different countries are connected. 
+**Figure 13:** Network showing how the different countries are connected. 
 
 #### 2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
@@ -425,7 +439,7 @@ plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
 plot_net_address$plot
 ```
 
-**Figure 13:** Plot showing the network between individual author locations.
+**Figure 14:** Plot showing the network between individual author locations.
 
 ## Acknowledgments
 
