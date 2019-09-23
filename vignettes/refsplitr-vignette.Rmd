@@ -311,7 +311,7 @@ The function has two arguments:
 
 - **data**: This is the addresses element from the `authors_georef()` object
  
-- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","north america","latin america","africa","antarctica","eurasia","uk","oceania","asia"]. 
+- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]. 
  
 
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
@@ -320,7 +320,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 a. Author records plotted on a world map
 
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 plot_addresses_country
 ```
@@ -330,7 +330,7 @@ plot_addresses_country
 
 b. Author records plotted on a map of North America.
 
-```{r, echo=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses, mapRegion="north america")
 plot_addresses_country
 ```
@@ -353,6 +353,7 @@ The output of `authors_georef()` is a ggplot object.
 
 #### Example
 
+
 ```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
 plot_addresses_points
@@ -373,7 +374,7 @@ plot_addresses_points
 ```
 
 
-**Figure 11:** Figure indicating the georefeenced locations of authors in the dataset wityh institutional addresses in Brazil. 
+**Figure 11:** Figure indicating the georefeenced locations of authors in the dataset with institutional addresses in Brazil. 
 
 
 
@@ -388,7 +389,7 @@ This function has one output, a plot, built in `igraph`.
 
 #### Example
 
-```{r, echo=FALSE, fig.pos='H', out.width='500px'}
+```{r, fig.pos="H", out.width="500px"}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
@@ -398,9 +399,16 @@ plot_net_coauthor
 #### 2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
 
-The function has one argument:  
+The function has four arguments:  
 
 - **data**: This is the addresses element from the `authors_georef()` object.  
+
+- **lineResolution** the resolution of the lines drawn. By default this argument is turned off and the default value is set to = 10. Higher values will make smoother curves.
+
+- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+
+- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency). By default this argument is turned off, with the default value set to = 0.5.
+
 
 The output of `plot_net_country()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
@@ -412,20 +420,36 @@ The output of `plot_net_country()` is a list in the R Workspace. The `$plot` ele
 
 #### Example
 
+a. Countries connected by coauthors
 ```{r fig.pos="H", out.width="500px"}
 plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
 
-**Figure 13:** Network showing how the different countries are connected. 
+**Figure 13:** Map showing the coauthorship connections between countries. 
+
+b. Countries of a specific world region connected by coauthors
+```{r fig.pos="H", out.width="500px"}
+plot_net_country <- plot_net_country(example_georef$addresses, lineResolution = 30, mapRegion = 'South America',lineAlpha=.8)
+plot_net_country$plot
+```
+
+**Figure 14:** Map showing the coauthorship connections between countries in a specific region.
+
 
 #### 2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
 
-The function has two arguments:  
+The function has four arguments:  
 
 - **data**: This is the addresses element from the `authors_georef()` output. 
-- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency).
+
+- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+
+- **lineResolution** the resolution of the lines drawn. By default this argument is turned off and the default value is set to = 10. Higher values will make smoother curves.
+
+- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency). By default this argument is turned off, with the default value set to = 0.5.
+
 
 The output of `plot_net_address()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
