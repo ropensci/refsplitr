@@ -125,21 +125,32 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 
 - **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
 
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). The default value is 0.9; this argument only needs to be included in cases where users want a more stringent or relaxed similarity score threshold for groupID assignment. 
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this argument is turned off, and only needs to be included in cases where users want to change the default sim_score value of 0.9 to a more stringent or relaxed threshold for groupID assignment. 
 
-- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. 10 = the names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.). The default value is 5; this argument only needs to be included in cases where users want to change the default confiedence score threshold (see Appendix 5 for further details). 
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. 10 = the names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.). By default this argument is turned off, and only needs to be included in cases where users want to change the default confidence score threshold of 5 to another value (see Appendix 5 for further details). 
 
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder.    
 
 #### Example
 
-a. To accept the results of author disambiguation without manual review: 
+a. To accept the results of author disambiguation **without** manual review (`sim_score` and `confidence` scores = default values): 
 
 ```{r}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
+
+b. To accept the results of author disambiguation **without** manual review (`sim_score` and `confidence` scores = user modified): 
+authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
+
+```{r}
+example_a_refined <- authors_refine(example_a_clean$review, 
+                                    example_a_clean$prelim, 
+                                    sim_score = 0.70, 
+                                    confidence = 4)
+```
+
 
 #### 2.2.2. Reviewing and correcting the results of disambiguation
 
@@ -207,9 +218,11 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.)
 
-The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder. 
+The output of `authors_refine()` is an object in the R Workspace, which can be saved by users as a .csv file in the 'output' folder. 
 
 #### Example
+
+a. To load a corrected "review" file and merge the changes using the default `sim_score` and `confidence` scores: 
 
 ```{r eval=FALSE}
 example_a_corrected <- read.csv("correctedfile.csv")
@@ -217,6 +230,15 @@ example_a_corrected <- read.csv("correctedfile.csv")
 example_a_refined <-authors_refine(example_a_corrected, 
                                 example_a_clean$prelim)
 ```
+
+b. to save the results as a .csv file:
+
+
+```{r, results="hide"}
+write.csv(example_a_refined,"./output/example_a_refined.csv")
+```
+
+
 
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
