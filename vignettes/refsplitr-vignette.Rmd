@@ -125,6 +125,10 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 
 - **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
 
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). The default value is 0.9; this argument only needs to be included in cases where users want a more stringent or relaxed similarity score threshold for groupID assignment. 
+
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. 10 = the names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.). The default value is 5; this argument only needs to be included in cases where users want to change the default confiedence score threshold (see Appendix 5 for further details). 
+
 
 The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder.    
 
