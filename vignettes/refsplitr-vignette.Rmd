@@ -97,19 +97,24 @@ Once disambiguation is complete, users can accept `refsplitr`'s results without 
 
 #### Example
 
-a. To disambiguate the authors of the references in the dataset and place the "preliminary" and "review" author lists in the "output" folder: 
+a. To disambiguate the authors of the references in the dataset, then view the structure of the resulting output: 
 
 ```{r, results="hide"}
 example_a_clean <- authors_clean(example_refs)
-write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
-write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
-```
+
 
 ```{r}
 str(example_a_clean)
 
 ```
 
+
+b. To save the resulting "preliminary" and "review" author lists in the "output" folder:
+
+```{r, results="hide"}
+#write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
+#write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
+```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/authors_clean_prelim.png") 
@@ -134,18 +139,17 @@ The output of `authors_refine()` is an object in the R Workspace and a .csv file
 
 #### Example
 
-a. To accept the results of author disambiguation **without** manual review (`sim_score` and `confidence` scores = default values): 
+a. To accept the results of author disambiguation **without** manual review (with the default values for `sim_score` and `confidence`): 
 
 ```{r}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation **without** manual review (`sim_score` and `confidence` scores = user modified): 
-authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
+b. To accept the results of author disambiguation **without** manual review (but modifiying the values for `sim_score` and `confidence`): 
 
 ```{r}
-example_a_refined <- authors_refine(example_a_clean$review, 
+example_a_refined_mod <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim, 
                                     sim_score = 0.70, 
                                     confidence = 4)
@@ -210,22 +214,24 @@ knitr::include_graphics("images/corrected_review.png")
 
 Corrections made to the "review" file are merged into the "prelim" file using the `authors_refine()` function. It has four arguments:  
  
-- **corrected**: The corrected version of the "review" object. Must be an object. So read in the the corrected .csv file before using this function.
+- **corrected**: The corrected version of the "review" object. It must be an object, so read in the corrected .csv file before using this function.
 
 - **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
 
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off.
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs (range: 0-1; 1 = names must be identical to be assigned to the same group). By default this is turned off. By default this argument is turned off, and only needs to be included in cases where users want to change the default sim_score value of 0.9 to a more stringent or relaxed threshold for groupID assignment. 
 
-- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.)
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = The name and matched name have no identifying information and therefore we can not be very confident they are the same person. 10 = The names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.) By default this argument is turned off, and only needs to be included in cases where users want to change the default confidence score threshold of 5 to another value (see Appendix 5 for further details). 
+
+
 
 The output of `authors_refine()` is an object in the R Workspace, which can be saved by users as a .csv file in the 'output' folder. 
 
 #### Example
 
-a. To load a corrected "review" file and merge the changes using the default `sim_score` and `confidence` scores: 
+a. To load a corrected "review" file and merge the changes (using the default values for `sim_score` and `confidence`): 
 
 ```{r eval=FALSE}
-example_a_corrected <- read.csv("correctedfile.csv")
+#example_a_corrected <- read.csv("correctedfile.csv")
 
 example_a_refined <-authors_refine(example_a_corrected, 
                                 example_a_clean$prelim)
@@ -235,17 +241,26 @@ b. to save the results as a .csv file:
 
 
 ```{r, results="hide"}
-write.csv(example_a_refined,"./output/example_a_refined.csv")
+#write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
-
-
-
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 knitr::include_graphics("images/AuthorMatch.PNG")
 ``` 
   
 **Figure 7:** `authors_refine()` output.   
+
+
+c. User-selected values for `sim_score` and `confidence` can be used to merge the changes made to the "review" file by adding the two relevant arguments to the `authors_refine()` function:
+
+
+```{r}
+# example_a_refined_mod <- authors_refine(example_a_corrected, 
+#                                    example_a_clean$prelim, 
+#                                     sim_score = 0.70, 
+#                                     confidence = 4)
+```
+
   
 ### 2.3. Georeferencing author institutions 
 
@@ -292,13 +307,18 @@ The data arguments needs to be the output object from `authors_refine()`.
 
 The `plot_addresses_country()` makes a plot whose shading indicates the number of papers with an author based in a given country. There is no fractional authorship, e.g., if an author based in the USA has authored or coauthored 3 papers in the dataset, then the USA will be credited with 3 articles 
 
-The function has one argument:  
+The function has two arguments:  
 
 - **data**: This is the addresses element from the `authors_georef()` object
  
+- **mapRegion**: the portion of the world map to display. By default this argument is turned off and the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","north america","latin america","africa","antarctica","eurasia","uk","oceania","asia"] or individual countries. 
+ 
+
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
 
 #### Example
+
+a. Author records plotted on a world map
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
@@ -306,6 +326,18 @@ plot_addresses_country
 ```
 
 **Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
+
+
+b. Author records plotted on a map of North America.
+
+```{r, echo=FALSE, fig.pos="H", out.width="500px"}
+plot_addresses_country <- plot_addresses_country(example_georef$addresses, mapRegion="north america")
+plot_addresses_country
+```
+
+
+**Figure 9:** Plot of the countries in North America in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
+
 
 #### 2.4.2. World Plots (points)
 
@@ -329,7 +361,7 @@ plot_addresses_points
 #knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
-**Figure 9:** Figure indicating the georefeenced locations of authors in the dataset 
+**Figure 10:** Figure indicating the georefeenced locations of authors in the dataset 
 
 #### 2.4.3. Net Plots (base)
 The `plot_net_coauthor()` function plots a co-authorship network based on the countries in which authors are based. 
@@ -347,7 +379,7 @@ plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
 
-**Figure 10:** Plot of the coauthorship network for authors of articles in the dataset. 
+**Figure 11:** Plot of the coauthorship network for authors of articles in the dataset. 
 
 #### 2.4.4. Net Plots (Country)
 The `plot_net_country()` function plots a coauthorship network of the countries in which co-authors are based that is overlayed on a world map. The circles represent the number of authors based in a country. 
@@ -371,7 +403,7 @@ plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
 
-**Figure 11:** Network showing how the different countries are connected. 
+**Figure 12:** Network showing how the different countries are connected. 
 
 #### 2.4.5. Net Plots (Addresses)
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **Warning:** This function can create a large data set (100s of MB) and may takes several minutes to complete...be patient and take into account the system resources available when running it.  
@@ -393,7 +425,7 @@ plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
 plot_net_address$plot
 ```
 
-**Figure 12:** Plot showing the network between individual author locations.
+**Figure 13:** Plot showing the network between individual author locations.
 
 ## Acknowledgments
 
