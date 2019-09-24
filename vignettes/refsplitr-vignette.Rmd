@@ -322,7 +322,6 @@ a. Author records plotted on a world map
 
 ```{r, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
-plot_addresses_country
 ```
 
 **Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors in each of country. 
@@ -332,7 +331,6 @@ b. Author records plotted on a map of North America.
 
 ```{r, fig.pos="H", out.width="500px"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses, mapRegion="north america")
-plot_addresses_country
 ```
 
 
@@ -496,8 +494,8 @@ Westgate, M. J. (2018). revtools: bibliographic data visualization for evidence 
 # knitr::include_graphics("images/Appendix1b.jpg")
 knitr::include_graphics("images/app1-1.png")
 knitr::include_graphics("images/app1-2.png")
-knitr::include_graphics("images/app1-3.png")
-knitr::include_graphics("images/app1-4.png")
+# knitr::include_graphics("images/app1-3.png")
+# knitr::include_graphics("images/app1-4.png")
 
 ```
 
