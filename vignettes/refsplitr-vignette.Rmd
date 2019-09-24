@@ -52,7 +52,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is an object in the R Workspace and a .csv file in the 'output' folder. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2.
+The output of `references_read()` is an object in the R Workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2). This file is used by `refsplitr` for Step 2. We recommend saving it as a .csv file in the 'output' folder.
 
 
 #### Example
@@ -82,7 +82,7 @@ example_refs <- references_read(data = system.file("extdata",package = "refsplit
 knitr::include_graphics("images/references_read.png")
 ``` 
 
-**Figure 1** A subset of the rows and columns in the .csv output from `references_read()`. 
+**Figure 1** A subset of the rows and columns from the output of `references_read()` (in .csv format). 
 
 ### 2.2. Author address parsing and name disambiguation 
 
@@ -91,7 +91,7 @@ The next step is to identify all unique authors in the dataset and parse their a
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
 
-The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements can also be saved as separate .csv files, e.g., in the output folder in the working directory.  
+The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements can also be saved as separate .csv file, e.g., in the output folder in the working directory.  
 
 Once disambiguation is complete, users can accept `refsplitr`'s results without reviewing names flagged for manual inspection (Section 2.2.1). Alternatively, users can review the subset of names recommended for inspection and make corrections if needed (Section 2.2.2). These corrections are then used to generate the 'refined' dataset used for analyses (Section 2.2.3). 
 
@@ -109,7 +109,7 @@ str(example_a_clean)
 ```
 
 
-b. To save the resulting "preliminary" and "review" author lists in the "output" folder:
+b. To save the resulting "preliminary" and "review" author lists in an "output" folder:
 
 ```{r, results="hide"}
 #write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
@@ -120,7 +120,7 @@ b. To save the resulting "preliminary" and "review" author lists in the "output"
 knitr::include_graphics("images/authors_clean_prelim.png") 
 ``` 
 
-**Figure 2** A subset of the rows and columns in the "Prelim" .csv file output from `authors_clean()`
+**Figure 2** A subset of the rows and columns in the "Prelim" output from `authors_clean()` (in .csv format).
 
 #### 2.2.1. Accepting the results of author disambiguation *without* manual review
 
@@ -135,7 +135,7 @@ Accepting the result of `refsplitr`'s disambiguation algorithm without inspectin
 - **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs (range: 0-10; 0 = the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. 10 = the names have similar information or are unique in some way, we were not able to match them automatically but are very confident that could be the same person.). By default this argument is turned off, and only needs to be included in cases where users want to change the default confidence score threshold of 5 to another value (see Appendix 5 for further details). 
 
 
-The output of `authors_refine()` is an object in the R Workspace and a .csv file in the 'output' folder.    
+The output of `authors_refine()` is an object in the R Workspace. We recommend saving this as a .csv file in the 'output' folder to avoid having to re-load and process files every session. 
 
 #### Example
 
@@ -158,7 +158,7 @@ example_a_refined_mod <- authors_refine(example_a_clean$review,
 
 #### 2.2.2. Reviewing and correcting the results of disambiguation
 
-Users that prefer to manually review the results of name disambiguation can do so by using the output from `authors_refine` and the _review.csv file; for a description of the information provided in these files to assist with verifying name assignments see Appendix 3.
+Users that prefer to manually review the results of name disambiguation can do so by using the output from `authors_refine` and a _review.csv file; for a description of the information provided in these files to assist with verifying name assignments see Appendix 3.
 
 There are two kinds of potential disambiguation errors. First, diffent authors could be incorrectly assigned to the same groupID number. Second, the same author could be incorrectly assigned multiple groupID. If disambiguation errors are found, they are corrected on the _review.csv file as follows:    
 
@@ -494,8 +494,6 @@ Westgate, M. J. (2018). revtools: bibliographic data visualization for evidence 
 # knitr::include_graphics("images/Appendix1b.jpg")
 knitr::include_graphics("images/app1-1.png")
 knitr::include_graphics("images/app1-2.png")
-# knitr::include_graphics("images/app1-3.png")
-# knitr::include_graphics("images/app1-4.png")
 
 ```
 
