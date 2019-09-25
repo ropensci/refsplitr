@@ -26,10 +26,9 @@ The Science of Science (SciSci) is an emerging, trans-disciplinary approach for 
 
 The rapidly increasing size of bibliometric data-sets available to researchers has exacerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task is often extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
-The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., the [University of Florida has facilities statewide](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/), including 12 Research and Education Centers, five research laboratories, 67 county extension offices, and the main campus in Gainesville). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
+The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., the University of Florida has [facilities statewide](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/), including 12 Research and Education Centers, five research laboratories, 67 county extension offices, and the main campus in Gainesville). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
 Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for analysis with user-written code or, after some additional formatting, packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
-
 
 ## 2. Using refsplitr
 
@@ -44,15 +43,15 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 
 ### 2.1. Importing Search Results 
 
-The `refsplitr` package can either import a single Web of Science search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw'. Importing reference records is done with the `references_read()` function, which has three required arguments:  
+The `refsplitr` package can either import a single Web of Science search result file or combine and import multiple files located in the same directory. The acceptable file formats are '.txt' and '.ciw' (Appendix 1). Importing reference records is done with the `references_read()` function, which has three arguments:  
 
-- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., the 'data' folder in the working directory), the absolute file name or relative file paths can be used. **[required argument]** 
+- **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., the 'data' folder in the working directory), the absolute file name or relative file paths can be used. 
 
-- **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refsplitr` identifies and removes any duplicate reference records. **[required argument]**
+- **dir**: =FALSE when loading a single file, =TRUE when loading multiple files. When multiple files are processed `refsplitr` identifies and removes any duplicate reference records.
 
-- **filename_root**: The location in which the output file is to be saved (e.g., the "output" folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. **[required argument]**
+- **include_all**: Default=FALSE; 'include_all=TRUE' will import all fields from the WOS record. For a list of the additional fields that would be uploaded see Appendix 2. 
 
-The output of `references_read()` is an object in the R Workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
+The output of `references_read()` is an object in the R workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
 
 
 #### Example
@@ -89,55 +88,55 @@ The next step is to identify all unique authors in the dataset and parse their a
 
 - **references**: The object created by `references_read()`, from which author names will be extracted. Any previously generated output from `references_read()` that has been saved to an object can be used.
 
-The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the initial list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements can also be saved as separate .csv file, e.g., in the output folder in the working directory.  
+The output of `authors_clean()` is a list in the R workspace with two elements: (1) "prelim", which is the preliminary list of disambiguated author names, and (2) "review", which is the subset of authors with putative name variants suggested for verification. Each of these elements can be saved as a separate .csv file; the examples below assume they have been saved in the "output" folder.  
 
-Once disambiguation is complete, users can accept `refsplitr`'s 'prelim' results without reviewing the names flagged for manual inspection and generate the 'refined' dataset used for analyses (Section 2.2.1). Alternatively, users can inspect the subset of names recommended for 'review', make any necessary corrections (Section 2.2.2), and upload the corrections to create the 'refined' dataset (Section 2.2.3). 
+Once disambiguation is complete, users can accept `refsplitr`'s preliminary results and generate the 'refined' dataset used for analyses (Section 2.2.1). Alternatively, users can inspect the subset of names recommended by by `refsplitr` for review, make any corrections necessary (Section 2.2.2), and upload the corrections to create the 'refined' dataset (Section 2.2.3). 
 
 #### Example
 
-a. To disambiguate the authors of the references in the dataset, then view the structure of the resulting output: 
+a. To disambiguate the authors of the references in the dataset: 
 
 ```{r, results="hide"}
 example_a_clean <- authors_clean(example_refs)
 ```
 
-b. To save the resulting 'prelim' and 'review' author lists as .csv files in the "output" folder:
+b. To save the resulting list elements -- 'prelim' and 'review' --  in the "output" folder as .csv files:
 
 ```{r, results="hide"}
-#write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
-#write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
+# write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
+# write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/authors_clean_prelim.png") 
 ``` 
 
-**Figure 2** A subset of the .csv file showing the rows and columns in the "Prelim" output from `authors_clean()`.
+**Figure 2** A subset of the .csv file showing the rows and columns in the 'prelim' output from `authors_clean()`.
 
 #### 2.2.1. Accepting the results of author disambiguation *without* manual review
 
-Accepting the result of `refsplitr`'s disambiguation algorithm without inspecting names flagged for review is done with the `authors_refine()` function. It has four arguments, two of which only need to be included if changing the default settings:  
+Accepting the result of `refsplitr`'s disambiguation algorithm without inspecting names flagged for review is done with the `authors_refine()` function. It has four arguments:  
  
-- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object. **[required argument]**
+- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object. 
 
-- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object. **[required argument]**
+- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
 
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs; by default this argument is turned off and  only needs to be included in cases where users want to change the default sim_score value to a more stringent or relaxed threshold for groupID assignment. The range of sim_score is 0-1, with 1 = names must be identical to be assigned to the same group. The default sim_score = 0.9. **[optional argument]**
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. The range of sim_score is 0-1 (1 = names must be identical to be assigned to the same group). *This argument is optional, if not included the function will use a default sim_score = 0.9.*
 
-- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs; by default this argument is turned off and only needs to be included in cases where users want to change the default confidence threshold to another value. The range of 'confidence' is 0-10. A score of 0 indicates the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. A score of 10 indicates the names have similar information or are unique in some way, and while we were not able to match them automatically we are very confident that could be the same person (see Appendix 5 for further details). The defult value of 'confidence' = 5. **[optional argument]**
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs. The range of 'confidence' is 0-10 (0 = the name and matched name have no identifying information, and therefore confidence they are the same person is low. 10 = the names have similar information or are unique in some way, and while not matched automatically confidence they are the same person is very high; see Appendix 5 for further details). *This argument is optional, if not included the function will use a default  'confidence' = 5.*
 
-The output of `authors_refine()` is an object in the R Workspace. We recommend saving this as a .csv file in the "output" folder to avoid having to re-load and process files every session. 
+The output of `authors_refine()` is an object in the R workspace. We recommend saving this as a .csv file in the "output" folder to avoid having to re-load and process files every session. 
 
 #### Example
 
-a. To accept the results of author disambiguation **without** manual review (default values for `sim_score` and `confidence`): 
+a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
 
 ```{r}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation **without** manual review (user-modified values for `sim_score` and `confidence`): 
+b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
 
 ```{r}
 example_a_refined_mod <- authors_refine(example_a_clean$review, 
@@ -149,7 +148,7 @@ example_a_refined_mod <- authors_refine(example_a_clean$review,
 c. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder:  
 
 ```{r, results="hide"}
-#write.csv(example_a_refined,"./output/example_a_refined.csv")
+# write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
 #### 2.2.2. Reviewing and correcting the results of disambiguation
@@ -162,11 +161,11 @@ There are two kinds of potential disambiguation errors. First, diffent authors c
 
 These corrections are uploaded using the ```authors_refine()``` function, which then generates the 'refined' dataset used in analyses (see Section 2.2.3).
 
-**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these rare errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. *We strongly recommend using [code we have written to streamline the process of reviewing the output of ```authors_refine()```](https://github.com/embruna/refsplitr_simplify_authors_review).* This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the _review.csv file as described above.
+**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these rare errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. **We strongly recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```**. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file.
 
 #### Example
 
-Figure 3 is an example of the the first few rows and columns of the review element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the match_name column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
+Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/review_file.png") 
@@ -174,7 +173,7 @@ knitr::include_graphics("images/review_file.png")
 
 **Figure 3:** First rows and columns from the review element of `authors_clean()`
 
-A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
+A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID number 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/grouped_should_not_be.png")
@@ -196,19 +195,19 @@ Once these corrections have been made (Figure 6) and saved, the changes can be i
 knitr::include_graphics("images/corrected_review.png") 
 ``` 
 
-**Figure 6:** Corrected review element of `authors_clean()`.
+**Figure 6:** Corrected version of the 'review' element from `authors_clean()`.
 
 #### 2.2.3. Uploading and merging the results of disambiguation
 
-Corrections made to the "review" file are merged into the "prelim" file using the `authors_refine()` function. It has four arguments, two of which only need to be included if changing the default settings:  
+Corrections made to the "review" file are merged into the "prelim" file using the `authors_refine()` function. It has four arguments:  
  
-- **corrected**: The corrected version of the "review" object. It must be an object, so read in the corrected .csv file before using this function. **[required argument]**
+- **corrected**: The corrected version of the "review" object. It must be an object, so read in the corrected .csv file before using this function.
 
-- **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object. **[required argument]**
+- **prelim**: The preliminary list of disambiguated author names created with `authors_clean()`. Must be in an object.
 
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs; by default this argument is turned off and  only needs to be included in cases where users want to change the default sim_score value to a more stringent or relaxed threshold for groupID assignment. The range of sim_score is 0-1, with 1 = names must be identical to be assigned to the same group. The default sim_score = 0.9. **[optional argument]**
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs. The range of sim_score is 0-1 (1 = names must be identical to be assigned to the same group). *This argument is optional, if not included the function will use a default sim_score = 0.9.*
 
-- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs; by default this argument is turned off and only needs to be included in cases where users want to change the default confidence threshold to another value. The range of 'confidence' is 0-10. A score of 0 indicates the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. A score of 10 indicates the names have similar information or are unique in some way, and while we were not able to match them automatically we are very confident that could be the same person (see Appendix 5 for further details). The defult value of 'confidence' = 5. **[optional argument]**
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs. The range of 'confidence' is 0-10 (0 = the name and matched name have no identifying information, and therefore confidence they are the same person is low. 10 = the names have similar information or are unique in some way, and while not matched automatically confidence they are the same person is very high; see Appendix 5 for further details). *This argument is optional, if not included the function will use a default  'confidence' = 5.*
 
 The output of `authors_refine()` is an object in the R workspace, which can be saved by users as a .csv file in the "output" folder. 
 
@@ -246,25 +245,25 @@ c. User-selected values for `sim_score` and `confidence` can be used to merge th
 
 ### 2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two required arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two arguments:  
 
-- **data**: The output created by `authors_refine()`. Must be an object. **[required argument]**
+- **data**: The output created by `authors_refine()`. Must be an object. 
 
-- **address_column**: A quoted character identifying the column name in which addresses are stored. This defaults to the `address` column from the `authors_refine()` output. **[required argument]**
+- **address_column**: A quoted character identifying the column name in which addresses are stored. This defaults to the `address` column from the `authors_refine()` output. 
 
 The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. 
 
-- **WARNINGS**: 
+#### **WARNINGS**: 
 
-- (1)  The `authors_georef()`function requires address be data type = character. If importing a .csv file with the results of `authors_refine()` for processing with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
+(1)  The `authors_georef()` function requires address be data type = character. If importing a .csv file with the results of `authors_refine()` for processing with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
 
-- (2) The `authors_georef()`function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [http://www.datasciencetoolkit.org/](Datascience Toolkit). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
+(2) The `authors_georef()` function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [Data Science Toolkit](http://www.datasciencetoolkit.org/). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
 
-- (3) This version of `refsplitr` (v1.0) has difficulty differentiating between some geographically distinct installations of the same institution (e.g. the Mississippi State University Main Campus in Starkville vs the Mississippi State University Coastal Research and Extension located 250 miles away in Biloxi). 
+(3) This version of `refsplitr` (v1.0) has difficulty differentiating between some geographically distinct installations of the same institution (e.g. the Mississippi State University Main Campus in Starkville vs the Mississippi State University Coastal Research and Extension located 250 miles away in Biloxi). 
 
 #### Example
 
-a. georeferencing author institutions:
+a. to georeference author institutions:
 
 ```{r, results="hide"}
 example_georef <-suppressMessages(
@@ -275,19 +274,17 @@ example_georef <-suppressMessages(
 
 ### 2.4. Data Visualization: Productivity and Collaboration 
 
-`refsplitr` can generate five visualizations of productivity and collaboration. Two of these are **"World Plots"**, which indicate how many authors are based in different countries (function `plot_addresses_country()`) or the geographic locations of individual authors (function `plot_addresses_points()`). The other three are **"Net Plots"**, which are different ways of visualizing co-authorship networks (functions `plot_net_coauthor()`, `plot_net_country()`, and `plot_net_address()`). **WARNING**: The time required to render these plots is highly dependent on the number of authors in the dataset and the processing power of the computer on which analyses are being carried out. 
-
-The function `plot_addresses_country()` uses the `rworldmap` package. The functions `plot_addresses_points()`, `plot_net_address()`, and `plot_net_country()` use the `ggplot2` package. The function `plot_net_coauthor()` uses the `igraph` package. Advanced users of these packages can customize the visualizations to suit their needs.  
-
-#### 2.4.1. World Plot 1: Authors per country.
-
-The `plot_addresses_country()` makes a plot whose shading of each country indicates the number of papers with an author based there. There is no fractional authorship, e.g., if an author based in the USA has authored or coauthored 3 papers in the dataset, then the USA will be credited with 3 articles.
-
-The function has two arguments, one of which only needs to be included if mapping a specific region of the world:  
-
-- **data**: The addresses element from the `authors_georef()` object. **[required argument]**
+`refsplitr` can generate five visualizations of scientific productivity and couthorship. The functions that generate these visualization use packages `rworldmap` (No. 1), `ggplot2` (Nos. 2,4,and 5), and `igraph` (No. 3). Advanced users of these packages can customize the visualizations to suit their needs.  **WARNING**: The time required to render these plots is highly dependent on the number of authors in the dataset and the processing power of the computer on which analyses are being carried out. 
  
-- **mapRegion**: the portion of the world map to display; by default the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]. **[optional argument]**
+#### 2.4.1. Visualization 1: Authors per country.
+
+The `plot_addresses_country()` makes a map whose shading of each country indicates the number of papers in the daraset written by authors based there. Note that there is no fractional authorship, e.g., if a paper is written by a team of authors based in the USA, Brazil, and Belgium, then that publication will count as one paper towards the total for each of these countries.
+
+The function has two arguments:  
+
+- **data**: The 'addresses' element from the `authors_georef()` object.
+ 
+- **mapRegion**: the portion of the world map to display. Users can modify this argument to display the data on maps of either the entire world or focus on an individual region [options - "world","North America","South America", "Australia","Africa", "Antarctica", "Eurasia"]. *This argument is optional, if not included the function will use the world map as the default.*
  
 The output of `plot_addresses_country()` is plot from the `rworldmap` package. 
 
@@ -311,27 +308,28 @@ plot_addresses_country <- plot_addresses_country(example_georef$addresses, mapRe
 
 **Figure 9:** Plot of the countries in North America in which the authors in the dataset are based, with shading to indicate the number of authors based in each of country. 
 
-
-#### 2.4.2. World Plots 2: Author locations
+#### 2.4.2. Visualization 2: Author locations
 
 The `plot_addresses_points()` function plots the geographic location of all authors in the dataset. 
 
 The function has two argument, one of which only needs to be included if mapping a specific region of the world:
 
-- **data**: This is the addresses element from the `authors_georef()` object. **[required argument]**
+- **data**: This is the 'addresses' element from the `authors_georef()` object. 
 
-- **mapCountry**: the specific country whose records to display; by default the results are ploted on a map of the entire world. Users can modify this argument to display a specific country [e.g., "USA","Brazil","Nigeria"]. **[optional argument]**
+- **mapCountry**: Users can modify this argument to display the data on either a map of the entire world or focus on a specific country [e.g., "USA","Brazil","Nigeria"]. *This argument is optional, if not included the function will use the world map as the default.*
 
 The output of `authors_georef()` is a ggplot object. 
 
 #### Example
 
+a. Mapped location of author institutions (global).
 
 ```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
 plot_addresses_points
 ```
 
+b. Mapped location of author institutions (national).
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
 #knitr::include_graphics("images/plot_addresses_points.png")
@@ -339,26 +337,25 @@ plot_addresses_points
 
 **Figure 10:** Figure indicating the georefeenced locations of authors in the dataset 
 
-
-
 ```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses, mapCountry = "Brazil")
 plot_addresses_points
 ```
 
-
 **Figure 11:** Figure indicating the georefeenced locations of authors in the dataset with institutional addresses in Brazil. 
 
-#### 2.4.3. Net Plots 1: Base coauthorship network
+#### 2.4.3. Visualization 3: Base coauthorship network
 The `plot_net_coauthor()` function plots a co-authorship network in which the nodes are the countries in which authors are based. 
 
 The function has one argument:  
 
-- **data**: This is the addresses element of the `authors_georef()` object. **[required argument]**
+- **data**: This is the 'addresses' element of the `authors_georef()` object.
 
 This function has one output, a plot, built in `igraph`.
 
 #### Example
+
+a. Coauthorship networked based on the country in which coauthors are based.
 
 ```{r, fig.pos="H", out.width="500px"}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
@@ -367,19 +364,18 @@ plot_net_coauthor
 
 **Figure 12:** Plot of the coauthorship network for authors of articles in the dataset. 
 
-#### 2.4.4. Net Plots 2: Mapped Coauthorships by Author Country 
+#### 2.4.4. Visualization 4: Mapped Coauthorships by Author Country 
 The `plot_net_country()` function plots a georeferenced coauthorship network in which the nodes are the countries in which co-authors are based. The size of the circle for each country is scaled by the number of authors based in that country. 
 
-The function has four arguments, three of which only need to be included if changing the default settings:  
+The function has four arguments:  
 
-- **data**: This is the addresses element from the `authors_georef()` object. **[required argument]** 
+- **data**: This is the 'addresses' element from the `authors_georef()` object.
 
-- **lineResolution** the resolution of the lines drawn; the default value is set to = 10. Higher values will make smoother curves. **[optional argument]**
+- **lineResolution** the resolution of the lines drawn between countries; higher values will plot smoother curves. *This argument is optional, if not included the function will use a default value = 10.* 
 
-- **mapRegion**: the portion of the world map to display; by default the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]. **[optional argument]**
+- **mapRegion**: the portion of the world map to display. Users can modify this argument to display the data on maps of either the entire world or focus on an individual region [options - "world","North America","South America", "Australia","Africa", "Antarctica", "Eurasia"]. *This argument is optional, if not included the function will use the world map as the default.*
 
-- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency). The default value set to = 0.5. **[optional argument]**
-
+- **lineAlpha**: The transparency of the lines connecting countries. Values can range from 0-1, with lower values making line more transparent.  *This argument is optional, if not included the function will use a default value = 0.5.*
 
 The output of `plot_net_country()` is a list in the R workspace. The `$plot` element contains a ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
@@ -391,7 +387,8 @@ The output of `plot_net_country()` is a list in the R workspace. The `$plot` ele
 
 #### Example
 
-a. Countries connected by coauthors
+a. Mapped coauthorship network based on the countries in which authors are based.
+
 ```{r fig.pos="H", out.width="500px"}
 plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
@@ -408,26 +405,29 @@ plot_net_country$plot
 **Figure 14:** Map showing the coauthorship connections between countries in a specific region.
 
 
-#### 2.4.5. Net Plots 3: Mapped Coauthorships by Author Address
+#### 2.4.5. Visualization 5: Mapped Coauthorships by Author Address
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **WARNING:** This function can create a large data set (i.e., 100s of MB) and may takes several minutes to complete. Take into account the system resources available when running it, and be patient!  
 
 The function has four arguments, three of which only need to be included if changing the default settings:  :  
 
-- **data**: This is the addresses element from the `authors_georef()` output. **[required argument]**
+- **data**: This is the addresses element from the `authors_georef()` output. 
 
-- **mapRegion**: the portion of the world map to display; by default the results are ploted on a map of the entire world. Users can modify this arrgument to display other world regions ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]. **[optional argument]**
+- **mapRegion**: the portion of the world map to display. Users can modify this argument to display the data on maps of either the entire world or focus on an individual region [options - "world","North America","South America", "Australia","Africa", "Antarctica", "Eurasia"]. *This argument is optional, if not included the function will use the world map as the default.*
 
-- **lineResolution** the resolution of the lines drawn. The default value is = 10; higher values will make smoother curves. **[optional argument]**
+- **lineResolution** the resolution of the lines drawn between countries; higher values will plot smoother curves. *This argument is optional, if not included the function will use a default value = 10.* 
 
-- **lineAlpha**: This controls the transparency of the lines connecting coauthors (range: 0-1, with lower values increasing the transparency). The default value is set to = 0.5. **[optional argument]**
+- **lineAlpha**: The transparency of the lines connecting countries. Values can range from 0-1, with lower values making line more transparent.  *This argument is optional, if not included the function will use a default value = 0.5.*
 
-The output of `plot_net_address()` is a list in the R Workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
+The output of `plot_net_address()` is a list in the R workspace. The `$plot` element contains ggplot object. Because the ability to customize `$plot` is limited, three datasets are provided so that users can generate and customize their own plots:
 
 1. The `$data_path` element contains the data for the connecting lines. 
 2. The `$data_polygon` element contains the data for the country outlines.
 3. The `$data_point` element contains the data for the circles on the map. 
 
 #### Example
+
+a. Coauthorship network based on the geographic locations of coauthor institutions.
+
 ```{r, fig.pos="H", out.width="500px"}
 plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
 plot_net_address$plot
