@@ -28,9 +28,6 @@ The rapidly increasing size of bibliometric data-sets available to researchers h
 
 The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., the [University of Florida has facilities statewide](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/), including 12 Research and Education Centers, five research laboratories, 67 county extension offices, and the main campus in Gainesville). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
-
-
-
 Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for analysis with user-written code or, after some additional formatting, packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
 
@@ -43,7 +40,7 @@ Appendix 1 provides guidance on downloading records from the Web of Science in t
 3. georeferencing of author institutions (Section 2.3)
 4. data visualization (Section 2.4)
 
-**Learning to use `refspliter` with the examples below:** The examples below use the dataset 'example_data.txt' included with the `refsplitr` package. To use them, (1) create two folders in the working directory or Rstudio project: one named 'data', and one named 'output'. (2) Save the sample data 'example_data.txt' file in the 'data' folder. This is the same folder structure we recommend for saving and processing your own WOS output files.
+**Learning to use `refspliter` with the examples below:** The examples below use the dataset 'example_data.txt' included with the `refsplitr` package. To use them, (1) create two folders in the working directory or Rstudio project: one named "data", and one named "output". (2) Save the sample data 'example_data.txt' file in the 'data' folder. This is the same folder structure we recommend for saving and processing your own WOS output files.
 
 ### 2.1. Importing Search Results 
 
@@ -53,9 +50,9 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **dir**: TRUE when loading multiple files; FALSE when loading a single file. When multiple files are processed `refsplitr` identifies and removes any duplicate reference records.
 
-- **filename_root**: The location in which the output file is to be saved (e.g., the 'output' folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
+- **filename_root**: The location in which the output file is to be saved (e.g., the "output" folder in the working directory) and the prefix used to name it. If you do not want to write a file leave this field blank. 
 
-The output of `references_read()` is an object in the R Workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (identified by the [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes for different data types (Appendix 2)). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the 'output' folder.
+The output of `references_read()` is an object in the R Workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
 
 
 #### Example
@@ -130,16 +127,16 @@ knitr::include_graphics("images/authors_clean_prelim.png")
 
 Accepting the result of `refsplitr`'s disambiguation algorithm without inspecting names flagged for review is done with the `authors_refine()` function. It has four arguments, two of which only need to be included if changing the default settings:  
  
-- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object.
+- **review**: The names proposed for manual review by `authors_clean()`. Must be in an object. **[required argument]**
 
-- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object.
+- **prelim**: The preliminary file of disambiguated author names created with `authors_clean()`. Must be an object. **[required argument]**
 
-- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs; by default this argument is turned off and  only needs to be included in cases where users want to change the default sim_score value to a more stringent or relaxed threshold for groupID assignment. The range of sim_score is 0-1, with 1 = names must be identical to be assigned to the same group. The default sim_score = 0.9. 
+- **sim_score**: The threshold for the similarity score below which authors are assigned different groupIDs; by default this argument is turned off and  only needs to be included in cases where users want to change the default sim_score value to a more stringent or relaxed threshold for groupID assignment. The range of sim_score is 0-1, with 1 = names must be identical to be assigned to the same group. The default sim_score = 0.9. **[optional argument]**
 
-- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs; by default this argument is turned off and only needs to be included in cases where users want to change the default confidence threshold to another value. The range of 'confidence' is 0-10. A score of 0 indicates the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. A score of 10 indicates the names have similar information or are unique in some way, and while we were not able to match them automatically we are very confident that could be the same person (see Appendix 5 for further details). The defult value of 'confidence' = 5. 
+- **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs; by default this argument is turned off and only needs to be included in cases where users want to change the default confidence threshold to another value. The range of 'confidence' is 0-10. A score of 0 indicates the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. A score of 10 indicates the names have similar information or are unique in some way, and while we were not able to match them automatically we are very confident that could be the same person (see Appendix 5 for further details). The defult value of 'confidence' = 5. **[optional argument]**
 
 
-The output of `authors_refine()` is an object in the R Workspace. We recommend saving this as a .csv file in the 'output' folder to avoid having to re-load and process files every session. 
+The output of `authors_refine()` is an object in the R Workspace. We recommend saving this as a .csv file in the "output" folder to avoid having to re-load and process files every session. 
 
 #### Example
 
@@ -224,7 +221,7 @@ Corrections made to the "review" file are merged into the "prelim" file using th
 
 - **confidence**: The threshold for the confidence score below which authors are assigned different groupIDs; by default this argument is turned off and only needs to be included in cases where users want to change the default confidence threshold to another value. The range of 'confidence' is 0-10. A score of 0 indicates the name and matched name have no identifying information, and therefore we can not be very confident they are the same person. A score of 10 indicates the names have similar information or are unique in some way, and while we were not able to match them automatically we are very confident that could be the same person (see Appendix 5 for further details). The defult value of 'confidence' = 5. 
 
-The output of `authors_refine()` is an object in the R workspace, which can be saved by users as a .csv file in the 'output' folder. 
+The output of `authors_refine()` is an object in the R workspace, which can be saved by users as a .csv file in the "output" folder. 
 
 #### Example
 
