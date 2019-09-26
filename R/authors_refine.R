@@ -14,15 +14,15 @@
 #' @examples 
 #' ## Example assumes the disambiguation results from authors <- authors_clean(BITR)
 #' ## are saved to the R environment as dataframe:
-#' ## preview_df <- authors$review, 
-#' ## prelim_df <- authors$prelim
+#' ## BITR_preview_df <- BITR_authors$review, 
+#' ## BITR_prelim_df <- BITR_authors$prelim
 #' 
 #' ## If accepting the preliminary disambiguation from authors_clean without review:
 #' refine_df <- authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
 #' 
 #' ## Note that 'sim_score' and 'confidence' are optional arguments and are only 
 #' ## required if changing the default values. 
-#' refine_df <- authors_refine(review_df, prelim_df)
+#' BITR_refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
 #' 
 #' 
 #' ## If changes were made to groupID or authorID in the "_review.csv" file: 
@@ -32,7 +32,7 @@
 #' 
 #' ## Note that 'sim_score' and 'confidence' are optional arguments and are only 
 #' ## required if changing the default values. 
-#' refine_df <- authors_refine(corrected_df, prelim_df)
+#' BITR_refine_df <- authors_refine(BITR_corrected_df, BITR_prelim_df)
 #'
 #' @export authors_refine
 #' 
