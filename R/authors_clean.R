@@ -4,7 +4,7 @@
 #' Information on addresses, emails, ORCIDs, etc are matched.
 #' It then attempts to match same author entries together into likely author groups based on common full names, addresses, emails, ORCIDs etc.
 #' 
-#' Records that are not matched this way have a jaro winkler similiarty analysis metric calculated
+#' Records that are not matched this way have a Jaro-Winkler similiarty analysis metric calculated
 #' for all possible matching author names.
 #' This calculates the amount of character similarities based on distance of similar character.
 #' 
@@ -12,7 +12,7 @@
 #' @importFrom RecordLinkage jarowinkler
 #' @examples 
 #' 
-#' Load the refnet sample dataset "BITR" 
+#' ## Load the refnet sample dataset "BITR" 
 #' data(BITR)
 #'  
 #' BITR_clean <- authors_clean(BITR)
