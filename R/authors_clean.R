@@ -12,7 +12,7 @@
 #' @importFrom RecordLinkage jarowinkler
 #' @examples 
 #' 
-#' # Load the refnet sample dataset "BITR" 
+#' Load the refnet sample dataset "BITR" 
 #' data(BITR)
 #'  
 #' BITR_clean <- authors_clean(BITR)
