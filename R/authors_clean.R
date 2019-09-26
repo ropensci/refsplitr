@@ -11,10 +11,8 @@
 #' @param references output from \code{references_read}
 #' @importFrom RecordLinkage jarowinkler
 #' @examples 
-#' 
-#' ## Load the refnet sample dataset "BITR" 
-#' data(BITR)
-#'  
+#' ## Load the refsplitr sample dataset "BITR" 
+#' data(BITR) 
 #' BITR_clean <- authors_clean(BITR)
 #' @export authors_clean
 #' 
