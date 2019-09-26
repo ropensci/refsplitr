@@ -7,8 +7,8 @@
 #' the `authors_georef()`` function, containing geocoded address 
 #' latitude and longitude locations.
 #' @examples 
-#' data(BITR_geocode)
-#' plot_net_coauthor(BITR_geocode)
+#' ## Using the output of authors_georef (e.g., BITR_georef_df)
+#' plot_net_coauthor(BITR_georef_df)
 #' @export plot_net_coauthor
 #' 
 plot_net_coauthor <- function(data) {

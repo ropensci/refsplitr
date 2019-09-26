@@ -8,16 +8,16 @@
 #' use \code{data(countries) to see possible names}. No value defaults to the world map.
 #' 
 #' @examples
-#' data(BITR_geocode)
+#' ## Using the output of authors_georef (e.g., BITR_georef_df)
 #' 
 #' ## Plots the whole world
-#' plot_addresses_points(BITR_geocode)
+#' plot_addresses_points(BITR_georef_df)
 #' 
 #' ## mapCountry names can be querried using:
 #' data(countries)
 #' 
-#' ## Just select the United States
-#' plot_addresses_points(BITR_geocode, mapCountry = 'USA')
+#' ## Plot only Brazil
+#' plot_addresses_points(BITR_georef_df, mapCountry = 'Brazil')
 #' 
 #' @export plot_addresses_points 
 #' 

@@ -11,17 +11,23 @@
 #' default is 10. 
 #' @param lineAlpha transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.
 #' @examples 
-#' data(BITR_geocode)
+#' ## Using the output of authors_georef (e.g., BITR_georef_df)
 #' 
 #' ## Plots the whole world
-#' output <- plot_net_address(BITR_geocode)
+#' output <- plot_net_address(BITR_georef_df)
 #' 
 #' ## Just select North America
-#' output <- plot_net_address(BITR_geocode, mapRegion = 'North America')
+#' output <- plot_net_address(BITR_georef_df, mapRegion = 'North America')
 #' 
-#' ## Change the transparency of lines by modifying the alpha parameter
-#' plot_net_address(BITR_geocode, mapRegion = 'North America',
-#'                  lineAlpha = 0.2 )$plot
+#' ## Change the transparency of lines by modifying the lineAlpha parameter
+#' output <- plot_net_address(BITR_georef_df, lineAlpha = 0.2)
+#'                  
+#' ## Change the curvature of lines by modifying the lineResolution paramater
+#' output <- plot_net_address(BITR_georef_df, lineResolution = 30 )
+#'                  
+## With all arguments: 
+#' output <- plot_net_address(BITR_georef_df, mapRegion = 'North America', lineAlpha = 0.2,
+#'                  lineResolution = 30)
 #' 
 #' 
 #' @export plot_net_address
