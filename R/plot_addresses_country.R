@@ -37,6 +37,19 @@ plot_addresses_country <- function(data,
     country_name
   )
 
+  country_name <- ifelse(
+    country_name == "wales",
+    "united kingdom",
+    country_name
+  )
+  
+  country_name <- ifelse(
+    country_name == "north ireland",
+    "united kingdom",
+    country_name
+  )
+  
+  
   country_name_table <- as.data.frame(table(country_name))
 
   mapdata <- rworldmap::joinCountryData2Map(country_name_table,

@@ -43,7 +43,8 @@ plot_net_country <- function(data,
   lineAlpha = 0.5) {
 
   data <- data[!is.na(data$country), ]
-  data$country[data$country %in% c('england', 'scotland')] <- 'united kingdom'
+  data$country[data$country %in% c('england', 'scotland', 'wales', 'north ireland')] <- 'united kingdom'
+  data$country[data$country %in% c('peoples r china')] <- 'china'
   ## 	we could use a sparse matrix representation:
 
   linkages <- Matrix::spMatrix(
