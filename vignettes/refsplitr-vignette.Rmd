@@ -26,7 +26,7 @@ The Science of Science (SciSci) is an emerging, trans-disciplinary approach for 
 
 The rapidly increasing size of bibliometric data-sets available to researchers has exacerbated two major and persistent challenges in SciSci research. The first of these is **Author Name Disambiguation**. Correctly identifying the authors of a research product is fundamental to bibliometric research, as is the ability to correctly attribute to a given author all of their scholarly output. However, this seemingly straightforward task is often extremely complicated, even when using the nominally high-quality data extracted from bibliometric databases (reviewed in Smalheiser and Torvik 2009). The most obvious case is when different authors have identical names, which can be quite common in some countries (Strotmann et al. 2009). However, confusion might also arise as a result of journal conventions or individual preferences for abbreviating names. For instance, one might conclude "J. C. Smith", "Jennifer C. Smith", and "J. Smith" are different authors, when in fact they are the same person. In contrast, papers by "E. Martinez" could have been written by different authors with the same last name but whose first names start with the same letter (e.g., "Enrique", "Eduardo"). Failure to disambiguate author names can seriously undermine the conclusions of some SciSci studies, but manually verifying author identity quickly becomes impractical as the number of authors or papers in a dataset increases. 
 
-The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., the University of Florida has [facilities statewide](https://research.ifas.ufl.edu/main-menu-tab/about-us/research-facilities/), including 12 Research and Education Centers, five research laboratories, 67 county extension offices, and the main campus in Gainesville). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
+The second challenge to working with large bibliometric data-sets is correctly **parsing author addresses**. The structure of author affiliations is complex and idiosyncratic, and journals differ in the information they require authors to provide and the way in which they present it. Authors may also represent affiliations in different ways on different articles. For instance, the affiliations might be written in different ways in different journals (e.g., "Dept. of Biology", "Department of Biology", "Departamento de Biologia"). The same is true of the institution's name ("UC Davis", "University of California-Davis","University of California") or the country in which it is based ("USA", "United States", "United States of America"). Researchers at academic institutions might include the one or more Centers, Institutes, Colleges, Departments, or Programs in their address, and researchers working for the same institution could be based at units in geographically disparate locations (e.g., University of Florida  researchers could be based at the main campus in Gainesville or one of dozens of facilities across the state, including 12 Research and Education Centers, 5 field stations, and 67 County Extension Offices). Finally, affiliations are recorded in a single field of a reference's bibliographic record, despite comprising very different types of information (e.g., city, postal code, institution). In concert, these factors can make it challenging to conduct analyses for which author affiliation or location is of particular interest.     
 
 Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users of the R statistical computing environment (R Core Team 2017) address these challenges. It imports and organizes the output from Web of Science searches, disambiguates author names and suggests which might need additional scrutiny, parses author addresses, and georeferences authors' institutions. It also maps author locations and coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for analysis with user-written code or, after some additional formatting, packages such as [**`revtools`**](https://cran.r-project.org/web/packages/revtools/index.html) (Westgate 2018) or [**`bibliometrix`**](https://cran.r-project.org/web/packages/bibliometrix/index.html) (Aria & Cuccurullo 2017).
 
@@ -34,10 +34,10 @@ Package [**`refsplitr`**](https://CRAN.R-project.org/package=XXXXX) helps users 
 
 Appendix 1 provides guidance on downloading records from the Web of Science in the proper format for use in `refsplitr`.  Once bibliographic records have been downloaded, the `refsplitr` package's tools are applied in four steps:   
 
-1. importing and tidying reference records (Section 2.1)
-2. author name disambiguation and parsing of author addresses (Section 2.2)
-3. georeferencing of author institutions (Section 2.3)
-4. data visualization (Section 2.4)
+1. Importing and tidying reference records (Section 2.1)
+2. Author name disambiguation and parsing of author addresses (Section 2.2)
+3. Georeferencing of author institutions (Section 2.3)
+4. Data visualization (Section 2.4)
 
 **Learning to use `refspliter` with the examples below:** The examples below use the dataset 'example_data.txt' included with the `refsplitr` package. To use them, (1) create two folders in the working directory or Rstudio project: one named "data", and one named "output". (2) Save the sample data 'example_data.txt' file in the 'data' folder. This is the same folder structure we recommend for saving and processing your own WOS output files.
 
@@ -47,33 +47,45 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **data**: The location of the directory in which the Web of Science file(s) are located. If left blank it assumes the files are in the working directory. If in a different directory (e.g., the 'data' folder in the working directory), the absolute file name or relative file paths can be used. 
 
-- **dir**: =FALSE when loading a single file, =TRUE when loading multiple files. When multiple files are processed `refsplitr` identifies and removes any duplicate reference records.
+- **dir**: when loading a single file dir=FALSE, when loading multiple files dir=TRUE. If multiple files are processed `refsplitr` will identify and remove any duplicate reference records.
 
-- **include_all**: Default=FALSE; 'include_all=TRUE' will import all fields from the WOS record. For a list of the additional fields that would be uploaded see Appendix 2. 
+- **include_all**: Setting 'include_all=TRUE' will import all fields from the WOS record (see Appendix 2). The defailt is 'include_all=FALSE'.
 
 The output of `references_read()` is an object in the R workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
 
 
 #### Example
 
-a. To import and process a single file, set dir=FALSE and set data equal to the file path, here reading in a small example dataset:
+a. To import and process a single file, set dir=FALSE and set data equal to the file path. For example, if the file "example_data.txt" were saved in the "data" folder of the RStudio project, you would import and process the data file as follows: 
 
-```{r, message=FALSE, results="hide"}
-example_refs <- references_read(data = system.file("extdata", "example_data.txt",
-                                        package = "refsplitr"),
-                                    dir = FALSE)
+```{r,eval=FALSE}
+example_refs <- references_read(data = "./data/example_data.txt", 
+                                dir=FALSE,
+                                include_all = FALSE)
 ```
 
-b. To import and process multiple files located in a folder, set "dir = TRUE" and use "data=" to indicate the folder containing the files: 
 
-```{r, results="hide"}
-example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),dir = TRUE)
+b. To import and process multiple files, set "dir = TRUE" and use "data=" to indicate the folder containing the files. For instance, if the files were saved in a folder called "UF_data" inside the "data" folder of the RStudio project, they would be imported and processed as follows:  
+
+```{r,eval=FALSE}
+example_refs <- references_read(data = "./data/UF_data", 
+                                dir=TRUE,
+                                include_all = FALSE)
 ```
 
-c. To save the processed references as a csv file in the "output" folder: 
 
-```{r, results="hide"}
-#write.csv(example_refs,"./output/example_refs.csv")
+c. The sample data used in the examples below can be loaded and processed as follows:
+
+```{r, results="hide", message=FALSE}
+example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),
+                                dir = TRUE,
+                                include_all = FALSE)
+```
+
+d. The processed references can then be saved as a .csv file in the "output" folder of the RStudio project: 
+
+```{r,eval=FALSE}
+write.csv(example_refs,"./output/example_refs.csv")
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -96,15 +108,15 @@ Once disambiguation is complete, users can accept `refsplitr`'s preliminary resu
 
 a. To disambiguate the authors of the references in the dataset: 
 
-```{r, results="hide"}
+```{r, results="hide", message=FALSE}
 example_a_clean <- authors_clean(example_refs)
 ```
 
-b. To save the resulting list elements -- 'prelim' and 'review' --  in the "output" folder as .csv files:
+b. To save the resulting list elements -- 'prelim' and 'review' --  in the "output" folder of the RStudio project as .csv files:
 
-```{r, results="hide"}
-# write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
-# write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
+```{r,eval=FALSE}
+write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
+write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
@@ -131,24 +143,24 @@ The output of `authors_refine()` is an object in the R workspace. We recommend s
 
 a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
 
-```{r}
+```{r, results="hide", message=FALSE}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
 b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
 
-```{r}
+```{r, results="hide", message=FALSE}
 example_a_refined_mod <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim, 
                                     sim_score = 0.70, 
                                     confidence = 4)
 ```
 
-c. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder:  
+c. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder of the RStudio Project:  
 
-```{r, results="hide"}
-# write.csv(example_a_refined,"./output/example_a_refined.csv")
+```{r,eval=FALSE}
+write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
 #### 2.2.2. Reviewing and correcting the results of disambiguation
@@ -213,19 +225,23 @@ The output of `authors_refine()` is an object in the R workspace, which can be s
 
 #### Example
 
-a. To load corrections to the "review" file and merge the changes using the default values for `sim_score` and `confidence`): 
+a. To merge the changes made to the disambiguations, first load the .csv file with the corrections: 
 
 ```{r eval=FALSE}
-#example_a_corrected <- read.csv("correctedfile.csv")
+example_a_corrected <- read.csv("correctedfile.csv")
+```
 
+The changes are then merged into the preliminary disambiguation: 
+
+```{r,eval=FALSE}
 example_a_refined <-authors_refine(example_a_corrected, 
                                 example_a_clean$prelim)
 ```
 
-b. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder:  
+b. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder of the RStudio project:  
 
-```{r, results="hide"}
-#write.csv(example_a_refined,"./output/example_a_refined.csv")
+```{r,eval=FALSE}
+write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"}
@@ -236,11 +252,11 @@ knitr::include_graphics("images/AuthorMatch.PNG")
 
 c. User-selected values for `sim_score` and `confidence` can be used to merge the changes made to the "review" file by adding the two relevant arguments to the `authors_refine()` function:
 
-```{r}
-# example_a_refined_mod <- authors_refine(example_a_corrected, 
-#                                    example_a_clean$prelim, 
-#                                     sim_score = 0.70, 
-#                                     confidence = 4)
+```{r,eval=FALSE}
+example_a_refined_mod <- authors_refine(example_a_corrected,
+                                   example_a_clean$prelim,
+                                    sim_score = 0.70,
+                                    confidence = 4)
 ```
 
 ### 2.3. Georeferencing author institutions 
@@ -265,11 +281,19 @@ The output of `authors_georef()` is a list with three elements: (1) `addresses` 
 
 a. to georeference author institutions:
 
-```{r, results="hide"}
-example_georef <-suppressMessages(
-  authors_georef(data=example_a_refined, 
+```{r,eval=FALSE}
+
+example_georef <-authors_georef(data=example_a_refined,
                                 address_column = "address")
-  )
+```
+
+Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
+
+```{r, results="hide", message=FALSE}
+
+example_georef <-suppressMessages(authors_georef(data=example_a_refined,
+                                                 address_column = "address"))
+
 ```
 
 ### 2.4. Data Visualization: Productivity and Collaboration 
@@ -292,21 +316,11 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 a. Author records plotted on a world map
 
-```{r, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px",message=FALSE,results="hide"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 ```
 
 **Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors based in each of country. 
-
-
-b. Author records plotted on a map of a specific region.
-
-```{r, fig.pos="H", out.width="500px"}
-plot_addresses_country <- plot_addresses_country(example_georef$addresses, mapRegion="north america")
-```
-
-
-**Figure 9:** Plot of the countries in North America in which the authors in the dataset are based, with shading to indicate the number of authors based in each of country. 
 
 #### 2.4.2. Visualization 2: Author locations
 
@@ -335,14 +349,15 @@ b. Mapped location of author institutions (national).
 #knitr::include_graphics("images/plot_addresses_points.png")
 ``` 
 
-**Figure 10:** Figure indicating the georefeenced locations of authors in the dataset 
+**Figure 9:** Figure indicating the georefeenced locations of all authors in the dataset
 
 ```{r, fig.pos="H", out.width="500px"}
-plot_addresses_points <- plot_addresses_points(example_georef$addresses, mapCountry = "Brazil")
+plot_addresses_points <- plot_addresses_points(example_georef$addresses, 
+                                               mapCountry = "Brazil")
 plot_addresses_points
 ```
 
-**Figure 11:** Figure indicating the georefeenced locations of authors in the dataset with institutional addresses in Brazil. 
+**Figure 10:** Figure indicating the georefeenced locations of authors in the dataset with institutional addresses in Brazil. 
 
 #### 2.4.3. Visualization 3: Base coauthorship network
 The `plot_net_coauthor()` function plots a co-authorship network in which the nodes are the countries in which authors are based. 
@@ -362,7 +377,7 @@ plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
 
-**Figure 12:** Plot of the coauthorship network for authors of articles in the dataset. 
+**Figure 11:** Plot of the coauthorship network for authors of articles in the dataset. 
 
 #### 2.4.4. Visualization 4: Mapped Coauthorships by Author Country 
 The `plot_net_country()` function plots a georeferenced coauthorship network in which the nodes are the countries in which co-authors are based. The size of the circle for each country is scaled by the number of authors based in that country. 
@@ -394,16 +409,7 @@ plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
 
-**Figure 13:** Map showing the coauthorship connections between countries. 
-
-b. Countries of a specific world region connected by coauthors
-```{r fig.pos="H", out.width="500px"}
-plot_net_country <- plot_net_country(example_georef$addresses, lineResolution = 30, mapRegion = 'South America',lineAlpha=.8)
-plot_net_country$plot
-```
-
-**Figure 14:** Map showing the coauthorship connections between countries in a specific region.
-
+**Figure 12:** Map showing the coauthorship connections between countries. 
 
 #### 2.4.5. Visualization 5: Mapped Coauthorships by Author Address
 The `plot_net_address()` function is used to plot a georeferenced coauthorship network based on author institutional addresses. **WARNING:** This function can create a large data set (i.e., 100s of MB) and may takes several minutes to complete. Take into account the system resources available when running it, and be patient!  
@@ -429,11 +435,11 @@ The output of `plot_net_address()` is a list in the R workspace. The `$plot` ele
 a. Coauthorship network based on the geographic locations of coauthor institutions.
 
 ```{r, fig.pos="H", out.width="500px"}
-plot_net_address <- plot_net_address(example_georef$addresses, lineAlpha=0.1)
+plot_net_address <- plot_net_address(example_georef$addresses)
 plot_net_address$plot
 ```
 
-**Figure 14:** Plot showing the network between individual author locations.
+**Figure 13:** Plot showing the network between individual author locations.
 
 ## Acknowledgments
 
