@@ -28,6 +28,24 @@
 #' 
 authors_clean <- function(references) {
   ###############################
+  # If there are NAs in AU and AF, authors_clean() throws an error, so the first thing we have to do is confirm that there are no NAs in 
+  # the AU and AF fields. If there are, this most often when papers are written by groups (="Cosortia", field = CA); 
+  # in these cases WOS does not include tha AU and AF fields. However, there are cases where there is a Consortium listed in CA, 
+  # but there are also the names of individuals in AF and AU. Rather than make decisions for users about who the authors are
+  # (e.g., replace AU and AF with CA), we instead stop this function and give an error message to the users to replace the NAs in AU and AF. 
+  
+  missingAUAF<-references %>% filter_at(vars(AU,AF), any_vars(. %in% c(NA)))  # finds NAs in AU and AF
+  refID_missingAUAF<-as.numeric(as.character(missingAUAF$refID)) # pulls out the refID numbers for the ones with no AU or AF
+  refid_sum<-sum(refID_missingAUAF) # calculates the sum of the refIDs sum (trigger for error message below)
+  
+  # Stop condition and message
+  if( any(refid_sum>0) ) stop('The following references have no authors (i.e., there are NAs in the AU and AF fields):\n\n',
+                              refID_missingAUAF<-paste(refID_missingAUAF, collapse=", "),   #This puts a comma between the refIDs so it is easier to read
+                              '\n\nBefore using authors_clean() you MUST: \n\n(1) remove these references from the dataframe.\n\nOR\n\n(2) Correct the NAs in the AU and AF fields for these references. They may have been written by an Author Consortium (see Column "CA");\nIf so you can replace the NAs in AU and AF with the contents of column CA.',sep=" ")
+  ###############################
+  
+  
+  ###############################
   # Seperate authors and attempt to match author info
   #requireNamespace(dplyr, quietly = TRUE)
   final <- authors_parse(references[1:1000,])
