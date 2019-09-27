@@ -28,6 +28,7 @@
 #' BITR_data_example <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
 #' BITR <- references_read(BITR_data_example)
 #' 
+#' 
 references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   ## 	NOTE: The fields stored in our output table are a combination of the
   ## 	"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
