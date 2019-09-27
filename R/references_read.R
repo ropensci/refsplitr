@@ -1,22 +1,33 @@
-#' Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files (.txt and .ciw)
+#' Reads Thomson Reuters Web of Knowledge/Science and ISI reference export files (both .txt or .ciw format accepted)
 #'
 #' \code{references_read} This function reads Thomson Reuters Web of Knowledge
-#' and ISI format reference data files into an R friendly data format.
+#' and ISI format reference data files into an R-friendly data format. The resulting dataframe
+#' is the argument for the refplitr function `authors_clean()`.    
 #'
-#' @param data either a directory, used in conjuction with dir=TRUE, or a file
-#'   name to load.
-#' @param dir if TRUE then data is assumed to be a directory name from which all
-#'   files will be read, but if FALSE then data is assumed to be a single file
-#'   to read. Defaults to FALSE
-#' @param include_all if TRUE all fields from WOS records are read, if FALSE only the most commonly used are loaded. 
-#'  Defaults to FALSE.
-#'  The following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
+#' @param data the location of the file or files to be imported. This can be either the absolute or 
+#' relative name of the file (for a single file) or folder (for multiple files stored in the same folder; 
+#' used in conjuction with `dir = TRUE``). If left blank it is assumed the location is the working directory.
+#' @param dir if FALSE it is assumed a single file is to be imported. 
+#' Set to TRUE if importing multiple files (the path to the folder in which files are stored is set with `data=``; 
+#' all files in the folder will be imported). Defaults to FALSE. 
+#' @param include_all if FALSE only a subset of commonly used fields from references records are imported. 
+#' If TRUE then all fields from the reference records are imported. Defaults to FALSE.  
+#' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, 
+#' LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 #' @export references_read
 #' 
 #' @examples 
-#' ## Read in Web of Science raw file
-#' data_local <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
-#' references <- references_read(data_local)
+#' ## If a single files is being imported from a folder called "data" located in an RStudio Project 
+#' imported_refs<-references_read(data = './data/refs.txt', dir = FALSE, include_all=FALSE)
+#' 
+#' ## If multiple files are being imported from a folder named "heliconia" nested within a folder
+#' ## called "data" located in an RStudio Project 
+#' heliconia_refs<-references_read(data = './data/heliconia', dir = TRUE, include_all=FALSE)
+#' 
+#' ## To load the Web of Science records used in the examples in the documentation  
+#' BITR_data_example <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
+#' BITR <- references_read(BITR_data_example)
+#' 
 references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   ## 	NOTE: The fields stored in our output table are a combination of the
   ## 	"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
