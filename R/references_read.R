@@ -37,7 +37,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "AB" = character(0),
     "AF" = character(0),
     "AU" = character(0),
-    # "C1" = character(0),
+    "CA" = character(0),
     "BP" = character(0),
     "C1" = character(0),
     "CC" = character(0),
