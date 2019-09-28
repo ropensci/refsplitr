@@ -39,7 +39,8 @@
 authors_refine <- function(review, prelim,
                            sim_score = NULL,
                            confidence = NULL) {
-
+ # if(is.data.frame(review)){ stop('review object is not a data.frame') }
+ # if(is.data.frame(prelim)){ stop('prelim object is not a data.frame') }
   if (length(review) == 0 || is.null(review) ||
       nrow(review) == 0){
     warning("Authors data.frame is empty.

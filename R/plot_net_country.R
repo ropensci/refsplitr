@@ -43,8 +43,10 @@ plot_net_country <- function(data,
   lineAlpha = 0.5) {
 
   data <- data[!is.na(data$country), ]
-  data$country[data$country %in% c('england', 'scotland', 'wales', 'north ireland')] <- 'united kingdom'
+  data$country[data$country %in% 
+      c('england', 'scotland', 'wales', 'north ireland')] <- 'united kingdom'
   data$country[data$country %in% c('peoples r china')] <- 'china'
+  data$country[data$country %in% c('serbia')] <- 'republic of serbia'
   ## 	we could use a sparse matrix representation:
 
   linkages <- Matrix::spMatrix(
@@ -93,7 +95,6 @@ plot_net_country <- function(data,
   world_map <- rworldmap::getMap()
   world_map$ADMIN.1 <- tolower(world_map$ADMIN.1)
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
-
   # coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
   #   world_map[c("ADMIN.1", "LON", "LAT")]@data,
   #   by = c("ISO_A2" = "ADMIN.1")
@@ -291,3 +292,4 @@ plot_net_country <- function(data,
 
   return(products)
 }
+
