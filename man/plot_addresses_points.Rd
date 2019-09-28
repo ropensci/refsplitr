@@ -17,15 +17,15 @@ This function plots an addresses data.frame
 object by point overlaid on the countries of the world.
 }
 \examples{
-## Using the output of authors_georef (e.g., BITR_georef_df)
+## Using the output of authors_georef (e.g., BITR_geocode)
 
 ## Plots the whole world
-plot_addresses_points(BITR_georef_df)
+plot_addresses_points(BITR_geocode)
 
 ## mapCountry names can be querried using:
 data(countries)
 
 ## Plot only Brazil
-plot_addresses_points(BITR_georef_df, mapCountry = 'Brazil')
+plot_addresses_points(BITR_geocode, mapCountry = 'Brazil')
 
 }
