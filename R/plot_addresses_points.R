@@ -9,7 +9,7 @@
 #' 
 #' @examples
 #' ## Using the output of authors_georef (e.g., BITR_geocode)
-#' 
+#' data(BITR_geocode)
 #' ## Plots the whole world
 #' plot_addresses_points(BITR_geocode)
 #' 

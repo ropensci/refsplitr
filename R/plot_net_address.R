@@ -12,7 +12,7 @@
 #' @param lineAlpha transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.
 #' @examples 
 #' ## Using the output of authors_georef (e.g., BITR_geocode)
-#' 
+#' data(BITR_geocode)
 #' ## Plots the whole world
 #' output <- plot_net_address(BITR_geocode)
 #' 
