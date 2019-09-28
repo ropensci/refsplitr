@@ -23,6 +23,7 @@ New values ARE NOT created, instead it filters by the sim_score column in the ou
 }
 \examples{
 ## First gather the authors data.frame from authors_clean
+data(BITR)
 authors <- authors_clean(BITR)
 BITR_preview_df <- BITR_authors$review 
 BITR_prelim_df <- BITR_authors$prelim

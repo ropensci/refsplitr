@@ -13,6 +13,7 @@
 #' 
 #' @examples 
 #' ## First gather the authors data.frame from authors_clean
+#' data(BITR)
 #' authors <- authors_clean(BITR)
 #' BITR_preview_df <- BITR_authors$review 
 #' BITR_prelim_df <- BITR_authors$prelim
