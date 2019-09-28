@@ -15,13 +15,22 @@ Information on addresses, emails, ORCIDs, etc are matched.
 It then attempts to match same author entries together into likely author groups based on common full names, addresses, emails, ORCIDs etc.
 }
 \details{
-Records that are not matched this way have a jaro winkler similiarty analysis metric calculated
+Records that are not matched this way have a Jaro-Winkler similiarty analysis metric calculated
 for all possible matching author names.
 This calculates the amount of character similarities based on distance of similar character.
 }
 \examples{
+## Load the refsplitr sample dataset "BITR" 
+data(BITR) 
+BITR_clean <- authors_clean(BITR)
 
-data(BITR)
- 
-results <- authors_clean(references = BITR)
+## The output of authors_clean is a list with two elements, which can be assigend to dataframes.
+BITR_review_df <- BITR_clean$review
+BITR_prelim_df <- BITR_clean$prelim
+
+## Users can save the these dataframes outside of R as .csv files.
+## The "review_df.csv" is then used to review the groupID or authorID assignments and make
+## any necessary corrections. The function "authors_refine" is used to load and merge the changes 
+## into R and create a dataframe used for analyses. 
+
 }

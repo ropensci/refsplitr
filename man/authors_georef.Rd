@@ -34,11 +34,7 @@ the missing addresses are gone.
 }
 \examples{
 
-data(BITR)
-authors <- authors_clean(BITR)
-refined <- authors_refine(authors$review, authors$prelim, 0.9, 5)
-
 \dontrun{
-georef_df <- authors_georef(refined, 'address')
+BITR_georef_df <- authors_georef(BITR_refined, address_column='address')
 }
 }

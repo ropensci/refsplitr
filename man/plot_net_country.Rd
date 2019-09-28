@@ -27,11 +27,24 @@ This function takes an addresses data.frame,
 generated for countries of co-authorship.
 }
 \examples{
-data(BITR_geocode)
+## Using the output of authors_georef (e.g., BITR_georef_df)
 
 ## Plots the whole world
-output <- plot_net_country(BITR_geocode)
+output <- plot_net_country(BITR_georef_df)
 
-## Just select North America
-output <- plot_net_country(BITR_geocode, mapRegion = 'North America')
+## Mapping only North America
+output <- plot_net_country(BITR_georef_df, mapRegion = 'North America')
+
+## Change the transparency of lines by modifying the lineAlpha parameter
+output <- plot_net_country(BITR_georef_df, lineAlpha = 0.2)
+                 
+## Change the curvature of lines by modifying the lineResolution paramater
+output <- plot_net_country(BITR_georef_df, lineResolution = 30 )
+                 
+## With all arguments: 
+output <- plot_net_country(BITR_georef_df, mapRegion = 'North America', lineAlpha = 0.2,
+                 lineResolution = 30)
+
+
+
 }

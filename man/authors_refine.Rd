@@ -7,29 +7,41 @@
 authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
 }
 \arguments{
-\item{review}{the `review` element from the list outputted by \code{authors_clean}}
+\item{review}{the `review` element from the list output by \code{authors_clean}}
 
-\item{prelim}{the `prelim` element from the list outputted by \code{authors_clean}}
+\item{prelim}{the `prelim` element from the list output by \code{authors_clean}}
 
 \item{sim_score}{similarity score cut off point. Number between 0-1.}
 
 \item{confidence}{confidence score cut off point. Number between 0 - 10.}
 }
 \description{
-\code{authors_refine} This function takes the author list output after the output has been synthesized for incorrect author matches. It contains a similarity score cutoff like read_authors. This however is to further constrain the list. New values ARE NOT created, instead it filters by the sim_score column in the output file. An output file is created using the 'root' argument that specifies the folder/file prefix for the output. The final file will be appended with '_final.csv'.
+\code{authors_refine} This function takes the author list output after the output 
+has been synthesized for incorrect author matches. It contains a similarity score 
+cutoff like read_authors. This however is to further constrain the list. 
+New values ARE NOT created, instead it filters by the sim_score column in the output file.
 }
 \examples{
-data(BITR)
-authors <- authors_clean(BITR)
-review_df <- authors$review
-prelim_df <- authors$prelim
+## Example assumes the disambiguation results from authors <- authors_clean(BITR)
+## are saved to the R environment as dataframe:
+## BITR_preview_df <- BITR_authors$review, 
+## BITR_prelim_df <- BITR_authors$prelim
 
-## In most cases you will save and open the review_df outside of R
-## And change the groupIDs for incorrect author matches
-## Then you'll read the corrected review file back into R
-
-## At that point, you can additionally filter groups by their similarity score
-## and confidence scores
-
+## If accepting the preliminary disambiguation from authors_clean without review:
 refine_df <- authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
+
+## Note that 'sim_score' and 'confidence' are optional arguments and are only 
+## required if changing the default values. 
+BITR_refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
+
+
+## If changes were made to groupID or authorID in the "_review.csv" file: 
+## saved with a new name (e.g.,"_corrected.csv" ), load into the R environment (e.g., as "corrected_df")
+## then incorporate corrections:  
+refine_df <- authors_refine(corrected_df, prelim_df, sim_score = 0.90, confidence = 5)
+
+## Note that 'sim_score' and 'confidence' are optional arguments and are only 
+## required if changing the default values. 
+BITR_refine_df <- authors_refine(BITR_corrected_df, BITR_prelim_df)
+
 }

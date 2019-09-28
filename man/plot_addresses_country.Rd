@@ -19,12 +19,12 @@ object by country name.
 }
 \examples{
 
-data(BITR_geocode)
+## Using the output of authors_georef (e.g., BITR_georef_df)
 
 ## Plots the whole world
-plot_addresses_country(BITR_geocode)
+plot_addresses_country(BITR_georef_df)
 
 ## Just select North America
-plot_addresses_country(BITR_geocode, mapRegion = 'North America')
+plot_addresses_country(BITR_georef_df, mapRegion = 'North America')
 
 }
