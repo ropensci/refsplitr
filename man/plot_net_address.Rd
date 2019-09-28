@@ -25,7 +25,7 @@ This function takes an addresses data.frame,
 }
 \examples{
 ## Using the output of authors_georef (e.g., BITR_geocode)
-
+data(BITR_geocode)
 ## Plots the whole world
 output <- plot_net_address(BITR_geocode)
 

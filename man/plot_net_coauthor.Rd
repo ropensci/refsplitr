@@ -22,5 +22,6 @@ generated for co-authorship.
 }
 \examples{
 ## Using the output of authors_georef (e.g., BITR_geocode)
+data(BITR_geocode)
 plot_net_coauthor(BITR_geocode)
 }

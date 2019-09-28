@@ -28,7 +28,7 @@ generated for countries of co-authorship.
 }
 \examples{
 ## Using the output of authors_georef (e.g., BITR_geocode)
-
+data(BITR_geocode)
 ## Plots the whole world
 output <- plot_net_country(BITR_geocode)
 
