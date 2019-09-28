@@ -24,8 +24,8 @@ New values ARE NOT created, instead it filters by the sim_score column in the ou
 \examples{
 ## First gather the authors data.frame from authors_clean
 data(BITR)
-authors <- authors_clean(BITR)
-BITR_preview_df <- BITR_authors$review 
+BITR_authors <- authors_clean(BITR)
+BITR_review_df <- BITR_authors$review 
 BITR_prelim_df <- BITR_authors$prelim
 
 ## If accepting the preliminary disambiguation from authors_clean without review:
@@ -37,8 +37,7 @@ refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
 
 
 ## If changes were made to groupID or authorID in the "_review.csv" file: 
-## saved with a new name (e.g.,"_corrected.csv" ), load into the R environment (e.g., as "corrected_df")
-## then incorporate corrections:  
-refine_df <- authors_refine(BITR_review_df, BITR_prelim_df, sim_score = 0.90, confidence = 5)
-
+## then incorporate those changes in a text editor, save the corrections as a new file name,
+## load in to R and run `authors_refine()` with the new corrections as the review arguement.
+ 
 }
