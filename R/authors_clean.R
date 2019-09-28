@@ -34,20 +34,25 @@ authors_clean <- function(references) {
   # but there are also the names of individuals in AF and AU. Rather than make decisions for users about who the authors are
   # (e.g., replace AU and AF with CA), we instead stop this function and give an error message to the users to replace the NAs in AU and AF. 
   refID_missingAUAF <- which(is.na(references$AU)==TRUE)  # finds NAs in AU
+  missingAUAF
   missingAUAF <- references[references$refID==refID_missingAUAF,]
   refid_sum <- sum(refID_missingAUAF)
-  
+  missingAUAF$refID
   # Stop condition and message
-  if( any(refid_sum > 0) ) stop('The following references have
- no authors (i.e., there are NAs in the AU and AF fields):\n\n',
-    missingAUAF<-paste(missingAUAF, collapse=", "),
-    '\n\nBefore using authors_clean() you MUST: \n\n(1) remove 
-    these references from the dataframe.\n\nOR\n\n(2) Correct 
-    the NAs in the AU and AF fields for these references.\nThey
-    not have an author, in which case you can use "None",
-    "Anonymous", "Unknown", etc.\nThey may have been written 
-    by an Author Consortium (see Column "CA");\nIf so you can
-    replace the NAs in AU and AF with the contents of column CA.',
+  if( any(refid_sum > 0) ) stop('The following references have no authors
+(i.e., there are NAs in the AU and AF fields):\n\n',
+    'refID = ',paste(missingAUAF$refID, collapse=", "),
+    '\n\nBefore using authors_clean() you MUST:
+\n(1) remove these references from the dataframe.
+\nOR\n
+(2) Correct the NAs in the AU and AF fields
+for these references.
+They do not have an author, in which case
+you can use "None", "Anonymous", "Unknown", etc.
+They may have been written by an Author Consortium
+(see Column "CA");
+If so you can replace the NAs in AU and AF
+with the contents of column CA.',
     sep=" ")
   
   ###############################
