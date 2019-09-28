@@ -34,7 +34,7 @@ authors_clean <- function(references) {
   # but there are also the names of individuals in AF and AU. Rather than make decisions for users about who the authors are
   # (e.g., replace AU and AF with CA), we instead stop this function and give an error message to the users to replace the NAs in AU and AF. 
   refID_missingAUAF <- which(is.na(references$AU)==TRUE)  # finds NAs in AU
-  missingAUAF <- references[references$refID==missingAUAF,]
+  missingAUAF <- references[references$refID==refID_missingAUAF,]
   refid_sum <- sum(refID_missingAUAF)
   
   # Stop condition and message
