@@ -21,6 +21,7 @@ links it to an authors_references dataset and plots a network diagram
 generated for co-authorship.
 }
 \examples{
-## Using the output of authors_georef (e.g., BITR_georef_df)
-plot_net_coauthor(BITR_georef_df)
+## Using the output of authors_georef (e.g., BITR_geocode)
+data(BITR_geocode)
+plot_net_coauthor(BITR_geocode)
 }

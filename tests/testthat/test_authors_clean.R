@@ -26,19 +26,19 @@ expect_gt(min(actual$prelim$similarity,na.rm=T),0.88)
 
 
 
-df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
-                                         'Smith,J'), AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), BP=NA ,
-               C1=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",
-                    NA),CR=NA,DE=NA, DI=NA, EM=c("j.smith@ufl.edu",NA,'jsmith@usgs.gov'),
-               EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, PY=NA,
-               RI=c("Smith,Jon/H-9999-2012","Thompson,Bob/H-2222-2012",
-                    "Smith,Jon/H-2769-2012"), OI=NA,PM=NA, 
-               RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",
-                    NA), SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,
-               refID=c(1,2,3) ,stringsAsFactors=F)
-
-df[]<-lapply(df, as.character)
-
-actual <- authors_clean(references=df)
+# df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
+#                                          'Smith,J'), AU=c('Smith, Jon J.','Thompson, Bob','Smith, J'), BP=NA ,
+#                C1=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",
+#                     NA),CR=NA,DE=NA, DI=NA, EM=c("j.smith@ufl.edu",NA,'jsmith@usgs.gov'),
+#                EN=NA, FN=NA, FU=NA, PD=NA, PG=NA, PT=NA, PU=NA, PY=NA,
+#                RI=c("Smith,Jon/H-9999-2012","Thompson,Bob/H-2222-2012",
+#                     "Smith,Jon/H-2769-2012"), OI=NA,PM=NA, 
+#                RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",
+#                     NA), SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,
+#                refID=c(1,2,3) ,stringsAsFactors=F)
+# 
+# df[]<-lapply(df, as.character)
+# 
+# actual <- authors_clean(references=df)
 })
 

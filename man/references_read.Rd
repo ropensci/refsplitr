@@ -26,12 +26,12 @@ and ISI format reference data files into an R-friendly data format. The resultin
 is the argument for the refplitr function `authors_clean()`.
 }
 \examples{
-## If a single files is being imported from a folder called "data" located in an RStudio Project 
-imported_refs<-references_read(data = './data/refs.txt', dir = FALSE, include_all=FALSE)
+## If a single files is being imported from a folder called "data" located in an RStudio Project: 
+## imported_refs<-references_read(data = './data/refs.txt', dir = FALSE, include_all=FALSE)
 
 ## If multiple files are being imported from a folder named "heliconia" nested within a folder
-## called "data" located in an RStudio Project 
-heliconia_refs<-references_read(data = './data/heliconia', dir = TRUE, include_all=FALSE)
+## called "data" located in an RStudio Project: 
+## heliconia_refs<-references_read(data = './data/heliconia', dir = TRUE, include_all=FALSE)
 
 ## To load the Web of Science records used in the examples in the documentation  
 BITR_data_example <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
