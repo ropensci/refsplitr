@@ -33,15 +33,12 @@ authors_clean <- function(references) {
   # in these cases WOS does not include tha AU and AF fields. However, there are cases where there is a Consortium listed in CA, 
   # but there are also the names of individuals in AF and AU. Rather than make decisions for users about who the authors are
   # (e.g., replace AU and AF with CA), we instead stop this function and give an error message to the users to replace the NAs in AU and AF. 
-  refID_missingAUAF <- which(is.na(references$AU)==TRUE)  # finds NAs in AU
-  missingAUAF
-  missingAUAF <- references[references$refID==refID_missingAUAF,]
-  refid_sum <- sum(refID_missingAUAF)
-  missingAUAF$refID
+  refID_missingAU <- which(is.na(references$AU)==TRUE)  # finds NAs in AU
+  refid_sum <- sum(refID_missingAU)
   # Stop condition and message
   if( any(refid_sum > 0) ) stop('The following references have no authors
-(i.e., there are NAs in the AU and AF fields):\n\n',
-    'refID = ',paste(missingAUAF$refID, collapse=", "),
+(i.e., there are NAs in the AU and AF fields):\n\nrefID: ',
+    'refID = ',paste(refID_missingAU, collapse=", "),
     '\n\nBefore using authors_clean() you MUST:
 \n(1) remove these references from the dataframe.
 \nOR\n
