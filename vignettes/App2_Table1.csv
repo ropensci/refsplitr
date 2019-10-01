@@ -3,6 +3,7 @@ filename,file from which records were imported
 AB,Abstract
 AF,Author Full Name
 AU,Authors
+CA, Consortium Author
 BP,Beginning Page
 C1,Author Address
 CR,Cited References
