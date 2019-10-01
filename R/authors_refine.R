@@ -12,34 +12,31 @@
 #' @param confidence confidence score cut off point. Number between 0 - 10.
 #' 
 #' @examples 
-#' ## Example assumes the disambiguation results from authors <- authors_clean(BITR)
-#' ## are saved to the R environment as dataframe:
-#' ## BITR_preview_df <- BITR_authors$review, 
-#' ## BITR_prelim_df <- BITR_authors$prelim
+#' ## First gather the authors data.frame from authors_clean
+#' data(BITR)
+#' BITR_authors <- authors_clean(BITR)
+#' BITR_review_df <- BITR_authors$review 
+#' BITR_prelim_df <- BITR_authors$prelim
 #' 
 #' ## If accepting the preliminary disambiguation from authors_clean without review:
-#' refine_df <- authors_refine(review_df, prelim_df, sim_score = 0.90, confidence = 5)
+#' refine_df <- authors_refine(BITR_review_df, BITR_prelim_df, sim_score = 0.90, confidence = 5)
 #' 
 #' ## Note that 'sim_score' and 'confidence' are optional arguments and are only 
 #' ## required if changing the default values. 
-#' BITR_refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
+#' refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
 #' 
 #' 
 #' ## If changes were made to groupID or authorID in the "_review.csv" file: 
-#' ## saved with a new name (e.g.,"_corrected.csv" ), load into the R environment (e.g., as "corrected_df")
-#' ## then incorporate corrections:  
-#' refine_df <- authors_refine(corrected_df, prelim_df, sim_score = 0.90, confidence = 5)
-#' 
-#' ## Note that 'sim_score' and 'confidence' are optional arguments and are only 
-#' ## required if changing the default values. 
-#' BITR_refine_df <- authors_refine(BITR_corrected_df, BITR_prelim_df)
-#'
+#' ## then incorporate those changes in a text editor, save the corrections as a new file name,
+#' ## load in to R and run `authors_refine()` with the new corrections as the review arguement.
+#'  
 #' @export authors_refine
 #' 
 authors_refine <- function(review, prelim,
                            sim_score = NULL,
                            confidence = NULL) {
-
+ # if(is.data.frame(review)){ stop('review object is not a data.frame') }
+ # if(is.data.frame(prelim)){ stop('prelim object is not a data.frame') }
   if (length(review) == 0 || is.null(review) ||
       nrow(review) == 0){
     warning("Authors data.frame is empty.
