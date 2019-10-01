@@ -326,7 +326,7 @@ plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 
 The `plot_addresses_points()` function plots the geographic location of all authors in the dataset. 
 
-The function has two argument, one of which only needs to be included if mapping a specific region of the world:
+The function has two arguments:
 
 - **data**: This is the 'addresses' element from the `authors_georef()` object. 
 
