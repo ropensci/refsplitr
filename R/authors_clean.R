@@ -37,14 +37,21 @@ authors_clean <- function(references) {
   refID_missingAU<-which(is.na(references$AU)==TRUE)  # finds NAs in AU
   refid_sum<-sum(refID_missingAU) # calculates the sum of the refIDs sum (trigger for error message below)
   # Stop condition and message
-  if( any(refid_sum>0) ) stop('The following references have no authors (i.e., there are NAs in the AU and AF fields):\n\nrefID: ',
-                              refID_missingAU<-paste(refID_missingAU, collapse=", "),
-                              '\n\nBefore using authors_clean() you MUST: \n\n(1) remove these references from the dataframe.\n\nOR\n\n(2) Correct the NAs in the AU and AF fields for these references.\nThey not have an author, in which case you can use "None", "Anonymous", "Unknown", etc.\nThey may have been written by an Author Consortium (see Column "CA");\nIf so you can replace the NAs in AU and AF with the contents of column CA.',sep=" ")
-
+  if( any(refid_sum>0) )if( any(refid_sum > 0) ) stop('The following references have no authors
+(i.e., there are NAs in the AU and AF fields):\n\n',
+    'refID = ',paste(refID_missingAU, collapse=", "),
+    '\n\nBefore using authors_clean() you MUST:
+\n(1) remove these references from the dataframe.
+\nOR\n
+(2) Correct the NAs in the AU and AF fields for these references.
+They do not have an author, in which case you can use "None", "Anonymous", "Unknown", etc.
+They may have been written by an Author Consortium (see Column "CA");
+If so you can replace the NAs in AU and AF with the contents of column CA.',
+    sep=" ")
   ###############################
   # Seperate authors and attempt to match author info
   #requireNamespace(dplyr, quietly = TRUE)
-  final <- authors_parse(references[1:1000,])
+  final <- authors_parse(references)
 
   ###############################
   # Split address information into relevant fields
