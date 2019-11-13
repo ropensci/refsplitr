@@ -4,7 +4,7 @@
 
 refsplitr: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
-refsplitr (v1.0) is an R package to read, organize, geocode, analyze, and visualize Clarivate Web of Knowledge/Web of Science, format reference data files for scientometric, social network, and Science of Science analyses. The development of the original package (originally called refnet) was by Forrest Stevens and Emilio M. Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/); in December 2017 Bruna moved it to Github to facilitate updating the package and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  <b>Please make all future changes via this Github repo! Do *not* make a repo mirror of the R-forge version.</b> 
+refsplitr (v1.0) is an R package to read, organize, geocode, analyze, and visualize Clarivate Web of Knowledge/Web of Science, format reference data files for scientometric, social network, and Science of Science analyses. 
 
 Support for the development of refsplitr was provided by grants from the [University of Florida Center for Latin American Studies](http://www.latam.ufl.edu/) and the [University of Florida Informatics Institute](https://informatics.institute.ufl.edu/).
 
@@ -49,6 +49,10 @@ Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
     author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio M. Bruna Developer},
     year = {2018},
     note = {R package version 0.6},
-  }
+    }
+## Note regarding package history
+
+The early development of refsplitr - initially known as refnet - was by Forrest Stevens and Emilio M. Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  <b>Please make all suggestions for changes via this Github repository - do *not* make a repo mirror of the R-forge version.</b> 
+
   
   
