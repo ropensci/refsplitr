@@ -4,7 +4,7 @@
 
 refsplitr: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
-refsplitr (v1.0) is an R package to read, organize, geocode, analyze, and visualize Clarivate Web of Knowledge/Web of Science, format reference data files for scientometric, social network, and Science of Science analyses. 
+`refsplitr` (v1.0) is an R package to organize, geocode, analyze, and visualize reference data downloaded from the Clarivate Web of Science (WOS). The WOS is a toll-access literature and citation database that indexes articles from ~12,000 academic journals. WOS records include a broad diversity of data about articles (e.g., title, journal name, author names, author addresses, number of times the article has been cited, funding sources), making them very useful for studying patterns of scientific productivity, coauthorship, research impact, and other Science of Science topics. Because processed bulk WOS records or API access to the WOS are very expensive, many researchers manually download batches of WOS records. While this eliminates the need to purchase records, it does require a cumbersome process of extracting, merging, and correcting records prior to conducting any analyses. `refsplitr` will rapidly merge and process reference data files downloaded from WOS, and then process and organize them for use in scientometric, social network, and Science of Science analyses. 
 
 Support for the development of refsplitr was provided by grants from the [University of Florida Center for Latin American Studies](http://www.latam.ufl.edu/) and the [University of Florida Informatics Institute](https://informatics.institute.ufl.edu/).
 
@@ -19,16 +19,41 @@ devtools::install_github("embruna/refsplitr")
 
 ## Workflow
 
-```{r example, eval=FALSE}
+There are four steps in the `refsplitr` package's workflow:   
+1. Importing and tidying Web of Science reference records
+2. Author name disambiguation and parsing of author addresses
+3. Georeferencing of author institutions
+4. Data visualization
+
+This is done using a series of simple commands; an example of this simple workflow is provided below:
+
+``` r
+# load the Web of Science records into a dataframe
 dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
+
+# load the Web of Science records into a dataframe
+dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
+# disambiguate author names and parse author address
 dat2 <- authors_clean(references = dat1)
+
+# after revieiwng disambiguation, merge any necessary corrections
 dat3 <- authors_refine(dat2$review, dat2$prelim)
+
+# georeference the author locations
 dat4 <- authors_georef(dat3)
 
-plot_addresses_points(dat4$addresses)
+# generate a map of coauthorships; this is only one of the five possible visualizations  
+plot_net_address(dat4$addresses)
 ```
 
-Issues, Feature Requests and Pull Requests Welcome, see here for more details on [how to contribute](https://github.com/embruna/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
+**We welcome any suggestions for package improvement or ideas for features to include in future versions.** If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/embruna/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
+
+<center>
+<img src="man/figures/coauthor_connections_BITR.png" height="400">
+</center>
+<center>
+Map of georeferenced article coauthorships generated with refsplitr.
+</center>
 
 
 ## Contributors
@@ -50,9 +75,5 @@ Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
     year = {2018},
     note = {R package version 0.6},
     }
-## Note regarding package history
-
-The early development of refsplitr - initially known as refnet - was by Forrest Stevens and Emilio M. Bruna and was on r-forge (https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  <b>Please make all suggestions for changes via this Github repository - do *not* make a repo mirror of the R-forge version.</b> 
-
-  
-  
+    
+_Note regarding package development history_: The early development of `refsplitr`- initially known as `refnet` - was by Forrest Stevens and Emilio M. Bruna and was done on [r-forge](https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  _Please make all suggestions for changes via this Github repository - do not make a repo mirror of the R-forge version._
