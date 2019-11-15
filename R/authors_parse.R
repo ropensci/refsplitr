@@ -1,9 +1,8 @@
 #' Parses out each individual authors information from the reference 
 #' information created by references_read.
 #' 
-#' \code{authors_parse}  This is the first step in 
-#' parsing out author information.
-#' In cases of emails, RIDS, and ORCIDS, Jarowinkler similarity
+#' \code{authors_parse}  This is the first step in parsing out author 
+#' information. In cases of emails, RIDS, and ORCIDS, Jarowinkler similarity
 #' matching is used to match up names with no identifying key
 #' 
 #' This is an internal function used by `authors_clean()``
