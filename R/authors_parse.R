@@ -55,14 +55,14 @@ authors_parse <- function(references){
       names = unique(unlist(strsplit( C1_names, "; "))),
       address = vapply(unique(unlist(strsplit(C1_names, "; "))),
         function(x) dd$C1_address[grepl(x, dd$C1_names)][1], character(1)),
-      stringsAsFactors = F
+      stringsAsFactors = FALSE
     )
 
     if (nrow(dd1) == 0 & length(C1_address) == length(authors_AU)) {
       dd1 <- data.frame(
         names = authors_AU,
         address = C1_address,
-        stringsAsFactors = F
+        stringsAsFactors = FALSE
       )
     }
 
@@ -70,7 +70,7 @@ authors_parse <- function(references){
       dd1 <- data.frame(
         names = authors_df$AF,
         address = "Could not be extracted",
-        stringsAsFactors = F
+        stringsAsFactors = FALSE
       )
     }
     dd1$address[dd1$address == "NA"] <- NA
@@ -84,7 +84,7 @@ authors_parse <- function(references){
     )
     RP_df <- data.frame(
       AU = substr(RP, 1, regexpr("(reprint author)", RP)[1] - 3),
-      RP_address, stringsAsFactors = F
+      RP_address, stringsAsFactors = FALSE
     )
 
     # RI matching. Uses Jarowinkler similarity anaylsis to match
