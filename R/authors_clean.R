@@ -1,12 +1,18 @@
 #' Seperates author information in references files from \code{references_read}
 #' 
-#' \code{authors_clean} This function takes the output from \code{references_read} and cleans the author information.
-#' Information on addresses, emails, ORCIDs, etc are matched.
-#' It then attempts to match same author entries together into likely author groups based on common full names, addresses, emails, ORCIDs etc.
+#' \code{authors_clean} This function takes the output from
+#'  \code{references_read} and cleans the author information.
 #' 
-#' Records that are not matched this way have a Jaro-Winkler similiarty analysis metric calculated
-#' for all possible matching author names.
-#' This calculates the amount of character similarities based on distance of similar character.
+#' Information on addresses, emails, ORCIDs, etc are matched.
+#' 
+#' It then attempts to match same author entries together into likely author 
+#' groups based on common full names, addresses, emails, ORCIDs etc.
+#' 
+#' Records that are not matched this way have a Jaro-Winkler similiarty 
+#' analysis metric calculated for all possible matching author names.
+#' 
+#' This calculates the amount of character similarities 
+#' based on distance of similar character.
 #' 
 #' @param references output from \code{references_read}
 #' @importFrom RecordLinkage jarowinkler
@@ -15,39 +21,46 @@
 #' data(BITR) 
 #' BITR_clean <- authors_clean(BITR)
 #' 
-#' ## The output of authors_clean is a list with two elements, which can be assigend to dataframes.
+#' ## The output of authors_clean is a list with two elements, 
+#' which can be assigend to dataframes.
 #' BITR_review_df <- BITR_clean$review
 #' BITR_prelim_df <- BITR_clean$prelim
 #' 
 #' ## Users can save the these dataframes outside of R as .csv files.
-#' ## The "review_df.csv" is then used to review the groupID or authorID assignments and make
-#' ## any necessary corrections. The function "authors_refine" is used to load and merge the changes 
+#' ## The "review_df.csv" is then used to review the groupID or authorID 
+#' ## assignments and make any necessary corrections. 
+#' ## The function "authors_refine" is used to load and merge the changes 
 #' ## into R and create a dataframe used for analyses. 
 #' 
 #' @export authors_clean
 #' 
 authors_clean <- function(references) {
   ###############################
-  # If there are NAs in AU and AF, authors_clean() throws an error, so the first thing we have to do is confirm that there are no NAs in 
-  # the AU and AF fields. If there are, this most often when papers are written by groups (="Cosortia", field = CA); 
-  # in these cases WOS does not include tha AU and AF fields. However, there are cases where there is a Consortium listed in CA, 
-  # but there are also the names of individuals in AF and AU. Rather than make decisions for users about who the authors are
-  # (e.g., replace AU and AF with CA), we instead stop this function and give an error message to the users to replace the NAs in AU and AF. 
+  # If there are NAs in AU and AF, authors_clean() throws an error, so the 
+  # first thing we have to do is confirm that there are no NAs in 
+  # the AU and AF fields. If there are, this most often when papers are written
+  # by groups (="Cosortia", field = CA); in these cases WOS does not include 
+  # the AU and AF fields. However, there are cases where there is a Consortium 
+  # listed in CA, but there are also the names of individuals in AF and AU. 
+  # Rather than make decisions for users about who the authors are
+  # (e.g., replace AU and AF with CA), we instead stop this function and give 
+  # an error message to the users to replace the NAs in AU and AF. 
   
   refID_missingAU<-which(is.na(references$AU)==TRUE)  # finds NAs in AU
-  refid_sum<-sum(refID_missingAU) # calculates the sum of the refIDs sum (trigger for error message below)
+  # calculate the sum of the refIDs sum (trigger for error message below)
+  refid_sum<-sum(refID_missingAU) 
   # Stop condition and message
-  if( any(refid_sum>0) )if( any(refid_sum > 0) ) stop('The following references have no authors
-(i.e., there are NAs in the AU and AF fields):\n\n',
+  if( any(refid_sum>0) )if( any(refid_sum > 0) ) stop('The following references
+  have no authors (i.e., there are NAs in the AU and AF fields):\n\n',
     'refID = ',paste(refID_missingAU, collapse=", "),
     '\n\nBefore using authors_clean() you MUST:
 \n(1) remove these references from the dataframe.
 \nOR\n
 (2) Correct the NAs in the AU and AF fields for these references.
-They do not have an author, in which case you can use "None", "Anonymous", "Unknown", etc.
-They may have been written by an Author Consortium (see Column "CA");
-If so you can replace the NAs in AU and AF with the contents of column CA.',
-    sep=" ")
+They do not have an author, in which case you can use "None", "Anonymous", 
+"Unknown", etc. They may have been written by an Author Consortium 
+(see Column "CA"). If so, you can replace the NAs in AU and AF 
+with the contents of column CA.', sep=" ")
   ###############################
   # Seperate authors and attempt to match author info
   #requireNamespace(dplyr, quietly = TRUE)
