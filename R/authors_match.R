@@ -1,7 +1,11 @@
-#' Matches authors together by considering common last names, university affiliations, and emails.
+#' Matches authors together by considering common last names, 
+#' university affiliations, and emails.
 #' This is an internal function used by \code{authors_clean}
 #' 
-#' \code{authors_match} This function requires a data.frame with 8 required columns: ID, full names, address, university, country, RI, OI, and email. It uses this information to match up common names and identify groups of people. Jaro-winkler scores are calcualted for non-easily matched names
+#' \code{authors_match} This function requires a data.frame with 8 required 
+#' columns: ID, full names, address, university, country, RI, OI, and email. 
+#' It uses this information to match up common names and identify groups of 
+#' people. Jaro-winkler scores are calcualted for non-easily matched names
 #' @param data data input
 #' @importFrom stats na.omit
 #' @noRd
