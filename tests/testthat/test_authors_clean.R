@@ -34,8 +34,8 @@ df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
   RP=c("Univ Florida, Gainesville, FL USA","University of Texas, Austin, TX, USA",
     NA), SC=NA, SN=NA, SO=NA, TC=NA, TI=NA, UT=NA, VL=NA, WC=NA,Z9=NA,
   refID=c(1,2,3) ,stringsAsFactors=F)
-
-#expect_error(authors_clean(references = df),"The following references have no authors",ignore.case=T)
+df[]<-lapply(df, as.character)
+expect_error(authors_clean(references = df))
 })
 
 
