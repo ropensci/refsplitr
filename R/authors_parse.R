@@ -47,7 +47,8 @@ authors_parse <- function(references){
     }
     # Split out the addresses and not the names assocated
     C1_address <- gsub("^\\[.*\\] (.*)$", "\\1", C1)
-    # create a dataframe of all unique addresses and their matching affiliations
+    # create a dataframe of all unique addresses 
+    # and their matching affiliations
     dd <- data.frame(C1_names, C1_address, stringsAsFactors = FALSE)
 
     dd1 <- data.frame(
