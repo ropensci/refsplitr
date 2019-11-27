@@ -86,7 +86,6 @@ authors_address <- function(addresses, ID){
   int1 <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}"
   int2 <- paste("[[:space:]][[:upper:]][[:digit:]][[:upper:]]",
                  "[[:space:]][[:digit:]][[:upper:]][[:digit:]]", sep="")
-  int2 <- "[[:space:]][[:upper:]][[:digit:]][[:upper:]][[:space:]][[:digit:]][[:upper:]][[:digit:]]"
   int3 <- "[[:alpha:]][[:punct:]][[:digit:]]{4,7}"
   int4 <- "[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
   int <- paste(int1, int2, int3, int4, sep = "|")
