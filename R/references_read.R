@@ -247,7 +247,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     utils::setTxtProgressBar(pb, counter)
     counter <- counter + 1
     utils::flush.console()
-    ############################################################################
+    ###########################################################################
     }
   ############################################## 3
   # Post Processing

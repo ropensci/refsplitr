@@ -46,7 +46,7 @@ split_names <- function(x) {
   first <- regmatches(second.split, regexpr("[A-Z][a-z]*", second.split))[1]
 
   # Middle names are messy because they have multiple parts, spaces, names
-  # we'll just shove the names together. Even though this might not be 'correct'
+  # we'll just shove names together, even though this might not be 'correct'
   # We're taking out jrs and seniors for the sake of analysis
   if (length(second.split) > 1) {
     third.split <- second.split[-1]

@@ -3,9 +3,13 @@
 #' This function plots an addresses data.frame 
 #' object by point overlaid on the countries of the world.
 #'
-#' @param data the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.
-#' @param mapCountry What country to map. Possible values include ["USA", "Brazil", "Australia", "UK"]
-#' use \code{data(countries) to see possible names}. No value defaults to the world map.
+#' @param data the `address` element from the list output by 
+#' the `authors_georef()`` function, containing geocoded address 
+#' latitude and longitude locations.
+#' @param mapCountry What country to map. Possible values 
+#' include ["USA", "Brazil", "Australia", "UK"]
+#' use \code{data(countries) to see possible names}. No value defaults
+#'  to the world map.
 #' 
 #' @examples
 #' ## Using the output of authors_georef (e.g., BITR_geocode)
