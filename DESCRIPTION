@@ -1,27 +1,58 @@
-Package: refsplitr
 Type: Package
-Title: Clarivate Analytics Web of Knowledge/Science and ISI Reference Data Tools
+Package: refsplitr
+Title: Clarivate Analytics Web of Knowledge/Science and ISI
+    Reference Data Tools
 Version: 0.6
-Authors@R: c(person("Auriel M.V.", "Fournier", role = c("aut"),
-                     email = "aurielfournier@gmail.com"),
-              person("Matthew E.", "Boone", role = "aut"),
-              person("Forrest R.", "Stevens", role = "aut"),
-              person("Emilio", "Bruna", role=c("aut","cre"), 
-              email="embruna@ufl.edu"))
-URL: https://github.com/embruna/refsplitr
-Description: This function reads Thomson Reuters Web of Knowledge/Science and ISI format reference data files into an R friendly data format and can optionally write the converted data to a friendly CSV format.
+Authors@R: 
+    c(person(given = "Auriel M.V.",
+             family = "Fournier",
+             role = "aut",
+             email = "aurielfournier@gmail.com"),
+      person(given = "Matthew E.",
+             family = "Boone",
+             role = "aut"),
+      person(given = "Forrest R.",
+             family = "Stevens",
+             role = "aut"),
+      person(given = "Emilio",
+             family = "Bruna",
+             role = c("aut", "cre"),
+             email = "embruna@ufl.edu"))
+Description: This function reads Thomson Reuters Web of
+    Knowledge/Science and ISI format reference data files into an R
+    friendly data format and can optionally write the converted data to a
+    friendly CSV format.
 License: GPL-3
-Imports: maptools, rworldmap, RecordLinkage, Matrix, igraph, network, sna, Hmisc, ggplot2, Rdpack, ggmap, mapproj, gdtools, vdiffr
-RoxygenNote: 6.1.1
-RdMacros: Rdpack
-Remotes: dkahle/ggmap
+URL: https://github.com/embruna/refsplitr
+BugReports: https://github.com/embruna/refsplitr/issues
+Depends: 
+    R (>= 2.10)
+Imports: 
+    ggmap,
+    ggplot2,
+    Hmisc,
+    igraph,
+    maptools,
+    Matrix,
+    network,
+    RecordLinkage,
+    rworldmap,
+    sna
 Suggests: 
-    testthat,
-    utils,
     covr,
     knitr,
-    rmarkdown
-Depends: R (>= 2.10)
-VignetteBuilder: knitr
+    gdtools,
+    mapproj,
+    rmarkdown,
+    Rdpack,
+    testthat,
+    utils,
+    vdiffr
+VignetteBuilder: 
+    knitr
+RdMacros: 
+    Rdpack
+Remotes: 
+    dkahle/ggmap
 Encoding: UTF-8
-BugReports: https://github.com/embruna/refsplitr/issues
+RoxygenNote: 6.1.1
