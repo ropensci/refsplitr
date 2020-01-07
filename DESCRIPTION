@@ -39,15 +39,11 @@ Imports:
     rworldmap,
     sna
 Suggests: 
-    covr,
     knitr,
     gdtools,
-    mapproj,
     rmarkdown,
-    Rdpack,
     testthat,
-    utils,
-    vdiffr
+    utils
 VignetteBuilder: 
     knitr
 RdMacros: 
@@ -55,4 +51,4 @@ RdMacros:
 Remotes: 
     dkahle/ggmap
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
