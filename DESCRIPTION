@@ -41,15 +41,12 @@ Imports:
 Suggests: 
     gdtools,
     knitr,
-    Rdpack,
     mapproj,
     rmarkdown,
     testthat,
     utils
 VignetteBuilder: 
     knitr
-RdMacros: 
-    Rdpack
 Remotes: 
     dkahle/ggmap
 Encoding: UTF-8
