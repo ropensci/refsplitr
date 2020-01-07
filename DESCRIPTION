@@ -41,7 +41,7 @@ Imports:
 Suggests: 
     gdtools,
     knitr,
-    covr,
+    vdiffr,
     mapproj,
     rmarkdown,
     testthat,
