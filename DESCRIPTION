@@ -39,8 +39,9 @@ Imports:
     rworldmap,
     sna
 Suggests: 
-    knitr,
     gdtools,
+    knitr,
+    mapproj,
     rmarkdown,
     testthat,
     utils
