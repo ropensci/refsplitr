@@ -1,6 +1,6 @@
 # refsplitr <img src="man/figures/refsplitrhex.png" height="200" align="right">
 
-[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Build Status](https://travis-ci.org/embruna/refsplitr.svg?branch=master)](https://travis-ci.org/embruna/refsplitr)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/embruna/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/embruna/refsplitr?branch=master)
+[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Build Status](https://travis-ci.org/ropensci/refsplitr.svg?branch=master)](https://travis-ci.org/ropensci/refsplitr)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/ropensci/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/ropensci/refsplitr?branch=master)
 
 refsplitr: an R package for processing Web of Science Records and mapping georeferenced coauthorship networks
 
