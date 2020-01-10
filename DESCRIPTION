@@ -51,3 +51,4 @@ Remotes:
     dkahle/ggmap
 Encoding: UTF-8
 RoxygenNote: 7.0.2
+rodev::add_ro_desc()
