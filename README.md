@@ -14,7 +14,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("embruna/refsplitr")
+devtools::install_github("ropensci/refsplitr")
 ```
 
 ## Workflow
@@ -46,7 +46,7 @@ dat4 <- authors_georef(dat3)
 plot_net_address(dat4$addresses)
 ```
 
-**We welcome any suggestions for package improvement or ideas for features to include in future versions.** If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/embruna/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/embruna/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
+**We welcome any suggestions for package improvement or ideas for features to include in future versions.** If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/ropensci/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/ropensci/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
 
 <center>
 <img src="man/figures/coauthor_connections_BITR.png" height="400">
