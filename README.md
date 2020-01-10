@@ -77,3 +77,5 @@ Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
     }
     
 _Note regarding package development history_: The early development of `refsplitr`- initially known as `refnet` - was by Forrest Stevens and Emilio M. Bruna and was done on [r-forge](https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  _Please make all suggestions for changes via this Github repository - do not make a repo mirror of the R-forge version._
+
+[![ropensci_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)
