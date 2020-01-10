@@ -39,6 +39,7 @@ Imports:
     rworldmap,
     sna
 Suggests: 
+    covr,
     gdtools,
     knitr,
     mapproj,
