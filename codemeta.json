@@ -1,0 +1,277 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "refsplitr",
+  "description": "This function reads Thomson Reuters Web of\n    Knowledge/Science and ISI format reference data files into an R\n    friendly data format and can optionally write the converted data to a\n    friendly CSV format.",
+  "name": "refsplitr: Clarivate Analytics Web of Knowledge/Science and ISI\n    Reference Data Tools",
+  "codeRepository": "https://github.com/embruna/refsplitr",
+  "issueTracker": "https://github.com/embruna/refsplitr/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.6",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.5.1",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.5.1 (2018-07-02)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Auriel M.V.",
+      "familyName": "Fournier",
+      "email": "aurielfournier@gmail.com"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Matthew E.",
+      "familyName": "Boone"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Forrest R.",
+      "familyName": "Stevens"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Emilio",
+      "familyName": "Bruna",
+      "email": "embruna@ufl.edu"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Emilio",
+      "familyName": "Bruna",
+      "email": "embruna@ufl.edu"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=covr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "gdtools",
+      "name": "gdtools",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=gdtools"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "knitr",
+      "name": "knitr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=knitr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "mapproj",
+      "name": "mapproj",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=mapproj"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rmarkdown",
+      "name": "rmarkdown",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "utils",
+      "name": "utils"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggmap",
+      "name": "ggmap",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://github.com/dkahle/ggmap"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "Hmisc",
+      "name": "Hmisc",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=Hmisc"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "igraph",
+      "name": "igraph",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=igraph"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "maptools",
+      "name": "maptools",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=maptools"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "Matrix",
+      "name": "Matrix",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=Matrix"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "network",
+      "name": "network",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=network"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "RecordLinkage",
+      "name": "RecordLinkage",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=RecordLinkage"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rworldmap",
+      "name": "rworldmap",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rworldmap"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "sna",
+      "name": "sna",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=sna"
+    }
+  ],
+  "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
+  "fileSize": "4869.373KB",
+  "contIntegration": [
+    "https://travis-ci.org/ropensci/refsplitr",
+    "https://coveralls.io/github/ropensci/refsplitr?branch=master"
+  ],
+  "developmentStatus": "http://www.repostatus.org/#active",
+  "review": {
+    "@type": "Review",
+    "url": "https://github.com/ropensci/onboarding/issues/256",
+    "provider": "http://ropensci.org"
+  },
+  "isPartOf": "https://ropensci.org",
+  "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "references", "WebofScience"]
+}
