@@ -58,3 +58,7 @@ Remotes:
 Encoding: UTF-8
 RoxygenNote: 7.0.2
 rodev::add_ro_desc()
+X-schema.org-keywords: author disambiguation, bibliometrics, coauthorship,collaboration,georeferencing,references,Web of Science
+X-schema.org-isPartOf: https://ropensci.org
+ 
+metadata, codemeta, ropensci, citation, credit, linked-data
