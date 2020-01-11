@@ -28,8 +28,8 @@ Description: This function reads Thomson Reuters Web of
     friendly data format and can optionally write the converted data to a
     friendly CSV format.
 License: GPL-3
-URL: https://github.com/embruna/refsplitr
-BugReports: https://github.com/embruna/refsplitr/issues
+URL: https://github.com/ropensci/refsplitr
+BugReports: https://github.com/ropensci/refsplitr/issues
 Depends: 
     R (>= 2.10)
 Imports: 
@@ -59,7 +59,7 @@ Encoding: UTF-8
 RoxygenNote: 7.0.2
 rodev::add_ro_desc()
 X-schema.org-keywords: 
-    author disambiguation, 
+    name disambiguation, 
     bibliometrics, 
     coauthorship,
     collaboration,
