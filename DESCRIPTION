@@ -27,6 +27,7 @@ Description: This function reads Thomson Reuters Web of
     Knowledge/Science and ISI format reference data files into an R
     friendly data format and can optionally write the converted data to a
     friendly CSV format.
+ This package has been peer-reviewed by rOpenSci (v. 0.6).
 License: GPL-3
 URL: https://github.com/ropensci/refsplitr
 BugReports: https://github.com/ropensci/refsplitr/issues
@@ -57,7 +58,6 @@ Remotes:
     dkahle/ggmap
 Encoding: UTF-8
 RoxygenNote: 7.0.2
-rodev::add_ro_desc()
 X-schema.org-keywords: 
     name disambiguation, 
     bibliometrics, 
