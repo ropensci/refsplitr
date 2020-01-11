@@ -17,7 +17,12 @@ Authors@R:
       person(given = "Emilio",
              family = "Bruna",
              role = c("aut", "cre"),
-             email = "embruna@ufl.edu"))
+             email = "embruna@ufl.edu"),
+      person(given="Bianca", 
+             family="Kramer", 
+             role = "rev",
+             comment = "Dr. Kramer reviewed the package for ropensci,
+             see <https://github.com/ropensci/software-review/issues/256>"))
 Description: This function reads Thomson Reuters Web of
     Knowledge/Science and ISI format reference data files into an R
     friendly data format and can optionally write the converted data to a
