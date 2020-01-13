@@ -1,6 +1,6 @@
 ---
 title: "refsplitr"
-author: "Auriel M. V. Fournier, Matt Boone, Forrest Stevens, Emilio M. Bruna"
+author: "Auriel M. V. Fournier, Matthew E. Boone, Forrest R. Stevens, Emilio M. Bruna"
 date: "`r Sys.Date()`"
 output: 
   rmarkdown::html_vignette:
