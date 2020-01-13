@@ -5,12 +5,12 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "refsplitr",
-  "description": "This function reads Thomson Reuters Web of\n    Knowledge/Science and ISI format reference data files into an R\n    friendly data format and can optionally write the converted data to a\n    friendly CSV format.\n This package has been peer-reviewed by rOpenSci (v. 0.6).",
+  "description": "This function reads Thomson Reuters Web of\n    Knowledge/Science and ISI format reference data files into an R\n    friendly data format and can optionally write the converted data to a\n    friendly CSV format.\n This package has been peer-reviewed by rOpenSci (v. 1.0).",
   "name": "refsplitr: Clarivate Analytics Web of Knowledge/Science and ISI\n    Reference Data Tools",
   "codeRepository": "https://github.com/ropensci/refsplitr",
   "issueTracker": "https://github.com/ropensci/refsplitr/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.6",
+  "version": "1.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -261,7 +261,7 @@
     }
   ],
   "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
-  "fileSize": "4869.376KB",
+  "fileSize": "4869.422KB",
   "contIntegration": [
     "https://travis-ci.org/ropensci/refsplitr",
     "https://coveralls.io/github/ropensci/refsplitr?branch=master"
