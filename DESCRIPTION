@@ -3,6 +3,7 @@ Package: refsplitr
 Title: Clarivate Analytics Web of Knowledge/Science and ISI
     Reference Data Tools
 Version: 1.0
+Year: 2020
 Authors@R: 
     c(person(given = "Auriel M.V.",
              family = "Fournier",
