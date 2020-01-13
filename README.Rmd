@@ -71,13 +71,13 @@ Map of georeferenced article coauthorships generated with refsplitr.
 Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
   Stevens Developer and Emilio M. Bruna Developer (2018). refsplitr:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
-  0.6.
+  1.0.
   
     @Manual{,
     title = {refsplitr: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
     author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio M. Bruna Developer},
     year = {2018},
-    note = {R package version 0.6},
+    note = {R package version 1.0},
     }
     
 

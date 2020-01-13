@@ -67,13 +67,13 @@ Map of georeferenced article coauthorships generated with refsplitr.
 Auriel M.V. Fournier Developer, Matthew E. Boone Developer, Forrest R.
   Stevens Developer and Emilio M. Bruna Developer (2018). refsplitr:
   Clarivate Web of Knowledge / Web of Science  Reference Data Tools. R package version
-  0.6.
+  1.0.
   
     @Manual{,
     title = {refsplitr: Thomson Reuters Web of Knowledge/Science Reference Data Tools},
     author = {Auriel M.V. Fournier Developer and Matthew E. Boone Developer and Forrest R. Stevens Developer and Emilio M. Bruna Developer},
     year = {2018},
-    note = {R package version 0.6},
+    note = {R package version 1.0},
     }
     
 _Note regarding package development history_: The early development of `refsplitr`- initially known as `refnet` - was by Forrest Stevens and Emilio M. Bruna and was done on [r-forge](https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  _Please make all suggestions for changes via this Github repository - do not make a repo mirror of the R-forge version._
