@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "refsplitr",
-  "description": "This function reads Thomson Reuters Web of\n    Knowledge/Science and ISI format reference data files into an R\n    friendly data format and can optionally write the converted data to a\n    friendly CSV format.\n This package has been peer-reviewed by rOpenSci (v. 1.0).",
-  "name": "refsplitr: Clarivate Analytics Web of Knowledge/Science and ISI\n    Reference Data Tools",
+  "description": "Tools to parse and organize reference records downloaded from the \n    Web of Science citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
+  "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with Web of Science data. ",
   "codeRepository": "https://github.com/ropensci/refsplitr",
   "issueTracker": "https://github.com/ropensci/refsplitr/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
@@ -261,7 +261,7 @@
     }
   ],
   "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
-  "fileSize": "4869.422KB",
+  "fileSize": "4869.521KB",
   "contIntegration": [
     "https://travis-ci.org/ropensci/refsplitr",
     "https://coveralls.io/github/ropensci/refsplitr?branch=master"
@@ -273,5 +273,5 @@
     "provider": "http://ropensci.org"
   },
   "isPartOf": "https://ropensci.org",
-  "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "references", "WebofScience"]
+  "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "metascience", "references", "scientometrics", "scienceofscience", "WebofScience"]
 }
