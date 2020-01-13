@@ -1,5 +1,6 @@
 ---
-title: 'refsplitr: Tools for organization and visualization of bibliometric data from the Web of Science (Clarivate Analytics)'
+title: 'refsplitr: Author name disambiguation, author georeferencing, and 
+mapping of coauthorship networks with Web of Science data'
 tags:
   - tagone
   - tagtwo
