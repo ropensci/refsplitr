@@ -2,11 +2,9 @@ citHeader("To cite refsplitr in publications use:")
 
 citEntry(
   entry    = "Misc",
-  title    = "{refsplitr}: {A}uthor name disambiguation, author 
-    georeferencing, and mapping of coauthorship networks with Web of Science 
-    data.",
-  author   = "Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, 
-    and Emilio M. Bruna",
+  title    = "refsplitr: Author name disambiguation, author georeferencing, 
+  and mapping of coauthorship networks with Web of Science data.",
+  author   = "Auriel M.V. Fournier and Matthew E. Boone and Forrest R. Stevens and Emilio M. Bruna",
   note     = "R package version 1.0.0.",
   year     = "2020",
   url      = "https://github.com/ropensci/refsplitr",
