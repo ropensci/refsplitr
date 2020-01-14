@@ -75,7 +75,7 @@ Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and
     data. R package version 1.0.0. https://github.com/ropensci/refsplitr
   
     @Manual{,
-    title = {refsplitr: Tauthor name disambiguation, author georeferencing, 
+    title = {refsplitr: author name disambiguation, author georeferencing, 
     and mapping of coauthorship networks with Web of Science data.},
     author = {Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, 
     and Emilio M. Bruna},
