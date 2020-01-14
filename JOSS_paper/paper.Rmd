@@ -53,8 +53,6 @@ The second challenge to working with large bibliometric data-sets is correctly *
 
 Package [**``refsplitr``**](https://github.com/ropensci/refsplitr) helps users of the R statistical computing environment [@Rlanguage] address these challenges. It imports and organizes the output from Web of Science searches, disambiguates the names of authors, suggests author names that would benefit from additional review to verify the disambiguation, parses author addresses, and georeferences author institutions. It then generates maps indicating the locations of authors and georeferenced coauthorship networks. Finally, the processed data-sets can be exported in tidy formats for analysis with user-written code or, after some additional formatting, packages such as [**``revtools``**](https://cran.r-project.org/package=revtools) [@westgate2018revtools] or [**``bibliometrix``**](https://CRAN.R-project.org/package=bibliometrix) [@aria2017bibliometrix].
 
-# Figures
-
 ![Map of georeferenced article coauthorships generated with ``refsplitr``.](coauthor_connections_BITR_copy.png)
 
 # Acknowledgements
