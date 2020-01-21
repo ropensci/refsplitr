@@ -2,6 +2,7 @@
 
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)    [![Build Status](https://travis-ci.org/ropensci/refsplitr.svg?branch=master)](https://travis-ci.org/ropensci/refsplitr)    [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)   [![Coverage Status](https://coveralls.io/repos/github/ropensci/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/ropensci/refsplitr?branch=master) HTML: <a href="https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca"><img src="https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca/status.svg"></a>
 Markdown: [![status](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca/status.svg)](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca)
+
              
 refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. 
 
