@@ -36,7 +36,6 @@ affiliations:
 citation_author: Fournier et. al.
 date: 14 January 2020
 year: 2020
-formatted_doi: 
 bibliography: paper.bib
 output: rticles::joss_article
 csl: apa.csl
