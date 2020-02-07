@@ -21,12 +21,12 @@ Authors@R:
       person(given="Bianca", 
              family="Kramer", 
              role = "rev",
-             comment = "Kramer reviewed the package for ropensci,
+             comment = "Kramer reviewed the package (v 1.0) for rOpenSci,
              see <https://github.com/ropensci/software-review/issues/256>"),
              person(given="Najko", 
              family="Jahn", 
              role = "rev",
-             comment = "Jahn reviewed the package for ropensci,
+             comment = "Jahn reviewed the package (v1.0) for rOpenSci,
              see <https://github.com/ropensci/software-review/issues/256>"))
 Description: Tools to parse and organize reference records downloaded from the 
     'Web of Science' citation database into an R-friendly format, disambiguate 
