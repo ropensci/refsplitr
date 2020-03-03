@@ -22,7 +22,7 @@
 #' BITR_clean <- authors_clean(BITR)
 #' 
 #' ## The output of authors_clean is a list with two elements, 
-#' which can be assigend to dataframes.
+#' ## which can be assigend to dataframes.
 #' BITR_review_df <- BITR_clean$review
 #' BITR_prelim_df <- BITR_clean$prelim
 #' 
