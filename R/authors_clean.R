@@ -15,7 +15,7 @@
 #' based on distance of similar character.
 #' 
 #' @param references output from \code{references_read}
-#' @importFrom RecordLinkage jarowinkler
+#' @importFrom stringdist stringsim
 #' @examples 
 #' ## Load the refsplitr sample dataset "BITR" 
 #' data(BITR) 

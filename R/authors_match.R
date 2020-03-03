@@ -18,7 +18,7 @@ authors_match <- function(data){
     address = data$address, university = data$university,
     country = data$country, RI = data$RI, OI = data$OI,
     email = data$EM, first = NA, middle = NA, last = NA,
-    stringsAsFactors = FALSE)
+    jarowsAsFactors = FALSE)
   n_n[, c("first", "middle", "last")] <-
     t(vapply(as.character(n_n$unique_name), split_names, character(3)))
   n_n$first <- tolower(n_n$first)
@@ -247,9 +247,10 @@ authors_match <- function(data){
         n_n1 <- n_n1[!is.na(n_n1$m_i) & n_n1$m_i == name_df$m_i, ]
       }
 
-      jw_m <- RecordLinkage::jarowinkler(
+      jw_m <- stringdist::stringsim(
         paste0(n_n1$last, n_n1$first, n_n1$middle),
-        paste0(name_df$last, name_df$first, name_df$middle)
+        paste0(name_df$last, name_df$first, name_df$middle,
+               method = "jw", useBytes = TRUE, p=0.1)
       )
 
       cc <- rep(TRUE, length(jw_m))

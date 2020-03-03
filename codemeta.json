@@ -225,15 +225,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "RecordLinkage",
-      "name": "RecordLinkage",
+      "identifier": "stringdist",
+      "name": "stringdist",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=RecordLinkage"
+      "sameAs": "https://CRAN.R-project.org/package=stringdist"
     },
     {
       "@type": "SoftwareApplication",

@@ -108,7 +108,8 @@ authors_parse <- function(references){
 
       match_RI <- vapply(RI_df[, 1],
         function(x) {
-          jw <- RecordLinkage::jarowinkler(x, authors_AU)
+          jw <- stringdist::stringsim(x, authors_AU, method = "jw",
+                                      useBytes = TRUE, p=0.1)
           jw == max(jw) & jw > 0.8
         }, logical(length(authors_AU)))
 
@@ -121,7 +122,7 @@ authors_parse <- function(references){
     }
 
     # split out the OI and do the same thing we did with the RI
-    # jarowinkler is used like on RIDs
+    # stringsim is used like on RIDs
     OI <- unlist(strsplit(references[ref, ]$OI, ";"))
 
     if (sum(is.na(OI)) == 0) {
@@ -129,7 +130,8 @@ authors_parse <- function(references){
         stringsAsFactors = FALSE)
       colnames(OI_df) <- c("OI_names", "OI")
       match_OI <- vapply(OI_df[, 1], function(x) {
-        jw <- RecordLinkage::jarowinkler(x, authors_AU)
+        jw <- stringdist::stringsim(x, authors_AU, method = "jw",
+                                    useBytes = TRUE, p=0.1)
         jw == max(jw) & jw > 0.8
       }, logical(length(authors_AU)))
 
@@ -180,8 +182,10 @@ authors_parse <- function(references){
     # I feel its better to leave these alone as much as possible,
     # analyzing the resulting matches will lead to issues
     match_em <- vapply(authors_EM_strip, function(x)
-      apply(data.frame(RecordLinkage::jarowinkler(x, new$AU),
-        RecordLinkage::jarowinkler(x, new$AF)), 1, max),
+      apply(data.frame(stringdist::stringsim(x, new$AU, method = "jw",
+                                             useBytes = TRUE, p=0.1),
+        stringdist::stringsim(x, new$AF, method = "jw", 
+                              useBytes = TRUE, p=0.1)), 1, max),
       double(length(new$AU)))
 
     for (i in seq_along(authors_EM)) {

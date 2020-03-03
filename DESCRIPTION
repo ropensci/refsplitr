@@ -46,7 +46,7 @@ Imports:
     maptools,
     Matrix,
     network,
-    RecordLinkage,
+    stringdist,
     rworldmap,
     sna
 Suggests: 
