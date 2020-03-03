@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "refsplitr",
-  "description": "Tools to parse and organize reference records downloaded from the \n    Web of Science citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
-  "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with Web of Science data. ",
+  "description": "Tools to parse and organize reference records downloaded from the \n    'Web of Science' citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
+  "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with 'Web of Science' data. ",
   "codeRepository": "https://github.com/ropensci/refsplitr",
   "issueTracker": "https://github.com/ropensci/refsplitr/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
@@ -261,7 +261,7 @@
     }
   ],
   "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
-  "fileSize": "4869.521KB",
+  "fileSize": "3625.082KB",
   "contIntegration": [
     "https://travis-ci.org/ropensci/refsplitr",
     "https://coveralls.io/github/ropensci/refsplitr?branch=master"
@@ -273,5 +273,37 @@
     "provider": "http://ropensci.org"
   },
   "isPartOf": "https://ropensci.org",
-  "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "metascience", "references", "scientometrics", "scienceofscience", "WebofScience"]
+  "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "metascience", "references", "scientometrics", "scienceofscience", "WebofScience"],
+  "relatedLink": "https://docs.ropensci.org/refsplitr/",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "datePublished": "2020",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Auriel", "M.V."],
+          "familyName": "Fournier"
+        },
+        {
+          "@type": "Person",
+          "givenName": ["Matthew", "E."],
+          "familyName": "Boone"
+        },
+        {
+          "@type": "Person",
+          "givenName": ["Forrest", "R."],
+          "familyName": "Stevens"
+        },
+        {
+          "@type": "Person",
+          "givenName": ["Emilio", "M."],
+          "familyName": "Bruna"
+        }
+      ],
+      "name": "refsplitr: Author name disambiguation, author georeferencing, \n  and mapping of coauthorship networks with Web of Science data.",
+      "url": "https://github.com/ropensci/refsplitr",
+      "description": "R package version 1.0.0."
+    }
+  ]
 }
