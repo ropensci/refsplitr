@@ -81,7 +81,7 @@ authors_georef <- function(data,
 
   # # we'll check if data science toolkit is working, by pinging a known address
   check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
-  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "dsk"))) == 0
+  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google"))) == 0
   if (!check.open) {
     stop("data science toolkit is down right now, please try again later")
   }
@@ -93,7 +93,7 @@ authors_georef <- function(data,
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
-      source = "dsk",
+      source = "google",
       messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
@@ -114,7 +114,7 @@ authors_georef <- function(data,
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
-      source = "dsk",
+      source = "google",
       messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
@@ -135,7 +135,7 @@ authors_georef <- function(data,
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
-      source = "dsk",
+      source = "google",
       messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
@@ -156,7 +156,7 @@ authors_georef <- function(data,
     message(paste("Working... ", address))
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
-      source = "dsk",
+      source = "google",
       messaging = TRUE
     ))
     addresses$lat[addresses$adID == i] <- result[[2]]
