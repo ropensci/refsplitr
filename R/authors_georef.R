@@ -81,7 +81,7 @@ authors_georef <- function(data,
 
   # # we'll check if data science toolkit is working, by pinging a known address
   check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
-  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google"))) == 0
+  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google", urlonly = TRUE))) == 0
   if (!check.open) {
     stop("data science toolkit is down right now, please try again later")
   }
