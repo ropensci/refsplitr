@@ -87,10 +87,20 @@ authors_georef <- function(data,
   }
 
   #Lets try broad strokes first. Our 4 layered address
+  
+  ggmap::register_google(
+    key = ggmap::google_key(), 
+    write = TRUE,
+    second_limit = 50,
+    day_limit = 2500
+  )
+  
   for (i in addresses$adID[addresses$short_address != ""]) {
+   
     address <- as.character(addresses$short_address[i])
     #if (address == '') next
     message(paste("Working... ", address))
+    
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
       source = "google",
