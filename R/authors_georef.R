@@ -94,7 +94,7 @@ authors_georef <- function(data,
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
       source = "google",
-      messaging = TRUE,
+      messaging = TRUE
       ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
