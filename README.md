@@ -23,7 +23,7 @@ devtools::install_github("ropensci/refsplitr")
 There are four steps in the `refsplitr` package's workflow:   
 1. Importing and tidying Web of Science reference records
 2. Author name disambiguation and parsing of author addresses
-3. Georeferencing of author institutions
+3. Georeferencing of author institutions (*Important Note*: Google has changed its API requirements, which means users now have register with Google prior to georeferencing. For additional details see the [`ggmap`](https://github.com/dkahle/ggmap) repository and the instructions below.)
 4. Data visualization
 
 This is done using a series of simple commands; an example of this simple workflow is provided below:
@@ -47,7 +47,22 @@ dat4 <- authors_georef(dat3)
 plot_net_address(dat4$addresses)
 ```
 
-**We welcome any suggestions for package improvement or ideas for features to include in future versions.** If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/ropensci/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/ropensci/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
+## Registering with Google for an API key
+
+1.  2.  Install the `ggmap` package (`install.packages("ggmap")`, then load it (`library(ggmap)`).  
+
+2. Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.  
+
+3. Once you have your API key, add it to your `~/.Renviron` with `ggmap::register_google(key = "[your key]", write = TRUE)`.
+
+You should now be able to use `authors_georef()` as described in the vignette. Note that `refsplitr` currently has a limit of 2500 API calls per day. We are working on  including the ability for users to select their own limits.
+
+**Remember**: Your API key is unique to you. Guard it carefully - don't share it or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
+
+
+## We welcome any suggestions for package improvement or ideas for features to include in future versions.
+
+If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/ropensci/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/ropensci/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
 
 <center>
 <img src="man/figures/coauthor_connections_BITR.png" height="400">
