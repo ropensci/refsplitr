@@ -53,16 +53,26 @@ plot_net_address(dat4$addresses)
 
 ## Registering with Google for an API key
 
-1.  2.  Install the `ggmap` package (`install.packages("ggmap")`, then load it (`library(ggmap)`).  
+1.  Install and load the `ggmap` package
 
-2. Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.  
+```{r example, eval=FALSE}
 
-3. Once you have your API key, add it to your `~/.Renviron` with `ggmap::register_google(key = "[your key]", write = TRUE)`.
+install.packages("ggmap")
+library(ggmap)
 
-You should now be able to use `authors_georef()` as described in the vignette. Note that `refsplitr` currently has a limit of 2500 API calls per day. We are working on  including the ability for users to select their own limits.
+```
 
-**Remember**: Your API key is unique to you. Guard it carefully - don't share it or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
+1.  Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.
 
+2.  Once you have your API key, add it to your `~/.Renviron` with the following:
+
+```{r example, eval=FALSE}
+`ggmap::register_google(key = "[your key]", write = TRUE)`
+```
+
+3. You should now be able to use `authors_georef()` as described in the vignette. Note that `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
+
+***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
 
 ## Improvements & Suggestions
 
