@@ -60,9 +60,9 @@ You should now be able to use `authors_georef()` as described in the vignette. N
 **Remember**: Your API key is unique to you. Guard it carefully - don't share it or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
 
 
-## We welcome any suggestions for package improvement or ideas for features to include in future versions.
+## Improvements & Suggestions
 
-If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/ropensci/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/ropensci/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
+We welcome any suggestions for package improvement or ideas for features to include in future versions. If you have Issues, Feature Requests and Pull Requests, [here is how to contribute](https://github.com/ropensci/refsplitr/blob/master/CONTRIBUTING.md). We expect everyone contributing to the package to abide by our [Code of Conduct](https://github.com/ropensci/refsplitr/blob/master/CODE_OF_CONDUCT.md). 
 
 <center>
 <img src="man/figures/coauthor_connections_BITR.png" height="400">
