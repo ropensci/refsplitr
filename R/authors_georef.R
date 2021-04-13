@@ -83,7 +83,7 @@ authors_georef <- function(data,
   check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
   check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google", urlonly = TRUE))) == 0
   if (!check.open) {
-    stop("data science toolkit is down right now, please try again later")
+    stop("google geocoding API is down right now, please try again later")
   }
 
   #Lets try broad strokes first. Our 4 layered address
@@ -94,8 +94,8 @@ authors_georef <- function(data,
     suppressWarnings(result <- ggmap::geocode(address,
       output = "latlona",
       source = "google",
-      messaging = TRUE
-    ))
+      messaging = TRUE,
+      ))
     addresses$lat[addresses$adID == i] <- result[[2]]
     addresses$lon[addresses$adID == i] <- result[[1]]
   }
