@@ -5,7 +5,7 @@
 #' It does this by feeding the addresses into data science toolkit. 
 #' In order to maximize effectiveness and mitigate errors in parsing addresses
 #' We run this multiple times creating addresses in different ways
-#' in hopes that the data science toolkit can recognize an address
+#' in hopes that the google georeferencing API can recognize an address
 #' 1st. University, city, zipcode, country
 #' 2nd. City, zipcode, country
 #' 3rd. city, country
