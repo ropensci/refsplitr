@@ -20,13 +20,15 @@ devtools::install_github("ropensci/refsplitr")
 
 ## Workflow
 
-There are four steps in the `refsplitr` package's workflow:   
-1. Importing and tidying Web of Science reference records
-2. Author name disambiguation and parsing of author addresses
-3. Georeferencing of author institutions (*Important Note*: Google has changed its API requirements, which means users now have register with Google prior to georeferencing. For additional details see the [`ggmap`](https://github.com/dkahle/ggmap) repository and the instructions below.)
-4. Data visualization
+There are four steps in the `refsplitr` package's workflow:
 
-This is done using a series of simple commands; an example of this simple workflow is provided below:
+1.  Importing and tidying Web of Science reference records (be sure to download records using the procedure in Appendix 1 of the [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html))
+2.  Author name disambiguation and parsing of author addresses
+3.  Georeferencing of author institutions. (*Important Note*: Google has changed its API requirements, which means users now have register with Google prior to georeferencing. For additional details see the [`ggmap`](https://github.com/dkahle/ggmap) repository and the instructions below.)
+4.  Data visualization
+
+The procedures required for these four steps,each of which is implemented with a simple command, are described in detail in the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html). An example of this workflow is provided below:
+
 
 ``` r
 # load the Web of Science records into a dataframe
