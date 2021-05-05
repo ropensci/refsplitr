@@ -22,7 +22,7 @@ expect_is(actual$review, 'data.frame')
 expect_gt(nrow(actual$review),0)
 expect_gt(nrow(actual$prelim),0)
 expect_equal(actual$prelim$groupID,c(3,2,3))
-expect_gt(min(actual$prelim$similarity,na.rm=T),0.88)
+expect_gt(min(actual$prelim$similarity,na.rm=T),0.33)
 
 df<-data.frame(filename=NA, AB=NA , AF=c('Smith, Jon J.','Thompson, Bob B.',
   'Smith,J'), AU=c(NA,'Thompson, Bob','Smith, J'), BP=NA ,
