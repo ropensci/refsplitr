@@ -82,8 +82,8 @@ test_that("Map plots work", {
                   "lon"=c(-100,1.2577,-80),
                   stringsAsFactors=FALSE )
  c<-plot_net_address(data=df)
- c$data_points$latlon
- expect_equal(c$data_points$latlon, factor(c("35,-100","51.752,1.2577" ,"39,-80")))
+ c_lat_lon<-c$data_points$latlon
+ expect_equal(factor(c_lat_lon), factor(c("35,-100","51.752,1.2577" ,"39,-80")))
  expect_equal(length(c$data_polygon$long),12333)
 
  d<-plot_net_coauthor(data=df)
