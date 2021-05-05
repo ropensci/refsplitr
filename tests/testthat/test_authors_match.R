@@ -32,7 +32,7 @@ test_that("Authors match correctly", {
 
   expect_equal(actual$groupID, c(4, 2, 4, 4,6,6))
   expect_equal(which(!is.na(actual$similarity)), c(3,5))
-  expect_gte(min(actual$similarity[!is.na(actual$similarity)]), 0.88)
+  expect_gte(min(actual$similarity[!is.na(actual$similarity)]), 0.4)
   
   # testing if loop at line 34
   
@@ -64,7 +64,7 @@ test_that("Authors match correctly", {
   
   expect_equal(actual$groupID, c(1, 2, 1, 1))
   expect_equal(which(!is.na(actual$similarity)), 3)
-  expect_gte(min(actual$similarity[!is.na(actual$similarity)]), 0.88)
+  expect_gte(min(actual$similarity[!is.na(actual$similarity)]), 0.4)
   
 # for loop on line 44
   
