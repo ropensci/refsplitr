@@ -5,8 +5,12 @@
 \title{Creates a network diagram of coauthors' addresses linked by reference, 
 and with nodes arranged geographically}
 \usage{
-plot_net_address(data, mapRegion = "world", lineResolution = 10,
-  lineAlpha = 0.5)
+plot_net_address(
+  data,
+  mapRegion = "world",
+  lineResolution = 10,
+  lineAlpha = 0.5
+)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}

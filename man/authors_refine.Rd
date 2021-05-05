@@ -7,19 +7,20 @@
 authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
 }
 \arguments{
-\item{review}{the `review` element from the list output by \code{authors_clean}}
+\item{review}{the `review` element from list output by \code{authors_clean}}
 
-\item{prelim}{the `prelim` element from the list output by \code{authors_clean}}
+\item{prelim}{the `prelim` element from list output by \code{authors_clean}}
 
-\item{sim_score}{similarity score cut off point. Number between 0-1.}
+\item{sim_score}{similarity score cut off point. Number from 0-1.}
 
-\item{confidence}{confidence score cut off point. Number between 0 - 10.}
+\item{confidence}{confidence score cut off point. Number from 0 - 10.}
 }
 \description{
-\code{authors_refine} This function takes the author list output after the output 
-has been synthesized for incorrect author matches. It contains a similarity score 
-cutoff like read_authors. This however is to further constrain the list. 
-New values ARE NOT created, instead it filters by the sim_score column in the output file.
+\code{authors_refine} This function takes the author list output after the 
+output has been synthesized for incorrect author matches. It contains a 
+similarity score cutoff like read_authors. This however is to further 
+constrain the list. New values ARE NOT created, instead it filters by the
+sim_score column in the output file.
 }
 \examples{
 ## First gather the authors data.frame from authors_clean
@@ -28,16 +29,19 @@ BITR_authors <- authors_clean(BITR)
 BITR_review_df <- BITR_authors$review 
 BITR_prelim_df <- BITR_authors$prelim
 
-## If accepting the preliminary disambiguation from authors_clean without review:
-refine_df <- authors_refine(BITR_review_df, BITR_prelim_df, sim_score = 0.90, confidence = 5)
+## If accepting the preliminary disambiguation 
+from authors_clean without review:
+refine_df <- authors_refine(BITR_review_df, BITR_prelim_df,
+    sim_score = 0.90, confidence = 5)
 
-## Note that 'sim_score' and 'confidence' are optional arguments and are only 
-## required if changing the default values. 
+## Note that 'sim_score' and 'confidence' are optional arguments and are
+## only required if changing the default values. 
 refine_df <- authors_refine(BITR_review_df, BITR_prelim_df)
 
 
 ## If changes were made to groupID or authorID in the "_review.csv" file: 
-## then incorporate those changes in a text editor, save the corrections as a new file name,
-## load in to R and run `authors_refine()` with the new corrections as the review arguement.
+## then incorporate those changes in a text editor, save the corrections as
+## a new file name, load in to R and run `authors_refine()` with the 
+## new corrections as the review arguement.
  
 }

@@ -10,27 +10,35 @@ authors_clean(references)
 \item{references}{output from \code{references_read}}
 }
 \description{
-\code{authors_clean} This function takes the output from \code{references_read} and cleans the author information.
-Information on addresses, emails, ORCIDs, etc are matched.
-It then attempts to match same author entries together into likely author groups based on common full names, addresses, emails, ORCIDs etc.
+\code{authors_clean} This function takes the output from
+ \code{references_read} and cleans the author information.
 }
 \details{
-Records that are not matched this way have a Jaro-Winkler similiarty analysis metric calculated
-for all possible matching author names.
-This calculates the amount of character similarities based on distance of similar character.
+Information on addresses, emails, ORCIDs, etc are matched.
+
+It then attempts to match same author entries together into likely author 
+groups based on common full names, addresses, emails, ORCIDs etc.
+
+Records that are not matched this way have a Jaro-Winkler similiarty 
+analysis metric calculated for all possible matching author names.
+
+This calculates the amount of character similarities 
+based on distance of similar character.
 }
 \examples{
 ## Load the refsplitr sample dataset "BITR" 
 data(BITR) 
 BITR_clean <- authors_clean(BITR)
 
-## The output of authors_clean is a list with two elements, which can be assigend to dataframes.
+## The output of authors_clean is a list with two elements, 
+## which can be assigend to dataframes.
 BITR_review_df <- BITR_clean$review
 BITR_prelim_df <- BITR_clean$prelim
 
 ## Users can save the these dataframes outside of R as .csv files.
-## The "review_df.csv" is then used to review the groupID or authorID assignments and make
-## any necessary corrections. The function "authors_refine" is used to load and merge the changes 
+## The "review_df.csv" is then used to review the groupID or authorID 
+## assignments and make any necessary corrections. 
+## The function "authors_refine" is used to load and merge the changes 
 ## into R and create a dataframe used for analyses. 
 
 }

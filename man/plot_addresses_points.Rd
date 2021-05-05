@@ -7,10 +7,14 @@
 plot_addresses_points(data, mapCountry = NULL)
 }
 \arguments{
-\item{data}{the `address` element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
+\item{data}{the `address` element from the list output by 
+the `authors_georef()`` function, containing geocoded address 
+latitude and longitude locations.}
 
-\item{mapCountry}{What country to map. Possible values include ["USA", "Brazil", "Australia", "UK"]
-use \code{data(countries) to see possible names}. No value defaults to the world map.}
+\item{mapCountry}{What country to map. Possible values 
+include ["USA", "Brazil", "Australia", "UK"]
+use \code{data(countries) to see possible names}. No value defaults
+ to the world map.}
 }
 \description{
 This function plots an addresses data.frame 

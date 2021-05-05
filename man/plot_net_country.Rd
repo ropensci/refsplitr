@@ -5,8 +5,12 @@
 \title{Creates a network diagram of coauthors' countries linked by reference, 
 #and with nodes arranged geographically}
 \usage{
-plot_net_country(data, lineResolution = 10, mapRegion = "world",
-  lineAlpha = 0.5)
+plot_net_country(
+  data,
+  lineResolution = 10,
+  mapRegion = "world",
+  lineAlpha = 0.5
+)
 }
 \arguments{
 \item{data}{the `address` element from the list outputted from 
