@@ -292,7 +292,7 @@ example_georef <-authors_georef(data=example_a_refined,
 
 Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
 
-```{r, results="hide", message=FALSE}
+```{r, eval-FALSE, results="hide", message=FALSE}
 
 example_georef <-suppressMessages(authors_georef(data=example_a_refined,
                                                  address_column = "address"))
@@ -483,7 +483,10 @@ knitr::include_graphics("images/app1-2.png", error = F)
 ## **Appendix 2:** Web of Science Data Field Definitions
 
 ```{r echo = FALSE, results = 'asis'}
-App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
+
+file1 = system.file("extdata", "App2_Table1.csv", package = "refsplitr")
+App2Table1<-read.csv(file1,dec=".", header = TRUE, sep = ",", check.names=FALSE)
+
 knitr::kable(App2Table1, caption = "Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.")
 
 ```
@@ -498,9 +501,10 @@ knitr::kable(App2Table1, caption = "Definition of column headings in the output 
 The information in the Table below is provided by the `authors_clean()` function to help users assess the validity of groupID assignments made by `refsplitr`'s disambiguation algorithm. However, finding any errors in disambiguation becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. We **strongly** recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
 
 
-```{r echo = FALSE, results = 'asis'}
-App3Table1<-read.csv("App3_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
 
+```{r echo = FALSE, results = 'asis'}
+file2 = system.file("extdata", "App3_Table1.csv", package = "refsplitr")
+App3Table1<-read.csv(file2,dec=".", header = TRUE, sep = ",", check.names=FALSE)
 
 knitr::kable(App3Table1, caption = "Information provided by the `authors_clean()` function to help users assess the validity of groupID assignments made by `refsplitr`'s disambiguation algorithm.") 
 ```

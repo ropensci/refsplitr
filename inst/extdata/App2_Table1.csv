@@ -1,0 +1,34 @@
+Column Heading,Definition
+filename,file from which records were imported
+AB,Abstract
+AF,Author Full Name
+AU,Authors
+CA, Consortium Author
+BP,Beginning Page
+C1,Author Address
+CR,Cited References
+DE,Author Keywords
+DI,Digital Object Identifier (DOI)
+EM,E-mail Address
+EP,Ending Page
+FN,File Name
+FU,Funding Agency and Grant Number
+PD,Publication Date
+PG,Page Count
+PT,Publication Type (J=Journal; B=Book; S=Series; P=Patent)
+PU,Publisher
+PY,Publication Year
+RI,ResearcherID Number
+OI,Open Researcher and Contributor ID Number (ORCID ID)
+PM,PubMed ID
+RP,Reprint Address
+SC,Research Areas
+SN,International Standard Serial Number (ISSN)
+SO,Publication Name
+TC,Web of Science Core Collection Times Cited Count
+TI,Document Title
+UT,Accession Number
+VL,Volume
+WC,Web of Science Categories
+Z9,Total Times Cited Count^2^
+refID,a unique identifier for each article in the dataset assigned by refnet
