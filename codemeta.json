@@ -263,7 +263,6 @@
   "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
   "fileSize": "3695.452KB",
   "contIntegration": [
-    "https://travis-ci.org/ropensci/refsplitr",
     "https://coveralls.io/github/ropensci/refsplitr?branch=master"
   ],
   "developmentStatus": "http://www.repostatus.org/#active",
