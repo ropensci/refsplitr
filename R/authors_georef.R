@@ -36,7 +36,7 @@ authors_georef <- function(data,
   options(ggmap = list(display_api_key = FALSE))
   if (!is.character(data$address)) {
     stop("Address columns are not characters,
-    please change to characters and try again")
+         please change to characters and try again")
   }
   addresses <- data[, c("university", "city", "state", "country",
     "postal_code", "authorID", "address")]
