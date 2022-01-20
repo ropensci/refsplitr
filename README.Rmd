@@ -5,7 +5,11 @@ title: refsplitr
 <!-- badges: start -->
 <img src="man/figures/refsplitrhex.png" height="200" align="right"/>
 
-[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)[![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256) [![Coverage Status](https://coveralls.io/repos/github/ropensci/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/ropensci/refsplitr?branch=master)[![status](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca/status.svg)](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca)[![R-CMD-check](https://github.com/embruna/refsplitr/workflows/R-CMD-check/badge.svg)](https://github.com/embruna/refsplitr/actions)
+[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)
+[![Coverage Status](https://coveralls.io/repos/github/ropensci/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/ropensci/refsplitr?branch=master)
+[![status](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca/status.svg)](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca)
+[![R-CMD-check](https://github.com/embruna/refsplitr/workflows/R-CMD-check/badge.svg)](https://github.com/embruna/refsplitr/actions)
 <!-- badges: end -->
 
 refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data.
