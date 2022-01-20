@@ -2,10 +2,12 @@
 fig_caption: yes
 title: refsplitr
 ---
-
+<!-- badges: start -->
 <img src="man/figures/refsplitrhex.png" height="200" align="right"/>
 
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/ropensci/refsplitr.svg?branch=master)](https://travis-ci.org/ropensci/refsplitr) [![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256) [![Coverage Status](https://coveralls.io/repos/github/ropensci/refsplitr/badge.svg?branch=master)](https://coveralls.io/github/ropensci/refsplitr?branch=master) [![status](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca/status.svg)](https://joss.theoj.org/papers/3e46a4970fea0da996251617d2fa85ca)
+[![R-CMD-check](https://github.com/embruna/refsplitr/workflows/R-CMD-check/badge.svg)](https://github.com/embruna/refsplitr/actions)  
+<!-- badges: end -->
 
 refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data.
 
@@ -34,7 +36,7 @@ There are four steps in the `refsplitr` package's workflow:
 
 The procedures required for these four steps,each of which is implemented with a simple command, are described in detail in the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html). An example of this workflow is provided below:
 
-```{r example, eval=FALSE}
+```{r example1, eval=FALSE}
 
 # load the Web of Science records into a dataframe
 dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
@@ -56,7 +58,7 @@ plot_net_address(dat4$addresses)
 
 1.  Install and load the `ggmap` package
 
-```{r example, eval=FALSE}
+```{r example2, eval=FALSE}
 
 install.packages("ggmap")
 library(ggmap)
@@ -67,7 +69,7 @@ library(ggmap)
 
 2.  Once you have your API key, add it to your `~/.Renviron` with the following:
 
-```{r example, eval=FALSE}
+```{r example3, eval=FALSE}
 `ggmap::register_google(key = "[your key]", write = TRUE)`
 ```
 
