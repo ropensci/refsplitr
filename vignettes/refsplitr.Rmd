@@ -292,7 +292,7 @@ example_georef <-authors_georef(data=example_a_refined,
 
 Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
 
-```{r, eval-FALSE, results="hide", message=FALSE}
+```{r, eval=FALSE, results="hide", message=FALSE}
 
 example_georef <-suppressMessages(authors_georef(data=example_a_refined,
                                                  address_column = "address"))
@@ -319,7 +319,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 a. Author records plotted on a world map
 
-```{r, fig.pos="H", out.width="500px",message=FALSE,results="hide"}
+```{r,eval=FALSE,  fig.pos="H", out.width="500px",message=FALSE,results="hide"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 ```
 
@@ -341,7 +341,7 @@ The output of `authors_georef()` is a ggplot object.
 
 a. Mapped location of author institutions (global).
 
-```{r, fig.pos="H", out.width="500px"}
+```{r, eval=FALSE, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
 plot_addresses_points
 ```
@@ -354,7 +354,7 @@ b. Mapped location of author institutions (national).
 
 **Figure 9:** Figure indicating the georefeenced locations of all authors in the dataset
 
-```{r, fig.pos="H", out.width="500px"}
+```{r, eval=FALSE, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses, 
                                                mapCountry = "Brazil")
 plot_addresses_points
@@ -375,7 +375,7 @@ This function has one output, a plot, built in `igraph`.
 
 a. Coauthorship networked based on the country in which coauthors are based.
 
-```{r, fig.pos="H", out.width="500px"}
+```{r, eval=FALSE, fig.pos="H", out.width="500px"}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
@@ -407,7 +407,7 @@ The output of `plot_net_country()` is a list in the R workspace. The `$plot` ele
 
 a. Mapped coauthorship network based on the countries in which authors are based.
 
-```{r fig.pos="H", out.width="500px"}
+```{r fig.pos="H", eval=FALSE, out.width="500px"}
 plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
@@ -437,7 +437,7 @@ The output of `plot_net_address()` is a list in the R workspace. The `$plot` ele
 
 a. Coauthorship network based on the geographic locations of coauthor institutions.
 
-```{r, fig.pos="H", out.width="500px"}
+```{r, eval=FALSE, fig.pos="H", out.width="500px"}
 plot_net_address <- plot_net_address(example_georef$addresses)
 plot_net_address$plot
 ```
