@@ -1,4 +1,4 @@
-# refsplitr <img src="man/figures/refsplitrhex.png" height="200" align="right">
+# refsplitr <img src="man/figures/logo.png" align="right" height="68" />
 <!-- badges: start -->
 
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)[![](https://badges.ropensci.org/256_status.svg)](https://github.com/ropensci/onboarding/issues/256)
