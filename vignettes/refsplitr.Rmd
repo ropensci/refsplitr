@@ -88,6 +88,7 @@ write.csv(example_refs,"./output/example_refs.csv")
 
 
 ```
+#> Warning in knitr::include_graphics("images/references_read.png", error = F): restarting interrupted promise evaluation
 #> Error in knitr::include_graphics("images/references_read.png", error = F): F used instead of FALSE
 ```
 <!-- ![](images/references_read.png) -->
