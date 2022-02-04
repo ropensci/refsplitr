@@ -20,7 +20,7 @@
 #' BITR_prelim_df <- BITR_authors$prelim
 #' 
 #' ## If accepting the preliminary disambiguation 
-#' ## from `authors_clean()` without review:
+#' ## from authors_clean() without review:
 #' refine_df <- authors_refine(BITR_review_df, BITR_prelim_df,
 #'     sim_score = 0.90, confidence = 5)
 #' 
