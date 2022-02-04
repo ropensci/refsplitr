@@ -11,18 +11,18 @@ authors_clean(references)
 }
 \description{
 \code{authors_clean} This function takes the output from
- \code{references_read} and cleans the author information.
+\code{references_read} and cleans the author information.
 }
 \details{
 Information on addresses, emails, ORCIDs, etc are matched.
 
-It then attempts to match same author entries together into likely author 
+It then attempts to match same author entries together into likely author
 groups based on common full names, addresses, emails, ORCIDs etc.
 
-Records that are not matched this way have a Jaro-Winkler similiarty 
+Records that are not matched this way have a Jaro-Winkler similiarty
 analysis metric calculated for all possible matching author names.
 
-This calculates the amount of character similarities 
+This calculates the amount of character similarities
 based on distance of similar character.
 }
 \examples{

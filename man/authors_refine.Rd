@@ -7,18 +7,18 @@
 authors_refine(review, prelim, sim_score = NULL, confidence = NULL)
 }
 \arguments{
-\item{review}{the `review` element from list output by \code{authors_clean}}
+\item{review}{the \code{review} element from list output by \code{authors_clean}}
 
-\item{prelim}{the `prelim` element from list output by \code{authors_clean}}
+\item{prelim}{the \code{prelim} element from list output by \code{authors_clean}}
 
 \item{sim_score}{similarity score cut off point. Number from 0-1.}
 
 \item{confidence}{confidence score cut off point. Number from 0 - 10.}
 }
 \description{
-\code{authors_refine} This function takes the author list output after the 
-output has been synthesized for incorrect author matches. It contains a 
-similarity score cutoff like read_authors. This however is to further 
+\code{authors_refine} This function takes the author list output after the
+output has been synthesized for incorrect author matches. It contains a
+similarity score cutoff like read_authors. This however is to further
 constrain the list. New values ARE NOT created, instead it filters by the
 sim_score column in the output file.
 }
@@ -30,7 +30,7 @@ BITR_review_df <- BITR_authors$review
 BITR_prelim_df <- BITR_authors$prelim
 
 ## If accepting the preliminary disambiguation 
-from authors_clean without review:
+## from authors_clean() without review:
 refine_df <- authors_refine(BITR_review_df, BITR_prelim_df,
     sim_score = 0.90, confidence = 5)
 

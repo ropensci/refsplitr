@@ -4,48 +4,50 @@
 \name{BITR}
 \alias{BITR}
 \title{Data from the journal BioTropica (pulled from Web of Knowledge)}
-\format{A data frame with 10 rows and 32 variables:
+\format{
+A data frame with 10 rows and 32 variables:
 \describe{
-  \item{filename}{the original filename the text was created from}
-  \item{refID}{the unique identifier given to each reference article by references_read()}
-  \item{AB}{Abstract}
-  \item{AF}{Full Names}
-  \item{AU}{Abbreviated names}
-  \item{C1}{Addresses}
-  \item{EM}{emails}
-  \item{RI}{Web of Science ID}
-  \item{OI}{OrcID}
-  \item{RP}{Reprint Address}
-  \item{TI}{Title}
-  \item{UT}{Web of Knowledge Unique ID}
-  \item{BP}{See url below}
-  \item{CR}{See url below}
-  \item{DE}{See url below}
-  \item{DI}{See url below}
-  \item{EP}{See url below}
-  \item{FN}{See url below}
-  \item{FU}{See url below}
-  \item{PD}{See url below}
-  \item{PG}{See url below}
-  \item{PT}{See url below}
-  \item{PU}{See url below}
-  \item{PY}{See url below}
-  \item{PM}{See url below}
-  \item{SC}{See url below}
-  \item{SN}{See url below}
-  \item{SO}{See url below}
-  \item{TC}{See url below}
-  \item{VL}{See url below}
-  \item{WC}{See url below}
-  \item{Z9}{See url below}
+\item{filename}{the original filename the text was created from}
+\item{refID}{the unique identifier given to each reference article by references_read()}
+\item{AB}{Abstract}
+\item{AF}{Full Names}
+\item{AU}{Abbreviated names}
+\item{C1}{Addresses}
+\item{EM}{emails}
+\item{RI}{Web of Science ID}
+\item{OI}{OrcID}
+\item{RP}{Reprint Address}
+\item{TI}{Title}
+\item{UT}{Web of Knowledge Unique ID}
+\item{BP}{See url below}
+\item{CR}{See url below}
+\item{DE}{See url below}
+\item{DI}{See url below}
+\item{EP}{See url below}
+\item{FN}{See url below}
+\item{FU}{See url below}
+\item{PD}{See url below}
+\item{PG}{See url below}
+\item{PT}{See url below}
+\item{PU}{See url below}
+\item{PY}{See url below}
+\item{PM}{See url below}
+\item{SC}{See url below}
+\item{SN}{See url below}
+\item{SO}{See url below}
+\item{TC}{See url below}
+\item{VL}{See url below}
+\item{WC}{See url below}
+\item{Z9}{See url below}
 The remaining codes are described on the Web of Knowledge website:
 \url{https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html}
-}}
+}
+}
 \usage{
 BITR
 }
 \description{
-A dataset containing 10 articles taken from the BioTropica journal. 
+A dataset containing 10 articles taken from the BioTropica journal.
 This dataset represents the typical formatted output from \code{references_read()}
 in the refsplitr package. It serves as a testbed for commonly miscategorized names
 }

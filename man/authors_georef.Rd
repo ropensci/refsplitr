@@ -7,17 +7,17 @@
 authors_georef(data, address_column = "address")
 }
 \arguments{
-\item{data}{dataframe from `authors_refine()`}
+\item{data}{dataframe from \code{authors_refine()}}
 
 \item{address_column}{name of column in quotes where the addresses are}
 }
 \description{
-\code{authors_georef} This function takes the final author list from 
-refine_authors, and calculates the lat long of the addresses. 
-It does this by feeding the addresses into data science toolkit. 
+\code{authors_georef} This function takes the final author list from
+refine_authors, and calculates the lat long of the addresses.
+It does this by feeding the addresses into data science toolkit.
 In order to maximize effectiveness and mitigate errors in parsing addresses
 We run this multiple times creating addresses in different ways
-in hopes that the data science toolkit can recognize an address
+in hopes that the google georeferencing API can recognize an address
 1st. University, city, zipcode, country
 2nd. City, zipcode, country
 3rd. city, country
@@ -25,7 +25,7 @@ in hopes that the data science toolkit can recognize an address
 }
 \details{
 The output is a list with three data.frames
-\code{addresses} is a data frame with all information from 
+\code{addresses} is a data frame with all information from
 refine_authors plus new location columns and calculated lat longs.
 \code{missing addresses} is a data frame with all addresses could
 not be geocoded

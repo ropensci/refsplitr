@@ -3,21 +3,21 @@
 \name{plot_net_coauthor}
 \alias{plot_net_coauthor}
 \title{Creates a network diagram of coauthors' countries linked by reference
-This function takes an addresses data.frame, 
-links it to an authors_references dataset and plots a network diagram 
+This function takes an addresses data.frame,
+links it to an authors_references dataset and plots a network diagram
 generated for co-authorship.}
 \usage{
 plot_net_coauthor(data)
 }
 \arguments{
-\item{data}{the `address` element from the list outputted from 
-the `authors_georef()`` function, containing geocoded address 
+\item{data}{the \code{address} element from the list outputted from
+the `authors_georef()`` function, containing geocoded address
 latitude and longitude locations.}
 }
 \description{
 Creates a network diagram of coauthors' countries linked by reference
-This function takes an addresses data.frame, 
-links it to an authors_references dataset and plots a network diagram 
+This function takes an addresses data.frame,
+links it to an authors_references dataset and plots a network diagram
 generated for co-authorship.
 }
 \examples{

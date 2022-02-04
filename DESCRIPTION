@@ -62,7 +62,7 @@ VignetteBuilder:
 Remotes: 
     dkahle/ggmap
 Encoding: UTF-8
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.2
 X-schema.org-keywords: 
     name disambiguation, 
     bibliometrics, 
@@ -75,3 +75,4 @@ X-schema.org-keywords:
     science of science,
     Web of Science
 X-schema.org-isPartOf: https://ropensci.org
+Roxygen: list(markdown = TRUE)
