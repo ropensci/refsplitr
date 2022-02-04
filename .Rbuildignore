@@ -12,3 +12,6 @@
 ^README.Rmd$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+.github/
+^README.html$
+^codemeta.json$
