@@ -8,7 +8,7 @@
 #' latitude and longitude locations.
 #' @param mapCountry What country to map. Possible values 
 #' include ["USA", "Brazil", "Australia", "UK"]
-#' use \code{data(countries) to see possible names}. No value defaults
+#' use `data(countries)` to see possible names. No value defaults
 #'  to the world map.
 #' 
 #' @examples

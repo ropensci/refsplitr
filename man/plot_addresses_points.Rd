@@ -13,7 +13,7 @@ latitude and longitude locations.}
 
 \item{mapCountry}{What country to map. Possible values
 include \link{"USA", "Brazil", "Australia", "UK"}
-use \code{data(countries) to see possible names}. No value defaults
+use \code{data(countries)} to see possible names. No value defaults
 to the world map.}
 }
 \description{
