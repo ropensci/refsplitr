@@ -52,7 +52,7 @@ The output of `references_read()` is an object in the R workspace. Each line of 
 
 a. To import and process a single file, set dir=FALSE and set data equal to the file path. For example, if the file "example_data.txt" were saved in the "data" folder of the RStudio project, you would import and process the data file as follows: 
 
-
+ 
 ```r
 example_refs <- references_read(data = "./data/example_data.txt", 
                                 dir=FALSE,
