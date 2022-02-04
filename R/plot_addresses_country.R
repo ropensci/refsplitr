@@ -3,10 +3,11 @@
 #' This function plots an addresses data.frame 
 #' object by country name.
 #'
-#' @param data address element from the output from the `authors_georef()`` 
+#' @param data address element from the output from the `authors_georef()` 
 #' function, containing geocoded address latitude and longitude locations.
 #' @param mapRegion what portion of the world map to show. possible values 
-#' include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
+#' include `"world"`, `"North America"`, `"South America"`, `"Australia"`,
+#' `"Africa"`, `"Antarctica"`, and `"Eurasia"`
 #' 
 #' @examples 
 #' 

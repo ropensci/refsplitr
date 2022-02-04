@@ -1,18 +1,20 @@
-#' Creates a network diagram of coauthors' countries linked by reference, 
-#' #and with nodes arranged geographically
+#' Creates a network diagram of coauthors' countries linked by reference, #and
+#' with nodes arranged geographically
 #'
-#' This function takes an addresses data.frame, 
-#' #links it to an authors_references dataset and plots a network diagram 
-#' generated for countries of co-authorship.
+#' This function takes an addresses data.frame, links it to an
+#' authors_references dataset and plots a network diagram generated for
+#' countries of co-authorship.
 #'
-#' @param data the `address` element from the list outputted from 
-#' the `authors_georef()`` function, containing geocoded address 
-#' latitude and longitude locations.
-#' @param mapRegion what portion of the world map to show. possible 
-#' values include ["world","North America","South America","Australia","Africa","Antarctica","Eurasia"]
-#' @param lineResolution the resolution of the lines drawn, higher numbers will make smoother curves
-#' default is 10. 
-#' @param lineAlpha transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.
+#' @param data the `address` element from the list outputted from the
+#'   `authors_georef()` function, containing geocoded address latitude and
+#'   longitude locations.
+#' @param mapRegion what portion of the world map to show. possible values
+#'   include `"world"`, `"North America"`, `"South America"`, `"Australia"`,
+#'   `"Africa"`, `"Antarctica"`, and `"Eurasia"`
+#' @param lineResolution the resolution of the lines drawn, higher numbers will
+#'   make smoother curves default is 10.
+#' @param lineAlpha transparency of the lines, fed into ggplots alpha value.
+#'   Number between 0 - 1.
 #' @examples 
 #' ## Using the output of authors_georef (e.g., BITR_geocode)
 #' data(BITR_geocode)

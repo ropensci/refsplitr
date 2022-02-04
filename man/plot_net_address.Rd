@@ -2,8 +2,8 @@
 % Please edit documentation in R/plot_net_address.R
 \name{plot_net_address}
 \alias{plot_net_address}
-\title{Creates a network diagram of coauthors' addresses linked by reference,
-and with nodes arranged geographically}
+\title{Creates a network diagram of coauthors' addresses linked by reference, and
+with nodes arranged geographically}
 \usage{
 plot_net_address(
   data,
@@ -13,19 +13,24 @@ plot_net_address(
 )
 }
 \arguments{
-\item{data}{the \code{address} element from the list outputted from the `authors_georef()`` function, containing geocoded address latitude and longitude locations.}
+\item{data}{the \code{address} element from the list outputted from the
+\code{authors_georef()} function, containing geocoded address latitude and
+longitude locations.}
 
-\item{mapRegion}{what portion of the world map to show. possible values include \link{"world","North America","South America","Australia","Africa","Antarctica","Eurasia"}}
+\item{mapRegion}{what portion of the world map to show. possible values
+include \code{"world"}, \code{"North America"}, \code{"South America"}, \code{"Australia"},
+\code{"Africa"}, \code{"Antarctica"}, \code{"Eurasia"}}
 
-\item{lineResolution}{the resolution of the lines drawn, higher numbers will make smoother curves
-default is 10.}
+\item{lineResolution}{the resolution of the lines drawn, higher numbers will
+make smoother curves default is 10.}
 
-\item{lineAlpha}{transparency of the lines, fed into ggplots alpha value. Number between 0 - 1.}
+\item{lineAlpha}{transparency of the lines, fed into ggplots alpha value.
+Number between 0 - 1.}
 }
 \description{
-This function takes an addresses data.frame,
-links it to an authors__references dataset and plots a network diagram
-generated for individual points of co-authorship.
+This function takes an addresses data.frame, links it to an
+authors__references dataset and plots a network diagram generated for
+individual points of co-authorship.
 }
 \examples{
 ## Using the output of authors_georef (e.g., BITR_geocode)

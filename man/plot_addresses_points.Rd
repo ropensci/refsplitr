@@ -12,7 +12,7 @@ the `authors_georef()`` function, containing geocoded address
 latitude and longitude locations.}
 
 \item{mapCountry}{What country to map. Possible values
-include \link{"USA", "Brazil", "Australia", "UK"}
+include \code{"USA"}, \code{"Brazil"}, \verb{"Australia",} and \code{"UK"}
 use \code{data(countries)} to see possible names. No value defaults
 to the world map.}
 }

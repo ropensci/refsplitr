@@ -7,7 +7,7 @@
 #' the `authors_georef()`` function, containing geocoded address 
 #' latitude and longitude locations.
 #' @param mapCountry What country to map. Possible values 
-#' include ["USA", "Brazil", "Australia", "UK"]
+#' include `"USA"`, `"Brazil"`, `"Australia",` and `"UK"`
 #' use `data(countries)` to see possible names. No value defaults
 #'  to the world map.
 #' 
