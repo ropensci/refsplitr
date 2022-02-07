@@ -144,14 +144,14 @@ The output of `authors_refine()` is an object in the R workspace. We recommend s
 
 #### Example
 
-a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
+a. To accept the results of author disambiguation _**without**_ manual review (with **_default_** values for `sim_score` and `confidence`): 
 
 ```{r, results="hide", message=FALSE}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
+b. To accept the results of author disambiguation _**without**_ manual review (with **_user-modified_** values for `sim_score` and `confidence`): 
 
 ```{r, results="hide", message=FALSE}
 example_a_refined_mod <- authors_refine(example_a_clean$review, 

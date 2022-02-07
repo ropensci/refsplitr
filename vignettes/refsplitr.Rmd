@@ -1,7 +1,7 @@
 ---
 title: "refsplitr"
 author: "Auriel M. V. Fournier, Matthew E. Boone, Forrest R. Stevens, Emilio M. Bruna"
-date: "2022-02-03"
+date: "2022-02-04"
 output: 
   rmarkdown::html_vignette:
     fig_width: 6
@@ -52,7 +52,7 @@ The output of `references_read()` is an object in the R workspace. Each line of 
 
 a. To import and process a single file, set dir=FALSE and set data equal to the file path. For example, if the file "example_data.txt" were saved in the "data" folder of the RStudio project, you would import and process the data file as follows: 
 
-
+ 
 ```r
 example_refs <- references_read(data = "./data/example_data.txt", 
                                 dir=FALSE,
@@ -86,11 +86,7 @@ d. The processed references can then be saved as a .csv file in the "output" fol
 write.csv(example_refs,"./output/example_refs.csv")
 ```
 
-
-```
-#> Warning in knitr::include_graphics("images/references_read.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/references_read.png", error = F): F used instead of FALSE
-```
+<img src="images/references_read.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="500px" />
 <!-- ![](images/references_read.png) -->
 
 **Figure 1** An image of the .csv file showing a subset of the rows and columns from the output of `references_read()`. 
@@ -122,11 +118,7 @@ write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
 write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
 ```
 
-
-```
-#> Warning in knitr::include_graphics("images/authors_clean_prelim.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/authors_clean_prelim.png", error = F): F used instead of FALSE
-```
+<img src="images/authors_clean_prelim.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="500px" />
 
 **Figure 2** A subset of the .csv file showing the rows and columns in the 'prelim' output from `authors_clean()`.
 
@@ -146,7 +138,7 @@ The output of `authors_refine()` is an object in the R workspace. We recommend s
 
 #### Example
 
-a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
+a. To accept the results of author disambiguation _**without**_ manual review (with **_default_** values for `sim_score` and `confidence`): 
 
 
 ```r
@@ -154,7 +146,7 @@ example_a_refined <- authors_refine(example_a_clean$review,
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
+b. To accept the results of author disambiguation _**without**_ manual review (with **_user-modified_** values for `sim_score` and `confidence`): 
 
 
 ```r
@@ -187,41 +179,25 @@ These corrections are uploaded using the ```authors_refine()``` function, which 
 
 Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
-
-```
-#> Warning in knitr::include_graphics("images/review_file.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/review_file.png", error = F): F used instead of FALSE
-```
+<img src="images/review_file.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="500px" />
 
 **Figure 3:** First rows and columns from the review element of `authors_clean()`
 
 A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID number 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
 
-
-```
-#> Warning in knitr::include_graphics("images/grouped_should_not_be.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/grouped_should_not_be.png", error = F): F used instead of FALSE
-```
+<img src="images/grouped_should_not_be.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="500px" />
 
 **Figure 4:** review element of `authors_clean()` highlighting three authors sharing the same last and assigned the same groupID. 
 
 Further review reveals that there are two putative authors named LW Wise -- one at U of Middle Earth (groupID 89) and one at U of the Shire (groupID 90; Figure 5). However, an online search reveals that this is actually the same author, who recently moved from one university to the other. The groupID for all of these records should therefore be changed to "89".
 
-
-```
-#> Warning in knitr::include_graphics("images/not_grouped_should_be.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/not_grouped_should_be.png", error = F): F used instead of FALSE
-```
+<img src="images/not_grouped_should_be.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" width="500px" />
 
 **Figure 5:** review element of `authors_clean()` highlighting the same author incorrectly assigned to different groupID numbers. 
 
 Once these corrections have been made (Figure 6) and saved, the changes can be incorporated using the ```authors_refine()``` function (see Section 2.2.3).
 
-
-```
-#> Warning in knitr::include_graphics("images/corrected_review.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/corrected_review.png", error = F): F used instead of FALSE
-```
+<img src="images/corrected_review.png" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" width="500px" />
 
 **Figure 6:** Corrected version of the 'review' element from `authors_clean()`.
 
@@ -263,11 +239,7 @@ b. to save the final disambiguated (i.e., 'refined') dataset to the "output" fol
 write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
-
-```
-#> Warning in knitr::include_graphics("images/AuthorMatch.PNG", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/AuthorMatch.PNG", error = F): F used instead of FALSE
-```
+<img src="images/AuthorMatch.PNG" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" width="500px" />
   
 **Figure 7:** `authors_refine()` output.   
 
@@ -496,13 +468,7 @@ Westgate, M. J. (2018). revtools: bibliographic data visualization for evidence 
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
-
-```
-#> Warning in knitr::include_graphics("images/app1-1.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/app1-1.png", error = F): F used instead of FALSE
-#> Warning in knitr::include_graphics("images/app1-2.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/app1-2.png", error = F): F used instead of FALSE
-```
+<img src="images/app1-1.png" title="plot of chunk unnamed-chunk-30" alt="plot of chunk unnamed-chunk-30" width="250px" /><img src="images/app1-2.png" title="plot of chunk unnamed-chunk-30" alt="plot of chunk unnamed-chunk-30" width="250px" />
 
 **Figure 13:** Web of Science Download Instructions
 
@@ -602,11 +568,7 @@ The first step in our disambiguation process is matching all groups together wit
 
 Below is an example of how the algorithm processes a sample data set.
  
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.1.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.1.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.1.png" title="plot of chunk unnamed-chunk-33" alt="plot of chunk unnamed-chunk-33" width="500px" />
  
 **Figure 14:** Example dataset. 
  
@@ -622,11 +584,7 @@ To lower the number of Type II errors we build a dataset of possible matches for
 
 **Entry 1.** In our test data we will start trying to match the first entry "Smith, J" in row 1. By subsetting with the above rules, we'd be matching the first row against rows 2, 3, 4, 5, 6, 7, 9:
 
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.2.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.2.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.2.png" title="plot of chunk unnamed-chunk-34" alt="plot of chunk unnamed-chunk-34" width="500px" />
 
 **Figure 15:** Figure for entry 1 
 
@@ -638,11 +596,7 @@ In our test data, there is only one piece of information we can match against - 
 
 **Entry 3.** Row 3 has 2 unique identifying pieces of information: A middle initial and an email. This subset is smaller because we have a middle initial to filter out the Smith, J.L entries: 
  
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.3.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.3.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.3.png" title="plot of chunk unnamed-chunk-35" alt="plot of chunk unnamed-chunk-35" width="500px" />
  
 **Figure 16:** Figure for entry 3
  
@@ -650,11 +604,7 @@ Matching this information against our subset, the two possible matches are Row 2
 
 **Entry 4** - This entry gets assigned groupID = 2 as well because it has a matching middle initial with Row 2 and Row 3:
 
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.4.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.4.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.4.png" title="plot of chunk unnamed-chunk-36" alt="plot of chunk unnamed-chunk-36" width="500px" />
 
 **Figure 16:** Figure for entry 4
 
@@ -664,11 +614,7 @@ Matching this information against our subset, the two possible matches are Row 2
 
 **Entry 7** - Entry 7 has one unique identifier: an email address. It gets matched to the entry in Row 3 and therefore is assigned groupID = 2. 
 
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.5.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.5.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.5.png" title="plot of chunk unnamed-chunk-37" alt="plot of chunk unnamed-chunk-37" width="500px" />
 
 **Figure 17:** Figure for entry 7
 
@@ -676,11 +622,7 @@ After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl
 
 **Entry 8** - This novel entry has two unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries, and the middle initial does not match up with any of the 'Smith' names in our record. 
  
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.6.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.6.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.6.png" title="plot of chunk unnamed-chunk-38" alt="plot of chunk unnamed-chunk-38" width="500px" />
 
 **Figure 18:** Figure for entry 8
 
@@ -690,21 +632,13 @@ Because there are no suitable matches using initial criteria, we instead match t
 
 **Entry 10** - This entry has no matching names and results in no change to the groupID number.
 
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.7.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.7.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.7.png" title="plot of chunk unnamed-chunk-39" alt="plot of chunk unnamed-chunk-39" width="500px" />
 
 **Figure 19:** Figure for Entry 10
 
 Thus our final results are: 
  
-
-```
-#> Warning in knitr::include_graphics("images/appendix3.8.png", error = F): restarting interrupted promise evaluation
-#> Error in knitr::include_graphics("images/appendix3.8.png", error = F): F used instead of FALSE
-```
+<img src="images/appendix3.8.png" title="plot of chunk unnamed-chunk-40" alt="plot of chunk unnamed-chunk-40" width="500px" />
  
 **Figure 20:** Final Results. 
 
