@@ -88,9 +88,30 @@ plot_net_country <- function(data,
   requireNamespace(package = "network", quietly = TRUE)
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
-
-  vertex_names <- ifelse(vertex_names == "usa", "united states of america",
-    vertex_names)
+  #convert to tibble to use case_when
+  vertex_names<-as_tibble(vertex_names)
+  
+  # correct names to match rworldmapper
+  vertex_names<- vertex_names %>% 
+    mutate(value=case_when(
+    value == "usa" ~ "united states of america",
+    value == "cent afr republ" ~ "central african republic",
+    value == "cote ivoire" ~ "ivory coast",
+    value == "papua n guinea" ~ "papua new guinea",
+    value == "sao tome & prin" ~ "sao tome and principe",
+    value == "tanzania" ~ "united republic of tanzania",
+    value == "rep congo" ~ "republic of the congo",
+    .default = as.character(value)
+    )
+    )
+  
+  vertex_names<-vertex_names %>% unlist() %>% unname() # convert back to vector
+  # 
+  # vertex_names <- ifelse(vertex_names == "usa", "united states of america",
+  #   vertex_names)
+  # 
+  # vertex_names <- ifelse(vertex_names == "rep congo", "republic of the congo",
+  #                        vertex_names)
 
   
   ## 	Get the world map from rworldmap package:
@@ -114,9 +135,23 @@ plot_net_country <- function(data,
 
   names(coords_df) <- c("ISO_A2", "LON", "LAT")
 
+  # Some locations wont have coordinates in rworldmap 
+  # need to add them manually 
+  
+  coords_df<- coords_df %>% 
+    mutate(LAT=case_when(
+      ISO_A2 == "french guiana" ~ 3.9339,
+      .default = as.numeric(LAT)
+    )) %>% 
+    mutate(LON=case_when(
+      ISO_A2 == "french guiana" ~ -53.1258,
+      .default = as.numeric(LON)
+    ))
+  
+  
   ## 	One could also use ggplot to plot out the network geographically:
 
-  maptools::gpclibPermit()
+  # maptools::gpclibPermit()
 
   layoutCoordinates <- coords_df
 
@@ -128,18 +163,69 @@ plot_net_country <- function(data,
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
 
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
+   
+    adjacencyList<- adjacencyList %>% 
+      mutate(country=case_when(
+      country == "usa" ~ "united states of america",
+      country == "cent afr republ" ~ "central african republic",
+      country == "cote ivoire" ~ "ivory coast",
+      country == "papua n guinea" ~ "papua new guinea",
+      country == "sao tome & prin" ~ "sao tome and principe",
+      country == "tanzania" ~ "united republic of tanzania",
+      country == "rep congo" ~ "republic of the congo",
+      country == "V1" ~ NA,
+      .default = as.character(country)
+    ))
+    
+    adjacencyList<- adjacencyList %>% 
+      mutate(country=case_when(
+        country == "usa" ~ "united states of america",
+        country == "cent afr republ" ~ "central african republic",
+        country == "cote ivoire" ~ "ivory coast",
+        country == "papua n guinea" ~ "papua new guinea",
+        country == "sao tome & prin" ~ "sao tome and principe",
+        country == "tanzania" ~ "united republic of tanzania",
+        country == "rep congo" ~ "republic of the congo",
+        country == "V1" ~ NA,
+        .default = as.character(country)
+      ))
+    
+    
+    adjacencyList<- adjacencyList %>% 
+      mutate(countryA=case_when(
+        countryA == "usa" ~ "united states of america",
+        countryA == "cent afr republ" ~ "central african republic",
+        countryA == "cote ivoire" ~ "ivory coast",
+        countryA == "papua n guinea" ~ "papua new guinea",
+        countryA == "sao tome & prin" ~ "sao tome and principe",
+        countryA == "tanzania" ~ "united republic of tanzania",
+        countryA == "rep congo" ~ "republic of the congo",
+        countryA == "V1" ~ NA,
+        .default = as.character(countryA)
+      ))
+    
+    
+    
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "usa",
+    #   "united states of america", adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa",
+    #   "united states of america", adjacencyList$countryA)
 
-    adjacencyList$country <- ifelse(adjacencyList$country == "usa",
-      "united states of america", adjacencyList$country)
-
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa",
-      "united states of america", adjacencyList$countryA)
-
-    adjacencyList$country <- ifelse(adjacencyList$country == "V1",
-      NA, adjacencyList$country)
-
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1",
-      NA, adjacencyList$countryA)
+    # 
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "rep congo",
+    #                                 "republic of the congo", adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "rep congo",
+    #                                  "republic of the congo", adjacencyList$countryA)
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "V1",
+    #   NA, adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1",
+    #   NA, adjacencyList$countryA)
 
     adjacencyList <- stats::na.omit(adjacencyList)
 
