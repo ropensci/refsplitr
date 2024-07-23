@@ -44,12 +44,21 @@ plot_net_country <- function(data,
   mapRegion = "world",
   lineAlpha = 0.5) {
 
+  fixable_cities<-data %>% 
+    filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
+    select(city) %>% 
+    group_by(city) %>% 
+    tally() %>% 
+    arrange(desc(n))
+  
+  
   data <- data[!is.na(data$country), ]
   
-  # data$country[data$country %in% 
-  #     c('england', 'scotland', 'wales', 'north ireland')] <- 'united kingdom'
-  # data$country[data$country %in% c('peoples r china')] <- 'china'
-  # data$country[data$country %in% c('serbia')] <- 'republic of serbia'
+  
+  
+  
+  
+  
   # names in WOS often don't match those in rworldmap'
   data<-data %>% 
   mutate(country=case_when(
@@ -446,6 +455,24 @@ plot_net_country <- function(data,
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
+  products[["fixable_cities"]] <- data.frame(fixable_cities)
+  
+  fix_text1<-"The dataset has entries with no 'country' but for which" 
+  fix_text2<-" there is a city. If you want to include them in"
+  fix_text3<-" in the analysis, replace the missing country name in the "
+  fix_text4<-" output of `authors_georef()` used here."
+  fix_text5<-" A list of the cities can be found in `products$fixable_cities`"
+  
+  
+  
+  fix_test<-paste(fix_text1,fix_text2,fix_text3,fix_text4,fix_text5)
+  
+  if (nrow(fixable_cities) > 1){
+    message (fix_test)
+  } else {
+    message("whew! finally done...")
+    }
+  
 
   return(products)
 }
