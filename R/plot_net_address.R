@@ -218,7 +218,7 @@ plot_net_address <- function(data,
         x = !!x, y = !!y,
         group = !!Group, # Edges with gradient
         colour = !!Sequence,
-        size = !!Sequence
+        linewidth = !!Sequence
       ),
       alpha = lineAlpha
     ) +
