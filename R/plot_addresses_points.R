@@ -64,7 +64,7 @@ plot_addresses_points <- function(data,
     ggplot2::geom_map(
       data = world, map = world,
       ggplot2::aes(map_id = region),
-      color = "gray", fill = "#7f7f7f", size = 0.05, alpha = 1 / 4
+      color = "gray", fill = "#7f7f7f", linewidth = 0.05, alpha = 1 / 4
     )  +
     ggplot2::geom_point(data = points, ggplot2::aes(x = !!lon,
                                                     y = !!lat)) +
