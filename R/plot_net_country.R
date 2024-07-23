@@ -96,6 +96,7 @@ plot_net_country <- function(data,
     .default = as.character(country)
   ))
   
+  # are there any without lat/lon but WITH country?
   # data %>% filter(is.na(lat)==TRUE) %>% distinct(country)
   
   
@@ -140,36 +141,6 @@ plot_net_country <- function(data,
   #convert to tibble to use case_when
   # vertex_names<-as_tibble(vertex_names)
   
-  # correct names to match rworldmapper
-  # vertex_names<- vertex_names %>% 
-  #   mutate(value=case_when(
-  #   value == "usa" ~ "united states of america",
-  #   value == "cent afr republ" ~ "central african republic",
-  #   value == "cote ivoire" ~ "ivory coast",
-  #   value == "papua n guinea" ~ "papua new guinea",
-  #   value == "sao tome & prin" ~ "sao tome and principe",
-  #   value == "tanzania" ~ "united republic of tanzania",
-  #   value == "rep congo" ~ "republic of the congo",
-  #   value == "bahamas" ~ "the bahamas",
-  #   value == "dem rep congo" ~ "republic of the congo",
-  #   value == "rep congo" ~ "democratic republic of the congo",
-  #   value == "fr polynesia" ~ "french polynesia",
-  #   value == "surinam" ~ "suriname",
-  #   value == "turks & caicos" ~ "turks and caicos islands",
-  #   value == "u arab emirates" ~ "united arab emirates",
-  #   .default = as.character(value)
-  #   )
-  #   )
-  
-  
-  # vertex_names<-vertex_names %>% unlist() %>% unname() # convert back to vector
-  # 
-  # vertex_names <- ifelse(vertex_names == "usa", "united states of america",
-  #   vertex_names)
-  # 
-  # vertex_names <- ifelse(vertex_names == "rep congo", "republic of the congo",
-  #                        vertex_names)
-
   
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
@@ -242,20 +213,6 @@ plot_net_country <- function(data,
    
     adjacencyList<- adjacencyList %>% 
       mutate(country=case_when(
-      # country == "usa" ~ "united states of america",
-      # country == "cent afr republ" ~ "central african republic",
-      # country == "cote ivoire" ~ "ivory coast",
-      # country == "papua n guinea" ~ "papua new guinea",
-      # country == "sao tome & prin" ~ "sao tome and principe",
-      # country == "tanzania" ~ "united republic of tanzania",
-      # country == "rep congo" ~ "republic of the congo",
-      # country == "bahamas" ~ "the bahamas",
-      # country == "dem rep congo" ~ "republic of the congo",
-      # country == "rep congo" ~ "democratic republic of the congo",
-      # country == "fr polynesia" ~ "french polynesia",
-      # country == "surinam" ~ "suriname",
-      # country == "turks & caicos" ~ "turks and caicos islands",
-      # country == "u arab emirates" ~ "united arab emirates",
       country == "V1" ~ NA,
       .default = as.character(country)
     ))
@@ -264,20 +221,6 @@ plot_net_country <- function(data,
     
     adjacencyList<- adjacencyList %>% 
       mutate(countryA=case_when(
-        # countryA == "usa" ~ "united states of america",
-        # countryA == "cent afr republ" ~ "central african republic",
-        # countryA == "cote ivoire" ~ "ivory coast",
-        # countryA == "papua n guinea" ~ "papua new guinea",
-        # countryA == "sao tome & prin" ~ "sao tome and principe",
-        # countryA == "tanzania" ~ "united republic of tanzania",
-        # countryA == "rep congo" ~ "republic of the congo",
-        # country == "bahamas" ~ "the bahamas",
-        # country == "dem rep congo" ~ "republic of the congo",
-        # country == "rep congo" ~ "democratic republic of the congo",
-        # country == "fr polynesia" ~ "french polynesia",
-        # country == "surinam" ~ "suriname",
-        # country == "turks & caicos" ~ "turks and caicos islands",
-        # country == "u arab emirates" ~ "united arab emirates",
         countryA == "V1" ~ NA,
         .default = as.character(countryA)
       ))
