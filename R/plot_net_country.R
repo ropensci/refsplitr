@@ -45,6 +45,7 @@ plot_net_country <- function(data,
   lineAlpha = 0.5) {
   
   requireNamespace(package = "dplyr", quietly = TRUE)
+  requireNamespace(package = "magrittr", quietly = TRUE)
   
   fixable_countries<-data %>% 
     dplyr::filter(is.na(country)==FALSE & is.na(lat)==TRUE) %>% 

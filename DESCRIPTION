@@ -45,6 +45,7 @@ Imports:
     Hmisc,
     igraph,
     Matrix,
+    magrittr,
     network,
     stringdist,
     rworldmap,
