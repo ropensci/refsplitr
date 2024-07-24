@@ -1,4 +1,5 @@
 library(testthat)
 library(refsplitr)
 library(ggplot2)
+library(dplyr)
 test_check("refsplitr")
