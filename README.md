@@ -33,29 +33,29 @@ There are four steps in the `refsplitr` package's workflow:
 The procedures required for these four steps,each of which is implemented with a simple command, are described in detail in the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html). An example of this workflow is provided below:
 
 
-# load the Web of Science records into a dataframe
+### load the Web of Science records into a dataframe
 ```r 
 dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)  
 ```
-# disambiguate author names and parse author address
+### disambiguate author names and parse author address
 ```r 
 dat2 <- authors_clean(references = dat1)
 ```
 
-# after revieiwng disambiguation, merge any necessary corrections
+### after revieiwng disambiguation, merge any necessary corrections
 ```r 
 dat3 <- authors_refine(dat2$review, dat2$prelim)
 ```
-# georeference the author locations
+### georeference the author locations
 ```r 
 dat4 <- authors_georef(dat3)
 ```
-# generate a map of coauthorships; this is only one of the five possible visualizations  
+### generate a map of coauthorships; this is only one of the five possible visualizations  
 ```r 
 plot_net_address(dat4$addresses) 
 ```
 
-## Registering with Google for an API key
+### Registering with Google for an API key
 
 1.  Install and load the `ggmap` package  
 

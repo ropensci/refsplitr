@@ -189,18 +189,6 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "maptools",
-      "name": "maptools",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=maptools"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "Matrix",
       "name": "Matrix",
       "provider": {
