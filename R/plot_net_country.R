@@ -43,12 +43,15 @@ plot_net_country <- function(data,
   lineResolution = 10,
   mapRegion = "world",
   lineAlpha = 0.5) {
-
+  
+  requireNamespace(package = "dplyr", quietly = TRUE)
+  
   fixable_cities<-data %>% 
-    filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
-    select(city) %>% 
-    group_by(city) %>% 
-    tally() 
+    dplyr::filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
+    dplyr::select(city) %>% 
+    dplyr::group_by(city) %>% 
+    dplyr::tally() %>% 
+    arrange(desc(n))
   
   
   data <- data[!is.na(data$country), ]
@@ -60,7 +63,7 @@ plot_net_country <- function(data,
   
   # names in WOS often don't match those in rworldmap'
   data<-data %>% 
-  mutate(country=case_when(
+  dplyr::mutate(country=dplyr::case_when(
     country == "usa" ~ "united states of america",
     country == "united states" ~ "united states of america",
     country == "serbia" ~ "republic of serbia",
@@ -177,14 +180,14 @@ plot_net_country <- function(data,
   # need to add them manually 
   
   coords_df<- coords_df %>% 
-    mutate(LAT=case_when(
+    dplyr::mutate(LAT=dplyr::case_when(
       ISO_A2 == "french guiana" ~ 3.9339,
       ISO_A2 == "bonaire" ~ 12.2019,
       ISO_A2 == "reunion" ~ -68.2624,
       ISO_A2 == "palestine" ~ 31.9522,
       .default = as.numeric(LAT)
     )) %>% 
-    mutate(LON=case_when(
+    dplyr::mutate(LON=dplyr::case_when(
       ISO_A2 == "french guiana" ~ -53.1258,
       ISO_A2 == "bonaire" ~ -68.2624,
       ISO_A2 == "reunion" ~ 55.5364,
@@ -209,7 +212,7 @@ plot_net_country <- function(data,
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
    
     adjacencyList<- adjacencyList %>% 
-      mutate(country=case_when(
+      dplyr::mutate(country=dplyr::case_when(
       country == "V1" ~ NA,
       .default = as.character(country)
     ))
@@ -217,7 +220,7 @@ plot_net_country <- function(data,
     
     
     adjacencyList<- adjacencyList %>% 
-      mutate(countryA=case_when(
+      dplyr::mutate(countryA=dplyr::case_when(
         countryA == "V1" ~ NA,
         .default = as.character(countryA)
       ))

@@ -39,6 +39,7 @@ BugReports: https://github.com/ropensci/refsplitr/issues
 Depends: 
     R (>= 2.10)
 Imports: 
+    dplyr,
     ggmap,
     ggplot2,
     Hmisc,
