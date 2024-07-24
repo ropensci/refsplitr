@@ -97,20 +97,40 @@ Map of georeferenced article coauthorships generated with refsplitr.
 
 ## Citation
 
+The refsplitr package has been described in an article in the [_Journal of Open Source Software_](https://joss.theoj.org/papers/10.21105/joss.02028). We request that you cite both the package and the publication when using refsplitr in your work.
+
+### Citation: refsplitr Package
+
 Auriel M.V. Fournier, Matthew E. Boone, Forrest R. Stevens, and 
     Emilio M. Bruna Developer (2020). refsplitr: author name disambiguation, author 
     georeferencing, and mapping of coauthorship networks with Web of Science 
     data. R package version 1.0.0. https://github.com/ropensci/refsplitr
   
-    @Manual{,
+    @Manual{refsplitr2020,
     title = {refsplitr: author name disambiguation, author georeferencing, 
     and mapping of coauthorship networks with Web of Science data.},
     author = {Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna},
     year = {2020},
     note = {R package version 1.0.0.},
-    url={https://github.com/ropensci/refsplitr},
+    url={https://github.com/ropensci/refsplitr}
     }
     
+### Citation: _JOSS_ paper
+
+Fournier et al., (2020). refsplitr: Author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. Journal of Open Source Software, 5(45), 2028, https://doi.org/10.21105/joss.02028
+
+    @article{Fournier2020, 
+    doi = {10.21105/joss.02028}, 
+    url = {https://doi.org/10.21105/joss.02028}, 
+    year = {2020}, publisher = {The Open Journal}, 
+    volume = {5}, 
+    number = {45}, 
+    pages = {2028}, 
+    author = {Auriel M.v. Fournier and Matthew E. Boone and Forrest R. Stevens and Emilio M. Bruna}, 
+    title = {refsplitr: Author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data}, 
+    journal = {Journal of Open Source Software}
+    }
+
 _Note regarding package development history_: The early development of `refsplitr`- initially known as `refnet` - was by Forrest Stevens and Emilio M. Bruna and was done on [r-forge](https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN.  _Please make all suggestions for changes via this Github repository - do not make a repo mirror of the R-forge version._
 
 [![ropensci_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)
