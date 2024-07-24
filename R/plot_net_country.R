@@ -195,8 +195,6 @@ plot_net_country <- function(data,
   
   ## 	One could also use ggplot to plot out the network geographically:
 
-  # maptools::gpclibPermit()
-
   layoutCoordinates <- coords_df
   # layoutCoordinates$ISO_A2
   # to test for any missing latlon
