@@ -1,12 +1,10 @@
 {
-  "@context": [
-    "https://doi.org/10.5063/schema/codemeta-2.0",
-    "http://schema.org"
-  ],
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "refsplitr",
-  "description": "Tools to parse and organize reference records downloaded from the \n    'Web of Science' citation database into an R-friendly format, disambiguate \n    the names of authors, geocode their locations, and generate/visualize \n    coauthorship networks. This package has been peer-reviewed by \n    rOpenSci (v. 1.0).",
+  "description": "Tools to parse and organize reference records downloaded from the 'Web of Science' citation database into an R-friendly format, disambiguate the names of authors, geocode their locations, and generate/visualize coauthorship networks. This package has been peer-reviewed by rOpenSci (v. 1.0).",
   "name": "refsplitr: author name disambiguation, author georeferencing, and mapping of \n    coauthorship networks with 'Web of Science' data ",
+  "relatedLink": "https://docs.ropensci.org/refsplitr/",
   "codeRepository": "https://github.com/ropensci/refsplitr",
   "issueTracker": "https://github.com/ropensci/refsplitr/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
@@ -14,10 +12,9 @@
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.1",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.1 (2018-07-02)",
+  "runtimePlatform": "R version 4.4.1 (2024-06-14)",
   "author": [
     {
       "@type": "Person",
@@ -42,9 +39,6 @@
       "email": "embruna@ufl.edu"
     }
   ],
-  "contributor": {},
-  "copyrightHolder": {},
-  "funder": {},
   "maintainer": [
     {
       "@type": "Person",
@@ -132,14 +126,14 @@
       "name": "utils"
     }
   ],
-  "softwareRequirements": [
-    {
+  "softwareRequirements": {
+    "1": {
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
       "version": ">= 2.10"
     },
-     {
+    "2": {
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
@@ -151,7 +145,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=dplyr"
     },
-    {
+    "3": {
       "@type": "SoftwareApplication",
       "identifier": "ggmap",
       "name": "ggmap",
@@ -163,19 +157,7 @@
       },
       "sameAs": "https://github.com/dkahle/ggmap"
     },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "magrittr",
-      "name": "magrittr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=magrittr"
-    },
-    {
+    "4": {
       "@type": "SoftwareApplication",
       "identifier": "ggplot2",
       "name": "ggplot2",
@@ -187,7 +169,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=ggplot2"
     },
-    {
+    "5": {
       "@type": "SoftwareApplication",
       "identifier": "Hmisc",
       "name": "Hmisc",
@@ -199,7 +181,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=Hmisc"
     },
-    {
+    "6": {
       "@type": "SoftwareApplication",
       "identifier": "igraph",
       "name": "igraph",
@@ -211,7 +193,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=igraph"
     },
-    {
+    "7": {
       "@type": "SoftwareApplication",
       "identifier": "Matrix",
       "name": "Matrix",
@@ -223,7 +205,19 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=Matrix"
     },
-    {
+    "8": {
+      "@type": "SoftwareApplication",
+      "identifier": "magrittr",
+      "name": "magrittr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=magrittr"
+    },
+    "9": {
       "@type": "SoftwareApplication",
       "identifier": "network",
       "name": "network",
@@ -235,7 +229,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=network"
     },
-    {
+    "10": {
       "@type": "SoftwareApplication",
       "identifier": "stringdist",
       "name": "stringdist",
@@ -247,7 +241,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=stringdist"
     },
-    {
+    "11": {
       "@type": "SoftwareApplication",
       "identifier": "rworldmap",
       "name": "rworldmap",
@@ -259,7 +253,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=rworldmap"
     },
-    {
+    "12": {
       "@type": "SoftwareApplication",
       "identifier": "sna",
       "name": "sna",
@@ -270,22 +264,12 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=sna"
-    }
-  ],
-  "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
-  "fileSize": "3695.452KB",
-  "contIntegration": [
-    "https://coveralls.io/github/ropensci/refsplitr?branch=master"
-  ],
-  "developmentStatus": "http://www.repostatus.org/#active",
-  "review": {
-    "@type": "Review",
-    "url": "https://github.com/ropensci/onboarding/issues/256",
-    "provider": "http://ropensci.org"
+    },
+    "SystemRequirements": null
   },
   "isPartOf": "https://ropensci.org",
   "keywords": ["namedisambiguation", "bibliometrics", "coauthorship", "collaboration", "georeferencing", "metascience", "references", "scientometrics", "scienceofscience", "WebofScience"],
-  "relatedLink": "https://docs.ropensci.org/refsplitr/",
+  "fileSize": "78870.734KB",
   "citation": [
     {
       "@type": "CreativeWork",
@@ -316,5 +300,14 @@
       "url": "https://github.com/ropensci/refsplitr",
       "description": "R package version 1.0.0."
     }
-  ]
+  ],
+  "releaseNotes": "https://github.com/ropensci/refsplitr/blob/master/NEWS.md",
+  "readme": "https://github.com/ropensci/refsplitr/blob/master/README.md",
+  "contIntegration": ["https://coveralls.io/github/ropensci/refsplitr?branch=master", "https://github.com/embruna/refsplitr/actions"],
+  "developmentStatus": "http://www.repostatus.org/#active",
+  "review": {
+    "@type": "Review",
+    "url": "https://github.com/ropensci/software-review/issues/256",
+    "provider": "https://ropensci.org"
+  }
 }

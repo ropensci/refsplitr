@@ -42,7 +42,7 @@ dat1 <- references_read(data = system.file("extdata", "example_data.txt", packag
 dat2 <- authors_clean(references = dat1)
 ```
 
-### after revieiwng disambiguation, merge any necessary corrections
+### after reviewing disambiguation, merge any necessary corrections
 ```r 
 dat3 <- authors_refine(dat2$review, dat2$prelim)
 ```

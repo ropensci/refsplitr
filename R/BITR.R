@@ -1,6 +1,6 @@
-#' Data from the journal BioTropica (pulled from Web of Knowledge)
+#' Data from the journal Biotropica (pulled from Web of Knowledge)
 #'
-#' A dataset containing 10 articles taken from the BioTropica journal. 
+#' A dataset containing 10 articles taken from the journal Biotropica. 
 #' This dataset represents the typical formatted output from \code{references_read()}
 #' in the refsplitr package. It serves as a testbed for commonly miscategorized names
 #'

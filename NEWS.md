@@ -21,4 +21,4 @@ refsplitr 0.9.0 (2020-01-14)
 
 ### NEW FEATURES
 
-  * Released refsplitr on ROpenSci website.  
+  * Released refsplitr on rOpenSci website.  

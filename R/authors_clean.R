@@ -62,7 +62,7 @@ They do not have an author, in which case you can use "None", "Anonymous",
 (see Column "CA"). If so, you can replace the NAs in AU and AF 
 with the contents of column CA.', sep=" ")
   ###############################
-  # Seperate authors and attempt to match author info
+  # Separate authors and attempt to match author info
   #requireNamespace(dplyr, quietly = TRUE)
   final <- authors_parse(references)
 
