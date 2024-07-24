@@ -44,13 +44,63 @@ plot_net_country <- function(data,
   mapRegion = "world",
   lineAlpha = 0.5) {
 
+  fixable_cities<-data %>% 
+    filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
+    select(city) %>% 
+    group_by(city) %>% 
+    tally() %>% 
+    arrange(desc(n))
+  
+  
   data <- data[!is.na(data$country), ]
-  data$country[data$country %in% 
-      c('england', 'scotland', 'wales', 'north ireland')] <- 'united kingdom'
-  data$country[data$country %in% c('peoples r china')] <- 'china'
-  data$country[data$country %in% c('serbia')] <- 'republic of serbia'
-  ## 	we could use a sparse matrix representation:
-
+  
+  
+  
+  
+  
+  
+  # names in WOS often don't match those in rworldmap'
+  data<-data %>% 
+  mutate(country=case_when(
+    country == "usa" ~ "united states of america",
+    country == "united states" ~ "united states of america",
+    country == "serbia" ~ "republic of serbia",
+    country == "peoples r china" ~ "china",
+    country == "uk" ~ "united kingdom",
+    country == "england" ~ "united kingdom",
+    country == "scotland" ~ "united kingdom",
+    country == "wales" ~ "united kingdom",
+    country == "north ireland" ~ "united kingdom",
+    country == "cent afr republ" ~ "central african republic",
+    country == "cote ivoire" ~ "ivory coast",
+    country == "papua n guinea" ~ "papua new guinea",
+    country == "sao tome & prin" ~ "sao tome and principe",
+    country == "tanzania" ~ "united republic of tanzania",
+    country == "rep congo" ~ "republic of the congo",
+    country == "bahamas" ~ "the bahamas",
+    country == "dem rep congo" ~ "republic of the congo",
+    country == "rep congo" ~ "democratic republic of the congo",
+    country == "democratic republic of congo" ~ "democratic republic of the congo",
+    country == "fr polynesia" ~ "french polynesia",
+    country == "surinam" ~ "suriname",
+    country == "turks & caicos" ~ "turks and caicos islands",
+    country == "u arab emirates" ~ "united arab emirates",
+    country == "curaçao" ~ "curacao",
+    country == "libyan arab jamahiriya" ~ "libya",
+    country == "rhodesia" ~ "zimbabwe",
+    country == "russian federation" ~ "russia",
+    country == "hong kong" ~ "hong kong sar",
+    country == "hong kong s.a.r." ~ "hong kong sar",
+    country == "brunei darussalam" ~ "brunei",
+    country == "trinidade and tobago" ~ "trinidad and tobago",
+    .default = as.character(country)
+  ))
+  
+  # are there any without lat/lon but WITH country?
+  # data %>% filter(is.na(lat)==TRUE) %>% distinct(country)
+  
+  
+    ## 	we could use a sparse matrix representation:
   linkages <- Matrix::spMatrix(
     nrow = length(unique(data$country)),
     ncol = length(unique(data$UT)),
@@ -88,14 +138,23 @@ plot_net_country <- function(data,
   requireNamespace(package = "network", quietly = TRUE)
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
-
-  vertex_names <- ifelse(vertex_names == "usa", "united states of america",
-    vertex_names)
-
+  #convert to tibble to use case_when
+  # vertex_names<-as_tibble(vertex_names)
+  
   
   ## 	Get the world map from rworldmap package:
   world_map <- rworldmap::getMap()
   world_map$ADMIN.1 <- tolower(world_map$ADMIN.1)
+  
+  # rworldmap includes periods in a few country names (eg, hong king s.a.r.)
+  # this was causing an error later on in the rare cases where one of those 
+  # countries was in the dataset. This will remove the periods from ADMIN.1
+  
+  world_map$ADMIN.1 <- gsub(
+    pattern = "\\.", replacement = "",
+    world_map$ADMIN.1
+  )
+  
   vertexdf <- data.frame("ISO_A2" = vertex_names, stringsAsFactors = FALSE)
   # coords_df <- suppressWarnings(dplyr::left_join(vertexdf,
   #   world_map[c("ADMIN.1", "LON", "LAT")]@data,
@@ -114,12 +173,35 @@ plot_net_country <- function(data,
 
   names(coords_df) <- c("ISO_A2", "LON", "LAT")
 
+  # Some locations wont have coordinates in rworldmap 
+  # coords_df %>% filter(is.na(LAT)==TRUE) %>% distinct(ISO_A2)
+  # need to add them manually 
+  
+  coords_df<- coords_df %>% 
+    mutate(LAT=case_when(
+      ISO_A2 == "french guiana" ~ 3.9339,
+      ISO_A2 == "bonaire" ~ 12.2019,
+      ISO_A2 == "reunion" ~ -68.2624,
+      ISO_A2 == "palestine" ~ 31.9522,
+      .default = as.numeric(LAT)
+    )) %>% 
+    mutate(LON=case_when(
+      ISO_A2 == "french guiana" ~ -53.1258,
+      ISO_A2 == "bonaire" ~ -68.2624,
+      ISO_A2 == "reunion" ~ 55.5364,
+      ISO_A2 == "palestine" ~ 35.2332,
+      .default = as.numeric(LON)
+    ))
+  
   ## 	One could also use ggplot to plot out the network geographically:
 
-  maptools::gpclibPermit()
+  # maptools::gpclibPermit()
 
   layoutCoordinates <- coords_df
-
+  # layoutCoordinates$ISO_A2
+  # to test for any missing latlon
+  #  coords_df %>% filter(is.na(LAT)==TRUE)
+  
   # Function to generate paths between each connected node
   edgeMaker <- function(whichRow, len = 100, curved = TRUE) {
     adjacencyList$country <- as.character(adjacencyList$country)
@@ -128,18 +210,43 @@ plot_net_country <- function(data,
     layoutCoordinates$ISO_A2 <- as.character(layoutCoordinates$ISO_A2)
 
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
+   
+    adjacencyList<- adjacencyList %>% 
+      mutate(country=case_when(
+      country == "V1" ~ NA,
+      .default = as.character(country)
+    ))
+    
+    
+    
+    adjacencyList<- adjacencyList %>% 
+      mutate(countryA=case_when(
+        countryA == "V1" ~ NA,
+        .default = as.character(countryA)
+      ))
+    
+    
+    
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "usa",
+    #   "united states of america", adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa",
+    #   "united states of america", adjacencyList$countryA)
 
-    adjacencyList$country <- ifelse(adjacencyList$country == "usa",
-      "united states of america", adjacencyList$country)
-
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "usa",
-      "united states of america", adjacencyList$countryA)
-
-    adjacencyList$country <- ifelse(adjacencyList$country == "V1",
-      NA, adjacencyList$country)
-
-    adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1",
-      NA, adjacencyList$countryA)
+    # 
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "rep congo",
+    #                                 "republic of the congo", adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "rep congo",
+    #                                  "republic of the congo", adjacencyList$countryA)
+    # 
+    # adjacencyList$country <- ifelse(adjacencyList$country == "V1",
+    #   NA, adjacencyList$country)
+    # 
+    # adjacencyList$countryA <- ifelse(adjacencyList$countryA == "V1",
+    #   NA, adjacencyList$countryA)
 
     adjacencyList <- stats::na.omit(adjacencyList)
 
@@ -222,7 +329,7 @@ plot_net_country <- function(data,
       #                         class = "unit"
       # )
     )
-
+  
   world_map_sub <- world_map
   if (mapRegion != "world") {
     world_map_sub <- world_map[which(world_map$continent == mapRegion &
@@ -291,6 +398,24 @@ plot_net_country <- function(data,
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
+  products[["fixable_cities"]] <- data.frame(fixable_cities)
+  
+  fix_text1<-"The dataset has entries with no 'country' but for which" 
+  fix_text2<-" there is a city. If you want to include them in"
+  fix_text3<-" in the analysis, replace the missing country name in the "
+  fix_text4<-" output of `authors_georef()` used here."
+  fix_text5<-" A list of the cities can be found in `products$fixable_cities`"
+  
+  
+  
+  fix_test<-paste(fix_text1,fix_text2,fix_text3,fix_text4,fix_text5)
+  
+  if (nrow(fixable_cities) > 1){
+    message (fix_test)
+  } else {
+    message("whew! finally done...")
+    }
+  
 
   return(products)
 }

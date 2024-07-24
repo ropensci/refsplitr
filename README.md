@@ -33,34 +33,35 @@ There are four steps in the `refsplitr` package's workflow:
 The procedures required for these four steps,each of which is implemented with a simple command, are described in detail in the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html). An example of this workflow is provided below:
 
 
-``` r
 # load the Web of Science records into a dataframe
-dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
-
-# load the Web of Science records into a dataframe
-dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)
+```r 
+dat1 <- references_read(data = system.file("extdata", "example_data.txt", package = "refsplitr"), dir = FALSE)  
+```
 # disambiguate author names and parse author address
+```r 
 dat2 <- authors_clean(references = dat1)
+```
 
 # after revieiwng disambiguation, merge any necessary corrections
+```r 
 dat3 <- authors_refine(dat2$review, dat2$prelim)
-
+```
 # georeference the author locations
+```r 
 dat4 <- authors_georef(dat3)
-
+```
 # generate a map of coauthorships; this is only one of the five possible visualizations  
-plot_net_address(dat4$addresses)
+```r 
+plot_net_address(dat4$addresses) 
 ```
 
 ## Registering with Google for an API key
 
-1.  Install and load the `ggmap` package
+1.  Install and load the `ggmap` package  
 
 ```r
-
 install.packages("ggmap")
 library(ggmap)
-
 ```
 
 1.  Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.
@@ -68,10 +69,10 @@ library(ggmap)
 2.  Once you have your API key, add it to your `~/.Renviron` with the following:
 
 ```r 
-`ggmap::register_google(key = "[your key]", write = TRUE)`
+ggmap::register_google(key = "[your key]", write = TRUE)
 ```
 
-3. You should now be able to use `authors_georef()` as described in the vignette. Note that `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
+3. You should now be able to use `authors_georef()` as described in the vignette. **WARNING:** `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
 
 ***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
 

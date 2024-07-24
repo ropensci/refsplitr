@@ -39,7 +39,7 @@ plot_net_coauthor <- function(data) {
 
   ## 	Create an igraph object from our countries linkages:
 
-  linkages_countries_net <- igraph::graph.adjacency(linkages_countries,
+  linkages_countries_net <- igraph::graph_from_adjacency_matrix(linkages_countries,
     mode = "undirected",
     weighted = TRUE
   )

@@ -77,7 +77,7 @@ library(ggmap)
 `ggmap::register_google(key = "[your key]", write = TRUE)`
 ```
 
-3. You should now be able to use `authors_georef()` as described in the vignette. Note that `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
+3. You should now be able to use `authors_georef()` as described in the vignette. **WARNING:** `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
 
 ***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
 

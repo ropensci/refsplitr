@@ -218,7 +218,7 @@ plot_net_address <- function(data,
         x = !!x, y = !!y,
         group = !!Group, # Edges with gradient
         colour = !!Sequence,
-        size = !!Sequence
+        linewidth = !!Sequence
       ),
       alpha = lineAlpha
     ) +
@@ -238,7 +238,8 @@ plot_net_address <- function(data,
       guide = "none"
     ) +
     ggplot2::scale_size(range = c(5 / 10, 5 / 10), guide = "none") +
-    empty_theme
+    empty_theme+
+    theme(legend.position="none")
 
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
