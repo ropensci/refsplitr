@@ -46,10 +46,10 @@ plot_net_country <- function(data,
   
   requireNamespace(package = "dplyr", quietly = TRUE)
   
-  fixable_cities<-data %>% 
-    dplyr::filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
-    dplyr::select(city) %>% 
-    dplyr::group_by(city) %>% 
+  fixable_countries<-data %>% 
+    dplyr::filter(is.na(country)==FALSE & is.na(kat)==TRUE) %>% 
+    dplyr::select(refID,country) %>% 
+    dplyr::group_by(refID,country) %>% 
     dplyr::tally() %>% 
     arrange(desc(n))
   
@@ -398,19 +398,19 @@ plot_net_country <- function(data,
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
-  products[["fixable_cities"]] <- data.frame(fixable_cities)
+  products[["fixable_countries"]] <- data.frame(fixable_cities)
   
-  fix_text1<-"The dataset has entries with no 'country' but for which" 
-  fix_text2<-" there is a city. If you want to include them in"
-  fix_text3<-" in the analysis, replace the missing country name in the "
-  fix_text4<-" output of `authors_georef()` used here."
-  fix_text5<-" A list of the cities can be found in `products$fixable_cities`"
+  fix_text1<-"The dataset has entries with a 'country' for which" 
+  fix_text2<-" there is not lat/lon. If you want to include them in"
+  fix_text3<-" in the analysis, replace the missing lat/lon in the "
+  fix_text4<-" output of `authors_georef()` that you used here."
+  fix_text5<-" A list of the references is in `products$fixable_countries`"
   
   
   
   fix_test<-paste(fix_text1,fix_text2,fix_text3,fix_text4,fix_text5)
   
-  if (nrow(fixable_cities) > 1){
+  if (nrow(fixable_countries) > 1){
     message (fix_test)
   } else {
     message("whew! finally done...")
