@@ -47,7 +47,7 @@ plot_net_country <- function(data,
   requireNamespace(package = "dplyr", quietly = TRUE)
   
   fixable_countries<-data %>% 
-    dplyr::filter(is.na(country)==FALSE & is.na(kat)==TRUE) %>% 
+    dplyr::filter(is.na(country)==FALSE & is.na(lat)==TRUE) %>% 
     dplyr::select(refID,country) %>% 
     dplyr::group_by(refID,country) %>% 
     dplyr::tally() %>% 
