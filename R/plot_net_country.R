@@ -51,7 +51,7 @@ plot_net_country <- function(data,
     dplyr::select(refID,country) %>% 
     dplyr::group_by(refID,country) %>% 
     dplyr::tally() %>% 
-    arrange(desc(n))
+    dplyr::arrange(n)
   
   
   data <- data[!is.na(data$country), ]
