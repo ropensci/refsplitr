@@ -96,6 +96,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "VL" = character(0),
     "WC" = character(0),
     "Z9" = character(0),
+    "AR" = character(0),
     stringsAsFactors = FALSE
   )
 
@@ -280,11 +281,11 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   if (include_all != TRUE){
 
     dropnames <- c("CC", "CH", "CL", "CT", "CY",
-      "DT", "FX", "GA", "GE", "ID",
-      "IS", "J9", "JI", "LA", "LT",
-      "MC", "MI", "NR", "PA", "PI",
-      "PN", "PS", "RID", "SI", "SU",
-      "TA", "VR")
+                   "DT", "FX", "GA", "GE", "ID",
+                   "IS", "J9", "JI", "LA", "LT",
+                   "MC", "MI", "NR", "PA", "PI",
+                   "PN", "PS", "RID", "SI", "SU",
+                   "TA", "VR")
 
     rdo <- dupe_output[, !(names(dupe_output) %in% dropnames)]
 
