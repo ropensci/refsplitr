@@ -398,7 +398,7 @@ plot_net_country <- function(data,
   products[["data_path"]] <- allEdges
   products[["data_polygon"]] <- world_map.df
   products[["data_points"]] <- data.frame(layoutCoordinates)
-  products[["fixable_countries"]] <- data.frame(fixable_cities)
+  products[["fixable_countries"]] <- data.frame(fixable_countries)
   
   fix_text1<-"The dataset has entries with a 'country' for which" 
   fix_text2<-" there is not lat/lon. If you want to include them in"
