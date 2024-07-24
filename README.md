@@ -104,14 +104,14 @@ The refsplitr package has been described in an article in the [_Journal of Open 
 Auriel M.V. Fournier, Matthew E. Boone, Forrest R. Stevens, and 
     Emilio M. Bruna Developer (2020). refsplitr: author name disambiguation, author 
     georeferencing, and mapping of coauthorship networks with Web of Science 
-    data. R package version 1.0.0. https://github.com/ropensci/refsplitr
+    data. R package version 1.0.1. https://github.com/ropensci/refsplitr
   
     @Manual{refsplitr2020,
     title = {refsplitr: author name disambiguation, author georeferencing, 
     and mapping of coauthorship networks with Web of Science data.},
     author = {Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna},
     year = {2020},
-    note = {R package version 1.0.0.},
+    note = {R package version 1.0.1.},
     url={https://github.com/ropensci/refsplitr}
     }
     
