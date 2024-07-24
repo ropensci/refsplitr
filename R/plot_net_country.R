@@ -48,8 +48,7 @@ plot_net_country <- function(data,
     filter(is.na(country)==TRUE & is.na(city)==FALSE) %>% 
     select(city) %>% 
     group_by(city) %>% 
-    tally() %>% 
-    arrange(desc(n))
+    tally() 
   
   
   data <- data[!is.na(data$country), ]
