@@ -12,8 +12,8 @@
 #' all files in the folder will be imported). Defaults to FALSE. 
 #' @param include_all if FALSE only a subset of commonly used fields from references records are imported. 
 #' If TRUE then all fields from the reference records are imported. Defaults to FALSE.  
-#' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, 
-#' LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
+#' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, FX, GA, J9, 
+#' LA, PA, PI, PN, PS, RID, SU, VR.
 #' @export references_read
 #' 
 #' @examples 
@@ -41,6 +41,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "CA" = character(0),
     "BP" = character(0),
     "C1" = character(0),
+    "C3" = character(0),
     "CC" = character(0),
     "CH" = character(0),
     "CL" = character(0),
@@ -58,15 +59,15 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "FU" = character(0),
     "FX" = character(0),
     "GA" = character(0),
-    "GE" = character(0),
+    # "GE" = character(0), (removed by EB Sept 2024)
     "ID" = character(0),
     "IS" = character(0),
     "J9" = character(0),
     "JI" = character(0),
     "LA" = character(0),
-    "LT" = character(0),
-    "MC" = character(0),
-    "MI" = character(0),
+    # "LT" = character(0),
+    # "MC" = character(0),
+    # "MI" = character(0),
     "NR" = character(0),
     "PA" = character(0),
     "PD" = character(0),
@@ -77,18 +78,19 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "PT" = character(0),
     "PU" = character(0),
     "PY" = character(0),
-    "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
-    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID
-    # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
-    "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
-    "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
+    "RI" = character(0), # New field code for Thomson-Reuters ResearcherID
+    "RID" = character(0), # Original field code for Thomson-Reuters ResearcherID
+                         # Older searchers will have RID (added by EB Sept 2024)
+    "OI" = character(0), # Field code for ORCID ID (added by EB Jan 2017)
+    "PM" = character(0), # Pubmed ID Number (added by EB Dec 2017)
     "RP" = character(0),
     "SC" = character(0),
     "SI" = character(0),
     "SN" = character(0),
+    "EI" = character(0),
     "SO" = character(0),
     "SU" = character(0),
-    "TA" = character(0),
+    # "TA" = character(0), (removed by EB Sept 2024)
     "TC" = character(0),
     "TI" = character(0),
     "UT" = character(0),
@@ -97,6 +99,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "WC" = character(0),
     "Z9" = character(0),
     "AR" = character(0),
+    "WE" = character(0),
     stringsAsFactors = FALSE
   )
 
@@ -281,11 +284,9 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   if (include_all != TRUE){
 
     dropnames <- c("CC", "CH", "CL", "CT", "CY",
-                   "DT", "FX", "GA", "GE", "ID",
-                   "IS", "J9", "JI", "LA", "LT",
-                   "MC", "MI", "NR", "PA", "PI",
-                   "PN", "PS", "RID", "SI", "SU",
-                   "TA", "VR")
+                   "FX", "GA", "GE", "J9", "LA",
+                   "PA", "PI", "PN", "PS", "RID", 
+                   "SI", "SU", "VR")
 
     rdo <- dupe_output[, !(names(dupe_output) %in% dropnames)]
 
