@@ -57,11 +57,6 @@ plot_net_country <- function(data,
   
   data <- data[!is.na(data$country), ]
   
-  
-  
-  
-  
-  
   # names in WOS often don't match those in rworldmap'
   data<-data %>% 
   dplyr::mutate(country=dplyr::case_when(

@@ -2,34 +2,33 @@
 #'
 #' \code{references_read} This function reads Thomson Reuters Web of Knowledge
 #' and ISI format reference data files into an R-friendly data format. The resulting dataframe
-#' is the argument for the refsplitr function `authors_clean()`.    
+#' is the argument for the refsplitr function `authors_clean()`.
 #'
-#' @param data the location of the file or files to be imported. This can be either the absolute or 
-#' relative name of the file (for a single file) or folder (for multiple files stored in the same folder; 
+#' @param data the location of the file or files to be imported. This can be either the absolute or
+#' relative name of the file (for a single file) or folder (for multiple files stored in the same folder;
 #' used in conjunction with `dir = TRUE``). If left blank it is assumed the location is the working directory.
-#' @param dir if FALSE it is assumed a single file is to be imported. 
-#' Set to TRUE if importing multiple files (the path to the folder in which files are stored is set with `data=``; 
-#' all files in the folder will be imported). Defaults to FALSE. 
-#' @param include_all if FALSE only a subset of commonly used fields from references records are imported. 
-#' If TRUE then all fields from the reference records are imported. Defaults to FALSE.  
-#' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, 
-#' LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
+#' @param dir if FALSE it is assumed a single file is to be imported.
+#' Set to TRUE if importing multiple files (the path to the folder in which files are stored is set with `data=``;
+#' all files in the folder will be imported). Defaults to FALSE.
+#' @param include_all if FALSE only a subset of commonly used fields from references records are imported.
+#' If TRUE then all fields from the reference records are imported. Defaults to FALSE.
+#' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, FX, GA, J9,
+#' LA, PA, PI, PN, PS, RID, SU, VR.
 #' @export references_read
-#' 
-#' @examples 
-#' ## If a single files is being imported from a folder called "data" located in an RStudio Project: 
+#'
+#' @examples
+#' ## If a single files is being imported from a folder called "data" located in an RStudio Project:
 #' ## imported_refs<-references_read(data = './data/refs.txt', dir = FALSE, include_all=FALSE)
-#' 
+#'
 #' ## If multiple files are being imported from a folder named "heliconia" nested within a folder
-#' ## called "data" located in an RStudio Project: 
+#' ## called "data" located in an RStudio Project:
 #' ## heliconia_refs<-references_read(data = './data/heliconia', dir = TRUE, include_all=FALSE)
-#' 
-#' ## To load the Web of Science records used in the examples in the documentation  
-#' BITR_data_example <- system.file('extdata', 'BITR_test.txt', package = 'refsplitr')
+#'
+#' ## To load the Web of Science records used in the examples in the documentation
+#' BITR_data_example <- system.file("extdata", "BITR_test.txt", package = "refsplitr")
 #' BITR <- references_read(BITR_data_example)
-#' 
-#' 
-references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
+#'
+references_read <- function(data = ".", dir = FALSE, include_all = FALSE) {
   ## 	NOTE: The fields stored in our output table are a combination of the
   ## 	"Thomson Reuters Web of Knowledge" FN format and the "ISI Export
   ## 	Format" both of which are version 1.0:
@@ -41,6 +40,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "CA" = character(0),
     "BP" = character(0),
     "C1" = character(0),
+    "C3" = character(0),
     "CC" = character(0),
     "CH" = character(0),
     "CL" = character(0),
@@ -58,15 +58,11 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "FU" = character(0),
     "FX" = character(0),
     "GA" = character(0),
-    "GE" = character(0),
     "ID" = character(0),
     "IS" = character(0),
     "J9" = character(0),
     "JI" = character(0),
     "LA" = character(0),
-    "LT" = character(0),
-    "MC" = character(0),
-    "MI" = character(0),
     "NR" = character(0),
     "PA" = character(0),
     "PD" = character(0),
@@ -77,18 +73,17 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "PT" = character(0),
     "PU" = character(0),
     "PY" = character(0),
-    "RI" = character(0), # NEW field code for Thomson-Reuters ResearcherID
-    "RID" = character(0), # OLD field code for Thomson-Reuters ResearcherID
-    # Older searchers will have RID, not RI ACTUALLY LOOK SL IKE NOT
-    "OI" = character(0), # New field code for ORCID ID (added EB Jan 2017)
-    "PM" = character(0), # Pubmed ID Number (added by EB 3 dec 2017)
+    "RI" = character(0), # New Thomson-Reuters ResearcherID
+    "RID" = character(0), # Original Thomson-Reuters ResearcherID
+    "OI" = character(0), # ORCID
+    "PM" = character(0), # Pubmed ID Number
     "RP" = character(0),
     "SC" = character(0),
     "SI" = character(0),
     "SN" = character(0),
+    "EI" = character(0),
     "SO" = character(0),
     "SU" = character(0),
-    "TA" = character(0),
     "TC" = character(0),
     "TI" = character(0),
     "UT" = character(0),
@@ -96,6 +91,9 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "VL" = character(0),
     "WC" = character(0),
     "Z9" = character(0),
+    "AR" = character(0),
+    "WE" = character(0),
+    "OA" = character(0), # Open Access
     stringsAsFactors = FALSE
   )
 
@@ -109,7 +107,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   }
 
   ## 	Strip out any files in the directory that aren't Web of Knowledge files:
-  file_list <- file_list[ grep(".ciw|.txt", file_list) ]
+  file_list <- file_list[grep(".ciw|.txt", file_list)]
 
   if (length(file_list) == 0) {
     stop("ERROR:  The specified file or directory does not contain any
@@ -139,7 +137,6 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     read_line <- readLines(in_file, n = 1, warn = FALSE)
 
     if (length(read_line) > 0) {
-
       read_line <- gsub("^[^A-Z]*([A-Z]+)(.*)$", "\\1\\2", read_line)
 
       ##  Strip the first two characters from the text line,
@@ -149,10 +146,12 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
       if (pre_text != "FN") {
         close(in_file)
-        error <- paste0("ERROR:  The file ",
+        error <- paste0(
+          "ERROR:  The file ",
           filename,
           " doesn't appear to be a valid ISI or
-          Thomson Reuters reference library file!")
+          Thomson Reuters reference library file!"
+        )
         stop(error)
       }
 
@@ -188,8 +187,11 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
           output[i, field] <- trimws(
             ifelse(length(line_text) == 1,
               paste(output[i, field], line_text,
-                sep = "\n")),
-            "both")
+                sep = "\n"
+              )
+            ),
+            "both"
+          )
         }
       }
     } else {
@@ -217,12 +219,14 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
       ## 	Check to see if the current field is one we are saving to output:
       if (field %in% names(output)) {
-      ##... if it is then append this line's data to the field in our output:
+        ## ... if it is then append this line's data to the field in our output:
 
         output[i, field] <- trimws(
           ifelse(length(line_text) == 1,
-            paste(output[i, field], line_text, sep = "\n")),
-          "both")
+            paste(output[i, field], line_text, sep = "\n")
+          ),
+          "both"
+        )
       }
 
       # 	If this is the end of a record then add any per-record items and
@@ -248,7 +252,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     counter <- counter + 1
     utils::flush.console()
     ###########################################################################
-    }
+  }
   ############################################## 3
   # Post Processing
   # We need to clean this file, page breaks are inserted in the raw file
@@ -257,7 +261,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
 
   output$RI <- gsub("\n", "", output$RI, fixed = TRUE)
   output$RI <- gsub("; ", ";", output$RI, fixed = TRUE)
-  #This fixes a problem where in earlier WOS pulls RI is stored
+  # This fixes a problem where in earlier WOS pulls RI is stored
   # as RID with no name associated
   output$RI[!grepl("/", output$RI)] < -NA
   output$OI <- gsub("\n", "", output$OI, fixed = TRUE)
@@ -268,26 +272,27 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
   output$refID <- seq_len(nrow(output))
 
   # now done in base R, runs slower
-  dupe_output <- do.call(rbind, lapply(unique(output$UT),
-    function(x) output[output$UT == x, ][1, ]))
+  dupe_output <- do.call(rbind, lapply(
+    unique(output$UT),
+    function(x) output[output$UT == x, ][1, ]
+  ))
   ############################################
   # Prepare for printing
 
-  if (include_all == TRUE){
+  if (include_all == TRUE) {
     return(dupe_output)
   }
 
-  if (include_all != TRUE){
-
-    dropnames <- c("CC", "CH", "CL", "CT", "CY",
-      "DT", "FX", "GA", "GE", "ID",
-      "IS", "J9", "JI", "LA", "LT",
-      "MC", "MI", "NR", "PA", "PI",
-      "PN", "PS", "RID", "SI", "SU",
-      "TA", "VR")
+  if (include_all != TRUE) {
+    dropnames <- c(
+      "CC", "CH", "CL", "CT", "CY",
+      "FX", "GA", "GE", "J9", "LA",
+      "PA", "PI", "PN", "PS", "RID",
+      "SI", "SU", "VR", "OA"
+    )
 
     rdo <- dupe_output[, !(names(dupe_output) %in% dropnames)]
 
     return(rdo)
   }
-  }
+}
