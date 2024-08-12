@@ -1,18 +1,17 @@
 # refsplitr News
 
 
-refsplitr 1.X.X (2024-XX-XX)
+refsplitr 1.0.2 (2024-08-12)
 =========================
 
 ### NEW FEATURES
 
-  * `references_read` now extracts additional fields from Web of Science records: WE (Source Database), C3 (affiliations*), EI (eISSN) and RID (the original version of the Thomson-Reuters ResearcherID (RI); authors of some older publications might have an RID but not an RI). To include these in the output of`references_read` use the setting `include_all=TRUE`.  
 
-  *a single cell with list of all affiliations, not brtoken down by author. to match scopus
+  * `references_read` now extracts additional fields from Web of Science records: WE (Source Database), C3 (all author affiliations, equivalent to the Scopus `affiliations` field code), EI (eISSN), OA (Open Access), and RID (the original version of the Thomson-Reuters ResearcherID (RI); authors of some older publications might have an RID but not an RI). These are not included in the default output of `references_read`, to include them use `include_all = TRUE`.  
+
   * `references_read` no longer extracts some rarely used field codes: GE, LT, MC, MI, and TA
   
-  * the Document Type (DT), Keywords Plus (ID), Issue (IS), ISO abbreviated source code (JI), and number of references cited in an article (NR) are now returned by default (`include_all=FALSE`). 
-
+  * The following field codes are now returned by default when using `references_read`: DT (Document Type), ID (Keywords Plus), IS (Issue), JI (ISO abbreviated source code), and  NR (number of references cited by the article). 
 
 
 refsplitr 1.0.1 (2024-07-23)

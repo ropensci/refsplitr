@@ -100,6 +100,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "Z9" = character(0),
     "AR" = character(0),
     "WE" = character(0),
+    "OA" = character(0), # Field code for Open Acceess (added by EB Sept 2024)
     stringsAsFactors = FALSE
   )
 
@@ -286,7 +287,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     dropnames <- c("CC", "CH", "CL", "CT", "CY",
                    "FX", "GA", "GE", "J9", "LA",
                    "PA", "PI", "PN", "PS", "RID", 
-                   "SI", "SU", "VR")
+                   "SI", "SU", "VR", "OA")
 
     rdo <- dupe_output[, !(names(dupe_output) %in% dropnames)]
 
