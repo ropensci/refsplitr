@@ -59,15 +59,11 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "FU" = character(0),
     "FX" = character(0),
     "GA" = character(0),
-    # "GE" = character(0), (removed by EB Sept 2024)
     "ID" = character(0),
     "IS" = character(0),
     "J9" = character(0),
     "JI" = character(0),
     "LA" = character(0),
-    # "LT" = character(0),
-    # "MC" = character(0),
-    # "MI" = character(0),
     "NR" = character(0),
     "PA" = character(0),
     "PD" = character(0),
@@ -78,11 +74,10 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "PT" = character(0),
     "PU" = character(0),
     "PY" = character(0),
-    "RI" = character(0), # New field code for Thomson-Reuters ResearcherID
-    "RID" = character(0), # Original field code for Thomson-Reuters ResearcherID
-                         # Older searchers will have RID (added by EB Sept 2024)
-    "OI" = character(0), # Field code for ORCID ID (added by EB Jan 2017)
-    "PM" = character(0), # Pubmed ID Number (added by EB Dec 2017)
+    "RI" = character(0),  # New Thomson-Reuters ResearcherID
+    "RID" = character(0), # Original Thomson-Reuters ResearcherID 
+    "OI" = character(0),  # ORCID
+    "PM" = character(0),  # Pubmed ID Number
     "RP" = character(0),
     "SC" = character(0),
     "SI" = character(0),
@@ -90,7 +85,6 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "EI" = character(0),
     "SO" = character(0),
     "SU" = character(0),
-    # "TA" = character(0), (removed by EB Sept 2024)
     "TC" = character(0),
     "TI" = character(0),
     "UT" = character(0),
@@ -100,7 +94,7 @@ references_read <- function(data = ".", dir = FALSE, include_all=FALSE) {
     "Z9" = character(0),
     "AR" = character(0),
     "WE" = character(0),
-    "OA" = character(0), # Field code for Open Acceess (added by EB Sept 2024)
+    "OA" = character(0), # Open Access 
     stringsAsFactors = FALSE
   )
 
