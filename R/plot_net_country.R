@@ -39,6 +39,7 @@
 #' @export plot_net_country
 #' @importFrom network %v%
 
+# data<-BITR_geocode
 plot_net_country <- function(data,
   lineResolution = 10,
   mapRegion = "world",
@@ -137,7 +138,7 @@ plot_net_country <- function(data,
   requireNamespace(package = "network", quietly = TRUE)
 
   vertex_names <- (linkages_countries_net %v% "vertex.names")
-  #convert to tibble to use case_when
+  # convert to tibble to use case_when
   # vertex_names<-as_tibble(vertex_names)
   
   
@@ -334,12 +335,36 @@ plot_net_country <- function(data,
   }
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
-  world_map.points <- ggplot2::fortify(world_map)
+  # world_map.points <- ggplot2::fortify(world_map) # fortify() was deprecated 
+  # world_map.points <- sf::st_as_sf(world_map) st_as_sf() is an alternative,
+  # but the output includes all the polygons needed to map in a list-column.
+  # This function converts the map `st` object to a data frame like fortify(). 
+  
+  sf_convert <- function(map) {
+    do.call("rbind",
+            lapply(map@polygons, function(x) {
+              do.call("rbind",
+                      lapply(seq_along(x@Polygons), function(i) {
+                        df <- setNames(as.data.frame(x@Polygons[[i]]@coords), c("long", "lat"))
+                        df$order <- 1:nrow(df)
+                        df$hole <- x@Polygons[[i]]@hole
+                        df$piece <- i
+                        df$id <- x@ID
+                        df$group <- paste(x@ID, i, sep = '.')
+                        df
+                      }))
+            })
+    )
+  }
+  
+  world_map.points <- sf_convert(world_map) # and now this instead of fortify()
+
+  
   world_map.df <- merge(world_map.points,
-    world_map@data, by = "id", all = TRUE)
+                        world_map@data, by = "id", all = TRUE)
   world_map.df <- world_map.df[!is.na(world_map.df$lat), ]
   # world_map.df <- dplyr::full_join(world_map.points,
-  #   world_map@data, by = "id")
+  #                                  world_map@data, by = "id")
 
   ## calculate min and max for plot
   latmin <- world_map_sub@bbox["y", "min"]

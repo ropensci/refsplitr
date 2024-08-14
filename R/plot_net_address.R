@@ -162,8 +162,31 @@ plot_net_address <- function(data,
       # )
     )
 
-  world_map_sub <- world_map
-  #world_map_sub <- ggplot2::fortify(world_map)
+  
+  sf_convert <- function(map) {
+    do.call("rbind",
+            lapply(map@polygons, function(x) {
+              do.call("rbind",
+                      lapply(seq_along(x@Polygons), function(i) {
+                        df <- setNames(as.data.frame(x@Polygons[[i]]@coords), c("long", "lat"))
+                        df$order <- 1:nrow(df)
+                        df$hole <- x@Polygons[[i]]@hole
+                        df$piece <- i
+                        df$id <- x@ID
+                        df$group <- paste(x@ID, i, sep = '.')
+                        df
+                      }))
+            })
+    )
+  }
+  
+  world_map_sub <- sf_convert(world_map) # and now this instead of fortify()
+  # world_map_sub <- ggplot2::fortify(world_map) # fortify() was deprecated 
+  # world_map_sub <- sf::st_as_sf(world_map) st_as_sf() is an alternative,
+  # but the output includes all the polygons needed to map in a list-column.
+  # This function converts the map `st` object to a data frame like fortify(). 
+  
+  
   if (mapRegion != "world") {
     world_map_sub <- world_map[which(world_map$continent == mapRegion &
         world_map$TYPE != "Dependency"), ]
@@ -178,10 +201,15 @@ plot_net_address <- function(data,
   #   world_map@data, by = "id")
 
   ## calculate min and max for plot
-  latmin <- world_map_sub@bbox["y", "min"]
-  latmax <- world_map_sub@bbox["y", "max"]
-  longmin <- world_map_sub@bbox["x", "min"]
-  longmax <- world_map_sub@bbox["x", "max"]
+  latmin <- min(world_map.df$lat)
+  latmax <- max(world_map.df$lat)
+  longmin <- min(world_map.df$lon)
+  longmax <- max(world_map.df$lon)
+  # latmin <- world_map_sub@bbox["y", "min"]
+  # latmin <- world_map_sub@bbox["y", "min"]
+  # latmax <- world_map_sub@bbox["y", "max"]
+  # longmin <- world_map_sub@bbox["x", "min"]
+  # longmax <- world_map_sub@bbox["x", "max"]
 
   if (mapRegion == "Australia"){
     longmin <- 100
