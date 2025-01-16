@@ -1,8 +1,8 @@
 #' Extracts the lat and long for each address from authors_clean
 #'
-#' \code{authors_georef} This function takes the final author list from 
-#' refine_authors, and calculates the lat long of the addresses. 
-#' It does this by feeding the addresses into data science toolkit. 
+#' \code{authors_georef} This function takes the final author list from
+#' refine_authors, and calculates the lat long of the addresses.
+#' It does this by feeding the addresses into data science toolkit.
 #' In order to maximize effectiveness and mitigate errors in parsing addresses
 #' We run this multiple times creating addresses in different ways
 #' in hopes that the google georeferencing API can recognize an address
@@ -10,9 +10,9 @@
 #' 2nd. City, zipcode, country
 #' 3rd. city, country
 #' 4th. University, country
-#' 
+#'
 #' The output is a list with three data.frames
-#' \code{addresses} is a data frame with all information from 
+#' \code{addresses} is a data frame with all information from
 #' refine_authors plus new location columns and calculated lat longs.
 #' \code{missing addresses} is a data frame with all addresses could
 #' not be geocoded
@@ -21,173 +21,270 @@
 #'
 #' @param data dataframe from `authors_refine()`
 #' @param address_column name of column in quotes where the addresses are
-#' #' @param google_api if FALSE georeferencing is carried out with the 
-#' tidygeocoder package (geocode() with  method = 'osm'). if TRUE geocoding 
+#' #' @param google_api if FALSE georeferencing is carried out with the
+#' tidygeocoder package (geocode() with  method = 'osm'). if TRUE geocoding
 #' is done with the google maps API. Defaults to FALSE.
 #' @importFrom ggmap geocode
-#' 
-#' @examples 
-#' 
+#'
+#' @examples
 #' \dontrun{
-#' BITR_georef_df <- authors_georef(BITR_refined, address_column='address')
+#' BITR_georef_df <- authors_georef(BITR_refined, address_column = "address")
 #' }
-#' @export authors_georef 
-#' 
-authors_georef <- function(data,
-  address_column = "address") {
+#' @export authors_georef
+#'
 
-  options(ggmap = list(display_api_key = FALSE))
-  if (!is.character(data$address)) {
-    stop("Address columns are not characters,
+if (google_api == TRUE) {
+  pt1 <- ("Attention: You have chosen to geocode with the GOOGLE API.\n")
+  pt2 <- ("This is NOT a free service.\n")
+  pt3 <- ("Please refer to Google's current billing rates & usage limits.\n")
+
+  message(paste(pt1, pt2, pt3, sep = ""))
+  rm(pt1, pt2, pt3)
+
+  authors_georef <- function(
+      data,
+      address_column = "address") {
+    options(ggmap = list(display_api_key = FALSE))
+    if (!is.character(data$address)) {
+      stop("Address columns are not characters,
          please change to characters and try again")
-  }
-  addresses <- data[, c("university", "city", "state", "country",
-    "postal_code", "authorID", "address")]
-  #Change some formatting to help data science toolkit
-  addresses$university[is.na(addresses$university)] <- ""
-  addresses$country[is.na(addresses$country)] <- ""
-  addresses$postal_code[is.na(addresses$postal_code)] <- ""
-  addresses$city[is.na(addresses$city)] <- ""
-  addresses$state[is.na(addresses$state)] <- ""
-  addresses$country <- trimws(addresses$country, which = "both")
-  addresses$city <- trimws(addresses$city, which = "both")
-  addresses$state <- trimws(addresses$state, which = "both")
-  addresses$university <- trimws(addresses$university, which = "both")
+    }
+    addresses <- data[, c(
+      "university", "city", "state", "country",
+      "postal_code", "authorID", "address"
+    )]
+    # Change some formatting to help data science toolkit
+    addresses$university[is.na(addresses$university)] <- ""
+    addresses$country[is.na(addresses$country)] <- ""
+    addresses$postal_code[is.na(addresses$postal_code)] <- ""
+    addresses$city[is.na(addresses$city)] <- ""
+    addresses$state[is.na(addresses$state)] <- ""
+    addresses$country <- trimws(addresses$country, which = "both")
+    addresses$city <- trimws(addresses$city, which = "both")
+    addresses$state <- trimws(addresses$state, which = "both")
+    addresses$university <- trimws(addresses$university, which = "both")
 
-  # create Short form address base to defaul address
-  # rougly adheres to universty, city, zipcode, country
-  addresses$base <- addresses$country
-  addresses$base[addresses$postal_code != ""] <-
-    paste0(addresses$base[addresses$postal_code != ""],
-      ", ",
-      addresses$postal_code[addresses$postal_code != ""])
+    # create Short form address base to defaul address
+    # rougly adheres to universty, city, zipcode, country
+    addresses$base <- addresses$country
+    addresses$base[addresses$postal_code != ""] <-
+      paste0(
+        addresses$base[addresses$postal_code != ""],
+        ", ",
+        addresses$postal_code[addresses$postal_code != ""]
+      )
 
-  addresses$base[addresses$state != ""] <-
-    paste0(addresses$state[addresses$state != ""],
-      ", ",
-      addresses$country[addresses$state != ""])
+    addresses$base[addresses$state != ""] <-
+      paste0(
+        addresses$state[addresses$state != ""],
+        ", ",
+        addresses$country[addresses$state != ""]
+      )
 
-  # second tier, city > zip > university
-  addresses$second <- NA
-  addresses$second[addresses$city != ""] <- addresses$city[addresses$city != ""]
-  addresses$second[is.na(addresses$second) & addresses$university != ""] <-
-    addresses$university[is.na(addresses$second) & addresses$university != ""]
+    # second tier, city > zip > university
+    addresses$second <- NA
+    addresses$second[addresses$city != ""] <- addresses$city[addresses$city != ""]
+    addresses$second[is.na(addresses$second) & addresses$university != ""] <-
+      addresses$university[is.na(addresses$second) & addresses$university != ""]
 
-  addresses$short_address <- addresses$base
-  addresses$short_address[!is.na(addresses$second)] <-
-    paste0(addresses$second[!is.na(addresses$second)],
-      ", ",
-      addresses$short_address[!is.na(addresses$second)])
-  addresses$lat <- NA
-  addresses$lon <- NA
-  addresses$adID <- seq_len(nrow(addresses))
+    addresses$short_address <- addresses$base
+    addresses$short_address[!is.na(addresses$second)] <-
+      paste0(
+        addresses$second[!is.na(addresses$second)],
+        ", ",
+        addresses$short_address[!is.na(addresses$second)]
+      )
+    addresses$lat <- NA
+    addresses$lon <- NA
+    addresses$adID <- seq_len(nrow(addresses))
 
-  # # we'll check if data science toolkit is working, by pinging a known address
-  check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
-  check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google", urlonly = TRUE))) == 0
-  if (!check.open) {
-    stop("google geocoding API is down right now, please try again later")
-  }
+    # # we'll check if data science toolkit is working, by pinging a known address
+    check_ad <- "1600 Pennsylvania Ave NW, Washington, DC 20500"
+    check.open <- sum(is.na(ggmap::geocode(check_ad, source = "google", urlonly = TRUE))) == 0
+    if (!check.open) {
+      stop("google geocoding API is down right now, please try again later")
+    }
 
-  #Lets try broad strokes first. Our 4 layered address
-  
-  ggmap::register_google(
-    key = ggmap::google_key(), 
-    write = TRUE,
-    second_limit = 50,
-    day_limit = 2500
-  )
-  
-  for (i in addresses$adID[addresses$short_address != ""]) {
-   
-    address <- as.character(addresses$short_address[i])
-    #if (address == '') next
-    message(paste("Working... ", address))
-    
-    suppressWarnings(result <- ggmap::geocode(address,
-      output = "latlona",
-      source = "google",
-      messaging = TRUE
+    # Lets try broad strokes first. Our 4 layered address
+
+    ggmap::register_google(
+      key = ggmap::google_key(),
+      write = TRUE,
+      second_limit = 50,
+      day_limit = 2500
+    )
+
+    for (i in addresses$adID[addresses$short_address != ""]) {
+      address <- as.character(addresses$short_address[i])
+      # if (address == '') next
+      message(paste("Working... ", address))
+
+      suppressWarnings(result <- ggmap::geocode(address,
+        output = "latlona",
+        source = "google",
+        messaging = TRUE
       ))
-    addresses$lat[addresses$adID == i] <- result[[2]]
-    addresses$lon[addresses$adID == i] <- result[[1]]
-  }
+      addresses$lat[addresses$adID == i] <- result[[2]]
+      addresses$lon[addresses$adID == i] <- result[[1]]
+    }
 
-  # Now lets try using a shorter code (city, state, country)
-  remain <- addresses[is.na(addresses$lat), ]
-  remain$short_address <-
-    ifelse(!(is.na(remain$state) | is.na(remain$country)),
-      paste0(remain$city, ", ", remain$state, ", ", remain$country),
-      NA)
-  remain <- remain[!is.na(remain$short_address) &
+    # Now lets try using a shorter code (city, state, country)
+    remain <- addresses[is.na(addresses$lat), ]
+    remain$short_address <-
+      ifelse(!(is.na(remain$state) | is.na(remain$country)),
+        paste0(remain$city, ", ", remain$state, ", ", remain$country),
+        NA
+      )
+    remain <- remain[!is.na(remain$short_address) &
       remain$short_address != ", , ", ]
 
-  for (i in remain$adID) {
-    address <- as.character(remain$short_address[remain$adID == i])
-    message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
-      output = "latlona",
-      source = "google",
-      messaging = TRUE
-    ))
-    addresses$lat[addresses$adID == i] <- result[[2]]
-    addresses$lon[addresses$adID == i] <- result[[1]]
-  }
+    for (i in remain$adID) {
+      address <- as.character(remain$short_address[remain$adID == i])
+      message(paste("Working... ", address))
+      suppressWarnings(result <- ggmap::geocode(address,
+        output = "latlona",
+        source = "google",
+        messaging = TRUE
+      ))
+      addresses$lat[addresses$adID == i] <- result[[2]]
+      addresses$lon[addresses$adID == i] <- result[[1]]
+    }
 
-  # Now try city, country
-  remain <- addresses[is.na(addresses$lat), ]
-  remain$short_address <-
-    ifelse(!(is.na(remain$city) | is.na(remain$country)),
-      paste0(remain$city, ", ", remain$country),
-      NA)
+    # Now try city, country
+    remain <- addresses[is.na(addresses$lat), ]
+    remain$short_address <-
+      ifelse(!(is.na(remain$city) | is.na(remain$country)),
+        paste0(remain$city, ", ", remain$country),
+        NA
+      )
 
-  remain <- remain[!is.na(remain$short_address) &
+    remain <- remain[!is.na(remain$short_address) &
       remain$short_address != ", ", ]
-  for (i in remain$adID) {
-    address <- as.character(remain$short_address[remain$adID == i])
-    message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
-      output = "latlona",
-      source = "google",
-      messaging = TRUE
-    ))
-    addresses$lat[addresses$adID == i] <- result[[2]]
-    addresses$lon[addresses$adID == i] <- result[[1]]
-  }
+    for (i in remain$adID) {
+      address <- as.character(remain$short_address[remain$adID == i])
+      message(paste("Working... ", address))
+      suppressWarnings(result <- ggmap::geocode(address,
+        output = "latlona",
+        source = "google",
+        messaging = TRUE
+      ))
+      addresses$lat[addresses$adID == i] <- result[[2]]
+      addresses$lon[addresses$adID == i] <- result[[1]]
+    }
 
-  # Finally try using just university, country
-  remain <- addresses[is.na(addresses$lat), ]
-  remain$short_address <-
-    ifelse(!(is.na(remain$university) | is.na(remain$country)),
-      paste0(remain$university, ", ", remain$country),
-      NA)
+    # Finally try using just university, country
+    remain <- addresses[is.na(addresses$lat), ]
+    remain$short_address <-
+      ifelse(!(is.na(remain$university) | is.na(remain$country)),
+        paste0(remain$university, ", ", remain$country),
+        NA
+      )
 
-  remain <- remain[!is.na(remain$short_address) &
+    remain <- remain[!is.na(remain$short_address) &
       remain$short_address != ", ", ]
-  for (i in remain$adID) {
-    address <- as.character(remain$short_address[remain$adID == i])
-    message(paste("Working... ", address))
-    suppressWarnings(result <- ggmap::geocode(address,
-      output = "latlona",
-      source = "google",
-      messaging = TRUE
-    ))
-    addresses$lat[addresses$adID == i] <- result[[2]]
-    addresses$lon[addresses$adID == i] <- result[[1]]
+    for (i in remain$adID) {
+      address <- as.character(remain$short_address[remain$adID == i])
+      message(paste("Working... ", address))
+      suppressWarnings(result <- ggmap::geocode(address,
+        output = "latlona",
+        source = "google",
+        messaging = TRUE
+      ))
+      addresses$lat[addresses$adID == i] <- result[[2]]
+      addresses$lon[addresses$adID == i] <- result[[1]]
+    }
+
+    ## Change "" back to NA
+    addresses$country[addresses$country == ""] <- NA
+    addresses$university[addresses$university == ""] <- NA
+    addresses$postal_code[addresses$postal_code == ""] <- NA
+
+    addresses <-
+      merge(
+        addresses[, c(
+          "authorID", "university", "postal_code",
+          "country", "lat", "lon"
+        )],
+        data[, c(
+          "authorID", "groupID", "author_order", "address",
+          "department", "RP_address", "RI", "OI", "UT", "refID"
+        )],
+        by = "authorID", all.y = TRUE
+      )
+
+    missingaddresses <- addresses[is.na(addresses$lat), ]
+    addresses$lat <- unlist(addresses$lat)
+    addresses$lon <- unlist(addresses$lon)
+
+    outputlist <- list()
+    outputlist$addresses <- addresses
+    outputlist$missing_addresses <- missingaddresses
+    outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
+
+    # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
+    on.exit(options(ggmap = list(display_api_key = TRUE)))
+    return(outputlist)
   }
+} else {
+  pt1 <- ("You are Geocoding with OpenStreetMap.\n")
+  pt2 <- ("This proceeds at a rate of 1 address/second.\n")
+  pt3 <- ("For large data sets: OSM requests that you consider downloading\n")
+  pt4 <- ("the complete database to query locally instead of using the API.\n")
+  pt5 <- ("See the Refsplitr vignette for more information.\n")
+  message(paste(pt1, pt2, pt3, pt4, pt5, sep = ""))
+  rm(pt1, pt2, pt3, pt4, pt5)
 
-  ## Change "" back to NA
-  addresses$country[addresses$country == ""] <- NA
-  addresses$university[addresses$university == ""] <- NA
-  addresses$postal_code[addresses$postal_code == ""] <- NA
+  # select the following columns from the fll dataframe
+  # a_df<-("authorID", "city","state","postal_code","country")
+  a_df$addr <- NA
+  a_df$addr <- ifelse(is.na(a_df$state),
+    paste(a_df$city, a_df$country, sep = ","),
+    paste(a_df$city, a_df$state, a_df$country, sep = ",")
+  )
 
+  a_df$addr <- ifelse(a_df$country == "Could not be extracted",
+    NA,
+    a_df$addr
+  )
+
+  to_georef_df <- unique(a_df$addr)
+  to_georef_df <- as.data.frame(to_georef_df)
+  colnames(to_georef_df) <- c("addr")
+
+  to_georef_df <- na.omit(to_georef_df)
+  # library(tidygeocoder)
+  to_georef_df <- to_georef_df |> tidygeocoder::geocode(addr,
+    method = "osm",
+    lat = latitude, long = longitude
+  )
+
+
+  no_georef <- to_georef_df[is.na(to_georef_df$latitude), ]
+
+
+
+  perc_missing <- (nrow(no_georef) / nrow(to_georef_df)) * 100
+  print(paste("lat/longs are missing for ", round(perc_missing, 2), "% of the locations.", sep = ""))
+  print("check `outputlist$missing_addresses` to see which they are")
+  # no_georef
+
+
+
+  # These get merged back into the original
+  # TODO: MAKE SURE THIS IS CORRECT!!!!
   addresses <-
     merge(
-      addresses[, c("authorID", "university", "postal_code",
-        "country", "lat", "lon")],
-      data[, c("authorID", "groupID", "author_order", "address",
-        "department", "RP_address", "RI", "OI", "UT", "refID")],
-      by = "authorID", all.y = TRUE)
+      to_georef_df[, c(
+        "authorID", "city", "state", "postal_code",
+        "country", "lat", "lon"
+      )],
+      a_df[, c(
+        "authorID", "groupID", "author_order", "address", "university",
+        "department", "RP_address", "RI", "OI", "UT", "refID"
+      )],
+      by = "authorID", all.y = TRUE
+    )
+
 
   missingaddresses <- addresses[is.na(addresses$lat), ]
   addresses$lat <- unlist(addresses$lat)
@@ -198,7 +295,5 @@ authors_georef <- function(data,
   outputlist$missing_addresses <- missingaddresses
   outputlist$not_missing_addresses <- addresses[!is.na(addresses$lat), ]
 
-  # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
-  on.exit(options(ggmap = list(display_api_key = TRUE)))
   return(outputlist)
 }
