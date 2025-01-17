@@ -295,7 +295,15 @@ a_df$addr <- ifelse(a_df$country == "usa",
     method = "osm",
     lat = latitude, long = longitude
   )
-
+  no_latlon <- to_georef_df[is.na(to_georef_df$latitude), ]
+  perc_missing <- (nrow(no_latlon) / nrow(to_georef_df)) * 100
+  
+  pt1<-c(paste("Unable to georef ", 
+               round(perc_missing, 2), "% of author addresses.\n", sep = ""))
+  pt2<- c("Check `outputlist$missing_addresses` to see which ones.\n")
+  message(paste(pt1, pt2, sep = ""))
+  rm(pt1,pt2,perc_missing)
+  
   # These get merged back into the original
   a_df <-
     merge(
@@ -332,13 +340,6 @@ a_df$addr <- ifelse(a_df$country == "usa",
   outputlist$no_missing_addresses <- addresses[!is.na(addresses$lat), ]
 
   
-  
-  perc_missing <- (nrow(missingaddresses) / nrow(addresses)) * 100
-  pt1<-c(paste("lat/longs are missing for ", 
-              round(perc_missing, 2), "% of the author addresses.\n", sep = ""))
-  pt2<- c("Check `outputlist$missing_addresses` to see which.\n")
-  message(paste(pt1, pt2, sep = ""))
-  rm(pt1,pt2,perc_missing)
     
   
   
