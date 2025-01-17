@@ -258,9 +258,18 @@ if (google_api == TRUE) {
   # a_df<-("authorID", "city","state","postal_code","country")
   a_df$addr <- NA
   
-  a_df$addr <- ifelse(a_df$country == "usa" & !is.na(a_df$state),
-                      paste(a_df$city, a_df$state, a_df$country, sep = ","),
-                      paste(a_df$city, a_df$country, sep = ","))
+
+a_df$addr <- ifelse(a_df$country == "usa",
+                    ifelse(!is.na(a_df$state),
+                           ifelse(!is.na(a_df$postal_code),
+                                  paste(a_df$city, a_df$state, a_df$postal_code, a_df$country, sep = ","),
+                                  paste(a_df$city, a_df$state, a_df$country, sep = ",")),
+                           ifelse(!is.na(a_df$postal_code),
+                                  paste(a_df$city, a_df$postal_code, a_df$country, sep = ","),
+                                  paste(a_df$city, a_df$country, sep = ","))),
+                    paste(a_df$city, a_df$country, sep = ","))
+
+    
   # 
   # a_df$addr <- ifelse(is.na(a_df$state),
   #   paste(a_df$city, a_df$country, sep = ","),
