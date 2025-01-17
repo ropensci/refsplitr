@@ -296,9 +296,7 @@ a_df$addr <- ifelse(a_df$country == "usa",
     lat = latitude, long = longitude
   )
 
-
   # These get merged back into the original
-  # TODO: MAKE SURE THIS IS CORRECT!!!!
   a_df <-
     merge(
       to_georef_df[, c(
@@ -333,7 +331,7 @@ a_df$addr <- ifelse(a_df$country == "usa",
   outputlist$missing_addresses <- missingaddresses
   outputlist$no_missing_addresses <- addresses[!is.na(addresses$lat), ]
 
-  return(outputlist)
+  
   
   perc_missing <- (nrow(missingaddresses) / nrow(addresses)) * 100
   pt1<-c(paste("lat/longs are missing for ", 
@@ -345,15 +343,16 @@ a_df$addr <- ifelse(a_df$country == "usa",
   
   
   pt1 <- ("The output is a list with three data.frames:\n")
-  pt2 <- ("output$addresses: all info from 'refine_authors' 
+  pt2 <- ("outputlist$addresses: all info from 'refine_authors' 
           plus new columns with lat & long. It includes ALL addresses, 
           including those that could not be geocoded. \n")
-  pt3 <- ("output$missing_addresses: a data frame of the addresses that 
+  pt3 <- ("outputlist$missing_addresses: a data frame of the addresses that 
           could NOT be geocoded.\n")
-  pt4 <- ("output$no_missing_addresses: a data frame with ONLY the addresses
+  pt4 <- ("outputlist$no_missing_addresses: a data frame with ONLY the addresses
           that were geocoded. \n")
   message(paste(pt1, pt2, pt3, pt4,sep = ""))
   rm(pt1, pt2, pt3, pt4)
   
+  return(outputlist)
 }
 }
