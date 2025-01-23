@@ -252,7 +252,8 @@ if (google_api == TRUE) {
     "city", "state", "country",
     "postal_code", "authorID" 
   )]
-          
+  a_df$country[a_df$country=="could not be extracted"]<-NA
+  a_df$state[a_df$state=="no state"]<-NA
   a_df<-a_df[!is.na(a_df$country),]
   # select the following columns from the fll dataframe
   # a_df<-("authorID", "city","state","postal_code","country")
@@ -289,8 +290,8 @@ a_df$addr <- ifelse(a_df$country == "usa",
   colnames(to_georef_df) <- c("addr")
 
   # to_georef_df <- na.omit(to_georef_df)
-  
-  # library(tidygeocoder)
+  # FOR TESTING ONLY: 
+  # library(tidygeocoder) to_georef_df<-to_georef_df %>% sample_n(500)
   to_georef_df <- to_georef_df |> tidygeocoder::geocode(addr,
     method = "osm",
     lat = latitude, long = longitude

@@ -10,25 +10,45 @@
 authors_address <- function(addresses, ID){
   message("\nSplitting addresses\n")
 
+  addresses<-tolower(addresses) # make all lower case
   list_address <- strsplit(addresses, ",")
+  
+  
+  # remove punctuation ----------------------------------------
+  ## First remove periods and trim white space from countries.
+  ## helps avoids mistakes later on
+  
+  remove_period_from_last <- function(list_address) {
+    lapply(list_address, function(x) {
+      if (length(x) > 0) {
+        x[length(x)] <- gsub("\\.$", "", x[length(x)])
+        x[length(x)] <- trimws(x[length(x)], which = "both") 
+      }
+      return(x)
+    })
+  }
+  
+  list_address <- remove_period_from_last(list_address)
+  
+  
   university_list <- vapply(list_address, function(x) x[1], character(1))
   country_list <- vapply(list_address, function(x) {
     gsub("\\_", "", x[length(x)]) },
     character(1))
   country_list <- trimws(country_list, which = "both")
-  pc_list <- trimws(substr(country_list, 1, (vapply(regexpr("USA",
+  pc_list <- trimws(substr(country_list, 1, (vapply(regexpr("usa",
     country_list), function(x) x[1], numeric(1))) - 1), which = "right")
   state_list <- pc_list
 
   state_list[nchar(state_list) > 0] <- regmatches(
     state_list[nchar(state_list) > 0],
-    regexpr("[[:upper:]]{2}", state_list[nchar(state_list) > 0])
+    regexpr("[[:lower:]]{2}", state_list[nchar(state_list) > 0])
   )
 
   pc_list[nchar(pc_list) > 2] <- regmatches(pc_list[nchar(pc_list) > 2],
     regexpr("[[:digit:]]{5}", pc_list[nchar(pc_list) > 2]))
   pc_list[nchar(pc_list) < 3] <- ""
-  country_list <- ifelse(grepl("USA", country_list), "USA", country_list)
+  country_list <- ifelse(grepl("usa", country_list), "usa", country_list)
 
   list_address1 <- lapply(list_address, function(x) x[-c(1, length(x))])
 
@@ -78,20 +98,114 @@ authors_address <- function(addresses, ID){
   a_df$postal_code[ grepl(us_reg, a_df$country) ] <-
     substr(a_df$country[grepl(us_reg, a_df$country)], 4, 8)
 
-  a_df$country[grepl(us_reg, a_df$country)] <- "USA"
+  a_df$country[grepl(us_reg, a_df$country)] <- "usa"
 
-  ##########################
+
+  # Added by eb
+  
+  # USA ZIP CODES
+  
+  a_df$state<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$second_tier),
+                     a_df$second_tier,a_df$state)
+  a_df$postal_code<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$second_tier),
+                      a_df$second_tier,a_df$postal_code)
+  a_df$city<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$second_tier),
+                            a_df$third_tier,a_df$city)
+  
+  a_df$state<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$state),
+                      gsub("[[:digit:]]{5}","",a_df$state),a_df$state)
+  
+  a_df$postal_code<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$postal_code),
+                      gsub("[[:alpha:]]{2}","",a_df$postal_code),a_df$postal_code)
+  
+  
+  # BRAZIL CODES
+  
+  a_df$postal_code<- ifelse(a_df$country=="brazil" & grepl("[a-z]{2}-[0-9]{4,8}", a_df$second_tier),
+                            a_df$second_tier,a_df$postal_code)
+  a_df$city<- ifelse(a_df$country=="brazil" & grepl("[a-z]{2}-[0-9]{4,8}", a_df$second_tier),
+                     a_df$second_tier,a_df$city)
+  
+  a_df$postal_code<- ifelse(a_df$country=="brazil" & grepl("[a-z]{2}-[0-9]{4,8}", a_df$third_tier),
+                            a_df$third_tier,a_df$postal_code)
+  a_df$city<- ifelse(a_df$country=="brazil" & grepl("[a-z]{2}-[0-9]{4,8}", a_df$third_tier),
+                     a_df$third_tier,a_df$city)
+  
+  
+
+  a_df$postal_code<- ifelse(a_df$country=="brazil",
+                            gsub(" .*","",a_df$postal_code),a_df$postal_code)
+  
+  a_df$city<- ifelse(a_df$country=="brazil",
+                     gsub(".*br-[0-9]+ ", "", a_df$city),a_df$city)
+  
+  
+  a_df$state<- ifelse(a_df$country=="brazil" & is.na(a_df$city) & is.na(a_df$postal_code),
+                     a_df$second_tier,a_df$state)
+  
+  a_df$city<- ifelse(a_df$country=="brazil" & is.na(a_df$city) & is.na(a_df$postal_code),
+                      a_df$third_tier,a_df$city)
+  
+  a_df$state<- ifelse(a_df$country=="brazil" & nchar(a_df$second_tier)==2,a_df$second_tier,a_df$state)
+  
+  
+  a_df$postal_code<- ifelse(a_df$country=="brazil",
+                     gsub("br-", "", a_df$postal_code),a_df$postal_code)
+  
+  
+  a_df$state<- ifelse(a_df$country=="brazil" & grepl("[a-z]{2} [0-9]{5}", a_df$state),
+                      gsub("[[:digit:]]{5}","",a_df$state),a_df$state)
+  
+  a_df$postal_code<- ifelse(a_df$country=="usa" & grepl("[a-z]{2} [0-9]{5}", a_df$postal_code),
+                            gsub("[[:alpha:]]{2}","",a_df$postal_code),a_df$postal_code)
+  
+  
+  
+  # Define words indicating this is actually a dept not state or postal code
+  # will use this list to delete the ones that don't apply
+  to_check <- c("dept","ctr","inst","ppg","andar","empresas",
+                "cena","educ","programa", "ciencias", "unidade", "lab ")
+  
+  a_df$city <- ifelse(a_df$country=="brazil" & grepl(paste(to_check, collapse = "|"), a_df$city),
+                      a_df$second_tier,
+                      a_df$city)
+  
+  
+  
+  a_df$state <- ifelse(a_df$country=="brazil" &grepl(paste(to_check, collapse = "|"), a_df$state),
+                       a_df$second_tier,a_df$state)
+  
+  a_df$city<- ifelse(a_df$country=="brazil" & is.na(a_df$city) & is.na(a_df$postal_code),
+                      a_df$second_tier,a_df$city)
+  
+  
+  a_df$city <- ifelse(grepl("museu nacl", a_df$city),
+                             "rio de janeiro", a_df$city)
+  a_df$state <- ifelse(grepl("rio de janeiro", a_df$state, ignore.case = TRUE),
+                              "rj", a_df$state)
+  a_df$state <- ifelse(grepl("sao paulo", a_df$state, ignore.case = TRUE),
+                              "sp", a_df$state)
+  
+  
+  
+  results$brl_city[results$brl_city==results$brl_state]<-NA
+  
+  
+  # Clean up and adjust columns
+  results[] <- lapply(results, trimws)
+  
+    ##########################
   # We'll use regular expression to pull zipcodes
   # These formats differ by region
   int1 <- "[[:alpha:]]{2}[[:punct:]]{1}[[:digit:]]{1,8}"
-  int2 <- paste("[[:space:]][[:upper:]][[:digit:]][[:upper:]]",
-                 "[[:space:]][[:digit:]][[:upper:]][[:digit:]]", sep="")
+  int2 <- paste("[[:space:]][[:upper:]][[:digit:]][[:lower:]]",
+                 "[[:space:]][[:digit:]][[:lower:]][[:digit:]]", sep="")
   int3 <- "[[:alpha:]][[:punct:]][[:digit:]]{4,7}"
-  int4 <- "[:upper:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
+  int4 <- "[:lower:]{1,2}[:alnum:]{1,3}[:space:][:digit:][:alnum:]{1,3}"
   int <- paste(int1, int2, int3, int4, sep = "|")
 
-  UK <- paste("[[:upper:]]{1,2}[[:digit:]]{1,2}[[:space:]]",
-              "{1}[[:digit:]]{1}[[:upper:]]{2}", sep="")
+  UK <- paste("[[:lower:]]{1,2}[[:digit:]]{1,2}[[:space:]]",
+              "{1}[[:digit:]]{1}[[:lower:]]{2}", sep="")
 
   Mexico <- "[[:space:]]{1}[[:digit:]]{5}" # technically US as well
 
