@@ -631,7 +631,6 @@ authors_address <- function(addresses, ID){
   
   a_df$city <- ifelse(a_df$country=="india" & (grepl("delhi", a_df$city)|grepl("delhi", a_df$state)), 
                       "new delhi", a_df$city)
-  
 
 # china -------------------------------------------------------------------
 
@@ -815,6 +814,11 @@ authors_address <- function(addresses, ID){
   
   
   
+  # netherlands -------------------------------------------------------------
+  # cities often have two characters at start (ascii version of ligature/dipthong)
+  a_df[] <- lapply(a_df, trimws)
+  a_df$city <- ifelse(a_df$country=="netherlands" & grepl("^[a-zA-Z]{2} ", a_df$city), 
+                      (sub("^[a-zA-Z]{2} ","", a_df$city)),a_df$city)
   
   
   
@@ -830,6 +834,8 @@ authors_address <- function(addresses, ID){
   
   
   
+  
+  a_df[] <- lapply(a_df, trimws)
   
   a_df$city<-ifelse(a_df$city=="university pk",
                                "university park",
@@ -902,20 +908,26 @@ authors_address <- function(addresses, ID){
                      "buenos aires",a_df$city)
 
   
+  a_df$city <- ifelse(grepl("^st ", a_df$city), 
+                      (sub("^st ","saint ", a_df$city)),a_df$city)
   
+  a_df$city <- ifelse(grepl(" st ", a_df$city), 
+                      (sub(" st "," saint ", a_df$city)),a_df$city)
+  
+  a_df$city <- ifelse(grepl("^ste ", a_df$city), 
+                      (sub("^ste ","saint ", a_df$city)),a_df$city)
   
 }
   
   
   
   
-  # usa cz = canal zone
+  # usa cz = canal zone, ada, apo, dpo
   # scotland   mrc
-  # usa   ada, apo, dpo
-  # st for saint (but cant change forest or west)
-  # netheerlands first two letters of city names xx name
-  # ste for saint
-  # 
+  
+  
+
+ 
   # country<- a_df %>% 
   #   # mutate(city_match=(city==second_tier)) %>% 
   #   # filter(city_match==FALSE) %>% 
