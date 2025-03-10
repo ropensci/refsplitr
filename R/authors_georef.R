@@ -22,7 +22,7 @@
 #'
 #' @param data dataframe from `authors_refine()`
 #' @param address_column name of column in quotes where the addresses are
-#' #' @param google_api if FALSE georeferencing is carried out with the
+#' @param google_api if FALSE georeferencing is carried out with the
 #' tidygeocoder package (geocode() with  method = 'osm'). if TRUE geocoding
 #' is done with the google maps API. Defaults to FALSE.
 #' @importFrom ggmap geocode

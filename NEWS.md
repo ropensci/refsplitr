@@ -1,6 +1,16 @@
 # refsplitr News
 
 
+refsplitr 1.5 (2025-04-15)
+=========================
+
+### NEW FEATURES
+
+  * The new default service for georeferencing author institutions is [`tidygeocoder`](https://jessecambon.github.io/tidygeocoder/). Using [`ggmap`](https://github.com/dkahle/ggmap) to access the Google Maps API is still an option, but users should be aware that this is no longer a free service.
+  
+  * The `authors_addresses` function has been updated.
+
+
 refsplitr 1.0.2 (2024-08-12)
 =========================
 
