@@ -1,30 +1,24 @@
 #' Extracts the lat and long for each address from authors_clean
 #'
 #' \code{authors_georef} This function takes the final author list from
-#' refine_authors, and calculates the lat long of the addresses.
-#' It does this by feeding the addresses into data science toolkit.
-#' In order to maximize effectiveness and mitigate errors in parsing addresses
-#' We run this multiple times creating addresses in different ways
-#' in hopes that the google georeferencing API can recognize an address
-#' 1st. University, city, zipcode, country
-#' 2nd. City, zipcode, country
-#' 3rd. city, country
-#' 4th. University, country
+#' refine_authors, and calculates the lat long of the city, country, and postal
+#' code (for USA addresses) or city and country (for addresses outside the USA).
 #'
-#' The output is a list with three data.frames
-#' \code{addresses} All info from 'refine_authors' plus new columns with 
-#' lat & long. It includes ALL addresses, including those 
-#' that could not be geocoded.
-#' \code{missing_addresses} A data frame of the addresses that could 
+#' The output is a list of three data.frames
+#' \code{addresses} All info from 'refine_authors' plus new columns with
+#' lat & long. It includes ALL addresses, including those that could not
+#' be geocoded.
+#' \code{missing_addresses} A data frame of the addresses that could
 #' NOT be geocoded.
-#' \code{no_missing_addresses} the \code{addresses} data frame with ONLY the 
+#' \code{no_missing_addresses} the \code{addresses} data frame with ONLY the
 #' addresses that were geocoded.
 #'
 #' @param data dataframe from `authors_refine()`
 #' @param address_column name of column in quotes where the addresses are
-#' @param google_api if FALSE georeferencing is carried out with the
-#' tidygeocoder package (geocode() with  method = 'osm'). if TRUE geocoding
-#' is done with the google maps API. Defaults to FALSE.
+#' @param google_api if `google_api = FALSE` georeferencing is carried out with
+#' the `tidygeocoder` package (option `geocode()` with  `method = 'osm'`).
+#' If `google_api = TRUE`, then geocoding is done with the Google Maps API.
+#' Defaults to `FALSE`.
 #' @importFrom ggmap geocode
 #'
 #' @examples
@@ -36,19 +30,18 @@
 authors_georef <- function(
     data,
     address_column = "address",
-    google_api) {
-  
-if (google_api == TRUE) {
-  pt1 <- ("Attention: You have chosen to geocode with the GOOGLE API.\n")
-  pt2 <- ("This is NOT a free service.\n")
-  pt3 <- ("Please refer to Google's current billing rates & usage limits.\n")
+    google_api = FALSE) {
+  if (google_api == TRUE) {
+    pt1 <- ("Attention: You have chosen to geocode with the GOOGLE API.\n")
+    pt2 <- ("This is NOT a free service.\n")
+    pt3 <- ("Please refer to Google's current billing rates & usage limits.\n")
 
-  message(paste(pt1, pt2, pt3, sep = ""))
-  rm(pt1, pt2, pt3)
+    message(paste(pt1, pt2, pt3, sep = ""))
+    rm(pt1, pt2, pt3)
 
-  
+
     options(ggmap = list(display_api_key = FALSE))
-    
+
     if (!is.character(data$address)) {
       stop("Address columns are not characters,
          please change to characters and try again")
@@ -227,134 +220,153 @@ if (google_api == TRUE) {
     # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
     on.exit(options(ggmap = list(display_api_key = TRUE)))
     return(outputlist)
-  
-} else {
-  pt1 <- ("You are Geocoding with OpenStreetMap.\n")
-  pt2 <- ("This proceeds at a rate of 1 address/second.\n")
-  pt3 <- ("For large data sets: OSM requests that you consider downloading\n")
-  pt4 <- ("the complete database to query locally instead of using the API.\n")
-  pt5 <- ("See the Refsplitr vignette for more information.\n")
-  message(paste(pt1, pt2, pt3, pt4, pt5, sep = ""))
-  rm(pt1, pt2, pt3, pt4, pt5)
+  } else {
+    pt1 <- ("You are Geocoding with OpenStreetMap.\n")
+    pt2 <- ("This proceeds at a rate of 1 address/second.\n")
+    pt3 <- ("For large data sets: OSM requests that you consider downloading\n")
+    pt4 <- ("the complete database to query locally instead of using the API.\n")
+    pt5 <- ("See the Refsplitr vignette for more information.\n")
+    message(paste(pt1, pt2, pt3, pt4, pt5, sep = ""))
+    rm(pt1, pt2, pt3, pt4, pt5)
 
-  
-  
-  if (!is.character(data$address)) {
-    stop("Address columns are not characters,
+
+
+    if (!is.character(data$address)) {
+      stop("Address columns are not characters,
          please change to characters and try again")
-  }
-  # a_df <- data[, c(
-  #   "university", "city", "state", "country",
-  #   "postal_code", "authorID", "address"
-  # )]
-  
-  a_df <- data[, c(
-    "city", "state", "country",
-    "postal_code", "authorID" 
-  )]
-  a_df$country[a_df$country=="could not be extracted"]<-NA
-  a_df$state[a_df$state=="no state"]<-NA
-  a_df<-a_df[!is.na(a_df$country),]
-  # select the following columns from the fll dataframe
-  # a_df<-("authorID", "city","state","postal_code","country")
-  a_df$addr <- NA
-  
+    }
+    # a_df <- data[, c(
+    #   "university", "city", "state", "country",
+    #   "postal_code", "authorID", "address"
+    # )]
 
-a_df$addr <- ifelse(a_df$country == "usa",
-                    ifelse(!is.na(a_df$state),
-                           ifelse(!is.na(a_df$postal_code),
-                                  paste(a_df$city, a_df$state, a_df$postal_code, a_df$country, sep = ","),
-                                  paste(a_df$city, a_df$state, a_df$country, sep = ",")),
-                           ifelse(!is.na(a_df$postal_code),
-                                  paste(a_df$city, a_df$postal_code, a_df$country, sep = ","),
-                                  paste(a_df$city, a_df$country, sep = ","))),
-                    paste(a_df$city, a_df$country, sep = ","))
+    a_df <- data[, c(
+      "city", "state", "country",
+      "postal_code", "authorID"
+    )]
+    a_df$country[a_df$country == "could not be extracted"] <- NA
+    a_df$state[a_df$state == "no state"] <- NA
+    a_df <- a_df[!is.na(a_df$country), ]
+    # select the following columns from the fll dataframe
+    # a_df<-("authorID", "city","state","postal_code","country")
+    a_df$addr <- NA
 
-    
-  # 
-  # a_df$addr <- ifelse(is.na(a_df$state),
-  #   paste(a_df$city, a_df$country, sep = ","),
-  #   paste(a_df$city, a_df$state, a_df$country, sep = ",")
-  # )
 
-  a_df$addr <- ifelse(a_df$country == "Could not be extracted",
-    NA,
-    a_df$addr
-  )
-  to_georef_df <- a_df$addr
-  # Find unique values of the 'id' column and keep all other columns
-  
-  
-  to_georef_df <- unique(a_df$addr)
-  to_georef_df <- as.data.frame(to_georef_df)
-  colnames(to_georef_df) <- c("addr")
-
-  # to_georef_df <- na.omit(to_georef_df)
-  # FOR TESTING ONLY: 
-  # library(tidygeocoder) to_georef_df<-to_georef_df %>% sample_n(500)
-  to_georef_df <- to_georef_df |> tidygeocoder::geocode(addr,
-    method = "osm",
-    lat = latitude, long = longitude
-  )
-  no_latlon <- to_georef_df[is.na(to_georef_df$latitude), ]
-  perc_missing <- (nrow(no_latlon) / nrow(to_georef_df)) * 100
-  
-  pt1<-c(paste("Unable to georef ", 
-               round(perc_missing, 2), "% of author addresses.\n", sep = ""))
-  pt2<- c("Check `outputlist$missing_addresses` to see which ones.\n")
-  message(paste(pt1, pt2, sep = ""))
-  rm(pt1,pt2,perc_missing)
-  
-  # These get merged back into the original
-  a_df <-
-    merge(
-      to_georef_df[, c(
-        "addr","latitude", "longitude"
-      )],
-      a_df,
-      by = "addr", all.y = TRUE
+    a_df$addr <- ifelse(a_df$country == "usa",
+      ifelse(!is.na(a_df$state),
+        ifelse(!is.na(a_df$postal_code),
+          paste(a_df$city,
+            a_df$state,
+            a_df$postal_code,
+            a_df$country,
+            sep = ","
+          ),
+          paste(a_df$city,
+            a_df$state,
+            a_df$country,
+            sep = ","
+          )
+        ),
+        ifelse(!is.na(a_df$postal_code),
+          paste(a_df$city,
+            a_df$postal_code,
+            a_df$country,
+            sep = ","
+          ),
+          paste(a_df$city,
+            a_df$country,
+            sep = ","
+          )
+        )
+      ),
+      paste(a_df$city,
+        a_df$country,
+        sep = ","
+      )
     )
 
-  data <-
-    merge(
-      a_df[, c(
-        "authorID","latitude","longitude"
-      )],
-      data,
-      by = c("authorID"), all.y = TRUE
+
+    #
+    # a_df$addr <- ifelse(is.na(a_df$state),
+    #   paste(a_df$city, a_df$country, sep = ","),
+    #   paste(a_df$city, a_df$state, a_df$country, sep = ",")
+    # )
+
+    a_df$addr <- ifelse(a_df$country == "Could not be extracted",
+      NA,
+      a_df$addr
     )
-  
-  names(data)[names(data) == 'latitude'] <- 'lat'
-  names(data)[names(data) == 'longitude'] <- 'lon'
-  
-  
-  no_georef <- data[is.na(data$lat), ]
-  
-  addresses<-data
-  missingaddresses <- data[is.na(data$lat), ]
-  addresses$lat <- unlist(data$lat)
-  addresses$lon <- unlist(data$lon)
+    to_georef_df <- a_df$addr
 
-  outputlist <- list()
-  outputlist$addresses <- addresses
-  outputlist$missing_addresses <- missingaddresses
-  outputlist$no_missing_addresses <- addresses[!is.na(addresses$lat), ]
+    # Find unique values of the 'id' column and keep all other columns
 
-  
-    
-  
-  
-  pt1 <- ("The output is a list with three data.frames:\n")
-  pt2 <- ("outputlist$addresses: all info from 'refine_authors' 
-          plus new columns with lat & long. It includes ALL addresses, 
+
+    to_georef_df <- unique(a_df$addr)
+    to_georef_df <- as.data.frame(to_georef_df)
+    colnames(to_georef_df) <- c("addr")
+
+    # to_georef_df <- na.omit(to_georef_df)
+
+    to_georef_df <- to_georef_df |> tidygeocoder::geocode(addr,
+      method = "osm",
+      lat = latitude, long = longitude
+    )
+    no_latlon <- to_georef_df[is.na(to_georef_df$latitude), ]
+    perc_missing <- (nrow(no_latlon) / nrow(to_georef_df)) * 100
+
+    pt1 <- c(paste("Unable to georef ",
+      round(perc_missing, 2), "% of author addresses.\n",
+      sep = ""
+    ))
+    pt2 <- c("Check `outputlist$missing_addresses` to see which ones.\n")
+    message(paste(pt1, pt2, sep = ""))
+    rm(pt1, pt2, perc_missing)
+
+    # These get merged back into the original
+    a_df <-
+      merge(
+        to_georef_df[, c(
+          "addr", "latitude", "longitude"
+        )],
+        a_df,
+        by = "addr", all.y = TRUE
+      )
+
+    data <-
+      merge(
+        a_df[, c(
+          "authorID", "latitude", "longitude"
+        )],
+        data,
+        by = c("authorID"), all.y = TRUE
+      )
+
+    names(data)[names(data) == "latitude"] <- "lat"
+    names(data)[names(data) == "longitude"] <- "lon"
+
+
+    no_georef <- data[is.na(data$lat), ]
+
+    addresses <- data
+    missingaddresses <- data[is.na(data$lat), ]
+    addresses$lat <- unlist(data$lat)
+    addresses$lon <- unlist(data$lon)
+
+    outputlist <- list()
+    outputlist$addresses <- addresses
+    outputlist$missing_addresses <- missingaddresses
+    outputlist$no_missing_addresses <- addresses[!is.na(addresses$lat), ]
+    pt1 <- ("The output is a list with three data.frames:\n")
+    pt2 <- ("outputlist$addresses: all info from 'refine_authors'
+          plus new `lat` & `long` columns. It includes ALL addresses,
           including those that could not be geocoded. \n")
-  pt3 <- ("outputlist$missing_addresses: a data frame of the addresses that 
-          could NOT be geocoded.\n")
-  pt4 <- ("outputlist$no_missing_addresses: a data frame with ONLY the addresses
-          that were geocoded. \n")
-  message(paste(pt1, pt2, pt3, pt4,sep = ""))
-  rm(pt1, pt2, pt3, pt4)
-  
-  return(outputlist)
-}
+    pt3 <- ("outputlist$missing_addresses: Includes only the addresses that
+            could NOT be geocoded.\n")
+    pt4 <- ("outputlist$no_missing_addresses: Includes only the addresses
+          that WERE geocoded. \n")
+    message(paste(pt1, pt2, pt3, pt4, sep = ""))
+    rm(pt1, pt2, pt3, pt4)
+
+    return(outputlist)
+  }
 }
