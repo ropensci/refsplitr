@@ -1,5 +1,10 @@
 #' Parses out address information and splits it into its respective parts.
-#' This is an internal function used by \code{authors_clean}
+#' This is an internal function used by \code{authors_clean}. Note that parsing
+#' addresses is surprisingly difficult, largely because there is no standard
+#' format across journals/countries for how there are reported. For example:
+#' Ex 1) some journals use dept, univ, city, state, postal code, country
+#' Ex 2) others use univ, dept, country, postal code.
+#' Ex 3) Postal code is sometimes in the same cell as country, other times not.
 #'
 #' \code{authors_address} This function takes the output from
 #' \code{references_read} and pulls out address information. Splitting it into
@@ -8,7 +13,6 @@
 #' @param ID the authorID
 #' @noRd
 authors_address <- function(addresses, ID) {
-
   addresses <- tolower(addresses)
 
   message("\nSplitting addresses\n")
@@ -40,7 +44,11 @@ authors_address <- function(addresses, ID) {
   # correct countries -------------------------------------------------------
 
 
-  # correct or update names of some countries to make it possible to georef
+  # format or update names of some countries to make it possible to georef
+  # the WOS often uses abbreviations, this standardizes them in a way that
+  # `tidygeocoder` can use them. It also updates country names that have changed
+  # (e.g., czechia is new name for czech republic). In some cases no changes
+  # were made (e.g., united arab rep = current country name depends on city).
 
   # Define the function
   correct_countries <- function(my_list, replacements) {
@@ -57,16 +65,14 @@ authors_address <- function(addresses, ID) {
     }
     return(my_list)
   }
-  # NB: also updated country names.
-  #     czechia = new name for czech republic
-  #     united arab rep = current country name depends on city
+
   replacements <- c(
     "austl" = "australia",
     "c z" = "czechia",
     "cz" = "czechia",
     "czech republic" = "czechia",
     "fed rep ger" = "germany",
-    "columbia" = "colombia",
+    "columbia" = "colombia", # a depressingly common mistake
     "peoples r china" = "china",
     "u arab emirates" = "united arab emirates",
     "mongol peo rep" = "mongolia",
@@ -219,12 +225,17 @@ authors_address <- function(addresses, ID) {
     "usa", a_df$country
   )
 
-  a_df$state <- ifelse(a_df$country == "usa" & grepl("[a-z]{2} [0-9]{5}", a_df$state),
-    gsub("[[:digit:]]{5}", "", a_df$state), a_df$state
+  a_df$state <- ifelse(a_df$country == "usa" & grepl(
+    "[a-z]{2} [0-9]{5}",
+    a_df$state
+  ),
+  gsub("[[:digit:]]{5}", "", a_df$state),
+  a_df$state
   )
 
   a_df$state <- ifelse(a_df$country == "usa" & grepl(" usa", a_df$state),
-    gsub(" usa", "", a_df$state), a_df$state
+    gsub(" usa", "", a_df$state),
+    a_df$state
   )
 
 
@@ -245,8 +256,12 @@ authors_address <- function(addresses, ID) {
 
 
 
-  a_df$city <- ifelse(a_df$country == "usa" & grepl("[a-z]{2} [0-9]{5}", a_df$city),
-    a_df$city2, a_df$city
+  a_df$city <- ifelse(a_df$country == "usa" & grepl(
+    "[a-z]{2} [0-9]{5}",
+    a_df$city
+  ),
+  a_df$city2,
+  a_df$city
   )
 
 
@@ -262,10 +277,16 @@ authors_address <- function(addresses, ID) {
     "usa", a_df$country
   )
   a_df$postal_code <- ifelse(a_df$country == "usa" & grepl(pattern, a_df$postal_code),
-    gsub("[a-z]", "", a_df$postal_code), a_df$postal_code
+    gsub("[a-z]", "", a_df$postal_code),
+    a_df$postal_code
   )
   a_df$state <- ifelse(a_df$country == "usa" & grepl(pattern, a_df$state),
-    gsub("[0-9]", "", a_df$postal_code), a_df$state
+    gsub(
+      "[0-9]",
+      "",
+      a_df$postal_code
+    ),
+    a_df$state
   )
 
 
@@ -273,48 +294,72 @@ authors_address <- function(addresses, ID) {
   # BRAZIL clean-up ---------------------------------------------------------
 
   a_df$state <- ifelse(a_df$country == "brazil" & nchar(a_df$city) == 2,
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
   a_df$city <- ifelse(a_df$country == "brazil" & nchar(a_df$city) == 2,
-    a_df$city2, a_df$city
+    a_df$city2,
+    a_df$city
   )
   a_df$city2 <- ifelse(a_df$country == "brazil" & a_df$city == a_df$city2,
-    NA, a_df$city2
+    NA,
+    a_df$city2
   )
   a_df$postal_code <- ifelse(a_df$country == "brazil" & is.na(a_df$postal_code),
-    a_df$city, a_df$postal_code
+    a_df$city,
+    a_df$postal_code
   )
   a_df$state <- ifelse(a_df$country == "brazil" & nchar(a_df$state) > 2,
-    NA, a_df$state
+    NA,
+    a_df$state
   )
 
   a_df$postal_code <- ifelse(a_df$country == "brazil",
-    gsub("[A-Za-z]", "", a_df$postal_code),
+    gsub(
+      "[A-Za-z]",
+      "",
+      a_df$postal_code
+    ),
     a_df$postal_code
   )
   a_df$postal_code <- ifelse(a_df$country == "brazil",
-    gsub("[-]", "", a_df$postal_code),
+    gsub(
+      "[-]",
+      "",
+      a_df$postal_code
+    ),
     a_df$postal_code
   )
 
   a_df$city <- ifelse(a_df$country == "brazil",
-    gsub("br-", "", a_df$city),
+    gsub(
+      "br-",
+      "",
+      a_df$city
+    ),
     a_df$city
   )
   a_df$city <- ifelse(a_df$country == "brazil",
-    gsub("[0-9]", "", a_df$city),
+    gsub(
+      "[0-9]",
+      "",
+      a_df$city
+    ),
     a_df$city
   )
 
 
   a_df$state <- ifelse(a_df$country == "brazil" & grepl("br-", a_df$city2),
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
   a_df$postal_code <- ifelse(a_df$country == "brazil" & grepl("br-", a_df$city2),
-    a_df$city2, a_df$postal_code
+    a_df$city2,
+    a_df$postal_code
   )
   a_df$city <- ifelse(a_df$country == "brazil" & grepl("br-", a_df$city2),
-    a_df$city2, a_df$city
+    a_df$city2,
+    a_df$city
   )
 
 
@@ -343,25 +388,38 @@ authors_address <- function(addresses, ID) {
 
   # Define city-to-state mapping
   city_state_mapping <- data.frame(
-    city = c("ribeirao preto", "sao carlos", "rio claro", "sorocaba", "seropedica", "rio de janeiro", "rio janeiro", "sao paulo"),
+    city = c(
+      "ribeirao preto", "sao carlos", "rio claro", "sorocaba",
+      "seropedica", "rio de janeiro", "rio janeiro", "sao paulo"
+    ),
     state = c("sp", "sp", "sp", "sp", "rj", "rj", "rj", "sp"),
     stringsAsFactors = FALSE
   )
 
   # Match cities and states
   for (i in 1:nrow(city_state_mapping)) {
-    a_df$city <- ifelse(a_df$country == "brazil" & grepl(city_state_mapping$city[i], a_df$state, ignore.case = TRUE),
-      city_state_mapping$city[i], a_df$city
+    a_df$city <- ifelse(a_df$country == "brazil" &
+      grepl(city_state_mapping$city[i],
+        a_df$state,
+        ignore.case = TRUE
+      ),
+    city_state_mapping$city[i], a_df$city
     )
-    a_df$state <- ifelse(a_df$country == "brazil" & grepl(city_state_mapping$city[i], a_df$state, ignore.case = TRUE),
-      city_state_mapping$state[i], a_df$state
+    a_df$state <- ifelse(a_df$country == "brazil" &
+      grepl(city_state_mapping$city[i],
+        a_df$state,
+        ignore.case = TRUE
+      ),
+    city_state_mapping$state[i], a_df$state
     )
   }
 
   # Match cities and states
   for (i in 1:nrow(city_state_mapping)) {
-    a_df$state <- ifelse(a_df$country == "brazil" & grepl(city_state_mapping$city[i], a_df$city, ignore.case = TRUE),
-      city_state_mapping$state[i], a_df$state
+    a_df$state <- ifelse(a_df$country == "brazil" &
+      grepl(city_state_mapping$city[i], a_df$city, ignore.case = TRUE),
+    city_state_mapping$state[i],
+    a_df$state
     )
   }
 
@@ -397,30 +455,44 @@ authors_address <- function(addresses, ID) {
   # CANADA clean-up ---------------------------------------------------------
 
   a_df$state <- ifelse(a_df$country == "canada" & nchar(a_df$city) == 2,
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
 
   a_df$city <- ifelse(a_df$country == "canada" & nchar(a_df$city) == 2,
-    NA, a_df$city
+    NA,
+    a_df$city
   )
 
   a_df$postal_code <- ifelse(a_df$country == "canada" & grepl("\\b(\\w{3})\\b \\b(\\w{3})\\b", a_df$city2),
-    a_df$city2, a_df$postal_code
+    a_df$city2,
+    a_df$postal_code
   )
   a_df$postal_code <- ifelse(a_df$country == "canada" & grepl("\\b(\\w{3})\\b \\b(\\w{3})\\b", a_df$city2),
-    a_df$city2, a_df$postal_code
+    a_df$city2,
+    a_df$postal_code
   )
 
   a_df$state <- ifelse(a_df$country == "canada" & a_df$city2 == a_df$state,
     NA, a_df$state
   )
 
-  a_df$city <- ifelse(a_df$country == "canada", a_df$city2, a_df$city)
-  a_df$city2 <- ifelse(a_df$country == "canada", NA, a_df$city2)
+  a_df$city <- ifelse(a_df$country == "canada",
+    a_df$city2,
+    a_df$city
+  )
+  a_df$city2 <- ifelse(a_df$country == "canada",
+    NA,
+    a_df$city2
+  )
 
 
   a_df$city <- ifelse(a_df$country == "canada" & grepl("\\b(\\w{3})\\b \\b(\\w{3})\\b", a_df$city),
-    gsub("\\b(\\w{3})\\b \\b(\\w{3})\\b", "", a_df$city),
+    gsub(
+      "\\b(\\w{3})\\b \\b(\\w{3})\\b",
+      "",
+      a_df$city
+    ),
     a_df$city
   )
 
@@ -430,13 +502,25 @@ authors_address <- function(addresses, ID) {
   )
 
   a_df$state <- ifelse(a_df$country == "canada" & grepl("\\b(\\w{3})\\b \\b(\\w{3})\\b", a_df$state),
-    gsub("\\b(\\w{3})\\b \\b(\\w{3})\\b", "", a_df$state),
+    gsub(
+      "\\b(\\w{3})\\b \\b(\\w{3})\\b",
+      "",
+      a_df$state
+    ),
     a_df$state
   )
 
-  a_df$postal_code <- ifelse(a_df$country == "canada" & grepl("\\b(\\w{2,20})\\b \\b(\\w{3})\\b \\b(\\w{3})\\b", a_df$postal_code),
-    gsub("\\b(\\w{1,2}|\\w{4,})\\b", "", a_df$postal_code),
+  a_df$postal_code <- ifelse(a_df$country == "canada" &
+    grepl(
+      "\\b(\\w{2,20})\\b \\b(\\w{3})\\b \\b(\\w{3})\\b",
+      a_df$postal_code
+    ),
+  gsub(
+    "\\b(\\w{1,2}|\\w{4,})\\b",
+    "",
     a_df$postal_code
+  ),
+  a_df$postal_code
   )
 
   a_df[] <- lapply(a_df, trimws)
@@ -444,7 +528,10 @@ authors_address <- function(addresses, ID) {
   # TODO: a few postal codes still have letters from city
 
 
-  a_df$postal_code <- ifelse(a_df$country == "canada", gsub(" ", "", a_df$postal_code), a_df$postal_code)
+  a_df$postal_code <- ifelse(a_df$country == "canada",
+    gsub(" ", "", a_df$postal_code),
+    a_df$postal_code
+  )
 
 
   # UK clean-up -------------------------------------------------------------
@@ -457,13 +544,16 @@ authors_address <- function(addresses, ID) {
   #                            a_df$postal_code)
 
   a_df$postal_code <- ifelse(a_df$country %in% uk & grepl(pattern, a_df$city2),
-    a_df$city2, a_df$postal_code
+    a_df$city2,
+    a_df$postal_code
   )
   a_df$postal_code <- ifelse(a_df$country %in% uk & grepl(pattern, a_df$state),
-    a_df$state, a_df$postal_code
+    a_df$state,
+    a_df$postal_code
   )
   a_df$postal_code <- ifelse(a_df$country %in% uk & grepl(pattern, a_df$city),
-    a_df$city, a_df$postal_code
+    a_df$city,
+    a_df$postal_code
   )
 
   a_df$postal_code <- ifelse(a_df$country %in% uk,
@@ -480,9 +570,18 @@ authors_address <- function(addresses, ID) {
   )
 
 
-  a_df$state <- ifelse(a_df$country == "england", a_df$city, a_df$state)
-  a_df$city <- ifelse(a_df$country == "england", NA, a_df$city)
-  a_df$city <- ifelse(a_df$country == "england", a_df$postal_code, a_df$city)
+  a_df$state <- ifelse(a_df$country == "england",
+    a_df$city,
+    a_df$state
+  )
+  a_df$city <- ifelse(a_df$country == "england",
+    NA,
+    a_df$city
+  )
+  a_df$city <- ifelse(a_df$country == "england",
+    a_df$postal_code,
+    a_df$city
+  )
   a_df$city <- ifelse(a_df$country == "england",
     gsub("\\b\\w*\\d\\w*\\b", "", a_df$city),
     a_df$city
@@ -490,13 +589,41 @@ authors_address <- function(addresses, ID) {
 
   # TODO: england still needs work
 
-  a_df$state <- ifelse(a_df$country == "scotland" | a_df$country == "northern ireland" | a_df$country == "wales", NA, a_df$state)
-  a_df$state <- ifelse(a_df$country == "scotland" | a_df$country == "northern ireland" | a_df$country == "wales" & is.na(a_df$state), a_df$city, a_df$state)
-  a_df$city <- ifelse(a_df$country == "scotland" | a_df$country == "northern ireland" | a_df$country == "wales", a_df$postal_code, a_df$city)
-  a_df$city <- ifelse(a_df$country == "scotland" | a_df$country == "northern ireland" | a_df$country == "wales" & is.na(a_df$city), a_df$city2, a_df$city)
-  a_df$city <- ifelse(a_df$country == "scotland" | a_df$country == "northern ireland" | a_df$country == "wales",
-    gsub("\\b\\w*\\d\\w*\\b", "", a_df$city),
+  a_df$state <- ifelse(a_df$country == "scotland" |
+    a_df$country == "northern ireland" |
+    a_df$country == "wales",
+  NA,
+  a_df$state
+  )
+  a_df$state <- ifelse(a_df$country == "scotland" |
+    a_df$country == "northern ireland" |
+    a_df$country == "wales" &
+      is.na(a_df$state),
+  a_df$city,
+  a_df$state
+  )
+  a_df$city <- ifelse(a_df$country == "scotland" |
+    a_df$country == "northern ireland" |
+    a_df$country == "wales",
+  a_df$postal_code,
+  a_df$city
+  )
+  a_df$city <- ifelse(a_df$country == "scotland" |
+    a_df$country == "northern ireland" |
+    a_df$country == "wales" &
+      is.na(a_df$city),
+  a_df$city2,
+  a_df$city
+  )
+  a_df$city <- ifelse(a_df$country == "scotland" |
+    a_df$country == "northern ireland" |
+    a_df$country == "wales",
+  gsub(
+    "\\b\\w*\\d\\w*\\b",
+    "",
     a_df$city
+  ),
+  a_df$city
   )
 
 
@@ -541,28 +668,35 @@ authors_address <- function(addresses, ID) {
 
 
   a_df$postal_code <- ifelse(a_df$country == "india" & grepl("[0-9]{5,10}", a_df$city2),
-    a_df$city2, a_df$postal_code
+    a_df$city2,
+    a_df$postal_code
   )
   a_df$postal_code <- ifelse(a_df$country == "india" & grepl("[0-9]{5,10}", a_df$city),
-    a_df$city, a_df$postal_code
+    a_df$city,
+    a_df$postal_code
   )
 
 
   a_df$city2 <- ifelse(a_df$country == "india" & a_df$state == a_df$city2,
-    a_df$state, a_df$city2
+    a_df$state,
+    a_df$city2
   )
   a_df$state <- ifelse(a_df$country == "india", NA, a_df$state)
   a_df$state <- ifelse(a_df$country == "india" & is.na(a_df$postal_code),
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
   a_df$city <- ifelse(a_df$country == "india" & a_df$state == a_df$city,
-    NA, a_df$city
+    NA,
+    a_df$city
   )
   a_df$city <- ifelse(a_df$country == "india" & grepl("[0-9]{4,10}", a_df$postal_code),
-    a_df$postal_code, a_df$city
+    a_df$postal_code,
+    a_df$city
   )
   a_df$city <- ifelse(a_df$country == "india" & is.na(a_df$city),
-    a_df$city2, a_df$city
+    a_df$city2,
+    a_df$city
   )
 
 
@@ -575,8 +709,10 @@ authors_address <- function(addresses, ID) {
     a_df$city
   )
 
-  a_df$city <- ifelse(a_df$country == "india" & (grepl("delhi", a_df$city) | grepl("delhi", a_df$state)),
-    "new delhi", a_df$city
+  a_df$city <- ifelse(a_df$country == "india" &
+    (grepl("delhi", a_df$city) | grepl("delhi", a_df$state)),
+  "new delhi",
+  a_df$city
   )
 
 
@@ -586,32 +722,46 @@ authors_address <- function(addresses, ID) {
 
 
 
-  a_df$postal_code <- ifelse(a_df$country == "china" & grepl("[0-9]{5,10}", a_df$city2),
-    a_df$city2, a_df$postal_code
+  a_df$postal_code <- ifelse(a_df$country == "china" &
+    grepl("[0-9]{5,10}", a_df$city2),
+  a_df$city2,
+  a_df$postal_code
   )
-  a_df$postal_code <- ifelse(a_df$country == "china" & grepl("[0-9]{5,10}", a_df$city),
-    a_df$city, a_df$postal_code
+  a_df$postal_code <- ifelse(a_df$country == "china" &
+    grepl("[0-9]{5,10}", a_df$city),
+  a_df$city,
+  a_df$postal_code
   )
-  a_df$postal_code <- ifelse(a_df$country == "china" & grepl("[0-9]{5,10}", a_df$state),
-    a_df$state, a_df$postal_code
+  a_df$postal_code <- ifelse(a_df$country == "china" &
+    grepl("[0-9]{5,10}", a_df$state),
+  a_df$state,
+  a_df$postal_code
   )
 
 
   a_df$city2 <- ifelse(a_df$country == "china" & a_df$state == a_df$city2,
-    a_df$state, a_df$city2
+    a_df$state,
+    a_df$city2
   )
-  a_df$state <- ifelse(a_df$country == "china", NA, a_df$state)
+  a_df$state <- ifelse(a_df$country == "china",
+    NA,
+    a_df$state
+  )
   a_df$state <- ifelse(a_df$country == "china" & is.na(a_df$postal_code),
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
   a_df$city <- ifelse(a_df$country == "china" & a_df$state == a_df$city,
-    NA, a_df$city
+    NA,
+    a_df$city
   )
   a_df$city <- ifelse(a_df$country == "china" & grepl("[0-9]{4,10}", a_df$postal_code),
-    a_df$postal_code, a_df$city
+    a_df$postal_code,
+    a_df$city
   )
   a_df$city <- ifelse(a_df$country == "china" & is.na(a_df$city),
-    a_df$city2, a_df$city
+    a_df$city2,
+    a_df$city
   )
 
 
@@ -627,7 +777,8 @@ authors_address <- function(addresses, ID) {
 
 
   a_df$city <- ifelse(a_df$country == "china" & grepl("beijing", a_df$state),
-    "beijing", a_df$city
+    "beijing",
+    a_df$city
   )
 
 
@@ -644,33 +795,38 @@ authors_address <- function(addresses, ID) {
   pattern <- paste(to_delete, collapse = "|")
   # Apply the ifelse function to update
   a_df$city <- ifelse(a_df$country == "china" &
-                        grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE),
-                      NA, a_df$city)
-   a_df$city<- ifelse(a_df$country=="china" & is.na(a_df$city),
-                      a_df$state, a_df$city)
-  
+    grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE),
+  NA, a_df$city
+  )
+  a_df$city <- ifelse(a_df$country == "china" & is.na(a_df$city),
+    a_df$state, a_df$city
+  )
+
 
 
   a_df[] <- lapply(a_df, trimws)
-  
+
 
 
 
   # This verifies that what is in `city` is actually a city
   # (or at least that what is in `city` is NOT a province)
 
-  chn_states <- c("guangdong", "shandong", "henan", "jiangsu", "sichuan",
-                  "hebei", "hunan", "zhejiang", "anhui", "hubei", "guangxi",
-                  "yunnan", "jiangxi", "liaoning", "fujian", "shaanxi",
-                  "guizhou", "shanxi", "chongqing", "heilongjiang", "xinjiang",
-                  "gansu", "inner mongolia", "jilin", "hainan", "ningxia",
-                  "qinghai", "tibet", "macao")
-    pattern <- paste(to_delete, collapse = "|")
-    a_df$city<- ifelse(a_df$country=="china" &
-                         grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE),
-                       NA, a_df$city)
-    
-  
+  chn_states <- c(
+    "guangdong", "shandong", "henan", "jiangsu", "sichuan",
+    "hebei", "hunan", "zhejiang", "anhui", "hubei", "guangxi",
+    "yunnan", "jiangxi", "liaoning", "fujian", "shaanxi",
+    "guizhou", "shanxi", "chongqing", "heilongjiang", "xinjiang",
+    "gansu", "inner mongolia", "jilin", "hainan", "ningxia",
+    "qinghai", "tibet", "macao"
+  )
+  pattern <- paste(to_delete, collapse = "|")
+  a_df$city <- ifelse(a_df$country == "china" &
+    grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE),
+  NA, a_df$city
+  )
+
+
 
   # pc is letters dash numbers ----------------------------------------------
 
@@ -682,23 +838,26 @@ authors_address <- function(addresses, ID) {
   )
 
   a_df$postal_code <- ifelse(grepl(pattern, a_df$state),
-    a_df$state, a_df$postal_code
+    a_df$state,
+    a_df$postal_code
   )
 
   a_df$state <- ifelse((grepl(pattern, a_df$postal_code) & a_df$city2 == a_df$postal_code),
-    a_df$city, a_df$state
+    a_df$city,
+    a_df$state
   )
 
 
   a_df$city <- ifelse((grepl(pattern, a_df$postal_code) & a_df$city2 == a_df$postal_code),
-    a_df$postal_code, a_df$city
+    a_df$postal_code,
+    a_df$city
   )
 
   a_df$city2 <- ifelse((grepl(pattern, a_df$postal_code) & a_df$city2 == a_df$city),
     NA, a_df$city2
   )
 
-  
+
 
   a_df$city <- ifelse(grepl(pattern, a_df$city),
     gsub("[0-9]", "", a_df$city),
@@ -779,24 +938,6 @@ authors_address <- function(addresses, ID) {
 
   # Final clean-up of some US cities and states -----------------------------
 
-  # Remove panama canal zone from usa states (for stri)
-  a_df$state <- ifelse((a_df$country == "usa" & a_df$state == "cz"),
-    NA, a_df$state
-  )
-
-  # armed forces & diplomatic
-  a_df$state <- ifelse((a_df$country == "usa" & a_df$state == "aa"),
-    NA, a_df$state
-  )
-
-  a_df$city <- ifelse((a_df$country == "usa" & a_df$state == "apo"),
-    NA, a_df$city
-  )
-
-  a_df$city <- ifelse((a_df$country == "usa" & a_df$state == "dpo"),
-    NA, a_df$city
-  )
-
   a_df$city <- ifelse(a_df$city == "university pk",
     "university park",
     a_df$city
@@ -830,13 +971,15 @@ authors_address <- function(addresses, ID) {
 
 
   a_df$city <- ifelse(grepl("sioux ctr", a_df$city),
-    (sub("sioux ctr", "sioux city", a_df$city)), a_df$city
+    (sub("sioux ctr", "sioux city", a_df$city)), 
+    a_df$city
   )
 
 
 
   a_df$city <- ifelse(grepl("sioux ctr", a_df$city),
-    (sub("sioux ctr", "sioux city", a_df$city)), a_df$city
+    (sub("sioux ctr", "sioux city", a_df$city)), 
+    a_df$city
   )
 
 
@@ -975,20 +1118,48 @@ authors_address <- function(addresses, ID) {
   )
   pattern <- paste(us_state_abbreviations_lower, collapse = "|")
   a_df$country_list <- country_list
-  a_df$state <- ifelse((a_df$country == "usa" & is.na(a_df$state) & grepl(pattern, a_df$address, ignore.case = TRUE, perl = TRUE)),
-    a_df$country_list, a_df$state
+  a_df$state <- ifelse((a_df$country == "usa" &
+    is.na(a_df$state) &
+    grepl(pattern, a_df$address, ignore.case = TRUE, perl = TRUE)),
+  a_df$country_list,
+  a_df$state
   )
 
 
   a_df$state <- ifelse((a_df$country == "usa" & grepl("[[:digit:]]", a_df$state)),
-    gsub("[[:digit:]]", "", a_df$state), a_df$state
+    gsub("[[:digit:]]", "", a_df$state),
+    a_df$state
   )
   a_df$state <- ifelse((a_df$country == "usa" & grepl("usa", a_df$state)),
-    gsub("usa", "", a_df$state), a_df$state
+    gsub("usa", "", a_df$state),
+    a_df$state
   )
   a_df$state <- trimws(a_df$state, which = "both")
 
 
+  
+  
+  # Remove panama canal zone from usa states (for stri)
+  a_df$state <- ifelse((a_df$country == "usa" & a_df$state == "cz"),
+                       NA, 
+                       a_df$state
+  )
+  
+  # armed forces & diplomatic
+  a_df$state <- ifelse((a_df$country == "usa" & a_df$state == "aa"),
+                       NA, 
+                       a_df$state
+  )
+  
+  a_df$city <- ifelse((a_df$country == "usa" & a_df$state == "apo"),
+                      NA, 
+                      a_df$city
+  )
+  
+  a_df$city <- ifelse((a_df$country == "usa" & a_df$state == "dpo"),
+                      NA, 
+                      a_df$city
+  )
 
 
   # Japanese prefectures & cities sometimes swapped in address --------------
@@ -1002,13 +1173,17 @@ authors_address <- function(addresses, ID) {
     "assoc", "forest", "corp"
   )
   pattern <- paste(to_delete, collapse = "|")
-  a_df$city2 <- ifelse((a_df$country == "japan" & grepl(pattern, a_df$city2, ignore.case = TRUE, perl = TRUE)),
-    NA, a_df$city2
+  a_df$city2 <- ifelse((a_df$country == "japan" &
+    grepl(pattern, a_df$city2, ignore.case = TRUE, perl = TRUE)),
+  NA,
+  a_df$city2
   )
 
   # Remove any with numbers
-  a_df$city2 <- ifelse((a_df$country == "japan" & grepl("[[:digit:]]", a_df$city2)),
-    NA, a_df$city2
+  a_df$city2 <- ifelse((a_df$country == "japan" &
+    grepl("[[:digit:]]", a_df$city2)),
+  NA,
+  a_df$city2
   )
 
   japan_prefectures <- c(
@@ -1025,21 +1200,29 @@ authors_address <- function(addresses, ID) {
   pattern <- paste(japan_prefectures, collapse = "|")
 
 
-  a_df$state <- ifelse((a_df$country == "japan" & grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE)),
-    a_df$city, a_df$state
+  a_df$state <- ifelse((a_df$country == "japan" &
+    grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE)),
+  a_df$city,
+  a_df$state
   )
 
 
   # This removes all special regions of a city like tokyo from city2
-  a_df$city2 <- ifelse((a_df$country == "japan" & grepl(" ku", a_df$city2, ignore.case = TRUE, perl = TRUE)),
-    NA, a_df$city2
+  a_df$city2 <- ifelse((a_df$country == "japan" &
+    grepl(" ku", a_df$city2,
+      ignore.case = TRUE, perl = TRUE
+    )),
+  NA,
+  a_df$city2
   )
 
   # replace from city with city2 EXCEPT in cases where no state (and therefore
   # city is correct) and where no city2 (otherwise would bring in NA)
 
-  a_df$city <- ifelse((a_df$country == "japan" & !(is.na(a_df$state)) & !(is.na(a_df$city2))),
-    a_df$city2, a_df$city
+  a_df$city <- ifelse((a_df$country == "japan" &
+    !(is.na(a_df$state)) & !(is.na(a_df$city2))),
+  a_df$city2,
+  a_df$city
   )
 
 
@@ -1048,8 +1231,10 @@ authors_address <- function(addresses, ID) {
 
 
 
-  a_df$city <- ifelse((a_df$country == "scotland" & grepl("univ ", a_df$city, ignore.case = TRUE, perl = TRUE)),
-    gsub("univ ", "", a_df$city), a_df$city
+  a_df$city <- ifelse((a_df$country == "scotland" &
+    grepl("univ ", a_df$city, ignore.case = TRUE, perl = TRUE)),
+  gsub("univ ", "", a_df$city),
+  a_df$city
   )
 
   to_delete <- c(
@@ -1058,8 +1243,10 @@ authors_address <- function(addresses, ID) {
   )
 
   pattern <- paste(to_delete, collapse = "|")
-  a_df$city <- ifelse((a_df$country == "scotland" & grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE)),
-    NA, a_df$city
+  a_df$city <- ifelse((a_df$country == "scotland" &
+    grepl(pattern, a_df$city, ignore.case = TRUE, perl = TRUE)),
+  NA,
+  a_df$city
   )
 
 
@@ -1079,18 +1266,23 @@ authors_address <- function(addresses, ID) {
     "ndorms", "nat hist", "hlth", " ave", "council", "unit", "nerc", "nat res"
   )
   pattern <- paste(to_delete, collapse = "|")
-  a_df$city2 <- ifelse((a_df$country == "england" & grepl(pattern, a_df$city2, ignore.case = TRUE, perl = TRUE)),
-    NA, a_df$city2
+
+  a_df$city2 <- ifelse((a_df$country == "england" &
+    grepl(pattern, a_df$city2, ignore.case = TRUE, perl = TRUE)),
+  NA,
+  a_df$city2
   )
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)),
-    a_df$city2, a_df$city
+    a_df$city2,
+    a_df$city
   )
 
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
     grepl("london", a_df$address, ignore.case = TRUE, perl = TRUE),
-  "london", a_df$city
+  "london",
+  a_df$city
   )
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
@@ -1100,7 +1292,8 @@ authors_address <- function(addresses, ID) {
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
     grepl("oxford", a_df$address, ignore.case = TRUE, perl = TRUE),
-  "oxford", a_df$city
+  "oxford",
+  a_df$city
   )
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
@@ -1110,20 +1303,31 @@ authors_address <- function(addresses, ID) {
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
     grepl("bristol", a_df$address, ignore.case = TRUE, perl = TRUE),
-  "bristol", a_df$city
+  "bristol",
+  a_df$city
   )
 
   a_df$city <- ifelse((a_df$country == "england" & is.na(a_df$city)) &
     grepl("lancaster", a_df$address, ignore.case = TRUE, perl = TRUE),
-  "lancaster", a_df$city
+  "lancaster",
+  a_df$city
   )
 
 
 
-  # delete columns used to 2x check  ----------------------------------------
+
+# final clean up to return ------------------------------------------------
+
+  
+  
+  # delete columns used to 2x check
 
   a_df$city2 <- NULL
   a_df$country_list <- NULL
+  
+  # replace blank with NA
+  
+  a_df[a_df == ""] <- NA
 
 
   # return output of function -----------------------------------------------
