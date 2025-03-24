@@ -16,6 +16,7 @@ authors_address <- function(addresses, ID) {
   addresses <- tolower(addresses)
 
   message("\nSplitting addresses.\n")
+  
   list_address <- strsplit(addresses, ",")
 
 
@@ -85,10 +86,14 @@ authors_address <- function(addresses, ID) {
     "syrian arab rep" = "syria"
   )
 
+  message("\nstandardizing country names...\n")
+  
   list_address <- correct_countries(list_address, replacements)
 
   # extract university ------------------------------------------------------
 
+  message("\nextracting the names of institutions...\n")
+  
   university_list <- vapply(list_address, function(x) x[1], character(1))
 
   # extract department ------------------------------------------------------
@@ -112,6 +117,8 @@ authors_address <- function(addresses, ID) {
 
   # Extract City ------------------------------------------------------------
 
+  message("\nextracting cities...\n")
+  
   # If there is only one element, then it can't have both city and country'
   city_list <- vapply(list_address, function(x) {
     n <- length(x)
@@ -134,7 +141,8 @@ authors_address <- function(addresses, ID) {
 
 
   # extract state -----------------------------------------------------------
-
+  message("\nextracting states/provinces...\n")
+  
   # If there is only one element, then it can't have both city and country'
   state_list <- vapply(list_address, function(x) {
     n <- length(x)
@@ -160,6 +168,8 @@ authors_address <- function(addresses, ID) {
 
   # Extract Country ---------------------------------------------------------
 
+  message("\nextracting country...\n")
+  
   country_list <- vapply(
     list_address, function(x) {
       gsub("\\_", "", x[length(x)])
@@ -170,11 +180,16 @@ authors_address <- function(addresses, ID) {
 
   # postal code (pc) list ---------------------------------------------------
 
+  message("\nprocessing postal codes...\n")
+  
   # pc often with city
 
   pc_list <- city_list
 
   # bind all into df --------------------------------------------------------
+  
+  message("\nreview, correction, and clean-up...\n")
+  message("\nPlease be patient - this might take a bit.\n")
 
   a_df <- data.frame(
     adID = ID,
@@ -362,7 +377,8 @@ authors_address <- function(addresses, ID) {
     a_df$city
   )
 
-
+  message("\n(still working on it...)\n")
+  
   # repeat the clean of city
   a_df$city <- ifelse(a_df$country == "brazil",
     gsub("br-", "", a_df$city),
@@ -587,6 +603,8 @@ authors_address <- function(addresses, ID) {
     a_df$city
   )
 
+  message("\n(getting closer...)\n")
+  
   # TODO: england still needs work
 
   a_df$state <- ifelse(a_df$country == "scotland" |
@@ -807,7 +825,7 @@ authors_address <- function(addresses, ID) {
   a_df[] <- lapply(a_df, trimws)
 
 
-
+  message("\n(not much longer...)\n")
 
   # This verifies that what is in `city` is actually a city
   # (or at least that what is in `city` is NOT a province)
@@ -985,6 +1003,8 @@ authors_address <- function(addresses, ID) {
 
   # Final clean-up of some Brazil cities and states -------------------------
 
+  message("\n(almost done...)\n")
+  
   a_df$city <- ifelse(a_df$country=="brazil" & grepl("seropedica", a_df$city),
                       "seropedica", 
                       a_df$city
@@ -1110,7 +1130,7 @@ authors_address <- function(addresses, ID) {
 
   # still some us states not extracting properly but fixed here -------------
 
-
+  message("\n(so close...the end is in sight!)\n")
 
   us_state_abbreviations_lower <- c(
     "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga",
@@ -1256,7 +1276,9 @@ authors_address <- function(addresses, ID) {
 
   # fine-tuning ENGLAND -----------------------------------------------------
 
-
+  message("\n(this is it - the last step!)\n")
+  
+  
   to_delete <- c(
     "&", "inst", "ctr", "med", "chem", "lab", "biol",
     "dept", "div", "univ", "hosp", "coll", "sci", "rd",
