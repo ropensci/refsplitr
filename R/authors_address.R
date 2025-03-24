@@ -15,7 +15,7 @@
 authors_address <- function(addresses, ID) {
   addresses <- tolower(addresses)
 
-  message("\nSplitting addresses\n")
+  message("\nSplitting addresses.\n")
   list_address <- strsplit(addresses, ",")
 
 
@@ -985,9 +985,12 @@ authors_address <- function(addresses, ID) {
 
   # Final clean-up of some Brazil cities and states -------------------------
 
+  a_df$city <- ifelse(a_df$country=="brazil" & grepl("seropedica", a_df$city),
+                      "seropedica", 
+                      a_df$city
+  )
 
-
-  a_df$city <- ifelse(a_df$city == "gavea rio de janeiro",
+  a_df$city <- ifelse(a_df$country == "brazil" & a_df$city == "gavea rio de janeiro",
     "rio de janeiro",
     a_df$city
   )

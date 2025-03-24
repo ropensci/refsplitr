@@ -23,7 +23,8 @@
 #'
 #' @examples
 #' \dontrun{
-#' BITR_georef_df <- authors_georef(BITR_refined, address_column = "address")
+#' BITR_georef_df <- authors_georef(BITR_refined, address_column = "address",
+#' google_api=FALSE)
 #' }
 #' @export authors_georef
 #'
@@ -223,6 +224,9 @@ authors_georef <- function(
     on.exit(options(ggmap = list(display_api_key = TRUE)))
     return(outputlist)
   } else {
+    
+    requireNamespace(package = "tidygeocoder", quietly = TRUE)
+    
     pt1 <- ("You are Geocoding with OpenStreetMap.\n")
     pt2 <- ("This proceeds at a rate of 1 address/second.\n")
     pt3 <- ("For large data sets: OSM requests that you consider downloading\n")
@@ -309,7 +313,7 @@ authors_georef <- function(
 
     # to_georef_df <- na.omit(to_georef_df)
     
-    message(paste("Number of addresses being geocoded: ", 
+    message(paste("Number of locations being geocoded: ", 
                   nrow(to_georef_df), sep = ""))
     
     
