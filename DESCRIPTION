@@ -64,7 +64,7 @@ VignetteBuilder:
 Remotes: 
     dkahle/ggmap
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
 X-schema.org-keywords: 
     name disambiguation, 
     bibliometrics, 

@@ -223,7 +223,9 @@ authors_georef <- function(
     # reset ggmaps option to TRUE. This only until the ggmaps gets fixed
     on.exit(options(ggmap = list(display_api_key = TRUE)))
     return(outputlist)
-  } else {
+  } 
+  
+  if (google_api != TRUE) {
     
     requireNamespace(package = "tidygeocoder", quietly = TRUE)
     
