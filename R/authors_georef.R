@@ -33,11 +33,13 @@ authors_georef <- function(
     google_api = FALSE) {
   if (google_api == TRUE) {
     pt1 <- ("Attention: You have chosen to geocode with the GOOGLE API.\n")
-    pt2 <- ("This is NOT a free service.\n")
-    pt3 <- ("Please refer to Google's current billing rates & usage limits.\n")
-
-    message(paste(pt1, pt2, pt3, sep = ""))
-    rm(pt1, pt2, pt3)
+    pt2 <- ("The number of free API calls in one month is limited.\n")
+    pt3 <- ("If the number of addresses being georeferenced exceeds \n")
+    pt4 <- ("this limit, Google WILL bill you for the difference.\n")
+    pt5 <- ("Please refer to Google's current billing rates & usage limits.\n")
+    
+    message(paste(pt1, pt2, pt3, pt4, pt5, sep = ""))
+    rm(pt1, pt2, pt3, pt4, pt5)
 
 
     options(ggmap = list(display_api_key = FALSE))
@@ -306,6 +308,11 @@ authors_georef <- function(
     colnames(to_georef_df) <- c("addr")
 
     # to_georef_df <- na.omit(to_georef_df)
+    
+    message(paste("Number of addresses being geocoded: ", 
+                  nrow(to_georef_df), sep = ""))
+    
+    
 
     to_georef_df <- to_georef_df |> tidygeocoder::geocode(addr,
       method = "osm",

@@ -255,21 +255,25 @@ example_a_refined_mod <- authors_refine(example_a_corrected,
 
 ### 2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two arguments:  
+Users can georeference author institutions (latitude & longitude) using the `authors_georef()` function. This function has has three arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object. 
 
 - **address_column**: A quoted character identifying the column name in which addresses are stored. This defaults to the `address` column from the `authors_refine()` output. 
 
-The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. 
+- **google_api**: If `FALSE` the addresses will be referenced with the [`tidygeocoder`](https://jessecambon.github.io/tidygeocoder/) package (free). If `TRUE` addresses will be georeferenced with the [Data Science Toolkit](http://www.datasciencetoolkit.org/), which uses the Google Maps API (paid after a threshold number of free queries). This defaults to `FALSE`. See **WARNINGS** below for additional details on pricing and howe to register for a Google Maps API key.     
+
+The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. The time required to georeference depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
 
 #### **WARNINGS**: 
 
 (1)  The `authors_georef()` function requires address be data type = character. If importing a .csv file with the results of `authors_refine()` for processing with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
 
-(2) The `authors_georef()` function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [Data Science Toolkit](http://www.datasciencetoolkit.org/). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
+(2) The `authors_georef()` function parses addresses from the Web of Science reference sheet and then uses one of two services to query the latitude and longitude of each address. The default option is the free [Nominatim](https://nominatim.org/) service, which uses OpenStreetMap (OSM) data and which `refsplitr` queries via the [`tidygeocoder`]((https://jessecambon.github.io/tidygeocoder/) package. Alternatively, users may elect to geocode via the [Data Science Toolkit](http://www.datasciencetoolkit.org/), which uses the Google maps API. This service allows a limited number of free queries (currently 10,000 per month) before charging users. _Many bibliometric projects will exceed this limit_. Please be sure to check the Google Maps [pricing information](https://mapsplatform.google.com/pricing/?utm_experiment=13102311) see if your research will do so and how much you will be billed for queries over this amount. You may be able to get free additional credits if you are based at a nonprofit; Google also offers faculty free credits via their teaching program. Additional information can be found [here](https://developers.google.com/maps/billing-and-pricing/public-programs?hl=en&_gl=1*1cwzikc*_ga*MTAxMzA3OTgzMy4xNzQyNjY5MzU4*_ga_NRWSTWS78N*MTc0MjgyOTEzNS4yLjEuMTc0MjgyOTI4Mi4wLjAuMA).
 
-(3) This version of `refsplitr` (v1.0) has difficulty differentiating between some geographically distinct installations of the same institution (e.g. the Mississippi State University Main Campus in Starkville vs the Mississippi State University Coastal Research and Extension located 250 miles away in Biloxi). 
+(3) To use the Google Maps option you will need a Google Maps API key. Details on how to register for one are available on the [`ggmap`](https://github.com/dkahle/ggmap?tab=readme-ov-file#google-maps-api-key) repository. 
+
+(4) Georeferencing with the Google Maps API is slightly more powerful - while `refsplitr`'s OSM queries use city and country (also state if in the USA) to georeference, the Google Maps queries can include the name of the institution. This is useful if the city is not included in an author's address, but it can also result in the same lat-long being returned for geographically distinct facilities of the same institution (e.g. the Mississippi State University Main Campus (in Starkville) and the Mississippi State University Coastal Research and Extension (in Biloxi)).
 
 #### Example
 
@@ -279,7 +283,8 @@ a. to georeference author institutions:
 ```r
 
 example_georef <-authors_georef(data=example_a_refined,
-                                address_column = "address")
+                                address_column = "address",
+                                google_api = FALSE)
 ```
 
 Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
@@ -514,7 +519,7 @@ Table: Definition of column headings in the output of read_references()^1^. Most
 |refID          |a unique identifier for each article in the dataset assigned by refnet |
 
 
-^1^the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
+^1^the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, J9, LA, PA, PI, PN, PS, RID, SU, VR, OA.
 
 ^2^Includes citations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 

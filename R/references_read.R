@@ -13,7 +13,7 @@
 #' @param include_all if FALSE only a subset of commonly used fields from references records are imported.
 #' If TRUE then all fields from the reference records are imported. Defaults to FALSE.
 #' The additional data fields included if `include_all=TRUE`: CC, CH, CL, CT, CY, FX, GA, J9,
-#' LA, PA, PI, PN, PS, RID, SU, VR.
+#' LA, PA, PI, PN, PS, RID, SU, VR, OA.
 #' @export references_read
 #'
 #' @examples
