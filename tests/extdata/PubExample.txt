@@ -1,4 +1,4 @@
-﻿FN Thomson Reuters Web of Science™
+FN Thomson Reuters Web of Science™
 VR 1.0
 PT J
 AU Sobrinho, MS
