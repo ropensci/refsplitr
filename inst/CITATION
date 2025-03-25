@@ -5,13 +5,13 @@ citEntry(
   title    = "refsplitr: Author name disambiguation, author georeferencing, 
   and mapping of coauthorship networks with Web of Science data.",
   author   = "Auriel M.V. Fournier and Matthew E. Boone and Forrest R. Stevens and Emilio M. Bruna",
-  note     = "R package version 1.0.0.",
-  year     = "2020",
+  note     = "R package version 1.2.0.",
+  year     = "2025",
   url      = "https://github.com/ropensci/refsplitr",
   textVersion = paste("Fournier, Auriel M.V., Matthew E. Boone, ",
-      "Forrest R. Stevens, and Emilio M. Bruna (2020).",
+      "Forrest R. Stevens, and Emilio M. Bruna (2025).",
       "refsplitr: Author name disambiguation, author georeferencing, and ",
       "mapping of coauthorship networks with Web of Science data.",
-      "version 1.0.0. https://github.com/ropensci/refsplitr")
+      "version 1.2.0. https://github.com/ropensci/refsplitr")
       )
 
