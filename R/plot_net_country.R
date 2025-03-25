@@ -96,9 +96,6 @@ plot_net_country <- function(data,
     .default = as.character(country)
   ))
   
-  # are there any without lat/lon but WITH country?
-  # data %>% filter(is.na(lat)==TRUE) %>% distinct(country)
-  
   
     ## 	we could use a sparse matrix representation:
   linkages <- Matrix::spMatrix(
