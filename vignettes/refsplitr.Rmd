@@ -1,7 +1,7 @@
 ---
 title: "refsplitr"
 author: "Auriel M. V. Fournier, Matthew E. Boone, Forrest R. Stevens, Emilio M. Bruna"
-date: "2022-02-04"
+date: "2025-03-24"
 output: 
   rmarkdown::html_vignette:
     fig_width: 6
@@ -43,7 +43,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **dir**: when loading a single file dir=FALSE, when loading multiple files dir=TRUE. If multiple files are processed `refsplitr` will identify and remove any duplicate reference records.
 
-- **include_all**: Setting 'include_all=TRUE' will import all fields from the WOS record (see Appendix 2). The defailt is 'include_all=FALSE'.
+- **include_all**: Setting 'include_all=TRUE' will import all fields from the WOS record (see Appendix 2). The default is 'include_all=FALSE'.
 
 The output of `references_read()` is an object in the R workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
 
@@ -52,8 +52,8 @@ The output of `references_read()` is an object in the R workspace. Each line of 
 
 a. To import and process a single file, set dir=FALSE and set data equal to the file path. For example, if the file "example_data.txt" were saved in the "data" folder of the RStudio project, you would import and process the data file as follows: 
 
- 
-```r
+
+``` r
 example_refs <- references_read(data = "./data/example_data.txt", 
                                 dir=FALSE,
                                 include_all = FALSE)
@@ -63,7 +63,7 @@ example_refs <- references_read(data = "./data/example_data.txt",
 b. To import and process multiple files, set "dir = TRUE" and use "data=" to indicate the folder containing the files. For instance, if the files were saved in a folder called "UF_data" inside the "data" folder of the RStudio project, they would be imported and processed as follows:  
 
 
-```r
+``` r
 example_refs <- references_read(data = "./data/UF_data", 
                                 dir=TRUE,
                                 include_all = FALSE)
@@ -73,7 +73,7 @@ example_refs <- references_read(data = "./data/UF_data",
 c. The sample data used in the examples below can be loaded and processed as follows:
 
 
-```r
+``` r
 example_refs <- references_read(data = system.file("extdata",package = "refsplitr"),
                                 dir = TRUE,
                                 include_all = FALSE)
@@ -82,11 +82,14 @@ example_refs <- references_read(data = system.file("extdata",package = "refsplit
 d. The processed references can then be saved as a .csv file in the "output" folder of the RStudio project: 
 
 
-```r
+``` r
 write.csv(example_refs,"./output/example_refs.csv")
 ```
 
-<img src="images/references_read.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="500px" />
+<div class="figure">
+<img src="images/references_read.png" alt="plot of chunk unnamed-chunk-5" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-5</p>
+</div>
 <!-- ![](images/references_read.png) -->
 
 **Figure 1** An image of the .csv file showing a subset of the rows and columns from the output of `references_read()`. 
@@ -106,19 +109,22 @@ Once disambiguation is complete, users can accept `refsplitr`'s preliminary resu
 a. To disambiguate the authors of the references in the dataset: 
 
 
-```r
+``` r
 example_a_clean <- authors_clean(example_refs)
 ```
 
 b. To save the resulting list elements -- 'prelim' and 'review' --  in the "output" folder of the RStudio project as .csv files:
 
 
-```r
+``` r
 write.csv(example_a_clean$prelim,"./output/example_a_clean_prelim.csv")
 write.csv(example_a_clean$review,"./output/example_a_clean_review.csv")
 ```
 
-<img src="images/authors_clean_prelim.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="500px" />
+<div class="figure">
+<img src="images/authors_clean_prelim.png" alt="plot of chunk unnamed-chunk-8" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-8</p>
+</div>
 
 **Figure 2** A subset of the .csv file showing the rows and columns in the 'prelim' output from `authors_clean()`.
 
@@ -138,18 +144,18 @@ The output of `authors_refine()` is an object in the R workspace. We recommend s
 
 #### Example
 
-a. To accept the results of author disambiguation _**without**_ manual review (with **_default_** values for `sim_score` and `confidence`): 
+a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
 
 
-```r
+``` r
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation _**without**_ manual review (with **_user-modified_** values for `sim_score` and `confidence`): 
+b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
 
 
-```r
+``` r
 example_a_refined_mod <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim, 
                                     sim_score = 0.70, 
@@ -159,7 +165,7 @@ example_a_refined_mod <- authors_refine(example_a_clean$review,
 c. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder of the RStudio Project:  
 
 
-```r
+``` r
 write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
@@ -173,31 +179,43 @@ There are two kinds of potential disambiguation errors. First, diffent authors c
 
 These corrections are uploaded using the ```authors_refine()``` function, which then generates the 'refined' dataset used in analyses (see Section 2.2.3).
 
-**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. **We strongly recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```**. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
+**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these errors becomes increasingly challenging as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. **We strongly recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```**. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
 
 #### Example
 
-Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
+Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assigned a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
-<img src="images/review_file.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="500px" />
+<div class="figure">
+<img src="images/review_file.png" alt="plot of chunk unnamed-chunk-12" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-12</p>
+</div>
 
 **Figure 3:** First rows and columns from the review element of `authors_clean()`
 
 A review of this output indicates that `refsplitr` assigned three authors sharing the last name "Bailey" and first initial "J" to groupID number 982: John Bailey (authorID 2240), JW Bailey (authorID 982), and J Bailey (authorID 1231; Figure 4). However, we know that J Bailey at Moon University is a distinct individual that should not be in the same group as the other two. Their incorrect groupID number (982) should be replaced with their authorID number (1231).   
 
-<img src="images/grouped_should_not_be.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="500px" />
+<div class="figure">
+<img src="images/grouped_should_not_be.png" alt="plot of chunk unnamed-chunk-13" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-13</p>
+</div>
 
 **Figure 4:** review element of `authors_clean()` highlighting three authors sharing the same last and assigned the same groupID. 
 
 Further review reveals that there are two putative authors named LW Wise -- one at U of Middle Earth (groupID 89) and one at U of the Shire (groupID 90; Figure 5). However, an online search reveals that this is actually the same author, who recently moved from one university to the other. The groupID for all of these records should therefore be changed to "89".
 
-<img src="images/not_grouped_should_be.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" width="500px" />
+<div class="figure">
+<img src="images/not_grouped_should_be.png" alt="plot of chunk unnamed-chunk-14" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-14</p>
+</div>
 
 **Figure 5:** review element of `authors_clean()` highlighting the same author incorrectly assigned to different groupID numbers. 
 
 Once these corrections have been made (Figure 6) and saved, the changes can be incorporated using the ```authors_refine()``` function (see Section 2.2.3).
 
-<img src="images/corrected_review.png" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" width="500px" />
+<div class="figure">
+<img src="images/corrected_review.png" alt="plot of chunk unnamed-chunk-15" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-15</p>
+</div>
 
 **Figure 6:** Corrected version of the 'review' element from `authors_clean()`.
 
@@ -220,14 +238,14 @@ The output of `authors_refine()` is an object in the R workspace, which can be s
 a. To merge the changes made to the disambiguations, first load the .csv file with the corrections: 
 
 
-```r
+``` r
 example_a_corrected <- read.csv("correctedfile.csv")
 ```
 
 The changes are then merged into the preliminary disambiguation: 
 
 
-```r
+``` r
 example_a_refined <-authors_refine(example_a_corrected, 
                                 example_a_clean$prelim)
 ```
@@ -235,18 +253,21 @@ example_a_refined <-authors_refine(example_a_corrected,
 b. to save the final disambiguated (i.e., 'refined') dataset to the "output" folder of the RStudio project:  
 
 
-```r
+``` r
 write.csv(example_a_refined,"./output/example_a_refined.csv")
 ```
 
-<img src="images/AuthorMatch.PNG" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" width="500px" />
+<div class="figure">
+<img src="images/AuthorMatch.PNG" alt="plot of chunk unnamed-chunk-19" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-19</p>
+</div>
   
 **Figure 7:** `authors_refine()` output.   
 
 c. User-selected values for `sim_score` and `confidence` can be used to merge the changes made to the "review" file by adding the two relevant arguments to the `authors_refine()` function:
 
 
-```r
+``` r
 example_a_refined_mod <- authors_refine(example_a_corrected,
                                    example_a_clean$prelim,
                                     sim_score = 0.70,
@@ -255,34 +276,30 @@ example_a_refined_mod <- authors_refine(example_a_corrected,
 
 ### 2.3. Georeferencing author institutions 
 
-Users can georeference author institutions (latitude & longitude) using the `authors_georef()` function. This function has has three arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has three arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object. 
 
 - **address_column**: A quoted character identifying the column name in which addresses are stored. This defaults to the `address` column from the `authors_refine()` output. 
 
-- **google_api**: If `FALSE` the addresses will be referenced with the [`tidygeocoder`](https://jessecambon.github.io/tidygeocoder/) package (free). If `TRUE` addresses will be georeferenced with the [Data Science Toolkit](http://www.datasciencetoolkit.org/), which uses the Google Maps API (paid after a threshold number of free queries). This defaults to `FALSE`. See **WARNINGS** below for additional details on pricing and howe to register for a Google Maps API key.     
+- ***google_api***: Defaults to `FALSE`. If `TRUE` georeferencing will be conducted with [`ggmap`](https://github.com/dkahle/ggmap) and the Google Maps API (paid service). If `FALSE` geocoding will be conducted with the [`tidygeocoder`](https://jessecambon.github.io/tidygeocoder/) package, which uses the Nominatum service to access [OpenStreetMap data](https://nominatim.org/). Note that when georeferencing large data sets, OSM requests users consider [downloading and installing the complete database](https://nominatim.org/release-docs/latest/admin/Installation/) to query locally instead of using the API. 
 
-The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. The time required to georeference depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
+The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. 
 
 #### **WARNINGS**: 
 
-(1)  The `authors_georef()` function requires address be data type = character. If importing a .csv file with the results of `authors_refine()` for processing with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.  
+(1)  The `authors_georef()` function requires address be data type = character. If importing a .csv file with the results of `authors_refine()` for processing with `authors_georef()`, be sure to include "stringsAsFactors = FALSE" in the `read.csv` command.
 
-(2) The `authors_georef()` function parses addresses from the Web of Science reference sheet and then uses one of two services to query the latitude and longitude of each address. The default option is the free [Nominatim](https://nominatim.org/) service, which uses OpenStreetMap (OSM) data and which `refsplitr` queries via the [`tidygeocoder`]((https://jessecambon.github.io/tidygeocoder/) package. Alternatively, users may elect to geocode via the [Data Science Toolkit](http://www.datasciencetoolkit.org/), which uses the Google maps API. This service allows a limited number of free queries (currently 10,000 per month) before charging users. _Many bibliometric projects will exceed this limit_. Please be sure to check the Google Maps [pricing information](https://mapsplatform.google.com/pricing/?utm_experiment=13102311) see if your research will do so and how much you will be billed for queries over this amount. You may be able to get free additional credits if you are based at a nonprofit; Google also offers faculty free credits via their teaching program. Additional information can be found [here](https://developers.google.com/maps/billing-and-pricing/public-programs?hl=en&_gl=1*1cwzikc*_ga*MTAxMzA3OTgzMy4xNzQyNjY5MzU4*_ga_NRWSTWS78N*MTc0MjgyOTEzNS4yLjEuMTc0MjgyOTI4Mi4wLjAuMA).  
+(2) The `authors_georef()` function parses addresses from the Web of Science reference sheet and then attempts to calculate the latitude and longitude for them with the [Data Science Toolkit](http://www.datasciencetoolkit.org/). The time required to do so depends on the number of addresses being processed, the speed of the internet connection, and the processing power of the computer on which analyses are being conducted. 
 
-(3) Georeferencing using OSM proceeds at a rate of 1 address/second. For large data sets, OSM requests that you consider downloading the complete database to query locally instead of using the API; in addition to reducing demand on their servers this also has the advantage of being much faster. Instructions on how to do so can be found [here](https://nominatim.org/).  
-
-(4) To use the Google Maps option you will need a Google Maps API key. Details on how to register for one are available on the [`ggmap`](https://github.com/dkahle/ggmap?tab=readme-ov-file#google-maps-api-key) repository.   
-
-(5) Georeferencing with the Google Maps API is slightly more powerful - while `refsplitr`'s OSM queries use city and country (also state if in the USA) to georeference, the Google Maps queries can include the name of the institution. This is useful if the city is not included in an author's address, but it can also result in the same lat-long being returned for geographically distinct facilities of the same institution (e.g. the Mississippi State University Main Campus (in Starkville) and the Mississippi State University Coastal Research and Extension (in Biloxi)).  
+(3) This version of `refsplitr` (v1.0) has difficulty differentiating between some geographically distinct installations of the same institution (e.g. the Mississippi State University Main Campus in Starkville vs the Mississippi State University Coastal Research and Extension located 250 miles away in Biloxi). 
 
 #### Example
 
 a. to georeference author institutions:
 
 
-```r
+``` r
 
 example_georef <-authors_georef(data=example_a_refined,
                                 address_column = "address",
@@ -292,12 +309,41 @@ example_georef <-authors_georef(data=example_a_refined,
 Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
 
 
-```r
+``` r
 
-example_georef <-suppressMessages(authors_georef(data=example_a_refined,
-                                                 address_column = "address"))
+example_georef <-suppressMessages(authors_georef(
+  data=example_a_refined,
+  address_column="address",
+  google_api = FALSE))
+#> Error in curl::curl_fetch_memory(url, handle = handle): Failed initialization [nominatim.openstreetmap.org]
+```
+
+
+#### Registering with Google for an API key (NB: this is a paid service)
+
+1.  Install and load the `ggmap` package
+
+
+``` r
+
+install.packages("ggmap")
+library(ggmap)
 
 ```
+
+2.  Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.
+
+3.  Once you have your API key, add it to your `~/.Renviron` with the following:
+
+
+``` r
+`ggmap::register_google(key = "[your key]", write = TRUE)`
+```
+
+4. You should now be able to use `authors_georef()` as described in the vignette. **WARNING:** `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
+
+***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
+
 
 ### 2.4. Data Visualization: Productivity and Collaboration 
 
@@ -305,7 +351,7 @@ example_georef <-suppressMessages(authors_georef(data=example_a_refined,
  
 #### 2.4.1. Visualization 1: Authors per country.
 
-The `plot_addresses_country()` makes a map whose shading of each country indicates the number of papers in the daraset written by authors based there. Note that there is no fractional authorship, e.g., if a paper is written by a team of authors based in the USA, Brazil, and Belgium, then that publication will count as one paper towards the total for each of these countries.
+The `plot_addresses_country()` makes a map whose shading of each country indicates the number of papers in the data set written by authors based there. Note that there is no fractional authorship, e.g., if a paper is written by a team of authors based in the USA, Brazil, and Belgium, then that publication will count as one paper towards the total for each of these countries.
 
 The function has two arguments:  
 
@@ -320,8 +366,9 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 a. Author records plotted on a world map
 
 
-```r
+``` r
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
+#> Error: object 'example_georef' not found
 ```
 
 **Figure 8:** Plot of the countries in which the authors in the dataset are based, with shading to indicate the number of authors based in each of country. 
@@ -343,9 +390,48 @@ The output of `authors_georef()` is a ggplot object.
 a. Mapped location of author institutions (global).
 
 
-```r
+``` r
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
+#> Error: object 'example_georef' not found
 plot_addresses_points
+#> function (data, mapCountry = NULL) 
+#> {
+#>     world <- ggplot2::map_data("world")
+#>     world <- world[world$region != "Antarctica", ]
+#>     if (!is.null(mapCountry)) {
+#>         world <- world[which(world$region == mapCountry), ]
+#>         if (mapCountry %in% c("UK")) 
+#>             mapCountry <- c("england", "wales")
+#>         data <- data[data$country %in% tolower(mapCountry), ]
+#>     }
+#>     points <- data.frame(lat = as.numeric(as.character(data$lat)), 
+#>         lon = as.numeric(as.character(data$lon)))
+#>     points <- points[!is.na(points$lat), ]
+#>     points <- points[!is.na(points$lon), ]
+#>     latmin <- min(world$lat) - 2
+#>     latmax <- max(world$lat) + 2
+#>     longmin <- min(world$long) - 2
+#>     longmax <- max(world$long) + 2
+#>     if (!is.null(mapCountry) && mapCountry == "USA") {
+#>         longmax <- max(world$long[world$long < 0]) + 2
+#>     }
+#>     if (longmin < -180) 
+#>         longmin <- -180
+#>     if (longmax > 180) 
+#>         longmax <- 180
+#>     lon <- ggplot2::quo(lon)
+#>     lat <- ggplot2::quo(lat)
+#>     region <- ggplot2::quo(region)
+#>     ggplot2::ggplot() + ggplot2::geom_map(data = world, map = world, 
+#>         ggplot2::aes(map_id = region), color = "gray", fill = "#7f7f7f", 
+#>         linewidth = 0.05, alpha = 1/4) + ggplot2::geom_point(data = points, 
+#>         ggplot2::aes(x = !!lon, y = !!lat)) + ggplot2::coord_map(ylim = c(latmin, 
+#>         latmax), xlim = c(longmin, longmax)) + ggplot2::ylab("latitude") + 
+#>         ggplot2::xlab("longitude") + ggplot2::theme_bw() + ggplot2::theme(panel.grid.major = ggplot2::element_blank(), 
+#>         panel.grid.minor = ggplot2::element_blank(), axis.ticks = ggplot2::element_blank())
+#> }
+#> <bytecode: 0x7f7cca0cd040>
+#> <environment: namespace:refsplitr>
 ```
 
 b. Mapped location of author institutions (national).
@@ -355,10 +441,49 @@ b. Mapped location of author institutions (national).
 **Figure 9:** Figure indicating the georefeenced locations of all authors in the dataset
 
 
-```r
+``` r
 plot_addresses_points <- plot_addresses_points(example_georef$addresses, 
                                                mapCountry = "Brazil")
+#> Error: object 'example_georef' not found
 plot_addresses_points
+#> function (data, mapCountry = NULL) 
+#> {
+#>     world <- ggplot2::map_data("world")
+#>     world <- world[world$region != "Antarctica", ]
+#>     if (!is.null(mapCountry)) {
+#>         world <- world[which(world$region == mapCountry), ]
+#>         if (mapCountry %in% c("UK")) 
+#>             mapCountry <- c("england", "wales")
+#>         data <- data[data$country %in% tolower(mapCountry), ]
+#>     }
+#>     points <- data.frame(lat = as.numeric(as.character(data$lat)), 
+#>         lon = as.numeric(as.character(data$lon)))
+#>     points <- points[!is.na(points$lat), ]
+#>     points <- points[!is.na(points$lon), ]
+#>     latmin <- min(world$lat) - 2
+#>     latmax <- max(world$lat) + 2
+#>     longmin <- min(world$long) - 2
+#>     longmax <- max(world$long) + 2
+#>     if (!is.null(mapCountry) && mapCountry == "USA") {
+#>         longmax <- max(world$long[world$long < 0]) + 2
+#>     }
+#>     if (longmin < -180) 
+#>         longmin <- -180
+#>     if (longmax > 180) 
+#>         longmax <- 180
+#>     lon <- ggplot2::quo(lon)
+#>     lat <- ggplot2::quo(lat)
+#>     region <- ggplot2::quo(region)
+#>     ggplot2::ggplot() + ggplot2::geom_map(data = world, map = world, 
+#>         ggplot2::aes(map_id = region), color = "gray", fill = "#7f7f7f", 
+#>         linewidth = 0.05, alpha = 1/4) + ggplot2::geom_point(data = points, 
+#>         ggplot2::aes(x = !!lon, y = !!lat)) + ggplot2::coord_map(ylim = c(latmin, 
+#>         latmax), xlim = c(longmin, longmax)) + ggplot2::ylab("latitude") + 
+#>         ggplot2::xlab("longitude") + ggplot2::theme_bw() + ggplot2::theme(panel.grid.major = ggplot2::element_blank(), 
+#>         panel.grid.minor = ggplot2::element_blank(), axis.ticks = ggplot2::element_blank())
+#> }
+#> <bytecode: 0x7f7cca0cd040>
+#> <environment: namespace:refsplitr>
 ```
 
 **Figure 10:** Figure indicating the georefeenced locations of authors in the dataset with institutional addresses in Brazil. 
@@ -377,9 +502,38 @@ This function has one output, a plot, built in `igraph`.
 a. Coauthorship networked based on the country in which coauthors are based.
 
 
-```r
+``` r
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
+#> Error: object 'example_georef' not found
 plot_net_coauthor
+#> function (data) 
+#> {
+#>     data <- data[!is.na(data$country), ]
+#>     linkages <- as.matrix(Matrix::sparseMatrix(dims = c(length(unique(data$country)), 
+#>         length(unique(data$UT))), i = as.numeric(factor(data$country)), 
+#>         j = as.numeric(factor(data$UT)), x = rep(1, length(data$country))))
+#>     links <- matrix(data = linkages, nrow = length(unique(data$country)), 
+#>         ncol = length(unique(data$UT)))
+#>     row.names(links) <- levels(factor(data$country))
+#>     colnames(links) <- levels(factor(data$UT))
+#>     linkages_countries <- links %*% base::t(links)
+#>     linkages_countries_net <- igraph::graph_from_adjacency_matrix(linkages_countries, 
+#>         mode = "undirected", weighted = TRUE)
+#>     igraph::V(linkages_countries_net)$label <- igraph::V(linkages_countries_net)$name
+#>     igraph::V(linkages_countries_net)$label.color <- grDevices::rgb(0, 
+#>         0, 0.2, 0.5)
+#>     igraph::V(linkages_countries_net)$label.cex <- 0.5
+#>     igraph::V(linkages_countries_net)$size <- 12
+#>     igraph::V(linkages_countries_net)$frame.color <- NA
+#>     igraph::V(linkages_countries_net)$color <- grDevices::rgb(0, 
+#>         0.6, 0, 0.7)
+#>     linkages_countries_net <- igraph::simplify(linkages_countries_net)
+#>     co <- igraph::layout_with_fr(linkages_countries_net)
+#>     graphics::plot(linkages_countries_net, layout = co)
+#>     return(linkages_countries_net)
+#> }
+#> <bytecode: 0x7f7ccbb18e48>
+#> <environment: namespace:refsplitr>
 ```
 
 **Figure 11:** Plot of the coauthorship network for authors of articles in the dataset. 
@@ -410,9 +564,11 @@ The output of `plot_net_country()` is a list in the R workspace. The `$plot` ele
 a. Mapped coauthorship network based on the countries in which authors are based.
 
 
-```r
+``` r
 plot_net_country <- plot_net_country(example_georef$addresses)
+#> Error: object 'example_georef' not found
 plot_net_country$plot
+#> Error in plot_net_country$plot: object of type 'closure' is not subsettable
 ```
 
 **Figure 12:** Map showing the coauthorship connections between countries. 
@@ -441,9 +597,11 @@ The output of `plot_net_address()` is a list in the R workspace. The `$plot` ele
 a. Coauthorship network based on the geographic locations of coauthor institutions.
 
 
-```r
+``` r
 plot_net_address <- plot_net_address(example_georef$addresses)
+#> Error: object 'example_georef' not found
 plot_net_address$plot
+#> Error in plot_net_address$plot: object of type 'closure' is not subsettable
 ```
 
 **Figure 13:** Plot showing the network between individual author locations.
@@ -475,11 +633,18 @@ Westgate, M. J. (2018). revtools: bibliographic data visualization for evidence 
 
 ## **Appendix 1:** Guide to downloading reference records from the Web of Science.
 
-<img src="images/app1-1.png" title="plot of chunk unnamed-chunk-30" alt="plot of chunk unnamed-chunk-30" width="250px" /><img src="images/app1-2.png" title="plot of chunk unnamed-chunk-30" alt="plot of chunk unnamed-chunk-30" width="250px" />
+<div class="figure">
+<img src="images/app1-1.png" alt="plot of chunk unnamed-chunk-30" width="250px" />
+<p class="caption">plot of chunk unnamed-chunk-30</p>
+</div><div class="figure">
+<img src="images/app1-2.png" alt="plot of chunk unnamed-chunk-30" width="250px" />
+<p class="caption">plot of chunk unnamed-chunk-30</p>
+</div>
 
 **Figure 13:** Web of Science Download Instructions
 
 ## **Appendix 2:** Web of Science Data Field Definitions
+
 
 
 Table: Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.
@@ -521,7 +686,9 @@ Table: Definition of column headings in the output of read_references()^1^. Most
 |refID          |a unique identifier for each article in the dataset assigned by refnet |
 
 
-^1^the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, J9, LA, PA, PI, PN, PS, RID, SU, VR, OA.
+
+
+^1^the following Web of Science data fields are only included if users select the `include_all=TRUE` option in `references_read()`: CC, CH, CL, CT, CY, DT, FX, GA, GE, ID, IS, J9, JI, LA, LT, MC, MI, NR, PA, PI, PN, PS, RID, SU, TA, VR.
 
 ^2^Includes citations in the Web of Science Core Collection, BIOSIS Citation Index, Chinese Science Citation Database, Data Citation Index, Russian Science Citation Index, and SciELO Citation Index.
 
@@ -560,11 +727,13 @@ Table: Information provided by the `authors_clean()` function to help users asse
 |PU            |Publisher                                                                                                                                                                                                                                                                               |
 
 
+
+
 ## **Appendix 4:** Overview of the `refsplitr` author name disambiguation algorithm.
 
 Name disambiguation is a complex process that is the subject of active research. There are a variety of approaches to disambiguation in large datasets; here we describe the algorithm for parsing author addresses and disambiguating author names with the `authors_clean()` function. 
 
-There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have a unique identifier such as an [ORCID iD (ORCID)](https://orcid.org/) or [ResearcherID (RID)](http://www.researcherid.com/Home.action?returnCode=ROUTER.Success&Init=Yes&SrcApp=CR&SID=6CmSYQQpa1DmjP5Mo3H). Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
+There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have a unique identifier such as an [ORCID iD (ORCID)](https://orcid.org/) or [ResearcherID (RID)](http://www.researcherid.com/Home.action?returnCode=ROUTER.Success&Init=Yes&SrcApp=CR&SID=6CmSYQQpa1DmjP5Mo3H). Second, an author's name can vary over time. It can also be reported inconsistently across journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for email addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
 
 To address this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way we do not require an entry to contain all relevant fields, but can nevertheless create likely groupings and then refine them by throwing out obvious spurious connections. In the case of authors with ORCID and RID numbers, identifying commonalities is quite easy, and we hope that authors will continue to sign up for these identifiers to facilitate disambiguation. 
 
@@ -575,7 +744,10 @@ The first step in our disambiguation process is matching all groups together wit
 
 Below is an example of how the algorithm processes a sample data set.
  
-<img src="images/appendix3.1.png" title="plot of chunk unnamed-chunk-33" alt="plot of chunk unnamed-chunk-33" width="500px" />
+<div class="figure">
+<img src="images/appendix3.1.png" alt="plot of chunk unnamed-chunk-33" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-33</p>
+</div>
  
 **Figure 14:** Example dataset. 
  
@@ -591,7 +763,10 @@ To lower the number of Type II errors we build a dataset of possible matches for
 
 **Entry 1.** In our test data we will start trying to match the first entry "Smith, J" in row 1. By subsetting with the above rules, we'd be matching the first row against rows 2, 3, 4, 5, 6, 7, 9:
 
-<img src="images/appendix3.2.png" title="plot of chunk unnamed-chunk-34" alt="plot of chunk unnamed-chunk-34" width="500px" />
+<div class="figure">
+<img src="images/appendix3.2.png" alt="plot of chunk unnamed-chunk-34" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-34</p>
+</div>
 
 **Figure 15:** Figure for entry 1 
 
@@ -603,7 +778,10 @@ In our test data, there is only one piece of information we can match against - 
 
 **Entry 3.** Row 3 has 2 unique identifying pieces of information: A middle initial and an email. This subset is smaller because we have a middle initial to filter out the Smith, J.L entries: 
  
-<img src="images/appendix3.3.png" title="plot of chunk unnamed-chunk-35" alt="plot of chunk unnamed-chunk-35" width="500px" />
+<div class="figure">
+<img src="images/appendix3.3.png" alt="plot of chunk unnamed-chunk-35" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-35</p>
+</div>
  
 **Figure 16:** Figure for entry 3
  
@@ -611,7 +789,10 @@ Matching this information against our subset, the two possible matches are Row 2
 
 **Entry 4** - This entry gets assigned groupID = 2 as well because it has a matching middle initial with Row 2 and Row 3:
 
-<img src="images/appendix3.4.png" title="plot of chunk unnamed-chunk-36" alt="plot of chunk unnamed-chunk-36" width="500px" />
+<div class="figure">
+<img src="images/appendix3.4.png" alt="plot of chunk unnamed-chunk-36" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-36</p>
+</div>
 
 **Figure 16:** Figure for entry 4
 
@@ -621,7 +802,10 @@ Matching this information against our subset, the two possible matches are Row 2
 
 **Entry 7** - Entry 7 has one unique identifier: an email address. It gets matched to the entry in Row 3 and therefore is assigned groupID = 2. 
 
-<img src="images/appendix3.5.png" title="plot of chunk unnamed-chunk-37" alt="plot of chunk unnamed-chunk-37" width="500px" />
+<div class="figure">
+<img src="images/appendix3.5.png" alt="plot of chunk unnamed-chunk-37" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-37</p>
+</div>
 
 **Figure 17:** Figure for entry 7
 
@@ -629,7 +813,10 @@ After these first 7 entries, we've correctly matched all likely 'Smith, Jon Karl
 
 **Entry 8** - This novel entry has two unique pieces of information: a middle initial and an ORCID. We know the ORCID did not match any previous entries, and the middle initial does not match up with any of the 'Smith' names in our record. 
  
-<img src="images/appendix3.6.png" title="plot of chunk unnamed-chunk-38" alt="plot of chunk unnamed-chunk-38" width="500px" />
+<div class="figure">
+<img src="images/appendix3.6.png" alt="plot of chunk unnamed-chunk-38" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-38</p>
+</div>
 
 **Figure 18:** Figure for entry 8
 
@@ -639,13 +826,19 @@ Because there are no suitable matches using initial criteria, we instead match t
 
 **Entry 10** - This entry has no matching names and results in no change to the groupID number.
 
-<img src="images/appendix3.7.png" title="plot of chunk unnamed-chunk-39" alt="plot of chunk unnamed-chunk-39" width="500px" />
+<div class="figure">
+<img src="images/appendix3.7.png" alt="plot of chunk unnamed-chunk-39" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-39</p>
+</div>
 
 **Figure 19:** Figure for Entry 10
 
 Thus our final results are: 
  
-<img src="images/appendix3.8.png" title="plot of chunk unnamed-chunk-40" alt="plot of chunk unnamed-chunk-40" width="500px" />
+<div class="figure">
+<img src="images/appendix3.8.png" alt="plot of chunk unnamed-chunk-40" width="500px" />
+<p class="caption">plot of chunk unnamed-chunk-40</p>
+</div>
  
 **Figure 20:** Final Results. 
 
