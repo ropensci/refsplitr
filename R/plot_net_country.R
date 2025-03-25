@@ -224,7 +224,7 @@ plot_net_country <- function(data,
 
     layoutCoordinates <- stats::na.omit(layoutCoordinates)
    
-    adjacencyList<- adjacencyList %>% 
+    adjacencyList<- adjacencyList |> 
       dplyr::mutate(country=dplyr::case_when(
       country == "V1" ~ NA,
       .default = as.character(country)
@@ -232,7 +232,7 @@ plot_net_country <- function(data,
     
     
     
-    adjacencyList<- adjacencyList %>% 
+    adjacencyList<- adjacencyList |> 
       dplyr::mutate(countryA=dplyr::case_when(
         countryA == "V1" ~ NA,
         .default = as.character(countryA)
