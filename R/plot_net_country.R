@@ -47,11 +47,11 @@ plot_net_country <- function(data,
   
 
   
-  fixable_countries<-data %>% 
-    dplyr::filter(is.na(country)==FALSE & is.na(lat)==TRUE) %>% 
-    dplyr::select(refID,country) %>% 
-    dplyr::group_by(refID,country) %>% 
-    dplyr::tally() %>% 
+  fixable_countries<-data |> 
+    dplyr::filter(is.na(country)==FALSE & is.na(lat)==TRUE) |> 
+    dplyr::select(refID,country) |> 
+    dplyr::group_by(refID,country) |> 
+    dplyr::tally() |> 
     dplyr::arrange(n)
   
   
@@ -172,38 +172,38 @@ plot_net_country <- function(data,
     # LAT
   
             
-      coords_df$LAT <- ifelse(ISO_A2 == "french guiana",
+      coords_df$LAT <- ifelse(coords_df$ISO_A2 == "french guiana",
                               3.9339,
                               coords_df$LAT)
       
-      coords_df$LAT <- ifelse(ISO_A2 == "bonaire",
+      coords_df$LAT <- ifelse(coords_df$ISO_A2 == "bonaire",
                               12.2019,
                               coords_df$LAT)
       
-      coords_df$LAT <- ifelse(ISO_A2 == "reunion",
+      coords_df$LAT <- ifelse(coords_df$ISO_A2 == "reunion",
                               -68.2624,
                               coords_df$LAT)
       
-      coords_df$LAT <- ifelse(ISO_A2 == "palestine",
+      coords_df$LAT <- ifelse(coords_df$ISO_A2 == "palestine",
                               31.9522,
                               coords_df$LAT)
       
                               
      # LON
     
-      coords_df$LON <- ifelse(ISO_A2 == "french guiana",
+      coords_df$LON <- ifelse(coords_df$ISO_A2 == "french guiana",
                               -53.1258,
                               coords_df$LON)
       
-      coords_df$LON <- ifelse(ISO_A2 == "bonaire",
+      coords_df$LON <- ifelse(coords_df$ISO_A2 == "bonaire",
                               -68.2624,
                               coords_df$LON)
       
-      coords_df$LON <- ifelse(ISO_A2 == "reunion",
+      coords_df$LON <- ifelse(coords_df$ISO_A2 == "reunion",
                               55.5364,
                               coords_df$LON)
       
-      coords_df$LON <- ifelse(ISO_A2 == "palestine",
+      coords_df$LON <- ifelse(coords_df$ISO_A2 == "palestine",
                               35.2332,
                               coords_df$LON)
       
