@@ -70,6 +70,7 @@ We welcome any suggestions for package improvement or ideas for features to incl
 Map of georeferenced article coauthorships generated with refsplitr.
 </center>
 
+
 ## Contributors
 
 -   [Auriel Fournier](https://github.com/aurielfournier), Porzana Solutions
@@ -83,15 +84,15 @@ The Refsplitr package has been described in an article in the [_Journal of Open 
 
 ### Citation: Refsplitr Package
 
-Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna (2020). refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.0.1. <https://github.com/ropensci/refsplitr>
+Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna (2025). refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.2.0. <https://github.com/ropensci/refsplitr>
 
-    @Manual{refsplitr2020,
+    @Manual{refsplitr2025,
     title = {refsplitr: author name disambiguation, author georeferencing, 
     and mapping of coauthorship networks with Web of Science data.},
     author = {Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, 
     and Emilio M. Bruna},
     year = {2020},
-    note = {R package version 1.0.1.},
+    note = {R package version 1.2.0.},
     url ={https://github.com/ropensci/refsplitr}
     }
 
@@ -109,6 +110,10 @@ Fournier et al., (2020). refsplitr: Author name disambiguation, author georefere
     title = {refsplitr: Author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data}, 
     journal = {Journal of Open Source Software}
     }
+
+## License
+
+[GPL3](https://www.r-project.org/Licenses/GPL-3)
 
 *Note regarding early package development*: The early development of refsplitr - initially known as refnet - was by Forrest Stevens and Emilio M. Bruna and was on [r-forge](https://r-forge.r-project.org/projects/refnet/). In December 2017 Bruna moved it to Github and hired [Porzana Solutions](https://github.com/aurielfournier) to finalize the package and prepare it for submission to CRAN. *Please make all suggestions for changes via this Github repository - do not* make a repo mirror of the R-forge version.
 
