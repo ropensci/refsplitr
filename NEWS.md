@@ -1,7 +1,7 @@
 # refsplitr News
 
 
-refsplitr 1.2 (2025-04-26)
+refsplitr 1.2 (2025-04-25)
 =========================
 
 ### NEW FEATURES
