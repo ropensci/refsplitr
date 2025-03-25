@@ -80,10 +80,6 @@ plot_net_country <- function(data,
   data$country[data$country=="surinam"] <- "suriname"
   data$country[data$country=="turks & caicos"] <- "turks and caicos islands"
   data$country[data$country=="u arab emirates"] <- "united arab emirates"
-  data$country[data$country=="curaçao"] <- "curacao"
-  
-  # to avoid fail for non-ascii characters
-  data$country[data$country=="cura\u00e7ao"] <- "curacao"  
   data$country[data$country=="libyan arab jamahiriya"] <- "libya"
   data$country[data$country=="rhodesia"] <- "zimbabwe"
   data$country[data$country=="russian federation"] <- "russia"
@@ -92,12 +88,17 @@ plot_net_country <- function(data,
   data$country[data$country=="brunei darussalam"] <- "brunei"
   data$country[data$country=="trinidade and tobago"] <- "trinidad and tobago"
   
+  # to avoid fail for non-ascii characters
+  data$country[data$country=="cura\u00e7ao"] <- "curacao"  
+  
     ## 	we could use a sparse matrix representation:
   linkages <- Matrix::spMatrix(
     nrow = length(unique(data$country)),
     ncol = length(unique(data$UT)),
     i = as.numeric(factor(data$country)),
     j = as.numeric(factor(data$UT)),
+    
+    
     x = rep(1, length(data$country))
   )
 
