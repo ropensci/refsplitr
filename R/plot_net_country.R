@@ -45,8 +45,7 @@ plot_net_country <- function(data,
   mapRegion = "world",
   lineAlpha = 0.5) {
   
-  requireNamespace(package = "dplyr", quietly = TRUE)
-  requireNamespace(package = "magrittr", quietly = TRUE)
+
   
   fixable_countries<-data %>% 
     dplyr::filter(is.na(country)==FALSE & is.na(lat)==TRUE) %>% 
@@ -58,44 +57,40 @@ plot_net_country <- function(data,
   
   data <- data[!is.na(data$country), ]
   
-  # names in WOS often don't match those in rworldmap'
-  data<-data %>% 
-  dplyr::mutate(country=dplyr::case_when(
-    country == "usa" ~ "united states of america",
-    country == "united states" ~ "united states of america",
-    country == "serbia" ~ "republic of serbia",
-    country == "peoples r china" ~ "china",
-    country == "uk" ~ "united kingdom",
-    country == "england" ~ "united kingdom",
-    country == "scotland" ~ "united kingdom",
-    country == "wales" ~ "united kingdom",
-    country == "north ireland" ~ "united kingdom",
-    country == "cent afr republ" ~ "central african republic",
-    country == "cote ivoire" ~ "ivory coast",
-    country == "papua n guinea" ~ "papua new guinea",
-    country == "sao tome & prin" ~ "sao tome and principe",
-    country == "tanzania" ~ "united republic of tanzania",
-    country == "rep congo" ~ "republic of the congo",
-    country == "bahamas" ~ "the bahamas",
-    country == "dem rep congo" ~ "republic of the congo",
-    country == "rep congo" ~ "democratic republic of the congo",
-    country == "democratic republic of congo" ~ "democratic republic of the congo",
-    country == "fr polynesia" ~ "french polynesia",
-    country == "surinam" ~ "suriname",
-    country == "turks & caicos" ~ "turks and caicos islands",
-    country == "u arab emirates" ~ "united arab emirates",
-    # country == "curaçao" ~ "curacao",
-    country == "cura\u00e7ao" ~ "curacao", # to avoid fail for non-ascii characters
-    country == "libyan arab jamahiriya" ~ "libya",
-    country == "rhodesia" ~ "zimbabwe",
-    country == "russian federation" ~ "russia",
-    country == "hong kong" ~ "hong kong sar",
-    country == "hong kong s.a.r." ~ "hong kong sar",
-    country == "brunei darussalam" ~ "brunei",
-    country == "trinidade and tobago" ~ "trinidad and tobago",
-    .default = as.character(country)
-  ))
+  data$country[data$country=="usa"] <- "united states of america" 
+  data$country[data$country=="united states"] <- "united states of america"
+  data$country[data$country=="serbia"] <- "republic of serbia"
+  data$country[data$country=="peoples r china"] <- "china"
+  data$country[data$country=="uk"] <- "united kingdom"
+  data$country[data$country=="england"] <- "united kingdom"
+  data$country[data$country=="scotland"] <- "united kingdom"
+  data$country[data$country=="wales"] <- "united kingdom"
+  data$country[data$country=="north ireland"] <- "united kingdom"
+  data$country[data$country=="cent afr republ"] <- "central african republic"
+  data$country[data$country=="cote ivoire"] <- "ivory coast"
+  data$country[data$country=="papua n guinea"] <- "papua new guinea"
+  data$country[data$country=="sao tome & prin"] <- "sao tome and principe"
+  data$country[data$country=="tanzania"] <- "united republic of tanzania"
+  data$country[data$country=="rep congo"] <- "republic of the congo"
+  data$country[data$country=="bahamas"] <- "the bahamas"
+  data$country[data$country=="dem rep congo"] <- "republic of the congo"
+  data$country[data$country=="rep congo"] <- "democratic republic of the congo"
+  data$country[data$country=="democratic republic of congo"] <- "democratic republic of the congo"
+  data$country[data$country=="fr polynesia"] <- "french polynesia"
+  data$country[data$country=="surinam"] <- "suriname"
+  data$country[data$country=="turks & caicos"] <- "turks and caicos islands"
+  data$country[data$country=="u arab emirates"] <- "united arab emirates"
+  data$country[data$country=="curaçao"] <- "curacao"
   
+  # to avoid fail for non-ascii characters
+  data$country[data$country=="cura\u00e7ao"] <- "curacao"  
+  data$country[data$country=="libyan arab jamahiriya"] <- "libya"
+  data$country[data$country=="rhodesia"] <- "zimbabwe"
+  data$country[data$country=="russian federation"] <- "russia"
+  data$country[data$country=="hong kong"] <- "hong kong sar"
+  data$country[data$country=="hong kong s.a.r."] <- "hong kong sar"
+  data$country[data$country=="brunei darussalam"] <- "brunei"
+  data$country[data$country=="trinidade and tobago"] <- "trinidad and tobago"
   
     ## 	we could use a sparse matrix representation:
   linkages <- Matrix::spMatrix(
@@ -174,21 +169,44 @@ plot_net_country <- function(data,
   # coords_df %>% filter(is.na(LAT)==TRUE) %>% distinct(ISO_A2)
   # need to add them manually 
   
-  coords_df<- coords_df %>% 
-    dplyr::mutate(LAT=dplyr::case_when(
-      ISO_A2 == "french guiana" ~ 3.9339,
-      ISO_A2 == "bonaire" ~ 12.2019,
-      ISO_A2 == "reunion" ~ -68.2624,
-      ISO_A2 == "palestine" ~ 31.9522,
-      .default = as.numeric(LAT)
-    )) %>% 
-    dplyr::mutate(LON=dplyr::case_when(
-      ISO_A2 == "french guiana" ~ -53.1258,
-      ISO_A2 == "bonaire" ~ -68.2624,
-      ISO_A2 == "reunion" ~ 55.5364,
-      ISO_A2 == "palestine" ~ 35.2332,
-      .default = as.numeric(LON)
-    ))
+    # LAT
+  
+            
+      coords_df$LAT <- ifelse(ISO_A2 == "french guiana",
+                              3.9339,
+                              coords_df$LAT)
+      
+      coords_df$LAT <- ifelse(ISO_A2 == "bonaire",
+                              12.2019,
+                              coords_df$LAT)
+      
+      coords_df$LAT <- ifelse(ISO_A2 == "reunion",
+                              -68.2624,
+                              coords_df$LAT)
+      
+      coords_df$LAT <- ifelse(ISO_A2 == "palestine",
+                              31.9522,
+                              coords_df$LAT)
+      
+                              
+     # LON
+    
+      coords_df$LON <- ifelse(ISO_A2 == "french guiana",
+                              -53.1258,
+                              coords_df$LON)
+      
+      coords_df$LON <- ifelse(ISO_A2 == "bonaire",
+                              -68.2624,
+                              coords_df$LON)
+      
+      coords_df$LON <- ifelse(ISO_A2 == "reunion",
+                              55.5364,
+                              coords_df$LON)
+      
+      coords_df$LON <- ifelse(ISO_A2 == "palestine",
+                              35.2332,
+                              coords_df$LON)
+      
   
   ## 	One could also use ggplot to plot out the network geographically:
 
