@@ -413,7 +413,7 @@ plot_net_country <- function(data,
     ggplot2::geom_path(
       data = allEdges,
       ggplot2::aes(x = !!x, y = !!y, group = !!Group,
-        colour = !!Sequence, size = !!Sequence), alpha = lineAlpha
+        colour = !!Sequence, linewidth = !!Sequence), alpha = lineAlpha
     ) +
     ggplot2::geom_point(
       data = data.frame(layoutCoordinates), # Add nodes
