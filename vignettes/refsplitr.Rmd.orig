@@ -51,7 +51,7 @@ The `refsplitr` package can either import a single Web of Science search result 
 
 - **dir**: when loading a single file dir=FALSE, when loading multiple files dir=TRUE. If multiple files are processed `refsplitr` will identify and remove any duplicate reference records.
 
-- **include_all**: Setting 'include_all=TRUE' will import all fields from the WOS record (see Appendix 2). The defailt is 'include_all=FALSE'.
+- **include_all**: Setting 'include_all=TRUE' will import all fields from the WOS record (see Appendix 2). The default is 'include_all=FALSE'.
 
 The output of `references_read()` is an object in the R workspace. Each line of the output is a reference; the columns are the name of the .txt file from which the data were extracted, a unique id number assigned by `refsplitr` to each article, and the data from each field of the reference record (see Appendix 2 for a list of these data fields and their [Web of Science](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html) and RIS codes). This object is used by `refsplitr` in Step 2.2; we recommend also saving it as a .csv file in the "output" folder.
 
@@ -144,14 +144,14 @@ The output of `authors_refine()` is an object in the R workspace. We recommend s
 
 #### Example
 
-a. To accept the results of author disambiguation _**without**_ manual review (with **_default_** values for `sim_score` and `confidence`): 
+a. To accept the results of author disambiguation _**without**_ manual review (with default values for `sim_score` and `confidence`): 
 
 ```{r, results="hide", message=FALSE}
 example_a_refined <- authors_refine(example_a_clean$review, 
                                     example_a_clean$prelim)
 ```
 
-b. To accept the results of author disambiguation _**without**_ manual review (with **_user-modified_** values for `sim_score` and `confidence`): 
+b. To accept the results of author disambiguation _**without**_ manual review (with user-modified values for `sim_score` and `confidence`): 
 
 ```{r, results="hide", message=FALSE}
 example_a_refined_mod <- authors_refine(example_a_clean$review, 
@@ -176,11 +176,11 @@ There are two kinds of potential disambiguation errors. First, diffent authors c
 
 These corrections are uploaded using the ```authors_refine()``` function, which then generates the 'refined' dataset used in analyses (see Section 2.2.3).
 
-**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these errors becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. **We strongly recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```**. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
+**WARNING:** Tests of our disambiguation algorithm indicate it is very accurate, but no method is perfect and errors are inevitable - especially as the number of author name variants increases. However, finding these errors becomes increasingly challenging as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. **We strongly recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```**. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
 
 #### Example
 
-Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assignd a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
+Figure 3 is an example of the the first few rows and columns of the 'review' element of `authors_clean()`. Each row is the author of a paper, with their name as it is on the author list (AF). Each author has been assigned a unique authorID number as well assigned to a groupID; the "match_name" column provides the name under which the algorithm has grouped all of an author’s putative name variants when assigning the groupID number.  
 
 ```{r, echo=FALSE, fig.pos="H", out.width="500px"} 
 knitr::include_graphics("images/review_file.png", error = F) 
@@ -264,11 +264,13 @@ example_a_refined_mod <- authors_refine(example_a_corrected,
 
 ### 2.3. Georeferencing author institutions 
 
-Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has two arguments:  
+Users can georeference author's institutions (latitude & longitude) using the `authors_georef()` function. This function has has three arguments:  
 
 - **data**: The output created by `authors_refine()`. Must be an object. 
 
 - **address_column**: A quoted character identifying the column name in which addresses are stored. This defaults to the `address` column from the `authors_refine()` output. 
+
+- ***google_api***: Defaults to `FALSE`. If `TRUE` georeferencing will be conducted with [`ggmap`](https://github.com/dkahle/ggmap) and the Google Maps API (paid service). If `FALSE` geocoding will be conducted with the [`tidygeocoder`](https://jessecambon.github.io/tidygeocoder/) package, which uses the Nominatum service to access [OpenStreetMap data](https://nominatim.org/). Note that when georeferencing large data sets, OSM requests users consider [downloading and installing the complete database](https://nominatim.org/release-docs/latest/admin/Installation/) to query locally instead of using the API. 
 
 The output of `authors_georef()` is a list with three elements: (1) `addresses` contains all records, (2) `missing_addresses` contains the records that could not be georeferenced, and (3) `not_missing_addresses` contains only the records with georeferenced addresses. 
 
@@ -287,17 +289,45 @@ a. to georeference author institutions:
 ```{r,eval=FALSE}
 
 example_georef <-authors_georef(data=example_a_refined,
-                                address_column = "address")
+                                address_column = "address",
+                                google_api = FALSE)
 ```
 
 Note that while this function is being executed a message will be printed every time a location is geoprocessed. These messages can be suppressed by modifying the function call as follows: 
 
-```{r, eval=FALSE, results="hide", message=FALSE}
+```{r, results="hide", message=FALSE}
 
-example_georef <-suppressMessages(authors_georef(data=example_a_refined,
-                                                 address_column = "address"))
+example_georef <-suppressMessages(authors_georef(
+  data=example_a_refined,
+  address_column="address",
+  google_api = FALSE))
 
 ```
+
+
+#### Registering with Google for an API key (NB: this is a paid service)
+
+1.  Install and load the `ggmap` package
+
+```{r example2, eval=FALSE}
+
+install.packages("ggmap")
+library(ggmap)
+
+```
+
+2.  Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.
+
+3.  Once you have your API key, add it to your `~/.Renviron` with the following:
+
+```{r example3, eval=FALSE}
+`ggmap::register_google(key = "[your key]", write = TRUE)`
+```
+
+4. You should now be able to use `authors_georef()` as described in the vignette. **WARNING:** `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
+
+***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
+
 
 ### 2.4. Data Visualization: Productivity and Collaboration 
 
@@ -305,7 +335,7 @@ example_georef <-suppressMessages(authors_georef(data=example_a_refined,
  
 #### 2.4.1. Visualization 1: Authors per country.
 
-The `plot_addresses_country()` makes a map whose shading of each country indicates the number of papers in the daraset written by authors based there. Note that there is no fractional authorship, e.g., if a paper is written by a team of authors based in the USA, Brazil, and Belgium, then that publication will count as one paper towards the total for each of these countries.
+The `plot_addresses_country()` makes a map whose shading of each country indicates the number of papers in the data set written by authors based there. Note that there is no fractional authorship, e.g., if a paper is written by a team of authors based in the USA, Brazil, and Belgium, then that publication will count as one paper towards the total for each of these countries.
 
 The function has two arguments:  
 
@@ -319,7 +349,7 @@ The output of `plot_addresses_country()` is plot from the `rworldmap` package.
 
 a. Author records plotted on a world map
 
-```{r,eval=FALSE,  fig.pos="H", out.width="500px",message=FALSE,results="hide"}
+```{r, fig.pos="H", out.width="500px",message=FALSE,results="hide"}
 plot_addresses_country <- plot_addresses_country(example_georef$addresses)
 ```
 
@@ -341,7 +371,7 @@ The output of `authors_georef()` is a ggplot object.
 
 a. Mapped location of author institutions (global).
 
-```{r, eval=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses)
 plot_addresses_points
 ```
@@ -354,7 +384,7 @@ b. Mapped location of author institutions (national).
 
 **Figure 9:** Figure indicating the georefeenced locations of all authors in the dataset
 
-```{r, eval=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_addresses_points <- plot_addresses_points(example_georef$addresses, 
                                                mapCountry = "Brazil")
 plot_addresses_points
@@ -375,7 +405,7 @@ This function has one output, a plot, built in `igraph`.
 
 a. Coauthorship networked based on the country in which coauthors are based.
 
-```{r, eval=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_net_coauthor <- plot_net_coauthor(example_georef$addresses)
 plot_net_coauthor
 ```
@@ -407,7 +437,7 @@ The output of `plot_net_country()` is a list in the R workspace. The `$plot` ele
 
 a. Mapped coauthorship network based on the countries in which authors are based.
 
-```{r fig.pos="H", eval=FALSE, out.width="500px"}
+```{r fig.pos="H", out.width="500px"}
 plot_net_country <- plot_net_country(example_georef$addresses)
 plot_net_country$plot
 ```
@@ -437,7 +467,7 @@ The output of `plot_net_address()` is a list in the R workspace. The `$plot` ele
 
 a. Coauthorship network based on the geographic locations of coauthor institutions.
 
-```{r, eval=FALSE, fig.pos="H", out.width="500px"}
+```{r, fig.pos="H", out.width="500px"}
 plot_net_address <- plot_net_address(example_georef$addresses)
 plot_net_address$plot
 ```
@@ -483,10 +513,7 @@ knitr::include_graphics("images/app1-2.png", error = F)
 ## **Appendix 2:** Web of Science Data Field Definitions
 
 ```{r echo = FALSE, results = 'asis'}
-
-file1 = system.file("extdata", "App2_Table1.csv", package = "refsplitr")
-App2Table1<-read.csv(file1,dec=".", header = TRUE, sep = ",", check.names=FALSE)
-
+App2Table1<-read.csv("App2_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
 knitr::kable(App2Table1, caption = "Definition of column headings in the output of read_references()^1^. Most are [Web of Science Core Collection Field Tags](https://images.webofknowledge.com/images/help/WOS/hs_advanced_fieldtags.html) associated with different data types.")
 
 ```
@@ -501,10 +528,9 @@ knitr::kable(App2Table1, caption = "Definition of column headings in the output 
 The information in the Table below is provided by the `authors_clean()` function to help users assess the validity of groupID assignments made by `refsplitr`'s disambiguation algorithm. However, finding any errors in disambiguation becomes increasigly challegning as the number of references processed increases. This is because the number of names on the _review.csv file will increase as more authors, and hence author name variants, are identified. We **strongly** recommend using [code we have written](https://github.com/embruna/refsplitr_simplify_authors_review) to streamline the process of reviewing the output of ```authors_refine()```. This code divides the list of names to review into more manageable subgroups; any errors identified are then corrected on the "_review.csv" file. The code and instructions for using it are available at [https://github.com/embruna/refsplitr_simplify_authors_review](https://github.com/embruna/refsplitr_simplify_authors_review).
 
 
-
 ```{r echo = FALSE, results = 'asis'}
-file2 = system.file("extdata", "App3_Table1.csv", package = "refsplitr")
-App3Table1<-read.csv(file2,dec=".", header = TRUE, sep = ",", check.names=FALSE)
+App3Table1<-read.csv("App3_Table1.csv",dec=".", header = TRUE, sep = ",", check.names=FALSE)
+
 
 knitr::kable(App3Table1, caption = "Information provided by the `authors_clean()` function to help users assess the validity of groupID assignments made by `refsplitr`'s disambiguation algorithm.") 
 ```
@@ -514,7 +540,7 @@ knitr::kable(App3Table1, caption = "Information provided by the `authors_clean()
 
 Name disambiguation is a complex process that is the subject of active research. There are a variety of approaches to disambiguation in large datasets; here we describe the algorithm for parsing author addresses and disambiguating author names with the `authors_clean()` function. 
 
-There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have a unique identifier such as an [ORCID iD (ORCID)](https://orcid.org/) or [ResearcherID (RID)](http://www.researcherid.com/Home.action?returnCode=ROUTER.Success&Init=Yes&SrcApp=CR&SID=6CmSYQQpa1DmjP5Mo3H). Second, an author's name can vary over time. It can also be reported inconsistently accross journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for emaail addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
+There are three primary difficulties in assigning authors to their products in bibliometric databases like the Web of Science. First, not all authors have a unique identifier such as an [ORCID iD (ORCID)](https://orcid.org/) or [ResearcherID (RID)](http://www.researcherid.com/Home.action?returnCode=ROUTER.Success&Init=Yes&SrcApp=CR&SID=6CmSYQQpa1DmjP5Mo3H). Second, an author's name can vary over time. It can also be reported inconsistently across journals. For instance, while author last names are always reported, the first names might only be represented by initials and middle names (if authors have one) might not be reported or might only be stored as a middle initial. Finally, information in the "address" field can have inconsistent structures. In addition, [only after 2008 did Web of Sceince records directly link each author with their institutional address](https://images.webofknowledge.com/images/help/WOS/hp_full_record.html#dsy1030-TRS_addresses). As a result, for pre-2008 Web of Science records it can be difficult to relate each author with their institutional address (the same is true for email addresses). In these cases, we have no way to reliably match addresses to authors using the information in the reference record and therefore insert 'Could not be extracted' in the address field. This does not mean an address was not listed or cannot be assigned after manual inspection - only that there was no way to discern to which author the address belongs. Coupled with changes in author addresses as they change institutions, this the inconsistent or incomplete information associated with author addresses makes disambiguating names difficult. 
 
 To address this we've created a process to identify clusters or common authors by iteratively building webs of authors using any available information to link groups together. In this way we do not require an entry to contain all relevant fields, but can nevertheless create likely groupings and then refine them by throwing out obvious spurious connections. In the case of authors with ORCID and RID numbers, identifying commonalities is quite easy, and we hope that authors will continue to sign up for these identifiers to facilitate disambiguation. 
 

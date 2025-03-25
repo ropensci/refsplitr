@@ -45,11 +45,11 @@ Imports:
     Hmisc,
     igraph,
     Matrix,
-    magrittr,
     network,
     stringdist,
     rworldmap,
-    sna
+    sna,
+    tidygeocoder
 Suggests: 
     covr,
     gdtools,
@@ -63,7 +63,7 @@ VignetteBuilder:
 Remotes: 
     dkahle/ggmap
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
 X-schema.org-keywords: 
     name disambiguation, 
     bibliometrics, 

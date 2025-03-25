@@ -6,7 +6,7 @@
 \alias{refsplitr-package}
 \title{refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with 'Web of Science' data}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
 Tools to parse and organize reference records downloaded from the 'Web of Science' citation database into an R-friendly format, disambiguate the names of authors, geocode their locations, and generate/visualize coauthorship networks. This package has been peer-reviewed by rOpenSci (v. 1.0).
 }

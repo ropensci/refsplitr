@@ -35,7 +35,7 @@ There are four steps in the `refsplitr` package's workflow:
 
 1.  Importing and tidying Web of Science reference records (be sure to download records using the procedure in Appendix 1 of the [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html))
 2.  Author name disambiguation and parsing of author addresses
-3.  Georeferencing of author institutions. (*Important Note*: Google has changed its API requirements, which means users now have register with Google prior to georeferencing. For additional details see the [`ggmap`](https://github.com/dkahle/ggmap) repository and the instructions below.)
+3.  Georeferencing of author institutions using either the [Nominatim](https://nominatim.org/) service, which uses OpenStreetMap data and which `refsplitr` queries via the [`tidygeocoder`]((https://jessecambon.github.io/tidygeocoder/) package (default; free) _OR_ the  [Data Science Toolkit](http://www.datasciencetoolkit.org/), which uses the Google maps API (limited number of free queries after which users must pay); for additional details on pricing information how to register with Google to use their API see the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html).
 4.  Data visualization
 
 The procedures required for these four steps,each of which is implemented with a simple command, are described in detail in the `refsplitr` [vignette](https://docs.ropensci.org/refsplitr/articles/refsplitr.html). An example of this workflow is provided below:
@@ -57,29 +57,6 @@ dat4 <- authors_georef(dat3)
 # generate a map of coauthorships; this is only one of the five possible visualizations  
 plot_net_address(dat4$addresses)
 ```
-
-## Registering with Google for an API key
-
-1.  Install and load the `ggmap` package
-
-```{r example2, eval=FALSE}
-
-install.packages("ggmap")
-library(ggmap)
-
-```
-
-1.  Register for a Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) by following the instructions on the `READ ME` of the [`ggmap`](https://github.com/dkahle/ggmap) repository.
-
-2.  Once you have your API key, add it to your `~/.Renviron` with the following:
-
-```{r example3, eval=FALSE}
-`ggmap::register_google(key = "[your key]", write = TRUE)`
-```
-
-3. You should now be able to use `authors_georef()` as described in the vignette. **WARNING:** `refsplitr` currently has a limit of 2500 API calls per day. We are working on including the ability for users to select their own limits.
-
-***Remember***: Your API key is unique and for you alone. Don't share it with other users or record it in a script file that is saved in a public repository. If need be you can visit the same website where you initially registered and generate a new key.
 
 ## Improvements & Suggestions
 
