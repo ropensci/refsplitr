@@ -33,9 +33,19 @@ authors_parse <- function(references){
     }
     C1_full <- C1
 
-    C1 <- C1[grepl("^\\[.*\\]", C1)]
+    # checks if starts with [followed by any no of characters and ends with ]
+    C1 <- C1[grepl("^\\[.*\\]", C1)] 
     # Split names from the addresses they're associated with
-    C1_names <- regmatches(C1, regexpr("^\\[.*\\]", C1))
+    # In scopus some institutional abbreviations are denoted with [ ] instead 
+    # of ( ), eg: 
+    
+    # Department of General and Thoracic Surgery, 
+    # # Justus-Liebig-University, German Center for Lung Research [DZL], 
+    # Cardio-Pulmonary Institute [CPI], Giessen, 35390, Germany 
+    
+    # so added a space in regmatches below to account for this
+    C1_names <- regmatches(C1, regexpr("^\\[.*\\] ", C1)) 
+    C1_names <- trimws(C1_names)
     C1_names <- substr(C1_names, 2, nchar(C1_names) - 1)
     if (length(authors_AU) == 1) {
       C1_names <- authors_AU
@@ -82,8 +92,20 @@ authors_parse <- function(references){
       "\\1",
       RP
     )
+    
+    RP_address <- gsub(
+      "^.*\\(corresponding author\\), (.*)$",
+      "\\1",
+      RP_address
+    )
+    
+    
+    
+    
+    # It turns out some papers use corresponding, some use reprint 
+    # edited to consider both
     RP_df <- data.frame(
-      AU = substr(RP, 1, regexpr("(reprint author)", RP)[1] - 3),
+      AU = substr(RP, 1, regexpr("(corresponding author)|(reprint author)",RP)[1]-3),
       RP_address, stringsAsFactors = FALSE
     )
 
@@ -91,6 +113,7 @@ authors_parse <- function(references){
     # names. This is a overkill in most cases the names are the same
     # However this helps gauranttee even if its a short name or a full name
     RI <- unlist(strsplit(references[ref, ]$RI, ";"))
+    RI <- trimws(RI)
     # Need to make an exception for IB/USP which trips up this process
 
     if (!any(is.na(RI))) {
@@ -123,7 +146,17 @@ authors_parse <- function(references){
 
     # split out the OI and do the same thing we did with the RI
     # stringsim is used like on RIDs
-    OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+   
+    # EB March 28, 2025. This is the original code
+    # OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+    
+    # I replaced with this to make it possible to use this code with scopus csv files
+    if (is.na(references[ref, ]$OI)) {
+      OI <- NA
+    } else {
+      OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+    }
+    
 
     if (sum(is.na(OI)) == 0) {
       OI_df <- as.data.frame(do.call(rbind, strsplit(OI, "/")),
@@ -221,5 +254,8 @@ authors_parse <- function(references){
 
   final$address <- as.character(final$address)
   final$address[is.na(final$address)] <- "Could not be extracted"
+  
+
+  
   return(final)
 }
