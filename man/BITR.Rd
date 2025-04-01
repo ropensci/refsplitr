@@ -3,7 +3,7 @@
 \docType{data}
 \name{BITR}
 \alias{BITR}
-\title{Data from the journal BioTropica (pulled from Web of Knowledge)}
+\title{Data from the journal Biotropica (pulled from Web of Knowledge)}
 \format{
 A data frame with 10 rows and 32 variables:
 \describe{
@@ -47,7 +47,7 @@ The remaining codes are described on the Web of Knowledge website:
 BITR
 }
 \description{
-A dataset containing 10 articles taken from the BioTropica journal.
+A dataset containing 10 articles taken from the journal Biotropica.
 This dataset represents the typical formatted output from \code{references_read()}
 in the refsplitr package. It serves as a testbed for commonly miscategorized names
 }

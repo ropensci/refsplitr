@@ -3,7 +3,7 @@
 \docType{data}
 \name{BITR_geocode}
 \alias{BITR_geocode}
-\title{Georeferenced data from the journal BioTropica (pulled from Web of Science)}
+\title{Georeferenced data from the journal Biotropica (pulled from Web of Science)}
 \format{
 A data frame with 41 rows and 15 variables:
 \describe{
@@ -15,8 +15,8 @@ institution for non-universities}
 \item{lat}{numeric, latitude populated from authors_georef}
 \item{lon}{numeric, longitude populated from authors_georef}
 \item{groupID}{ID field for what name group the author
-is identied as from authors_clean()}
-\item{author_order}{numeric, order of author from jounral article}
+is identified as from authors_clean()}
+\item{author_order}{numeric, order of author from journal article}
 \item{address}{address of references pulled from
 the original raw WOS file}
 \item{department}{department which is nested within university}
@@ -34,7 +34,7 @@ given by references_read()}
 BITR_geocode
 }
 \description{
-A dataset containing 41 authors taken from the BioTropica journal.
+A dataset containing 41 authors taken from the Biotropica journal.
 This dataset represents the typical formatted output
 from \code{authors_georef()}
 in the refsplitr package. It serves as a useful testing data set for

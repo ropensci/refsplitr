@@ -16,10 +16,10 @@ address=c("Univ Sydney, Fac Vet Sci, Sch Life & Environm Sci,
 actual<-authors_address(df$address, df$authorID)
 expect_false(any(is.na(actual$country)))
 expect_false(grepl('BR',actual$postal_code[actual$country=='brazil']))
-expect_equal(sum(grepl("[a-z]{1}[0-9]{1}[a-z]{1}\\s[0-9]{1}[a-z]{1}[0-9]{1}",
+expect_equal(sum(grepl("[a-z]{1}[0-9]{1}[a-z]{1}[0-9]{1}[a-z]{1}[0-9]{1}",
                        actual$postal_code)),2)
 expect_equal(unique(actual$country[grepl(
-  "[a-z]{1}[0-9]{1}[a-z]{1}\\s[0-9]{1}[a-z]{1}[0-9]{1}", 
+  "[a-z]{1}[0-9]{1}[a-z]{1}[0-9]{1}[a-z]{1}[0-9]{1}", 
   actual$postal_code)]),'canada')
 expect_equal(c(actual$country[8], actual$state[8], actual$postal_code[8]),
              c('usa','fl','33312'))

@@ -91,16 +91,6 @@ with the contents of column CA.', sep=" ")
   final <- final[, c(cols,
     colnames(final)[!colnames(final) %in% cols])]
 
-  # sub_authors <- final %>%
-  #   filter(
-  #     groupID %in% final$groupID[!is.na(similarity) | flagged == 1]
-  #   ) %>%
-  #   select(authorID, AU, AF, groupID, match_name, matchID,
-  #     similarity, confidence, university, department,
-  #     postal_code, country, address, RP_address, RI,
-  #     OI, EM, UT, author_order, refID, PT, PY, PU) %>%
-  #   arrange(groupID, similarity, authorID)
-  #
   sub_authors <- subset(final,
     groupID %in% groupID[!is.na(similarity) | flagged == 1],
     select = c(

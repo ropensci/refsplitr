@@ -193,7 +193,10 @@ plot_net_address <- function(data,
   }
   ## 	Create the world outlines:
   world_map@data$id <- rownames(world_map@data)
-  world_map.points <- ggplot2::fortify(world_map)
+  
+  
+  # world_map.points <- ggplot2::fortify(world_map) # deprecated
+  world_map.points <- sf_convert(world_map)
   world_map.df <- merge(world_map.points,
     world_map@data, by = "id", all = TRUE)
   world_map.df <- world_map.df[!is.na(world_map.df$lat), ]

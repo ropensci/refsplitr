@@ -4,37 +4,36 @@
 \alias{authors_georef}
 \title{Extracts the lat and long for each address from authors_clean}
 \usage{
-authors_georef(data, address_column = "address")
+authors_georef(data, address_column = "address", google_api = FALSE)
 }
 \arguments{
 \item{data}{dataframe from \code{authors_refine()}}
 
 \item{address_column}{name of column in quotes where the addresses are}
+
+\item{google_api}{if \code{google_api = FALSE} georeferencing is carried out with
+the \code{tidygeocoder} package (option \code{geocode()} with  \code{method = 'osm'}).
+If \code{google_api = TRUE}, then geocoding is done with the Google Maps API.
+Defaults to \code{FALSE}.}
 }
 \description{
 \code{authors_georef} This function takes the final author list from
-refine_authors, and calculates the lat long of the addresses.
-It does this by feeding the addresses into data science toolkit.
-In order to maximize effectiveness and mitigate errors in parsing addresses
-We run this multiple times creating addresses in different ways
-in hopes that the google georeferencing API can recognize an address
-1st. University, city, zipcode, country
-2nd. City, zipcode, country
-3rd. city, country
-4th. University, country
+refine_authors, and calculates the lat long of the city, country, and postal
+code (for USA addresses) or city and country (for addresses outside the USA).
 }
 \details{
-The output is a list with three data.frames
-\code{addresses} is a data frame with all information from
-refine_authors plus new location columns and calculated lat longs.
-\code{missing addresses} is a data frame with all addresses could
-not be geocoded
-\code{addresses} is a data frame like \code{addresses} except
-the missing addresses are gone.
+The output is a list of three data.frames
+\code{addresses} All info from 'refine_authors' plus new columns with
+lat & long. It includes ALL addresses, including those that could not
+be geocoded.
+\code{missing_addresses} A data frame of the addresses that could
+NOT be geocoded.
+\code{no_missing_addresses} the \code{addresses} data frame with ONLY the
+addresses that were geocoded.
 }
 \examples{
-
 \dontrun{
-BITR_georef_df <- authors_georef(BITR_refined, address_column='address')
+BITR_georef_df <- authors_georef(BITR_refined, address_column = "address",
+google_api=FALSE)
 }
 }

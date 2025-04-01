@@ -139,12 +139,7 @@ authors_match <- function(data){
       if (any(matched_df$merged[matched_df$groupID == q])) next
 
       sub <- matched_df[matched_df$groupID == q, ]
-      # common_df <- matched_df %>%
-      #   dplyr::filter(
-      #     squash %in% sub$squash &
-      #       ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
-      #       groupID != q
-      #   )
+      
       common_df <- subset(matched_df,
         squash %in% sub$squash &
           ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
