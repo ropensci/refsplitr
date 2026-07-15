@@ -301,8 +301,8 @@ authors_parse <- function(references){
     }
     
     
-    final$AF2<-NULL
-    final$AU2<-NULL
+    new$AF2<-NULL
+    new$AU2<-NULL
     
     list1[[ref]] <- new
 
@@ -330,8 +330,6 @@ authors_parse <- function(references){
 
   final$address <- as.character(final$address)
   final$address[is.na(final$address)] <- "Could not be extracted"
-  
-
   
   return(final)
 }
