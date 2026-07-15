@@ -235,8 +235,10 @@ authors_parse <- function(references){
     new <- merge(new, RP_df, by = "AU", all.x = TRUE)
     new <- merge(new, RI_df[, c("RI", "matchname")], by.x = "AU",
       by.y = "matchname", all.x = TRUE)
-    new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AU",
+    
+    new <- merge(new, OI_df[, c("OI", "matchname")], by.x = "AF",
       by.y = "matchname", all.x = TRUE)
+    
     new$EM <- NA
     new$refID <- references$refID[ref]
     new$TA <- references$TI[ref]
