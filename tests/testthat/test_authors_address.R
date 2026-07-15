@@ -1,8 +1,8 @@
 context("parse out addresses, step 2 of authors clean")
 test_that("addresses parse correctly, atleast logically", {
 df<-data.frame(
-address=c("Univ Sydney, Fac Vet Sci, Sch Life & Environm Sci,
-          Sydney, NSW, Australia.",        
+address=
+  c("Univ Sydney, Fac Vet Sci, Sch Life & Environm Sci,Sydney, NSW, Australia.",        
   "Univ Toronto, Dept Ecol & Evolutionary Biol, Toronto, ON M5S 3B2, Canada.",
   "Univ New South Wales, Evolut & Ecol Res Ctr, Sydney, NSW, Australia.",
   "Univ New South Wales, Evolut & Ecol Res Ctr, Sydney, NSW, Australia.",

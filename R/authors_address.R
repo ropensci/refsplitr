@@ -1361,7 +1361,9 @@ authors_address <- function(addresses, ID) {
 
   # if country is has 3 or fewer characters make NA
 
-  a_df$country[nchar(a_df$country) < 4] <- NA  
+  # no countrires have l;ess than 4 letters in name, except USA, 
+  # which while not name is the the abbreviation used in WOS and SCOPUS
+  a_df$country[nchar(a_df$country) < 4 & a_df$country != "usa"] <- NA
   
   # return output of function -----------------------------------------------
 
