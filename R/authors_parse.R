@@ -20,7 +20,12 @@ authors_parse <- function(references){
     authors_AF <- as.character(unlist(strsplit(references[ref, ]$AF, "\n")))
     authors_EM <- unlist(strsplit(references[ref, ]$EM, ";"))
     authors_EM_strip <- substr(authors_EM, 1, regexpr("@", authors_EM) - 1)
-
+    
+    # We are further stripping away the "." fround in many emails to make the 
+    # mathing more efficient below
+    authors_EM_strip2 <- substr(authors_EM, 1, regexpr("@", authors_EM) - 1)
+    authors_EM_strip2 <- gsub("\\.", "", authors_EM_strip2)
+    
     # makes a datframe of authors as they will be used as a reference later
 
     authors_df <- data.frame(AU = authors_AU, AF = authors_AF,
@@ -33,9 +38,19 @@ authors_parse <- function(references){
     }
     C1_full <- C1
 
-    C1 <- C1[grepl("^\\[.*\\]", C1)]
+    # checks if starts with [followed by any no of characters and ends with ]
+    C1 <- C1[grepl("^\\[.*\\]", C1)] 
     # Split names from the addresses they're associated with
-    C1_names <- regmatches(C1, regexpr("^\\[.*\\]", C1))
+    # In scopus some institutional abbreviations are denoted with [ ] instead 
+    # of ( ), eg: 
+    
+    # Department of General and Thoracic Surgery, 
+    # # Justus-Liebig-University, German Center for Lung Research [DZL], 
+    # Cardio-Pulmonary Institute [CPI], Giessen, 35390, Germany 
+    
+    # so added a space in regmatches below to account for this
+    C1_names <- regmatches(C1, regexpr("^\\[.*\\] ", C1)) 
+    C1_names <- trimws(C1_names)
     C1_names <- substr(C1_names, 2, nchar(C1_names) - 1)
     if (length(authors_AU) == 1) {
       C1_names <- authors_AU
@@ -82,15 +97,34 @@ authors_parse <- function(references){
       "\\1",
       RP
     )
+    
+    RP_address <- gsub(
+      "^.*\\(corresponding author\\), (.*)$",
+      "\\1",
+      RP_address
+    )
+    
+    
+    
+    
+    # It turns out some papers use corresponding, some use reprint 
+    # edited to consider both
     RP_df <- data.frame(
-      AU = substr(RP, 1, regexpr("(reprint author)", RP)[1] - 3),
+      AU = substr(RP, 1, regexpr("(corresponding author)|(reprint author)",RP)[1]-3),
       RP_address, stringsAsFactors = FALSE
     )
-
+    # there are cases where there is more than one corresponding author
+    # separated by a ';'. This was causing both authors to be ignored when
+    # added back into the dataframe. the following ignores all but the first
+    # corresponding author
+    RP_df$AU <- sub(";.*", "", RP_df$AU)
+    
+    
     # RI matching. Uses Jarowinkler similarity anaylsis to match
     # names. This is a overkill in most cases the names are the same
     # However this helps gauranttee even if its a short name or a full name
     RI <- unlist(strsplit(references[ref, ]$RI, ";"))
+    RI <- trimws(RI)
     # Need to make an exception for IB/USP which trips up this process
 
     if (!any(is.na(RI))) {
@@ -123,7 +157,41 @@ authors_parse <- function(references){
 
     # split out the OI and do the same thing we did with the RI
     # stringsim is used like on RIDs
-    OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+   
+    # EB March 28, 2025. This is the original code
+    # OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+    
+    # I replaced with this to make it possible to use this code with scopus csv files
+    if (is.na(references[ref, ]$OI)) {
+      OI <- NA
+    } else {
+      OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+      
+      
+      
+      
+      # there are sometimes errors in the OI such as this:
+      #   ("Lastname, Firstname / Firstname/0000-0003-0000-3152")
+      # this function now checks and cleans each element of OI vector
+      
+      clean_OI <- function(x) {
+        slash_positions <- gregexpr("/", x)[[1]]
+        if (length(slash_positions) >= 2) {
+          first_slash <- slash_positions[1]
+          second_slash <- slash_positions[2]
+          x <- paste0(substr(x, 1, first_slash), substr(x, second_slash + 1, nchar(x)))
+        }
+        return(x)
+      }
+      
+      # Apply to each element of a vector
+      clean_OI_vector <- function(v) {
+        sapply(v, clean_string, USE.NAMES = FALSE)
+      }
+      OI <- clean_OI_vector(OI)
+      
+    }
+    
 
     if (sum(is.na(OI)) == 0) {
       OI_df <- as.data.frame(do.call(rbind, strsplit(OI, "/")),
@@ -181,13 +249,47 @@ authors_parse <- function(references){
     # match names in any reliable way or at all
     # I feel its better to leave these alone as much as possible,
     # analyzing the resulting matches will lead to issues
-    match_em <- vapply(authors_EM_strip, function(x)
-      apply(data.frame(stringdist::stringsim(x, new$AU, method = "jw",
+    
+    
+    # The original algo was comparing authors_EM_strip2 with new$AU and new$AF
+    # with jarow-winkler. however, this was reducing the likelihood of a match
+    # because (1) it kep the AU was in format "last, first". Emails don't have
+    # commas or spaces, so this was a penalty in the match (2) jw matching favors
+    # strings with the same initial characters, but emails are often in reverse 
+    # order, e.g., author name is "last, first", while email is "first.last@...".
+    # The new algo creates AU2 and AF2, where the commas and space are removed 
+    # from the author name and abbreviated author name. It also uses jaccard to
+    # compare the strings, because jaccard is based at fraction of characters
+    # that overlap regardless of the order (NB: technically it looks at 
+    # intersecting characters over union of both strings. it does penalize 
+    # differences). That means firstlast and lastfirst give a 100% similarity
+    
+    new$AU2<-new$AU
+    new$AU2 <- gsub("\\,", "", new$AU2) 
+    new$AU2 <- gsub(" ", "", new$AU2) 
+    new$AU2 <- tolower(new$AU2)
+    new$AF2<-new$AF
+    new$AF2 <- gsub("\\,", "", new$AF2) 
+    new$AF2 <- gsub(" ", "", new$AF2) 
+    new$AF2 <- tolower(new$AF2)
+    
+    # Original using jw AU, AF
+    # match_em <- vapply(authors_EM_strip, function(x)
+    #   apply(data.frame(stringdist::stringsim(x, new$AU, method = "jw",
+    #                                          useBytes = TRUE, p=0.1),
+    #     stringdist::stringsim(x, new$AF, method = "jw", 
+    #                           useBytes = TRUE, p=0.1)), 1, max),
+    #   double(length(new$AU)))
+    
+    # new using AU2, AF2, and jaccard
+    # note we are using authors_EM_strip2, which has no more "."
+    match_em <- vapply(authors_EM_strip2, function(x)
+      apply(data.frame(stringdist::stringsim(x, new$AU2, method = "jaccard",
                                              useBytes = TRUE, p=0.1),
-        stringdist::stringsim(x, new$AF, method = "jw", 
-                              useBytes = TRUE, p=0.1)), 1, max),
-      double(length(new$AU)))
-
+                       stringdist::stringsim(x, new$AF2, method = "jaccard", 
+                                             useBytes = TRUE, p=0.1)), 1, max),
+      double(length(new$AU2)))
+    
     for (i in seq_along(authors_EM)) {
       new$EM[as.data.frame(apply(as.matrix(match_em), 2,
         function(x) x > 0.7 & max(x) == x))[, i]] <- authors_EM[i]
@@ -196,8 +298,14 @@ authors_parse <- function(references){
     if (nrow(new) == 1) {
       new$EM <- authors_EM[1]
     }
+    
+    
+    final$AF2<-NULL
+    final$AU2<-NULL
+    
     list1[[ref]] <- new
 
+    
     ####################### Clock##############################
     total <- nrow(references)
     pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
@@ -221,5 +329,12 @@ authors_parse <- function(references){
 
   final$address <- as.character(final$address)
   final$address[is.na(final$address)] <- "Could not be extracted"
+  
+
+  
   return(final)
 }
+
+
+
+

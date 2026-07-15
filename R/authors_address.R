@@ -149,7 +149,12 @@ authors_address <- function(addresses, ID) {
     if (n == 1) {
       return("no state") # placeholder to replace with NA after function
     }
-
+    # There are weird cases where only two elements
+    # e.g., "istituto nazionale di fisica nucleare pisa" "italy" 
+    
+    if (n == 2) {
+      return("no state") # placeholder to replace with NA after function
+    }
     # In some cases city is next-to-last element, in others next-to-next-to-last
     last_element <- x[[n]]
     second_last <- if (n > 1) x[[n - 1]] else NA
@@ -1354,7 +1359,10 @@ authors_address <- function(addresses, ID) {
   
   a_df[a_df == ""] <- NA
 
+  # if country is has 3 or fewer characters make NA
 
+  a_df$country[nchar(a_df$country) < 4] <- NA  
+  
   # return output of function -----------------------------------------------
 
 
