@@ -18,6 +18,7 @@ authors_parse <- function(references){
     # Split out authors and author emails
     authors_AU <- as.character(unlist(strsplit(references[ref, ]$AU, "\n")))
     authors_AF <- as.character(unlist(strsplit(references[ref, ]$AF, "\n")))
+    authors_AF <- gsub("\\.", "", authors_AF)
     authors_EM <- unlist(strsplit(references[ref, ]$EM, ";"))
     authors_EM_strip <- substr(authors_EM, 1, regexpr("@", authors_EM) - 1)
     
@@ -199,14 +200,14 @@ authors_parse <- function(references){
         stringsAsFactors = FALSE)
       colnames(OI_df) <- c("OI_names", "OI")
       match_OI <- vapply(OI_df[, 1], function(x) {
-        jw <- stringdist::stringsim(x, authors_AU, method = "jw",
+        jw <- stringdist::stringsim(x, authors_AF, method = "jw",
                                     useBytes = TRUE, p=0.1)
         jw == max(jw) & jw > 0.8
-      }, logical(length(authors_AU)))
+      }, logical(length(authors_AF)))
 
       OI_df$matchname <- unlist(apply(data.frame(match_OI), 2,
         function(x) ifelse(sum(x) == 0, "",
-          authors_AU[x])))
+          authors_AF[x])))
     }
 
     if (sum(is.na(OI)) > 0) {
