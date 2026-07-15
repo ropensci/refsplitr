@@ -166,6 +166,30 @@ authors_parse <- function(references){
       OI <- NA
     } else {
       OI <- unlist(strsplit(references[ref, ]$OI, ";"))
+      
+      
+      
+      
+      # there are sometimes errors in the OI such as this:
+      #   ("Lastname, Firstname / Firstname/0000-0003-0000-3152")
+      # this function now checks and cleans each element of OI vector
+      
+      clean_OI <- function(x) {
+        slash_positions <- gregexpr("/", x)[[1]]
+        if (length(slash_positions) >= 2) {
+          first_slash <- slash_positions[1]
+          second_slash <- slash_positions[2]
+          x <- paste0(substr(x, 1, first_slash), substr(x, second_slash + 1, nchar(x)))
+        }
+        return(x)
+      }
+      
+      # Apply to each element of a vector
+      clean_OI_vector <- function(v) {
+        sapply(v, clean_string, USE.NAMES = FALSE)
+      }
+      OI <- clean_OI_vector(OI)
+      
     }
     
 
