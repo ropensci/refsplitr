@@ -186,8 +186,9 @@ authors_parse <- function(references){
       
       # Apply to each element of a vector
       clean_OI_vector <- function(v) {
-        sapply(v, clean_string, USE.NAMES = FALSE)
+        sapply(v, clean_OI, USE.NAMES = FALSE)
       }
+      
       OI <- clean_OI_vector(OI)
       
     }
