@@ -20,7 +20,12 @@ authors_parse <- function(references){
     authors_AF <- as.character(unlist(strsplit(references[ref, ]$AF, "\n")))
     authors_EM <- unlist(strsplit(references[ref, ]$EM, ";"))
     authors_EM_strip <- substr(authors_EM, 1, regexpr("@", authors_EM) - 1)
-
+    
+    # We are further stripping away the "." fround in many emails to make the 
+    # mathing more efficient below
+    authors_EM_strip2 <- substr(authors_EM, 1, regexpr("@", authors_EM) - 1)
+    authors_EM_strip2 <- gsub("\\.", "", authors_EM_strip2)
+    
     # makes a datframe of authors as they will be used as a reference later
 
     authors_df <- data.frame(AU = authors_AU, AF = authors_AF,
@@ -108,7 +113,13 @@ authors_parse <- function(references){
       AU = substr(RP, 1, regexpr("(corresponding author)|(reprint author)",RP)[1]-3),
       RP_address, stringsAsFactors = FALSE
     )
-
+    # there are cases where there is more than one corresponding author
+    # separated by a ';'. This was causing both authors to be ignored when
+    # added back into the dataframe. the following ignores all but the first
+    # corresponding author
+    RP_df$AU <- sub(";.*", "", RP_df$AU)
+    
+    
     # RI matching. Uses Jarowinkler similarity anaylsis to match
     # names. This is a overkill in most cases the names are the same
     # However this helps gauranttee even if its a short name or a full name
@@ -214,13 +225,47 @@ authors_parse <- function(references){
     # match names in any reliable way or at all
     # I feel its better to leave these alone as much as possible,
     # analyzing the resulting matches will lead to issues
-    match_em <- vapply(authors_EM_strip, function(x)
-      apply(data.frame(stringdist::stringsim(x, new$AU, method = "jw",
+    
+    
+    # The original algo was comparing authors_EM_strip2 with new$AU and new$AF
+    # with jarow-winkler. however, this was reducing the likelihood of a match
+    # because (1) it kep the AU was in format "last, first". Emails don't have
+    # commas or spaces, so this was a penalty in the match (2) jw matching favors
+    # strings with the same initial characters, but emails are often in reverse 
+    # order, e.g., author name is "last, first", while email is "first.last@...".
+    # The new algo creates AU2 and AF2, where the commas and space are removed 
+    # from the author name and abbreviated author name. It also uses jaccard to
+    # compare the strings, because jaccard is based at fraction of characters
+    # that overlap regardless of the order (NB: technically it looks at 
+    # intersecting characters over union of both strings. it does penalize 
+    # differences). That means firstlast and lastfirst give a 100% similarity
+    
+    new$AU2<-new$AU
+    new$AU2 <- gsub("\\,", "", new$AU2) 
+    new$AU2 <- gsub(" ", "", new$AU2) 
+    new$AU2 <- tolower(new$AU2)
+    new$AF2<-new$AF
+    new$AF2 <- gsub("\\,", "", new$AF2) 
+    new$AF2 <- gsub(" ", "", new$AF2) 
+    new$AF2 <- tolower(new$AF2)
+    
+    # Original using jw AU, AF
+    # match_em <- vapply(authors_EM_strip, function(x)
+    #   apply(data.frame(stringdist::stringsim(x, new$AU, method = "jw",
+    #                                          useBytes = TRUE, p=0.1),
+    #     stringdist::stringsim(x, new$AF, method = "jw", 
+    #                           useBytes = TRUE, p=0.1)), 1, max),
+    #   double(length(new$AU)))
+    
+    # new using AU2, AF2, and jaccard
+    # note we are using authors_EM_strip2, which has no more "."
+    match_em <- vapply(authors_EM_strip2, function(x)
+      apply(data.frame(stringdist::stringsim(x, new$AU2, method = "jaccard",
                                              useBytes = TRUE, p=0.1),
-        stringdist::stringsim(x, new$AF, method = "jw", 
-                              useBytes = TRUE, p=0.1)), 1, max),
-      double(length(new$AU)))
-
+                       stringdist::stringsim(x, new$AF2, method = "jaccard", 
+                                             useBytes = TRUE, p=0.1)), 1, max),
+      double(length(new$AU2)))
+    
     for (i in seq_along(authors_EM)) {
       new$EM[as.data.frame(apply(as.matrix(match_em), 2,
         function(x) x > 0.7 & max(x) == x))[, i]] <- authors_EM[i]
@@ -229,8 +274,14 @@ authors_parse <- function(references){
     if (nrow(new) == 1) {
       new$EM <- authors_EM[1]
     }
+    
+    
+    final$AF2<-NULL
+    final$AU2<-NULL
+    
     list1[[ref]] <- new
 
+    
     ####################### Clock##############################
     total <- nrow(references)
     pb <- utils::txtProgressBar(min = 0, max = total, style = 3)
@@ -259,3 +310,7 @@ authors_parse <- function(references){
   
   return(final)
 }
+
+
+
+
