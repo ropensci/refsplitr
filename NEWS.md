@@ -4,7 +4,7 @@
 refsplitr 1.2.1 (2026-06-15)
 =========================
 
-### UPDATES TO CODE
+### MINOR IMPROVEMENTS
 
   * modified the section of `authors_parse` that identifies corresponding author 
   and reprint address (RP field code). There are cases where there is more than 
@@ -26,10 +26,13 @@ refsplitr 1.2.1 (2026-06-15)
   "Lastname, Firstname / Firstname/0000-0003-0000-3152" instead of the correct:
   "Lastname, Firstname/0000-0003-0000-3152". This was causing OIs to be deleted 
   from an authorID. Added a function to check for these errors and correct them.
-  
-  * There are sometimes errors in the OI such as this:
-        #   ("Lastname, Firstname / Firstname/0000-0003-0000-3152")
-        # this function now checks and cleans each element of OI vector
+
+
+### BUG FIXES
+  * corrected an error in `authors_address` that was changing "USA" to "NA" when
+  parsing countries.
+
+
 
 
 refsplitr 1.2 (2025-04-25)
@@ -71,6 +74,8 @@ refsplitr 1.0.2 (2024-08-12)
   `references_read`: DT (Document Type), ID (Keywords Plus), IS (Issue), 
   JI (ISO abbreviated source code), and  NR (number of references cited 
   by the article). 
+  
+  * corrected a bug that was 
 
 
 refsplitr 1.0.1 (2024-07-23)
