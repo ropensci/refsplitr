@@ -1,6 +1,37 @@
 # refsplitr News
 
 
+refsplitr 1.2.1 (2026-06-15)
+=========================
+
+### UPDATES TO CODE
+
+  * modified the section of `authors_parse` that identifies corresponding author 
+  and reprint address (RP field code). There are cases where there is more than 
+  one corresponding author, with names separated by a ';'. This was causing both 
+  authors to be ignored. The revision treats only the first name provided as the 
+  corresponding author. 
+  
+  * email matching with author names improved. It previously compared similarity
+  of author name fields (AF and AU) with emails to match them with jarow-winkler. 
+  However, this was reducing the likelihood of a match because (1) AU is in 
+  format "last, first", but emails don't have commas or spaces which was slightly 
+  penalizing the match and (2) j-w matching favors with the same initial 
+  characters, but emails are often in reverse order, e.g., AF = "last, first", 
+  while email = "first.last@...". Now compares AU and AF after commas and spaces
+  are removed and uses Jaccard to compare the strings to allow for reverse order
+  of names in emails and AF/AU fields.
+  
+  * WOS records have (rare) errors as follows in the OI field :
+  "Lastname, Firstname / Firstname/0000-0003-0000-3152" instead of the correct:
+  "Lastname, Firstname/0000-0003-0000-3152". This was causing OIs to be deleted 
+  from an authorID. Added a function to check for these errors and correct them.
+  
+  * There are sometimes errors in the OI such as this:
+        #   ("Lastname, Firstname / Firstname/0000-0003-0000-3152")
+        # this function now checks and cleans each element of OI vector
+
+
 refsplitr 1.2 (2025-04-25)
 =========================
 
