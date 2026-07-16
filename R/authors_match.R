@@ -33,16 +33,35 @@ authors_match <- function(data){
 
   n_n$email <- gsub("\\n| ", "", n_n$email)
   # Now time to match by orcID first. This seems most logical
+  
   unique_oi <- n_n$OI[!is.na(n_n$OI) & is.na(n_n$groupID)]
-  unique_oi <- names(table(unique_oi))[table(unique_oi) > 1]
+  
+  # EB June 16, 2026: modifified to automatically assign a unique groupID
+  # to anywone with an OI. (previously it assigned uinique groupID to only
+  # authors with multiple OI, could be this was because OI wasn't very common
+  # yet)
+  
+  unique_oi_mult <- names(table(unique_oi))[table(unique_oi) > 1]
+  unique_oi_single <- names(table(unique_oi))[table(unique_oi) == 1]
   if (is.null(unique_oi)) unique_oi <- NA
-  unique_oi <- unique_oi[!is.na(unique_oi)]
-  unique_oi <- as.character(unique_oi)
-
-  for (l in unique_oi) {
+  
+  unique_oi_single <- unique_oi_single[!is.na(unique_oi_single)]
+  unique_oi_single <- as.character(unique_oi_single)
+  
+  unique_oi_mult <- unique_oi_mult[!is.na(unique_oi_mult)]
+  unique_oi_mult <- as.character(unique_oi_mult)
+  
+  for (l in unique_oi_single) {
     n_n$groupID[which(n_n$OI == l)] <-
       min(n_n$ID[which(n_n$OI == l)])
   }
+  
+  
+  for (l in unique_oi_mult) {
+    n_n$groupID[which(n_n$OI == l)] <-
+      min(n_n$ID[which(n_n$OI == l)])
+  }
+  
   # Now match by much less used RI
   unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
   unique_ri <- names(table(unique_ri))[table(unique_ri) > 1]
