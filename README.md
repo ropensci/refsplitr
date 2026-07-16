@@ -14,11 +14,13 @@ Support for the development of refsplitr was provided by grants from the [Univer
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with [`pak`](https://pak.r-lib.org/index.html):
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("ropensci/refsplitr")
+# install.packages("pak")
+# library(pak)
+pak::pkg_download("https://github.com/ropensci/refsplitr")
+
 ```
 
 ## Workflow
