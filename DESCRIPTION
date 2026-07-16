@@ -2,7 +2,7 @@ Type: Package
 Package: refsplitr
 Title: author name disambiguation, author georeferencing, and mapping of 
     coauthorship networks with 'Web of Science' data 
-Version: 1.2.0
+Version: 1.2.2
 Authors@R: 
     c(person(given = "Auriel M.V.",
              family = "Fournier",
@@ -14,7 +14,7 @@ Authors@R:
       person(given = "Forrest R.",
              family = "Stevens",
              role = "aut"),
-      person(given = "Emilio",
+      person(given = "Emilio M.",
              family = "Bruna",
              role = c("aut", "cre"),
              email = "embruna@ufl.edu"),
