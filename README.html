@@ -385,9 +385,11 @@ Latin American Studies</a> and the <a href="https://informatics.institute.ufl.ed
 Informatics Institute</a>.</p>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
-<p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
-<pre class="r"><code># install.packages(&quot;devtools&quot;)
-devtools::install_github(&quot;ropensci/refsplitr&quot;)</code></pre>
+<p>You can install the development version from <a href="https://github.com/">GitHub</a> with <a href="https://pak.r-lib.org/index.html"><code>pak</code></a>:</p>
+<pre class="r"><code># install.packages(&quot;pak&quot;)
+# library(pak)
+pak::pkg_download(&quot;https://github.com/ropensci/refsplitr&quot;)
+</code></pre>
 </div>
 <div id="workflow" class="section level2">
 <h2>Workflow</h2>
@@ -463,9 +465,9 @@ and the publication when using Refsplitr in your work.</p>
 <div id="citation-refsplitr-package" class="section level3">
 <h3>Citation: Refsplitr Package</h3>
 <p>Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and
-Emilio M. Bruna (2025). refsplitr: author name disambiguation, author
+Emilio M. Bruna (2026). refsplitr: author name disambiguation, author
 georeferencing, and mapping of coauthorship networks with Web of Science
-data. R package version 1.2.0. <a href="https://github.com/ropensci/refsplitr" class="uri">https://github.com/ropensci/refsplitr</a></p>
+data. R package version 1.2.2. <a href="https://github.com/ropensci/refsplitr" class="uri">https://github.com/ropensci/refsplitr</a></p>
 <pre><code>@Manual{refsplitr2025,
 title = {refsplitr: author name disambiguation, author georeferencing, 
 and mapping of coauthorship networks with Web of Science data.},

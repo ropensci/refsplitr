@@ -21,11 +21,13 @@ Support for the development of refsplitr was provided by grants from the [Univer
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with [`pak`](https://pak.r-lib.org/index.html):
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("ropensci/refsplitr")
+# install.packages("pak")
+# library(pak)
+pak::pkg_download("https://github.com/ropensci/refsplitr")
+
 ```
 
 
@@ -84,7 +86,7 @@ The Refsplitr package has been described in an article in the [_Journal of Open 
 
 ### Citation: Refsplitr Package
 
-Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna (2025). refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.2.0. <https://github.com/ropensci/refsplitr>
+Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna (2026). refsplitr: author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.2.2. <https://github.com/ropensci/refsplitr>
 
     @Manual{refsplitr2025,
     title = {refsplitr: author name disambiguation, author georeferencing, 
