@@ -1,6 +1,17 @@
 # refsplitr News
 
 
+
+refsplitr 1.2.2 (2026-06-16)
+=========================
+
+
+### MINOR IMPROVEMENTS 
+  * authors_clean() would sometimes combine authors with very similar or 
+  identical names in the same groupID even if they had different ORCID ID 
+  numbers. A tweak in `authors_match` now eliminates these 'false positives'.
+
+
 refsplitr 1.2.1 (2026-06-15)
 =========================
 
