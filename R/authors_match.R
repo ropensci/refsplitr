@@ -48,8 +48,6 @@ authors_match <- function(data){
   unique_oi_single <- unique_oi_single[!is.na(unique_oi_single)]
   unique_oi_single <- as.character(unique_oi_single)
   
-  unique_oi_mult <- unique_oi_mult[!is.na(unique_oi_mult)]
-  unique_oi_mult <- as.character(unique_oi_mult)
   
   for (l in unique_oi_single) {
     n_n$groupID[which(n_n$OI == l)] <-
@@ -57,11 +55,17 @@ authors_match <- function(data){
   }
   
   
+  unique_oi_mult <- unique_oi_mult[!is.na(unique_oi_mult)]
+  unique_oi_mult <- as.character(unique_oi_mult)
+  
   for (l in unique_oi_mult) {
     n_n$groupID[which(n_n$OI == l)] <-
       min(n_n$ID[which(n_n$OI == l)])
   }
   
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  # 
   # Now match by much less used RI
   unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
   unique_ri <- names(table(unique_ri))[table(unique_ri) > 1]
@@ -80,6 +84,10 @@ authors_match <- function(data){
 
     n_n$groupID[which(n_n$RI == l)] <- groupid
   }
+  
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  
   # Maybe be moved later to be included as a minor grouping variable
   # On the same level as a middle initial etc. Currently is major variable
   unique_em <- n_n$email[!is.na(n_n$email) & is.na(n_n$groupID)]
@@ -110,6 +118,9 @@ authors_match <- function(data){
   n_n$m_i <- substr(n_n$middle, 1, 1)
   n_n$m_c[is.na(n_n$m_c)] <- 0
 
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  
   # match authors with the same first, last, and middle name
 
   remain <- subset(n_n, !is.na(m_i) & f_c > 1)[,
@@ -148,11 +159,25 @@ authors_match <- function(data){
     }
   }
   # Need to prune the groups a bit and merge common names
-  matched_df <- subset(n_n, !is.na(groupID))
+  
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  
+  # EB: 16 June, 2026
+  # The original line was causing records with different orcid ids to be pooled
+  # under that same groupID. the revision eliminates this problem
+  # matched_df <- subset(n_n, !is.na(groupID))
+  
+  matched_df <- subset(n_n, !is.na(groupID) & is.na(OI))
+  
+  # matched_df |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # matched_df |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  
   if (nrow(matched_df) > 1) {
     matched_df$squash <- paste(matched_df$last, matched_df$f_i, matched_df$m_i)
     matched_df$merged <- FALSE
 
+    
     for (q in na.omit(unique(n_n$groupID))){
 
       if (any(matched_df$merged[matched_df$groupID == q])) next
@@ -164,12 +189,26 @@ authors_match <- function(data){
           ( (f_c %in% 1) | (f_c > 1 & first %in% sub$first) ) &
           groupID != q
         )
+      
+      
+   
 
       change <- unique(common_df$groupID)
       n_n$groupID[n_n$groupID %in% change] <- q
       matched_df$merged[matched_df$groupID %in% change] <- TRUE
     }
   } #end if
+  
+  # matched_df |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # matched_df |> filter(!is.na(OI)) |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> filter(!is.na(OI)) |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  # n_n |> filter(!is.na(groupID)) |> tally()
+  # n_n |> filter(is.na(groupID)) |> tally()
+  
+
+  
   # For the remaining names we'll use a grouping criteria
   # Where we need one more piece of information besides first and last name
   unique_groupid <- n_n$ID[(n_n$m_c > 0 |
@@ -322,6 +361,12 @@ authors_match <- function(data){
   # will get a groupID distinction but that the author
   # it matched with will get a different groupID if it has
   # a more perfect match criteria.
+  
+  # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+  # n_n |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+  # n_n |> filter(is.na(groupID)) |> tally()
+  
+  
   n_n$groupID[is.na(n_n$groupID)] <- n_n$ID[is.na(n_n$groupID)]
   message("\nPruning groupings...\n")
   quick_check <- n_n$ID[!is.na(n_n$similarity)]
@@ -419,3 +464,13 @@ authors_match <- function(data){
   }
   return(n_n)
 }
+
+
+
+# n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
+# n_n |> filter(!is.na(OI)) |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
+# n_n |> filter(!is.na(groupID)) |> tally()
+# n_n |> filter(is.na(groupID)) |> tally()
+
+
+
