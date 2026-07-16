@@ -158,10 +158,39 @@ authors_parse <- function(references){
 
     # split out the OI and do the same thing we did with the RI
     # stringsim is used like on RIDs
-   
+  
+    
+    # EB June 16, 2026
+    # chinese characters in OI field will cause loss of info for that record. 
+    # can strip these out with following
+    
+    text_vector <- references[ref, ]$OI
+    has_han <- grepl("\\p{Han}", text_vector, perl = TRUE)
+    
+    if (any(has_han)) {
+      
+      text_vector <- gsub("\\p{Han}", "", text_vector, perl = TRUE)
+      text_vector<-gsub(";/", ";", text_vector)
+      text_vector<-gsub(", /", ", ", text_vector)
+      
+      # sometimes the OI field has a translated name, sometimes not.
+      # if not need to replace the now blank where name is with likely name
+      # will use: authors_AF
+      missing_name_check<-grepl("^,", text_vector)
+      
+      if (any(missing_name_check)) {
+        
+        text_vector<-paste(authors_AF[1],text_vector,sep="/")
+        text_vector<-gsub("/,", "/", text_vector)
+      }
+      
+      references[ref, ]$OI<-text_vector
+    }
+    
+    
     # EB March 28, 2025. This is the original code
     # OI <- unlist(strsplit(references[ref, ]$OI, ";"))
-    
+  
     # I replaced with this to make it possible to use this code with scopus csv files
     if (is.na(references[ref, ]$OI)) {
       OI <- NA
