@@ -165,13 +165,25 @@ authors_parse <- function(references){
     # can strip these out with following
     
     text_vector <- references[ref, ]$OI
-    has_han <- grepl("[\\x{4e00}-\\x{9fff}]", text_vector, perl = TRUE)
+    has_han <- grepl("\\p{Han}", text_vector, perl = TRUE)
     
-    if (has_han==TRUE) {
+    if (any(has_han)) {
       
       text_vector <- gsub("\\p{Han}", "", text_vector, perl = TRUE)
       text_vector<-gsub(";/", ";", text_vector)
       text_vector<-gsub(", /", ", ", text_vector)
+      
+      # sometimes the OI field has a translated name, sometimes not.
+      # if not need to replace the now blank where name is with likely name
+      # will use: authors_AF
+      missing_name_check<-grepl("^,", text_vector)
+      
+      if (any(missing_name_check)) {
+        
+        text_vector<-paste(authors_AF[1],text_vector,sep="/")
+        text_vector<-gsub("/,", "/", text_vector)
+      }
+      
       references[ref, ]$OI<-text_vector
     }
     
