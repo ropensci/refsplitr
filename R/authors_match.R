@@ -67,7 +67,56 @@ authors_match <- function(data){
   # n_n |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
   # 
   # Now match by much less used RI
-  unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
+  & is.na(n_n$OI)
+  
+  # n_n |> mutate_all(trimws) |> group_by(OI) |> summarize(n=n_distinct(RI)) |> filter(n>1) |> summarize(n_distinct(OI)).  arrange(desc(n)) 
+  # n_n |> mutate_all(trimws) |> group_by(RI) |> summarize(n=n_distinct(OI)) |> filter(n>1) |> summarize(n_distinct(RI))
+  # n_n |> mutate_all(trimws) |> group_by(RI) |> summarize(n=n_distinct(OI)) |> filter(n<=1) |> tally()
+
+# test --------------------------------------------------------------------
+
+  
+  # RI<-c("1","2","3","3","4")
+  # OI<-c("a","a","b","c","d")
+  # df<-data.frame(RI,OI)
+  # # Count how many times each OI value appears
+  # oi_counts <- table(df$OI)
+  # # Find OI values with more than one RI
+  # multiple_ri <- names(oi_counts[oi_counts > 1])
+  # rows_to_remove_oi <- which(df$OI %in% multiple_ri)
+  # df_clean <- df[-rows_to_remove_oi, ]
+  # # Find OI values with more than one RI
+  # ri_counts <- table(df_clean$RI)
+  # multiple_oi <- names(ri_counts[ri_counts > 1])
+  # # Identify rows to remove
+  # rows_to_remove_ri <- which(df_clean$RI %in% multiple_oi)
+  # # Remove those rows
+  # df_clean <- df_clean[-rows_to_remove_ri, ]
+
+  
+  
+
+  # # Count how many times each OI value appears
+  # oi_counts <- table(n_n$OI)
+  # # Find OI values with more than one RI
+  # multiple_ri <- names(oi_counts[oi_counts > 1])
+  # # ID the rows to remove 
+  # rows_to_remove_oi <- which(n_n$OI %in% multiple_ri)
+  # # remove them
+  # n_n_clean <- n_n[-rows_to_remove_oi, ]
+  # # Find RI values with more than one OI
+  # ri_counts <- table(n_n_clean$RI)
+  # multiple_oi <- names(ri_counts[ri_counts > 1])
+  # # Identify rows to remove
+  # rows_to_remove_ri <- which(n_n_clean$RI %in% multiple_oi)
+  # # Remove those rows
+  # n_n_clean <-n_n_clean[-rows_to_remove_ri, ]
+  
+  
+  
+  
+  unique_ri <- n_n_clean$RI[!is.na(n_n_clean$RI) & is.na(n_n_clean$groupID)]
+  # unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
   unique_ri <- names(table(unique_ri))[table(unique_ri) > 1]
   if (is.null(unique_ri)) unique_ri <- NA
   unique_ri <- unique_ri[!is.na(unique_ri)]
@@ -81,9 +130,31 @@ authors_match <- function(data){
     } else {
       groupid <- min(n_n$ID[choice], na.rm = TRUE)
     }
-
+    
     n_n$groupID[which(n_n$RI == l)] <- groupid
   }
+# test end-----------------------------------------------------------------
+  # 
+  # original, using above instead to filter outr OI/RI dupes
+  # 
+  # unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
+  # # unique_ri <- n_n$RI[!is.na(n_n$RI) & is.na(n_n$groupID)]
+  # unique_ri <- names(table(unique_ri))[table(unique_ri) > 1]
+  # if (is.null(unique_ri)) unique_ri <- NA
+  # unique_ri <- unique_ri[!is.na(unique_ri)]
+  # unique_ri <- as.character(unique_ri)
+  # for (l in unique_ri) {
+  #   choice <- which(n_n$RI == l)
+  #   groupid <- n_n$groupID[choice]
+  #   groupid <- groupid[!is.na(groupid)]
+  #   if (length(groupid) > 0) {
+  #     groupid <- min(groupid)
+  #   } else {
+  #     groupid <- min(n_n$ID[choice], na.rm = TRUE)
+  #   }
+  # 
+  #   n_n$groupID[which(n_n$RI == l)] <- groupid
+  # }
   
   # n_n |> group_by(OI) |> summarize(n=n_distinct(groupID)) |> filter(n>1)
   # n_n |> group_by(groupID) |> filter(!is.na(OI)) |> summarize(n=n_distinct(OI)) |> filter(n>1)

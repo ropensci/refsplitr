@@ -112,7 +112,7 @@ Auriel M.V. Fournier, Matthew E. Boone, Forrest R. Stevens, and
     and mapping of coauthorship networks with Web of Science data.},
     author = {Fournier, Auriel M.V., Matthew E. Boone, Forrest R. Stevens, and Emilio M. Bruna},
     year = {2026},
-    note = {R package version 1.2.2.},
+    note = {R package version 1.2.3.},
     url={https://github.com/ropensci/refsplitr}
     }
     
