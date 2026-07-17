@@ -96,21 +96,21 @@ authors_match <- function(data){
   
   
 
-  # # Count how many times each OI value appears
-  # oi_counts <- table(n_n$OI)
-  # # Find OI values with more than one RI
-  # multiple_ri <- names(oi_counts[oi_counts > 1])
-  # # ID the rows to remove 
-  # rows_to_remove_oi <- which(n_n$OI %in% multiple_ri)
-  # # remove them
-  # n_n_clean <- n_n[-rows_to_remove_oi, ]
-  # # Find RI values with more than one OI
-  # ri_counts <- table(n_n_clean$RI)
-  # multiple_oi <- names(ri_counts[ri_counts > 1])
-  # # Identify rows to remove
-  # rows_to_remove_ri <- which(n_n_clean$RI %in% multiple_oi)
-  # # Remove those rows
-  # n_n_clean <-n_n_clean[-rows_to_remove_ri, ]
+  # Count how many times each OI value appears
+  oi_counts <- table(n_n$OI)
+  # Find OI values with more than one RI
+  multiple_ri <- names(oi_counts[oi_counts > 1])
+  # ID the rows to remove 
+  rows_to_remove_oi <- which(n_n$OI %in% multiple_ri)
+  # remove them
+  n_n_clean <- n_n[-rows_to_remove_oi, ]
+  # Find RI values with more than one OI
+  ri_counts <- table(n_n_clean$RI)
+  multiple_oi <- names(ri_counts[ri_counts > 1])
+  # Identify rows to remove
+  rows_to_remove_ri <- which(n_n_clean$RI %in% multiple_oi)
+  # Remove those rows
+  n_n_clean <-n_n_clean[-rows_to_remove_ri, ]
   
   
   
