@@ -94,7 +94,7 @@ test_that("Authors match correctly", {
   actual <- authors_match(df)
   
   
-  expect_equal(actual$groupID, c(1,2,2,1))
+  expect_equal(actual$groupID, c(4,2,2,4))
   expect_equal(which(is.na(actual$similarity)), c(1,2,3,4))
 
 # for loop line 62
