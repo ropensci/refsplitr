@@ -2,6 +2,14 @@
 
 
 
+refsplitr 1.2.3 (2026-06-16)
+=========================
+
+
+### MINOR IMPROVEMENTS 
+  * Further refining of the algorithm to match authors under a single group_id.
+  
+
 refsplitr 1.2.2 (2026-06-16)
 =========================
 
