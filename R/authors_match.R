@@ -67,7 +67,7 @@ authors_match <- function(data){
   # n_n |> group_by(groupID) |> summarize(n=n_distinct(OI)) |> filter(n>1)
   # 
   # Now match by much less used RI
-  & is.na(n_n$OI)
+  
   
   # n_n |> mutate_all(trimws) |> group_by(OI) |> summarize(n=n_distinct(RI)) |> filter(n>1) |> summarize(n_distinct(OI)).  arrange(desc(n)) 
   # n_n |> mutate_all(trimws) |> group_by(RI) |> summarize(n=n_distinct(OI)) |> filter(n>1) |> summarize(n_distinct(RI))
